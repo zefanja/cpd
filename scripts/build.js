@@ -9,6 +9,33 @@ const ROOT_DIR = path.join(__dirname, "..");
 const SRC_DIR = path.join(ROOT_DIR, "src");
 const OUT_DIR = path.join(ROOT_DIR, "docs");
 const STYLE_SRC = path.join(__dirname, "style.css");
+const SPA_SRC_DIR = path.join(ROOT_DIR, "SPAs");
+const SPA_OUT_DIR = path.join(OUT_DIR, "spas");
+
+// Interaktive SPAs aus SPAs/, die auf der Startseite verlinkt werden sollen.
+// Nur hier eingetragene Dateien werden nach docs/spas/ kopiert und veröffentlicht.
+const SPA_LINKS = [
+  {
+    file: "kickoff-auftakt.html",
+    title: "Kickoff – Handwerk ist lernbar (interaktive SPA zur Auftaktveranstaltung)",
+  },
+  {
+    file: "gedaechtnis-modul.html",
+    title: "Wie Lernen im Kopf funktioniert (Selbstlern-Modul: Gedächtnis, CLT, Spacing)",
+  },
+  {
+    file: "lean-lesson-planning.html",
+    title: "Lean Lesson Planning — Zusammenfassung & Quiz",
+  },
+  {
+    file: "memorable-teaching.html",
+    title: "Memorable Teaching · 9 Prinzipien",
+  },
+  {
+    file: "motivated-teaching.html",
+    title: "Motivated Teaching — Zusammenfassung & Quiz",
+  },
+];
 
 // Reihenfolge & Gruppierung der Dokumente auf der Startseite.
 // Dateien, die hier nicht auftauchen, werden automatisch unter "Weitere Dokumente" einsortiert.
@@ -174,6 +201,21 @@ function main() {
       title: "Weitere Dokumente",
       docs: remaining.map((f) => docByFile.get(f)),
     });
+  }
+
+  const spaDocs = SPA_LINKS.filter((s) =>
+    fs.existsSync(path.join(SPA_SRC_DIR, s.file))
+  ).map((s) => {
+    fs.mkdirSync(SPA_OUT_DIR, { recursive: true });
+    fs.copyFileSync(
+      path.join(SPA_SRC_DIR, s.file),
+      path.join(SPA_OUT_DIR, s.file)
+    );
+    console.log(`kopiert: SPAs/${s.file} -> docs/spas/${s.file}`);
+    return { title: s.title, href: `spas/${s.file}` };
+  });
+  if (spaDocs.length > 0) {
+    groups.push({ title: "Interaktive Module (SPAs)", docs: spaDocs });
   }
 
   fs.writeFileSync(path.join(OUT_DIR, "index.html"), indexTemplate({ groups }));
