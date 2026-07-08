@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lean Lesson Planning — Zusammenfassung & Quiz</title>
+<style>
+  :root{
+    --paper:#e8e7e0;
+    --paper-2:#f1f0ea;
+    --ink:#20201c;
+    --ink-soft:#54534c;
+    --line:#3c5765;        /* Reißbrett-Tinte */
+    --line-faint:#bcc4c2;
+    --accent:#c07a2c;      /* Annotation/Bleistift-Amber */
+    --ok:#4c6b50;
+    --ok-bg:#e2ebe1;
+    --no:#a23b2c;
+    --no-bg:#f0e0db;
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --grid:24px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);
+    line-height:1.6;-webkit-font-smoothing:antialiased;
+    background-image:
+      linear-gradient(var(--line-faint) 1px,transparent 1px),
+      linear-gradient(90deg,var(--line-faint) 1px,transparent 1px);
+    background-size:var(--grid) var(--grid);
+    background-position:-1px -1px;
+  }
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px;}
+
+  /* ---------- Topbar / Navigation ---------- */
+  header.bar{
+    position:sticky;top:0;z-index:50;background:rgba(232,231,224,.92);
+    backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+  }
+  .bar-inner{display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    max-width:980px;margin:0 auto;padding:10px 20px;}
+  .brand{font-family:var(--mono);font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--line);white-space:nowrap;}
+  .brand b{color:var(--ink);}
+  nav.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto;}
+  nav.tabs button{
+    font-family:var(--mono);font-size:12px;letter-spacing:.04em;
+    background:transparent;border:1px solid var(--line-faint);color:var(--ink-soft);
+    padding:6px 11px;border-radius:0;cursor:pointer;transition:all .15s;
+  }
+  nav.tabs button:hover{border-color:var(--line);color:var(--ink);}
+  nav.tabs button.active{background:var(--line);color:var(--paper-2);border-color:var(--line);}
+
+  /* ---------- Views ---------- */
+  .view{display:none;animation:fade .25s ease;}
+  .view.active{display:block;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:54px 0 30px;}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--line);margin-bottom:14px;}
+  .hero h1{font-size:clamp(38px,8vw,76px);line-height:.96;margin:0;font-weight:800;
+    letter-spacing:-.02em;}
+  .hero h1 .thin{font-weight:300;display:block;}
+  .thesis{font-family:var(--mono);font-size:clamp(16px,2.4vw,21px);color:var(--line);
+    margin:22px 0 6px;letter-spacing:.02em;}
+  .lead{max-width:60ch;color:var(--ink-soft);font-size:17px;margin-top:18px;}
+
+  /* ---------- Act header ---------- */
+  .act{display:flex;align-items:baseline;gap:16px;margin:48px 0 8px;
+    border-top:2px solid var(--line);padding-top:14px;}
+  .act .no{font-family:var(--mono);font-size:13px;color:var(--accent);letter-spacing:.1em;}
+  .act h2{margin:0;font-size:26px;font-weight:800;letter-spacing:-.01em;}
+  .act .sub{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-left:auto;
+    letter-spacing:.04em;}
+
+  /* ---------- Card (chapter) ---------- */
+  .card{background:var(--paper-2);border:1px solid var(--line-faint);
+    border-left:3px solid var(--line);padding:22px 24px;margin:16px 0;position:relative;}
+  .card .tag{font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--line);display:flex;align-items:center;gap:9px;
+    margin-bottom:10px;}
+  .card .tag .dot{width:7px;height:7px;background:var(--accent);display:inline-block;}
+  .card h3{margin:0 0 10px;font-size:21px;font-weight:700;letter-spacing:-.01em;}
+  .card p{margin:0 0 10px;color:var(--ink);}
+  .card ul{margin:6px 0 10px;padding-left:18px;}
+  .card li{margin:4px 0;}
+  .card li b{color:var(--ink);}
+  .ask{margin-top:14px;border-top:1px dashed var(--line-faint);padding-top:12px;
+    font-style:italic;color:var(--ink-soft);font-size:15px;}
+  .ask::before{content:"Frag dich selbst  ›  ";font-style:normal;font-family:var(--mono);
+    font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;}
+
+  /* mindset / framework mini-tables */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line-faint);
+    margin:8px 0 4px;font-size:14px;}
+  .grid2 .h{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    padding:8px 12px;background:var(--line);color:var(--paper-2);}
+  .grid2 .un,.grid2 .le{padding:9px 12px;border-top:1px solid var(--line-faint);}
+  .grid2 .un{color:var(--ink-soft);border-right:1px solid var(--line-faint);}
+  .grid2 .lbl{grid-column:1/-1;font-family:var(--mono);font-size:11px;letter-spacing:.08em;
+    padding:7px 12px;border-top:1px solid var(--line-faint);background:var(--paper);color:var(--accent);
+    text-transform:uppercase;}
+
+  /* framework flow */
+  .flow{display:flex;flex-direction:column;gap:0;margin:10px 0 4px;}
+  .flow .step{border:1px solid var(--line);padding:10px 14px;background:var(--paper);
+    font-family:var(--mono);font-size:13px;position:relative;}
+  .flow .step + .step{margin-top:18px;}
+  .flow .step + .step::before{content:"↓";position:absolute;top:-17px;left:18px;color:var(--line);}
+  .flow .step b{color:var(--accent);}
+
+  /* ---------- Quiz ---------- */
+  .quiz-head{padding:40px 0 6px;}
+  .quiz-head .eyebrow{margin-bottom:10px;}
+  .quiz-head h2{font-size:clamp(28px,6vw,46px);margin:0 0 6px;font-weight:800;letter-spacing:-.02em;}
+  .scorebar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    font-family:var(--mono);font-size:13px;color:var(--line);margin:8px 0 4px;}
+  .progress{flex:1;min-width:140px;height:6px;background:var(--line-faint);position:relative;}
+  .progress > span{position:absolute;left:0;top:0;bottom:0;background:var(--accent);width:0;transition:width .3s;}
+
+  .q{background:var(--paper-2);border:1px solid var(--line-faint);border-left:3px solid var(--line);
+    padding:20px 22px;margin:16px 0;}
+  .q .qn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--line);
+    text-transform:uppercase;margin-bottom:8px;}
+  .q .qt{font-weight:700;font-size:17px;margin-bottom:14px;}
+  .opt{display:block;width:100%;text-align:left;background:var(--paper);border:1px solid var(--line-faint);
+    padding:11px 14px;margin:7px 0;cursor:pointer;font-size:15px;font-family:var(--sans);color:var(--ink);
+    transition:all .12s;display:flex;gap:11px;align-items:flex-start;line-height:1.45;}
+  .opt .k{font-family:var(--mono);font-size:12px;color:var(--line);flex:none;width:16px;}
+  .opt:hover:not(:disabled){border-color:var(--line);}
+  .opt:disabled{cursor:default;}
+  .opt.correct{background:var(--ok-bg);border-color:var(--ok);color:var(--ok);}
+  .opt.correct .k{color:var(--ok);}
+  .opt.wrong{background:var(--no-bg);border-color:var(--no);color:var(--no);}
+  .opt.wrong .k{color:var(--no);}
+  .explain{display:none;margin-top:12px;padding:12px 14px;border-left:2px solid var(--accent);
+    background:var(--paper);font-size:14px;color:var(--ink-soft);}
+  .explain.show{display:block;}
+  .explain b{color:var(--ink);}
+
+  .result{display:none;border:2px solid var(--line);background:var(--line);color:var(--paper-2);
+    padding:26px;margin:24px 0;text-align:center;}
+  .result.show{display:block;}
+  .result .big{font-size:46px;font-weight:800;font-family:var(--mono);}
+  .result p{margin:8px 0 16px;color:#d7d6cf;}
+  .btn{font-family:var(--mono);font-size:13px;letter-spacing:.05em;background:var(--accent);
+    color:var(--paper-2);border:none;padding:11px 20px;cursor:pointer;}
+  .btn:hover{filter:brightness(1.08);}
+
+  footer{border-top:1px solid var(--line);margin-top:48px;padding:24px 0 60px;
+    font-family:var(--mono);font-size:12px;color:var(--ink-soft);letter-spacing:.03em;}
+
+  @media(max-width:620px){
+    .grid2{grid-template-columns:1fr;}
+    .grid2 .h:first-child{display:none;}
+    .grid2 .un{border-right:none;}
+    nav.tabs{width:100%;margin-left:0;overflow-x:auto;}
+    .act .sub{display:none;}
+  }
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar-inner">
+    <div class="brand"><b>LEAN</b> LESSON PLANNING · Peps Mccrea</div>
+    <nav class="tabs">
+      <button data-view="v1" class="active">Akt I · Grundlagen</button>
+      <button data-view="v2">Akt II · Planen</button>
+      <button data-view="v3">Akt III · Wachsen</button>
+      <button data-view="vq">Quiz</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ============ VIEW 1 ============ -->
+<section id="v1" class="view active">
+
+  <div class="hero">
+    <div class="eyebrow">Praxisbuch · 2015 · Zusammenfassung</div>
+    <h1><span class="thin">Lean</span>Lesson Planning</h1>
+    <div class="thesis">// Weniger tun, mehr erreichen.</div>
+    <p class="lead">Mccrea überträgt das Prinzip „Lean" aus Fertigung und Softwareentwicklung auf den Unterricht: maximale Wirkung pro investierter Minute. Es geht nicht um Abkürzungen oder weniger Anspruch, sondern darum, die wirkungsvollsten rund 20&nbsp;% der Planung zu erkennen und konsequent zu pflegen — durch kleine, dauerhafte Routineänderungen.</p>
+  </div>
+
+  <div class="act"><span class="no">AKT&nbsp;I</span><h2>Bedeutung, Haltungen & Rahmen</h2><span class="sub">Kap. 1–3</span></div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 1 · Defining Lean</div>
+    <h3>Was heißt „Lean"?</h3>
+    <p>Lean bedeutet, Produktivität zu optimieren: wirkungsvolle Tätigkeiten aufwerten, Verschwendung beseitigen und kontinuierlich kleine Verbesserungen vornehmen. Im Klassenzimmer heißt das: aus jeder Minute Planung und Unterricht möglichst viel Lernen herausholen.</p>
+    <p>Die größte berufliche Herausforderung sei nicht der Druck von außen, sondern der Umgang mit der eigenen Zeit und Aufmerksamkeit. „Die besten Hebel sind kleine Änderungen an den Dingen, die wir am häufigsten tun." (Eyring)</p>
+    <div class="ask">Wofür verwende ich beim Planen tatsächlich meine Zeit — und decken sich Handeln und Absicht?</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 2 · Lean Mindsets</div>
+    <h3>Die vier Lean-Haltungen</h3>
+    <p>Erst die Haltung, dann die Technik: Mit der falschen Denkhaltung kämpft man gegen die Strömung. Vier Mindsets bilden das Fundament.</p>
+    <div class="grid2">
+      <div class="h">Unlean</div><div class="h">Lean</div>
+      <div class="lbl">Process</div>
+      <div class="un">Planung als ausgefülltes Formular</div><div class="le">Planung als Denkprozess</div>
+      <div class="lbl">Pareto</div>
+      <div class="un">So viel wie möglich tun</div><div class="le">Weniger tun, aber besser</div>
+      <div class="lbl">Growth</div>
+      <div class="un">Manche planen von Natur aus besser</div><div class="le">Gutes Planen ist erlernbar</div>
+      <div class="lbl">Design</div>
+      <div class="un">Ich werde besser durch Ausprobieren im Unterricht</div><div class="le">Ich verbessere mich durch systematische Planungs­änderungen</div>
+    </div>
+    <p style="margin-top:12px">Der Unterricht ist eine „heiße" Umgebung mit tausenden intuitiven Entscheidungen. Planung dagegen ist „kalt": Hier kann man Optionen abwägen. „Plans are worthless, but planning is everything." (Eisenhower)</p>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 3 · Lean Habits</div>
+    <h3>Das Lean-Framework & die neun Gewohnheiten</h3>
+    <p>Vier Leitfragen geben jeder Planung einen Rahmen — in genau dieser Reihenfolge. Wer eine Frage auslässt oder die Reihenfolge tauscht, begrenzt sofort die Wirkung.</p>
+    <div class="flow">
+      <div class="step"><b>1 ·</b> Wo stehen die Lernenden gerade?</div>
+      <div class="step"><b>2 ·</b> Wohin sollen sie gelangen?</div>
+      <div class="step"><b>3 ·</b> Woran erkenne ich, dass sie dort sind?</div>
+      <div class="step"><b>4 ·</b> Wie helfe ich ihnen am besten dorthin?</div>
+    </div>
+    <p style="margin-top:14px">Aus dem Framework leiten sich <b>neun Gewohnheiten</b> ab: sechs zum <b>Planen</b> (Akt&nbsp;II) und drei zum <b>Wachsen</b> (Akt&nbsp;III). „Give me six hours to chop down a tree and I will spend the first four sharpening the axe." (Lincoln)</p>
+    <div class="ask">Welche Fragen stelle ich mir beim Planen wirklich — und wie konsequent ist meine Reihenfolge?</div>
+  </div>
+
+</section>
+
+<!-- ============ VIEW 2 ============ -->
+<section id="v2" class="view">
+  <div class="act"><span class="no">AKT&nbsp;II</span><h2>Sechs Gewohnheiten des Planens</h2><span class="sub">Kap. 4–9</span></div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 4 · Backwards Design</div>
+    <h3>Mit dem Ende beginnen</h3>
+    <p>Zwei klassische Fallen: <b>aktivitätsgetrieben</b> planen (erst eine schöne Aufgabe suchen, dann Ziele dazu basteln) und <b>stoffgetrieben</b> planen (fremde Ziele abarbeiten). Beides hält Schüler beschäftigt, statt sie gezielt voranzubringen.</p>
+    <p>Stattdessen zuerst fragen: <b>Was sollen meine Schüler am Ende der Stunde gelernt haben?</b> — und dafür mehr Zeit investieren, als man denkt.</p>
+    <ul>
+      <li>Lege <b>2–5 Lern-Meilensteine</b> fest (mehr verwässert).</li>
+      <li>Gute Meilensteine sind: <b>kumulativ, gestaffelt, messbar, klar</b> formuliert.</li>
+    </ul>
+    <div class="ask">Geht es in dieser Stunde darum, Werkzeuge zu bauen oder sie besser zu benutzen?</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 5 · Knowing Knowledge</div>
+    <h3>Wissen verstehen</h3>
+    <p>Stigler &amp; Hiebert zeigten: Entscheidend ist die Balance zwischen <b>konzeptionellem Verständnis</b> und <b>technischer Fertigkeit</b>. Eine Werkzeug-Analogie hilft:</p>
+    <ul>
+      <li><b>Werkzeug bauen</b> = konzeptionelles Verständnis. Von <i>isoliert</i> (recall, describe) zu <i>vernetzt</i> (justify, explain). Je vernetzter ein Fakt, desto bedeutungsvoller.</li>
+      <li><b>Werkzeug benutzen</b> = technische Fertigkeit. Von <i>starr</i> (follow, find) zu <i>adaptiv</i> (solve, create).</li>
+    </ul>
+    <p>„Knowledge ping pong": Benutzen vertieft das Verständnis, vertieftes Verständnis verbessert die Werkzeuge — ein iterativer Kern der Expertise.</p>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 6 · Checking Understanding</div>
+    <h3>Verständnis prüfen</h3>
+    <p>Die häufigste Baustelle aus hunderten Hospitationen. Ziel: <b>in möglichst viele Köpfe, möglichst tief, möglichst schnell</b> blicken — denn ohne verlässliche Daten fehlt die Basis für Entscheidungen.</p>
+    <ul>
+      <li><b>Einzelbefragung</b> — tief, aber langsam.</li>
+      <li><b>Ampel / Daumen</b> — schnell, aber unzuverlässig (Selbsteinschätzung).</li>
+      <li><b>Multi-student / Mini-Whiteboards</b> — schnell <i>und</i> zuverlässig.</li>
+      <li><b>Diagnostic Questioning</b> — zeigt zusätzlich die Fehlvorstellungen.</li>
+    </ul>
+    <p>Setze auf <b>Exit Assessment</b> (Exit-Ticket mit 3–5 Fragen, per Timer abgesichert) statt Entry-Assessment — letzteres kommt zu spät, um die Stunde noch zu ändern. Prüfe auch in den <b>Übergängen</b> zwischen Aktivitäten.</p>
+    <div class="ask">Sind genug Köpfe „dabei", um zur nächsten Phase überzugehen — oder muss ich zurückgehen?</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 7 · Efficient Activities</div>
+    <h3>Effiziente Aktivitäten</h3>
+    <p>Lärm reduzieren, Signal verstärken. Lemovs <b>„shortest path"</b>: Was ist das Minimum, das passieren muss, damit die Schüler den nächsten Meilenstein erreichen? (Kein „Dumbing-down", sondern Geradlinigkeit.)</p>
+    <ul>
+      <li>Lehrer-Sprechphasen in Häppchen von <b>5–10 Min</b>, Aktivitäten ~15 Min.</li>
+      <li>Kein Multitasking; lieber <b>Struktur</b> statt Instruktion.</li>
+      <li>Erfolg durch Herausforderung: möglichst viele in der <b>Challenge-Zone</b> halten (raus aus Komfort und Verwirrung). Formate: „low floor, high ceiling" und „all start, no finish".</li>
+      <li><b>Feedback eingebaut</b> — laut Hattie einer der stärksten Hebel: schließt die Lücke, blickt nach vorn, kommt mit Übungsgelegenheiten.</li>
+    </ul>
+    <p>Spaß ist wichtig — aber am besten als <b>Nebenprodukt von Erfolg</b>.</p>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 8 · Lasting Learning</div>
+    <h3>Nachhaltiges Lernen</h3>
+    <p>„Memory is the residue of thought." (Willingham) Lernen entsteht beim Denken — doch das Arbeitsgedächtnis ist begrenzt. Weniger gleichzeitig denken = höhere Qualität. Task-Switching vermeiden.</p>
+    <ul>
+      <li><b>Verankern</b>: an Vorwissen anknüpfen (Ausubel), Interessen nutzen, Verbindungen sichtbar machen — z.&nbsp;B. per Concept Mapping.</li>
+      <li><b>Spaced Learning</b>: Erinnerungen haben eine Halbwertszeit (Ebbinghaus). Jedes Wiederaufgreifen verlängert sie. Rhythmus: erste Begegnung → Tage später → Wochen später. Kontext leicht variieren, aber wiedererkennbar halten.</li>
+      <li><b>Deliberate Practice</b>: „practice makes permanent". Den Kern üben, Grundlagen drillen (Bandbreite freimachen), Herausforderung graduell steigern.</li>
+    </ul>
+    <p>Ökonomisch lohnt sich das: Wer <i>nicht</i> für das Gedächtnis plant, zahlt später mehr — durch ewiges Wiederholen und brüchige Grundlagen.</p>
+    <div class="ask">Worüber genau sollen meine Schüler nachdenken — und worüber bewusst <i>nicht</i>?</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 9 · Inter-Lesson Planning</div>
+    <h3>Stundenübergreifend planen</h3>
+    <p>Lernen geschieht über die Zeit, nicht in sauberen Stundenportionen. Die Beziehung <i>zwischen</i> den Stunden zählt genauso wie das, was darin passiert.</p>
+    <ul>
+      <li><b>Restorative Planning</b>: Welches frühere Lernen muss in der heutigen Stunde wieder aufgegriffen werden?</li>
+      <li><b>Back-to-the-future</b>: Welches Vorwissen muss ich heute prüfen, um die <i>nächste</i> Stunde gut planen zu können?</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ VIEW 3 ============ -->
+<section id="v3" class="view">
+  <div class="act"><span class="no">AKT&nbsp;III</span><h2>Drei Gewohnheiten des Wachsens</h2><span class="sub">Kap. 10–12</span></div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 10 · Building Excellence</div>
+    <h3>Exzellenz aufbauen</h3>
+    <p>„We are what we repeatedly do. Excellence, then, is not an act, but a habit." (Aristoteles) Auch Planung ist nur ein Gewohnheitsstapel — riskant wird er, wenn er unbemerkt aus dem Ziel läuft.</p>
+    <p>Gewohnheiten gezielt umbauen — die fünf „I":</p>
+    <ul>
+      <li><b>Identify</b> — die eigene Planung von Anfang bis Ende aufschreiben.</li>
+      <li><b>Ideate</b> — die ideale Routine entwerfen.</li>
+      <li><b>Isolate</b> — <i>eine</i> winzige Änderung auswählen.</li>
+      <li><b>Inspect</b> — per Checkliste sichtbar machen und nachhalten.</li>
+      <li><b>Iterate</b> — erst wenn sie selbstverständlich ist, die nächste angehen.</li>
+    </ul>
+    <p>Dazu: Umgebung optimieren (störungsfrei planen), Achtsamkeit für eigene Routinen — und vor allem den <b>ersten kleinen Schritt</b> tun.</p>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 11 · Growth Teaching</div>
+    <h3>Growth Teaching</h3>
+    <p>Ziel ist nicht „great teaching", sondern <b>„growth teaching"</b> — Unterricht, der ständig besser wird. Die Aggregation marginaler Gewinne, statt großer Reformen (Japan vs. USA).</p>
+    <div class="flow">
+      <div class="step"><b>Diagnose</b> — einen Teil des Unterrichts zum Verbessern wählen</div>
+      <div class="step"><b>Design</b> — einen (vielleicht) besseren Ansatz entwickeln</div>
+      <div class="step"><b>Teach</b> — ihn über Zeit erproben</div>
+      <div class="step"><b>Measure</b> — die Wirkung auswerten</div>
+      <div class="step"><b>Learn</b> — verstehen, was passiert — und von vorn</div>
+    </div>
+    <p style="margin-top:14px">Evidenz ist ein <b>Startpunkt</b>, kein Plug-and-play. Robuste Evaluation kombiniert: Fortschrittsdaten (Exit-Tickets, Tests), Beobachtung (Kolleg:innen, Videos), Schüler-Feedback. „Evaluation without data is just reflection." Vorsicht vor kognitiven Verzerrungen, voreiligen Schlüssen und <b>Proxy-Indikatoren</b> (Beschäftigung ≠ Lernen).</p>
+    <div class="ask">Welche Wirkung hat dieser Ansatz auf das Lernen — und <i>wie</i> wirkt er?</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span class="dot"></span>Kapitel 12 · Collective Improvement</div>
+    <h3>Gemeinsam besser werden</h3>
+    <p>Laut Hattie ist das <b>gemeinsame Planen von Stunden</b> eine der wirkungsvollsten Maßnahmen überhaupt — und trotzdem reden Lehrkräfte erstaunlich selten über ihren Unterricht. Teilen zwingt zur Artikulation, bringt frische Augen und verbreitet Wissen.</p>
+    <p>Ein Rahmen, um Praxis weiterzugeben:</p>
+    <ul>
+      <li><b>Isolate</b> — Woran arbeite ich gerade, und warum?</li>
+      <li><b>Situate</b> — In welchem Kontext?</li>
+      <li><b>Validate</b> — Woran erkenne ich, dass es wirkt?</li>
+      <li><b>Narrate</b> — Wie kam es dazu, was kommt als Nächstes?</li>
+      <li><b>Kickstart</b> — Wie kann jemand anderes damit anfangen?</li>
+    </ul>
+    <p>Schulleitungen können geschützte Zeit (plus Tee und Kekse) schaffen; darüber hinaus helfen TeachMeets, Fortbildungen und digitale Netzwerke.</p>
+  </div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section id="vq" class="view">
+  <div class="quiz-head">
+    <div class="eyebrow">Selbsttest · 12 Fragen</div>
+    <h2>Verstanden?</h2>
+    <div class="scorebar">
+      <span id="qcount">0 / 12 beantwortet</span>
+      <span class="progress"><span id="qbar"></span></span>
+      <span id="qscore">0 richtig</span>
+    </div>
+  </div>
+  <div id="quiz"></div>
+  <div class="result" id="result">
+    <div class="big" id="resBig">0 / 12</div>
+    <p id="resTxt"></p>
+    <button class="btn" id="resetBtn">Quiz neu starten</button>
+  </div>
+</section>
+
+<footer class="wrap">
+  Lean Lesson Planning — Peps Mccrea (teacherly.co, 2015). Interaktive Zusammenfassung zu Fortbildungszwecken.
+</footer>
+</main>
+
+<script>
+/* ---------- Navigation ---------- */
+const tabs = document.querySelectorAll('nav.tabs button');
+const views = document.querySelectorAll('.view');
+tabs.forEach(t=>t.addEventListener('click',()=>{
+  tabs.forEach(x=>x.classList.remove('active'));
+  views.forEach(v=>v.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.view).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}));
+
+/* ---------- Quiz data ---------- */
+const QUIZ = [
+  { q:'Was bedeutet „Lean" im Kontext der Unterrichtsplanung?',
+    o:['Möglichst viele kreative Aktivitäten einbauen','Aus jeder Minute Planung und Unterricht möglichst viel Lernen herausholen','Den Lehrplan so schnell wie möglich durcharbeiten','Planungszeit auf ein Minimum verkürzen'],
+    a:1, e:'Lean heißt: maximale Wirkung pro Aufwand — <b>weniger tun, aber besser</b>. Es geht ausdrücklich <i>nicht</i> darum, Planung abzukürzen.' },
+  { q:'Welche Lean-Haltung beschreibt Planung als Denkprozess statt als ausgefülltes Formular?',
+    o:['Pareto-Mindset','Growth-Mindset','Process-Mindset','Design-Mindset'],
+    a:2, e:'Das <b>Process-Mindset</b>: „Sometimes we confuse the plan with the planning." Der Plan ist nur ein Nebenprodukt des Denkens.' },
+  { q:'Was besagt das Pareto-Prinzip für die Planung?',
+    o:['80 % der Wirkung kommen aus 20 % des Aufwands','Jede Aktivität trägt gleich viel bei','20 % der Schüler erbringen 80 % der Leistung','Man sollte 80 % der Zeit unterrichten'],
+    a:0, e:'Die Wirkung ist <b>ungleich verteilt</b>. Lean-Planung identifiziert die wenigen Tätigkeiten mit dem größten Ertrag und fokussiert darauf.' },
+  { q:'Womit beginnt „Backwards Design"?',
+    o:['Mit der Suche nach einer guten Aktivität','Mit der Frage, was die Schüler am Ende gelernt haben sollen','Mit dem Blick in das Schulbuch','Mit einer Vorwissens-Abfrage zu Beginn der Stunde'],
+    a:1, e:'„Start with the end in mind." Zuerst das Lernziel klären — und dafür <b>mehr Zeit</b> investieren, als man zunächst meint.' },
+  { q:'Wie viele Lern-Meilensteine empfiehlt Mccrea pro Stunde?',
+    o:['Genau einen','Zwei bis fünf','Sechs bis zehn','So viele wie möglich'],
+    a:1, e:'<b>2–5 Meilensteine</b>. Mehr verwässert ihre Auflösung. Gute Meilensteine sind kumulativ, gestaffelt, messbar und klar.' },
+  { q:'In der Werkzeug-Analogie entspricht das „Bauen" eines mentalen Werkzeugs …',
+    o:['der technischen Fertigkeit','dem konzeptionellen Verständnis','dem reinen Auswendiglernen','dem Lösen von Routineaufgaben'],
+    a:1, e:'<b>Werkzeug bauen = konzeptionelles Verständnis</b> (isoliert → vernetzt). Das Werkzeug zu <i>benutzen</i> ist die technische Fertigkeit.' },
+  { q:'Welche Methode liefert schnell UND zuverlässig ein Bild vom Verständnis der ganzen Klasse?',
+    o:['Einzelbefragung','Ampel- / Daumen-Signal','Mini-Whiteboards (Multi-student questioning)','Korrektur der Hefte am Abend'],
+    a:2, e:'<b>Mini-Whiteboards</b> sind schnell und zuverlässig. Diagnostic Questioning zeigt zusätzlich die Fehlvorstellungen.' },
+  { q:'Warum hält Mccrea das Prüfen von Vorwissen zu Stundenbeginn für wenig nützlich?',
+    o:['Es dauert zu lange','Es ist zu spät, um die Stunde grundlegend anzupassen','Schüler erinnern sich morgens schlecht','Es stört den Stundeneinstieg'],
+    a:1, e:'Entry-Assessment kommt zu spät für große Anpassungen. <b>Exit-Assessment</b> eignet sich besser, um die <i>nächste</i> Stunde zu planen.' },
+  { q:'Was meint Lemovs „shortest path"?',
+    o:['Den Stoff vereinfachen, bis er trivial ist','Kreativität und Zusammenarbeit streichen','Das Minimum auswählen, damit Schüler den nächsten Meilenstein möglichst direkt erreichen','Schüler früher zur nächsten Buchseite springen lassen'],
+    a:2, e:'Auswählen, straffen, nur wo nötig weglassen — <b>geradlinig zum Meilenstein</b>. Kein Dumbing-down.' },
+  { q:'Wie lang sollten lehrergeleitete Sprechphasen idealerweise sein?',
+    o:['1–2 Minuten','5–10 Minuten','15–20 Minuten','Solange nötig'],
+    a:1, e:'Aufmerksamkeit ist knapp: Lehrer-Talk in Häppchen von <b>5–10 Minuten</b>, Aktivitäten um die 15 Minuten.' },
+  { q:'„Memory is the residue of thought." — und was folgt daraus?',
+    o:['Lernen entsteht beim Denken; weniger gleichzeitig denken erhöht die Qualität','Erinnerungen sind zufällig','Auswendiglernen ist sinnlos','Multitasking steigert das Lernen'],
+    a:0, e:'Willingham: Lernen ist der „Rückstand" des Denkens. Das Arbeitsgedächtnis ist begrenzt — daher <b>Task-Switching vermeiden</b>.' },
+  { q:'Was passiert laut „spaced learning" bei jedem Wiederaufgreifen einer Erinnerung?',
+    o:['Sie wird sofort gelöscht','Ihre Halbwertszeit verlängert sich','Sie verliert an Genauigkeit','Nichts Messbares'],
+    a:1, e:'Erinnerungen haben eine Halbwertszeit (Ebbinghaus). <b>Jedes rechtzeitige Wiederholen verlängert sie</b> — verteiltes Lernen baut Dauerhaftigkeit auf.' },
+];
+
+const quizEl = document.getElementById('quiz');
+let answered = 0, score = 0;
+
+function renderQuiz(){
+  quizEl.innerHTML='';
+  answered=0; score=0;
+  updateBar();
+  document.getElementById('result').classList.remove('show');
+  QUIZ.forEach((item,i)=>{
+    const wrap=document.createElement('div');
+    wrap.className='q';
+    const keys=['A','B','C','D'];
+    let opts='';
+    item.o.forEach((o,j)=>{
+      opts+=`<button class="opt" data-q="${i}" data-o="${j}"><span class="k">${keys[j]}</span><span>${o}</span></button>`;
+    });
+    wrap.innerHTML=`<div class="qn">Frage ${i+1} / ${QUIZ.length}</div>
+      <div class="qt">${item.q}</div>${opts}
+      <div class="explain" id="ex${i}">${item.e}</div>`;
+    quizEl.appendChild(wrap);
+  });
+}
+
+quizEl.addEventListener('click',e=>{
+  const btn=e.target.closest('.opt');
+  if(!btn) return;
+  const qi=+btn.dataset.q, oi=+btn.dataset.o;
+  const group=quizEl.querySelectorAll(`.opt[data-q="${qi}"]`);
+  if([...group].some(b=>b.disabled)) return; // schon beantwortet
+  const correct=QUIZ[qi].a;
+  group.forEach(b=>{
+    b.disabled=true;
+    const bo=+b.dataset.o;
+    if(bo===correct) b.classList.add('correct');
+    if(bo===oi && oi!==correct) b.classList.add('wrong');
+  });
+  document.getElementById('ex'+qi).classList.add('show');
+  answered++;
+  if(oi===correct) score++;
+  updateBar();
+  if(answered===QUIZ.length) showResult();
+});
+
+function updateBar(){
+  document.getElementById('qcount').textContent=`${answered} / ${QUIZ.length} beantwortet`;
+  document.getElementById('qscore').textContent=`${score} richtig`;
+  document.getElementById('qbar').style.width=(answered/QUIZ.length*100)+'%';
+}
+
+function showResult(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let txt;
+  if(pct>=90) txt='Hervorragend — du denkst bereits „lean". Bereit, eine Gewohnheit weiterzugeben (Kap. 12).';
+  else if(pct>=70) txt='Stark. Die Kernideen sitzen. Wähle eine winzige Änderung und iteriere (die fünf „I").';
+  else if(pct>=50) txt='Solide Basis. Geh die Akte II & III noch einmal durch — vor allem die Hebel mit der größten Wirkung.';
+  else txt='Guter Anfang. Beginne mit dem Lean-Framework und den vier Haltungen, dann erneut testen.';
+  document.getElementById('resBig').textContent=`${score} / ${QUIZ.length}`;
+  document.getElementById('resTxt').textContent=txt;
+  document.getElementById('result').classList.add('show');
+}
+
+document.getElementById('resetBtn').addEventListener('click',()=>{
+  renderQuiz();
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+
+renderQuiz();
+</script>
+</body>
+</html>

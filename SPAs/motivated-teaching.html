@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motivated Teaching — Zusammenfassung & Quiz</title>
+<style>
+  :root{
+    --paper:#ece9df;        /* warmes Knochenpapier */
+    --paper-2:#f4f2ea;
+    --ground:#211f1b;       /* Anthrazit, wie das Cover */
+    --ink:#1c1b17;
+    --ink-soft:#5b574d;
+    --line:#cdc8ba;
+    --line-2:#b7b1a1;
+    --hl:#f4d23a;           /* Textmarker */
+    --hl-soft:#f8e482;
+    --ok:#3f6b4a;
+    --ok-bg:#e3ecdf;
+    --no:#a13a2c;
+    --no-bg:#f0e1dc;
+    --eco:#3a3a36;          /* ökonomisch */
+    --soc:#5b574d;          /* sozial */
+    --meta:#7a7466;         /* metakognitiv */
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
+    --serif:Georgia,"Times New Roman",Cambria,serif;
+    --disp:"Arial Black","Helvetica Neue",Helvetica,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--serif);line-height:1.62;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:0 22px;}
+
+  /* ---------- Textmarker-Signatur ---------- */
+  .mark{position:relative;white-space:nowrap;}
+  .mark::before{
+    content:"";position:absolute;left:-.08em;right:-.08em;top:18%;bottom:8%;
+    background:var(--hl);z-index:-1;transform:skewX(-4deg);
+    border-radius:2px 6px 4px 3px;
+  }
+  .swipe::before{animation:swipe .7s .2s ease-out both;transform-origin:left center;}
+  @keyframes swipe{from{transform:skewX(-4deg) scaleX(0);}to{transform:skewX(-4deg) scaleX(1);}}
+
+  /* ---------- Topbar ---------- */
+  header.bar{position:sticky;top:0;z-index:50;background:var(--ground);color:var(--paper-2);
+    border-bottom:3px solid var(--hl);}
+  .bar-inner{display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    max-width:940px;margin:0 auto;padding:12px 22px;}
+  .brand{font-family:var(--disp);text-transform:uppercase;letter-spacing:-.01em;
+    font-size:15px;line-height:1;}
+  .brand small{display:block;font-family:var(--mono);font-weight:400;letter-spacing:.18em;
+    font-size:9px;color:#b8b3a6;margin-top:4px;}
+  nav.tabs{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;}
+  nav.tabs button{font-family:var(--mono);font-size:12px;letter-spacing:.02em;
+    background:transparent;color:#cfcabd;border:1px solid transparent;
+    padding:8px 12px;cursor:pointer;border-radius:2px;}
+  nav.tabs button:hover{color:#fff;background:rgba(255,255,255,.07);}
+  nav.tabs button.active{color:var(--ground);background:var(--hl);font-weight:700;}
+
+  .view{display:none;}
+  .view.active{display:block;animation:fade .35s ease both;}
+  @keyframes fade{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:54px 0 26px;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--ink-soft);margin-bottom:18px;}
+  h1{font-family:var(--disp);text-transform:uppercase;letter-spacing:-.02em;line-height:.94;
+    font-size:clamp(38px,8vw,76px);margin:0 0 22px;}
+  .equation{font-family:var(--mono);font-size:clamp(15px,2.6vw,21px);line-height:1.7;
+    background:var(--ground);color:var(--paper-2);padding:20px 22px;border-radius:3px;
+    margin:8px 0 26px;}
+  .equation .big{color:var(--hl);font-weight:700;}
+  .equation .op{color:#9a958a;}
+  .lead{font-size:18px;max-width:62ch;color:#36342d;}
+
+  /* ---------- Akt-Trenner ---------- */
+  .act{display:flex;align-items:baseline;gap:14px;margin:46px 0 8px;
+    border-top:2px solid var(--ground);padding-top:14px;}
+  .act .no{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--ink-soft);}
+  .act h2{font-family:var(--disp);text-transform:uppercase;letter-spacing:-.01em;
+    font-size:clamp(20px,4vw,30px);margin:0;}
+
+  /* ---------- Karten ---------- */
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:4px;
+    padding:24px 26px;margin:18px 0;}
+  .tag{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink-soft);
+    display:flex;align-items:center;gap:10px;margin-bottom:6px;text-transform:uppercase;}
+  .tag .en{margin-left:auto;color:var(--line-2);font-style:normal;}
+  .card h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:-.01em;
+    font-size:20px;margin:2px 0 12px;line-height:1.1;}
+  .card p{margin:0 0 12px;}
+  .card p:last-child{margin-bottom:0;}
+  ul.clean{margin:6px 0 12px;padding-left:0;list-style:none;}
+  ul.clean li{position:relative;padding-left:22px;margin:7px 0;}
+  ul.clean li::before{content:"›";position:absolute;left:4px;top:-1px;color:var(--ground);
+    font-family:var(--mono);font-weight:700;}
+  ul.clean li b{font-family:var(--mono);font-size:.92em;letter-spacing:.01em;}
+
+  .key{background:var(--hl-soft);border-left:4px solid var(--hl);padding:11px 14px;
+    margin:14px 0;font-style:italic;}
+  .key b{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;display:block;color:var(--ink-soft);margin-bottom:3px;}
+  .ask{font-family:var(--mono);font-size:13px;color:var(--ground);background:transparent;
+    border:1px dashed var(--line-2);padding:11px 14px;margin-top:14px;border-radius:3px;}
+  .ask::before{content:"? ";color:var(--ink-soft);}
+
+  .grp{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;padding:3px 8px;border-radius:2px;color:var(--paper-2);}
+  .grp.eco{background:var(--eco);} .grp.soc{background:var(--soc);} .grp.meta{background:var(--meta);}
+
+  /* Treiber-Index Pentagramm */
+  .index-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;gap:8px;margin:8px 0 4px;}
+  .index-grid a{display:block;text-decoration:none;background:var(--ground);color:var(--paper-2);
+    padding:12px 10px;border-radius:3px;text-align:center;}
+  .index-grid a:hover{background:#34322c;}
+  .index-grid .n{font-family:var(--mono);font-size:11px;color:var(--hl);}
+  .index-grid .t{font-family:var(--disp);text-transform:uppercase;font-size:13px;line-height:1.1;
+    margin-top:6px;letter-spacing:-.01em;}
+
+  /* ---------- Nora vs Evie ---------- */
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0;}
+  .vs .col{border:1px solid var(--line);border-radius:4px;padding:20px 22px;background:var(--paper-2);}
+  .vs .col.bad{border-top:5px solid var(--no);}
+  .vs .col.good{border-top:5px solid var(--ok);}
+  .vs h4{font-family:var(--disp);text-transform:uppercase;font-size:16px;margin:0 0 4px;}
+  .vs .lab{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--ink-soft);margin-bottom:10px;}
+  .vs p{font-size:15px;margin:0;font-style:italic;color:#36342d;}
+
+  /* ---------- Radar ---------- */
+  .radar-wrap{display:grid;grid-template-columns:minmax(0,360px) 1fr;gap:24px;align-items:center;}
+  #radar{width:100%;height:auto;display:block;}
+  .radar-svg .ring{fill:none;stroke:var(--line);stroke-width:1;}
+  .radar-svg .spoke{stroke:var(--line-2);stroke-width:1;}
+  .radar-svg .lab{font-family:var(--mono);font-size:11px;fill:var(--ground);}
+  .radar-svg .poly{fill:var(--hl);fill-opacity:.42;stroke:var(--ground);stroke-width:2;stroke-linejoin:round;}
+  .radar-svg .dot{fill:var(--paper-2);stroke:var(--line-2);stroke-width:1.5;cursor:pointer;}
+  .radar-svg .dot:hover{stroke:var(--ground);}
+  .radar-svg .dot.on{fill:var(--ground);stroke:var(--ground);}
+  .radar-help{font-size:15px;}
+  .radar-help b{font-family:var(--mono);font-size:.9em;}
+  .radar-reset{font-family:var(--mono);font-size:12px;background:transparent;border:1px solid var(--line-2);
+    padding:7px 12px;cursor:pointer;border-radius:2px;margin-top:10px;}
+  .radar-reset:hover{background:var(--ground);color:var(--paper-2);}
+
+  /* ---------- Selbstmotivation-Tabelle ---------- */
+  .self{border:1px solid var(--line);border-radius:4px;overflow:hidden;margin:14px 0;}
+  .self .row{display:grid;grid-template-columns:170px 1fr;border-top:1px solid var(--line);}
+  .self .row:first-child{border-top:none;}
+  .self .h{background:var(--ground);color:var(--paper-2);padding:11px 14px;
+    font-family:var(--disp);text-transform:uppercase;font-size:13px;letter-spacing:-.01em;}
+  .self .c{padding:11px 14px;background:var(--paper-2);font-size:15px;}
+
+  /* ---------- Quiz ---------- */
+  .quiz-head{padding:40px 0 6px;}
+  .scorebar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-family:var(--mono);
+    font-size:12px;color:var(--ink-soft);margin-top:12px;}
+  .progress{flex:1;min-width:160px;height:7px;background:var(--line);border-radius:99px;overflow:hidden;}
+  .progress span{display:block;height:100%;width:0;background:var(--hl);transition:width .3s;}
+  .q{background:var(--paper-2);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin:16px 0;}
+  .q .qn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase;}
+  .q .qt{font-family:var(--disp);text-transform:none;font-size:17px;margin:6px 0 14px;line-height:1.3;}
+  .opt{display:block;width:100%;text-align:left;background:var(--paper);border:1px solid var(--line-2);
+    border-radius:3px;padding:11px 14px;margin:8px 0;cursor:pointer;font-family:var(--serif);font-size:15px;
+    transition:background .15s,border-color .15s;}
+  .opt:hover:not(:disabled){border-color:var(--ground);}
+  .opt:disabled{cursor:default;}
+  .opt.correct{background:var(--ok-bg);border-color:var(--ok);}
+  .opt.wrong{background:var(--no-bg);border-color:var(--no);}
+  .why{display:none;margin-top:12px;font-size:14px;border-left:4px solid var(--hl);
+    background:var(--hl-soft);padding:11px 14px;}
+  .why.show{display:block;}
+  .result{display:none;text-align:center;background:var(--ground);color:var(--paper-2);
+    padding:30px;border-radius:4px;margin:24px 0;}
+  .result.show{display:block;}
+  .result .big{font-family:var(--mono);font-size:48px;font-weight:700;color:var(--hl);}
+  .result p{margin:10px 0 18px;color:#d9d5c9;}
+  .btn{font-family:var(--mono);font-size:13px;letter-spacing:.04em;background:var(--hl);
+    color:var(--ground);border:none;padding:11px 20px;cursor:pointer;font-weight:700;border-radius:2px;}
+  .btn:hover{filter:brightness(1.05);}
+
+  footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0 60px;
+    font-family:var(--mono);font-size:11px;color:var(--ink-soft);letter-spacing:.03em;}
+
+  @media(max-width:640px){
+    .vs,.radar-wrap{grid-template-columns:1fr;}
+    .index-grid{grid-template-columns:1fr 1fr;}
+    .self .row{grid-template-columns:1fr;}
+    .self .h{font-size:12px;}
+    nav.tabs{width:100%;margin-left:0;}
+  }
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar-inner">
+    <div class="brand">Motivated Teaching<small>Peps Mccrea · Zusammenfassung</small></div>
+    <nav class="tabs">
+      <button data-view="v1" class="active">Mechanik</button>
+      <button data-view="v2">Die 5 Treiber</button>
+      <button data-view="v3">Zusammenführen</button>
+      <button data-view="vq">Quiz</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ===================== AKT I ===================== -->
+<section id="v1" class="view active">
+
+  <div class="hero">
+    <div class="eyebrow">High Impact Teaching · 2020 · Kernideen</div>
+    <h1>Wer <span class="mark swipe">Aufmerksamkeit</span><br>steuert, lenkt das Lernen</h1>
+    <div class="equation">
+      ROI <span class="op">=</span> <span class="big">Wert</span> <span class="op">×</span> Erfolgsaussicht <span class="op">÷</span> Aufwand<br>
+      <span class="op">→</span> Aufmerksamkeit fließt zur besten verfügbaren Investition
+    </div>
+    <p class="lead">Mccrea fasst die Forschung zur Motivation zu einem schulttauglichen Modell zusammen: Motivation ist kein Charakterzug, sondern das System, das unsere begrenzte Aufmerksamkeit zuteilt. Wir können sie systematisch aufbauen — über fünf Treiber, die beeinflussen, wie Schüler:innen Wert, Erfolgsaussicht und Aufwand einer Lerngelegenheit einschätzen.</p>
+  </div>
+
+  <div class="act"><span class="no">AKT&nbsp;I</span><h2>Wie Motivation funktioniert</h2></div>
+
+  <div class="card">
+    <div class="tag"><span>Warum Motivation?</span><span class="en">why motivation</span></div>
+    <h3>Motivation entscheidet mit</h3>
+    <p>Motivierte Schüler:innen achten genauer hin, strengen sich mehr an, halten länger durch und arbeiten selbstständiger. Fehlt die Motivation, folgt das Minimum, ständiges Antreiben und wenig Behaltenes. Motivation prägt Verhalten, Lernen <i>und</i> Wohlbefinden — auch das der Lehrkraft.</p>
+    <p>Im Schnitt sinkt die Lernmotivation über die Schulzeit. Der Grund unseres Ringens ist nicht fehlendes Engagement, sondern fehlende Klarheit: Motivation ist komplex und weitgehend unsichtbar. Echte Klarheit liefert nur die Wissenschaft — aufbereitet für die Praxis.</p>
+    <div class="key"><b>Kernidee 1–3</b>Motivation beeinflusst Verhalten, Lernen und Wohlbefinden. Sie ist komplex und unsichtbar — und um sie zu beeinflussen, müssen wir auf wissenschaftliche Erkenntnisse zurückgreifen.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Aufmerksamkeit</span><span class="en">the gatekeeper</span></div>
+    <h3>Aufmerksamkeit ist das Nadelöhr</h3>
+    <p>Was wir beachten, lernen wir. Aber Aufmerksamkeit ist begrenzt — wir können wirklich nur eine Sache zugleich verfolgen. Im Klassenzimmer konkurrieren unzählige Reize um sie: die Lehrerstimme, die Tafel, die Spinne in der Ecke, die neuen Schuhe der Banknachbarin.</p>
+    <p><b>Motivation ist das System, das diese Gelegenheiten sichtet und entscheidet, welche Aufmerksamkeit bekommt.</b> Damit hängt sie direkt am Lernen — wovon der Stoff und seine Vermittlung untrennbar bleiben: Selbst hochmotivierte Schüler:innen lernen wenig, wenn wir sie nicht zur richtigen Zeit auf das Richtige lenken.</p>
+    <div class="key"><b>Kernidee 4</b>Motivation ist ein System zur Zuteilung von Aufmerksamkeit.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Investitions-Engine</span><span class="en">return on investment</span></div>
+    <h3>Eine Wett-Maschine für Aufmerksamkeit</h3>
+    <p>Wohin fließt die Aufmerksamkeit? Dorthin, wo der erwartete Ertrag am höchsten ist. Dieser ergibt sich aus drei zusammenwirkenden Größen:</p>
+    <ul class="clean">
+      <li><b>Wert</b> — Was bringt es mir (und meinen Gruppen), wenn ich hier investiere?</li>
+      <li><b>Erfolgsaussicht</b> — Wie wahrscheinlich erreiche ich diesen Nutzen?</li>
+      <li><b>Aufwand</b> — Wie viel Aufmerksamkeit und Anstrengung kostet es?</li>
+    </ul>
+    <p>Höchster Wert, höchste Aussicht, niedrigster Aufwand gewinnt. Dasselbe System bestimmt auch, <i>wie viel</i> wir investieren — weshalb Ausdauer und „Grit" am besten als Nebenprodukt von Motivation verstanden werden.</p>
+    <div class="key"><b>Kernidee 5</b>Motivation teilt Aufmerksamkeit nach der besten verfügbaren Investition zu.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Unbewusst</span><span class="en">heuristics &amp; emotion</span></div>
+    <h3>Größtenteils unbewusst</h3>
+    <p>Wir rechnen nicht wie eine Tabelle jeden Wert durch — es gibt zu viele, zu komplexe, sich ständig ändernde Gelegenheiten. Würden wir alles bewusst abwägen, verbrauchte allein das Entscheiden unsere ganze Aufmerksamkeit. Also nutzt der Verstand bewusstes Nachdenken sparsam und überlässt den Rest dem Unbewussten.</p>
+    <p>Dort arbeiten <b>Heuristiken</b> (Faustregeln): „Wie ist mir diese Art Aufgabe früher ergangen?" oder „Was tun die anderen gerade?". Diese Abkürzungen sind oft von <b>Emotion</b> getrieben und können bewusste Entscheidungen überschreiben. Deshalb reicht ein vernünftiger Appell allein nie: Kaum jemand fragt mehr im Unterricht, wenn er Spott der Mitschüler:innen erwartet.</p>
+    <div class="key"><b>Kernidee 6</b>Motivation ist ein weitgehend unbewusster Prozess.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Situativ, kein Trait</span><span class="en">specific response</span></div>
+    <h3>Eine Reaktion, kein Charakterzug</h3>
+    <p>Motivation ist die Antwort auf eine konkrete Gelegenheit, nicht ein Merkmal der Person. Wer für Mathe gerade nicht zu motivieren ist, brennt vielleicht für Minecraft. Statt „X ist (un)motiviert" gilt: X ist motiviert <i>zu etwas, wegen etwas, an einem bestimmten Ort und zu einer bestimmten Zeit</i>.</p>
+    <p>Das ist ermutigend (die Attraktivität einer Gelegenheit lässt sich leichter ändern als eine Persönlichkeit) und ernüchternd zugleich — und erklärt, warum Motivationsposter und Sprüche selten dauerhaft wirken.</p>
+    <div class="key"><b>Kernidee 7</b>Motivation ist eine spezifische Reaktion auf die Situation, kein allgemeiner Charakterzug.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Aktiv aufbauen</span><span class="en">not a given</span></div>
+    <h3>Motivation müssen wir bauen</h3>
+    <p>Schüler:innen sollen verstehen, was die Menschheit über Jahrtausende erarbeitet hat. Dieser Stoff ist von Natur aus anstrengend, sein Wert selten sofort sichtbar. Wir dürfen Lernmotivation nicht voraussetzen — wir müssen sie proaktiv aufbauen.</p>
+    <p>Bewusst <b>nicht</b> im Modell: „Spaß-Stunden" und einfache Belohnungen (Süßes, Sticker). Sie ziehen die Aufmerksamkeit auf Spaß oder Belohnung statt aufs Lernen — extrinsisch statt intrinsisch. Bestenfalls wirken sie kurz, schlimmstenfalls senken sie die Motivation. Die fünf Treiber dagegen sind intrinsisch: so viel wie möglich, so lange wie möglich. Sie sind keine Reihenfolge, aber <b>additiv</b> — je mehr gleichzeitig aktiv, desto stärker.</p>
+    <div class="key"><b>Kernidee 8–9</b>Lernmotivation müssen wir aktiv aufbauen — systematisch über die 5 Treiber.</div>
+    <div class="ask">Eine Warnung des Autors: Ohne sicheres Verständnis drohen „letale Mutationen" — Praktiken, die mehr schaden als nutzen. Mit mehr Einfluss wächst die ethische Verantwortung.</div>
+  </div>
+</section>
+
+<!-- ===================== AKT II ===================== -->
+<section id="v2" class="view">
+  <div class="hero" style="padding-bottom:14px;">
+    <div class="eyebrow">Akt II · Das Handlungsmodell</div>
+    <h1>Die <span class="mark">5 Treiber</span></h1>
+    <p class="lead">Zwei <b>ökonomische</b> Treiber (Wert/Aussicht/Aufwand), zwei <b>soziale</b> (wie andere unsere Einschätzung färben) und ein <b>metakognitiver</b>. Keine Reihenfolge — aber additiv.</p>
+    <div class="index-grid">
+      <a href="#d1"><span class="n">01</span><div class="t">Erfolg sichern</div></a>
+      <a href="#d2"><span class="n">02</span><div class="t">Routinen</div></a>
+      <a href="#d3"><span class="n">03</span><div class="t">Normen</div></a>
+      <a href="#d4"><span class="n">04</span><div class="t">Zugehörig&shy;keit</div></a>
+      <a href="#d5"><span class="n">05</span><div class="t">Mitwirkung</div></a>
+    </div>
+  </div>
+
+  <div class="card" id="d1">
+    <div class="tag"><span class="grp eco">ökonomisch · 01</span><span class="en">secure success</span></div>
+    <h3>Erfolg sichern</h3>
+    <p>Motivation hängt stark an der <b>Erfolgsaussicht</b> (Selbstwirksamkeit): je mehr früher gelungen ist, desto eher investiere ich erneut. Sie ist ein mächtiger, aber zerbrechlicher Hebel — wiederholtes Scheitern verhärtet sich zu Überzeugungen wie „Das kann ich nicht".</p>
+    <p>Erfolg sichern heißt nicht „leichter machen", sondern jemanden etwas können lassen, das er vorher nicht konnte. Faustregel: rückblickend mindestens <b>~80 % Erfolgsquote</b>.</p>
+    <ul class="clean">
+      <li><b>Präzises Pitchen</b> — fordernd, aber für möglichst viele erreichbar.</li>
+      <li><b>Granulares Chunking</b> — in kleine Teile zerlegen, dann zusammensetzen.</li>
+      <li><b>Erfolg rahmen</b> — zuerst da sein und definieren; richtige Metrik (Können statt Aufgabenfortschritt); Selbstreferenz statt Vergleich mit anderen.</li>
+      <li><b>Akkurate Attribution</b> — Umfeld stabilisieren, Ursachen benennen, Fortschritt sichtbar machen, damit Erfolg auf eigenes Tun zurückgeführt wird.</li>
+      <li><b>Misserfolg abfedern</b> — vorwegnehmen, als Lernchance umdeuten, ggf. dem System (z. B. zu großem Chunk) zuschreiben.</li>
+    </ul>
+    <p>Mit der Zeit erzeugt echter Erfolg <b>Kompetenz</b> — und die hebt den wahrgenommenen Wert: Handlungsmacht, Neugier, Staunen, Flüssigkeit, „sunk cost". So wird Motivation Produkt <i>und</i> Treiber des Lernens. Auf Dauer entsteht eine Lerner-Identität: von „Diese Aufgaben kann ich" über „Brüche kann ich" bis „Ich kann gut lernen".</p>
+    <div class="ask">Nicht über­versprechen: „Du bist gut in Mathe" hält der Erfahrung selten stand und untergräbt Vertrauen.</div>
+  </div>
+
+  <div class="card" id="d2">
+    <div class="tag"><span class="grp eco">ökonomisch · 02</span><span class="en">run routines</span></div>
+    <h3>Routinen etablieren</h3>
+    <p>Der dritte ökonomische Faktor ist der <b>Aufwand</b>: je geringer, desto motivierter. Im Lernen lässt sich Aufwand aber nicht einfach durch „leichter" senken — sonst lernt niemand etwas. Der Ausweg: das <i>Was</i> vom <i>Wie</i> trennen.</p>
+    <div class="key"><b>Leitsatz</b>Den Prozess des Lernens leicht machen, den Inhalt anspruchsvoll halten.</div>
+    <p>Routinen entfernen überflüssige Entscheidungskosten und automatisieren Wiederkehrendes. Sie bestehen aus zwei Teilen:</p>
+    <ul class="clean">
+      <li><b>Kette (chain)</b> — die Abfolge der Handlungen. Am besten <i>einfach, eindeutig (erledigt/nicht), gestuft</i> (leichter erster Schritt).</li>
+      <li><b>Cue</b> — der Auslöser. Am besten <i>distinkt, multimodal, knackig</i> (das Startsignal als Vorbild).</li>
+    </ul>
+    <p>Zwei Arten: <b>Verhaltensroutinen</b> (Ein-/Austritt → mehr Lernzeit) und <b>Instruktionsroutinen</b> (Frage-/Diskussionsprotokolle → bessere Nutzung der Lernzeit). Einführen, wenn die Bedingungen reif sind („fresh start"): <b>explizit</b> zeigen, jeden Schritt <b>benennen</b>, mit der Umgebung <b>scaffolden</b>.</p>
+    <p><b>Dranbleiben.</b> Einfache Routinen automatisieren nach ~20 Durchläufen, komplexe nach bis zu ~200. In der Anlaufphase fühlt es sich nach Mehraufwand an — bis der Kipppunkt kommt und sich alles auszahlt: weniger Verhaltenslast, mehr Sicherheit, freie Aufmerksamkeit fürs Lernen.</p>
+  </div>
+
+  <div class="card" id="d3">
+    <div class="tag"><span class="grp soc">sozial · 03</span><span class="en">nudge norms</span></div>
+    <h3>Normen anstoßen</h3>
+    <p>Weil Wert, Aussicht und Aufwand oft schwer zu bestimmen sind, orientieren wir uns an anderen. Tun es die anderen, kann es so falsch nicht sein. Verbreitete „ungeschriebene Regeln" sind <b>soziale Normen</b> — wir imitieren sie und setzen sie sogar durch. Sie überstrahlen häufig formale Regeln, bleiben aber meist unsichtbar und unterschätzt.</p>
+    <p>Entstehen werden Normen so oder so — ihre <i>Richtung</i> liegt in unserem Einfluss. Dazu ändern wir, was Schüler:innen sehen:</p>
+    <ul class="clean">
+      <li><b>Profusion</b> — Anteil derer, die sich an die Norm halten. Ziel: 100 % (ein einziger Abweichler macht das Nicht-Mitmachen leichter).</li>
+      <li><b>Prominenz</b> — wie sichtbar und einprägsam Norm-Treue erscheint: benennen, Geschichten erzählen, selbst vorleben, auf entstehende Normen oder Norm-Ergebnisse (voller Hausaufgabenstapel, ordentlicher Raum) zeigen.</li>
+    </ul>
+    <p><b>Zustimmung verstärken</b> — Normen leben auch von Haltungen. Peer-Zustimmung wirkt stärker als Lob der Lehrkraft: Peer-Shout-outs, rituelle Anerkennung (Schnipsen/Mini-Applaus), „Pass the Mic".</p>
+    <p><b>Nuancen:</b> betonen, <i>was</i> du willst, nicht was nicht („die meisten haben die Hausaufgabe nicht gemacht" wirkt als Verstärkung). Am wirksamsten in neuen Situationen — früh investieren. <b>North-Star-Normen</b> (einfach, handlungsleitend: „streng dich an, ziel hoch, sei freundlich") richten die ganze Schule aus.</p>
+  </div>
+
+  <div class="card" id="d4">
+    <div class="tag"><span class="grp soc">sozial · 04</span><span class="en">build belonging</span></div>
+    <h3>Zugehörigkeit aufbauen</h3>
+    <p>Wie stark Normen wirken, hängt davon ab, wie sehr ich mich der Gruppe zugehörig fühle. Zugehörigkeit treibt Motivation und Lernen — und beeinflusst Gesundheit und Glück. Sie braucht eine bewusste Gestaltung, sonst trennt Gruppenbildung mehr, als sie eint. Drei Zutaten:</p>
+    <ul class="clean">
+      <li><b>Status</b> — „Wie sehr zählen sie mich?": anerkennen (besonders Randständige), einbeziehen, im Wir/Uns sprechen. Feedback als Merkmal der Gruppe rahmen („Hier pushen wir uns alle, weil uns jeder am Herzen liegt").</li>
+      <li><b>Affinität</b> — „Wie sehr sind sie wie ich?": verbindender Sinn, gemeinsame Identität (eigene Sprache, Rituale), gemeinsamer Boden (Interessen, Hintergrund). Je einzigartiger die Verbindung, desto stärker.</li>
+      <li><b>Vertrauen</b> — Status verleiht die Schule, Vertrauen verdient man bei den Schüler:innen. Die drei C: <b>Credibility</b> (Kompetenz), <b>Care</b> (echtes Interesse), <b>Consistency</b> (verlässlich, fair, emotional stabil).</li>
+    </ul>
+    <p>Sind Status, Affinität und Vertrauen da, blüht Zugehörigkeit — und mit ihr die Motivation. Vorsicht: Affinität nach innen kann nach außen spalten; eine Gruppenidentität wählen, die andere respektiert (faire Klassen-Rivalität kann sogar verbinden).</p>
+  </div>
+
+  <div class="card" id="d5">
+    <div class="tag"><span class="grp meta">metakognitiv · 05</span><span class="en">boost buy-in</span></div>
+    <h3>Mitwirkung stärken</h3>
+    <p>Wir fühlen uns zu Gelegenheiten hingezogen, die uns ein Maß an <b>Autonomie</b> geben. Aber nur <i>sinnvolle</i> Wahl motiviert — zu viele Optionen, gleichgültige Alternativen oder Überforderung frustrieren. Novizen können über ihr eigenes Lernen oft nicht weise entscheiden; fehlgeleitete Autonomie ist schlimmer als keine.</p>
+    <p>Wo echte Wahl ohne Verlust möglich ist (Essay-Thema, Lösungsweg), nutze sie. Sonst gilt: die Lehrkraft entscheidet — und baut dann <b>Buy-in</b> auf. Zwei Bewegungen:</p>
+    <ul class="clean">
+      <li><b>Nutzen sichtbar machen</b> — aus Schülersicht <i>framen</i>, den Nutzen näher holen (<i>expedite</i>: heute/nächste Woche, nicht erst mit 40), nicht übertreiben (<i>moderate</i>). Liefern: über­kommunizieren, veranschaulichen, vereinfachen.</li>
+      <li><b>Opt-in anbieten</b> — Raum zum aktiven Ja: meist leicht („Sind wir bereit? Legen wir los?"). Verstärken durch <i>rationale elaboration</i> (das Warum in eigenen Worten), <i>implementation intentions</i> (Wann/Wo/Wie, Hürden), <i>commitment contracts</i> (öffentliche Selbstverpflichtung).</li>
+    </ul>
+    <p>Die Krönung ist <b>Metamotivation</b>: die eigene Motivation beobachten und regulieren. Sie macht Schüler:innen unabhängiger — am besten eingebettet in den Fachunterricht über Jahre. Eines der größten Geschenke: nicht nur mehr lernen, sondern Handlungsmacht für das ganze Leben.</p>
+  </div>
+</section>
+
+<!-- ===================== AKT III ===================== -->
+<section id="v3" class="view">
+  <div class="hero" style="padding-bottom:14px;">
+    <div class="eyebrow">Akt III · Alles zusammen</div>
+    <h1>Vom <span class="mark">Modell</span> zur Praxis</h1>
+    <p class="lead">Das Framework in voller Breite, ein Kontrast zweier Schülerinnen, dein eigener Radar — und wie du die fünf Treiber auf dich selbst anwendest.</p>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Das Framework auf einen Blick</span></div>
+    <h3>10 Kernideen</h3>
+    <ul class="clean">
+      <li>1 · Motivation beeinflusst Verhalten, Lernen und Wohlbefinden.</li>
+      <li>2 · Sie ist komplex und unsichtbar — schwer zu verstehen.</li>
+      <li>3 · Um sie zu beeinflussen, brauchen wir die Wissenschaft.</li>
+      <li>4 · Motivation ist ein System zur Zuteilung von Aufmerksamkeit.</li>
+      <li>5 · Sie teilt nach der besten verfügbaren Investition zu.</li>
+      <li>6 · Das ist ein weitgehend unbewusster Prozess.</li>
+      <li>7 · Und eine spezifische Reaktion, kein Charakterzug.</li>
+      <li>8 · Lernmotivation müssen wir aktiv aufbauen.</li>
+      <li>9 · Systematisch — über die 5 Treiber.</li>
+      <li>10 · Motivation ist eine <b>vorgelagerte Ursache</b> von Verhalten.</li>
+    </ul>
+    <div class="key"><b>5 Treiber, je 1 Satz</b>
+      <b style="font-style:normal;text-transform:none;letter-spacing:0;font-family:var(--serif);font-size:1em;color:var(--ink);display:block;margin-top:6px;">Erfolg sichern · Routinen etablieren · Normen anstoßen · Zugehörigkeit aufbauen · Mitwirkung stärken</b>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Kontrast</span><span class="en">Nora &amp; Evie</span></div>
+    <h3>Zwei Klassenzimmer</h3>
+    <div class="vs">
+      <div class="col bad">
+        <div class="lab">Ohne die Treiber</div>
+        <h4>Nora</h4>
+        <p>„Naturwissenschaft ist öde. Ich mach ständig Fehler und werde vor allen getadelt. Die Klasse zieht mich nicht rein, alle finden Lernen sinnlos, und Miss sagt dauernd, ‚keiner macht je Hausaufgaben'. Melde ich mich, werde ich ausgelacht — ob Miss überhaupt weiß, dass es mich gibt? Bin wohl einfach kein ‚Naturwissenschafts-Typ'. Egal, bringt eh nichts."</p>
+      </div>
+      <div class="col good">
+        <div class="lab">Mit den Treibern</div>
+        <h4>Evie</h4>
+        <p>„Es ist schwer, aber ich weiß, wie ich besser werde. Ich kenne den Ablauf und werde Stück für Stück besser. Fehler sind okay — wir lernen daraus. Unsere Klasse hält zusammen und strengt sich an, Miss zeigt, wenn jemand ‚effektiv lernt'. Sie kennt meine Stolperstellen und prüft jedes Mal, ob ich gut sehen kann. Ohne Naturwissenschaft hätte ich keine Brille — eine Stunde, die sich lohnt."</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Jetzt du</span><span class="en">self-assessment</span></div>
+    <h3>Dein Treiber-Radar</h3>
+    <p>Wähle eine Klasse. Tippe pro Treiber an, wie bewusst du ihn aktivierst (Mitte = niedrig, außen = hoch). Dann überlege: <b>eine kleine Sache</b>, die du als Nächstes planst und ausprobierst.</p>
+    <div class="radar-wrap">
+      <svg id="radar" class="radar-svg" viewBox="0 0 320 320" role="img" aria-label="Interaktiver Radar der fünf Treiber"></svg>
+      <div class="radar-help">
+        <p>Die fünf Treiber sind <b>additiv</b>: Je mehr Fläche, desto stärker der Gesamteffekt. Eine eingebuchtete Achse zeigt dir, wo der größte Hebel liegt.</p>
+        <button class="radar-reset" id="radarReset">Zurücksetzen</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Upstream-Denken</span><span class="en">upstream cause</span></div>
+    <h3>Vor dem Verhalten ansetzen</h3>
+    <p>Motivation ist eine <b>vorgelagerte</b> Ursache von Verhalten — und je weiter oben man eingreift, desto größer der Hebel. Wie das Gesundheitswesen mehr Leben rettet, wenn es Rauchentwöhnung fördert <i>und</i> Krebs behandelt, wirkt Schule stärker, wenn sie Verhalten beeinflusst, <i>bevor</i> es entsteht, statt es nur hinterher zu regeln.</p>
+    <div class="key"><b>Die Gleichung</b>Motivation + Gelegenheit = Verhalten. Wer nur auf sichtbares Verhalten schaut, landet leicht bei oberflächlicher Compliance; wer Motivation mitdenkt, bei echtem Engagement.</div>
+  </div>
+
+  <div class="card">
+    <div class="tag"><span>Selbstmotivation</span><span class="en">motivational architecture</span></div>
+    <h3>Die Treiber auf dich selbst</h3>
+    <p>Willenskraft ist unzuverlässig — wir verschätzen uns chronisch darüber, wie diszipliniert wir morgen sein werden. Statt im Moment gegen das Unbewusste anzukämpfen, überlisten wir es mit Vorlauf: <b>motivationale Architektur</b> (Twitter vom Handy löschen, den Wecker ans andere Zimmerende stellen — Planung, nicht Willenskraft). Beispiel: „Ich will besser im Motivieren werden."</p>
+    <div class="self">
+      <div class="row"><div class="h">Erfolg sichern</div><div class="c">Mit einer winzigen, machbaren Änderung starten und langsam steigern; Erfolg definieren, Fortschritt verfolgen, Scheitern einplanen.</div></div>
+      <div class="row"><div class="h">Routinen</div><div class="c">Etwas wählen, das du täglich übst; eine Routine ersetzen statt hinzufügen; einen unübersehbaren Cue bauen und verlässlich „auftauchen".</div></div>
+      <div class="row"><div class="h">Normen</div><div class="c">Dich mit Menschen umgeben, die dasselbe tun und dafür brennen — real oder virtuell; einem Club beitreten oder einen gründen.</div></div>
+      <div class="row"><div class="h">Zugehörigkeit</div><div class="c">Andere mit ähnlichem Ziel kennenlernen, Erfahrungen teilen; um einen Zweck herum ausrichten und dir eine Identität geben („Research-Geek").</div></div>
+      <div class="row"><div class="h">Mitwirkung</div><div class="c">Regelmäßig das Warum klären; Absichten öffentlich machen und dich festlegen — Kurs, Blog oder eine Fachschaftspräsentation.</div></div>
+    </div>
+    <p>So sicherst du Vorsätze über Architektur statt Willenskraft — und sparst die Selbstregulation für den Moment. Für Mccrea die ultimative menschliche Superkraft.</p>
+  </div>
+</section>
+
+<!-- ===================== QUIZ ===================== -->
+<section id="vq" class="view">
+  <div class="quiz-head">
+    <div class="eyebrow">Selbsttest · 14 Fragen</div>
+    <h1 style="font-size:clamp(30px,6vw,52px);">Sitzt es?</h1>
+    <div class="scorebar">
+      <span id="qcount">0 / 14 beantwortet</span>
+      <span class="progress"><span id="qbar"></span></span>
+      <span id="qscore">0 richtig</span>
+    </div>
+  </div>
+  <div id="quiz"></div>
+  <div class="result" id="result">
+    <div class="big" id="resBig">0 / 14</div>
+    <p id="resTxt"></p>
+    <button class="btn" id="resetBtn">Quiz neu starten</button>
+  </div>
+</section>
+
+<footer class="wrap">
+  Motivated Teaching — Peps Mccrea (High Impact Teaching, 2020). Interaktive Zusammenfassung zu Fortbildungszwecken · offline, ohne externe Ressourcen.
+</footer>
+</main>
+
+<script>
+/* ---------- Navigation ---------- */
+const tabs=document.querySelectorAll('nav.tabs button');
+const views=document.querySelectorAll('.view');
+function show(id){
+  tabs.forEach(x=>x.classList.toggle('active',x.dataset.view===id));
+  views.forEach(v=>v.classList.toggle('active',v.id===id));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+tabs.forEach(t=>t.addEventListener('click',()=>show(t.dataset.view)));
+document.querySelectorAll('.index-grid a').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const el=document.querySelector(a.getAttribute('href'));
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}
+  });
+});
+
+/* ---------- Interaktiver Radar ---------- */
+(function(){
+  const svg=document.getElementById('radar');
+  const cx=160, cy=160, R=118, LV=4, N=5;
+  const labels=['Erfolg','Routinen','Normen','Zugehörigkeit','Mitwirkung'];
+  const vals=[0,0,0,0,0];
+  const SVGNS='http://www.w3.org/2000/svg';
+  function ang(i){return -Math.PI/2 + i*2*Math.PI/N;}
+  function pt(i,r){return [cx+r*Math.cos(ang(i)), cy+r*Math.sin(ang(i))];}
+  function el(tag,attrs){const e=document.createElementNS(SVGNS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
+  function draw(){
+    svg.textContent='';
+    // Ringe
+    for(let l=1;l<=LV;l++){
+      const r=R*l/LV;
+      let d='';
+      for(let i=0;i<N;i++){const[x,y]=pt(i,r);d+=(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1)+' ';}
+      svg.appendChild(el('path',{d:d+'Z',class:'ring'}));
+    }
+    // Speichen + Labels
+    for(let i=0;i<N;i++){
+      const[x,y]=pt(i,R);
+      svg.appendChild(el('line',{x1:cx,y1:cy,x2:x,y2:y,class:'spoke'}));
+      const[lx,ly]=pt(i,R+20);
+      const t=el('text',{x:lx,y:ly,class:'lab','text-anchor':lx<cx-5?'end':(lx>cx+5?'start':'middle'),'dominant-baseline':ly<cy?'auto':'hanging'});
+      t.textContent=labels[i];
+      svg.appendChild(t);
+    }
+    // Polygon
+    if(vals.some(v=>v>0)){
+      let d='';
+      for(let i=0;i<N;i++){const r=R*(vals[i]||0.001)/LV;const[x,y]=pt(i,r);d+=(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1)+' ';}
+      svg.appendChild(el('path',{d:d+'Z',class:'poly'}));
+    }
+    // Klickbare Punkte
+    for(let i=0;i<N;i++){
+      for(let l=1;l<=LV;l++){
+        const[x,y]=pt(i,R*l/LV);
+        const c=el('circle',{cx:x,cy:y,r:7,class:'dot'+(vals[i]>=l?' on':'')});
+        c.addEventListener('click',()=>{vals[i]=(vals[i]===l)?l-1:l;draw();});
+        svg.appendChild(c);
+      }
+    }
+  }
+  document.getElementById('radarReset').addEventListener('click',()=>{vals.fill(0);draw();});
+  draw();
+})();
+
+/* ---------- Quiz ---------- */
+const QUIZ=[
+ {q:'Wie definiert Mccrea Motivation?',
+  opts:['Ein stabiler Charakterzug einer Person','Ein System, das die begrenzte Aufmerksamkeit zuteilt','Das Gefühl, gerne lernen zu wollen','Die Summe aus Spaß und Belohnung'],
+  c:1,why:'Motivation ist das System, das aus konkurrierenden Gelegenheiten auswählt, welche Aufmerksamkeit bekommt — und was wir beachten, lernen wir.'},
+ {q:'Aus welchen drei Komponenten setzt sich der erwartete Ertrag (ROI) zusammen?',
+  opts:['Spaß, Belohnung, Lob','Wert, Erfolgsaussicht, Aufwand','Wissen, Können, Wollen','Zeit, Geld, Energie'],
+  c:1,why:'Motivation steuert Aufmerksamkeit nach Wert × Erfolgsaussicht ÷ Aufwand — höchster Wert, höchste Aussicht, niedrigster Aufwand gewinnt.'},
+ {q:'Warum reicht ein vernünftiger Appell allein meist nicht aus?',
+  opts:['Schüler:innen sind zu jung für Logik','Motivation läuft größtenteils unbewusst und emotionsgetrieben','Lehrkräfte argumentieren zu kompliziert','Appelle dauern zu lange'],
+  c:1,why:'Heuristiken und Emotion können bewusste Entscheidungen überschreiben — kaum jemand fragt mehr, wenn Spott droht, egal wie gut der Appell ist.'},
+ {q:'Was bedeutet „Motivation ist situationsspezifisch"?',
+  opts:['Sie schwankt mit dem Wetter','Sie richtet sich auf konkrete Gelegenheiten, nicht auf die Person allgemein','Sie gilt nur im Klassenzimmer','Sie hängt nur vom Fach ab'],
+  c:1,why:'X ist motiviert zu etwas, wegen etwas, an einem Ort und zu einer Zeit — deshalb wirken Poster und Sprüche selten dauerhaft.'},
+ {q:'Warum stehen „Spaß-Stunden" und Sticker NICHT im Modell?',
+  opts:['Sie sind verboten','Sie lenken die Aufmerksamkeit auf Spaß/Belohnung statt aufs Lernen (extrinsisch)','Sie kosten zu viel','Kinder mögen sie nicht'],
+  c:1,why:'Extrinsische Treiber wirken bestenfalls kurz, schlimmstenfalls senken sie die Motivation. Die fünf Treiber sind intrinsisch.'},
+ {q:'Welche Erfolgsquote sollten Schüler:innen rückblickend etwa erreichen?',
+  opts:['rund 50 %','rund 65 %','rund 80 %','rund 95 %'],
+  c:2,why:'Mccrea nennt ~80 % als Faustregel — fordernd, aber für möglichst viele erreichbar. „Erfolg sichern" heißt nicht „leichter machen".'},
+ {q:'Wann steigt durch Erfolg die Erfolgsaussicht wirklich?',
+  opts:['Immer, sobald jemand gewinnt','Nur wenn der Erfolg externen Faktoren zugeschrieben wird','Nur wenn er dem eigenen Tun (Anstrengung/Vorgehen) zugeschrieben wird','Nur bei Lob durch die Lehrkraft'],
+  c:2,why:'Akkurate Attribution ist entscheidend: Wird Erfolg auf Glück oder einen einfachen Test geschoben, ändert sich die Erwartung nicht.'},
+ {q:'Aus welchen zwei Bausteinen besteht eine Routine?',
+  opts:['Regel und Strafe','Kette (chain) und Auslöser (cue)','Start und Belohnung','Plan und Kontrolle'],
+  c:1,why:'Eine Kette ist die Handlungsabfolge, der Cue der Auslöser. Ohne Cue kommt keine Routine in Gang.'},
+ {q:'Wie viele Durchläufe braucht eine einfache Routine etwa bis zur Automatisierung?',
+  opts:['bis zu ~5','bis zu ~20','bis zu ~100','bis zu ~500'],
+  c:1,why:'Einfache Routinen ~20, komplexe bis ~200. In der Anlaufphase fühlt es sich nach Mehraufwand an — bis der Kipppunkt kommt.'},
+ {q:'Mit welcher Botschaft nudgt man Normen am wirksamsten?',
+  opts:['Betonen, was man NICHT will („keiner macht Hausaufgaben")','Betonen, was man will (das gewünschte Verhalten)','Mit Strafandrohungen','Mit Vergleich zwischen Klassen'],
+  c:1,why:'„Die meisten haben es nicht gemacht" wirkt als Verstärkung der unerwünschten Norm. Sichtbar machen, was man sehen will.'},
+ {q:'Welche drei Zutaten lassen Zugehörigkeit entstehen?',
+  opts:['Lob, Strafe, Regeln','Status, Affinität, Vertrauen','Spaß, Wettbewerb, Belohnung','Wissen, Können, Wollen'],
+  c:1,why:'Status („wie sehr zählen sie mich"), Affinität („wie sehr sind sie wie ich") und Vertrauen — sind alle drei da, blüht Zugehörigkeit.'},
+ {q:'Wodurch verdient eine Lehrkraft Vertrauen (die drei C)?',
+  opts:['Control, Command, Consequence','Credibility, Care, Consistency','Calm, Clarity, Courage','Charisma, Clout, Charm'],
+  c:1,why:'Credibility (Kompetenz), Care (echtes Interesse) und Consistency (verlässlich, fair, stabil). Status verleiht die Schule, Vertrauen verdient man.'},
+ {q:'Was ist bei Wahlfreiheit im Unterricht zu beachten?',
+  opts:['Mehr Auswahl ist immer besser','Nur sinnvolle Wahl motiviert; oft entscheidet besser die Lehrkraft + Buy-in','Schüler:innen sollten alles selbst entscheiden','Wahl demotiviert grundsätzlich'],
+  c:1,why:'Novizen können über ihr Lernen oft nicht weise entscheiden — fehlgeleitete Autonomie ist schlimmer als keine. Daher: Nutzen sichtbar machen + Opt-in.'},
+ {q:'Was meint „Motivation ist eine vorgelagerte (upstream) Ursache"?',
+  opts:['Sie kommt nach dem Verhalten','Je weiter oben man ansetzt, desto mehr Hebel auf das Verhalten','Sie ist nur eine Folge von Routinen','Sie lässt sich nicht beeinflussen'],
+  c:1,why:'Motivation + Gelegenheit = Verhalten. Wer vor dem Verhalten ansetzt, kommt von Compliance zu echtem Engagement.'}
+];
+
+const quizEl=document.getElementById('quiz');
+let answered=0, score=0;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function renderQuiz(){
+  quizEl.innerHTML=''; answered=0; score=0;
+  document.getElementById('result').classList.remove('show');
+  updateBar();
+  QUIZ.forEach((item,qi)=>{
+    const card=document.createElement('div'); card.className='q';
+    const order=shuffle(item.opts.map((t,idx)=>({t,idx})));
+    let html=`<div class="qn">Frage ${qi+1} / ${QUIZ.length}</div><div class="qt">${item.q}</div>`;
+    card.innerHTML=html;
+    order.forEach(o=>{
+      const b=document.createElement('button'); b.className='opt'; b.textContent=o.t;
+      b.addEventListener('click',()=>{
+        if(card.dataset.done)return;
+        card.dataset.done='1'; answered++;
+        const correct=(o.idx===item.c);
+        if(correct){score++;b.classList.add('correct');}
+        else{
+          b.classList.add('wrong');
+          card.querySelectorAll('.opt').forEach(x=>{if(x.textContent===item.opts[item.c])x.classList.add('correct');});
+        }
+        card.querySelectorAll('.opt').forEach(x=>x.disabled=true);
+        const why=card.querySelector('.why'); why.classList.add('show');
+        updateBar();
+        if(answered===QUIZ.length)finish();
+      });
+      card.appendChild(b);
+    });
+    const why=document.createElement('div'); why.className='why';
+    why.textContent=item.why;
+    card.appendChild(why);
+    quizEl.appendChild(card);
+  });
+}
+function updateBar(){
+  document.getElementById('qcount').textContent=answered+' / '+QUIZ.length+' beantwortet';
+  document.getElementById('qscore').textContent=score+' richtig';
+  document.getElementById('qbar').style.width=(answered/QUIZ.length*100)+'%';
+}
+function finish(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let txt;
+  if(pct>=90)txt='Hervorragend — die Mechanik und alle fünf Treiber sitzen. Bereit, das im Kollegium zu teilen (vorsichtig, wegen „letaler Mutationen").';
+  else if(pct>=70)txt='Stark. Die Kernideen stehen. Wähle einen Treiber mit kleiner Fläche im Radar und plane eine winzige Änderung.';
+  else if(pct>=50)txt='Solide Basis. Geh Akt I (Mechanik) und die zwei sozialen Treiber noch einmal durch.';
+  else txt='Guter Anfang. Beginne mit der Investitions-Engine (Wert/Aussicht/Aufwand) und den fünf Treibern, dann erneut testen.';
+  document.getElementById('resBig').textContent=score+' / '+QUIZ.length;
+  document.getElementById('resTxt').textContent=txt;
+  document.getElementById('result').classList.add('show');
+}
+document.getElementById('resetBtn').addEventListener('click',()=>{renderQuiz();window.scrollTo({top:0,behavior:'smooth'});});
+renderQuiz();
+</script>
+</body>
+</html>

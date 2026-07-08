@@ -1,0 +1,12 @@
+{
+  "name": "cpd-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Baut die Markdown-Dateien aus src/ zu einer statischen HTML-Seite fuer GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.2"
+  }
+}
