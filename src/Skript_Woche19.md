@@ -79,7 +79,7 @@ Tandems interleaven das geblockte Beispielblatt (Anhang 1.3): Welche drei Aufgab
 
 > **Ausblick:** *„Nächste Woche schließen wir Block 3: Wie Wissen sich vernetzt statt stapelt – Elaboration und Knowledge Organizer. Und: Halbjahres-Meilenstein mit Kompetenzmatrix-Vergleich. Bringt euer Playbook UND euren W0-Bogen-Nerv mit – es gibt etwas zu feiern."*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: aktuelle eigene Unterrichtseinheit für den KO-Bau (W20) im Kopf haben; Playbook mitbringen.
 
 ---
 

@@ -75,7 +75,7 @@ Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut i
 
 > **Ausblick:** *„Nächste Woche die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerung: Playbook zur nächsten Sitzung mitbringen (W28).
 
 ---
 

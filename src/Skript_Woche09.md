@@ -84,9 +84,9 @@ Jede:r legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage ma
 
 **Alternativen:** (a) Selbst-Audit-Fix: den in Runde 3 markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben; (b) 80 %-Beobachtung: in einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.
 
-> **Ausblick:** *„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang."*
+> **Ausblick:** *„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang. Bringt das Thema einer echten Stunde eurer KOMMENDEN Woche mit – daran wird gearbeitet."* **(Vorab-Auftrag auf die Exit-Karte!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: Thema einer echten Stunde der kommenden Woche zu W10 mitbringen.
 
 ---
 

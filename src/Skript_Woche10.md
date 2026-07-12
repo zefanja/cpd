@@ -69,7 +69,7 @@ Tandems bewerten die 4 Beispielketten (Handout B) mit der Ampel: Welche zwei sin
 Einzelarbeit an der mitgebrachten realen Stunde: (a) 2–5 Meilensteine schreiben (5 Min.), (b) zur Schlüsselaufgabe des obersten erreichbaren Meilensteins das Exemplar ausformulieren – die Antwort, wie sie im Heft stehen soll (5 Min.). Moderation zirkuliert; häufigste Intervention: *„Das ist die Aufgabe – ich will die ANTWORT sehen."*
 
 ### Runde 3 · Härtetest (Min. 48–52)
-Tandem-Prüfung mit zwei Fragen: **„Woran MISST du Meilenstein 2 – welche Aufgabe stellst du?"** und **„Zeig mir im Exemplar die Stelle, an der schwache Schüler scheitern werden."** → nachschärfen. *(Die zweite Frage erzwingt den Blick auf Schrittgrößen – die Brücke zu W11.)*
+Tandem-Prüfung mit zwei Fragen: **„Woran MISST du Meilenstein 2 – welche Aufgabe stellst du?"** und **„Zeig mir im Exemplar die Scheiter-Stelle – die Stelle, an der schwache Schüler scheitern werden."** → nachschärfen. *(Die zweite Frage erzwingt den Blick auf Schrittgrößen – die Brücke zu W11.)*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
@@ -157,5 +157,5 @@ d) Schulbücher schlecht sind ✗
 2. **See it (4 Min.):** Backwards-Design-Reihenfolge als animierte Umkehrung (Aktivität-zuerst-Pfeil dreht sich um); Lemov-Befund als Balkengrafik (Zeitverwendung Top-Lehrkräfte vs. Durchschnitt).
 3. **Name it (4 Min.):** Ampel-Kriterien als Karten; „Ziel oder Thema?"-Swipe-Spiel mit 10 Formulierungen.
 4. **Do it – Meilenstein-Werkstatt (8 Min., Engine!):** Thema eingeben → Kette bauen → Ampel-Prüfung pro Meilenstein (Heuristik: Verb-Check gegen Nebelverben-Liste „verstehen/kennenlernen/auseinandersetzen/reflektieren"; Prüfaufgaben-Pflichtfeld erzwingt Messbarkeit); die 4 Beispielketten aus Anhang 1.2 als Kalibrier-Level vorab (Fehler finden).
-5. **Exemplar-Editor:** Schlüsselaufgabe + Idealantwort verfassen; App-Prompt: „Markiere die Stelle, an der Schwache scheitern" → dieses Markup wird als Schrittgrößen-Hinweis in Modul 11 wieder eingeblendet (Modul-übergreifende Datennutzung!).
+5. **Exemplar-Editor:** Schlüsselaufgabe + Idealantwort verfassen; App-Prompt: „Markiere die Scheiter-Stelle – die Stelle, an der Schwache scheitern werden" → dieses Markup wird als Schrittgrößen-Hinweis in Modul 11 wieder eingeblendet (Modul-übergreifende Datennutzung!).
 6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Exemplar vor Methodenwahl" mit Wochenzähler + Erinnerung an den Mikroteaching-Vorab-Auftrag für Modul 11.

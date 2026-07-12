@@ -72,9 +72,9 @@ Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den F
 
 *(Whiteboard-Logistik-Hinweis an TN: Wer noch keinen Klassensatz hat – laminierte Klarsichthüllen mit weißem Blatt + Folienstift kosten fast nichts. Beschaffungsweg über die Schule klärt der Coach.)*
 
-> **Ausblick:** *„Nächste Woche das You do – und die provokante These: Die Stillarbeitsphase ist nicht eure Verschnaufpause, sondern die datenreichste Phase der Stunde. Ihr lernt, was ihr währenddessen eigentlich tut."*
+> **Ausblick:** *„Nächste Woche das You do – und die provokante These: Die Stillarbeitsphase ist nicht eure Verschnaufpause, sondern die datenreichste Phase der Stunde. Ihr lernt, was ihr währenddessen eigentlich tut. Bringt dafür den Sitzplan eurer Hauptklasse mit – Kopie oder Foto genügt."*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Sitzplan-Erinnerung (W13).
 
 ---
 

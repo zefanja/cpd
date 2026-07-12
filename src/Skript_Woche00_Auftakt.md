@@ -21,7 +21,7 @@
 
 **Material (Checkliste):**
 - [ ] Programm-Landkarte als A3-Druck pro TN (Jahreskreis: 6 Blöcke farbig, 5 Hospitations-Fähnchen, 3 Meilenstein-Sterne, Kolloquium als Ziel)
-- [ ] Kompetenzmatrix-Bogen (Anhang 2) – ausreichend Kopien, wird 3× im Jahr genutzt
+- [ ] Kompetenzmatrix-Bogen (Anhang 2) – ausreichend Kopien, wird 3× vollständig erhoben (W0/W20/W36), dazu Teil-Updates an den Meilensteinen W8/W14/W26/W31
 - [ ] Zielvereinbarungs-Formular (Anhang 3)
 - [ ] Kamera-Einverständniserklärungen (Baseline-Video Woche 1; Datenschutz: Video verbleibt bei TN/Coach, keine Weitergabe)
 - [ ] Terminübersicht Coaching-Slots zum Eintragen
@@ -64,7 +64,7 @@ Einverständnisse + Coaching-Slots einsammeln/eintragen (2 Min., parallel zur Ü
 
 ## Phase 3 · Kompetenzmatrix: das Vorher-Bild in Zahlen (Minute 25–35)
 
-> *„Bevor wir üben: eine ehrliche Selbsteinschätzung. Acht Felder, vier Stufen, keine Schulnoten, niemand sieht sie außer euch und eurem Coach. Zwei Regeln: Erstens, Stufe 1 heißt nicht ‚schlecht', sondern ‚am Anfang' – wo sonst solltet ihr nach drei Wochen stehen? Zweitens, kreuzt nach der letzten realen Woche an, nicht nach eurem besten Tag. Wir wiederholen das in Woche 20 und Woche 36 – und ich verspreche euch: Der Blick zurück auf diesen Bogen wird einer der schönsten Momente des Jahres."*
+> *„Bevor wir üben: eine ehrliche Selbsteinschätzung. Acht Felder, vier Stufen, keine Schulnoten, niemand sieht sie außer euch und eurem Coach. Zwei Regeln: Erstens, Stufe 1 heißt nicht ‚schlecht', sondern ‚am Anfang' – wo sonst solltet ihr nach drei Wochen stehen? Zweitens, kreuzt nach der letzten realen Woche an, nicht nach eurem besten Tag. Wir wiederholen das vollständig in Woche 20 und Woche 36 – zwischendurch aktualisieren wir an den Meilensteinen einzelne Felder – und ich verspreche euch: Der Blick zurück auf diesen Bogen wird einer der schönsten Momente des Jahres."*
 
 Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer früher fertig ist, liest die Landkarte.
 
@@ -101,7 +101,7 @@ Ab heute Standard: (1) Das nehme ich mit: … (2) Das macht mir noch Sorge: … 
 
 # Anhang 2: Kompetenzmatrix (8 Felder × 4 Stufen)
 
-*Anleitung: pro Feld die Stufe ankreuzen, die den NORMALFALL der letzten Woche beschreibt. Wird identisch in W20 und W36 erhoben; SPA rendert die drei Erhebungen als Spinnennetz.*
+*Anleitung: pro Feld die Stufe ankreuzen, die den NORMALFALL der letzten Woche beschreibt. Wird vollständig identisch in W20 und W36 erhoben (Teil-Updates an den Meilensteinen W8/W14/W26/W31); SPA rendert die drei Vollerhebungen als Spinnennetz W0/W20/W36.*
 
 **Stufenlogik (für alle Felder):** Stufe 1 = „Ich reagiere situativ, es fühlt sich zufällig an" · Stufe 2 = „Ich habe ein Vorgehen, muss aktiv daran denken" · Stufe 3 = „Läuft in Standardsituationen stabil, kippt unter Druck" · Stufe 4 = „Läuft automatisch, ich kann situativ anpassen".
 
