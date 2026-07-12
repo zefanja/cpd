@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 0 · Kickoff – Handwerk ist lernbar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Hook ---------- */
+.beat{opacity:.22;transition:opacity .4s ease;font-size:1.12rem;max-width:40rem;margin-top:1rem}
+.beat.on{opacity:1}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,6vw,2.8rem);
+  color:var(--petrol);margin-top:1.4rem;opacity:0;transform:scale(.96);transition:all .5s ease;
+}
+.punchline.on{opacity:1;transform:none}
+
+/* ---------- Jahreskreis ---------- */
+.map-wrap{display:grid;gap:1.2rem;margin-top:1.2rem}
+@media(min-width:760px){.map-wrap{grid-template-columns:minmax(300px,420px) 1fr;align-items:start}}
+.yearcircle{width:100%;height:auto;display:block}
+.yearcircle path.block{cursor:pointer;transition:opacity .2s, transform .2s;transform-origin:center}
+.yearcircle path.block:hover{opacity:.85}
+.yearcircle path.block.sel{stroke:var(--ink);stroke-width:3}
+.block-info{min-height:11rem}
+.block-info .leitfrage{font-style:italic;color:var(--petrol);font-weight:600;margin-top:.5rem}
+.legend{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:.9rem;font-size:.8rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+
+/* ---------- Flip-Karten ---------- */
+.flip-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
+@media(min-width:640px){.flip-grid{grid-template-columns:repeat(3,1fr)}}
+.flip{perspective:1100px;cursor:pointer;min-height:11.5rem}
+.flip-inner{position:relative;width:100%;height:100%;min-height:inherit;transition:transform .55s;transform-style:preserve-3d}
+.flip.flipped .flip-inner{transform:rotateY(180deg)}
+.flip-face{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border-radius:var(--radius);padding:1rem;display:flex;flex-direction:column;justify-content:center;
+}
+.flip-front{background:var(--petrol);color:#fff}
+.flip-front.bitte{background:#3E4A45}
+.flip-front .tag{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;opacity:.75;font-weight:700;margin-bottom:.4rem}
+.flip-front .t{font-family:var(--display);font-weight:700;font-size:1.15rem;line-height:1.2}
+.flip-front .tap{margin-top:auto;font-size:.7rem;opacity:.65}
+.flip-back{background:var(--card);border:1px solid var(--line);transform:rotateY(180deg);font-size:.88rem;overflow:auto}
+
+/* ---------- Kompetenzmatrix ---------- */
+.matrix-wrap{display:grid;gap:1.2rem;margin-top:1.1rem}
+@media(min-width:860px){.matrix-wrap{grid-template-columns:1fr minmax(280px,340px)}
+  .spider-sticky{position:sticky;top:5rem}}
+.matrix-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-bottom:.7rem}
+.matrix-item h3{display:flex;gap:.5rem;align-items:baseline;font-size:1rem}
+.matrix-item .num{color:var(--petrol);font-size:.85rem}
+.matrix-item .lf{font-size:.86rem;color:var(--muted);margin:.25rem 0 .6rem}
+.stufen{display:grid;grid-template-columns:repeat(4,1fr);gap:.35rem}
+.stufe-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.45rem .2rem;font-size:.82rem;font-weight:700;cursor:pointer;color:var(--muted);
+  font-family:var(--body);
+}
+.stufe-btn.sel{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.stufe-desc{font-size:.76rem;color:var(--muted);margin-top:.45rem;min-height:2.1em}
+.spider-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;text-align:center}
+.spider-card svg{width:100%;max-width:320px;height:auto}
+.matrix-count{font-size:.82rem;font-weight:600;color:var(--petrol);margin-top:.4rem}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text]{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Mini-Skript ---------- */
+.script-steps{counter-reset:s;margin-top:1rem}
+.script-step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-bottom:.7rem;position:relative;padding-left:3.1rem}
+.script-step::before{
+  counter-increment:s;content:counter(s);position:absolute;left:.85rem;top:.95rem;
+  width:1.7rem;height:1.7rem;border-radius:50%;background:var(--petrol);color:#fff;
+  font-family:var(--display);font-weight:700;font-size:.9rem;display:flex;align-items:center;justify-content:center;
+}
+
+/* ---------- Ausblick / Abschluss ---------- */
+.quote-block{border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1rem;font-style:italic;color:#3E4A45}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport table{width:100%;border-collapse:collapse;font-size:9.5pt}
+  #printReport th,#printReport td{border:.75pt solid #999;padding:4pt 6pt;text-align:left;vertical-align:top}
+  #printReport th{background:#E0ECE9}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .spider-print{text-align:center;margin:8pt 0}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <span class="brand">MODUL 0</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Auftakt · Woche 0 · Fortbildung Quereinsteiger:innen Sek I/II</span>
+  <h1>Kickoff:<br>Handwerk ist lernbar.</h1>
+  <p class="lead">Willkommen zu Modul 0. In etwa 25 Minuten lernst du das Programmjahr kennen, erstellst dein persönliches Vorher-Bild und schreibst dein erstes Mini-Skript. Alles, was du hier eingibst, kannst du am Ende gesammelt als PDF exportieren – für dich und deinen Coach.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Die Geschichte hinter dem Programm → die Jahres-Landkarte → drei Versprechen &amp; drei Bitten → deine Kompetenzmatrix (W0) → deine Zielvereinbarung → dein 30-Sekunden-Skript → dein erster Action Step.</p>
+  </div>
+  <div class="field">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="card" id="resumeCard" style="display:none">
+    <h3>Frühere Sitzung fortsetzen</h3>
+    <p class="hint">Hast du deinen Fortschritt zuvor als Datei gesichert? Lade sie hier, um dort weiterzumachen.</p>
+    <p style="margin-top:.6rem">
+      <label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Fortschrittsdatei laden</label>
+      <input type="file" id="fileLoadStart" accept="application/json" style="display:none">
+    </p>
+  </div>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📵 Kein Quiz – einziges Mal im Jahr</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht's →</button></p>
+</section>
+
+<!-- 1 · HOOK -->
+<section class="screen" data-title="Die Gründungsidee">
+  <span class="eyebrow">Station 1 · Die Gründungsidee</span>
+  <h2>Man hat es – oder man hat es nicht?</h2>
+  <div id="beats">
+    <p class="beat" data-beat="0">Oliver Lovell, erfahrener Lehrer und Podcaster, beschreibt seine ersten Jahre so: Er glaubte lange, gegen Unterrichtsstörungen helfe nur zweierlei – <strong>Erfahrung</strong> oder ein von Natur aus lauter <strong>Bariton</strong>. Man hat es, oder man hat es nicht.</p>
+    <p class="beat" data-beat="1">Dann sah er Kolleg:innen, die weder besonders laut noch besonders alt waren – und deren Klassen ruhig und konzentriert arbeiteten.</p>
+    <p class="beat" data-beat="2">Und er entdeckte: Diese Leute <strong>TATEN</strong> konkrete, beschreibbare, kopierbare Dinge.</p>
+    <p class="punchline" data-beat="3">Kein Charisma. Techniken.</p>
+    <div class="card" data-beat="4" style="opacity:0;transition:opacity .5s" >
+      <p><strong>Das ist die Gründungsidee dieses Jahres:</strong> Unterrichten ist ein Handwerk. Und Handwerk ist lernbar. Doug Lemov hat hunderte Stunden Videomaterial von Lehrkräften analysiert, deren Klassen außergewöhnliche Ergebnisse erzielen – das Ergebnis ist keine Liste von Persönlichkeitsmerkmalen, sondern eine <strong>Liste von Handlungen</strong>. Was eine Person tun kann, kann eine andere lernen.</p>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem">
+    <button class="btn" id="beatBtn">Weiter erzählen</button>
+    <button class="btn ghost" data-nav="next" id="beatDone" style="display:none">Zur Landkarte →</button>
+  </p>
+</section>
+
+<!-- 2 · LANDKARTE -->
+<section class="screen" data-title="Die Programm-Landkarte">
+  <span class="eyebrow">Station 2 · Die Programm-Landkarte</span>
+  <h2>Ein Jahr, sechs Blöcke, ein Ziel.</h2>
+  <p class="lead">Tippe die Blöcke im Jahreskreis an. Jeder Block hat eine Leitfrage – zusammen ergeben sie deinen Weg zur handlungssicheren Lehrkraft.</p>
+  <div class="map-wrap">
+    <div>
+      <svg class="yearcircle" id="yearcircle" viewBox="0 0 300 300" role="img" aria-label="Jahreskreis mit sechs Blöcken"></svg>
+      <div class="legend">
+        <span>⚑ 5 gemeinsame Hospitationen</span>
+        <span>★ 3 Meilensteine (Kompetenzmatrix W0 · W20 · W36)</span>
+        <span>🎓 Kolloquium mit Vorher-/Nachher-Video</span>
+      </div>
+    </div>
+    <div class="card block-info" id="blockInfo">
+      <h3>Tippe einen Block an</h3>
+      <p class="hint">Der Kreis beginnt oben bei Woche 1 und läuft im Uhrzeigersinn durch das Jahr bis zum Kolloquium.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Die drei Formate – und ihr Zusammenspiel</h3>
+    <p style="font-size:.92rem"><strong>Wocheninput</strong> gibt dir die Technik und die erste Übung. Der <strong>Action Step</strong> trägt sie in deine Klasse. Das <strong>Coaching</strong> schaut genau darauf – nicht auf alles, nur auf diesen einen Schritt. Die <strong>Hospitationen</strong> kalibrieren deinen Anspruch: Du musst gesehen haben, wie ruhig eine Klasse arbeiten KANN, um es für deine anzustreben.</p>
+    <p style="font-size:.92rem;margin-top:.6rem">💡 <strong>Zur Kamera:</strong> In Woche 1 nehmen wir 15 Minuten deines Unterrichts auf. Dieses Video schaut sich zunächst NIEMAND an – auch du nicht. Es wird versiegelt und erst in Woche 8 und Woche 36 geöffnet. Es ist dein Vorher-Bild. Du wirst es lieben – in Woche 36.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<!-- 3 · VERSPRECHEN & BITTEN -->
+<section class="screen" data-title="Drei Versprechen · Drei Bitten">
+  <span class="eyebrow">Station 3 · Der Vertrag</span>
+  <h2>Drei Versprechen. Drei Bitten.</h2>
+  <p class="lead">Tippe jede Karte, um sie umzudrehen. Das ist unser Arbeitsvertrag für 36 Wochen.</p>
+  <div class="flip-grid" id="flipGrid"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Kompetenzmatrix →</button></p>
+</section>
+
+<!-- 4 · KOMPETENZMATRIX -->
+<section class="screen" data-title="Kompetenzmatrix W0">
+  <span class="eyebrow">Station 4 · Dein Vorher-Bild in Zahlen</span>
+  <h2>Kompetenzmatrix – Erhebung Woche 0</h2>
+  <p class="lead">Acht Felder, vier Stufen, keine Schulnoten. Niemand sieht das außer dir und deinem Coach.</p>
+  <div class="card">
+    <p style="font-size:.92rem"><strong>Zwei Regeln:</strong> Erstens – Stufe 1 heißt nicht „schlecht", sondern „am Anfang". Wo sonst solltest du nach drei Wochen stehen? Zweitens – wähle nach der <strong>letzten realen Woche</strong>, nicht nach deinem besten Tag. Wir wiederholen das in Woche 20 und Woche 36. Der Blick zurück auf diese Erhebung wird einer der schönsten Momente des Jahres.</p>
+  </div>
+  <div class="matrix-wrap">
+    <div id="matrixList"></div>
+    <div class="spider-sticky">
+      <div class="spider-card">
+        <h3>Dein Spinnennetz · W0</h3>
+        <svg id="spider" viewBox="0 0 300 300" role="img" aria-label="Spinnennetz-Diagramm der Selbsteinschätzung"></svg>
+        <div class="matrix-count" id="matrixCount">0 von 8 Feldern eingeschätzt</div>
+        <p class="hint" style="margin-top:.4rem">In Woche 20 und 36 kommen zwei weitere Netze dazu – dann siehst du dein Wachstum.</p>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Zielvereinbarung →</button></p>
+</section>
+
+<!-- 5 · ZIELVEREINBARUNG -->
+<section class="screen" data-title="Zielvereinbarung">
+  <span class="eyebrow">Station 5 · Zielvereinbarung</span>
+  <h2>Was soll sich für dich lohnen?</h2>
+  <p class="lead">Ehrlich und in eigenen Worten. Dein Coach bekommt eine Kopie – und stellt dir dazu genau eine Frage: „Was davon ist am dringendsten?"</p>
+  <div class="field">
+    <label for="zielJahr">Mein wichtigstes Ziel für dieses Jahr <span class="sub">In eigenen Worten – kein Behördendeutsch.</span></label>
+    <textarea id="zielJahr" data-store="ziel" placeholder="z. B. Ich möchte meine 8b so führen, dass ich freitags nicht mehr erschöpft nach Hause fahre …"></textarea>
+  </div>
+  <div class="field">
+    <label for="sorge1">Sorge Nr. 1 <span class="sub">Was macht dir aktuell am meisten Sorge?</span></label>
+    <textarea id="sorge1" data-store="sorge1" placeholder="…"></textarea>
+  </div>
+  <div class="field">
+    <label for="sorge2">Sorge Nr. 2</label>
+    <textarea id="sorge2" data-store="sorge2" placeholder="…"></textarea>
+  </div>
+  <div class="field">
+    <label for="juni">Woran merke ich im Juni konkret, dass sich das Jahr gelohnt hat?</label>
+    <textarea id="juni" data-store="juni" placeholder="z. B. Meine Stunden starten in unter einer Minute, und ich korrigiere sonntags nicht mehr …"></textarea>
+  </div>
+  <div class="field">
+    <label for="staerken">Das bringe ich mit <span class="sub">Stärken aus Beruf und Leben, die dir im Unterricht helfen können.</span></label>
+    <textarea id="staerken" data-store="staerken" placeholder="z. B. 12 Jahre Projektleitung: Ich kann Prozesse strukturieren und bleibe unter Druck ruhig …"></textarea>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Mini-Skript →</button></p>
+</section>
+
+<!-- 6 · MINI-SKRIPT -->
+<section class="screen" data-title="Mini-Skript: Die erste halbe Minute">
+  <span class="eyebrow">Station 6 · Deine erste Übung</span>
+  <h2>Die erste halbe Minute.</h2>
+  <p class="lead">An unserer Schule gilt das Ritual: Die Klasse ist im Raum, du kommst herein, alle stehen auf, Begrüßung, Setzen. Skripte jetzt genau diese 30 Sekunden – Wort für Wort. In Woche 3 bauen wir daraus die volle Routine.</p>
+  <div class="card">
+    <p style="font-size:.9rem">✍️ <strong>Wichtig:</strong> Schreiben ist Schritt 1 – Schritt 2 ist <em>laut sprechen</em>. Spiele dein Skript nach dem Ausfüllen mindestens zweimal durch: vor dem Spiegel, vor deinem Tandem, notfalls vor der Kaffeemaschine. Das Albernheitsgefühl von heute ist in Woche 4 komplett weg. Versprochen.</p>
+  </div>
+  <div class="script-steps">
+    <div class="script-step">
+      <h3>Weg &amp; Position</h3>
+      <p class="hint">Wohin gehst du beim Eintreten? Wo ist dein fester Punkt im Raum?</p>
+      <textarea data-store="skript1" placeholder="z. B. Ich gehe ruhig zum Pultplatz vorne links, Tasche ab, Blick zur Klasse …"></textarea>
+    </div>
+    <div class="script-step">
+      <h3>Warten – worauf genau?</h3>
+      <p class="hint">Du wartest schweigend auf 100 %: alle stehen, alles still. Woran erkennst du, dass es so weit ist?</p>
+      <textarea data-store="skript2" placeholder="z. B. Alle stehen hinter ihrem Stuhl, kein Gemurmel, Blicke nach vorn. Erst dann spreche ich …"></textarea>
+    </div>
+    <div class="script-step">
+      <h3>Gruß-Wortlaut</h3>
+      <p class="hint">Dein exakter Satz – jeden Tag derselbe.</p>
+      <textarea data-store="skript3" placeholder="z. B. „Guten Morgen, 8b.“"></textarea>
+    </div>
+    <div class="script-step">
+      <h3>Setz-Signal</h3>
+      <p class="hint">Wort oder Geste, mit der sich alle setzen.</p>
+      <textarea data-store="skript4" placeholder="z. B. „Setzt euch.“ + offene Handbewegung nach unten …"></textarea>
+    </div>
+    <div class="script-step">
+      <h3>Der erste Satz danach</h3>
+      <p class="hint">Was sagst du unmittelbar nach dem Setzen? (Ideal: direkt in den Starter.)</p>
+      <textarea data-store="skript5" placeholder="z. B. „Ihr habt drei Minuten für die zwei Aufgaben an der Tafel – los.“"></textarea>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<!-- 7 · AUSBLICK -->
+<section class="screen" data-title="Ausblick: Warum hier kein Quiz steht">
+  <span class="eyebrow">Station 7 · Ausblick</span>
+  <h2>Hier steht kein Quiz.</h2>
+  <p class="lead">Genieß es – das ist das einzige quizfreie Modul deines Jahres.</p>
+  <div class="card">
+    <p><strong>Ab Modul 1 beginnt jedes Modul mit Abruf:</strong> ein kurzes Quiz über die Vorwoche, bevor Neues kommt. Warum wir das tun, erfährst du in Modul 18 aus der Wissenschaft – und spürst du selbst ab Modul 2: Was du aktiv abrufst, bleibt. Was du nur wiedererkennst, verschwindet.</p>
+  </div>
+  <div class="quote-block">„Nächste Woche bekommst du die Denkbrille für das ganze Jahr: fünf Modelle, die erklären, warum Klassen sich verhalten, wie sie sich verhalten."</div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Zum Abschluss →</button></p>
+</section>
+
+<!-- 8 · ABSCHLUSS & EXPORT -->
+<section class="screen" data-title="Action Step & Export">
+  <span class="eyebrow">Station 8 · Dein erster Action Step</span>
+  <h2>Ein Schritt. Nicht fünf.</h2>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600">Mein Action Step bis zum nächsten Input: Ich führe das Begrüßungsritual in <strong>jeder</strong> Stunde bewusst vollständig durch – eintreten, schweigend warten auf 100 % Stehen und Stille, Gruß, Setz-Signal, erster Satz. Genau nach meinem Skript.</label>
+  </div>
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das nehme ich mit:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Das macht mir noch Sorge:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" style="margin-top:.7rem">Der PDF-Export öffnet den Druckdialog deines Geräts – wähle dort „Als PDF speichern". Das PDF enthält alle Eingaben gesammelt auf einem Bogen: Kompetenzmatrix mit Spinnennetz, Zielvereinbarung, Mini-Skript und Exit-Karte. Gib es deinem Coach im Kennenlerngespräch.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen – das funktioniert unabhängig vom Browser.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script>
+/* ================= Daten ================= */
+const BLOCKS=[
+ {n:1,w:8,color:'var(--b1)',hex:'#0E5B54',title:'Klassenführung',
+  satz:'Erst der Raum, dann die Kunst: Routinen, Aufmerksamkeit, ruhige Intervention.',
+  frage:'Wie schaffe ich einen Raum, in dem Lernen überhaupt möglich ist?'},
+ {n:2,w:6,color:'var(--b2)',hex:'#2E5E8C',title:'Effektive Instruktion',
+  satz:'Das Grundgerüst guten Erklärens und Übens – das am besten abgesicherte Wissen der Unterrichtsforschung.',
+  frage:'Wie erkläre und übe ich so, dass Novizen wirklich folgen können?'},
+ {n:3,w:6,color:'var(--b3)',hex:'#6C4E85',title:'Lernpsychologie & Gedächtnis',
+  satz:'Warum das alles funktioniert: wie Gedächtnis und Aufmerksamkeit wirklich arbeiten.',
+  frage:'Wie muss Unterricht gebaut sein, damit im Kopf etwas bleibt?'},
+ {n:4,w:5,color:'var(--b4)',hex:'#4E7A38',title:'Verstehen prüfen',
+  satz:'In Echtzeit sehen, was in 28 Köpfen passiert – Daten statt Bauchgefühl.',
+  frage:'Woher weiß ich in jeder Stunde, wer wo steht – bei ALLEN?'},
+ {n:5,w:5,color:'var(--b5)',hex:'#B96A24',title:'Motivation',
+  satz:'Keine Zauberei, sondern ein System mit fünf Stellschrauben.',
+  frage:'Wie entsteht Anstrengungsbereitschaft – planbar statt magisch?'},
+ {n:6,w:6,color:'var(--b6)',hex:'#9A4432',title:'Planung & Selbstentwicklung',
+  satz:'All das mit vertretbarem Zeitaufwand planen – und sich danach selbst weiterentwickeln.',
+  frage:'Wie plane ich gut in guter Zeit – und wie lerne ich nach diesem Jahr weiter?'}
+];
+const FLIPS=[
+ {kind:'Versprechen 1',t:'Werkzeug statt Theorie-Studium',b:'Du bekommst jede Woche Werkzeug, das du am Montag benutzen kannst. Keine Vorlesungen, keine Referate – Technik, Übung, Einsatz.',bitte:false},
+ {kind:'Versprechen 2',t:'Die Reihenfolge ist für dich gebaut',b:'Wir beginnen mit dem, was dich nachts wachhält – Klassenführung – und nicht mit Bildungstheorie. Erst der Raum, dann die Kunst.',bitte:false},
+ {kind:'Versprechen 3',t:'Hier wird niemand vorgeführt. Nie.',b:'Coaching und alles im Programm ist entwicklungs-, nicht beurteilungsbezogen. Nichts fließt in dienstliche Bewertungen. Dein Coach hat Schweigepflicht Richtung Schulleitung.',bitte:false},
+ {kind:'Bitte 1',t:'Hier wird geübt. Laut.',b:'Im Rollenspiel, mit Skript. Das fühlt sich die ersten zwei Male albern an. Das ist normal, es vergeht – und es ist der Grund, warum dieses Programm funktioniert: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht. Kein Mensch hat Fahrradfahren aus einem Vortrag gelernt.',bitte:true},
+ {kind:'Bitte 2',t:'Ein kleiner Schritt pro Woche',b:'Du nimmst jede Woche EINEN konkreten Action Step mit. Nicht fünf. Wer fünf Dinge gleichzeitig ändert, ändert keins.',bitte:true},
+ {kind:'Bitte 3',t:'Ehrlichkeit',b:'Wenn etwas nicht klappt, ist das hier der sicherste Ort der Schule, es zu sagen. Aus deinen Pannen lernt die ganze Gruppe.',bitte:true}
+];
+const MATRIX=[
+ {t:'Routinen & Stundenstart',f:'Beginnen meine Stunden verlässlich strukturiert (Begrüßungsritual sauber, Starter läuft, <60 Sek. bis alle arbeiten)?'},
+ {t:'Anweisungen & Aufmerksamkeit',f:'Bekomme ich die Klasse zuverlässig still, und kommen meine Arbeitsanweisungen beim ersten Mal an?'},
+ {t:'Intervention & Präsenz',f:'Reagiere ich auf Störungen ruhig, abgestuft und ohne den Unterricht zu unterbrechen?'},
+ {t:'Erklären & Modellieren',f:'Kann ich Neues in kleinen Schritten, mit Beispielen und hörbarem Denken so erklären, dass Novizen folgen?'},
+ {t:'Übungsphasen führen',f:'Leite ich Übungsphasen klar ein und weiß ich währenddessen, wer wo steht?'},
+ {t:'Verstehen prüfen',f:'Habe ich pro Stunde belastbare Daten über den Lernstand ALLER (nicht nur der Melder)?'},
+ {t:'Beteiligung & Fragenkultur',f:'Denken bei meinen Fragen alle mit – und bleibt niemand dauerhaft unsichtbar?'},
+ {t:'Planung & Arbeitsökonomie',f:'Plane ich zielgerichtet in vertretbarer Zeit, und überlebe ich Korrekturphasen?'}
+];
+const STUFEN=[
+ 'Stufe 1 · „Ich reagiere situativ, es fühlt sich zufällig an."',
+ 'Stufe 2 · „Ich habe ein Vorgehen, muss aktiv daran denken."',
+ 'Stufe 3 · „Läuft in Standardsituationen stabil, kippt unter Druck."',
+ 'Stufe 4 · „Läuft automatisch, ich kann situativ anpassen."'
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',matrix:Array(8).fill(0),ziel:'',sorge1:'',sorge2:'',juni:'',staerken:'',
+ skript1:'',skript2:'',skript3:'',skript4:'',skript5:'',commit:false,exitMit:'',exitSorge:''};
+const STORE_KEY='modul0-onboarding';
+let saveTimer=null;
+
+/* Speicherkette: 1) Claude-Artefakt-Speicher  2) Browser-Speicher (lokale Datei / Webserver)  3) nur Sitzung */
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m0test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+/* Beim Verlassen/Wechseln der Seite sofort sichern, damit nichts im Debounce verloren geht */
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook ================= */
+let beat=0;
+const beatEls=[...document.querySelectorAll('[data-beat]')];
+document.getElementById('beatBtn').addEventListener('click',()=>{
+  const el=beatEls[beat];
+  if(!el)return;
+  if(el.classList.contains('beat')||el.classList.contains('punchline'))el.classList.add('on');
+  else el.style.opacity='1';
+  beat++;
+  if(beat>=beatEls.length){
+    document.getElementById('beatBtn').style.display='none';
+    document.getElementById('beatDone').style.display='inline-flex';
+  }
+});
+
+/* ================= Jahreskreis ================= */
+(function drawYear(){
+  const svg=document.getElementById('yearcircle');
+  const cx=150,cy=150,rO=118,rI=68;
+  const total=BLOCKS.reduce((a,b)=>a+b.w,0);
+  let acc=0;const gap=0.02;
+  function pt(r,a){return[cx+r*Math.cos(a),cy+r*Math.sin(a)];}
+  let inner='';
+  BLOCKS.forEach((b,i)=>{
+    const a0=-Math.PI/2+ (acc/total)*2*Math.PI+gap;
+    const a1=-Math.PI/2+ ((acc+b.w)/total)*2*Math.PI-gap;
+    acc+=b.w;
+    const large=(a1-a0)>Math.PI?1:0;
+    const[p0x,p0y]=pt(rO,a0),[p1x,p1y]=pt(rO,a1),[p2x,p2y]=pt(rI,a1),[p3x,p3y]=pt(rI,a0);
+    inner+='<path class="block" data-i="'+i+'" fill="'+b.hex+'" d="M'+p0x.toFixed(1)+' '+p0y.toFixed(1)
+      +' A'+rO+' '+rO+' 0 '+large+' 1 '+p1x.toFixed(1)+' '+p1y.toFixed(1)
+      +' L'+p2x.toFixed(1)+' '+p2y.toFixed(1)
+      +' A'+rI+' '+rI+' 0 '+large+' 0 '+p3x.toFixed(1)+' '+p3y.toFixed(1)+' Z"><title>Block '+b.n+': '+b.title+'</title></path>';
+    const am=(a0+a1)/2;const[tx,ty]=pt((rO+rI)/2,am);
+    inner+='<text x="'+tx.toFixed(1)+'" y="'+ty.toFixed(1)+'" fill="#fff" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle" pointer-events="none" font-family="var(--display)">'+b.n+'</text>';
+  });
+  // Meilenstein-Sterne (W0, W20, W36) und Hospitations-Fähnchen (dekorativ, gleichmäßig)
+  const marks=[{w:0,s:'★'},{w:20,s:'★'},{w:36,s:'★'}];
+  marks.forEach(m=>{
+    const a=-Math.PI/2+(m.w/total)*2*Math.PI;const[x,y]=pt(rO+11,a);
+    inner+='<text x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#C98A1B">★</text>';
+  });
+  for(let k=1;k<=5;k++){
+    const a=-Math.PI/2+((k*6-2)/total)*2*Math.PI;const[x,y]=pt(rO+11,a);
+    inner+='<text x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#5E6862">⚑</text>';
+  }
+  inner+='<text x="'+cx+'" y="'+(cy-8)+'" text-anchor="middle" font-size="12" fill="#5E6862" font-weight="600">36 Wochen</text>';
+  inner+='<text x="'+cx+'" y="'+(cy+12)+'" text-anchor="middle" font-size="13" fill="#0E5B54" font-weight="700">🎓 Kolloquium</text>';
+  svg.innerHTML=inner;
+  const info=document.getElementById('blockInfo');
+  svg.querySelectorAll('.block').forEach(p=>{
+    p.addEventListener('click',()=>{
+      svg.querySelectorAll('.block').forEach(q=>q.classList.remove('sel'));
+      p.classList.add('sel');
+      const b=BLOCKS[+p.dataset.i];
+      info.innerHTML='<span class="eyebrow" style="background:'+b.hex+'22;color:'+b.hex+'">Block '+b.n+' · '+b.title+'</span>'
+        +'<p style="font-size:.95rem">'+b.satz+'</p>'
+        +'<p class="leitfrage">Leitfrage: '+b.frage+'</p>';
+    });
+  });
+})();
+
+/* ================= Flip-Karten ================= */
+(function(){
+  const g=document.getElementById('flipGrid');
+  FLIPS.forEach(f=>{
+    const d=document.createElement('div');d.className='flip';d.setAttribute('role','button');d.tabIndex=0;
+    d.innerHTML='<div class="flip-inner"><div class="flip-face flip-front'+(f.bitte?' bitte':'')+'">'
+      +'<div class="tag">'+f.kind+'</div><div class="t">'+f.t+'</div><div class="tap">Antippen zum Umdrehen</div></div>'
+      +'<div class="flip-face flip-back"><p>'+f.b+'</p></div></div>';
+    const flip=()=>d.classList.toggle('flipped');
+    d.addEventListener('click',flip);
+    d.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}});
+    g.appendChild(d);
+  });
+})();
+
+/* ================= Kompetenzmatrix ================= */
+function renderMatrix(){
+  const list=document.getElementById('matrixList');list.innerHTML='';
+  MATRIX.forEach((m,i)=>{
+    const div=document.createElement('div');div.className='matrix-item';
+    let btns='';
+    for(let s=1;s<=4;s++){
+      btns+='<button class="stufe-btn'+(state.matrix[i]===s?' sel':'')+'" data-i="'+i+'" data-s="'+s+'">'+s+'</button>';
+    }
+    div.innerHTML='<h3><span class="num">'+(i+1)+'.</span> '+m.t+'</h3><p class="lf">'+m.f+'</p>'
+      +'<div class="stufen">'+btns+'</div>'
+      +'<p class="stufe-desc">'+(state.matrix[i]?STUFEN[state.matrix[i]-1]:'Wähle die Stufe, die den NORMALFALL deiner letzten Woche beschreibt.')+'</p>';
+    list.appendChild(div);
+  });
+  list.querySelectorAll('.stufe-btn').forEach(b=>b.addEventListener('click',()=>{
+    state.matrix[+b.dataset.i]=+b.dataset.s;
+    scheduleSave();renderMatrix();drawSpider();
+  }));
+  drawSpider();
+}
+function spiderSVG(values,size){
+  const c=size/2,rMax=size/2-42,n=8;
+  const ang=i=>-Math.PI/2+i*2*Math.PI/n;
+  let s='';
+  for(let ring=1;ring<=4;ring++){
+    const r=rMax*ring/4;let pts=[];
+    for(let i=0;i<n;i++)pts.push((c+r*Math.cos(ang(i))).toFixed(1)+','+(c+r*Math.sin(ang(i))).toFixed(1));
+    s+='<polygon points="'+pts.join(' ')+'" fill="none" stroke="#D6DAD0" stroke-width="1"/>';
+  }
+  for(let i=0;i<n;i++){
+    const x=c+rMax*Math.cos(ang(i)),y=c+rMax*Math.sin(ang(i));
+    s+='<line x1="'+c+'" y1="'+c+'" x2="'+x.toFixed(1)+'" y2="'+y.toFixed(1)+'" stroke="#D6DAD0" stroke-width="1"/>';
+    const lx=c+(rMax+22)*Math.cos(ang(i)),ly=c+(rMax+22)*Math.sin(ang(i));
+    s+='<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" font-size="11" font-weight="600" fill="#5E6862" text-anchor="middle" dominant-baseline="middle">'+(i+1)+'</text>';
+  }
+  if(values.some(v=>v>0)){
+    let pts=[];
+    for(let i=0;i<n;i++){
+      const v=values[i]||0,r=rMax*v/4;
+      pts.push((c+r*Math.cos(ang(i))).toFixed(1)+','+(c+r*Math.sin(ang(i))).toFixed(1));
+    }
+    s+='<polygon points="'+pts.join(' ')+'" fill="rgba(14,91,84,.22)" stroke="#0E5B54" stroke-width="2.5" stroke-linejoin="round"/>';
+    for(let i=0;i<n;i++){
+      const v=values[i]||0;if(!v)continue;
+      const r=rMax*v/4;
+      s+='<circle cx="'+(c+r*Math.cos(ang(i))).toFixed(1)+'" cy="'+(c+r*Math.sin(ang(i))).toFixed(1)+'" r="4" fill="#0E5B54"/>';
+    }
+  }
+  return s;
+}
+function drawSpider(){
+  document.getElementById('spider').innerHTML=spiderSVG(state.matrix,300);
+  const done=state.matrix.filter(v=>v>0).length;
+  document.getElementById('matrixCount').textContent=done+' von 8 Feldern eingeschätzt';
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();});}
+    else{el.value=state[k]||'';el.addEventListener('input',()=>{state[k]=el.value;scheduleSave();});}
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function renderSummary(){
+  const done=state.matrix.filter(v=>v>0).length;
+  const rows=[
+    ['Kompetenzmatrix', done===8?'✓ vollständig':done+'/8 – noch offen',done===8],
+    ['Zielvereinbarung', (state.ziel&&state.juni)?'✓ ausgefüllt':'noch offen',!!(state.ziel&&state.juni)],
+    ['Mini-Skript (30 Sek.)', [1,2,3,4,5].every(i=>state['skript'+i])?'✓ komplett':'noch offen',[1,2,3,4,5].every(i=>state['skript'+i])],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+}
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 0 · KICKOFF – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— KOMPETENZMATRIX W0 (Stufe 1–4) —\n';
+  MATRIX.forEach((m,i)=>{t+=(i+1)+'. '+m.t+': '+(state.matrix[i]?'Stufe '+state.matrix[i]:'–')+'\n';});
+  t+='\n— ZIELVEREINBARUNG —\nJahresziel: '+(state.ziel||'–')+'\nSorge 1: '+(state.sorge1||'–')+'\nSorge 2: '+(state.sorge2||'–')
+   +'\nWoran merke ich es im Juni: '+(state.juni||'–')+'\nDas bringe ich mit: '+(state.staerken||'–')+'\n';
+  t+='\n— MINI-SKRIPT: DIE ERSTE HALBE MINUTE —\n1. Weg & Position: '+(state.skript1||'–')
+   +'\n2. Warten worauf: '+(state.skript2||'–')+'\n3. Gruß-Wortlaut: '+(state.skript3||'–')
+   +'\n4. Setz-Signal: '+(state.skript4||'–')+'\n5. Erster Satz: '+(state.skript5||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+'Begrüßungsritual in jeder Stunde bewusst vollständig durchführen.\n';
+  t+='\n— EXIT-KARTE —\nDas nehme ich mit: '+(state.exitMit||'–')+'\nDas macht mir noch Sorge: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 0 · Kickoff – Ergebnisbogen</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Erhebung Woche 0 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  h+='<h2>Kompetenzmatrix W0</h2>';
+  h+='<div class="spider-print"><svg width="260" height="260" viewBox="0 0 300 300">'+spiderSVG(state.matrix,300)+'</svg></div>';
+  h+='<table><tr><th style="width:4%">#</th><th style="width:30%">Feld</th><th>Leitfrage</th><th style="width:12%">Stufe</th></tr>';
+  MATRIX.forEach((m,i)=>{h+='<tr><td>'+(i+1)+'</td><td>'+esc(m.t)+'</td><td>'+esc(m.f)+'</td><td><strong>'+(state.matrix[i]?'Stufe '+state.matrix[i]:'–')+'</strong></td></tr>';});
+  h+='</table><p style="font-size:8.5pt;color:#555;margin-top:4pt">Stufenlogik: 1 = situativ/zufällig · 2 = Vorgehen vorhanden, bewusst · 3 = stabil, kippt unter Druck · 4 = automatisch, anpassbar. Erhebung wird in W20 und W36 wiederholt.</p>';
+  h+='<h2>Zielvereinbarung</h2>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+=f('Mein wichtigstes Ziel für dieses Jahr:',state.ziel);
+  h+=f('Sorge Nr. 1:',state.sorge1)+f('Sorge Nr. 2:',state.sorge2);
+  h+=f('Woran merke ich im Juni konkret, dass sich das Jahr gelohnt hat?',state.juni);
+  h+=f('Das bringe ich mit (Stärken aus Beruf/Leben):',state.staerken);
+  h+='<div class="pagebreak"></div><h2>Mini-Skript: Die erste halbe Minute</h2>';
+  h+=f('1 · Weg & Position:',state.skript1)+f('2 · Warten – worauf genau (100 % Stehen & Stille):',state.skript2)
+   +f('3 · Gruß-Wortlaut:',state.skript3)+f('4 · Setz-Signal:',state.skript4)+f('5 · Erster Satz danach:',state.skript5);
+  h+='<h2>Action Step (bis zum nächsten Input)</h2><div class="ans">'+(state.commit?'☑':'☐')
+   +' Ich führe das Begrüßungsritual in JEDER Stunde bewusst vollständig durch: eintreten, schweigend warten auf 100 % Stehen und Stille, Gruß, Setz-Signal, erster Satz – genau nach meinem Skript.</div>';
+  h+='<h2>Exit-Karte</h2>'+f('Das nehme ich mit:',state.exitMit)+f('Das macht mir noch Sorge:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger:innen Sek I/II · Modul 0 „Handwerk ist lernbar" · Kopie an Coach im Kennenlerngespräch W0 · Kompetenzmatrix wird als Spinnennetz mit W20 und W36 verglichen.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung (funktioniert unabhängig von Speicher-APIs / Sandboxes) ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul0-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderMatrix();drawSpider();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht\'s.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  bindStores();
+  renderMatrix();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern" am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  const resumeCard=document.getElementById('resumeCard');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie beim nächsten Mal hier wieder hoch.';
+    if(resumeCard)resumeCard.style.display='block';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+    if(resumeCard)resumeCard.style.display='block';
+  }
+  go(0);
+})();
+</script>
+</body>
+</html>
