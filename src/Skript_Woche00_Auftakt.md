@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie werde ich in einem Jahr eine handlungssichere Lehrkraft – und wie funktioniert dieses Programm? |
 | **Kernquellen** | Lovell/Dowley, Einleitung (Bill-Rogers-Anekdote); Lemov, Einleitung; EEF *Effective Professional Development* (Programmdesign); Lemov et al., *Practice Perfect* (Übungslogik) |
 | **Funktion im Jahr** | Vertragsschluss: gemeinsames Verständnis von Lernbarkeit, Übungskultur und psychologischer Sicherheit. Baseline-Erhebung (Kompetenzmatrix W0). Hemmschwelle „laut üben" fällt am ersten Tag. |
-| **Lernziele** | Die TN können (1) den Jahresaufbau und die drei Formate erklären, (2) das Prinzip „üben statt nur wissen" begründen, (3) haben eine persönliche Zielvereinbarung und eine erste Mini-Übung absolviert. |
+| **Lernziele** | Die TN können:<br>1. den Jahresaufbau und die drei Formate erklären,<br>2. das Prinzip „üben statt nur wissen" begründen,<br>3. haben eine persönliche Zielvereinbarung und eine erste Mini-Übung absolviert. |
 | **Sitzungstyp** | Rahmung + Erstkontakt mit dem Übungsformat. Einzige Sitzung ohne Retrieval-Starter (es gibt noch nichts abzurufen – das wird explizit gesagt und ab Woche 1 eingelöst). |
 
 ---
@@ -72,7 +72,11 @@ Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer
 
 > *„Jetzt brechen wir das Eis, von dem ich sprach. Eure erste Übung – bewusst klein: die ersten 30 Sekunden eurer Stunde. An unserer Schule gibt es das Ritual: Die Klasse ist im Raum, ihr kommt herein, alle stehen auf, Begrüßung, Setzen. Wir skripten jetzt genau diese halbe Minute – euren Wortlaut, euren Weg zum festen Punkt, euren Gruß, euer Setz-Signal und den ersten Satz danach. In Woche 3 bauen wir das zur vollen Routine aus; heute geht es nur darum, es einmal LAUT getan zu haben."*
 
-Ablauf: (1) 5 Min. Einzelarbeit: Skript auf Karte (Vorlage: Weg/Position → Warten worauf? → Gruß-Wortlaut → Setz-Signal → erster Satz). (2) 8 Min. Tandems: jede:r spielt 2×, Partner gibt Feedback nach der Regel, die ab jetzt IMMER gilt: *„Zuerst: Was war wirksam – konkret? Dann: EIN Impuls. Dann sofort noch einmal spielen."* (3) 2 Min. Blitzlicht: *„Wie hat sich das angefühlt? … Merkt euch: Das Albernheitsgefühl von heute ist in Woche 4 komplett weg. Versprochen."*
+Ablauf:
+
+1. 5 Min. Einzelarbeit: Skript auf Karte (Vorlage: Weg/Position → Warten worauf? → Gruß-Wortlaut → Setz-Signal → erster Satz).
+2. 8 Min. Tandems: jede:r spielt 2×, Partner gibt Feedback nach der Regel, die ab jetzt IMMER gilt: *„Zuerst: Was war wirksam – konkret? Dann: EIN Impuls. Dann sofort noch einmal spielen."*
+3. 2 Min. Blitzlicht: *„Wie hat sich das angefühlt? … Merkt euch: Das Albernheitsgefühl von heute ist in Woche 4 komplett weg. Versprochen."*
 
 ## Phase 5 · Zielvereinbarung & Tandem-Bildung (Minute 50–58)
 
@@ -82,7 +86,12 @@ Formular (Anhang 3) ausfüllen: ein Jahresziel (persönlich formuliert), zwei So
 
 ## Phase 6 · Exit-Karte (Minute 58–60)
 
-Ab heute Standard: (1) Das nehme ich mit: … (2) Das macht mir noch Sorge: … — Abgabe beim Rausgehen. Sorgen-Karten fließen anonymisiert in die Coaching-Planung.
+Ab heute Standard:
+
+1. Das nehme ich mit: …
+2. Das macht mir noch Sorge: …
+
+Abgabe beim Rausgehen. Sorgen-Karten fließen anonymisiert in die Coaching-Planung.
 
 ---
 
@@ -110,7 +119,7 @@ Ab heute Standard: (1) Das nehme ich mit: … (2) Das macht mir noch Sorge: … 
 | 1. Routinen & Stundenstart | Beginnen meine Stunden verlässlich strukturiert (Begrüßungsritual sauber, Starter läuft, <60 Sek. bis alle arbeiten)? |
 | 2. Anweisungen & Aufmerksamkeit | Bekomme ich die Klasse zuverlässig still, und kommen meine Arbeitsanweisungen beim ersten Mal an? |
 | 3. Intervention & Präsenz | Reagiere ich auf Störungen ruhig, abgestuft und ohne den Unterricht zu unterbrechen? |
-| 4. Erklären & Modellieren | Kann ich Neues in kleinen Schritten, mit Beispielen und hörbarem Denken so erklären, dass Novizen folgen? |
+| 4. Erklären & Modellieren | Kann ich Neues in kleinen Schritten, mit Beispielen und hörbarem Denken so erklären, dass Schüler ohne Vorkenntnisse folgen? |
 | 5. Übungsphasen führen | Leite ich Übungsphasen klar ein und weiß ich währenddessen, wer wo steht? |
 | 6. Verstehen prüfen | Habe ich pro Stunde belastbare Daten über den Lernstand ALLER (nicht nur der Melder)? |
 | 7. Beteiligung & Fragenkultur | Denken bei meinen Fragen alle mit – und bleibt niemand dauerhaft unsichtbar? |

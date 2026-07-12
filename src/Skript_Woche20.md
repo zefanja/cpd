@@ -7,10 +7,10 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie helfe ich Schüler:innen, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
+| **Leitfrage** | Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
-| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe: (1) Elaboration schließt den Kreis zu Schema (W15) – Vernetzung ist der Königsweg ins LZG; (2) Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement). Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in W33/34 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit W0-Vergleich, Video-Selbstanalyse Nr. 2. |
-| **Lernziele** | Die TN können (1) Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe), (2) einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar), (3) der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
+| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (W15) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in W33/34 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit W0-Vergleich, Video-Selbstanalyse Nr. 2. |
+| **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Doppel-Input + KO-Werkstatt + Meilenstein-Ritual. Zeitdisziplin wie W14. |
 
 ---
@@ -74,18 +74,29 @@ Tandem: Partner deckt die rechte Spalte ab und fragt sich selbst 60 Sekunden ab 
 
 **Standard-Action-Step:** *„Ich gebe meiner Klasse vor der nächsten Arbeit den Knowledge Organizer aus – und halte die 10-Minuten-Lernstrategie-Rede mit Live-Demo der Selbstabfrage. Danach frage ich per Board-Blitz ab: ‚Wie lernt ihr jetzt für die Arbeit – drei Stichworte.'"*
 
-**Alternativen:** (a) Mindmap-Upgrade: die nächste Mindmap-Aufgabe mit Linien-Beschriftungspflicht stellen; (b) Fächer-Woche: jede Stunde endet mit einer Fragenfächer-Frage als Mini-Elaboration (2 Min., mündlich, Turn-and-Talk-Vorgeschmack).
+**Alternativen:**
+
+1. Mindmap-Upgrade: die nächste Mindmap-Aufgabe mit Linien-Beschriftungspflicht stellen.
+2. Fächer-Woche: jede Stunde endet mit einer Fragenfächer-Frage als Mini-Elaboration (2 Min., mündlich, Turn-and-Talk-Vorgeschmack).
 
 > **Ausblick:** *„Block 4 beginnt – und er beantwortet die Frage, die sich durch alles zieht: Woher weiß ich in ECHTZEIT, was in 28 Köpfen passiert? Es startet mit dem Fundament: der Kultur des Fehlers. Bis dahin: Meilenstein-Gespräch genießen. Ihr habt es verdient."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss): (1) Mein wertvollstes Block-3-Konzept: … (2) Was ich meinen Schülern davon zuerst weitergebe: …
+Erweitert (Blockabschluss):
+
+1. Mein wertvollstes Block-3-Konzept: …
+2. Was ich meinen Schülern davon zuerst weitergebe: …
 
 ---
 
 # 4. Coaching-Woche 20: Meilenstein-Gespräch Halbjahr (Handreichung, 45–60 Min.)
 
-**Struktur:** (1) **Matrix-Vergleich W0 → W8 → W20 (15 Min.; W8-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen. (2) **Video-Selbstanalyse Nr. 2 (20 Min.):** wie W8-Format; Vergleichsfrage: „Was siehst du heute, was du in Woche 8 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.) (3) **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen. (4) **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
+**Struktur:**
+
+1. **Matrix-Vergleich W0 → W8 → W20 (15 Min.; W8-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen.
+2. **Video-Selbstanalyse Nr. 2 (20 Min.):** wie W8-Format; Vergleichsfrage: „Was siehst du heute, was du in Woche 8 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.)
+3. **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen.
+4. **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
 
 **Red Flags:** Matrix zeigt Stagnation/Rückschritt in Feldern 1–3 (Klassenführung) → kein Drama, aber Priorität: Block-4-Techniken BRAUCHEN das Fundament; ggf. gezielten Reparatur-Plan vor W22 (Cold Call ohne Klassenkultur wird toxisch). TN will den KO „für alle Einheiten sofort" bauen → Lean-Bremse: einer pro Einheit, ab jetzt, reicht.
 
@@ -100,7 +111,12 @@ Erweitert (Blockabschluss): (1) Mein wertvollstes Block-3-Konzept: … (2) Was i
 **Gut 1 (Chemie, ‚Wasser als Stoff', Kl. 8):** 12 Begriffe mit Ein-Satz-Definitionen (zweispaltig, rechte Spalte verdeckbar), 1 beschriftetes Teilchen-Schaubild, 3 Kernzusammenhänge als Wenn-Dann-Sätze, 2 Daten. **Gut 2 (Geschichte, ‚Weimarer Republik scheitert', Kl. 9):** 10 Begriffe, Zeitstrahl mit 6 Markern, 3 Ursache-Wirkungs-Ketten, 1 Streitfrage. **Negativ:** ~40 Begriffe in Fließtext-Kästen, drei Schriftgrößen, keine Hierarchie, Lehrersprache („epochenspezifische Kontingenzerfahrung") – auf Zwei-Seiten-Optik gequetscht.
 
 ## 1.3 Handout B: Die 10-Minuten-Lernstrategie-Rede (Skriptgerüst)
-(1) **Einstieg mit der Illusion (2 Min.):** *„Wer lernt mit Textmarker und Durchlesen? Ehrlich. – Das fühlt sich gut an. Und genau deshalb funktioniert es kaum. Ich zeige euch, warum."* Kurzversion Flüssigkeits-Illusion in Schülersprache (W19-Erklärskript-Ton). (2) **Live-Demo Selbstabfrage (4 Min.):** KO austeilen, rechte Spalte abdecken, 2 SuS demonstrieren lassen; 3-Schritt: abdecken → antworten → aufdecken → Haken/Kreis. (3) **Der Wochenplan (2 Min.):** *„Dreimal 15 Minuten, verteilt, schlägt einmal 2 Stunden am Vorabend – gleiche Zeit, mehr bleibt."* (4) **Board-Blitz-CFU (2 Min.):** „Wie lernst du jetzt für die Arbeit – drei Stichworte, hoch."
+Skriptgerüst:
+
+1. **Einstieg mit der Illusion (2 Min.):** *„Wer lernt mit Textmarker und Durchlesen? Ehrlich. – Das fühlt sich gut an. Und genau deshalb funktioniert es kaum. Ich zeige euch, warum."* Kurzversion Flüssigkeits-Illusion in Schülersprache (W19-Erklärskript-Ton).
+2. **Live-Demo Selbstabfrage (4 Min.):** KO austeilen, rechte Spalte abdecken, 2 SuS demonstrieren lassen; 3-Schritt: abdecken → antworten → aufdecken → Haken/Kreis.
+3. **Der Wochenplan (2 Min.):** *„Dreimal 15 Minuten, verteilt, schlägt einmal 2 Stunden am Vorabend – gleiche Zeit, mehr bleibt."*
+4. **Board-Blitz-CFU (2 Min.):** „Wie lernst du jetzt für die Arbeit – drei Stichworte, hoch."
 
 ## 1.4 9-Prinzipien-Posterblanko (McCrea, Memorable Teaching)
 Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die 9 in Kurzform: Lernen = LZG-Veränderung ernst nehmen · Information managen · Kommunikation verschlanken · Last regulieren · Aufmerksamkeit orientieren · Abruf einbauen · verteilt wiederholen · Elaboration beschleunigen · Strukturen verfeinern/Metakognition einbetten. *(Zuordnung leicht gruppiert – als Arbeitsposter, nicht als Zitat.)*

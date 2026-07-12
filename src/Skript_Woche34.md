@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie kommt mein Feedback bei den Schülern an – ohne dass die Korrektur mich auffrisst? |
 | **Kernquellen** | Whole-Class-Feedback-Praxis (UK-Workload-Reform, via Lovell/McCrea-Umfeld); Verzahnung: Drei-Stapel-Sortierung (W14), Show Call (W25), Fehlerjournal/DIRT-Logik (W26), Exemplar/Erwartungshorizont (W10) |
 | **Funktion im Jahr** | Der zweite große Entlastungs-Hebel von Block 6: Die Korrekturfrage wird vom Rotstift-Ritual zur Wirkungsfrage umgebaut. WCF bündelt vier Jahres-Werkzeuge zu einem Verfahren; die Triage-Entscheidung wandert VOR die Aufgabenstellung (Lean-Logik). Deutsche Spezifika (Erwartungshorizont = amtliches Exemplar; mündliche Noten aus CFU-Daten; Landesrecht schulscharf prüfen!) verankern es im realen System. |
-| **Lernziele** | Die TN können (1) die Wirkungsrechnung des roten Randes führen (Stunden investiert vs. Sekunden gelesen) und daraus den Formatwechsel begründen, (2) den WCF-Fünfschritt durchführen (lesen → Muster: 3 Stärken/3 Fehler → Feedbackstunde mit Show Call → DIRT → Stichprobe), (3) Korrekturformate VOR der Aufgabenstellung triagieren (Selbst/Peer/Stichprobe/Voll), (4) den Erwartungshorizont als Doppel-Werkzeug nutzen (amtliche Pflicht + Exemplar für die Klasse) und mündliche Noten auf CFU-Daten stützen. |
+| **Lernziele** | Die TN können:<br>1. die Wirkungsrechnung des roten Randes führen (Stunden investiert vs. Sekunden gelesen) und daraus den Formatwechsel begründen,<br>2. den WCF-Fünfschritt durchführen (lesen → Muster: 3 Stärken/3 Fehler → Feedbackstunde mit Show Call → DIRT → Stichprobe),<br>3. Korrekturformate VOR der Aufgabenstellung triagieren (Selbst/Peer/Stichprobe/Voll),<br>4. den Erwartungshorizont als Doppel-Werkzeug nutzen (amtliche Pflicht + Exemplar für die Klasse) und mündliche Noten auf CFU-Daten stützen. |
 | **Sitzungstyp** | Rechnungs-Einstieg + WCF-Simulation am echten Klassensatz – die handwerklichste Sitzung des Blocks. |
 
 **Rechtlicher Rahmen (Moderations-Pflichthinweis):** Korrektur- und Bewertungsvorgaben sind LANDES- und teils SCHULSACHE (Fachkonferenz-Beschlüsse!). Vor der Sitzung klären: Was gilt bei UNS für Klassenarbeiten (Vollkorrektur-Pflicht? Randzeichen-Vorgaben?) – WCF ersetzt bei benoteten Arbeiten die vorgeschriebene Korrektur NICHT, es ersetzt den wirkungslosen Teil des Aufwands bei Übungsformaten und ergänzt die Rückgabe-Praxis bei Arbeiten.
@@ -74,7 +74,10 @@ Jede Gruppe skizziert die Feedbackstunde in Stichworten (Welche Arbeit wird als 
 
 **Standard:** *„Mein nächster Übungs-Klassensatz läuft komplett als WCF: Lesen, Muster-Bogen, Feedbackstunde mit Show Call, 15 Minuten DIRT mit grünem Stift und Journal, Stichprobe. Ich stoppe meine Gesamtzeit und vergleiche mit meinem alten Ritual."*
 
-**Alternativen:** (a) Triage-Woche: JEDE gestellte Aufgabe bekommt vorab die Korrektur-Entscheidung (Vier-Formate-Kürzel an den Planungsrand); (b) Erwartungshorizont-Umbau: den EH der nächsten Arbeit VOR der Einheit schreiben und als DIRT-Material bei der Rückgabe einsetzen.
+**Alternativen:**
+
+1. Triage-Woche: JEDE gestellte Aufgabe bekommt vorab die Korrektur-Entscheidung (Vier-Formate-Kürzel an den Planungsrand).
+2. Erwartungshorizont-Umbau: den EH der nächsten Arbeit VOR der Einheit schreiben und als DIRT-Material bei der Rückgabe einsetzen.
 
 > **Ausblick:** *„Vorletzte reguläre Sitzung nächste Woche – und sie handelt von euch in Jahr 2, 3 und 10: Warum Erfahrung allein ab Jahr drei nicht mehr besser macht, wie dieses Programm gebaut war (wir legen die Karten auf den Tisch) – und wie ihr euch ab August selbst coacht. Bringt Video Nr. 3 mit: Anleitung wie gehabt, Fokus frei. Es ist das Video fürs Kolloquium."* **(Vorab-Auftrag Video 3 auf die Exit-Karte – 2 Wochen Vorlauf fürs Kolloquium!)**
 

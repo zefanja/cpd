@@ -10,7 +10,7 @@
 | **Leitfrage** | Was passiert im Kopf, wenn jemand etwas lernt – und was folgt daraus für jede Unterrichtsentscheidung? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Kap. 1–3: Lernen als LZG-Veränderung, WM-Flaschenhals, Schemata); Willingham (*Memory is the residue of thought*); Ebbinghaus (Vergessenskurve) |
 | **Funktion im Jahr** | Block-3-Auftakt und Perspektivwechsel: Die Werkzeuge aus Block 1–2 werden „rückwärts erklärt" – aus Rezept-Anwendern werden Leute, die das Warum kennen. Das Diagnose-Raster (WM überlastet? / nie im LZG? / falsche Denkspur?) wird die Deutungsbrille für W16–20. Die Mythen-Impfung schützt vor Lehrerzimmer-Folklore. Erste Sitzung nach den Ferien: erweiterte Reaktivierung. |
-| **Lernziele** | Die TN können (1) das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären (mit Selbstversuchs-Evidenz), (2) den Willingham-Satz auf Unterrichtssituationen anwenden, (3) vier Klassiker-Probleme mit dem Diagnose-Raster deuten, (4) die zwei größten Lernmythen (Lernstile, Lernpyramide) kollegentauglich entkräften. |
+| **Lernziele** | Die TN können:<br>1. das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären (mit Selbstversuchs-Evidenz),<br>2. den Willingham-Satz auf Unterrichtssituationen anwenden,<br>3. vier Klassiker-Probleme mit dem Diagnose-Raster deuten,<br>4. die zwei größten Lernmythen (Lernstile, Lernpyramide) kollegentauglich entkräften. |
 | **Sitzungstyp** | Erlebnis-Sitzung: Selbstversuche als Evidenz-Anker, dann Deutungs-Werkstatt. Wenig Skripten, viel Denken. |
 
 ---
@@ -53,7 +53,12 @@
 > *Zweitens, Willinghams Satz, den ihr euch tätowieren dürft: **Erinnert wird, worüber nachgedacht wurde.** Nicht, was ihr gesagt habt. Nicht, was auf der Folie stand. Die Denkspur ist die Lernspur. Wer beim Explosionsvideo über die Explosion staunt, lernt die Explosion – nicht die Reaktionsgleichung.*
 > *Drittens: **Vergessen ist Standard** – und deshalb ist Wiederholung keine verlorene Zeit, sondern der einzige bekannte Weg, die Zerfallskurve zu brechen. Wie genau, ist Woche 18 und 19.*
 > *Und jetzt seht ihr, warum Block 1 und 2 so gebaut waren, wie sie gebaut waren"* [Kaskade MIT der Gruppe an der Tafel entwickeln – Zuruf: Welches Werkzeug antwortet auf welchen Satz?]: *„Enges Arbeitsgedächtnis → kleine Schritte, Halbier-Regel, Routinen, die Denkplatz freiräumen. Denkspur = Lernspur → Aufmerksamkeit lenken, Stifte weg beim Modellieren. Vergessen ist Standard → Do Now mit Altstoff, kumulative Quizze. Ihr habt vierzehn Wochen angewandte Gedächtnispsychologie betrieben. Heute habt ihr die Landkarte dazu bekommen.*
-> *Daraus das Diagnose-Raster für jedes Unterrichtsproblem – drei Fragen: **(1) War das Arbeitsgedächtnis überlastet?** **(2) Ist es nie im Langzeitgedächtnis angekommen – fehlt der Abruf?** **(3) Lief die Denkspur woandershin?** Fast jedes ‚Die kapieren das einfach nicht' löst sich in einer dieser drei Fragen auf – und jede hat andere Konsequenzen."*
+> *Daraus das Diagnose-Raster für jedes Unterrichtsproblem – drei Fragen:*
+> - **War das Arbeitsgedächtnis überlastet?**
+> - **Ist es nie im Langzeitgedächtnis angekommen – fehlt der Abruf?**
+> - **Lief die Denkspur woandershin?**
+>
+> *Fast jedes ‚Die kapieren das einfach nicht' löst sich in einer dieser drei Fragen auf – und jede hat andere Konsequenzen."*
 
 ## Phase 5 · Mythen-Impfung (Minute 32–37)
 
@@ -71,7 +76,10 @@ Tandems ziehen eine Mythen-Karte und üben die 60-Sekunden-Lehrerzimmer-Antwort:
 
 **Standard:** *„Ich identifiziere in einer meiner Stunden die drei Stellen mit der höchsten Arbeitsgedächtnislast (neue Begriffe zählen! Parallelaufträge! Materialsuche!) und entschärfe EINE davon – und notiere, was sich ändert."*
 
-**Alternativen:** (a) Raster-Woche: jedes „Die kapieren es nicht"-Gefühl sofort mit den drei Diagnose-Fragen notieren (Zettel im Lehrerkalender); (b) Re-Establish nachholen: wer nach den Ferien noch keinen Routinen-Neustart gemacht hat – jetzt (W2/W3-Handwerk).
+**Alternativen:**
+
+1. Raster-Woche: jedes „Die kapieren es nicht"-Gefühl sofort mit den drei Diagnose-Fragen notieren (Zettel im Lehrerkalender).
+2. Re-Establish nachholen: wer nach den Ferien noch keinen Routinen-Neustart gemacht hat – jetzt (W2/W3-Handwerk).
 
 > **Ausblick:** *„Nächste Woche wird es chirurgisch: Wie ihr Material und eure eigene Kommunikation von unnötiger Last befreit – Folien-Chirurgie am offenen Foliensatz. Bringt eure schlimmste eigene Präsentation mit. Ja, die eine. Ihr wisst, welche."* **(Vorab-Auftrag W16 auf die Exit-Karte!)**
 
@@ -94,7 +102,13 @@ Tandems ziehen eine Mythen-Karte und üben die 60-Sekunden-Lehrerzimmer-Antwort:
 Folie 1: „0 1 7 6 4 4 9 2 3 1 8" (5 Sek.). Folie 2: „B M W F B I U S A A D A C" (5 Sek.). Folie 3: „BMW · FBI · USA · ADAC" (5 Sek.).
 
 ## 1.2 Handout A: Modell + Raster
-Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (4–7 Plätze, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:** (1) WM überlastet? (2) Nie im LZG / kein Abruf? (3) Denkspur woandershin? — je mit Konsequenz-Pfeil auf Block-1/2-Werkzeuge.
+Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (4–7 Plätze, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:**
+
+1. WM überlastet?
+2. Nie im LZG / kein Abruf?
+3. Denkspur woandershin?
+
+— je mit Konsequenz-Pfeil auf Block-1/2-Werkzeuge.
 
 ## 1.3 Fall-Kartenset (mit Auflösungshinweisen)
 **Fall 1:** „In der Stunde konnten sie es, im Test eine Woche später nicht." *(→ Frage 2: nur WM-Besuch, kein Abruf danach; Konsequenz: Do Now/kumulative Aufgaben; Vorgriff W19: Performance ≠ Learning.)*
@@ -110,7 +124,7 @@ Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–14)
-1. Stundenarchitektur-Template aus dem Kopf skizzieren (7 Elemente). 2. Beide Enden der 80 %-Regel? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Reframing-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W2-Bauplan?
+1. Stundenarchitektur-Template aus dem Kopf skizzieren (7 Elemente). 2. Beide Enden der 80 %-Regel? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W2-Bauplan?
 
 ## Teil 2: Modul-Quiz Woche 15 (für SPA/Folgewoche)
 **F1.** Eine Schülerin „kann sich einfach nichts merken". Wahrscheinlichste Erklärung:

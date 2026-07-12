@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie mache ich unsichtbare Erwartungen sichtbar und lehrbar? |
 | **Kernquellen** | Lovell/Dowley, Prinzip 3 („Start with high expectations") und Prinzip 5 („Behaviour is a curriculum"); Lemov T52 (Vorgriff), T61 Warm/Strict (Vorgriff) |
 | **Funktion im Jahr** | Erstes echtes Technik-Modul. Legt die Grundlage für ALLE Routinen (W3–8): Bevor man Routinen baut, muss man Erwartungen formulieren können. Liefert das Umformulierungs-Handwerk „vage → spezifisch", das in W4 (Anweisungen) direkt wiederverwendet wird. |
-| **Lernziele** | Die TN können (1) erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt, (2) eine vage Erwartung nach 5 Kriterien nachschärfen, (3) eine Erwartungs-Einführung inkl. Begründung und Verständnis-Check skripten. |
+| **Lernziele** | Die TN können:<br>1. erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt,<br>2. eine vage Erwartung nach 5 Kriterien nachschärfen,<br>3. eine Erwartungs-Einführung inkl. Begründung und Verständnis-Check skripten. |
 | **Sitzungstyp** | Technik-Training (Schreiben + Sprechen). Erste Sitzung mit vollem Standardraster inkl. Rollenspiel-Elementen. |
 
 ---
@@ -67,7 +67,13 @@ Folie mit beiden Versionen, laut vorlesen:
 
 ## Phase 4 · Name it (Minute 28–33)
 
-An der Tafel entwickeln (Zuruf, Moderation ordnet): **Die 5 Kriterien einer tragfähigen Erwartung:** (1) **beobachtbar** (man kann sie sehen/hören), (2) **messbar** (man kann Erfüllung feststellen: alle? in welcher Zeit?), (3) **positiv formuliert** (beschreibt das TUN, nicht das Lassen – „nicht schwätzen" sagt nicht, was stattdessen), (4) **begründet** (ein Satz Sinn), (5) **geprüft** (Behavioural CFU nach der Einführung).
+An der Tafel entwickeln (Zuruf, Moderation ordnet): **Die 5 Kriterien einer tragfähigen Erwartung:**
+
+1. **beobachtbar** (man kann sie sehen/hören),
+2. **messbar** (man kann Erfüllung feststellen: alle? in welcher Zeit?),
+3. **positiv formuliert** (beschreibt das TUN, nicht das Lassen – „nicht schwätzen" sagt nicht, was stattdessen),
+4. **begründet** (ein Satz Sinn),
+5. **geprüft** (Behavioural CFU nach der Einführung).
 
 Merkformel anbieten: *„Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."*
 
@@ -88,7 +94,10 @@ Partner:in prüft jede Erwartung mit genau zwei Fragen: **„Woran genau würde 
 
 **Standard:** *„Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei CFU-Fragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?"*
 
-**Alternativen:** (a) Erwartungs-Neustart für die komplette Begrüßungsroutine (wenn diese zäh läuft – Vorgriff auf W3, mit Coach abstimmen); (b) für Sek-II-Kurse: eine „erwachsene" Erwartung inkl. Begründung einführen (Laptop-/Handy-/Diskussionsregel).
+**Alternativen:**
+
+1. Erwartungs-Neustart für die komplette Begrüßungsroutine (wenn diese zäh läuft – Vorgriff auf W3, mit Coach abstimmen);
+2. für Sek-II-Kurse: eine „erwachsene" Erwartung inkl. Begründung einführen (Laptop-/Handy-/Diskussionsregel).
 
 Schriftlich ins Formular, Kopie an Coach.
 

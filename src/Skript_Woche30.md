@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie gewinne ich echtes Einverständnis – und was tue ich, wenn alle kleinen Werkzeuge nicht mehr reichen? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (W6), Anker (W5), W.I.N. (W8), EVK (W27) |
 | **Funktion im Jahr** | Die Ernstfall-Sitzung: schließt die in W6 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Jahres: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
-| **Lernziele** | Die TN können (1) Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation), (2) einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen, (3) die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach, (4) Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
+| **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
 | **Sitzungstyp** | Doppel-Input kompakt + die rollenspiel-intensivste Übungsphase seit Block 1 (zwei Eskalations-Szenarien mit Freeze-Punkten). Zeitdisziplin kritisch: Der Buy-in-Teil ist straff, die Rollenspiele sind unantastbar. |
 
 **Wichtige Vorklärung für die Moderation:** Die konkrete Eskalationskette ist SCHULSPEZIFISCH (Trainingsraum? Klassenleitung? Stufenleitung? Schulleitung? – je nach Haus). Vor der Sitzung mit der Schulleitung das reale Verfahren klären und in Anhang 1.3 eintragen – die Sitzung trainiert das ECHTE Verfahren, kein generisches.
@@ -74,7 +74,10 @@
 
 **Standard:** *„Ich skripte für MEINE realistische Ernstfall-Situation die passende Stufe wörtlich (inkl. Anker und Reparatur-Satz) – und ich vereinbare diese Woche das Unterstützungsgespräch, das ich seit Wochen vor mir herschiebe: strukturiert mit Lage – Versucht – Frage."* [Wer keins vor sich herschiebt: Doku-System einrichten – Vorlage liegt bei.]
 
-**Alternativen:** (a) Buy-in-Woche: jede neue Aufgabe bekommt eine ehrliche Wozu-Antwort + eine echte Wie-Wahl; (b) Reparatur-Nachholer: das W.I.N. führen, das nach der letzten Konsequenz ausgefallen ist.
+**Alternativen:**
+
+1. Buy-in-Woche: jede neue Aufgabe bekommt eine ehrliche Wozu-Antwort + eine echte Wie-Wahl.
+2. Reparatur-Nachholer: das W.I.N. führen, das nach der letzten Konsequenz ausgefallen ist.
 
 **Peer-Hospitation 5 (2 Min.):** Letzte Runde, wieder Peer-Format, Gastgeber-Fokus-Regel gilt; Bogen (Anhang 3): Motivations-Treiber-Spotting. Termine fixieren.
 
@@ -86,7 +89,9 @@
 
 # 4. Coaching-Woche 30 (Handreichung)
 
-- **Kein Standard-Hospitationsfokus** diese Woche – stattdessen zwei Aufträge: (1) **Das Unterstützungsgespräch begleiten:** Vorbereitung im 1:1 durchsprechen (Lage–Versucht–Frage einmal laut), ggf. Türöffner sein (Coach kennt das Haus). (2) Falls akuter Fall existiert: **Platzwechsel/Stufe in vivo** beobachten (Termin nach Lage).
+- **Kein Standard-Hospitationsfokus** diese Woche – stattdessen zwei Aufträge:
+  1. **Das Unterstützungsgespräch begleiten:** Vorbereitung im 1:1 durchsprechen (Lage–Versucht–Frage einmal laut), ggf. Türöffner sein (Coach kennt das Haus).
+  2. Falls akuter Fall existiert: **Platzwechsel/Stufe in vivo** beobachten (Termin nach Lage).
 - **Auswertungsgespräch:** Ernstfall-Skript des TN durchgehen und EINMAL im Gespräch durchspielen (Coach als Schüler, Weigerungs-Variante!); Doku-System prüfen (existiert es? Fakt/Wertung sauber?).
 - **Emotionale Dimension ernst nehmen:** Nach echten Eskalationen brauchen TN zuerst Entlastung, dann Analyse – Reihenfolge einhalten; der Satz „Die ausgeführte Stufe ist Klassenführung" gehört ins Gespräch.
 - **Red Flag 1:** TN mit Dauer-Eskalationen in EINER Lerngruppe → das ist kein Technik-, sondern ein System-Fall: Unterstützungsstruktur aktivieren (Klassenkonferenz-Ebene), Coach geht mit. **Red Flag 2:** TN dokumentiert nichts („will kein Denunziant sein") → umdeuten: Doku schützt ZUERST den Schüler (faire, präzise Verfahren statt Bauchgefühl-Urteile) und dann die Lehrkraft.
@@ -166,7 +171,7 @@ d) nur die Oberstufe ✗
 
 # Anhang 4: Ableitung für die SPA „Modul 30"
 
-1. **Hook (2 Min.):** Der Glaubenssatz-Check: „Das muss ich allein schaffen – wie sehr glaubst du das?" (Slider) → Auflösung mit dem Handwerks-Reframe + Kohorten-Anzeige (anonym): „Du bist nicht allein mit dem Allein-Glauben."
+1. **Hook (2 Min.):** Der Glaubenssatz-Check: „Das muss ich allein schaffen – wie sehr glaubst du das?" (Slider) → Auflösung mit dem Handwerks-Perspektivwechsel + Kohorten-Anzeige (anonym): „Du bist nicht allein mit dem Allein-Glauben."
 2. **See it (4 Min.):** Platzwechsel als Kontrast-Video/Audio: Bühnen-Version (stehen bleiben, begründen, diskutieren) vs. Verwaltungs-Version (Skript + weiterunterrichten); Aufgabe: die drei Unterschiede markieren.
 3. **Name it (3 Min.):** Ernstfall-Regeln als Karten; Fakt-oder-Wertung-Swipe (10 Protokollsätze).
 4. **Do it – Eskalations-Simulator (9 Min., Engine-Highlight!):** E1 und E2 als verzweigte Dialoge mit Freeze-Mechanik (App pausiert an den Freeze-Punkten und erzwingt die Beratungsentscheidung); Scoring: Anker vor Reaktion, keine Bühne, Reparatur angekündigt; Weigerungs- und Nachleg-Pfade nach Regieanweisung; endet immer mit dem Doku-Schreibfeld (Fakt-Filter-Heuristik: Wertungswörter-Liste löst Warnung aus).

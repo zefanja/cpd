@@ -12,7 +12,11 @@
 
 **Input (Min. 12–28):**
 1. *See it – das nutzlose Ritual:* Moderation spielt: erklärt etwas, fragt „Alle verstanden? … Fragen? Keine? Gut, weiter." Plenum: *„Was weiß ich jetzt über den Lernstand? … Exakt: nichts. Nein-Sagen kostet sozial (dumm dastehen), und die, die's nicht verstanden haben, WISSEN es oft nicht (Dunning-Kruger). ‚Habt ihr das verstanden?' ist ein Ritual, kein Werkzeug."* → Replace Self-Report (Lemov T6): stattdessen prüfbare Mini-Aufgabe an alle.
-2. Culture of Error (T12): Daten bekommt nur, wer Fehler sichtbar macht – und Fehler zeigt nur, wer sicher ist. Vier Lehrer-Hebel: (a) Fehler erwarten und würdigen (*„Diesen Fehler machen kluge Leute – warum ist er so verführerisch?"*), (b) eigene Fehler souverän behandeln, (c) richtig/falsch neutral und zügig klären (keine Enttäuschungs-Miene – die Miene unterrichtet!), (d) nie über Fehler lachen lassen (100 %-Norm!).
+2. Culture of Error (T12): Daten bekommt nur, wer Fehler sichtbar macht – und Fehler zeigt nur, wer sicher ist. Vier Lehrer-Hebel:
+  1. Fehler erwarten und würdigen (*„Diesen Fehler machen kluge Leute – warum ist er so verführerisch?"*),
+  2. eigene Fehler souverän behandeln,
+  3. richtig/falsch neutral und zügig klären (keine Enttäuschungs-Miene – die Miene unterrichtet!),
+  4. nie über Fehler lachen lassen (100 %-Norm!).
 3. Plan for Error (T2): die 3 wahrscheinlichsten Fehler VOR der Stunde antizipieren + Reaktion skripten – aus Überraschung wird Plan.
 4. Verbindung: *„Warm/Strict, Emotional Constancy, Positive Framing – eure Block-1-Werkzeuge sind das Fundament der Fehlerkultur. Jetzt zahlen sie doppelt ein."*
 

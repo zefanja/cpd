@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie halte ich den Denk-Kanal frei für das, worauf es ankommt? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Manage information", „Streamline communication", „Regulate load"); Cognitive-Load-Theorie (Sweller); Lemov T22 (Board = Paper, Bezug) |
 | **Funktion im Jahr** | Operationalisiert den WM-Flaschenhals aus W15 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für W11-Regeln (Stifte weg = Split Attention) und W13-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (W33 Packet, W34 Arbeitsblätter). |
-| **Lernziele** | Die TN können (1) intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg), (2) die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz), (3) Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede), (4) eigenes Material mit der Checkliste operieren. |
+| **Lernziele** | Die TN können:<br>1. intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg),<br>2. die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz),<br>3. Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede),<br>4. eigenes Material mit der Checkliste operieren. |
 | **Sitzungstyp** | Werkstatt-Sitzung: Selbsterleben → Theorie → Chirurgie am eigenen Material. |
 
 ---
@@ -75,7 +75,10 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 
 **Standard:** *„Ich überarbeite den Foliensatz meiner nächsten neuen Einheit nach der Checkliste – und halte in JEDER Stunde dieser Woche die Vorlese-Nulldiät: Nichts vorlesen, was die Klasse sieht."*
 
-**Alternativen:** (a) Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper); (b) Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Woche.
+**Alternativen:**
+
+1. Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper).
+2. Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Woche.
 
 > **Ausblick:** *„Der Kanal ist jetzt frei – nächste Woche geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 von letzter Woche: dem Filmeinstiegs-Problem."*
 
@@ -95,7 +98,13 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Die Horror-Folie + Zwilling (Bauanleitung)
-**Inhalt (neutral, fachfremd fair):** „Der Wasserkreislauf". **Horror-Version:** 11 Zeilen Fließtext (Verdunstung, Kondensation, Niederschlag, Abfluss – verschachtelt formuliert) + kleines Kreislauf-Diagramm rechts unten + 3 Bullet-Ebenen mit Sonderfällen + Clipart-Sonne mit Sonnenbrille. Moderation liest den Text vor UND ergänzt mündlich zwei Zahlen (Verdunstungsanteil Ozeane ~86 %, Verweildauer Atmosphäre ~9 Tage), die nirgends stehen. **Fragen danach:** (1) Welche vier Stationen nennt der Kreislauf? (2) Wie hoch ist der Ozean-Anteil an der Verdunstung? (3) Wie lange bleibt Wasser durchschnittlich in der Atmosphäre? **Zwilling:** Nur das groß gezeichnete Kreislauf-Diagramm mit 4 beschrifteten Stationen; die zwei Zahlen stehen als einzige Textelemente an den passenden Pfeilen; Moderation spricht frei. Parallele Fragen: identisch.
+**Inhalt (neutral, fachfremd fair):** „Der Wasserkreislauf". **Horror-Version:** 11 Zeilen Fließtext (Verdunstung, Kondensation, Niederschlag, Abfluss – verschachtelt formuliert) + kleines Kreislauf-Diagramm rechts unten + 3 Bullet-Ebenen mit Sonderfällen + Clipart-Sonne mit Sonnenbrille. Moderation liest den Text vor UND ergänzt mündlich zwei Zahlen (Verdunstungsanteil Ozeane ~86 %, Verweildauer Atmosphäre ~9 Tage), die nirgends stehen. **Fragen danach:**
+
+1. Welche vier Stationen nennt der Kreislauf?
+2. Wie hoch ist der Ozean-Anteil an der Verdunstung?
+3. Wie lange bleibt Wasser durchschnittlich in der Atmosphäre?
+
+**Zwilling:** Nur das groß gezeichnete Kreislauf-Diagramm mit 4 beschrifteten Stationen; die zwei Zahlen stehen als einzige Textelemente an den passenden Pfeilen; Moderation spricht frei. Parallele Fragen: identisch.
 
 ## 1.2 Handout A: Entschlackungs-Checkliste — siehe Phase 4 (sechs Prüfpunkte + Merksatz; Fußzeile: „Die Schere: intrinsisch hoch, lästig runter").
 

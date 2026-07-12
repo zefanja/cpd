@@ -7,10 +7,10 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was genau sollen meine Schüler:innen am Ende können – und woran erkenne ich es? |
+| **Leitfrage** | Was genau sollen meine Schüler am Ende können – und woran erkenne ich es? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Backwards Design, Lern-Meilensteine, die zwei Planungs-Todsünden); Lemov T1 (Exemplar Planning) |
 | **Funktion im Jahr** | Das Steuerungs-Modul: Meilensteine + Exemplar werden Referenz für Exit Tickets (W14), CFU-Ausrichtung (Block 4), Erwartungshorizonte (W34) und das komplette Lean-Framework (W32/33). Wer diese Woche verpasst, plant den Rest des Jahres im Nebel. |
-| **Lernziele** | Die TN können (1) die zwei Planungs-Todsünden (Aktivitätsfokus, Abdeckungsfokus) bei sich selbst erkennen, (2) 2–5 Lern-Meilensteine für eine Stunde formulieren (kumulativ, verteilt, messbar, klar), (3) per Exemplar Planning die ideale Schülerantwort vorab selbst verfassen und daraus Planungskonsequenzen ziehen. |
+| **Lernziele** | Die TN können:<br>1. die zwei Planungs-Todsünden (Aktivitätsfokus, Abdeckungsfokus) bei sich selbst erkennen,<br>2. 2–5 Lern-Meilensteine für eine Stunde formulieren (kumulativ, verteilt, messbar, klar),<br>3. per Exemplar Planning die ideale Schülerantwort vorab selbst verfassen und daraus Planungskonsequenzen ziehen. |
 | **Sitzungstyp** | Schreibwerkstatt an REALEN Stunden der kommenden Woche – der Output der Sitzung wird montags unterrichtet. |
 
 ---
@@ -66,7 +66,12 @@ Fingerzeichen-Kalibrierung (2 Min.): 4 Formulierungen vorlesen – Ziel oder The
 Tandems bewerten die 4 Beispielketten (Handout B) mit der Ampel: Welche zwei sind kaputt – und woran genau? Plenums-Blitz: je Kette 30 Sekunden. *(Die kaputten Ketten scheitern an „nicht kumulativ" bzw. „nicht messbar" – siehe Anhang 1.2; die Diskussion kalibriert die Ampel, bevor sie auf Eigenes losgelassen wird.)*
 
 ### Runde 2 · Eigene Meilensteinkette + Exemplar (Min. 38–48)
-Einzelarbeit an der mitgebrachten realen Stunde: (a) 2–5 Meilensteine schreiben (5 Min.), (b) zur Schlüsselaufgabe des obersten erreichbaren Meilensteins das Exemplar ausformulieren – die Antwort, wie sie im Heft stehen soll (5 Min.). Moderation zirkuliert; häufigste Intervention: *„Das ist die Aufgabe – ich will die ANTWORT sehen."*
+Einzelarbeit an der mitgebrachten realen Stunde:
+
+1. 2–5 Meilensteine schreiben (5 Min.).
+2. zur Schlüsselaufgabe des obersten erreichbaren Meilensteins das Exemplar ausformulieren – die Antwort, wie sie im Heft stehen soll (5 Min.).
+
+Moderation zirkuliert; häufigste Intervention: *„Das ist die Aufgabe – ich will die ANTWORT sehen."*
 
 ### Runde 3 · Härtetest (Min. 48–52)
 Tandem-Prüfung mit zwei Fragen: **„Woran MISST du Meilenstein 2 – welche Aufgabe stellst du?"** und **„Zeig mir im Exemplar die Scheiter-Stelle – die Stelle, an der schwache Schüler scheitern werden."** → nachschärfen. *(Die zweite Frage erzwingt den Blick auf Schrittgrößen – die Brücke zu W11.)*
@@ -75,9 +80,12 @@ Tandem-Prüfung mit zwei Fragen: **„Woran MISST du Meilenstein 2 – welche Au
 
 **Standard:** *„Für jede NEUE Stunde dieser Woche schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe – vor allem anderen, vor der Methodenwahl, vor dem Material. Fünf Minuten, handschriftlich reicht."*
 
-**Alternativen:** (a) Einseiter-Woche: alle Stunden nur als Meilensteine + Exemplar + grobe Phasen planen (Vorgriff Lean, W32 – gut für chronisch Überplanende); (b) Todsünden-Wache: die eigene Planung jeder Stunde nachträglich taggen (A? B? Backwards?) – reine Diagnose-Woche für Skeptiker.
+**Alternativen:**
 
-> **Ausblick:** *„Nächste Woche: das I do. Wie man erklärt, dass Novizen wirklich folgen – lautes Denken, Beispiele, und warum ausgerechnet eure Berufserfahrung euer größtes Erklär-Handicap ist. Bringt Mut mit: Es wird Mikroteaching geben – jeder erklärt drei Minuten vor der Gruppe. Bereitet dafür einen kleinen Fachinhalt eurer Wahl vor."* **(Vorab-Auftrag W11 explizit ansagen und auf die Exit-Karte drucken!)**
+1. Einseiter-Woche: alle Stunden nur als Meilensteine + Exemplar + grobe Phasen planen (Vorgriff Lean, W32 – gut für chronisch Überplanende).
+2. Todsünden-Wache: die eigene Planung jeder Stunde nachträglich taggen (A? B? Backwards?) – reine Diagnose-Woche für Skeptiker.
+
+> **Ausblick:** *„Nächste Woche: das I do. Wie man erklärt, dass Schüler ohne Vorkenntnisse wirklich folgen – lautes Denken, Beispiele, und warum ausgerechnet eure Berufserfahrung euer größtes Erklär-Handicap ist. Bringt Mut mit: Es wird Mikroteaching geben – jeder erklärt drei Minuten vor der Gruppe. Bereitet dafür einen kleinen Fachinhalt eurer Wahl vor."* **(Vorab-Auftrag W11 explizit ansagen und auf die Exit-Karte drucken!)**
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile Mikroteaching-Auftrag.
 
@@ -112,7 +120,7 @@ Kopf: Fach/Klasse/Thema/Datum. — Tabelle: Meilenstein (Könnens-Satz) | Ampel:
 ## Teil 1: Retrieval-Starter (Min. 2–8)
 1. Die vier Rosenshine-Stränge? *(Reviewing / Sequencing & Modelling / Questioning / Practising)*
 2. Was tust du bei ~50 % Erfolgsquote im Üben – und bei dauerhaft 100 %? *(zurück zu Modellieren/We do; Anspruch erhöhen)*
-3. Die Reframing-Formel aus Block 1? *(„Ich sehe [erfüllender Teil] – ich will [Zielzustand]")*
+3. Die Umformulierungs-Formel aus Block 1? *(„Ich sehe [erfüllender Teil] – ich will [Zielzustand]")*
 4. Warum ist das We do unverzichtbar – mit welchem mentalen Modell begründest du das? *(Verantwortungsübergabe braucht Brücke; Modell 1: WM-Entlastung durch geführte Schritte)*
 5. (Anwendung) Nenne die Reviewing-Elemente in UNSEREN Sitzungen. *(Retrieval-Starter wöchentlich, Block-Quizze, kumulative Fragen)*
 

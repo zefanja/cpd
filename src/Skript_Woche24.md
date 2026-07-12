@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %? |
 | **Kernquellen** | Lemov T43 (Turn and Talk), T38 (Everybody Writes); Ratio-Konzept (W22) |
 | **Funktion im Jahr** | Skaliert die Einzeltechniken (W22/23) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (W25). Die enge Zeitführung nutzt das komplette W3/W4-Handwerk (Signale, Kanten, Timer). |
-| **Lernziele** | Die TN können (1) beide Ratio-Regler benennen und Formate danach auswählen, (2) ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte), (3) Schreiben als Denkzeit vor Diskussionen einsetzen, (4) die vier häufigsten Format-Bugs erkennen und beheben. |
+| **Lernziele** | Die TN können:<br>1. beide Ratio-Regler benennen und Formate danach auswählen,<br>2. ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte),<br>3. Schreiben als Denkzeit vor Diskussionen einsetzen,<br>4. die vier häufigsten Format-Bugs erkennen und beheben. |
 | **Sitzungstyp** | Selbsterleben + Choreografie-Drill mit Stoppuhr – die Sitzung praktiziert durchgehend, was sie lehrt. |
 
 ---
@@ -49,7 +49,13 @@ Die Moderation stellt der Gruppe zweimal eine echte, diskussionswürdige Frage �
 
 ### 3b · Turn and Talk: die sechs Stellschrauben (Min. 21–26)
 > *„Baustein zwei: **Turn and Talk** – das Partnergespräch. Es hat einen miserablen Ruf (‚dann quatschen die doch nur'), und der Ruf ist verdient – für die SCHLAFFE Version. Die enge Version hat sechs Stellschrauben:*
-> *​**(1) Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama. (2) **Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar. (3) **Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende. (4) **Klares Startsignal** – ‚Mit dem Partner – los' – und (5) **klares Endsignal:** euer Aufmerksamkeitssignal aus Woche 4, exakt dafür gebaut. (6) **Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
+> - *​**Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama.*
+> - *​**Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar.*
+> - *​**Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende.*
+> - *​**Klares Startsignal** – ‚Mit dem Partner – los'.*
+> - *​**Klares Endsignal:** euer Aufmerksamkeitssignal aus Woche 4, exakt dafür gebaut.*
+> - *​**Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
+>
 > *Und die Lehrkraft WÄHREND der 60 Sekunden? Nicht ans Pult – kreisen und lauschen: Ihr hört in einer Minute fünf Gespräche an und wisst, welche Ernte sich lohnt (‚Ich habe bei Tisch drei etwas Spannendes gehört – Aylin?'). Das ist euer Circulate aus Woche 13, auf Ohren umgestellt."*
 
 ### 3c · Die vier Bugs (Min. 26–28)
@@ -76,7 +82,10 @@ Vierergruppen: Jede:r dirigiert die VOLLE Sequenz mit den anderen als Klasse (ei
 
 **Standard:** *„Vor jeder Diskussionsfrage dieser Woche: erst 2 Minuten Everybody Writes, dann 60 Sekunden Turn and Talk mit festen Partnern, dann Ernte mit mindestens einer Partnerfrage. Feste Partner teile ich am Montag zu – mit Begründung (W2-Handwerk)."*
 
-**Alternativen:** (a) Ernte-Fokus: eine Woche lang JEDES Partnergespräch (auch spontane) mit „Was hat dein Partner gesagt?" ernten; (b) Wellenkamm-Disziplin: alle Talk-Phasen hart auf 60 Sekunden – Beobachtung: Wann kippt Dichte in Rest-Zeit?
+**Alternativen:**
+
+1. Ernte-Fokus: eine Woche lang JEDES Partnergespräch (auch spontane) mit „Was hat dein Partner gesagt?" ernten.
+2. Wellenkamm-Disziplin: alle Talk-Phasen hart auf 60 Sekunden – Beobachtung: Wann kippt Dichte in Rest-Zeit?
 
 > **Ausblick:** *„Ihr sammelt jetzt Denk-Material von allen – schriftlich. Nächste Woche machen wir es SICHTBAR: Mini-Whiteboards als Röntgengerät, Checkpoints in Arbeitsphasen, und die stärkste Feedback-Form, die ich kenne: Schülerarbeiten gemeinsam an der Wand – Show Call. Eure Everybody-Writes-Zettel sind dafür das Rohmaterial."*
 

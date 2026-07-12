@@ -21,7 +21,7 @@
 
 **Do it (Min. 33–52):** *EVK-Fallarbeit (12 Min.):* Jede:r wählt EINEN realen „unmotivierten" Schüler, füllt den Analysebogen, plant eine Intervention am schwächsten Glied (meist: Erwartung oder Kosten!); Tandem-Beratung. *Attributions-Sprint (7 Min.):* 6 Situationen („Schülerin schreibt erstmals eine 3+") – Attributionssatz formulieren, Talent-/Glücks-Formulierungen aussieben.
 
-**Action Step:** siehe Curriculum (2 garantierte Erfolgserlebnisse + explizite Anstrengungs-Attribution für Schüler:in Y). *Alternative:* Vorentlastungs-Sätze vor jeder schweren Aufgabe, eine Woche.
+**Action Step:** siehe Curriculum (2 garantierte Erfolgserlebnisse + explizite Anstrengungs-Attribution für Schüler Y). *Alternative:* Vorentlastungs-Sätze vor jeder schweren Aufgabe, eine Woche.
 
 **SPA-Quiz:** F1: „‚Erst muss der Schüler motiviert sein, dann kann er lernen.'" a) richtig ✗ (Alltagstheorie Nr. 1) b) meist umgekehrt: Erfolgserleben erzeugt Motivation ✓ c) gilt nur in Sek I ✗ d) Motivation ist angeboren ✗. — F2: „‚Du bist einfach ein Mathe-Talent!' ist…" a) das beste Lob ✗ b) riskante Attribution – Vorgehen/Übung loben ✓ c) für starke SuS richtig ✗ d) egal ✗. — F3: „Sticker/Punkte-Systeme…" a) sind DER Motivationshebel ✗ b) wirken kurzfristig, können intrinsische Motivation verdrängen – sparsam & temporär ✓ c) sind verboten ✗ d) wirken gar nicht ✗.
 
@@ -35,7 +35,10 @@
 
 **Input (Min. 8–24):**
 1. Treiber 2 „Run Routines" – die große Rückblende: *„Holt euer Block-1-Playbook raus. Alles darin – Begrüßungsroutine, Signale, Übergänge – hat den PROZESS des Lernens billig gemacht. In McCreas Sprache: Ihr habt die KOSTEN gesenkt. Routinen sind Motivationstechnik. Wer das für Drill hielt, darf das Vorurteil jetzt beerdigen: Der Drill-Vorwurf verwechselt billige Prozesse mit billigen Inhalten. Wir wollen: Prozesse billig, Inhalte anspruchsvoll."*
-2. Treiber 3 „Nudge Norms": Menschen tun, was die Gruppe (scheinbar) tut. Drei Hebel: (a) Erwünschtes SICHTBAR machen (*„Über die Hälfte hat die Zusatzaufgabe versucht"* – nur wenn wahr!); (b) Peer-Anerkennung verstärken (Show Call ist Normen-Maschine!); (c) die klassische Selbstsabotage stoppen: *„‚NIE macht ihr Hausaufgaben!' ist aus Normen-Sicht ein Werbespot fürs Nichtstun – ihr habt gerade amtlich verkündet, dass Nichtstun hier die Norm ist."*
+2. Treiber 3 „Nudge Norms": Menschen tun, was die Gruppe (scheinbar) tut. Drei Hebel:
+  1. Erwünschtes SICHTBAR machen (*„Über die Hälfte hat die Zusatzaufgabe versucht"* – nur wenn wahr!);
+  2. Peer-Anerkennung verstärken (Show Call ist Normen-Maschine!);
+  3. die klassische Selbstsabotage stoppen: *„‚NIE macht ihr Hausaufgaben!' ist aus Normen-Sicht ein Werbespot fürs Nichtstun – ihr habt gerade amtlich verkündet, dass Nichtstun hier die Norm ist."*
 3. Kollegiums-Dimension (2 Min.): Normen wirken schulweit; jede abgestimmte Kollegin multipliziert (Anschlussfähigkeit ans Schulkonzept).
 
 **Name it (Min. 24–29):** Normen-Sprachregel: Beschreibe IMMER die Mehrheit, die das Richtige tut (wenn wahr) – nie die Minderheit, die stört, als „alle". Sichtbarkeits-Trio: zeigen / zählen / würdigen.

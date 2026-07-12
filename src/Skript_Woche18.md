@@ -10,7 +10,7 @@
 | **Leitfrage** | Warum ist Erinnern-Müssen die stärkste Lernaktivität – und wie baue ich sie ein? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Retrieval); Lemov T7 (Retrieval Practice); *Make It Stick* (Testing Effect); Ebbinghaus (aus W15) |
 | **Funktion im Jahr** | Der Zahltag des Blocks: Die seit W3 gelebte Do-Now-Praxis und die wöchentlichen Starter bekommen ihre Theorie – gemessen am eigenen Selbstexperiment (Setup in W17). Die 3-2-1-Batterie wird Dauerwerkzeug; die Benotungsfrei-Regel bereitet die Fehlerkultur (W21) vor; das Formate-Karussell festigt nebenbei den Jahresstoff (Meta-Doppelnutzen). |
-| **Lernziele** | Die TN können (1) den Testing Effect erklären und mit dem eigenen Experiment belegen, (2) die Flüssigkeits-Illusion („Wiederlesen fühlt sich besser an") benennen und kontern, (3) vier Retrieval-Formate unterrichtspraktisch einsetzen, (4) eine 3-2-1-Starter-Batterie für die eigene Klasse bauen. |
+| **Lernziele** | Die TN können:<br>1. den Testing Effect erklären und mit dem eigenen Experiment belegen,<br>2. die Flüssigkeits-Illusion („Wiederlesen fühlt sich besser an") benennen und kontern,<br>3. vier Retrieval-Formate unterrichtspraktisch einsetzen,<br>4. eine 3-2-1-Starter-Batterie für die eigene Klasse bauen. |
 | **Sitzungstyp** | Experiment-Auflösung + Stationen-Karussell – die erlebnisreichste Sitzung des Blocks. |
 
 ---
@@ -73,7 +73,10 @@
 
 **Standard-Action-Step:** *„Mein Do Now besteht ab sofort aus 3-2-1-Abruffragen – und ich sage der Klasse am Montag den Trainings-Satz: ‚Diese Quizze sind Training, keine Prüfung. Fehler hier sind Gold.' Freitags notiere ich, wie die Klasse auf Tag 1 vs. Tag 5 reagiert hat."*
 
-**Alternativen:** (a) Brain Dump als Einheiten-Abschluss einführen (letzte 5 Min. vor jedem Themenwechsel); (b) Lernberatungs-Mini: der Klasse in 5 Minuten die Flüssigkeits-Illusion erklären (Textmarker-Rede!) – Vorgriff auf W20-Metakognition.
+**Alternativen:**
+
+1. Brain Dump als Einheiten-Abschluss einführen (letzte 5 Min. vor jedem Themenwechsel).
+2. Lernberatungs-Mini: der Klasse in 5 Minuten die Flüssigkeits-Illusion erklären (Textmarker-Rede!) – Vorgriff auf W20-Metakognition.
 
 > **Ausblick:** *„Nächste Woche die unbequemste Erkenntnis des Jahres: Warum die Stunde, die sich am glattesten anfühlt, oft nicht die lernwirksamste ist – Spacing, Interleaving und der Unterschied zwischen Lernleistung und Lernen."*
 

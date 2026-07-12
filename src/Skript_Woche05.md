@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie wirke ich ruhig und souverän – auch wenn ich es (noch) nicht bin? |
 | **Kernquellen** | Lovell/Dowley, Prinzip 4 („Master your own behaviour") und Routine 3 (Selbstregulation); Lemov T57 (Strong Voice / Register), T62 (Emotional Constancy) |
 | **Funktion im Jahr** | Das „Instrument" der Lehrkraft selbst. Liefert die körperlich-stimmliche Grundlage, auf der Signal (W4) und Interventionsleiter (W6) erst wirken. Der Reset-Anker wird zum persönlichen Werkzeug für alle Eskalationssituationen (W30). Erste Sitzung mit optionaler Selbst-Videoaufnahme – Vorübung für die Videoselbstanalyse in W8. |
-| **Lernziele** | Die TN können (1) die vier Präsenz-Stellschrauben (Stand, Register, Wortzahl/Pausen, emotionale Konstanz) benennen und demonstrieren, (2) bewusst zwischen formalem und warmem Register wechseln, (3) haben einen persönlichen Reset-Anker für Stressmomente gebaut und dreimal durchgespielt. |
+| **Lernziele** | Die TN können:<br>1. die vier Präsenz-Stellschrauben (Stand, Register, Wortzahl/Pausen, emotionale Konstanz) benennen und demonstrieren,<br>2. bewusst zwischen formalem und warmem Register wechseln,<br>3. haben einen persönlichen Reset-Anker für Stressmomente gebaut und dreimal durchgespielt. |
 | **Sitzungstyp** | Körper-Training. Ungewöhnlichste Sitzung des Blocks – die Moderation kündigt das an und rahmt es („heute arbeiten wir wie im Theater, aus gutem Grund"). |
 
 ---
@@ -72,13 +72,21 @@ Merksatz: *„Erst der Körper, dann das Signal, dann die Worte – und bei Stur
 Nach Handout A: Jede:r spricht die Standard-Ansage in den 4 Varianten (bewusst auch die schlechten – Kontrast lehrt!), die zwei Beobachter geben NUR Wirkungs-Feedback aus dem Raster („wirkte auf mich: …"). Danach 2 freie Durchgänge nur in Variante 4, Feinschliff: Satzende, Pause, Stand. **Registerwechsel-Übung:** dieselbe Person spricht direkt hintereinander eine formale Ansage und ein warmes Lob – der hörbare Schalter ist das Lernziel.
 
 ### Runde 2 · Reset-Anker bauen & härten (Min. 41–52)
-(a) 4 Min. Einzelarbeit: Anker-Karte ausfüllen (Handout B). (b) 8 Min. Härtetest in Dreiergruppen: Beobachter zieht Störkarte C und spielt die Provokation, die übende Person durchläuft sichtbar (!) ihren Anker und reagiert dann formal-ruhig; 3 Durchgänge pro Person, Provokation steigert sich leicht. Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht reflexhaft)? **Optional:** dritten Durchgang per Handy filmen, sofort selbst ansehen (30 Sek.), ein eigenes Aha notieren.
+Ablauf:
+
+1. 4 Min. Einzelarbeit: Anker-Karte ausfüllen (Handout B).
+2. 8 Min. Härtetest in Dreiergruppen: Beobachter zieht Störkarte C und spielt die Provokation, die übende Person durchläuft sichtbar (!) ihren Anker und reagiert dann formal-ruhig; 3 Durchgänge pro Person, Provokation steigert sich leicht.
+
+Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht reflexhaft)? **Optional:** dritten Durchgang per Handy filmen, sofort selbst ansehen (30 Sek.), ein eigenes Aha notieren.
 
 ## Phase 6 · Action Step (Minute 52–58)
 
 **Standard:** *„Vor jeder wichtigen Anweisung diese Woche: stehen bleiben, ausatmen, dann sprechen – und Satzenden bewusst nach unten. Ich notiere abends in einem Satz, wie es sich angefühlt hat."*
 
-**Alternativen:** (a) Register-Tagebuch: täglich eine Situation notieren, in der bewusst gewechselt wurde; (b) Anker-Woche: Reset-Anker bei jeder aufkommenden Gereiztheit einsetzen, Strichliste.
+**Alternativen:**
+
+1. Register-Tagebuch: täglich eine Situation notieren, in der bewusst gewechselt wurde;
+2. Anker-Woche: Reset-Anker bei jeder aufkommenden Gereiztheit einsetzen, Strichliste.
 
 > **Ausblick:** *„Nächste Woche das Modul, auf das viele von euch seit Woche 1 warten: Was tue ich konkret bei Störungen – die komplette Interventionsleiter, von der Augenbraue bis zur Konsequenz. Euer heutiges Werkzeug ist dafür die Grundierung: Ohne ruhigen Körper wirkt keine Stufe."*
 

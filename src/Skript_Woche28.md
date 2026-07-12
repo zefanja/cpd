@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie senke ich die Kosten der Anstrengung – und wie mache ich Anstrengung ansteckend? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Run routines" + „Nudge norms"); Verzahnung: komplettes Block-1-Playbook, Modell 4 (W1), Positive Framing (W7), Show Call (W25) |
 | **Funktion im Jahr** | Die Reinterpretations-Sitzung – das „Aha des Jahres": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert W7 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
-| **Lernziele** | Die TN können (1) Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren, (2) Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit), (3) erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit), (4) den Konsistenz-Hebel im Kollegium benennen. |
+| **Lernziele** | Die TN können:<br>1. Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren,<br>2. Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit),<br>3. erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit),<br>4. den Konsistenz-Hebel im Kollegium benennen. |
 | **Sitzungstyp** | Reinterpretation + Sprach-Training – dramaturgisch die „Belohnungs-Sitzung": Die TN entdecken, dass sie das meiste schon können. |
 
 ---
@@ -60,13 +60,22 @@
 Tandems, 10 Karten (Anhang 1.2): Negativ-Norm-Aussage laut lesen → die versteckte Werbebotschaft benennen („Was plakatiert dieser Satz?") → Positiv-Norm-Umbau laut sprechen. Tempo-Format ab Karte 5 (der Umbau soll schneller werden als der Frust-Reflex). Qualitätsbremse: *„Wahrheits-Check – und kein Zucker: ‚Toll, dass wenigstens ein paar…' ist Ironie-Gift, Woche 7 gilt."*
 
 ### Runde 2 · Sichtbarkeits-Plan (Min. 45–52)
-Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen: (a) Welche erwünschte Norm ist real vorhanden, aber unsichtbar? (b) Welche Bühne bekommt sie diese Woche – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)? (c) Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an? Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
+Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen:
+
+1. Welche erwünschte Norm ist real vorhanden, aber unsichtbar?
+2. Welche Bühne bekommt sie diese Woche – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)?
+3. Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an?
+
+Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
 
 ## Phase 7 · Action Step & Exit (Minute 52–60)
 
 **Standard:** *„Ich ersetze eine Woche lang JEDE Negativ-Norm-Aussage durch eine wahre Positiv-Norm-Aussage – Strichliste auf dem Pult (ertappt/umgebaut). Zusätzlich setze ich zwei Punkte meines Sichtbarkeits-Plans um."*
 
-**Alternativen:** (a) Bühnen-Woche: jeden Tag EINE konkrete Peer-Anerkennung für Anstrengung (nicht Leistung!); (b) Konsistenz-Pilot: das Gespräch mit dem einen Kollegen führen und die gemeinsame Formulierung vereinbaren.
+**Alternativen:**
+
+1. Bühnen-Woche: jeden Tag EINE konkrete Peer-Anerkennung für Anstrengung (nicht Leistung!).
+2. Konsistenz-Pilot: das Gespräch mit dem einen Kollegen führen und die gemeinsame Formulierung vereinbaren.
 
 > **Ausblick:** *„Nächste Woche Treiber 4 – der stillste und vielleicht wichtigste: Zugehörigkeit. Warum Schüler sich für Räume anstrengen, in denen sie gesehen werden – und was die Minute zwischen eurem Betreten des Raums und dem Begrüßungsritual damit zu tun hat. Bringt eure Sitzpläne mit."* **(Vorab-Auftrag auf die Exit-Karte: Sitzplan der schwierigsten Klasse!)**
 
@@ -101,7 +110,11 @@ Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine �
 10. „Niemand meldet sich mehr freiwillig." → *„Ich habe heute vier mutige Erstantworten gehört – Fehler inklusive, so lernen wir hier."*
 
 ## 1.3 Handout B: Sichtbarkeits-Plan (Vorlage)
-(a) **Wahre, unsichtbare Norm in meiner Klasse:** … (beobachtbar? ☐) — (b) **Bühne diese Woche:** Show Call am … von … | Peer-Anerkennung: wer, wofür (Anstrengung!): … | Mehrheits-Ansage bei Gelegenheit: … — (c) **Konsistenz-Anstoß:** Kollege/in: … | gemeinsame Formulierung: … | Gespräch am: …
+Vorlage:
+
+1. **Wahre, unsichtbare Norm in meiner Klasse:** … (beobachtbar? ☐)
+2. **Bühne diese Woche:** Show Call am … von … | Peer-Anerkennung: wer, wofür (Anstrengung!): … | Mehrheits-Ansage bei Gelegenheit: …
+3. **Konsistenz-Anstoß:** Kollege/in: … | gemeinsame Formulierung: … | Gespräch am: …
 
 ---
 
@@ -153,7 +166,7 @@ d) Vergleiche verboten sind ✗
 1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Jahres schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
 2. **See it (4 Min.):** Die EVK-Landkarte als interaktive Grafik: Block-1-Werkzeuge antippen → Kosten-Position leuchtet und der Formel-Nenner schrumpft sichtbar.
 3. **Name it (3 Min.):** Normen-Regel + Sichtbarkeits-Trio als Karten; „Was plakatiert dieser Satz?"-Vorschau mit 3 Beispielen.
-4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Reframing-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".
+4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Umformulierungs-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".
 5. **Sichtbarkeits-Planer:** die Vorlage digital mit Wochen-Erinnerungen; Show-Call-Verzahnung (Modul-25-Dreischritt wird eingeblendet).
 6. **Konsistenz-Baustein:** Gesprächsleitfaden-Karte für den Kollegen-Anstoß („Als Frage rahmen, nicht als Belehrung") – Vorgeschmack auf die Erwachsenen-Gespräche in Modul 31.
 7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Doppel-Strichliste (ertappt/umgebaut) + Sichtbarkeits-Plan-Checkboxen.

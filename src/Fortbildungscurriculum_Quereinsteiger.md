@@ -118,15 +118,15 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Kernideen (Lemov, TLAC 3.0, Kap. 1):**
 1. **Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht:** Lernen heißt, Wissen ins Langzeitgedächtnis zu bringen und Arbeitsgedächtnis zu entlasten.
 2. **Gewohnheiten beschleunigen Lernen:** Routinen machen Abläufe automatisch und setzen Denk-Kapazität frei.
-3. **Was Schüler:innen beachten, lernen sie:** Aufmerksamkeit ist die Währung des Klassenzimmers.
+3. **Was Schüler beachten, lernen sie:** Aufmerksamkeit ist die Währung des Klassenzimmers.
 4. **Motivation ist sozial:** Normen der Gruppe wirken stärker als jede Regel.
 5. **Gut unterrichten = Beziehung bauen:** Kompetentes Unterrichten selbst erzeugt Vertrauen (nicht umgekehrt erst „Beziehung, dann Unterricht").
 
 **Typische Fehlvorstellungen:** „Ich muss erst die Beziehung aufbauen, bevor ich Anforderungen stellen darf" (tatsächlich entsteht Beziehung durch gelingenden Unterricht); „Störungen sind persönliche Angriffe" (meist sind sie Normphänomene).
 
-**Übungsteil:** Fallanalyse: 2 kurze Unterrichtsvideos mit der Fünf-Prinzipien-Brille analysieren; eigenes „Störungs-Erlebnis" der ersten Tage durch die Prinzipien-Brille umdeuten (Reframing in Partnerarbeit).
+**Übungsteil:** Fallanalyse: 2 kurze Unterrichtsvideos mit der Fünf-Prinzipien-Brille analysieren; eigenes „Störungs-Erlebnis" der ersten Tage durch die Prinzipien-Brille umdeuten (Perspektivwechsel in Partnerarbeit).
 
-**Action Step:** „Ich beobachte diese Woche in einer Klasse gezielt: Worauf richten die Schüler:innen ihre Aufmerksamkeit in den ersten 5 Minuten – und was habe ich dafür getan?"
+**Action Step:** „Ich beobachte diese Woche in einer Klasse gezielt: Worauf richten die Schüler ihre Aufmerksamkeit in den ersten 5 Minuten – und was habe ich dafür getan?"
 
 **Coaching-Fokus:** Kennenlern-Hospitation, Baseline-Video aufnehmen (wird in Woche 36 wieder angesehen!).
 
@@ -165,7 +165,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Kernideen:**
 1. **Die Begrüßungsroutine als Strong Start (Adaption von Lemovs „Threshold & Strong Start"):** Unser schulisches Ritual (alle stehen auf, gemeinsame Begrüßung, Setzen) leistet dieselbe Funktion wie Lemovs Türschwellen-Ritual: klare Zäsur, Ton setzen, 100 %-Moment gleich zu Beginn. Entscheidend ist die Qualität der Durchführung: Die Lehrkraft geht zu ihrem festen Punkt, wartet auf vollständiges Stehen und Stille (100 %, Woche 6!), grüßt warm, erst dann Setz-Signal. Eine schlampig durchgewunkene Begrüßung sendet die Norm „Halbherzig reicht hier".
 2. **Entry-Kette danach (Lovell, Routine 1, adaptiert):** Direkt an das Setzen koppelt die feste Kette: Material raus → Starter beginnen, mit sichtbarem Timer und knapper Erinnerungsformel während des Setzens („Ihr wisst, was zu tun ist: Starter, 4 Minuten, still").
-3. **Do Now (Lemov T20):** 3–5 Min. schriftliche Aufgabe, ohne Erklärung lösbar, idealerweise Wiederholung – Schüler:innen arbeiten ab Sekunde 1, die Lehrkraft hat Hände frei.
+3. **Do Now (Lemov T20):** 3–5 Min. schriftliche Aufgabe, ohne Erklärung lösbar, idealerweise Wiederholung – Schüler arbeiten ab Sekunde 1, die Lehrkraft hat Hände frei.
 4. **Skript + Probe:** Routinen werden mit der Klasse geübt, notfalls wiederholt („Do It Again", Lemov T51 – als Reset, nicht als Strafe).
 
 **Typische Fehlvorstellungen:** „Ich verliere Zeit durchs Üben der Routine" (die Investition amortisiert sich in Wochen); „Bei Teenagern wirkt das kindisch" (Ton und Framing anpassen, Struktur beibehalten).
@@ -259,16 +259,16 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Kernideen:**
 1. **Positive Framing (Lemov T59):** Ansagen beschreiben das Gewünschte, nicht das Fehlverhalten („Ich sehe drei Hefte offen – ich will alle sehen" statt „Hört auf zu quatschen"). Annahme des Guten („Ihr habt vergessen, dass…").
 2. **Narrate the Positive / Bank Positivity (Lovell, Prinzip 10):** Positiv-Konto füllen – viele kleine echte Anerkennungen schaffen das Kapital für nötige Korrekturen.
-3. **Precise Praise (Lemov T60):** Lob konkret, verdient, prozessbezogen; Anerkennung ≠ Lob; kein „Lobsandwich"-Trick (Schüler:innen durchschauen ihn, er entwertet Feedback).
+3. **Precise Praise (Lemov T60):** Lob konkret, verdient, prozessbezogen; Anerkennung ≠ Lob; kein „Lobsandwich"-Trick (Schüler durchschauen ihn, er entwertet Feedback).
 4. **Warm/Strict (Lemov T61):** Gleichzeitig warm UND streng – hohe Anforderung als Ausdruck von Zutrauen kommunizieren („Weil ich weiß, dass du das kannst…").
 
-**Typische Fehlvorstellungen:** „Viel loben = gute Beziehung" (unverdientes Lob senkt Erwartungen und Glaubwürdigkeit); „Streng sein macht unbeliebt" (Schüler:innen vertrauen Lehrkräften, bei denen sie lernen).
+**Typische Fehlvorstellungen:** „Viel loben = gute Beziehung" (unverdientes Lob senkt Erwartungen und Glaubwürdigkeit); „Streng sein macht unbeliebt" (Schüler vertrauen Lehrkräften, bei denen sie lernen).
 
-**Übungsteil:** Reframing-Batterie: 10 Negativ-Ansagen live in Positiv-Frames umformulieren (Tempo-Übung!); Warm/Strict-Sätze für reale Situationen der TN schreiben; Precise-Praise-Übung anhand echter Schülerarbeiten.
+**Übungsteil:** Umformulierungs-Batterie: 10 Negativ-Ansagen live in Positiv-Frames umformulieren (Tempo-Übung!); Warm/Strict-Sätze für reale Situationen der TN schreiben; Precise-Praise-Übung anhand echter Schülerarbeiten.
 
 **Action Step:** „Verhältnis 3:1 – auf jede Korrektur kommen drei konkrete positive Rückmeldungen. Ich zähle in einer Stunde pro Tag mit (Strichliste auf dem Pult)."
 
-**SPA-Bausteine:** Reframing-Trainer mit Timer (Gamification: wie viele in 60 Sek.?); Lob-Qualitäts-Check (Lob eingeben → präzise? verdient? prozessbezogen?); Warm/Strict-Szenariokarten.
+**SPA-Bausteine:** Umformulierungs-Trainer mit Timer (Gamification: wie viele in 60 Sek.?); Lob-Qualitäts-Check (Lob eingeben → präzise? verdient? prozessbezogen?); Warm/Strict-Szenariokarten.
 
 ---
 
@@ -288,7 +288,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Übungsteil:** W.I.N.-Rollenspiele mit 3 Schwierigkeitsgraden (einsichtig / abblockend / eskalierend); eigenes Playbook beginnen; **Meilenstein 1:** Selbst- und Coach-Einschätzung auf der Kompetenzmatrix Klassenführung.
 
-**Action Step:** „Ich führe diese Woche ein W.I.N.-Gespräch mit dem/der Schüler:in, den/die ich bisher gemieden habe."
+**Action Step:** „Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler, den ich bisher gemieden habe."
 
 **Coaching-Fokus:** Meilenstein-Gespräch 1: Video-Selbstanalyse Nr. 1 (10-min-Ausschnitt, TN annotiert selbst, Coach ergänzt).
 
@@ -312,7 +312,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 1. **Die 10 Prinzipien (Rosenshine, 2012):** tägliche Wiederholung; kleine Schritte; viele Fragen; Modellieren; angeleitetes Üben; Verständnis aller prüfen; hohe Erfolgsquote (~80 %); Gerüste für schwierige Aufgaben; selbstständiges Üben; wöchentliche/monatliche Wiederholung.
 2. **I do – We do – You do (Guidance Fading):** Verantwortung wandert schrittweise von Lehrkraft zu Lernenden; der häufigste Anfängerfehler ist das Überspringen des „We do".
 3. **Hohe Erfolgsquote als Steuergröße:** ca. 80 % richtige Antworten in Übungsphasen – darunter: zurück zum Modellieren; darüber: Anspruch erhöhen.
-4. **Novizen ≠ Experten:** Schüler:innen sind Novizen und brauchen explizite Instruktion; „entdeckendes Lernen" überfordert ohne Vorwissen das Arbeitsgedächtnis (Verbindung zu Woche 15–16).
+4. **Schüler ohne Vorkenntnisse ≠ Experten:** Schüler haben noch keine Vorkenntnisse und brauchen explizite Instruktion; „entdeckendes Lernen" überfordert ohne Vorwissen das Arbeitsgedächtnis (Verbindung zu Woche 15–16).
 
 **Typische Fehlvorstellungen:** „Frontalunterricht ist per se schlecht" (explizite Instruktion ≠ Dauermonolog – sie ist hochinteraktiv); „Gute Stunden brauchen spektakuläre Methoden" (Wirkung liegt in der Grundarchitektur).
 
@@ -326,7 +326,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Woche 10: Lernziele & Backwards Design – wissen, wohin
 
-**Leitfrage:** Was genau sollen meine Schüler:innen am Ende können – und woran erkenne ich es?
+**Leitfrage:** Was genau sollen meine Schüler am Ende können – und woran erkenne ich es?
 
 **Lernziele:** Die TN können 2–5 kumulative, messbare Lern-Meilensteine für eine Stunde formulieren und von dort rückwärts planen.
 
@@ -348,7 +348,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Woche 11: Modellieren & Erklären – das „I do"
 
-**Leitfrage:** Wie erkläre ich so, dass Novizen wirklich folgen können?
+**Leitfrage:** Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können?
 
 **Lernziele:** Die TN können eine Modellierungsphase mit Lautem Denken, Beispielen und minimaler Sprachlast gestalten.
 
@@ -356,7 +356,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 1. **Kleine Schritte:** Stoff atomisieren; ein neues Element nach dem anderen; erst sichern, dann weitergehen.
 2. **Lautes Denken (Think Aloud / Expert Thinking):** Nicht nur zeigen *was*, sondern hörbar machen *wie Expert:innen denken* – inkl. Entscheidungen und typischer Fallen.
 3. **Worked Examples & Beispielpaare:** Ausgearbeitete Beispiele entlasten das Arbeitsgedächtnis; Beispiel + Nicht-Beispiel schärft Konzeptgrenzen.
-4. **Der Fluch des Wissens:** Als Fachexperte (gerade Quereinsteiger:innen aus der Praxis!) unterschätzt man systematisch, was Novizen nicht wissen. Gegenmittel: Schritte kleiner machen, als sich nötig anfühlt.
+4. **Der Fluch des Wissens:** Als Fachexperte (gerade Quereinsteiger:innen aus der Praxis!) unterschätzt man systematisch, was Schüler ohne Vorkenntnisse nicht wissen. Gegenmittel: Schritte kleiner machen, als sich nötig anfühlt.
 5. **Aufmerksamkeitsdisziplin beim Erklären:** Während des Modellierens Stifte weg, nur zuhören/zusehen (keine geteilte Aufmerksamkeit zwischen Mitschreiben und Verstehen).
 
 **Typische Fehlvorstellungen:** „Meine Berufserfahrung macht meine Erklärungen automatisch gut" (Expertise erschwert eher das Erklären); „Mitschreiben während des Erklärens ist effizient" (split attention).
@@ -563,7 +563,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Woche 20: Elaboration & Wissensorganisation (+ Konsolidierung Block 3)
 
-**Leitfrage:** Wie helfe ich Schüler:innen, Wissen zu vernetzen statt zu stapeln?
+**Leitfrage:** Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln?
 
 **Lernziele:** Die TN können Elaborationsaufträge stellen (Warum-Fragen, Vergleiche, Beispiele generieren), Knowledge Organizer erstellen und Metakognition anbahnen.
 
@@ -752,7 +752,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Übungsteil:** Fallanalyse „Nora & Evie" (McCreas Kontrastschülerinnen) mit Treiber-Brille; für einen konkreten eigenen „unmotivierten" Schüler: Erwartung/Wert/Kosten-Analyse + eine Secure-Success-Intervention planen.
 
-**Action Step:** „Ich gestalte für Schüler:in Y diese Woche gezielt zwei garantierte, echte Erfolgserlebnisse und benenne die Anstrengungs-Attribution explizit."
+**Action Step:** „Ich gestalte für Schüler Y diese Woche gezielt zwei garantierte, echte Erfolgserlebnisse und benenne die Anstrengungs-Attribution explizit."
 
 **SPA-Bausteine:** Interaktives Expectancy-Value-Cost-Modell (Regler verschieben → Motivationsprognose); Fall-Bibliothek Motivationsdiagnostik; Attributions-Formulierungs-Trainer.
 

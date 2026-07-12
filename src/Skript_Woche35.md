@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie werde ich nach diesem Jahr weiter besser – ohne dieses Programm? |
 | **Kernquellen** | Ericsson (Deliberate Practice / Erfahrungs-Plateau); EEF *Effective Professional Development* (die vier Mechanismen – jetzt offengelegt); Lemov et al., *Practice Perfect*; Lesepfad: Willingham, Wiliam, Sherrington (WalkThrus) |
 | **Funktion im Jahr** | Die Übergabe-Sitzung: Das Programm legt seine eigene Bauweise offen (Meta-Ebene als EEF-Mechanismus „Motivation + Verankerung") und übergibt die Selbststeuerungs-Werkzeuge für Jahr 2. Video-Selbstanalyse Nr. 3 läuft in Tandems (Coach-Rolle wandert zum Peer!); der Entwicklungsplan Jahr 2 entsteht; das Kolloquium wird konkret vorbereitet. |
-| **Lernziele** | Die TN können (1) das Erfahrungs-Plateau erklären (Erfahrung allein macht ab ~Jahr 3 nicht besser – gezielte Übung schon), (2) die vier EEF-Mechanismen benennen und im eigenen Jahr wiederfinden, (3) die vier Selbststeuerungs-Werkzeuge einrichten (Video-Routine, eigener Action-Step-Zyklus, Tandem mit Kalendereintrag, Lesepfad), (4) haben ihr Selbst-Coaching-Minimum und ihren Entwicklungsplan Jahr 2 schriftlich fixiert. |
+| **Lernziele** | Die TN können:<br>1. das Erfahrungs-Plateau erklären (Erfahrung allein macht ab ~Jahr 3 nicht besser – gezielte Übung schon),<br>2. die vier EEF-Mechanismen benennen und im eigenen Jahr wiederfinden,<br>3. die vier Selbststeuerungs-Werkzeuge einrichten (Video-Routine, eigener Action-Step-Zyklus, Tandem mit Kalendereintrag, Lesepfad),<br>4. haben ihr Selbst-Coaching-Minimum und ihren Entwicklungsplan Jahr 2 schriftlich fixiert. |
 | **Sitzungstyp** | Meta-Sitzung + Tandem-Videoanalyse + Planungswerkstatt – die Sitzung, in der das Programm sich überflüssig macht. |
 
 ---
@@ -64,10 +64,21 @@
 ## Phase 5 · Do it (Minute 30–52)
 
 ### Runde 1 · Video-Selbstanalyse Nr. 3 in Tandems (Min. 30–44) — die Coach-Rolle wandert
-Tandems: Jede:r zeigt den annotierten Ausschnitt (5–6 Min. pro Person inkl. Gespräch). **Der Peer führt das Gespräch nach Coach-Struktur** (an der Tafel): (1) „Was siehst du heute, was du in Woche 20 nicht gesehen hättest?" (2) Eine Stärke mit Zeitstempel würdigen – Precise Praise! (3) EIN Impuls. *(Moderation rahmt vorher: „Das ist keine Übung – das IST euer Format ab August. Heute mit Netz.")*
+Tandems: Jede:r zeigt den annotierten Ausschnitt (5–6 Min. pro Person inkl. Gespräch). **Der Peer führt das Gespräch nach Coach-Struktur** (an der Tafel):
+
+1. „Was siehst du heute, was du in Woche 20 nicht gesehen hättest?"
+2. Eine Stärke mit Zeitstempel würdigen – Precise Praise!
+3. EIN Impuls.
+
+*(Moderation rahmt vorher: „Das ist keine Übung – das IST euer Format ab August. Heute mit Netz.")*
 
 ### Runde 2 · Entwicklungsplan Jahr 2 (Min. 44–52)
-Einzelarbeit auf Handout B: (a) Meine zwei Baustellen für Jahr 2 (Quellen: Matrix-Verlauf, Video 3, Coach-Feedback) – priorisiert; (b) Selbst-Coaching-Minimum unterschreiben (ja, wirklich unterschreiben – Commitment-Ritual); (c) **Tandem-Termine für Halbjahr 1 JETZT in beide Kalender** (die Moderation wartet sichtbar, bis Handys gezückt sind); (d) Buch Nr. 1 vom Lesepfad wählen.
+Einzelarbeit auf Handout B:
+
+1. Meine zwei Baustellen für Jahr 2 (Quellen: Matrix-Verlauf, Video 3, Coach-Feedback) – priorisiert.
+2. Selbst-Coaching-Minimum unterschreiben (ja, wirklich unterschreiben – Commitment-Ritual).
+3. **Tandem-Termine für Halbjahr 1 JETZT in beide Kalender** (die Moderation wartet sichtbar, bis Handys gezückt sind).
+4. Buch Nr. 1 vom Lesepfad wählen.
 
 ## Phase 6 · Kolloquiums-Vorbereitung & Action Step (Minute 52–58)
 
@@ -76,7 +87,12 @@ Einzelarbeit auf Handout B: (a) Meine zwei Baustellen für Jahr 2 (Quellen: Matr
 **Action Step (Standard):** *„Ich bereite meine Kolloquiums-Präsentation vor: Baseline-Ausschnitt wählen (1–2 Min.), Kontrast-Ausschnitt aus Video 3 (1–2 Min.), meine drei Techniken benennen, meine Baustelle mit Jahr-2-Plan formulieren. Generalprobe im Tandem bis Donnerstag."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Letzte reguläre Exit-Karte, erweitert: (1) Der Satz aus diesem Jahr, der bleibt: … (2) Meine Botschaft an die nächste Kohorte: … *(fließt anonymisiert in die Kohorte-2-Auftaktwoche – die Kohorte wird Teil des Programms!)*
+Letzte reguläre Exit-Karte, erweitert:
+
+1. Der Satz aus diesem Jahr, der bleibt: …
+2. Meine Botschaft an die nächste Kohorte: …
+
+*(fließt anonymisiert in die Kohorte-2-Auftaktwoche – die Kohorte wird Teil des Programms!)*
 
 ---
 
@@ -153,7 +169,14 @@ d) Selbststeuerung überschätzt wird ✗
 ---
 
 # Anhang 3: Kolloquiums-Leitfaden (für TN, wird heute ausgeteilt)
-**Format:** 90–120 Min. · Schulleitung eröffnet · pro TN 8–10 Min. + 2 Min. Stärken-Resonanz der Kohorte. **Deine Präsentation:** (1) Baseline-Ausschnitt W1 (1–2 Min., selbst gewählt – Mut zur ehrlichen Stelle!) · (2) Kontrast-Ausschnitt Video 3 (1–2 Min., dieselbe Situations-KATEGORIE wenn möglich: Stundenstart gegen Stundenstart schlägt Rosinen-Picking) · (3) Meine drei Techniken (benennen + je 1 Satz, was sie verändert haben) · (4) Meine Baustelle + mein Jahr-2-Plan (zeigt: Entwicklung endet nicht – sie wechselt den Träger). **Stärken-Resonanz:** Die Kohorte antwortet mit konkreten Stärken (Precise Praise – letzter Auftritt der Feedbackregel). **Kein Prüfungsformat.** Zeitwächter gnadenlos, Taschentücher erlaubt.
+**Format:** 90–120 Min. · Schulleitung eröffnet · pro TN 8–10 Min. + 2 Min. Stärken-Resonanz der Kohorte. **Deine Präsentation:**
+
+1. Baseline-Ausschnitt W1 (1–2 Min., selbst gewählt – Mut zur ehrlichen Stelle!)
+2. Kontrast-Ausschnitt Video 3 (1–2 Min., dieselbe Situations-KATEGORIE wenn möglich: Stundenstart gegen Stundenstart schlägt Rosinen-Picking)
+3. Meine drei Techniken (benennen + je 1 Satz, was sie verändert haben)
+4. Meine Baustelle + mein Jahr-2-Plan (zeigt: Entwicklung endet nicht – sie wechselt den Träger)
+
+**Stärken-Resonanz:** Die Kohorte antwortet mit konkreten Stärken (Precise Praise – letzter Auftritt der Feedbackregel). **Kein Prüfungsformat.** Zeitwächter gnadenlos, Taschentücher erlaubt.
 
 ---
 

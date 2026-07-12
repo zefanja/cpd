@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W10), Stundenarchitektur-Template (W14), Rosenshine-Audit (W9) |
 | **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das W14-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit W9-Audit als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
-| **Lernziele** | Die TN können (1) das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget), (2) die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt, (3) eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht, (4) ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
+| **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
 | **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
 
 ---
@@ -70,7 +70,10 @@ Tandem-Blitz: Partner legt das W9-Audit-Raster an den Einseiter – 2 Minuten, f
 
 **Standard:** *„Ich plane diese Woche JEDE Einzelstunde auf dem Lean-Einseiter mit Timer: 20-Minuten-Deckel, Fragenfolge, Repertoire. Freitags notiere ich: reale Durchschnittszeit + ehrliche Antwort auf die Frage ‚War eine dieser Stunden schlechter als meine 90-Minuten-Stunden?'"*
 
-**Alternativen:** (a) Repertoire-Inventur: die eigenen 8–10 Formate schriftlich fixieren (Blanko) und zwei Lücken benennen, die noch Routine-Einführung brauchen; (b) für hartnäckige Überplaner (Coach-Wissen): Abrüstungs-Woche – Planungszeit halbieren (nicht auf 20 Min., nur halbieren) und die Wirkung per Ticket vergleichen.
+**Alternativen:**
+
+1. Repertoire-Inventur: die eigenen 8–10 Formate schriftlich fixieren (Blanko) und zwei Lücken benennen, die noch Routine-Einführung brauchen.
+2. Für hartnäckige Überplaner (Coach-Wissen): Abrüstungs-Woche – Planungszeit halbieren (nicht auf 20 Min., nur halbieren) und die Wirkung per Ticket vergleichen.
 
 > **Ausblick:** *„Nächste Woche heben wir eine Ebene: Wie plant man eine ganze EINHEIT rückwärts – Klassenarbeit zuerst, dann die Stundenkette. Bringt den Termin und das Thema eurer nächsten Klassenarbeit mit."* **(Vorab-Auftrag auf die Exit-Karte!)**
 

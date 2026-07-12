@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie mache ich Eltern zu Verbündeten – auch die schwierigen? |
 | **Kernquellen** | Lovell/Dowley (Elternkommunikation, Bank Positivity R-Prinzip auf Erwachsene übertragen); Verzahnung: W.I.N. (W8), Beziehungskonto (W7), Grenz-Formel (W5/W30), deutsche Schulformate |
 | **Funktion im Jahr** | Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Jahres auf Erwachsene – die große Entlastungs-Pointe: Die TN KÖNNEN die Struktur längst. Positiv-Kontakte als Konto-Logik; der Gesprächs-Vierschritt als W.I.N. für Erwachsene; die Grenz-Formel für Angriffe. Deutsche Spezifika (Sprechtag, Dokumentationspflicht, Nie-allein-Regel) verankern es im realen System. Block-5-Quiz + 5-Treiber-Poster + Matrix-Update. |
-| **Lernziele** | Die TN können (1) proaktive Positiv-Kontakte als System etablieren (erster Kontakt nie Problemkontakt), (2) ein Problemgespräch mit dem Vierschritt führen (gemeinsames Ziel → Fakten → Zuhören → Schritte + Termin), (3) Angriffe mit der Grenz-Formel beantworten (Verständnis + Sache + Angebot) und wissen, wann sie nicht mehr allein sprechen, (4) die deutschen Formate bedienen (Sprechtag effizient, Gesprächsnotiz als Standard). |
+| **Lernziele** | Die TN können:<br>1. proaktive Positiv-Kontakte als System etablieren (erster Kontakt nie Problemkontakt),<br>2. ein Problemgespräch mit dem Vierschritt führen (gemeinsames Ziel → Fakten → Zuhören → Schritte + Termin),<br>3. Angriffe mit der Grenz-Formel beantworten (Verständnis + Sache + Angebot) und wissen, wann sie nicht mehr allein sprechen,<br>4. die deutschen Formate bedienen (Sprechtag effizient, Gesprächsnotiz als Standard). |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Eltern-Rollenspiele (3 Rollenkarten) + Konsolidierungs-Ritual. |
 
 ---
@@ -71,18 +71,26 @@ Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 M
 
 **Standard:** *„Ich führe diese Woche ZWEI rein positive Elternkontakte (Anruf oder Zwei-Zeiler) – gezielt bei Kindern, bei denen später Gesprächsbedarf wahrscheinlich ist. Konkret, verdient, aufs Vorgehen. Danach: Gesprächsnotiz-Zweizeiler."*
 
-**Alternativen:** (a) Vierschritt-Ernstfall: das anstehende schwierige Elterngespräch mit dem Vierschritt vorbereiten (Skriptbogen) und führen – vorher im Coaching proben; (b) Sprechtags-Vorbereitung (saisonal): Takt-Plan + Auslagerungs-Sätze für heikle Fälle.
+**Alternativen:**
+
+1. Vierschritt-Ernstfall: das anstehende schwierige Elterngespräch mit dem Vierschritt vorbereiten (Skriptbogen) und führen – vorher im Coaching proben.
+2. Sprechtags-Vorbereitung (saisonal): Takt-Plan + Auslagerungs-Sätze für heikle Fälle.
 
 > **Ausblick:** *„Block 6 beginnt – das Finale, und es gehört EUCH: Wie ihr all das mit vertretbarem Zeitaufwand plant, korrigiert und überlebt. Erste Sitzung: Lean Lesson Planning – oder: Warum eure Sonntagabende ab jetzt kürzer werden. Bringt eure ehrliche Planungszeit pro Stunde mit – wir rechnen."* **(Vorab-Auftrag auf die Exit-Karte: durchschnittliche Planungszeit pro Einzelstunde schätzen + notieren!)**
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss): (1) Mein wichtigster Treiber für MEINE Klassen: … (2) Mein Elternarbeits-Vorsatz: … + Planungszeit-Erinnerung.
+Erweitert (Blockabschluss):
+
+1. Mein wichtigster Treiber für MEINE Klassen: …
+2. Mein Elternarbeits-Vorsatz: … + Planungszeit-Erinnerung.
 
 ---
 
 # 4. Coaching-Woche 31 (Handreichung)
 
-- **Kein Hospitationsfokus im Unterricht** – stattdessen: (1) **Gesprächsprobe:** Falls ein reales Elterngespräch ansteht → mit dem Vierschritt-Skriptbogen im 1:1 durchspielen (Coach als Elternteil, ruhig fordernd); Grenz-Formel einmal laut. (2) **Positiv-Kontakt-Check:** Die zwei Kontakte konkret planen – welche Kinder, welcher Anlass (muss WAHR und konkret sein!), wann.
+- **Kein Hospitationsfokus im Unterricht** – stattdessen:
+  1. **Gesprächsprobe:** Falls ein reales Elterngespräch ansteht → mit dem Vierschritt-Skriptbogen im 1:1 durchspielen (Coach als Elternteil, ruhig fordernd); Grenz-Formel einmal laut.
+  2. **Positiv-Kontakt-Check:** Die zwei Kontakte konkret planen – welche Kinder, welcher Anlass (muss WAHR und konkret sein!), wann.
 - **Peer-Hospitation 5 nachbesprechen** (Bogen W30): Treiber-Landkarte über beide Stunden; die Kohorte würdigen – es war die letzte Gruppenhospitation, die Öffnungskultur ist ein Programmergebnis, das aussprechen.
 - **Meilenstein-Check Block 5:** Matrix Feld 8; EVK-Fall-Bilanz (W27→31): Was hat sich beim eigenen Fall bewegt? (Auch „wenig" ist ein ehrliches, besprechbares Ergebnis – Zeithorizonte von Motivationsarbeit realistisch rahmen.)
 - **Red Flag 1:** TN nutzt den Positiv-Kontakt als trojanisches Pferd („…und wo ich Sie gerade dranhabe: Emre stört auch ständig") → hart trennen: Der Positiv-Kontakt stirbt an jedem Aber. **Red Flag 2:** anstehendes Eskalations-Elterngespräch, TN plant allein hinzugehen → Nie-allein-Regel aktivieren, Begleitung organisieren.

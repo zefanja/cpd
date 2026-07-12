@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie plane ich eine ganze Einheit so, dass jede Stunde auf die Arbeit einzahlt – ohne Mehraufwand? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Unit-Ebene, Inter-Lesson-Planning); Lemov T4 (Double Plan); Verzahnung: Backwards Design (W10), Spacing-Landkarte (W19), Fading/Stretch (W12/23) |
 | **Funktion im Jahr** | Hebt Lean von der Stunde auf die Einheit: Die Klassenarbeit wird ZUERST skizziert (Backwards Design in Großformat) – das entschärft nebenbei die W34-Korrekturlast (wer die Arbeit früh baut, baut sie auswertbar). Inter-Lesson-Planning ersetzt die Illusion des starren Wochenplans durch tägliche Feinsteuerung. Double Plan schließt die letzte Planungs-Lücke: die Schülerspalte. Differenzierung wird pragmatisch eingebaut statt angeflanscht. |
-| **Lernziele** | Die TN können (1) eine Einheit rückwärts aufziehen (Arbeit skizzieren → Meilensteine → Stundenkette → Spacing-Anker), (2) Inter-Lesson-Planning praktizieren (5 Abend-Minuten: Ticket-Befund → Morgen-Feinjustierung), (3) per Double Plan die Schülertätigkeit pro Phase mitplanen und Passivitätslöcher finden, (4) Differenzierung als Kern+Rampe strukturieren (Gerüst unten, Stretch oben, mit Fading-Ausstieg). |
+| **Lernziele** | Die TN können:<br>1. eine Einheit rückwärts aufziehen (Arbeit skizzieren → Meilensteine → Stundenkette → Spacing-Anker),<br>2. Inter-Lesson-Planning praktizieren (5 Abend-Minuten: Ticket-Befund → Morgen-Feinjustierung),<br>3. per Double Plan die Schülertätigkeit pro Phase mitplanen und Passivitätslöcher finden,<br>4. Differenzierung als Kern+Rampe strukturieren (Gerüst unten, Stretch oben, mit Fading-Ausstieg). |
 | **Sitzungstyp** | Werkstatt-Sitzung: der Einheiten-Canvas an der REALEN nächsten Klassenarbeit – der Output geht direkt in den Unterricht. |
 
 ---
@@ -70,7 +70,10 @@ Drei Prüffragen: **„Zeig mir die Aufgabe der Arbeit, auf die Stunde 3 einzahl
 
 **Standard:** *„Meine nächste Einheit läuft nach dem Canvas: Arbeit ist skizziert, Kette steht mit Bleistift – und ich praktiziere täglich Inter-Lesson-Planning: 5 Abendminuten, Ticket → Justierung, notiert in der Puffer-Spalte."*
 
-**Alternativen:** (a) Double-Plan-Woche: jede Stundenplanung bekommt die Schülerspalte – Passivitätslöcher zählen und füllen; (b) Kern+Rampe-Pilot: für EINE heterogene Lerngruppe die Differenzierung der laufenden Einheit auf Kern+Gerüst+Stretch umbauen.
+**Alternativen:**
+
+1. Double-Plan-Woche: jede Stundenplanung bekommt die Schülerspalte – Passivitätslöcher zählen und füllen.
+2. Kern+Rampe-Pilot: für EINE heterogene Lerngruppe die Differenzierung der laufenden Einheit auf Kern+Gerüst+Stretch umbauen.
 
 > **Ausblick:** *„Ihr habt die Arbeit jetzt früh skizziert – nächste Woche zeige ich euch, warum das eure Wochenenden rettet: Korrektur mit System. Whole-Class-Feedback, Korrektur-Triage, und die Frage, wie viel roter Rand wirklich bei den Schülern ankommt. Spoiler: Es ist weniger, als der Aufwand vermuten lässt. Bringt einen korrigierten Klassensatz mit – oder die Erinnerung an euer letztes Korrektur-Wochenende."*
 

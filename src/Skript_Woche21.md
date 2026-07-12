@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
 | **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
 | **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (W22–26) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert das Exemplar (W10) und die Fallen-Sammlung (W11) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
-| **Lernziele** | Die TN können (1) begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen, (2) auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen), (3) die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
+| **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
 | **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
 
 ---
@@ -38,7 +38,7 @@
 Moderation spielt eine 90-Sekunden-Szene: erklärt etwas Kurzes, dann: *„Alle verstanden? … Fragen? … Keiner? Sehr gut, dann weiter."* Blättert demonstrativ zur nächsten Folie.
 
 > **Auswertung:**
-> *„Frage an euch: Was weiß ich jetzt über den Lernstand dieser Klasse? … Exakt: nichts. Null. Und trotzdem ist ‚Alle verstanden?' der meistgesprochene Satz in deutschen Klassenzimmern. Warum liefert er nichts? Zwei Gründe. Erstens die **sozialen Kosten**: Wer jetzt die Hand hebt, sagt vor 28 Zeugen ‚Ich bin der Langsame'. Dieser Preis ist für einen Vierzehnjährigen unbezahlbar – also schweigt er und hofft. Zweitens, subtiler: **Viele wissen nicht, DASS sie es nicht verstanden haben.** Um zu merken, dass man etwas nicht kann, muss man es schon halb können – das ist der Kern des Dunning-Kruger-Befunds. Die Frage ‚Verstanden?' fragt also genau die Instanz, die am wenigsten Bescheid weiß: die Selbsteinschätzung von Novizen.*
+> *„Frage an euch: Was weiß ich jetzt über den Lernstand dieser Klasse? … Exakt: nichts. Null. Und trotzdem ist ‚Alle verstanden?' der meistgesprochene Satz in deutschen Klassenzimmern. Warum liefert er nichts? Zwei Gründe. Erstens die **sozialen Kosten**: Wer jetzt die Hand hebt, sagt vor 28 Zeugen ‚Ich bin der Langsame'. Dieser Preis ist für einen Vierzehnjährigen unbezahlbar – also schweigt er und hofft. Zweitens, subtiler: **Viele wissen nicht, DASS sie es nicht verstanden haben.** Um zu merken, dass man etwas nicht kann, muss man es schon halb können – das ist der Kern des Dunning-Kruger-Befunds. Die Frage ‚Verstanden?' fragt also genau die Instanz, die am wenigsten Bescheid weiß: die Selbsteinschätzung von Schülern ohne Vorkenntnisse.*
 > *Die Ersetzungs-Regel des Tages: **Jede Selbstauskunfts-Frage wird durch eine prüfbare Mini-Aufgabe ersetzt.** Nicht ‚Verstanden?', sondern: ‚Boards raus – löst Nummer 2.' Nicht ‚Noch Fragen?', sondern: ‚Schreibt den ersten Schritt auf – hoch.' Ihr habt die Werkzeuge längst; heute bekommt ihr das Verbotsschild dazu."*
 
 ## Phase 3 · Input: Culture of Error (Minute 20–30)
@@ -67,7 +67,10 @@ Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrsch
 
 **Standard:** *„Ich streiche ‚Habt ihr das verstanden?' und ‚Noch Fragen?' KOMPLETT aus meinem Repertoire und ersetze jede dieser Situationen durch eine prüfbare Mini-Aufgabe. Ehrlichkeits-Strichliste auf dem Pult: Wie oft ertappt?"*
 
-**Alternativen:** (a) Miene-Woche: Fehlerreaktions-Dreiklang mit bewusst neutraler Mimik – abends 1 Notiz zur schwierigsten Situation; (b) Falle-erhofft-Woche: jede Stunde einmal den Satz „Ich hoffe, einige sind in die Falle getappt – dann lohnt sich das jetzt" (oder Variante) ehrlich einsetzen.
+**Alternativen:**
+
+1. Miene-Woche: Fehlerreaktions-Dreiklang mit bewusst neutraler Mimik – abends 1 Notiz zur schwierigsten Situation.
+2. Falle-erhofft-Woche: jede Stunde einmal den Satz „Ich hoffe, einige sind in die Falle getappt – dann lohnt sich das jetzt" (oder Variante) ehrlich einsetzen.
 
 > **Ausblick:** *„Auf diesem Fundament bauen wir nächste Woche das Werkzeug, vor dem viele von euch Respekt haben – zu Unrecht, wenn man es richtig macht: Cold Call. Aufrufen ohne Meldung, warm und fair. Danach denken in euren Frage-Phasen nicht mehr drei Leute mit, sondern achtundzwanzig."*
 
@@ -77,7 +80,10 @@ Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrsch
 
 # 4. Coaching-Woche 21 (Handreichung)
 
-- **Hospitationsfokus:** (1) Re-Establish-Moment am Montag beobachten (Zettel aus der Sitzung!); (2) Selbstauskunfts-Zählung: Wie oft „Verstanden?/Fragen?" – und was geschah stattdessen/danach? (3) Miene bei Fehlerantworten (2–3 Momente wörtlich + mimisch protokollieren – taktvoll formuliert).
+- **Hospitationsfokus:**
+  1. Re-Establish-Moment am Montag beobachten (Zettel aus der Sitzung!).
+  2. Selbstauskunfts-Zählung: Wie oft „Verstanden?/Fragen?" – und was geschah stattdessen/danach?
+  3. Miene bei Fehlerantworten (2–3 Momente wörtlich + mimisch protokollieren – taktvoll formuliert).
 - **Auswertungsgespräch:** Strichliste zeigen; die zwei ertappten Momente gemeinsam in Mini-Aufgaben übersetzen und laut sprechen. Plan-for-Error-Canvas für die kommende Stunde durchgehen: Wahrscheinlichkeits-Check.
 - **Verzahnung:** Der Block-4-Dauer-Action-Step aus dem Meilenstein-Gespräch (W20) läuft parallel – kurz abfragen.
 - **Red Flag:** TN berichtet, dass die Klasse über Fehler lacht und er/sie „darüber hinweggeht" → sofort adressieren: Das Lach-Verbot ist die Eintrittskarte für ALLE Block-4-Techniken; ggf. Klassengespräch + 100 %-Durchsetzung (W6) als vorgezogener Schritt, Cold Call (W22) für diese Klasse um eine Woche schieben.

@@ -215,6 +215,9 @@ textarea{min-height:4.2em}
 }
 .menu-panel button.item:hover{background:var(--petrol-soft)}
 .menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
 
 /* ---------- Druck / PDF ---------- */
 #printReport{display:none}
@@ -230,6 +233,33 @@ textarea{min-height:4.2em}
   #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
   .pagebreak{break-before:page}
 }
+
+/* ---------- Bild / Lightbox ---------- */
+.fig{margin-top:1rem}
+.fig-frame{
+  position:relative;border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;cursor:zoom-in;background:var(--card);
+}
+.fig-frame img{display:block;width:100%;height:auto}
+.fig-frame::after{
+  content:'⤢ Vollbild';position:absolute;right:.6rem;bottom:.6rem;
+  font-size:.72rem;font-weight:600;color:#fff;background:rgba(28,36,34,.72);
+  padding:.3rem .6rem;border-radius:999px;letter-spacing:.02em;
+}
+.fig-cap{font-size:.82rem;color:var(--muted);margin-top:.4rem}
+
+.lightbox{
+  display:none;position:fixed;inset:0;z-index:200;background:rgba(12,16,15,.92);
+  align-items:center;justify-content:center;padding:2rem 1rem;cursor:zoom-out;
+}
+.lightbox.open{display:flex}
+.lightbox img{max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lightbox-close{
+  position:absolute;top:1rem;right:1rem;width:2.4rem;height:2.4rem;border-radius:50%;
+  border:none;background:rgba(255,255,255,.14);color:#fff;font-size:1.3rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+}
+.lightbox-close:hover{background:rgba(255,255,255,.24)}
 </style>
 </head>
 <body>
@@ -253,21 +283,13 @@ textarea{min-height:4.2em}
   <p class="lead">Warum verhalten sich Klassen so, wie sie sich verhalten – und was folgt daraus für dich? In ca. 25 Minuten bekommst du die Denkbrille für das ganze Jahr: Alles, was du in den nächsten 35 Modulen trainierst, ist eine Antwort auf eines dieser fünf Modelle.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Drei Rätsel aus deinem Alltag → die fünf Modelle (mit Selbstversuch) → Blitz-Zuordnung → eine Fallanalyse → dein eigenes Reframing → Quiz → dein erster Action Step.</p>
+    <p style="font-size:.9rem">Drei Rätsel aus deinem Alltag → die fünf Modelle (mit Selbstversuch) → Blitz-Zuordnung → eine Fallanalyse → dein eigener Perspektivwechsel → Quiz → dein erster Action Step.</p>
   </div>
   <div class="field">
     <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
     <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
   </div>
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
-  <div class="card" id="resumeCard" style="display:none">
-    <h3>Frühere Sitzung fortsetzen</h3>
-    <p class="hint">Hast du deinen Fortschritt zuvor als Datei gesichert? Lade sie hier, um dort weiterzumachen.</p>
-    <p style="margin-top:.6rem">
-      <label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Fortschrittsdatei laden</label>
-      <input type="file" id="fileLoadStart" accept="application/json" style="display:none">
-    </p>
-  </div>
   <div class="badge-row">
     <span class="badge">⏱ ca. 25 Min.</span>
     <span class="badge">📖 Kernquelle: Lemov, TLAC 3.0, Kap. 1</span>
@@ -312,6 +334,12 @@ textarea{min-height:4.2em}
     <p class="punchline">Das Arbeitsgedächtnis ist der Flaschenhals allen Lernens.</p>
     <div class="card">
       <p><strong>Was folgt daraus:</strong> Der Unterschied zwischen den beiden Zahlen? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – das hat ungefähr vier bis sieben Plätze, mehr nicht. Dein Geburtsdatum liegt im Langzeitgedächtnis und kostet fast nichts. Alles Neue muss durch diesen engen Kanal. Erklärst du und sollen die SuS gleichzeitig mitschreiben, das Arbeitsblatt suchen und die Vokabel von gestern erinnern, ist der Flaschenhals verstopft – nichts kommt im Langzeitgedächtnis an. <em>„Gelernt"</em> heißt nur <em>„im Langzeitgedächtnis angekommen"</em>. Das Rätsel „gestern konnten sie es noch" ist damit gelöst: Es war nie im Langzeitgedächtnis – nur kurz im Arbeitsgedächtnis zu Besuch.</p>
+      <div class="fig">
+        <div class="fig-frame" data-lightbox-src="../Material/Willingham_Memory_Model.png" role="button" tabindex="0" aria-label="Modell des Arbeitsgedächtnisses – zum Vergrößern klicken">
+          <img src="../Material/Willingham_Memory_Model.png" alt="Willingham's Simple Memory Model: Environment, Attention, Working Memory, Long Term Memory und Forgotten im Zusammenspiel" loading="lazy">
+        </div>
+        <p class="fig-cap">Das Modell des Arbeitsgedächtnisses (Modal Memory Model). Klicke auf das Bild für die Vollbildansicht.</p>
+      </div>
     </div>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next" id="next2" style="display:none">Weiter zu Modell 2 →</button></p>
@@ -375,11 +403,17 @@ textarea{min-height:4.2em}
   <div class="reveal" id="reveal6">
     <p class="punchline">Vertrauen entsteht durch gelingenden Unterricht – nicht umgekehrt.</p>
     <div class="card">
-      <p><strong>Was folgt daraus:</strong> Lemov zeigt an hunderten Stunden herausragender Lehrkräfte: Schüler:innen vertrauen Lehrkräften, bei denen sie merken – hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts, sie ist sein Ergebnis. Eine gute Nachricht für dich: Du musst nicht erst „der coole Lehrer" werden. Du musst gut unterrichten – die Beziehung kommt mit.</p>
+      <p><strong>Was folgt daraus:</strong> Lemov zeigt an hunderten Stunden herausragender Lehrkräfte: Schüler vertrauen Lehrkräften, bei denen sie merken – hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts, sie ist sein Ergebnis. Eine gute Nachricht für dich: Du musst nicht erst „der coole Lehrer" werden. Du musst gut unterrichten – die Beziehung kommt mit.</p>
     </div>
     <div class="card" style="background:var(--petrol-soft);border-color:var(--petrol)">
       <h3>Die fünf Modelle im Überblick</h3>
-      <p style="font-size:.9rem"><strong>1 Gedächtnis:</strong> Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht. <strong>2 Gewohnheiten:</strong> Routinen beschleunigen Lernen und setzen Denkkapazität frei. <strong>3 Aufmerksamkeit:</strong> Was Schüler:innen beachten, ist das, was sie lernen. <strong>4 Motivation ist sozial:</strong> Gruppennormen wirken stärker als Regeln. <strong>5 Beziehungsarbeit:</strong> Kompetenter Unterricht erzeugt Vertrauen – nicht umgekehrt.</p>
+      <ol style="font-size:.9rem;margin:0;padding-left:1.3rem">
+        <li style="margin-top:.4rem"><strong>Gedächtnis:</strong> Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht.</li>
+        <li style="margin-top:.4rem"><strong>Gewohnheiten:</strong> Routinen beschleunigen Lernen und setzen Denkkapazität frei.</li>
+        <li style="margin-top:.4rem"><strong>Aufmerksamkeit:</strong> Was Schüler beachten, ist das, was sie lernen.</li>
+        <li style="margin-top:.4rem"><strong>Motivation ist sozial:</strong> Gruppennormen wirken stärker als Regeln.</li>
+        <li style="margin-top:.4rem"><strong>Beziehungsarbeit:</strong> Kompetenter Unterricht erzeugt Vertrauen – nicht umgekehrt.</li>
+      </ol>
     </div>
     <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Blitz-Zuordnung →</button></p>
   </div>
@@ -390,6 +424,7 @@ textarea{min-height:4.2em}
   <span class="eyebrow">Station 3 · Name it: Blitz-Zuordnung</span>
   <h2>Ordne jede Situation ihrem Modell zu.</h2>
   <p class="lead">Tippe eine oder mehrere Modellnummern an – Mehrfachzuordnungen sind erlaubt und erwünscht. Dann „Auflösung zeigen".</p>
+  <p style="margin-top:.7rem"><button class="btn ghost small" id="situResetBtn">Zurücksetzen</button></p>
   <div id="situList"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Fallanalyse →</button></p>
 </section>
@@ -397,8 +432,8 @@ textarea{min-height:4.2em}
 <!-- 8 · DO IT: FALLANALYSE -->
 <section class="screen" data-title="Fallanalyse">
   <span class="eyebrow">Station 4 · Do it: Fallanalyse</span>
-  <h2>Eine Vignette mit der Fünf-Modelle-Brille lesen.</h2>
-  <p class="lead">Wähle eine der beiden Vignetten und beantworte die drei Leitfragen. Danach kannst du die Auflösungshinweise einblenden.</p>
+  <h2>Ein Fallbeispiel mit der Fünf-Modelle-Brille lesen.</h2>
+  <p class="lead">Wähle eines der beiden Fallbeispiele und beantworte die drei Leitfragen. Danach kannst du die Auflösungshinweise einblenden.</p>
   <div class="tab-row" id="vignTabs"></div>
   <div class="card">
     <h3 id="vignTitle"></h3>
@@ -418,11 +453,11 @@ textarea{min-height:4.2em}
   </div>
   <p style="margin-top:.9rem"><button class="btn ghost small" id="vignRevealBtn">Auflösungshinweise einblenden</button></p>
   <div class="card reveal" id="vignReveal"></div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Reframing →</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Perspektivwechsel →</button></p>
 </section>
 
 <!-- 9 · REFRAMING -->
-<section class="screen" data-title="Dein Reframing">
+<section class="screen" data-title="Dein Perspektivwechsel">
   <span class="eyebrow">Station 5 · Jetzt wird es persönlich</span>
   <h2>Eine eigene Situation neu deuten.</h2>
   <p class="lead">Denk an EINE Situation aus deinen ersten Unterrichtswochen, die dich geärgert, verunsichert oder verletzt hat.</p>
@@ -438,7 +473,7 @@ textarea{min-height:4.2em}
     <label id="reframeLabel">Durch diese Brille gesehen, war das vermutlich …</label>
     <textarea id="reframeText" data-store="reframeText" placeholder="…nicht persönlich, sondern …"></textarea>
   </div>
-  <p class="hint" style="margin-top:.6rem">Nicht trösten, nicht Ratschläge geben – nur umdeuten. Das emotionale Reframing ist der wichtigste Wellbeing-Schutz deines ersten Jahres.</p>
+  <p class="hint" style="margin-top:.6rem">Nicht trösten, nicht Ratschläge geben – nur umdeuten. Der emotionale Perspektivwechsel ist der wichtigste Wellbeing-Schutz deines ersten Jahres.</p>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
 </section>
 
@@ -448,18 +483,6 @@ textarea{min-height:4.2em}
   <h2>Fünf Fragen, ein Transfer.</h2>
   <p class="lead">Da dies dein erstes Inhaltsmodul ist, entfällt die sonst übliche 30-%-Wiederholungsregel – hier gibt es noch kein Vorwissen aus Vorwochen.</p>
   <div id="quizList"></div>
-  <div class="card">
-    <h3>Transferfrage (Freitext)</h3>
-    <p class="hint">Ordne der Vignette „8c bei Frau K." zwei Modelle zu und belege jedes mit einer Textstelle.</p>
-    <div class="field">
-      <label for="f6Model">Zwei Modelle:</label>
-      <input type="text" id="f6Model" data-store="f6Model" placeholder="z. B. Modell 4 und Modell 5">
-    </div>
-    <div class="field">
-      <label for="f6Beleg">Begründung/Textbeleg:</label>
-      <textarea id="f6Beleg" data-store="f6Beleg"></textarea>
-    </div>
-  </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
 
@@ -512,7 +535,7 @@ textarea{min-height:4.2em}
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
-  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche wird es handfest: Wie machst du Erwartungen so konkret, dass Schüler:innen sie erfüllen können? Bring deine Beobachtungsnotizen mit."</div>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche wird es handfest: Wie machst du Erwartungen so konkret, dass Schüler sie erfüllen können? Bring deine Beobachtungsnotizen mit."</div>
 </section>
 
 </main>
@@ -532,6 +555,12 @@ textarea{min-height:4.2em}
 </div>
 
 <div class="toast" id="toast"></div>
+
+<!-- Bild-Vollbild -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Schließen">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
 
 <!-- Druckansicht -->
 <div id="printReport"></div>
@@ -559,12 +588,21 @@ const SITUATIONS=[
 ];
 
 const VIGNETTES=[
- {title:'Vignette 1: „Die Doppelstunde Chemie"',
+ {title:'Fallbeispiel 1: „Die Doppelstunde Chemie"',
   text:'Herr T., Quereinsteiger aus der Industrie, plant seine erste eigene Doppelstunde in Klasse 9 mit viel Ehrgeiz: ein spektakuläres Einstiegs-Experiment, dann eine Präsentation mit 14 Folien zur Elektronegativität, dabei sollen die SuS die wichtigsten Punkte mitschreiben; anschließend Gruppenarbeit mit einem neuen Arbeitsblattformat, das er extra entworfen hat. Das Experiment begeistert alle. Danach wird es unruhig: Beim Vortrag schreiben manche hektisch mit, andere gar nicht; zweimal muss er erklären, wie das neue Arbeitsblatt gemeint ist; die Gruppen brauchen lange, um überhaupt zu starten. Der Exit-Check am Ende ist ernüchternd: Fast alle können das Experiment beschreiben – die Regel zur Elektronegativität kann kaum jemand nennen. Herr T. ist frustriert: „Dabei war die Stunde so aufwendig vorbereitet!"',
-  hints:'Modell 3: Aufmerksamkeit klebt am Experiment (seductive details) – gelernt wurde das Beachtete. Modell 1: Zuhören + Mitschreiben + neues Blattformat = Arbeitsgedächtnis-Überlastung; 14 Folien = zu viele neue Elemente. Modell 2: keine Routinen für Gruppenstart und Materialfluss → Reibungsverluste. Wirkstärkster Ansatzpunkt: weniger Neues pro Zeiteinheit + feste Abläufe; Aufwand ≠ Wirkung.'},
- {title:'Vignette 2: „Die 8c bei Frau K."',
+  hints:[
+   'Modell 3: Aufmerksamkeit klebt am Experiment (seductive details) – gelernt wurde das Beachtete.',
+   'Modell 1: Zuhören + Mitschreiben + neues Blattformat = Arbeitsgedächtnis-Überlastung; 14 Folien = zu viele neue Elemente.',
+   'Modell 2: keine Routinen für Gruppenstart und Materialfluss → Reibungsverluste.',
+   'Wirkstärkster Ansatzpunkt: weniger Neues pro Zeiteinheit + feste Abläufe; Aufwand ≠ Wirkung.'
+  ]},
+ {title:'Fallbeispiel 2: „Die 8c bei Frau K."',
   text:'Frau K. hat die 8c in Geschichte übernommen. Sie hat sich vorgenommen, „erst mal die Beziehungsebene aufzubauen": lockerer Einstieg, viel Humor, bei kleineren Störungen großzügig weghören, Regeln wollte sie „gemeinsam mit der Klasse entwickeln, wenn man sich kennt". Die Begrüßungsroutine der Schule führt sie eher beiläufig durch – „bevor die Stimmung kippt". Nach drei Wochen ruft die Hälfte rein, das Aufstehen zur Begrüßung ist ein zäher, kichernder Prozess, und ausgerechnet die stille Mia, mit der Frau K. sich anfangs gut verstand, macht neuerdings mit, wenn zwei Jungen Zwischenrufe starten. Im Einzelgespräch ist Mia einsichtig und fast verlegen. Frau K. ist verletzt: „Ich war doch immer fair und freundlich zu denen."',
-  hints:'Modell 4: „Reinrufen ist normal" ist zur Norm geworden; Mia folgt der Gruppe, nicht ihrer Beziehung zu Frau K. – nicht persönlich! Modell 5: Beziehung-zuerst-Mythos; Vertrauen wäre durch verlässlichen, geordneten Unterricht entstanden. Modell 2: die beiläufige Begrüßungsroutine sendet „halbherzig reicht"; das Zeitfenster hoher Erwartungen (Woche 2) wurde verpasst – aber: Ein Neustart ist jederzeit möglich, genau das lernt ihr in Block 1.'}
+  hints:[
+   'Modell 4: „Reinrufen ist normal" ist zur Norm geworden; Mia folgt der Gruppe, nicht ihrer Beziehung zu Frau K. – nicht persönlich!',
+   'Modell 5: Beziehung-zuerst-Mythos; Vertrauen wäre durch verlässlichen, geordneten Unterricht entstanden.',
+   'Modell 2: die beiläufige Begrüßungsroutine sendet „halbherzig reicht"; das Zeitfenster hoher Erwartungen (Woche 2) wurde verpasst – aber: Ein Neustart ist jederzeit möglich, genau das lernt ihr in Block 1.'
+  ]}
 ];
 
 const QUIZ=[
@@ -607,7 +645,10 @@ const QUIZ=[
 
 const ACTIONSTEPS=[
  {id:'standard',label:'Beobachtungsauftrag (Standard)',
-  text:'Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten: (a) Worauf richtet sich die Aufmerksamkeit der Schüler:innen tatsächlich – und was habe ich dafür getan oder nicht getan? (b) Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße? Ich notiere direkt nach der Stunde je 2–3 Stichpunkte.'},
+  text:'Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten: (a) Worauf richtet sich die Aufmerksamkeit der Schüler tatsächlich – und was habe ich dafür getan oder nicht getan? (b) Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße? Ich notiere direkt nach der Stunde je 2–3 Stichpunkte.',
+  intro:'Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten:',
+  items:['Worauf richtet sich die Aufmerksamkeit der Schüler tatsächlich – und was habe ich dafür getan oder nicht getan?','Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße?'],
+  outro:'Ich notiere direkt nach der Stunde je 2–3 Stichpunkte.'},
  {id:'norm',label:'Norm-Beobachtung (Alternative bei dringlichem Klassenführungsproblem)',
   text:'Ich identifiziere in einer Klasse die drei stärksten ungeschriebenen Normen – erwünschte wie unerwünschte.'},
  {id:'last',label:'Last-Beobachtung (Alternative)',
@@ -618,11 +659,16 @@ const ACTIONSTEPS=[
 let state={name:'',riddleSel:[],vignetteChoice:0,vignQ1:'',vignQ2:'',vignQ3:'',
  reframeSituation:'',reframeModel:0,reframeText:'',
  situSel:[[],[],[],[],[],[],[],[]],situRevealed:[false,false,false,false,false,false,false,false],
- quizSel:[0,0,0,0,0],f6Model:'',f6Beleg:'',
+ quizSel:[0,0,0,0,0],
  actionStep:'standard',obsStunde1:'',obsStunde2:'',obsStunde3:'',
- exitMit:'',exitSorge:'',commit:false};
+ exitMit:'',exitSorge:'',commit:false,screen:0};
 const STORE_KEY='modul1-woche01-fuenf-mentale-modelle';
 let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
 
 const store=(function(){
   if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
@@ -645,6 +691,7 @@ const store=(function(){
 async function loadState(){
   const v=await store.get(STORE_KEY);
   if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
 }
 async function flushSave(){
   clearTimeout(saveTimer);saveTimer=null;
@@ -669,6 +716,7 @@ function go(i){
   if(i<0||i>=screens.length)return;
   screens[cur].classList.remove('active');
   cur=i;
+  state.screen=i;scheduleSave();
   screens[cur].classList.add('active');
   document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
   document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
@@ -695,6 +743,13 @@ screens.forEach((s,i)=>{
   b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
   panel.appendChild(b);
 });
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
 document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
 overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
 
@@ -779,6 +834,12 @@ function renderSituations(){
     state.situRevealed[+b.dataset.reveal]=true;scheduleSave();renderSituations();
   }));
 }
+document.getElementById('situResetBtn').addEventListener('click',()=>{
+  state.situSel=SITUATIONS.map(()=>[]);
+  state.situRevealed=SITUATIONS.map(()=>false);
+  scheduleSave();renderSituations();
+  showToast('Zuordnung zurückgesetzt.');
+});
 
 /* ================= Vignette ================= */
 function renderVignetteTabs(){
@@ -795,7 +856,7 @@ function renderVignette(){
   document.getElementById('vignTitle').textContent=v.title;
   document.getElementById('vignText').textContent=v.text;
   const rev=document.getElementById('vignReveal');
-  rev.innerHTML='<p><strong>Auflösungshinweise:</strong> '+v.hints+'</p>';
+  rev.innerHTML='<p><strong>Auflösungshinweise:</strong></p><ul style="margin:.4rem 0 0;padding-left:1.3rem">'+v.hints.map(h=>'<li style="margin-top:.4rem">'+h+'</li>').join('')+'</ul>';
 }
 document.getElementById('vignRevealBtn').addEventListener('click',()=>{
   document.getElementById('vignReveal').classList.add('on');
@@ -847,7 +908,7 @@ function renderSteps(){
   const wrap=document.getElementById('stepList');wrap.innerHTML='';
   ACTIONSTEPS.forEach(s=>{
     const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
-    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.innerHTML='<h3>'+s.label+'</h3>'+(s.items?('<p>'+s.intro+'</p><ul style="margin:.4rem 0 0;padding-left:1.3rem">'+s.items.map(i=>'<li style="margin-top:.2rem">'+i+'</li>').join('')+'</ul><p style="margin-top:.6rem">'+s.outro+'</p>'):('<p>'+s.text+'</p>'));
     div.addEventListener('click',()=>{
       state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
     });
@@ -864,7 +925,13 @@ function bindStores(){
   document.querySelectorAll('[data-store]').forEach(el=>{
     const k=el.dataset.store;
     if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
-    else{el.value=state[k]||'';el.addEventListener('input',()=>{state[k]=el.value;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+      });
+    }
   });
 }
 
@@ -878,7 +945,7 @@ function renderSummary(){
   const rows=[
     ['Blitz-Zuordnung', situDone===8?'✓ alle 8 aufgelöst':situDone+'/8',situDone===8],
     ['Fallanalyse', (state.vignQ1&&state.vignQ2&&state.vignQ3)?'✓ ausgefüllt':'noch offen',!!(state.vignQ1&&state.vignQ2&&state.vignQ3)],
-    ['Reframing', (state.reframeSituation&&state.reframeModel)?'✓ ausgefüllt':'noch offen',!!(state.reframeSituation&&state.reframeModel)],
+    ['Perspektivwechsel', (state.reframeSituation&&state.reframeModel)?'✓ ausgefüllt':'noch offen',!!(state.reframeSituation&&state.reframeModel)],
     ['Quiz', quizDone===5?'✓ '+quizScore()+'/5 richtig':quizDone+'/5 beantwortet',quizDone===5],
     ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
   ];
@@ -892,8 +959,8 @@ function summaryText(){
   SITUATIONS.forEach((s,i)=>{t+=(i+1)+'. '+namesOf(state.situSel[i])+' (richtig: '+namesOf(s.correct)+')\n';});
   const v=VIGNETTES[state.vignetteChoice];
   t+='\n— FALLANALYSE: '+v.title+' —\n1. Modelle: '+(state.vignQ1||'–')+'\n2. Übersehen: '+(state.vignQ2||'–')+'\n3. Ansatzpunkt: '+(state.vignQ3||'–')+'\n';
-  t+='\n— REFRAMING —\nSituation: '+(state.reframeSituation||'–')+'\nModell: '+(state.reframeModel?state.reframeModel+' · '+MODEL_NAMES[state.reframeModel-1]:'–')+'\nUmdeutung: '+(state.reframeText||'–')+'\n';
-  t+='\n— QUIZ —\n'+quizScore()+' von 5 richtig\nTransfer (Modelle): '+(state.f6Model||'–')+'\nTransfer (Beleg): '+(state.f6Beleg||'–')+'\n';
+  t+='\n— PERSPEKTIVWECHSEL —\nSituation: '+(state.reframeSituation||'–')+'\nModell: '+(state.reframeModel?state.reframeModel+' · '+MODEL_NAMES[state.reframeModel-1]:'–')+'\nUmdeutung: '+(state.reframeText||'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von 5 richtig\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nNotizen Stunde 1: '+(state.obsStunde1||'–')+'\nNotizen Stunde 2: '+(state.obsStunde2||'–')+'\nNotizen Stunde 3: '+(state.obsStunde3||'–')+'\n';
   t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
@@ -924,12 +991,11 @@ function buildPrint(){
   h+=f('Welche Modelle erklären, was hier passiert?',state.vignQ1);
   h+=f('Was hat die Lehrkraft übersehen?',state.vignQ2);
   h+=f('Welcher Ansatzpunkt hätte die größte Wirkung?',state.vignQ3);
-  h+='<h2>Reframing</h2>';
+  h+='<h2>Perspektivwechsel</h2>';
   h+=f('Deine Situation:',state.reframeSituation);
   h+=f('Modell:',state.reframeModel?state.reframeModel+' · '+MODEL_NAMES[state.reframeModel-1]:'–');
   h+=f('Umdeutung:',state.reframeText);
   h+='<div class="pagebreak"></div><h2>Quiz ('+quizScore()+'/5 richtig)</h2>';
-  h+=f('Transfer – Modelle:',state.f6Model)+f('Transfer – Beleg:',state.f6Beleg);
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
   h+=f('Notizen Stunde 1:',state.obsStunde1)+f('Notizen Stunde 2:',state.obsStunde2)+f('Notizen Stunde 3:',state.obsStunde3);
@@ -973,6 +1039,30 @@ function loadStateFile(evt){
 document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
 document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
 
+/* ================= Bild-Lightbox ================= */
+(function initLightbox(){
+  const lightbox=document.getElementById('lightbox');
+  const lightboxImg=document.getElementById('lightboxImg');
+  function openLightbox(src,alt){
+    lightboxImg.src=src;lightboxImg.alt=alt||'';
+    lightbox.classList.add('open');
+  }
+  function closeLightbox(){
+    lightbox.classList.remove('open');lightboxImg.src='';
+  }
+  document.querySelectorAll('.fig-frame').forEach((frame)=>{
+    const src=frame.getAttribute('data-lightbox-src');
+    const img=frame.querySelector('img');
+    frame.addEventListener('click',()=>openLightbox(src,img?img.alt:''));
+    frame.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();openLightbox(src,img?img.alt:'');}
+    });
+  });
+  document.getElementById('lightboxClose').addEventListener('click',closeLightbox);
+  lightbox.addEventListener('click',(e)=>{if(e.target===lightbox)closeLightbox();});
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeLightbox();});
+})();
+
 /* ================= Toast ================= */
 let toastTimer=null;
 function showToast(msg){
@@ -999,15 +1089,12 @@ function showToast(msg){
   };
   document.getElementById('storeHint').textContent=hints[store.label];
   const startHint=document.getElementById('startStoreHint');
-  const resumeCard=document.getElementById('resumeCard');
   if(startHint&&store.label==='memory'){
-    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie beim nächsten Mal hier wieder hoch.';
-    if(resumeCard)resumeCard.style.display='block';
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
   }else if(startHint){
     startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
-    if(resumeCard)resumeCard.style.display='block';
   }
-  go(0);
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
 })();
 </script>
 </body>

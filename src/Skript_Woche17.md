@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie stelle ich sicher, dass alle über das Richtige nachdenken? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Orient attention"); Willingham (Denkspur = Lernspur, aus W15); Seductive-Details-Forschung; Lemov (Modell 3 aus W1) |
 | **Funktion im Jahr** | Schließt den Bogen von Modell 3 (W1) über den Willingham-Satz (W15) zum Handwerk: Aufmerksamkeit als steuerbare Größe. Löst den offenen Fall 2 aus W15 (Filmeinstieg). Das „Aufgaben-Röntgen" wird Prüfwerkzeug für alle künftigen Aufgabenformate (W18 Retrieval-Fragen, W24 Prompts, W34 Klassenarbeiten). |
-| **Lernziele** | Die TN können (1) erklären, warum ungelenkte Aufmerksamkeit systematisch am Ziel vorbeiläuft, (2) präzise Beachtungs-Aufträge vor jedem Medium formulieren, (3) Struktur-Marker im eigenen Vortrag setzen, (4) Aufgaben „röntgen": Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen? |
+| **Lernziele** | Die TN können:<br>1. erklären, warum ungelenkte Aufmerksamkeit systematisch am Ziel vorbeiläuft,<br>2. präzise Beachtungs-Aufträge vor jedem Medium formulieren,<br>3. Struktur-Marker im eigenen Vortrag setzen,<br>4. Aufgaben „röntgen": Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen? |
 | **Sitzungstyp** | Experiment + Analyse-Werkstatt; das Aufgaben-Röntgen ist die anspruchsvollste Denkübung des Blocks. |
 
 ---
@@ -53,7 +53,13 @@
 
 ## Phase 4 · Name it (Minute 27–31)
 
-**Lenkungs-Dreiklang** (Handout A): (1) Beachtungs-Auftrag VOR jedem Medium – konkret, abhakbar. (2) Struktur-Marker im Vortrag – sprachlich + körperlich + Layout. (3) Denkzwang in der Aufgabe – Röntgen-Frage: „Was muss man denken, um das zu lösen?" — Merksatz: *„Wer nicht lenkt, würfelt."*
+**Lenkungs-Dreiklang** (Handout A):
+
+1. Beachtungs-Auftrag VOR jedem Medium – konkret, abhakbar.
+2. Struktur-Marker im Vortrag – sprachlich + körperlich + Layout.
+3. Denkzwang in der Aufgabe – Röntgen-Frage: „Was muss man denken, um das zu lösen?"
+
+— Merksatz: *„Wer nicht lenkt, würfelt."*
 
 Fingerzeichen-Kalibrierung: 4 Aufträge vorlesen – präzise oder Würfelwurf? (z. B. „Lest den Text aufmerksam" ✗ / „Unterstreicht die zwei Stellen, an denen der Autor seine These abschwächt" ✓.)
 
@@ -69,7 +75,10 @@ Einzelarbeit: Für die eigene nächste Stunde drei Marker WÖRTLICH skripten (Vo
 
 **Standard:** *„Vor JEDEM Medienwechsel dieser Woche gebe ich einen konkreten Beachtungs-Auftrag – einen abhakbaren Aspekt, nie ‚schaut mal'. Freitags notiere ich die zwei Aufträge, die am besten funktioniert haben."*
 
-**Alternativen:** (a) Röntgen-Woche: jede selbst gestellte Aufgabe vorher röntgen; eine Mogelpackung pro Tag umbauen; (b) Kopplungs-Woche: jedes „spannende Element" (Anekdote, Video, Versuch) bekommt einen Denkauftrag ans Konzept.
+**Alternativen:**
+
+1. Röntgen-Woche: jede selbst gestellte Aufgabe vorher röntgen; eine Mogelpackung pro Tag umbauen.
+2. Kopplungs-Woche: jedes „spannende Element" (Anekdote, Video, Versuch) bekommt einen Denkauftrag ans Konzept.
 
 > **Ausblick:** *„Der Kanal ist frei, die Richtung stimmt – nächste Woche kommt der Verstärker: Warum Erinnern-MÜSSEN die stärkste Lernaktivität ist, die wir kennen. Mit einem Experiment, das ihr an euch selbst durchführt – es startet HEUTE: Die Hälfte von euch bekommt gleich einen Lernauftrag nach Methode A, die andere nach Methode B. Nächste Woche messen wir."* **(Vorab-Auftrag W18 austeilen: Liste mit 10 Fachbegriffen; Gruppe A: „3× durchlesen, je 2 Min., an drei Tagen"; Gruppe B: „1× lesen, dann an drei Tagen je 2 Min. selbst abfragen – Blatt umgedreht". Zettel mit Gruppenzuteilung!)**
 
@@ -89,7 +98,13 @@ Einzelarbeit: Für die eigene nächste Stunde drei Marker WÖRTLICH skripten (Vo
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Experiment-Folie (Bauanleitung)
-Balkendiagramm „Energieverbrauch von Organen in Ruhe (% des Grundumsatzes)": Leber 27, Gehirn 19, Muskeln 18, Herz 7 (y-Achse: „% des Grundumsatzes"). Rechts unten klein: Cartoon-Gehirn stemmt eine Hantel, Sprechblase „Leg day!". Randnotiz handschriftlich: „krass, oder?!". — **Quiz:** (1) Organ mit zweithöchstem Verbrauch? *(Gehirn)* (2) y-Achsen-Beschriftung? (3) Was tat das Cartoon-Gehirn? — Erwartung: F3 gewinnt haushoch.
+Balkendiagramm „Energieverbrauch von Organen in Ruhe (% des Grundumsatzes)": Leber 27, Gehirn 19, Muskeln 18, Herz 7 (y-Achse: „% des Grundumsatzes"). Rechts unten klein: Cartoon-Gehirn stemmt eine Hantel, Sprechblase „Leg day!". Randnotiz handschriftlich: „krass, oder?!". — **Quiz:**
+
+1. Organ mit zweithöchstem Verbrauch? *(Gehirn)*
+2. y-Achsen-Beschriftung?
+3. Was tat das Cartoon-Gehirn?
+
+— Erwartung: F3 gewinnt haushoch.
 
 ## 1.2 Handout A: Lenkungs-Dreiklang + Marker-Baukasten
 **Beachtungs-Aufträge (Muster):** „Vergleicht … – um welchen Faktor?" · „Zählt mit, wie oft …" · „Findet die Stelle, an der …" · „Notiert die zwei Begriffe, die …". **Wichtigkeits-Marker:** „Der wichtigste Satz kommt JETZT." · „Das ist der häufigste Prüfungsfehler." · „Wenn ihr EINEN Satz mitnehmt, dann diesen:". **Kopplungs-Aufträge:** „Dieses Video ist ein Beispiel für X – erklärt danach zu zweit, wo genau." · „Der Versuch beweist Regel Y – formuliert nach dem Knall, warum."

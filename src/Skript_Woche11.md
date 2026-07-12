@@ -7,10 +7,10 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie erkläre ich so, dass Novizen wirklich folgen können? |
+| **Leitfrage** | Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können? |
 | **Kernquellen** | Lovell/Dowley, Routine 7 (Explaining/Modelling); Rosenshine P2 (kleine Schritte), P4 (Modellieren); Worked-Example-Forschung (Sweller, Vorgriff W16); Lemov (Think Aloud, economy of language) |
 | **Funktion im Jahr** | Herz des Sequencing-&-Modelling-Strangs. Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W12 Break It Down, W16 CLT, W34 Erwartungshorizonte). Das Exemplar aus W10 liefert die Schrittgrößen-Diagnose. |
-| **Lernziele** | Die TN können (1) einen Fachinhalt atomisieren (ein neues Element nach dem anderen), (2) beim Modellieren hörbar denken – inklusive einer absichtlich vorgeführten und aufgelösten Falle, (3) den Fluch des Wissens bei sich erkennen und mit der Halbier-Regel kontern, (4) Aufmerksamkeitsdisziplin beim Erklären durchsetzen (Stifte weg, Fixierung danach). |
+| **Lernziele** | Die TN können:<br>1. einen Fachinhalt atomisieren (ein neues Element nach dem anderen),<br>2. beim Modellieren hörbar denken – inklusive einer absichtlich vorgeführten und aufgelösten Falle,<br>3. den Fluch des Wissens bei sich erkennen und mit der Halbier-Regel kontern,<br>4. Aufmerksamkeitsdisziplin beim Erklären durchsetzen (Stifte weg, Fixierung danach). |
 | **Sitzungstyp** | Mikroteaching-Sitzung – die Do-it-Phase ist mit 23 Minuten die längste des Jahres; Input entsprechend straff. |
 
 ---
@@ -54,11 +54,15 @@ Moderation erklärt denselben trivialen Inhalt zweimal à 2 Minuten:
 ### 3b · Die Prinzipien (Min. 17–25)
 > *„Erstens: **Atomisieren.** Ein neues Element nach dem anderen – Rosenshine P2, ihr kennt es. Neu ist heute das Diagnose-Werkzeug: euer Exemplar aus letzter Woche. Zerlegt die Idealantwort in ihre Bausteine – jeder Baustein, den die Klasse noch nicht sicher hat, ist ein eigener Schritt. Nicht zwei in einem Atemzug.*
 > *Zweitens: **Lautes Denken.** Experten-Denken ist unsichtbar – ihr müsst es hörbar machen: die Entscheidungen (‚zuerst prüfe ich…'), die Selbstfragen (‚woran erkenne ich…?'), und – das Kronjuwel – **die Falle**: den typischen Fehler absichtlich ansteuern, benennen, auflösen. ‚Viele würden jetzt X tun – verständlich, weil… – aber dann passiert…' Eine vorgeführte Falle immunisiert besser als zehn Warnungen. Und woher kennt ihr die typischen Fallen? Ab Woche 21 sammelt ihr sie systematisch; bis dahin: aus den Fehlern der letzten Klassenarbeit.*
-> *Drittens: **Der Fluch des Wissens.** Jetzt die These vom Anfang: Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte, die ihr vor fünfzehn Jahren mühsam gelernt habt, sind zu EINEM Schritt verschmolzen – für euch. Für den Novizen sind es immer noch fünf. Und ihr, mit Berufsjahren im Fachgebiet, tragt die Maximaldosis dieses Fluchs. Er ist nicht heilbar, aber behandelbar – mit der **Halbier-Regel: Halbiere die Schrittgröße, die sich richtig anfühlt.** Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.*
+> *Drittens: **Der Fluch des Wissens.** Jetzt die These vom Anfang: Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte, die ihr vor fünfzehn Jahren mühsam gelernt habt, sind zu EINEM Schritt verschmolzen – für euch. Für einen Schüler ohne Vorkenntnisse sind es immer noch fünf. Und ihr, mit Berufsjahren im Fachgebiet, tragt die Maximaldosis dieses Fluchs. Er ist nicht heilbar, aber behandelbar – mit der **Halbier-Regel: Halbiere die Schrittgröße, die sich richtig anfühlt.** Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.*
 > *Viertens: **Aufmerksamkeitsdisziplin.** Während ihr modelliert: Stifte weg, nur zusehen und zuhören. Ja, das kollidiert mit dem Elternhaus-Reflex ‚Mitschreiben ist fleißig'. Aber wer gleichzeitig versteht und abschreibt, tut beides halb – warum genau, bekommt ihr in Woche 16 mit Theorie unterfüttert. Die Fixierung kommt DANACH: als eigener Schritt, von eurem stehengebliebenen Tafelbild."*
 
 ### 3c · Vierklang zusammensetzen (Min. 25–27)
-> *„Der Bauplan jeder Modellierung, unser Vierklang: **(1) Vormachen** – bewusst entscheiden: einmal in Echtgeschwindigkeit als Vorschau oder gleich Schritt für Schritt; **(2) Denken laut** – Entscheidungen und Selbstfragen hörbar; **(3) eine Falle** zeigen und auflösen; **(4) Kernschritte fixieren** – an der Tafel, und sie bleiben stehen."*
+> *„Der Bauplan jeder Modellierung, unser Vierklang:*
+> - ***Vormachen** – bewusst entscheiden: einmal in Echtgeschwindigkeit als Vorschau oder gleich Schritt für Schritt.*
+> - ***Denken laut** – Entscheidungen und Selbstfragen hörbar.*
+> - ***eine Falle** zeigen und auflösen.*
+> - ***Kernschritte fixieren** – an der Tafel, und sie bleiben stehen."*
 
 ## Phase 4 · Name it (Minute 27–30)
 
@@ -77,7 +81,10 @@ Handout B austeilen: Vierklang + Think-Aloud-Satzanfänge + Halbier-Regel + „S
 
 **Standard:** *„In einer Erklärphase pro Tag denke ich hörbar laut – inklusive EINER absichtlich vorgeführten und aufgelösten Falle. Die Falle wähle ich vorher aus den Fehlern der letzten Klassenarbeit/Übung."*
 
-**Alternativen:** (a) Selbst-Audio: eine Erklärphase mit dem Handy aufnehmen (nur Ton reicht!) und abends zählen: neue Elemente pro Minute – Halbier-Regel anwenden; (b) Stifte-weg-Woche: jede Modellierung mit expliziter Ansage („Stifte weg – erst schauen, gleich schreiben") und separater Fixierungsphase.
+**Alternativen:**
+
+1. Selbst-Audio: eine Erklärphase mit dem Handy aufnehmen (nur Ton reicht!) und abends zählen: neue Elemente pro Minute – Halbier-Regel anwenden.
+2. Stifte-weg-Woche: jede Modellierung mit expliziter Ansage („Stifte weg – erst schauen, gleich schreiben") und separater Fixierungsphase.
 
 > **Ausblick:** *„Nächste Woche die Brücke, die der Beispielstunde aus Woche 9 gefehlt hat: das We do. Wie ihr die Klasse vom Zusehen zum Selbermachen führt, ohne sie fallen zu lassen – mit einer Treppe aus verschwindenden Hilfen."*
 
@@ -123,7 +130,7 @@ Handout B austeilen: Vierklang + Think-Aloud-Satzanfänge + Halbier-Regel + „S
 ## Teil 2: Modul-Quiz Woche 11 (für SPA/Folgewoche)
 **F1.** Der Fluch des Wissens bedeutet:
 a) Wissen macht überheblich ✗ *(Wortassoziation)*
-b) Experten unterschätzen systematisch, was Novizen fehlt – Zwischenschritte sind unsichtbar verschmolzen ✓
+b) Experten unterschätzen systematisch, was Schülern ohne Vorkenntnisse fehlt – Zwischenschritte sind unsichtbar verschmolzen ✓
 c) zu viel Wissen verwirrt die SuS ✗
 d) Fachwissen veraltet schnell ✗
 
@@ -157,7 +164,7 @@ d) zu wenig Fachlichkeit ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 11"
 
-1. **Hook (2 Min.):** Der Fluch-des-Wissens-Selbsttest: Nutzer soll „einen Schuh zubinden" in Einzelschritten aufschreiben – App zeigt danach die 12-Schritte-Novizen-Version. Punchline: „So fühlt sich dein Fach für deine Klasse an."
+1. **Hook (2 Min.):** Der Fluch-des-Wissens-Selbsttest: Nutzer soll „einen Schuh zubinden" in Einzelschritten aufschreiben – App zeigt danach die 12-Schritte-Version für Schüler ohne Vorkenntnisse. Punchline: „So fühlt sich dein Fach für deine Klasse an."
 2. **See it (5 Min.):** Version 1 vs. Version 2 als Audio-Paar; Aufgabe: alle Think-Aloud-Momente in Version 2 antippen (Transkript-Markup).
 3. **Name it (3 Min.):** Vierklang-Karten + Satzanfänge-Sammlung als Spickzettel-Export.
 4. **Do it – Atomisierungs-Trainer (7 Min., Engine!):** Fachinhalt wählen/eingeben → in Teilschritte zerlegen → Vergleich mit Musterlösung; das in Modul 10 markierte „Scheiter-Stelle"-Markup aus dem Exemplar wird hier automatisch eingeblendet („Dein Modul-10-Ich sagt: hier brauchen Schwache einen Extra-Schritt").

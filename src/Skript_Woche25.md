@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie sehe ich in Echtzeit, was 30 Köpfe denken – und wie nutze ich Schülerarbeiten öffentlich? |
 | **Kernquellen** | Lemov T10 (Show Me), T11 (Affirmative Checking), T13 (Show Call) |
 | **Funktion im Jahr** | Macht die seit W12 nebenbei genutzten Whiteboards zur vollwertigen Technik (mit eigener Routine!) und führt mit Show Call die stärkste Feedback-Form ein – möglich erst JETZT, weil Fehlerkultur (W21) und Everybody-Writes-Material (W24) vorliegen. Affirmative Checking schließt die W12-Lücke „eingeübte Fehler". Show Call kehrt in W28 (Normen-Maschine) und W34 (Whole-Class-Feedback) wieder. Vorbereitung der ersten PEER-Hospitation (GH 4). |
-| **Lernziele** | Die TN können (1) eine Whiteboard-Routine skripten und einführen (Schreibsignal → Stille → 3-2-1-hoch → Scan → Entscheidung), (2) Checkpoints in Arbeitsphasen einbauen, (3) eine Show-Call-Moderation im Dreischritt führen (würdigen → präzise verbessern → Transfer) – bei fehlerhaften UND exzellenten Arbeiten. |
+| **Lernziele** | Die TN können:<br>1. eine Whiteboard-Routine skripten und einführen (Schreibsignal → Stille → 3-2-1-hoch → Scan → Entscheidung),<br>2. Checkpoints in Arbeitsphasen einbauen,<br>3. eine Show-Call-Moderation im Dreischritt führen (würdigen → präzise verbessern → Transfer) – bei fehlerhaften UND exzellenten Arbeiten. |
 | **Sitzungstyp** | Technik-Training mit Live-Erleben + Moderations-Übung an echten Arbeiten. |
 
 ---
@@ -48,7 +48,11 @@
 
 > *„Und jetzt das Werkzeug mit der größten Hebelwirkung – und den höchsten Voraussetzungen: **Show Call.** Eine Schülerarbeit wird projiziert – Dokumentenkamera, Handyfoto an den Beamer – und gemeinsam besprochen. Warum ist das so stark? Feedback an einem echten, konkreten Beispiel erreicht die ganze Klasse gleichzeitig; die Everybody-Writes-Zettel von letzter Woche sind das perfekte Rohmaterial. Und warum ist es voraussetzungsreich? Weil es OHNE die Fehlerkultur aus Woche 21 eine öffentliche Hinrichtung ist. Deshalb die Gelingensbedingungen:*
 > *Erstens: **als Ehrung einführen.** Wörtlich, bevor die erste Arbeit an die Wand geht: ‚Wenn ich eine Arbeit zeige, ist das eine Auszeichnung – an dieser Arbeit lernen wir alle. Es wird nie darum gehen, jemanden vorzuführen.' Am Anfang anonym (Name abdecken, Foto beschneiden); nach zwei, drei Wochen fragen die Ersten von selbst, ob ihre gezeigt wird – DAS ist der Kultur-Indikator.*
-> *Zweitens: **der Dreischritt.** (1) Würdigen – konkret, was trägt: ‚Der Ansatz in Zeile eins ist genau richtig gewählt.' (2) EINEN Verbesserungsfokus – nicht fünf: ‚Schaut auf Zeile drei – wo kippt es, und warum ist das verführerisch?' (Die Klasse arbeitet, nicht die Lehrkraft – Cold Call, Turn and Talk, alles einsetzbar!) (3) Transfer: ‚Prüft jetzt eure eigene Zeile drei.'*
+> *Zweitens: **der Dreischritt**:*
+> - *Würdigen – konkret, was trägt: ‚Der Ansatz in Zeile eins ist genau richtig gewählt.'*
+> - *EINEN Verbesserungsfokus – nicht fünf: ‚Schaut auf Zeile drei – wo kippt es, und warum ist das verführerisch?' (Die Klasse arbeitet, nicht die Lehrkraft – Cold Call, Turn and Talk, alles einsetzbar!)*
+> - *Transfer: ‚Prüft jetzt eure eigene Zeile drei.'*
+>
 > *Drittens – und das vergessen fast alle: **Auch Exzellenz zeigen.** Nicht nur Fehler-Anschauung – auch die herausragende Arbeit an die Wand: ‚So sieht eine vollständige Begründung aus – was genau macht sie so stark?' Erinnert ihr euch an Woche 2, Lovells Prinzip: Man muss Exzellenz GESEHEN haben, um sie anzustreben? Das galt für euch bei den Hospitationen – es gilt für eure Schüler bei Schülerarbeiten. Show Call kalibriert den Anspruch der Klasse."*
 
 ## Phase 4 · Name it (Minute 30–33)
@@ -67,7 +71,10 @@ An den 4 echten Arbeiten (rotierend, je ~2,5 Min. + 30 Sek. Feedback): Jede:r mo
 
 **Standard:** *„Ich führe die Whiteboard-Routine in Klasse X mit Skript ein und treffe in jeder Stunde mindestens EINE sichtbare Datenentscheidung – angesagt: ‚Ich sehe …, also machen wir …'."*
 
-**Alternativen:** (a) Show-Call-Start: ein Show Call pro Tag, erst anonym, ab Tag 3 mit einverstandenen Namen – Einführungsskript am Montag; (b) Checkpoint-Woche: jede Übungsphase bekommt 1–2 Schranken an den Plan-for-Error-Zonen.
+**Alternativen:**
+
+1. Show-Call-Start: ein Show Call pro Tag, erst anonym, ab Tag 3 mit einverstandenen Namen – Einführungsskript am Montag.
+2. Checkpoint-Woche: jede Übungsphase bekommt 1–2 Schranken an den Plan-for-Error-Zonen.
 
 **Peer-Hospitation 4 (4 Min. – neue Stufe!):** *„Ab dieser Runde hospitiert ihr EINANDER. Zwei von euch öffnen ihre Stunden – und hier die wichtigste Regel, sie ist zugleich Feedbackkultur-Modell: **Der Gastgeber bestimmt vorher den Beobachtungsfokus.** ‚Schaut bei mir auf die Ernte nach Turn and Talk' oder ‚Zählt meine CFU-Momente' – der Beobachtete steuert, was gesehen wird. Bogen: CFU-Zählprotokoll (Anhang 3). Wer öffnet?"* [Freiwillige + Termine fixieren; Coach moderiert die Nachbesprechung.]
 

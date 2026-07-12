@@ -42,7 +42,13 @@
 2. Prinzip: Verhalten ist ein Curriculum (Lovell P5) – erklären, modellieren, üben, prüfen, Feedback: exakt wie Bruchrechnen. Niemand erwartet fehlerfreie Bruchrechnung nach einmaligem Erklären.
 3. Fenster-Logik (Lovell P3): Hoch starten schafft Spielraum – Lockern ist billig, Nachschärfen teuer. Für TN, deren Klassen schon „gekippt" wirken: *„Das Fenster öffnet sich neu: nach jeden Ferien, nach jedem Wochenende, mit jeder explizit neu eingeführten Erwartung. Ihr seid nicht zu spät."*
 
-**Name it (Min. 28–33):** Qualitätskriterien einer Erwartung: (1) beobachtbar, (2) messbar/zählbar, (3) positiv formuliert (was TUN, nicht was lassen), (4) mit Ein-Satz-Begründung, (5) per Cold Call prüfbar („Behavioural CFU").
+**Name it (Min. 28–33):** Qualitätskriterien einer Erwartung:
+
+1. beobachtbar,
+2. messbar/zählbar,
+3. positiv formuliert (was TUN, nicht was lassen),
+4. mit Ein-Satz-Begründung,
+5. per Cold Call prüfbar („Behavioural CFU").
 
 **Do it (Min. 33–52):**
 - *Runde 1 (10 Min.):* Jede:r füllt den Erwartungs-Canvas für die eigene schwierigste Lerngruppe: Top-3-Erwartungen nach den 5 Kriterien, je mit Begründungssatz („…, damit wir keine Lernzeit verlieren").
@@ -69,7 +75,15 @@
 2. Analyse-Frage ans Plenum: Was genau hat B anders gemacht? (Sammeln → deckt sich mit Name-it-Zerlegung.)
 3. Theorie-Anker: Die Routine ist unser „Strong Start" (Lemov-Adaption) – dieselben drei Funktionen wie Lemovs Türritual: klare Zäsur (alle Gehirne: „jetzt beginnt etwas anderes"), warmer Kontakt, erster 100%-Moment der Stunde. *„Eine durchgewunkene Begrüßung ist nicht neutral – sie unterrichtet aktiv die Norm ‚halbherzig reicht hier'. Zweimal täglich."* Plus Do Now (Lemov T20): Aufgabe hängt/steht BEVOR gegrüßt wird; ohne Erklärung lösbar; idealerweise Wiederholung.
 
-**Name it (Min. 26–31):** Die Routine in 7 Teilschritten: (1) Material/Starter ist vor dem Gruß sichtbar, (2) fester Standpunkt, (3) Warten auf 100 % Stehen + Stille – schweigend, (4) warmer Gruß mit Blick durch den Raum, (5) Setz-Signal + immer derselbe Starter-Satz, (6) Timer startet, (7) Lehrkraft scannt (geht NICHT sofort an den Rechner!).
+**Name it (Min. 26–31):** Die Routine in 7 Teilschritten:
+
+1. Material/Starter ist vor dem Gruß sichtbar,
+2. fester Standpunkt,
+3. Warten auf 100 % Stehen + Stille – schweigend,
+4. warmer Gruß mit Blick durch den Raum,
+5. Setz-Signal + immer derselbe Starter-Satz,
+6. Timer startet,
+7. Lehrkraft scannt (geht NICHT sofort an den Rechner!).
 
 **Do it (Min. 31–52):** Rollenspiel-Karussell in Vierergruppen: Jede:r spielt die komplette Sequenz (Schritte 1–7) einmal durch, „Klasse" spielt zunächst kooperativ; im 2. Durchlauf zieht die Regie EINE Störkarte. Feedback-Fokus: Schritt 3 (Warten aushalten – der häufigste Fehler ist Grüßen in die Unruhe hinein) und Schritt 5 (Satz-Konstanz). Danach: eigenes Skript in Reinform notieren (dreispaltig) → wandert ins Playbook.
 
@@ -110,7 +124,14 @@
 
 **Retrieval-Starter:** 1. Vierercheck für Anweisungen? 2. Warum nie gegen Unruhe sprechen? 3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? 4. Was ist Brighten the Lines? 5. (Anwendung) Formuliere ein Endsignal für Gruppenarbeit.
 
-**Input (Min. 8–24):** Kernbotschaft: *„Souveränität ist zum großen Teil Verhalten, und Verhalten ist übbar – ihr müsst nicht erst jemand anderes WERDEN."* Vier Stellschrauben mit je 60-Sek.-Demo durch Moderation: (1) **Stillstand** bei wichtigen Ansagen (square up – kein Nebenbei-Laufen, kein Material-Sortieren); (2) **Register** (Lemov T57): formales Register für Anweisungen (ruhig, tief, wenig Worte, Pausen) vs. warmes Register fürs Gespräch – der WECHSEL ist das Werkzeug; (3) **Weniger Worte + Pausen** = mehr Gewicht; (4) **Emotional Constancy** (T62): Ärger nie in die Stimme; Störung depersonalisieren (*„Es ist fast nie persönlich – Modell 4, ihr wisst es seit Woche 1"*). Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz („Ruhig. Ich habe Zeit.").
+**Input (Min. 8–24):** Kernbotschaft: *„Souveränität ist zum großen Teil Verhalten, und Verhalten ist übbar – ihr müsst nicht erst jemand anderes WERDEN."* Vier Stellschrauben mit je 60-Sek.-Demo durch Moderation:
+
+1. **Stillstand** bei wichtigen Ansagen (square up – kein Nebenbei-Laufen, kein Material-Sortieren);
+2. **Register** (Lemov T57): formales Register für Anweisungen (ruhig, tief, wenig Worte, Pausen) vs. warmes Register fürs Gespräch – der WECHSEL ist das Werkzeug;
+3. **Weniger Worte + Pausen** = mehr Gewicht;
+4. **Emotional Constancy** (T62): Ärger nie in die Stimme; Störung depersonalisieren (*„Es ist fast nie persönlich – Modell 4, ihr wisst es seit Woche 1"*).
+
+Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz („Ruhig. Ich habe Zeit.").
 
 **Name it (Min. 24–29):** Präsenz-Checkliste: Stand fest? Hände ruhig? Register bewusst gewählt? Pause vor der Ansage? Stimme am Satzende unten (Aussage, nicht Bitte)?
 
@@ -147,7 +168,7 @@
 
 ## Woche 7: Positive Framing, Precise Praise, Warm/Strict (Drehbuch)
 
-**Material:** Reframing-Kartenset (10 Negativ-Ansagen); Timer; anonymisierte Schülerarbeiten (2–3) für Lob-Übung.
+**Material:** Umformulierungs-Kartenset (10 Negativ-Ansagen); Timer; anonymisierte Schülerarbeiten (2–3) für Lob-Übung.
 
 **Retrieval-Starter:** 1. Die 6 Stufen der Leiter in Reihenfolge? 2. Entscheidungsregel der Stufenwahl? 3. Wo stehst du bei Stillarbeit und warum? 4. Register-Wechsel: wann formal, wann warm? 5. (Anwendung) Formuliere eine positive Gruppenkorrektur für „5 arbeiten nicht".
 
@@ -158,9 +179,9 @@
 4. Precise Praise (T60): Lob konkret + verdient + prozessbezogen (*„Du hast die Probe gemacht, bevor du abgegeben hast – das ist der Unterschied"*); Anerkennung ≠ Lob (Grundverhalten → „Danke", Überdurchschnittliches → Lob); Anti-Lobsandwich: *„Wer Kritik in Lob einwickelt, bringt SuS bei, dass Lob eine Warnung ist."*
 5. Warm/Strict (T61): gleichzeitig, nicht abwechselnd – *„Weil ich weiß, dass du das kannst, gebe ich das nicht durch."*
 
-**Name it (Min. 26–31):** Reframing-Formel: „Ich sehe [erfüllender Teil] – ich will [Zielzustand]." / Lob-Dreiklang: konkret–verdient–Prozess.
+**Name it (Min. 26–31):** Umformulierungs-Formel: „Ich sehe [erfüllender Teil] – ich will [Zielzustand]." / Lob-Dreiklang: konkret–verdient–Prozess.
 
-**Do it (Min. 31–52):** **Reframing-Batterie mit Timer** (Tempo erzeugt Automatisierung): Tandems, 10 Karten, 60 Sekunden – wie viele geschafft? 2 Runden. Dann **Precise-Praise-Übung** an echten Schülerarbeiten: je 2 präzise Lobsätze schreiben, Kitsch-Kontrolle im Tandem. Abschluss **Warm/Strict-Sätze**: je 2 für reale eigene Situationen (Hausaufgaben fehlen; Leistungsverweigerung).
+**Do it (Min. 31–52):** **Umformulierungs-Batterie mit Timer** (Tempo erzeugt Automatisierung): Tandems, 10 Karten, 60 Sekunden – wie viele geschafft? 2 Runden. Dann **Precise-Praise-Übung** an echten Schülerarbeiten: je 2 präzise Lobsätze schreiben, Kitsch-Kontrolle im Tandem. Abschluss **Warm/Strict-Sätze**: je 2 für reale eigene Situationen (Hausaufgaben fehlen; Leistungsverweigerung).
 
 **Action Step:** siehe Curriculum (3:1-Strichliste in einer Stunde pro Tag). *Alternative:* Eine Woche lang jede Korrektur mit „Annahme des Guten" beginnen.
 
@@ -172,17 +193,17 @@
 
 **Material:** W.I.N.-Leitfaden-Karte; 3 Rollenkarten für Nachgespräche (einsichtig / abblockend / eskalierend); Playbook-Mappe (Sammelordner); Kompetenzmatrix; Beamer für Video-Selbstanalyse-Anleitung.
 
-**Retrieval-Starter (erweitert, 8 Fragen kumulativ Block 1):** u. a. Leiter-Reihenfolge; Reframing-Formel; 7 Schritte Begrüßungsroutine; Vierercheck Anweisungen; 3:1-Regel; (Anwendung) „Klasse trödelt beim Materialwechsel – nenne zwei Werkzeuge."
+**Retrieval-Starter (erweitert, 8 Fragen kumulativ Block 1):** u. a. Leiter-Reihenfolge; Umformulierungs-Formel; 7 Schritte Begrüßungsroutine; Vierercheck Anweisungen; 3:1-Regel; (Anwendung) „Klasse trödelt beim Materialwechsel – nenne zwei Werkzeuge."
 
 **Input (Min. 10–25):**
 1. Tight Transitions (Lovell R5): Übergänge sind Mini-Routinen: nummerierte Schritte ansagen (*„Erstens: Blätter nach links. Zweitens: Bücher raus. Drittens: S. 40."*), ggf. üben; Do It Again (Lemov T51) als neutraler Reset (*„Das können wir flüssiger – noch einmal."*) – Ton entscheidet: Reset, nicht Strafe.
 2. Stundenende (Lovell R12): 3-Min.-Puffer einplanen; geordneter Abschluss (Packen erst auf Signal, Verabschiedung im Stehen – Spiegel unserer Begrüßungsroutine!); Every Minute Matters (T31): 2-Min.-Lücken mit Reservefragen füllen (Retrieval! – Vorgriff W18).
 3. W.I.N.-Gespräch (Lovell R6): nach der Stunde, kurz (3–5 Min.), privat, ruhig: **W**as ist passiert? (SuS zuerst) → **I**mpact: welche Wirkung hatte es? → **N**ext steps: wie machen wir es gut? Kein Verhör, kein Monolog.
 
-**Do it (Min. 25–47):** **W.I.N.-Rollenspiele** in Dreiergruppen (Lehrkraft/Schüler:in/Beobachter), 3 Runden mit den 3 Rollenkarten à 5 Min. + 2 Min. Feedback. Regieanweisungen auf den Karten (z. B. „abblockend": antwortet einsilbig, verschränkte Arme – Lehrkraft übt Aushalten + offene Fragen).
+**Do it (Min. 25–47):** **W.I.N.-Rollenspiele** in Dreiergruppen (Lehrkraft/Schüler/Beobachter), 3 Runden mit den 3 Rollenkarten à 5 Min. + 2 Min. Feedback. Regieanweisungen auf den Karten (z. B. „abblockend": antwortet einsilbig, verschränkte Arme – Lehrkraft übt Aushalten + offene Fragen).
 
 **Konsolidierung (Min. 47–56):** Playbook-Start: Skripte aus W2–8 einheften, Deckblatt „Mein Klassenführungs-Playbook"; **Meilenstein 1:** Kompetenzmatrix Selbst-Update (Felder 1–3) + Anleitung Video-Selbstanalyse Nr. 1 (10-Min.-Ausschnitt aus Baseline- oder neuem Video, TN annotiert vor dem Coaching-Gespräch mit Block-1-Checklisten).
 
 **Action Step:** siehe Curriculum (W.I.N. mit gemiedenem Schüler). **Coaching:** Meilenstein-Gespräch 1 (45–60 Min. diese Woche): Video gemeinsam, Matrix abgleichen, Blick auf Block 2.
 
-**SPA-Quiz:** F1: „Do It Again ist…" a) eine Strafe für die Klasse ✗ b) ein neutraler Reset zum Einüben des Standards ✓ c) Zeitverschwendung ✗ d) nur für Unterstufe ✗. — F2: „Im W.I.N.-Gespräch beginnt…" a) die Lehrkraft mit ihrer Sicht ✗ (Intuition) b) der/die Schüler:in mit „Was ist passiert?" ✓ c) man mit der Konsequenz ✗ d) man mit einer Entschuldigungsforderung ✗.
+**SPA-Quiz:** F1: „Do It Again ist…" a) eine Strafe für die Klasse ✗ b) ein neutraler Reset zum Einüben des Standards ✓ c) Zeitverschwendung ✗ d) nur für Unterstufe ✗. — F2: „Im W.I.N.-Gespräch beginnt…" a) die Lehrkraft mit ihrer Sicht ✗ (Intuition) b) der Schüler mit „Was ist passiert?" ✓ c) man mit der Konsequenz ✗ d) man mit einer Entschuldigungsforderung ✗.

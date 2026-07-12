@@ -10,8 +10,8 @@
 | **Leitfrage** | Wie korrigiere ich so, dass die Beziehung wächst statt leidet? |
 | **Kernquellen** | Lemov T59 (Positive Framing), T60 (Precise Praise), T61 (Warm/Strict); Lovell/Dowley, Prinzip 10 („Bank positivity") |
 | **Funktion im Jahr** | Die Sprach-Schicht über der Interventionsleiter (W6): Stufen 2–3 werden hier zur Kunstform. Legt das Fundament der Fehlerkultur (W21) und der Beziehungsarbeit (W29). Precise Praise wird in W25 (Show Call) und W36 (Zertifikatsübergabe!) wieder gebraucht. |
-| **Lernziele** | Die TN können (1) Korrekturen positiv rahmen (Zielzustand statt Fehlverhalten benennen), (2) das 3:1-Verhältnis als Beziehungs-Ökonomie begründen und umsetzen, (3) präzise loben (konkret, verdient, prozessbezogen) und Anerkennung von Lob unterscheiden, (4) Warmherzigkeit und Strenge gleichzeitig ausdrücken. |
-| **Sitzungstyp** | Sprach-Training mit Tempo-Übungen (Automatisierung ist das Ziel – Reframing muss schneller werden als der Ärger-Reflex). |
+| **Lernziele** | Die TN können:<br>1. Korrekturen positiv rahmen (Zielzustand statt Fehlverhalten benennen),<br>2. das 3:1-Verhältnis als Beziehungs-Ökonomie begründen und umsetzen,<br>3. präzise loben (konkret, verdient, prozessbezogen) und Anerkennung von Lob unterscheiden,<br>4. Warmherzigkeit und Strenge gleichzeitig ausdrücken. |
+| **Sitzungstyp** | Sprach-Training mit Tempo-Übungen (Automatisierung ist das Ziel – die Umformulierung muss schneller werden als der Ärger-Reflex). |
 
 ---
 
@@ -19,7 +19,7 @@
 
 **Raum:** Tandems an Tischen; Timer prominent. **Material:**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Reframing-Kartenset: 10 Negativ-Ansagen (Anhang 1.1), pro Tandem ein Set
+- [ ] Umformulierungs-Kartenset: 10 Negativ-Ansagen (Anhang 1.1), pro Tandem ein Set
 - [ ] Handout A: Die drei Sprachwerkzeuge mit Formeln (Anhang 1.2)
 - [ ] 2–3 anonymisierte Schülerarbeiten (real, vom Coach besorgt) für die Lob-Übung
 - [ ] Strichlisten-Kärtchen fürs Pult (3:1-Zähler, Anhang 1.3) – kleines Giveaway, erhöht Umsetzungsquote spürbar
@@ -56,12 +56,12 @@ Tafel, zwei Spalten, Moderation spricht beide Versionen laut mit identischem (!)
 
 ## Phase 4 · Name it (Minute 28–32)
 
-Handout A austeilen, drei Formeln fixieren: **Reframing-Formel** „Ich sehe [erfüllender Teil] – ich will [Zielzustand]" (+ Annahme des Guten: „Ihr habt vergessen…"). **Lob-Dreiklang** konkret · verdient · Prozess (und: Anerkennung ≠ Lob). **Warm/Strict-Muster** „Weil [Zutrauen], [Standard]." Dazu die Ökonomie-Regel: **3:1** – drei Einzahlungen pro Abhebung, gezählt, nicht gefühlt.
+Handout A austeilen, drei Formeln fixieren: **Umformulierungs-Formel** „Ich sehe [erfüllender Teil] – ich will [Zielzustand]" (+ Annahme des Guten: „Ihr habt vergessen…"). **Lob-Dreiklang** konkret · verdient · Prozess (und: Anerkennung ≠ Lob). **Warm/Strict-Muster** „Weil [Zutrauen], [Standard]." Dazu die Ökonomie-Regel: **3:1** – drei Einzahlungen pro Abhebung, gezählt, nicht gefühlt.
 
 ## Phase 5 · Do it (Minute 32–52)
 
-### Runde 1 · Reframing-Batterie mit Timer (Min. 32–42)
-Tandems, Kartenset (Anhang 1.1): Partner A zieht und liest die Negativ-Ansage, Partner B reframt LAUT und sofort – 60 Sekunden, so viele Karten wie möglich; dann Wechsel; dann Runde 2 (Rekordjagd – Tempo automatisiert!). Moderation ruft zwischendurch die Qualitätsbremse aus: *„Tempo zählt nur, wenn die Formel stimmt – Partner prüft: erfüllender Teil? Zielzustand? Kein verstecktes ‚endlich' oder ‚schon wieder'?"*
+### Runde 1 · Umformulierungs-Batterie mit Timer (Min. 32–42)
+Tandems, Kartenset (Anhang 1.1): Partner A zieht und liest die Negativ-Ansage, Partner B formuliert sie LAUT und sofort um – 60 Sekunden, so viele Karten wie möglich; dann Wechsel; dann Runde 2 (Rekordjagd – Tempo automatisiert!). Moderation ruft zwischendurch die Qualitätsbremse aus: *„Tempo zählt nur, wenn die Formel stimmt – Partner prüft: erfüllender Teil? Zielzustand? Kein verstecktes ‚endlich' oder ‚schon wieder'?"*
 
 ### Runde 2 · Precise-Praise-Werkstatt (Min. 42–48)
 An den echten Schülerarbeiten: Jede:r schreibt zu einer Arbeit zwei präzise Lobsätze (einen zum Ergebnis, einen zum erkennbaren Vorgehen); Tandem-Kitschkontrolle mit dem Dreiklang – „super gemacht", „toll", „schön" werden gestrichen und ersetzt.
@@ -73,7 +73,10 @@ Jede:r formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eine
 
 **Standard:** *„3:1 – auf jede Korrektur kommen drei konkrete positive Rückmeldungen. Ich zähle in EINER Stunde pro Tag ehrlich mit (Strichlisten-Kärtchen auf dem Pult) und notiere freitags meinen besten Tages-Quotienten."*
 
-**Alternativen:** (a) Annahme-des-Guten-Woche: jede Korrektur beginnt mit „Ihr habt vergessen…"/„Ich glaube, ihr habt überhört…"; (b) für Vielkritiker (Coach-Wissen): Lob-Quote nur beim anstrengendsten Schüler – ein verdientes, präzises Lob pro Tag, gezielt gesucht.
+**Alternativen:**
+
+1. Annahme-des-Guten-Woche: jede Korrektur beginnt mit „Ihr habt vergessen…"/„Ich glaube, ihr habt überhört…".
+2. Für Vielkritiker (Coach-Wissen): Lob-Quote nur beim anstrengendsten Schüler – ein verdientes, präzises Lob pro Tag, gezielt gesucht.
 
 > **Ausblick:** *„Nächste Woche schließen wir Block 1: Übergänge, das Stundenende – und das Werkzeug für danach: das strukturierte Nachgespräch mit dem Schüler, dem ihr am liebsten aus dem Weg geht. Plus: euer erster Meilenstein mit Video-Selbstanalyse. Bringt euer Playbook mit – es bekommt sein Deckblatt."*
 
@@ -84,15 +87,15 @@ Jede:r formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eine
 # 4. Coaching-Woche 7 (Handreichung)
 
 - **Hospitationsfokus:** Sprach-Protokoll: 10 Minuten lang jede Korrektur und jede positive Rückmeldung wörtlich mitschreiben; anschließend Quotient bilden.
-- **Auswertungsgespräch:** Protokoll vorlegen, TN selbst zählen lassen (Selbsterkenntnis schlägt Vorhaltung); die zwei „negativsten" Sätze gemeinsam reframen und 2× laut sprechen. Würdigen, was schon positiv gerahmt war – mit einem präzisen Lob (Meta-Vorbild!).
-- **Typische Baustelle:** verstecktes Gift in Reframings („SCHÖN, dass jetzt auch die letzten…") → Ironie-Verbot besprechen: Ironie ist eine Abhebung im Einzahlungs-Kostüm.
+- **Auswertungsgespräch:** Protokoll vorlegen, TN selbst zählen lassen (Selbsterkenntnis schlägt Vorhaltung); die zwei „negativsten" Sätze gemeinsam umformulieren und 2× laut sprechen. Würdigen, was schon positiv gerahmt war – mit einem präzisen Lob (Meta-Vorbild!).
+- **Typische Baustelle:** verstecktes Gift in Umformulierungen („SCHÖN, dass jetzt auch die letzten…") → Ironie-Verbot besprechen: Ironie ist eine Abhebung im Einzahlungs-Kostüm.
 - **Red Flag:** TN, denen positives Sprechen „unehrlich" vorkommt → klären: Es geht nicht um Schönfärben, sondern um die Beschreibung des wahren erfüllenden Teils; wenn NICHTS Wahres Positives da ist, ist das ein W2-Problem (Erwartungen zu vage, um erfüllt zu werden) – dorthin zurück.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Reframing-Kartenset (10 Karten; Musterlösungen kursiv – für Moderation/SPA)
+## 1.1 Umformulierungs-Kartenset (10 Karten; Musterlösungen kursiv – für Moderation/SPA)
 
 1. „Hört auf zu quatschen!" → *„Ich höre fast nur Stifte – ich will nur Stifte hören."*
 2. „Warum seid ihr immer noch nicht fertig?" → *„Die meisten sind bei Aufgabe 3 – noch zwei Minuten, dann vergleichen wir."*
@@ -165,7 +168,7 @@ d) streng im Unterricht, warm in der Pause ✗ *(plausibel klingende Trennung)*
 1. **Hook (2 Min.):** Das Beziehungskonto als interaktive Grafik – Nutzer schätzt den Kontostand beim eigenen anstrengendsten Schüler (Slider), App zeigt die 3:1-Logik.
 2. **See it (4 Min.):** Die Zwei-Spalten-Tafel als Audio (identischer Ton!) – Aufgabe: „Welche Version macht welches Verhalten zur Norm?"
 3. **Name it (3 Min.):** Drei Formel-Karten; Zuordnungsspiel: 9 Lehrersätze → Framing / Lob / Warm-Strict / Ironie-Falle / Lobsandwich.
-4. **Do it – Reframing-Trainer mit Timer (7 Min., Gamification-Kern!):** Kartenset aus Anhang 1.1 als Level; 60-Sekunden-Modus mit Highscore; Freitext-Eingabe wird gegen Formel-Heuristik geprüft (erfüllender Teil? Zielzustand? Giftwörter „endlich/schon wieder/immer" = Abzug).
+4. **Do it – Umformulierungs-Trainer mit Timer (7 Min., Gamification-Kern!):** Kartenset aus Anhang 1.1 als Level; 60-Sekunden-Modus mit Highscore; Freitext-Eingabe wird gegen Formel-Heuristik geprüft (erfüllender Teil? Zielzustand? Giftwörter „endlich/schon wieder/immer" = Abzug).
 5. **Lob-Qualitäts-Check:** Lob eintippen → Dreiklang-Ampel (konkret? verdient? Prozess?) mit Verbesserungsvorschlag; Kitsch-Wortliste hinterlegt.
 6. **3:1-Tracker (Tracker-Engine):** digitale Strichliste je Stunde; Wochendiagramm; Erinnerung „Heute schon eingezahlt bei [Name des roten Kontos]?" (Name lokal gespeichert).
 7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–6); F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Quotienten-Eingabe pro Tag.

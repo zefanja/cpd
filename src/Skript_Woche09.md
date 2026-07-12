@@ -8,9 +8,9 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie ist eine wirksame Stunde grundsätzlich gebaut? |
-| **Kernquellen** | Rosenshine, *Principles of Instruction* (American Educator, 2012); Lovell/Dowley R7–R9 (Vorschau); McCrea (Novizen-Experten-Logik, Vorgriff Block 3) |
+| **Kernquellen** | Rosenshine, *Principles of Instruction* (American Educator, 2012); Lovell/Dowley R7–R9 (Vorschau); McCrea (Logik „Schüler ohne Vorkenntnisse vs. Experten", Vorgriff Block 3) |
 | **Funktion im Jahr** | Block-2-Auftakt: liefert das Ordnungsgerüst, in das sich W10–14 einsortieren (jede Folgewoche „wohnt" in einem Rosenshine-Strang). Das Audit-Raster wird in W32 (Lean-Qualitätscheck) wiederverwendet. Die 80 %-Regel wird Referenzgröße für W12, W22 und W27. |
-| **Lernziele** | Die TN können (1) die 10 Prinzipien in den vier Strängen (Reviewing / Sequencing & Modelling / Questioning / Practising) verorten, (2) eine Stunde mit dem Audit-Raster prüfen, (3) I do – We do – You do als Verantwortungsübergabe erklären und den „Sprung-Fehler" (übersprungenes We do) erkennen, (4) die 80 %-Erfolgsquote als Steuergröße nutzen. |
+| **Lernziele** | Die TN können:<br>1. die 10 Prinzipien in den vier Strängen (Reviewing / Sequencing & Modelling / Questioning / Practising) verorten,<br>2. eine Stunde mit dem Audit-Raster prüfen,<br>3. I do – We do – You do als Verantwortungsübergabe erklären und den „Sprung-Fehler" (übersprungenes We do) erkennen,<br>4. die 80 %-Erfolgsquote als Steuergröße nutzen. |
 | **Sitzungstyp** | Konzept-Sitzung mit Analyse-Übung (Audit + Redesign) – bewusst weniger Rollenspiel: Das Gerüst muss erst stehen, bevor ab W11 wieder körperlich trainiert wird. |
 
 ---
@@ -49,7 +49,7 @@
 > *„Prinzip 1 und 10: tägliche Wiederholung zu Beginn, wöchentliche und monatliche Wiederholung im Verlauf. Klingt banal – ist aber das am konsequentesten missachtete Prinzip im Schulalltag, weil der Stoffdruck ruft. Ihr allerdings kennt es aus eigener Erfahrung: Womit beginnt jede unserer Sitzungen? Eben. Ihr sitzt seit neun Wochen in einer Rosenshine-Fortbildung, die nach Rosenshine gebaut ist. Und euer Do Now aus Woche 3 ist der vorbereitete Landeplatz dafür – ab Woche 14 füllen wir ihn systematisch mit Wiederholung."*
 
 ### Strang 2: Sequencing & Modelling – kleine Schritte, gezeigtes Denken (Min. 16–20)
-> *„Prinzipien 2, 4 und 8: neuen Stoff in kleinen Schritten, Modellieren mit Beispielen, Gerüste für Schwieriges. Das Bild dazu: Ihr seid Bergführer mit einer Gruppe, die zum ersten Mal am Berg ist. Der Anfängerfehler ist nicht die falsche Route – es ist die Schrittlänge. Was für euch EIN Schritt ist (‚einfach den Bruch erweitern'), sind für Novizen fünf. Warum das kognitiv so ist, bekommt ihr in Block 3 in voller Schönheit; heute reicht die Regel: kleiner schneiden, als sich richtig anfühlt. Die Wochen 10 und 11 gehören diesem Strang."*
+> *„Prinzipien 2, 4 und 8: neuen Stoff in kleinen Schritten, Modellieren mit Beispielen, Gerüste für Schwieriges. Das Bild dazu: Ihr seid Bergführer mit einer Gruppe, die zum ersten Mal am Berg ist. Der Anfängerfehler ist nicht die falsche Route – es ist die Schrittlänge. Was für euch EIN Schritt ist (‚einfach den Bruch erweitern'), sind für Schüler ohne Vorkenntnisse fünf. Warum das kognitiv so ist, bekommt ihr in Block 3 in voller Schönheit; heute reicht die Regel: kleiner schneiden, als sich richtig anfühlt. Die Wochen 10 und 11 gehören diesem Strang."*
 
 ### Strang 3: Questioning – viele Fragen, alle prüfen (Min. 20–23)
 > *„Prinzipien 3 und 6: viele Fragen stellen, und das Verständnis ALLER prüfen – nicht der drei Meldefinger. Rosenshines Beobachtung: Die wirksamsten Lehrkräfte stellen schlicht mehr Fragen und lassen mehr Schüler antworten als der Durchschnitt. Wie man das technisch sauber macht – Cold Call, Whiteboards, all das – ist der komplette Block 4. Heute nur der Platzhalter im Gerüst: Nach jedem kleinen Schritt kommt eine Prüfschleife. Erklären ohne Prüfen ist Senden ohne Empfangsbestätigung."*
@@ -59,11 +59,17 @@
 > *Und die Steuergröße für das alles: Prinzip 7, die **80-Prozent-Regel.** In Übungsphasen sollen etwa vier von fünf Antworten richtig sein. Deutlich darunter? Zurück zum Modellieren – die Brücke war zu kurz. Deutlich darüber, dauerhaft 100 %? Der Anspruch ist zu niedrig – es wird geübt, was schon sitzt. 80 Prozent ist der Korridor, in dem Üben lernt statt frustriert oder langweilt."*
 
 ### Einordnung: der „Frontalunterricht"-Einwand (Min. 27–28)
-> *„Bevor jemand es denkt: Das hier ist kein Plädoyer für Dauermonolog. Explizite Instruktion nach Rosenshine ist hochinteraktiv – kurze Erklärsequenzen, ständig unterbrochen von Fragen, Prüfungen, gemeinsamem Arbeiten. Der Gegensatz ist nicht ‚Frontal vs. modern'. Der Gegensatz ist ‚geführt vs. allein gelassen' – und Novizen, das sind eure Schüler in fast allem, brauchen Führung."*
+> *„Bevor jemand es denkt: Das hier ist kein Plädoyer für Dauermonolog. Explizite Instruktion nach Rosenshine ist hochinteraktiv – kurze Erklärsequenzen, ständig unterbrochen von Fragen, Prüfungen, gemeinsamem Arbeiten. Der Gegensatz ist nicht ‚Frontal vs. modern'. Der Gegensatz ist ‚geführt vs. allein gelassen' – und Schüler ohne Vorkenntnisse – das sind eure Schüler in fast allem – brauchen Führung."*
 
 ## Phase 4 · Name it (Minute 28–33)
 
-Handout B austeilen: **Das Audit-Raster** – fünf Prüffragen an jede Stunde: (1) Beginnt sie mit Wiederholung? (2) Wie groß sind die Schritte (neue Elemente pro Erklärsequenz)? (3) Wo sind die Prüfschleifen – und prüfen sie ALLE? (4) Gibt es ein echtes We do zwischen Zeigen und Alleinarbeiten? (5) Geschätzte Erfolgsquote im Üben – im Korridor?
+Handout B austeilen: **Das Audit-Raster** – fünf Prüffragen an jede Stunde:
+
+1. Beginnt sie mit Wiederholung?
+2. Wie groß sind die Schritte (neue Elemente pro Erklärsequenz)?
+3. Wo sind die Prüfschleifen – und prüfen sie ALLE?
+4. Gibt es ein echtes We do zwischen Zeigen und Alleinarbeiten?
+5. Geschätzte Erfolgsquote im Üben – im Korridor?
 
 Fingerzeichen-Kalibrierung (2 Min.): Moderation liest 3 Stunden-Kurzbeschreibungen vor, TN zeigen den verletzten Strang (1–4).
 
@@ -82,7 +88,10 @@ Jede:r legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage ma
 
 **Standard:** *„Jede meiner Stunden dieser Woche beginnt mit fünf Minuten Wiederholung – Format frei (Fragen an der Tafel, mündliche Runde, Mini-Quiz). Freitags notiere ich: Was hat sich am Stundenverlauf dadurch verändert?"*
 
-**Alternativen:** (a) Selbst-Audit-Fix: den in Runde 3 markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben; (b) 80 %-Beobachtung: in einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.
+**Alternativen:**
+
+1. Selbst-Audit-Fix: den in Runde 3 markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben.
+2. 80 %-Beobachtung: in einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.
 
 > **Ausblick:** *„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang. Bringt das Thema einer echten Stunde eurer KOMMENDEN Woche mit – daran wird gearbeitet."* **(Vorab-Auftrag auf die Exit-Karte!)**
 

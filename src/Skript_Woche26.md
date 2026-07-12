@@ -10,7 +10,7 @@
 | **Leitfrage** | Was mache ich mit all den Daten – heute, morgen, vor der Klassenarbeit? |
 | **Kernquellen** | Lemov T14 (Own and Track); Bambrick-Santoyo (Driven-by-Data-Logik, vereinfacht); Verzahnung mit T26 (W14) |
 | **Funktion im Jahr** | Block-4-Finale: schließt den Datenkreislauf Sehen (W25) → Entscheiden → Handeln. Die Reteach-Formate operationalisieren die >⅓-Faustregel aus W14; Own and Track verlängert die Fehlerkultur (W21) in die Schülerhand und wird in W34 (DIRT) wiederaufgenommen. Das CFU-Repertoire-Blatt konsolidiert den Block. Block-4-Quiz als Meilenstein-Messung; Peer-Hospitation 4 läuft in dieser Phase. |
-| **Lernziele** | Die TN können (1) aus Fehlerprofilen die passende Reteach-Entscheidung ableiten (Klasse / Kleingruppe / Einzelimpuls), (2) die Replay-Falle vermeiden (Reteach = NEUER Zugang), (3) Fehlerkorrektur per Fehlerjournal in Schülerhand geben, (4) CFU-Daten einer Einheit zur gezielten Klassenarbeits-Vorbereitung aggregieren. |
+| **Lernziele** | Die TN können:<br>1. aus Fehlerprofilen die passende Reteach-Entscheidung ableiten (Klasse / Kleingruppe / Einzelimpuls),<br>2. die Replay-Falle vermeiden (Reteach = NEUER Zugang),<br>3. Fehlerkorrektur per Fehlerjournal in Schülerhand geben,<br>4. CFU-Daten einer Einheit zur gezielten Klassenarbeits-Vorbereitung aggregieren. |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Datenfall-Duell + Konsolidierungs-Ritual. |
 
 ---
@@ -71,12 +71,18 @@ Einzelarbeit: Journal-Format für die eigene Klasse festlegen (wo? wann gepflegt
 
 **Standard:** *„Nach der nächsten Übungsphase oder dem nächsten Ticket-Stapel mit einem Muster über 30 % plane ich einen 10-Minuten-Reteach für den Folgetag – mit nachweislich NEUEM Zugang (notiert: alter Zugang war …, neuer ist …) und Board-Blitz als Erfolgscheck."*
 
-**Alternativen:** (a) Journal-Start: Fehlerjournal in einer Klasse einführen (Einführungsskript + erste gemeinsame Einträge nach der nächsten Rückgabe); (b) Vorlauf-Pilot: für die nächste anstehende Klassenarbeit die Daten-Aggregation durchziehen und die Wiederholstunde danach bauen.
+**Alternativen:**
+
+1. Journal-Start: Fehlerjournal in einer Klasse einführen (Einführungsskript + erste gemeinsame Einträge nach der nächsten Rückgabe).
+2. Vorlauf-Pilot: für die nächste anstehende Klassenarbeit die Daten-Aggregation durchziehen und die Wiederholstunde danach bauen.
 
 > **Ausblick:** *„Nach den Osterferien beginnt Block 5 – und er beantwortet die Frage hinter allen Fragen: Warum strengen Menschen sich an? Motivation als System mit fünf Stellschrauben. Erste Überraschung vorab: Die Hälfte des Werkzeugkastens besitzt ihr längst, ohne es zu wissen. Erholt euch – ihr habt das dichteste Drittel des Jahres geschafft."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss): (1) Mein wichtigstes CFU-Werkzeug: … (2) Meine offene Daten-Frage: …
+Erweitert (Blockabschluss):
+
+1. Mein wichtigstes CFU-Werkzeug: …
+2. Meine offene Daten-Frage: …
 
 ---
 

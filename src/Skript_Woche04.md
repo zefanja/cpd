@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie bekomme ich 30 Menschen in fünf Sekunden still – und wie gebe ich Anweisungen, die wirklich ankommen? |
 | **Kernquellen** | Lovell/Dowley, Routine 4 (Gaining attention); Lemov T52 (What to Do), T28 (Brighten the Lines); Sprachökonomie (Lovell/Lemov) |
 | **Funktion im Jahr** | Zweites Kernwerkzeug der Klassenführung. Das Aufmerksamkeitssignal wird zur Voraussetzung fast aller späteren Techniken (Übergänge W8, Turn-and-Talk-Endsignal W24, Whiteboard-Routine W25). Der What-to-Do-Standard nutzt direkt das „vage→spezifisch"-Handwerk aus W2. |
-| **Lernziele** | Die TN können (1) ein Aufmerksamkeitssignal regelkonform etablieren und durchhalten (Signal → Warten → 100 % → sprechen), (2) Arbeitsanweisungen nach dem Vierercheck formulieren (konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt), (3) Arbeitsphasen mit scharfen Start-/Endsignalen rahmen. |
+| **Lernziele** | Die TN können:<br>1. ein Aufmerksamkeitssignal regelkonform etablieren und durchhalten (Signal → Warten → 100 % → sprechen),<br>2. Arbeitsanweisungen nach dem Vierercheck formulieren (konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt),<br>3. Arbeitsphasen mit scharfen Start-/Endsignalen rahmen. |
 | **Sitzungstyp** | Technik-Training: Schreiben (Rewrite-Sprint) + Rollenspiel (Signal-Ernstfall). |
 
 ---
@@ -69,13 +69,21 @@ Merksatz: *„Erst still, dann kurz, dann Stopp."*
 Handout A: 5 vage Anweisungen, Einzelarbeit mit Zeitdruck (5 Min.), dann Tandem-Vierercheck (3 Min.). Moderation sammelt 2 Lösungen pro Aufgabe im Zuruf und lässt die Gruppe Wörter ZÄHLEN (der Zählakt diszipliniert nachhaltig).
 
 ### Runde 2 · Signal-Ernstfall (Min. 41–52)
-Vierergruppen auf der Spielfläche: Jede:r (a) spricht seine Signal-EINFÜHRUNG (Handout B, 60 Sek.), (b) setzt das Signal in laufender „Gruppenarbeit" ein – Regie zieht eine Störkarte B. Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/Schritt? 2. Kurzdurchlauf der schwächsten Stelle. (Zeitwächter je Gruppe: 2,5 Min. pro Person inkl. Feedback.)
+Vierergruppen auf der Spielfläche: Jede:r
+
+1. spricht seine Signal-EINFÜHRUNG (Handout B, 60 Sek.),
+2. setzt das Signal in laufender „Gruppenarbeit" ein – Regie zieht eine Störkarte B.
+
+Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/Schritt? 2. Kurzdurchlauf der schwächsten Stelle. (Zeitwächter je Gruppe: 2,5 Min. pro Person inkl. Feedback.)
 
 ## Phase 6 · Action Step (Minute 52–58)
 
 **Standard:** *„Ich führe am Montag in Klasse X mein Aufmerksamkeitssignal nach dem W2-Bauplan ein (zeigen – Erwartung – Begründung – CFU – Probe) und halte eine Woche eisern die Reihenfolge: Signal, schweigen, 100 %, erst dann sprechen."*
 
-**Alternativen:** (a) Wörter-Diät: eine Woche jede Arbeitsanweisung vorher notieren und auf ≤ 12 Wörter/Schritt kürzen; (b) Kanten-Woche: jede Arbeitsphase mit „3-2-1-los" starten und mit Signal beenden.
+**Alternativen:**
+
+1. Wörter-Diät: eine Woche jede Arbeitsanweisung vorher notieren und auf ≤ 12 Wörter/Schritt kürzen;
+2. Kanten-Woche: jede Arbeitsphase mit „3-2-1-los" starten und mit Signal beenden.
 
 > **Ausblick:** *„Nächste Woche geht es um euch selbst: Körper, Stimme, Ruhe – wie ihr souverän WIRKT, auch wenn ihr es noch nicht durchgehend seid. Spoiler: Es ist trainierbar wie alles andere."*
 

@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie sorge ich dafür, dass alle denken – nicht nur die fünf Melder? |
 | **Kernquellen** | Lemov T34 (Cold Call), T33 (Wait Time), T36 (Means of Participation); Ratio-Konzept (Participation × Think) |
 | **Funktion im Jahr** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf W21 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für W23 (No Opt Out schließt die Schleife) und W24 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in W29 als Beziehungs-Heatmap wieder). |
-| **Lernziele** | Die TN können (1) Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal), (2) die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen, (3) 3–5 Sekunden Wartezeit aushalten und produktiv rahmen, (4) Means of Participation vor jeder Frage ansagen. |
+| **Lernziele** | Die TN können:<br>1. Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal),<br>2. die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen,<br>3. 3–5 Sekunden Wartezeit aushalten und produktiv rahmen,<br>4. Means of Participation vor jeder Frage ansagen. |
 | **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Jahres (die Pause wird mit der Stoppuhr gemessen). |
 
 ---
@@ -77,7 +77,10 @@ Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jede:r führ
 
 **Standard:** *„Ich führe Cold Call in Klasse X mit meinem Skript ein und setze ab dann mindestens fünf warme Cold Calls pro Stunde nach Frage-Pause-Name. Die Pause zähle ich innerlich: einundzwanzig, zweiundzwanzig, dreiundzwanzig."*
 
-**Alternativen:** (a) für fragile Klassenkultur (Coach-Absprache!): erst eine Woche Means of Participation konsequent vor jeder Frage – Cold-Call-Start dann in W23; (b) Wait-Time-Solo: eine Woche lang JEDE Frage (auch an Melder) mit 3–5 Sek. Pause – Beobachtung: Wie verändern sich die Antworten?
+**Alternativen:**
+
+1. für fragile Klassenkultur (Coach-Absprache!): erst eine Woche Means of Participation konsequent vor jeder Frage – Cold-Call-Start dann in W23.
+2. Wait-Time-Solo: eine Woche lang JEDE Frage (auch an Melder) mit 3–5 Sek. Pause – Beobachtung: Wie verändern sich die Antworten?
 
 > **Ausblick:** *„Eine Frage ist heute offen geblieben: Was, wenn die Antwort ‚Weiß nicht' lautet – oder nur halb richtig ist? Nächste Woche bekommt Cold Call sein Sicherheitsnetz und seinen Anspruch: No Opt Out und Right is Right. Danach endet keine Runde mehr ohne Erfolg."*
 

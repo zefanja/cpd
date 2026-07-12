@@ -10,7 +10,7 @@
 | **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
 | **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
 | **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht das Exemplar (W10) als Maßstab; Break It Down (W12) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in W33 wieder). |
-| **Lernziele** | Die TN können (1) die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung), (2) halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Exemplar als Maßstab), (3) Fachsprache einfordern ohne zu entmutigen (Format Matters), (4) richtige Antworten mit Stretch It verlängern. |
+| **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Exemplar als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
 | **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
 
 ---
@@ -74,7 +74,10 @@ Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlasse
 
 **Standard:** *„Kein ‚weiß nicht' bleibt diese Woche stehen: Ich beschaffe Hilfe (Hinweis oder Peer) und komme IMMER zur Ausgangsperson zurück – und sei es nur zum Anwenden der inzwischen geklärten Antwort. Abends notiere ich den bemerkenswertesten Rückkehr-Moment."*
 
-**Alternativen:** (a) Right-is-Right-Woche: eine Woche lang kein Aufrunden – Reflexfrage im Kopf („volle Punkte?"), Nachfass-Formel bereit; (b) Stretch-It-Woche: jede richtige Antwort in Klasse X bekommt eine Anschlussfrage aus dem Fächer.
+**Alternativen:**
+
+1. Right-is-Right-Woche: eine Woche lang kein Aufrunden – Reflexfrage im Kopf („volle Punkte?"), Nachfass-Formel bereit.
+2. Stretch-It-Woche: jede richtige Antwort in Klasse X bekommt eine Anschlussfrage aus dem Fächer.
 
 > **Ausblick:** *„Ihr könnt jetzt Einzelne zum Denken bringen. Nächste Woche skalieren wir auf alle gleichzeitig: Turn and Talk und Everybody Writes – wie aus einer Frage an einen eine Denkaufgabe für achtundzwanzig wird. Mit Stoppuhr, versprochen."*
 

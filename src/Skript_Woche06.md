@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie reagiere ich auf kleine Störungen, ohne den Unterricht zu unterbrechen? |
 | **Kernquellen** | Lemov T55 (Least Invasive Intervention), Teacher Radar / „Pastore's Perch"; Lovell/Dowley, Routine 9 (Responding to low-level disruption) |
 | **Funktion im Jahr** | Das meistgewünschte Modul des Blocks – hier zahlt sich alles Vorherige aus: Erwartungen (W2) definieren, WAS eine Störung ist; Präsenz (W5) trägt jede Stufe. Die Leiter wird Referenzwerkzeug für W7 (Positiv-Rahmung der Stufen 2–3), W23 (hartnäckige Verweigerung) und W30 (Eskalation jenseits der Leiter). Direkt anschließend: Gruppenhospitation 1. |
-| **Lernziele** | Die TN können (1) das 100 %-Prinzip begründen, (2) die sechs Stufen der Interventionsleiter in Reihenfolge anwenden und bewusst auf der kleinsten wirksamen einsteigen, (3) ihre Raumposition und ihr Scannen als präventives Radar gestalten. |
+| **Lernziele** | Die TN können:<br>1. das 100 %-Prinzip begründen,<br>2. die sechs Stufen der Interventionsleiter in Reihenfolge anwenden und bewusst auf der kleinsten wirksamen einsteigen,<br>3. ihre Raumposition und ihr Scannen als präventives Radar gestalten. |
 | **Sitzungstyp** | Technik-Training mit dem intensivsten Rollenspiel des Blocks (Stufen-Karussell). |
 
 ---
@@ -74,13 +74,19 @@ Leiter-Poster aufhängen (Sicherung der Tafel-Entwicklung); Einstiegsregel als M
 Vierergruppen: Dieselbe Störung (2 SuS tuscheln bei Stillarbeit) wird nacheinander auf **Stufe 1, 2, 3 und 4** gespielt – jede:r TN übernimmt eine Stufe als Lehrkraft und muss dabei WEITERUNTERRICHTEN (die Regie gibt einen Erklär-Auftrag: „Du erläuterst gerade die Hausaufgabe"). Beobachter-Checkfragen: Kleinste Stufe sauber ausgeführt? Unterricht lief weiter? Ton neutral-formal (W5!)? Nach jedem Durchgang 60 Sek. Feedback + Sofort-Wiederholung der Schwachstelle. *(Stufe 5 wird einmal von der Moderation demonstriert – „Name + Handlung, zwei Sekunden" – aber nicht von allen geübt: Die Verlockung, gleich öffentlich zu korrigieren, soll nicht trainiert werden.)*
 
 ### Runde 2 · Radar-Übungen (Min. 44–52)
-(a) **Positions-Planung (4 Min.):** Auf dem eigenen Sitzplan-Blanko markieren: Stillarbeits-Standort (alle sichtbar?), Erklär-Standort, die tote Ecke des eigenen Raums. (b) **Scan-Training (4 Min.):** Videoclip/Beschreibungskarte – die 4 Mikro-Störungen finden, für jede die Einstiegs-Stufe nennen und begründen (Plenum, hohes Tempo).
+Ablauf:
+
+1. **Positions-Planung (4 Min.):** Auf dem eigenen Sitzplan-Blanko markieren: Stillarbeits-Standort (alle sichtbar?), Erklär-Standort, die tote Ecke des eigenen Raums.
+2. **Scan-Training (4 Min.):** Videoclip/Beschreibungskarte – die 4 Mikro-Störungen finden, für jede die Einstiegs-Stufe nennen und begründen (Plenum, hohes Tempo).
 
 ## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
 
 **Standard:** *„Bei Stillarbeit interveniere ich diese Woche IMMER zuerst nonverbal (Blick/Nähe) und zähle abends: Wie oft hat Stufe 1 gereicht? Zusätzlich stehe ich bei Stillarbeit an meinem geplanten Radar-Punkt."*
 
-**Alternativen:** (a) Stufen-Tagebuch: 3 Störungen pro Tag notieren – genutzte Stufe + hätte eine kleinere gereicht?; (b) für TN mit „Overkill-Neigung" (aus W5-Coaching bekannt): eine Woche Verbot der Stufen 5–6 außer bei Sicherheitsthemen.
+**Alternativen:**
+
+1. Stufen-Tagebuch: 3 Störungen pro Tag notieren – genutzte Stufe + hätte eine kleinere gereicht?;
+2. für TN mit „Overkill-Neigung" (aus W5-Coaching bekannt): eine Woche Verbot der Stufen 5–6 außer bei Sicherheitsthemen.
 
 **Gruppenhospitation 1 (3 Min.):** Termin bestätigen, Gastgeber-Lehrkraft nennen, Beobachtungsbogen (Anhang 3) austeilen und die drei Spalten erklären; Regeln: beschreiben statt bewerten, Handys weg, Dank an den Gastgeber; Nachbesprechung 30 Min. direkt im Anschluss.
 
@@ -118,7 +124,14 @@ Vierergruppen: Dieselbe Störung (2 SuS tuscheln bei Stillarbeit) wird nacheinan
 Felder: Stillarbeits-Standort (Stern) · Erklär-Standort (Kreis) · tote Ecke (schraffieren) · Laufweg-Skizze (Pfeile) · „Meine 2–3 Frühwarn-Plätze" (SuS, bei denen Störungen typischerweise beginnen – diskret!).
 
 ## 1.3 Scan-Trainings-Beschreibungskarte (Fallback ohne Video)
-*Stillarbeit, Minute 12: (1) Reihe 3 links: zwei Köpfe zueinander, Flüstern. (2) Fensterreihe hinten: ein Schüler zeichnet, Heft leer. (3) Mitte: eine Schülerin sucht seit 2 Min. im Rucksack. (4) Vorn rechts: Handy halb unter dem Oberschenkel.* — Aufgabe: Für jede Beobachtung Einstiegs-Stufe + Begründung. *(Muster: 1→Stufe 1 Nähe; 2→Stufe 1 Blick/Nähe, ggf. 4 mit Arbeitsimpuls; 3→Stufe 4 leise Hilfe/Impuls – vermutlich keine Störung, sondern Orientierungslosigkeit!; 4→Stufe 4 privat, schulkonforme Handyregel, ruhig.)*
+*Stillarbeit, Minute 12:*
+
+1. *Reihe 3 links: zwei Köpfe zueinander, Flüstern.*
+2. *Fensterreihe hinten: ein Schüler zeichnet, Heft leer.*
+3. *Mitte: eine Schülerin sucht seit 2 Min. im Rucksack.*
+4. *Vorn rechts: Handy halb unter dem Oberschenkel.*
+
+— Aufgabe: Für jede Beobachtung Einstiegs-Stufe + Begründung. *(Muster: 1→Stufe 1 Nähe; 2→Stufe 1 Blick/Nähe, ggf. 4 mit Arbeitsimpuls; 3→Stufe 4 leise Hilfe/Impuls – vermutlich keine Störung, sondern Orientierungslosigkeit!; 4→Stufe 4 privat, schulkonforme Handyregel, ruhig.)*
 
 ---
 

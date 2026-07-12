@@ -11,12 +11,19 @@
 **Retrieval-Starter (erweitert, 10 Min., Reaktivierung):** 8 Fragen quer durch Block 1+2, darunter: Stundenarchitektur-Template aufzeichnen; 80 %-Regel; Exit-Ticket-Gütecheck; Interventionsleiter; (Anwendung) „Erste Stunde nach den Ferien – welche zwei Dinge etablierst du neu?"
 
 **Input (Min. 10–28):**
-1. *See it – Selbstversuche (Highlight der Sitzung, 6 Min.):* (a) 11-stellige Zahl rückwärts (scheitert) vs. Geburtsdatum rückwärts (klappt) – W1-Echo, jetzt erklärt; (b) Buchstabenreihe „BMWFBIUSAADAC" merken: erst als Einzelbuchstaben (unmöglich), dann als Chunks (trivial) → Schemata erweitern faktisch das Arbeitsgedächtnis; (c) „Woran haben Sie gestern beim Abendessen gedacht?" → vergessen ist Standard, nicht Störfall.
+1. *See it – Selbstversuche (Highlight der Sitzung, 6 Min.):*
+  1. 11-stellige Zahl rückwärts (scheitert) vs. Geburtsdatum rückwärts (klappt) – W1-Echo, jetzt erklärt;
+  2. Buchstabenreihe „BMWFBIUSAADAC" merken: erst als Einzelbuchstaben (unmöglich), dann als Chunks (trivial) → Schemata erweitern faktisch das Arbeitsgedächtnis;
+  3. „Woran haben Sie gestern beim Abendessen gedacht?" → vergessen ist Standard, nicht Störfall.
 2. Kernsätze: **Lernen = dauerhafte Veränderung im Langzeitgedächtnis** – was dort nicht ankommt, wurde nicht gelernt, egal wie schön die Stunde war. **„Erinnert wird, worüber nachgedacht wurde"** (Willingham) – die Denkspur ist die Lernspur. **Vergessen beginnt sofort** (Ebbinghaus) – Unterricht, der Vergessen nicht einplant, plant es ein.
 3. Konsequenz-Kaskade an der Tafel entwickeln (mit der Gruppe!): Wenn WM eng ist → kleine Schritte (W11), Routinen (Block 1), Material entschlacken (W16). Wenn Vergessen Standard ist → Wiederholung einbauen (W18/19). Wenn Denken = Lernen → Aufmerksamkeit lenken (W17). *„Ihr seht: Block 1 und 2 waren angewandte Gedächtnispsychologie. Jetzt bekommt ihr die Landkarte dazu."*
 4. Mythen-Impfung (4 Min.): Lernstile (auditiv/visuell als Präferenz ≠ Lernwirksamkeit; Modalität soll zum INHALT passen), Lernpyramide (Zahlen frei erfunden) – kurz, klar, mit Quellenhinweis.
 
-**Name it (Min. 28–33):** Diagnose-Raster: Bei jedem Unterrichtsproblem drei Fragen: (1) WM überlastet? (2) Nie im LZG angekommen (fehlender Abruf)? (3) Falsche Denkspur (Aufmerksamkeit woanders)?
+**Name it (Min. 28–33):** Diagnose-Raster: Bei jedem Unterrichtsproblem drei Fragen:
+
+1. WM überlastet?
+2. Nie im LZG angekommen (fehlender Abruf)?
+3. Falsche Denkspur (Aufmerksamkeit woanders)?
 
 **Do it (Min. 33–52):** *Fall-Deutung (12 Min.):* 4 Klassiker in Kleingruppen mit dem Raster deuten: „In der Stunde konnten sie es, im Test nicht" / „Nach dem Filmeinstieg wissen alle den Witz, keiner das Konzept" / „Die schwache Schülerin ‚kann sich nichts merken'" / „Beim Textverstehen scheitern viele, obwohl sie lesen können" (→ fehlendes Vorwissen/Schema!). *Mythen-Speeddating (7 Min.):* Tandems ziehen Mythos-Karte und üben die 60-Sek.-Kollegen-Antwort („Was sagst du im Lehrerzimmer dazu?").
 
@@ -59,7 +66,13 @@
 2. Prinzipien (McCrea): Aufmerksamkeit = Torwächter des WM, evolutionär auf Neues/Soziales/Bedrohliches geeicht, NICHT auf Achsenbeschriftungen. Also: **präzise orientieren** („Vergleicht die Steigung zwischen A und B" statt „Schaut auf die Grafik"), **strukturell lenken** (Ankündigungen: „Der wichtigste Satz der Stunde kommt JETZT"; nummerierte Schritte; konsistente Layouts), **Denkzwang bauen**: Aufgabenformate, die sich nur lösen lassen, wenn man den Zielinhalt denkt (nicht abschreib-/ratbar).
 3. Seductive Details: die spannende Anekdote frisst das Konzept – nicht streichen, sondern ans Konzept KOPPELN („Die Anekdote beweist Prinzip X – erklärt mit euren Worten, wieso").
 
-**Name it (Min. 24–29):** Lenkungs-Dreiklang: (1) Präziser Zeige-Auftrag vor jedem Medium, (2) Struktur-Marker im Vortrag, (3) Denkzwang in der Aufgabe. Prüffrage: „Was DENKT ein Schüler, der diese Aufgabe löst?"
+**Name it (Min. 24–29):** Lenkungs-Dreiklang:
+
+1. Präziser Zeige-Auftrag vor jedem Medium,
+2. Struktur-Marker im Vortrag,
+3. Denkzwang in der Aufgabe.
+
+Prüffrage: „Was DENKT ein Schüler, der diese Aufgabe löst?"
 
 **Do it (Min. 29–52):** *Aufgaben-Röntgen (12 Min.):* 6 Aufgaben-Karten in Kleingruppen: „Was muss man denken, um das zu lösen?" – 2 Karten enthalten Mogelpackungen (lösbar durch Abschreiben/Raten) → umbauen. *Marker-Skript (8 Min.):* Für die eigene nächste Stunde 3 Aufmerksamkeits-Marker wörtlich skripten (vor Grafik, vor Kernsatz, vor Medienwechsel).
 
@@ -107,7 +120,12 @@
 3. Interleaving: jede 3.–4. Aufgabe im Set aus Alt-Themen; trainiert zusätzlich das AUSWÄHLEN der Methode – genau das, woran SuS in Prüfungen scheitern („Welches Verfahren ist hier dran?").
 4. Ehrlichkeit gegenüber SuS: erklären, WARUM gemischte Blätter sich schwerer anfühlen (Buy-in-Vorgriff W30; Metakognition W20).
 
-**Name it (Min. 26–31):** Zwei Einbau-Regeln: (1) Jedes Quiz kumulativ (3-2-1), (2) jedes Übungsset zu ≥25 % aus Alt-Themen. Plus Prüfungsregel: kumulativ prüfen + vorher ansagen.
+**Name it (Min. 26–31):** Zwei Einbau-Regeln:
+
+1. Jedes Quiz kumulativ (3-2-1),
+2. jedes Übungsset zu ≥25 % aus Alt-Themen.
+
+Plus Prüfungsregel: kumulativ prüfen + vorher ansagen.
 
 **Do it (Min. 31–52):** *Wiederholungs-Landkarte (12 Min.):* eigenes Halbjahr skizzieren: Wann taucht Thema X in Startern/Sets/Arbeiten wieder auf? (Mindestens 3 Wiederkehr-Punkte pro Kernthema.) *Blatt-Umbau (8 Min.):* das geblockte Beispielblatt interleaven – welche 3 Aufgaben ersetze ich wodurch?
 

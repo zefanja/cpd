@@ -84,7 +84,11 @@
 **Input (Min. 8–24) – die Offenlegung:**
 1. Die harte Wahrheit zuerst: *„Ab Jahr drei macht Erfahrung allein Lehrkräfte im Schnitt nicht mehr besser – die Kurve wird flach. Nicht weil Menschen aufhören zu lernen, sondern weil Routine ohne gezielten Fokus, Feedback und Wiederholung nur Routine festigt. Besser wird, wer weiter DELIBERATE übt. Die gute Nachricht: Ihr wisst jetzt ein Jahr lang, wie das geht."*
 2. Das Programmdesign offenlegen (EEF-Mechanismen-Folie): *„Schaut auf euer Jahr: Retrieval-Starter = Wissen sichern. Meilensteinfeiern & Vorher/Nachher = Motivation. Skripten & Rollenspiel = Technik. Action Steps & Coaching = Verankerung. Das war kein Zufall, das war Bauplan – und ab jetzt seid ihr selbst der Architekt."*
-3. Die vier Selbststeuerungs-Werkzeuge: (a) **Video-Selbstanalyse als Routine** (2–3× pro Halbjahr, 10-Min.-Ausschnitt, EIN Fokus, passender Bogen aus der Jahres-Sammlung); (b) **eigener Action-Step-Zyklus** (wöchentlich, schriftlich, klein – das Formular kennt ihr); (c) **Tandem-Strukturen** (Peer-Hospitation fortführen: 2 Termine/Halbjahr reichen, wenn sie stattfinden – Kalender schlägt Vorsatz); (d) **gezielte Lektüre** statt Fortbildungs-Zapping (Lesepfad: die 5 Programmbücher vertiefen; dann Willingham *Why Don't Students Like School?*, Wiliam *Embedded Formative Assessment*, Sherrington/Caviglioli *Teaching WalkThrus*, Lemov et al. *Practice Perfect*).
+3. Die vier Selbststeuerungs-Werkzeuge:
+  1. **Video-Selbstanalyse als Routine** (2–3× pro Halbjahr, 10-Min.-Ausschnitt, EIN Fokus, passender Bogen aus der Jahres-Sammlung);
+  2. **eigener Action-Step-Zyklus** (wöchentlich, schriftlich, klein – das Formular kennt ihr);
+  3. **Tandem-Strukturen** (Peer-Hospitation fortführen: 2 Termine/Halbjahr reichen, wenn sie stattfinden – Kalender schlägt Vorsatz);
+  4. **gezielte Lektüre** statt Fortbildungs-Zapping (Lesepfad: die 5 Programmbücher vertiefen; dann Willingham *Why Don't Students Like School?*, Wiliam *Embedded Formative Assessment*, Sherrington/Caviglioli *Teaching WalkThrus*, Lemov et al. *Practice Perfect*).
 
 **Name it (Min. 24–28):** Selbst-Coaching-Minimum: 1 Fokus pro Monat, 1 Action Step pro Woche, 1 Video pro Quartal, 2 Peer-Besuche pro Halbjahr, 1 Buch pro Halbjahr.
 

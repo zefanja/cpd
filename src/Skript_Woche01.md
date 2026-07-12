@@ -10,13 +10,13 @@
 | **Leitfrage** | Warum verhalten sich Klassen so, wie sie sich verhalten – und was folgt daraus für mich? |
 | **Kernquelle** | Lemov, *Teach Like a Champion 3.0*, Kapitel 1 („Five Themes: Mental Models and Purposeful Execution") |
 | **Funktion im Jahr** | Grundlagenmodul: liefert die Deutungsbrille, auf die sich ALLE 35 Folgemodule beziehen. Jede spätere Technik wird auf eines der fünf Modelle zurückgeführt. |
-| **Lernziele** | Die TN können (1) die fünf Prinzipien in eigenen Worten erklären, (2) eine reale Unterrichtssituation der letzten Woche mit mindestens zwei Prinzipien deuten, (3) daraus einen ersten Beobachtungsauftrag für die eigene Klasse ableiten. |
-| **Sitzungstyp** | Deutung & Reframing (noch kein Technik-Training – das beginnt in Woche 2). Einzige Sitzung des Jahres mit Analyse-Schwerpunkt statt Übungs-Schwerpunkt. |
+| **Lernziele** | Die TN können:<br>1. die fünf Prinzipien in eigenen Worten erklären,<br>2. eine reale Unterrichtssituation der letzten Woche mit mindestens zwei Prinzipien deuten,<br>3. daraus einen ersten Beobachtungsauftrag für die eigene Klasse ableiten. |
+| **Sitzungstyp** | Deutung & Perspektivwechsel (noch kein Technik-Training – das beginnt in Woche 2). Einzige Sitzung des Jahres mit Analyse-Schwerpunkt statt Übungs-Schwerpunkt. |
 
 **Die fünf mentalen Modelle (Kurzform für alle Materialien):**
 1. **Gedächtnis:** Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht.
 2. **Gewohnheiten:** Routinen beschleunigen Lernen und setzen Denkkapazität frei.
-3. **Aufmerksamkeit:** Was Schüler:innen beachten, ist das, was sie lernen.
+3. **Aufmerksamkeit:** Was Schüler beachten, ist das, was sie lernen.
 4. **Motivation ist sozial:** Gruppennormen wirken stärker als Regeln.
 5. **Unterrichten ist Beziehungsarbeit:** Kompetenter Unterricht erzeugt Vertrauen – nicht umgekehrt.
 
@@ -29,7 +29,7 @@
 **Material (Checkliste Moderation):**
 - [ ] Foliensatz (max. 12 Folien, Regeln aus Woche 16 gelten schon jetzt für uns selbst: 1 Idee pro Folie, Bild + Rede statt Textwüste)
 - [ ] Handout A: „Die fünf Modelle" (Einseiter, bleibt als Referenzkarte)
-- [ ] Handout B: Zwei Fallvignetten (siehe Anhang 1) – alternativ: 2 kurze Videoclips (je 60–90 Sek.), falls verfügbar; die Vignetten sind der videofreie Fallback
+- [ ] Handout B: Zwei Fallbeispiele (siehe Anhang 1) – alternativ: 2 kurze Videoclips (je 60–90 Sek.), falls verfügbar; die Fallbeispiele sind der videofreie Fallback
 - [ ] Handout C: Beobachtungsauftrag + Action-Step-Formular (Anhang 3)
 - [ ] Retrieval-Quiz als Folie oder Zettel (Anhang 2, Teil 1)
 - [ ] Timer sichtbar (Modellfunktion!)
@@ -106,30 +106,34 @@ Die Moderation startet **pünktlich auf die Sekunde** und kommentiert das späte
 7. „Ich habe die Hausaufgabe dreimal angesagt, trotzdem wussten viele nichts davon." → **3** (Ansage ≠ Aufmerksamkeit), auch 1
 8. „Zwei Schülerinnen, die einzeln freundlich sind, schaukeln sich gegenseitig hoch." → **4**
 
-## Phase 5 · Do it: Fallanalyse & Reframing (Minute 35–52)
+## Phase 5 · Do it: Fallanalyse & Perspektivwechsel (Minute 35–52)
 
-### Teil A: Fallvignetten mit der Fünf-Modelle-Brille (Min. 35–45)
-Vierergruppen. Jede Gruppe erhält **eine** der beiden Vignetten (Anhang 1) mit drei Leitfragen:
+### Teil A: Fallbeispiele mit der Fünf-Modelle-Brille (Min. 35–45)
+Vierergruppen. Jede Gruppe erhält **eines** der beiden Fallbeispiele (Anhang 1) mit drei Leitfragen:
 1. Welche Modelle erklären, was hier passiert? (mind. 2, mit Textbeleg)
 2. Was hat die Lehrkraft – bei bestem Willen – übersehen?
 3. Welcher EINE erste Ansatzpunkt hätte die größte Wirkung? (Noch keine Techniken nötig – Intuition reicht, wir sammeln sie ein.)
 
 5 Min. Gruppenarbeit → 4 Min. Kurzberichte (je Gruppe 60 Sekunden, Moderation hält Ansatzpunkte am Flipchart fest – diese Liste wird in Woche 2–8 abgearbeitet und dabei jeweils wieder gezeigt: „Das habt ihr in Woche 1 selbst vorhergesagt!").
 
-### Teil B: Eigenes Erlebnis reframen (Min. 45–52)
+### Teil B: Eigenes Erlebnis im Perspektivwechsel deuten (Min. 45–52)
 **Partnerarbeit** (Tandems, die auch Coaching-Tandems werden könnten):
 > *„Jetzt wird es persönlich – im guten Sinn. Denkt an EINE Situation aus euren ersten Unterrichtswochen, die euch geärgert, verunsichert oder verletzt hat. Erzählt sie eurem Partner in maximal 90 Sekunden. Der Partner hat dann eine einzige Aufgabe: Er deutet die Situation NEU – durch eines der fünf Modelle. Nicht trösten, nicht Ratschläge geben. Nur umdeuten: 'Durch die Brille von Modell 4 gesehen, war das vermutlich…'. Dann Wechsel."*
 
-Je 3–4 Min. pro Richtung. **Warum diese Übung:** Das emotionale Reframing („Es war nicht persönlich, es war eine Norm / ein überlastetes Arbeitsgedächtnis") ist der wichtigste Wellbeing-Schutz für Quereinsteiger:innen im ersten Jahr – und es verankert die Modelle affektiv, nicht nur kognitiv.
+Je 3–4 Min. pro Richtung. **Warum diese Übung:** Der emotionale Perspektivwechsel („Es war nicht persönlich, es war eine Norm / ein überlastetes Arbeitsgedächtnis") ist der wichtigste Wellbeing-Schutz für Quereinsteiger:innen im ersten Jahr – und es verankert die Modelle affektiv, nicht nur kognitiv.
 
-**Einsammeln (1 Min.):** 2–3 Freiwillige teilen ihr Reframing in einem Satz.
+**Einsammeln (1 Min.):** 2–3 Freiwillige teilen ihren Perspektivwechsel in einem Satz.
 
 ## Phase 6 · Action Step & Ausblick (Minute 52–58)
 
 Handout C austeilen. Der Standard-Action-Step dieser Woche ist ein **Beobachtungsauftrag** (bewusst: erst sehen lernen, ab Woche 2 handeln):
 
 > **Standard-Action-Step:**
-> *„Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten: (a) Worauf richtet sich die Aufmerksamkeit der Schüler:innen tatsächlich – und was habe ich dafür getan oder nicht getan? (b) Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße? Ich notiere direkt nach der Stunde je 2–3 Stichpunkte auf dem Bogen."*
+> *„Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten:*
+> - *Worauf richtet sich die Aufmerksamkeit der Schüler tatsächlich – und was habe ich dafür getan oder nicht getan?*
+> - *Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße?*
+>
+> *Ich notiere direkt nach der Stunde je 2–3 Stichpunkte auf dem Bogen."*
 
 **Alternativen** (für TN mit dringlichem Klassenführungsproblem, mit Coach abstimmen):
 - Norm-Beobachtung: „Ich identifiziere in Klasse X die drei stärksten ungeschriebenen Normen – erwünschte wie unerwünschte."
@@ -141,7 +145,12 @@ Jede:r trägt den gewählten Action Step **schriftlich** ins Formular ein (Selbs
 
 ## Phase 7 · Blitz-Feedback & Schluss (Minute 58–60)
 
-Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jede:r notiert auf Karte: (1) Das leuchtet mir am meisten ein: … (2) Da bin ich skeptisch: … — Abgabe beim Rausgehen. Die Skepsis-Karten sind Gold: Sie liefern die echten Fehlvorstellungen der Kohorte und fließen in Quiz-Distraktoren und Coaching ein.
+Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jede:r notiert auf Karte:
+
+1. Das leuchtet mir am meisten ein: …
+2. Da bin ich skeptisch: …
+
+Abgabe beim Rausgehen. Die Skepsis-Karten sind Gold: Sie liefern die echten Fehlvorstellungen der Kohorte und fließen in Quiz-Distraktoren und Coaching ein.
 
 ---
 
@@ -149,19 +158,22 @@ Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jed
 
 - **Kennenlern-Hospitation** (volle Stunde, kein Bewertungsanspruch): Coach sitzt hinten, protokolliert nur beschreibend.
 - **Baseline-Video:** 15–20 Min. Unterricht aufnehmen (Einverständnisse vorab klären!). Das Video wird NICHT besprochen – es wird archiviert und erst in Woche 8 (Selbstanalyse 1) und Woche 36 (Kolloquium) geöffnet. Das den TN transparent machen: nimmt Druck.
-- **Auswertungsgespräch (30 Min.):** Kein Action-Step-Feedback (es gibt noch keinen umgesetzten), stattdessen: (1) Wie geht es dir wirklich? (2) Gemeinsames Durchgehen des Beobachtungsauftrags: Was genau wirst du notieren? (3) Vereinbarung des Coaching-Rhythmus & psychologischer Sicherheitsvertrag (nichts geht an die Schulleitung, Entwicklung statt Bewertung).
+- **Auswertungsgespräch (30 Min.):** Kein Action-Step-Feedback (es gibt noch keinen umgesetzten), stattdessen:
+  1. Wie geht es dir wirklich?
+  2. Gemeinsames Durchgehen des Beobachtungsauftrags: Was genau wirst du notieren?
+  3. Vereinbarung des Coaching-Rhythmus & psychologischer Sicherheitsvertrag (nichts geht an die Schulleitung, Entwicklung statt Bewertung).
 - **Warnsignal-Radar:** Woche 1 ist der Moment, TN mit akuten Klassenführungs-Notlagen zu identifizieren → für diese ggf. Action-Step-Alternativen und Vorziehen einzelner Werkzeuge aus Woche 4/6 im 1:1.
 
 ---
 
-# Anhang 1: Fallvignetten (Handout B)
+# Anhang 1: Fallbeispiele (Handout B)
 
-## Vignette 1: „Die Doppelstunde Chemie" (Fokus: Modelle 1, 2, 3)
+## Fallbeispiel 1: „Die Doppelstunde Chemie" (Fokus: Modelle 1, 2, 3)
 Herr T., Quereinsteiger aus der Industrie, plant seine erste eigene Doppelstunde in Klasse 9 mit viel Ehrgeiz: Ein spektakuläres Einstiegs-Experiment, dann eine Präsentation mit 14 Folien zur Elektronegativität, dabei sollen die SuS die wichtigsten Punkte mitschreiben; anschließend Gruppenarbeit mit einem neuen Arbeitsblattformat, das er extra entworfen hat. Das Experiment begeistert alle. Danach wird es unruhig: Beim Vortrag schreiben manche hektisch mit, andere gar nicht; zweimal muss er erklären, wie das neue Arbeitsblatt gemeint ist; die Gruppen brauchen lange, um überhaupt zu starten. Der Exit-Check am Ende ist ernüchternd: Fast alle können das Experiment beschreiben – die Regel zur Elektronegativität kann kaum jemand nennen. Herr T. ist frustriert: „Dabei war die Stunde so aufwendig vorbereitet!"
 
 *Auflösungshinweise (nur Moderation):* Modell 3: Aufmerksamkeit klebt am Experiment (seductive details), gelernt wurde das Beachtete. Modell 1: Zuhören + Mitschreiben + neues Blattformat = Arbeitsgedächtnis-Überlastung; 14 Folien = zu viele neue Elemente. Modell 2: keine Routinen für Gruppenstart und Materialfluss → Reibungsverluste. Wirkstärkster Ansatzpunkt (erwartbar): weniger Neues pro Zeiteinheit + feste Abläufe; Aufwand ≠ Wirkung.
 
-## Vignette 2: „Die 8c bei Frau K." (Fokus: Modelle 4, 5, 2)
+## Fallbeispiel 2: „Die 8c bei Frau K." (Fokus: Modelle 4, 5, 2)
 Frau K. hat die 8c in Geschichte übernommen. Sie hat sich vorgenommen, „erst mal die Beziehungsebene aufzubauen": lockerer Einstieg, viel Humor, bei kleineren Störungen großzügig weghören, Regeln wollte sie „gemeinsam mit der Klasse entwickeln, wenn man sich kennt". Die Begrüßungsroutine der Schule führt sie eher beiläufig durch – „bevor die Stimmung kippt". Nach drei Wochen ruft die Hälfte rein, das Aufstehen zur Begrüßung ist ein zäher, kichernder Prozess, und ausgerechnet die stille Mia, mit der Frau K. sich anfangs gut verstand, macht neuerdings mit, wenn zwei Jungen Zwischenrufe starten. Im Einzelgespräch ist Mia einsichtig und fast verlegen. Frau K. ist verletzt: „Ich war doch immer fair und freundlich zu denen."
 
 *Auflösungshinweise:* Modell 4: „Reinrufen ist normal" ist zur Norm geworden; Mia folgt der Gruppe, nicht ihrer Beziehung zu Frau K. – nicht persönlich! Modell 5: Beziehung-zuerst-Mythos; Vertrauen wäre durch verlässlichen, geordneten Unterricht entstanden. Modell 2: die beiläufige Begrüßungsroutine sendet „halbherzig reicht"; das Zeitfenster hoher Erwartungen (Woche 2) wurde verpasst – aber (wichtig für die Moral!): Ein Neustart ist jederzeit möglich, genau das lernen wir in Block 1.
@@ -208,7 +220,7 @@ b) Gewohnheiten ✗
 c) Aufmerksamkeit ✓
 d) Motivation ist sozial ✗
 
-**F6 (Transfer, Freitext/Fallformat):** Ordne der Vignette „8c bei Frau K." zwei Modelle zu und belege jedes mit einer Textstelle. *(Musterlösung: M4 – Mia folgt der Norm; M5 – Beziehung-zuerst scheitert; M2 akzeptabel mit Beleg Begrüßungsroutine.)*
+**F6 (Transfer, Freitext/Fallformat):** Ordne dem Fallbeispiel „8c bei Frau K." zwei Modelle zu und belege jedes mit einer Textstelle. *(Musterlösung: M4 – Mia folgt der Norm; M5 – Beziehung-zuerst scheitert; M2 akzeptabel mit Beleg Begrüßungsroutine.)*
 
 ---
 
@@ -237,9 +249,9 @@ d) Motivation ist sozial ✗
 1. **Hook (2 Min.):** Die drei Rätsel als Auswahlkarten („Welches kennst du?") – personalisiert den Einstieg.
 2. **See it (8 Min.):** Die fünf Modelle als je 90-Sekunden-Sequenz: Alltagsbeispiel (Animation/Audio, z. B. Telefonnummer-Selbstversuch interaktiv!) → Merksatz → „Was folgt daraus"-Karte.
 3. **Name it (4 Min.):** Blitz-Zuordnung als Swipe-Spiel (die 8 Situationen aus Phase 4; Mehrfachlösungen mit Erklär-Feedback).
-4. **Do it (6 Min.):** Eine Vignette als interaktiver Fall (Textstellen markieren → Modell zuordnen → Musterauflösung schrittweise).
-5. **Reframing (3 Min.):** Freitextfeld „Deine Situation" + geführte Umdeutung (Modell wählen → Satzanfang wird vorgegeben: „Durch diese Brille war das vermutlich…"). Optional KI-gestützt.
+4. **Do it (6 Min.):** Ein Fallbeispiel als interaktiver Fall (Textstellen markieren → Modell zuordnen → Musterauflösung schrittweise).
+5. **Perspektivwechsel (3 Min.):** Freitextfeld „Deine Situation" + geführte Umdeutung (Modell wählen → Satzanfang wird vorgegeben: „Durch diese Brille war das vermutlich…"). Optional KI-gestützt.
 6. **Quiz (Teil 2 oben)** mit den Fehlvorstellungs-Distraktoren; 30 %-Regel entfällt nur in Modul 1 (kein Vorwissen).
 7. **Abschluss = Action-Step-Formular** (digital, mit Freitag-Erinnerung) – nie eine Zusammenfassung als letzter Screen.
 
-**Assets, die aus dieser Sitzung wiederverwendbar sind:** beide Vignetten, 8 Blitz-Situationen, 11 Quizfragen, Beobachtungsbogen als ausfüllbares Formular.
+**Assets, die aus dieser Sitzung wiederverwendbar sind:** beide Fallbeispiele, 8 Blitz-Situationen, 11 Quizfragen, Beobachtungsbogen als ausfüllbares Formular.

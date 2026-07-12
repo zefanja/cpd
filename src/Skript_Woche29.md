@@ -10,7 +10,7 @@
 | **Leitfrage** | Warum strengen sich Menschen für Räume an, in denen sie gesehen werden – und wer ist in meiner Klasse unsichtbar? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost belonging"); Verzahnung: Modell 5 (W1), Heatmap (W22), Cold Call als Voice Equity, W.I.N. (W8) |
 | **Funktion im Jahr** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (W22) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
-| **Lernziele** | Die TN können (1) Belonging in der EVK-Mechanik verorten (Wert-Faktor UND Kosten-Senker), (2) die eigene Klasse per Unsichtbarkeits-Inventur auf dem Sitzplan analysieren (grün/gelb/rot), (3) Mikromomente planen und in vorhandene Zeitfenster legen (Minute vor dem Ritual, erster Rundgang, Türmoment am Ende), (4) Vertrauen als „Zusagen halten" operationalisieren. |
+| **Lernziele** | Die TN können:<br>1. Belonging in der EVK-Mechanik verorten (Wert-Faktor UND Kosten-Senker),<br>2. die eigene Klasse per Unsichtbarkeits-Inventur auf dem Sitzplan analysieren (grün/gelb/rot),<br>3. Mikromomente planen und in vorhandene Zeitfenster legen (Minute vor dem Ritual, erster Rundgang, Türmoment am Ende),<br>4. Vertrauen als „Zusagen halten" operationalisieren. |
 | **Sitzungstyp** | Inventur-Werkstatt am eigenen Sitzplan – die stillste und persönlichste Sitzung des Blocks. |
 
 ---
@@ -61,16 +61,19 @@
 ## Phase 5 · Do it (Minute 31–52)
 
 ### Runde 1 · Unsichtbarkeits-Inventur (Min. 31–43, Einzelarbeit, diskret)
-Auf dem mitgebrachten Sitzplan jede:n Schüler:in mit der Ampel markieren (Anhang 1.2): **Grün** – ich weiß Persönliches, wir hatten diese Woche echten Kontakt. **Gelb** – ich kenne Namen und Leistungsstand, mehr nicht. **Rot** – ehrlich: Über diesen Menschen weiß ich fast nichts, letzter persönlicher Kontakt nicht erinnerbar. Danach 2 Prüffragen still beantworten: Wo sitzen die Roten (Muster: hinten? Fensterreihe? – Abgleich mit der W22-Heatmap!)? Und: Welche Gruppe bekommt meine Mikromomente bisher – die, die sie braucht, oder die, die sie einfordert? *(Moderation kündigt an: Der Plan bleibt beim TN – niemand muss Zahlen nennen; aber:)* Blitzlicht freiwillig: *„Wer mag, ein Satz: Was hat euch überrascht?"* [Fast immer: „Wie viele Rote es sind."]
+Auf dem mitgebrachten Sitzplan jeden Schüler mit der Ampel markieren (Anhang 1.2): **Grün** – ich weiß Persönliches, wir hatten diese Woche echten Kontakt. **Gelb** – ich kenne Namen und Leistungsstand, mehr nicht. **Rot** – ehrlich: Über diesen Menschen weiß ich fast nichts, letzter persönlicher Kontakt nicht erinnerbar. Danach 2 Prüffragen still beantworten: Wo sitzen die Roten (Muster: hinten? Fensterreihe? – Abgleich mit der W22-Heatmap!)? Und: Welche Gruppe bekommt meine Mikromomente bisher – die, die sie braucht, oder die, die sie einfordert? *(Moderation kündigt an: Der Plan bleibt beim TN – niemand muss Zahlen nennen; aber:)* Blitzlicht freiwillig: *„Wer mag, ein Satz: Was hat euch überrascht?"* [Fast immer: „Wie viele Rote es sind."]
 
 ### Runde 2 · Mikromoment-Plan (Min. 43–52)
-Vorlage (Anhang 1.3): Die **drei rötesten** Schüler:innen auswählen; pro Person: ein Anknüpfungspunkt (was weiß ich doch? was könnte ich diese Woche ERFAHREN?), das Zeitfenster (welches der drei), der erste Satz (wörtlich – Echtheits-Check im Tandem: *„Würdest du diesen Satz wirklich sagen – oder klingt er nach Beziehungs-Formular?"*). Plus: Zusagen-System festlegen (wo notiere ich ab jetzt jede Kleinzusage?).
+Vorlage (Anhang 1.3): Die **drei rötesten** Schüler auswählen; pro Person: ein Anknüpfungspunkt (was weiß ich doch? was könnte ich diese Woche ERFAHREN?), das Zeitfenster (welches der drei), der erste Satz (wörtlich – Echtheits-Check im Tandem: *„Würdest du diesen Satz wirklich sagen – oder klingt er nach Beziehungs-Formular?"*). Plus: Zusagen-System festlegen (wo notiere ich ab jetzt jede Kleinzusage?).
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich habe meine drei unsichtbarsten Schüler:innen identifiziert. Jede:r bekommt ab Montag EINEN echten Mikro-Kontakt pro Tag – drei Sekunden reichen, Fenster steht im Plan. Zusätzlich notiere ich jede Zusage und halte sie. Freitag: Was ist beobachtbar anders – bei ihnen oder bei mir?"*
+**Standard:** *„Ich habe meine drei unsichtbarsten Schüler identifiziert. Jede:r bekommt ab Montag EINEN echten Mikro-Kontakt pro Tag – drei Sekunden reichen, Fenster steht im Plan. Zusätzlich notiere ich jede Zusage und halte sie. Freitag: Was ist beobachtbar anders – bei ihnen oder bei mir?"*
 
-**Alternativen:** (a) Voice-Equity-Woche: die roten Zonen der Heatmap bekommen täglich zwei warme Cold Calls (niedrigschwellig starten!); (b) Sek-II-Variante: Beiträge-Gedächtnis trainieren – pro Kursstunde einen Rückbezug auf eine frühere Schüleräußerung („Sie hatten eingewandt…").
+**Alternativen:**
+
+1. Voice-Equity-Woche: die roten Zonen der Heatmap bekommen täglich zwei warme Cold Calls (niedrigschwellig starten!).
+2. Sek-II-Variante: Beiträge-Gedächtnis trainieren – pro Kursstunde einen Rückbezug auf eine frühere Schüleräußerung („Sie hatten eingewandt…").
 
 > **Ausblick:** *„Nächste Woche der letzte Treiber – Buy-in – und dann wird es ernst: die harten Fälle. Was tun, wenn die Leiter nicht reicht: ein Schüler muss den Platz wechseln, eine Situation eskaliert, ihr braucht Hilfe von außen. Es wird die rollenspiel-intensivste Sitzung seit Block 1. Und merkt euch für nächste Woche einen Satz: Hilfe holen ist Handwerk, kein Versagen."*
 
@@ -97,7 +100,7 @@ Vorlage (Anhang 1.3): Die **drei rötesten** Schüler:innen auswählen; pro Pers
 **Grün:** Persönliches bekannt + echter Kontakt diese Woche. **Gelb:** Name + Leistungsstand, sonst nichts. **Rot:** letzter persönlicher Kontakt nicht erinnerbar. — Prüffragen: Sitzmuster der Roten? Deckung mit Heatmap-Kaltzonen? Wer bekommt meine Mikromomente bisher – Bedarf oder Lautstärke? — Diskretionshinweis: Dieses Blatt gehört dir. Es ist ein Spiegel, keine Akte.
 
 ## 1.3 Mikromoment-Plan (Vorlage, 3 Zeilen)
-Schüler:in (Initialen) | Was ich weiß / diese Woche erfahren will | Zeitfenster | Mein erster Satz (wörtlich, Echtheits-Check ☐) — Fußfeld: **Mein Zusagen-System:** Ich notiere Zusagen ab jetzt in/auf: … (Klemmbrett/Kalender/Heftrand)
+Schüler (Initialen) | Was ich weiß / diese Woche erfahren will | Zeitfenster | Mein erster Satz (wörtlich, Echtheits-Check ☐) — Fußfeld: **Mein Zusagen-System:** Ich notiere Zusagen ab jetzt in/auf: … (Klemmbrett/Kalender/Heftrand)
 
 ---
 

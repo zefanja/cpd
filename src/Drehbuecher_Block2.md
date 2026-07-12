@@ -61,9 +61,14 @@
 
 **Input (Min. 8–24):**
 1. *See it:* Moderation modelliert 2 Min. einen einfachen Inhalt (z. B. Dreisatz oder Kommasetzung) MIT lautem Denken: *„Ich lese zuerst die Frage GANZ… hier stutze ich, denn… viele würden jetzt X tun – das ist die Falle, weil…"* Danach dieselben 2 Min. als reine Ergebnis-Präsentation. Plenum: Unterschied?
-2. Prinzipien: **Atomisieren** (ein neues Element nach dem anderen; Rosenshine P2); **Think Aloud**: das Expertendenken hörbar machen – Entscheidungen, Zweifel, Fallen (die Falle absichtlich vorführen und auflösen ist Gold); **Worked Examples** + Beispiel/Nicht-Beispiel-Paare schärfen Konzeptgrenzen; **Fluch des Wissens**: *„Gerade ihr mit Berufspraxis: Eure Expertise ist euer größtes Erklär-Handicap. Was euch trivial vorkommt, ist für Novizen ein Zehnschritte-Problem. Regel: halbiere die gefühlte Schrittgröße."*; **Aufmerksamkeitsdisziplin**: beim Modellieren Stifte weg – Mitschrift danach (split attention, sauber begründet in W16).
+2. Prinzipien: **Atomisieren** (ein neues Element nach dem anderen; Rosenshine P2); **Think Aloud**: das Expertendenken hörbar machen – Entscheidungen, Zweifel, Fallen (die Falle absichtlich vorführen und auflösen ist Gold); **Worked Examples** + Beispiel/Nicht-Beispiel-Paare schärfen Konzeptgrenzen; **Fluch des Wissens**: *„Gerade ihr mit Berufspraxis: Eure Expertise ist euer größtes Erklär-Handicap. Was euch trivial vorkommt, ist für Schüler ohne Vorkenntnisse ein Zehnschritte-Problem. Regel: halbiere die gefühlte Schrittgröße."*; **Aufmerksamkeitsdisziplin**: beim Modellieren Stifte weg – Mitschrift danach (split attention, sauber begründet in W16).
 
-**Name it (Min. 24–29):** Modellierungs-Vierklang: (1) Vormachen in Echtgeschwindigkeit ODER Schritt für Schritt – bewusst wählen, (2) Denken laut, (3) eine typische Falle zeigen + auflösen, (4) Kernschritte fixieren (Tafel bleibt stehen).
+**Name it (Min. 24–29):** Modellierungs-Vierklang:
+
+1. Vormachen in Echtgeschwindigkeit ODER Schritt für Schritt – bewusst wählen,
+2. Denken laut,
+3. eine typische Falle zeigen + auflösen,
+4. Kernschritte fixieren (Tafel bleibt stehen).
 
 **Do it (Min. 29–52):** **Mikroteaching-Runden** in Vierergruppen: je 3 Min. Modellierung + 2 Min. Feedback nach Bogen + (wichtig!) 60-Sek.-Wiederholung der schwächsten Stelle. Moderation rotiert und sammelt Beispiele für die Schlussrunde.
 
@@ -71,7 +76,7 @@
 
 **Coaching-Fokus:** Erklärphase hospitieren; Transkript-Ausschnitt mitbringen ins Gespräch.
 
-**SPA-Quiz:** F1: „Der Fluch des Wissens bedeutet…" a) Wissen macht arrogant ✗ b) Experten unterschätzen systematisch, was Novizen fehlt ✓ c) zu viel Wissen verwirrt SuS ✗ d) Wissen veraltet ✗. — F2: „Während du modellierst, sollen SuS…" a) alles mitschreiben, sonst geht's verloren ✗ (Intuition + Elternerwartung!) b) nur zuschauen/zuhören; Fixierung danach ✓ c) parallel Aufgaben lösen ✗ d) das Buch mitlesen ✗.
+**SPA-Quiz:** F1: „Der Fluch des Wissens bedeutet…" a) Wissen macht arrogant ✗ b) Experten unterschätzen systematisch, was Schülern ohne Vorkenntnisse fehlt ✓ c) zu viel Wissen verwirrt SuS ✗ d) Wissen veraltet ✗. — F2: „Während du modellierst, sollen SuS…" a) alles mitschreiben, sonst geht's verloren ✗ (Intuition + Elternerwartung!) b) nur zuschauen/zuhören; Fixierung danach ✓ c) parallel Aufgaben lösen ✗ d) das Buch mitlesen ✗.
 
 ---
 
@@ -79,7 +84,7 @@
 
 **Material:** Fading-Treppen-Vorlage (4 Stufen: Vollbeispiel → Lückenbeispiel → nur Ansatz → blank); Klassensatz Mini-Whiteboards (Demo!); Fehlerkarten (typische Schülerfehler zum Ziehen).
 
-**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Reframing-Formel (W7)? 4. 80 %-Regel? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
+**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Umformulierungs-Formel (W7)? 4. 80 %-Regel? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
 
 **Input (Min. 8–24):**
 1. *See it – Live-Demo mit der Gruppe als Klasse:* Moderation führt ein echtes We do durch (z. B. Argumentationsaufbau oder Prozentaufgabe): Aufgabe gemeinsam lösen, Schritte per Fragen aus der Gruppe holen, ALLE schreiben mit, zwischendurch Whiteboard-Abfrage. Danach offenlegen, was gesteuert war.

@@ -28,7 +28,11 @@
 - [ ] Zeitwächter-Schild + Glöckchen (mit Humor eingeführt, gnadenlos genutzt)
 - [ ] Taschentücher (sichtbar platziert – running gag seit W35, und er wird gebraucht)
 
-**Briefing Schulleitung (vorab, 3 Kernbotschaften):** (1) Würdigen, was SICHTBAR wird (die Videos sprechen lassen – keine Generalrede über Bildungspolitik). (2) Der Satz „Diese Investition hat sich gelohnt – und sie geht weiter" (Kohorte 2 ankündigen, falls beschlossen). (3) Zertifikate persönlich übergeben, den Precise-Praise-Satz LAUT vorlesen.
+**Briefing Schulleitung (vorab, 3 Kernbotschaften):**
+
+1. Würdigen, was SICHTBAR wird (die Videos sprechen lassen – keine Generalrede über Bildungspolitik).
+2. Der Satz „Diese Investition hat sich gelohnt – und sie geht weiter" (Kohorte 2 ankündigen, falls beschlossen).
+3. Zertifikate persönlich übergeben, den Precise-Praise-Satz LAUT vorlesen.
 
 ---
 
@@ -48,7 +52,14 @@ Nach Briefing. Danach Übergabe an die Moderation.
 
 ## Phase 3 · Die Präsentationen (Minute 18–98; 8 × 10 Min.)
 
-**Format pro TN (aus dem W35-Leitfaden):** (1) Baseline-Ausschnitt W1 (1–2 Min.) · (2) Kontrast-Ausschnitt Video 3 (1–2 Min., möglichst gleiche Situations-Kategorie) · (3) „Meine drei Techniken" (je 1 Satz Wirkung) · (4) „Meine Baustelle + mein Jahr-2-Plan" · dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualität und schneidet Kitsch freundlich ab: *„Konkret – was genau war stark?"*).
+**Format pro TN (aus dem W35-Leitfaden):**
+
+1. Baseline-Ausschnitt W1 (1–2 Min.)
+2. Kontrast-Ausschnitt Video 3 (1–2 Min., möglichst gleiche Situations-Kategorie)
+3. „Meine drei Techniken" (je 1 Satz Wirkung)
+4. „Meine Baustelle + mein Jahr-2-Plan"
+
+Dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualität und schneidet Kitsch freundlich ab: *„Konkret – was genau war stark?"*).
 
 **Moderations-Regie:** Nach jedem TN ein Übergangs-Satz, der ein MUSTER würdigt statt zu wiederholen (*„Schon der dritte Stundenstart, bei dem im September gerufen und im Juni gewartet wird – merkt euch dieses Muster."*). **Pausenregel:** Nach TN 4 fünf Minuten Pause (in der 95-Min.-Variante: nach TN 3, drei Minuten). **Emotions-Regie:** Die W1-Videos lösen regelmäßig Lachen UND Rührung aus – beides zulassen, nichts zerreden; das Taschentuch-Schild zeigt, wenn es passt.
 
@@ -82,7 +93,11 @@ Bögen (Anhang 2): **Behalten / Ändern / Streichen** – still, ehrlich, anonym
 # 4. Coaching-Woche 36 (Handreichung)
 
 - **Vor dem Kolloquium:** W36-Matrix-Erhebung im letzten 1:1 (ruhig, ohne Kommentar – das Netz spricht im Kolloquium); Precise-Praise-Satz je TN mit der Moderation finalisieren; Technik-Zulieferung (Ausschnitte einsammeln).
-- **Nach dem Kolloquium – das Abschlussgespräch (30 Min., in den Tagen danach):** (1) Kolloquiums-Nachlese: Wie war es, sich selbst zu sehen? (2) Jahr-2-Vertrag final: Termine real im Kalender? Erster Monatsfokus startklar für August? (3) Offizielle Übergabe: „Ab jetzt bist du dein Coach – und du weißt, wo du mich findest." (4) Peer-Mentor-Interessierte an die Moderation melden.
+- **Nach dem Kolloquium – das Abschlussgespräch (30 Min., in den Tagen danach):**
+  1. Kolloquiums-Nachlese: Wie war es, sich selbst zu sehen?
+  2. Jahr-2-Vertrag final: Termine real im Kalender? Erster Monatsfokus startklar für August?
+  3. Offizielle Übergabe: „Ab jetzt bist du dein Coach – und du weißt, wo du mich findest."
+  4. Peer-Mentor-Interessierte an die Moderation melden.
 - **Programm-Nachlese (Coaches + Moderation, eigener Termin):** Feedback-Bögen auswerten (Behalten/Ändern/Streichen clustern); Kohorte-2-Anpassungen beschließen und dokumentieren; die W35-Botschaften + Kolloquiums-Räte für die neue Auftaktwoche aufbereiten.
 - **Red Flag (auch im Finale ernst):** TN, deren Netz/Video kaum Entwicklung zeigt oder die das Kolloquium als beschämend erlebt haben → das Abschlussgespräch wird zum Perspektivgespräch: ehrlich, warm, mit konkretem Jahr-2-Support (ggf. verlängertes Coaching-Angebot); niemand verlässt das Programm mit einem Scheitern-Gefühl als letztem Eindruck.
 

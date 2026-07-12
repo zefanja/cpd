@@ -10,7 +10,7 @@
 | **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: 80 %-Regel (W9), Fading (W12) |
 | **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgewochen (W28–31) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
-| **Lernziele** | Die TN können (1) Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln, (2) Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor), (3) Erfolge auf das Vorgehen attribuieren statt auf Talent, (4) Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
+| **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
 | **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
 
 ---
@@ -65,13 +65,16 @@ Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleic
 Einzelarbeit auf dem Analysebogen (Anhang 1.2): Jede:r wählt den eigenen „Evie-Fall" (diskret, kein Name auf dem Bogen nötig) und analysiert: E aus SEINER Sicht (Belege: Misserfolgsgeschichte? Vermeidungsverhalten?), W aus seiner Sicht, K aus seiner Sicht (Blamage-Risiko!). Dann: Welcher Faktor ist der Engpass – und welche EINE Maßnahme aus dem Besteck adressiert ihn? Tandem-Beratung (4 Min.): Partner prüft mit zwei Fragen: **„Ist deine Diagnose aus SEINER Sicht geschrieben – oder aus deiner?"** und **„Adressiert deine Maßnahme wirklich den Engpass – oder den bequemsten Faktor?"** *(Der klassische Fehler: E-Problem diagnostiziert, W-Maßnahme geplant – „ich mache das Thema spannender".)*
 
 ### Runde 2 · Attributions-Sprint (Min. 45–52)
-Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut in Vorgehens-Attributionen umformuliert – Tempo-Format wie der Reframing-Sprint aus W7 (60 Sekunden, wechseln, Rekordjagd). Qualitätsbremse: *„Die Attribution muss ein WIEDERHOLBARES Vorgehen benennen – ‚gut aufgepasst' ist keins, ‚erst die Einheiten notiert' schon."*
+Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut in Vorgehens-Attributionen umformuliert – Tempo-Format wie der Umformulierungs-Sprint aus W7 (60 Sekunden, wechseln, Rekordjagd). Qualitätsbremse: *„Die Attribution muss ein WIEDERHOLBARES Vorgehen benennen – ‚gut aufgepasst' ist keins, ‚erst die Einheiten notiert' schon."*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
 **Standard:** *„Ich konstruiere für meinen Evie-Fall diese Woche ZWEI garantierte Erfolgserlebnisse (Vorentlastung, Fading-Einstieg oder passgenaue Erstaufgabe) – und attribuiere jeden sichtbaren Erfolg in der Klasse auf das Vorgehen. Freitags notiere ich, was sich bei meinem Fall beobachtbar verändert hat – und sei es nur der Kopf, der nicht mehr auf dem Tisch liegt."*
 
-**Alternativen:** (a) Attributions-Woche pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult; (b) EVK-Diagnose-Woche: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
+**Alternativen:**
+
+1. Attributions-Woche pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult.
+2. EVK-Diagnose-Woche: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
 
 > **Ausblick:** *„Nächste Woche die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
 
@@ -111,7 +114,7 @@ Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–26)
-1. Der Entscheidungs-Dreisatz (W26)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Reframing-Formel (Block 1)? 8. (Anwendung) Erste Woche nach Osterferien: dein Re-Establish-Plan in zwei Sätzen?
+1. Der Entscheidungs-Dreisatz (W26)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Umformulierungs-Formel (Block 1)? 8. (Anwendung) Erste Woche nach Osterferien: dein Re-Establish-Plan in zwei Sätzen?
 
 ## Teil 2: Modul-Quiz Woche 27 (für SPA/Folgewoche)
 **F1.** „Evie ist einfach unmotiviert." Diese Aussage ist…
@@ -154,5 +157,5 @@ d) nur in der Grundschule wirksam ✗
 2. **See it (4 Min.):** Die EVK-Formel als interaktiver Rechner: drei Slider (E/W/K) → Anstrengungs-Anzeige; der Null-Multiplikator als Aha (W-Slider auf Maximum bei E=0 bewegt nichts!).
 3. **Name it (3 Min.):** Besteck-Karten; Diagnose-Reihenfolge-Karte (E → K → W).
 4. **Do it – EVK-Fallanalysator (9 Min., Engine!):** geführter Analysebogen (Anhang 1.2 digital) mit den zwei Tandem-Prüffragen als Pflicht-Prompts („aus SEINER Sicht?" / „Engpass oder bequemster Faktor?"); Maßnahmen-Auswahl wird gegen die Engpass-Diagnose validiert (E-Problem + W-Maßnahme → Warnhinweis mit Erklärung); Fall wird gespeichert und in Modul 29 (Beziehung) wieder aufgerufen.
-5. **Attributions-Sprint als Timer-Spiel:** die 8 Karten im 60-Sekunden-Modus (Reframing-Engine aus Modul 7 wiederverwendet!); Heuristik prüft auf wiederholbares Vorgehen (Verben-Liste).
+5. **Attributions-Sprint als Timer-Spiel:** die 8 Karten im 60-Sekunden-Modus (Umformulierungs-Engine aus Modul 7 wiederverwendet!); Heuristik prüft auf wiederholbares Vorgehen (Verben-Liste).
 6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 konstruierte Erfolge" mit Beobachtungs-Journal für den eigenen Fall.

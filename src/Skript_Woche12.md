@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen? |
 | **Kernquellen** | Lovell/Dowley, Routine 8 (Guided Practice); Lemov T37 (Break It Down), T21 (Take the Steps); Rosenshine P5 (angeleitetes Üben), P8 (Gerüste); Guidance-Fading-Forschung |
 | **Funktion im Jahr** | Schließt die in W9 diagnostizierte „Sprung-Lücke". Die Fading-Treppe wird Standardwerkzeug (kehrt in W33 als Differenzierungs-Gerüst wieder); Break It Down ist die Fehler-Reaktions-Grammatik für No Opt Out (W23); die Stichproben-Kritik öffnet die Tür zu All-Response-Systemen (W25). Erste echte Begegnung mit Mini-Whiteboards – als erlebtes Werkzeug, noch nicht als Technik-Modul. |
-| **Lernziele** | Die TN können (1) eine We-do-Phase mit Mitschrift aller, Frage-Steuerung und All-Response-Checks führen, (2) eine Fading-Treppe in vier Stufen für ein eigenes Thema bauen, (3) auf Fehler mit der kleinsten hilfreichen Zerlegung reagieren (Break It Down statt Lösung verraten), (4) begründen, warum verfrühtes You do die teuersten Fehler produziert. |
+| **Lernziele** | Die TN können:<br>1. eine We-do-Phase mit Mitschrift aller, Frage-Steuerung und All-Response-Checks führen,<br>2. eine Fading-Treppe in vier Stufen für ein eigenes Thema bauen,<br>3. auf Fehler mit der kleinsten hilfreichen Zerlegung reagieren (Break It Down statt Lösung verraten),<br>4. begründen, warum verfrühtes You do die teuersten Fehler produziert. |
 | **Sitzungstyp** | Live-Demo mit der Gruppe als Klasse + Bau-Werkstatt + Rollenspiel. |
 
 ---
@@ -68,7 +68,10 @@ Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den F
 
 **Standard:** *„Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele (We do) – und ich prüfe mit Boards oder Abfrage an ALLE, dass wir bei ≥ 80 % sind, bevor jemand allein arbeitet."*
 
-**Alternativen:** (a) Treppen-Woche: die gebaute Fading-Treppe in der realen Einheit vollständig durchlaufen und pro Stufe die Quote notieren; (b) Verrats-Fasten: eine Woche lang bei keiner falschen Antwort die Lösung sagen – immer erst Hinweis/Beispiel/Regel (Strichliste: Wie oft hat eine kleine Stufe gereicht?).
+**Alternativen:**
+
+1. Treppen-Woche: die gebaute Fading-Treppe in der realen Einheit vollständig durchlaufen und pro Stufe die Quote notieren.
+2. Verrats-Fasten: eine Woche lang bei keiner falschen Antwort die Lösung sagen – immer erst Hinweis/Beispiel/Regel (Strichliste: Wie oft hat eine kleine Stufe gereicht?).
 
 *(Whiteboard-Logistik-Hinweis an TN: Wer noch keinen Klassensatz hat – laminierte Klarsichthüllen mit weißem Blatt + Folienstift kosten fast nichts. Beschaffungsweg über die Schule klärt der Coach.)*
 
@@ -110,7 +113,7 @@ Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den F
 ## Teil 1: Retrieval-Starter (Min. 2–8, auf Whiteboards!)
 1. Der Modellierungs-Vierklang? *(Vormachen / Denken laut / Falle zeigen+auflösen / Kernschritte fixieren)*
 2. Fluch des Wissens + Gegenmittel? *(Zwischenschritte für Experten unsichtbar; Halbier-Regel)*
-3. Die Reframing-Formel (Block 1)? *(„Ich sehe … – ich will …")*
+3. Die Umformulierungs-Formel (Block 1)? *(„Ich sehe … – ich will …")*
 4. Die 80 %-Regel – beide Enden? *(<80 % zurück modellieren; dauerhaft 100 % Anspruch rauf)*
 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach. *(individuell; Kriterium: Nicht-Beispiel liegt nah an der Konzeptgrenze)*
 

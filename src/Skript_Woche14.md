@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen? |
 | **Kernquellen** | Lemov T20 (Do Now), T26 (Exit Ticket); McCrea (Vorgriff Spacing); Bambrick-Santoyo (Datenlogik, vereinfacht) |
 | **Funktion im Jahr** | Block-2-Finale: verschraubt Anfang (Do Now, aus W3 organisatorisch bekannt, jetzt didaktisch aufgeladen) und Ende (Exit Ticket) mit den Meilensteinen aus W10. Die 10-Minuten-Sortier-Auswertung ist die Basistechnik für Reteaching (W26) und Whole-Class-Feedback (W34). Das Stundenarchitektur-Template wird finalisiert – es ist der Vorläufer des Lean-Planers (W32). Block-2-Quiz als Meilenstein-Messung. |
-| **Lernziele** | Die TN können (1) Do Nows nach dem 3-2-1-Vorläufer mit Wiederholungssubstanz füllen, (2) Exit Tickets exakt an Meilensteinen ausrichten (Gütecheck), (3) einen Klassensatz in ≤ 10 Minuten per Drei-Stapel-Sortierung auswerten und EINE Konsequenz ableiten. |
+| **Lernziele** | Die TN können:<br>1. Do Nows nach dem 3-2-1-Vorläufer mit Wiederholungssubstanz füllen,<br>2. Exit Tickets exakt an Meilensteinen ausrichten (Gütecheck),<br>3. einen Klassensatz in ≤ 10 Minuten per Drei-Stapel-Sortierung auswerten und EINE Konsequenz ableiten. |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Doppel-Werkstatt (Schreiben + Sortieren) + Konsolidierungs-Ritual. |
 
 ---
@@ -70,12 +70,18 @@ Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zone
 
 **Standard:** *„Ich schließe diese Woche JEDE Stunde in Klasse X mit einem Exit Ticket, sortiere am selben Tag in 10 Minuten – und setze mindestens einmal eine sichtbare Konsequenz in der Folgestunde um (und sage der Klasse, DASS sie aus ihren Tickets kommt: ‚Eure Tickets von gestern zeigen…')."*
 
-**Alternativen:** (a) Do-Now-Umbau: alle Starter dieser Woche auf 3-2-1-Wiederholung umstellen; (b) für Korrektur-Geplagte: nur die Sortier-Disziplin – 3 Klassensätze beliebiger Art stoppuhr-ehrlich in ≤ 10 Min. sortieren statt korrigieren.
+**Alternativen:**
+
+1. Do-Now-Umbau: alle Starter dieser Woche auf 3-2-1-Wiederholung umstellen.
+2. Für Korrektur-Geplagte: nur die Sortier-Disziplin – 3 Klassensätze beliebiger Art stoppuhr-ehrlich in ≤ 10 Min. sortieren statt korrigieren.
 
 > **Ausblick:** *„Nach der Hospitation und den Ferien beginnt Block 3 – und der beantwortet die Warum-Fragen, die sich gestapelt haben: Warum Wiederholung? Warum kleine Schritte? Warum vergessen sie alles? Ihr bekommt die Landkarte des Gedächtnisses. Danach seid ihr nicht mehr Rezept-Anwender, sondern Leute, die wissen, warum das Rezept funktioniert."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss): (1) Mein wertvollstes Block-2-Werkzeug: … (2) Wo ich noch unsicher bin: … *(→ Meilenstein-Gespräch-Futter)*.
+Erweitert (Blockabschluss):
+
+1. Mein wertvollstes Block-2-Werkzeug: …
+2. Wo ich noch unsicher bin: … *(→ Meilenstein-Gespräch-Futter)*.
 
 ---
 
@@ -91,7 +97,13 @@ Erweitert (Blockabschluss): (1) Mein wertvollstes Block-2-Werkzeug: … (2) Wo i
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Handout A: Exit-Ticket-Gütecheck + Vorlagen
-**Gütecheck:** ☐ misst den Meilenstein ☐ 3–5 Min., allein lösbar ☐ schriftlich, von jedem ☐ Auswertung ≤ 10 Min. (max. 3 Aufgaben, max. 1 offene). **Format-Vorlagen:** (a) 2 geschlossene + 1 Begründungssatz · (b) 1 Anwendungsaufgabe + „Erkläre deinen ersten Schritt" · (c) Entscheidungsformat: „Kreuze an UND begründe in einem Satz". **Verbots-Liste:** „Fandet ihr es verständlich?" · „Was hat euch gefallen?" · alles, was Selbstauskunft statt Können misst *(Vorgriff W21)*.
+**Gütecheck:** ☐ misst den Meilenstein ☐ 3–5 Min., allein lösbar ☐ schriftlich, von jedem ☐ Auswertung ≤ 10 Min. (max. 3 Aufgaben, max. 1 offene). **Format-Vorlagen:**
+
+1. 2 geschlossene + 1 Begründungssatz
+2. 1 Anwendungsaufgabe + „Erkläre deinen ersten Schritt"
+3. Entscheidungsformat: „Kreuze an UND begründe in einem Satz"
+
+**Verbots-Liste:** „Fandet ihr es verständlich?" · „Was hat euch gefallen?" · alles, was Selbstauskunft statt Können misst *(Vorgriff W21)*.
 
 ## 1.2 Konstruierter Ticket-Satz (Fallback; Auszug-Beschreibung für eigene Erstellung)
 25 Tickets zur Aufgabe „Entscheide: past simple oder present perfect (2 Sätze) + begründe mit dem Signalwort": **11× grün** (beides richtig, Begründung nennt Signalwort), **8× gelb** (Entscheidung richtig, Begründung fehlt/zirkulär: „klingt besser"), **6× rot** (Signalwort ignoriert, „yesterday I have seen"). *(Eingebaute Kalibrier-Grenzfälle: 2 Tickets mit richtiger Entscheidung + falscher Begründung – gelb oder rot? Diskussion gewollt; W12-Fehlerkarte K6 lässt grüßen.)* — **Erwartete Konsequenz:** gelb+rot = 14/25 > ⅓ → 10-Min.-Reteach mit NEUEM Zugang (z. B. Zeitstrahl statt Regel-Wiederholung).
@@ -104,7 +116,7 @@ Kopf: Klasse/Thema/Datum. — **Do Now (3-2-1):** … — **Meilensteine (2–5,
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Block-2-Quiz (20 Fragen, kumulativ W1–13; Auswahl mit Lösungen)
-1. Die fünf mentalen Modelle? 2. Die 7 Schritte der Begrüßungsroutine? 3. Vierercheck für Anweisungen? 4. Die 6 Leiterstufen? 5. Reframing-Formel? 6. W.I.N.-Schritte? 7. Die vier Rosenshine-Stränge? 8. Beide Enden der 80 %-Regel? 9. Die zwei Planungs-Todsünden? 10. Vier Ampel-Kriterien für Meilensteine? 11. Was ist Exemplar Planning? 12. Der Modellierungs-Vierklang? 13. Fluch des Wissens + Halbier-Regel? 14. Die vier Fading-Stufen? 15. Break-It-Down-Reihenfolge? 16. Warum lügt die Melder-Stichprobe? 17. Die 5 Startbedingungen? 18. Die 60-Sekunden-Regel und ihr Grund? 19. Ab wann Sammelklärung? 20. (Transfer) „Meine Klasse konnte es in der Stunde, im Test nicht" – deute mit ZWEI Werkzeugen/Konzepten aus Block 2. *(z. B. Melder-Stichprobe statt All-Response → nie geprüft, ob ALLE es konnten; verfrühtes You do → Fehler eingeübt; Vorgriff: Performance ≠ Learning kommt in W19)*
+1. Die fünf mentalen Modelle? 2. Die 7 Schritte der Begrüßungsroutine? 3. Vierercheck für Anweisungen? 4. Die 6 Leiterstufen? 5. Umformulierungs-Formel? 6. W.I.N.-Schritte? 7. Die vier Rosenshine-Stränge? 8. Beide Enden der 80 %-Regel? 9. Die zwei Planungs-Todsünden? 10. Vier Ampel-Kriterien für Meilensteine? 11. Was ist Exemplar Planning? 12. Der Modellierungs-Vierklang? 13. Fluch des Wissens + Halbier-Regel? 14. Die vier Fading-Stufen? 15. Break-It-Down-Reihenfolge? 16. Warum lügt die Melder-Stichprobe? 17. Die 5 Startbedingungen? 18. Die 60-Sekunden-Regel und ihr Grund? 19. Ab wann Sammelklärung? 20. (Transfer) „Meine Klasse konnte es in der Stunde, im Test nicht" – deute mit ZWEI Werkzeugen/Konzepten aus Block 2. *(z. B. Melder-Stichprobe statt All-Response → nie geprüft, ob ALLE es konnten; verfrühtes You do → Fehler eingeübt; Vorgriff: Performance ≠ Learning kommt in W19)*
 
 ## Teil 2: Modul-Quiz Woche 14 (für SPA/Folgewoche)
 **F1.** Exit Tickets wertet man aus, indem man…

@@ -10,7 +10,7 @@
 | **Leitfrage** | Wann sollte ich wiederholen – und warum ist „etwas vergessen haben" ideal? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Spacing); Rohrer & Pashler (Interleaving); Bjork (desirable difficulties, Performance ≠ Learning); Ebbinghaus (W15) |
 | **Funktion im Jahr** | Die zeitliche Dimension des Retrieval: Aus „abrufen" wird „verteilt abrufen". Löst rückwirkend Fall 1 aus W15 und die Block-2-Transferfrage („in der Stunde konnten sie es") vollständig auf. Die Wiederholungs-Landkarte wird Planungswerkzeug für W33 (Inter-Lesson-Planning); die kumulative Prüfungsregel verändert das Klassenarbeits-Design (W34). Gruppenhospitation 3 wird vorbereitet. |
-| **Lernziele** | Die TN können (1) den Spacing-Effekt erklären und pragmatisch umsetzen (kumulative Quizze statt Intervall-Wissenschaft), (2) Übungssets interleaven und den Zusatznutzen (Methoden-WAHL trainieren) begründen, (3) Performance und Learning unterscheiden und daraus Konsequenzen für die eigene Stunden-Bewertung ziehen. |
+| **Lernziele** | Die TN können:<br>1. den Spacing-Effekt erklären und pragmatisch umsetzen (kumulative Quizze statt Intervall-Wissenschaft),<br>2. Übungssets interleaven und den Zusatznutzen (Methoden-WAHL trainieren) begründen,<br>3. Performance und Learning unterscheiden und daraus Konsequenzen für die eigene Stunden-Bewertung ziehen. |
 | **Sitzungstyp** | Konzept-Sitzung mit zwei Bau-Übungen (Landkarte + Blatt-Umbau); die Kurven-Grafik ist das Herzstück. |
 
 ---
@@ -57,7 +57,12 @@
 
 ## Phase 4 · Name it (Minute 27–31)
 
-**Zwei Einbau-Regeln** (Handout B): (1) Jedes Quiz kumulativ (3-2-1 – läuft schon). (2) Jedes Übungsset zu ≥ 25 % aus Alt-Themen. **Prüfungsregel:** kumulativ prüfen + ankündigen + per Quiz trainieren. **Merksätze:** *„Performance ist nicht Learning."* / *„Das leicht Vergessene ist der beste Übungsstoff."*
+**Zwei Einbau-Regeln** (Handout B):
+
+1. Jedes Quiz kumulativ (3-2-1 – läuft schon).
+2. Jedes Übungsset zu ≥ 25 % aus Alt-Themen.
+
+**Prüfungsregel:** kumulativ prüfen + ankündigen + per Quiz trainieren. **Merksätze:** *„Performance ist nicht Learning."* / *„Das leicht Vergessene ist der beste Übungsstoff."*
 
 Fingerzeichen-Kalibrierung: 4 Aussagen → stimmt/stimmt nicht (z. B. „Wenn die Übungsphase fehlerfrei läuft, war die Stunde lernwirksam" ✗).
 
@@ -73,7 +78,10 @@ Tandems interleaven das geblockte Beispielblatt (Anhang 1.3): Welche drei Aufgab
 
 **Standard:** *„Ich baue in mein nächstes Übungsblatt mindestens drei Aufgaben aus früheren Themen ein – und kündige der Klasse an: Ab jetzt enthält jede Klassenarbeit Altstoff, trainiert wird das in unseren Quizzen. Den Protest beantworte ich mit dem Erklärskript."*
 
-**Alternativen:** (a) Landkarten-Vollausbau: die Wiederholungs-Landkarte fertigstellen und im Coaching durchsprechen; (b) Performance-Fasten: eine Woche lang Stunden NICHT nach Glattheit bewerten, sondern nach dem Ticket vom Folgetag (Vergleichsnotizen).
+**Alternativen:**
+
+1. Landkarten-Vollausbau: die Wiederholungs-Landkarte fertigstellen und im Coaching durchsprechen.
+2. Performance-Fasten: eine Woche lang Stunden NICHT nach Glattheit bewerten, sondern nach dem Ticket vom Folgetag (Vergleichsnotizen).
 
 **Gruppenhospitation 3 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3): Fokus Wiederholungs- und Retrieval-Routinen.
 

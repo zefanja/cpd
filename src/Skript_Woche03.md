@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie gewinne ich die ersten fünf Minuten jeder Stunde – jedes Mal? |
 | **Kernquellen** | Lovell/Dowley, Routine 1 (Entry Routine – adaptiert); Lemov T20 (Do Now), T51 (Do It Again), „Strong Start" (adaptiert); Kontext: schulisches Ritual Aufstehen–Begrüßung–Setzen |
 | **Funktion im Jahr** | Erste vollständige Routine des Playbooks. Etabliert das dreispaltige Skript-Format (Standard für ~10 weitere Module) und das Rollenspiel mit Störkarten. Das Do Now wird hier organisatorisch eingeführt und in W14/W18 didaktisch aufgeladen. |
-| **Lernziele** | Die TN können (1) den Stundenauftakt an unserer Schule als 7-Schritt-Routine skripten (Wortlaut + Position + Material), (2) die Qualitätsbedingung „100 % vor dem Gruß" begründen und durchhalten, (3) ein Do Now organisatorisch korrekt anschließen, (4) einen Routine-Ausrutscher mit Do It Again neutral zurücksetzen. |
+| **Lernziele** | Die TN können:<br>1. den Stundenauftakt an unserer Schule als 7-Schritt-Routine skripten (Wortlaut + Position + Material),<br>2. die Qualitätsbedingung „100 % vor dem Gruß" begründen und durchhalten,<br>3. ein Do Now organisatorisch korrekt anschließen,<br>4. einen Routine-Ausrutscher mit Do It Again neutral zurücksetzen. |
 | **Sitzungstyp** | Volles Technik-Training mit Rollenspiel-Karussell – die intensivste Übungssitzung bisher. |
 
 **Schulkontext (prägt alles):** Kein Türschwellen-Ritual wie bei Lemov – die Lehrkraft betritt den Raum, die Klasse ist in der Regel schon da. Unser Ritual: **Alle stehen auf → Begrüßung → Setzen.** Die Sitzung behandelt dieses Ritual nicht als Folklore, sondern als präzises Werkzeug.
@@ -90,7 +90,10 @@ Merksatz: *„Erst alle, dann der Gruß. Erst der Satz, dann der Timer. Erst der
 
 **Standard:** *„Ich führe ab Montag in Klasse X das Do Now ein: Aufgabe steht an der Tafel, bevor ich grüße; ich warte auf 100 % Stehen und Stille; mein Setz-Signal + Starter-Satz sind jedes Mal wörtlich gleich; der Timer startet mit dem Setzen. Ich messe täglich: Sekunden vom Setz-Signal bis ~90 % arbeiten."*
 
-**Alternativen:** (a) Nur Schritt 3 fokussieren (für TN, deren Ritual „durchgewunken" wird): eine Woche konsequent auf 100 % warten, Erlebnisse notieren; (b) Do It Again einführen: beim ersten ausgefransten Start der Woche neutral zurücksetzen und die Reaktion der Klasse festhalten.
+**Alternativen:**
+
+1. Nur Schritt 3 fokussieren (für TN, deren Ritual „durchgewunken" wird): eine Woche konsequent auf 100 % warten, Erlebnisse notieren;
+2. Do It Again einführen: beim ersten ausgefransten Start der Woche neutral zurücksetzen und die Reaktion der Klasse festhalten.
 
 > **Ausblick:** *„Nächste Woche: Was tun, wenn ihr MITTEN in der Stunde die Aufmerksamkeit zurückbraucht – und wie ihr Anweisungen gebt, die beim ersten Mal ankommen. Bringt eure Stoppuhr-Werte mit!"*
 

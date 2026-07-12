@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie halte ich das Niveau bis zur letzten Minute – und was tue ich NACH der Stunde mit dem Schüler, den ich am liebsten meide? |
 | **Kernquellen** | Lovell/Dowley, Routine 5 (Transitions), Routine 6 (After-class conversation / W.I.N.), Routine 12 (Engagement bis zum Ende); Lemov T51 (Do It Again), T31 (Every Minute Matters) |
 | **Funktion im Jahr** | Block-1-Finale: schließt die letzte Lücke im Stundengerüst (Übergänge, Ende) und liefert mit W.I.N. das Beziehungs-Reparaturwerkzeug, das in W23 (Verweigerung), W30 (nach Eskalationen) und W31 (Elterngespräch-Struktur!) wiederkehrt. Meilenstein 1: Playbook-Deckblatt, Kompetenzmatrix-Update, Video-Selbstanalyse Nr. 1. |
-| **Lernziele** | Die TN können (1) Übergänge als nummerierte Mini-Routinen führen und mit Do It Again neutral zurücksetzen, (2) ein Stundenende mit Puffer und geordnetem Abschluss gestalten, (3) ein W.I.N.-Gespräch in drei Schwierigkeitsgraden führen (einsichtig / abblockend / eskalierend). |
+| **Lernziele** | Die TN können:<br>1. Übergänge als nummerierte Mini-Routinen führen und mit Do It Again neutral zurücksetzen,<br>2. ein Stundenende mit Puffer und geordnetem Abschluss gestalten,<br>3. ein W.I.N.-Gespräch in drei Schwierigkeitsgraden führen (einsichtig / abblockend / eskalierend). |
 | **Sitzungstyp** | Kombinierte Sitzung: 2 kompakte Technik-Inputs + das anspruchsvollste Rollenspiel des Blocks + Meilenstein-Ritual. Zeitdisziplin ist heute kritisch – die Moderation kürzt notfalls den Übergangs-Teil, nie das W.I.N.-Rollenspiel. |
 
 ---
@@ -59,7 +59,7 @@ W.I.N.-Karte (Handout A) austeilen; die drei Schritte + vier Rahmenbedingungen (
 
 ## Phase 5 · Do it: W.I.N.-Rollenspiele (Minute 33–51)
 
-Dreiergruppen (Lehrkraft / Schüler:in / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jede:r ist einmal Lehrkraft.
+Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jede:r ist einmal Lehrkraft.
 
 **Beobachter-Checkfragen:** Kam W wirklich zuerst (offene Frage, dann Stille ausgehalten)? Blieb I sachlich (Wirkung, keine Moral)? War N gemeinsam und konkret? Rahmen: warm, kurz, privat?
 
@@ -71,20 +71,33 @@ Dreiergruppen (Lehrkraft / Schüler:in / Beobachter mit Karte), **3 Runden à 6 
 
 **Kompetenzmatrix (2 Min.):** Felder 1–3 neu einschätzen (gleicher Bogen wie W0 – noch NICHT vergleichen, das passiert im Coaching mit dem W0-Bogen daneben).
 
-**Action Step (Standard):** *„Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler / der Schülerin, den/die ich bisher gemieden habe – vorbereitet mit der Karte, maximal fünf Minuten."* **Alternativen:** (a) Ende-Woche: jede Stunde endet drei Minuten vor dem Klingeln geordnet, Verabschiedung im Stehen; (b) Übergangs-Woche: jeden Übergang nummerieren, bei Zerfasern einmal Do It Again.
+**Action Step (Standard):** *„Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler / der Schülerin, den/die ich bisher gemieden habe – vorbereitet mit der Karte, maximal fünf Minuten."* **Alternativen:**
+
+1. Ende-Woche: jede Stunde endet drei Minuten vor dem Klingeln geordnet, Verabschiedung im Stehen.
+2. Übergangs-Woche: jeden Übergang nummerieren, bei Zerfasern einmal Do It Again.
 
 **Ansage Video-Selbstanalyse Nr. 1 (1 Min.):** Anleitung (Anhang 3) mitgeben – VOR dem Meilenstein-Gespräch erledigen.
 
 > **Ausblick:** *„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Es beginnt mit den zehn am besten abgesicherten Prinzipien der Unterrichtsforschung. Bringt dafür einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt."* **(Vorab-Auftrag W9 auf die Exit-Karte drucken!)**
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert: (1) Mein wertvollstes Block-1-Werkzeug: … (2) Woran ich in Block 1 weiterarbeiten muss: … *(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: eigenen Stundenverlaufsplan zu W9 mitbringen.
+Erweitert:
+
+1. Mein wertvollstes Block-1-Werkzeug: …
+2. Woran ich in Block 1 weiterarbeiten muss: …
+
+*(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: eigenen Stundenverlaufsplan zu W9 mitbringen.
 
 ---
 
 # 4. Coaching-Woche 8: Meilenstein-Gespräch 1 (Handreichung, 45–60 Min.)
 
-**Struktur:** (1) **Video-Selbstanalyse gemeinsam (20 Min.):** TN zeigt seinen annotierten 10-Min.-Ausschnitt, spricht zuerst („Was sehe ich heute, was ich in Woche 1 nicht gesehen hätte?"); Coach ergänzt max. 2 Beobachtungen – eine Stärke, eine Baustelle, beides mit Zeitstempel. Das Baseline-Video aus W1 bleibt versiegelt (Vorfreude schützen!). (2) **Matrix-Vergleich (10 Min.):** W0- neben W8-Bogen; Verschiebungen benennen lassen; Precise Praise des Coaches auf konkrete Verhaltensänderungen. (3) **Block-2-Ausblick (10 Min.):** dringendster Klassenführungs-Rest wird als „Dauer-Action-Step" definiert (läuft im Coaching parallel weiter, auch wenn die Inputs zu Instruktion wechseln!). (4) **W.I.N.-Nachfrage:** Wie lief das Gespräch mit dem gemiedenen Schüler? Ggf. im Coaching nachspielen.
+**Struktur:**
+
+1. **Video-Selbstanalyse gemeinsam (20 Min.):** TN zeigt seinen annotierten 10-Min.-Ausschnitt, spricht zuerst („Was sehe ich heute, was ich in Woche 1 nicht gesehen hätte?"); Coach ergänzt max. 2 Beobachtungen – eine Stärke, eine Baustelle, beides mit Zeitstempel. Das Baseline-Video aus W1 bleibt versiegelt (Vorfreude schützen!).
+2. **Matrix-Vergleich (10 Min.):** W0- neben W8-Bogen; Verschiebungen benennen lassen; Precise Praise des Coaches auf konkrete Verhaltensänderungen.
+3. **Block-2-Ausblick (10 Min.):** dringendster Klassenführungs-Rest wird als „Dauer-Action-Step" definiert (läuft im Coaching parallel weiter, auch wenn die Inputs zu Instruktion wechseln!).
+4. **W.I.N.-Nachfrage:** Wie lief das Gespräch mit dem gemiedenen Schüler? Ggf. im Coaching nachspielen.
 
 **Red Flags:** Matrix-Selbstbild deutlich über Coach-Bild → behutsam mit Video-Zeitstempeln kalibrieren, nie frontal. Erschöpfungssignale nach 8 Wochen Doppelbelastung → Block 6 (Arbeitsökonomie) als Perspektive benennen, kurzfristig EINEN Entlastungs-Deal schließen (z. B. Korrektur-Triage light vorziehen).
 
@@ -99,7 +112,7 @@ Erweitert: (1) Mein wertvollstes Block-1-Werkzeug: … (2) Woran ich in Block 1 
 **N – Next steps:** gemeinsam + konkret + klein: *„Was machen wir morgen anders – du und ich?"*
 **Rahmen:** privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. **Notausgang:** vertagen ist legitim: *„Morgen, große Pause, hier."*
 
-## 1.2 Rollenkarten-Set W.I.N. (Regieanweisungen für die „Schüler:innen"-Rolle)
+## 1.2 Rollenkarten-Set W.I.N. (Regieanweisungen für die „Schüler"-Rolle)
 
 - **Karte 1 „Einsichtig" (Jara, 13):** Du hast in der Stunde ständig reingerufen. Auf W erzählst du ehrlich: Du warst aufgedreht, es tut dir halb leid. Du nimmst Vorschläge an, wirst aber nur konkret, wenn die Lehrkraft konkret wird. *(Lernziel: sauberer Durchlauf; Falle: Lehrkraft predigt trotzdem, obwohl längst Einsicht da ist.)*
 - **Karte 2 „Abblockend" (Tim, 15):** Du hast bei Stillarbeit demonstrativ nichts getan. Antworten: „Weiß nicht." – „Kann sein." – Schulterzucken. Arme verschränkt. Du taust NUR auf, wenn die Lehrkraft Stille aushält und echtes Interesse zeigt (z. B. nachfragt, ob was anderes los ist) – dann deutest du an: Stress zu Hause. *(Lernziel: Aushalten statt Zutexten; Falle: Lehrkraft füllt jede Pause und beantwortet W selbst.)*
@@ -113,7 +126,7 @@ Erweitert: (1) Mein wertvollstes Block-1-Werkzeug: … (2) Woran ich in Block 1 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Erweiterter Retrieval-Starter Block 1 (8 Fragen)
-1. Die 6 Leiterstufen in Reihenfolge? 2. Reframing-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + Kante; bei Zerfasern Do It Again)*
+1. Die 6 Leiterstufen in Reihenfolge? 2. Umformulierungs-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + Kante; bei Zerfasern Do It Again)*
 
 ## Teil 2: Modul-Quiz Woche 8 (für SPA/Folgewoche)
 **F1.** „Do It Again" ist…
@@ -154,7 +167,10 @@ d) nur bei kleinen Vorfällen sinnvoll ✗
 
 1. **Aufnahme:** 10–15 Min. einer normalen Stunde diese Woche (Handy auf Stativ/Bücherstapel, hinten im Raum; Einverständnisse liegen seit W0 vor). Nicht die Vorzeigestunde wählen – die normale.
 2. **Ansehen (allein, 2 Durchgänge):** Durchgang 1 nur schauen, nichts notieren (der Fremdheitsschock beim ersten Selbst-Sehen ist normal und vergeht). Durchgang 2 mit Block-1-Checklisten annotieren: Zeitstempel + Beobachtung (Begrüßungsroutine Schritt 3? Signal-Reihenfolge? Interventionsstufen? 3:1-Quotient? Satzmelodie?).
-3. **Drei Notizen mitbringen:** (a) eine Stelle, auf die ich stolz bin (Zeitstempel), (b) eine Stelle, die ich heute anders machen würde – und WIE, (c) eine Frage an meinen Coach.
+3. **Drei Notizen mitbringen:**
+   1. eine Stelle, auf die ich stolz bin (Zeitstempel).
+   2. eine Stelle, die ich heute anders machen würde – und WIE.
+   3. eine Frage an meinen Coach.
 4. **Regel:** Das Video gehört dir. Der Coach sieht nur den Ausschnitt, den du zeigst.
 
 ---

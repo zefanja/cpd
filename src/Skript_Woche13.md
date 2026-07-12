@@ -10,7 +10,7 @@
 | **Leitfrage** | Was tue ich eigentlich, während die Klasse arbeitet? |
 | **Kernquellen** | Lovell/Dowley, Routine 9 (Independent Practice); Lemov T25 (Circulate), T9 (Active Observation); Rosenshine P9 |
 | **Funktion im Jahr** | Vervollständigt I–We–You. Verwandelt die Stillarbeit vom „toten Winkel" der Stunde in die Datenerhebungs-Phase: ActiveObs liefert den Rohstoff für Reteaching (W26) und Whole-Class-Feedback (W34); die Route verbindet sich mit dem Radar aus W6. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
-| **Lernziele** | Die TN können (1) eine Stillarbeitsphase mit vollständigen Startbedingungen eröffnen, (2) mit geplanter Route zirkulieren und dabei Arbeit LESEN statt nur Ruhe überwachen, (3) per ActiveObs vorab festlegen, was sie bei wem prüfen, (4) Einzelhilfen kurz halten und wiederkehrende Fehler zur Sammelklärung bündeln. |
+| **Lernziele** | Die TN können:<br>1. eine Stillarbeitsphase mit vollständigen Startbedingungen eröffnen,<br>2. mit geplanter Route zirkulieren und dabei Arbeit LESEN statt nur Ruhe überwachen,<br>3. per ActiveObs vorab festlegen, was sie bei wem prüfen,<br>4. Einzelhilfen kurz halten und wiederkehrende Fehler zur Sammelklärung bündeln. |
 | **Sitzungstyp** | Planungs- und Analysewerkstatt mit Video-/Fallarbeit; das Rollenspiel pausiert – dafür wird am eigenen Sitzplan gearbeitet. |
 
 ---
@@ -63,13 +63,20 @@
 Clip zeigen (oder Fallkarte Anhang 1.3): TN zeichnen den Laufweg der Lehrkraft mit und markieren: Wo verwurzelt? Wer wurde nie gesehen? Wo wäre die Sammelklärung fällig gewesen? Plenums-Blitz (3 Min.) mit dem Standard als Prüfraster.
 
 ### Runde 2 · Eigene Route + ActiveObs-Bogen (Min. 39–52)
-(a) **Routenplanung (6 Min.):** Auf dem mitgebrachten Sitzplan: Route einzeichnen (Frühwarn-Plätze zuerst, blinde Ecke aus W6 abgedeckt?), Standort-Anker markieren. (b) **ActiveObs-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus dem Exemplar)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden? (c) **Tandem-Härtetest (2 Min.):** Partner fragt: „Zeig mir auf deiner Route den Schüler, den du realistisch NIE erreichst – und was änderst du?"
+Ablauf:
+
+1. **Routenplanung (6 Min.):** Auf dem mitgebrachten Sitzplan: Route einzeichnen (Frühwarn-Plätze zuerst, blinde Ecke aus W6 abgedeckt?), Standort-Anker markieren.
+2. **ActiveObs-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus dem Exemplar)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden?
+3. **Tandem-Härtetest (2 Min.):** Partner fragt: „Zeig mir auf deiner Route den Schüler, den du realistisch NIE erreichst – und was änderst du?"
 
 ## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
 
 **Standard:** *„In jeder Übungsphase dieser Woche laufe ich meine geplante Route und führe auf dem Klemmbrett die Top-3-Fehlerliste. Bei drittem Auftreten desselben Fehlers: Sammelklärung statt Einzelerklärung."*
 
-**Alternativen:** (a) 60-Sekunden-Woche: Einzelhilfen hart deckeln, Stoppuhr im Kopf; (b) Startbedingungen-Woche: jede Phase mit allen fünf Bedingungen eröffnen, besonders „Was-wenn-fertig".
+**Alternativen:**
+
+1. 60-Sekunden-Woche: Einzelhilfen hart deckeln, Stoppuhr im Kopf.
+2. Startbedingungen-Woche: jede Phase mit allen fünf Bedingungen eröffnen, besonders „Was-wenn-fertig".
 
 **Gruppenhospitation 2 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3) austeilen: Fokus I do / We do – Wortlaut-Protokoll einer Modellierung + Fading-Stufen identifizieren.
 
