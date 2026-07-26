@@ -12,33 +12,10 @@ const STYLE_SRC = path.join(__dirname, "style.css");
 const SPA_SRC_DIR = path.join(ROOT_DIR, "SPAs");
 const SPA_OUT_DIR = path.join(OUT_DIR, "spas");
 
-// Interaktive SPAs aus SPAs/, die auf der Startseite verlinkt werden sollen.
-// Nur hier eingetragene Dateien werden nach docs/spas/ kopiert und veröffentlicht.
-const SPA_LINKS = [
-  {
-    file: "kickoff-auftakt.html",
-    title: "Kickoff – Handwerk ist lernbar (interaktive SPA zur Auftaktveranstaltung)",
-  },
-  {
-    file: "gedaechtnis-modul.html",
-    title: "Wie Lernen im Kopf funktioniert (Selbstlern-Modul: Gedächtnis, CLT, Spacing)",
-  },
-  {
-    file: "lean-lesson-planning.html",
-    title: "Lean Lesson Planning — Zusammenfassung & Quiz",
-  },
-  {
-    file: "memorable-teaching.html",
-    title: "Memorable Teaching · 9 Prinzipien",
-  },
-  {
-    file: "motivated-teaching.html",
-    title: "Motivated Teaching — Zusammenfassung & Quiz",
-  },
-];
-
 // Reihenfolge & Gruppierung der Dokumente auf der Startseite.
-// Dateien, die hier nicht auftauchen, werden automatisch unter "Weitere Dokumente" einsortiert.
+// Gruppen mit `files` verwenden eine feste Liste, Gruppen mit `match` sammeln
+// automatisch alle passenden Dateien aus src/ und sortieren sie natürlich.
+// Dateien, die in keine Gruppe fallen, werden unter "Weitere Dokumente" einsortiert.
 const GROUPS = [
   {
     title: "Curriculum",
@@ -46,28 +23,11 @@ const GROUPS = [
   },
   {
     title: "Skripte",
-    files: [
-      "Skript_Woche00_Auftakt.md",
-      "Skript_Woche02.md",
-      "Skript_Woche03.md",
-      "Skript_Woche04.md",
-      "Skript_Woche05.md",
-      "Skript_Woche06.md",
-      "Skript_Woche07.md",
-      "Skript_Woche08.md",
-    ],
+    match: (f) => /^Skript_/i.test(f),
   },
   {
     title: "Drehbücher",
-    files: [
-      "Drehbuch_Woche1.md",
-      "Drehbuecher_Block1.md",
-      "Drehbuecher_Block2.md",
-      "Drehbuecher_Block3.md",
-      "Drehbuecher_Block4.md",
-      "Drehbuecher_Block5.md",
-      "Drehbuecher_Block6.md",
-    ],
+    match: (f) => /^Drehb/i.test(f),
   },
 ];
 
@@ -77,6 +37,29 @@ marked.setOptions({ gfm: true, breaks: false });
 
 function slugify(filename) {
   return filename.replace(/\.md$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+}
+
+function naturalCompare(a, b) {
+  const chunk = (s) => s.match(/\d+|\D+/g) || [];
+  const chunksA = chunk(a);
+  const chunksB = chunk(b);
+  const len = Math.max(chunksA.length, chunksB.length);
+  for (let i = 0; i < len; i++) {
+    const ca = chunksA[i] ?? "";
+    const cb = chunksB[i] ?? "";
+    if (ca === cb) continue;
+    const na = Number(ca);
+    const nb = Number(cb);
+    if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb;
+    return ca < cb ? -1 : 1;
+  }
+  return 0;
+}
+
+function extractHtmlTitle(html, fallback) {
+  const match = html.match(/<title>(.*?)<\/title>/i);
+  if (!match) return fallback;
+  return match[1].trim();
 }
 
 function extractTitle(markdown, fallback) {
@@ -189,13 +172,19 @@ function main() {
     console.log(`gebaut: ${file} -> docs/${outFile}`);
   }
 
-  const groupedFiles = new Set(GROUPS.flatMap((g) => g.files));
-  const groups = GROUPS.map((g) => ({
-    title: g.title,
-    docs: g.files.filter((f) => docByFile.has(f)).map((f) => docByFile.get(f)),
-  }));
+  const groupedFiles = new Set();
+  const groups = GROUPS.map((g) => {
+    let files;
+    if (g.match) {
+      files = allMdFiles.filter((f) => g.match(f)).sort(naturalCompare);
+    } else {
+      files = g.files.filter((f) => docByFile.has(f));
+    }
+    files.forEach((f) => groupedFiles.add(f));
+    return { title: g.title, docs: files.map((f) => docByFile.get(f)) };
+  });
 
-  const remaining = allMdFiles.filter((f) => !groupedFiles.has(f));
+  const remaining = allMdFiles.filter((f) => !groupedFiles.has(f)).sort(naturalCompare);
   if (remaining.length > 0) {
     groups.push({
       title: "Weitere Dokumente",
@@ -203,16 +192,24 @@ function main() {
     });
   }
 
-  const spaDocs = SPA_LINKS.filter((s) =>
-    fs.existsSync(path.join(SPA_SRC_DIR, s.file))
-  ).map((s) => {
+  // Interaktive SPAs: alle .html-Dateien aus SPAs/ werden automatisch
+  // eingebunden, natürlich sortiert und nach docs/spas/ kopiert.
+  const spaFiles = fs.existsSync(SPA_SRC_DIR)
+    ? fs
+        .readdirSync(SPA_SRC_DIR)
+        .filter((f) => f.toLowerCase().endsWith(".html"))
+        .sort(naturalCompare)
+    : [];
+
+  const spaDocs = spaFiles.map((file) => {
+    const srcPath = path.join(SPA_SRC_DIR, file);
+    const html = fs.readFileSync(srcPath, "utf8");
+    const title = extractHtmlTitle(html, file.replace(/\.html$/i, ""));
+
     fs.mkdirSync(SPA_OUT_DIR, { recursive: true });
-    fs.copyFileSync(
-      path.join(SPA_SRC_DIR, s.file),
-      path.join(SPA_OUT_DIR, s.file)
-    );
-    console.log(`kopiert: SPAs/${s.file} -> docs/spas/${s.file}`);
-    return { title: s.title, href: `spas/${s.file}` };
+    fs.copyFileSync(srcPath, path.join(SPA_OUT_DIR, file));
+    console.log(`kopiert: SPAs/${file} -> docs/spas/${file}`);
+    return { title, href: `spas/${file}` };
   });
   if (spaDocs.length > 0) {
     groups.push({ title: "Interaktive Module (SPAs)", docs: spaDocs });
