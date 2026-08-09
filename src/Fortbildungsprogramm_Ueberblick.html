@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fortbildungsprogramm Quereinsteiger:innen – Überblick</title>
+<style>
+:root{
+  --bg:#f7f7f5; --card:#ffffff; --ink:#1f2328; --sub:#5b6169; --line:#e4e2dd;
+  --accent:#1f2328;
+  --c-auftakt:#64748b; --c-b1:#e11d48; --c-b2:#2563eb; --c-b3:#7c3aed;
+  --c-b4:#0891b2; --c-b5:#ea580c; --c-b6:#16a34a;
+  --shadow:0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.05);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  background:var(--bg); color:var(--ink); line-height:1.55;
+}
+.wrap{max-width:1180px; margin:0 auto; padding:0 28px;}
+header.hero{
+  background:linear-gradient(135deg,#1f2328 0%,#3a3f47 100%); color:#fff; padding:56px 0 40px;
+}
+header.hero .wrap{display:flex; flex-direction:column; gap:14px;}
+header.hero .eyebrow{
+  text-transform:uppercase; letter-spacing:.14em; font-size:12px; color:#c9cdd3; font-weight:600;
+}
+header.hero a.back-link{
+  display:inline-block; font-size:12.5px; color:#c9cdd3; text-decoration:none; margin-bottom:4px;
+}
+header.hero a.back-link:hover{color:#fff;}
+header.hero h1{font-size:34px; margin:0; font-weight:700; letter-spacing:-.02em;}
+header.hero p.lead{font-size:16px; color:#d7dae0; max-width:760px; margin:0;}
+.stats{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px;}
+.stat{
+  background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14); border-radius:10px;
+  padding:10px 16px; min-width:120px;
+}
+.stat b{display:block; font-size:20px; font-weight:700;}
+.stat span{font-size:12px; color:#c9cdd3;}
+
+nav.tabs{
+  position:sticky; top:0; z-index:50; background:rgba(247,247,245,.92); backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+nav.tabs .wrap{display:flex; gap:4px; overflow-x:auto; padding:0 28px;}
+nav.tabs button{
+  border:none; background:none; padding:14px 14px; font-size:13.5px; font-weight:600; color:var(--sub);
+  cursor:pointer; white-space:nowrap; border-bottom:2px solid transparent;
+}
+nav.tabs button.active{color:var(--ink); border-bottom-color:var(--ink);}
+nav.tabs button:hover{color:var(--ink);}
+
+section{padding:52px 0;}
+section.alt{background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+h2.sectitle{font-size:24px; margin:0 0 6px; letter-spacing:-.01em;}
+p.secintro{color:var(--sub); max-width:760px; margin:0 0 32px; font-size:15px;}
+
+/* Überblick */
+.grid3{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; margin-bottom:36px;}
+.fmt-card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; box-shadow:var(--shadow);}
+.fmt-card .num{font-size:12px; font-weight:700; color:#fff; background:var(--ink); width:24px;height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:12px;}
+.fmt-card h3{margin:0 0 8px; font-size:16px;}
+.fmt-card p{margin:0; font-size:13.5px; color:var(--sub);}
+
+table.eef{width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow);}
+table.eef th, table.eef td{padding:14px 16px; text-align:left; font-size:13.5px; vertical-align:top; border-bottom:1px solid var(--line);}
+table.eef th{background:#faf9f7; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--sub);}
+table.eef tr:last-child td{border-bottom:none;}
+table.eef td.letter{font-weight:700; width:230px;}
+
+/* Roter Faden narrative */
+.narrative{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:26px 28px; box-shadow:var(--shadow); margin-bottom:36px; font-size:15px;}
+.narrative p{margin:0 0 12px;}
+.narrative p:last-child{margin-bottom:0;}
+.narrative b{background:#fff2ce; padding:0 2px; border-radius:3px;}
+
+/* flow diagram */
+.flowchart{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px 10px 10px; box-shadow:var(--shadow); overflow-x:auto;}
+.flow-legend{display:flex; gap:18px; flex-wrap:wrap; padding:0 18px 18px; font-size:12px; color:var(--sub);}
+.flow-legend span{display:inline-flex; align-items:center; gap:6px;}
+.flow-legend i.dot{width:10px;height:10px;border-radius:50%;display:inline-block;}
+.flow-legend i.mark{width:12px;height:12px;display:inline-block;}
+
+.block-chain{display:flex; align-items:stretch; gap:0; min-width:980px; padding:0 18px 24px;}
+.block-node{
+  flex:1; border-radius:12px; padding:16px 14px; color:#fff; cursor:pointer; position:relative;
+  min-width:130px; transition:transform .15s ease, box-shadow .15s ease;
+}
+.block-node:hover{transform:translateY(-3px); box-shadow:0 8px 18px rgba(0,0,0,.18);}
+.block-node .bnum{font-size:11px; opacity:.85; font-weight:700; text-transform:uppercase; letter-spacing:.06em;}
+.block-node .btitle{font-size:14px; font-weight:700; margin:4px 0 6px; line-height:1.25;}
+.block-node .brange{font-size:11.5px; opacity:.9;}
+.arrow{display:flex; align-items:center; justify-content:center; width:26px; color:var(--sub); font-size:18px; flex-shrink:0;}
+
+.markers-row{display:flex; min-width:980px; padding:0 18px; gap:0;}
+.marker-track{flex:1; position:relative; height:34px;}
+.marker-track .pip{
+  position:absolute; top:0; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; font-size:16px;
+}
+.marker-track .pip .lbl{font-size:9.5px; color:var(--sub); white-space:nowrap; margin-top:1px;}
+.arrow-spacer{width:26px; flex-shrink:0;}
+
+/* Blocks / week cards */
+.block-panel{margin-bottom:14px;}
+.block-header{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 22px; border-radius:14px;
+  color:#fff; cursor:pointer; box-shadow:var(--shadow);
+}
+.block-header .left{display:flex; align-items:center; gap:14px;}
+.block-header .bnum2{font-size:22px; font-weight:800; opacity:.85; min-width:34px;}
+.block-header h3{margin:0; font-size:17px;}
+.block-header .brange2{font-size:12.5px; opacity:.9; margin-top:2px;}
+.block-header .chev{transition:transform .2s ease; font-size:14px; opacity:.85;}
+.block-header.open .chev{transform:rotate(180deg);}
+
+.block-body{
+  max-height:0; overflow:hidden; transition:max-height .35s ease;
+}
+.block-body-inner{padding:20px 4px 6px;}
+.block-rationale{font-size:13.5px; color:var(--sub); margin:0 0 6px; padding:0 4px;}
+.block-source{font-size:12px; color:var(--sub); margin:0 0 18px; padding:0 4px;}
+.block-source b{color:var(--ink);}
+
+.week-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:14px;}
+.week-card{
+  background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; box-shadow:var(--shadow);
+}
+.week-card .wc-head{padding:14px 16px; cursor:pointer; display:flex; gap:10px; align-items:flex-start;}
+.week-card .wc-badge{
+  flex-shrink:0; width:30px; height:30px; border-radius:8px; color:#fff; font-weight:700; font-size:12.5px;
+  display:flex; align-items:center; justify-content:center;
+}
+.week-card .wc-titles{flex:1;}
+.week-card .wc-title{font-size:13.5px; font-weight:700; margin:0 0 2px;}
+.week-card .wc-leitfrage{font-size:12.5px; color:var(--sub); font-style:italic; margin:0;}
+.week-card .wc-tags{display:flex; gap:4px; margin-top:6px; flex-wrap:wrap;}
+.tag{font-size:10px; font-weight:700; padding:2px 7px; border-radius:20px; text-transform:uppercase; letter-spacing:.03em;}
+.tag.gh{background:#fef3c7; color:#92400e;}
+.tag.ms{background:#dbeafe; color:#1e3a8a;}
+.week-card .wc-body{max-height:0; overflow:hidden; transition:max-height .3s ease; border-top:1px solid transparent;}
+.week-card.open .wc-body{border-top:1px solid var(--line);}
+.week-card .wc-body-inner{padding:14px 16px 16px; font-size:13px;}
+.week-card .wc-body-inner h4{margin:0 0 4px; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--sub);}
+.week-card .wc-body-inner p{margin:0 0 12px;}
+.week-card .wc-body-inner p:last-child{margin-bottom:0;}
+.week-card.dim{display:none;}
+
+.controls{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:22px; align-items:center;}
+input#search{
+  flex:1; min-width:220px; padding:11px 14px; border-radius:10px; border:1px solid var(--line); font-size:14px;
+  background:#fff;
+}
+.ctrl-btn{
+  padding:11px 14px; border-radius:10px; border:1px solid var(--line); background:#fff; font-size:13px; font-weight:600;
+  cursor:pointer; color:var(--ink);
+}
+.ctrl-btn:hover{background:#faf9f7;}
+.no-match{font-size:12.5px; color:var(--sub); padding:6px 4px 0; display:none;}
+
+footer{padding:34px 0 60px; text-align:center; color:var(--sub); font-size:12.5px;}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <a class="back-link" href="index.html">&larr; Zur Übersicht</a>
+    <span class="eyebrow">Fortbildung für die Schulleitung · Sek I / II</span>
+    <h1>Fortbildungsprogramm für Quereinsteiger:innen</h1>
+    <p class="lead">Ein Schuljahr, wochenweise aufgebaut: 36 Modulwochen, sechs thematische Blöcke, drei ineinandergreifende Formate. Ziel: aus Fachexpert:innen mit wenig Unterrichtserfahrung handlungssichere Lehrkräfte machen – durch wöchentliches Üben statt punktueller Theorie.</p>
+    <div class="stats">
+      <div class="stat"><b>36</b><span>Modulwochen</span></div>
+      <div class="stat"><b>6 + 1</b><span>Themenblöcke + Auftakt</span></div>
+      <div class="stat"><b>3</b><span>Formate: Input · Coaching · Hospitation</span></div>
+      <div class="stat"><b>5</b><span>Gruppenhospitationen</span></div>
+      <div class="stat"><b>3</b><span>Meilenstein-Gespräche</span></div>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap" id="tabNav">
+    <button data-target="ueberblick" class="active">Überblick &amp; Fundament</button>
+    <button data-target="rotenfaden">Roter Faden</button>
+    <button data-target="flow">Jahresfluss</button>
+    <button data-target="bloecke">Blöcke &amp; Lernziele</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ================= ÜBERBLICK ================= -->
+<section id="ueberblick">
+  <div class="wrap">
+    <h2 class="sectitle">Zielgruppe, Idee, Fundament</h2>
+    <p class="secintro">Quereinsteiger:innen mit wenig Unterrichtserfahrung, die parallel mit reduziertem Deputat eigenverantwortlich in Sek I und II unterrichten. Jede Woche gibt es echte Klassen, in denen Neues sofort erprobt werden kann – und echte Probleme, die Dringlichkeit und Motivation erzeugen. Die Kernidee des Jahres: <b>Unterrichten ist ein Handwerk – und Handwerk ist lernbar.</b></p>
+
+    <div class="grid3">
+      <div class="fmt-card">
+        <div class="num">1</div>
+        <h3>Wöchentlicher Input + Übung</h3>
+        <p>60 Minuten, feste Struktur: Retrieval-Starter → Input mit einer Kernidee → Zerlegen in Teilschritte → Deliberate Practice (skripten, laut üben, Feedback) → persönlicher Action Step für die kommende Woche.</p>
+      </div>
+      <div class="fmt-card">
+        <div class="num">2</div>
+        <h3>1:1-Coaching, wöchentlich</h3>
+        <p>Kurzhospitation fokussiert auf den aktuellen Action Step, danach Auswertungsgespräch: Erfolg würdigen → Fokus-Ausschnitt ansehen → neuen Action Step ableiten → im Gespräch einüben.</p>
+      </div>
+      <div class="fmt-card">
+        <div class="num">3</div>
+        <h3>Gruppenhospitationen</h3>
+        <p>Etwa alle 5–6 Wochen: gemeinsam beobachten (fokussiert, nie „alles"), dann besprechen – was hat die Lehrkraft konkret getan, was übernehme ich? Kalibriert den eigenen Anspruch.</p>
+      </div>
+    </div>
+
+    <h3 style="font-size:16px; margin:0 0 12px;">Wissenschaftliche Fundierung: die vier EEF-Bausteine wirksamer Fortbildung</h3>
+    <table class="eef">
+      <tr><th>Baustein</th><th>Umsetzung im Programm</th></tr>
+      <tr><td class="letter">A · Wissen aufbauen</td><td>60-min-Input: wenige Kernideen, kognitive Entlastung, Wiederholung über Wochen (Spacing im Programm selbst).</td></tr>
+      <tr><td class="letter">B · Lehrkräfte motivieren</td><td>Glaubwürdige Quellen (Lemov, McCrea, Lovell, Rosenshine), gemeinsame Zielvereinbarung, Bestärkung nach Fortschritt im Coaching.</td></tr>
+      <tr><td class="letter">C · Techniken entwickeln</td><td>Deliberate Practice in jeder Sitzung: Skripten, Rollenspiel, Mikro-Üben.</td></tr>
+      <tr><td class="letter">D · Praxis verankern</td><td>Wöchentlicher Action Step, Selbstmonitoring, kontextspezifische Wiederholung, Coaching-Follow-up.</td></tr>
+    </table>
+
+    <p style="font-size:13px;color:var(--sub); margin-top:14px;">Quelle: EEF-Guidance-Report „Effective Professional Development" (Sims et al., 2021). Die Sequenzierung der Blöcke folgt Bambrick-Santoyos „Get Better Faster" (Klassenführung vor Instruktion), operationalisiert u. a. mit Lemov (<i>Teach Like a Champion</i>), Rosenshine (<i>Principles of Instruction</i>), Lovell/Dowley und McCrea.</p>
+  </div>
+</section>
+
+<!-- ================= ROTER FADEN ================= -->
+<section class="alt" id="rotenfaden">
+  <div class="wrap">
+    <h2 class="sectitle">Der rote Faden: warum diese Reihenfolge?</h2>
+    <p class="secintro">Jeder Block baut bewusst auf dem vorherigen auf – nichts steht isoliert. Die Grafik unten zeigt die Abfolge; jede Wochenkarte in Abschnitt „Blöcke &amp; Lernziele" nennt zusätzlich explizit, an welche früheren Wochen sie anknüpft und welche späteren Wochen sie vorbereitet.</p>
+
+    <div class="narrative">
+      <p><b>1 → 2 (Wochen 1–8 → 9–14):</b> Ohne ruhige, geordnete Lernumgebung greift keine noch so gute Didaktik – deshalb kommt Klassenführung zuerst. Erst wenn die Klasse arbeitet, lohnt sich die Feinarbeit am Erklären, Anleiten und Üben (Rosenshines Prinzipien).</p>
+      <p><b>2 → 3 (9–14 → 15–20):</b> Bisher haben die Teilnehmenden gelernt, <i>was</i> funktioniert. Jetzt lernen sie <i>warum</i> – Gedächtnis- und Lernpsychologie erklärt die Technik aus Block 1 und 2 rückwärts und immunisiert gegen Lernmythen.</p>
+      <p><b>3 → 4 (15–20 → 21–26):</b> Erst mit Klassenkultur (Block 1) und Fehlerkultur (Woche 21) funktionieren Techniken wie Cold Call. Deshalb liegt „Verstehen prüfen" bewusst in der zweiten Jahreshälfte, direkt nach den Winterferien.</p>
+      <p><b>4 → 5 (21–26 → 27–31):</b> Jetzt haben die Teilnehmenden das Werkzeug – dieser Block erklärt den sozialen Motor dahinter und schließt Lücken, die Technik allein nicht löst: hartnäckige Motivationsprobleme, Einzelfälle, Elternarbeit. Zeitlich bewusst im Frühjahrs-„Motivationsloch".</p>
+      <p><b>5 → 6 (27–31 → 32–36):</b> Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: schlank planen, klug bewerten, sich selbst weiterentwickeln – Planungsökonomie setzt die Urteilskraft voraus, die erst jetzt da ist.</p>
+      <p>Durchgehend verankert: <b>ein Action Step pro Woche</b> (nie mehr), <b>Kompetenzmatrix</b>-Selbsteinschätzung in Woche 0 / 20 / 36 als Fortschrittsnachweis, <b>fünf Gruppenhospitationen</b> zur Kalibrierung des Anspruchs, und <b>drei Meilenstein-Gespräche</b> (nach Block 1, 3 und 6) inklusive Video-Selbstanalysen in Woche 1, 20 und 34/35 – deren Vergleich im Abschluss-Kolloquium (Woche 36) vorgeführt wird.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FLOWCHART ================= -->
+<section id="flow">
+  <div class="wrap">
+    <h2 class="sectitle">Jahresfluss auf einen Blick</h2>
+    <p class="secintro">Auf einen Block klicken, um direkt zu seinen Wochenzielen zu springen. Fähnchen markieren Gruppenhospitationen, Sterne die formellen Meilenstein-Gespräche.</p>
+
+    <div class="flowchart">
+      <div class="flow-legend" id="flowLegend"></div>
+      <div class="block-chain" id="blockChain"></div>
+      <div class="markers-row" id="markersRow"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLÖCKE ================= -->
+<section class="alt" id="bloecke">
+  <div class="wrap">
+    <h2 class="sectitle">Blöcke &amp; Lernziele – Woche für Woche</h2>
+    <p class="secintro">Jede Woche folgt demselben Schema: Leitfrage → Lernziele → Einordnung in den roten Faden des Jahres. Karten anklicken zum Aufklappen, oder die Suche nutzen, um quer durchs Programm zu filtern.</p>
+
+    <div class="controls">
+      <input id="search" type="text" placeholder="Suche über alle Wochen (z. B. „Cold Call“, „Feedback“, „Routine“) …">
+      <button class="ctrl-btn" id="expandAll">Alle aufklappen</button>
+      <button class="ctrl-btn" id="collapseAll">Alle zuklappen</button>
+    </div>
+
+    <div id="blocksContainer"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>Erstellt als Präsentationsgrundlage auf Basis des Fortbildungs-Curriculums für Quereinsteiger:innen (Sek I/II) · Leitquellen: Sims et al. (EEF), Rosenshine, Lemov, Lovell/Dowley, McCrea, Bambrick-Santoyo</footer>
+
+<script>
+const DATA = [
+  {
+    id:"auftakt", num:"Auftakt", title:"Kickoff & mentale Modelle", range:"Vor Unterrichtsbeginn (Woche 0)",
+    color:"var(--c-auftakt)", leitquelle:"Lemov Kap. 1",
+    rationale:"Vertragsschluss statt Belehrung: gemeinsames Verständnis von Lernbarkeit, Übungskultur und psychologischer Sicherheit. Baseline für die Kompetenzmatrix wird erhoben, die Hemmschwelle „laut üben“ fällt am ersten Tag.",
+    weeks:[
+      {n:0, title:"Kickoff", leitfrage:"Wie werde ich in einem Jahr eine handlungssichere Lehrkraft – und wie funktioniert dieses Programm?",
+       lernziele:"Die TN können den Jahresaufbau erklären, kennen die Formate (Input, Coaching, Hospitation), haben eine persönliche Zielvereinbarung geschrieben und verstehen das Prinzip „üben statt nur wissen“.",
+       funktion:"Vertragsschluss: gemeinsames Verständnis von Lernbarkeit, Übungskultur und psychologischer Sicherheit. Baseline-Erhebung (Kompetenzmatrix W0). Hemmschwelle „laut üben“ fällt am ersten Tag."}
+    ]
+  },
+  {
+    id:"block1", num:"Block 1", title:"Klassenführung & Routinen", range:"Wochen 1–8",
+    color:"var(--c-b1)", leitquelle:"Lovell/Dowley; Lemov Kap. 10–12",
+    rationale:"Ohne ruhige, geordnete Lernumgebung greift keine noch so gute Didaktik. Klassenführung zuerst – für Quereinsteiger:innen zugleich das Feld mit dem größten Leidensdruck und damit hoher Motivation.",
+    hospitations:[{week:6,label:"Gruppenhospitation 1"}],
+    milestones:[{week:8,label:"Meilenstein-Gespräch 1"}],
+    weeks:[
+      {n:1, title:"Fünf mentale Modelle des Unterrichtens", leitfrage:"Warum verhalten sich Klassen so, wie sie sich verhalten – und was folgt daraus für mich?",
+       lernziele:"Die TN können die fünf Prinzipien aus Lemov Kap. 1 erklären und auf eine eigene Unterrichtssituation der letzten Woche anwenden.",
+       funktion:"Grundlagenmodul: liefert die Deutungsbrille, auf die sich alle 35 Folgemodule beziehen. Jede spätere Technik wird auf eines der fünf Modelle zurückgeführt."},
+      {n:2, title:"Hohe Erwartungen – Verhalten ist ein Curriculum", leitfrage:"Wie mache ich unsichtbare Erwartungen sichtbar und lehrbar?",
+       lernziele:"Die TN können erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt und eine Erwartung nach dem Muster „vage → spezifisch“ umformulieren.",
+       funktion:"Legt die Grundlage für alle Routinen (W3–8): Bevor man Routinen baut, muss man Erwartungen formulieren können. Das Umformulierungs-Handwerk wird in W4 direkt wiederverwendet."},
+      {n:3, title:"Die Eingangsroutine & der starke Stundenstart", leitfrage:"Wie gewinne ich die ersten 5 Minuten jeder Stunde – jedes Mal?",
+       lernziele:"Die TN können den Stundenauftakt als vollständige Routine skripten (Wortlaut + Position + Material) und mit Starter/Do Now und Zeitanker verketten.",
+       funktion:"Erste vollständige Routine des Playbooks. Etabliert das dreispaltige Skript-Format (Standard für ~10 weitere Module). Das Do Now wird hier organisatorisch eingeführt und in W14/W18 didaktisch aufgeladen."},
+      {n:4, title:"Aufmerksamkeit einholen & glasklare Anweisungen", leitfrage:"Wie bekomme ich 30 Menschen in 5 Sekunden still – und wie gebe ich Anweisungen, die wirklich ankommen?",
+       lernziele:"Die TN können ein Aufmerksamkeitssignal etablieren und Arbeitsanweisungen nach dem „What to Do“-Standard formulieren.",
+       funktion:"Zweites Kernwerkzeug der Klassenführung, Voraussetzung fast aller späteren Techniken (Übergänge W8, Turn-and-Talk W24, Whiteboard-Routine W25). Nutzt das „vage→spezifisch“-Handwerk aus W2."},
+      {n:5, title:"Die eigene Präsenz – Körper, Stimme, Selbstregulation", leitfrage:"Wie wirke ich ruhig und souverän – auch wenn ich es (noch) nicht bin?",
+       lernziele:"Die TN kennen die körperlichen Stellschrauben von Präsenz (Position, Haltung, Stille, Stimmregister) und haben eine persönliche Selbstregulations-Routine für Stressmomente.",
+       funktion:"Das „Instrument“ der Lehrkraft selbst – Grundlage, auf der Signal (W4) und Interventionsleiter (W6) erst wirken. Der Reset-Anker wird Werkzeug für Eskalationssituationen (W30)."},
+      {n:6, title:"100 % – die am wenigsten invasive Intervention", leitfrage:"Wie reagiere ich auf kleine Störungen, ohne den Unterricht zu unterbrechen?",
+       lernziele:"Die TN können die Interventionsleiter von nonverbal bis Einzelkorrektur anwenden und wählen bewusst die kleinste wirksame Stufe.",
+       funktion:"Hier zahlt sich alles Vorherige aus (Erwartungen W2, Präsenz W5). Die Leiter wird Referenzwerkzeug für W7, W23 und W30. Direkt anschließend: Gruppenhospitation 1.",
+       gh:"Gruppenhospitation 1"},
+      {n:7, title:"Positiv rahmen – Positive Framing, Precise Praise, Warm/Strict", leitfrage:"Wie korrigiere ich so, dass die Beziehung wächst statt leidet?",
+       lernziele:"Die TN können Korrekturen positiv rahmen, präzise loben und verstehen Warmherzigkeit und Strenge als gleichzeitig, nicht als Gegensatz.",
+       funktion:"Die Sprach-Schicht über der Interventionsleiter (W6). Legt das Fundament der Fehlerkultur (W21) und der Beziehungsarbeit (W29); Precise Praise kehrt in W25 und W36 wieder."},
+      {n:8, title:"Übergänge, Stundenende, Nachgespräch (+ Konsolidierung Block 1)", leitfrage:"Wie halte ich das Niveau bis zur letzten Minute – und was tue ich nach der Stunde mit Dauerstörern?",
+       lernziele:"Die TN können enge Übergänge planen (Tight Transitions), das Stundenende geordnet gestalten und ein strukturiertes Nachgespräch (W.I.N.) führen.",
+       funktion:"Block-1-Finale: schließt die letzte Lücke im Stundengerüst und liefert mit W.I.N. das Beziehungs-Reparaturwerkzeug für W23, W30 und W31. Meilenstein 1: Playbook, Kompetenzmatrix-Update, Video-Selbstanalyse Nr. 1.",
+       ms:"Meilenstein-Gespräch 1"}
+    ]
+  },
+  {
+    id:"block2", num:"Block 2", title:"Effektive Instruktion – das Grundgerüst", range:"Wochen 9–14",
+    color:"var(--c-b2)", leitquelle:"Rosenshine; Lovell R7–R9; McCrea LLP",
+    rationale:"Jetzt, wo die Klasse arbeitet, geht es um das Kerngeschäft: Erklären, Anleiten, Üben lassen – entlang Rosenshines „Principles of Instruction“. Klassenführungs-Action-Steps laufen im Coaching parallel weiter.",
+    hospitations:[{week:14,label:"Gruppenhospitation 2"}],
+    weeks:[
+      {n:9, title:"Rosenshine & die Architektur einer Stunde", leitfrage:"Wie ist eine wirksame Stunde grundsätzlich gebaut?",
+       lernziele:"Die TN können die 10 Rosenshine-Prinzipien nennen, in vier Stränge gruppieren (Reviewing, Questioning, Sequencing/Modelling, Practising) und eine eigene Stunde daraufhin auditieren.",
+       funktion:"Block-2-Auftakt: liefert das Ordnungsgerüst, in das sich W10–14 einsortieren. Das Audit-Raster wird in W32 wiederverwendet, die 80-%-Regel Referenzgröße für W12, W22, W27."},
+      {n:10, title:"Lernziele & Backwards Design – wissen, wohin", leitfrage:"Was genau sollen meine Schüler am Ende können – und woran erkenne ich es?",
+       lernziele:"Die TN können 2–5 kumulative, messbare Lern-Meilensteine für eine Stunde formulieren und von dort rückwärts planen.",
+       funktion:"Das Steuerungs-Modul: Meilensteine und Exemplar werden Referenz für Exit Tickets (W14), CFU (Block 4), Erwartungshorizonte (W34) und das Lean-Framework (W32/33)."},
+      {n:11, title:"Modellieren & Erklären – das „I do“", leitfrage:"Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können?",
+       lernziele:"Die TN können eine Modellierungsphase mit Lautem Denken, Beispielen und minimaler Sprachlast gestalten.",
+       funktion:"Herz des Sequencing-&-Modelling-Strangs. Der „Fluch des Wissens“ wird Dauerreferenz (W12, W16, W34); das Exemplar aus W10 liefert die Schrittgrößen-Diagnose."},
+      {n:12, title:"Angeleitetes Üben – das „We do“", leitfrage:"Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen?",
+       lernziele:"Die TN können eine We-do-Phase mit hoher Beteiligung, engmaschiger Prüfung und schrittweisem Ausblenden der Hilfen gestalten.",
+       funktion:"Schließt die in W9 diagnostizierte „Sprung-Lücke“. Die Fading-Treppe kehrt in W33 als Differenzierungs-Gerüst wieder; Break It Down ist die Fehler-Grammatik für No Opt Out (W23)."},
+      {n:13, title:"Selbstständiges Üben & aktives Monitoring – das „You do“", leitfrage:"Was tue ich eigentlich, während die Klasse arbeitet?",
+       lernziele:"Die TN können Stillarbeitsphasen einleiten, aktiv überwachen (Circulate/ActiveObs) und Verhaltens- wie Verständnisdaten daraus ziehen.",
+       funktion:"Vervollständigt I–We–You. ActiveObs liefert den Rohstoff für Reteaching (W26) und Whole-Class-Feedback (W34); verbindet sich mit dem Radar aus W6."},
+      {n:14, title:"Do Now & Exit Ticket – die Klammer der Stunde (+ Konsolidierung Block 2)", leitfrage:"Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen?",
+       lernziele:"Die TN können Do Nows (jetzt didaktisch, nicht nur organisatorisch) und Exit Tickets entwerfen und auswerten.",
+       funktion:"Block-2-Finale: verschraubt Anfang und Ende der Stunde mit den Meilensteinen aus W10. Basistechnik für Reteaching (W26) und Whole-Class-Feedback (W34). Block-2-Quiz als Meilenstein-Messung.",
+       gh:"Gruppenhospitation 2"}
+    ]
+  },
+  {
+    id:"block3", num:"Block 3", title:"Lernpsychologie & Gedächtnis", range:"Wochen 15–20",
+    color:"var(--c-b3)", leitquelle:"McCrea „Memorable Teaching“; Willingham",
+    rationale:"Bisher haben die TN gelernt, was funktioniert – jetzt lernen sie, warum. Das macht sie von Rezeptanwendern zu adaptiven Praktikern und immunisiert gegen Lernmythen. Vieles aus Block 1–2 wird jetzt theoretisch „rückwärts erklärt“.",
+    hospitations:[{week:20,label:"Gruppenhospitation 3"}],
+    milestones:[{week:20,label:"Meilenstein-Gespräch 2"}],
+    weeks:[
+      {n:15, title:"Gedächtnisarchitektur", leitfrage:"Was passiert im Kopf, wenn jemand etwas lernt – und was folgt daraus für jede Unterrichtsentscheidung?",
+       lernziele:"Die TN können das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären, den Engpass Arbeitsgedächtnis benennen und Unterrichtsphänomene damit deuten.",
+       funktion:"Block-3-Auftakt und Perspektivwechsel: Block 1–2 werden „rückwärts erklärt“. Das Diagnose-Raster wird Deutungsbrille für W16–20; die Mythen-Impfung schützt vor Lehrerzimmer-Folklore."},
+      {n:16, title:"Kognitive Last managen", leitfrage:"Wie halte ich den Denk-Kanal frei für das, worauf es ankommt?",
+       lernziele:"Die TN können Material und eigene Kommunikation auf überflüssige Last prüfen (Redundanz, Split Attention, Transienz) und Dual Coding korrekt einsetzen.",
+       funktion:"Operationalisiert den Arbeitsgedächtnis-Flaschenhals aus W15 zum Material-Handwerk. Liefert die Begründung für W11-Regeln und W13-Startbedingungen."},
+      {n:17, title:"Aufmerksamkeit lenken – präzise orientieren", leitfrage:"Wie stelle ich sicher, dass alle über das Richtige nachdenken?",
+       lernziele:"Die TN können Aufmerksamkeit gezielt ausrichten (verbal, visuell, strukturell) und Denkaufträge so formulieren, dass das Gedachte das Gelernte ist.",
+       funktion:"Schließt den Bogen von Modell 3 (W1) über W15 zum Handwerk. Das „Aufgaben-Röntgen“ wird Prüfwerkzeug für alle künftigen Aufgabenformate (W18, W24, W34)."},
+      {n:18, title:"Retrieval Practice – Abrufen schlägt Wiederlesen", leitfrage:"Warum ist Erinnern-Müssen die stärkste Lernaktivität – und wie baue ich sie ein?",
+       lernziele:"Die TN können den Testing Effect erklären und mindestens drei Retrieval-Routinen unterrichtspraktisch einsetzen (Quiz, Brain Dump, Frage-Klassiker).",
+       funktion:"Der Zahltag des Blocks: Die seit W3 gelebte Do-Now-Praxis bekommt ihre Theorie. Die Benotungsfrei-Regel bereitet die Fehlerkultur (W21) vor."},
+      {n:19, title:"Spacing & Interleaving", leitfrage:"Wann sollte ich wiederholen – und warum ist „etwas vergessen haben“ ideal?",
+       lernziele:"Die TN können Wiederholung über Wochen verteilen (kumulative Quizze) und Übungssets verschränken (Interleaving) und den Unterschied Lernleistung vs. Lernen erklären.",
+       funktion:"Die zeitliche Dimension des Retrieval. Die Wiederholungs-Landkarte wird Planungswerkzeug für W33; die kumulative Prüfungsregel verändert das Klassenarbeits-Design (W34)."},
+      {n:20, title:"Elaboration & Wissensorganisation (+ Konsolidierung Block 3)", leitfrage:"Wie helfe ich Schülern, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge des Blocks weiter?",
+       lernziele:"Die TN können Elaborationsaufträge stellen (Warum-Fragen, Vergleiche, Beispiele generieren), einen Knowledge Organizer bauen und Metakognition anbahnen.",
+       funktion:"Block-3-Finale: Elaboration schließt den Kreis zu Schema (W15); Metakognition übergibt die Blockwerkzeuge an die Schüler. Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2, Video-Selbstanalyse Nr. 2.",
+       gh:"Gruppenhospitation 3", ms:"Meilenstein-Gespräch 2"}
+    ]
+  },
+  {
+    id:"block4", num:"Block 4", title:"Verstehen prüfen & Denkbeteiligung", range:"Wochen 21–26",
+    color:"var(--c-b4)", leitquelle:"Lemov Kap. 3, 7, 8 (CFU & Ratio)",
+    rationale:"Der Sprung von „gut erklären“ zu „wissen, ob es ankommt, und alle denken lassen“. Cold Call & Co. funktionieren erst auf Basis von Klassenkultur (Block 1) und Fehlerkultur (W21) – deshalb bewusst in der zweiten Jahreshälfte, direkt nach den Winterferien.",
+    hospitations:[{week:26,label:"Gruppenhospitation 4 (Peer)"}],
+    weeks:[
+      {n:21, title:"Kultur des Fehlers & Schluss mit Selbstauskunft", leitfrage:"Wie mache ich Fehler zur wertvollsten Ressource der Stunde?",
+       lernziele:"Die TN können eine Fehlerkultur aktiv gestalten (Sprache, Reaktion, Normen) und ersetzen Selbstauskunfts-Fragen durch echte Verständnisprüfung.",
+       funktion:"Block-4-Fundament: ohne Fehlerkultur werden alle CFU-Techniken (W22–26) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge mit der Datenlogik aus Block 2/3."},
+      {n:22, title:"Cold Call & Wait Time – alle denken mit", leitfrage:"Wie sorge ich dafür, dass alle denken, nicht nur die fünf Melder?",
+       lernziele:"Die TN können Cold Call warm, vorhersagbar und positiv einsetzen und produktive Wartezeit gestalten.",
+       funktion:"Das Signatur-Werkzeug von Block 4. Baut zwingend auf W21 und Block 1 auf. Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in W29 wieder)."},
+      {n:23, title:"No Opt Out & Right is Right – Anspruch halten", leitfrage:"Was tue ich, wenn die Antwort „weiß nicht“ oder nur halbrichtig ist?",
+       lernziele:"Die TN können die No-Opt-Out-Schleife führen (von „weiß nicht“ zurück zur Ausgangsperson) und den Standard halten, bis Antworten wirklich vollständig sind.",
+       funktion:"Vervollständigt Cold Call zum geschlossenen System. Right is Right braucht das Exemplar (W10); Break It Down (W12) liefert die Hilfe-Grammatik der Schleife."},
+      {n:24, title:"Turn and Talk & Everybody Writes – Denk-Ratio maximieren", leitfrage:"Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %?",
+       lernziele:"Die TN können Partnergespräche eng führen (Timing, Aufgabe, Einsammeln) und Schreiben als Denkwerkzeug vor Diskussionen einsetzen.",
+       funktion:"Skaliert die Einzeltechniken (W22/23) auf die ganze Klasse. Everybody Writes liefert das Material für Show Call (W25); nutzt komplett das W3/W4-Handwerk."},
+      {n:25, title:"Show Me, Affirmative Checking & Show Call", leitfrage:"Wie sehe ich in Echtzeit, was 30 Köpfe denken – und wie nutze ich Schülerarbeiten öffentlich?",
+       lernziele:"Die TN können All-Response-Formate (Whiteboards, Fingerzeichen, ABCD-Karten) einsetzen, Checkpoints einbauen und Schülerarbeiten respektvoll projizieren und besprechen.",
+       funktion:"Macht Whiteboards (seit W12 genutzt) zur vollwertigen Technik und führt Show Call ein – möglich erst jetzt, weil Fehlerkultur (W21) und Everybody-Writes-Material (W24) vorliegen."},
+      {n:26, title:"Vom Datum zur Entscheidung – Reteaching & Own and Track (+ Konsolidierung Block 4)", leitfrage:"Was mache ich mit all den Daten – heute, morgen, vor der Klassenarbeit?",
+       lernziele:"Die TN können Exit-Ticket-/CFU-Daten in konkrete Reteach-Entscheidungen übersetzen und Fehlerkorrektur in Schülerhand geben.",
+       funktion:"Block-4-Finale: schließt den Datenkreislauf Sehen (W25) → Entscheiden → Handeln. Own and Track verlängert die Fehlerkultur (W21) und wird in W34 wiederaufgenommen. Erste Peer-Hospitation.",
+       gh:"Gruppenhospitation 4 (Peer)"}
+    ]
+  },
+  {
+    id:"block5", num:"Block 5", title:"Motivation & Beziehung", range:"Wochen 27–31",
+    color:"var(--c-b5)", leitquelle:"McCrea „Motivated Teaching“; Lemov Kap. 9",
+    rationale:"Jetzt haben die TN die Werkzeuge – dieser Block erklärt den sozialen Motor dahinter und schließt Lücken, die Technik allein nicht löst: hartnäckige Motivationsprobleme, schwierige Einzelfälle, Eltern. Zeitlich bewusst im Frühjahrs-Motivationsloch.",
+    hospitations:[{week:31,label:"Gruppenhospitation 5 (Peer)"}],
+    weeks:[
+      {n:27, title:"Wie Motivation funktioniert – Treiber 1: Erfolg sichern", leitfrage:"Warum strengen sich Menschen an – und warum ist Können der stärkste Motivator?",
+       lernziele:"Die TN können Motivation als Investitionssystem für Aufmerksamkeit erklären und den Treiber „Secure Success“ gezielt bedienen.",
+       funktion:"Block-5-Auftakt nach den Osterferien. Ersetzt „motiviert/unmotiviert als Eigenschaft“ durch eine analysierbare Mechanik – Deutungswerkzeug für W28–31. Verbindet Motivation mit dem Instruktions-Handwerk aus Block 2."},
+      {n:28, title:"Treiber 2 & 3 – Routinen entlasten, Normen lenken", leitfrage:"Wie senke ich die Kosten des Lernens – und wie mache ich Anstrengung zur Gruppennorm?",
+       lernziele:"Die TN können ihre Routinen (Block 1) als Motivationsinstrument reinterpretieren und Normen sichtbar steuern.",
+       funktion:"Das „Aha des Jahres“: Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar. Show Call bekommt seinen zweiten Job als Normen-Maschine."},
+      {n:29, title:"Treiber 4 – Zugehörigkeit & Gesehen-Werden", leitfrage:"Wie sorge ich dafür, dass sich jede:r Einzelne zugehörig, gesehen und ernst genommen fühlt?",
+       lernziele:"Die TN können konkrete Belonging-Praktiken einsetzen (Namen, Begrüßung, Status-Signale, gemeinsame Identität) und Vertrauensaufbau als tägliche Kleinarbeit verstehen.",
+       funktion:"Der Beziehungs-Treiber wird vom Gefühl zum Handwerk. Verlängert die Beteiligungs-Heatmap (W22) in die Beziehungsdimension."},
+      {n:30, title:"Treiber 5 & schwierige Einzelfälle – Buy-in, Eskalation, Systemgrenzen", leitfrage:"Wie gewinne ich echte Zustimmung – und was tue ich, wenn nichts mehr greift?",
+       lernziele:"Die TN können Wahlarchitektur/Begründungen einsetzen (Buy-in), kennen die Eskalationskette bei massiven Störungen und wissen, wann und wie sie Systemhilfe holen.",
+       funktion:"Die Ernstfall-Sitzung: schließt die in W6 offen gelassene Eskalationsstufe. Entlastender Kernsatz: Hilfe holen ist Handwerk, kein Versagen."},
+      {n:31, title:"Elternarbeit & Gesprächsführung (+ Konsolidierung Block 5)", leitfrage:"Wie führe ich Elterngespräche, die Verbündete schaffen statt Fronten?",
+       lernziele:"Die TN können Elterngespräche strukturiert vorbereiten und führen (auch Konfliktgespräche), kennen deutsche Formate (Elternsprechtag, Elternabend) und dokumentieren rechtssicher.",
+       funktion:"Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Jahres auf Erwachsene – die TN können die Struktur längst (W.I.N. als Vorlage). Block-5-Quiz + Matrix-Update.",
+       gh:"Gruppenhospitation 5 (Peer)"}
+    ]
+  },
+  {
+    id:"block6", num:"Block 6", title:"Planung, Arbeitsökonomie & nachhaltige Entwicklung", range:"Wochen 32–36",
+    color:"var(--c-b6)", leitquelle:"McCrea „Lean Lesson Planning“",
+    rationale:"Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: effizient planen, klug bewerten, sich selbst weiterentwickeln – jetzt, weil Planungsökonomie die Urteilskraft voraussetzt, die erst jetzt vorhanden ist.",
+    milestones:[{week:36,label:"Abschlusskolloquium / Meilenstein 3"}],
+    weeks:[
+      {n:32, title:"Lean Lesson Planning – die schlanke Planungsroutine", leitfrage:"Wie plane ich gute Stunden in 20 statt 90 Minuten?",
+       lernziele:"Die TN können das Lean-Framework als feste Planungsroutine anwenden und unterscheiden, welche Planungsteile Routine und welche Kreativität verdienen.",
+       funktion:"Block-6-Auftakt: Fokus dreht sich von den Schülern zur Lehrkraft selbst (Nachhaltigkeit). Lean adelt das W14-Template zum Zeitspar-Werkzeug; Wettmessen mit dem W9-Audit als Qualitätsbeweis."},
+      {n:33, title:"In Sequenzen denken – Einheiten, Doppelplanung, Differenzierung light", leitfrage:"Wie plane ich Einheiten statt Einzelstunden – und wie plane ich mit, was die Schüler tun?",
+       lernziele:"Die TN können eine Unterrichtseinheit rückwärts vom Leistungsnachweis planen, Wiederholung einbauen (Restorative Planning) und Doppelplanung anwenden.",
+       funktion:"Hebt Lean von der Stunde auf die Einheit. Die Klassenarbeit wird zuerst skizziert – entschärft nebenbei die W34-Korrekturlast. Differenzierung wird pragmatisch eingebaut."},
+      {n:34, title:"Bewerten, Korrigieren, Feedback – wirksam UND ökonomisch", leitfrage:"Wie gebe ich Feedback, das Lernen bewegt, ohne in Korrekturbergen zu ertrinken?",
+       lernziele:"Die TN können Whole-Class-Feedback einsetzen, Korrekturaufwand strategisch dosieren und kennen die Grundzüge fairer Leistungsbewertung im deutschen System.",
+       funktion:"Der zweite große Entlastungs-Hebel von Block 6. Bündelt vier Jahres-Werkzeuge (Own and Track, Show Call, Exemplar, CFU-Daten) zu einem Verfahren; verankert in deutschen Bewertungsvorgaben."},
+      {n:35, title:"Growth Teaching – die eigene Entwicklung selbst steuern", leitfrage:"Wie werde ich nach diesem Programm von allein weiter besser?",
+       lernziele:"Die TN können Videoselbstanalyse eigenständig durchführen, sich eigene Action Steps setzen, kollegiale Lernstrukturen nutzen und haben einen persönlichen Entwicklungsplan für Jahr 2.",
+       funktion:"Die Übergabe-Sitzung: Das Programm legt seine eigene Bauweise offen (Meta-Ebene) und übergibt die Selbststeuerungs-Werkzeuge. Video-Selbstanalyse Nr. 3 läuft in Tandems, Coach-Rolle wandert zum Peer."},
+      {n:36, title:"Abschluss-Kolloquium & Zertifikat", leitfrage:"Was hat sich in einem Jahr verändert – sichtbar, belegbar, feierbar?",
+       lernziele:"Jede:r Teilnehmende präsentiert die eigene Entwicklung anhand zweier Videoausschnitte (Woche 1 vs. aktuell), Kompetenzmatrix final im Vergleich zu W0/W20, Programm-Feedback für die nächste Kohorte, Zertifikatsübergabe.",
+       funktion:"Programm-Finale in eigenem Format: Bilanz, Würdigung, Staffelübergabe. Verankert per öffentlichem Commitment auf Jahr 2, motiviert durch den Vorher/Nachher-Beweis, macht die Schule zum Zeugen.",
+       ms:"Abschlusskolloquium / Meilenstein 3"}
+    ]
+  }
+];
+
+// ---------- collapse helpers (avoid clipped content on nested accordions) ----------
+// Problem this solves: a fixed pixel max-height set on the outer block-body (measured
+// while all week-cards were collapsed) does not grow when a week-card inside it later
+// expands, so the outer overflow:hidden clips the newly revealed content. Fix: once an
+// element's open-transition finishes, release it to max-height:none so nested growth is
+// never clipped again; when closing, snap back to a pixel value first so the close
+// transition still has something to animate from.
+function openCollapse(el){
+  if(el.style.maxHeight === 'none') return;
+  el.style.maxHeight = el.scrollHeight + 'px';
+  const onEnd = (e)=>{
+    if(e.target===el && e.propertyName==='max-height'){
+      el.style.maxHeight = 'none';
+      el.removeEventListener('transitionend', onEnd);
+    }
+  };
+  el.addEventListener('transitionend', onEnd);
+}
+function closeCollapse(el){
+  if(el.style.maxHeight === 'none' || el.style.maxHeight === ''){
+    el.style.maxHeight = el.scrollHeight + 'px';
+    void el.offsetHeight; // force reflow so the browser has a real starting point
+  }
+  requestAnimationFrame(()=>{ el.style.maxHeight = '0px'; });
+}
+
+// ---------- render flowchart ----------
+const legend = document.getElementById('flowLegend');
+legend.innerHTML = DATA.map(b=>`<span><i class="dot" style="background:${b.color}"></i>${b.num}</span>`).join('')
+  + `<span><i class="mark">🚩</i>Gruppenhospitation</span><span><i class="mark">★</i>Meilenstein-Gespräch</span>`;
+
+const chain = document.getElementById('blockChain');
+DATA.forEach((b,i)=>{
+  const node = document.createElement('div');
+  node.className='block-node';
+  node.style.background = b.color;
+  node.innerHTML = `<div class="bnum">${b.num}</div><div class="btitle">${b.title}</div><div class="brange">${b.range}</div>`;
+  node.addEventListener('click',()=>{
+    document.querySelector('[data-target="bloecke"]').click();
+    setTimeout(()=>{
+      const header = document.querySelector(`.block-header[data-id="${b.id}"]`);
+      if(header){ header.scrollIntoView({behavior:'smooth', block:'start'}); if(!header.classList.contains('open')) header.click(); }
+    },80);
+  });
+  chain.appendChild(node);
+  if(i<DATA.length-1){
+    const arrow=document.createElement('div');
+    arrow.className='arrow'; arrow.textContent='→';
+    chain.appendChild(arrow);
+  }
+});
+
+// markers row aligned under each block-node proportionally by week span within its own segment
+const markersRow = document.getElementById('markersRow');
+DATA.forEach((b,i)=>{
+  const track=document.createElement('div');
+  track.className='marker-track';
+  const wk = b.weeks;
+  const first = wk[0].n === "Auftakt" ? 0 : wk[0].n;
+  const last = wk[wk.length-1].n;
+  const span = Math.max(last-first,1);
+  const pips=[];
+  (b.hospitations||[]).forEach(h=>pips.push({week:h.week,icon:'🚩',label:h.label}));
+  (b.milestones||[]).forEach(m=>pips.push({week:m.week,icon:'★',label:m.label}));
+  pips.forEach(p=>{
+    const pct = ((p.week-first)/span)*100;
+    const el=document.createElement('div');
+    el.className='pip';
+    el.style.left = Math.min(Math.max(pct,4),96)+'%';
+    el.title = p.label;
+    el.innerHTML = `<span>${p.icon}</span><span class="lbl">W${p.week}</span>`;
+    track.appendChild(el);
+  });
+  markersRow.appendChild(track);
+  if(i<DATA.length-1){
+    const spacer=document.createElement('div');
+    spacer.className='arrow-spacer';
+    markersRow.appendChild(spacer);
+  }
+});
+
+// ---------- render blocks & weeks ----------
+const container = document.getElementById('blocksContainer');
+DATA.forEach(b=>{
+  const panel=document.createElement('div');
+  panel.className='block-panel';
+
+  const header=document.createElement('div');
+  header.className='block-header';
+  header.dataset.id=b.id;
+  header.style.background=b.color;
+  header.innerHTML=`
+    <div class="left">
+      <div class="bnum2">${typeof b.num==='string'&&b.num.includes(' ')?b.num.split(' ')[1]||b.num:b.num}</div>
+      <div>
+        <h3>${b.title}</h3>
+        <div class="brange2">${b.range} · Leitquelle: ${b.leitquelle}</div>
+      </div>
+    </div>
+    <div class="chev">▾</div>`;
+
+  const body=document.createElement('div');
+  body.className='block-body';
+  const inner=document.createElement('div');
+  inner.className='block-body-inner';
+  inner.innerHTML = `<p class="block-rationale">${b.rationale}</p>`;
+
+  const grid=document.createElement('div');
+  grid.className='week-grid';
+  b.weeks.forEach(w=>{
+    const card=document.createElement('div');
+    card.className='week-card';
+    card.dataset.search = (w.title+' '+w.leitfrage+' '+w.lernziele+' '+w.funktion).toLowerCase();
+    const tags = [w.gh?`<span class="tag gh">🚩 ${w.gh}</span>`:'', w.ms?`<span class="tag ms">★ ${w.ms}</span>`:''].join('');
+    card.innerHTML = `
+      <div class="wc-head">
+        <div class="wc-badge" style="background:${b.color}">${w.n}</div>
+        <div class="wc-titles">
+          <p class="wc-title">${w.title}</p>
+          <p class="wc-leitfrage">${w.leitfrage}</p>
+          <div class="wc-tags">${tags}</div>
+        </div>
+      </div>
+      <div class="wc-body"><div class="wc-body-inner">
+        <h4>Lernziele</h4><p>${w.lernziele}</p>
+        <h4>Roter Faden</h4><p>${w.funktion}</p>
+      </div></div>`;
+    const head = card.querySelector('.wc-head');
+    const bodyEl = card.querySelector('.wc-body');
+    head.addEventListener('click',()=>{
+      const isOpen = card.classList.toggle('open');
+      if(isOpen){ openCollapse(bodyEl); } else { closeCollapse(bodyEl); }
+    });
+    grid.appendChild(card);
+  });
+  inner.appendChild(grid);
+  body.appendChild(inner);
+  header.addEventListener('click',()=>{
+    const isOpen = header.classList.toggle('open');
+    if(isOpen){ openCollapse(body); } else { closeCollapse(body); }
+  });
+  panel.appendChild(header);
+  panel.appendChild(body);
+  container.appendChild(panel);
+});
+
+// open block 1 by default
+document.querySelector('.block-header[data-id="block1"]').click();
+
+// expand/collapse all
+document.getElementById('expandAll').addEventListener('click',()=>{
+  // bulk action: show everything immediately (max-height:none), no clipping possible
+  document.querySelectorAll('.block-header').forEach(h=>h.classList.add('open'));
+  document.querySelectorAll('.block-body').forEach(b=>{ b.style.maxHeight='none'; });
+  document.querySelectorAll('.week-card').forEach(c=>{
+    c.classList.add('open');
+    c.querySelector('.wc-body').style.maxHeight='none';
+  });
+});
+document.getElementById('collapseAll').addEventListener('click',()=>{
+  document.querySelectorAll('.week-card.open').forEach(c=>{
+    c.classList.remove('open');
+    c.querySelector('.wc-body').style.maxHeight='0px';
+  });
+  document.querySelectorAll('.block-header.open').forEach(h=>{
+    h.classList.remove('open');
+    h.nextElementSibling.style.maxHeight='0px';
+  });
+});
+
+// search
+document.getElementById('search').addEventListener('input',(e)=>{
+  const q = e.target.value.trim().toLowerCase();
+  document.querySelectorAll('.block-panel').forEach(panel=>{
+    let anyMatch=false;
+    panel.querySelectorAll('.week-card').forEach(card=>{
+      const match = !q || card.dataset.search.includes(q);
+      card.classList.toggle('dim', !match);
+      if(match) anyMatch=true;
+      if(q && match){
+        card.classList.add('open');
+        card.querySelector('.wc-body').style.maxHeight = 'none';
+      }
+    });
+    const header = panel.querySelector('.block-header');
+    const body = panel.querySelector('.block-body');
+    if(q){
+      if(anyMatch){ header.classList.add('open'); body.style.maxHeight = 'none'; }
+      else { header.classList.remove('open'); body.style.maxHeight = '0px'; }
+      panel.style.display = anyMatch ? '' : 'none';
+    } else {
+      panel.style.display='';
+    }
+  });
+});
+
+// tabs
+document.querySelectorAll('nav.tabs button').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.target).scrollIntoView({behavior:'smooth', block:'start'});
+  });
+});
+</script>
+</body>
+</html>

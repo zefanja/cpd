@@ -149,6 +149,23 @@ function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.copyFileSync(STYLE_SRC, path.join(OUT_DIR, "style.css"));
 
+  // Fertige, eigenständige HTML-Seiten direkt in src/ (z.B. interaktive
+  // Präsentations-Überblicke) werden unverändert nach docs/ kopiert und als
+  // eigene Gruppe ganz oben auf der Startseite verlinkt.
+  const overviewHtmlFiles = fs
+    .readdirSync(SRC_DIR)
+    .filter((f) => f.toLowerCase().endsWith(".html"))
+    .sort(naturalCompare);
+
+  const overviewDocs = overviewHtmlFiles.map((file) => {
+    const srcPath = path.join(SRC_DIR, file);
+    const html = fs.readFileSync(srcPath, "utf8");
+    const title = extractHtmlTitle(html, file.replace(/\.html$/i, ""));
+    fs.writeFileSync(path.join(OUT_DIR, file), html);
+    console.log(`kopiert: src/${file} -> docs/${file}`);
+    return { title, href: file };
+  });
+
   const allMdFiles = fs
     .readdirSync(SRC_DIR)
     .filter((f) => f.toLowerCase().endsWith(".md"))
@@ -213,6 +230,10 @@ function main() {
   });
   if (spaDocs.length > 0) {
     groups.push({ title: "Interaktive Module (SPAs)", docs: spaDocs });
+  }
+
+  if (overviewDocs.length > 0) {
+    groups.unshift({ title: "Überblick", docs: overviewDocs });
   }
 
   fs.writeFileSync(path.join(OUT_DIR, "index.html"), indexTemplate({ groups }));
