@@ -53,6 +53,22 @@ code.token{
 .badge.progress{background:#FCEFD9;color:var(--amber)}
 .badge.done{background:var(--petrol-soft);color:var(--petrol)}
 .matrix input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--petrol)}
+.matrix-scroll{overflow-x:auto;overflow-y:hidden}
+.matrix{width:auto;border-collapse:collapse}
+.matrix th,.matrix td{white-space:nowrap;padding:.45rem .5rem}
+.matrix th:not(.rowhead),.matrix td:not(.rowhead){text-align:center;min-width:2.6rem}
+.matrix th.rowhead,.matrix td.rowhead{
+  position:sticky;left:0;background:var(--card);border-right:1px solid var(--line);
+  min-width:9rem;max-width:14rem;white-space:normal;
+}
+.matrix .rowhead .sub{display:block;color:var(--muted);font-size:.78rem;font-weight:400}
+.matrix th abbr{text-decoration:none;border-bottom:1px dotted var(--muted);cursor:help;font-weight:700}
+.matrix th .colToggleAll{display:block;margin:0 auto .3rem}
+.toggle-line{
+  display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:var(--muted);
+  margin-bottom:1rem;cursor:pointer;user-select:none;
+}
+.toggle-line input{width:1.05rem;height:1.05rem;accent-color:var(--petrol)}
 input.nameEdit{
   width:100%;padding:.35rem .5rem;border:1.5px solid transparent;border-radius:6px;
   font-size:.9rem;font-family:inherit;background:none;color:var(--ink);
@@ -74,8 +90,6 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 }
 .course-card input.courseNameEdit{font-weight:600;padding:.3rem .35rem;text-overflow:ellipsis}
 .course-card .badge{align-self:flex-start}
-.matrix td,.matrix th{text-align:center}
-.matrix td:first-child,.matrix th:first-child{text-align:left}
 .msg{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;margin-top:.8rem}
 .msg.error{background:#FBEAE7;color:#8a3220}
 .msg.hidden{display:none}
@@ -160,6 +174,7 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 
   <section id="progressSection">
     <h2>Fortschritt</h2>
+    <label class="toggle-line"><input type="checkbox" id="hideDoneModules"> Erledigte Module ausblenden</label>
     <div id="progressWrap"><p class="muted">Lade …</p></div>
   </section>
 
@@ -392,7 +407,25 @@ document.getElementById('teacherForm').addEventListener('submit', async function
   loadAll();
 });
 
+/* ---------- Modul-Matrizen (Sichtbarkeit & Fortschritt) ---------- */
+function moduleHeaderCell(m, colToggle) {
+  var short = String(m.sort_order);
+  var full = m.title.replace(/^Modul \d+ · /, '');
+  var toggle = colToggle ? '<input type="checkbox" class="colToggleAll" data-module="' + m.id + '" title="Modul für alle Kurse an-/abwählen">' : '';
+  return '<th title="' + esc(full) + '">' + toggle + '<abbr>W' + esc(short) + '</abbr></th>';
+}
+
 /* ---------- Sichtbarkeit ---------- */
+function updateColToggleState(wrap, moduleId) {
+  var colBox = wrap.querySelector('.colToggleAll[data-module="' + moduleId + '"]');
+  if (!colBox) return;
+  var rowBoxes = wrap.querySelectorAll('.visToggle[data-module="' + moduleId + '"]');
+  var checkedCount = 0;
+  rowBoxes.forEach(function (rb) { if (rb.checked) checkedCount++; });
+  colBox.checked = checkedCount > 0 && checkedCount === rowBoxes.length;
+  colBox.indeterminate = checkedCount > 0 && checkedCount < rowBoxes.length;
+}
+
 function renderVisibilityMatrix() {
   var wrap = document.getElementById('visibilityWrap');
   if (db.courses.length === 0 || db.modules.length === 0) {
@@ -402,28 +435,49 @@ function renderVisibilityMatrix() {
   var visMap = {};
   db.courseModules.forEach(function (cm) { visMap[cm.course_id + ':' + cm.module_id] = cm.visible; });
 
-  var html = '<table class="matrix"><thead><tr><th>Kurs</th>' +
-    db.modules.map(function (m) { return '<th>' + esc(m.title.replace(/^Modul \d+ · /, '')) + '</th>'; }).join('') +
+  var html = '<div class="matrix-scroll"><table class="matrix"><thead><tr><th class="rowhead">Kurs</th>' +
+    db.modules.map(function (m) { return moduleHeaderCell(m, true); }).join('') +
     '</tr></thead><tbody>';
   db.courses.forEach(function (c) {
-    html += '<tr><td>' + esc(c.name) + '</td>';
+    html += '<tr><td class="rowhead">' + esc(c.name) + '</td>';
     db.modules.forEach(function (m) {
       var checked = !!visMap[c.id + ':' + m.id];
       html += '<td><input type="checkbox" class="visToggle" data-course="' + c.id + '" data-module="' + m.id + '"' + (checked ? ' checked' : '') + '></td>';
     });
     html += '</tr>';
   });
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   wrap.innerHTML = html;
 
   wrap.querySelectorAll('.visToggle').forEach(function (box) {
     box.addEventListener('change', async function (e) {
+      var moduleId = e.target.dataset.module;
       await client.from('course_modules').upsert({
         course_id: e.target.dataset.course,
-        module_id: e.target.dataset.module,
+        module_id: moduleId,
         visible: e.target.checked,
       }, { onConflict: 'course_id,module_id' });
       db.courseModules = (await client.from('course_modules').select('course_id,module_id,visible')).data || [];
+      updateColToggleState(wrap, moduleId);
+    });
+  });
+
+  wrap.querySelectorAll('.colToggleAll').forEach(function (colBox) {
+    var moduleId = colBox.dataset.module;
+    updateColToggleState(wrap, moduleId);
+    colBox.addEventListener('change', async function (e) {
+      var newVal = e.target.checked;
+      var rowBoxes = wrap.querySelectorAll('.visToggle[data-module="' + moduleId + '"]');
+      rowBoxes.forEach(function (rb) { rb.checked = newVal; });
+      await Promise.all(Array.from(rowBoxes).map(function (rb) {
+        return client.from('course_modules').upsert({
+          course_id: rb.dataset.course,
+          module_id: moduleId,
+          visible: newVal,
+        }, { onConflict: 'course_id,module_id' });
+      }));
+      db.courseModules = (await client.from('course_modules').select('course_id,module_id,visible')).data || [];
+      e.target.indeterminate = false;
     });
   });
 }
@@ -434,6 +488,13 @@ function statusFor(state) {
   if (state.submitted) return { cls: 'done', label: '✓ eingereicht' };
   if (state.screen && state.screen > 0) return { cls: 'progress', label: 'in Bearbeitung' };
   return { cls: 'open', label: 'offen' };
+}
+
+function moduleFullyDone(m, progMap) {
+  return db.teachers.every(function (t) {
+    var entry = progMap[t.id + ':' + m.id];
+    return !!(entry && entry.state && entry.state.submitted);
+  });
 }
 
 function renderProgress() {
@@ -447,12 +508,21 @@ function renderProgress() {
   var courseName = {};
   db.courses.forEach(function (c) { courseName[c.id] = c.name; });
 
-  var html = '<table class="matrix"><thead><tr><th>Lehrkraft</th><th>Kurs</th>' +
-    db.modules.map(function (m) { return '<th>' + esc(m.title.replace(/^Modul \d+ · /, '')) + '</th>'; }).join('') +
+  var hideDone = document.getElementById('hideDoneModules').checked;
+  var modules = hideDone ? db.modules.filter(function (m) { return !moduleFullyDone(m, progMap); }) : db.modules;
+
+  if (modules.length === 0) {
+    wrap.innerHTML = '<p class="muted">Alle Module wurden von allen Lehrkräften eingereicht.</p>';
+    return;
+  }
+
+  var html = '<div class="matrix-scroll"><table class="matrix"><thead><tr><th class="rowhead">Lehrkraft</th>' +
+    modules.map(function (m) { return moduleHeaderCell(m); }).join('') +
     '</tr></thead><tbody>';
   db.teachers.forEach(function (t) {
-    html += '<tr><td>' + esc(t.name) + '</td><td>' + esc(courseName[t.course_id] || '–') + '</td>';
-    db.modules.forEach(function (m) {
+    html += '<tr><td class="rowhead">' + esc(t.name) +
+      '<span class="sub">' + esc(courseName[t.course_id] || '–') + '</span></td>';
+    modules.forEach(function (m) {
       var entry = progMap[t.id + ':' + m.id];
       var st = statusFor(entry && entry.state);
       var title = entry ? 'Zuletzt aktualisiert: ' + new Date(entry.updated_at).toLocaleString('de-DE') : '';
@@ -465,7 +535,7 @@ function renderProgress() {
     });
     html += '</tr>';
   });
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   wrap.innerHTML = html;
 
   wrap.querySelectorAll('.cell-open').forEach(function (btn) {
@@ -474,6 +544,7 @@ function renderProgress() {
     });
   });
 }
+document.getElementById('hideDoneModules').addEventListener('change', renderProgress);
 
 /* ---------- Antworten-Ansicht ---------- */
 function openAnswers(teacherId, moduleId) {
