@@ -38,6 +38,11 @@ h1{font-family:var(--display);font-size:1.5rem;margin-bottom:1.5rem}
 .badge.progress{background:#FCEFD9;color:var(--amber)}
 .badge.done{background:var(--petrol-soft);color:var(--petrol)}
 .empty,.loading{color:var(--muted);padding:2rem 0;text-align:center}
+.toggle-line{
+  display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:var(--muted);
+  margin-bottom:1rem;cursor:pointer;user-select:none;
+}
+.toggle-line input{width:1.05rem;height:1.05rem;accent-color:var(--petrol)}
 </style>
 </head>
 <body>
@@ -50,6 +55,7 @@ h1{font-family:var(--display);font-size:1.5rem;margin-bottom:1.5rem}
 </header>
 <main>
   <h1>Meine Module</h1>
+  <label class="toggle-line"><input type="checkbox" id="hideDoneModules"> Erledigte Module ausblenden</label>
   <div id="content" class="loading">Lade …</div>
 </main>
 
@@ -83,6 +89,8 @@ function statusFor(state) {
   if (state.screen && state.screen > 0) return { cls: 'progress', label: 'In Bearbeitung' };
   return { cls: 'open', label: 'Noch nicht begonnen' };
 }
+
+var moduleStates = [];
 
 async function load() {
   var content = document.getElementById('content');
@@ -126,21 +134,43 @@ async function load() {
   var moduleIdByKey = {};
   (cmRes.data || []).forEach(function (row) { moduleIdByKey[row.modules.key] = row.module_id; });
 
+  moduleStates = modules.map(function (m) {
+    return { module: m, status: statusFor(progressByModuleId[moduleIdByKey[m.key]]) };
+  });
+
+  render();
+}
+
+function render() {
+  var content = document.getElementById('content');
+  var hideDone = document.getElementById('hideDoneModules').checked;
+  var visible = hideDone
+    ? moduleStates.filter(function (ms) { return ms.status.cls !== 'done'; })
+    : moduleStates;
+
+  if (visible.length === 0) {
+    content.className = 'empty';
+    content.textContent = 'Keine Module zum Anzeigen.';
+    return;
+  }
+
   var list = document.createElement('div');
   list.className = 'card-list';
-  modules.forEach(function (m) {
-    var st = statusFor(progressByModuleId[moduleIdByKey[m.key]]);
+  visible.forEach(function (ms) {
     var a = document.createElement('a');
     a.className = 'mod-card';
-    a.href = m.file;
+    a.href = ms.module.file;
     a.innerHTML =
-      '<div><div class="mod-title">' + escapeHtml(m.title) + '</div>' +
-      '<span class="badge ' + st.cls + '">' + st.label + '</span></div><div>&rarr;</div>';
+      '<div><div class="mod-title">' + escapeHtml(ms.module.title) + '</div>' +
+      '<span class="badge ' + ms.status.cls + '">' + ms.status.label + '</span></div><div>&rarr;</div>';
     list.appendChild(a);
   });
 
-  content.replaceWith(list);
+  content.className = '';
+  content.replaceChildren(list);
 }
+
+document.getElementById('hideDoneModules').addEventListener('change', render);
 </script>
 </body>
 </html>
