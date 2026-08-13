@@ -1,5 +1,5 @@
 # Skript Woche 27: „Motivations-Mechanik & Treiber 1: Secure Success"
-## 60-Minuten-Sitzung · Block 5 (Auftakt) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 5 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -62,7 +62,7 @@ Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleic
 ## Phase 5 · Do it (Minute 33–52)
 
 ### Runde 1 · EVK-Fallanalyse am eigenen Schüler (Min. 33–45)
-Einzelarbeit auf dem Analysebogen (Anhang 1.2): Jede:r wählt den eigenen „Evie-Fall" (diskret, kein Name auf dem Bogen nötig) und analysiert: E aus SEINER Sicht (Belege: Misserfolgsgeschichte? Vermeidungsverhalten?), W aus seiner Sicht, K aus seiner Sicht (Blamage-Risiko!). Dann: Welcher Faktor ist der Engpass – und welche EINE Maßnahme aus dem Besteck adressiert ihn? Tandem-Beratung (4 Min.): Partner prüft mit zwei Fragen: **„Ist deine Diagnose aus SEINER Sicht geschrieben – oder aus deiner?"** und **„Adressiert deine Maßnahme wirklich den Engpass – oder den bequemsten Faktor?"** *(Der klassische Fehler: E-Problem diagnostiziert, W-Maßnahme geplant – „ich mache das Thema spannender".)*
+Einzelarbeit auf dem Analysebogen (Anhang 1.2): Jeder wählt den eigenen „Evie-Fall" (diskret, kein Name auf dem Bogen nötig) und analysiert: E aus SEINER Sicht (Belege: Misserfolgsgeschichte? Vermeidungsverhalten?), W aus seiner Sicht, K aus seiner Sicht (Blamage-Risiko!). Dann: Welcher Faktor ist der Engpass – und welche EINE Maßnahme aus dem Besteck adressiert ihn? Tandem-Beratung (4 Min.): Partner prüft mit zwei Fragen: **„Ist deine Diagnose aus SEINER Sicht geschrieben – oder aus deiner?"** und **„Adressiert deine Maßnahme wirklich den Engpass – oder den bequemsten Faktor?"** *(Der klassische Fehler: E-Problem diagnostiziert, W-Maßnahme geplant – „ich mache das Thema spannender".)*
 
 ### Runde 2 · Attributions-Sprint (Min. 45–52)
 Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut in Vorgehens-Attributionen umformuliert – Tempo-Format wie der Umformulierungs-Sprint aus W7 (60 Sekunden, wechseln, Rekordjagd). Qualitätsbremse: *„Die Attribution muss ein WIEDERHOLBARES Vorgehen benennen – ‚gut aufgepasst' ist keins, ‚erst die Einheiten notiert' schon."*

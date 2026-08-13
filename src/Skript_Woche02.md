@@ -1,5 +1,5 @@
 # Skript Woche 2: „Hohe Erwartungen – Verhalten ist ein Curriculum"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -85,7 +85,7 @@ Merkformel anbieten: *„Könnte ein wohlwollender Vertretungslehrer mit meiner 
 Moderation zirkuliert und interveniert an der häufigsten Baustelle: Adjektive („ordentlich", „konzentriert", „respektvoll") aufspüren lassen – *„Jedes Adjektiv ist ein Versteck für Vagheit. Ersetze es durch eine Handlung."*
 
 ### Runde 2 · Härtetest im Tandem (Min. 43–50)
-Partner:in prüft jede Erwartung mit genau zwei Fragen: **„Woran genau würde ICH als Beobachter die Erfüllung erkennen?"** und **„Kann ein 14-Jähriger das missverstehen – und wie?"** → gemeinsam nachschärfen. Dann wählt jede:r EINE Erwartung und spricht die komplette Einführung einmal laut (Erwartung + Begründung + zwei CFU-Fragen) – Partner stoppt: unter 60 Sekunden?
+Partner prüft jede Erwartung mit genau zwei Fragen: **„Woran genau würde ICH als Beobachter die Erfüllung erkennen?"** und **„Kann ein 14-Jähriger das missverstehen – und wie?"** → gemeinsam nachschärfen. Dann wählt jeder EINE Erwartung und spricht die komplette Einführung einmal laut (Erwartung + Begründung + zwei CFU-Fragen) – Partner stoppt: unter 60 Sekunden?
 
 ### Blitzlicht (Min. 50–52)
 2 TN sprechen ihre Einführung im Plenum; Moderation würdigt konkret (Precise-Praise-Vorbild).

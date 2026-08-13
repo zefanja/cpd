@@ -1,4 +1,4 @@
-# Fortbildungs-Curriculum für Quereinsteiger:innen (Sek I/II)
+# Fortbildungs-Curriculum für Quereinsteiger (Sek I/II)
 ## Ein Schuljahr, wochenweise – Grundlage für spätere Selbstlern-SPAs
 
 ---
@@ -6,7 +6,7 @@
 # Teil A: Rahmen & Designprinzipien
 
 ## 1. Zielgruppe & Ausgangslage
-Quereinsteiger:innen mit wenig Unterrichtserfahrung, die parallel mit **reduziertem Deputat eigenverantwortlich** in Sek I und II unterrichten. Das ist die ideale Konstellation für wirksame Fortbildung: Jede Woche gibt es echte Klassen, in denen Neues sofort erprobt werden kann – und echte Probleme, die Dringlichkeit und Motivation erzeugen.
+Quereinsteiger mit wenig Unterrichtserfahrung, die parallel mit **reduziertem Deputat eigenverantwortlich** in Sek I und II unterrichten. Das ist die ideale Konstellation für wirksame Fortbildung: Jede Woche gibt es echte Klassen, in denen Neues sofort erprobt werden kann – und echte Probleme, die Dringlichkeit und Motivation erzeugen.
 
 ## 2. Wissenschaftliche Fundierung des Programmdesigns
 Das Curriculum folgt den **14 Mechanismen wirksamer Fortbildung** des EEF-Guidance-Reports „Effective Professional Development" (Sims et al., 2021). Wirksame Fortbildung muss in **jeder Woche** vier Dinge leisten:
@@ -28,7 +28,7 @@ Feste Struktur jeder Sitzung (selbst ein Modell guten Unterrichts – „teach a
 2. **Input (15–20 min):** Eine Kernidee, max. 2–3 Techniken. Immer mit **Videobeispiel oder Live-Modellierung** („See it").
 3. **Benennen & Zerlegen (5 min):** Technik in beobachtbare Teilschritte zerlegen („Name it").
 4. **Deliberate Practice (20–25 min):** Skript schreiben → in Partnerarbeit laut üben → Feedback → nochmal üben („Do it"). Nicht diskutieren, sondern üben – Verhalten ändert sich durch Probehandeln, nicht durch Reden.
-5. **Action Step festlegen (5 min):** Jede:r formuliert schriftlich den einen konkreten, kleinen, beobachtbaren Schritt für die kommende Woche.
+5. **Action Step festlegen (5 min):** Jeder formuliert schriftlich den einen konkreten, kleinen, beobachtbaren Schritt für die kommende Woche.
 
 ### 3.2 1:1-Coaching + Auswertungsgespräch (wöchentlich)
 Modell: **Instructional Coaching** nach Bambrick-Santoyo/Steplab-Logik:
@@ -41,7 +41,7 @@ Modell: **Instructional Coaching** nach Bambrick-Santoyo/Steplab-Logik:
 - Der Action Step koppelt an das Wochenmodul, darf aber davon abweichen, wenn ein dringenderes Problem existiert (z. B. Klassenführung bleibt Priorität, bis sie sitzt).
 
 ### 3.3 Gruppenhospitationen (1× pro Block, ca. alle 5–6 Wochen)
-- 3–4 Quereinsteiger:innen + Coach besuchen gemeinsam 1–2 Unterrichtsstunden (idealerweise bei einer erfahrenen Lehrkraft **und** bei einem Mitglied der Gruppe).
+- 3–4 Quereinsteiger + Coach besuchen gemeinsam 1–2 Unterrichtsstunden (idealerweise bei einer erfahrenen Lehrkraft **und** bei einem Mitglied der Gruppe).
 - **Fokussierte Beobachtung** mit Beobachtungsbogen zum aktuellen Blockthema (nie „alles beobachten").
 - Nachbesprechung (30 min): Was genau hat die Lehrkraft getan? (Verhalten beschreiben, nicht bewerten) → Was übernehme ich konkret?
 - Begründung (Lovell, Prinzip 8): Exzellenzbeispiele kalibrieren den eigenen Anspruch – man muss gesehen haben, wie ruhig eine Klasse arbeiten *kann*, um es anzustreben.
@@ -73,9 +73,9 @@ Ferienwochen (Herbst, Weihnachten, Winter/Fasching, Ostern, Pfingsten je nach Bu
 
 Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupause für deine Selbstlern-SPAs**:
 - **Leitfrage** – der Aufhänger, mit dem die SPA startet
-- **Lernziele** – beobachtbar formuliert („Die Teilnehmer:innen können …")
+- **Lernziele** – beobachtbar formuliert („Die Teilnehmer können …")
 - **Kernideen** – die 3–5 nicht verhandelbaren Inhalte mit Quellenverweis
-- **Typische Fehlvorstellungen** – was Quereinsteiger:innen hier oft falsch verstehen (wichtig für Quiz-Distraktoren in der SPA!)
+- **Typische Fehlvorstellungen** – was Quereinsteiger hier oft falsch verstehen (wichtig für Quiz-Distraktoren in der SPA!)
 - **Übungsteil (Praxisformat)** – was in den 60 Minuten geübt wird
 - **Action Step der Woche** – Beispiel für einen granularen Umsetzungsschritt
 - **Coaching-/Hospitationsfokus** – worauf der Coach diese Woche schaut
@@ -105,7 +105,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 # BLOCK 1: KLASSENFÜHRUNG & ROUTINEN (Wochen 1–8)
 
-**Block-Rationale:** Ohne ruhige, geordnete Lernumgebung greift keine noch so gute Didaktik. Klassenführung zuerst (Get-Better-Faster-Sequenz: „Routines & Procedures 101" vor allem anderen). Für Quereinsteiger:innen ist dies zugleich das Feld mit dem größten Leidensdruck – hohe Motivation garantiert.
+**Block-Rationale:** Ohne ruhige, geordnete Lernumgebung greift keine noch so gute Didaktik. Klassenführung zuerst (Get-Better-Faster-Sequenz: „Routines & Procedures 101" vor allem anderen). Für Quereinsteiger ist dies zugleich das Feld mit dem größten Leidensdruck – hohe Motivation garantiert.
 
 ---
 
@@ -354,14 +354,14 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Kernideen (Lovell R7; Rosenshine P2, P4; McCrea):**
 1. **Kleine Schritte:** Stoff atomisieren; ein neues Element nach dem anderen; erst sichern, dann weitergehen.
-2. **Lautes Denken (Think Aloud / Expert Thinking):** Nicht nur zeigen *was*, sondern hörbar machen *wie Expert:innen denken* – inkl. Entscheidungen und typischer Fallen.
+2. **Lautes Denken (Think Aloud / Expert Thinking):** Nicht nur zeigen *was*, sondern hörbar machen *wie Experten denken* – inkl. Entscheidungen und typischer Fallen.
 3. **Worked Examples & Beispielpaare:** Ausgearbeitete Beispiele entlasten das Arbeitsgedächtnis; Beispiel + Nicht-Beispiel schärft Konzeptgrenzen.
-4. **Der Fluch des Wissens:** Als Fachexperte (gerade Quereinsteiger:innen aus der Praxis!) unterschätzt man systematisch, was Schüler ohne Vorkenntnisse nicht wissen. Gegenmittel: Schritte kleiner machen, als sich nötig anfühlt.
+4. **Der Fluch des Wissens:** Als Fachexperte (gerade Quereinsteiger aus der Praxis!) unterschätzt man systematisch, was Schüler ohne Vorkenntnisse nicht wissen. Gegenmittel: Schritte kleiner machen, als sich nötig anfühlt.
 5. **Aufmerksamkeitsdisziplin beim Erklären:** Während des Modellierens Stifte weg, nur zuhören/zusehen (keine geteilte Aufmerksamkeit zwischen Mitschreiben und Verstehen).
 
 **Typische Fehlvorstellungen:** „Meine Berufserfahrung macht meine Erklärungen automatisch gut" (Expertise erschwert eher das Erklären); „Mitschreiben während des Erklärens ist effizient" (split attention).
 
-**Übungsteil:** Mikro-Teaching: Jede:r modelliert 3 Minuten einen Fachinhalt mit Lautem Denken vor der Gruppe; Feedback nach Kriterien (Schrittgröße, Denkbarmachung, Sprachökonomie); zweiter Durchlauf.
+**Übungsteil:** Mikro-Teaching: Jeder modelliert 3 Minuten einen Fachinhalt mit Lautem Denken vor der Gruppe; Feedback nach Kriterien (Schrittgröße, Denkbarmachung, Sprachökonomie); zweiter Durchlauf.
 
 **Action Step:** „In einer Erklärphase diese Woche denke ich hörbar laut – inklusive einer typischen Falle, die ich absichtlich vorführe und auflöse."
 
@@ -378,7 +378,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können eine We-do-Phase mit hoher Beteiligung, engmaschiger Prüfung und schrittweisem Ausblenden der Hilfen gestalten.
 
 **Kernideen (Lovell R8; Lemov T21 „Take the Steps", T37 „Break It Down"; Rosenshine P5, P8):**
-1. **Gemeinsam durcharbeiten:** Aufgaben Schritt für Schritt mit der Klasse lösen; Lehrkraft fragt, Klasse liefert – jede:r schreibt mit.
+1. **Gemeinsam durcharbeiten:** Aufgaben Schritt für Schritt mit der Klasse lösen; Lehrkraft fragt, Klasse liefert – jeder schreibt mit.
 2. **Guidance Fading:** Hilfen systematisch reduzieren (komplettes Beispiel → Beispiel mit Lücken → nur Ansatz → nichts). Der Übergang ist die Kunst, nicht der Sprung.
 3. **Break It Down (Lemov T37):** Bei Fehlern die kleinste hilfreiche Zerlegung anbieten (Hinweis statt Lösung): Beispiel geben, Regel nennen, ersten Schritt zeigen – gestuft.
 4. **Mini-Whiteboards / All-Response-Systeme:** Alle antworten gleichzeitig sichtbar – die Lehrkraft sieht sofort die Fehlerquote (Brücke zu Block 4).
@@ -621,7 +621,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können Cold Call warm, vorhersagbar und positiv einsetzen und produktive Wartezeit gestalten.
 
 **Kernideen (Lemov T34 „Cold Call", T33 „Wait Time", T36 „Means of Participation"):**
-1. **Cold Call als Kultur, nicht als Falle:** Aufrufen ohne Meldung – angekündigt, freundlich, mit Denkzeit, als Normalität etabliert („In dieser Klasse kann jede:r drankommen, weil jede Stimme zählt"). Wirkung: Denk-Ratio steigt für ALLE, nicht nur für die aufgerufene Person.
+1. **Cold Call als Kultur, nicht als Falle:** Aufrufen ohne Meldung – angekündigt, freundlich, mit Denkzeit, als Normalität etabliert („In dieser Klasse kann jeder drankommen, weil jede Stimme zählt"). Wirkung: Denk-Ratio steigt für ALLE, nicht nur für die aufgerufene Person.
 2. **Frage → Pause → Name:** Die Reihenfolge ist entscheidend (erst denken alle, dann fällt der Name). 
 3. **Wait Time (T33):** 3–5 Sekunden nach der Frage aushalten; Wartezeit produktiv rahmen („Ich sehe, viele schreiben noch Gedanken auf – gut").
 4. **Means of Participation:** Bewusst wählen und ansagen, *wie* geantwortet wird (Cold Call / Melden / Chorantwort / Turn & Talk / schriftlich) – Wechsel hält wach, Klarheit verhindert Reinrufen.
@@ -645,7 +645,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können die No-Opt-Out-Schleife führen (von „weiß nicht" zur richtigen Antwort zurück zur Ausgangsperson) und halten den Standard, bis Antworten wirklich vollständig sind.
 
 **Kernideen (Lemov T15, T16, T17 „Stretch It"):**
-1. **No Opt Out:** „Weiß nicht" beendet die Beteiligung nicht. Formate: Hinweis geben / Mitschüler:in liefert Antwort oder Baustein → die Ausgangsperson wiederholt/vervollständigt sie. Botschaft: Bei mir kommt jede:r zum Erfolg, Aussteigen gibt es nicht.
+1. **No Opt Out:** „Weiß nicht" beendet die Beteiligung nicht. Formate: Hinweis geben / Mitschüler liefert Antwort oder Baustein → die Ausgangsperson wiederholt/vervollständigt sie. Botschaft: Bei mir kommt jeder zum Erfolg, Aussteigen gibt es nicht.
 2. **Right is Right:** „Fast richtig" nicht zu „richtig" runden – freundlich nachfassen („Fast – schärfe den letzten Teil nach"). Standards: ganz richtig, präzise Fachsprache (Format Matters, T18), Frage wirklich beantwortet.
 3. **Stretch It:** Richtige Antworten sind Startpunkte: Warum? Woher weißt du das? Anderes Beispiel? Was wäre wenn? – Belohnung für Richtigkeit ist eine interessantere Frage.
 4. **Wärme-Anteil:** Alle drei Techniken leben vom Ton aus Block 1 (Warm/Strict, Positive Framing) – Anspruch als Kompliment.
@@ -782,7 +782,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Woche 29: Treiber 4 – Zugehörigkeit & Gesehen-Werden
 
-**Leitfrage:** Wie sorge ich dafür, dass sich jede:r Einzelne zugehörig, gesehen und ernst genommen fühlt?
+**Leitfrage:** Wie sorge ich dafür, dass sich jeder Einzelne zugehörig, gesehen und ernst genommen fühlt?
 
 **Lernziele:** Die TN können konkrete Belonging-Praktiken einsetzen (Namen, Begrüßung, Status-Signale, gemeinsame Identität) und Vertrauensaufbau als tägliche Kleinarbeit verstehen.
 
@@ -816,7 +816,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 3. **Eskalationskette & Auszeit:** klare, schulkonforme Stufen; nach jeder Eskalation Beziehung reparieren (W.I.N.-Echo aus Woche 8).
 4. **System Level Support (Lovell R18):** Hilfe holen ist Professionalität, nicht Versagen – Klassenkonferenz, Beratungslehrkraft, Schulsozialarbeit, Schulpsychologie, ggf. Jugendhilfe; Dokumentation als Handwerk (Vorfallprotokolle).
 
-**Typische Fehlvorstellungen:** „Ich muss jeden Fall allein lösen" (Einzelkämpfertum ist das größte Burnout-Risiko für Quereinsteiger:innen); „Konsequenz = Härte" (Konsequenz = Vorhersagbarkeit).
+**Typische Fehlvorstellungen:** „Ich muss jeden Fall allein lösen" (Einzelkämpfertum ist das größte Burnout-Risiko für Quereinsteiger); „Konsequenz = Härte" (Konsequenz = Vorhersagbarkeit).
 
 **Übungsteil:** Eskalations-Rollenspiele (2 harte Szenarien mit Skript und Stopp-Punkten); Dokumentations-Übung (Vorfall sachlich protokollieren); Übersicht der schulischen Unterstützungslandkarte gemeinsam erstellen (schulspezifisch anpassen!).
 
@@ -851,7 +851,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 # BLOCK 6: PLANUNG, ARBEITSÖKONOMIE & NACHHALTIGE ENTWICKLUNG (Wochen 32–36)
 
-**Block-Rationale:** Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: effizient planen (Zeit ist die knappste Ressource von Quereinsteiger:innen mit Deputat!), klug bewerten, sich selbst weiterentwickeln. Leitquelle: McCrea, „Lean Lesson Planning" – jetzt, am Ende, weil Planungsökonomie Urteilskraft voraussetzt, die erst da ist.
+**Block-Rationale:** Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: effizient planen (Zeit ist die knappste Ressource von Quereinsteiger mit Deputat!), klug bewerten, sich selbst weiterentwickeln. Leitquelle: McCrea, „Lean Lesson Planning" – jetzt, am Ende, weil Planungsökonomie Urteilskraft voraussetzt, die erst da ist.
 
 ---
 
@@ -946,11 +946,11 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Leitfrage:** Was hat sich in einem Jahr verändert – sichtbar, belegbar, feierbar?
 
 **Format (90–120 min, feierlicher Rahmen):**
-1. **Vorher/Nachher-Präsentationen:** Jede:r TN zeigt 2 kurze Videoausschnitte (Baseline aus Woche 1 vs. aktuell) und kommentiert die eigene Entwicklung anhand von 3 Techniken – der stärkste Motivations- und Evidenzmoment des Jahres (EEF: Bestärkung nach Fortschritt).
+1. **Vorher/Nachher-Präsentationen:** Jeder TN zeigt 2 kurze Videoausschnitte (Baseline aus Woche 1 vs. aktuell) und kommentiert die eigene Entwicklung anhand von 3 Techniken – der stärkste Motivations- und Evidenzmoment des Jahres (EEF: Bestärkung nach Fortschritt).
 2. **Portfolio-Würdigung:** Action-Step-Log (36 Einträge!), Playbook, Skriptsammlung.
 3. **Kompetenzmatrix final:** Selbst-/Coach-Einschätzung im Vergleich zu Woche 0 und 18.
 4. **Programm-Feedback** für die nächste Kohorte (strukturiert, wird ins Curriculum zurückgespielt).
-5. **Zertifikat & Ausblick:** Übergabe; ggf. Rolle als Peer-Mentor:in für die nächste Kohorte anbieten (stärkste Form der Verankerung: Lehren des Gelernten).
+5. **Zertifikat & Ausblick:** Übergabe; ggf. Rolle als Peer-Mentor für die nächste Kohorte anbieten (stärkste Form der Verankerung: Lehren des Gelernten).
 
 **SPA-Bausteine:** Jahres-Dashboard (alle Quiz-Ergebnisse, Action Steps, Selbsteinschätzungen als Verlaufskurven); Portfolio-Export als PDF; Vorher/Nachher-Reflexionsleitfaden.
 

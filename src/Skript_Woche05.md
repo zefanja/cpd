@@ -1,5 +1,5 @@
 # Skript Woche 5: „Präsenz – Körper, Stimme, Selbstregulation"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -69,7 +69,7 @@ Merksatz: *„Erst der Körper, dann das Signal, dann die Worte – und bei Stur
 ## Phase 5 · Do it (Minute 30–52)
 
 ### Runde 1 · Körper-Labor (Min. 30–41, Dreiergruppen)
-Nach Handout A: Jede:r spricht die Standard-Ansage in den 4 Varianten (bewusst auch die schlechten – Kontrast lehrt!), die zwei Beobachter geben NUR Wirkungs-Feedback aus dem Raster („wirkte auf mich: …"). Danach 2 freie Durchgänge nur in Variante 4, Feinschliff: Satzende, Pause, Stand. **Registerwechsel-Übung:** dieselbe Person spricht direkt hintereinander eine formale Ansage und ein warmes Lob – der hörbare Schalter ist das Lernziel.
+Nach Handout A: Jeder spricht die Standard-Ansage in den 4 Varianten (bewusst auch die schlechten – Kontrast lehrt!), die zwei Beobachter geben NUR Wirkungs-Feedback aus dem Raster („wirkte auf mich: …"). Danach 2 freie Durchgänge nur in Variante 4, Feinschliff: Satzende, Pause, Stand. **Registerwechsel-Übung:** dieselbe Person spricht direkt hintereinander eine formale Ansage und ein warmes Lob – der hörbare Schalter ist das Lernziel.
 
 ### Runde 2 · Reset-Anker bauen & härten (Min. 41–52)
 Ablauf:

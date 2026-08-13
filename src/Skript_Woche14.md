@@ -1,5 +1,5 @@
 # Skript Woche 14: „Do Now & Exit Ticket – die Klammer der Stunde + Konsolidierung Block 2"
-## 60-Minuten-Sitzung · Block 2 (Abschluss) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -53,7 +53,7 @@
 ## Phase 4 · Do it: Doppel-Werkstatt (Minute 30–50)
 
 ### Runde 1 · Schreibwerkstatt (Min. 30–40)
-Jede:r baut das Exit Ticket für die reale Stunde nächster Woche – auf Basis der eigenen Meilensteinkette aus W10 (liegt im Playbook!). Tandem-Gütecheck mit der Gretchenfrage: **„Zeig mir, welcher Meilenstein von welcher Aufgabe gemessen wird."** *(Häufigster Baufehler: Die Aufgabe prüft Wiedergabe, der Meilenstein verlangt Anwendung – Moderation macht 1 Beispiel im Plenum sichtbar.)*
+Jeder baut das Exit Ticket für die reale Stunde nächster Woche – auf Basis der eigenen Meilensteinkette aus W10 (liegt im Playbook!). Tandem-Gütecheck mit der Gretchenfrage: **„Zeig mir, welcher Meilenstein von welcher Aufgabe gemessen wird."** *(Häufigster Baufehler: Die Aufgabe prüft Wiedergabe, der Meilenstein verlangt Anwendung – Moderation macht 1 Beispiel im Plenum sichtbar.)*
 
 ### Runde 2 · Sortier-Simulation (Min. 40–50)
 Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zonen – **Stoppuhr läuft: 8 Minuten für ~25 Tickets.** Danach je Gruppe: häufigster Fehler in einem Satz + Konsequenz-Entscheidung als 30-Sekunden-Pitch. **Gruppen vergleichen:** Kommen alle zur selben Entscheidung? *(Die Abweichungen sind der Lerngewinn – besonders die Grenzfälle gelb/rot kalibrieren das Urteil.)*

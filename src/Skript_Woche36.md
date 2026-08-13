@@ -1,5 +1,5 @@
 # Skript Woche 36: „Das Abschlusskolloquium – Vorher/Nachher"
-## 90–120-Minuten-Sondersitzung · Block 6 (Finale) · Fortbildung Quereinsteiger:innen Sek I/II
+## 90–120-Minuten-Sondersitzung · Block 6 (Finale) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was hat ein Jahr gezielte Übung bewirkt – sichtbar gemacht, gewürdigt, weitergegeben? |
 | **Funktion im Jahr** | Programm-Finale in eigenem Format: kein Input, keine Übung – Bilanz, Würdigung, Staffelübergabe. Das Kolloquium ist zugleich das letzte Programmelement nach EEF-Logik: Es verankert (öffentliches Commitment auf Jahr 2), motiviert (der Vorher/Nachher-Beweis) und macht die Schule zum Zeugen (Schulleitung, ggf. künftige Kohorte-2-Mitglieder als Gäste). Matrix-Spinnennetz final (W0/W20/W36); Programm-Feedback für Kohorte 2; Zertifikate; Peer-Mentor-Angebot. |
-| **Beteiligte** | Kohorte, Coaches, Moderation, Schulleitung (Eröffnung + Zertifikate); optional als Gäste: interessierte Kolleg:innen / designierte Kohorte 2. |
+| **Beteiligte** | Kohorte, Coaches, Moderation, Schulleitung (Eröffnung + Zertifikate); optional als Gäste: interessierte Kollegen / designierte Kohorte 2. |
 | **Sitzungstyp** | Kolloquium – festlich, aber arbeitsnah: Es werden echte Videos gezeigt und echte Pläne vorgestellt. Kein Prüfungsformat (mehrfach explizit machen). |
 
 **Zeitrahmen-Varianten:** Bei 6 TN: ~95 Min. · bei 8 TN: ~115 Min. (Rechenbasis: 12 Min. pro TN inkl. Resonanz + 35 Min. Rahmenprogramm). Bei größeren Kohorten: zwei parallele Räume mit je einem Coach, gemeinsamer Auftakt und Abschluss.
@@ -65,7 +65,7 @@ Dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualitä
 
 ## Phase 4 · Das Spinnennetz & die Bilanz (Minute 98–106)
 
-Jede:r erhält den eigenen Dreifach-Spinnennetz-Ausdruck (W0/W20/W36). Zwei Minuten stilles Betrachten, dann Blitzlicht reihum, EIN Satz: *„Was sagt dir dein Netz?"*
+Jeder erhält den eigenen Dreifach-Spinnennetz-Ausdruck (W0/W20/W36). Zwei Minuten stilles Betrachten, dann Blitzlicht reihum, EIN Satz: *„Was sagt dir dein Netz?"*
 
 > **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit letzter Woche, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab August selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
 
@@ -79,12 +79,12 @@ Bögen (Anhang 2): **Behalten / Ändern / Streichen** – still, ehrlich, anonym
 
 **Zertifikatsübergabe durch die Schulleitung:** Jedes Zertifikat trägt einen individuellen **Precise-Praise-Satz** (vorab von Coach + Moderation formuliert: konkret, verdient, aufs Vorgehen – z. B. *„…hat aus einem improvisierten Stundenstart eine Routine gebaut, die in 40 Sekunden 28 Menschen ins Arbeiten bringt"*). Die Schulleitung liest ihn LAUT. Applaus pro Person – das Format trägt die Würdigung, nicht die Länge.
 
-**Peer-Mentor-Angebot (Moderation):** *„Im Herbst startet Kohorte 2 – und sie wird eines brauchen, das kein Buch und kein Coach ersetzen kann: Menschen, die diesen Weg gerade selbst gegangen sind. Wer sich vorstellen kann, als Peer-Mentor:in eine Stunde im Monat zu geben – Hospitationsgast, Erste-Wochen-Pate, Erfahrungsstimme in der Auftaktwoche –, sagt mir das diese Woche. Kein Amt, kein Papierkram: ein Tandem mit Vorsprung."*
+**Peer-Mentor-Angebot (Moderation):** *„Im Herbst startet Kohorte 2 – und sie wird eines brauchen, das kein Buch und kein Coach ersetzen kann: Menschen, die diesen Weg gerade selbst gegangen sind. Wer sich vorstellen kann, als Peer-Mentor eine Stunde im Monat zu geben – Hospitationsgast, Erste-Wochen-Pate, Erfahrungsstimme in der Auftaktwoche –, sagt mir das diese Woche. Kein Amt, kein Papierkram: ein Tandem mit Vorsprung."*
 
 ## Phase 7 · Schlusswort (Minute 118–120)
 
 > **Moderationstext:**
-> *„Ein letzter Satz, dann ist es vollbracht. In der allerersten Sitzung stand ein einziger Satz auf der Folie: Handwerk ist lernbar. Sie haben ihn dieses Jahr nicht geglaubt – Sie haben ihn bewiesen. Ein prall gefülltes Playbook, drei Spinnennetze und zwei Videos, zwischen denen Welten liegen. Was Sie ab morgen unterrichten, sind Fächer. Was Sie ab morgen SIND, ist etwas anderes: Kolleginnen und Kollegen, die wissen, wie man besser wird – aus eigener Kraft, mit System, ein Schritt pro Woche. Es war mir eine Ehre. Die Stunde ist zu Ende – Sie wissen ja jetzt, wie man eine Stunde beendet: geordnet, im Stehen, und drei Minuten vor dem Klingeln."*
+> *„Ein letzter Satz, dann ist es vollbracht. In der allerersten Sitzung stand ein einziger Satz auf der Folie: Handwerk ist lernbar. Sie haben ihn dieses Jahr nicht geglaubt – Sie haben ihn bewiesen. Ein prall gefülltes Playbook, drei Spinnennetze und zwei Videos, zwischen denen Welten liegen. Was Sie ab morgen unterrichten, sind Fächer. Was Sie ab morgen SIND, ist etwas anderes: Kollegen, die wissen, wie man besser wird – aus eigener Kraft, mit System, ein Schritt pro Woche. Es war mir eine Ehre. Die Stunde ist zu Ende – Sie wissen ja jetzt, wie man eine Stunde beendet: geordnet, im Stehen, und drei Minuten vor dem Klingeln."*
 
 [Aufstehen. Applaus. Ende.]
 

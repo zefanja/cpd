@@ -1,5 +1,5 @@
 # Skript Woche 8: „Übergänge, Stundenende & das W.I.N.-Gespräch + Meilenstein 1"
-## 60-Minuten-Sitzung · Block 1 (Abschluss) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -59,7 +59,7 @@ W.I.N.-Karte (Handout A) austeilen; die drei Schritte + vier Rahmenbedingungen (
 
 ## Phase 5 · Do it: W.I.N.-Rollenspiele (Minute 33–51)
 
-Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jede:r ist einmal Lehrkraft.
+Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jeder ist einmal Lehrkraft.
 
 **Beobachter-Checkfragen:** Kam W wirklich zuerst (offene Frage, dann Stille ausgehalten)? Blieb I sachlich (Wirkung, keine Moral)? War N gemeinsam und konkret? Rahmen: warm, kurz, privat?
 

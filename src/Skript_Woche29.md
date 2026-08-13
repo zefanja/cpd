@@ -1,5 +1,5 @@
 # Skript Woche 29: „Treiber 4: Belonging – gesehen werden"
-## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -68,7 +68,7 @@ Vorlage (Anhang 1.3): Die **drei rötesten** Schüler auswählen; pro Person: ei
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich habe meine drei unsichtbarsten Schüler identifiziert. Jede:r bekommt ab Montag EINEN echten Mikro-Kontakt pro Tag – drei Sekunden reichen, Fenster steht im Plan. Zusätzlich notiere ich jede Zusage und halte sie. Freitag: Was ist beobachtbar anders – bei ihnen oder bei mir?"*
+**Standard:** *„Ich habe meine drei unsichtbarsten Schüler identifiziert. Jeder bekommt ab Montag EINEN echten Mikro-Kontakt pro Tag – drei Sekunden reichen, Fenster steht im Plan. Zusätzlich notiere ich jede Zusage und halte sie. Freitag: Was ist beobachtbar anders – bei ihnen oder bei mir?"*
 
 **Alternativen:**
 

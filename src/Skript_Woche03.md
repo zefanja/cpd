@@ -1,5 +1,5 @@
 # Skript Woche 3: „Die Begrüßungsroutine & der starke Stundenstart"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -80,11 +80,11 @@ Merksatz: *„Erst alle, dann der Gruß. Erst der Satz, dann der Timer. Erst der
 
 **Setup:** Vierergruppen an der Spielfläche (bei 8 TN: zwei Flächen). Rollen: 1 Lehrkraft, 2–3 Klasse, 1 Regie/Beobachter mit Checkliste (= die 7 Schritte).
 
-**Runde 1 (Min. 33–41):** Jede:r spielt die komplette Sequenz einmal, Klasse kooperativ. Beobachter checkt die 7 Schritte ab; Feedback nach Standardregel (Wirksames zuerst, EIN Impuls); die schwächste Stelle wird sofort 30 Sekunden nachgespielt.
+**Runde 1 (Min. 33–41):** Jeder spielt die komplette Sequenz einmal, Klasse kooperativ. Beobachter checkt die 7 Schritte ab; Feedback nach Standardregel (Wirksames zuerst, EIN Impuls); die schwächste Stelle wird sofort 30 Sekunden nachgespielt.
 
 **Runde 2 (Min. 41–49):** Regie zieht verdeckt EINE Störkarte (Anhang 1.2). Die Lehrkraft weiß nicht, welche. Fokus-Feedback: Wurde Schritt 3 durchgehalten (Warten statt Hineingrüßen)? Blieb der Ton warm? Kam ggf. Do It Again neutral?
 
-**Runde 3 – Skript-Reinschrift (Min. 49–52):** Jede:r überträgt SEINE Routine in die dreispaltige Vorlage (Anhang 1.1) → erste offizielle Playbook-Seite. Moderation: *„Dieses Blatt ist ab Montag euer Spickzettel. Legt es die erste Woche wirklich aufs Pult – Profis arbeiten mit Checklisten, Piloten seit hundert Jahren."*
+**Runde 3 – Skript-Reinschrift (Min. 49–52):** Jeder überträgt SEINE Routine in die dreispaltige Vorlage (Anhang 1.1) → erste offizielle Playbook-Seite. Moderation: *„Dieses Blatt ist ab Montag euer Spickzettel. Legt es die erste Woche wirklich aufs Pult – Profis arbeiten mit Checklisten, Piloten seit hundert Jahren."*
 
 ## Phase 6 · Action Step (Minute 52–58)
 

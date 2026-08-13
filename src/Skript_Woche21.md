@@ -1,5 +1,5 @@
 # Skript Woche 21: „Kultur des Fehlers & Schluss mit Selbstauskunft"
-## 60-Minuten-Sitzung · Block 4 (Auftakt) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -31,7 +31,7 @@
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
 ## Phase 1 · Reaktivierungs-Quiz + Re-Establish (Minute 2–14)
-8 Fragen quer (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Direkt anschließend **Re-Establish-Mini-Übung (4 Min.):** Frage 8 („Erste Woche nach Ferien – was etablierst du neu?") wird sofort umgesetzt: Jede:r skriptet in 4 Minuten seinen Re-Establish-Moment für Montag (Erwartung + Begründung + Behavioural CFU – reines W2-Handwerk, Vorlage Anhang 1.4). *„Nicht diskutieren – schreiben. Ihr könnt das im Schlaf; der Zettel geht Montag mit in die Stunde."*
+8 Fragen quer (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Direkt anschließend **Re-Establish-Mini-Übung (4 Min.):** Frage 8 („Erste Woche nach Ferien – was etablierst du neu?") wird sofort umgesetzt: Jeder skriptet in 4 Minuten seinen Re-Establish-Moment für Montag (Erwartung + Begründung + Behavioural CFU – reines W2-Handwerk, Vorlage Anhang 1.4). *„Nicht diskutieren – schreiben. Ihr könnt das im Schlaf; der Zettel geht Montag mit in die Stunde."*
 
 ## Phase 2 · See it: Das nutzlose Ritual (Minute 14–20)
 
@@ -86,7 +86,7 @@ Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrsch
   3. Miene bei Fehlerantworten (2–3 Momente wörtlich + mimisch protokollieren – taktvoll formuliert).
 - **Auswertungsgespräch:** Strichliste zeigen; die zwei ertappten Momente gemeinsam in Mini-Aufgaben übersetzen und laut sprechen. Plan-for-Error-Canvas für die kommende Stunde durchgehen: Wahrscheinlichkeits-Check.
 - **Verzahnung:** Der Block-4-Dauer-Action-Step aus dem Meilenstein-Gespräch (W20) läuft parallel – kurz abfragen.
-- **Red Flag:** TN berichtet, dass die Klasse über Fehler lacht und er/sie „darüber hinweggeht" → sofort adressieren: Das Lach-Verbot ist die Eintrittskarte für ALLE Block-4-Techniken; ggf. Klassengespräch + 100 %-Durchsetzung (W6) als vorgezogener Schritt, Cold Call (W22) für diese Klasse um eine Woche schieben.
+- **Red Flag:** TN berichtet, dass die Klasse über Fehler lacht und er „darüber hinweggeht" → sofort adressieren: Das Lach-Verbot ist die Eintrittskarte für ALLE Block-4-Techniken; ggf. Klassengespräch + 100 %-Durchsetzung (W6) als vorgezogener Schritt, Cold Call (W22) für diese Klasse um eine Woche schieben.
 
 ---
 

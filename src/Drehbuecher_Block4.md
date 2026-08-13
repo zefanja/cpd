@@ -45,7 +45,7 @@
 
 **Name it (Min. 26–31):** Cold-Call-Standard: eingeführt & begründet / Frage→Pause→Name / warmer Ton / nie als Strafe / breit streuen (Heatmap!). Wait-Time-Standard: 3–5 Sek., still, Blick kreist.
 
-**Do it (Min. 31–52):** *Einführungsskript (8 Min.):* wörtlich schreiben (Sek-II-Ton beachten!). *Sequenz-Drill (12 Min.):* Vierergruppen, jede:r führt 3 Cold-Call-Zyklen mit echter Fachfrage durch; Stoppuhr-Wächter misst die Pause (unter 3 Sek. → Wiederholung!); Runde 2 mit Störkarte D.
+**Do it (Min. 31–52):** *Einführungsskript (8 Min.):* wörtlich schreiben (Sek-II-Ton beachten!). *Sequenz-Drill (12 Min.):* Vierergruppen, jeder führt 3 Cold-Call-Zyklen mit echter Fachfrage durch; Stoppuhr-Wächter misst die Pause (unter 3 Sek. → Wiederholung!); Runde 2 mit Störkarte D.
 
 **Action Step:** siehe Curriculum (Cold Call einführen, ≥5 warme Cold Calls pro Stunde). *Alternative (wenn Klassenkultur fragil):* erst 1 Woche Means of Participation konsequent ansagen, Cold Call in W23 starten.
 
@@ -91,7 +91,7 @@
 
 **Name it (Min. 24–29):** Standard-Choreografie: Write (1–3 Min.) → Talk (30–90 Sek.) → Ernte (2–3 Cold Calls, davon 1 „Partnerfrage"). Prompt-Prüfkarte davor.
 
-**Do it (Min. 29–52):** *Prompt-Werkstatt (8 Min.):* 3 eigene Diskussionsanlässe in präzise Prompts fassen, Prüfkarte im Tandem. *Choreografie-Drill (13 Min.):* Vierergruppen; jede:r dirigiert die volle Sequenz mit den anderen als Klasse; Stoppuhr-Wächter; Feedback-Fokus: Signalschärfe + Ernte-Verbindlichkeit; 2. Kurzdurchlauf der schwächsten Stelle.
+**Do it (Min. 29–52):** *Prompt-Werkstatt (8 Min.):* 3 eigene Diskussionsanlässe in präzise Prompts fassen, Prüfkarte im Tandem. *Choreografie-Drill (13 Min.):* Vierergruppen; jeder dirigiert die volle Sequenz mit den anderen als Klasse; Stoppuhr-Wächter; Feedback-Fokus: Signalschärfe + Ernte-Verbindlichkeit; 2. Kurzdurchlauf der schwächsten Stelle.
 
 **Action Step:** siehe Curriculum (Write→Talk→Cold-Call vor jeder Diskussionsfrage). *Alternative:* Feste Turn-and-Talk-Partner in allen Klassen etablieren (Routine-Skript W3-Handwerk).
 

@@ -1,5 +1,5 @@
 # Skript Woche 31: „Elternarbeit ohne Angst + Konsolidierung Block 5"
-## 60-Minuten-Sitzung · Block 5 (Abschluss) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 5 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -57,7 +57,7 @@
 
 ## Phase 4 · Do it: Eltern-Rollenspiele (Minute 29–48)
 
-Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung), Rollenkarten in Steigerung (Anhang 1.2): Runde 1 „besorgt", Runde 2 „fordernd", Runde 3 „schwer erreichbar" (Telefon-Setting: Rücken an Rücken!). Rollenwechsel – jede:r ist einmal Lehrkraft.
+Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung), Rollenkarten in Steigerung (Anhang 1.2): Runde 1 „besorgt", Runde 2 „fordernd", Runde 3 „schwer erreichbar" (Telefon-Setting: Rücken an Rücken!). Rollenwechsel – jeder ist einmal Lehrkraft.
 
 **Beobachter-Checkfragen:** Kam das gemeinsame Ziel im ersten Satz? Fakten oder Wertungen? Wurde echt zugehört (Schritt 3 vor Schritt 4)? Endete es mit beidseitigen Schritten + Termin? Bei Karte 2: Grenz-Formel statt Rechtfertigungsspirale?
 

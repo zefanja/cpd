@@ -1,5 +1,5 @@
 # Skript Woche 33: „Einheiten rückwärts – von der Klassenarbeit zur Stundenkette"
-## 60-Minuten-Sitzung · Block 6 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 6 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

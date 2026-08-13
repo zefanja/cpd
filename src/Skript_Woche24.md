@@ -1,5 +1,5 @@
 # Skript Woche 24: „Turn and Talk & Everybody Writes – Denk-Ratio maximieren"
-## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -76,7 +76,7 @@ Tandems ziehen 2 Bug-Karten (Anhang 1.2): Bug benennen + Reparatur in einem Satz
 Einzelarbeit: 2 eigene Diskussionsanlässe der kommenden Woche in präzise Prompts fassen; Tandem-Prüfkarte. Standard-Intervention der Moderation: *„Kann man deine Frage mit ‚ja' erledigen? Dann baue eine Entscheidung ein: einigt euch / wählt / ordnet."*
 
 ### Runde 3 · Choreografie-Drill (Min. 44–52)
-Vierergruppen: Jede:r dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W4-Kanten!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
+Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W4-Kanten!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
 
 ## Phase 6 · Action Step (Minute 52–58)
 

@@ -1,5 +1,5 @@
 # Drehbuch Woche 1: „Fünf mentale Modelle des Unterrichtens"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -34,7 +34,7 @@
 - [ ] Retrieval-Quiz als Folie oder Zettel (Anhang 2, Teil 1)
 - [ ] Timer sichtbar (Modellfunktion!)
 
-**Moderations-Grundsatz:** Diese Sitzung modelliert selbst, was sie lehrt. Explizit machen! Der Meta-Kommentar („Merkt ihr, was ich gerade gemacht habe?") ist fester Bestandteil des Drehbuchs – Quereinsteiger:innen lernen doppelt: Inhalt + Vorbild.
+**Moderations-Grundsatz:** Diese Sitzung modelliert selbst, was sie lehrt. Explizit machen! Der Meta-Kommentar („Merkt ihr, was ich gerade gemacht habe?") ist fester Bestandteil des Drehbuchs – Quereinsteiger lernen doppelt: Inhalt + Vorbild.
 
 ---
 
@@ -120,7 +120,7 @@ Vierergruppen. Jede Gruppe erhält **eines** der beiden Fallbeispiele (Anhang 1)
 **Partnerarbeit** (Tandems, die auch Coaching-Tandems werden könnten):
 > *„Jetzt wird es persönlich – im guten Sinn. Denkt an EINE Situation aus euren ersten Unterrichtswochen, die euch geärgert, verunsichert oder verletzt hat. Erzählt sie eurem Partner in maximal 90 Sekunden. Der Partner hat dann eine einzige Aufgabe: Er deutet die Situation NEU – durch eines der fünf Modelle. Nicht trösten, nicht Ratschläge geben. Nur umdeuten: 'Durch die Brille von Modell 4 gesehen, war das vermutlich…'. Dann Wechsel."*
 
-Je 3–4 Min. pro Richtung. **Warum diese Übung:** Der emotionale Perspektivwechsel („Es war nicht persönlich, es war eine Norm / ein überlastetes Arbeitsgedächtnis") ist der wichtigste Wellbeing-Schutz für Quereinsteiger:innen im ersten Jahr – und es verankert die Modelle affektiv, nicht nur kognitiv.
+Je 3–4 Min. pro Richtung. **Warum diese Übung:** Der emotionale Perspektivwechsel („Es war nicht persönlich, es war eine Norm / ein überlastetes Arbeitsgedächtnis") ist der wichtigste Wellbeing-Schutz für Quereinsteiger im ersten Jahr – und es verankert die Modelle affektiv, nicht nur kognitiv.
 
 **Einsammeln (1 Min.):** 2–3 Freiwillige teilen ihren Perspektivwechsel in einem Satz.
 
@@ -139,13 +139,13 @@ Handout C austeilen. Der Standard-Action-Step dieser Woche ist ein **Beobachtung
 - Norm-Beobachtung: „Ich identifiziere in Klasse X die drei stärksten ungeschriebenen Normen – erwünschte wie unerwünschte."
 - Last-Beobachtung: „Ich zähle in einer eigenen Erklärphase mit, wie viele neue Elemente ich pro Minute einführe."
 
-Jede:r trägt den gewählten Action Step **schriftlich** ins Formular ein (Selbstverpflichtung + Kopie an Coach).
+Jeder trägt den gewählten Action Step **schriftlich** ins Formular ein (Selbstverpflichtung + Kopie an Coach).
 
 > **Ausblick:** *„Nächste Woche wird es handfest: Wie macht man Erwartungen so konkret, dass Schüler sie erfüllen KÖNNEN? Bringt bitte eure Beobachtungsbögen mit – wir starten damit."*
 
 ## Phase 7 · Blitz-Feedback & Schluss (Minute 58–60)
 
-Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jede:r notiert auf Karte:
+Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jeder notiert auf Karte:
 
 1. Das leuchtet mir am meisten ein: …
 2. Da bin ich skeptisch: …

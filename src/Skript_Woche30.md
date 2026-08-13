@@ -1,5 +1,5 @@
 # Skript Woche 30: „Treiber 5: Buy-in – und die harten Fälle: Platzwechsel, Eskalation, Hilfe holen"
-## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -62,13 +62,13 @@
 
 ## Phase 5 · Do it: Eskalations-Rollenspiele mit Freeze (Minute 33–52)
 
-**Setup:** Zwei parallele Zonen, Vierergruppen; Szenario-Karten E1/E2 (Anhang 1.4) mit eingebauten **Freeze-Punkten**: Die Regie ruft „Freeze!", alle erstarren, die Gruppe berät 30 Sekunden (Welche Stufe? Welcher Wortlaut? Anker!), dann weiter. Jede:r durchläuft EIN Szenario als Lehrkraft (9 Min. pro Durchgang inkl. Feedback + Wiederholung des schwächsten Moments).
+**Setup:** Zwei parallele Zonen, Vierergruppen; Szenario-Karten E1/E2 (Anhang 1.4) mit eingebauten **Freeze-Punkten**: Die Regie ruft „Freeze!", alle erstarren, die Gruppe berät 30 Sekunden (Welche Stufe? Welcher Wortlaut? Anker!), dann weiter. Jeder durchläuft EIN Szenario als Lehrkraft (9 Min. pro Durchgang inkl. Feedback + Wiederholung des schwächsten Moments).
 
 **E1 – Der Platzwechsel** (Weigerung eingebaut): Fokus: Skripttreue, Weiterunterrichten, keine Bühne. **E2 – Die Eskalation** (Beleidigung nach Ermahnung): Fokus: Anker sichtbar, formale Kürze, Stufe ankündigen und ausführen ohne Drama, Reparatur-Ansage („Wir sprechen morgen – heute gilt: …").
 
 **Feedback-Fokus (Beobachterkarte):** Anker VOR der Reaktion? Ton formal-ruhig (kein Triumph, keine Wut)? Unterricht weitergeführt? Reparatur angekündigt? *(Moderations-Rotation: Der häufigste Fehler ist das Stehenbleiben-und-Warten nach der Anweisung – die Bühne. Zweiter: Begründungsreden im Moment.)*
 
-**Abschluss-Drill (letzte 3 Min. der Phase):** Protokoll-Blitz: Die Regie beschreibt E2 mündlich chaotisch – jede:r schreibt in 90 Sekunden den Doku-Eintrag, Tandem prüft: Nur Fakten? Zeit? Zitate statt Deutungen?
+**Abschluss-Drill (letzte 3 Min. der Phase):** Protokoll-Blitz: Die Regie beschreibt E2 mündlich chaotisch – jeder schreibt in 90 Sekunden den Doku-Eintrag, Tandem prüft: Nur Fakten? Zeit? Zitate statt Deutungen?
 
 ## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
 

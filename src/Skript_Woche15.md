@@ -1,5 +1,5 @@
 # Skript Woche 15: „Gedächtnisarchitektur – warum Lernen Gedächtnisveränderung ist"
-## 60-Minuten-Sitzung · Block 3 (Auftakt) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

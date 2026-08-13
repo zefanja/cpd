@@ -1,5 +1,5 @@
 # Skript Woche 16: „Kognitive Last managen – Information & Kommunikation verschlanken"
-## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -66,7 +66,7 @@ Fingerzeichen-Kalibrierung (2 Min.): 4 Mini-Beschreibungen → welcher Fresser? 
 ## Phase 5 · Do it: Folien-/Material-Chirurgie (Minute 31–52)
 
 ### Runde 1 · Operation am eigenen Material (Min. 31–45)
-Jede:r operiert 2 eigene Folien bzw. ein Arbeitsblatt nach Checkliste – real (am Gerät) oder als Papier-Markup (streichen/skizzieren). Moderation zirkuliert mit den zwei Standard-Interventionen: *„Welcher GEDANKE ist das? Dann darf nur er bleiben."* und *„Das hier – sagst du es, oder steht es? Beides geht nicht."* 
+Jeder operiert 2 eigene Folien bzw. ein Arbeitsblatt nach Checkliste – real (am Gerät) oder als Papier-Markup (streichen/skizzieren). Moderation zirkuliert mit den zwei Standard-Interventionen: *„Welcher GEDANKE ist das? Dann darf nur er bleiben."* und *„Das hier – sagst du es, oder steht es? Beides geht nicht."* 
 
 ### Runde 2 · Vorher/Nachher-Review (Min. 45–52)
 Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist der eine Gedanke?" (Wenn er ihn nicht in 5 Sekunden nennen kann: weiter operieren.) Danach zeigen 2 TN ihre dramatischste Verwandlung am Beamer – Applaus ist erlaubt; die Vorher-Folie erntet das befreiende Gelächter des Wiedererkennens.

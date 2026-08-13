@@ -1,5 +1,5 @@
 # Skript Woche 4: „Aufmerksamkeit einholen & glasklare Anweisungen"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -69,7 +69,7 @@ Merksatz: *„Erst still, dann kurz, dann Stopp."*
 Handout A: 5 vage Anweisungen, Einzelarbeit mit Zeitdruck (5 Min.), dann Tandem-Vierercheck (3 Min.). Moderation sammelt 2 Lösungen pro Aufgabe im Zuruf und lässt die Gruppe Wörter ZÄHLEN (der Zählakt diszipliniert nachhaltig).
 
 ### Runde 2 · Signal-Ernstfall (Min. 41–52)
-Vierergruppen auf der Spielfläche: Jede:r
+Vierergruppen auf der Spielfläche: Jeder
 
 1. spricht seine Signal-EINFÜHRUNG (Handout B, 60 Sek.),
 2. setzt das Signal in laufender „Gruppenarbeit" ein – Regie zieht eine Störkarte B.

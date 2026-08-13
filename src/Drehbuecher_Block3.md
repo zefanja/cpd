@@ -47,7 +47,7 @@
 
 **Name it (Min. 26–31):** Entschlackungs-Checkliste: 1 Idee pro Folie? Bild ODER Text als Träger? Nichts vorlesen, was steht? Anweisungen >2 Schritte verschriftlicht? Bleibt das Wichtige stehen? Dekoration raus?
 
-**Do it (Min. 31–52):** **Folien-/Material-Chirurgie:** Jede:r operiert 2 eigene Folien/ein Arbeitsblatt nach Checkliste (15 Min.), Tandem-Review Vorher/Nachher (6 Min.); 2 dramatische Verwandlungen im Plenum zeigen.
+**Do it (Min. 31–52):** **Folien-/Material-Chirurgie:** Jeder operiert 2 eigene Folien/ein Arbeitsblatt nach Checkliste (15 Min.), Tandem-Review Vorher/Nachher (6 Min.); 2 dramatische Verwandlungen im Plenum zeigen.
 
 **Action Step:** siehe Curriculum (Foliensatz der nächsten Einheit überarbeiten). *Alternative:* Eine Woche „Tafel-Disziplin": Kernschritte jeder Erklärung bleiben sichtbar stehen bis Stundenende.
 
@@ -152,6 +152,6 @@ Plus Prüfungsregel: kumulativ prüfen + vorher ansagen.
 
 **Do it (Min. 30–50):** *KO-Werkstatt (14 Min.):* eigenen Knowledge Organizer für die laufende Einheit bauen; Tandem-Review mit Gütecheck (Klassiker: zu voll → kürzen üben!). *Fragenfächer (6 Min.):* 5 Elaborationsfragen für dieselbe Einheit schreiben.
 
-**Konsolidierung (Min. 50–58):** 9-Prinzipien-Poster: Jede:r füllt die Matrix „Prinzip × mein Unterrichtsbeispiel" (mind. 6 von 9); Kompetenzmatrix-Zwischenstand (Halbjahr! Vergleich mit W0 zeigen – Motivationsschub); Ankündigung Video-Selbstanalyse Nr. 2 fürs Coaching; Action Step: siehe Curriculum (KO ausgeben + 10-Min.-Lernstrategie-Demo).
+**Konsolidierung (Min. 50–58):** 9-Prinzipien-Poster: Jeder füllt die Matrix „Prinzip × mein Unterrichtsbeispiel" (mind. 6 von 9); Kompetenzmatrix-Zwischenstand (Halbjahr! Vergleich mit W0 zeigen – Motivationsschub); Ankündigung Video-Selbstanalyse Nr. 2 fürs Coaching; Action Step: siehe Curriculum (KO ausgeben + 10-Min.-Lernstrategie-Demo).
 
 **SPA-Quiz:** F1: „Ein guter Knowledge Organizer…" a) enthält alles Wichtige der Einheit möglichst vollständig ✗ (Fleiß-Falle) b) reduziert auf abfragbares Kernwissen auf einer Seite ✓ c) ersetzt das Heft ✗ d) ist ein Tafelbild-Foto ✗. — F2: „‚Erstellt eine Mindmap zum Thema' ist…" a) automatisch Elaboration ✗ b) nur mit Verknüpfungs-Denkauftrag elaborativ ✓ c) Zeitverschwendung ✗ d) nur für Visualisierer sinnvoll ✗ (Mythos-Distraktor!).

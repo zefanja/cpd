@@ -19,7 +19,7 @@
 
 **Name it (Min. 26–31):** Lean-Regeln: Reihenfolge nie brechen / Einseiter genügt / Aktivitäten aus dem Repertoire zuerst / Zeitbudget setzen (Timer beim Planen!) / „gut genug" ist ein Qualitätsurteil, kein Makel.
 
-**Do it (Min. 31–52):** **Planungs-Wettmessen:** Jede:r plant eine reale Stunde der nächsten Woche mit dem Lean-Wizard – Timer läuft, Ziel ≤ 20 Min. (die meisten schaffen 15–25); danach Tandem-Qualitätscheck mit dem Audit-Raster aus W9 (Beweis: schneller UND Rosenshine-konform). Kurze Blitzlicht-Runde: gestoppte Zeiten + Aha-Momente.
+**Do it (Min. 31–52):** **Planungs-Wettmessen:** Jeder plant eine reale Stunde der nächsten Woche mit dem Lean-Wizard – Timer läuft, Ziel ≤ 20 Min. (die meisten schaffen 15–25); danach Tandem-Qualitätscheck mit dem Audit-Raster aus W9 (Beweis: schneller UND Rosenshine-konform). Kurze Blitzlicht-Runde: gestoppte Zeiten + Aha-Momente.
 
 **Action Step:** siehe Curriculum (alle Stunden der Woche nur mit Lean-Framework, Zeiten stoppen). *Alternative:* Zeitbudget-Woche: hartes Planungslimit 20 Min./Stunde mit Timer.
 
@@ -113,7 +113,7 @@
 | 10–70 | **Vorher/Nachher-Präsentationen:** je TN 8–10 Min. (bei großen Gruppen: 2 Parallelräume mit je einem Coach) |
 | 70–80 | **Kompetenzmatrix final:** Spinnennetz W0 vs. W18 vs. W36 austeilen (vorbereitet); 5 Min. stilles Betrachten, Tandem-Austausch |
 | 80–95 | **Programm-Feedback** für die nächste Kohorte: strukturiert (Behalten/Ändern/Streichen je Format), schriftlich + Blitzlicht |
-| 95–110 | **Zertifikate & Ausblick:** Übergabe einzeln mit je einem konkreten Würdigungssatz des Coaches (Precise Praise – bis zuletzt Modell!); Angebot Peer-Mentor:innen-Rolle für Kohorte 2 |
+| 95–110 | **Zertifikate & Ausblick:** Übergabe einzeln mit je einem konkreten Würdigungssatz des Coaches (Precise Praise – bis zuletzt Modell!); Angebot Peer-Mentoren-Rolle für Kohorte 2 |
 | 110–120 | Informeller Ausklang |
 
 **Format Vorher/Nachher-Präsentation (den TN seit W35 bekannt):**
@@ -126,6 +126,6 @@
 **Moderations-Schlusswort (Vorschlag):**
 > *„Vor 36 Wochen haben wir euch versprochen: Unterrichten ist ein Handwerk, und Handwerk ist lernbar. Ihr habt heute die Beweisvideos selbst mitgebracht. Zwei Dinge zum Mitnehmen: Erstens – die Kurve wird nur dann nicht flach, wenn ihr weiter bewusst übt; ihr habt den Werkzeugkasten dafür. Zweitens – ihr seid jetzt die, bei denen die nächsten Neuen hospitieren werden. Das ist keine Bürde. Das ist das größte Kompliment, das dieser Beruf vergibt."*
 
-**Nachbereitung (Moderation/Coaches):** Feedback auswerten → Curriculum-Revision für Kohorte 2; Peer-Mentor:innen-Zusagen dokumentieren; Portfolios archivieren (Datenschutz: Videos bei den TN belassen!).
+**Nachbereitung (Moderation/Coaches):** Feedback auswerten → Curriculum-Revision für Kohorte 2; Peer-Mentoren-Zusagen dokumentieren; Portfolios archivieren (Datenschutz: Videos bei den TN belassen!).
 
 **SPA-Baustein (Abschlussmodul):** Jahres-Dashboard (Quizverläufe, Action-Step-Log, Matrix-Spinnennetz W0/18/36); Portfolio-PDF-Export; Reflexionsleitfaden „Meine 3 Techniken"; Übergabe-Screen: Selbst-Coaching-Minimum aus W35 als Abo-Erinnerung (monatlicher Fokus-Reminder).

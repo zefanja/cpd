@@ -1,5 +1,5 @@
 # Skript Woche 11: „Modellieren & Erklären – das I do"
-## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -17,7 +17,7 @@
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen-Inseln mit „Bühne" (ein Stuhl-Halbkreis pro Insel); Timer pro Gruppe (Handys erlaubt). **Vorab-Auftrag (seit W10 bekannt, per Exit-Karte erinnert):** Jede:r hat eine 3-Minuten-Modellierung eines echten Fachinhalts vorbereitet (Zielgruppe: die Gruppe als fachfremde „Klasse" – das ist Absicht: fachfremde Zuhörer spüren Riesenschritte am eigenen Leib).
+**Raum:** Vierergruppen-Inseln mit „Bühne" (ein Stuhl-Halbkreis pro Insel); Timer pro Gruppe (Handys erlaubt). **Vorab-Auftrag (seit W10 bekannt, per Exit-Karte erinnert):** Jeder hat eine 3-Minuten-Modellierung eines echten Fachinhalts vorbereitet (Zielgruppe: die Gruppe als fachfremde „Klasse" – das ist Absicht: fachfremde Zuhörer spüren Riesenschritte am eigenen Leib).
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus

@@ -1,5 +1,5 @@
 # Skript Woche 12: „Angeleitetes Üben – das We do"
-## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

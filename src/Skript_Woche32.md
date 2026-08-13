@@ -1,5 +1,5 @@
 # Skript Woche 32: „Lean Lesson Planning – Wirkung pro Minute"
-## 60-Minuten-Sitzung · Block 6 (Auftakt) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 6 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

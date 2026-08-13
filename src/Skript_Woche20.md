@@ -1,5 +1,5 @@
 # Skript Woche 20: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Halbjahres-Meilenstein)"
-## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

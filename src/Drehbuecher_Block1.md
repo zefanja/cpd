@@ -21,7 +21,7 @@
 **Input-Kern (Min. 5–15):** Bill-Rogers-Anekdote aus Lovells Einleitung nacherzählen (der erfahrene Podcaster, der glaubte, nur „Erfahrung oder ein lauter Bariton" könne helfen – bis er sah, dass es lernbare Techniken sind). Dann:
 > *„Dieses Jahr behandelt euch nicht als Mängelwesen, sondern als Profis im Aufbau eines Handwerks. Drei Regeln: Erstens – hier wird geübt, nicht nur geredet; heute in 20 Minuten zum ersten Mal, es fühlt sich am Anfang albern an, das ist normal und geht vorbei. Zweitens – ein kleiner Schritt pro Woche, konsequent, schlägt jede Rundum-Erneuerung. Drittens – Coaching ist Entwicklung, nichts davon landet in einer Beurteilung."*
 
-**Mini-Übung (Min. 35–50):** Jede:r skriptet die ersten 30 Sekunden nach der schulischen Begrüßungsroutine (Aufstehen–Gruß–Setzen): exakter Wortlaut des Grußes + Setz-Signal + erster Satz danach. In Tandems 2× vorspielen. Ziel ist NICHT Perfektion, sondern: die Hemmschwelle „laut üben vor Kollegen" fällt am Tag 1.
+**Mini-Übung (Min. 35–50):** Jeder skriptet die ersten 30 Sekunden nach der schulischen Begrüßungsroutine (Aufstehen–Gruß–Setzen): exakter Wortlaut des Grußes + Setz-Signal + erster Satz danach. In Tandems 2× vorspielen. Ziel ist NICHT Perfektion, sondern: die Hemmschwelle „laut üben vor Kollegen" fällt am Tag 1.
 
 **Action Step:** siehe Curriculum (Begrüßungsroutine vollständig durchführen: auf 100 % Stehen und Stille warten, jede Stunde). **Coaching:** Terminplan fixieren; Einverständnisse Baseline-Video einsammeln.
 
@@ -51,8 +51,8 @@
 5. per Cold Call prüfbar („Behavioural CFU").
 
 **Do it (Min. 33–52):**
-- *Runde 1 (10 Min.):* Jede:r füllt den Erwartungs-Canvas für die eigene schwierigste Lerngruppe: Top-3-Erwartungen nach den 5 Kriterien, je mit Begründungssatz („…, damit wir keine Lernzeit verlieren").
-- *Runde 2 (9 Min.):* Tandem-Härtetest: Partner:in prüft jede Erwartung mit zwei Fragen: „Woran genau würde ich als Beobachter sehen, dass sie erfüllt ist?" und „Kann ein Schüler sie missverstehen?" → nachschärfen.
+- *Runde 1 (10 Min.):* Jeder füllt den Erwartungs-Canvas für die eigene schwierigste Lerngruppe: Top-3-Erwartungen nach den 5 Kriterien, je mit Begründungssatz („…, damit wir keine Lernzeit verlieren").
+- *Runde 2 (9 Min.):* Tandem-Härtetest: Partner prüft jede Erwartung mit zwei Fragen: „Woran genau würde ich als Beobachter sehen, dass sie erfüllt ist?" und „Kann ein Schüler sie missverstehen?" → nachschärfen.
 
 **Action Step:** „Ich führe am Montag EINE nachgeschärfte Erwartung explizit ein: erklären + Begründung + Behavioural CFU (2 SuS wiederholen lassen) + in den Folgestunden konsequent einfordern." *Alternative:* Erwartungs-Neustart für die ganze Begrüßungsroutine (für TN, bei denen sie zäh läuft).
 
@@ -85,7 +85,7 @@
 6. Timer startet,
 7. Lehrkraft scannt (geht NICHT sofort an den Rechner!).
 
-**Do it (Min. 31–52):** Rollenspiel-Karussell in Vierergruppen: Jede:r spielt die komplette Sequenz (Schritte 1–7) einmal durch, „Klasse" spielt zunächst kooperativ; im 2. Durchlauf zieht die Regie EINE Störkarte. Feedback-Fokus: Schritt 3 (Warten aushalten – der häufigste Fehler ist Grüßen in die Unruhe hinein) und Schritt 5 (Satz-Konstanz). Danach: eigenes Skript in Reinform notieren (dreispaltig) → wandert ins Playbook.
+**Do it (Min. 31–52):** Rollenspiel-Karussell in Vierergruppen: Jeder spielt die komplette Sequenz (Schritte 1–7) einmal durch, „Klasse" spielt zunächst kooperativ; im 2. Durchlauf zieht die Regie EINE Störkarte. Feedback-Fokus: Schritt 3 (Warten aushalten – der häufigste Fehler ist Grüßen in die Unruhe hinein) und Schritt 5 (Satz-Konstanz). Danach: eigenes Skript in Reinform notieren (dreispaltig) → wandert ins Playbook.
 
 **Action Step:** siehe Curriculum (Do Now einführen; Starter hängt vor dem Gruß, Setz-Signal = Timerstart, immer derselbe Satz). *Alternative für Fortgeschrittene:* Sekunden von Setz-Signal bis „90 % arbeiten" täglich messen und auf <60 senken.
 
@@ -110,7 +110,7 @@
 
 **Do it (Min. 31–52):**
 - *Rewrite-Sprint (8 Min.):* 5 vage Anweisungen („Passt jetzt mal auf", „Macht mal weiter", „Räumt vernünftig auf"…) einzeln in What-to-Do-Form; Tandem-Check mit Viererprüfung.
-- *Signal-Rollenspiel (13 Min.):* Jede:r etabliert „sein" Signal (Wortlaut der EINFÜHRUNG des Signals inklusive – Behavioural CFU aus W2 einbauen!) und übt den Ernstfall mit Störkarte B: Signal → 5 reagieren nicht → schweigend warten + Blick + ggf. positive Gruppenkorrektur andeuten (Vorgriff W6, nur benennen).
+- *Signal-Rollenspiel (13 Min.):* Jeder etabliert „sein" Signal (Wortlaut der EINFÜHRUNG des Signals inklusive – Behavioural CFU aus W2 einbauen!) und übt den Ernstfall mit Störkarte B: Signal → 5 reagieren nicht → schweigend warten + Blick + ggf. positive Gruppenkorrektur andeuten (Vorgriff W6, nur benennen).
 
 **Action Step:** siehe Curriculum (Signal etablieren; erst sprechen, wenn alle Stifte liegen). *Alternative:* Wörter zählen – eine Woche lang jede Arbeitsanweisung vorher schriftlich auf ≤ 12 Wörter/Schritt kürzen.
 
@@ -135,7 +135,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 **Name it (Min. 24–29):** Präsenz-Checkliste: Stand fest? Hände ruhig? Register bewusst gewählt? Pause vor der Ansage? Stimme am Satzende unten (Aussage, nicht Bitte)?
 
-**Do it (Min. 29–52):** **Körper-Labor** in Dreiergruppen: dieselbe Anweisung („Bücher zu. Stifte weg. Blick zu mir.") in 4 Varianten sprechen: gehend/stehend × viele/wenige Worte; Beobachter geben Wirkungs-Feedback (nur Wirkung: „wirkte gehetzt / ruhig / bittend / sicher"). Dann **Reset-Anker** bauen: Jede:r definiert Auslöser (z. B. „freche Antwort vor der Klasse"), Körperanker (Ausatmen, Fersen spüren), inneren Satz – und spielt die Sequenz 3× mit provozierender Störkarte durch. Optional: Handy-Selbstclip einer Ansage, sofort gemeinsam anschauen (Vorübung Videoselbstanalyse W8).
+**Do it (Min. 29–52):** **Körper-Labor** in Dreiergruppen: dieselbe Anweisung („Bücher zu. Stifte weg. Blick zu mir.") in 4 Varianten sprechen: gehend/stehend × viele/wenige Worte; Beobachter geben Wirkungs-Feedback (nur Wirkung: „wirkte gehetzt / ruhig / bittend / sicher"). Dann **Reset-Anker** bauen: Jeder definiert Auslöser (z. B. „freche Antwort vor der Klasse"), Körperanker (Ausatmen, Fersen spüren), inneren Satz – und spielt die Sequenz 3× mit provozierender Störkarte durch. Optional: Handy-Selbstclip einer Ansage, sofort gemeinsam anschauen (Vorübung Videoselbstanalyse W8).
 
 **Action Step:** siehe Curriculum (vor jeder wichtigen Anweisung: stehen bleiben, ausatmen, dann sprechen). *Alternative:* Register-Tagebuch: täglich eine Situation notieren, in der bewusst das Register gewechselt wurde.
 
@@ -156,7 +156,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 **Name it (Min. 26–31):** Entscheidungsregel: „So niedrig wie möglich, so kurz wie möglich, so privat wie möglich – und danach sofort zurück zum Stoff." Anerkennung („Danke") für Erfüllung, kein Überschwang.
 
-**Do it (Min. 31–52):** **Stufen-Karussell:** Gleiche Störung (Schwatzen zu zweit bei Stillarbeit) wird nacheinander auf Stufe 1, 2, 3, 4 gespielt – jede:r übernimmt eine Stufe; Gruppe prüft: kleinste Stufe zuerst probiert? Unterricht lief weiter? Ton neutral? Danach **Positions-Übung:** Auf dem Sitzplan-Blanko einzeichnen: Wo stehe ich bei Stillarbeit (alle im Blick), wo bei Erklärungen, welche „blinde Ecke" hat mein Raum? **Scan-Training:** Videoclip/Beschreibungskarten – Störungen in 60 Sek. finden und Stufenwahl begründen.
+**Do it (Min. 31–52):** **Stufen-Karussell:** Gleiche Störung (Schwatzen zu zweit bei Stillarbeit) wird nacheinander auf Stufe 1, 2, 3, 4 gespielt – jeder übernimmt eine Stufe; Gruppe prüft: kleinste Stufe zuerst probiert? Unterricht lief weiter? Ton neutral? Danach **Positions-Übung:** Auf dem Sitzplan-Blanko einzeichnen: Wo stehe ich bei Stillarbeit (alle im Blick), wo bei Erklärungen, welche „blinde Ecke" hat mein Raum? **Scan-Training:** Videoclip/Beschreibungskarten – Störungen in 60 Sek. finden und Stufenwahl begründen.
 
 **Action Step:** siehe Curriculum (erst nonverbal; abends zählen, wie oft es reichte). *Alternative:* Positionswechsel-Plan umsetzen (nie mit dem Rücken zu >5 SuS).
 

@@ -1,5 +1,5 @@
 # Skript Woche 17: „Aufmerksamkeit lenken – präzise orientieren"
-## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

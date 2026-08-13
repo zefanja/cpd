@@ -1,5 +1,5 @@
 # Skript Woche 18: „Retrieval Practice – Abrufen schlägt Wiederlesen"
-## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -69,7 +69,7 @@
 
 ## Phase 6 · Action Step & Werkstatt-Anriss (Minute 50–58)
 
-**Batterie-Start (4 Min.):** Jede:r legt die eigene 3-2-1-Starter-Batterie an (Vorlage Handout A): 6 Fragen für Montag notieren – Quelle: eigene Exit Tickets und Meilensteine (Playbook aufschlagen!).
+**Batterie-Start (4 Min.):** Jeder legt die eigene 3-2-1-Starter-Batterie an (Vorlage Handout A): 6 Fragen für Montag notieren – Quelle: eigene Exit Tickets und Meilensteine (Playbook aufschlagen!).
 
 **Standard-Action-Step:** *„Mein Do Now besteht ab sofort aus 3-2-1-Abruffragen – und ich sage der Klasse am Montag den Trainings-Satz: ‚Diese Quizze sind Training, keine Prüfung. Fehler hier sind Gold.' Freitags notiere ich, wie die Klasse auf Tag 1 vs. Tag 5 reagiert hat."*
 

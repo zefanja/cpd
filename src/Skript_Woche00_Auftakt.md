@@ -1,5 +1,5 @@
 # Skript Auftaktwoche: „Kickoff – Handwerk ist lernbar"
-## 60-Minuten-Sitzung · vor Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · vor Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -37,13 +37,13 @@
 
 Vorab mit der Schulleitung abgestimmte Kernbotschaften (der Moderation als Briefing mitgeben):
 1. Dieses Programm ist eine strategische Investition der Schule, keine Belehrung von Defizitären.
-2. Die Schule weiß, was Quereinsteiger:innen mitbringen (Fachlichkeit, Berufserfahrung, Lebenserfahrung) – das Programm ergänzt das fehlende Handwerk, mehr nicht.
+2. Die Schule weiß, was Quereinsteiger mitbringen (Fachlichkeit, Berufserfahrung, Lebenserfahrung) – das Programm ergänzt das fehlende Handwerk, mehr nicht.
 3. Coaching und alles im Programm ist entwicklungs-, nicht beurteilungsbezogen. Nichts fließt in dienstliche Bewertungen. (Dieser Satz MUSS von der Schulleitung selbst kommen – von niemandem sonst ist er glaubwürdig.)
 
 ## Phase 1 · Die Kernbotschaft: Handwerk ist lernbar (Minute 5–15)
 
 > **Moderationstext (Vorschlag):**
-> *„Ich fange mit einer Geschichte aus dem Buch an, mit dem wir viel arbeiten werden. Oliver Lovell, erfahrener Lehrer und Podcaster, beschreibt seine ersten Jahre so: Er glaubte lange, gegen Unterrichtsstörungen helfe nur zweierlei – Erfahrung oder ein von Natur aus lauter Bariton. Man hat es, oder man hat es nicht. Dann sah er Kolleg:innen, die weder besonders laut noch besonders alt waren – und deren Klassen ruhig und konzentriert arbeiteten. Und er entdeckte: Diese Leute TATEN konkrete, beschreibbare, kopierbare Dinge. Kein Charisma. Techniken.*
+> *„Ich fange mit einer Geschichte aus dem Buch an, mit dem wir viel arbeiten werden. Oliver Lovell, erfahrener Lehrer und Podcaster, beschreibt seine ersten Jahre so: Er glaubte lange, gegen Unterrichtsstörungen helfe nur zweierlei – Erfahrung oder ein von Natur aus lauter Bariton. Man hat es, oder man hat es nicht. Dann sah er Kollegen, die weder besonders laut noch besonders alt waren – und deren Klassen ruhig und konzentriert arbeiteten. Und er entdeckte: Diese Leute TATEN konkrete, beschreibbare, kopierbare Dinge. Kein Charisma. Techniken.*
 > *Das ist die Gründungsidee dieses Jahres: **Unterrichten ist ein Handwerk. Und Handwerk ist lernbar.** Doug Lemov hat dafür hunderte Stunden Videomaterial von Lehrkräften analysiert, deren Klassen außergewöhnliche Ergebnisse erzielen – und das Ergebnis ist keine Liste von Persönlichkeitsmerkmalen, sondern eine Liste von Handlungen. Was eine Person tun kann, kann eine andere lernen.*
 > *Was heißt das für euch? Drei Dinge, die ich euch heute verspreche – und drei, die ich von euch brauche.*
 > *Meine drei Versprechen: Erstens, ihr bekommt kein Theorie-Studium, sondern jede Woche Werkzeug, das ihr am Montag benutzen könnt. Zweitens, die Reihenfolge ist für euch gebaut: Wir beginnen mit dem, was euch nachts wachhält – Klassenführung – und nicht mit Bildungstheorie. Drittens, hier wird niemand vorgeführt. Nie.*
@@ -75,7 +75,7 @@ Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer
 Ablauf:
 
 1. 5 Min. Einzelarbeit: Skript auf Karte (Vorlage: Weg/Position → Warten worauf? → Gruß-Wortlaut → Setz-Signal → erster Satz).
-2. 8 Min. Tandems: jede:r spielt 2×, Partner gibt Feedback nach der Regel, die ab jetzt IMMER gilt: *„Zuerst: Was war wirksam – konkret? Dann: EIN Impuls. Dann sofort noch einmal spielen."*
+2. 8 Min. Tandems: jeder spielt 2×, Partner gibt Feedback nach der Regel, die ab jetzt IMMER gilt: *„Zuerst: Was war wirksam – konkret? Dann: EIN Impuls. Dann sofort noch einmal spielen."*
 3. 2 Min. Blitzlicht: *„Wie hat sich das angefühlt? … Merkt euch: Das Albernheitsgefühl von heute ist in Woche 4 komplett weg. Versprochen."*
 
 ## Phase 5 · Zielvereinbarung & Tandem-Bildung (Minute 50–58)
@@ -131,7 +131,7 @@ Abgabe beim Rausgehen. Sorgen-Karten fließen anonymisiert in die Coaching-Planu
 - Zwei Dinge, die mir aktuell am meisten Sorge machen: 1. … 2. …
 - Woran merke ich im Juni konkret, dass sich das Jahr gelohnt hat? …
 - Das bringe ich mit (Stärken aus Beruf/Leben, die mir im Unterricht helfen können): …
-- Kopie an Coach am: … / Tandempartner:in: …
+- Kopie an Coach am: … / Tandempartner: …
 
 # Anhang 4: Ableitung für die SPA „Modul 0 / Onboarding"
 

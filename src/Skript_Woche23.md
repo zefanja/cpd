@@ -1,5 +1,5 @@
 # Skript Woche 23: „No Opt Out & Right is Right – Anspruch halten"
-## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -65,7 +65,7 @@ Moderation spielt den Dialog mit einem TN:
 ## Phase 5 · Do it (Minute 32–52)
 
 ### Runde 1 · Schleifen-Rollenspiel (Min. 32–42)
-Vierergruppen, Rollenkarten (Anhang 1.3): Jede:r führt zwei Schleifen als Lehrkraft (verschiedene Karten). Beobachter-Checkfragen: Kam die Rückkehr zur Ausgangsperson? War sie mehr als Papageien-Echo (eigene Worte/Anwendung)? Ton beiläufig-warm, kein Triumph? Bei Karte 4 (Verweigerung): ruhig geblieben, Angebot gemacht, Schleife offen gehalten?
+Vierergruppen, Rollenkarten (Anhang 1.3): Jeder führt zwei Schleifen als Lehrkraft (verschiedene Karten). Beobachter-Checkfragen: Kam die Rückkehr zur Ausgangsperson? War sie mehr als Papageien-Echo (eigene Worte/Anwendung)? Ton beiläufig-warm, kein Triumph? Bei Karte 4 (Verweigerung): ruhig geblieben, Angebot gemacht, Schleife offen gehalten?
 
 ### Runde 2 · Kalibrierung (Min. 42–52) — das Kernstück
 Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlassen / ✗ nachfassen. **Bei jeder Uneinigkeit: 60 Sekunden Begründungs-Austausch, dann Auflösung durch die Moderation.** *(Die Diskussion über die Grenzfälle – Nr. 4, 7, 9 – IST das Lernen: Ein Kollegium mit gemeinsamem Right-is-Right-Standard ist mehr wert als zehn Einzelkönner. Moderation sagt das explizit.)*

@@ -1,5 +1,5 @@
 # Skript Woche 35: „Growth Teaching – sich selbst weiterentwickeln"
-## 60-Minuten-Sitzung · Block 6 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 6 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -64,7 +64,7 @@
 ## Phase 5 · Do it (Minute 30–52)
 
 ### Runde 1 · Video-Selbstanalyse Nr. 3 in Tandems (Min. 30–44) — die Coach-Rolle wandert
-Tandems: Jede:r zeigt den annotierten Ausschnitt (5–6 Min. pro Person inkl. Gespräch). **Der Peer führt das Gespräch nach Coach-Struktur** (an der Tafel):
+Tandems: Jeder zeigt den annotierten Ausschnitt (5–6 Min. pro Person inkl. Gespräch). **Der Peer führt das Gespräch nach Coach-Struktur** (an der Tafel):
 
 1. „Was siehst du heute, was du in Woche 20 nicht gesehen hättest?"
 2. Eine Stärke mit Zeitstempel würdigen – Precise Praise!
@@ -82,7 +82,7 @@ Einzelarbeit auf Handout B:
 
 ## Phase 6 · Kolloquiums-Vorbereitung & Action Step (Minute 52–58)
 
-**Kolloquium konkret (4 Min., Leitfaden Anhang 3 austeilen):** *„Nächste Woche kein normales Format: 90 bis 120 Minuten, Schulleitung eröffnet, und ihr seid das Programm. Jede:r präsentiert 8 bis 10 Minuten: zwei Videoausschnitte – einer aus Woche 1, versiegelt seit September, einer aus Video 3 – plus drei Techniken, die euren Unterricht verändert haben, plus eine Baustelle mit Plan. Danach zwei Minuten Stärken-Resonanz aus der Kohorte. Kein Prüfungsformat – ein Zeugnis-Format: Ihr zeigt euch selbst, was ein Jahr gezielte Übung bewirkt. Das Baseline-Video bekommt ihr diese Woche vom Coach – schaut es euch VORHER allein an. Bringt Taschentücher. Ich meine das nur halb im Scherz."*
+**Kolloquium konkret (4 Min., Leitfaden Anhang 3 austeilen):** *„Nächste Woche kein normales Format: 90 bis 120 Minuten, Schulleitung eröffnet, und ihr seid das Programm. Jeder präsentiert 8 bis 10 Minuten: zwei Videoausschnitte – einer aus Woche 1, versiegelt seit September, einer aus Video 3 – plus drei Techniken, die euren Unterricht verändert haben, plus eine Baustelle mit Plan. Danach zwei Minuten Stärken-Resonanz aus der Kohorte. Kein Prüfungsformat – ein Zeugnis-Format: Ihr zeigt euch selbst, was ein Jahr gezielte Übung bewirkt. Das Baseline-Video bekommt ihr diese Woche vom Coach – schaut es euch VORHER allein an. Bringt Taschentücher. Ich meine das nur halb im Scherz."*
 
 **Action Step (Standard):** *„Ich bereite meine Kolloquiums-Präsentation vor: Baseline-Ausschnitt wählen (1–2 Min.), Kontrast-Ausschnitt aus Video 3 (1–2 Min.), meine drei Techniken benennen, meine Baustelle mit Jahr-2-Plan formulieren. Generalprobe im Tandem bis Donnerstag."*
 
@@ -121,7 +121,7 @@ Tabelle: Mechanismus | So sah er bei uns aus (je 3–4 Programm-Elemente, siehe 
 1. **Willingham, *Why Don't Students Like School?*** – die Kognition hinter Block 3, als Ganzes erzählt. *(Anschluss: W15–20)*
 2. **Wiliam, *Embedded Formative Assessment*** – Block 4 in voller Tiefe und mit Prüfungskultur-Horizont. *(W21–26)*
 3. **Sherrington/Caviglioli, *WalkThrus*** – 150 Techniken als Bildanleitungen; das Nachschlagewerk für den Monatsfokus. *(ganzjährig)*
-4. **Lemov et al., *Practice Perfect*** – wie man übt; das Buch hinter unserer Übungskultur – und die Vorlage, falls ihr je selbst Kolleg:innen trainiert. *(Meta)*
+4. **Lemov et al., *Practice Perfect*** – wie man übt; das Buch hinter unserer Übungskultur – und die Vorlage, falls ihr je selbst Kollegen trainiert. *(Meta)*
 5. **McCrea, *Evidence Snacks*** (oder erneut *Motivated Teaching* mit Textmarker) – Evidenz in Wochenhäppchen; passt exakt ins Minimum. *(Erhalt)*
 Regel: 1 Buch pro Halbjahr · 1 Action Step pro Buch · Tandem erzählt Tandem, was hängen blieb (Abruf!).
 

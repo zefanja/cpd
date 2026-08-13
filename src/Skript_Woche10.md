@@ -1,5 +1,5 @@
 # Skript Woche 10: „Lernziele & Backwards Design – wissen, wohin"
-## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -17,7 +17,7 @@
 
 # 2. Vorbereitung
 
-**Raum:** Tandems an Tischen. **Vorab-Auftrag (in W9 angesagt!):** Jede:r bringt das Thema einer echten Stunde der KOMMENDEN Woche mit (Fach, Klasse, Stoff – mehr nicht).
+**Raum:** Tandems an Tischen. **Vorab-Auftrag (in W9 angesagt!):** Jeder bringt das Thema einer echten Stunde der KOMMENDEN Woche mit (Fach, Klasse, Stoff – mehr nicht).
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus

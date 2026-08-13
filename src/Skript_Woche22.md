@@ -1,5 +1,5 @@
 # Skript Woche 22: „Cold Call & Wait Time – alle denken mit"
-## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -71,7 +71,7 @@ Moderation spielt zweimal dieselbe Frage-Situation mit der Gruppe:
 Einzelarbeit: das eigene Einführungsskript wörtlich schreiben (Vorlage Anhang 1.1; Sek-II-Kurse nutzen die erwachsene Tonlage). Tandem-Check: Kommt die Begründung VOR der Ansage der Neuerung? Klingt es nach Einladung?
 
 ### Runde 2 · Sequenz-Drill mit Stoppuhr (Min. 39–52)
-Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jede:r führt 3 Cold-Call-Zyklen mit echten Fachfragen-Kärtchen durch; der Wächter misst die Pause – **unter 3 Sekunden: Zyklus wird wiederholt** (die harte Regel ist der Trainingseffekt; das Aushalten wird körperlich gelernt). Runde 2 pro Person mit einer Störkarte D (Anhang 1.2). Feedback-Fokus: Pause gehalten? Ton warm? Reihenfolge sauber (kein Name vor der Frage)?
+Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt 3 Cold-Call-Zyklen mit echten Fachfragen-Kärtchen durch; der Wächter misst die Pause – **unter 3 Sekunden: Zyklus wird wiederholt** (die harte Regel ist der Trainingseffekt; das Aushalten wird körperlich gelernt). Runde 2 pro Person mit einer Störkarte D (Anhang 1.2). Feedback-Fokus: Pause gehalten? Ton warm? Reihenfolge sauber (kein Name vor der Frage)?
 
 ## Phase 6 · Action Step (Minute 52–58)
 

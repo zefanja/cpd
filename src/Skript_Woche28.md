@@ -1,5 +1,5 @@
 # Skript Woche 28: „Treiber 2 & 3: Run Routines & Nudge Norms – Kosten senken, Normen verschieben"
-## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -48,7 +48,7 @@
 > *„Treiber 3, und jetzt wird es sozial: **Nudge Norms.** Woche 1, Modell 4: Menschen tun, was ihre Gruppe normal findet – Jugendliche in Hochpotenz. Die Frage ist nie OB Normen wirken, sondern WELCHE gerade sichtbar sind. Und hier kommt der Satz, der wehtut:*
 > *​**Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Woche 7, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
 > *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr habt es letzte Woche gelernt – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe zweiundzwanzig laufende Stifte' macht hörbar, was sonst lautlos bliebe.*
-> *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kolleg:innen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
+> *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kollegen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
 
 ## Phase 5 · Name it (Minute 32–35)
 

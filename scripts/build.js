@@ -148,7 +148,7 @@ ${g.docs
 </header>
 <main>
   <h1 class="page-title">CPD Fortbildung</h1>
-  <p class="intro">Alle Dokumente des Fortbildungscurriculums für Quereinsteiger:innen.</p>
+  <p class="intro">Alle Dokumente des Fortbildungscurriculums für Quereinsteiger.</p>
 ${groupsHtml}
 </main>
 <footer class="site-footer">Erstellt aus Markdown-Quellen in <code>src/</code>.</footer>

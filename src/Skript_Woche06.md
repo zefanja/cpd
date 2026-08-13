@@ -1,5 +1,5 @@
 # Skript Woche 6: „100 % & die Interventionsleiter"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -71,7 +71,7 @@ Leiter-Poster aufhängen (Sicherung der Tafel-Entwicklung); Einstiegsregel als M
 ## Phase 5 · Do it (Minute 32–52)
 
 ### Runde 1 · Stufen-Karussell (Min. 32–44)
-Vierergruppen: Dieselbe Störung (2 SuS tuscheln bei Stillarbeit) wird nacheinander auf **Stufe 1, 2, 3 und 4** gespielt – jede:r TN übernimmt eine Stufe als Lehrkraft und muss dabei WEITERUNTERRICHTEN (die Regie gibt einen Erklär-Auftrag: „Du erläuterst gerade die Hausaufgabe"). Beobachter-Checkfragen: Kleinste Stufe sauber ausgeführt? Unterricht lief weiter? Ton neutral-formal (W5!)? Nach jedem Durchgang 60 Sek. Feedback + Sofort-Wiederholung der Schwachstelle. *(Stufe 5 wird einmal von der Moderation demonstriert – „Name + Handlung, zwei Sekunden" – aber nicht von allen geübt: Die Verlockung, gleich öffentlich zu korrigieren, soll nicht trainiert werden.)*
+Vierergruppen: Dieselbe Störung (2 SuS tuscheln bei Stillarbeit) wird nacheinander auf **Stufe 1, 2, 3 und 4** gespielt – jeder TN übernimmt eine Stufe als Lehrkraft und muss dabei WEITERUNTERRICHTEN (die Regie gibt einen Erklär-Auftrag: „Du erläuterst gerade die Hausaufgabe"). Beobachter-Checkfragen: Kleinste Stufe sauber ausgeführt? Unterricht lief weiter? Ton neutral-formal (W5!)? Nach jedem Durchgang 60 Sek. Feedback + Sofort-Wiederholung der Schwachstelle. *(Stufe 5 wird einmal von der Moderation demonstriert – „Name + Handlung, zwei Sekunden" – aber nicht von allen geübt: Die Verlockung, gleich öffentlich zu korrigieren, soll nicht trainiert werden.)*
 
 ### Runde 2 · Radar-Übungen (Min. 44–52)
 Ablauf:

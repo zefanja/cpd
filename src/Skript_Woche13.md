@@ -1,5 +1,5 @@
 # Skript Woche 13: „Selbstständiges Üben & aktives Monitoring – das You do"
-## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

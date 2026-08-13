@@ -1,5 +1,5 @@
 # Skript Woche 9: „Rosenshine & die Architektur einer Stunde"
-## 60-Minuten-Sitzung · Block 2 (Auftakt) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 2 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -17,7 +17,7 @@
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; Tafel/Flipchart für die Strang-Entwicklung. **Vorab-Auftrag (in W8 angesagt!):** Jede:r bringt einen eigenen Stundenverlaufsplan mit (beliebiges Format – auch „Zettel mit drei Stichworten" ist erlaubt und ehrlich).
+**Raum:** Vierergruppen; Tafel/Flipchart für die Strang-Entwicklung. **Vorab-Auftrag (in W8 angesagt!):** Jeder bringt einen eigenen Stundenverlaufsplan mit (beliebiges Format – auch „Zettel mit drei Stichworten" ist erlaubt und ehrlich).
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
@@ -82,7 +82,7 @@ Tandems erhalten die schwache Beispielstunde (Anhang 1.3) und auditieren mit dem
 > *„Jetzt reparieren, nicht neu erfinden: Baut die Stunde mit MINIMALEN Eingriffen Rosenshine-konform um. Regel: Ihr dürft nichts hinzuerfinden, was länger als fünf Minuten dauert."* — Tandems skizzieren; 2 Tandems pitchen ihr Redesign in je 60 Sekunden. *(Typische gute Lösungen: Do Now mit Vorwissen statt Kaltstart; Erklärblock dritteln mit Prüffragen; 2 gemeinsame Beispiele vor dem Arbeitsblatt; Exit-Aufgabe statt „Wer noch Fragen hat…".)*
 
 ### Runde 3 · Selbst-Audit (Min. 48–52)
-Jede:r legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage markieren, bei der der eigene Plan am schwächsten ist. Kein Vorzeigen, keine Beichte – nur die private Diagnose (sie wird der Action Step).
+Jeder legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage markieren, bei der der eigene Plan am schwächsten ist. Kein Vorzeigen, keine Beichte – nur die private Diagnose (sie wird der Action Step).
 
 ## Phase 6 · Action Step (Minute 52–58)
 

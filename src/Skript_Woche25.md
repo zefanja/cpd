@@ -1,5 +1,5 @@
 # Skript Woche 25: „Show Me, Affirmative Checking & Show Call – Daten sichtbar machen"
-## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -65,7 +65,7 @@
 Vierergruppen: Routine dreispaltig skripten (W3-Format!) inkl. Einführungswortlaut für die Klasse; dann einmal komplett durchspielen (einer dirigiert, drei sind Klasse, eine eingebaute Störung: ein „Schüler" hält verspätet hoch und schielt vorher zum Nachbarn – Reaktion: Stille-Regel nachschärfen, nicht dramatisieren).
 
 ### Runde 2 · Show-Call-Moderation (Min. 41–52)
-An den 4 echten Arbeiten (rotierend, je ~2,5 Min. + 30 Sek. Feedback): Jede:r moderiert einen Dreischritt – zwei TN an fehlerhaften, einer an der soliden, einer an der exzellenten Arbeit (Exzellenz-Moderation ist eigenes Handwerk: „Was macht sie stark?" statt „Fehler suchen"). Feedback-Fokus: Ton (Ehrung?), EIN Fokus gehalten?, hat die KLASSE gearbeitet (mindestens ein Cold Call/Turn-and-Talk-Element)?
+An den 4 echten Arbeiten (rotierend, je ~2,5 Min. + 30 Sek. Feedback): Jeder moderiert einen Dreischritt – zwei TN an fehlerhaften, einer an der soliden, einer an der exzellenten Arbeit (Exzellenz-Moderation ist eigenes Handwerk: „Was macht sie stark?" statt „Fehler suchen"). Feedback-Fokus: Ton (Ehrung?), EIN Fokus gehalten?, hat die KLASSE gearbeitet (mindestens ein Cold Call/Turn-and-Talk-Element)?
 
 ## Phase 6 · Action Step & Peer-Hospitations-Vorbereitung (Minute 52–58)
 

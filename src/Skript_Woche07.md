@@ -1,5 +1,5 @@
 # Skript Woche 7: „Positive Framing, Precise Praise & Warm/Strict"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -64,10 +64,10 @@ Handout A austeilen, drei Formeln fixieren: **Umformulierungs-Formel** „Ich se
 Tandems, Kartenset (Anhang 1.1): Partner A zieht und liest die Negativ-Ansage, Partner B formuliert sie LAUT und sofort um – 60 Sekunden, so viele Karten wie möglich; dann Wechsel; dann Runde 2 (Rekordjagd – Tempo automatisiert!). Moderation ruft zwischendurch die Qualitätsbremse aus: *„Tempo zählt nur, wenn die Formel stimmt – Partner prüft: erfüllender Teil? Zielzustand? Kein verstecktes ‚endlich' oder ‚schon wieder'?"*
 
 ### Runde 2 · Precise-Praise-Werkstatt (Min. 42–48)
-An den echten Schülerarbeiten: Jede:r schreibt zu einer Arbeit zwei präzise Lobsätze (einen zum Ergebnis, einen zum erkennbaren Vorgehen); Tandem-Kitschkontrolle mit dem Dreiklang – „super gemacht", „toll", „schön" werden gestrichen und ersetzt.
+An den echten Schülerarbeiten: Jeder schreibt zu einer Arbeit zwei präzise Lobsätze (einen zum Ergebnis, einen zum erkennbaren Vorgehen); Tandem-Kitschkontrolle mit dem Dreiklang – „super gemacht", „toll", „schön" werden gestrichen und ersetzt.
 
 ### Runde 3 · Warm/Strict-Sätze (Min. 48–52)
-Jede:r formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eines fähigen Schülers; schludrige Abgabe einer starken Schülerin) je einen Warm/Strict-Satz und spricht ihn laut – Partner hört auf beides: Kam die Wärme UND die Unverhandelbarkeit an?
+Jeder formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eines fähigen Schülers; schludrige Abgabe einer starken Schülerin) je einen Warm/Strict-Satz und spricht ihn laut – Partner hört auf beides: Kam die Wärme UND die Unverhandelbarkeit an?
 
 ## Phase 6 · Action Step (Minute 52–58)
 

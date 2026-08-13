@@ -1,5 +1,5 @@
 # Skript Woche 19: „Spacing & Interleaving – Vergessen strategisch nutzen"
-## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

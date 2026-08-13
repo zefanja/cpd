@@ -1,5 +1,5 @@
 # Skript Woche 26: „Vom Datum zur Entscheidung – Reteaching & Own and Track + Konsolidierung Block 4"
-## 60-Minuten-Sitzung · Block 4 (Abschluss) · Fortbildung Quereinsteiger:innen Sek I/II
+## 60-Minuten-Sitzung · Block 4 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 

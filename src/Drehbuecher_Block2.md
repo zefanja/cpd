@@ -43,7 +43,7 @@
 
 **Name it (Min. 26–31):** Prüf-Ampel je Meilenstein: kumulativ? verteilt? messbar? klar? – plus Exemplar-Frage: „Habe ich die Ideal-Antwort selbst ausformuliert?"
 
-**Do it (Min. 31–52):** *Kalibrierung (6 Min.):* Die 4 Beispielketten im Plenum per Fingerzeichen bewerten – wo hakt es? *Werkstatt (13 Min.):* Jede:r baut Meilensteinkette + Exemplar für die eigene reale Stunde nächster Woche; Tandem-Härtetest: „Woran MISST du Meilenstein 2?" – nachschärfen.
+**Do it (Min. 31–52):** *Kalibrierung (6 Min.):* Die 4 Beispielketten im Plenum per Fingerzeichen bewerten – wo hakt es? *Werkstatt (13 Min.):* Jeder baut Meilensteinkette + Exemplar für die eigene reale Stunde nächster Woche; Tandem-Härtetest: „Woran MISST du Meilenstein 2?" – nachschärfen.
 
 **Action Step:** siehe Curriculum (vor jeder neuen Stunde zuerst die ideale Schülerantwort schreiben). *Alternative:* Für die ganze Woche nur Stunden-Einseiter: Meilensteine + Exemplar + grobe Phasen, sonst nichts (Vorgriff Lean, W32).
 
@@ -55,7 +55,7 @@
 
 **Material:** Timer; Mikroteaching-Feedbackbogen (Schrittgröße / Denken hörbar? / Wortökonomie / Falle gezeigt?); Los-Reihenfolge.
 
-**Vorab-Auftrag (eine Woche vorher ansagen!):** Jede:r bereitet 3 Min. Modellierung eines echten Fachinhalts vor (beliebiges Fach, Zielgruppe: die Gruppe als „Klasse").
+**Vorab-Auftrag (eine Woche vorher ansagen!):** Jeder bereitet 3 Min. Modellierung eines echten Fachinhalts vor (beliebiges Fach, Zielgruppe: die Gruppe als „Klasse").
 
 **Retrieval-Starter:** 1. Vier Prüfkriterien für Meilensteine? 2. Die zwei Planungs-Todsünden? 3. 6 Leiterstufen (Block 1!)? 4. Warum schreibt man das Exemplar selbst? 5. (Anwendung) Baue aus „Thema: Wahlrecht" ein messbares Ziel.
 

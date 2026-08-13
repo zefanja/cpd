@@ -258,7 +258,7 @@ input[type=number]{max-width:8rem}
 
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
-  <span class="eyebrow">Woche 2 · Block 1: Klassenführung &amp; Routinen · Fortbildung Quereinsteiger:innen Sek I/II</span>
+  <span class="eyebrow">Woche 2 · Block 1: Klassenführung &amp; Routinen · Fortbildung Quereinsteiger Sek I/II</span>
   <h1>Hohe Erwartungen – Verhalten ist ein Curriculum.</h1>
   <p class="lead">Wie machst du unsichtbare Erwartungen sichtbar, lehrbar und prüfbar? In ca. 20–25 Minuten bekommst du das Handwerkszeug, auf dem alle Routinen der nächsten Wochen aufbauen.</p>
   <div class="card">
@@ -282,7 +282,7 @@ input[type=number]{max-width:8rem}
 <section class="screen" data-title="Kontrastpaar">
   <span class="eyebrow">Station 1 · Hook: Zwei Lehrkräfte, eine Absicht</span>
   <h2>Bei wem weiß die Klasse, was zu tun ist?</h2>
-  <p class="lead">Beide Lehrkräfte wollen dasselbe. Lies beide Varianten und tippe die an, bei der Schüler:innen wirklich wissen, was von ihnen erwartet wird.</p>
+  <p class="lead">Beide Lehrkräfte wollen dasselbe. Lies beide Varianten und tippe die an, bei der Schüler wirklich wissen, was von ihnen erwartet wird.</p>
   <div class="riddle-grid" id="contrastGrid"></div>
   <div class="card reveal" id="contrastReveal"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Prinzip →</button></p>
@@ -730,7 +730,7 @@ function renderContrast(){
       state.contrastChoice=key;scheduleSave();renderContrast();
       const rev=document.getElementById('contrastReveal');
       rev.classList.add('on');
-      rev.innerHTML='<p>'+(key==='b'?'Genau – ':'Nachvollziehbar, A klingt wärmer. Aber: ')+'Nur bei B können Schüler:innen wissen, was gemeint ist – und nur bei B lässt sich die Erfüllung überhaupt <strong>PRÜFEN</strong>. „Respektvoll" kann man nicht abhaken. „Alle Hefte liegen bereit" schon.</p>';
+      rev.innerHTML='<p>'+(key==='b'?'Genau – ':'Nachvollziehbar, A klingt wärmer. Aber: ')+'Nur bei B können Schüler wissen, was gemeint ist – und nur bei B lässt sich die Erfüllung überhaupt <strong>PRÜFEN</strong>. „Respektvoll" kann man nicht abhaken. „Alle Hefte liegen bereit" schon.</p>';
     });
     g.appendChild(b);
   });
@@ -1003,7 +1003,7 @@ function buildPrint(){
   h+='<div class="pagebreak"></div><h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
   h+=f('Erinnerungen Montag:',state.obsMontag)+f('Erinnerungen Freitag:',state.obsFreitag);
   h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
-  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger:innen Sek I/II · Modul 2 „Hohe Erwartungen – Verhalten ist ein Curriculum" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger Sek I/II · Modul 2 „Hohe Erwartungen – Verhalten ist ein Curriculum" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
   document.getElementById('printReport').innerHTML=h;
 }
 

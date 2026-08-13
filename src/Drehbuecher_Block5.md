@@ -19,7 +19,7 @@
 
 **Name it (Min. 28–33):** EVK-Diagnosefragen: „Glaubt er, dass er es schaffen kann?" / „Hat es für sie Wert – auch vor den anderen?" / „Was KOSTET ihn Mitmachen?" — Secure-Success-Trio: Erfolgsquote / Attribution / Vorentlastung.
 
-**Do it (Min. 33–52):** *EVK-Fallarbeit (12 Min.):* Jede:r wählt EINEN realen „unmotivierten" Schüler, füllt den Analysebogen, plant eine Intervention am schwächsten Glied (meist: Erwartung oder Kosten!); Tandem-Beratung. *Attributions-Sprint (7 Min.):* 6 Situationen („Schülerin schreibt erstmals eine 3+") – Attributionssatz formulieren, Talent-/Glücks-Formulierungen aussieben.
+**Do it (Min. 33–52):** *EVK-Fallarbeit (12 Min.):* Jeder wählt EINEN realen „unmotivierten" Schüler, füllt den Analysebogen, plant eine Intervention am schwächsten Glied (meist: Erwartung oder Kosten!); Tandem-Beratung. *Attributions-Sprint (7 Min.):* 6 Situationen („Schülerin schreibt erstmals eine 3+") – Attributionssatz formulieren, Talent-/Glücks-Formulierungen aussieben.
 
 **Action Step:** siehe Curriculum (2 garantierte Erfolgserlebnisse + explizite Anstrengungs-Attribution für Schüler Y). *Alternative:* Vorentlastungs-Sätze vor jeder schweren Aufgabe, eine Woche.
 
