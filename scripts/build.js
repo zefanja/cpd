@@ -80,18 +80,36 @@ function pageTemplate({ title, bodyHtml }) {
 <body>
 <header class="site-header">
   <div class="inner">
-    <a class="brand" href="index.html">CPD Fortbildung</a>
-    <nav><a href="index.html">Übersicht</a></nav>
+    <a class="brand" href="uebersicht.html">CPD Fortbildung</a>
+    <nav><a href="uebersicht.html">Übersicht</a></nav>
   </div>
 </header>
 <main>
-  <a class="back-link" href="index.html">&larr; Zur Übersicht</a>
+  <a class="back-link" href="uebersicht.html">&larr; Zur Übersicht</a>
   <h1 class="page-title">${title}</h1>
   <article>
 ${bodyHtml}
   </article>
 </main>
 <footer class="site-footer">Erstellt aus Markdown-Quellen in <code>src/</code>.</footer>
+</body>
+</html>
+`;
+}
+
+function redirectTemplate({ to }) {
+  return `<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0; url=${to}">
+<title>CPD Fortbildung</title>
+<link rel="canonical" href="${to}">
+<script>window.location.replace(${JSON.stringify(to)});</script>
+</head>
+<body>
+<p>Weiter zu <a href="${to}">${to}</a> …</p>
 </body>
 </html>
 `;
@@ -125,7 +143,7 @@ ${g.docs
 <body>
 <header class="site-header">
   <div class="inner">
-    <a class="brand" href="index.html">CPD Fortbildung</a>
+    <a class="brand" href="uebersicht.html">CPD Fortbildung</a>
   </div>
 </header>
 <main>
@@ -240,8 +258,18 @@ function main() {
     groups.unshift({ title: "Überblick", docs: overviewDocs });
   }
 
-  fs.writeFileSync(path.join(OUT_DIR, "index.html"), indexTemplate({ groups }));
-  console.log(`gebaut: docs/index.html`);
+  fs.writeFileSync(path.join(OUT_DIR, "uebersicht.html"), indexTemplate({ groups }));
+  console.log(`gebaut: docs/uebersicht.html`);
+
+  // Startseite: Lehrkräfte landen direkt auf der Login-Seite. Die bisherige
+  // Dokumenten-Übersicht bleibt unter uebersicht.html erreichbar (verlinkt
+  // im Footer von SPAs/login.html).
+  fs.writeFileSync(
+    path.join(OUT_DIR, "index.html"),
+    redirectTemplate({ to: "spas/login.html" })
+  );
+  console.log(`gebaut: docs/index.html (Weiterleitung -> spas/login.html)`);
+
   console.log(`\nFertig. ${allMdFiles.length} Dokumente in "${path.relative(ROOT_DIR, OUT_DIR)}/" erzeugt.`);
 }
 

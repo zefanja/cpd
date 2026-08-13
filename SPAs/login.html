@@ -16,7 +16,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{
   font-family:var(--body);background:var(--bg);color:var(--ink);min-height:100vh;
-  display:flex;align-items:center;justify-content:center;padding:1.5rem;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;padding:1.5rem;
 }
 .card{
   background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
@@ -42,6 +42,8 @@ button:hover:not(:disabled){background:#0a4740}
 .msg.hidden{display:none}
 .coach-link{display:block;text-align:center;margin-top:1.75rem;font-size:.85rem;color:var(--muted)}
 .coach-link a{color:var(--petrol);font-weight:600}
+.site-footer{font-size:.8rem;color:var(--muted);text-align:center}
+.site-footer a{color:var(--muted);text-decoration:underline}
 </style>
 </head>
 <body>
@@ -56,6 +58,9 @@ button:hover:not(:disabled){background:#0a4740}
   </form>
   <div class="coach-link">Coach? <a href="coach/dashboard.html">Zum Dashboard</a></div>
 </div>
+<footer class="site-footer">
+  <a href="../uebersicht.html">Zur bisherigen Dokumenten-Übersicht</a>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script src="./shared/cpd-config.js"></script>
