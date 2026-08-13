@@ -266,6 +266,7 @@ textarea{min-height:4.2em}
 
 <header>
   <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
     <span class="brand">MODUL 1</span>
     <span class="station-label" id="stationLabel"></span>
     <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
@@ -335,8 +336,8 @@ textarea{min-height:4.2em}
     <div class="card">
       <p><strong>Was folgt daraus:</strong> Der Unterschied zwischen den beiden Zahlen? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – das hat ungefähr vier bis sieben Plätze, mehr nicht. Dein Geburtsdatum liegt im Langzeitgedächtnis und kostet fast nichts. Alles Neue muss durch diesen engen Kanal. Erklärst du und sollen die SuS gleichzeitig mitschreiben, das Arbeitsblatt suchen und die Vokabel von gestern erinnern, ist der Flaschenhals verstopft – nichts kommt im Langzeitgedächtnis an. <em>„Gelernt"</em> heißt nur <em>„im Langzeitgedächtnis angekommen"</em>. Das Rätsel „gestern konnten sie es noch" ist damit gelöst: Es war nie im Langzeitgedächtnis – nur kurz im Arbeitsgedächtnis zu Besuch.</p>
       <div class="fig">
-        <div class="fig-frame" data-lightbox-src="../Material/Willingham_Memory_Model.png" role="button" tabindex="0" aria-label="Modell des Arbeitsgedächtnisses – zum Vergrößern klicken">
-          <img src="../Material/Willingham_Memory_Model.png" alt="Willingham's Simple Memory Model: Environment, Attention, Working Memory, Long Term Memory und Forgotten im Zusammenspiel" loading="lazy">
+        <div class="fig-frame" data-lightbox-src="assets/images/Gedaechtnismodell.png" role="button" tabindex="0" aria-label="Modell des Arbeitsgedächtnisses – zum Vergrößern klicken">
+          <img src="assets/images/Gedaechtnismodell.png" alt="Gedächtnismodell: Environment, Attention, Working Memory, Long Term Memory und Forgotten im Zusammenspiel" loading="lazy">
         </div>
         <p class="fig-cap">Das Modell des Arbeitsgedächtnisses (Modal Memory Model). Klicke auf das Bild für die Vollbildansicht.</p>
       </div>
@@ -527,11 +528,13 @@ textarea{min-height:4.2em}
     <h3>Deine Ergebnisse teilen</h3>
     <div class="summary-status" id="summaryStatus"></div>
     <div class="export-actions">
-      <button class="btn" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
       <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
       <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
     </div>
-    <p class="hint" style="margin-top:.7rem">Der PDF-Export öffnet den Druckdialog deines Geräts – wähle dort „Als PDF speichern". Gib es deinem Coach zum Auswertungsgespräch dieser Woche.</p>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen" schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts für eine eigene Kopie – wähle dort „Als PDF speichern".</p>
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
@@ -664,7 +667,8 @@ let state={name:'',riddleSel:[],vignetteChoice:0,vignQ1:'',vignQ2:'',vignQ3:'',
  situSel:[[],[],[],[],[],[],[],[]],situRevealed:[false,false,false,false,false,false,false,false],
  quizSel:[0,0,0,0,0],
  actionStep:'standard',obsStunde1:'',obsStunde2:'',obsStunde3:'',
- exitMit:'',exitSorge:'',commit:false,screen:0};
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
 const STORE_KEY='modul1-woche01-fuenf-mentale-modelle';
 let saveTimer=null;
 
@@ -754,6 +758,7 @@ menuSession.innerHTML='<hr>'
   +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
 panel.appendChild(menuSession);
 document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
 overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
 
 /* Präsentationsmodus */
@@ -954,7 +959,26 @@ function renderSummary(){
   ];
   document.getElementById('summaryStatus').innerHTML=rows.map(r=>
     '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
 }
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen".';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
 function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
   let t='MODUL 1 · FÜNF MENTALE MODELLE DES UNTERRICHTENS – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';

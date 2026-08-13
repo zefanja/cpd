@@ -262,6 +262,7 @@ input[type=number]{max-width:8rem}
 
 <header>
   <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
     <span class="brand">MODUL 3</span>
     <span class="station-label" id="stationLabel"></span>
     <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
@@ -485,11 +486,13 @@ input[type=number]{max-width:8rem}
     <h3>Deine Ergebnisse teilen</h3>
     <div class="summary-status" id="summaryStatus"></div>
     <div class="export-actions">
-      <button class="btn" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
       <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
       <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
     </div>
-    <p class="hint" style="margin-top:.7rem">Der PDF-Export öffnet den Druckdialog deines Geräts – wähle dort „Als PDF speichern". Gib es deinem Coach zum Auswertungsgespräch dieser Woche.</p>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen" schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts für eine eigene Kopie – wähle dort „Als PDF speichern".</p>
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
@@ -645,7 +648,8 @@ let state={name:'',
  doNowFach:'mathe',doNowEigen:'',
  quizSel:[0,0,0,0,0,0,0],transferAnswer:'',transferShown:false,
  actionStep:'standard',obsMo:'',obsDi:'',obsMi:'',obsDo:'',obsFr:'',
- exitMit:'',exitSorge:'',commit:false,screen:0};
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
 const STORE_KEY='modul3-woche03-starker-stundenstart';
 let saveTimer=null;
 
@@ -735,6 +739,7 @@ menuSession.innerHTML='<hr>'
   +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
 panel.appendChild(menuSession);
 document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
 overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
 
 /* Präsentationsmodus */
@@ -996,7 +1001,26 @@ function renderSummary(){
   ];
   document.getElementById('summaryStatus').innerHTML=rows.map(r=>
     '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
 }
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen".';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
 function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
   let t='MODUL 3 · DER STARKE STUNDENSTART – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';

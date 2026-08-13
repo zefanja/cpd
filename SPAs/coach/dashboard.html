@@ -71,6 +71,23 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 #loginScreen .field{margin-bottom:.9rem}
 #loginScreen button{width:100%;margin-top:.5rem}
 .hidden{display:none !important}
+.cell-open{border:none;background:none;padding:0;cursor:pointer;font:inherit}
+.cell-open:hover .badge{filter:brightness(0.94)}
+.overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.5);display:flex;align-items:flex-start;
+  justify-content:center;padding:3rem 1.5rem;overflow-y:auto;z-index:50;
+}
+.overlay-panel{
+  background:var(--card);border-radius:var(--radius);max-width:38rem;width:100%;
+  padding:1.5rem;box-shadow:0 20px 60px rgba(0,0,0,.25);
+}
+.overlay-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:.5rem}
+.overlay-head h2{font-family:var(--display);font-size:1.1rem;color:var(--petrol)}
+.answers-body{
+  white-space:pre-wrap;font-family:'Inter',system-ui,sans-serif;font-size:.85rem;line-height:1.5;
+  background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:1rem;margin-top:1rem;
+  max-height:60vh;overflow-y:auto;
+}
 </style>
 </head>
 <body>
@@ -131,6 +148,17 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
   </section>
 
 </main>
+</div>
+
+<div id="answersOverlay" class="overlay hidden">
+  <div class="overlay-panel">
+    <div class="overlay-head">
+      <h2 id="answersTitle"></h2>
+      <button type="button" class="ghost" id="answersClose">Schließen ✕</button>
+    </div>
+    <div id="answersStatus" class="msg hidden"></div>
+    <pre id="answersBody" class="answers-body hidden"></pre>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
@@ -375,7 +403,7 @@ function renderVisibilityMatrix() {
 /* ---------- Fortschritt ---------- */
 function statusFor(state) {
   if (!state || typeof state !== 'object') return { cls: 'open', label: 'offen' };
-  if (state.commit) return { cls: 'done', label: 'zugesagt' };
+  if (state.submitted) return { cls: 'done', label: '✓ eingereicht' };
   if (state.screen && state.screen > 0) return { cls: 'progress', label: 'in Bearbeitung' };
   return { cls: 'open', label: 'offen' };
 }
@@ -400,12 +428,65 @@ function renderProgress() {
       var entry = progMap[t.id + ':' + m.id];
       var st = statusFor(entry && entry.state);
       var title = entry ? 'Zuletzt aktualisiert: ' + new Date(entry.updated_at).toLocaleString('de-DE') : '';
-      html += '<td><span class="badge ' + st.cls + '" title="' + esc(title) + '">' + st.label + '</span></td>';
+      if (entry) {
+        html += '<td><button type="button" class="cell-open" data-teacher="' + t.id + '" data-module="' + m.id + '">' +
+          '<span class="badge ' + st.cls + '" title="' + esc(title) + '">' + st.label + '</span></button></td>';
+      } else {
+        html += '<td><span class="badge ' + st.cls + '">' + st.label + '</span></td>';
+      }
     });
     html += '</tr>';
   });
   html += '</tbody></table>';
   wrap.innerHTML = html;
+
+  wrap.querySelectorAll('.cell-open').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      openAnswers(btn.dataset.teacher, btn.dataset.module);
+    });
+  });
+}
+
+/* ---------- Antworten-Ansicht ---------- */
+function openAnswers(teacherId, moduleId) {
+  var teacher = db.teachers.find(function (t) { return t.id === teacherId; });
+  var module = db.modules.find(function (m) { return m.id === moduleId; });
+  var entry = db.progress.find(function (p) { return p.teacher_id === teacherId && p.module_id === moduleId; });
+  if (!teacher || !module || !entry) return;
+  var state = entry.state || {};
+
+  document.getElementById('answersTitle').textContent = teacher.name + ' · ' + module.title;
+
+  var statusEl = document.getElementById('answersStatus');
+  if (state.submitted && state.submittedAt) {
+    statusEl.className = 'msg';
+    statusEl.style.background = 'var(--petrol-soft)';
+    statusEl.style.color = 'var(--petrol)';
+    statusEl.textContent = '✓ Eingereicht am ' + new Date(state.submittedAt).toLocaleString('de-DE');
+  } else {
+    statusEl.className = 'msg';
+    statusEl.style.background = '#FCEFD9';
+    statusEl.style.color = 'var(--amber)';
+    statusEl.textContent = 'Entwurf – noch nicht eingereicht. Zuletzt bearbeitet: ' + new Date(entry.updated_at).toLocaleString('de-DE');
+  }
+  statusEl.classList.remove('hidden');
+
+  var body = document.getElementById('answersBody');
+  body.textContent = state.submissionText ||
+    'Noch keine Zusammenfassung verfügbar – die Lehrkraft hat das Modul noch nicht bis zur letzten Station bearbeitet.';
+  body.classList.remove('hidden');
+
+  document.getElementById('answersOverlay').classList.remove('hidden');
+}
+document.getElementById('answersOverlay').addEventListener('click', function (e) {
+  if (e.target === e.currentTarget) closeAnswers();
+});
+document.getElementById('answersClose').addEventListener('click', closeAnswers);
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') closeAnswers();
+});
+function closeAnswers() {
+  document.getElementById('answersOverlay').classList.add('hidden');
 }
 
 boot();

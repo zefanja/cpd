@@ -237,6 +237,7 @@ textarea{min-height:4.2em}
 
 <header>
   <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
     <span class="brand">MODUL 0</span>
     <span class="station-label" id="stationLabel"></span>
     <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
@@ -297,9 +298,9 @@ textarea{min-height:4.2em}
     <div>
       <svg class="yearcircle" id="yearcircle" viewBox="0 0 300 300" role="img" aria-label="Jahreskreis mit sechs Blöcken"></svg>
       <div class="legend">
-        <span>⚑ 5 gemeinsame Hospitationen</span>
-        <span>★ 3 Meilensteine (Kompetenzmatrix W0 · W20 · W36)</span>
-        <span>🎓 Kolloquium mit Vorher-/Nachher-Video</span>
+        <span>⚑ gemeinsame Hospitationen</span>
+        <span>★ 3 Meilensteine</span>
+        <span>🎓 Kolloquium</span>
       </div>
     </div>
     <div class="card block-info" id="blockInfo">
@@ -310,16 +311,15 @@ textarea{min-height:4.2em}
   <div class="card">
     <h3>Die drei Formate – und ihr Zusammenspiel</h3>
     <p style="font-size:.92rem"><strong>Wocheninput</strong> gibt dir die Technik und die erste Übung. Der <strong>Action Step</strong> trägt sie in deine Klasse. Das <strong>Coaching</strong> schaut genau darauf – nicht auf alles, nur auf diesen einen Schritt. Die <strong>Hospitationen</strong> kalibrieren deinen Anspruch: Du musst gesehen haben, wie ruhig eine Klasse arbeiten KANN, um es für deine anzustreben.</p>
-    <p style="font-size:.92rem;margin-top:.6rem">💡 <strong>Zur Kamera:</strong> In Woche 1 nehmen wir 15 Minuten deines Unterrichts auf. Dieses Video schaut sich zunächst NIEMAND an – auch du nicht. Es wird versiegelt und erst in Woche 8 und Woche 36 geöffnet. Es ist dein Vorher-Bild. Du wirst es lieben – in Woche 36.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
 </section>
 
 <!-- 3 · VERSPRECHEN & BITTEN -->
 <section class="screen" data-title="Drei Versprechen · Drei Bitten">
-  <span class="eyebrow">Station 3 · Der Vertrag</span>
+  <span class="eyebrow">Station 3 · Die Verpflichtung</span>
   <h2>Drei Versprechen. Drei Bitten.</h2>
-  <p class="lead">Tippe jede Karte, um sie umzudrehen. Das ist unser Arbeitsvertrag für 36 Wochen.</p>
+  <p class="lead">Tippe jede Karte, um sie umzudrehen. Das ist unser Arbeitsverpflichtung für 36 Wochen.</p>
   <div class="flip-grid" id="flipGrid"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Kompetenzmatrix →</button></p>
 </section>
@@ -330,7 +330,7 @@ textarea{min-height:4.2em}
   <h2>Kompetenzmatrix – Erhebung Woche 0</h2>
   <p class="lead">Acht Felder, vier Stufen, keine Schulnoten. Niemand sieht das außer dir und deinem Coach.</p>
   <div class="card">
-    <p style="font-size:.92rem"><strong>Zwei Regeln:</strong> Erstens – Stufe 1 heißt nicht „schlecht", sondern „am Anfang". Wo sonst solltest du nach drei Wochen stehen? Zweitens – wähle nach der <strong>letzten realen Woche</strong>, nicht nach deinem besten Tag. Wir wiederholen das in Woche 20 und Woche 36. Der Blick zurück auf diese Erhebung wird einer der schönsten Momente des Jahres.</p>
+    <p style="font-size:.92rem"><strong>Eine Regeln:</strong> Erstens – Stufe 1 heißt nicht „schlecht", sondern „am Anfang".</p>
   </div>
   <div class="matrix-wrap">
     <div id="matrixList"></div>
@@ -350,7 +350,7 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Zielvereinbarung">
   <span class="eyebrow">Station 5 · Zielvereinbarung</span>
   <h2>Was soll sich für dich lohnen?</h2>
-  <p class="lead">Ehrlich und in eigenen Worten. Dein Coach bekommt eine Kopie – und stellt dir dazu genau eine Frage: „Was davon ist am dringendsten?"</p>
+  <p class="lead">Ehrlich und in eigenen Worten. Was davon ist am dringendsten?</p>
   <div class="field">
     <label for="zielJahr">Mein wichtigstes Ziel für dieses Jahr <span class="sub">In eigenen Worten – kein Behördendeutsch.</span></label>
     <textarea id="zielJahr" data-store="ziel" placeholder="z. B. Ich möchte meine 8b so führen, dass ich freitags nicht mehr erschöpft nach Hause fahre …"></textarea>
@@ -448,11 +448,13 @@ textarea{min-height:4.2em}
     <h3>Deine Ergebnisse teilen</h3>
     <div class="summary-status" id="summaryStatus"></div>
     <div class="export-actions">
-      <button class="btn" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
       <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
       <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
     </div>
-    <p class="hint" style="margin-top:.7rem">Der PDF-Export öffnet den Druckdialog deines Geräts – wähle dort „Als PDF speichern". Das PDF enthält alle Eingaben gesammelt auf einem Bogen: Kompetenzmatrix mit Spinnennetz, Zielvereinbarung, Mini-Skript und Exit-Karte. Gib es deinem Coach im Kennenlerngespräch.</p>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen" schickt deine Antworten an deinen Coach – der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts für eine eigene Kopie. Das PDF enthält alle Eingaben gesammelt auf einem Bogen: Kompetenzmatrix mit Spinnennetz, Zielvereinbarung, Mini-Skript und Exit-Karte.</p>
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen – das funktioniert unabhängig vom Browser.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
@@ -506,14 +508,14 @@ const BLOCKS=[
 ];
 const FLIPS=[
  {kind:'Versprechen 1',t:'Werkzeug statt Theorie-Studium',b:'Du bekommst jede Woche Werkzeug, das du am Montag benutzen kannst. Keine Vorlesungen, keine Referate – Technik, Übung, Einsatz.',bitte:false},
- {kind:'Versprechen 2',t:'Die Reihenfolge ist für dich gebaut',b:'Wir beginnen mit dem, was dich nachts wachhält – Klassenführung – und nicht mit Bildungstheorie. Erst der Raum, dann die Kunst.',bitte:false},
- {kind:'Versprechen 3',t:'Hier wird niemand vorgeführt. Nie.',b:'Coaching und alles im Programm ist entwicklungs-, nicht beurteilungsbezogen. Nichts fließt in dienstliche Bewertungen. Dein Coach hat Schweigepflicht Richtung Schulleitung.',bitte:false},
- {kind:'Bitte 1',t:'Hier wird geübt. Laut.',b:'Im Rollenspiel, mit Skript. Das fühlt sich die ersten zwei Male albern an. Das ist normal, es vergeht – und es ist der Grund, warum dieses Programm funktioniert: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht. Kein Mensch hat Fahrradfahren aus einem Vortrag gelernt.',bitte:true},
+ {kind:'Versprechen 2',t:'Die Reihenfolge ist für dich gebaut',b:'Wir beginnen mit dem, was am Anfang am schwersten ist – Klassenführung – und nicht mit Bildungstheorie. Erst der Raum, dann die Kunst.',bitte:false},
+ {kind:'Versprechen 3',t:'Hier wird niemand vorgeführt. Nie.',b:'Coaching und alles im Programm ist entwicklungs-, nicht beurteilungsbezogen. Nichts fließt in dienstliche Bewertungen.',bitte:false},
+ {kind:'Bitte 1',t:'Hier wird geübt. Laut.',b:'Im Rollenspiel, mit Skript. Das fühlt sich die ersten zwei Male albern an. Das ist normal, es vergeht. Verhalten ändert sich durch Probehandeln, nicht durch Einsicht. Kein Mensch hat Fahrradfahren aus einem Vortrag gelernt.',bitte:true},
  {kind:'Bitte 2',t:'Ein kleiner Schritt pro Woche',b:'Du nimmst jede Woche EINEN konkreten Action Step mit. Nicht fünf. Wer fünf Dinge gleichzeitig ändert, ändert keins.',bitte:true},
  {kind:'Bitte 3',t:'Ehrlichkeit',b:'Wenn etwas nicht klappt, ist das hier der sicherste Ort der Schule, es zu sagen. Aus deinen Pannen lernt die ganze Gruppe.',bitte:true}
 ];
 const MATRIX=[
- {t:'Routinen & Stundenstart',f:'Beginnen meine Stunden verlässlich strukturiert (Begrüßungsritual sauber, Starter läuft, <60 Sek. bis alle arbeiten)?'},
+ {t:'Routinen & Stundenstart',f:'Beginnen meine Stunden verlässlich strukturiert (Begrüßungsritual sauber, <60 Sek. bis alle bereit sind)?'},
  {t:'Anweisungen & Aufmerksamkeit',f:'Bekomme ich die Klasse zuverlässig still, und kommen meine Arbeitsanweisungen beim ersten Mal an?'},
  {t:'Intervention & Präsenz',f:'Reagiere ich auf Störungen ruhig, abgestuft und ohne den Unterricht zu unterbrechen?'},
  {t:'Erklären & Modellieren',f:'Kann ich Neues in kleinen Schritten, mit Beispielen und hörbarem Denken so erklären, dass Schüler ohne Vorkenntnisse folgen?'},
@@ -531,7 +533,8 @@ const STUFEN=[
 
 /* ================= Zustand & Speicherung ================= */
 let state={name:'',matrix:Array(8).fill(0),ziel:'',sorge1:'',sorge2:'',juni:'',staerken:'',
- skript1:'',skript2:'',skript3:'',skript4:'',skript5:'',commit:false,exitMit:'',exitSorge:'',screen:0};
+ skript1:'',skript2:'',skript3:'',skript4:'',skript5:'',commit:false,exitMit:'',exitSorge:'',screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
 const STORE_KEY='modul0-onboarding';
 let saveTimer=null;
 
@@ -623,6 +626,7 @@ menuSession.innerHTML='<hr>'
   +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
 panel.appendChild(menuSession);
 document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
 overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
 
 /* Präsentationsmodus */
@@ -793,7 +797,26 @@ function renderSummary(){
   ];
   document.getElementById('summaryStatus').innerHTML=rows.map(r=>
     '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
 }
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen".';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
 function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
   let t='MODUL 0 · KICKOFF – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
