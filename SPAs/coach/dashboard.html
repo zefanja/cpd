@@ -53,6 +53,12 @@ code.token{
 .badge.progress{background:#FCEFD9;color:var(--amber)}
 .badge.done{background:var(--petrol-soft);color:var(--petrol)}
 .matrix input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--petrol)}
+input.nameEdit{
+  width:100%;padding:.35rem .5rem;border:1.5px solid transparent;border-radius:6px;
+  font-size:.9rem;font-family:inherit;background:none;color:var(--ink);
+}
+input.nameEdit:hover{border-color:var(--line)}
+input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--card)}
 .matrix td,.matrix th{text-align:center}
 .matrix td:first-child,.matrix th:first-child{text-align:left}
 .msg{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;margin-top:.8rem}
@@ -208,8 +214,27 @@ function renderCourses() {
   var tbody = document.getElementById('coursesTable');
   tbody.innerHTML = db.courses.map(function (c) {
     var count = db.teachers.filter(function (t) { return t.course_id === c.id; }).length;
-    return '<tr><td>' + esc(c.name) + '</td><td>' + count + '</td></tr>';
+    return '<tr data-id="' + c.id + '">' +
+      '<td><input type="text" class="nameEdit courseNameEdit" value="' + esc(c.name) + '"></td>' +
+      '<td>' + count + '</td></tr>';
   }).join('') || '<tr><td colspan="2" class="muted">Noch keine Kurse.</td></tr>';
+
+  tbody.querySelectorAll('tr').forEach(function (row) {
+    var id = row.dataset.id;
+    var input = row.querySelector('.courseNameEdit');
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') input.blur();
+    });
+    input.addEventListener('blur', async function () {
+      var name = input.value.trim();
+      if (!name || name === (db.courses.find(function (c) { return c.id === id; }) || {}).name) {
+        input.value = (db.courses.find(function (c) { return c.id === id; }) || {}).name || '';
+        return;
+      }
+      await client.from('courses').update({ name: name }).eq('id', id);
+      loadAll();
+    });
+  });
 }
 
 document.getElementById('courseForm').addEventListener('submit', async function (e) {
@@ -237,7 +262,7 @@ function renderTeachers() {
       return '<option value="' + c.id + '"' + (c.id === t.course_id ? ' selected' : '') + '>' + esc(c.name) + '</option>';
     }).join('');
     return '<tr data-id="' + t.id + '">' +
-      '<td>' + esc(t.name) + '</td>' +
+      '<td><input type="text" class="nameEdit teacherNameEdit" value="' + esc(t.name) + '"></td>' +
       '<td><code class="token">' + esc(t.login_code) + '</code></td>' +
       '<td><select class="teacherCourseSelect">' + courseOptions + '</select></td>' +
       '<td><input type="checkbox" class="teacherActive" ' + (t.active ? 'checked' : '') + '></td>' +
@@ -247,6 +272,19 @@ function renderTeachers() {
 
   tbody.querySelectorAll('tr').forEach(function (row) {
     var id = row.dataset.id;
+    var nameInput = row.querySelector('.teacherNameEdit');
+    nameInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') nameInput.blur();
+    });
+    nameInput.addEventListener('blur', async function () {
+      var name = nameInput.value.trim();
+      if (!name || name === (db.teachers.find(function (t2) { return t2.id === id; }) || {}).name) {
+        nameInput.value = (db.teachers.find(function (t2) { return t2.id === id; }) || {}).name || '';
+        return;
+      }
+      await client.from('teachers').update({ name: name }).eq('id', id);
+      loadAll();
+    });
     row.querySelector('.teacherCourseSelect').addEventListener('change', async function (e) {
       await client.from('teachers').update({ course_id: e.target.value }).eq('id', id);
       loadAll();
