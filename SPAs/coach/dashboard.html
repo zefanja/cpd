@@ -59,6 +59,21 @@ input.nameEdit{
 }
 input.nameEdit:hover{border-color:var(--line)}
 input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--card)}
+.course-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+.course-count{color:var(--muted);font-size:.85rem}
+.course-search{
+  padding:.5rem .65rem;border:1.5px solid var(--line);border-radius:8px;font-size:.85rem;
+  font-family:inherit;width:100%;max-width:16rem;
+}
+.course-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.7rem;
+}
+.course-card{
+  border:1px solid var(--line);border-radius:10px;padding:.7rem .8rem;background:var(--bg);
+  display:flex;flex-direction:column;gap:.4rem;
+}
+.course-card input.courseNameEdit{font-weight:600;padding:.3rem .35rem;text-overflow:ellipsis}
+.course-card .badge{align-self:flex-start}
 .matrix td,.matrix th{text-align:center}
 .matrix td:first-child,.matrix th:first-child{text-align:left}
 .msg{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;margin-top:.8rem}
@@ -113,10 +128,11 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 
   <section id="coursesSection">
     <h2>Kurse</h2>
-    <table>
-      <thead><tr><th>Name</th><th>Lehrkräfte</th></tr></thead>
-      <tbody id="coursesTable"></tbody>
-    </table>
+    <div class="course-toolbar">
+      <span class="course-count" id="courseCount"></span>
+      <input type="search" id="courseFilter" class="course-search" placeholder="Kurs suchen …">
+    </div>
+    <div id="coursesGrid" class="course-grid"></div>
     <form class="inline-form" id="courseForm">
       <div class="field"><label for="courseName">Neuer Kurs</label><input type="text" id="courseName" placeholder="z. B. Kohorte 2026" required></div>
       <button class="primary" type="submit">Anlegen</button>
@@ -239,17 +255,28 @@ async function loadAll() {
 
 /* ---------- Kurse ---------- */
 function renderCourses() {
-  var tbody = document.getElementById('coursesTable');
-  tbody.innerHTML = db.courses.map(function (c) {
-    var count = db.teachers.filter(function (t) { return t.course_id === c.id; }).length;
-    return '<tr data-id="' + c.id + '">' +
-      '<td><input type="text" class="nameEdit courseNameEdit" value="' + esc(c.name) + '"></td>' +
-      '<td>' + count + '</td></tr>';
-  }).join('') || '<tr><td colspan="2" class="muted">Noch keine Kurse.</td></tr>';
+  var grid = document.getElementById('coursesGrid');
+  var countEl = document.getElementById('courseCount');
+  var filter = document.getElementById('courseFilter').value.trim().toLowerCase();
+  var list = db.courses.filter(function (c) {
+    return !filter || c.name.toLowerCase().indexOf(filter) !== -1;
+  });
 
-  tbody.querySelectorAll('tr').forEach(function (row) {
-    var id = row.dataset.id;
-    var input = row.querySelector('.courseNameEdit');
+  countEl.textContent = db.courses.length === 0 ? '' :
+    (filter ? list.length + ' von ' + db.courses.length : db.courses.length) +
+    (db.courses.length === 1 && !filter ? ' Kurs' : ' Kurse');
+
+  grid.innerHTML = list.map(function (c) {
+    var count = db.teachers.filter(function (t) { return t.course_id === c.id; }).length;
+    return '<div class="course-card" data-id="' + c.id + '">' +
+      '<input type="text" class="nameEdit courseNameEdit" title="' + esc(c.name) + '" value="' + esc(c.name) + '">' +
+      '<span class="badge open">' + count + ' Lehrkraft' + (count === 1 ? '' : 'kräfte') + '</span>' +
+      '</div>';
+  }).join('') || '<p class="muted">' + (filter ? 'Keine Kurse gefunden.' : 'Noch keine Kurse.') + '</p>';
+
+  grid.querySelectorAll('.course-card').forEach(function (card) {
+    var id = card.dataset.id;
+    var input = card.querySelector('.courseNameEdit');
     input.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') input.blur();
     });
@@ -264,6 +291,7 @@ function renderCourses() {
     });
   });
 }
+document.getElementById('courseFilter').addEventListener('input', renderCourses);
 
 document.getElementById('courseForm').addEventListener('submit', async function (e) {
   e.preventDefault();

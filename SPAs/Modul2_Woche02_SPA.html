@@ -302,7 +302,7 @@ input[type=number]{max-width:8rem}
         <tr><td>begründen</td><td>wozu man das braucht</td><td>ein Satz „damit…"</td></tr>
         <tr><td>modellieren</td><td>vorrechnen</td><td>zeigen, wie es aussieht</td></tr>
         <tr><td>üben</td><td>Aufgaben rechnen</td><td>tatsächlich einfordern (Woche 3)</td></tr>
-        <tr><td>prüfen</td><td>Verständnisfrage</td><td>Behavioural CFU</td></tr>
+        <tr><td>prüfen</td><td>Verständnisfrage</td><td>Verständnischeck zum Verhalten</td></tr>
         <tr><td>Feedback geben</td><td>Fehler korrigieren</td><td>ab Woche 6/7</td></tr>
       </table>
       <p style="margin-top:.9rem">Für Verhalten gilt <strong>dieselbe Didaktik wie für jeden Stoff</strong>. „Das habe ich doch am Schuljahresanfang gesagt!" – einmal gesagt ist nicht gelernt. Das weißt du seit Woche 1: Modell 1, Gedächtnis.</p>
@@ -316,7 +316,7 @@ input[type=number]{max-width:8rem}
       <p style="margin-top:1rem"><button class="btn small" id="revealCfu">Wie prüfst du, ob's angekommen ist? →</button></p>
       <div class="reveal" id="revealCfuBox">
         <div class="card">
-          <h3>Behavioural CFU</h3>
+          <h3>Verständnischeck zum Verhalten</h3>
           <p>Nicht durch „Alles klar?" – sondern durch Prüfen: „Jonas, was passiert, nachdem ihr euch gesetzt habt?" – „Lena, wie lange habt ihr Zeit bis zum Starter?" Zwei Fragen, zehn Sekunden, und die Klasse weiß: Das hier war ernst gemeint.</p>
           <p style="margin-top:.6rem"><strong>Sek-II-Einwand:</strong> „In meiner Oberstufe wirkt das kindisch." Nein – kindisch wirkt eine kindische FORMULIERUNG. Die Struktur bleibt, der Ton wird erwachsen: „Ich erwarte, dass Laptops zu sind, wenn jemand präsentiert – aus demselben Grund, aus dem Sie das in jeder Besprechung erwarten würden." Explizit heißt nicht infantil.</p>
         </div>
@@ -336,7 +336,7 @@ input[type=number]{max-width:8rem}
       <li style="margin-top:.4rem"><strong>Messbar</strong> – man kann Erfüllung feststellen: alle? in welcher Zeit?</li>
       <li style="margin-top:.4rem"><strong>Positiv formuliert</strong> – beschreibt das TUN, nicht das Lassen.</li>
       <li style="margin-top:.4rem"><strong>Begründet</strong> – ein Satz Sinn.</li>
-      <li style="margin-top:.4rem"><strong>Geprüft</strong> – Behavioural CFU nach der Einführung.</li>
+      <li style="margin-top:.4rem"><strong>Geprüft</strong> – Verständnischeck zum Verhalten nach der Einführung.</li>
     </ol>
     <p class="hint" style="margin-top:.7rem">Merkformel: „Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."</p>
   </div>
@@ -505,11 +505,20 @@ const SORT_ITEMS=[
  {t:'„Wer stört, wird irgendwann drangenommen – dann sprechen wir drüber."',correct:[2],note:'Kein Wann, kein Wie oft – nicht zählbar, nicht in der Zeit überprüfbar.'},
  {t:'„Nicht rumschreien in der Gruppenarbeit!"',correct:[3],note:'Negativ formuliert – sagt, was NICHT sein soll, nicht was stattdessen gilt (z. B. Flüsterlautstärke).'},
  {t:'„Ab jetzt gilt: Handy bleibt in der Tasche."',correct:[4],note:'Keine Begründung („damit…") – wirkt wie eine willkürliche Anordnung statt einer nachvollziehbaren Regel.'},
- {t:'„Ich habe die Regel letzte Woche erklärt, das muss reichen."',correct:[5],note:'Erklärt, aber nie per Behavioural CFU geprüft, ob sie wirklich verstanden wurde.'},
- {t:'„Seid einfach ihr selbst und respektvoll miteinander."',correct:[1,3],note:'„Respektvoll" ist unbeobachtbar; zusätzlich bleibt offen, welches Verhalten konkret gemeint ist.'},
+ {t:'„Ich habe die Regel letzte Woche erklärt, das muss reichen."',correct:[5],note:'Erklärt, aber nie per Verständnischeck zum Verhalten geprüft, ob sie wirklich verstanden wurde.'},
+ {t:'„Geht bitte respektvoll und rücksichtsvoll miteinander um."',correct:[1,4],note:'„Respektvoll" und „rücksichtsvoll" sind keine beobachtbaren Handlungen; außerdem fehlt jede Begründung, warum das gelten soll.'},
  {t:'„Wer öfter stört, kriegt halt Konsequenzen."',correct:[2],note:'„Öfter" ist keine Zahl – weder für dich noch für die SuS ist klar, ab wann die Grenze erreicht ist.'},
- {t:'„Meldet euch nicht ständig, sondern denkt erst mal nach."',correct:[3],note:'Beginnt negativ („meldet euch nicht") – die positive Handlung (z. B. „10 Sekunden Stillzeit vor der Meldung") fehlt.'}
+ {t:'„Meldet euch nicht ständig, sondern denkt erst mal nach."',correct:[3],note:'Beginnt negativ („meldet euch nicht") – die positive Handlung (z. B. „10 Sekunden Bedenkzeit vor der Meldung") fehlt.'}
 ];
+function shuffledIndices(n){
+  const arr=Array.from({length:n},(_,i)=>i);
+  for(let i=arr.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [arr[i],arr[j]]=[arr[j],arr[i]];
+  }
+  return arr;
+}
+let sortOrder=shuffledIndices(SORT_ITEMS.length);
 
 const LIBRARY=[
  {id:'l1',vague:'Kommt ordentlich rein.',spez:'Nach dem Setzen: Heft + Mäppchen liegen bereit, ihr arbeitet still am Starter – spätestens nach 60 Sekunden.',stage:'beide'},
@@ -744,7 +753,8 @@ document.getElementById('revealCfu').addEventListener('click',()=>{document.getE
 /* ================= Sortier-Spiel ================= */
 function renderSort(){
   const wrap=document.getElementById('sortList');wrap.innerHTML='';
-  SORT_ITEMS.forEach((s,i)=>{
+  sortOrder.forEach((i,pos)=>{
+    const s=SORT_ITEMS[i];
     const div=document.createElement('div');div.className='situ-item';
     let btns='';
     for(let n=1;n<=5;n++){
@@ -755,7 +765,7 @@ function renderSort(){
       btns+='<button class="'+cls+'" data-i="'+i+'" data-n="'+n+'"'+style+'>'+(n)+' · '+CRIT_NAMES[n-1]+'</button>';
     }
     const correctNames=s.correct.map(n=>n+' · '+CRIT_NAMES[n-1]).join(', ');
-    div.innerHTML='<p class="situ-text">'+(i+1)+'. '+s.t+'</p>'
+    div.innerHTML='<p class="situ-text">'+(pos+1)+'. '+s.t+'</p>'
       +'<div class="num-row">'+btns+'</div>'
       +'<p style="margin-top:.6rem"><button class="btn ghost small" data-reveal="'+i+'">Auflösung zeigen</button></p>'
       +'<p class="situ-note'+(state.sortRevealed[i]?' on':'')+'"><strong>Verletzt: '+correctNames+'.</strong> '+s.note+'</p>';
@@ -774,6 +784,7 @@ function renderSort(){
 document.getElementById('sortResetBtn').addEventListener('click',()=>{
   state.sortSel=SORT_ITEMS.map(()=>[]);
   state.sortRevealed=SORT_ITEMS.map(()=>false);
+  sortOrder=shuffledIndices(SORT_ITEMS.length);
   scheduleSave();renderSort();
   showToast('Zuordnung zurückgesetzt.');
 });
