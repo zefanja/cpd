@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 3 · Der starke Stundenstart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Kontrastpaar/Rätsel-Karten (Hook) ---------- */
+.riddle-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
+@media(min-width:700px){.riddle-grid{grid-template-columns:repeat(2,1fr)}}
+.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
+.riddle-card:hover{border-color:var(--petrol)}
+.riddle-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.riddle-card .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-bottom:.4rem;display:block}
+.riddle-card.correctpos{border-color:var(--petrol);background:var(--petrol-soft)}
+.riddle-card.wrongpos{border-color:#B0433A;background:#B0433A18}
+.riddle-card.missed{border-color:var(--amber);background:#C98A1B18}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Reihenfolge-Karten (7 Schritte) ---------- */
+.order-card{
+  display:flex;align-items:center;gap:.8rem;width:100%;text-align:left;
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  padding:.85rem 1rem;margin-top:.7rem;cursor:pointer;font-family:var(--body);color:var(--ink);
+}
+.order-card:hover{border-color:var(--petrol)}
+.order-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.order-card.correctpos{border-color:var(--petrol);background:var(--petrol-soft)}
+.order-card.wrongpos{border-color:#B0433A;background:#B0433A18}
+.order-card .order-num{
+  width:2.1rem;height:2.1rem;border-radius:50%;background:var(--line);color:var(--ink);
+  display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;
+  flex-shrink:0;font-size:.95rem;
+}
+.order-card.sel .order-num{background:var(--petrol);color:#fff}
+.order-card.correctpos .order-num{background:var(--petrol);color:#fff}
+.order-card.wrongpos .order-num{background:#B0433A;color:#fff}
+.order-card .order-text{font-size:.94rem}
+.order-card .order-text b{display:block;font-family:var(--display);font-size:.98rem;color:var(--petrol);margin-bottom:.15rem}
+
+/* ---------- Tabs ---------- */
+.tab-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.tab-btn{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:.4rem .9rem;font-size:.85rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body)}
+.tab-btn.on{background:var(--petrol);border-color:var(--petrol);color:#fff}
+
+/* ---------- Ampel-Kriterien ---------- */
+.crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.55rem 0;border-bottom:1px dashed var(--line)}
+.crit-row:last-child{border-bottom:none}
+.crit-light{width:1rem;height:1rem;border-radius:50%;flex-shrink:0;margin-top:.2rem}
+.crit-light.grey{background:var(--line)}
+.crit-light.red{background:#B0433A}
+.crit-light.amber{background:var(--amber)}
+.crit-light.green{background:var(--petrol)}
+.crit-text{font-size:.9rem}
+.crit-text b{display:block;font-size:.85rem;margin-bottom:.1rem}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number]{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+input[type=number]{max-width:8rem}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+.quiz-score{font-weight:700;color:var(--petrol);margin-top:1rem}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Wochen-Verlaufskurve (Stoppuhr) ---------- */
+.chart-wrap{display:flex;align-items:flex-end;gap:.8rem;height:8rem;margin-top:1.1rem;padding:0 .3rem}
+.chart-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.chart-bar{width:100%;max-width:2.4rem;background:var(--petrol);border-radius:6px 6px 0 0;transition:height .4s ease;min-height:2px}
+.chart-label{font-size:.72rem;color:var(--muted);margin-top:.4rem;font-weight:600}
+.chart-val{font-size:.72rem;color:var(--ink);font-weight:700;margin-bottom:.2rem}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <span class="brand">MODUL 3</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 3 · Block 1: Klassenführung &amp; Routinen · Fortbildung Quereinsteiger:innen Sek I/II</span>
+  <h1>Der starke Stundenstart.</h1>
+  <p class="lead">Wie gewinnst du die ersten fünf Minuten jeder Stunde – jedes Mal? In ca. 25 Minuten baust du deine Begrüßungsroutine zum präzisen Werkzeug aus: mit Skript, Timer und einem Do Now, das sofort funktioniert.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Der Zeitrechner (was dein Stundenstart wirklich kostet) → Kontrastpaar A/B → die 7 Schritte in Reihenfolge → dein eigenes Skript → Szenario-Simulator mit Störkarten → dein Do-Now-Baukasten → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📖 Kernquelle: Lovell/Dowley, Routine 1; Lemov T20, T51</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht's →</button></p>
+</section>
+
+<!-- 1 · HOOK: ZEITRECHNER -->
+<section class="screen" data-title="Zeitrechner">
+  <span class="eyebrow">Station 1 · Hook: Der Zeitrechner</span>
+  <h2>Was kostet dich dein Stundenstart wirklich?</h2>
+  <p class="lead">Trag ein, wie viele Stunden du pro Woche unterrichtest und wie viele Minuten im Schnitt „verloren gehen" – Ankommen, Kramen, Ermahnen, bis wirklich alle im Stoff sind.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="calcStunden">Deine Unterrichtsstunden pro Woche</label>
+      <input type="number" id="calcStunden" data-store="calcStunden" min="1" placeholder="z. B. 14">
+    </div>
+    <div class="field">
+      <label for="calcMinuten">Geschätzte Anlaufminuten pro Stunde</label>
+      <input type="number" id="calcMinuten" data-store="calcMinuten" min="0" placeholder="z. B. 4">
+    </div>
+    <p style="margin-top:.8rem"><button class="btn small" id="calcBtn">Ausrechnen →</button></p>
+    <div class="reveal" id="calcReveal">
+      <p class="punchline" id="calcResult"></p>
+      <p class="hint" id="calcSub" style="margin-top:.5rem"></p>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Zum Kontrastpaar →</button></p>
+</section>
+
+<!-- 2 · SEE IT: KONTRASTPAAR & UNTERSCHIEDE -->
+<section class="screen" data-title="Kontrastpaar">
+  <span class="eyebrow">Station 2 · See it: Dieselbe Lehrkraft, zwei Ergebnisse</span>
+  <h2>Variante A und Variante B – lies genau.</h2>
+  <p class="lead">Beide Male will dieselbe Lehrkraft dasselbe: einen ruhigen, klaren Start. Nur bei einer Variante gelingt er.</p>
+  <div class="card">
+    <h3>Variante A (schwach)</h3>
+    <p style="font-size:.95rem">Kommt herein, redet schon im Gehen: „Ja, guten Morgen, setzt euch, wir haben heute viel vor…" – sortiert Unterlagen am Pult. Die Hälfte steht halb, Getuschel läuft weiter, irgendwann beginnt der Unterricht – niemand könnte sagen, wann eigentlich.</p>
+  </div>
+  <div class="card">
+    <h3>Variante B (stark)</h3>
+    <p style="font-size:.95rem">Kommt herein, geht wortlos zum festen Punkt (Mitte vorn), stellt sich ruhig hin, Blick durch den Raum. Wartet. Auch als zwei noch tuscheln: wartet freundlich weiter, 8 Sekunden, Blick zu den beiden. Stille. Alle stehen. Dann warm: „Guten Morgen, 9b." – Antwort abwarten – „Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still." Timer startet sichtbar mit dem Setz-Signal. Bleibt vorn stehen und scannt (geht demonstrativ NICHT ans Pult).</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Markiere die 3 tatsächlichen Unterschiede.</h3>
+  <p class="lead">Sechs Aussagen, drei davon beschreiben einen echten Unterschied zwischen A und B. Tippe deine Auswahl an, dann „Prüfen".</p>
+  <div class="riddle-grid" id="diffGrid"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="diffResetBtn">Zurücksetzen</button> <button class="btn small" id="diffCheckBtn">Prüfen</button></p>
+  <div class="card reveal" id="diffReveal">
+    <p><strong>Was zählt, ist Handlung – nicht Eindruck:</strong> Der feste Punkt statt Sortieren am Pult, das Warten auf 100 % statt sofortigem Grüßen, und das Scannen statt des sofortigen Wegdrehens zum Rechner. Das sind die drei Stellschrauben, an denen du diese Woche arbeitest.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den 7 Schritten →</button></p>
+</section>
+
+<!-- 3 · NAME IT: DIE 7 SCHRITTE -->
+<section class="screen" data-title="Die 7 Schritte">
+  <span class="eyebrow">Station 3 · Name it: Die 7 Schritte</span>
+  <h2>Bring die Schritte in die richtige Reihenfolge.</h2>
+  <p class="lead">Tippe die Karten in der Reihenfolge an, in der sie ablaufen – vom ersten bis zum letzten Schritt. Ein Klick auf eine ausgewählte Karte nimmt sie wieder heraus. Danach „Prüfen".</p>
+  <p style="margin-top:.7rem"><button class="btn ghost small" id="stepResetBtn">Zurücksetzen</button> <button class="btn small" id="stepCheckBtn">Prüfen</button></p>
+  <div id="stepOrderList"></div>
+  <div class="card reveal" id="stepQualityCard">
+    <h3>Schritt 3 ist der Qualitätsschritt.</h3>
+    <p>„Warten auf 100 %" entscheidet, ob die Zäsur wirklich funktioniert. Wer in die Unruhe hineingrüßt, unterschreibt zweimal täglich denselben Vertrag: „Halbherzig reicht hier." Das ist Modell 4 aus Woche 1 – ihr unterrichtet eine Norm, ob ihr wollt oder nicht.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Skript-Editor →</button></p>
+</section>
+
+<!-- 4 · DO IT: SKRIPT-EDITOR -->
+<section class="screen" data-title="Skript-Editor">
+  <span class="eyebrow">Station 4 · Do it: Skript-Editor</span>
+  <h2>Skripte deine eigene Begrüßungsroutine.</h2>
+  <p class="lead">Fülle die dreispaltige Vorlage für dich aus. Pflichtfelder sind der Gruß und das Setz-Signal/der Starter-Satz – der Rest darf stichwortartig bleiben. Diese Seite wird deine erste offizielle Playbook-Seite.</p>
+  <p style="margin-top:.6rem"><button class="btn ghost small" id="scriptModelBtn">Musterbeispiel anzeigen</button></p>
+  <div class="card reveal" id="scriptModelCard"></div>
+
+  <div class="field">
+    <label for="scriptStep1">1 · Vorbereitung <span class="sub">Welches Do Now steht bereit, bevor du grüßt?</span></label>
+    <textarea id="scriptStep1" data-store="scriptStep1"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptStep2">2 · Fester Punkt <span class="sub">Wo genau stellst du dich hin?</span></label>
+    <textarea id="scriptStep2" data-store="scriptStep2"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptStep3">3 · Warten auf 100 % <span class="sub">Wie lange wartest du notfalls, und worauf achtest du?</span></label>
+    <textarea id="scriptStep3" data-store="scriptStep3"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptGruss">4 · Gruß-Wortlaut * <span class="sub">Pflichtfeld – dein exakter Wortlaut.</span></label>
+    <input type="text" id="scriptGruss" data-store="scriptGruss" placeholder="z. B. „Guten Morgen, 9b.“">
+  </div>
+  <div class="field">
+    <label for="scriptStarter">5 · Setz-Signal + Starter-Satz * <span class="sub">Pflichtfeld – jedes Mal wortidentisch.</span></label>
+    <input type="text" id="scriptStarter" data-store="scriptStarter" placeholder="z. B. „Setzt euch – ihr wisst, was zu tun ist: …“">
+  </div>
+  <div class="field">
+    <label for="scriptTimer">6 · Timer <span class="sub">Wo ist er sichtbar, wer bedient ihn?</span></label>
+    <textarea id="scriptTimer" data-store="scriptTimer"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptScan">7 · Scannen <span class="sub">Was tust du in den ersten 30–60 Sekunden, statt ans Pult zu gehen?</span></label>
+    <textarea id="scriptScan" data-store="scriptScan"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptDoItAgain">Reset-Satz für „Do It Again" <span class="sub">Dein neutraler Wortlaut für einen ausgefransten Start.</span></label>
+    <input type="text" id="scriptDoItAgain" data-store="scriptDoItAgain" placeholder="z. B. „Das können wir flüssiger. Noch einmal.“">
+  </div>
+  <div class="commit-box">
+    <input type="checkbox" id="vertretungTest" data-store="scriptVertretungTest">
+    <label for="vertretungTest" style="font-weight:600">Vertretungslehrer-Test bestanden: Eine fremde Lehrkraft könnte allein anhand meines Wortlauts in Schritt 4 und 5 loslegen.</label>
+  </div>
+  <div class="card">
+    <h3>Vorschau deiner Routine</h3>
+    <p id="scriptPreview" style="font-size:.94rem"></p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Szenario-Simulator →</button></p>
+</section>
+
+<!-- 5 · SZENARIO-SIMULATOR -->
+<section class="screen" data-title="Szenario-Simulator">
+  <span class="eyebrow">Station 5 · Do it: Szenario-Simulator</span>
+  <h2>Vier Störkarten. Was tust du?</h2>
+  <p class="lead">Wähle bei jeder Situation die Reaktion, die deine Routine am wenigsten gefährdet.</p>
+  <div id="scenarioList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Do-Now-Baukasten →</button></p>
+</section>
+
+<!-- 6 · DO-NOW-BAUKASTEN -->
+<section class="screen" data-title="Do-Now-Baukasten">
+  <span class="eyebrow">Station 6 · Der Do-Now-Baukasten</span>
+  <h2>Eine Aufgabe, die sofort funktioniert.</h2>
+  <p class="lead">Wähle dein Fach, sieh dir das Beispiel an – und formuliere danach deine eigene Aufgabe für nächste Woche.</p>
+  <div class="tab-row" id="fachTabs"></div>
+  <div class="card">
+    <h3 id="fachTitle"></h3>
+    <p id="fachExample" style="font-size:.96rem"></p>
+  </div>
+  <div class="field">
+    <label for="doNowEigen">Deine eigene Do-Now-Aufgabe</label>
+    <textarea id="doNowEigen" data-store="doNowEigen" placeholder="…"></textarea>
+  </div>
+  <div class="card" id="doNowCritCard"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 3 – plus zwei zur Auffrischung.</h2>
+  <p class="lead">Rund 30 % der Fragen kommen aus den Vormodulen – so bleiben Woche 1 und 2 präsent.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Deine 8. Klasse braucht am Montag nach den Ferien 3 Minuten, bis alle stehen und still sind. Beschreibe dein Vorgehen in dieser Stunde UND deinen Plan für Dienstag.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: Montag ruhig durchhalten, ggf. Do It Again + kurzer Erwartungs-Neustart mit Begründung; Dienstag: identischer Ablauf, auf Konstanz setzen. NICHT: das Ritual aufgeben oder mit Strafe drohen.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Diese Woche zeigt sich, ob die Routine wirklich sitzt. Wähle deinen Action Step.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+  <div class="card">
+    <h3>Stoppuhr-Tagebuch: Sekunden vom Setz-Signal bis ~90 % arbeiten</h3>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.6rem">
+      <div class="field" style="margin-top:0"><label for="obsMo">Mo</label><input type="number" id="obsMo" data-store="obsMo" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsDi">Di</label><input type="number" id="obsDi" data-store="obsDi" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsMi">Mi</label><input type="number" id="obsMi" data-store="obsMi" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsDo">Do</label><input type="number" id="obsDo" data-store="obsDo" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsFr">Fr</label><input type="number" id="obsFr" data-store="obsFr" min="0" placeholder="Sek."></div>
+    </div>
+    <div class="chart-wrap" id="weekChart"></div>
+    <p class="hint" style="margin-top:.6rem">Der motivierendste Datenpunkt des Frühjahrs: Die Kurve sinkt fast immer über die Woche.</p>
+  </div>
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" style="margin-top:.7rem">Der PDF-Export öffnet den Druckdialog deines Geräts – wähle dort „Als PDF speichern". Gib es deinem Coach zum Auswertungsgespräch dieser Woche.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche: Was tun, wenn ihr MITTEN in der Stunde die Aufmerksamkeit zurückbraucht – und wie ihr Anweisungen gebt, die beim ersten Mal ankommen. Bringt eure Stoppuhr-Werte mit!"</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul3-woche03-starker-stundenstart"></script>
+<script>
+/* ================= Daten ================= */
+const DIFF_OPTIONS=[
+ {id:1,t:'Der Einstieg beginnt am festen Punkt vorn – nicht sortierend am Pult.',ok:true},
+ {id:2,t:'Es wird auf 100 % Stehen und Stille gewartet, bevor gegrüßt wird.',ok:true},
+ {id:3,t:'Der Gruß-Wortlaut wechselt jeden Tag, damit es nicht eintönig wird.',ok:false},
+ {id:4,t:'Die Lehrkraft scannt nach dem Setzen den Raum, statt sofort an den Rechner zu gehen.',ok:true},
+ {id:5,t:'In der starken Variante spricht die Lehrkraft deutlich lauter.',ok:false},
+ {id:6,t:'Der Do Now ist in der starken Variante inhaltlich schwerer.',ok:false}
+];
+
+const STEPS=[
+ {id:1,short:'Vorbereitung',text:'Do Now steht an der Tafel/Folie – bevor gegrüßt wird.'},
+ {id:2,short:'Fester Punkt',text:'Wortloser Gang zur eigenen Position, ruhig stehen.'},
+ {id:3,short:'Warten auf 100 %',text:'Alle stehen, es ist still – schweigend, freundlich, notfalls länger.'},
+ {id:4,short:'Warmer Gruß',text:'Blick durch den ganzen Raum, Antwort abwarten.'},
+ {id:5,short:'Setz-Signal + Starter-Satz',text:'Immer derselbe Wortlaut: „Setzt euch – ihr wisst, was zu tun ist: …“'},
+ {id:6,short:'Timer',text:'Startet exakt mit dem Setz-Signal, für alle sichtbar.'},
+ {id:7,short:'Scannen',text:'Lehrkraft bleibt präsent, Blick kreist – nicht sofort ans Pult.'}
+];
+const STEP_DISPLAY=[4,7,2,5,1,3,6];
+
+const SCENARIOS=[
+ {tag:'A1 · Die Sitzenbleiber',situ:'Zwei SuS bleiben beim Aufstehen demonstrativ-lässig sitzen.',opts:[
+   {t:'Direkt ansprechen: „Steht bitte auf!“',ok:false,note:'Startet die Stunde mit einer Ansprache statt mit Warten – riskiert eine Diskussion vor dem Gruß.'},
+   {t:'Ruhig warten, Blickkontakt zu den beiden suchen, bis sie aufstehen',ok:true,note:'Genau: warten + Blick statt Ansprache. Keine Diskussion vor dem Gruß.'},
+   {t:'Trotzdem grüßen und einfach anfangen',ok:false,note:'Unterschreibt den Vertrag „Halbherzig reicht" – Modell 4 aus Woche 1.'}
+ ]},
+ {tag:'A2 · Das Kichern',situ:'Beim Aufstehen kichern zwei SuS anhaltend miteinander.',opts:[
+   {t:'Die ganze Klasse zurechtweisen',ok:false,note:'Bestraft die Gruppe für das Verhalten von zweien – unnötig.'},
+   {t:'Freundlich weiterwarten; nach dem Setzen ggf. leise Einzelansprache',ok:true,note:'Genau: nicht die ganze Klasse abstrafen, sondern gezielt und leise.'},
+   {t:'Lauter und strenger werden',ok:false,note:'Eskaliert unnötig einen kleinen Moment.'}
+ ]},
+ {tag:'A3 · Das Nachplätschern',situ:'Nach dem Setzen tuscheln drei SuS weiter, statt zu starten.',opts:[
+   {t:'Den Starter-Satz wiederholen und dabei lauter werden',ok:false,note:'„Zerredet" die Routine – der Satz soll konstant bleiben, nicht eskalieren.'},
+   {t:'Blickkontakt und Nähe suchen; notfalls Do It Again für den Startmoment',ok:true,note:'Genau: Blick + Nähe, notfalls neutraler Reset statt Wiederholen/Zerreden.'},
+   {t:'Sofort eine Konsequenz ankündigen',ok:false,note:'Zu scharf für einen kleinen Ausrutscher direkt nach dem Setzen.'}
+ ]},
+ {tag:'A4 · Die Sofort-Frage',situ:'Direkt nach dem Setz-Signal platzt eine laute inhaltliche Frage herein.',opts:[
+   {t:'Die Frage sofort ausführlich beantworten',ok:false,note:'Unterbricht die gerade erst gestartete Routine.'},
+   {t:'Freundlich parken: „Gute Frage – nach dem Starter.“',ok:true,note:'Genau: Routine schützen, Frage wertschätzen, ohne sie sofort zu bedienen.'},
+   {t:'Die Frage komplett ignorieren, ohne Reaktion',ok:false,note:'Wirkt abweisend – „parken" ist freundlicher und genauso wirksam.'}
+ ]}
+];
+
+const FACH_EXAMPLES=[
+ {id:'mathe',label:'Mathe',text:'„Löse: 3(x–2)=15. Notiere jeden Schritt.“'},
+ {id:'deutsch',label:'Deutsch',text:'„Nenne die drei Merkmale der Kurzgeschichte von letzter Woche – je ein Beispiel aus dem Text.“'},
+ {id:'englisch',label:'Englisch',text:'„Write 3 sentences about your weekend using the past perfect.“'},
+ {id:'geschichte',label:'Geschichte',text:'„Ordne: Kriegsende – Währungsreform – Grundgesetz. Begründe in einem Satz.“'},
+ {id:'nawi',label:'Naturwissenschaften',text:'„Skizziere den Versuchsaufbau von Dienstag und beschrifte drei Teile.“'},
+ {id:'oberstufe',label:'Oberstufe (alle Fächer)',text:'„Formuliere die Kernthese des letzten Textes in maximal 20 Wörtern.“'}
+];
+
+const QUIZ=[
+ {q:'F1. Die Klasse steht beim Ritual unruhig und halb. Beste Reaktion:',
+  opts:[
+   {t:'Trotzdem grüßen – Zeit ist knapp',ok:false,note:'Der Kernfehler: unterschreibt „Halbherzig reicht hier".'},
+   {t:'Schweigend, freundlich warten; ggf. ruhig neu ansetzen',ok:true,note:'Genau: Schritt 3, der Qualitätsschritt.'},
+   {t:'Das Ritual abschaffen, es wirkt kindisch',ok:false,note:'Der Sek-II-Mythos.'},
+   {t:'Die Unruhigen vor dem Gruß ermahnen',ok:false,note:'Startet die Stunde mit Korrektur statt mit Warten.'}
+  ]},
+ {q:'F2. Ein gutes Do Now …',
+  opts:[
+   {t:'führt ins neue Thema ein und braucht eine kurze Erklärung',ok:false,note:'Plausibel – erzeugt aber sofort eine Frage-Traube.'},
+   {t:'ist ohne Hilfe lösbar, schriftlich, wiederholt Bekanntes',ok:true,note:'Genau die drei Kriterien.'},
+   {t:'beschäftigt nur die Schnellen, bis alle da sind',ok:false,note:'Nicht der Zweck – alle sollen sofort starten.'},
+   {t:'wird eingesammelt und benotet',ok:false,note:'Nicht Teil der Kriterien.'}
+  ]},
+ {q:'F3. Der Starter-Satz sollte …',
+  opts:[
+   {t:'täglich variieren, sonst wird es langweilig',ok:false,note:'Der Abwechslungs-Reflex – schwächt das Signal.'},
+   {t:'wörtlich identisch bleiben – Konstanz macht ihn zum Signal',ok:true,note:'Genau.'},
+   {t:'möglichst ausführlich sein',ok:false,note:'Kurz und konstant schlägt ausführlich.'},
+   {t:'schriftlich ersetzt werden',ok:false,note:'Teilrichtig: die Aufgabe steht schriftlich – das Signal bleibt mündlich.'}
+  ]},
+ {q:'F4. „Do It Again" ist …',
+  opts:[
+   {t:'eine Kollektivstrafe',ok:false,note:'Nicht der Kerngedanke.'},
+   {t:'ein neutraler Reset: Standard einüben, Zutrauen zeigen',ok:true,note:'Der Ton macht den Unterschied zwischen Reset und Demütigung.'},
+   {t:'Zeitverschwendung',ok:false,note:'Amortisations-Blindheit – zahlt sich über die Woche aus.'},
+   {t:'nur in Klasse 5–7 einsetzbar',ok:false,note:'Struktur bleibt, Ton wird erwachsener.'}
+  ]},
+ {q:'F5. Direkt nach dem Setz-Signal gehst du zum Rechner, um den Beamer zu starten. Problem?',
+  opts:[
+   {t:'keins – Technik muss laufen',ok:false,note:'Technik ist wichtig, aber nicht in diesem Moment.'},
+   {t:'Schritt 7 fehlt: Ohne Scan lernt die Klasse, dass der Start unbeobachtet ist',ok:true,note:'Genau.'},
+   {t:'Beamer gehört verboten',ok:false,note:'Nicht das Thema.'},
+   {t:'nur ein Problem in Sek I',ok:false,note:'Gilt in jeder Stufe.'}
+  ]},
+ {q:'🔁 Woche 1: „Die Klasse konnte es in der Stunde, aber im Test war alles weg." Die beste Erklärung:',
+  opts:[
+   {t:'Die SuS haben zu Hause nicht genug geübt',ok:false,note:'Erklärt nicht, warum es in der Stunde noch da war.'},
+   {t:'Der Stoff war nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis',ok:true,note:'Modell 1, Gedächtnis.'},
+   {t:'Der Test war unfair gestellt',ok:false,note:'Möglich, aber nicht die naheliegendste Erklärung.'},
+   {t:'Die Klasse ist schwächer als gedacht',ok:false,note:'Begabungs-Attribution.'}
+  ]},
+ {q:'🔁 Woche 2: Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:',
+  opts:[
+   {t:'Die Klasse ist unwillig/testet dich',ok:false,note:'Personalisierung.'},
+   {t:'Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback',ok:true,note:'Verhalten ist ein Curriculum.'},
+   {t:'Die Erwartung war zu hoch – absenken',ok:false,note:'Der teuerste Fehler: voreiliges Lockern.'},
+   {t:'Ohne Strafen geht es eben nicht',ok:false,note:'Nicht der Kernhebel.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'Do Now &amp; Begrüßungsroutine einführen (Standard)',
+  text:'Ich führe ab Montag in Klasse X das Do Now ein: Aufgabe steht an der Tafel, bevor ich grüße; ich warte auf 100 % Stehen und Stille; mein Setz-Signal + Starter-Satz sind jedes Mal wörtlich gleich; der Timer startet mit dem Setzen. Ich messe täglich: Sekunden vom Setz-Signal bis ~90 % arbeiten.'},
+ {id:'schritt3',label:'Nur Schritt 3 fokussieren (Alternative)',
+  text:'Ich fokussiere ausschließlich Schritt 3: Eine Woche konsequent auf 100 % Stehen und Stille warten, bevor ich grüße – und meine Erlebnisse dazu notieren.'},
+ {id:'doitagain',label:'Do It Again einführen (Alternative)',
+  text:'Ich führe „Do It Again" ein: Beim ersten ausgefransten Start der Woche setze ich neutral zurück – „Das können wir flüssiger. Noch einmal." – und halte die Reaktion der Klasse fest.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',
+ calcStunden:'',calcMinuten:'',
+ diffSel:[],diffRevealed:false,
+ stepOrder:[],stepRevealed:false,
+ scriptStep1:'',scriptStep2:'',scriptStep3:'',scriptGruss:'',scriptStarter:'',scriptTimer:'',scriptScan:'',scriptDoItAgain:'',scriptVertretungTest:false,scriptModelShown:false,
+ scenarioSel:[0,0,0,0],
+ doNowFach:'mathe',doNowEigen:'',
+ quizSel:[0,0,0,0,0,0,0],transferAnswer:'',transferShown:false,
+ actionStep:'standard',obsMo:'',obsDi:'',obsMi:'',obsDo:'',obsFr:'',
+ exitMit:'',exitSorge:'',commit:false,screen:0};
+const STORE_KEY='modul3-woche03-starker-stundenstart';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m3test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Zeitrechner ================= */
+document.getElementById('calcBtn').addEventListener('click',()=>{
+  const h=parseFloat(document.getElementById('calcStunden').value)||14;
+  const m=parseFloat(document.getElementById('calcMinuten').value)||4;
+  const weeks=38;
+  const minutesYear=h*m*weeks;
+  const hoursYear=minutesYear/60;
+  const daysYear=hoursYear/8;
+  state.calcStunden=h;state.calcMinuten=m;scheduleSave();
+  document.getElementById('calcResult').textContent=Math.round(hoursYear)+' Zeitstunden im Jahr – über '+daysYear.toFixed(1)+' Arbeitstage.';
+  document.getElementById('calcSub').textContent='Bei '+h+' Stunden/Woche und '+m+' verlorenen Minuten pro Stunde, über 38 Schulwochen gerechnet. Heute holst du sie zurück – nicht mit einem Trick, sondern mit dem Ritual, das du längst hast.';
+  document.getElementById('calcReveal').classList.add('on');
+});
+
+/* ================= See it: Unterschiede markieren ================= */
+function renderDiff(){
+  const g=document.getElementById('diffGrid');g.innerHTML='';
+  DIFF_OPTIONS.forEach(o=>{
+    const sel=state.diffSel.includes(o.id);
+    let cls='riddle-card'+(sel?' sel':'');
+    let extra='';
+    if(state.diffRevealed){
+      if(o.ok&&sel){cls+=' correctpos';extra='<br><span class="hint">✓ tatsächlicher Unterschied</span>';}
+      else if(o.ok&&!sel){cls+=' missed';extra='<br><span class="hint">Das war auch einer – leicht übersehen.</span>';}
+      else if(!o.ok&&sel){cls+=' wrongpos';extra='<br><span class="hint">✗ kein tatsächlicher Unterschied</span>';}
+    }
+    const b=document.createElement('button');b.className=cls;
+    b.innerHTML=o.t+extra;
+    if(!state.diffRevealed)b.addEventListener('click',()=>{
+      const idx=state.diffSel.indexOf(o.id);
+      if(idx>-1)state.diffSel.splice(idx,1);else state.diffSel.push(o.id);
+      scheduleSave();renderDiff();
+    });
+    g.appendChild(b);
+  });
+}
+document.getElementById('diffCheckBtn').addEventListener('click',()=>{
+  state.diffRevealed=true;scheduleSave();renderDiff();
+  document.getElementById('diffReveal').classList.add('on');
+});
+document.getElementById('diffResetBtn').addEventListener('click',()=>{
+  state.diffSel=[];state.diffRevealed=false;scheduleSave();renderDiff();
+  document.getElementById('diffReveal').classList.remove('on');
+});
+
+/* ================= Name it: 7 Schritte ================= */
+function renderStepOrder(){
+  const wrap=document.getElementById('stepOrderList');wrap.innerHTML='';
+  STEP_DISPLAY.forEach(id=>{
+    const step=STEPS.find(s=>s.id===id);
+    const pos=state.stepOrder.indexOf(id);
+    const num=pos>-1?pos+1:'?';
+    let cls='order-card'+(pos>-1?' sel':'');
+    if(state.stepRevealed&&pos>-1){cls+=((pos+1)===id?' correctpos':' wrongpos');}
+    const b=document.createElement('button');b.className=cls;
+    b.innerHTML='<span class="order-num">'+num+'</span><span class="order-text"><b>'+step.short+'</b>'+step.text+'</span>';
+    if(!state.stepRevealed)b.addEventListener('click',()=>{
+      const idx=state.stepOrder.indexOf(id);
+      if(idx>-1)state.stepOrder.splice(idx,1);else state.stepOrder.push(id);
+      scheduleSave();renderStepOrder();
+    });
+    wrap.appendChild(b);
+  });
+}
+document.getElementById('stepCheckBtn').addEventListener('click',()=>{
+  if(state.stepOrder.length<7){showToast('Bring erst alle 7 Karten in eine Reihenfolge.');return;}
+  state.stepRevealed=true;scheduleSave();renderStepOrder();
+  document.getElementById('stepQualityCard').classList.add('on');
+});
+document.getElementById('stepResetBtn').addEventListener('click',()=>{
+  state.stepOrder=[];state.stepRevealed=false;scheduleSave();renderStepOrder();
+  document.getElementById('stepQualityCard').classList.remove('on');
+});
+
+/* ================= Skript-Editor ================= */
+document.getElementById('scriptModelBtn').addEventListener('click',()=>{
+  state.scriptModelShown=!state.scriptModelShown;scheduleSave();renderScriptModel();
+});
+function renderScriptModel(){
+  const card=document.getElementById('scriptModelCard');
+  if(!state.scriptModelShown){card.classList.remove('on');card.innerHTML='';return;}
+  card.classList.add('on');
+  card.innerHTML='<h3>Musterbeispiel</h3><p style="font-size:.9rem">'
+   +'<strong>1 Vorbereitung:</strong> Do Now an Tafel/Folie VOR dem Gruß; Timer bereit<br>'
+   +'<strong>2 Fester Punkt:</strong> wortlos zur Position Mitte vorn; Unterlagen bleiben zu<br>'
+   +'<strong>3 Warten 100 %:</strong> ruhiger Blick durch den Raum; bei Restunruhe freundlich weiterwarten, Blick zu den Betreffenden; KEIN Gruß in Unruhe<br>'
+   +'<strong>4 Gruß:</strong> „Guten Morgen, 9b." – Blick kreist; Antwort abwarten<br>'
+   +'<strong>5 Setz-Signal + Starter-Satz:</strong> „Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still." – identischer Wortlaut jede Stunde<br>'
+   +'<strong>6 Timer:</strong> startet exakt mit dem Setz-Signal, für alle sichtbar<br>'
+   +'<strong>7 Scan:</strong> vorn bleiben, Blick kreist 30–60 Sek.; erst dann Orga<br>'
+   +'<strong>Reset:</strong> „Das können wir flüssiger. Noch einmal." – neutraler Ton, kein Vorwurf, sofort neu</p>';
+}
+function renderScriptPreview(){
+  const parts=[];
+  if(state.scriptStep1)parts.push('Vorbereitung: '+state.scriptStep1);
+  if(state.scriptStep2)parts.push('Fester Punkt: '+state.scriptStep2);
+  if(state.scriptStep3)parts.push('Warten: '+state.scriptStep3);
+  if(state.scriptGruss)parts.push('Gruß: '+state.scriptGruss);
+  if(state.scriptStarter)parts.push('Setz-Signal: '+state.scriptStarter);
+  if(state.scriptTimer)parts.push('Timer: '+state.scriptTimer);
+  if(state.scriptScan)parts.push('Scan: '+state.scriptScan);
+  if(state.scriptDoItAgain)parts.push('Reset: '+state.scriptDoItAgain);
+  document.getElementById('scriptPreview').textContent=parts.length?parts.join(' — '):'Noch keine Eingaben.';
+}
+
+/* ================= Szenario-Simulator ================= */
+function renderScenarios(){
+  const wrap=document.getElementById('scenarioList');wrap.innerHTML='';
+  SCENARIOS.forEach((s,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    s.opts.forEach((o,j)=>{
+      const sel=state.scenarioSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.scenarioSel[i]){
+      const chosen=s.opts[state.scenarioSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Trägt die Routine. ':'✗ Riskiert die Routine. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+s.tag+': '+s.situ+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.scenarioSel[i]=j+1;scheduleSave();renderScenarios();
+  }));
+}
+
+/* ================= Do-Now-Baukasten ================= */
+function renderFachTabs(){
+  const t=document.getElementById('fachTabs');t.innerHTML='';
+  FACH_EXAMPLES.forEach(f=>{
+    const b=document.createElement('button');b.className='tab-btn'+(state.doNowFach===f.id?' on':'');
+    b.textContent=f.label;
+    b.addEventListener('click',()=>{state.doNowFach=f.id;scheduleSave();renderFachTabs();renderFachExample();});
+    t.appendChild(b);
+  });
+}
+function renderFachExample(){
+  const f=FACH_EXAMPLES.find(x=>x.id===state.doNowFach)||FACH_EXAMPLES[0];
+  document.getElementById('fachTitle').textContent=f.label;
+  document.getElementById('fachExample').textContent=f.text;
+}
+function renderDoNowCrit(){
+  const raw=document.getElementById('doNowEigen').value;
+  const hasTime=/\d|minute|min\.|sofort/i.test(raw);
+  const hasText=raw.trim().length>0;
+  const card=document.getElementById('doNowCritCard');
+  card.innerHTML='<h3>Kriterien-Check</h3>'
+   +'<div class="crit-row"><span class="crit-light '+(hasText?'green':'grey')+'"></span><div class="crit-text"><b>Schriftlich</b>'+(hasText?'Es steht etwas Konkretes da.':'Noch keine Aufgabe eingetragen.')+'</div></div>'
+   +'<div class="crit-row"><span class="crit-light '+(hasTime?'green':'amber')+'"></span><div class="crit-text"><b>3–5 Minuten</b>'+(hasTime?'Enthält eine Zeit-/Zählangabe.':'Noch keine Zeitangabe erkennbar.')+'</div></div>'
+   +'<div class="crit-row"><span class="crit-light grey"></span><div class="crit-text"><b>Ohne Erklärung lösbar</b>Das kannst nur du beurteilen: Könnte die Klasse sofort loslegen, ganz ohne dein Zutun?</div></div>';
+}
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+function renderWeekChart(){
+  const days=[['obsMo','Mo'],['obsDi','Di'],['obsMi','Mi'],['obsDo','Do'],['obsFr','Fr']];
+  const vals=days.map(([k])=>parseFloat(state[k])||0);
+  const max=Math.max(...vals,1);
+  const wrap=document.getElementById('weekChart');wrap.innerHTML='';
+  days.forEach(([k,label],i)=>{
+    const v=vals[i];
+    const h=v>0?Math.max((v/max)*100,4):2;
+    const col=document.createElement('div');col.className='chart-col';
+    col.innerHTML='<div class="chart-val">'+(v||'–')+'</div><div class="chart-bar" style="height:'+h+'%"></div><div class="chart-label">'+label+'</div>';
+    wrap.appendChild(col);
+  });
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(['scriptStep1','scriptStep2','scriptStep3','scriptGruss','scriptStarter','scriptTimer','scriptScan','scriptDoItAgain'].includes(k))renderScriptPreview();
+        if(k==='doNowEigen')renderDoNowCrit();
+        if(['obsMo','obsDi','obsMi','obsDo','obsFr'].includes(k))renderWeekChart();
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function scenarioScore(){return state.scenarioSel.reduce((a,v,i)=>a+(v&&SCENARIOS[i].opts[v-1].ok?1:0),0);}
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const scenDone=state.scenarioSel.filter(v=>v>0).length;
+  const rows=[
+    ['Kontrastpaar & Unterschiede', state.diffRevealed?'✓ geprüft':'noch offen',state.diffRevealed],
+    ['Die 7 Schritte', state.stepRevealed?'✓ geprüft':'noch offen',state.stepRevealed],
+    ['Skript-Editor', (state.scriptGruss&&state.scriptStarter)?'✓ Pflichtfelder ausgefüllt':'noch offen',!!(state.scriptGruss&&state.scriptStarter)],
+    ['Szenario-Simulator', scenDone===SCENARIOS.length?'✓ '+scenarioScore()+'/'+SCENARIOS.length+' tragfähig':scenDone+'/'+SCENARIOS.length,scenDone===SCENARIOS.length],
+    ['Do-Now-Baukasten', state.doNowEigen?'✓ formuliert':'noch offen',!!state.doNowEigen],
+    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+}
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 3 · DER STARKE STUNDENSTART – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— ZEITRECHNER —\n'+(state.calcStunden||'–')+' Std./Woche × '+(state.calcMinuten||'–')+' Anlaufminuten\n';
+  t+='\n— KONTRASTPAAR & UNTERSCHIEDE —\nAusgewählt: '+(state.diffSel.join(', ')||'–')+'\n';
+  t+='\n— DIE 7 SCHRITTE —\n'+(state.stepRevealed?'geprüft':'noch offen')+'\n';
+  t+='\n— SKRIPT-EDITOR —\nVorbereitung: '+(state.scriptStep1||'–')+'\nFester Punkt: '+(state.scriptStep2||'–')+'\nWarten: '+(state.scriptStep3||'–')+'\nGruß: '+(state.scriptGruss||'–')+'\nSetz-Signal: '+(state.scriptStarter||'–')+'\nTimer: '+(state.scriptTimer||'–')+'\nScan: '+(state.scriptScan||'–')+'\nReset: '+(state.scriptDoItAgain||'–')+'\nVertretungslehrer-Test: '+(state.scriptVertretungTest?'bestanden':'noch nicht bestätigt')+'\n';
+  t+='\n— SZENARIO-SIMULATOR —\n'+scenarioScore()+' von '+SCENARIOS.length+' tragfähig gewählt\n';
+  t+='\n— DO-NOW-BAUKASTEN —\nFach: '+state.doNowFach+'\nEigene Aufgabe: '+(state.doNowEigen||'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nStoppuhr Mo–Fr: '+[state.obsMo,state.obsDi,state.obsMi,state.obsDo,state.obsFr].map(v=>v||'–').join(' / ')+'\n';
+  t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 3 · Der starke Stundenstart</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 3 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Skript-Editor</h2>';
+  h+=f('1 Vorbereitung:',state.scriptStep1);
+  h+=f('2 Fester Punkt:',state.scriptStep2);
+  h+=f('3 Warten auf 100 %:',state.scriptStep3);
+  h+=f('4 Gruß-Wortlaut:',state.scriptGruss);
+  h+=f('5 Setz-Signal + Starter-Satz:',state.scriptStarter);
+  h+=f('6 Timer:',state.scriptTimer);
+  h+=f('7 Scannen:',state.scriptScan);
+  h+=f('Reset-Satz „Do It Again":',state.scriptDoItAgain);
+  h+=f('Vertretungslehrer-Test:',state.scriptVertretungTest?'bestanden':'noch nicht bestätigt');
+  h+='<div class="pagebreak"></div><h2>Do-Now-Baukasten</h2>';
+  h+=f('Fach:',state.doNowFach);
+  h+=f('Eigene Do-Now-Aufgabe:',state.doNowEigen);
+  h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
+  h+=f('Transferaufgabe:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<div class="pagebreak"></div><h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
+  h+=f('Stoppuhr Mo–Fr:',[state.obsMo,state.obsDi,state.obsMi,state.obsDo,state.obsFr].map(v=>v||'–').join(' / '));
+  h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger:innen Sek I/II · Modul 3 „Der starke Stundenstart" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul3-woche03-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderDiff();renderStepOrder();renderScriptModel();renderScriptPreview();
+  renderScenarios();renderFachTabs();renderFachExample();renderDoNowCrit();
+  renderQuiz();renderSteps();updateCommitLabel();renderWeekChart();renderSummary();
+  if(state.diffRevealed)document.getElementById('diffReveal').classList.add('on');
+  if(state.stepRevealed)document.getElementById('stepQualityCard').classList.add('on');
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht\'s.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  bindStores();
+  renderDiff();
+  renderStepOrder();
+  renderScriptModel();
+  renderScriptPreview();
+  renderScenarios();
+  renderFachTabs();
+  renderFachExample();
+  renderDoNowCrit();
+  renderQuiz();
+  renderSteps();
+  updateCommitLabel();
+  renderWeekChart();
+  if(state.diffRevealed)document.getElementById('diffReveal').classList.add('on');
+  if(state.stepRevealed)document.getElementById('stepQualityCard').classList.add('on');
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern" am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>

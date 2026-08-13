@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coach-Dashboard · CPD Fortbildung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;--card:#FFFFFF;--ink:#1C2422;--muted:#5E6862;--line:#D6DAD0;
+  --petrol:#0E5B54;--petrol-soft:#E0ECE9;--amber:#C98A1B;--red:#B33B2A;--radius:14px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);min-height:100vh}
+header{
+  background:var(--card);border-bottom:1px solid var(--line);padding:1.1rem 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;
+}
+.brand{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:1.15rem}
+.logout{font-size:.85rem;color:var(--muted);text-decoration:underline;cursor:pointer;border:none;background:none;font-family:inherit}
+main{max-width:64rem;margin:0 auto;padding:2rem 1.5rem 4rem;display:flex;flex-direction:column;gap:2rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem}
+section h2{font-family:var(--display);font-size:1.15rem;margin-bottom:1rem;color:var(--petrol)}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:middle}
+th{color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em}
+tr:last-child td{border-bottom:none}
+.inline-form{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem;align-items:flex-end}
+.field{display:flex;flex-direction:column;gap:.3rem}
+.field label{font-size:.78rem;color:var(--muted);font-weight:600}
+input[type=text],input[type=email],input[type=password],select{
+  padding:.5rem .65rem;border:1.5px solid var(--line);border-radius:8px;font-size:.9rem;font-family:inherit;
+}
+button.primary{
+  padding:.55rem 1.1rem;border:none;border-radius:8px;background:var(--petrol);color:#fff;
+  font-weight:700;font-size:.9rem;cursor:pointer;
+}
+button.primary:hover{background:#0a4740}
+button.ghost{
+  padding:.35rem .7rem;border:1px solid var(--line);border-radius:8px;background:none;
+  color:var(--muted);font-size:.8rem;cursor:pointer;
+}
+button.ghost:hover{border-color:var(--red);color:var(--red)}
+code.token{
+  background:var(--petrol-soft);color:var(--petrol);padding:.15rem .5rem;border-radius:6px;
+  font-weight:700;letter-spacing:.06em;
+}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;padding:.2rem .55rem;border-radius:99px}
+.badge.open{background:#EDEBE4;color:var(--muted)}
+.badge.progress{background:#FCEFD9;color:var(--amber)}
+.badge.done{background:var(--petrol-soft);color:var(--petrol)}
+.matrix input[type=checkbox]{width:1.1rem;height:1.1rem;accent-color:var(--petrol)}
+.matrix td,.matrix th{text-align:center}
+.matrix td:first-child,.matrix th:first-child{text-align:left}
+.msg{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;margin-top:.8rem}
+.msg.error{background:#FBEAE7;color:#8a3220}
+.msg.hidden{display:none}
+.muted{color:var(--muted);font-size:.85rem}
+#loginScreen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem}
+#loginScreen .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:2.25rem 2rem;max-width:24rem;width:100%}
+#loginScreen h1{font-family:var(--display);font-size:1.4rem;color:var(--petrol);margin-bottom:1.2rem}
+#loginScreen .field{margin-bottom:.9rem}
+#loginScreen button{width:100%;margin-top:.5rem}
+.hidden{display:none !important}
+</style>
+</head>
+<body>
+
+<div id="loginScreen">
+  <div class="card">
+    <h1>Coach-Dashboard</h1>
+    <form id="loginForm">
+      <div class="field"><label for="email">E-Mail</label><input type="email" id="email" required></div>
+      <div class="field"><label for="password">Passwort</label><input type="password" id="password" required></div>
+      <button class="primary" type="submit">Anmelden</button>
+      <div class="msg error hidden" id="loginError"></div>
+    </form>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+<header>
+  <div class="brand">CPD Fortbildung · Coach-Dashboard</div>
+  <button class="logout" id="logoutBtn">Abmelden</button>
+</header>
+<main>
+
+  <section id="coursesSection">
+    <h2>Kurse</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Lehrkräfte</th></tr></thead>
+      <tbody id="coursesTable"></tbody>
+    </table>
+    <form class="inline-form" id="courseForm">
+      <div class="field"><label for="courseName">Neuer Kurs</label><input type="text" id="courseName" placeholder="z. B. Kohorte 2026" required></div>
+      <button class="primary" type="submit">Anlegen</button>
+    </form>
+  </section>
+
+  <section id="teachersSection">
+    <h2>Lehrkräfte</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Code</th><th>Kurs</th><th>Aktiv</th><th></th></tr></thead>
+      <tbody id="teachersTable"></tbody>
+    </table>
+    <form class="inline-form" id="teacherForm">
+      <div class="field"><label for="teacherName">Name</label><input type="text" id="teacherName" placeholder="Name der Lehrkraft" required></div>
+      <div class="field"><label for="teacherCourse">Kurs</label><select id="teacherCourse"></select></div>
+      <button class="primary" type="submit">Account anlegen</button>
+    </form>
+    <div class="msg hidden" id="teacherMsg" style="background:var(--petrol-soft);color:var(--petrol)"></div>
+  </section>
+
+  <section id="visibilitySection">
+    <h2>Sichtbarkeit der Module (pro Kurs)</h2>
+    <div id="visibilityWrap"><p class="muted">Lade …</p></div>
+  </section>
+
+  <section id="progressSection">
+    <h2>Fortschritt</h2>
+    <div id="progressWrap"><p class="muted">Lade …</p></div>
+  </section>
+
+</main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="../shared/cpd-config.js"></script>
+<script src="../shared/cpd-client.js"></script>
+<script>
+var client = window.CPD.createCoachClient();
+var db = { courses: [], teachers: [], modules: [], courseModules: [], progress: [] };
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+function isCoach(session) {
+  return !!(session && session.user && session.user.app_metadata && session.user.app_metadata.role === 'coach');
+}
+
+async function boot() {
+  var { data } = await client.auth.getSession();
+  if (isCoach(data.session)) showApp();
+  else showLogin();
+}
+
+function showLogin(errorText) {
+  document.getElementById('app').classList.add('hidden');
+  document.getElementById('loginScreen').classList.remove('hidden');
+  var err = document.getElementById('loginError');
+  if (errorText) { err.textContent = errorText; err.classList.remove('hidden'); }
+}
+
+function showApp() {
+  document.getElementById('loginScreen').classList.add('hidden');
+  document.getElementById('app').classList.remove('hidden');
+  loadAll();
+}
+
+document.getElementById('loginForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+  var res = await client.auth.signInWithPassword({ email: email, password: password });
+  if (res.error) { showLogin(res.error.message); return; }
+  if (!isCoach(res.data.session)) {
+    await client.auth.signOut();
+    showLogin('Dieses Konto ist nicht als Coach freigeschaltet.');
+    return;
+  }
+  showApp();
+});
+
+document.getElementById('logoutBtn').addEventListener('click', async function () {
+  await client.auth.signOut();
+  window.location.reload();
+});
+
+async function loadAll() {
+  var [coursesRes, teachersRes, modulesRes, cmRes, progRes] = await Promise.all([
+    client.from('courses').select('id,name').order('name'),
+    client.from('teachers').select('id,name,login_code,course_id,active').order('name'),
+    client.from('modules').select('id,key,title,sort_order').order('sort_order'),
+    client.from('course_modules').select('course_id,module_id,visible'),
+    client.from('progress').select('teacher_id,module_id,state,updated_at'),
+  ]);
+  db.courses = coursesRes.data || [];
+  db.teachers = teachersRes.data || [];
+  db.modules = modulesRes.data || [];
+  db.courseModules = cmRes.data || [];
+  db.progress = progRes.data || [];
+
+  renderCourses();
+  renderTeacherCourseSelect();
+  renderTeachers();
+  renderVisibilityMatrix();
+  renderProgress();
+}
+
+/* ---------- Kurse ---------- */
+function renderCourses() {
+  var tbody = document.getElementById('coursesTable');
+  tbody.innerHTML = db.courses.map(function (c) {
+    var count = db.teachers.filter(function (t) { return t.course_id === c.id; }).length;
+    return '<tr><td>' + esc(c.name) + '</td><td>' + count + '</td></tr>';
+  }).join('') || '<tr><td colspan="2" class="muted">Noch keine Kurse.</td></tr>';
+}
+
+document.getElementById('courseForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  var input = document.getElementById('courseName');
+  var name = input.value.trim();
+  if (!name) return;
+  await client.from('courses').insert({ name: name });
+  input.value = '';
+  loadAll();
+});
+
+/* ---------- Lehrkräfte ---------- */
+function renderTeacherCourseSelect() {
+  var sel = document.getElementById('teacherCourse');
+  sel.innerHTML = db.courses.map(function (c) {
+    return '<option value="' + c.id + '">' + esc(c.name) + '</option>';
+  }).join('') || '<option value="">(zuerst Kurs anlegen)</option>';
+}
+
+function renderTeachers() {
+  var tbody = document.getElementById('teachersTable');
+  tbody.innerHTML = db.teachers.map(function (t) {
+    var courseOptions = db.courses.map(function (c) {
+      return '<option value="' + c.id + '"' + (c.id === t.course_id ? ' selected' : '') + '>' + esc(c.name) + '</option>';
+    }).join('');
+    return '<tr data-id="' + t.id + '">' +
+      '<td>' + esc(t.name) + '</td>' +
+      '<td><code class="token">' + esc(t.login_code) + '</code></td>' +
+      '<td><select class="teacherCourseSelect">' + courseOptions + '</select></td>' +
+      '<td><input type="checkbox" class="teacherActive" ' + (t.active ? 'checked' : '') + '></td>' +
+      '<td><button class="ghost teacherDelete" type="button">Entfernen</button></td>' +
+      '</tr>';
+  }).join('') || '<tr><td colspan="5" class="muted">Noch keine Lehrkräfte.</td></tr>';
+
+  tbody.querySelectorAll('tr').forEach(function (row) {
+    var id = row.dataset.id;
+    row.querySelector('.teacherCourseSelect').addEventListener('change', async function (e) {
+      await client.from('teachers').update({ course_id: e.target.value }).eq('id', id);
+      loadAll();
+    });
+    row.querySelector('.teacherActive').addEventListener('change', async function (e) {
+      await client.from('teachers').update({ active: e.target.checked }).eq('id', id);
+    });
+    row.querySelector('.teacherDelete').addEventListener('click', async function () {
+      if (!confirm('Diese Lehrkraft wirklich entfernen? Der Fortschritt geht dabei verloren.')) return;
+      await client.from('teachers').delete().eq('id', id);
+      loadAll();
+    });
+  });
+}
+
+function generateCode() {
+  var alphabet = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // ohne 0/O/1/I/L zur besseren Lesbarkeit
+  var bytes = new Uint8Array(6);
+  crypto.getRandomValues(bytes);
+  return Array.from(bytes).map(function (b) { return alphabet[b % alphabet.length]; }).join('');
+}
+
+document.getElementById('teacherForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  var nameInput = document.getElementById('teacherName');
+  var courseId = document.getElementById('teacherCourse').value;
+  var name = nameInput.value.trim();
+  if (!name || !courseId) return;
+
+  var msg = document.getElementById('teacherMsg');
+  var code, res, attempts = 0;
+  do {
+    code = generateCode();
+    res = await client.from('teachers').insert({ name: name, login_code: code, course_id: courseId }).select().single();
+    attempts++;
+  } while (res.error && res.error.code === '23505' && attempts < 5);
+
+  if (res.error) {
+    msg.className = 'msg error';
+    msg.textContent = 'Fehler beim Anlegen: ' + res.error.message;
+  } else {
+    msg.className = 'msg';
+    msg.style.background = 'var(--petrol-soft)';
+    msg.style.color = 'var(--petrol)';
+    msg.innerHTML = esc(name) + ' angelegt. Zugangscode: <code class="token">' + esc(code) + '</code>';
+  }
+  msg.classList.remove('hidden');
+  nameInput.value = '';
+  loadAll();
+});
+
+/* ---------- Sichtbarkeit ---------- */
+function renderVisibilityMatrix() {
+  var wrap = document.getElementById('visibilityWrap');
+  if (db.courses.length === 0 || db.modules.length === 0) {
+    wrap.innerHTML = '<p class="muted">Zuerst einen Kurs anlegen.</p>';
+    return;
+  }
+  var visMap = {};
+  db.courseModules.forEach(function (cm) { visMap[cm.course_id + ':' + cm.module_id] = cm.visible; });
+
+  var html = '<table class="matrix"><thead><tr><th>Kurs</th>' +
+    db.modules.map(function (m) { return '<th>' + esc(m.title.replace(/^Modul \d+ · /, '')) + '</th>'; }).join('') +
+    '</tr></thead><tbody>';
+  db.courses.forEach(function (c) {
+    html += '<tr><td>' + esc(c.name) + '</td>';
+    db.modules.forEach(function (m) {
+      var checked = !!visMap[c.id + ':' + m.id];
+      html += '<td><input type="checkbox" class="visToggle" data-course="' + c.id + '" data-module="' + m.id + '"' + (checked ? ' checked' : '') + '></td>';
+    });
+    html += '</tr>';
+  });
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll('.visToggle').forEach(function (box) {
+    box.addEventListener('change', async function (e) {
+      await client.from('course_modules').upsert({
+        course_id: e.target.dataset.course,
+        module_id: e.target.dataset.module,
+        visible: e.target.checked,
+      }, { onConflict: 'course_id,module_id' });
+      db.courseModules = (await client.from('course_modules').select('course_id,module_id,visible')).data || [];
+    });
+  });
+}
+
+/* ---------- Fortschritt ---------- */
+function statusFor(state) {
+  if (!state || typeof state !== 'object') return { cls: 'open', label: 'offen' };
+  if (state.commit) return { cls: 'done', label: 'zugesagt' };
+  if (state.screen && state.screen > 0) return { cls: 'progress', label: 'in Bearbeitung' };
+  return { cls: 'open', label: 'offen' };
+}
+
+function renderProgress() {
+  var wrap = document.getElementById('progressWrap');
+  if (db.teachers.length === 0 || db.modules.length === 0) {
+    wrap.innerHTML = '<p class="muted">Noch keine Lehrkräfte oder Module.</p>';
+    return;
+  }
+  var progMap = {};
+  db.progress.forEach(function (p) { progMap[p.teacher_id + ':' + p.module_id] = p; });
+  var courseName = {};
+  db.courses.forEach(function (c) { courseName[c.id] = c.name; });
+
+  var html = '<table class="matrix"><thead><tr><th>Lehrkraft</th><th>Kurs</th>' +
+    db.modules.map(function (m) { return '<th>' + esc(m.title.replace(/^Modul \d+ · /, '')) + '</th>'; }).join('') +
+    '</tr></thead><tbody>';
+  db.teachers.forEach(function (t) {
+    html += '<tr><td>' + esc(t.name) + '</td><td>' + esc(courseName[t.course_id] || '–') + '</td>';
+    db.modules.forEach(function (m) {
+      var entry = progMap[t.id + ':' + m.id];
+      var st = statusFor(entry && entry.state);
+      var title = entry ? 'Zuletzt aktualisiert: ' + new Date(entry.updated_at).toLocaleString('de-DE') : '';
+      html += '<td><span class="badge ' + st.cls + '" title="' + esc(title) + '">' + st.label + '</span></td>';
+    });
+    html += '</tr>';
+  });
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+
+boot();
+</script>
+</body>
+</html>

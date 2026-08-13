@@ -209,8 +209,16 @@ function main() {
     });
   }
 
-  // Interaktive SPAs: alle .html-Dateien aus SPAs/ werden automatisch
-  // eingebunden, natürlich sortiert und nach docs/spas/ kopiert.
+  // Interaktive SPAs: der komplette SPAs/-Baum (inkl. shared/-Assets, Login,
+  // Lehrer- und Coach-Seiten in Unterordnern) wird 1:1 nach docs/spas/ kopiert.
+  // Für die Startseite werden nur die Top-Level-.html-Dateien verlinkt
+  // (Module, Login, Lehrer-Übersicht) – der Coach-Bereich unter spas/coach/
+  // bleibt unverlinkt und wird direkt per URL aufgerufen.
+  if (fs.existsSync(SPA_SRC_DIR)) {
+    fs.cpSync(SPA_SRC_DIR, SPA_OUT_DIR, { recursive: true });
+    console.log(`kopiert: SPAs/ -> docs/spas/ (rekursiv)`);
+  }
+
   const spaFiles = fs.existsSync(SPA_SRC_DIR)
     ? fs
         .readdirSync(SPA_SRC_DIR)
@@ -222,10 +230,6 @@ function main() {
     const srcPath = path.join(SPA_SRC_DIR, file);
     const html = fs.readFileSync(srcPath, "utf8");
     const title = extractHtmlTitle(html, file.replace(/\.html$/i, ""));
-
-    fs.mkdirSync(SPA_OUT_DIR, { recursive: true });
-    fs.copyFileSync(srcPath, path.join(SPA_OUT_DIR, file));
-    console.log(`kopiert: SPAs/${file} -> docs/spas/${file}`);
     return { title, href: `spas/${file}` };
   });
   if (spaDocs.length > 0) {

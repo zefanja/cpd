@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPD Fortbildung · Anmeldung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;--card:#FFFFFF;--ink:#1C2422;--muted:#5E6862;--line:#D6DAD0;
+  --petrol:#0E5B54;--petrol-soft:#E0ECE9;--amber:#C98A1B;--radius:14px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);min-height:100vh;
+  display:flex;align-items:center;justify-content:center;padding:1.5rem;
+}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:2.25rem 2rem;max-width:26rem;width:100%;box-shadow:0 1px 3px rgba(0,0,0,.05);
+}
+h1{font-family:var(--display);font-size:1.5rem;font-weight:700;color:var(--petrol);margin-bottom:.4rem}
+p.lead{color:var(--muted);font-size:.95rem;margin-bottom:1.5rem;line-height:1.5}
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:.4rem}
+input[type=text]{
+  width:100%;padding:.75rem .9rem;border:1.5px solid var(--line);border-radius:10px;
+  font-size:1.3rem;letter-spacing:.15em;text-transform:uppercase;text-align:center;
+  font-family:var(--display);
+}
+input[type=text]:focus{outline:2px solid var(--petrol);outline-offset:1px}
+button{
+  margin-top:1.1rem;width:100%;padding:.8rem;border:none;border-radius:10px;
+  background:var(--petrol);color:#fff;font-weight:700;font-size:1rem;cursor:pointer;
+}
+button:disabled{opacity:.6;cursor:default}
+button:hover:not(:disabled){background:#0a4740}
+.msg{margin-top:1rem;font-size:.9rem;padding:.65rem .8rem;border-radius:8px}
+.msg.error{background:#FBEAE7;color:#8a3220}
+.msg.hidden{display:none}
+.coach-link{display:block;text-align:center;margin-top:1.75rem;font-size:.85rem;color:var(--muted)}
+.coach-link a{color:var(--petrol);font-weight:600}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Willkommen zurück</h1>
+  <p class="lead">Gib deinen Zugangscode ein, den du von deinem Coach erhalten hast.</p>
+  <form id="loginForm">
+    <label for="code">Zugangscode</label>
+    <input type="text" id="code" maxlength="8" autocomplete="off" autocapitalize="characters" placeholder="Z. B. AB3K7Q" required>
+    <button type="submit" id="submitBtn">Anmelden</button>
+    <div class="msg error hidden" id="errorMsg"></div>
+  </form>
+  <div class="coach-link">Coach? <a href="coach/dashboard.html">Zum Dashboard</a></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js"></script>
+<script>
+var form = document.getElementById('loginForm');
+var errorMsg = document.getElementById('errorMsg');
+var submitBtn = document.getElementById('submitBtn');
+var codeInput = document.getElementById('code');
+
+// Bereits eingeloggt? Direkt weiter.
+if (window.CPD.getTeacherSession()) {
+  window.location.replace('meine-module.html');
+}
+
+form.addEventListener('submit', async function (e) {
+  e.preventDefault();
+  errorMsg.classList.add('hidden');
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Prüfe Code …';
+  try {
+    await window.CPD.loginByCode(codeInput.value);
+    var params = new URLSearchParams(window.location.search);
+    window.location.href = params.get('next') || 'meine-module.html';
+  } catch (err) {
+    errorMsg.textContent = err.message || 'Anmeldung fehlgeschlagen.';
+    errorMsg.classList.remove('hidden');
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Anmelden';
+  }
+});
+</script>
+</body>
+</html>

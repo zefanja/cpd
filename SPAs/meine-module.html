@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meine Module · CPD Fortbildung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;--card:#FFFFFF;--ink:#1C2422;--muted:#5E6862;--line:#D6DAD0;
+  --petrol:#0E5B54;--petrol-soft:#E0ECE9;--amber:#C98A1B;--radius:14px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);min-height:100vh}
+header{
+  background:var(--card);border-bottom:1px solid var(--line);padding:1.1rem 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;
+}
+.brand{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:1.15rem}
+.who{font-size:.85rem;color:var(--muted)}
+.who b{color:var(--ink)}
+.logout{font-size:.85rem;color:var(--muted);text-decoration:underline;cursor:pointer;border:none;background:none;font-family:inherit}
+main{max-width:44rem;margin:0 auto;padding:2rem 1.5rem 4rem}
+h1{font-family:var(--display);font-size:1.5rem;margin-bottom:1.5rem}
+.card-list{display:flex;flex-direction:column;gap:.9rem}
+.mod-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.2rem 1.3rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  text-decoration:none;color:inherit;transition:border-color .15s;
+}
+.mod-card:hover{border-color:var(--petrol)}
+.mod-title{font-weight:700;font-size:1.02rem;margin-bottom:.3rem}
+.badge{display:inline-block;font-size:.75rem;font-weight:700;padding:.25rem .6rem;border-radius:99px}
+.badge.open{background:#EDEBE4;color:var(--muted)}
+.badge.progress{background:#FCEFD9;color:var(--amber)}
+.badge.done{background:var(--petrol-soft);color:var(--petrol)}
+.empty,.loading{color:var(--muted);padding:2rem 0;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">CPD Fortbildung</div>
+  <div style="display:flex;align-items:center;gap:1rem">
+    <div class="who" id="whoInfo"></div>
+    <button class="logout" id="logoutBtn">Abmelden</button>
+  </div>
+</header>
+<main>
+  <h1>Meine Module</h1>
+  <div id="content" class="loading">Lade …</div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js"></script>
+<script>
+var session = window.CPD.getTeacherSession();
+if (!session) {
+  window.location.replace('login.html?next=meine-module.html');
+} else {
+  document.getElementById('whoInfo').innerHTML =
+    'Hallo, <b>' + escapeHtml(session.teacher.name) + '</b>' +
+    (session.teacher.courseName ? ' · ' + escapeHtml(session.teacher.courseName) : '');
+  load();
+}
+
+document.getElementById('logoutBtn').addEventListener('click', function () {
+  window.CPD.logout('login.html');
+});
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+function statusFor(state) {
+  if (!state || typeof state !== 'object') return { cls: 'open', label: 'Noch nicht begonnen' };
+  if (state.commit) return { cls: 'done', label: 'Action Step zugesagt' };
+  if (state.screen && state.screen > 0) return { cls: 'progress', label: 'In Bearbeitung' };
+  return { cls: 'open', label: 'Noch nicht begonnen' };
+}
+
+async function load() {
+  var content = document.getElementById('content');
+  var client = window.CPD.createTeacherClient(session.token);
+
+  if (!session.teacher.courseId) {
+    content.className = 'empty';
+    content.textContent = 'Du bist noch keinem Kurs zugeordnet. Bitte wende dich an deinen Coach.';
+    return;
+  }
+
+  var cmRes = await client
+    .from('course_modules')
+    .select('module_id, modules!inner(key, title, file, sort_order)')
+    .eq('course_id', session.teacher.courseId)
+    .eq('visible', true);
+
+  if (cmRes.error) {
+    content.className = 'empty';
+    content.textContent = 'Deine Anmeldung ist abgelaufen. Bitte melde dich erneut an.';
+    window.CPD.clearTeacherSession();
+    setTimeout(function () { window.location.href = 'login.html'; }, 1500);
+    return;
+  }
+
+  var modules = (cmRes.data || [])
+    .map(function (row) { return row.modules; })
+    .sort(function (a, b) { return a.sort_order - b.sort_order; });
+  if (modules.length === 0) {
+    content.className = 'empty';
+    content.textContent = 'Für dich sind aktuell keine Module freigeschaltet.';
+    return;
+  }
+
+  var progRes = await client
+    .from('progress')
+    .select('module_id, state')
+    .eq('teacher_id', session.teacher.id);
+  var progressByModuleId = {};
+  ((progRes.data) || []).forEach(function (row) { progressByModuleId[row.module_id] = row.state; });
+  var moduleIdByKey = {};
+  (cmRes.data || []).forEach(function (row) { moduleIdByKey[row.modules.key] = row.module_id; });
+
+  var list = document.createElement('div');
+  list.className = 'card-list';
+  modules.forEach(function (m) {
+    var st = statusFor(progressByModuleId[moduleIdByKey[m.key]]);
+    var a = document.createElement('a');
+    a.className = 'mod-card';
+    a.href = m.file;
+    a.innerHTML =
+      '<div><div class="mod-title">' + escapeHtml(m.title) + '</div>' +
+      '<span class="badge ' + st.cls + '">' + st.label + '</span></div><div>&rarr;</div>';
+    list.appendChild(a);
+  });
+
+  content.replaceWith(list);
+}
+</script>
+</body>
+</html>
