@@ -40,8 +40,21 @@
 
   // session: { token, refreshToken } – hydratisiert einen echten Supabase-Auth-Client,
   // damit abgelaufene Access Tokens automatisch per Refresh Token erneuert werden.
+  // Refresh Tokens sind bei Supabase nur einmal gültig (Rotation). Erneuert der
+  // Client sein Token im Hintergrund, muss das aktualisierte Paar zurück in den
+  // cpd_session-Storage geschrieben werden – sonst versucht die nächste Seite
+  // (volle Navigation, neuer JS-Kontext) es erneut mit dem bereits verbrauchten
+  // alten Refresh Token, scheitert an einer stillen Auth-Fehlermeldung und wird
+  // fälschlich als "Sitzung abgelaufen" zum Login zurückgeschickt.
   async function createTeacherClient(session) {
     var client = createAnonClient();
+    client.auth.onAuthStateChange(function (event, authSession) {
+      if (authSession && (event === "TOKEN_REFRESHED" || event === "SIGNED_IN")) {
+        session.token = authSession.access_token;
+        session.refreshToken = authSession.refresh_token;
+        saveTeacherSession(session);
+      }
+    });
     await client.auth.setSession({
       access_token: session.token,
       refresh_token: session.refreshToken,
