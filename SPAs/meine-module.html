@@ -86,7 +86,7 @@ function statusFor(state) {
 
 async function load() {
   var content = document.getElementById('content');
-  var client = window.CPD.createTeacherClient(session.token);
+  var client = await window.CPD.createTeacherClient(session);
 
   if (!session.teacher.courseId) {
     content.className = 'empty';

@@ -16,8 +16,7 @@
       var raw = localStorage.getItem(SESSION_KEY);
       if (!raw) return null;
       var session = JSON.parse(raw);
-      if (!session || !session.token || !session.teacher) return null;
-      if (session.expiresAt && Date.now() > session.expiresAt) return null;
+      if (!session || !session.token || !session.refreshToken || !session.teacher) return null;
       return session;
     } catch (e) {
       return null;
@@ -39,12 +38,15 @@
     );
   }
 
-  function createTeacherClient(token) {
-    return window.supabase.createClient(
-      window.CPD_CONFIG.SUPABASE_URL,
-      window.CPD_CONFIG.SUPABASE_ANON_KEY,
-      { global: { headers: { Authorization: "Bearer " + token } } }
-    );
+  // session: { token, refreshToken } – hydratisiert einen echten Supabase-Auth-Client,
+  // damit abgelaufene Access Tokens automatisch per Refresh Token erneuert werden.
+  async function createTeacherClient(session) {
+    var client = createAnonClient();
+    await client.auth.setSession({
+      access_token: session.token,
+      refresh_token: session.refreshToken,
+    });
+    return client;
   }
 
   function createCoachClient() {
@@ -56,6 +58,17 @@
 
   async function loginByCode(code) {
     var client = createAnonClient();
+
+    var existing = await client.auth.getSession();
+    var authSession = existing.data && existing.data.session;
+    if (!authSession) {
+      var signInRes = await client.auth.signInAnonymously();
+      if (signInRes.error || !signInRes.data.session) {
+        throw new Error("Anmeldung fehlgeschlagen.");
+      }
+      authSession = signInRes.data.session;
+    }
+
     var res = await client.functions.invoke("login-by-code", {
       body: { code: code },
     });
@@ -66,11 +79,21 @@
         "Code nicht gefunden.";
       throw new Error(msg);
     }
-    saveTeacherSession(res.data);
-    return res.data;
+
+    var refreshRes = await client.auth.refreshSession();
+    var finalSession = (refreshRes.data && refreshRes.data.session) || authSession;
+
+    var teacherSession = {
+      token: finalSession.access_token,
+      refreshToken: finalSession.refresh_token,
+      teacher: res.data.teacher,
+    };
+    saveTeacherSession(teacherSession);
+    return teacherSession;
   }
 
   function logout(loginPage) {
+    createAnonClient().auth.signOut().catch(function () {});
     clearTeacherSession();
     window.location.href = loginPage || "login.html";
   }
@@ -120,7 +143,7 @@
     return;
   }
 
-  var teacherClient = createTeacherClient(session.token);
+  var teacherClient = null;
   var resolvedModuleId = null;
 
   async function checkAccess() {
@@ -154,10 +177,15 @@
     return true;
   }
 
-  var readyPromise = checkAccess().then(function (ok) {
-    if (ok) document.documentElement.style.visibility = "visible";
-    return ok;
-  });
+  var readyPromise = createTeacherClient(session)
+    .then(function (client) {
+      teacherClient = client;
+      return checkAccess();
+    })
+    .then(function (ok) {
+      if (ok) document.documentElement.style.visibility = "visible";
+      return ok;
+    });
 
   window.storage = {
     async get(k) {
