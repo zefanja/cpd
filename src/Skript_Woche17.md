@@ -1,4 +1,4 @@
-# Skript Woche 17: „Aufmerksamkeit lenken – präzise orientieren"
+# Skript Woche 17: „Retrieval Practice – Abrufen schlägt Wiederlesen"
 ## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,170 +7,154 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie stelle ich sicher, dass alle über das Richtige nachdenken? |
-| **Kernquellen** | McCrea, *Memorable Teaching* („Orient attention"); Willingham (Denkspur = Lernspur, aus W15); Seductive-Details-Forschung; Lemov (Modell 3 aus W1) |
-| **Funktion im Jahr** | Schließt den Bogen von Modell 3 (W1) über den Willingham-Satz (W15) zum Handwerk: Aufmerksamkeit als steuerbare Größe. Löst den offenen Fall 2 aus W15 (Filmeinstieg). Das „Aufgaben-Röntgen" wird Prüfwerkzeug für alle künftigen Aufgabenformate (W18 Retrieval-Fragen, W24 Prompts, W34 Klassenarbeiten). |
-| **Lernziele** | Die TN können:<br>1. erklären, warum ungelenkte Aufmerksamkeit systematisch am Ziel vorbeiläuft,<br>2. präzise Beachtungs-Aufträge vor jedem Medium formulieren,<br>3. Struktur-Marker im eigenen Vortrag setzen,<br>4. Aufgaben „röntgen": Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen? |
-| **Sitzungstyp** | Experiment + Analyse-Werkstatt; das Aufgaben-Röntgen ist die anspruchsvollste Denkübung des Blocks. |
+| **Leitfrage** | Warum ist Erinnern-Müssen die stärkste Lernaktivität – und wie baue ich sie ein? |
+| **Kernquellen** | McCrea, *Memorable Teaching* (Retrieval); Lemov T7 (Retrieval Practice); *Make It Stick* (Testing Effect); Ebbinghaus (aus W14) |
+| **Funktion im Jahr** | Der Zahltag des Blocks: Die seit W2 gelebte Do-Now-Praxis und die wöchentlichen Starter bekommen ihre Theorie – gemessen am eigenen Selbstexperiment (Setup in W16). Die 3-2-1-Batterie wird Dauerwerkzeug; die Benotungsfrei-Regel bereitet die Fehlerkultur (W20) vor; das Formate-Karussell festigt nebenbei den Jahresstoff (Meta-Doppelnutzen). |
+| **Lernziele** | Die TN können:<br>1. den Testing Effect erklären und mit dem eigenen Experiment belegen,<br>2. die Flüssigkeits-Illusion („Wiederlesen fühlt sich besser an") benennen und kontern,<br>3. vier Retrieval-Formate unterrichtspraktisch einsetzen,<br>4. eine 3-2-1-Starter-Batterie für die eigene Klasse bauen. |
+| **Sitzungstyp** | Experiment-Auflösung + Stationen-Karussell – die erlebnisreichste Sitzung des Blocks. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Plenum für das Experiment, dann Vierergruppen. **Material:**
+**Raum:** 4 Stationen-Tische (beschildert), Plenumsfläche. **Vorab-Check:** Haben alle ihr W16-Experiment durchgezogen? (Kurze Erinnerung Mitte der Woche durch den Coach!)
+
+**Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Experiment-Folie + Überraschungsquiz (Anhang 1.1 – exakt nach Bauanleitung!)
-- [ ] Handout A: Der Lenkungs-Dreiklang + Marker-Formulierungen (Anhang 1.2)
-- [ ] Aufgaben-Kartenset: 6 Aufgaben, davon 2 „Mogelpackungen" (Anhang 1.3)
-- [ ] Marker-Skript-Vorlage (3 Zeilen, Anhang 1.4)
+- [ ] Der unangekündigte Experiment-Test: 10 Begriffe abfragen (Anhang 1.1) + Auswertungstafel (zwei Spalten A/B)
+- [ ] 4 Stationen-Materialien (Anhang 1.2): Quiz-Zettel, Brain-Dump-Blankos, Whiteboards, Frage-Klassiker-Kärtchen
+- [ ] Handout A: Gütekriterien + Formate-Landkarte + 3-2-1-Vorlage (Anhang 1.3)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Stationen sind sichtbar aufgebaut (Neugier arbeitet).
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Das Überraschungsexperiment (Minute 8–15)
+## Phase 2 · See it: Die Auflösung des Selbstexperiments (Minute 8–17)
 
-**Regie (exakt):** *„Ich zeige euch 20 Sekunden lang eine Folie aus einer echten Biologiestunde. Schaut sie euch aufmerksam an."* [Folie nach Anhang 1.1: sauberes Diagramm „Energieverbrauch verschiedener Organe" MIT einer kleinen witzigen Randnotiz und einem Mini-Cartoon-Gehirn mit Hantel. 20 Sek., dann schwarz.] *„Quiz, auf die Boards: Frage 1 – Welches Organ hatte den zweithöchsten Verbrauch? … Frage 2 – Was stand auf der y-Achse? … Frage 3 – Was machte das Cartoon-Gehirn?"* [Boards hoch: Fragen 1–2 mager, Frage 3 fast 100 %.]
+**Regie:** *„Bevor irgendjemand etwas erklärt: der Test. Vor einer Woche habt ihr zehn Begriffe bekommen – Gruppe A hat dreimal gelesen, Gruppe B hat einmal gelesen und sich zweimal selbst abgefragt. Beide Gruppen: exakt sechs Minuten Lernzeit. Blatt raus, zehn Begriffe aus dem Gedächtnis – zwei Minuten, los."* [Test, Selbstkorrektur per Folie, dann: Handzeichen-Erhebung nach Gruppen, Mittelwerte grob an die Tafel – zwei Spalten.]
 
-> **Auswertung:** *„Ich habe euch ‚aufmerksam anschauen' gesagt – und ihr WART aufmerksam. Nur eben nicht auf die Achsen. Eure Aufmerksamkeit ist zum Witzigen gelaufen, zum Sozialen, zum Neuen – dorthin, wofür sie evolutionär gebaut ist. Achsen­beschriftungen stehen auf ihrer Prioritätenliste ganz unten. Und jetzt der entscheidende Satz: **Eure Schüler sind nicht unaufmerksamer als ihr – ihre Aufmerksamkeit ist nur genauso eigensinnig.** ‚Schaut euch das mal genau an' ist deshalb keine Lenkung. Es ist ein Würfelwurf."*
+> **Auswertung:** *„Da ist er – der Abruf-Vorsprung. Gruppe B hat mit identischer Zeit mehr behalten. Das ist der **Testing Effect**, einer der am häufigsten replizierten Befunde der Lernforschung – und ihr habt ihn gerade an euch selbst gemessen. Und jetzt die zweite, gemeinere Frage an Gruppe B: Wie hat sich das Abfragen letzte Woche ANGEFÜHLT, verglichen mit Lesen? … Genau: mühsamer, stockender, unangenehmer. Das ist die **Flüssigkeits-Illusion**: Wiederlesen fühlt sich flüssig an – der Text kommt einem bekannt vor, und das Gehirn verwechselt Wiedererkennen mit Können. Abrufen fühlt sich holprig an – und genau diese Holprigkeit IST der Lerneffekt. Merkt euch den Satz, er erklärt das halbe Lernverhalten eurer Schüler: **Sie lernen mit Textmarker und Wiederlesen, weil es sich gut anfühlt – und es fühlt sich gut an, weil es wenig bringt.**"*
 
-## Phase 3 · Input: Der Lenkungs-Dreiklang (Minute 15–27)
+## Phase 3 · Input: Mechanik & Regeln (Minute 17–27)
 
-### 3a · Der Torwächter und seine Vorlieben (Min. 15–18)
-> *„Woche 15, das Modell: Die Aufmerksamkeit ist der Torwächter des Arbeitsgedächtnisses – nur was durch sie hindurchgeht, kann überhaupt gelernt werden. Und dieser Torwächter hat Vorlieben: Neues schlägt Bekanntes, Soziales schlägt Sachliches, Bewegtes schlägt Statisches, Witziges schlägt Wichtiges. Ohne Lenkung lernen eure Schüler in jeder Stunde IRGENDETWAS – nur nicht zuverlässig das Geplante. Willingham, ihr kennt ihn: Erinnert wird, worüber nachgedacht wurde. Lenkung heißt also: das Nachdenken adressieren."*
+### 3a · Warum Abruf wirkt (Min. 17–21)
+> *„Die Mechanik in einem Bild: Woche 14, die Ebbinghaus-Kurve – der Zugriff zerfällt. Jeder erfolgreiche Abruf ist ein Eingriff in diese Kurve: Die Spur wird neu gebahnt und breiter, die Kurve startet neu und fällt flacher. Wiederlesen legt die Information nur nochmal DANEBEN – Abrufen gräbt den Weg ZU ihr frei. Und der Weg ist es, den man in der Klassenarbeit braucht. Wichtig fürs Selbstverständnis: **Abruf ist keine Leistungskontrolle. Abruf IST die Lernhandlung.** Ein Quiz ist bei uns kein Test über das Lernen – es ist das Lernen.*
+> *Und noch eine Erweiterung, damit niemand Retrieval mit Vokabel-Drill verwechselt: Auch **Anwenden ist Abruf** – wer ein Konzept in einem neuen Kontext benutzen muss, ruft es ab UND verknüpft es neu. Lemov erzählt von einer Lehrerin, die neue Vokabeln tagelang in immer neuen Situationen anwenden lässt – das ist Retrieval in seiner elaborierten Form. Fakten UND Denken, beides gehört dazu."*
 
-### 3b · Die drei Hebel (Min. 18–24)
-> *„Hebel eins: **der präzise Beachtungs-Auftrag.** Vor jedem Medium – Grafik, Text, Video, Versuch – ein konkreter Auftrag, WAS zu suchen ist: nicht ‚Schaut auf die Grafik', sondern ‚Vergleicht die Balken von Gehirn und Muskeln – um welchen Faktor unterscheiden sie sich?' Nicht ‚Achtet auf das Video', sondern ‚Zählt mit, wie oft die Zelle sich teilt, und notiert, was direkt davor passiert.' Der Auftrag kommt VOR dem Medium und ist so konkret, dass man ihn abhaken kann – ihr erkennt euren Vierercheck aus Woche 4 wieder, angewandt aufs Hinschauen.*
-> *Hebel zwei: **Struktur-Marker im Vortrag.** Euer Sprechen kann zeigen, wo es wichtig wird: ‚Der wichtigste Satz der Stunde kommt JETZT.' – ‚Das Folgende ist der häufigste Prüfungsfehler.' – ‚Erstens … zweitens … drittens.' Dazu die nichtsprachlichen Marker, die ihr aus Woche 5 kennt: die Pause davor, der Stillstand, die Stimme runter. Konsistente Layouts gehören auch hierher: Wenn die Merkregel IMMER im roten Kasten steht, findet der Torwächter sie von allein.*
-> *Hebel drei – der stärkste und unbequemste: **Denkzwang in der Aufgabe.** Die verlässlichste Lenkung ist eine Aufgabe, die sich NUR lösen lässt, wenn man den Zielinhalt denkt. Nicht abschreibbar, nicht durch Raten oder Oberflächenmerkmale knackbar. Und hier kommt das Prüfwerkzeug der Woche, das **Aufgaben-Röntgen** – eine einzige Frage: Was muss ein Schüler DENKEN, um diese Aufgabe zu lösen? Wenn die ehrliche Antwort lautet ‚er muss nur die fettgedruckten Wörter aus dem Text kopieren' – dann unterrichtet die Aufgabe Kopieren, egal was ihr Titel verspricht."*
+### 3b · Die Gelingens-Regeln (Min. 21–24)
+> *„Vier Regeln machen aus Abfragen ein Lernwerkzeug statt eines Angstinstruments: **Ohne Hilfsmittel** – Heft zu, sonst ist es Wiederlesen im Kostüm. **Schriftlich und von allen** – die Melde-Stichprobe kennt ihr; nur wer selbst produziert, ruft ab. **Benotungsfrei** – die wichtigste Regel: Sobald Noten dranhängen, wird aus der Lernhandlung eine Bedrohung, und Schüler optimieren aufs Verbergen statt aufs Erinnern. Sagt es der Klasse explizit: ‚Das Quiz ist Training, keine Prüfung – Fehler hier sind Gold.' Warum Fehler Gold sind, wird in Woche 20 unser ganzes Thema. **Sofortige Auflösung** – der Abruf braucht die Rückmeldung, sonst festigen sich Irrtümer."*
 
-### 3c · Der Fall Seductive Details (Min. 24–27)
-> *„Und damit lösen wir Fall 2 aus Woche 15 auf – den Filmeinstieg, nach dem alle den Film kennen und keiner das Konzept. Die Forschung nennt das seductive details: Das Interessante frisst das Wichtige. Die falsche Konsequenz wäre: Anekdoten, Experimente, Filme streichen – dann wird es korrekt und tot. Die richtige: **koppeln.** Die Anekdote bekommt einen Denkauftrag ans Konzept: ‚Diese Geschichte ist ein Beispiel für Prinzip X – erklärt nach dem Video zu zweit, wo genau.' Das Spektakel darf bleiben – aber es muss fürs Konzept arbeiten."*
+### 3c · Das Hausformat: 3-2-1 (Min. 24–27)
+> *„Und damit es keine Vorbereitungslast wird, das Hausformat für euer Do Now: **3-2-1** – drei Fragen von gestern, zwei von letzter Woche, eine von vor einem Monat. Warum die Staffelung über die Zeit so mächtig ist, ist das Thema nächster Woche – heute nehmt den Rohbau. Die Fragen existieren übrigens schon: Es sind eure Exit-Ticket-Aufgaben und Meilenstein-Prüffragen aus Block 2, recycelt. Retrieval ist das einzige Werkzeug, das mit der Zeit BILLIGER wird."*
 
-## Phase 4 · Name it (Minute 27–31)
+## Phase 4 · Name it (Minute 27–30)
 
-**Lenkungs-Dreiklang** (Handout A):
+**Gütekriterien** (Handout A): ohne Hilfsmittel · schriftlich/alle · benotungsfrei (und so angesagt!) · sofortige Auflösung · regelmäßig statt Event. **Formate-Landkarte:** Do-Now-Quiz (3-2-1) · Brain Dump · Frage-Klassiker (Was? Warum heißt es so? Wozu? Beispiel?) · Whiteboard-Blitz · kumulative Aufgaben im Übungsset · Partner-Abfrage. Merksatz: *„Holprig ist das neue Gut."*
 
-1. Beachtungs-Auftrag VOR jedem Medium – konkret, abhakbar.
-2. Struktur-Marker im Vortrag – sprachlich + körperlich + Layout.
-3. Denkzwang in der Aufgabe – Röntgen-Frage: „Was muss man denken, um das zu lösen?"
+## Phase 5 · Do it: Formate-Karussell (Minute 30–50)
 
-— Merksatz: *„Wer nicht lenkt, würfelt."*
+**Meta-Rahmung laut aussprechen:** *„Ihr durchlauft jetzt vier Retrieval-Formate – und der Stoff, den ihr dabei abruft, ist unser Jahresstoff. Doppelter Nutzen: Ihr lernt die Formate von innen, und ihr festigt nebenbei die Blöcke 1 bis 3."*
 
-Fingerzeichen-Kalibrierung: 4 Aufträge vorlesen – präzise oder Würfelwurf? (z. B. „Lest den Text aufmerksam" ✗ / „Unterstreicht die zwei Stellen, an denen der Autor seine These abschwächt" ✓.)
+**4 Stationen à 4,5 Min. (Rotation im Uhrzeigersinn):**
+- **Station 1 – Quiz-Zettel:** 6 Fragen quer durch die Blöcke, still, Selbstkorrektur per Lösungskarte.
+- **Station 2 – Brain Dump:** „Schreibt 3 Minuten ALLES auf, was ihr über die Interventionsleiter wisst" – dann 1 Min. Abgleich mit der Referenzkarte: Was fehlte?
+- **Station 3 – Whiteboard-Blitz:** Ein TN zieht Fragen-Kärtchen und moderiert („3-2-1-hoch"), Rest antwortet – Moderationsrolle rotiert.
+- **Station 4 – Frage-Klassiker:** Partner-Abfrage mit den vier Klassikern zu einem gezogenen Begriff (z. B. „Exemplar": Was ist es? Warum heißt es so? Wozu? Eigenes Beispiel?).
 
-## Phase 5 · Do it (Minute 31–52)
+**Danach (2 Min.):** Blitzlicht: „Welches Format passt zu welcher Situation in DEINEM Unterricht?" (Zuordnung, kein Ranking – alle vier haben Einsatzorte.)
 
-### Runde 1 · Aufgaben-Röntgen (Min. 31–43)
-Vierergruppen, 6 Aufgaben-Karten (Anhang 1.3): Für jede die Röntgen-Frage beantworten – zwei Karten sind Mogelpackungen (lösbar ohne Zielgedanken). Die Mogelpackungen werden UMGEBAUT, sodass der Zielgedanke unumgehbar wird. Plenums-Blitz: die zwei Umbauten vergleichen. *(Kern-Erkenntnis, die die Moderation ernten muss: Oft genügt ein kleiner Dreh – „Begründe", „Entscheide und belege", „Was wäre, wenn X anders wäre?" – um aus Kopieren Denken zu machen.)*
+## Phase 6 · Action Step & Werkstatt-Anriss (Minute 50–58)
 
-### Runde 2 · Marker-Skript (Min. 43–52)
-Einzelarbeit: Für die eigene nächste Stunde drei Marker WÖRTLICH skripten (Vorlage Anhang 1.4): einen Beachtungs-Auftrag vor einem Medium, einen Wichtigkeits-Marker vor dem Kernsatz, einen Kopplungs-Auftrag für das eigene „spannende Element" (falls vorhanden). Tandem-Check: Ist der Beachtungs-Auftrag abhakbar?
+**Batterie-Start (4 Min.):** Jeder legt die eigene 3-2-1-Starter-Batterie an (Vorlage Handout A): 6 Fragen für Montag notieren – Quelle: eigene Exit Tickets und Meilensteine (Playbook aufschlagen!).
 
-## Phase 6 · Action Step (Minute 52–58)
-
-**Standard:** *„Vor JEDEM Medienwechsel dieser Woche gebe ich einen konkreten Beachtungs-Auftrag – einen abhakbaren Aspekt, nie ‚schaut mal'. Freitags notiere ich die zwei Aufträge, die am besten funktioniert haben."*
+**Standard-Action-Step:** *„Mein Do Now besteht ab sofort aus 3-2-1-Abruffragen – und ich sage der Klasse am Montag den Trainings-Satz: ‚Diese Quizze sind Training, keine Prüfung. Fehler hier sind Gold.' Freitags notiere ich, wie die Klasse auf Tag 1 vs. Tag 5 reagiert hat."*
 
 **Alternativen:**
 
-1. Röntgen-Woche: jede selbst gestellte Aufgabe vorher röntgen; eine Mogelpackung pro Tag umbauen.
-2. Kopplungs-Woche: jedes „spannende Element" (Anekdote, Video, Versuch) bekommt einen Denkauftrag ans Konzept.
+1. Brain Dump als Einheiten-Abschluss einführen (letzte 5 Min. vor jedem Themenwechsel).
+2. Lernberatungs-Mini: der Klasse in 5 Minuten die Flüssigkeits-Illusion erklären (Textmarker-Rede!) – Vorgriff auf W19-Metakognition.
 
-> **Ausblick:** *„Der Kanal ist frei, die Richtung stimmt – nächste Woche kommt der Verstärker: Warum Erinnern-MÜSSEN die stärkste Lernaktivität ist, die wir kennen. Mit einem Experiment, das ihr an euch selbst durchführt – es startet HEUTE: Die Hälfte von euch bekommt gleich einen Lernauftrag nach Methode A, die andere nach Methode B. Nächste Woche messen wir."* **(Vorab-Auftrag W18 austeilen: Liste mit 10 Fachbegriffen; Gruppe A: „3× durchlesen, je 2 Min., an drei Tagen"; Gruppe B: „1× lesen, dann an drei Tagen je 2 Min. selbst abfragen – Blatt umgedreht". Zettel mit Gruppenzuteilung!)**
+> **Ausblick:** *„Nächste Woche die unbequemste Erkenntnis des Jahres: Warum die Stunde, die sich am glattesten anfühlt, oft nicht die lernwirksamste ist – Spacing, Interleaving und der Unterschied zwischen Lernleistung und Lernen."*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Gruppenzuteilung A/B notieren lassen.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
 # 4. Coaching-Woche 17 (Handreichung)
 
-- **Hospitationsfokus:** Medienwechsel zählen; pro Wechsel: Kam ein Beachtungs-Auftrag? Wörtlich protokollieren; Stichprobe: 2 SuS nach der Stunde fragen, was sie im Video/in der Grafik gesucht haben.
-- **Auswertungsgespräch:** Protokoll + Schüler-Stichprobe nebeneinander (die Diskrepanz ist der Aha-Moment); einen morgigen Beachtungs-Auftrag gemeinsam wörtlich bauen.
-- **Verzahnung:** Röntgen-Frage auf das aktuelle Exit Ticket des TN anwenden – misst es Denken oder Kopieren?
-- **Red Flag:** TN streicht nach der Seductive-Details-Lektion alles „Spannende" → Kopplungs-Prinzip betonen: Das Ziel ist Arbeit fürs Konzept, nicht Askese.
+- **Hospitationsfokus:** der Retrieval-Starter: Läuft er nach den fünf Gütekriterien? **Produktions-Zählung:** Wie viele SuS schreiben wirklich (Rundgang in Min. 2), wie viele sitzen es aus? Wurde der Trainings-Satz gesagt – und wie reagierte die Klasse?
+- **Auswertungsgespräch:** Zählung zeigen; häufigste Baustelle: Hefte offen (Wiederlesen im Kostüm) oder mündliche Melde-Abfrage statt schriftlich-alle → Action Step präzisieren.
+- **Verzahnung:** Batterie-Qualität prüfen: Sind die 1er-Fragen (Monat) wirklich alt genug? (Typisch: alles aus derselben Woche.)
+- **Red Flag:** TN benotet „heimlich mit" (Quiz-Ergebnisse fließen in Mitarbeit ein) → Geschäftsgrundlage klären: Ein einziges benotetes Quiz vergiftet die Kultur für Monate.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Experiment-Folie (Bauanleitung)
-Balkendiagramm „Energieverbrauch von Organen in Ruhe (% des Grundumsatzes)": Leber 27, Gehirn 19, Muskeln 18, Herz 7 (y-Achse: „% des Grundumsatzes"). Rechts unten klein: Cartoon-Gehirn stemmt eine Hantel, Sprechblase „Leg day!". Randnotiz handschriftlich: „krass, oder?!". — **Quiz:**
+## 1.1 Experiment-Material (aus W16, hier der Test)
+**Die 10 Begriffe (Vorschlag, fachneutral – Fachbegriffe des Programms!):** Threshold-Ersatz: Begrüßungsroutine · Exemplar · Fading · Transienz · Schema · Testing Effect (neu – Kontrolle!) · Interventionsleiter · Split Attention · Meilenstein · Do It Again. *(Ein Begriff war NICHT auf der Lernliste – wer ihn „erinnert", demonstriert Rekonstruktion: kurzer Bonus-Aha.)* **Test:** „Schreibt die 10 Begriffe der Lernliste auf – zu fünfen zusätzlich die Ein-Satz-Definition." **Auswertung:** Tafel, Spalten A/B, grobe Mittelwerte; Diskretion: Handzeichen in Spannen („0–4 / 5–7 / 8–10"), keine Einzelwerte.
 
-1. Organ mit zweithöchstem Verbrauch? *(Gehirn)*
-2. y-Achsen-Beschriftung?
-3. Was tat das Cartoon-Gehirn?
+## 1.2 Stationen-Materialien
+**St. 1 Quiz-Zettel (6 Fragen + Lösungskarte):** u. a. 7 Schritte Begrüßungsroutine; 80 %-Regel beide Enden; Röntgen-Frage; Fluch des Wissens; Drei-Stapel-Sortierung; Lenkungs-Dreiklang. **St. 2 Brain-Dump-Blanko:** Titelzeile „Interventionsleiter – alles, was du weißt" + Abgleichkarte (W5-Referenzkarte). **St. 3 Fragen-Kärtchen (12):** kurze Faktenfragen quer durch die Blöcke, Whiteboard-tauglich. **St. 4 Begriffs-Kärtchen (8) + Klassiker-Karte:** Was ist es? / Warum heißt es so? / Wozu dient es? / Dein eigenes Beispiel?
 
-— Erwartung: F3 gewinnt haushoch.
-
-## 1.2 Handout A: Lenkungs-Dreiklang + Marker-Baukasten
-**Beachtungs-Aufträge (Muster):** „Vergleicht … – um welchen Faktor?" · „Zählt mit, wie oft …" · „Findet die Stelle, an der …" · „Notiert die zwei Begriffe, die …". **Wichtigkeits-Marker:** „Der wichtigste Satz kommt JETZT." · „Das ist der häufigste Prüfungsfehler." · „Wenn ihr EINEN Satz mitnehmt, dann diesen:". **Kopplungs-Aufträge:** „Dieses Video ist ein Beispiel für X – erklärt danach zu zweit, wo genau." · „Der Versuch beweist Regel Y – formuliert nach dem Knall, warum."
-
-## 1.3 Aufgaben-Kartenset (6 Karten; ★ = Mogelpackung)
-**K1 (Geschichte):** „Lies den Abschnitt und nenne drei Folgen der Industrialisierung." ★ *(lösbar durch Abschreiben der Aufzählung – Umbau: „…und ordne sie: Welche Folge wiegt heute am schwersten? Begründe in zwei Sätzen.")*
-**K2 (Mathe):** „Entscheide OHNE zu rechnen: Ist 4/7 + 3/8 größer oder kleiner als 1? Begründe." *(sauber: erzwingt Bruch-Größenvorstellung)*
-**K3 (Deutsch):** „Unterstreiche alle Adjektive im Text." ★ *(Oberflächenmerkmal-Suche ohne Konzeptdenken – Umbau: „Ersetze drei Adjektive so, dass die Stimmung kippt – erkläre die Wirkung.")*
-**K4 (Englisch):** „Yesterday, last week, since 2020, already – sortiere die Signalwörter den Zeitformen zu und schreibe zu ZWEI je einen eigenen Satz." *(sauber)*
-**K5 (NaWi):** „Skizziere den Stromkreis so um, dass Lampe 2 auch leuchtet, wenn Lampe 1 kaputt ist." *(sauber: erzwingt Parallelschaltungs-Denken)*
-**K6 (Politik):** „Fasse den Zeitungsartikel zusammen." *(Grauzone – Diskussionskarte: ohne Fokus oft Kopier-Kondensat; Umbau: „Fasse in 25 Wörtern zusammen – und nenne die eine Information, die der Überschrift widerspricht.")*
-
-## 1.4 Marker-Skript-Vorlage (3 Zeilen)
-Medium: … → Mein Beachtungs-Auftrag (wörtlich): … | Kernsatz der Stunde: … → Mein Wichtigkeits-Marker (wörtlich): … | Mein „spannendes Element": … → Mein Kopplungs-Auftrag (wörtlich): …
+## 1.3 Handout A: Gütekriterien · Formate-Landkarte · 3-2-1-Batterie-Vorlage
+Batterie-Vorlage: Tabelle mit Spalten „Frage | Quelle (Ticket/Meilenstein vom …) | zuletzt gefragt am | Kategorie (3/2/1)". Fußzeile: „Trainings-Satz an die Klasse: ‚Quiz = Training, keine Prüfung. Fehler hier sind Gold.'"
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die drei großen Last-Fresser? *(Split Attention, Redundanz, Transienz)*
-2. Intrinsische vs. lästige Last – je ein Beispiel? *(Aufgabenschwierigkeit erwünscht / Suchen, Parallelkanäle, Entziffern unerwünscht)*
-3. Die vier Ampel-Kriterien für Meilensteine (Block 2)? *(kumulativ, verteilt, messbar, klar)*
-4. Warum bleibt Wichtiges an der Tafel stehen – Fachbegriff? *(Transienz; Board = Paper)*
-5. (Anwendung) Deine Folie: Bild + 60 Wörter + du sprichst. Diagnose + Fix? *(Split Attention/Redundanz → ein Träger: Bild behalten, Text in den Mund, Kernbegriffe als Beschriftung)*
+1. Der Lenkungs-Dreiklang? *(Beachtungs-Auftrag / Struktur-Marker / Denkzwang in der Aufgabe)*
+2. Die Röntgen-Frage wörtlich? *(„Was muss man denken, um das zu lösen – und lässt es sich umgehen?")*
+3. Die drei Last-Fresser (W15)? *(Split Attention, Redundanz, Transienz)*
+4. Die Fading-Treppe (Block 2)? *(Vollbeispiel → Lücken → Ansatz → blank)*
+5. (Anwendung) Dein Kollege: „Quizze sind bloß Abfragerei von gestern." Antwort in zwei Sätzen? *(Abruf ist die Lernhandlung selbst – er unterbricht das Vergessen; benotungsfrei und kumulativ eingesetzt ist er Training, keine Kontrolle.)*
 
 ## Teil 2: Modul-Quiz Woche 17 (für SPA/Folgewoche)
-**F1.** „Schaut euch das Video aufmerksam an" ist…
-a) eine solide Vorbereitung ✗ *(Alltagsstandard)*
-b) ein Würfelwurf – ohne konkreten Suchauftrag läuft die Denkspur irgendwohin ✓
-c) übergriffig ✗
-d) nur bei langweiligen Videos nötig ✗
+**F1.** Wiederlesen fühlt sich flüssig an, Selbstabfrage mühsam. Daraus folgt:
+a) Wiederlesen ist der effektivere Weg ✗ *(DIE Illusion – Kern-Distraktor des Jahres)*
+b) Die Mühe des Abrufs ist der Lerneffekt ✓
+c) Beides ist gleichwertig, Geschmackssache ✗
+d) Abfrage taugt nur für Fakten ✗
 
-**F2.** SuS erinnern deine spektakuläre Anekdote, nicht das Prinzip. Beste Konsequenz:
-a) Anekdoten künftig streichen ✗ *(Überkorrektur – korrekt und tot)*
-b) Anekdote ans Prinzip koppeln: expliziter Denkauftrag ✓
-c) mehr Anekdoten, dann bleibt mehr hängen ✗
-d) das Prinzip weglassen, Hauptsache Interesse ✗
+**F2.** Retrieval-Quizze sollten…
+a) benotet werden – sonst strengt sich niemand an ✗ *(Lehrerzimmer-Klassiker)*
+b) benotungsfrei, regelmäßig und mit sofortiger Auflösung laufen ✓
+c) überraschend und schwer sein ✗ *(Angst-Verwechslung)*
+d) nur vor Klassenarbeiten stattfinden ✗
 
-**F3.** Die Röntgen-Frage an jede Aufgabe lautet:
-a) „Wie lange dauert sie?" ✗
-b) „Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen?" ✓
-c) „Macht sie Spaß?" ✗
-d) „Ist sie differenzierbar?" ✗
+**F3.** Der Testing Effect besagt:
+a) Häufige Tests erzeugen Prüfungsroutine ✗ *(Wortfalle)*
+b) Aktiver Abruf stärkt das Behalten mehr als erneutes Lesen ✓
+c) Tests messen Lernen objektiv ✗
+d) Multiple Choice ist besser als offene Fragen ✗
 
-**F4.** „Unterstreiche alle Adjektive" trainiert primär…
-a) Grammatikverständnis ✗ *(der Etiketten-Glaube)*
-b) Oberflächen-Suche – der Zielgedanke ist umgehbar ✓
-c) Konzentration ✗
-d) Lesekompetenz ✗
+**F4.** Ein Schüler lernt mit Textmarker und liest Zusammenfassungen dreimal. Deine Lernberatung:
+a) „Gut so – Hauptsache regelmäßig" ✗ *(nett und falsch)*
+b) Heft zu, selbst abfragen – die Holprigkeit ist das Lernen ✓
+c) länger lernen ✗
+d) einen Lerntyp-Test machen ✗ *(Mythos-Distraktor!)*
 
-**F5.** Der Torwächter (Aufmerksamkeit) bevorzugt von Natur aus…
-a) das Wichtige ✗ *(schön wär's)*
-b) Neues, Soziales, Bewegtes, Witziges ✓
-c) das, was die Lehrkraft betont ✗ *(nur wenn markiert!)*
-d) nichts – Aufmerksamkeit ist neutral ✗
+**F5.** „Auch Anwenden ist Abruf" bedeutet:
+a) Anwendungsaufgaben ersetzen Faktenwissen ✗
+b) Konzept-Nutzung in neuem Kontext ruft ab UND verknüpft – elaborierter Abruf ✓
+c) Anwendung ist wichtiger als Erinnern ✗
+d) Transfer braucht kein Wissen ✗
 
-**F6 (Transfer, Freitext):** Du zeigst ein 3-Min.-Video zum Treibhauseffekt. Schreibe wörtlich: deinen Beachtungs-Auftrag davor + deine Kopplungs-Frage danach. *(Muster: „Zählt mit, an wie vielen Stellen Strahlung die Richtung wechselt – und notiert, WO sie hängen bleibt." / „Das Video zeigt Prinzip X – erklärt zu zweit: Welcher Teil unserer Merkregel war im Bild zu sehen, welcher NICHT?")*
+**F6 (Transfer, Freitext):** Baue aus deinem letzten Exit Ticket und zwei alten Meilensteinen ein 3-2-1-Do-Now für Montag (6 Fragen skizzieren, Kategorien markieren). *(Bewertungsanker: 3× gestern/aktuell, 2× Vorwoche, 1× ≥ Monat; alle ohne Hilfsmittel lösbar.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 17"
 
-1. **Hook (3 Min., Selbsterleben!):** Das Experiment digital: Folie 20 Sek. mit Timer → 3 Quizfragen → Auswertung „Deine Aufmerksamkeit lief zu: [Cartoon]". Ehrlichkeits-Punchline wie in der Sitzung.
-2. **See it (3 Min.):** Torwächter-Animation (Reize konkurrieren am Tor; Marker öffnen die richtige Tür).
-3. **Name it (3 Min.):** Dreiklang-Karten; Präzisions-Swipe: 8 Aufträge → lenkt / würfelt.
-4. **Do it – Aufgaben-Röntgen-Trainer (8 Min., Engine!):** Die 6 Karten als Fälle: Röntgen-Antwort wählen → Mogelpackungen umbauen (Freitext mit Muster-Vergleich; Heuristik prüft auf Denk-Verben: begründe/entscheide/vergleiche/was-wäre-wenn); danach: eigene Aufgabe eingeben und röntgen.
-5. **Marker-Skript-Editor:** die 3-Zeilen-Vorlage digital, mit Baukasten-Vorschlägen; Export ins Playbook.
-6. **Quiz (Teil 2)** + 30 % Altfragen; F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular + **Experiment-Setup für Modul 18**: App teilt den Nutzer per Zufall Gruppe A (Wiederlesen) oder B (Selbstabfrage) zu, zeigt die 10 Begriffe und terminiert die drei 2-Minuten-Sessions mit Erinnerungen – das Modul-18-Ergebnis wird persönlich!
+1. **Hook (3 Min., der Zahltag!):** Der Experiment-Test digital: 10-Begriffe-Eingabe, App vergleicht mit der Modul-16-Gruppenzuteilung und zeigt das PERSÖNLICHE Ergebnis + die (anonyme) Kohorten-Statistik A vs. B. Wer das W16-Setup übersprang: Sofort-Variante (2-Min.-Lernen, 10-Min.-Distraktor-Spiel, Test).
+2. **See it (3 Min.):** Ebbinghaus-Kurve interaktiv: Jeder Abruf-Klick knickt die Kurve nach oben und flacht den Zerfall – der „Kurven-Bruch" als Kernbild.
+3. **Name it (3 Min.):** Gütekriterien + Formate-Landkarte als Karten; Fehlersuche: 4 beschriebene Quiz-Praxen → welches Kriterium verletzt?
+4. **Do it – 3-2-1-Baukasten (8 Min., Engine!):** zieht automatisch die eigenen Ticket-Aufgaben (Modul 13) und Meilenstein-Prüffragen (Modul 9) als Fragenquelle; Nutzer kategorisiert und terminiert; Export als Wochen-Starter-Set.
+5. **Die SPA lebt es selbst (Dauerfeature ab hier prominent):** Karteikarten-Engine über alle Module wird freigeschaltet/beworben – „Du hast gerade bewiesen, dass es wirkt. Ab jetzt fragt dich die App ab." (Spaced-Retrieval über den Jahresstoff.)
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind DIE Langzeit-Anker des Jahres. **Abschluss:** Action-Step-Formular mit Trainings-Satz-Checkbox + Klassenreaktions-Log (Tag 1 vs. Tag 5).

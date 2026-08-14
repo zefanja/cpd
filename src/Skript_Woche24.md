@@ -1,4 +1,4 @@
-# Skript Woche 24: „Turn and Talk & Everybody Writes – Denk-Ratio maximieren"
+# Skript Woche 24: „Show Me, Affirmative Checking & Show Call – Daten sichtbar machen"
 ## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,21 +7,23 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %? |
-| **Kernquellen** | Lemov T43 (Turn and Talk), T38 (Everybody Writes); Ratio-Konzept (W22) |
-| **Funktion im Jahr** | Skaliert die Einzeltechniken (W22/23) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (W25). Die enge Zeitführung nutzt das komplette W3/W4-Handwerk (Signale, Kanten, Timer). |
-| **Lernziele** | Die TN können:<br>1. beide Ratio-Regler benennen und Formate danach auswählen,<br>2. ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte),<br>3. Schreiben als Denkzeit vor Diskussionen einsetzen,<br>4. die vier häufigsten Format-Bugs erkennen und beheben. |
-| **Sitzungstyp** | Selbsterleben + Choreografie-Drill mit Stoppuhr – die Sitzung praktiziert durchgehend, was sie lehrt. |
+| **Leitfrage** | Wie sehe ich in Echtzeit, was 30 Köpfe denken – und wie nutze ich Schülerarbeiten öffentlich? |
+| **Kernquellen** | Lemov T10 (Show Me), T11 (Affirmative Checking), T13 (Show Call) |
+| **Funktion im Jahr** | Macht die seit W11 nebenbei genutzten Whiteboards zur vollwertigen Technik (mit eigener Routine!) und führt mit Show Call die stärkste Feedback-Form ein – möglich erst JETZT, weil Fehlerkultur (W20) und Everybody-Writes-Material (W23) vorliegen. Affirmative Checking schließt die W11-Lücke „eingeübte Fehler". Show Call kehrt in W27 (Normen-Maschine) und W33 (Whole-Class-Feedback) wieder. Vorbereitung der ersten PEER-Hospitation (GH 4). |
+| **Lernziele** | Die TN können:<br>1. eine Whiteboard-Routine skripten und einführen (Schreibsignal → Stille → 3-2-1-hoch → Scan → Entscheidung),<br>2. Checkpoints in Arbeitsphasen einbauen,<br>3. eine Show-Call-Moderation im Dreischritt führen (würdigen → präzise verbessern → Transfer) – bei fehlerhaften UND exzellenten Arbeiten. |
+| **Sitzungstyp** | Technik-Training mit Live-Erleben + Moderations-Übung an echten Arbeiten. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; feste „Übungspartner"-Zuordnung sichtbar (modelliert „feste Partner"!). **Material:**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Standard-Choreografie + Prompt-Prüfkarte (Anhang 1.1)
-- [ ] Bug-Karten: 4 verunglückte Turn-and-Talk-Szenen (Anhang 1.2)
-- [ ] Stoppuhren; Choreografie-Drill-Bogen (Anhang 1.3)
+**Raum:** Plenum + Vierergruppen; Dokumentenkamera/Visualizer ODER Handy+Beamer (Show-Call-Technik real zeigen!). **Material:**
+- [ ] Retrieval-Quiz liegt aus (läuft heute demonstrativ als perfekte Whiteboard-Routine – die Moderation modelliert Schritt für Schritt!)
+- [ ] Klassensatz Mini-Whiteboards
+- [ ] 4 anonymisierte Schülerarbeiten (2 fehlerhaft, 1 solide, 1 exzellent – vom Coach besorgt; Fallback: Anhang 1.3)
+- [ ] Handout A: Whiteboard-Routine + Fingercodes + Entscheidungsregel (Anhang 1.1)
+- [ ] Handout B: Show-Call-Dreischritt + Einführungsskript (Anhang 1.2)
+- [ ] Beobachtungsbogen Peer-Hospitation 4 (Anhang 3)
 
 ---
 
@@ -29,65 +31,54 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter als Modell (Minute 2–9)
+5 Fragen – heute führt die Moderation die Whiteboard-Routine DEMONSTRATIV mustergültig: *„Frage lesen … schreibt – still … [Scan] … drei – zwei – eins – hoch! … [Blick schwenkt 5 Sek.] … Runter. Ich habe gesehen: Bei Frage 2 fehlen einigen die letzten zwei Stufen – die klären wir in 30 Sekunden…"* Danach Meta-Kommentar: *„Ihr habt gerade das heutige Thema erlebt: Ich habe fünfmal in Folge die komplette Klasse geröntgt UND jedes Mal eine sichtbare Entscheidung getroffen. Heute zerlegen wir das."*
 
-## Phase 2 · See it: Das Selbsterleben (Minute 8–17)
+## Phase 2 · Input A: Show Me & Affirmative Checking (Minute 9–20)
 
-Die Moderation stellt der Gruppe zweimal eine echte, diskussionswürdige Frage – **erst A, dann B, bewusst nacheinander:**
+### 2a · Show Me: das Röntgengerät (Min. 9–15)
+> **Moderationstext:**
+> *„Erinnert euch an Woche 11: Drei richtige Meldungen sind keine Daten. **Show Me** ist die Antwort in Serienreife: Alle antworten gleichzeitig sichtbar – Whiteboards, Fingercodes (eins bis vier für Multiple Choice), ABCD-Karten. In neunzig Sekunden habe ich hundert Prozent Beteiligung UND die komplette Fehlerverteilung. Das ist der Unterschied zwischen Stichprobe und Röntgenbild.*
+> *Aber – und das ist der Punkt, an dem es in der Praxis scheitert – **Show Me ist eine ROUTINE, kein Einfall.** Ohne Routine: Boards werden bemalt, hochgehalten wird nach Sicht beim Nachbarn, das Runter dauert ewig. Mit Routine – und ihr wisst seit Woche 2, wie man Routinen baut – läuft es in Sekunden: Schreibsignal, Stille während des Schreibens (sonst schreibt die Hälfte beim Nachbarn ab und das Röntgenbild lügt!), auf ‚drei-zwei-eins-hoch' gleichzeitig, fünf Sekunden Scan, Runter-Signal. Und dann – der Schritt, der aus dem Spielzeug ein Werkzeug macht – **die sichtbare Entscheidung:** ‚Achtzehn richtig, sieben mit demselben Vorzeichenfehler – wir schauen einmal gemeinsam hin, dann weiter.' Sehen ohne Entscheiden ist Deko."*
 
-**Variante A (klassisch):** *„Sollten Retrieval-Quizze irgendwann doch benotet werden – was meint ihr? Wer möchte?"* [Melde-Dynamik abwarten: zäh, 1–2 übliche Stimmen, Rest schaut.]
+### 2b · Affirmative Checking: die Schranke (Min. 15–20)
+> *„Zweites Werkzeug, klein und unterschätzt: **Affirmative Checking** – Checkpoints in Arbeitsphasen. ‚Bevor ihr zu Aufgabe 3 geht: Zeigt mir Aufgabe 2 – Daumen an der Aufgabe, ich komme rum' oder als Board-Blitz. Warum? Woche 11, die teuerste Sorte Fehler: die zwanzig Minuten allein falsch geübten. Der Checkpoint ist die Schranke davor – niemand fährt mit einem eingebauten Fehler auf die Autobahn. Praktisch: ein bis zwei Checkpoints pro Übungsphase, an den Stellen, die euer Plan-for-Error aus Woche 20 als Risikozonen markiert. Eure Route aus Woche 12 bekommt damit Haltepunkte."*
 
-**Variante B (choreografiert):** *„Neue Frage, neues Verfahren. – Sollte man Schülern die Programm-Bücher direkt in die Hand geben? Notiert 90 Sekunden still eure Position mit EINEM Grund – Stift läuft … [Timer] … Stopp. Jetzt 45 Sekunden: Vergleicht mit eurem Übungspartner – wer hat den stärkeren Grund? … [Endsignal] … Danke. Karla – was hat DEIN PARTNER gesagt?"* [2–3 Ernte-Cold-Calls, davon mindestens einer als Partnerfrage.]
+## Phase 3 · Input B: Show Call (Minute 20–30)
 
-> **Auswertung:**
-> *„Ihr habt es gespürt – jetzt seziert es: Was war in B strukturell anders?"* [Sammeln: alle haben geschrieben = alle haben gedacht; die 45 Sekunden waren dicht, weil kurz; die Partnerfrage zwang zum ZUHÖREN; niemand konnte ‚nichts haben'.] *„Merkt euch besonders den letzten Punkt: In Variante A ist Zuhören optional. In Variante B ist es Überlebensstrategie – wer nicht zuhört, steht bei ‚Was hat dein Partner gesagt?' im Regen. Ein einziger Fragetyp verwandelt Partnergespräche von Plauderei in Arbeit."*
-
-## Phase 3 · Input (Minute 17–28)
-
-### 3a · Die beiden Regler & Everybody Writes (Min. 17–21)
-> *„Woche 22, die zwei Regler: Wie VIELE denken (Participation Ratio) und wie TIEF (Think Ratio). Cold Call hebt den ersten Regler – aber immer noch antwortet einer nach dem anderen. Die heutigen Formate heben beide gleichzeitig. Baustein eins: **Everybody Writes** – vor jeder Diskussionsfrage schreiben ALLE, zwei bis vier Minuten. Vier Effekte auf einen Schlag: Jeder denkt (Schreiben ist nicht delegierbar); die Denkzeit ist demokratisch (auch die Langsamen kommen an – Wait Time für alle, verlängert); die Beiträge danach sind besser (formuliert schlägt improvisiert); und ihr habt schriftliches Material in der Hand – wofür, seht ihr nächste Woche. Nebeneffekt für die Stillen: Wer vom Blatt ablesen darf, meldet sich eher – das Geschriebene ist ein Sicherheitsnetz."*
-
-### 3b · Turn and Talk: die sechs Stellschrauben (Min. 21–26)
-> *„Baustein zwei: **Turn and Talk** – das Partnergespräch. Es hat einen miserablen Ruf (‚dann quatschen die doch nur'), und der Ruf ist verdient – für die SCHLAFFE Version. Die enge Version hat sechs Stellschrauben:*
-> - *​**Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama.*
-> - *​**Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar.*
-> - *​**Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende.*
-> - *​**Klares Startsignal** – ‚Mit dem Partner – los'.*
-> - *​**Klares Endsignal:** euer Aufmerksamkeitssignal aus Woche 4, exakt dafür gebaut.*
-> - *​**Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
+> *„Und jetzt das Werkzeug mit der größten Hebelwirkung – und den höchsten Voraussetzungen: **Show Call.** Eine Schülerarbeit wird projiziert – Dokumentenkamera, Handyfoto an den Beamer – und gemeinsam besprochen. Warum ist das so stark? Feedback an einem echten, konkreten Beispiel erreicht die ganze Klasse gleichzeitig; die Everybody-Writes-Zettel von letzter Woche sind das perfekte Rohmaterial. Und warum ist es voraussetzungsreich? Weil es OHNE die Fehlerkultur aus Woche 20 eine öffentliche Hinrichtung ist. Deshalb die Gelingensbedingungen:*
+> *Erstens: **als Ehrung einführen.** Wörtlich, bevor die erste Arbeit an die Wand geht: ‚Wenn ich eine Arbeit zeige, ist das eine Auszeichnung – an dieser Arbeit lernen wir alle. Es wird nie darum gehen, jemanden vorzuführen.' Am Anfang anonym (Name abdecken, Foto beschneiden); nach zwei, drei Wochen fragen die Ersten von selbst, ob ihre gezeigt wird – DAS ist der Kultur-Indikator.*
+> *Zweitens: **der Dreischritt**:*
+> - *Würdigen – konkret, was trägt: ‚Der Ansatz in Zeile eins ist genau richtig gewählt.'*
+> - *EINEN Verbesserungsfokus – nicht fünf: ‚Schaut auf Zeile drei – wo kippt es, und warum ist das verführerisch?' (Die Klasse arbeitet, nicht die Lehrkraft – Cold Call, Turn and Talk, alles einsetzbar!)*
+> - *Transfer: ‚Prüft jetzt eure eigene Zeile drei.'*
 >
-> *Und die Lehrkraft WÄHREND der 60 Sekunden? Nicht ans Pult – kreisen und lauschen: Ihr hört in einer Minute fünf Gespräche an und wisst, welche Ernte sich lohnt (‚Ich habe bei Tisch drei etwas Spannendes gehört – Aylin?'). Das ist euer Circulate aus Woche 13, auf Ohren umgestellt."*
+> *Drittens – und das vergessen fast alle: **Auch Exzellenz zeigen.** Nicht nur Fehler-Anschauung – auch die herausragende Arbeit an die Wand: ‚So sieht eine vollständige Begründung aus – was genau macht sie so stark?' Erinnert ihr euch an Woche 1, Lovells Prinzip: Man muss Exzellenz GESEHEN haben, um sie anzustreben? Das galt für euch bei den Hospitationen – es gilt für eure Schüler bei Schülerarbeiten. Show Call kalibriert den Anspruch der Klasse."*
 
-### 3c · Die vier Bugs (Min. 26–28)
-> *„Die vier Bugs, an denen das Format stirbt: **zu lang** (Abschweifen ist keine Charakterfrage, sondern eine Zeitfrage) · **unpräziser Prompt** (‚Redet mal über den Text' erntet Wochenendpläne) · **keine Ernte** (ohne Ernte lernt die Klasse in zwei Wochen: Das Gespräch ist folgenlos – Beliebigkeit) · **Lehrkraft am Pult** (die Minute ist Datenzeit, keine Verschnaufpause)."*
+## Phase 4 · Name it (Minute 30–33)
 
-## Phase 4 · Name it (Minute 28–32)
+**Whiteboard-Routine:** Schreibsignal → still schreiben → „3-2-1-hoch" → 5-Sek.-Scan → Runter → **sichtbare Entscheidung** (weiter / gemeinsam hinschauen / Kleingruppe). **Checkpoint-Regel:** 1–2 pro Übungsphase, an Plan-for-Error-Risikozonen. **Show-Call-Dreischritt:** würdigen → EIN Fokus (Klasse arbeitet!) → Transfer. Merksatz: *„Sehen ohne Entscheiden ist Deko – Zeigen ohne Würdigen ist Vorführen."*
 
-**Standard-Choreografie** (Handout A): **Write (1–3 Min.) → Talk (30–90 Sek.) → Ernte (2–3 Cold Calls, davon 1 Partnerfrage).** Davor: Prompt-Prüfkarte (diskutierbar? präzise? in 60 Sek. substanziell?). Merksätze: *„Auf dem Wellenkamm beenden."* / *„Ohne Ernte keine Ernsthaftigkeit."*
+## Phase 5 · Do it (Minute 33–52)
 
-Fingerzeichen: 4 Prompts vorlesen → besteht die Prüfkarte? (z. B. „Tauscht euch über das Gedicht aus" ✗ / „Einigt euch auf DAS eine Wort, das die Stimmung kippen lässt – mit Zeilenbeleg" ✓.)
+### Runde 1 · Whiteboard-Routine skripten & spielen (Min. 33–41)
+Vierergruppen: Routine dreispaltig skripten (W2-Format!) inkl. Einführungswortlaut für die Klasse; dann einmal komplett durchspielen (einer dirigiert, drei sind Klasse, eine eingebaute Störung: ein „Schüler" hält verspätet hoch und schielt vorher zum Nachbarn – Reaktion: Stille-Regel nachschärfen, nicht dramatisieren).
 
-## Phase 5 · Do it (Minute 32–52)
+### Runde 2 · Show-Call-Moderation (Min. 41–52)
+An den 4 echten Arbeiten (rotierend, je ~2,5 Min. + 30 Sek. Feedback): Jeder moderiert einen Dreischritt – zwei TN an fehlerhaften, einer an der soliden, einer an der exzellenten Arbeit (Exzellenz-Moderation ist eigenes Handwerk: „Was macht sie stark?" statt „Fehler suchen"). Feedback-Fokus: Ton (Ehrung?), EIN Fokus gehalten?, hat die KLASSE gearbeitet (mindestens ein Cold Call/Turn-and-Talk-Element)?
 
-### Runde 1 · Bug-Diagnose (Min. 32–38)
-Tandems ziehen 2 Bug-Karten (Anhang 1.2): Bug benennen + Reparatur in einem Satz. Blitz-Vergleich im Plenum (je Karte 30 Sek.).
+## Phase 6 · Action Step & Peer-Hospitations-Vorbereitung (Minute 52–58)
 
-### Runde 2 · Prompt-Werkstatt (Min. 38–44)
-Einzelarbeit: 2 eigene Diskussionsanlässe der kommenden Woche in präzise Prompts fassen; Tandem-Prüfkarte. Standard-Intervention der Moderation: *„Kann man deine Frage mit ‚ja' erledigen? Dann baue eine Entscheidung ein: einigt euch / wählt / ordnet."*
-
-### Runde 3 · Choreografie-Drill (Min. 44–52)
-Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W4-Kanten!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
-
-## Phase 6 · Action Step (Minute 52–58)
-
-**Standard:** *„Vor jeder Diskussionsfrage dieser Woche: erst 2 Minuten Everybody Writes, dann 60 Sekunden Turn and Talk mit festen Partnern, dann Ernte mit mindestens einer Partnerfrage. Feste Partner teile ich am Montag zu – mit Begründung (W2-Handwerk)."*
+**Standard:** *„Ich führe die Whiteboard-Routine in Klasse X mit Skript ein und treffe in jeder Stunde mindestens EINE sichtbare Datenentscheidung – angesagt: ‚Ich sehe …, also machen wir …'."*
 
 **Alternativen:**
 
-1. Ernte-Fokus: eine Woche lang JEDES Partnergespräch (auch spontane) mit „Was hat dein Partner gesagt?" ernten.
-2. Wellenkamm-Disziplin: alle Talk-Phasen hart auf 60 Sekunden – Beobachtung: Wann kippt Dichte in Rest-Zeit?
+1. Show-Call-Start: ein Show Call pro Tag, erst anonym, ab Tag 3 mit einverstandenen Namen – Einführungsskript am Montag.
+2. Checkpoint-Woche: jede Übungsphase bekommt 1–2 Schranken an den Plan-for-Error-Zonen.
 
-> **Ausblick:** *„Ihr sammelt jetzt Denk-Material von allen – schriftlich. Nächste Woche machen wir es SICHTBAR: Mini-Whiteboards als Röntgengerät, Checkpoints in Arbeitsphasen, und die stärkste Feedback-Form, die ich kenne: Schülerarbeiten gemeinsam an der Wand – Show Call. Eure Everybody-Writes-Zettel sind dafür das Rohmaterial."*
+**Peer-Hospitation 4 (4 Min. – neue Stufe!):** *„Ab dieser Runde hospitiert ihr EINANDER. Zwei von euch öffnen ihre Stunden – und hier die wichtigste Regel, sie ist zugleich Feedbackkultur-Modell: **Der Gastgeber bestimmt vorher den Beobachtungsfokus.** ‚Schaut bei mir auf die Ernte nach Turn and Talk' oder ‚Zählt meine CFU-Momente' – der Beobachtete steuert, was gesehen wird. Bogen: CFU-Zählprotokoll (Anhang 3). Wer öffnet?"* [Freiwillige + Termine fixieren; Coach moderiert die Nachbesprechung.]
+
+> **Ausblick:** *„Ihr könnt jetzt sehen. Nächste Woche das letzte Puzzlestück von Block 4: Was tue ich mit all den Daten – heute, morgen, vor der Klassenarbeit? Reteaching, Fehlerjournale, und die Kunst, aus einem Ticket-Stapel eine Entscheidung zu machen. Plus Block-4-Quiz."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -95,79 +86,85 @@ Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eig
 
 # 4. Coaching-Woche 24 (Handreichung)
 
-- **Hospitationsfokus – die Ratio-Schätzung:** In einer 10-Minuten-Frage-/Diskussionssequenz zählen: Wie viele SuS haben nachweislich produziert (geschrieben/gesprochen/geantwortet)? Zusätzlich: Talk-Phasen stoppen (reale Länge!) und Ernte protokollieren (fand sie statt? Partnerfrage?).
-- **Auswertungsgespräch:** Die Ratio-Zahl nennen („In den 10 Minuten haben nachweislich 9 von 27 produziert") – sie ist der stärkste Veränderungshebel dieser Woche. Dann eine Sequenz der Folgewoche gemeinsam choreografieren (Write/Talk/Ernte mit Zeiten).
-- **Verzahnung:** Feste-Partner-Zuteilung besprechen (Kriterien: Arbeitsfähigkeit vor Freundschaft; 2–3 heikle Kombinationen vorab lösen).
-- **Red Flag:** Talk-Phasen real bei 4–5 Minuten („die waren so schön im Gespräch") → Wellenkamm-Prinzip klären: Die Dichte der ersten Minute ist der Maßstab, nicht die Gesprächsfreude der fünften; Dichte-Verlust live im nächsten Video zeigen.
+- **Hospitationsfokus:** die Whiteboard-EINFÜHRUNG (Skript-Treue: Stille beim Schreiben? gleichzeitiges Hoch?) + Entscheidungs-Zählung: Wie oft wurde nach dem Scan eine Entscheidung ANGESAGT?
+- **Auswertungsgespräch:** Entscheidungs-Zählung zeigen (häufigster Befund: gescannt, genickt, weitergemacht – die Ansage fehlt); eine Scan-Situation nachspielen: Coach beschreibt ein Board-Tableau („8 von 25 falsch, gleicher Fehler"), TN formuliert die Entscheidung laut.
+- **Show-Call-Begleitung:** Beim ersten Show Call möglichst hospitieren – der Ton der Erstmoderation prägt die Kultur; ggf. vorher im 1:1 an einer Arbeit proben.
+- **Red Flag:** Show Call einer fehlerhaften Arbeit OHNE Einführungsritual/bei fragiler Fehlerkultur → stoppen: erst W20-Fundament prüfen (Lach-Verbot durchgesetzt?), Show Call ggf. 2 Wochen nur mit Exzellenz-Arbeiten fahren.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Choreografie + Prompt-Prüfkarte
-**Sequenz:** Write 1–3 Min. (Ansage: Aufgabe + Zeit + „Stift läuft") → Endsignal → Talk 30–90 Sek. (Ansage: Auftrag + Zeit + „los") → kreisen & lauschen → Endsignal (W4!) → Ernte: 2–3 Cold Calls, davon ≥ 1 „Was hat dein Partner gesagt?". **Prompt-Prüfkarte:** ☐ diskutierbar (Entscheidung/Abwägung eingebaut: einigt euch / wählt / ordnet / begründet) ☐ präzise (EIN Fokus) ☐ in 60 Sek. substanziell beantwortbar. **Bug-Liste:** zu lang · unpräzise · keine Ernte · Lehrkraft am Pult.
+## 1.1 Handout A: Whiteboard-Routine (dreispaltig, Muster)
+| Schritt | Wortlaut | Hinweise |
+|---|---|---|
+| Schreibsignal | *„Auf die Boards: [Aufgabe]. Still."* | Stille = Datenschutz fürs Röntgenbild |
+| Schreibphase | — | Scan von der Radar-Position (W5) |
+| Hoch | *„Drei – zwei – eins – hoch!"* | gleichzeitig; Nachzügler nicht kommentieren, beim 2. Mal Routine üben (Do It Again) |
+| Scan | — | 5 Sek., systematisch reihenweise; Fehlerverteilung merken (ggf. 2–3 Namen) |
+| Runter + Entscheidung | *„Runter. Ich sehe: … Also: …"* | IMMER ansagen: weiter / gemeinsam / Kleingruppe |
+**Fingercodes-Variante:** 1–4 Finger an die Brust (nicht hoch – diskreter, kein Abschauen). **Einführung:** W1-Bauplan (Erwartung + Begründung „Ich will euch ALLE sehen, nicht nur die Schnellen" + CFU + Probe).
 
-## 1.2 Bug-Karten (4 Szenen; Bug + Muster-Reparatur für Moderation/SPA)
-**B1:** „Tauscht euch mal fünf Minuten über die Französische Revolution aus." *(Bugs: unpräzise + zu lang → „Einigt euch in 60 Sekunden: Welche EINE Ursache wiegt am schwersten? Ein Beleg.")*
-**B2:** Perfekter Prompt, 45 Sekunden, Endsignal – dann: „Gut, weiter im Text, Seite 12." *(Bug: keine Ernte → 2 Cold Calls + Partnerfrage nachrüsten.)*
-**B3:** Talk läuft; Lehrkraft sortiert am Pult Arbeitsblätter für die nächste Phase. *(Bug: Pult statt kreisen → lauschen + gezielte Ernte-Auswahl.)*
-**B4:** „Sucht euch einen Partner und besprecht Aufgabe 3." – 40 Sekunden Stühlerücken, zwei Grüppchen zu dritt, einer allein. *(Bug: keine festen Partner → Zuteilung als Routine, Woche-3-Handwerk.)*
+## 1.2 Handout B: Show-Call-Dreischritt + Einführungsskript
+**Einführung (wörtlich, vor dem ersten Mal):** *„Ab heute zeige ich manchmal eine eurer Arbeiten hier vorn. Das ist eine Auszeichnung: An dieser Arbeit lernen wir alle – an dem, was stark ist, und an dem, was viele genauso machen würden. Es geht NIE darum, jemanden vorzuführen; am Anfang bleiben die Namen weg. Über Fehler wird hier nicht gelacht – das gilt weiter."* **Dreischritt:** (1) Würdigen (konkret!) → (2) EIN Fokus, Klasse arbeitet (Cold Call/T&T) → (3) Transfer auf die eigene Arbeit. **Exzellenz-Variante:** „Was genau macht sie stark?" – 2 Merkmale von der Klasse benennen lassen, als Kriterien festhalten.
 
-## 1.3 Choreografie-Drill-Bogen (Stoppuhr-Wächter)
-Zeilen: Write angesagt mit Zeit? ☐ / reale Write-Zeit: __ / Endsignal sauber? ☐ / Talk-Ansage mit Auftrag+Zeit? ☐ / reale Talk-Zeit: __ (Ziel 30–90!) / gekreist & gelauscht? ☐ / Ernte: __ Cold Calls, Partnerfrage? ☐ — Fußzeile: „Ein Impuls, dann 30-Sek.-Wiederholung der schwächsten Stelle."
+## 1.3 Fallback-Arbeiten (Bauanleitung, falls kein echter Satz verfügbar)
+Aufgabe: „Begründe in 3–4 Sätzen, ob 16-Jährige wählen dürfen sollten." **A (fehlerhaft):** Behauptung ohne Beleg, Wiederholung statt Begründung. **B (fehlerhaft):** zwei Argumente, aber Schluss widerspricht dem eigenen Argument. **C (solide):** These + Beleg, Fachbegriff fehlt. **D (exzellent):** These, Beleg, Gegenargument aufgegriffen, präzises Fazit. *(Zu jeder: 1 Würdigungs-Kandidat + 1 Fokus-Kandidat notiert.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die 4 No-Opt-Out-Varianten? *(Hinweis / Peer + Rückkehr / Teilantwort ausbauen / Verweigerung: ruhig + Angebot + W.I.N.)*
-2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Exemplar)*
-3. PR × TR – wofür stehen die Regler (W22)? *(wie viele denken × wie tief)*
-4. Wait Time: Sekunden + Rahmung? *(3–5 Sek.; produktiv rahmen: „einige notieren – gut")*
-5. (Anwendung) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache – deine Reaktion nach Format Matters? *(würdigen + „jetzt in Fachsprache" – kurz, freundlich)*
+## Teil 1: Retrieval-Starter (Min. 2–9, als Muster-Whiteboard-Routine!)
+1. Die Standard-Choreografie W23? *(Write 1–3 Min. → Talk 30–90 Sek. → Ernte mit Partnerfrage)*
+2. Vier der sechs Turn-and-Talk-Stellschrauben? 3. Warum Schreiben vor Reden – der wichtigste Effekt? *(jeder denkt; Denkzeit demokratisch)* 4. ActiveObs in einem Satz (W12)? 5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus W21: kalte Zonen gezielt ansteuern)*
 
 ## Teil 2: Modul-Quiz Woche 24 (für SPA/Folgewoche)
-**F1.** Die ideale Länge eines Turn and Talk:
-a) 5–10 Minuten, damit echte Tiefe entsteht ✗ *(DIE Intuition)*
-b) 30–90 Sekunden – auf dem Wellenkamm beenden ✓
-c) bis alle Paare fertig sind ✗
-d) je länger, desto besser ✗
+**F1.** Mini-Whiteboards in der Oberstufe sind…
+a) unter dem Niveau erwachsener Lerner ✗ *(die verbreitete Abwehr)*
+b) auch dort das schnellste 100 %-Diagnosewerkzeug – Routine und Rahmung entscheiden ✓
+c) nur für Mathe geeignet ✗
+d) rechtlich bedenklich ✗
 
-**F2.** „Was hat dein Partner gesagt?" bewirkt…
-a) Verwirrung – man soll die eigene Meinung sagen ✗
-b) Zuhör-Verbindlichkeit im Partnergespräch ✓
-c) Prüfungsangst ✗
-d) nichts Besonderes ✗
+**F2.** Beim Schreiben auf die Boards gilt Stille, weil…
+a) Ruhe grundsätzlich gut ist ✗
+b) Abschauen das Röntgenbild verfälscht – die Daten müssen individuell sein ✓
+c) die Nachbarklasse gestört wird ✗
+d) es feierlicher wirkt ✗
 
-**F3.** Vor der Diskussion schreiben alle 2 Minuten. Der wichtigste Effekt:
-a) Ruhe im Raum ✗ *(Nebeneffekt)*
-b) Jeder denkt – Schreiben ist nicht delegierbar, Denkzeit wird demokratisch ✓
-c) Handschrift-Training ✗
-d) Material für die Notengebung ✗
+**F3.** Nach dem Board-Scan nickst du und machst weiter. Was fehlt?
+a) nichts – du hast ja gesehen ✗ *(der häufigste Befund!)*
+b) die ANGESAGTE Entscheidung: „Ich sehe …, also …" ✓
+c) das Einsammeln der Boards ✗
+d) eine Note ✗
 
-**F4.** Während der Talk-Phase gehört die Lehrkraft…
-a) ans Pult – kurz durchatmen und Nächstes vorbereiten ✗ *(Alltagsrealität)*
-b) in den Raum: kreisen, lauschen, Ernte auswählen ✓
-c) aus dem Raum – Vertrauen zeigen ✗
-d) zu einem festen Paar ✗
+**F4.** Show Call einer fehlerhaften Arbeit setzt voraus:
+a) das schriftliche Einverständnis der Eltern ✗
+b) etablierte Fehlerkultur + Einführung als Ehrung + würdigender Dreischritt ✓
+c) dass der Fehler besonders originell ist ✗
+d) dauerhafte Anonymität ✗ *(teilrichtig: nur der Anfang)*
 
-**F5.** Zwei Wochen ohne Ernte nach Partnergesprächen. Die Klasse lernt:
-a) nichts – Ernte ist optional ✗
-b) das Gespräch ist folgenlos → Beliebigkeit zieht ein ✓
-c) Selbstständigkeit ✗ *(klingt reformpädagogisch)*
-d) Zuhören ✗
+**F5.** Warum auch exzellente Arbeiten zeigen?
+a) als Belohnung für die Starken ✗ *(nett – nicht der Kern)*
+b) Exzellenz kalibriert den Anspruch: Man muss sie gesehen haben, um sie anzustreben ✓
+c) um Konkurrenz anzuheizen ✗
+d) um Zeit zu füllen ✗
 
-**F6 (Transfer, Freitext):** Baue aus „Redet mal über die Grafik zur Schere zwischen Arm und Reich" eine volle Choreografie: Write-Prompt (wörtlich), Talk-Auftrag mit Zeit (wörtlich), Ernte-Plan. *(Muster: Write 2 Min.: „Notiere die überraschendste Zahl der Grafik + einen Satz, warum sie dich überrascht." → Talk 60 Sek.: „Einigt euch auf DIE eine Zahl, die in die Zeitung müsste." → Ernte: 2 Cold Calls, davon „Welche Zahl hat dein Partner gewählt – und warum?")*
+**F6 (Transfer, Freitext):** Board-Tableau: 17 von 25 richtig, 6 mit identischem Fehler in Schritt 2, 2 leer. Formuliere deine angesagte Entscheidung wörtlich. *(Muster: „Runter. Siebzehn stehen – stark. Sechs sind in Schritt 2 in dieselbe Falle getappt: Die schauen wir uns JETZT gemeinsam an, zwei Minuten. Und ihr zwei mit leerem Board: Ich komme gleich zu euch." – Bewertungsanker: Zahlen benennen, Entscheidung ansagen, alle drei Gruppen adressiert.)*
 
 ---
 
-# Anhang 3: Ableitung für die SPA „Modul 24"
+# Anhang 3: Beobachtungsbogen Peer-Hospitation 4
+**Neu: Der GASTGEBER benennt vorher seinen Fokus:** „Beobachtet bei mir bitte: …" — **Standardteil CFU-Zählprotokoll:** | Zeit | CFU-Moment (Werkzeug: Board/Cold Call/Checkpoint/Ticket…) | Wie viele wurden erreicht? | Folgte eine sichtbare Entscheidung? | — Spalte C: „Ein Move, den ich klaue." — **Nachbesprechung (Coach moderiert):** Runde 1: NUR zum Gastgeber-Fokus, beschreibend. Runde 2: Zählprotokoll-Muster. Runde 3: Spalte C + „Was übernehme ich bis zur nächsten Peer-Runde?" — Dank an die Öffnenden ist Pflichtritual (Öffnen ist die mutigste Handlung des Programms).
 
-1. **Hook (2 Min.):** Variante A vs. B als Split-Screen-Animation mit Denk-Anzeige (Köpfe leuchten auf, wenn sie produzieren) – die Ratio wird sichtbar.
-2. **See it (4 Min.):** Die Choreografie als Zeitleisten-Grafik; die sechs Stellschrauben als antippbare Stationen mit Audio-Beispielen.
-3. **Name it (3 Min.):** Prüfkarte + Bug-Liste als Karten; Prompt-Swipe (8 Prompts → besteht/besteht nicht + welcher Verstoß).
-4. **Do it – Sequenz-Bauer (8 Min., Engine!):** Drag-&-Drop-Choreografie auf Zeitleiste (Write/Talk/Ernte-Blöcke mit Zeitreglern; App warnt bei Talk > 90 Sek. und fehlender Ernte); eigener Prompt wird per Prüfkarten-Heuristik gecheckt (Ja/Nein-Detektor, Entscheidungs-Verben-Suche: einigt/wählt/ordnet); Bug-Karten B1–B4 als Diagnose-Level vorab.
-5. **Zeitgefühl-Training:** „Wie lang sind 60 Sekunden?"-Spiel (Button halten, ohne Uhr) – kalibriert das Wellenkamm-Gefühl; Wiederverwendung des Modul-22-Timers.
-6. **Feste-Partner-Planer:** Sitzplan-Tool (aus Modul 13/22 wiederverwendet) mit Partner-Zuteilungs-Ansicht + Einführungs-Skriptfeld (W2-Bauplan).
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Sequenz-Log (Write/Talk/Ernte-Häkchen pro Stunde) – füttert die Ratio-Selbstbeobachtung.
+---
+
+# Anhang 4: Ableitung für die SPA „Modul 24"
+
+1. **Hook (2 Min.):** „Stichprobe vs. Röntgenbild": animierte Klasse – 3 Melder-Punkte vs. 25 Board-Kacheln, die gleichzeitig aufleuchten (Fehler rot) – der Informationsunterschied als Bild.
+2. **See it (4 Min.):** Die Muster-Routine als Video/Audio mit Zeitleiste; Aufgabe: die 5 Schritte + die Entscheidung antippen.
+3. **Name it (3 Min.):** Routine-Schritte als Sortier-Spiel; Merksatz-Karte.
+4. **Do it – Entscheidungs-Simulator (8 Min., Engine!):** Board-Tableaus erscheinen (verschiedene Verteilungen: 90 % richtig / 40 % gleicher Fehler / diffus / 3 leere) → Nutzer formuliert/wählt die angesagte Entscheidung → Feedback nach Entscheidungsregel; das diffuse Tableau verzweigt mit Cliffhanger zu Modul 25.
+5. **Show-Call-Moderationstrainer:** Die 4 Fallback-Arbeiten (Anhang 1.3) als Bilder; Nutzer baut den Dreischritt (Würdigung wählen → Fokus wählen → Transfer formulieren); Ton-Fallen als Optionen („Schaut mal, was hier schiefging" ✗ mit Erklär-Feedback); Exzellenz-Arbeit als eigenes Level.
+6. **Routine-Skript-Editor** (dreispaltig, W2-Engine wiederverwendet) inkl. Einführungswortlaut; Playbook-Export.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F3/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Entscheidungs-Zähler („heute angesagt: __×") + Peer-Hospitations-Terminfeld.

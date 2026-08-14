@@ -1,4 +1,4 @@
-# Skript Woche 28: „Treiber 2 & 3: Run Routines & Nudge Norms – Kosten senken, Normen verschieben"
+# Skript Woche 28: „Treiber 4: Belonging – gesehen werden"
 ## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,21 +7,23 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie senke ich die Kosten der Anstrengung – und wie mache ich Anstrengung ansteckend? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Run routines" + „Nudge norms"); Verzahnung: komplettes Block-1-Playbook, Modell 4 (W1), Positive Framing (W7), Show Call (W25) |
-| **Funktion im Jahr** | Die Reinterpretations-Sitzung – das „Aha des Jahres": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert W7 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
-| **Lernziele** | Die TN können:<br>1. Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren,<br>2. Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit),<br>3. erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit),<br>4. den Konsistenz-Hebel im Kollegium benennen. |
-| **Sitzungstyp** | Reinterpretation + Sprach-Training – dramaturgisch die „Belohnungs-Sitzung": Die TN entdecken, dass sie das meiste schon können. |
+| **Leitfrage** | Warum strengen sich Menschen für Räume an, in denen sie gesehen werden – und wer ist in meiner Klasse unsichtbar? |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost belonging"); Verzahnung: Modell 5 (Auftakt), Heatmap (W21), Cold Call als Voice Equity, W.I.N. (W7) |
+| **Funktion im Jahr** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (W21) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
+| **Lernziele** | Die TN können:<br>1. Belonging in der EVK-Mechanik verorten (Wert-Faktor UND Kosten-Senker),<br>2. die eigene Klasse per Unsichtbarkeits-Inventur auf dem Sitzplan analysieren (grün/gelb/rot),<br>3. Mikromomente planen und in vorhandene Zeitfenster legen (Minute vor dem Ritual, erster Rundgang, Türmoment am Ende),<br>4. Vertrauen als „Zusagen halten" operationalisieren. |
+| **Sitzungstyp** | Inventur-Werkstatt am eigenen Sitzplan – die stillste und persönlichste Sitzung des Blocks. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; das eigene Playbook liegt auf dem Tisch (Vorab-Erinnerung per W27-Exit-Karte: Playbook mitbringen!). **Material:**
+**Raum:** Einzelarbeitsplätze mit Diskretion, dann Tandems. **Vorab-Auftrag (W27-Exit-Karte):** Sitzplan der schwierigsten Klasse mitbringen.
+
+**Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Die EVK-Landkarte des Playbooks (Anhang 1.1)
-- [ ] Sprach-Audit-Kartenset: 10 Negativ-Norm-Aussagen (Anhang 1.2)
-- [ ] Handout B: Sichtbarkeits-Plan-Vorlage (Anhang 1.3)
+- [ ] Handout A: Belonging-Bausteine + Zeitfenster-Karte (Anhang 1.1)
+- [ ] Inventur-Anleitung + Ampel-Kriterien (Anhang 1.2)
+- [ ] Mikromoment-Plan-Vorlage (Anhang 1.3)
 
 ---
 
@@ -31,142 +33,127 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · Brücke (Minute 8–12)
+## Phase 2 · See it: Das Gedankenexperiment (Minute 8–15)
 
 > **Moderationstext:**
-> *„Erfolgs-Konstruktion: Wer hat seinem Fall zwei Erfolge gebaut – und was war beobachtbar?"* [2 Stimmen; auch „nichts sichtbar" würdigen: Erwartungs-Reparatur braucht Wochen, nicht Tage – Ausdauer ist Teil der Maßnahme.]
-> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Jahres bereits vollständig umgesetzt. Es hat acht Wochen gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
+> *„Sprach-Audit: Wer wurde ertappt – und wer hat live umgebaut?"* [2 Stimmen, kurz.]
+> *„Und jetzt ein Gedankenexperiment, das nur funktioniert, wenn ihr ehrlich seid. Denkt an eine Arbeitsstelle, ein Team, einen Verein aus eurem Leben, wo ihr euch RICHTIG angestrengt habt – über das Nötige hinaus, freiwillig. … Und jetzt an einen Ort, wo ihr Dienst nach Vorschrift gemacht habt, pünktlich rein, pünktlich raus. … Boards raus, ein Stichwort: Was war am ersten Ort anders?"* [3-2-1-hoch; typische Antworten: „Man kannte mich" / „Mein Beitrag zählte" / „Das Team" / „Ich wurde gefragt".]
+> *„Schaut auf eure Boards: Fast nichts davon handelt von Gehalt, Ausstattung oder spannenden Aufgaben. Es handelt von **Zugehörigkeit** – davon, gesehen zu werden und dazuzugehören. Menschen strengen sich für Gruppen an, deren Mitglied sie sein wollen; McCrea nennt es den Belonging-Treiber, und in der Formel arbeitet er doppelt: Er hebt den WERT – mein Beitrag zählt hier, die Gruppe ist Teil des Lohns – und er senkt die KOSTEN – wer dazugehört, riskiert bei einem Fehler weniger. Und jetzt der Transfer, der weh tut: In jeder eurer Klassen sitzen Schüler, für die euer Unterricht der Dienst-nach-Vorschrift-Ort ist. Nicht, weil sie schwierig sind – sondern weil sie UNSICHTBAR sind. Heute finden wir sie."*
 
-## Phase 3 · Input A: Run Routines – die Reinterpretation (Minute 12–22)
+## Phase 3 · Input (Minute 15–28)
 
-> *„Die Auflösung: **Block 1.** Und jetzt der Blick durch die EVK-Brille – schlagt euer Playbook auf, wir gehen es durch:*
-> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Woche 21 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als im September, auch dort, wo ihr am WERT nie geschraubt habt.*
-> *Warum sage ich euch das erst jetzt? Weil die Reihenfolge des Programms genau darauf gebaut ist: Handwerk zuerst, Theorie als Belohnung – ihr SEHT die Mechanik jetzt in eurem eigenen Unterricht, statt sie glauben zu müssen. Und die praktische Konsequenz für heute: Wenn bei einem Schüler die Kosten der Engpass sind – Woche 27, euer Analysebogen – dann ist die Antwort oft kein Gespräch und kein Anreiz, sondern schlicht: Welche meiner Routinen erreicht ihn noch nicht? Läuft sein Stundenstart? Weiß er, was zu tun ist, wenn er hängt? Ist SEIN Blamage-Risiko gedeckelt?"*
+### 3a · Die Unsichtbaren (Min. 15–19)
+> *„Erst die unbequeme Statistik aus der Aufmerksamkeits-Ökonomie eures Alltags: Wer bekommt euren Kontakt? Die Störer – über die Leiter. Die Starken – über die Ernte und das Lob. Die Hilfesuchenden – über die Meldung. Und dann gibt es die dritte Gruppe: unauffällig, funktionierend, still. Sie stören nicht, sie glänzen nicht, sie fragen nicht – und sie können durch ein ganzes Schuljahr gehen, ohne dass eine Lehrkraft drei persönliche Sätze mit ihnen gewechselt hat. Eure Heatmap aus Woche 21 hat einen Teil davon schon gezeigt: die kalten Zonen der Beteiligung. Heute legen wir die Beziehungs-Schicht darüber."*
 
-## Phase 4 · Input B: Nudge Norms (Minute 22–32)
+### 3b · Die vier Bausteine (Min. 19–26)
+> *„Baustein eins: **Mikromomente.** Zugehörigkeit entsteht nicht in großen Gesten, sondern in Sekunden: Name plus persönlicher Bezug – ‚Melis, wie war das Turnier am Wochenende?' Drei Sekunden. Die Kunst ist nicht die Länge, sondern die ECHTHEIT und die Verteilung. Und jetzt schaut auf eure Stundenstruktur, denn die Zeitfenster habt ihr längst gebaut: **Die Minute zwischen eurem Betreten des Raums und dem Begrüßungsritual** – ihr geht zum festen Punkt, die Klasse ist da, und auf dem Weg liegen drei Mikromomente. **Der erste Rundgang** während des Do Now – eure Route aus Woche 12 kann Beziehungshaltepunkte haben, nicht nur Diagnose-Stopps. **Der Türmoment am Ende** – die Verabschiedung im Stehen hat einen Rand, an dem ein Satz Platz hat.*
+> *Baustein zwei: **Voice Equity.** Gehört zu werden IST gesehen zu werden – und euer Cold Call aus Woche 21 ist, richtig gestreut, ein Zugehörigkeits-Werkzeug: Er sagt jedem im Raum ‚Deine Stimme ist hier eingeplant.' Die Heatmap zeigt euch, wessen Stimme seit Wochen fehlt.*
+> *Baustein drei: **Vertrauen = Zusagen halten.** Unspektakulär und fundamental: ‚Ich komme gleich zu dir' – und ihr kommt. ‚Ich schaue mir das an' – und ihr berichtet zurück. ‚Ich komme auf dich zurück', No Opt Out – und ihr tut es. Jede gehaltene Kleinzusage ist eine Einzahlung auf dem Konto aus Woche 6; jede vergessene ist ein stilles Dementi: So wichtig warst du nicht. Wer sich Zusagen nicht merken kann – Klemmbrett. Im Ernst.*
+> *Baustein vier: **Klassen-Identität.** Rituale, gemeinsame Referenzen, der Insider-Witz, das ‚so machen WIR das hier' – ihr baut seit Woche 2 daran, jede Routine ist auch ein Wir-Signal. Klassenrat und Klassenleiterstunde sind die institutionalisierten Orte dafür, wo es sie gibt – nutzt sie, statt sie zu Orga-Restezeit verkommen zu lassen."*
 
-> *„Treiber 3, und jetzt wird es sozial: **Nudge Norms.** Woche 1, Modell 4: Menschen tun, was ihre Gruppe normal findet – Jugendliche in Hochpotenz. Die Frage ist nie OB Normen wirken, sondern WELCHE gerade sichtbar sind. Und hier kommt der Satz, der wehtut:*
-> *​**Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Woche 7, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
-> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr habt es letzte Woche gelernt – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe zweiundzwanzig laufende Stifte' macht hörbar, was sonst lautlos bliebe.*
-> *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kollegen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
+### 3c · Sek-II-Realismus (Min. 26–28)
+> *„Und der Einwand aus der Oberstufe: ‚Meine Kursschüler wollen keine Beziehung, die wollen ihr Abitur.' Halb richtig – und die richtige Hälfte ist wichtig: Sek-II-Belonging ist nicht Kumpelhaftigkeit, kein Interesse-Theater, kein Jugendslang. Es ist: **ernst genommen werden.** Namen kennen und benutzen, auch im 25er-Kurs. Beiträge erinnern – ‚Sie hatten letzte Woche eingewandt, dass…' ist in der Oberstufe der stärkste Mikromoment überhaupt: Er beweist, dass Gesagtes hier gespeichert wird. Zusagen halten, auf den Punkt. Fachlicher Respekt IST die Beziehungsform der Oberstufe."*
 
-## Phase 5 · Name it (Minute 32–35)
+## Phase 4 · Name it (Minute 28–31)
 
-**Kosten-Frage** (bei K-Engpass): *„Welche meiner Routinen erreicht diesen Schüler noch nicht?"* **Normen-Regel:** *„Beschreibe nie das Fehlverhalten der Vielen – plakatiere die Mehrheit, die liefert (wenn wahr)."* **Sichtbarkeits-Trio:** Show Call · konkrete Peer-Anerkennung · arbeitende Mehrheit aussprechen. Merksatz: *„Die Norm ist, was die Bühne bekommt."*
+**Die vier Bausteine:** Mikromomente (in vorhandene Fenster!) · Voice Equity (Heatmap-gesteuert) · Zusagen halten (notieren!) · Wir-Signale. **Die drei Zeitfenster:** Minute vor dem Ritual · erster Rundgang · Türmoment. **Sek-II-Formel:** Ernst genommen werden schlägt Nettsein. Merksatz: *„Unsichtbarkeit ist der stillste Motivationskiller – und der billigste zu beheben."*
 
-## Phase 6 · Do it (Minute 35–52)
+## Phase 5 · Do it (Minute 31–52)
 
-### Runde 1 · Sprach-Audit (Min. 35–45)
-Tandems, 10 Karten (Anhang 1.2): Negativ-Norm-Aussage laut lesen → die versteckte Werbebotschaft benennen („Was plakatiert dieser Satz?") → Positiv-Norm-Umbau laut sprechen. Tempo-Format ab Karte 5 (der Umbau soll schneller werden als der Frust-Reflex). Qualitätsbremse: *„Wahrheits-Check – und kein Zucker: ‚Toll, dass wenigstens ein paar…' ist Ironie-Gift, Woche 7 gilt."*
+### Runde 1 · Unsichtbarkeits-Inventur (Min. 31–43, Einzelarbeit, diskret)
+Auf dem mitgebrachten Sitzplan jeden Schüler mit der Ampel markieren (Anhang 1.2): **Grün** – ich weiß Persönliches, wir hatten diese Woche echten Kontakt. **Gelb** – ich kenne Namen und Leistungsstand, mehr nicht. **Rot** – ehrlich: Über diesen Menschen weiß ich fast nichts, letzter persönlicher Kontakt nicht erinnerbar. Danach 2 Prüffragen still beantworten: Wo sitzen die Roten (Muster: hinten? Fensterreihe? – Abgleich mit der W21-Heatmap!)? Und: Welche Gruppe bekommt meine Mikromomente bisher – die, die sie braucht, oder die, die sie einfordert? *(Moderation kündigt an: Der Plan bleibt beim TN – niemand muss Zahlen nennen; aber:)* Blitzlicht freiwillig: *„Wer mag, ein Satz: Was hat euch überrascht?"* [Fast immer: „Wie viele Rote es sind."]
 
-### Runde 2 · Sichtbarkeits-Plan (Min. 45–52)
-Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen:
+### Runde 2 · Mikromoment-Plan (Min. 43–52)
+Vorlage (Anhang 1.3): Die **drei rötesten** Schüler auswählen; pro Person: ein Anknüpfungspunkt (was weiß ich doch? was könnte ich diese Woche ERFAHREN?), das Zeitfenster (welches der drei), der erste Satz (wörtlich – Echtheits-Check im Tandem: *„Würdest du diesen Satz wirklich sagen – oder klingt er nach Beziehungs-Formular?"*). Plus: Zusagen-System festlegen (wo notiere ich ab jetzt jede Kleinzusage?).
 
-1. Welche erwünschte Norm ist real vorhanden, aber unsichtbar?
-2. Welche Bühne bekommt sie diese Woche – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)?
-3. Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an?
+## Phase 6 · Action Step (Minute 52–58)
 
-Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
-
-## Phase 7 · Action Step & Exit (Minute 52–60)
-
-**Standard:** *„Ich ersetze eine Woche lang JEDE Negativ-Norm-Aussage durch eine wahre Positiv-Norm-Aussage – Strichliste auf dem Pult (ertappt/umgebaut). Zusätzlich setze ich zwei Punkte meines Sichtbarkeits-Plans um."*
+**Standard:** *„Ich habe meine drei unsichtbarsten Schüler identifiziert. Jeder bekommt ab Montag EINEN echten Mikro-Kontakt pro Tag – drei Sekunden reichen, Fenster steht im Plan. Zusätzlich notiere ich jede Zusage und halte sie. Freitag: Was ist beobachtbar anders – bei ihnen oder bei mir?"*
 
 **Alternativen:**
 
-1. Bühnen-Woche: jeden Tag EINE konkrete Peer-Anerkennung für Anstrengung (nicht Leistung!).
-2. Konsistenz-Pilot: das Gespräch mit dem einen Kollegen führen und die gemeinsame Formulierung vereinbaren.
+1. Voice-Equity-Woche: die roten Zonen der Heatmap bekommen täglich zwei warme Cold Calls (niedrigschwellig starten!).
+2. Sek-II-Variante: Beiträge-Gedächtnis trainieren – pro Kursstunde einen Rückbezug auf eine frühere Schüleräußerung („Sie hatten eingewandt…").
 
-> **Ausblick:** *„Nächste Woche Treiber 4 – der stillste und vielleicht wichtigste: Zugehörigkeit. Warum Schüler sich für Räume anstrengen, in denen sie gesehen werden – und was die Minute zwischen eurem Betreten des Raums und dem Begrüßungsritual damit zu tun hat. Bringt eure Sitzpläne mit."* **(Vorab-Auftrag auf die Exit-Karte: Sitzplan der schwierigsten Klasse!)**
+> **Ausblick:** *„Nächste Woche der letzte Treiber – Buy-in – und dann wird es ernst: die harten Fälle. Was tun, wenn die Leiter nicht reicht: ein Schüler muss den Platz wechseln, eine Situation eskaliert, ihr braucht Hilfe von außen. Es wird die rollenspiel-intensivste Sitzung seit Block 1. Und merkt euch für nächste Woche einen Satz: Hilfe holen ist Handwerk, kein Versagen."*
 
-**Exit-Karte:** Standard + Sitzplan-Erinnerung.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
 # 4. Coaching-Woche 28 (Handreichung)
 
-- **Hospitationsfokus – das Normen-Protokoll:** 15 Minuten lang jede Norm-Kommunikation wörtlich mitschreiben und kategorisieren: Negativ-Norm / Positiv-Norm / neutral. Zusätzlich: Wer bekam die Bühne (Störung oder Anstrengung)? Strichliste.
-- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt (a) beobachtet worden?
-- **Verzahnung:** Beim W27-Fall nachfassen: Falls K-Engpass diagnostiziert war – die Kosten-Frage stellen („Welche Routine erreicht ihn nicht?") und eine Routinen-Reparatur als Maßnahme ergänzen.
-- **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit") oder das Verhalten erst per Routine aufbauen (W2/W3), DANN plakatieren.
+- **Hospitationsfokus – die Beziehungs-Heatmap:** Coach protokolliert eine Stunde lang jeden persönlichen Kontakt der Lehrkraft (Name + Art: fachlich/persönlich/korrigierend) auf dem Sitzplan – die Beziehungs-Schicht zur W21-Heatmap.
+- **Auswertungsgespräch:** Coach-Heatmap NEBEN die Selbst-Inventur des TN legen – die Deckung (und die Abweichungen: Selbstbild vs. beobachtet) ist das Gesprächsmaterial. Mikromoment-Plan konkretisieren; ersten Satz einmal laut sprechen lassen (Echtheits-Check).
+- **Diskretion:** Die Inventur ist ein Selbstreflexions-Werkzeug – sie verlässt das Coaching nicht; keine Ampel-Listen in Konferenzen.
+- **Verzahnung:** W26-Fall checken – ist er rot in der Inventur? (Häufig ja: E-Engpass und Unsichtbarkeit korrelieren.) Dann Mikromomente ALS Teil der EVK-Maßnahme rahmen.
+- **Red Flag:** TN plant „Beziehungsoffensive" mit langen Einzelgesprächen für alle Roten → eindampfen: Drei Sekunden täglich schlagen ein 20-Minuten-Gespräch im Quartal; Nachhaltigkeit vor Intensität. Zweite Red Flag: Mikromomente klingen nach Verhör oder Formular → Echtheit vor Systematik; notfalls mit ehrlicher Neugier starten („Was ich mich bei dir immer frage…").
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Die EVK-Landkarte des Playbooks
-Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit September."
+## 1.1 Handout A: Bausteine + Zeitfenster
+**Vier Bausteine** (Kurzform, siehe Phase 3b) · **Drei Zeitfenster:** vor dem Ritual / erster Rundgang / Türmoment · **Sek-II-Karte:** Namen benutzen · Beiträge erinnern („Sie hatten letzte Woche…") · Zusagen auf den Punkt · fachlicher Respekt als Beziehungsform. Fußzeile: „Drei Sekunden, echt, verteilt – das ist das ganze Geheimnis."
 
-## 1.2 Sprach-Audit-Kartenset (10 Karten; versteckte Werbung → Muster-Umbau kursiv)
-1. „Die Hälfte hat schon wieder keine Hausaufgaben!" *(Werbung: Nicht-Abgabe ist normal)* → *„Über die Hälfte hat sie dabei – von den anderen sehe ich sie morgen. Ich halte nach, ihr kennt mich."*
-2. „Immer dieses Reingerufe bei euch!" *(Reinrufen ist Klassenidentität)* → *„Die meisten warten, bis ihr Name fällt – so machen wir das hier."*
-3. „Keiner hört mehr zu, wenn Mitschüler präsentieren." → *„Ich sehe viele Blicke nach vorn – ich will alle. Lea hat es verdient."*
-4. „In dieser Klasse kommt ja grundsätzlich jeder zu spät." → *„Zweiundzwanzig von euch sitzen um acht arbeitsbereit – das ist unser Standard."*
-5. „Ihr seid die unruhigste 8. die ich je hatte." *(Identitäts-Plakat!)* → *streichen; stattdessen konkret + positiv: „Der Start heute hat 40 Sekunden gedauert – das könnt ihr, das will ich jede Stunde sehen."*
-6. „Wieder haben nur drei Leute den Text gelesen." → *„Wer den Text gelesen hat, ist jetzt klar im Vorteil – und morgen prüfe ich mit dem Starter nach. Fair angekündigt."* *(+ Systemfix: Leseauftrag mit Retrieval koppeln!)*
-7. „Das Niveau der Abgaben wird immer schlechter." → *Show Call der besten Abgabe: „SO sieht der Standard aus – was macht diese Arbeit stark?"*
-8. „Bei Gruppenarbeit arbeitet doch eh nur einer pro Tisch." → *„Tisch drei hat die Rollen sauber verteilt – jeder hat ein Ergebnis im Heft. Genau so."*
-9. „Handys sind das Krebsgeschwür dieser Klasse." → *„Die Regel gilt, und fast alle halten sie – wer nicht, kennt die Konsequenz. Ohne Drama."*
-10. „Niemand meldet sich mehr freiwillig." → *„Ich habe heute vier mutige Erstantworten gehört – Fehler inklusive, so lernen wir hier."*
+## 1.2 Inventur-Anleitung (Ampel-Kriterien)
+**Grün:** Persönliches bekannt + echter Kontakt diese Woche. **Gelb:** Name + Leistungsstand, sonst nichts. **Rot:** letzter persönlicher Kontakt nicht erinnerbar. — Prüffragen: Sitzmuster der Roten? Deckung mit Heatmap-Kaltzonen? Wer bekommt meine Mikromomente bisher – Bedarf oder Lautstärke? — Diskretionshinweis: Dieses Blatt gehört dir. Es ist ein Spiegel, keine Akte.
 
-## 1.3 Handout B: Sichtbarkeits-Plan (Vorlage)
-Vorlage:
-
-1. **Wahre, unsichtbare Norm in meiner Klasse:** … (beobachtbar? ☐)
-2. **Bühne diese Woche:** Show Call am … von … | Peer-Anerkennung: wer, wofür (Anstrengung!): … | Mehrheits-Ansage bei Gelegenheit: …
-3. **Konsistenz-Anstoß:** Kollege/in: … | gemeinsame Formulierung: … | Gespräch am: …
+## 1.3 Mikromoment-Plan (Vorlage, 3 Zeilen)
+Schüler (Initialen) | Was ich weiß / diese Woche erfahren will | Zeitfenster | Mein erster Satz (wörtlich, Echtheits-Check ☐) — Fußfeld: **Mein Zusagen-System:** Ich notiere Zusagen ab jetzt in/auf: … (Klemmbrett/Kalender/Heftrand)
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die EVK-Formel + die Multiplikator-Pointe? *(E × W ÷ K; E=0 → alles null)*
-2. Die teuerste Kosten-Währung? *(Blamage-Risiko)*
-3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? 4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
-5. (Anwendung) Dein Fall zeigt hohe Kosten trotz guter Routinen – welche Kostenart prüfst du zuerst? *(Blamage-Risiko: Fehlerkultur bei IHM angekommen? Wird er ausgelacht?)*
+1. Die Kosten-Frage bei K-Engpass (W27)? *(„Welche meiner Routinen erreicht diesen Schüler noch nicht?")*
+2. Die Normen-Regel? *(nie Fehlverhalten der Vielen beschreiben; wahre Mehrheit plakatieren)*
+3. Das Sichtbarkeits-Trio? *(Show Call / konkrete Peer-Anerkennung / arbeitende Mehrheit aussprechen)*
+4. Die EVK-Diagnose-Reihenfolge (W26)? *(E prüfen → K senken → W heben)*
+5. (Anwendung) „Ihr seid die faulste Klasse des Jahrgangs" – was ist daran doppelt schädlich? *(Negativ-Norm + Identitäts-Plakat; streichen, kleinste wahre Mehrheit finden oder Verhalten erst bauen)*
 
 ## Teil 2: Modul-Quiz Woche 28 (für SPA/Folgewoche)
-**F1.** „Die Hälfte hat schon wieder keine Hausaufgaben!" bewirkt vor allem…
-a) sozialen Druck auf die Säumigen ✗ *(die Absicht)*
-b) Normalisierung: Nicht-Abgabe wird als üblich plakatiert ✓
-c) nichts ✗
-d) Respekt vor der Ehrlichkeit der Lehrkraft ✗
+**F1.** Die unsichtbaren Schüler sind meist…
+a) die Störer – sie verstecken sich hinter Lärm ✗
+b) die stillen Funktionierenden – sie lösen keinen der drei Kontakt-Trigger aus ✓
+c) die Schwächsten ✗ *(teilweise – aber nicht das Kriterium)*
+d) ein Mythos – Lehrkräfte sehen alle ✗
 
-**F2.** Routinen wirken motivational, weil sie…
-a) Disziplin erzwingen ✗ *(die Law-and-Order-Lesart)*
-b) die Kosten senken: Orientierung, Entzifferung, Blamage-Risiko ✓
-c) Zeit sparen ✗ *(teilrichtig – nicht der EVK-Kern)*
-d) den Wert des Unterrichts erhöhen ✗ *(falscher Formel-Faktor!)*
+**F2.** Belonging wirkt in der EVK-Formel…
+a) nur auf den Wert ✗
+b) doppelt: hebt den Wert UND senkt die Kosten (Fehler-Risiko in der eigenen Gruppe) ✓
+c) nur auf die Erwartung ✗
+d) gar nicht – Beziehung ist kein Formel-Faktor ✗
 
-**F3.** Positiv-Norm-Kommunikation setzt voraus, dass…
-a) man notfalls etwas übertreibt – der Zweck heiligt ✗ *(fliegt auf)*
-b) die plakatierte Mehrheit WAHR und beobachtbar ist ✓
-c) die Klasse jung genug ist ✗
-d) man vorher straft ✗
+**F3.** Der stärkste Sek-II-Mikromoment:
+a) Jugendslang und Meme-Kenntnis ✗ *(das Anbiederungs-Missverständnis)*
+b) der erinnerte Beitrag: „Sie hatten letzte Woche eingewandt, dass…" ✓
+c) Smalltalk über Partys ✗
+d) Notennachlass ✗
 
-**F4.** Warum ist Show Call eine „Normen-Maschine"?
-a) weil er Fehler bestraft ✗
-b) jede gezeigte Arbeit definiert öffentlich, was „normal gut" hier heißt ✓
-c) weil Technik beeindruckt ✗
-d) ist er nicht – er ist reines Feedback ✗ *(die halbe Wahrheit aus W25)*
+**F4.** „Ich komme gleich zu dir" – und du vergisst es. Aus Schülersicht:
+a) menschlich, passiert, egal ✗ *(aus Lehrersicht wahr – aus Schülersicht nicht)*
+b) ein stilles Dementi: so wichtig war ich nicht ✓
+c) ein Grund zur Beschwerde ✗
+d) unbemerkt ✗
 
-**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte" ist besonders schädlich, weil…
-a) es unhöflich ist ✗
-b) es eine IDENTITÄT plakatiert – Normen kleben an Identitäten fester als an Verhalten ✓
-c) Eltern es erfahren könnten ✗
-d) Vergleiche verboten sind ✗
+**F5.** Beziehungsarbeit für die drei Unsichtbarsten heißt vor allem…
+a) je ein langes Einzelgespräch pro Quartal ✗ *(die Offensive-Falle)*
+b) täglich drei echte Sekunden, in vorhandenen Zeitfenstern ✓
+c) bessere Noten als Vertrauensbeweis ✗
+d) die Eltern anrufen ✗
 
-**F6 (Transfer, Freitext):** Baue Karte 6 um („Wieder haben nur drei den Text gelesen") – Positiv-Norm-Satz PLUS der Systemfix, der das Problem an der Wurzel packt. *(Muster: Norm-Satz siehe Karte; Systemfix: Leseaufträge mit angekündigtem Retrieval-Starter koppeln [W18/19] – Lesen bekommt sichtbare Konsequenz statt Appell.)*
+**F6 (Transfer, Freitext):** Dein rötester Schüler sitzt hinten links, Heatmap-Kaltzone, du weißt nur: Er zeichnet ständig. Baue seinen Mikromoment-Plan: Anknüpfung, Fenster, erster Satz wörtlich. *(Muster: Anknüpfung Zeichnen [ehrliche Neugier!]; Fenster: erster Rundgang beim Do Now; Satz: „Ich seh dich ständig zeichnen – zeigst du mir irgendwann mal was davon?" – Echtheit vor Technik; KEIN „Das gehört jetzt aber weggepackt" im selben Atemzug.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 28"
 
-1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Jahres schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
-2. **See it (4 Min.):** Die EVK-Landkarte als interaktive Grafik: Block-1-Werkzeuge antippen → Kosten-Position leuchtet und der Formel-Nenner schrumpft sichtbar.
-3. **Name it (3 Min.):** Normen-Regel + Sichtbarkeits-Trio als Karten; „Was plakatiert dieser Satz?"-Vorschau mit 3 Beispielen.
-4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Umformulierungs-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".
-5. **Sichtbarkeits-Planer:** die Vorlage digital mit Wochen-Erinnerungen; Show-Call-Verzahnung (Modul-25-Dreischritt wird eingeblendet).
-6. **Konsistenz-Baustein:** Gesprächsleitfaden-Karte für den Kollegen-Anstoß („Als Frage rahmen, nicht als Belehrung") – Vorgeschmack auf die Erwachsenen-Gespräche in Modul 31.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Doppel-Strichliste (ertappt/umgebaut) + Sichtbarkeits-Plan-Checkboxen.
+1. **Hook (3 Min.):** Das Gedankenexperiment digital: zwei Orte erinnern, je ein Stichwort eintippen → App clustert (anonym) mit den Kohorten-Antworten: „Fast alles davon ist Belonging."
+2. **See it (4 Min.):** Die drei Kontakt-Trigger als Animation (Störer/Starke/Fragende bekommen Pfeile – die Stillen bleiben grau); die drei Zeitfenster als markierte Zonen auf der bekannten Stundenstruktur-Grafik.
+3. **Name it (3 Min.):** Vier-Bausteine-Karten + Sek-II-Karte; Mythos-Swipe („Belonging heißt Kumpel sein" ✗ etc.).
+4. **Do it – Inventur-Tool (9 Min., Kern-Engine!):** Sitzplan-Editor (aus Modul 12/21/23 wiederverwendet!) mit Ampel-Markierung; App legt automatisch die Modul-21-Heatmap-Daten als Vergleichsschicht darüber (Deckungs-Analyse: „3 deiner Roten sind auch Beteiligungs-Kaltzonen"); ALLE Daten bleiben lokal – prominenter Datenschutz-Hinweis.
+5. **Mikromoment-Planer:** die 3-Zeilen-Vorlage mit Echtheits-Check-Prompt und Tages-Erinnerung; der Modul-26-Fall wird automatisch eingeblendet, falls gespeichert („Dein EVK-Fall – auch rot?").
+6. **Zusagen-Tracker (Mini-Feature):** Zusage notieren → Erledigt-Haken; offene Zusagen älter als 2 Tage werden rot.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F4/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „3 × 3 Sekunden täglich" mit Freitags-Reflexionsfeld.

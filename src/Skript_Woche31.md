@@ -1,5 +1,5 @@
-# Skript Woche 31: „Elternarbeit ohne Angst + Konsolidierung Block 5"
-## 60-Minuten-Sitzung · Block 5 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 31: „Lean Lesson Planning – Wirkung pro Minute"
+## 60-Minuten-Sitzung · Block 6 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,159 +7,148 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie mache ich Eltern zu Verbündeten – auch die schwierigen? |
-| **Kernquellen** | Lovell/Dowley (Elternkommunikation, Bank Positivity R-Prinzip auf Erwachsene übertragen); Verzahnung: W.I.N. (W8), Beziehungskonto (W7), Grenz-Formel (W5/W30), deutsche Schulformate |
-| **Funktion im Jahr** | Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Jahres auf Erwachsene – die große Entlastungs-Pointe: Die TN KÖNNEN die Struktur längst. Positiv-Kontakte als Konto-Logik; der Gesprächs-Vierschritt als W.I.N. für Erwachsene; die Grenz-Formel für Angriffe. Deutsche Spezifika (Sprechtag, Dokumentationspflicht, Nie-allein-Regel) verankern es im realen System. Block-5-Quiz + 5-Treiber-Poster + Matrix-Update. |
-| **Lernziele** | Die TN können:<br>1. proaktive Positiv-Kontakte als System etablieren (erster Kontakt nie Problemkontakt),<br>2. ein Problemgespräch mit dem Vierschritt führen (gemeinsames Ziel → Fakten → Zuhören → Schritte + Termin),<br>3. Angriffe mit der Grenz-Formel beantworten (Verständnis + Sache + Angebot) und wissen, wann sie nicht mehr allein sprechen,<br>4. die deutschen Formate bedienen (Sprechtag effizient, Gesprächsnotiz als Standard). |
-| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Eltern-Rollenspiele (3 Rollenkarten) + Konsolidierungs-Ritual. |
+| **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
+| **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W9), Stundenarchitektur-Template (W13), Rosenshine-Audit (W8) |
+| **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das W13-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit W8-Audit als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
+| **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
+| **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Dreiergruppen-Inseln mit Abstand (Gesprächs-Rollenspiele); Poster-Wand. **Material:**
-- [ ] Block-5-Quiz, 15 Fragen (Anhang 2, Teil 1) + Lösungsfolie
-- [ ] Handout A: Kontakt-System + Gesprächs-Vierschritt + Grenz-Formel (Anhang 1.1)
-- [ ] Eltern-Rollenkarten, 3 Karten mit Regieanweisungen (Anhang 1.2)
-- [ ] Gesprächsnotiz-Vorlage (Anhang 1.3)
-- [ ] 5-Treiber-Poster (vorbereitet, Anhang 1.4) + Kompetenzmatrix-Bögen
+**Raum:** Einzelarbeitsplätze, Timer groß und zentral. **Vorab-Auftrag (W30-Exit-Karte):** ehrliche durchschnittliche Planungszeit pro Einzelstunde mitbringen.
+
+**Material (Checkliste):**
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Handout A: Lean-Einseiter (= W13-Template, verschlankt; Anhang 1.1), 3 Kopien pro TN
+- [ ] Handout B: Die Fragenfolge + Repertoire-Blanko (Anhang 1.2)
+- [ ] Audit-Raster aus W8 (liegt im Playbook – Erinnerung!)
+- [ ] Taschenrechner-Folie für die Eingangsrechnung
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
+## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Block-5-Quiz (Minute 2–10)
-15 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Fünf Treiber, drei Ernstfall-Werkzeuge – und gleich seht ihr: Das heutige Thema ist zu achtzig Prozent Wiederholung in neuer Verpackung."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · Input: Eltern als Verbündete (Minute 10–26)
+## Phase 2 · See it: Die Rechnung (Minute 8–15)
 
-### 2a · Das Konto bei den Eltern (Min. 10–15)
 > **Moderationstext:**
-> *„Handzeichen, ehrlich: Wer hat beim Wort ‚Elternabend' oder beim Anblick einer unbekannten Elternmail ein flaues Gefühl? … Willkommen im Club – und jetzt die Analyse, warum. Für die meisten Eltern gilt: Ein Anruf aus der Schule bedeutet Ärger. Jahrzehntelang war der einzige Kontakt der Problemkontakt. Das heißt: Euer Konto bei diesen Eltern – ihr kennt die Logik aus Woche 7 – ist bei Erstkontakt nicht auf null. Es ist im Minus, ererbt aus zwanzig Jahren Schulerfahrung dieser Eltern als Schüler und als Eltern.*
-> *Die Konsequenz ist dieselbe wie bei Schülern: **Erst einzahlen, dann abheben. Der erste Kontakt ist NIE der Problemkontakt.** Praktisch: In den ersten Wochen mit einer neuen Lerngruppe – oder ab jetzt, das Fenster ist immer offen – bekommen gezielt die Eltern einen Anruf oder Zwei-Zeilen-Kontakt, deren Kinder voraussichtlich später Gesprächsbedarf erzeugen: ‚Frau Yilmaz, zwei Minuten nur – Emre hat heute in der Gruppenarbeit den Laden zusammengehalten, das wollte ich Ihnen erzählt haben. Schönen Abend.' Neunzig Sekunden. Die Wirkung ist kaum zu überschätzen: Beim ERSTEN Problemanruf sind Sie dann nicht ‚die Schule, die sich nur meldet, wenn was ist' – Sie sind die Lehrkraft, die auch das Gute sieht. Zwei solcher Kontakte pro Woche, System statt Stimmung: Das ist der ganze Trick. Und er ist übrigens ein Precise-Praise-Transfer: konkret, verdient, aufs Vorgehen."*
+> *„Zückt eure Zahl: Planungszeit pro Einzelstunde, ehrlich. Boards hoch."* [Werte sammeln, Median grob an die Tafel – typisch bei Quereinsteigern: 45–90 Min.]
+> *„Rechnen wir mit dem Median: [z. B. 60] Minuten pro Stunde, bei sagen wir 14 zu planenden Stunden pro Woche… sind 14 Stunden Planung wöchentlich. Auf ein Schuljahr: über 500 Zeitstunden – mehr als drei Monate Vollzeitarbeit, nur fürs Planen. Und jetzt die doppelte Provokation von McCrea:*
+> *Erstens: **Planungszeit ist kein Qualitätsbeweis.** Die Korrelation zwischen Planungsdauer und Stundenwirkung ist erschreckend schwach – ihr wisst seit Woche 9, warum: Die meiste Zeit fließt in Aktivitäten-Suche und Material-Kosmetik, also in die Todsünde Nummer eins. Die Wirkung einer Stunde entsteht in den ersten zehn Planungsminuten – Ziel, Nachweis, Kernaufgabe – der Rest ist häufig Beruhigungsarbeit fürs eigene Gewissen.*
+> *Zweitens, und das ist der befreiende Satz des Tages: **Eine 80-Prozent-Stunde, nachhaltig jede Woche gehalten, schlägt die 100-Prozent-Stunde, die euch bis Weihnachten verbrennt.** Lean heißt nicht schlampig – Lean heißt: Die Ressource Lehrkraft ist Teil der Rechnung. Ihr plant nicht nur Stunden, ihr plant ein BERUFSLEBEN. Und die Währung heißt: **Wirkung pro Minute** – pro Schülerminute UND pro Planungsminute."*
 
-### 2b · Der Vierschritt = W.I.N. für Erwachsene (Min. 15–21)
-> *„Und wenn das Problemgespräch kommt? Dann kommt die Entlastungs-Pointe des Tages: **Ihr könnt die Struktur seit Woche 8.** Der Gesprächs-Vierschritt ist das W.I.N. für Erwachsene:*
-> *​**Schritt eins: das gemeinsame Ziel zuerst.** ‚Wir wollen beide, dass Emre gut durch dieses Jahr kommt' – dieser eine Satz verwandelt die Sitzordnung: nicht Lehrerin gegen Mutter, sondern zwei Erwachsene auf derselben Seite des Tisches, das Problem gegenüber.*
-> *​**Schritt zwei: Fakten, keine Wertungen.** Ihr kennt die Regel aus der Dokumentation letzter Woche – hier zahlt sie sich aus: ‚Emre hat in drei von vier Stunden diese Woche das Material nicht dabei' ist besprechbar. ‚Emre ist unzuverlässig' ist ein Angriff auf das Kind – und Eltern verteidigen ihr Kind, das ist ihr Job.*
-> *​**Schritt drei: zuhören.** Das W von W.I.N.: ‚Wie erleben Sie das zu Hause?' – und dann wirklich hören. Regelmäßig erfahrt ihr hier die fehlende Hälfte: die Trennung, die Nachtschichten, den kranken Bruder. Nicht als Entschuldigung – als Lagebild.*
-> *​**Schritt vier: konkrete nächste Schritte, beidseitig, mit Termin.** ‚Sie schauen abends kurz auf die Materialliste, ich gebe Emre das Zeichen am Stundenende – und wir telefonieren in zwei Wochen, Mittwoch?' Ein Gespräch ohne vereinbarten Folgekontakt ist ein Gespräch ohne Ergebnis."*
+## Phase 3 · Input: Die Lean-Mechanik (Minute 15–27)
 
-### 2c · Konfliktfälle + deutsche Formate (Min. 21–26)
-> *„Und die harten Fälle. Der fordernde Vater, der eure Kompetenz anzweifelt – ‚Mit dem richtigen Lehrer hätte mein Sohn eine Zwei': Hier gilt die **Grenz-Formel**, ihr kennt ihre Verwandten aus Woche 5 und 30: **Verständnis + Sache + Angebot.** ‚Ich verstehe, dass Sie das Beste für Ihren Sohn wollen (Verständnis). Die Bewertung folgt den Kriterien, die ich Ihnen gern im Detail zeige – hier ist der Erwartungshorizont (Sache). Lassen Sie uns darüber sprechen, wie wir IHN unterstützen (Angebot – und Rückkehr zum gemeinsamen Ziel).' Keine Rechtfertigungsspirale, keine Gegenangriffe – Anker, formales Register, die Formel.*
-> *Und drei deutsche Systemregeln: **Der Sprechtag** ist kein Ort für Konfliktgespräche – zehn Minuten im Takt sind für Rückmeldung gebaut, nicht für Klärung; heikle Fälle bekommen einen eigenen Termin (‚Dafür nehme ich mir richtig Zeit – passt Ihnen Donnerstag?'). **Die Gesprächsnotiz** ist Standard, nicht Misstrauen: Datum, Anwesende, Vereinbarungen, Termin – zwei Minuten nach jedem Gespräch; bei Konfliktpotenzial ist sie euer Schutz und die Grundlage des Folgetermins. Und: **In eskalierte Gespräche geht ihr nie allein** – Klassenleitung, Stufenleitung oder Schulleitung sitzt mit am Tisch; das ist dieselbe Regel wie letzte Woche: Struktur nutzen ist Handwerk. Als Quereinsteiger noch ein Zusatz: Der Satz ‚Das kläre ich und melde mich bis Freitag' ist IMMER erlaubt – niemand muss Schulrecht aus der Hüfte beantworten, und eine gehaltene Rückmelde-Zusage ist eine Einzahlung."*
+### 3a · Die erzwungene Fragenfolge (Min. 15–21)
+> *„Das Werkzeug ist eine REIHENFOLGE, und sie wird erzwungen – denn der Aktivitäten-Reflex ist stark: **Frage eins: Wohin?** Zwei bis drei Meilensteine – Woche 9, fünf Minuten, ihr könnt das im Schlaf. **Frage zwei: Woran erkenne ich es?** Exit-Ticket-Aufgabe JETZT festlegen – nicht am Ende der Planung, sondern als zweiter Schritt; wer den Nachweis früh baut, plant automatisch auf ihn zu. **Frage drei: Wie?** JETZT erst die Aktivitäten – und hier kommt der große Zeitfresser-Killer: Ihr sucht nicht, ihr WÄHLT. Aus eurem Repertoire, dazu gleich. Die Architektur steht ohnehin: Do Now, I do mit Falle, We do mit Treppe, You do mit Route, Ticket – Woche 13, euer Template. Planen heißt ab jetzt: das Template mit Inhalt füllen, nicht das Rad neu erfinden. **Frage vier: Was kommt zurück?** Der Blick auf gestern: Welche Ticket-Konsequenz, welcher Reteach-Baustein gehört in diese Stunde (Woche 25)? Und welcher Altstoff wandert in Starter und Übungsset (Woche 18)? Diese Frage kostet eine Minute und ist der Unterschied zwischen Stundenreihe und Lernstrecke.*
+> *Merkt euch die Reihenfolge als Prüfregel: **Wer bei ‚Wie?' anfängt, plant Beschäftigung. Wer bei ‚Wohin?' anfängt, plant Lernen.**"*
 
-## Phase 3 · Name it (Minute 26–29)
+### 3b · Efficient Activities & Repertoire (Min. 21–27)
+> *„Zum Aktivitäten-WÄHLEN: McCreas Kriterium heißt **Efficient Activities** – maximale Denkarbeit pro Vorbereitungs- UND Durchführungsminute. Der Prüfblick auf jede Format-Idee: Wie viel Bastelzeit kostet sie MICH? Wie viel Organisationszeit kostet sie die STUNDE? Und wie viel echtes Denken erzeugt sie – Röntgen-Frage, Woche 16? Das Gruppenpuzzle mit laminierten Rollenkarten kann diese Prüfung bestehen – meistens verliert es gegen: gute Aufgabe, Everybody Writes, Turn and Talk, Ernte. Unspektakulär ist das neue Effizient.*
+> *Und damit das Wählen schnell geht: **das Repertoire.** Acht bis zehn Formate, die ihr und eure Klassen im Schlaf beherrschen – euer Jahr hat sie geliefert: Do Now 3-2-1, Whiteboard-Blitz, Everybody Writes, Turn and Talk mit Ernte, Fading-Treppe, Show Call, Brain Dump, Fragenfächer, kumulatives Übungsset, Exit Ticket. Das ist keine Einfalls-Armut – das ist Profi-Logik: Ein Koch mit zehn perfekten Grundtechniken schlägt den mit hundert halben Rezepten. Neue Formate kommen dazu – einzeln, eingeführt wie eine Routine (Woche 2), nicht als Dauerfeuerwerk. Die Abwechslung, die zählt, steckt im INHALT, nicht im Format – im Gegenteil: Formatkonstanz senkt die Kosten, Woche 27 lässt grüßen."*
 
-**Kontakt-System:** erster Kontakt nie Problemkontakt · 2 Positiv-Kontakte/Woche · 90 Sekunden reichen. **Vierschritt:** gemeinsames Ziel → Fakten (keine Wertungen) → zuhören → Schritte beidseitig + Termin. **Grenz-Formel:** Verständnis + Sache + Angebot. **Systemregeln:** Sprechtag ≠ Konfliktort · Gesprächsnotiz immer · eskaliert nie allein · „Ich melde mich bis Freitag" ist erlaubt. Merksatz: *„Gleiche Seite des Tisches – das Problem sitzt gegenüber."*
+## Phase 4 · Name it (Minute 27–30)
 
-## Phase 4 · Do it: Eltern-Rollenspiele (Minute 29–48)
+**Lean-Mindset:** Wirkung pro Minute · 80 % nachhaltig schlägt 100 % ausbrennend · Planungszeit ist Budget. **Die Fragenfolge:** Wohin? → Woran erkenne ich es? → Wie? (aus dem Repertoire!) → Was kommt zurück? **Prüfregel:** Wer bei „Wie?" anfängt, plant Beschäftigung. **Zeitziel:** Einzelstunde auf dem Einseiter in ≤ 20 Minuten. Merksatz: *„Zehn Minuten Ziel schlagen sechzig Minuten Material."*
 
-Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung), Rollenkarten in Steigerung (Anhang 1.2): Runde 1 „besorgt", Runde 2 „fordernd", Runde 3 „schwer erreichbar" (Telefon-Setting: Rücken an Rücken!). Rollenwechsel – jeder ist einmal Lehrkraft.
+## Phase 5 · Do it: Das Planungs-Wettmessen (Minute 30–52)
 
-**Beobachter-Checkfragen:** Kam das gemeinsame Ziel im ersten Satz? Fakten oder Wertungen? Wurde echt zugehört (Schritt 3 vor Schritt 4)? Endete es mit beidseitigen Schritten + Termin? Bei Karte 2: Grenz-Formel statt Rechtfertigungsspirale?
+### Runde 1 · Die 20-Minuten-Planung (Min. 30–50, Timer sichtbar!)
+> *„Jetzt der Beweis am eigenen Leib: Ihr plant JETZT eine echte Stunde der kommenden Woche – auf dem Lean-Einseiter, in der Fragenfolge, mit Timer. Zwanzig Minuten, keine Sekunde mehr. Regeln: Erst ‚Wohin' und ‚Woran' – ich rufe nach sieben Minuten einen Zwischenstand: Wer dann noch kein Ticket notiert hat, hat den Reflex erwischt. Aktivitäten NUR aus dem Repertoire. Material-Kosmetik ist verboten – ein Stichwort genügt, ihr wisst selbst, wie ein Arbeitsblatt aussieht. Los."*
 
-## Phase 5 · Konsolidierung Block 5 (Minute 48–56)
+Moderation ruft Zeitmarken (7 Min.: Ticket-Check / 14 Min.: „Frage vier nicht vergessen – was kommt zurück?") und zirkuliert mit der Standard-Intervention: *„Das ist Material-Feinschliff – Stichwort reicht. Nächste Frage."*
 
-**5-Treiber-Poster (4 Min.):** Gemeinsam an der Wand vervollständigen: Zu jedem Treiber rufen die TN ihr stärkstes Werkzeug + eine eigene Erfahrung der letzten Wochen zu (Moderation notiert) – das Poster bleibt bis Jahresende hängen. Schlusssatz: *„Fünf Treiber, und fast jedes Werkzeug stand schon vorher in eurem Playbook – Motivation war nie ein Extra-Fach. Sie ist die Nebenwirkung von gutem Unterricht in einem Raum, in dem man gesehen wird."*
+### Runde 2 · Der Qualitätsbeweis (Min. 50–52 – bewusst knapp, Vollversion im Coaching)
+Tandem-Blitz: Partner legt das W8-Audit-Raster an den Einseiter – 2 Minuten, fünf Prüffragen im Schnelldurchlauf. *„Und? Hält die 20-Minuten-Stunde dem Audit stand? … Das ist der Punkt der heutigen Sitzung: Sie hält. Nicht weil ihr heute Genies wart – sondern weil ihr seit dreißig Wochen ein System baut, das die Qualität TRÄGT. Die 90 Minuten am Sonntag haben nie die Qualität bezahlt. Sie haben eure Unsicherheit bezahlt – und die ist weg."*
 
-**Kompetenzmatrix (2 Min.):** Feld 8 + freie Felder aktualisieren (an Coach). **Peer-Hospitation 5:** Stand kurz abfragen, Nachbesprechungs-Termine bestätigen.
+## Phase 6 · Action Step (Minute 52–58)
 
-## Phase 6 · Action Step (Minute 56–58)
-
-**Standard:** *„Ich führe diese Woche ZWEI rein positive Elternkontakte (Anruf oder Zwei-Zeiler) – gezielt bei Kindern, bei denen später Gesprächsbedarf wahrscheinlich ist. Konkret, verdient, aufs Vorgehen. Danach: Gesprächsnotiz-Zweizeiler."*
+**Standard:** *„Ich plane diese Woche JEDE Einzelstunde auf dem Lean-Einseiter mit Timer: 20-Minuten-Deckel, Fragenfolge, Repertoire. Freitags notiere ich: reale Durchschnittszeit + ehrliche Antwort auf die Frage ‚War eine dieser Stunden schlechter als meine 90-Minuten-Stunden?'"*
 
 **Alternativen:**
 
-1. Vierschritt-Ernstfall: das anstehende schwierige Elterngespräch mit dem Vierschritt vorbereiten (Skriptbogen) und führen – vorher im Coaching proben.
-2. Sprechtags-Vorbereitung (saisonal): Takt-Plan + Auslagerungs-Sätze für heikle Fälle.
+1. Repertoire-Inventur: die eigenen 8–10 Formate schriftlich fixieren (Blanko) und zwei Lücken benennen, die noch Routine-Einführung brauchen.
+2. Für hartnäckige Überplaner (Coach-Wissen): Abrüstungs-Woche – Planungszeit halbieren (nicht auf 20 Min., nur halbieren) und die Wirkung per Ticket vergleichen.
 
-> **Ausblick:** *„Block 6 beginnt – das Finale, und es gehört EUCH: Wie ihr all das mit vertretbarem Zeitaufwand plant, korrigiert und überlebt. Erste Sitzung: Lean Lesson Planning – oder: Warum eure Sonntagabende ab jetzt kürzer werden. Bringt eure ehrliche Planungszeit pro Stunde mit – wir rechnen."* **(Vorab-Auftrag auf die Exit-Karte: durchschnittliche Planungszeit pro Einzelstunde schätzen + notieren!)**
+> **Ausblick:** *„Nächste Woche heben wir eine Ebene: Wie plant man eine ganze EINHEIT rückwärts – Klassenarbeit zuerst, dann die Stundenkette. Bringt den Termin und das Thema eurer nächsten Klassenarbeit mit."* **(Vorab-Auftrag auf die Exit-Karte!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss):
-
-1. Mein wichtigster Treiber für MEINE Klassen: …
-2. Mein Elternarbeits-Vorsatz: … + Planungszeit-Erinnerung.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + KA-Termin-Erinnerung.
 
 ---
 
 # 4. Coaching-Woche 31 (Handreichung)
 
-- **Kein Hospitationsfokus im Unterricht** – stattdessen:
-  1. **Gesprächsprobe:** Falls ein reales Elterngespräch ansteht → mit dem Vierschritt-Skriptbogen im 1:1 durchspielen (Coach als Elternteil, ruhig fordernd); Grenz-Formel einmal laut.
-  2. **Positiv-Kontakt-Check:** Die zwei Kontakte konkret planen – welche Kinder, welcher Anlass (muss WAHR und konkret sein!), wann.
-- **Peer-Hospitation 5 nachbesprechen** (Bogen W30): Treiber-Landkarte über beide Stunden; die Kohorte würdigen – es war die letzte Gruppenhospitation, die Öffnungskultur ist ein Programmergebnis, das aussprechen.
-- **Meilenstein-Check Block 5:** Matrix Feld 8; EVK-Fall-Bilanz (W27→31): Was hat sich beim eigenen Fall bewegt? (Auch „wenig" ist ein ehrliches, besprechbares Ergebnis – Zeithorizonte von Motivationsarbeit realistisch rahmen.)
-- **Red Flag 1:** TN nutzt den Positiv-Kontakt als trojanisches Pferd („…und wo ich Sie gerade dranhabe: Emre stört auch ständig") → hart trennen: Der Positiv-Kontakt stirbt an jedem Aber. **Red Flag 2:** anstehendes Eskalations-Elterngespräch, TN plant allein hinzugehen → Nie-allein-Regel aktivieren, Begleitung organisieren.
+- **Formatwechsel ab jetzt: das PLANUNGSGESPRÄCH.** Coaching findet diese Woche VOR einer Stunde statt: TN plant live auf dem Einseiter (Timer!), Coach beobachtet nur den PROZESS: Wo hängt die Zeit? (Fast immer: Aktivitäten-Grübeln trotz Repertoire, oder Material-Kosmetik.) Danach 10 Min. Prozess-Feedback + gemeinsames Audit.
+- **Hospitation (verkürzt):** die geplante Stunde ansehen mit EINER Frage: Hat die 20-Minuten-Planung im Raum getragen? (Belege sammeln für das Auswertungsgespräch – die Antwort ist fast immer ja, und sie muss BELEGT werden, sonst glaubt der TN ihr nicht.)
+- **Zahlen-Ehrlichkeit:** Planungszeit-Log der Woche gemeinsam anschauen; Rückfälle normalisieren („Sonntagsangst hat Gewohnheitsrecht – sie geht in Wochen, nicht Tagen").
+- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Audit-Fragen – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (b) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Kontakt-System · Vierschritt · Grenz-Formel — siehe Phase 2/3 (mit dem 90-Sekunden-Muster-Anruf wörtlich; Vierschritt mit je einem Beispielsatz; Grenz-Formel mit dem „richtiger Lehrer"-Beispiel ausformuliert).
+## 1.1 Handout A: Der Lean-Einseiter (verschlanktes W13-Template)
+Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:** Exit-Ticket-Aufgabe (jetzt!): … · **3 WIE:** Do Now (3-2-1, Stichwort): … | I do – Kern + Falle: … | We do – Treppenstufen + Check bei: … | You do – ActiveObs-Fokus: … (Aktivitäten NUR aus dem Repertoire; Stichworte, keine Kosmetik!) · **4 WAS KOMMT ZURÜCK:** Ticket-Konsequenz von gestern: … | Altstoff in Starter/Set: … · Fuß: **Planungszeit real: ___ Min.** *(Rückseite: Zweitexemplar.)*
 
-## 1.2 Eltern-Rollenkarten (Regieanweisungen)
-- **Karte 1 „Besorgt" (Frau Berger):** Dein Sohn (Kl. 7) hat eine Fünf in der Arbeit, du bist beunruhigt, kooperativ, aber voller Fragen und leicht abschweifend (Grundschulzeit, der neue Freundeskreis…). Du beruhigst dich, wenn die Lehrkraft Fakten zeigt und dich nach eurem Zuhause-Erleben FRAGT; du wirst unruhig, wenn sie dich mit Fachbegriffen zutextet. *(Lernziel: Vierschritt sauber, Zuhören vor Lösungen, gemeinsame Schritte klein und machbar.)*
-- **Karte 2 „Fordernd" (Herr Krause):** Deine Tochter (Kl. 10) hat eine Drei, du hältst sie für eine Zwei. Eröffnung: „Mit dem richtigen Lehrer hätte sie die Zwei – Sie sind ja noch neu im Geschäft, nicht wahr?" Du bohrst bei jeder Rechtfertigung nach; du wirst sachlich, sobald die Lehrkraft ruhig bleibt, Kriterien/Erwartungshorizont anbietet und zum gemeinsamen Ziel zurücklenkt. Bei Gegenangriff eskalierst du. *(Lernziel: Anker, Grenz-Formel, keine Rechtfertigungsspirale, Quereinsteiger-Spitze NICHT persönlich nehmen.)*
-- **Karte 3 „Schwer erreichbar" (Emres Mutter, Telefon):** Du bist bei der Arbeit, hast 4 Minuten, klingst knapp bis abweisend („Was ist denn JETZT schon wieder?") – Vorgeschichte: Die Schule hat sich bei Emre noch nie mit etwas Gutem gemeldet. Du taust deutlich auf, wenn das Gespräch mit etwas POSITIVEM über Emre beginnt und die Lehrkraft die Kürze respektiert („Zwei Minuten, versprochen"). *(Lernziel: Konto-Logik in Aktion; Kürze als Respekt; EIN Schritt + Folgetermin statt Themenliste.)*
-
-## 1.3 Gesprächsnotiz-Vorlage
-Datum/Art (Telefon/persönlich/Sprechtag) | Anwesende | Anlass (1 Satz) | Kernpunkte Fakten | Sicht der Eltern (1–2 Sätze) | **Vereinbarte Schritte: Eltern … / Ich … / Termin Folgekontakt: …** | Notiz an mich. *(Fußzeile: 2 Minuten direkt nach dem Gespräch – die Notiz von heute ist das Gedächtnis des Folgetermins.)*
-
-## 1.4 5-Treiber-Poster (Blanko-Struktur)
-Fünf Spalten: **Secure Success · Run Routines · Nudge Norms · Boost Belonging · Build Buy-in** – je drei Zeilen: „Stärkstes Werkzeug" / „EVK-Wirkung (E? W? K?)" / „Erfahrung aus unserer Kohorte". Kopfzeile: Anstrengung = E × W ÷ K.
+## 1.2 Handout B: Fragenfolge + Repertoire-Blanko
+**Fragenfolge als Karte** (mit Prüfregel). **Repertoire-Blanko:** 10 Zeilen: Format | Läuft als Routine? (☐ ja / ☐ braucht Einführung W2-Stil) | Typischer Einsatzort (Phase). Vorbefüllung als Vorschlag: Do Now 3-2-1 · Whiteboard-Blitz · Everybody Writes · Turn & Talk + Ernte · Fading-Treppe · Show Call · Brain Dump · Fragenfächer · kumulatives Set · Exit Ticket. Fußzeile: „Neue Formate: einzeln, eingeführt, nie als Feuerwerk."
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-5-Quiz (15 Fragen; Auswahl mit Lösungen)
-1. Die EVK-Formel + Multiplikator-Pointe? 2. „Unmotiviert" ist …? *(Situationsbeschreibung, keine Eigenschaft)* 3. Die teuerste Kosten-Währung? 4. Das Secure-Success-Besteck (3 von 4)? 5. Talent- vs. Vorgehens-Attribution? 6. Warum sind Routinen Motivationstechnik? 7. Die Normen-Regel? 8. Das Sichtbarkeits-Trio? 9. Die vier Belonging-Bausteine? 10. Die drei Mikromoment-Zeitfenster? 11. Das Buy-in-Trio? 12. Platzwechsel – die drei Regieanweisungen? *(Skript / Gesicht wahren / weiterunterrichten)* 13. Fakt vs. Wertung – je ein Beispiel? 14. Die Anfrage-Struktur? *(Lage – Versucht – Frage)* 15. (Transfer) Ein Schüler mit E≈0 stört massiv, die Klasse kippt. Skizziere die Doppelstrategie. *(Grenze JETZT: Kette ruhig + Reparatur; parallel Secure Success: Vorentlastung/Einstiegserfolge + Mikromomente – Konsequenz UND Erwartungsaufbau, nie nur eins.)*
+## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
+1. Der Gesprächs-Vierschritt (W30)? *(gemeinsames Ziel → Fakten → zuhören → Schritte + Termin)*
+2. Die Grenz-Formel? *(Verständnis + Sache + Angebot)*
+3. Die Kontakt-Regel? *(erster Kontakt nie Problemkontakt; 2 Positiv-Kontakte/Woche)*
+4. Die zwei Planungs-Todsünden (W9)? *(Aktivitätsfokus / Abdeckungsfokus)*
+5. (Anwendung) Woran erkennst du in einer fremden Planung in 10 Sekunden den Aktivitätsfokus? *(Methoden zuerst/detailliert, Ziel vage oder fehlt, kein Nachweis definiert)*
 
 ## Teil 2: Modul-Quiz Woche 31 (für SPA/Folgewoche)
-**F1.** Der erste Kontakt zu Emres Eltern ist idealerweise…
-a) der Anruf nach dem ersten Vorfall – man soll nichts aufschieben ✗ *(klingt konsequent)*
-b) ein 90-Sekunden-Positiv-Kontakt, lange bevor es Probleme gibt ✓
-c) der Elternabend ✗
-d) eine Mail mit den Regeln ✗
+**F1.** 90 Minuten Planung pro Stunde sind…
+a) das Zeichen gewissenhafter Arbeit ✗ *(DER Glaubenssatz – fühlt sich moralisch an)*
+b) meist Aktivitäten-Suche + Kosmetik; die Wirkung entsteht in den ersten 10 Zielminuten ✓
+c) im ersten Jahr Pflicht ✗
+d) zu wenig ✗
 
-**F2.** „Emre ist unzuverlässig" im Elterngespräch bewirkt…
-a) Klarheit ✗
-b) Verteidigung – Eltern schützen ihr Kind; Fakten („3 von 4 Stunden ohne Material") sind besprechbar ✓
-c) Einsicht ✗
-d) nichts ✗
+**F2.** Die richtige Planungsreihenfolge:
+a) spannende Aktivität finden → Ziel dazu formulieren ✗ *(der Reflex)*
+b) Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück? ✓
+c) Material → Ablauf → Ziel ✗
+d) egal, Hauptsache vollständig ✗
 
-**F3.** „Mit dem richtigen Lehrer hätte er eine Zwei." Deine Antwort folgt…
-a) der Rechtfertigungsspirale: Methoden erklären, bis er zufrieden ist ✗ *(der Reflex)*
-b) der Grenz-Formel: Verständnis + Sache (Kriterien zeigen) + Angebot (gemeinsames Ziel) ✓
-c) dem Gegenangriff: elterliche Versäumnisse benennen ✗
-d) dem Rückzug: Gespräch beenden ✗
+**F3.** „80 % genügen" bedeutet:
+a) die fünf Audit-Fragen sind verhandelbar ✗ *(die Schlampigkeits-Fehldeutung)*
+b) Verzicht auf Perfektions-Kosmetik – nachhaltig gehaltene Qualität schlägt ausbrennende Perfektion ✓
+c) 80 % der Stunden gut planen, 20 % improvisieren ✗
+d) Notenschnitt 2,0 reicht ✗
 
-**F4.** Ein Gespräch endet mit „Wir bleiben in Kontakt". Das ist…
-a) ein gutes, offenes Ende ✗ *(höflich und folgenlos)*
-b) ein Gespräch ohne Ergebnis – es fehlen beidseitige Schritte + Termin ✓
-c) rechtlich ausreichend ✗
-d) besser als ein Termin ✗
+**F4.** Ein festes 10-Formate-Repertoire ist…
+a) Einfalls-Armut – Abwechslung motiviert ✗ *(der Abwechslungs-Mythos, W2/W27-Echo)*
+b) Profi-Logik: beherrschte Formate senken Kosten für alle; Abwechslung gehört in den Inhalt ✓
+c) nur für Anfänger ✗
+d) langweilig für die Lehrkraft ✗
 
-**F5.** Der Sprechtag eignet sich für Konfliktklärung…
-a) gut – man hat die Eltern ja da ✗ *(die Gelegenheits-Falle)*
-b) nicht – 10-Minuten-Takt ist für Rückmeldung gebaut; heikle Fälle bekommen einen eigenen Termin ✓
-c) nur mit Schulleitung ✗
-d) nur in der Grundschule ✗
+**F5.** Das Exit Ticket wird festgelegt…
+a) am Ende der Planung, wenn klar ist, was man geschafft hat ✗ *(die Alltagslogik)*
+b) als ZWEITER Planungsschritt – wer den Nachweis früh baut, plant auf ihn zu ✓
+c) spontan in der Stunde ✗
+d) nur bei neuen Themen ✗
 
-**F6 (Transfer, Freitext):** Schreibe deinen 90-Sekunden-Positiv-Anruf für ein Kind deiner Wahl wörtlich – konkret, verdient, aufs Vorgehen, ohne ein einziges „aber". *(Bewertungsanker: konkretes beobachtetes Verhalten, Vorgehens-Attribution, Kürze angekündigt und gehalten, kein trojanisches Pferd.)*
+**F6 (Transfer, Freitext):** Ein Kollege zeigt dir stolz seine 2-Stunden-Planung: aufwendiges Stationenlernen, laminiert, ohne definiertes Ziel oder Ticket. Formuliere deine kollegiale Rückmeldung in drei Sätzen – wertschätzend, mit der Prüfregel. *(Muster: Aufwand/Sorgfalt würdigen → Prüfregel als Frage: „Was sollen sie am Ende können – und woran siehst du es?" → Lean-Angebot: „Die Stationen können bleiben – aber bau zuerst das Ticket, dann weißt du, welche Station du streichen kannst.")*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 31"
 
-1. **Hook (2 Min.):** „Das ererbte Minus": Konto-Animation – der Kontostand bei Eltern startet unter null (Schulerfahrungs-Rückblende); Frage: „Womit beginnst du einzuzahlen?"
-2. **See it (4 Min.):** Der Vierschritt als W.I.N.-Spiegelung (Split-Screen: Schülergespräch W8 / Elterngespräch – dieselbe Struktur leuchtet synchron auf); der 90-Sekunden-Anruf als Audio-Muster.
-3. **Name it (3 Min.):** Vierschritt + Grenz-Formel + Systemregeln als Karten; Fakt/Wertung-Swipe mit Elternsätzen.
-4. **Do it – Elterngespräch-Simulator (9 Min., Engine-Highlight!):** Die 3 Rollenkarten als verzweigte Dialoge (KI-Elternantworten nach Regieanweisung); Karte 2 mit Rechtfertigungsspiralen-Detektor (jede Verteidigung ohne Grenz-Formel lässt Krause nachbohren), Karte 3 als Telefon-UI mit 4-Minuten-Countdown; Scoring: Ziel-Satz zuerst, Fakten, Zuhör-Zug vor Lösungs-Zug, Termin am Ende.
-5. **Positiv-Kontakt-Planer:** 2 Kinder wählen (Vorschlag aus Modul-29-Inventur: die Roten!), Anlass-Feld (Wahrheits-Check), Wochen-Erinnerung; Gesprächsnotiz-Formular mit 2-Minuten-Timer.
-6. **Block-5-Abschluss:** 5-Treiber-Poster als ausfüllbare Matrix mit Export; Block-5-Quiz aus dem Pool; Matrix-Update Feld 8.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 Positiv-Kontakte" mit Kein-Aber-Checkbox.
+1. **Hook (3 Min.):** Der Planungszeit-Rechner: eigene Minuten/Stunde + Wochenstunden eingeben → Jahres-Hochrechnung in Vollzeit-Monaten („Deine drei Monate") – Schwester-Feature des Modul-2-Zeitrechners, bewusst als Wiedererkennung.
+2. **See it (4 Min.):** Die Fragenfolge als geführte Animation; der „Wie-zuerst"-Pfad als Sackgassen-Visualisierung (Aktivität sucht verzweifelt ein Ziel).
+3. **Name it (3 Min.):** Mindset- + Fragenfolge-Karten; Prüfregel prominent.
+4. **Do it – Der 20-Minuten-Planer (10 Min., Kern-Engine des Blocks!):** Lean-Einseiter digital mit ECHTEM Timer und Phasen-Führung (App schaltet die „Wie?"-Felder erst frei, wenn Meilensteine + Ticket ausgefüllt sind – die erzwungene Folge als UI!); Aktivitäten als Dropdown aus dem persönlichen Repertoire; Zwischenrufe bei Min. 7/14 wie in der Sitzung; Abschluss: automatisches Mini-Audit (5 Fragen) + Zeitstempel. Playbook-Export; Wochen-Statistik der Planungszeiten als Verlaufskurve (der Motivations-Graph dieses Moduls!).
+5. **Repertoire-Manager:** die 10 Formate mit Routine-Status; verlinkt je Format auf das zugehörige Modul (Wiederholungs-Schleife durchs Jahr!).
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F4/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „5 Stunden × 20 Minuten" mit Zeit-Log und der Freitagsfrage („War eine schlechter?").

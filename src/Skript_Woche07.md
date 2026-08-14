@@ -1,5 +1,5 @@
-# Skript Woche 7: „Positive Framing, Precise Praise & Warm/Strict"
-## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 7: „Das W.I.N.-Gespräch + Meilenstein 1"
+## 60-Minuten-Sitzung · Block 1 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,22 +7,23 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie korrigiere ich so, dass die Beziehung wächst statt leidet? |
-| **Kernquellen** | Lemov T59 (Positive Framing), T60 (Precise Praise), T61 (Warm/Strict); Lovell/Dowley, Prinzip 10 („Bank positivity") |
-| **Funktion im Jahr** | Die Sprach-Schicht über der Interventionsleiter (W6): Stufen 2–3 werden hier zur Kunstform. Legt das Fundament der Fehlerkultur (W21) und der Beziehungsarbeit (W29). Precise Praise wird in W25 (Show Call) und W36 (Zertifikatsübergabe!) wieder gebraucht. |
-| **Lernziele** | Die TN können:<br>1. Korrekturen positiv rahmen (Zielzustand statt Fehlverhalten benennen),<br>2. das 3:1-Verhältnis als Beziehungs-Ökonomie begründen und umsetzen,<br>3. präzise loben (konkret, verdient, prozessbezogen) und Anerkennung von Lob unterscheiden,<br>4. Warmherzigkeit und Strenge gleichzeitig ausdrücken. |
-| **Sitzungstyp** | Sprach-Training mit Tempo-Übungen (Automatisierung ist das Ziel – die Umformulierung muss schneller werden als der Ärger-Reflex). |
+| **Leitfrage** | Was tue ich NACH der Stunde mit dem Schüler, den ich am liebsten meide – und was hat sich in sieben Wochen tatsächlich verändert? |
+| **Kernquellen** | Lovell/Dowley, Routine 6 (After-class conversation / W.I.N.); Lemov Kap. „Building Student Motivation and Trust" (Vorgriff); Bambrick-Santoyo (Meilenstein-Logik) |
+| **Funktion im Jahr** | Block-1-Finale mit **einem** Werkzeug statt dreien: W.I.N. ist das Beziehungs-Reparaturwerkzeug, das in W22 (Verweigerung), W29 (nach Eskalationen) und W30 (Elterngespräch-Struktur!) wiederkehrt – und das anspruchsvollste Rollenspiel des Blocks; es bekommt deshalb die Zeit, die es braucht. Übergänge und Stundenende stehen bewusst nicht hier, sondern in W2/W3 bei ihrem Bauprinzip. Meilenstein 1: Playbook-Deckblatt, Kompetenzmatrix-Update, Video-Selbstanalyse Nr. 1. |
+| **Lernziele** | Die TN können:<br>1. ein W.I.N.-Gespräch in drei Schwierigkeitsgraden führen (einsichtig / abblockend / eskalierend),<br>2. die vier Rahmenbedingungen (privat · ruhig · kurz · zukunftsgerichtet) einhalten und ein Gespräch bewusst vertagen,<br>3. ihre eigene Entwicklung über sieben Wochen an Playbook, Matrix und Video belegen. |
+| **Sitzungstyp** | Ein Input + das anspruchsvollste Rollenspiel des Blocks (vier statt drei Runden) + Meilenstein-Ritual. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Tandems an Tischen; Timer prominent. **Material:**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Umformulierungs-Kartenset: 10 Negativ-Ansagen (Anhang 1.1), pro Tandem ein Set
-- [ ] Handout A: Die drei Sprachwerkzeuge mit Formeln (Anhang 1.2)
-- [ ] 2–3 anonymisierte Schülerarbeiten (real, vom Coach besorgt) für die Lob-Übung
-- [ ] Strichlisten-Kärtchen fürs Pult (3:1-Zähler, Anhang 1.3) – kleines Giveaway, erhöht Umsetzungsquote spürbar
+**Raum:** Dreiergruppen-Inseln mit Abstand (W.I.N. braucht Diskretion); Playbook-Mappen-Station mit Lochern/Deckblättern.
+
+**Material (Checkliste):**
+- [ ] Erweitertes Retrieval-Quiz Block 1 (8 Fragen, Anhang 2 Teil 1)
+- [ ] Handout A: W.I.N.-Leitfadenkarte (Anhang 1.1), A6 laminiert (Langzeit-Werkzeug!)
+- [ ] Rollenkarten-Set W.I.N., 3 Karten mit Regieanweisungen (Anhang 1.2)
+- [ ] Playbook-Deckblätter, Kompetenzmatrix-Bögen (identisch zu W0!), Anleitung Video-Selbstanalyse Nr. 1 (Anhang 3)
 
 ---
 
@@ -30,145 +31,154 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1).
+## Phase 1 · Retrieval-Starter erweitert (Minute 2–12)
+8 Fragen kumulativ über Block 1 (Anhang 2, Teil 1); Selbstkorrektur per Lösungsfolie; Moderation klärt die 3 häufigsten Fehler und lässt zu jedem Fehler die zugehörige Technik von einem TN in einem Satz wiederholen (Elaboration statt Korrektur-Ansage). Meta-Satz: *„Das war euer erstes Block-Quiz – merkt euch das Format, eure Schüler bekommen es ab Block 3 auch."*
 
-## Phase 2 · Brücke & das Konto (Minute 8–13)
+## Phase 2 · Brücke: Sieben Wochen in einem Bild (Minute 12–16)
 
 > **Moderationstext:**
-> *„Stufen-Woche: Wer hat gezählt – wie oft hat Stufe 1 gereicht?"* [2 Zahlen einsammeln; typisch: „öfter als gedacht" – würdigen.]
-> *„Und jetzt eine Frage an eure Bank. Nicht die mit dem Geld – die mit der Beziehung. Stellt euch vor, jede Interaktion mit einem Schüler ist eine Buchung: Anerkennung, echtes Interesse, Lob = Einzahlung. Korrektur, Ermahnung, Konsequenz = Abhebung. Jetzt die unbequeme Frage: Bei eurem anstrengendsten Schüler – wie ist der Kontostand? … Eben. Bei vielen ist das Konto tiefrot, weil seit Wochen nur abgehoben wird. Und von einem roten Konto kann man nichts mehr abheben: Jede weitere Korrektur wird als Angriff verbucht, nicht als Führung. Lovell nennt das Prinzip ‚Bank positivity': Wer korrigieren können will – und ihr MÜSST korrigieren können, Woche 6 –, der braucht Guthaben. Heute lernt ihr die drei Einzahlungs-Werkzeuge. Und das Beste: Das erste davon ist gar kein Extra-Aufwand – es ist nur eine andere Grammatik für das, was ihr sowieso sagt."*
+> *„Bevor das letzte Werkzeug dieses Blocks kommt, ein kurzer Blick zurück – und zwar nicht von mir, sondern von euch. Zwei Minuten Murmelrunde im Tandem: Welche EINE Sache tut ihr heute in eurem Unterricht, die ihr vor sieben Wochen nicht getan habt? Nicht die beeindruckendste – die alltäglichste."* [2 Min. Tandem, dann 4–5 Zurufe, Moderation sammelt am Flipchart.]
+> *„Schaut auf diese Liste. Nichts davon ist Charisma. Alles davon ist Handwerk – und alles davon steht in eurem Playbook, von euch selbst geschrieben. Genau das war das Versprechen im Auftakt. Heute kommt das letzte Werkzeug des Blocks dazu, und es ist das unbequemste."*
 
-## Phase 3 · Input (Minute 13–28)
+## Phase 3 · Input: Das W.I.N.-Gespräch (Minute 16–28)
 
-### 3a · See it: Das Grammatik-Wunder (Min. 13–17)
-Tafel, zwei Spalten, Moderation spricht beide Versionen laut mit identischem (!) ruhigem Ton:
-- **Links:** „Hört auf zu quatschen!" · „Warum arbeitet ihr da hinten schon wieder nicht?" · „Immer muss ich alles dreimal sagen!"
-- **Rechts:** „Ich sehe fast alle Hefte offen – ich will alle sehen." · „Zwei Tische fehlen noch – ihr wisst, was zu tun ist." · „Ihr habt vergessen, dass wir im Flüsterton arbeiten – ab jetzt wieder."
-
-> *„Gleicher Ton, gleiche Länge, gleiches Ziel. Aber die linke Spalte beschreibt das Fehlverhalten – und macht es damit zur sichtbaren Norm: ‚Hier wird gequatscht, hier muss man alles dreimal sagen.' Modell 4 lässt grüßen. Die rechte Spalte beschreibt den ZIELZUSTAND und die erfüllende Mehrheit – und unterstellt nebenbei Gutwilligkeit: ‚Ihr habt vergessen' statt ‚Ihr weigert euch'. Lemov nennt das Positive Framing, und die Formel ist simpel: **Ich sehe [den erfüllenden Teil] – ich will [den Zielzustand].** Dazu die Regel: anonym korrigieren, namentlich loben – nie umgekehrt."*
-
-### 3b · Precise Praise & die Lob-Inflation (Min. 17–23)
-> *„Zweites Werkzeug: Lob – aber richtig, denn falsches Lob ist keine Einzahlung, sondern Falschgeld. Drei Prüfsteine: **konkret** (was genau war gut?), **verdient** (über dem Grundstandard – wer das bloße Erfüllen einer Anweisung bejubelt, erklärt es zur Ausnahme; dafür gibt es Anerkennung: ein ‚Danke', ein Nicken), **prozessbezogen** (das Vorgehen loben, nicht die Person: ‚Du hast die Probe gemacht, BEVOR du abgegeben hast – das ist der Unterschied' statt ‚Du bist so schlau'). Warum Prozess? Weil Personen-Lob bei der nächsten schweren Aufgabe zur Hypothek wird – wer für Schlausein gelobt wurde, riskiert beim Fehler seine Identität. Wer für die Probe gelobt wurde, macht wieder eine Probe.*
-> *Und begrabt bitte heute das Lobsandwich – Lob, Kritik, Lob. Schüler durchschauen es nach dem zweiten Mal, und dann habt ihr etwas Schlimmes erreicht: Jedes eurer Lobe wird als Vorbote einer Kritik gehört. Ihr habt Lob vergiftet. Kritik verdient einen eigenen, ehrlichen, freundlichen Satz – kein Brötchen."*
-
-### 3c · Warm/Strict (Min. 23–28)
-> *„Drittes Werkzeug, und es ist eher eine Haltung mit Grammatik: **Warm/Strict.** Der verbreitetste Irrtum im Lehrerzimmer ist das ODER: Entweder man ist der Nette, oder man ist der Strenge. Lemovs Videos zeigen durchgehend das UND – gleichzeitig, im selben Satz: ‚Weil ich weiß, dass du das besser kannst, nehme ich das so nicht an.' Hört ihr beides? Die Strenge ist die Verpackung des Zutrauens. Ein Standard, den ich bei dir hochhalte, ist ein Kompliment an dich – gesenkte Erwartungen sind die höflichste Form der Abwertung, und Jugendliche spüren das mit erschreckender Präzision. Praktisch heißt Warm/Strict: freundlicher Ton + unverhandelbare Sache; Erklärung des Warum + keine Debatte über das Ob; Konsequenz heute + Neuanfang morgen."*
+> **Moderationstext:**
+> *„Jetzt zum wichtigsten Werkzeug des heutigen Tages. In jedem eurer Kurse gibt es einen Schüler, mit dem ihr NACH der Stunde reden müsstet – und es nicht tut. Weil keine Zeit ist, weil es unangenehm ist, weil das letzte Gespräch eine Predigt wurde, die nichts geändert hat. Das Werkzeug dafür heißt W.I.N., dauert drei bis fünf Minuten und hat drei Schritte – und der erste Schritt ist der, den fast alle falsch herum machen:*
+> *​**W – Was ist passiert?** Und zwar aus SEINEM Mund zuerst. Nicht eure Anklageschrift – seine Version. ‚Erzähl mir, was in der Stunde los war.' Dann zuhören. Wirklich. Oft erfahrt ihr hier die fehlende Hälfte der Geschichte – den Streit aus der Pause, die Fünf von der Stunde davor.*
+> *​**I – Impact.** Welche Wirkung hatte es? Sachlich, konkret, ohne Moralkeule: ‚Die Gruppe hinter dir hat acht Minuten verloren. Und ich musste dich dreimal ansprechen statt zu unterrichten.' Wirkung beschreiben heißt nicht beschämen – es heißt sichtbar machen, was der Schüler oft ehrlich nicht auf dem Schirm hat.*
+> *​**N – Next steps.** Gemeinsam, konkret, klein: ‚Was machen wir morgen anders – du und ich?' Auch das UND ich ist ernst gemeint: ‚Ich setze dich in Reihe zwei und gebe dir das Zeichen, bevor ich dich drannehme' ist ein legitimer Deal.*
+> *Die Rahmenbedingungen: privat (nie zwischen Tür und Angel vor Publikum), ruhig (euer warmes Register – das Gespräch ist Beziehungsarbeit, keine Verlängerung der Sanktion), kurz (drei bis fünf Minuten – Länge ist kein Qualitätsmerkmal, sondern ein Predigt-Symptom), und zukunftsgerichtet: Das Gespräch endet mit einem Plan, nicht mit einem Schuldspruch. Und ein W.I.N. nach einer Konsequenz ist kein Widerspruch – es ist die Reparatur: Konsequenz heute, Neuanfang morgen. Woche 6 lässt grüßen."*
 
 ## Phase 4 · Name it (Minute 28–32)
 
-Handout A austeilen, drei Formeln fixieren: **Umformulierungs-Formel** „Ich sehe [erfüllender Teil] – ich will [Zielzustand]" (+ Annahme des Guten: „Ihr habt vergessen…"). **Lob-Dreiklang** konkret · verdient · Prozess (und: Anerkennung ≠ Lob). **Warm/Strict-Muster** „Weil [Zutrauen], [Standard]." Dazu die Ökonomie-Regel: **3:1** – drei Einzahlungen pro Abhebung, gezählt, nicht gefühlt.
+W.I.N.-Karte (Handout A) austeilen; die drei Schritte + vier Rahmenbedingungen (privat · ruhig · kurz · zukunftsgerichtet) fixieren. Merksatz: *„Erst seine Geschichte, dann die Wirkung, dann der Plan."* Fingerzeichen-Check: Moderation liest 3 Gesprächseröffnungen vor, TN zeigen ✓/✗ (z. B. „Weißt du eigentlich, wie oft du heute…" = ✗, Anklage statt W).
 
-## Phase 5 · Do it (Minute 32–52)
+## Phase 5 · Do it: W.I.N.-Rollenspiele (Minute 32–51)
 
-### Runde 1 · Umformulierungs-Batterie mit Timer (Min. 32–42)
-Tandems, Kartenset (Anhang 1.1): Partner A zieht und liest die Negativ-Ansage, Partner B formuliert sie LAUT und sofort um – 60 Sekunden, so viele Karten wie möglich; dann Wechsel; dann Runde 2 (Rekordjagd – Tempo automatisiert!). Moderation ruft zwischendurch die Qualitätsbremse aus: *„Tempo zählt nur, wenn die Formel stimmt – Partner prüft: erfüllender Teil? Zielzustand? Kein verstecktes ‚endlich' oder ‚schon wieder'?"*
+Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jeder ist einmal Lehrkraft.
 
-### Runde 2 · Precise-Praise-Werkstatt (Min. 42–48)
-An den echten Schülerarbeiten: Jeder schreibt zu einer Arbeit zwei präzise Lobsätze (einen zum Ergebnis, einen zum erkennbaren Vorgehen); Tandem-Kitschkontrolle mit dem Dreiklang – „super gemacht", „toll", „schön" werden gestrichen und ersetzt.
+**Runde 4 · Der eigene Fall (Min. 50–51 Vorbereitung, Durchführung im Coaching):** Jeder notiert auf der Rückseite der W.I.N.-Karte den Namen (nur für sich), den Einstiegssatz und den wahrscheinlichsten Abwehrzug seines realen Falls. Diese Karte geht mit in die Klasse – und wird im Coaching dieser Woche einmal durchgespielt, bevor das echte Gespräch stattfindet. *(Der frühere Übergangs- und Ende-Input dieser Sitzung steht jetzt in W2/W3; die freigewordene Zeit gehört dieser Vorbereitung.)*
 
-### Runde 3 · Warm/Strict-Sätze (Min. 48–52)
-Jeder formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eines fähigen Schülers; schludrige Abgabe einer starken Schülerin) je einen Warm/Strict-Satz und spricht ihn laut – Partner hört auf beides: Kam die Wärme UND die Unverhandelbarkeit an?
+**Beobachter-Checkfragen:** Kam W wirklich zuerst (offene Frage, dann Stille ausgehalten)? Blieb I sachlich (Wirkung, keine Moral)? War N gemeinsam und konkret? Rahmen: warm, kurz, privat?
 
-## Phase 6 · Action Step (Minute 52–58)
+**Moderations-Rotation:** Bei „abblockend" ist die Kunst das Aushalten der Einsilbigkeit (nicht zutexten! Stille + „Nimm dir Zeit" + ggf. geschlossene Einstiegsfrage als Brücke). Bei „eskalierend" gilt: Anker (W4!), formales Register, ggf. vertagen: *„Ich merke, jetzt ist kein guter Moment. Morgen, große Pause, hier."* – Vertagen ist ein legitimer Ausgang, kein Scheitern.
 
-**Standard:** *„3:1 – auf jede Korrektur kommen drei konkrete positive Rückmeldungen. Ich zähle in EINER Stunde pro Tag ehrlich mit (Strichlisten-Kärtchen auf dem Pult) und notiere freitags meinen besten Tages-Quotienten."*
+## Phase 6 · Meilenstein 1 & Action Step (Minute 51–58)
 
-**Alternativen:**
+**Playbook-Ritual (3 Min.):** Skripte W1–W7 einheften, Deckblatt „Mein Klassenführungs-Playbook" – Moderation: *„Sieben Wochen, sieben Werkzeuge, alle selbst geschrieben. Das hier ist keine Mappe – das ist euer erstes Berufsjahr in Reinschrift."*
 
-1. Annahme-des-Guten-Woche: jede Korrektur beginnt mit „Ihr habt vergessen…"/„Ich glaube, ihr habt überhört…".
-2. Für Vielkritiker (Coach-Wissen): Lob-Quote nur beim anstrengendsten Schüler – ein verdientes, präzises Lob pro Tag, gezielt gesucht.
+**Kompetenzmatrix (2 Min.):** Felder 1–3 neu einschätzen (gleicher Bogen wie W0 – noch NICHT vergleichen, das passiert im Coaching mit dem W0-Bogen daneben).
 
-> **Ausblick:** *„Nächste Woche schließen wir Block 1: Übergänge, das Stundenende – und das Werkzeug für danach: das strukturierte Nachgespräch mit dem Schüler, dem ihr am liebsten aus dem Weg geht. Plus: euer erster Meilenstein mit Video-Selbstanalyse. Bringt euer Playbook mit – es bekommt sein Deckblatt."*
+**Action Step (Standard):** *„Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler / der Schülerin, den/die ich bisher gemieden habe – vorbereitet mit der Karte, maximal fünf Minuten."* **Alternativen:**
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+1. Für TN, denen ein W.I.N. diese Woche organisatorisch nicht gelingt: ein **vorbereitendes** Kurzgespräch ohne Anlass („Ich wollte kurz hören, wie es dir gerade in Mathe geht") – Einzahlung aufs Konto (W6), bevor abgehoben wird.
+2. Konsolidierungs-Woche: die schwächste eigene Routine aus Block 1 (Start, Signal, Übergang oder Ende) eine Woche lang täglich identisch durchführen und messen.
+
+**Ansage Video-Selbstanalyse Nr. 1 (1 Min.):** Anleitung (Anhang 3) mitgeben – VOR dem Meilenstein-Gespräch erledigen.
+
+> **Ausblick:** *„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Es beginnt mit den zehn am besten abgesicherten Prinzipien der Unterrichtsforschung. Bringt dafür einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt."* **(Vorab-Auftrag W8 auf die Exit-Karte drucken!)**
+
+## Phase 7 · Exit-Karte (Minute 58–60)
+Erweitert:
+
+1. Mein wertvollstes Block-1-Werkzeug: …
+2. Woran ich in Block 1 weiterarbeiten muss: …
+
+*(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: eigenen Stundenverlaufsplan zu W8 mitbringen.
 
 ---
 
-# 4. Coaching-Woche 7 (Handreichung)
+# 4. Coaching-Woche 7: Meilenstein-Gespräch 1 (Handreichung, 45–60 Min.)
 
-- **Hospitationsfokus:** Sprach-Protokoll: 10 Minuten lang jede Korrektur und jede positive Rückmeldung wörtlich mitschreiben; anschließend Quotient bilden.
-- **Auswertungsgespräch:** Protokoll vorlegen, TN selbst zählen lassen (Selbsterkenntnis schlägt Vorhaltung); die zwei „negativsten" Sätze gemeinsam umformulieren und 2× laut sprechen. Würdigen, was schon positiv gerahmt war – mit einem präzisen Lob (Meta-Vorbild!).
-- **Typische Baustelle:** verstecktes Gift in Umformulierungen („SCHÖN, dass jetzt auch die letzten…") → Ironie-Verbot besprechen: Ironie ist eine Abhebung im Einzahlungs-Kostüm.
-- **Red Flag:** TN, denen positives Sprechen „unehrlich" vorkommt → klären: Es geht nicht um Schönfärben, sondern um die Beschreibung des wahren erfüllenden Teils; wenn NICHTS Wahres Positives da ist, ist das ein W2-Problem (Erwartungen zu vage, um erfüllt zu werden) – dorthin zurück.
+**Struktur:**
+
+1. **Video-Selbstanalyse gemeinsam (20 Min.):** TN zeigt seinen annotierten 10-Min.-Ausschnitt, spricht zuerst („Was sehe ich heute, was ich in Woche 1 nicht gesehen hätte?"); Coach ergänzt max. 2 Beobachtungen – eine Stärke, eine Baustelle, beides mit Zeitstempel. Das Baseline-Video aus W1 bleibt versiegelt (Vorfreude schützen!).
+2. **Matrix-Vergleich (10 Min.):** W0- neben W7-Bogen; Verschiebungen benennen lassen; Precise Praise des Coaches auf konkrete Verhaltensänderungen.
+3. **Block-2-Ausblick (10 Min.):** dringendster Klassenführungs-Rest wird als „Dauer-Action-Step" definiert (läuft im Coaching parallel weiter, auch wenn die Inputs zu Instruktion wechseln!).
+4. **W.I.N.-Nachfrage:** Wie lief das Gespräch mit dem gemiedenen Schüler? Ggf. im Coaching nachspielen.
+
+**Red Flags:** Matrix-Selbstbild deutlich über Coach-Bild → behutsam mit Video-Zeitstempeln kalibrieren, nie frontal. Erschöpfungssignale nach 8 Wochen Doppelbelastung → Block 6 (Arbeitsökonomie) als Perspektive benennen, kurzfristig EINEN Entlastungs-Deal schließen (z. B. Korrektur-Triage light vorziehen).
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Umformulierungs-Kartenset (10 Karten; Musterlösungen kursiv – für Moderation/SPA)
+## 1.1 Handout A: W.I.N.-Leitfadenkarte (A6, laminiert)
 
-1. „Hört auf zu quatschen!" → *„Ich höre fast nur Stifte – ich will nur Stifte hören."*
-2. „Warum seid ihr immer noch nicht fertig?" → *„Die meisten sind bei Aufgabe 3 – noch zwei Minuten, dann vergleichen wir."*
-3. „Immer kommst du zu spät!" → *„Morgen sehe ich dich um 8:00 an deinem Platz – ich weiß, dass du das kannst."* *(+ privat, Stufe 4!)*
-4. „Nicht abschreiben!" → *„Eigene Lösung, eigenes Heft – ich will DEINEN Denkweg sehen."*
-5. „Schon wieder keine Hausaufgaben, Klasse 8b!" → *„Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen. Ihr wisst, dass ich nachhalte."* *(nur wenn wahr!)*
-6. „Du hörst mir nie zu." → *„Blick zu mir, Emre – dieser Teil betrifft dich direkt."*
-7. „Das ist doch viel zu laut hier!" → *„Flüsterlautstärke – nur euer Tisch hört euch."*
-8. „Wer jetzt nicht fertig wird, hat Pech gehabt." → *„Noch drei Minuten – schreibt den Satz zu Ende, an dem ihr gerade seid."*
-9. „Räumt endlich mal richtig auf!" → *„Erstens Scheren in die Kiste, zweitens Tisch leer – zwei Tische sind schon fertig."*
-10. „Musst du schon wieder dazwischenrufen?" → *„Hand heben, warten, drankommen – du weißt, wie es geht, und deine Idee will ich hören."*
+**W – Was ist passiert?** Seine/ihre Version zuerst: *„Erzähl mir, was in der Stunde los war."* → zuhören, Stille aushalten.
+**I – Impact:** Wirkung sachlich: *„Die Gruppe hat acht Minuten verloren; ich musste dreimal unterbrechen."* Keine Moralkeule.
+**N – Next steps:** gemeinsam + konkret + klein: *„Was machen wir morgen anders – du und ich?"*
+**Rahmen:** privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. **Notausgang:** vertagen ist legitim: *„Morgen, große Pause, hier."*
 
-## 1.2 Handout A: Die drei Sprachwerkzeuge
-**Positive Framing:** „Ich sehe [erfüllender Teil] – ich will [Zielzustand]." · Annahme des Guten: „Ihr habt vergessen…" · anonym korrigieren, namentlich loben · Ironie-Verbot.
-**Precise Praise:** konkret · verdient (sonst: Anerkennung/„Danke") · prozessbezogen. Kein Lobsandwich.
-**Warm/Strict:** „Weil [Zutrauen], [Standard]." · freundlicher Ton + unverhandelbare Sache · Konsequenz heute + Neuanfang morgen.
-**Ökonomie:** 3:1, gezählt.
+## 1.2 Rollenkarten-Set W.I.N. (Regieanweisungen für die „Schüler"-Rolle)
 
-## 1.3 Strichlisten-Kärtchen (Pult-Format)
-Zwei Spalten: „+ (Anerkennung/Lob, konkret)" | „– (Korrektur)". Fußzeile: „Ziel: 3:1 · Ironie zählt als –".
+- **Karte 1 „Einsichtig" (Jara, 13):** Du hast in der Stunde ständig reingerufen. Auf W erzählst du ehrlich: Du warst aufgedreht, es tut dir halb leid. Du nimmst Vorschläge an, wirst aber nur konkret, wenn die Lehrkraft konkret wird. *(Lernziel: sauberer Durchlauf; Falle: Lehrkraft predigt trotzdem, obwohl längst Einsicht da ist.)*
+- **Karte 2 „Abblockend" (Tim, 15):** Du hast bei Stillarbeit demonstrativ nichts getan. Antworten: „Weiß nicht." – „Kann sein." – Schulterzucken. Arme verschränkt. Du taust NUR auf, wenn die Lehrkraft Stille aushält und echtes Interesse zeigt (z. B. nachfragt, ob was anderes los ist) – dann deutest du an: Stress zu Hause. *(Lernziel: Aushalten statt Zutexten; Falle: Lehrkraft füllt jede Pause und beantwortet W selbst.)*
+- **Karte 3 „Eskalierend" (Melis, 16):** Du wurdest wegen Handy ermahnt und findest das ungerecht („Bei anderen sagen Sie nie was!"). Du wirst lauter, unterbrichst, wirfst der Lehrkraft Ungerechtigkeit vor. Wenn die Lehrkraft ruhig bleibt UND einen Teil anerkennt („Kann sein, dass ich das nicht immer sehe – lass uns bei heute bleiben"), fährst du auf 60 % runter. Bei Gegen-Eskalation legst du nach. *(Lernziel: Anker, formales Register, Teil-Anerkennung ohne Sache-Aufgabe, ggf. würdevoll vertagen.)*
+
+## 1.3 Playbook-Deckblatt & Inhaltsverzeichnis Block 1
+„Mein Klassenführungs-Playbook" · Name · Kohorte · Zeitraum. Rückseite als Inhaltsverzeichnis mit sieben Zeilen: W1 Erwartungs-Canvas · W2 Start- und Ende-Skript · W3 Signal-Einführung + Übergangs-Formel · W4 Präsenz-Checkliste + Reset-Anker · W5 Interventionsleiter + Radar-Sitzplan · W6 Sprachwerkzeuge + 3:1-Zähler · W7 W.I.N.-Karte. *(Die Übergangs- und Ende-Bausteine stehen als Handouts bei ihren Sitzungen W3 bzw. W2 – hier nur als Zeile im Verzeichnis.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Die 6 Leiterstufen in Reihenfolge? *(nonverbal / pos. Gruppenkorrektur / anonyme Einzelkorrektur / private Einzelkorrektur / Blitz öffentlich / Konsequenz)*
-2. Die Einstiegsregel der Stufenwahl? *(so niedrig, so kurz, so privat wie möglich – zurück zum Stoff)*
-3. Wo stehst du bei Stillarbeit und warum? *(Radar-Punkt, alle im Blick, Rücken zur Wand)*
-4. Registerwechsel: wann formal, wann warm? *(Anweisung/Korrektur formal; Gespräch/Erklärung/Lob warm)*
-5. (Anwendung) Formuliere eine positive Gruppenkorrektur für „fünf arbeiten nicht". *(z. B. „Ich sehe die meisten Stifte laufen – ich will alle sehen.")*
+## Teil 1: Erweiterter Retrieval-Starter Block 1 (8 Fragen)
+1. Die 6 Leiterstufen in Reihenfolge? 2. Umformulierungs-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + Kante; bei Zerfasern Do It Again)*
 
 ## Teil 2: Modul-Quiz Woche 7 (für SPA/Folgewoche)
-**F1.** Warum kein Lobsandwich?
-a) Es kostet zu viel Zeit ✗
-b) Es vergiftet Lob: Jedes Lob wird zum Vorboten von Kritik ✓
-c) Lob ist grundsätzlich schädlich ✗ *(Überkorrektur)*
-d) Kritik gehört sich nicht ✗
+**F1.** Ein W.I.N.-Gespräch dauert idealerweise…
+a) so lange, bis der Schüler wirklich einsichtig ist ✗ *(Predigt-Logik)*
+b) drei bis fünf Minuten – Länge ist kein Qualitätsmerkmal ✓
+c) eine ganze Pause ✗
+d) nur wenige Sekunden zwischen Tür und Angel ✗ *(verletzt „privat")*
 
-**F2.** „Super gemacht!" zur bloß erledigten Routineaufgabe ist…
-a) motivierend – Lob schadet nie ✗ *(DER Kernmythos)*
-b) Lob-Inflation – Anerkennung („Danke") hätte gereicht ✓
-c) in Ordnung bei schwachen SuS ✗ *(gut gemeinte Abwertung!)*
-d) manipulativ ✗
+**F2.** Das W.I.N.-Gespräch beginnt mit…
+a) deiner Schilderung der Vorfälle – Fakten zuerst ✗ *(DIE Intuition: Anklageschrift)*
+b) seiner/ihrer Version: „Erzähl mir, was los war" ✓
+c) der Ankündigung der Konsequenz ✗
+d) einer Entschuldigungsforderung ✗
 
-**F3.** „Du bist einfach ein Naturtalent in Deutsch!" – Risiko?
-a) keins, Persönlichkeitsstärkung ✗
-b) Personen-Lob wird bei der nächsten schweren Aufgabe zur Identitäts-Hypothek ✓
-c) andere werden neidisch ✗ *(teilrichtig, nicht der Kern)*
-d) Eltern beschweren sich ✗
+**F3.** Das Gespräch eskaliert trotz Anker und formalem Register. Du…
+a) ziehst es durch – abbrechen wäre Autoritätsverlust ✗ *(DIE Intuition)*
+b) vertagst würdevoll und benennst Ort und Zeit ✓
+c) rufst sofort die Eltern an ✗
+d) schickst den Schüler kommentarlos weg ✗
 
-**F4.** „SCHÖN, dass jetzt auch die Letzten ihr Buch gefunden haben" ist…
-a) Positive Framing ✗ *(die Tarnung!)*
-b) Ironie – eine Abhebung im Einzahlungs-Kostüm ✓
-c) präzises Lob ✗
-d) neutral ✗
+**F4.** Tim antwortet im Nachgespräch nur „weiß nicht". Du…
+a) füllst die Stille mit deiner Deutung der Ereignisse ✗ *(Zutext-Reflex)*
+b) hältst die Stille aus, zeigst Interesse, bietest ggf. eine Brücke an ✓
+c) brichst ab – bringt ja nichts ✗
+d) drohst mit Elternanruf ✗
 
-**F5.** Warm/Strict bedeutet:
-a) mal warm, mal streng – je nach Tagesform abwechseln ✗ *(das ODER)*
-b) gleichzeitig: hoher Standard als Ausdruck von Zutrauen ✓
-c) streng zu Jungen, warm zu Mädchen ✗
-d) streng im Unterricht, warm in der Pause ✗ *(plausibel klingende Trennung)*
+**F5.** Ein W.I.N. direkt nach einer verhängten Konsequenz ist…
+a) widersprüchlich – erst muss die Strafe wirken ✗ *(Härte-Logik)*
+b) die Reparatur: Konsequenz heute, Neuanfang morgen ✓
+c) ein Zurückrudern ✗
+d) nur bei kleinen Vorfällen sinnvoll ✗
 
-**F6 (Transfer, Freitext):** Ein leistungsstarker Schüler gibt eine hingeschluderte Arbeit ab. Formuliere deine Rückmeldung als Warm/Strict-Satz plus einen präzisen Prozess-Hinweis. *(Muster: „Weil ich weiß, was du kannst, nehme ich das so nicht an – bis morgen mit Proberechnung. Dein Ansatz in Aufgabe 2 war übrigens der eleganteste im Kurs: DEN will ich sauber ausgeführt sehen.")*
+**F6 (Transfer, Freitext):** Melis eskaliert im Gespräch („Bei anderen sagen Sie nie was!"). Schreibe deine nächsten zwei Sätze – mit Teil-Anerkennung, ohne die Sache aufzugeben. *(Muster: „Kann sein, dass ich nicht alles sehe – dem gehe ich nach. Für heute bleibt es dabei: Handy weg in meiner Stunde. Lass uns überlegen, wie morgen besser läuft.")*
 
 ---
 
-# Anhang 3: Ableitung für die SPA „Modul 7"
+# Anhang 3: Anleitung Video-Selbstanalyse Nr. 1 (Handout)
 
-1. **Hook (2 Min.):** Das Beziehungskonto als interaktive Grafik – Nutzer schätzt den Kontostand beim eigenen anstrengendsten Schüler (Slider), App zeigt die 3:1-Logik.
-2. **See it (4 Min.):** Die Zwei-Spalten-Tafel als Audio (identischer Ton!) – Aufgabe: „Welche Version macht welches Verhalten zur Norm?"
-3. **Name it (3 Min.):** Drei Formel-Karten; Zuordnungsspiel: 9 Lehrersätze → Framing / Lob / Warm-Strict / Ironie-Falle / Lobsandwich.
-4. **Do it – Umformulierungs-Trainer mit Timer (7 Min., Gamification-Kern!):** Kartenset aus Anhang 1.1 als Level; 60-Sekunden-Modus mit Highscore; Freitext-Eingabe wird gegen Formel-Heuristik geprüft (erfüllender Teil? Zielzustand? Giftwörter „endlich/schon wieder/immer" = Abzug).
-5. **Lob-Qualitäts-Check:** Lob eintippen → Dreiklang-Ampel (konkret? verdient? Prozess?) mit Verbesserungsvorschlag; Kitsch-Wortliste hinterlegt.
-6. **3:1-Tracker (Tracker-Engine):** digitale Strichliste je Stunde; Wochendiagramm; Erinnerung „Heute schon eingezahlt bei [Name des roten Kontos]?" (Name lokal gespeichert).
-7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–6); F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Quotienten-Eingabe pro Tag.
+1. **Aufnahme:** 10–15 Min. einer normalen Stunde diese Woche (Handy auf Stativ/Bücherstapel, hinten im Raum; Einverständnisse liegen seit W0 vor). Nicht die Vorzeigestunde wählen – die normale.
+2. **Ansehen (allein, 2 Durchgänge):** Durchgang 1 nur schauen, nichts notieren (der Fremdheitsschock beim ersten Selbst-Sehen ist normal und vergeht). Durchgang 2 mit Block-1-Checklisten annotieren: Zeitstempel + Beobachtung (Begrüßungsroutine Schritt 3? Signal-Reihenfolge? Interventionsstufen? 3:1-Quotient? Satzmelodie?).
+3. **Drei Notizen mitbringen:**
+   1. eine Stelle, auf die ich stolz bin (Zeitstempel).
+   2. eine Stelle, die ich heute anders machen würde – und WIE.
+   3. eine Frage an meinen Coach.
+4. **Regel:** Das Video gehört dir. Der Coach sieht nur den Ausschnitt, den du zeigst.
+
+---
+
+# Anhang 4: Ableitung für die SPA „Modul 7"
+
+1. **Hook (2 Min.):** „Der gemiedene Schüler": Nutzer denkt an IHN/SIE (Name lokal, optional) – App: „In 20 Minuten hast du den Gesprächsplan."
+2. **See it (5 Min.):** Zwei kontrastierende Nachgespräch-Audios (Predigt vs. W.I.N.) – Aufgabe: die 3 Schritte im guten Beispiel identifizieren, im schlechten die Anklage-Eröffnung markieren.
+3. **Name it (3 Min.):** W.I.N.-Karte digital + ✓/✗-Spiel mit 6 Gesprächseröffnungen.
+4. **Do it – W.I.N.-Simulator (9 Min., Engine-Highlight!):** Verzweigter Dialog mit den drei Rollenkarten-Profilen (KI-generierte Schülerantworten nach Regieanweisung); Feedback-Logik: belohnt offene W-Fragen, sachliches I, gemeinsames N; bestraft Zutexten, Moralkeule, vorschnelle Konsequenz-Ansage; „Vertagen" ist als würdiger Ausgang modelliert.
+5. **Übergangs-Baukasten:** eigenen Problem-Übergang eingeben → nummerierte Schrittfolge bauen → Kanten-Check; Ende-Checkliste (Puffer/Signal/Stehen/Reservefragen) als Wochenplan.
+6. **Meilenstein-Features:** Kompetenzmatrix-Wiederholung (Spinnennetz W0 vs. W7 wird erstmals sichtbar – der Motivations-Screen des Quartals!); Playbook-PDF-Export aller Skripte Module 2–8; Block-1-Abschlussquiz (20 Fragen kumulativ, Fragenpool aus allen Modul-Quizzen).
+7. **Abschluss:** Action-Step-Formular „Mein W.I.N. diese Woche" mit Vorbereitungsfeldern (W-Eröffnungsfrage wörtlich, mein I-Satz, mein N-Angebot) + Erinnerung.

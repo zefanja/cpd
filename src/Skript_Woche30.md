@@ -1,5 +1,5 @@
-# Skript Woche 30: „Treiber 5: Buy-in – und die harten Fälle: Platzwechsel, Eskalation, Hilfe holen"
-## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 30: „Elternarbeit ohne Angst + Konsolidierung Block 5"
+## 60-Minuten-Sitzung · Block 5 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,174 +7,159 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie gewinne ich echtes Einverständnis – und was tue ich, wenn alle kleinen Werkzeuge nicht mehr reichen? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (W6), Anker (W5), W.I.N. (W8), EVK (W27) |
-| **Funktion im Jahr** | Die Ernstfall-Sitzung: schließt die in W6 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Jahres: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
-| **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
-| **Sitzungstyp** | Doppel-Input kompakt + die rollenspiel-intensivste Übungsphase seit Block 1 (zwei Eskalations-Szenarien mit Freeze-Punkten). Zeitdisziplin kritisch: Der Buy-in-Teil ist straff, die Rollenspiele sind unantastbar. |
-
-**Wichtige Vorklärung für die Moderation:** Die konkrete Eskalationskette ist SCHULSPEZIFISCH (Trainingsraum? Klassenleitung? Stufenleitung? Schulleitung? – je nach Haus). Vor der Sitzung mit der Schulleitung das reale Verfahren klären und in Anhang 1.3 eintragen – die Sitzung trainiert das ECHTE Verfahren, kein generisches.
+| **Leitfrage** | Wie mache ich Eltern zu Verbündeten – auch die schwierigen? |
+| **Kernquellen** | Lovell/Dowley (Elternkommunikation, Bank Positivity R-Prinzip auf Erwachsene übertragen); Verzahnung: W.I.N. (W7), Beziehungskonto (W6), Grenz-Formel (W4/W29), deutsche Schulformate |
+| **Funktion im Jahr** | Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Jahres auf Erwachsene – die große Entlastungs-Pointe: Die TN KÖNNEN die Struktur längst. Positiv-Kontakte als Konto-Logik; der Gesprächs-Vierschritt als W.I.N. für Erwachsene; die Grenz-Formel für Angriffe. Deutsche Spezifika (Sprechtag, Dokumentationspflicht, Nie-allein-Regel) verankern es im realen System. Block-5-Quiz + 5-Treiber-Poster + Matrix-Update. |
+| **Lernziele** | Die TN können:<br>1. proaktive Positiv-Kontakte als System etablieren (erster Kontakt nie Problemkontakt),<br>2. ein Problemgespräch mit dem Vierschritt führen (gemeinsames Ziel → Fakten → Zuhören → Schritte + Termin),<br>3. Angriffe mit der Grenz-Formel beantworten (Verständnis + Sache + Angebot) und wissen, wann sie nicht mehr allein sprechen,<br>4. die deutschen Formate bedienen (Sprechtag effizient, Gesprächsnotiz als Standard). |
+| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Eltern-Rollenspiele (3 Rollenkarten) + Konsolidierungs-Ritual. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Spielfläche groß (zwei parallele Rollenspiel-Zonen), Tische am Rand. **Material:**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Buy-in-Hebel (Anhang 1.1)
-- [ ] Handout B: Platzwechsel-Skript dreispaltig (Anhang 1.2)
-- [ ] Handout C: Schulische Eskalationskette (VORAB ausgefüllt!) + Dokumentations-Vorlage (Anhang 1.3)
-- [ ] Szenario-Karten E1/E2 mit Freeze-Punkten (Anhang 1.4)
-- [ ] Beobachtungsbogen Peer-Hospitation 5 (Anhang 3)
+**Raum:** Dreiergruppen-Inseln mit Abstand (Gesprächs-Rollenspiele); Poster-Wand. **Material:**
+- [ ] Block-5-Quiz, 15 Fragen (Anhang 2, Teil 1) + Lösungsfolie
+- [ ] Handout A: Kontakt-System + Gesprächs-Vierschritt + Grenz-Formel (Anhang 1.1)
+- [ ] Eltern-Rollenkarten, 3 Karten mit Regieanweisungen (Anhang 1.2)
+- [ ] Gesprächsnotiz-Vorlage (Anhang 1.3)
+- [ ] 5-Treiber-Poster (vorbereitet, Anhang 1.4) + Kompetenzmatrix-Bögen
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Block-5-Quiz (Minute 2–10)
+15 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Fünf Treiber, drei Ernstfall-Werkzeuge – und gleich seht ihr: Das heutige Thema ist zu achtzig Prozent Wiederholung in neuer Verpackung."*
 
-## Phase 2 · Input A: Buy-in (Minute 8–17)
+## Phase 2 · Input: Eltern als Verbündete (Minute 10–26)
 
+### 2a · Das Konto bei den Eltern (Min. 10–15)
 > **Moderationstext:**
-> *„Mikromomente: Wer hat bei seinen drei Roten etwas beobachtet?"* [1–2 Stimmen, kurz – heute ist das Programm dicht.]
-> *„Treiber 5, der letzte: **Buy-in** – echtes Einverständnis statt bloßer Befolgung. Drei Hebel, ihr kennt Teile davon:*
-> *​**Begründen.** Seit Woche 2 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
-> *​**Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
-> *​**Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Woche 20 und dem Interleaving-Erklärskript in Woche 19 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
+> *„Handzeichen, ehrlich: Wer hat beim Wort ‚Elternabend' oder beim Anblick einer unbekannten Elternmail ein flaues Gefühl? … Willkommen im Club – und jetzt die Analyse, warum. Für die meisten Eltern gilt: Ein Anruf aus der Schule bedeutet Ärger. Jahrzehntelang war der einzige Kontakt der Problemkontakt. Das heißt: Euer Konto bei diesen Eltern – ihr kennt die Logik aus Woche 6 – ist bei Erstkontakt nicht auf null. Es ist im Minus, ererbt aus zwanzig Jahren Schulerfahrung dieser Eltern als Schüler und als Eltern.*
+> *Die Konsequenz ist dieselbe wie bei Schülern: **Erst einzahlen, dann abheben. Der erste Kontakt ist NIE der Problemkontakt.** Praktisch: In den ersten Wochen mit einer neuen Lerngruppe – oder ab jetzt, das Fenster ist immer offen – bekommen gezielt die Eltern einen Anruf oder Zwei-Zeilen-Kontakt, deren Kinder voraussichtlich später Gesprächsbedarf erzeugen: ‚Frau Yilmaz, zwei Minuten nur – Emre hat heute in der Gruppenarbeit den Laden zusammengehalten, das wollte ich Ihnen erzählt haben. Schönen Abend.' Neunzig Sekunden. Die Wirkung ist kaum zu überschätzen: Beim ERSTEN Problemanruf sind Sie dann nicht ‚die Schule, die sich nur meldet, wenn was ist' – Sie sind die Lehrkraft, die auch das Gute sieht. Zwei solcher Kontakte pro Woche, System statt Stimmung: Das ist der ganze Trick. Und er ist übrigens ein Precise-Praise-Transfer: konkret, verdient, aufs Vorgehen."*
 
-## Phase 3 · Input B: Die harten Fälle (Minute 17–30)
+### 2b · Der Vierschritt = W.I.N. für Erwachsene (Min. 15–21)
+> *„Und wenn das Problemgespräch kommt? Dann kommt die Entlastungs-Pointe des Tages: **Ihr könnt die Struktur seit Woche 7.** Der Gesprächs-Vierschritt ist das W.I.N. für Erwachsene:*
+> *​**Schritt eins: das gemeinsame Ziel zuerst.** ‚Wir wollen beide, dass Emre gut durch dieses Jahr kommt' – dieser eine Satz verwandelt die Sitzordnung: nicht Lehrerin gegen Mutter, sondern zwei Erwachsene auf derselben Seite des Tisches, das Problem gegenüber.*
+> *​**Schritt zwei: Fakten, keine Wertungen.** Ihr kennt die Regel aus der Dokumentation letzter Woche – hier zahlt sie sich aus: ‚Emre hat in drei von vier Stunden diese Woche das Material nicht dabei' ist besprechbar. ‚Emre ist unzuverlässig' ist ein Angriff auf das Kind – und Eltern verteidigen ihr Kind, das ist ihr Job.*
+> *​**Schritt drei: zuhören.** Das W von W.I.N.: ‚Wie erleben Sie das zu Hause?' – und dann wirklich hören. Regelmäßig erfahrt ihr hier die fehlende Hälfte: die Trennung, die Nachtschichten, den kranken Bruder. Nicht als Entschuldigung – als Lagebild.*
+> *​**Schritt vier: konkrete nächste Schritte, beidseitig, mit Termin.** ‚Sie schauen abends kurz auf die Materialliste, ich gebe Emre das Zeichen am Stundenende – und wir telefonieren in zwei Wochen, Mittwoch?' Ein Gespräch ohne vereinbarten Folgekontakt ist ein Gespräch ohne Ergebnis."*
 
-### 3a · Die Vorschaltregel: EVK vor Eskalation (Min. 17–19)
-> *„Und jetzt der Ernst. Vorab die wichtigste Regel, sie kommt VOR jedem Werkzeug: **Erst die EVK-Diagnose, dann die Eskalationslogik.** Ein erheblicher Teil dessen, was als Provokation ankommt, ist Erwartungs-Null in Verkleidung – wer sicher scheitern wird, stört lieber: Störer ist ein besserer Status als Versager. Wenn die Diagnose ‚E-Problem' lautet, ist die Antwort Woche 27, nicht Stufe 6. Konsequenzen heilen keine Erwartungsprobleme – sie eskalieren sie. ABER: Es gibt Situationen, in denen JETZT gehandelt werden muss, Diagnose hin oder her. Für die sind die nächsten Werkzeuge."*
+### 2c · Konfliktfälle + deutsche Formate (Min. 21–26)
+> *„Und die harten Fälle. Der fordernde Vater, der eure Kompetenz anzweifelt – ‚Mit dem richtigen Lehrer hätte mein Sohn eine Zwei': Hier gilt die **Grenz-Formel**, ihr kennt ihre Verwandten aus Woche 4 und 30: **Verständnis + Sache + Angebot.** ‚Ich verstehe, dass Sie das Beste für Ihren Sohn wollen (Verständnis). Die Bewertung folgt den Kriterien, die ich Ihnen gern im Detail zeige – hier ist der Erwartungshorizont (Sache). Lassen Sie uns darüber sprechen, wie wir IHN unterstützen (Angebot – und Rückkehr zum gemeinsamen Ziel).' Keine Rechtfertigungsspirale, keine Gegenangriffe – Anker, formales Register, die Formel.*
+> *Und drei deutsche Systemregeln: **Der Sprechtag** ist kein Ort für Konfliktgespräche – zehn Minuten im Takt sind für Rückmeldung gebaut, nicht für Klärung; heikle Fälle bekommen einen eigenen Termin (‚Dafür nehme ich mir richtig Zeit – passt Ihnen Donnerstag?'). **Die Gesprächsnotiz** ist Standard, nicht Misstrauen: Datum, Anwesende, Vereinbarungen, Termin – zwei Minuten nach jedem Gespräch; bei Konfliktpotenzial ist sie euer Schutz und die Grundlage des Folgetermins. Und: **In eskalierte Gespräche geht ihr nie allein** – Klassenleitung, Stufenleitung oder Schulleitung sitzt mit am Tisch; das ist dieselbe Regel wie letzte Woche: Struktur nutzen ist Handwerk. Als Quereinsteiger noch ein Zusatz: Der Satz ‚Das kläre ich und melde mich bis Freitag' ist IMMER erlaubt – niemand muss Schulrecht aus der Hüfte beantworten, und eine gehaltene Rückmelde-Zusage ist eine Einzahlung."*
 
-### 3b · Moving a Student (Min. 19–24)
-> *„Werkzeug eins: **der Platzwechsel** – wenn eine Sitzkonstellation die Stunde wiederholt sprengt. Lovells Regieanweisung in vier Punkten: **Skriptbasiert** – der Wortlaut ist vorbereitet, nicht improvisiert, denn improvisiert wird er im Ärger gesprochen: ‚Emre – nimm deine Sachen, Platz da drüben. Danke.' Kurz, formal, fertig. **Gesichtswahrend** – keine Begründungsrede vor Publikum (‚weil du es mal wieder nicht schaffst…' ist eine Demütigung mit Ansage), keine Diskussion im Moment: ‚Wir zwei sprechen nach der Stunde' – und das W.I.N. findet statt. **Weiterunterrichten** – der entscheidende Punkt: Ihr gebt die Anweisung und wendet euch SOFORT wieder der Klasse zu, sprecht weiter, als wäre nichts. Die Botschaft: Das war Verwaltung, kein Drama. Wer daneben stehen bleibt und wartet, baut eine Bühne für den Machtkampf. **Und wenn er sich weigert?** Nicht nachschieben, nicht lauter werden: ‚Du hast die Anweisung gehört. Ich unterrichte jetzt weiter – du entscheidest dich in der nächsten Minute.' Weiterunterrichten. Folgt er: kein Kommentar, kein Triumph. Folgt er nicht: nächste Stufe der Kette, ruhig, angekündigt. Ihr habt dann alles richtig gemacht – merkt euch das: **Eine ausgeführte Eskalationsstufe ist kein Scheitern eurer Klassenführung, sie ist eure Klassenführung.**"*
+## Phase 3 · Name it (Minute 26–29)
 
-### 3c · Eskalationskette, Reparatur, Hilfe holen (Min. 24–30)
-> *„Werkzeug zwei: **die Kette unseres Hauses**"* [Handout C – die REALE Schulkette durchgehen, 2 Min.] *„Drei Grundsätze für jede Stufe: angekündigt (keine Überraschungs-Konsequenzen), ruhig (formales Register, Anker davor – Woche 5 ist jetzt Gold wert), verhältnismäßig (kleinste wirksame Stufe – die Leiter-Logik gilt bis oben). Und danach – nicht optional: **die Reparatur.** Konsequenz heute, W.I.N. morgen, Neuanfang übermorgen. Die Konsequenz beendet den Vorfall; das Gespräch verhindert den nächsten. Wer nur straft, sammelt Rückzahlungstermine.*
-> *Werkzeug drei, und jetzt der Satz, den ihr euch bitte an den Spiegel klebt: **Hilfe holen ist Handwerk, kein Versagen.** Lovell widmet dem ein eigenes Kapitel, und er tut es, weil der Glaubenssatz ‚Das muss ich allein schaffen' Lehrkräfte zerstört – Quereinsteiger doppelt, weil ihr glaubt, euch beweisen zu müssen. Die Wahrheit: Kein System der Welt erwartet, dass eine einzelne Lehrkraft jede Lage löst – Schulen HABEN Strukturen dafür, und Profis nutzen Strukturen. Damit die Hilfe gut wird, braucht sie Handwerk: **Dokumentation** – zeitnah, konkret, und eisern getrennt: **Fakt** (‚wirft den Stuhl um, verlässt den Raum, 9:42') **von Wertung** (‚ist aggressiv') – die Wertung gehört nicht ins Protokoll, sie macht es angreifbar und euch unglaubwürdig. Und **die strukturierte Anfrage:** nicht ‚Ich kann nicht mehr mit dem', sondern: Hier ist die Lage (drei dokumentierte Vorfälle), das habe ich versucht (Leiter, W.I.N., Elternkontakt), das ist meine Frage an euch. Wer SO um Unterstützung bittet, wird ernst genommen – und bekommt sie."*
+**Kontakt-System:** erster Kontakt nie Problemkontakt · 2 Positiv-Kontakte/Woche · 90 Sekunden reichen. **Vierschritt:** gemeinsames Ziel → Fakten (keine Wertungen) → zuhören → Schritte beidseitig + Termin. **Grenz-Formel:** Verständnis + Sache + Angebot. **Systemregeln:** Sprechtag ≠ Konfliktort · Gesprächsnotiz immer · eskaliert nie allein · „Ich melde mich bis Freitag" ist erlaubt. Merksatz: *„Gleiche Seite des Tisches – das Problem sitzt gegenüber."*
 
-## Phase 4 · Name it (Minute 30–33)
+## Phase 4 · Do it: Eltern-Rollenspiele (Minute 29–48)
 
-**Buy-in-Trio:** begründen (auch Stoff!) · echte Wahl im Wie · Metamotivation. **Ernstfall-Regeln:** EVK vor Eskalation · Platzwechsel: Skript + Gesicht + weiterunterrichten · Kette: angekündigt, ruhig, verhältnismäßig · danach IMMER Reparatur (W.I.N.) · Doku: Fakt ≠ Wertung · Hilfe strukturiert (Lage – Versucht – Frage). Merksatz: *„Die ausgeführte Stufe ist Klassenführung – und Hilfe holen ist Handwerk."*
+Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung), Rollenkarten in Steigerung (Anhang 1.2): Runde 1 „besorgt", Runde 2 „fordernd", Runde 3 „schwer erreichbar" (Telefon-Setting: Rücken an Rücken!). Rollenwechsel – jeder ist einmal Lehrkraft.
 
-## Phase 5 · Do it: Eskalations-Rollenspiele mit Freeze (Minute 33–52)
+**Beobachter-Checkfragen:** Kam das gemeinsame Ziel im ersten Satz? Fakten oder Wertungen? Wurde echt zugehört (Schritt 3 vor Schritt 4)? Endete es mit beidseitigen Schritten + Termin? Bei Karte 2: Grenz-Formel statt Rechtfertigungsspirale?
 
-**Setup:** Zwei parallele Zonen, Vierergruppen; Szenario-Karten E1/E2 (Anhang 1.4) mit eingebauten **Freeze-Punkten**: Die Regie ruft „Freeze!", alle erstarren, die Gruppe berät 30 Sekunden (Welche Stufe? Welcher Wortlaut? Anker!), dann weiter. Jeder durchläuft EIN Szenario als Lehrkraft (9 Min. pro Durchgang inkl. Feedback + Wiederholung des schwächsten Moments).
+## Phase 5 · Konsolidierung Block 5 (Minute 48–56)
 
-**E1 – Der Platzwechsel** (Weigerung eingebaut): Fokus: Skripttreue, Weiterunterrichten, keine Bühne. **E2 – Die Eskalation** (Beleidigung nach Ermahnung): Fokus: Anker sichtbar, formale Kürze, Stufe ankündigen und ausführen ohne Drama, Reparatur-Ansage („Wir sprechen morgen – heute gilt: …").
+**5-Treiber-Poster (4 Min.):** Gemeinsam an der Wand vervollständigen: Zu jedem Treiber rufen die TN ihr stärkstes Werkzeug + eine eigene Erfahrung der letzten Wochen zu (Moderation notiert) – das Poster bleibt bis Jahresende hängen. Schlusssatz: *„Fünf Treiber, und fast jedes Werkzeug stand schon vorher in eurem Playbook – Motivation war nie ein Extra-Fach. Sie ist die Nebenwirkung von gutem Unterricht in einem Raum, in dem man gesehen wird."*
 
-**Feedback-Fokus (Beobachterkarte):** Anker VOR der Reaktion? Ton formal-ruhig (kein Triumph, keine Wut)? Unterricht weitergeführt? Reparatur angekündigt? *(Moderations-Rotation: Der häufigste Fehler ist das Stehenbleiben-und-Warten nach der Anweisung – die Bühne. Zweiter: Begründungsreden im Moment.)*
+**Kompetenzmatrix (2 Min.):** Feld 8 + freie Felder aktualisieren (an Coach). **Peer-Hospitation 5:** Stand kurz abfragen, Nachbesprechungs-Termine bestätigen.
 
-**Abschluss-Drill (letzte 3 Min. der Phase):** Protokoll-Blitz: Die Regie beschreibt E2 mündlich chaotisch – jeder schreibt in 90 Sekunden den Doku-Eintrag, Tandem prüft: Nur Fakten? Zeit? Zitate statt Deutungen?
+## Phase 6 · Action Step (Minute 56–58)
 
-## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
-
-**Standard:** *„Ich skripte für MEINE realistische Ernstfall-Situation die passende Stufe wörtlich (inkl. Anker und Reparatur-Satz) – und ich vereinbare diese Woche das Unterstützungsgespräch, das ich seit Wochen vor mir herschiebe: strukturiert mit Lage – Versucht – Frage."* [Wer keins vor sich herschiebt: Doku-System einrichten – Vorlage liegt bei.]
+**Standard:** *„Ich führe diese Woche ZWEI rein positive Elternkontakte (Anruf oder Zwei-Zeiler) – gezielt bei Kindern, bei denen später Gesprächsbedarf wahrscheinlich ist. Konkret, verdient, aufs Vorgehen. Danach: Gesprächsnotiz-Zweizeiler."*
 
 **Alternativen:**
 
-1. Buy-in-Woche: jede neue Aufgabe bekommt eine ehrliche Wozu-Antwort + eine echte Wie-Wahl.
-2. Reparatur-Nachholer: das W.I.N. führen, das nach der letzten Konsequenz ausgefallen ist.
+1. Vierschritt-Ernstfall: das anstehende schwierige Elterngespräch mit dem Vierschritt vorbereiten (Skriptbogen) und führen – vorher im Coaching proben.
+2. Sprechtags-Vorbereitung (saisonal): Takt-Plan + Auslagerungs-Sätze für heikle Fälle.
 
-**Peer-Hospitation 5 (2 Min.):** Letzte Runde, wieder Peer-Format, Gastgeber-Fokus-Regel gilt; Bogen (Anhang 3): Motivations-Treiber-Spotting. Termine fixieren.
+> **Ausblick:** *„Block 6 beginnt – das Finale, und es gehört EUCH: Wie ihr all das mit vertretbarem Zeitaufwand plant, korrigiert und überlebt. Erste Sitzung: Lean Lesson Planning – oder: Warum eure Sonntagabende ab jetzt kürzer werden. Bringt eure ehrliche Planungszeit pro Stunde mit – wir rechnen."* **(Vorab-Auftrag auf die Exit-Karte: durchschnittliche Planungszeit pro Einzelstunde schätzen + notieren!)**
 
-> **Ausblick:** *„Nächste Woche schließt Block 5 mit dem Thema, das viele von euch mehr fürchten als jede 9. Klasse: Elternarbeit. Erster Kontakt, Konfliktgespräch, deutsche Formate – und die Entdeckung, dass ihr die Gesprächsstruktur längst könnt. Plus Block-5-Quiz."*
+## Phase 7 · Exit-Karte (Minute 58–60)
+Erweitert (Blockabschluss):
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+1. Mein wichtigster Treiber für MEINE Klassen: …
+2. Mein Elternarbeits-Vorsatz: … + Planungszeit-Erinnerung.
 
 ---
 
 # 4. Coaching-Woche 30 (Handreichung)
 
-- **Kein Standard-Hospitationsfokus** diese Woche – stattdessen zwei Aufträge:
-  1. **Das Unterstützungsgespräch begleiten:** Vorbereitung im 1:1 durchsprechen (Lage–Versucht–Frage einmal laut), ggf. Türöffner sein (Coach kennt das Haus).
-  2. Falls akuter Fall existiert: **Platzwechsel/Stufe in vivo** beobachten (Termin nach Lage).
-- **Auswertungsgespräch:** Ernstfall-Skript des TN durchgehen und EINMAL im Gespräch durchspielen (Coach als Schüler, Weigerungs-Variante!); Doku-System prüfen (existiert es? Fakt/Wertung sauber?).
-- **Emotionale Dimension ernst nehmen:** Nach echten Eskalationen brauchen TN zuerst Entlastung, dann Analyse – Reihenfolge einhalten; der Satz „Die ausgeführte Stufe ist Klassenführung" gehört ins Gespräch.
-- **Red Flag 1:** TN mit Dauer-Eskalationen in EINER Lerngruppe → das ist kein Technik-, sondern ein System-Fall: Unterstützungsstruktur aktivieren (Klassenkonferenz-Ebene), Coach geht mit. **Red Flag 2:** TN dokumentiert nichts („will kein Denunziant sein") → umdeuten: Doku schützt ZUERST den Schüler (faire, präzise Verfahren statt Bauchgefühl-Urteile) und dann die Lehrkraft.
+- **Kein Hospitationsfokus im Unterricht** – stattdessen:
+  1. **Gesprächsprobe:** Falls ein reales Elterngespräch ansteht → mit dem Vierschritt-Skriptbogen im 1:1 durchspielen (Coach als Elternteil, ruhig fordernd); Grenz-Formel einmal laut.
+  2. **Positiv-Kontakt-Check:** Die zwei Kontakte konkret planen – welche Kinder, welcher Anlass (muss WAHR und konkret sein!), wann.
+- **Peer-Hospitation 5 nachbesprechen** (Bogen W29): Treiber-Landkarte über beide Stunden; die Kohorte würdigen – es war die letzte Gruppenhospitation, die Öffnungskultur ist ein Programmergebnis, das aussprechen.
+- **Meilenstein-Check Block 5:** Matrix Feld 8; EVK-Fall-Bilanz (W26→31): Was hat sich beim eigenen Fall bewegt? (Auch „wenig" ist ein ehrliches, besprechbares Ergebnis – Zeithorizonte von Motivationsarbeit realistisch rahmen.)
+- **Red Flag 1:** TN nutzt den Positiv-Kontakt als trojanisches Pferd („…und wo ich Sie gerade dranhabe: Emre stört auch ständig") → hart trennen: Der Positiv-Kontakt stirbt an jedem Aber. **Red Flag 2:** anstehendes Eskalations-Elterngespräch, TN plant allein hinzugehen → Nie-allein-Regel aktivieren, Begleitung organisieren.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Buy-in-Trio — begründen (Erwartungen UND Stoff; die ehrliche Prüfungs-Antwort ist erlaubt) · echte Wahl im Wie (Reihenfolge/Sozialform/Darstellung – nie: Ziel, Erwartung, Sicherheit; Schein-Wahl-Verbot) · Metamotivation (System erklären: Interleaving-Skript W19, Lernrede W20). 
+## 1.1 Handout A: Kontakt-System · Vierschritt · Grenz-Formel — siehe Phase 2/3 (mit dem 90-Sekunden-Muster-Anruf wörtlich; Vierschritt mit je einem Beispielsatz; Grenz-Formel mit dem „richtiger Lehrer"-Beispiel ausformuliert).
 
-## 1.2 Handout B: Platzwechsel-Skript (dreispaltig)
-| Schritt | Wortlaut | Aktion |
-|---|---|---|
-| Anker | — | ausatmen, Fersen (W5) |
-| Anweisung | *„Emre – nimm deine Sachen, Platz da drüben. Danke."* | Blick kurz, Geste zum Platz |
-| Sofort weiter | *„…und wir waren bei Aufgabe 3:"* | der Klasse zuwenden, WEITERUNTERRICHTEN – keine Bühne |
-| Bei Weigerung | *„Du hast die Anweisung gehört. Ich unterrichte weiter – du entscheidest in der nächsten Minute."* | ruhig, dann Klasse; folgt er: null Kommentar |
-| Bleibt Weigerung | *„Dann gilt Stufe [X], wie besprochen."* | Kette ausführen, ohne Drama |
-| Nach der Stunde | *„Wir zwei sprechen jetzt kurz."* | W.I.N. – die Reparatur ist Pflichtteil |
+## 1.2 Eltern-Rollenkarten (Regieanweisungen)
+- **Karte 1 „Besorgt" (Frau Berger):** Dein Sohn (Kl. 7) hat eine Fünf in der Arbeit, du bist beunruhigt, kooperativ, aber voller Fragen und leicht abschweifend (Grundschulzeit, der neue Freundeskreis…). Du beruhigst dich, wenn die Lehrkraft Fakten zeigt und dich nach eurem Zuhause-Erleben FRAGT; du wirst unruhig, wenn sie dich mit Fachbegriffen zutextet. *(Lernziel: Vierschritt sauber, Zuhören vor Lösungen, gemeinsame Schritte klein und machbar.)*
+- **Karte 2 „Fordernd" (Herr Krause):** Deine Tochter (Kl. 10) hat eine Drei, du hältst sie für eine Zwei. Eröffnung: „Mit dem richtigen Lehrer hätte sie die Zwei – Sie sind ja noch neu im Geschäft, nicht wahr?" Du bohrst bei jeder Rechtfertigung nach; du wirst sachlich, sobald die Lehrkraft ruhig bleibt, Kriterien/Erwartungshorizont anbietet und zum gemeinsamen Ziel zurücklenkt. Bei Gegenangriff eskalierst du. *(Lernziel: Anker, Grenz-Formel, keine Rechtfertigungsspirale, Quereinsteiger-Spitze NICHT persönlich nehmen.)*
+- **Karte 3 „Schwer erreichbar" (Emres Mutter, Telefon):** Du bist bei der Arbeit, hast 4 Minuten, klingst knapp bis abweisend („Was ist denn JETZT schon wieder?") – Vorgeschichte: Die Schule hat sich bei Emre noch nie mit etwas Gutem gemeldet. Du taust deutlich auf, wenn das Gespräch mit etwas POSITIVEM über Emre beginnt und die Lehrkraft die Kürze respektiert („Zwei Minuten, versprochen"). *(Lernziel: Konto-Logik in Aktion; Kürze als Respekt; EIN Schritt + Folgetermin statt Themenliste.)*
 
-## 1.3 Handout C: Eskalationskette + Doku-Vorlage
-**Kette (VON DER MODERATION VORAB MIT SCHULLEITUNG AUSGEFÜLLT):** Stufe 1: … → Stufe 2: … → Stufe 3: … → Stufe 4: … (je: Wer entscheidet? Wer wird informiert? Formular?). Grundsätze: angekündigt · ruhig · verhältnismäßig · danach Reparatur. **Doku-Vorlage:** Datum/Zeit | Lerngruppe | **Was geschah (nur beobachtbare Fakten, wörtliche Zitate in „…")** | Meine Reaktion (Stufe) | Zeugen | — Sperrvermerk-Zeile: *Wertungen („aggressiv", „respektlos", „provoziert absichtlich") gehören NICHT in dieses Feld.* **Anfrage-Struktur:** LAGE (3 dokumentierte Vorfälle) → VERSUCHT (Leiter/W.I.N./Eltern/…) → FRAGE (konkret: Was brauche ich von wem?).
+## 1.3 Gesprächsnotiz-Vorlage
+Datum/Art (Telefon/persönlich/Sprechtag) | Anwesende | Anlass (1 Satz) | Kernpunkte Fakten | Sicht der Eltern (1–2 Sätze) | **Vereinbarte Schritte: Eltern … / Ich … / Termin Folgekontakt: …** | Notiz an mich. *(Fußzeile: 2 Minuten direkt nach dem Gespräch – die Notiz von heute ist das Gedächtnis des Folgetermins.)*
 
-## 1.4 Szenario-Karten (Regieanweisungen)
-**E1 „Der Dauerbrand" (Platzwechsel):** Emre und Jan sprengen zum dritten Mal die Übungsphase (Kichern, Zurufe). Regie-Schüler Emre: Bei der Anweisung erst Empörung („Wieso ICH?!"), Diskussionsversuch; folgst NUR, wenn die Lehrkraft NICHT diskutiert und weiterunterrichtet – bei jeder Begründungsrede legst du nach. **Freeze-Punkte:** nach der Empörung (Beratung: diskutieren oder Kurs halten?); nach dem Platzwechsel (Beratung: Kommentar oder null?).
-**E2 „Die Beleidigung" (Kette):** Nach einer ruhigen Stufe-4-Korrektur sagt Melis halblaut, aber hörbar: „Halt doch die Fresse." Klasse erstarrt. Regie: Du legst nach, wenn die Lehrkraft brüllt oder debattiert; du bleibst bei formaler Kürze still. **Freeze-Punkte:** unmittelbar nach dem Satz (Beratung: Anker! Welche Stufe? Was sagt die Kette des Hauses?); nach der Stufen-Ansage (Beratung: Wie geht die STUNDE weiter? Reparatur-Ansage?). *(Muster-Reaktion: Anker → formale Kürze: „Das hat eine Konsequenz – Stufe [X], wie ihr sie kennt. Melis, wir sprechen nach der Stunde. – Alle anderen: Aufgabe 3." → Doku danach → W.I.N. am Folgetag.)*
+## 1.4 5-Treiber-Poster (Blanko-Struktur)
+Fünf Spalten: **Secure Success · Run Routines · Nudge Norms · Boost Belonging · Build Buy-in** – je drei Zeilen: „Stärkstes Werkzeug" / „EVK-Wirkung (E? W? K?)" / „Erfahrung aus unserer Kohorte". Kopfzeile: Anstrengung = E × W ÷ K.
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die vier Belonging-Bausteine? *(Mikromomente / Voice Equity / Zusagen halten / Wir-Signale)*
-2. Die drei Mikromoment-Zeitfenster? *(vor dem Ritual / erster Rundgang / Türmoment)*
-3. Sek-II-Belonging in einem Satz? *(ernst genommen werden: Namen, erinnerte Beiträge, gehaltene Zusagen)*
-4. Die W.I.N.-Struktur (Block 1)? 5. (Anwendung) Ein Schüler stört massiv – welche Diagnose läuft VOR der Konsequenz-Entscheidung? *(EVK: E-Null in Verkleidung? Störer-Status > Versager-Status?)*
+## Teil 1: Block-5-Quiz (15 Fragen; Auswahl mit Lösungen)
+1. Die EVK-Formel + Multiplikator-Pointe? 2. „Unmotiviert" ist …? *(Situationsbeschreibung, keine Eigenschaft)* 3. Die teuerste Kosten-Währung? 4. Das Secure-Success-Besteck (3 von 4)? 5. Talent- vs. Vorgehens-Attribution? 6. Warum sind Routinen Motivationstechnik? 7. Die Normen-Regel? 8. Das Sichtbarkeits-Trio? 9. Die vier Belonging-Bausteine? 10. Die drei Mikromoment-Zeitfenster? 11. Das Buy-in-Trio? 12. Platzwechsel – die drei Regieanweisungen? *(Skript / Gesicht wahren / weiterunterrichten)* 13. Fakt vs. Wertung – je ein Beispiel? 14. Die Anfrage-Struktur? *(Lage – Versucht – Frage)* 15. (Transfer) Ein Schüler mit E≈0 stört massiv, die Klasse kippt. Skizziere die Doppelstrategie. *(Grenze JETZT: Kette ruhig + Reparatur; parallel Secure Success: Vorentlastung/Einstiegserfolge + Mikromomente – Konsequenz UND Erwartungsaufbau, nie nur eins.)*
 
 ## Teil 2: Modul-Quiz Woche 30 (für SPA/Folgewoche)
-**F1.** „Das muss ich als Lehrkraft allein schaffen" ist…
-a) professioneller Ehrgeiz – richtig so ✗ *(DER Quereinsteiger-Glaubenssatz)*
-b) ein zerstörerischer Glaubenssatz: Hilfe holen ist Handwerk mit Struktur (Lage–Versucht–Frage) ✓
-c) in den ersten Jahren unvermeidlich ✗
-d) nur bei kleinen Problemen falsch ✗
+**F1.** Der erste Kontakt zu Emres Eltern ist idealerweise…
+a) der Anruf nach dem ersten Vorfall – man soll nichts aufschieben ✗ *(klingt konsequent)*
+b) ein 90-Sekunden-Positiv-Kontakt, lange bevor es Probleme gibt ✓
+c) der Elternabend ✗
+d) eine Mail mit den Regeln ✗
 
-**F2.** Beim Platzwechsel bleibst du nach der Anweisung neben dem Schüler stehen und wartest. Effekt:
-a) Nachdruck – er sieht, dass du es ernst meinst ✗ *(fühlt sich konsequent an)*
-b) du baust die Bühne für den Machtkampf – weiterunterrichten wäre die Botschaft „Verwaltung, kein Drama" ✓
-c) keiner ✗
-d) rechtlich geboten ✗
+**F2.** „Emre ist unzuverlässig" im Elterngespräch bewirkt…
+a) Klarheit ✗
+b) Verteidigung – Eltern schützen ihr Kind; Fakten („3 von 4 Stunden ohne Material") sind besprechbar ✓
+c) Einsicht ✗
+d) nichts ✗
 
-**F3.** „Ist aggressiv und provoziert ständig" im Vorfallprotokoll ist…
-a) eine präzise Zusammenfassung ✗
-b) Wertung statt Fakt – macht die Doku angreifbar; richtig: beobachtbare Handlungen + Zeit + Zitate ✓
-c) Pflichtangabe ✗
-d) nur für die Eltern problematisch ✗
+**F3.** „Mit dem richtigen Lehrer hätte er eine Zwei." Deine Antwort folgt…
+a) der Rechtfertigungsspirale: Methoden erklären, bis er zufrieden ist ✗ *(der Reflex)*
+b) der Grenz-Formel: Verständnis + Sache (Kriterien zeigen) + Angebot (gemeinsames Ziel) ✓
+c) dem Gegenangriff: elterliche Versäumnisse benennen ✗
+d) dem Rückzug: Gespräch beenden ✗
 
-**F4.** Ein Schüler mit fünf Jahren Misserfolgsgeschichte stört massiv. Konsequenzen allein…
-a) stellen die Ordnung her – der Rest folgt ✗
-b) heilen kein Erwartungsproblem: EVK-Diagnose zuerst, Secure Success parallel zur Grenze ✓
-c) sind verboten ✗
-d) wirken bei solchen Schülern besonders gut ✗
+**F4.** Ein Gespräch endet mit „Wir bleiben in Kontakt". Das ist…
+a) ein gutes, offenes Ende ✗ *(höflich und folgenlos)*
+b) ein Gespräch ohne Ergebnis – es fehlen beidseitige Schritte + Termin ✓
+c) rechtlich ausreichend ✗
+d) besser als ein Termin ✗
 
-**F5.** Echte Wahl als Buy-in-Hebel betrifft…
-a) auch das Lernziel – Demokratie im Klassenzimmer ✗ *(klingt fortschrittlich)*
-b) das WIE: Reihenfolge, Sozialform, Darstellungsform ✓
-c) nichts – Wahl untergräbt Autorität ✗
-d) nur die Oberstufe ✗
+**F5.** Der Sprechtag eignet sich für Konfliktklärung…
+a) gut – man hat die Eltern ja da ✗ *(die Gelegenheits-Falle)*
+b) nicht – 10-Minuten-Takt ist für Rückmeldung gebaut; heikle Fälle bekommen einen eigenen Termin ✓
+c) nur mit Schulleitung ✗
+d) nur in der Grundschule ✗
 
-**F6 (Transfer, Freitext):** E2-Situation („Halt doch die Fresse", Klasse erstarrt). Schreibe deine ersten drei Züge wörtlich – inkl. Anker, Stufen-Ansage und dem Satz, mit dem die STUNDE weitergeht. *(Muster siehe Anhang 1.4; Bewertungsanker: Anker vor Reaktion, formale Kürze ohne Gegenbeleidigung/Debatte, Konsequenz + Gesprächsansage getrennt, Klasse sofort zurück in die Arbeit.)*
-
----
-
-# Anhang 3: Beobachtungsbogen Peer-Hospitation 5
-**Gastgeber-Fokus zuerst:** „Beobachtet bei mir bitte: …" — **Standardteil Treiber-Spotting:** | Beobachtung (wörtlich/konkret) | Welcher Treiber? (Success/Routines/Norms/Belonging/Buy-in) | — Spalte C: „Ein Move, den ich klaue." — **Nachbesprechung (Coach moderiert):** Runde 1 Gastgeber-Fokus beschreibend · Runde 2 Treiber-Landkarte der Stunde (welche Treiber liefen – welche fehlten kollektiv?) · Runde 3 Spalte C + Transfer. Dank-Ritual an die Öffnenden.
+**F6 (Transfer, Freitext):** Schreibe deinen 90-Sekunden-Positiv-Anruf für ein Kind deiner Wahl wörtlich – konkret, verdient, aufs Vorgehen, ohne ein einziges „aber". *(Bewertungsanker: konkretes beobachtetes Verhalten, Vorgehens-Attribution, Kürze angekündigt und gehalten, kein trojanisches Pferd.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 30"
+# Anhang 3: Ableitung für die SPA „Modul 30"
 
-1. **Hook (2 Min.):** Der Glaubenssatz-Check: „Das muss ich allein schaffen – wie sehr glaubst du das?" (Slider) → Auflösung mit dem Handwerks-Perspektivwechsel + Kohorten-Anzeige (anonym): „Du bist nicht allein mit dem Allein-Glauben."
-2. **See it (4 Min.):** Platzwechsel als Kontrast-Video/Audio: Bühnen-Version (stehen bleiben, begründen, diskutieren) vs. Verwaltungs-Version (Skript + weiterunterrichten); Aufgabe: die drei Unterschiede markieren.
-3. **Name it (3 Min.):** Ernstfall-Regeln als Karten; Fakt-oder-Wertung-Swipe (10 Protokollsätze).
-4. **Do it – Eskalations-Simulator (9 Min., Engine-Highlight!):** E1 und E2 als verzweigte Dialoge mit Freeze-Mechanik (App pausiert an den Freeze-Punkten und erzwingt die Beratungsentscheidung); Scoring: Anker vor Reaktion, keine Bühne, Reparatur angekündigt; Weigerungs- und Nachleg-Pfade nach Regieanweisung; endet immer mit dem Doku-Schreibfeld (Fakt-Filter-Heuristik: Wertungswörter-Liste löst Warnung aus).
-5. **Anfrage-Builder:** Lage–Versucht–Frage als Formular; zieht dokumentierte Vorfälle aus dem eigenen Log; Export als Gesprächsgrundlage.
-6. **Buy-in-Schnellcheck:** die eigene nächste Einheit auf drei Felder prüfen (Wozu-Satz? Wie-Wahl? System erklärt?).
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Mein Ernstfall-Skript + mein Unterstützungsgespräch" mit Termin-Feld.
+1. **Hook (2 Min.):** „Das ererbte Minus": Konto-Animation – der Kontostand bei Eltern startet unter null (Schulerfahrungs-Rückblende); Frage: „Womit beginnst du einzuzahlen?"
+2. **See it (4 Min.):** Der Vierschritt als W.I.N.-Spiegelung (Split-Screen: Schülergespräch W7 / Elterngespräch – dieselbe Struktur leuchtet synchron auf); der 90-Sekunden-Anruf als Audio-Muster.
+3. **Name it (3 Min.):** Vierschritt + Grenz-Formel + Systemregeln als Karten; Fakt/Wertung-Swipe mit Elternsätzen.
+4. **Do it – Elterngespräch-Simulator (9 Min., Engine-Highlight!):** Die 3 Rollenkarten als verzweigte Dialoge (KI-Elternantworten nach Regieanweisung); Karte 2 mit Rechtfertigungsspiralen-Detektor (jede Verteidigung ohne Grenz-Formel lässt Krause nachbohren), Karte 3 als Telefon-UI mit 4-Minuten-Countdown; Scoring: Ziel-Satz zuerst, Fakten, Zuhör-Zug vor Lösungs-Zug, Termin am Ende.
+5. **Positiv-Kontakt-Planer:** 2 Kinder wählen (Vorschlag aus Modul-28-Inventur: die Roten!), Anlass-Feld (Wahrheits-Check), Wochen-Erinnerung; Gesprächsnotiz-Formular mit 2-Minuten-Timer.
+6. **Block-5-Abschluss:** 5-Treiber-Poster als ausfüllbare Matrix mit Export; Block-5-Quiz aus dem Pool; Matrix-Update Feld 8.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 Positiv-Kontakte" mit Kein-Aber-Checkbox.

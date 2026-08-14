@@ -1,4 +1,4 @@
-# Skript Woche 22: „Cold Call & Wait Time – alle denken mit"
+# Skript Woche 22: „No Opt Out & Right is Right – Anspruch halten"
 ## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,22 +7,21 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie sorge ich dafür, dass alle denken – nicht nur die fünf Melder? |
-| **Kernquellen** | Lemov T34 (Cold Call), T33 (Wait Time), T36 (Means of Participation); Ratio-Konzept (Participation × Think) |
-| **Funktion im Jahr** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf W21 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für W23 (No Opt Out schließt die Schleife) und W24 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in W29 als Beziehungs-Heatmap wieder). |
-| **Lernziele** | Die TN können:<br>1. Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal),<br>2. die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen,<br>3. 3–5 Sekunden Wartezeit aushalten und produktiv rahmen,<br>4. Means of Participation vor jeder Frage ansagen. |
-| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Jahres (die Pause wird mit der Stoppuhr gemessen). |
+| **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
+| **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
+| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht das Exemplar (W9) als Maßstab; Break It Down (W11) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in W32 wieder). |
+| **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Exemplar als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
+| **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen mit Spielfläche; Stoppuhren (Handys). **Material:**
+**Raum:** Vierergruppen + Kalibrier-Plenum. **Material:**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Cold-Call-Standard + Einführungsskript-Vorlage Sek I/Sek II (Anhang 1.1)
-- [ ] Störkarten-Set D, 3 Karten (Anhang 1.2)
-- [ ] Sitzplan-Heatmap-Blanko (Anhang 1.3)
-- [ ] Fachfragen-Kärtchen für den Drill (12 kurze Fragen quer durch die Blöcke)
+- [ ] Handout A: Die Schleife in 4 Varianten + Stretch-It-Fächer (Anhang 1.1)
+- [ ] Kalibrierungs-Set: 10 Schülerantworten von „fast richtig" bis „richtig, aber flapsig" (Anhang 1.2)
+- [ ] Rollenkarten „Weiß-nicht"-Varianten (Anhang 1.3)
 
 ---
 
@@ -32,57 +31,55 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · Brücke & das stille Abo (Minute 8–13)
+## Phase 2 · See it: Der Drei-Wörter-Deal (Minute 8–14)
 
-> **Moderationstext:**
-> *„Verstanden?-Strichlisten: Wer hat sich ertappt – und wie oft am Montag gegen Freitag?"* [2 Stimmen, fallende Kurve würdigen.]
-> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Jahres: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
+Moderation spielt den Dialog mit einem TN:
 
-## Phase 3 · Input (Minute 13–28)
+> L: *„Was unterscheidet Wetter von Klima – Jonas?"* — J: *„Weiß nicht."* — L: *„Hm. Mia?"* — M: [antwortet richtig] — L: *„Genau! Weiter im Text."*
 
-### 3a · See it: Der Kontrast (Min. 13–18)
-Moderation spielt zweimal dieselbe Frage-Situation mit der Gruppe:
+> **Auswertung:**
+> *„Alle zufrieden? Die richtige Antwort ist gefallen, die Stunde läuft. Aber schauen wir auf Jonas: Was hat ER in dieser Szene gelernt? … Dass ‚weiß nicht' funktioniert. Drei Wörter – und er hat für den Rest der Stunde frei. Das ist ein Deal, und ihr habt ihn gerade unterschrieben: Aussteigen kostet nichts. Und Modell 4 sorgt dafür, dass der Deal die Runde macht: Nächste Woche probieren ihn drei weitere.*
+> *Wohlgemerkt: Jonas ist kein Verweigerer. ‚Weiß nicht' ist meistens die billigste verfügbare Antwort auf eine unangenehme Situation – und sie bleibt nur so billig, wie IHR sie macht. Lemovs Gegenmittel heißt No Opt Out, und die Grundidee passt in einen Satz: **Die Runde endet erst, wenn die Ausgangsperson erfolgreich war.** Nicht als Strafe – als Versprechen: Bei mir kommt jeder ans Ziel."*
 
-**Variante A:** *„Wer kann mir sagen, warum die Weimarer Republik so instabil war? … Ja, [Name des Schnellsten]!"* [Latenz unter 1 Sekunde – der Name fällt, bevor jemand anderes denken konnte.]
+## Phase 3 · Input (Minute 14–28)
 
-**Variante B:** *„Gleich möchte ich von jemandem hören – warum war die Weimarer Republik so instabil? Denkt kurz nach; zwei Stichworte im Kopf reichen."* [4 Sekunden Stille, ruhiger Blick durch den Raum – dann erst:] *„… Cem?"*
+### 3a · Die Schleife in vier Varianten (Min. 14–20)
+> *„Die Mechanik: Nach dem ‚Weiß nicht' beschafft ihr Hilfe – und kehrt dann ZU JONAS ZURÜCK. Vier Varianten, nach Aufwand sortiert:*
+> *​**Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Woche 11: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
+> *​**Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
+> *​**Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
+> *​**Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
+> *Und zur häufigsten Sorge – ‚Ist das Zurückkommen nicht bloßstellend?': Umgekehrt. Bloßstellend ist das AUFGEBEN – die stille Botschaft ‚Von dir erwartet hier keiner was'. Das Zurückkommen sagt das Gegenteil, und es ist nebenbei die Mindestform von Abruf, Woche 17: Auch das Wiederholen einer gehörten Antwort ist eine Gedächtnishandlung. Der Ton entscheidet: beiläufig-warm, kein Triumph, kein ‚Na also, geht doch!'"*
 
-> **Auswertung:** *„Was war in Variante B anders – und zwar für ALLE im Raum, nicht nur für Cem?"* [Sammeln: In A denkt nur der Melder; in B mussten alle denken, weil bis zur Namensnennung jeder gemeint sein konnte.] *„Das ist der ganze Mechanismus in einer Reihenfolge: **Frage → Pause → Name.** Die Pause ist die Denkzeit für alle; der Name kommt erst, wenn gedacht wurde. Dreht ihr die Reihenfolge um – ‚Cem, warum war…' – schaltet ihr im selben Moment 27 Gehirne ab: nicht gemeint, nicht zuständig."*
+### 3b · Right is Right + Format Matters (Min. 20–25)
+> *„Zweite Baustelle: die halb richtige Antwort. Der Reflex – ich kenne ihn, er fühlt sich pädagogisch an – ist das Aufrunden: ‚Jaaa, genau, so ungefähr!' Drei Kosten hat dieser Reflex: Der Schüler speichert die halbe Antwort als ganze. Die Klasse lernt, dass ‚ungefähr' hier der Standard ist. Und in der Klausur rundet niemand auf. **Right is Right** heißt: freundlich würdigen, präzise nachfassen – ‚Fast. Der erste Teil steht – schärfe den zweiten nach.' Woran messt ihr ‚ganz richtig'? An eurem Exemplar aus Woche 9 – deshalb habt ihr es geschrieben. Drei Prüfsteine: vollständig richtig, nicht ungefähr richtig; die GESTELLTE Frage beantwortet, nicht eine benachbarte; und – dritter Prüfstein mit eigenem Namen – **Format Matters:** Fachsprache zählt. ‚Das Ding oben wird kleiner' mag inhaltlich stimmen – im Fach heißt es Zähler. Die Einforderung ist freundlich und kurz: ‚Richtig – jetzt in Fachsprache.' Das ist keine Pedanterie: Die Prüfung, das Studium, der Beruf sprechen Fachsprache, und wer sie hier nie sprechen musste, hat sie dort nicht.*
+> *Ausnahme mit Augenmaß: Beim allerersten Gehversuch in einem neuen Konzept darf die Alltagssprache eine Brücke sein – aber sie bleibt eine Brücke, kein Wohnort."*
 
-### 3b · Cold Call als Kultur (Min. 18–24)
-> *„Jetzt die Gelingensbedingungen, und sie sind nicht verhandelbar:*
-> *Erstens: **angekündigt und begründet einführen.** Cold Call wird nicht heimlich gestartet – er wird der Klasse erklärt: ‚Ich rufe ab jetzt auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern weil jede Stimme hier zählt und weil ich wissen will, wie IHR denkt, nicht nur die Schnellsten.' Das Skriptgerüst bekommt ihr gleich, in zwei Tonlagen.*
-> *Zweitens: **warm.** Ton und Miene aus Woche 5 und 21 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
-> *Drittens: **vorhersagbar-normal.** Mehrmals pro Stunde, ab Tag eins, als Alltagsformat – nicht als seltenes Ereignis, das Puls erzeugt. Was normal ist, macht keine Angst; Modell 4, Normen, ihr kennt es.*
-> *Viertens – die rote Linie: **niemals als Disziplinierung.** Der Cold Call auf den Träumer, um ihn zu ‚erwischen', ist die häufigste und zerstörerischste Zweckentfremdung: Ihr verwandelt euer Lernwerkzeug in eine Waffe, und die Klasse lernt in einer einzigen Szene: Drankommen ist Strafe. Für Träumer habt ihr die Leiter aus Woche 6 – Stufe 1, Blick und Nähe. Cold Call bleibt sauber.*
-> *Und fünftens: **niedrigschwellig starten.** Die ersten Cold Calls sind Meinungsfragen, Einschätzungen, Berichte aus der Partnerarbeit – Fragen ohne Blamage-Risiko. Das Sicherheitsnetz für ‚Weiß nicht' bauen wir nächste Woche ein; bis dahin gilt bei Schweigen: freundlich Hinweis geben oder weiterreichen und zurückkommen – nie stehen lassen, nie bohren."*
-
-### 3c · Wait Time + Means of Participation (Min. 24–28)
-> *„Zwei Verstärker dazu. **Wait Time:** Nach der Frage drei bis fünf Sekunden Stille aushalten – und das ist schwerer, als es klingt: Die durchschnittliche Lehrer-Wartezeit liegt unter einer Sekunde. Fünf Sekunden fühlen sich im Klassenzimmer an wie eine kleine Ewigkeit; genau deshalb üben wir sie heute mit der Stoppuhr. Und rahmt die Stille produktiv: ‚Ich sehe, einige notieren Stichworte – gut so.' Die Stille ist kein Loch, sie ist Arbeitszeit.*
-> *Und **Means of Participation:** Sagt VOR der Frage an, WIE geantwortet wird – ‚Gleich per Cold Call' / ‚Diesmal Meldung' / ‚Auf die Boards' / ‚Erst mit dem Partner'. Der ewige Reinruf-Kampf ist zur Hälfte ein Klarheitsproblem: Wer nicht weiß, welcher Kanal offen ist, nimmt irgendeinen. Die Ansage schließt die falschen Kanäle, bevor sie benutzt werden."*
+### 3c · Stretch It (Min. 25–28)
+> *„Und was passiert nach einer RICHTIGEN Antwort? Der Standard-Reflex: ‚Genau!' – Punkt, weiter. Verschenkt. **Stretch It:** Die Belohnung für richtig ist eine interessantere Frage. ‚Richtig – woher weißt du das?' ‚Stimmt – und was wäre, wenn X anders wäre?' ‚Genau – ein Gegenbeispiel?' Ihr kennt den Fragenfächer aus Woche 19 – hier ist sein Einsatzort im Plenum. Stretch It ist eure Differenzierung nach oben ohne ein einziges Zusatzblatt: Die Starken bekommen ihre Herausforderung in der laufenden Runde. Und es sendet eine Norm: Bei uns ist ‚richtig' der Anfang des Denkens, nicht sein Ende."*
 
 ## Phase 4 · Name it (Minute 28–32)
 
-**Cold-Call-Standard** (Handout A): eingeführt & begründet · Frage → Pause (3–5 Sek.) → Name · warm in Ton und Miene · vorhersagbar-normal (mehrmals pro Stunde) · NIE als Disziplinierung · breit streuen (Heatmap!). **Wait-Time-Standard:** 3–5 Sek., still, Blick kreist, produktiv gerahmt. **MoP-Regel:** Kanal-Ansage VOR der Frage. Merksatz: *„Erst denken alle – dann fällt ein Name."*
+**Merkformeln:** No Opt Out: *„Es endet bei dir – mit Erfolg."* · Right is Right: Reflexfrage *„Würde diese Antwort im Test volle Punkte bekommen?"* (Maßstab: Exemplar) · Format Matters: *„Richtig – jetzt in Fachsprache."* · Stretch It: Auf richtig folgt eine Frage, kein Punkt. — Fingerzeichen-Kalibrierung: 4 Mini-Antworten vorlesen → durchlassen (✓) oder nachfassen (✗)? (Vorgeschmack auf Runde 2.)
 
 ## Phase 5 · Do it (Minute 32–52)
 
-### Runde 1 · Einführungsskript (Min. 32–39)
-Einzelarbeit: das eigene Einführungsskript wörtlich schreiben (Vorlage Anhang 1.1; Sek-II-Kurse nutzen die erwachsene Tonlage). Tandem-Check: Kommt die Begründung VOR der Ansage der Neuerung? Klingt es nach Einladung?
+### Runde 1 · Schleifen-Rollenspiel (Min. 32–42)
+Vierergruppen, Rollenkarten (Anhang 1.3): Jeder führt zwei Schleifen als Lehrkraft (verschiedene Karten). Beobachter-Checkfragen: Kam die Rückkehr zur Ausgangsperson? War sie mehr als Papageien-Echo (eigene Worte/Anwendung)? Ton beiläufig-warm, kein Triumph? Bei Karte 4 (Verweigerung): ruhig geblieben, Angebot gemacht, Schleife offen gehalten?
 
-### Runde 2 · Sequenz-Drill mit Stoppuhr (Min. 39–52)
-Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt 3 Cold-Call-Zyklen mit echten Fachfragen-Kärtchen durch; der Wächter misst die Pause – **unter 3 Sekunden: Zyklus wird wiederholt** (die harte Regel ist der Trainingseffekt; das Aushalten wird körperlich gelernt). Runde 2 pro Person mit einer Störkarte D (Anhang 1.2). Feedback-Fokus: Pause gehalten? Ton warm? Reihenfolge sauber (kein Name vor der Frage)?
+### Runde 2 · Kalibrierung (Min. 42–52) — das Kernstück
+Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlassen / ✗ nachfassen. **Bei jeder Uneinigkeit: 60 Sekunden Begründungs-Austausch, dann Auflösung durch die Moderation.** *(Die Diskussion über die Grenzfälle – Nr. 4, 7, 9 – IST das Lernen: Ein Kollegium mit gemeinsamem Right-is-Right-Standard ist mehr wert als zehn Einzelkönner. Moderation sagt das explizit.)*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich führe Cold Call in Klasse X mit meinem Skript ein und setze ab dann mindestens fünf warme Cold Calls pro Stunde nach Frage-Pause-Name. Die Pause zähle ich innerlich: einundzwanzig, zweiundzwanzig, dreiundzwanzig."*
+**Standard:** *„Kein ‚weiß nicht' bleibt diese Woche stehen: Ich beschaffe Hilfe (Hinweis oder Peer) und komme IMMER zur Ausgangsperson zurück – und sei es nur zum Anwenden der inzwischen geklärten Antwort. Abends notiere ich den bemerkenswertesten Rückkehr-Moment."*
 
 **Alternativen:**
 
-1. für fragile Klassenkultur (Coach-Absprache!): erst eine Woche Means of Participation konsequent vor jeder Frage – Cold-Call-Start dann in W23.
-2. Wait-Time-Solo: eine Woche lang JEDE Frage (auch an Melder) mit 3–5 Sek. Pause – Beobachtung: Wie verändern sich die Antworten?
+1. Right-is-Right-Woche: eine Woche lang kein Aufrunden – Reflexfrage im Kopf („volle Punkte?"), Nachfass-Formel bereit.
+2. Stretch-It-Woche: jede richtige Antwort in Klasse X bekommt eine Anschlussfrage aus dem Fächer.
 
-> **Ausblick:** *„Eine Frage ist heute offen geblieben: Was, wenn die Antwort ‚Weiß nicht' lautet – oder nur halb richtig ist? Nächste Woche bekommt Cold Call sein Sicherheitsnetz und seinen Anspruch: No Opt Out und Right is Right. Danach endet keine Runde mehr ohne Erfolg."*
+> **Ausblick:** *„Ihr könnt jetzt Einzelne zum Denken bringen. Nächste Woche skalieren wir auf alle gleichzeitig: Turn and Talk und Everybody Writes – wie aus einer Frage an einen eine Denkaufgabe für achtundzwanzig wird. Mit Stoppuhr, versprochen."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -90,80 +87,89 @@ Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt
 
 # 4. Coaching-Woche 22 (Handreichung)
 
-- **Hospitationsfokus – die Heatmap-Woche:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
-- **Auswertungsgespräch:** Heatmap wortlos vorlegen, TN interpretiert zuerst selbst – die blinden Flecken (hinten links? nur eine Geschlechterhälfte? nur Melder?) sind fast immer unbewusst und fast immer da. Pausenwerte daneben. Action Step: 2 konkrete „kalte Zonen" benennen, die nächste Woche gezielt Aufrufe bekommen.
-- **Einführungs-Beobachtung:** Wenn möglich die EINFÜHRUNGS-Stunde hospitieren – die Klassenreaktion auf das Skript ist das wertvollste Feedback.
-- **Red Flag:** Cold Call trifft beobachtbar überwiegend Störer/Träumer → sofort stoppen und umsteuern (Zweckentfremdung zerstört in Tagen, was in Wochen gebaut wurde); Leiter-Werkzeuge reaktivieren, Cold Call neu rahmen.
+- **Hospitationsfokus:** Schleifen-Protokoll: jedes „weiß nicht"/Halb-Richtig wörtlich + was folgte (Rückkehr ja/nein? Aufrunden ja/nein?). Heatmap aus W21 weiterführen (Ziel-Zonen-Check!).
+- **Auswertungsgespräch:** Protokoll vorlegen; die eine verpasste Rückkehr gemeinsam nachspielen (Coach ist der Schüler). Kalibrier-Mini: 3 Antworten aus der hospitierten Stunde gemeinsam bewerten – deckt sich das Urteil?
+- **Verzahnung:** Exemplar der laufenden Einheit als Right-is-Right-Maßstab danebenlegen.
+- **Red Flag:** Rückkehr gerät zum Triumph-Moment („Siehste, geht doch!") oder zum Verhör → Ton-Arbeit im 1:1 (W4-Register); die Schleife trägt nur warm. Zweite Red Flag: TN fasst ALLES nach, auch Erstversuche in neuem Stoff → Augenmaß-Regel besprechen (Brücke Alltagssprache).
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Standard + Einführungsskripte
-**Muster Sek I:** *„Ab heute ändere ich etwas: Ich rufe auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern aus zwei Gründen: Erstens zählt hier jede Stimme, nicht nur die schnellste. Zweitens will ich wissen, wie IHR denkt – alle. Damit das fair ist: Ihr bekommt nach jeder Frage Denkzeit, und ‚Ich bin noch nicht sicher' ist eine erlaubte Antwort – dann helfen wir weiter und kommen zu dir zurück. Probieren wir es: [einfache Meinungsfrage] … [Pause] … Lena?"*
-**Tonlage Sek II:** *„Ich werde in diesem Kurs regelmäßig ohne Meldung aufrufen – so, wie in jeder guten Besprechung Beiträge auch aktiv eingeholt werden. Der Grund: Die Qualität unserer Diskussion hängt davon ab, dass mehr als vier Stimmen tragen. Sie bekommen Denkzeit; Unfertiges ist ausdrücklich zugelassen – Denken in Entwürfen gehört dazu."*
-**Blanko-Felder:** Meine Begründung (2 Sätze): … | Mein Fairness-Zusatz: … | Meine erste niedrigschwellige Frage: …
+## 1.1 Handout A: Schleife + Stretch-It-Fächer
+**Die 4 Varianten** (Kurzform mit Beispielsätzen, siehe Phase 3a). **Rückkehr-Formate:** eigene Worte / Anwendungsfrage / Transferbeispiel – nie bloßes Echo erzwingen, wenn mehr möglich ist. **Stretch-It-Fächer:** Woher weißt du das? · Was wäre wenn …? · Gegenbeispiel? · Geht es auch anders/kürzer? · Wo würde das im Alltag auftauchen? — Fußzeile: „Ton: beiläufig-warm. Kein Triumph."
 
-## 1.2 Störkarten-Set D (Regieanweisungen)
-- **D1 „Weiß nicht":** Der aufgerufene SuS zuckt die Schultern: „Keine Ahnung." *(Lernziel diese Woche: freundlich Hinweis geben ODER weiterreichen + ankündigen „Ich komme zu dir zurück" – und es TUN. Volles Werkzeug kommt in W23.)*
-- **D2 „Der Flapsige":** antwortet mit Witz statt Inhalt („Weil die halt keinen Bock mehr hatten, lol"). *(Lernziel: neutral ernst nehmen + nachfassen: „Da steckt ein Kern drin – formuliere ihn fachlich." Kein Lachen mitspielen, keine Strafpredigt.)*
-- **D3 „Der Reinrufer":** Ein NICHT aufgerufener SuS ruft die Antwort rein. *(Lernziel: MoP-Ansage nachschärfen + ruhig zurückgeben: „Die Frage lag bei Cem – Cem?" Reinruf nicht verwerten, sonst wird er belohnt.)*
+## 1.2 Kalibrierungs-Set (10 Antworten; ✓/✗ + Begründung für Moderation)
+*Kontext je Karte angegeben; Auswahl:*
+1. Frage: „Was ist ein Prädikat?" – „Das Verb im Satz." → **✗ nachfassen** *(unvollständig: mehrteilige Prädikate; „Kern: ja – und wenn zwei Verben da sind?")*
+2. „Warum schwimmt Eis?" – „Weil es leichter ist als Wasser." → **✗** *(Dichte fehlt – Format Matters: „Richtig gedacht – jetzt mit dem Fachwort.")*
+3. „Nenne ein Beispiel für erneuerbare Energie." – „Windkraft." → **✓** *(Frage vollständig beantwortet – Stretch It anbieten: „Woran erkennt man ‚erneuerbar'?")*
+4. **Grenzfall:** „Was besagt der Satz des Pythagoras?" – „a² + b² = c²." → **✗ (diskussionswürdig!)** *(Formel ohne Geltungsbedingung rechtwinklig + Hypotenusen-Zuordnung = halbe Antwort; DIE Kalibrier-Debatte)*
+5. „Wann endete der Zweite Weltkrieg in Europa?" – „1945." → **✓ knapp** *(Frage beantwortet; Stretch: „Monat? Woran machst du das Ende fest?")*
+6. „Was ist eine Metapher?" – „So ein sprachliches Bild halt, wie ‚Meer aus Tränen'." → **✗ Format** *(Beispiel top, Definition flapsig: „Beispiel perfekt – jetzt die Definition in einem Fachsatz.")*
+7. **Grenzfall:** Frage nach dem Unterschied Wetter/Klima – Antwort erklärt nur Klima, korrekt. → **✗** *(nur die halbe GESTELLTE Frage – freundlich: „Klima steht. Und Wetter?")*
+8. „Übersetze: I have been living here since 2020." – „Ich lebe hier seit 2020." → **✓** *(korrekt; Stretch: „Warum NICHT ‚ich habe gelebt'?")*
+9. **Grenzfall:** richtige Antwort, erkennbar geraten (Begründung: „Bauchgefühl"). → **✗** *(W11-Karte K6! „Ergebnis stimmt – jetzt der Weg: Woran hättest du es prüfen können?")*
+10. „Was macht der Dativ?" – „Wem-Fall." → **✗ nachfassen** *(Merkwort ≠ Funktion: „Das Fragewort stimmt – was ZEIGT der Dativ im Satz an?")*
 
-## 1.3 Sitzplan-Heatmap-Blanko
-Sitzplan-Raster + Legende: ○ Cold Call · ● Meldung · Strichdichte = Häufigkeit. Auswertungszeilen: „Kalte Zonen: … / Muster (Geschlecht/Sitzposition/Leistung): … / Meine 2 Ziel-Zonen nächste Woche: …"
+## 1.3 Rollenkarten „Weiß-nicht"-Varianten (Regieanweisungen)
+- **R1 „Echt unsicher":** Du weißt es halb; auf einen kleinen Hinweis hin kommst du selbst drauf. *(Ziel: Variante 1 genügt – Lehrkraft soll NICHT sofort zum Peer springen.)*
+- **R2 „Braucht den Peer":** Du weißt es wirklich nicht; nach Mias Antwort kannst du sie mit eigenen Worten fassen – aber nur, wenn die Lehrkraft eine ANWENDUNGS-Rückfrage stellt (bei „Wiederhol mal" antwortest du hölzern wortgleich). *(Ziel: Rückkehr-Format über Echo hinaus.)*
+- **R3 „Halber Ansatz":** Du lieferst einen richtigen Anfang und brichst ab. *(Ziel: Teilantwort als Material – „Der Anfang steht, bau weiter.")*
+- **R4 „Kein Bock":** Du verweigerst („Keine Ahnung, ist mir auch egal"), verschränkst die Arme; du taust NUR bei ruhigem Ton + Rückkehr-Angebot minimal auf. *(Ziel: Block-1-Werkzeuge, Schleife offen halten, kein Machtkampf vor Publikum.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die Ersetzungs-Regel (W21)? *(Selbstauskunft → prüfbare Mini-Aufgabe)*
-2. Der Fehlerreaktions-Dreiklang? *(neutral benennen → Ursache würdigen → nutzen)*
-3. Warum liefert „Alle verstanden?" nichts – zwei Gründe? *(soziale Kosten; Dunning-Kruger)*
-4. Die All-Response-Formate aus Block 2? *(Whiteboards, Fingercodes/Abfrage an alle)*
-5. (Anwendung) Skizziere ein Plan-for-Error für „Kommasetzung bei weil" – ein wahrscheinlicher Fehler + Reaktion. *(z. B. Komma nach Gefühl/Atempause statt vor der Konjunktion → Dreiklang + Verb-Suchregel als Hinweis)*
+1. Der Cold-Call-Standard – nenne 4 der Bedingungen. *(eingeführt+begründet / Frage-Pause-Name / warm / normal-vorhersagbar / nie Disziplinierung / breit streuen)*
+2. Warum Frage → Pause → Name? *(bis zum Namen denken alle)*
+3. Zwei der vier Fehlerkultur-Hebel (W20)? *(erwarten+würdigen / eigene Fehler souverän / neutral+zügig inkl. Miene / Lach-Verbot)*
+4. Break-It-Down-Stufen (Block 2)? *(Hinweis → Beispiel → Regel → erster Schritt → Lösung)*
+5. (Anwendung) Dein Cold Call trifft auf Schweigen – deine erste Reaktion nach W21-Stand? *(freundlich Hinweis ODER weiterreichen + „ich komme zurück" – heute wird daraus die volle Schleife)*
 
 ## Teil 2: Modul-Quiz Woche 22 (für SPA/Folgewoche)
-**F1.** Cold Call auf den Schüler, der gerade aus dem Fenster träumt, ist…
-a) effizient – weckt und diszipliniert zugleich ✗ *(DIE Zweckentfremdung – fühlt sich clever an)*
-b) Kulturzerstörung: Das Lernwerkzeug wird zur Waffe; für Träumer gibt es Stufe 1 der Leiter ✓
-c) verboten ✗
-d) nur in Sek I in Ordnung ✗
+**F1.** Nach der Peer-Antwort zur Ausgangsperson zurückzukehren ist…
+a) unnötige Wiederholung – die Antwort ist ja gefallen ✗ *(Effizienz-Logik)*
+b) der Kern von No Opt Out: Erfolg + Abruf für die Ausgangsperson ✓
+c) Bloßstellung des Schwächeren ✗ *(DIE Sorge – Empathie-Distraktor)*
+d) nur bei starken Schülern sinnvoll ✗
 
-**F2.** Die richtige Reihenfolge:
-a) Name → Frage → Pause ✗ *(das Alltagsmuster – schaltet 27 Gehirne ab)*
-b) Frage → Pause → Name ✓
-c) Frage → Name → Pause ✗
-d) egal, Hauptsache freundlich ✗
+**F2.** „Jaaa, so ungefähr, genau!" zu einer halbrichtigen Antwort…
+a) schützt Motivation und Selbstwert ✗ *(fühlt sich pädagogisch an)*
+b) speichert Halbes als Ganzes und senkt den Klassenstandard ✓
+c) ist in Sek II angemessen ✗
+d) spart wertvolle Zeit ✗
 
-**F3.** Fünf Sekunden Stille nach deiner Frage sind…
-a) peinlich und ein Zeichen einer schlechten Frage ✗ *(das Lehrer-Bauchgefühl)*
-b) Denkzeit – auszuhalten und produktiv zu rahmen ✓
-c) Zeitverschwendung bei 45-Minuten-Stunden ✗
-d) nur bei schweren Fragen nötig ✗
+**F3.** „Das Ding oben wird kleiner" (inhaltlich korrekt). Format Matters heißt:
+a) Antwort ablehnen – falsch ist falsch ✗ *(Härte-Verwechslung)*
+b) würdigen + Fachsprache einfordern: „Richtig – jetzt mit dem Fachwort" ✓
+c) durchwinken – Inhalt schlägt Form ✗ *(der Alltagskompromiss)*
+d) den Schüler das Fachwort nachschlagen lassen ✗
 
-**F4.** Cold Call wird eingeführt…
-a) unangekündigt – sonst verliert er die Wirkung ✗ *(Überraschungs-Logik)*
-b) explizit, mit Begründung und Fairness-Zusagen ✓
-c) nur nach Elterninformation ✗
-d) gar nicht – er ergibt sich ✗
+**F4.** Die Belohnung für eine richtige Antwort ist…
+a) präzises Lob und weiter ✗ *(teilrichtig – verschenkt den Moment)*
+b) eine interessantere Anschlussfrage (Stretch It) ✓
+c) ein Bonuspunkt ✗
+d) Ruhe vor dem nächsten Aufruf ✗
 
-**F5.** Ein Schüler ruft die Antwort rein, während Cem aufgerufen ist. Du…
-a) nimmst die richtige Antwort dankbar auf – Hauptsache Inhalt ✗ *(belohnt den Reinruf)*
-b) gibst ruhig zurück: „Die Frage lag bei Cem – Cem?" ✓
-c) ermahnst den Reinrufer scharf ✗ *(Overkill – MoP nachschärfen genügt)*
-d) stellst eine neue Frage ✗
+**F5.** „a² + b² = c²" auf die Frage nach dem Satz des Pythagoras ist…
+a) die perfekte Antwort ✗ *(die Kalibrier-Falle!)*
+b) halb – ohne rechtwinklig + Hypotenusen-Zuordnung gilt die Formel nicht ✓
+c) falsch ✗
+d) Geschmackssache des Lehrers ✗ *(genau das soll Kalibrierung beenden)*
 
-**F6 (Transfer, Freitext):** Schreibe dein Cold-Call-Einführungsskript für deine schwierigste Klasse: Begründung (2 Sätze), Fairness-Zusatz, erste niedrigschwellige Frage. *(Bewertungsanker: Begründung vor Neuerung; Einladungston; „unsicher ist erlaubt"-Zusage; risikofreie Erstfrage.)*
+**F6 (Transfer, Freitext):** Jonas: „Weiß nicht." Mia liefert die richtige Antwort. Schreibe deine Rückkehr zu Jonas wörtlich – als Anwendungsfrage, nicht als Echo-Befehl. *(Muster: „Danke, Mia. Jonas – ein kalter, verregneter Juli: Wetter oder Klima? Und warum?" Bewertungsanker: Anwendung statt Wiederholung, Ton beiläufig.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 22"
 
-1. **Hook (2 Min.):** „Das stille Abo": animierte Klasse, 5 Hände, 23 ausgegraute Köpfe mit Abo-Etikett; Regler Participation/Think Ratio zum Schieben.
-2. **See it (4 Min.):** Variante A/B als Audio mit sichtbarer Zeitleiste (Namens-Zeitpunkt markiert); Aufgabe: „In welcher Sekunde hörten 27 Gehirne auf zu arbeiten?"
-3. **Name it (3 Min.):** Standard-Karten; Reihenfolge-Puzzle (Frage/Pause/Name); rote-Linie-Karte (nie Disziplinierung) prominent.
-4. **Do it – Sequenztrainer mit Mikrofon/Timer (8 Min., Engine!):** App zeigt Fachfrage → Nutzer spricht sie ein → hält die Pause (App misst still mit!) → spricht den Namen; unter 3 Sek. = Wiederholung mit ermutigendem Feedback („Die Ewigkeit ist Training"). Alternativ ohne Mikro: Halte-den-Button-gedrückt-Spiel mit Zeitgefühl-Kalibrierung.
-5. **Störfall-Simulator:** D1–D3 als Entscheidungsbäume; D1 endet mit Cliffhanger auf Modul 23 („Das volle Sicherheitsnetz: nächstes Modul").
-6. **Heatmap-Selbsttool:** digitaler Sitzplan zum Selbst-Tracken einer eigenen Stunde (Aufrufe antippen) → Zonen-Auswertung; verzahnt mit dem Coach-Bogen.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit „5 warme Cold Calls"-Tageszähler + Einführungsskript-Export ins Playbook.
+1. **Hook (2 Min.):** Der Drei-Wörter-Deal als Comic-Sequenz; Frage: „Was hat Jonas gelernt?" (Freitext, dann Auflösung).
+2. **See it (4 Min.):** Die 4 Schleifen-Varianten als kurze Audio-Dialoge; Aufgabe: Variante identifizieren + Rückkehr-Moment antippen.
+3. **Name it (3 Min.):** Merkformeln als Karten; ✓/✗-Vorschau mit 4 Mini-Antworten.
+4. **Do it – Schleifen-Simulator (8 Min., Engine!):** verzweigte Dialoge nach den Rollenkarten R1–R4 (KI-Schülerantworten nach Regieanweisung); Scoring: Rückkehr erfolgt? Format über Echo? Ton-Wahl (Button-Optionen inkl. Triumph-Falle „Na also, geht doch!" mit Feedback); R4 verzweigt zu Block-1-Werkzeugen + W.I.N.-Verweis.
+5. **Kalibrierungs-Modul (Kernstück!):** Die 10 Antworten einzeln bewerten → nach jeder: eigene Wahl vs. (anonyme) Kohorten-Verteilung vs. Auflösung mit Begründung – der Community-Vergleich macht den Kalibrier-Effekt der Live-Sitzung digital erlebbar; Grenzfälle 4/7/9 mit ausführlicher Begründungskarte.
+6. **Stretch-It-Roulette:** richtige Antwort erscheint → Fächer-Frage dazu formulieren/wählen.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit „Rückkehr-Moment des Tages"-Journal.

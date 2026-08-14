@@ -1,4 +1,4 @@
-# Skript Woche 16: „Kognitive Last managen – Information & Kommunikation verschlanken"
+# Skript Woche 16: „Aufmerksamkeit lenken – präzise orientieren"
 ## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,24 +7,22 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie halte ich den Denk-Kanal frei für das, worauf es ankommt? |
-| **Kernquellen** | McCrea, *Memorable Teaching* („Manage information", „Streamline communication", „Regulate load"); Cognitive-Load-Theorie (Sweller); Lemov T22 (Board = Paper, Bezug) |
-| **Funktion im Jahr** | Operationalisiert den WM-Flaschenhals aus W15 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für W11-Regeln (Stifte weg = Split Attention) und W13-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (W33 Packet, W34 Arbeitsblätter). |
-| **Lernziele** | Die TN können:<br>1. intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg),<br>2. die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz),<br>3. Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede),<br>4. eigenes Material mit der Checkliste operieren. |
-| **Sitzungstyp** | Werkstatt-Sitzung: Selbsterleben → Theorie → Chirurgie am eigenen Material. |
+| **Leitfrage** | Wie stelle ich sicher, dass alle über das Richtige nachdenken? |
+| **Kernquellen** | McCrea, *Memorable Teaching* („Orient attention"); Willingham (Denkspur = Lernspur, aus W14); Seductive-Details-Forschung; Lemov (Modell 3 aus dem Auftakt) |
+| **Funktion im Jahr** | Schließt den Bogen von Modell 3 (Auftakt) über den Willingham-Satz (W14) zum Handwerk: Aufmerksamkeit als steuerbare Größe. Löst den offenen Fall 2 aus W14 (Filmeinstieg). Das „Aufgaben-Röntgen" wird Prüfwerkzeug für alle künftigen Aufgabenformate (W17 Retrieval-Fragen, W23 Prompts, W33 Klassenarbeiten). |
+| **Lernziele** | Die TN können:<br>1. erklären, warum ungelenkte Aufmerksamkeit systematisch am Ziel vorbeiläuft,<br>2. präzise Beachtungs-Aufträge vor jedem Medium formulieren,<br>3. Struktur-Marker im eigenen Vortrag setzen,<br>4. Aufgaben „röntgen": Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen? |
+| **Sitzungstyp** | Experiment + Analyse-Werkstatt; das Aufgaben-Röntgen ist die anspruchsvollste Denkübung des Blocks. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen, Laptops/Tablets der TN falls verfügbar (sonst Papier-OP). **Vorab-Auftrag (W15-Exit-Karte):** eigenen Foliensatz oder ein selbst erstelltes Arbeitsblatt mitbringen – ausdrücklich das „schlimmste" Exemplar.
-
-**Material (Checkliste):**
+**Raum:** Plenum für das Experiment, dann Vierergruppen. **Material:**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Die Horror-Folie + ihre entschlackte Zwillingsfolie (Anhang 1.1 – vorbereiten!)
-- [ ] Handout A: Entschlackungs-Checkliste (Anhang 1.2)
-- [ ] Handout B: Dual-Coding-Beispielgalerie, 3 Paare (Anhang 1.3)
-- [ ] 3 Verständnisfragen zur Horror-Folie (auf Folie 2 versteckt)
+- [ ] Experiment-Folie + Überraschungsquiz (Anhang 1.1 – exakt nach Bauanleitung!)
+- [ ] Handout A: Der Lenkungs-Dreiklang + Marker-Formulierungen (Anhang 1.2)
+- [ ] Aufgaben-Kartenset: 6 Aufgaben, davon 2 „Mogelpackungen" (Anhang 1.3)
+- [ ] Marker-Skript-Vorlage (3 Zeilen, Anhang 1.4)
 
 ---
 
@@ -34,134 +32,145 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Der Anschlag auf euer Arbeitsgedächtnis (Minute 8–16)
+## Phase 2 · See it: Das Überraschungsexperiment (Minute 8–15)
 
-**Der Doppel-Versuch (Herzstück – Regie exakt einhalten):**
+**Regie (exakt):** *„Ich zeige euch 20 Sekunden lang eine Folie aus einer echten Biologiestunde. Schaut sie euch aufmerksam an."* [Folie nach Anhang 1.1: sauberes Diagramm „Energieverbrauch verschiedener Organe" MIT einer kleinen witzigen Randnotiz und einem Mini-Cartoon-Gehirn mit Hantel. 20 Sek., dann schwarz.] *„Quiz, auf die Boards: Frage 1 – Welches Organ hatte den zweithöchsten Verbrauch? … Frage 2 – Was stand auf der y-Achse? … Frage 3 – Was machte das Cartoon-Gehirn?"* [Boards hoch: Fragen 1–2 mager, Frage 3 fast 100 %.]
 
-**Durchgang 1:** Moderation präsentiert 90 Sekunden mit der Horror-Folie (Anhang 1.1): dichter Fließtext + Diagramm + drei Aufzählungsebenen; die Moderation LIEST den Text wörtlich vor und streut zusätzlich mündliche Zusatzinfos ein, die NICHT auf der Folie stehen. Danach Folie weg, drei Verständnisfragen auf die Boards. [Ergebnis: mager – und zwar bei einem Raum voller motivierter Erwachsener.]
+> **Auswertung:** *„Ich habe euch ‚aufmerksam anschauen' gesagt – und ihr WART aufmerksam. Nur eben nicht auf die Achsen. Eure Aufmerksamkeit ist zum Witzigen gelaufen, zum Sozialen, zum Neuen – dorthin, wofür sie evolutionär gebaut ist. Achsen­beschriftungen stehen auf ihrer Prioritätenliste ganz unten. Und jetzt der entscheidende Satz: **Eure Schüler sind nicht unaufmerksamer als ihr – ihre Aufmerksamkeit ist nur genauso eigensinnig.** ‚Schaut euch das mal genau an' ist deshalb keine Lenkung. Es ist ein Würfelwurf."*
 
-**Durchgang 2:** Derselbe Inhalt, entschlackte Zwillingsfolie: EIN beschriftetes Schaubild, kein Fließtext; Moderation spricht frei dazu. Danach drei parallele Verständnisfragen. [Ergebnis: deutlich besser.]
+## Phase 3 · Input: Der Lenkungs-Dreiklang (Minute 15–27)
 
-> **Auswertung:** *„Haltet den Moment fest: Ihr seid hochmotivierte Profis, der Inhalt war identisch, die Zeit war identisch – und trotzdem dieser Unterschied. In Durchgang 1 habe ich drei Anschläge auf euer Arbeitsgedächtnis verübt: Ihr solltet LESEN, während ich etwas ANDERES sagte – zwei Sprachkanäle im Wettstreit. Ich habe VORGELESEN, was ihr schneller selbst lest – doppelte Verarbeitung derselben Information. Und die Zusatzinfos kamen nur mündlich – kaum gesagt, schon verweht. Eure Schüler erleben das täglich. Der Unterschied: Sie können nicht benennen, warum sie aussteigen – sie steigen einfach aus. Und der Beobachter notiert dann: unkonzentriert."*
+### 3a · Der Torwächter und seine Vorlieben (Min. 15–18)
+> *„Woche 14, das Modell: Die Aufmerksamkeit ist der Torwächter des Arbeitsgedächtnisses – nur was durch sie hindurchgeht, kann überhaupt gelernt werden. Und dieser Torwächter hat Vorlieben: Neues schlägt Bekanntes, Soziales schlägt Sachliches, Bewegtes schlägt Statisches, Witziges schlägt Wichtiges. Ohne Lenkung lernen eure Schüler in jeder Stunde IRGENDETWAS – nur nicht zuverlässig das Geplante. Willingham, ihr kennt ihn: Erinnert wird, worüber nachgedacht wurde. Lenkung heißt also: das Nachdenken adressieren."*
 
-## Phase 3 · Input: Die Theorie zur Erfahrung (Minute 16–27)
+### 3b · Die drei Hebel (Min. 18–24)
+> *„Hebel eins: **der präzise Beachtungs-Auftrag.** Vor jedem Medium – Grafik, Text, Video, Versuch – ein konkreter Auftrag, WAS zu suchen ist: nicht ‚Schaut auf die Grafik', sondern ‚Vergleicht die Balken von Gehirn und Muskeln – um welchen Faktor unterscheiden sie sich?' Nicht ‚Achtet auf das Video', sondern ‚Zählt mit, wie oft die Zelle sich teilt, und notiert, was direkt davor passiert.' Der Auftrag kommt VOR dem Medium und ist so konkret, dass man ihn abhaken kann – ihr erkennt euren Vierercheck aus Woche 3 wieder, angewandt aufs Hinschauen.*
+> *Hebel zwei: **Struktur-Marker im Vortrag.** Euer Sprechen kann zeigen, wo es wichtig wird: ‚Der wichtigste Satz der Stunde kommt JETZT.' – ‚Das Folgende ist der häufigste Prüfungsfehler.' – ‚Erstens … zweitens … drittens.' Dazu die nichtsprachlichen Marker, die ihr aus Woche 4 kennt: die Pause davor, der Stillstand, die Stimme runter. Konsistente Layouts gehören auch hierher: Wenn die Merkregel IMMER im roten Kasten steht, findet der Torwächter sie von allein.*
+> *Hebel drei – der stärkste und unbequemste: **Denkzwang in der Aufgabe.** Die verlässlichste Lenkung ist eine Aufgabe, die sich NUR lösen lässt, wenn man den Zielinhalt denkt. Nicht abschreibbar, nicht durch Raten oder Oberflächenmerkmale knackbar. Und hier kommt das Prüfwerkzeug der Woche, das **Aufgaben-Röntgen** – eine einzige Frage: Was muss ein Schüler DENKEN, um diese Aufgabe zu lösen? Wenn die ehrliche Antwort lautet ‚er muss nur die fettgedruckten Wörter aus dem Text kopieren' – dann unterrichtet die Aufgabe Kopieren, egal was ihr Titel verspricht."*
 
-### 3a · Gute Last, schlechte Last (Min. 16–20)
-> *„Zuerst die wichtigste Unterscheidung, damit niemand das Falsche mitnimmt: Es geht NICHT darum, Unterricht leicht zu machen. **Intrinsische Last** – die Schwierigkeit der Sache selbst – ist erwünscht: Denken soll stattfinden, Anstrengung ist der Stoff, aus dem Lernen ist. Was wir bekämpfen, ist die **lästige Last**: alles Drumherum, das Kapazität frisst, ohne Lernen zu erzeugen – das Suchen auf der überladenen Folie, das Entziffern der Anweisung, der Wettstreit der Kanäle. Die Formel der Woche: **Schwere Inhalte, schlanker Weg.** Wer beides senkt, langweilt. Wer beides hochfährt, überfordert. Die Kunst ist die Schere."*
-
-### 3b · Die drei großen Fresser (Min. 20–24)
-> *„Fresser eins: **Split Attention** – zwei Informationsquellen konkurrieren um denselben Kanal. Der Klassiker: Text auf der Folie lesen, während die Lehrkraft anderes erzählt. Oder – Woche 11 lässt grüßen – mitschreiben, während erklärt wird. Ihr habt die Stifte-weg-Regel damals auf Zuruf geglaubt; heute wisst ihr, warum sie stimmt.*
-> *Fresser zwei: **Redundanz** – dieselbe Information doppelt verarbeitet. Folientext wörtlich vorlesen fühlt sich wie Service an und ist das Gegenteil: Das Gehirn liest UND hört UND vergleicht beide Ströme. Regel: Was steht, wird nicht vorgelesen – was gesagt wird, muss nicht auch noch dastehen.*
-> *Fresser drei: **Transienz** – Gesprochenes verschwindet. Eine dreischrittige Anweisung, nur mündlich gegeben, ist für die Hälfte der Klasse nach Schritt eins Geschichte. Deshalb eure W13-Startbedingung ‚Aufgabe schriftlich' – und deshalb die Regel: **Wichtiges bleibt stehen.** Kernschritte an der Tafel, bis Stundenende. Lemov nennt das Prinzip Board = Paper: Was an der Tafel steht, ist das Modell dessen, was im Heft stehen soll."*
-
-### 3c · Dual Coding, richtig verstanden (Min. 24–27)
-> *„Und die starke Kombination? **Bild plus gesprochenes Wort** – zwei verschiedene Kanäle, die sich ergänzen statt konkurrieren: Das Auge hält das Schaubild, das Ohr bekommt die Erklärung. DAS ist Dual Coding. Was Dual Coding NICHT ist: Bild plus Textwüste plus Rede – das ist Stau auf allen Spuren. Und Dekoration – das animierte Männchen, das Zufalls-Clipart – ist keine Auflockerung, sondern ein Aufmerksamkeits-Dieb; wohin die Denkspur dann läuft, klärt nächste Woche im Detail. Kurzregel für jede Folie: **Ein Gedanke. Ein Träger – Bild ODER Text. Der Rest kommt aus eurem Mund.**"*
+### 3c · Der Fall Seductive Details (Min. 24–27)
+> *„Und damit lösen wir Fall 2 aus Woche 14 auf – den Filmeinstieg, nach dem alle den Film kennen und keiner das Konzept. Die Forschung nennt das seductive details: Das Interessante frisst das Wichtige. Die falsche Konsequenz wäre: Anekdoten, Experimente, Filme streichen – dann wird es korrekt und tot. Die richtige: **koppeln.** Die Anekdote bekommt einen Denkauftrag ans Konzept: ‚Diese Geschichte ist ein Beispiel für Prinzip X – erklärt nach dem Video zu zweit, wo genau.' Das Spektakel darf bleiben – aber es muss fürs Konzept arbeiten."*
 
 ## Phase 4 · Name it (Minute 27–31)
 
-**Entschlackungs-Checkliste** (Handout A) durchgehen: ☐ Ein Gedanke pro Folie? ☐ Träger gewählt: Bild ODER Text? ☐ Nichts vorlesen, was steht? ☐ Anweisungen ab 2 Schritten schriftlich? ☐ Kernschritte bleiben stehen (Board = Paper)? ☐ Dekoration raus? — Merksatz: *„Schwer darf die Sache sein – nicht der Weg zu ihr."*
+**Lenkungs-Dreiklang** (Handout A):
 
-Fingerzeichen-Kalibrierung (2 Min.): 4 Mini-Beschreibungen → welcher Fresser? (z. B. „Lehrkraft diktiert die Hausaufgabe in den Packlärm" → Transienz + W8-Echo.)
+1. Beachtungs-Auftrag VOR jedem Medium – konkret, abhakbar.
+2. Struktur-Marker im Vortrag – sprachlich + körperlich + Layout.
+3. Denkzwang in der Aufgabe – Röntgen-Frage: „Was muss man denken, um das zu lösen?"
 
-## Phase 5 · Do it: Folien-/Material-Chirurgie (Minute 31–52)
+— Merksatz: *„Wer nicht lenkt, würfelt."*
 
-### Runde 1 · Operation am eigenen Material (Min. 31–45)
-Jeder operiert 2 eigene Folien bzw. ein Arbeitsblatt nach Checkliste – real (am Gerät) oder als Papier-Markup (streichen/skizzieren). Moderation zirkuliert mit den zwei Standard-Interventionen: *„Welcher GEDANKE ist das? Dann darf nur er bleiben."* und *„Das hier – sagst du es, oder steht es? Beides geht nicht."* 
+Fingerzeichen-Kalibrierung: 4 Aufträge vorlesen – präzise oder Würfelwurf? (z. B. „Lest den Text aufmerksam" ✗ / „Unterstreicht die zwei Stellen, an denen der Autor seine These abschwächt" ✓.)
 
-### Runde 2 · Vorher/Nachher-Review (Min. 45–52)
-Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist der eine Gedanke?" (Wenn er ihn nicht in 5 Sekunden nennen kann: weiter operieren.) Danach zeigen 2 TN ihre dramatischste Verwandlung am Beamer – Applaus ist erlaubt; die Vorher-Folie erntet das befreiende Gelächter des Wiedererkennens.
+## Phase 5 · Do it (Minute 31–52)
+
+### Runde 1 · Aufgaben-Röntgen (Min. 31–43)
+Vierergruppen, 6 Aufgaben-Karten (Anhang 1.3): Für jede die Röntgen-Frage beantworten – zwei Karten sind Mogelpackungen (lösbar ohne Zielgedanken). Die Mogelpackungen werden UMGEBAUT, sodass der Zielgedanke unumgehbar wird. Plenums-Blitz: die zwei Umbauten vergleichen. *(Kern-Erkenntnis, die die Moderation ernten muss: Oft genügt ein kleiner Dreh – „Begründe", „Entscheide und belege", „Was wäre, wenn X anders wäre?" – um aus Kopieren Denken zu machen.)*
+
+### Runde 2 · Marker-Skript (Min. 43–52)
+Einzelarbeit: Für die eigene nächste Stunde drei Marker WÖRTLICH skripten (Vorlage Anhang 1.4): einen Beachtungs-Auftrag vor einem Medium, einen Wichtigkeits-Marker vor dem Kernsatz, einen Kopplungs-Auftrag für das eigene „spannende Element" (falls vorhanden). Tandem-Check: Ist der Beachtungs-Auftrag abhakbar?
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich überarbeite den Foliensatz meiner nächsten neuen Einheit nach der Checkliste – und halte in JEDER Stunde dieser Woche die Vorlese-Nulldiät: Nichts vorlesen, was die Klasse sieht."*
+**Standard:** *„Vor JEDEM Medienwechsel dieser Woche gebe ich einen konkreten Beachtungs-Auftrag – einen abhakbaren Aspekt, nie ‚schaut mal'. Freitags notiere ich die zwei Aufträge, die am besten funktioniert haben."*
 
 **Alternativen:**
 
-1. Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper).
-2. Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Woche.
+1. Röntgen-Woche: jede selbst gestellte Aufgabe vorher röntgen; eine Mogelpackung pro Tag umbauen.
+2. Kopplungs-Woche: jedes „spannende Element" (Anekdote, Video, Versuch) bekommt einen Denkauftrag ans Konzept.
 
-> **Ausblick:** *„Der Kanal ist jetzt frei – nächste Woche geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 von letzter Woche: dem Filmeinstiegs-Problem."*
+> **Ausblick:** *„Der Kanal ist frei, die Richtung stimmt – nächste Woche kommt der Verstärker: Warum Erinnern-MÜSSEN die stärkste Lernaktivität ist, die wir kennen. Mit einem Experiment, das ihr an euch selbst durchführt – es startet HEUTE: Die Hälfte von euch bekommt gleich einen Lernauftrag nach Methode A, die andere nach Methode B. Nächste Woche messen wir."* **(Vorab-Auftrag W17 austeilen: Liste mit 10 Fachbegriffen; Gruppe A: „3× durchlesen, je 2 Min., an drei Tagen"; Gruppe B: „1× lesen, dann an drei Tagen je 2 Min. selbst abfragen – Blatt umgedreht". Zettel mit Gruppenzuteilung!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Gruppenzuteilung A/B notieren lassen.
 
 ---
 
 # 4. Coaching-Woche 16 (Handreichung)
 
-- **Format-Besonderheit:** Material-Sichtung VOR der Hospitation (TN schickt den Foliensatz der Stunde) – Coach legt die Checkliste an, zeigt sie aber erst im Gespräch.
-- **Hospitationsfokus:** Blickrichtungs-Stichproben: Wohin schauen die SuS während der Erklärung (Folie? Lehrkraft? Heft? – dreimal je 10 Sekunden zählen)? Vorlese-Momente protokollieren; verschwundene mündliche Anweisungen notieren (woran erkennbar: Rückfragen „Was sollten wir nochmal?").
-- **Auswertungsgespräch:** Erst die Rückfragen-Liste zeigen (Transienz-Beweis aus der eigenen Stunde überzeugt mehr als jede Folie), dann gemeinsam 2 Folien der NÄCHSTEN Stunde operieren.
-- **Red Flag:** TN mit extrem hohem Material-Perfektionismus (stundenlange Folienbastelei) → Vorgriff auf W32: Die Checkliste SPART Zeit – weniger Folie ist schneller gebaut; ggf. Zeitbudget vereinbaren.
+- **Hospitationsfokus:** Medienwechsel zählen; pro Wechsel: Kam ein Beachtungs-Auftrag? Wörtlich protokollieren; Stichprobe: 2 SuS nach der Stunde fragen, was sie im Video/in der Grafik gesucht haben.
+- **Auswertungsgespräch:** Protokoll + Schüler-Stichprobe nebeneinander (die Diskrepanz ist der Aha-Moment); einen morgigen Beachtungs-Auftrag gemeinsam wörtlich bauen.
+- **Verzahnung:** Röntgen-Frage auf das aktuelle Exit Ticket des TN anwenden – misst es Denken oder Kopieren?
+- **Red Flag:** TN streicht nach der Seductive-Details-Lektion alles „Spannende" → Kopplungs-Prinzip betonen: Das Ziel ist Arbeit fürs Konzept, nicht Askese.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Die Horror-Folie + Zwilling (Bauanleitung)
-**Inhalt (neutral, fachfremd fair):** „Der Wasserkreislauf". **Horror-Version:** 11 Zeilen Fließtext (Verdunstung, Kondensation, Niederschlag, Abfluss – verschachtelt formuliert) + kleines Kreislauf-Diagramm rechts unten + 3 Bullet-Ebenen mit Sonderfällen + Clipart-Sonne mit Sonnenbrille. Moderation liest den Text vor UND ergänzt mündlich zwei Zahlen (Verdunstungsanteil Ozeane ~86 %, Verweildauer Atmosphäre ~9 Tage), die nirgends stehen. **Fragen danach:**
+## 1.1 Experiment-Folie (Bauanleitung)
+Balkendiagramm „Energieverbrauch von Organen in Ruhe (% des Grundumsatzes)": Leber 27, Gehirn 19, Muskeln 18, Herz 7 (y-Achse: „% des Grundumsatzes"). Rechts unten klein: Cartoon-Gehirn stemmt eine Hantel, Sprechblase „Leg day!". Randnotiz handschriftlich: „krass, oder?!". — **Quiz:**
 
-1. Welche vier Stationen nennt der Kreislauf?
-2. Wie hoch ist der Ozean-Anteil an der Verdunstung?
-3. Wie lange bleibt Wasser durchschnittlich in der Atmosphäre?
+1. Organ mit zweithöchstem Verbrauch? *(Gehirn)*
+2. y-Achsen-Beschriftung?
+3. Was tat das Cartoon-Gehirn?
 
-**Zwilling:** Nur das groß gezeichnete Kreislauf-Diagramm mit 4 beschrifteten Stationen; die zwei Zahlen stehen als einzige Textelemente an den passenden Pfeilen; Moderation spricht frei. Parallele Fragen: identisch.
+— Erwartung: F3 gewinnt haushoch.
 
-## 1.2 Handout A: Entschlackungs-Checkliste — siehe Phase 4 (sechs Prüfpunkte + Merksatz; Fußzeile: „Die Schere: intrinsisch hoch, lästig runter").
+## 1.2 Handout A: Lenkungs-Dreiklang + Marker-Baukasten
+**Beachtungs-Aufträge (Muster):** „Vergleicht … – um welchen Faktor?" · „Zählt mit, wie oft …" · „Findet die Stelle, an der …" · „Notiert die zwei Begriffe, die …". **Wichtigkeits-Marker:** „Der wichtigste Satz kommt JETZT." · „Das ist der häufigste Prüfungsfehler." · „Wenn ihr EINEN Satz mitnehmt, dann diesen:". **Kopplungs-Aufträge:** „Dieses Video ist ein Beispiel für X – erklärt danach zu zweit, wo genau." · „Der Versuch beweist Regel Y – formuliert nach dem Knall, warum."
 
-## 1.3 Handout B: Dual-Coding-Galerie (3 Paare)
-**Paar 1 (Geografie):** Karte mit gesprochener Erläuterung ✓ vs. Karte + Fließtext daneben + Rede ✗. **Paar 2 (NaWi):** Versuchsskizze mit nummerierten Schritten, mündlich erklärt ✓ vs. Foto + Textspalte + Vorlesen ✗. **Paar 3 (Sprachen/Geschichte):** Zeitstrahl mit 5 Markern, frei erzählt ✓ vs. Zeitstrahl + Stichpunkt-Wolke + Zusatzanimationen ✗. — Je Paar eine Zeile: „Welcher Fresser wurde vermieden/begangen?"
+## 1.3 Aufgaben-Kartenset (6 Karten; ★ = Mogelpackung)
+**K1 (Geschichte):** „Lies den Abschnitt und nenne drei Folgen der Industrialisierung." ★ *(lösbar durch Abschreiben der Aufzählung – Umbau: „…und ordne sie: Welche Folge wiegt heute am schwersten? Begründe in zwei Sätzen.")*
+**K2 (Mathe):** „Entscheide OHNE zu rechnen: Ist 4/7 + 3/8 größer oder kleiner als 1? Begründe." *(sauber: erzwingt Bruch-Größenvorstellung)*
+**K3 (Deutsch):** „Unterstreiche alle Adjektive im Text." ★ *(Oberflächenmerkmal-Suche ohne Konzeptdenken – Umbau: „Ersetze drei Adjektive so, dass die Stimmung kippt – erkläre die Wirkung.")*
+**K4 (Englisch):** „Yesterday, last week, since 2020, already – sortiere die Signalwörter den Zeitformen zu und schreibe zu ZWEI je einen eigenen Satz." *(sauber)*
+**K5 (NaWi):** „Skizziere den Stromkreis so um, dass Lampe 2 auch leuchtet, wenn Lampe 1 kaputt ist." *(sauber: erzwingt Parallelschaltungs-Denken)*
+**K6 (Politik):** „Fasse den Zeitungsartikel zusammen." *(Grauzone – Diskussionskarte: ohne Fokus oft Kopier-Kondensat; Umbau: „Fasse in 25 Wörtern zusammen – und nenne die eine Information, die der Überschrift widerspricht.")*
+
+## 1.4 Marker-Skript-Vorlage (3 Zeilen)
+Medium: … → Mein Beachtungs-Auftrag (wörtlich): … | Kernsatz der Stunde: … → Mein Wichtigkeits-Marker (wörtlich): … | Mein „spannendes Element": … → Mein Kopplungs-Auftrag (wörtlich): …
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Das Diagnose-Raster – die drei Fragen? *(WM überlastet? / nie im LZG–kein Abruf? / Denkspur woandershin?)*
-2. Willinghams Satz wörtlich? *(„Erinnert wird, worüber nachgedacht wurde.")*
-3. Was ist ein Schema – und was leistet es fürs Arbeitsgedächtnis? *(vernetztes Vorwissen; chunkt Elemente, erweitert faktisch die Kapazität)*
-4. Der Exit-Ticket-Gütecheck (Block 2)? *(Meilenstein / 3–5 Min. allein / schriftlich alle / Auswertung ≤10 Min.)*
-5. (Anwendung) Widerlege die Lernpyramide in zwei Sätzen – mit wahrem Kern. *(Zahlen erfunden, keine Quelle; wahrer Kern: aktive Verarbeitung schlägt passive – aber nicht in Prozent-Etagen.)*
+1. Die drei großen Last-Fresser? *(Split Attention, Redundanz, Transienz)*
+2. Intrinsische vs. lästige Last – je ein Beispiel? *(Aufgabenschwierigkeit erwünscht / Suchen, Parallelkanäle, Entziffern unerwünscht)*
+3. Die vier Ampel-Kriterien für Meilensteine (Block 2)? *(kumulativ, verteilt, messbar, klar)*
+4. Warum bleibt Wichtiges an der Tafel stehen – Fachbegriff? *(Transienz; Board = Paper)*
+5. (Anwendung) Deine Folie: Bild + 60 Wörter + du sprichst. Diagnose + Fix? *(Split Attention/Redundanz → ein Träger: Bild behalten, Text in den Mund, Kernbegriffe als Beschriftung)*
 
 ## Teil 2: Modul-Quiz Woche 16 (für SPA/Folgewoche)
-**F1.** Folientext wörtlich vorlesen ist…
-a) barrierefrei und hilfreich für Schwache ✗ *(klingt fürsorglich!)*
-b) Redundanz – doppelte Verarbeitung, weniger Verstehen ✓
-c) Pflicht bei Fachtexten ✗
-d) egal, solange langsam gelesen wird ✗
+**F1.** „Schaut euch das Video aufmerksam an" ist…
+a) eine solide Vorbereitung ✗ *(Alltagsstandard)*
+b) ein Würfelwurf – ohne konkreten Suchauftrag läuft die Denkspur irgendwohin ✓
+c) übergriffig ✗
+d) nur bei langweiligen Videos nötig ✗
 
-**F2.** Deine Aufgabe soll anspruchsvoll bleiben. Du senkst deshalb…
-a) die intrinsische Last – Erfolgserlebnisse zählen ✗ *(verwechselt die Lasten)*
-b) die lästige Last: Layout, Parallelkanäle, Suchaufwand ✓
-c) beides gleichmäßig ✗ *(klingt ausgewogen!)*
-d) nichts – Anstrengung härtet ab ✗
+**F2.** SuS erinnern deine spektakuläre Anekdote, nicht das Prinzip. Beste Konsequenz:
+a) Anekdoten künftig streichen ✗ *(Überkorrektur – korrekt und tot)*
+b) Anekdote ans Prinzip koppeln: expliziter Denkauftrag ✓
+c) mehr Anekdoten, dann bleibt mehr hängen ✗
+d) das Prinzip weglassen, Hauptsache Interesse ✗
 
-**F3.** Die Hausaufgabe wird mündlich in den Packlärm gerufen. Hauptproblem:
-a) Unhöflichkeit ✗
-b) Transienz (+ W8-Endchaos): Gesprochenes verweht – Wichtiges muss stehen ✓
-c) zu leise ✗ *(teilrichtig – trifft den Mechanismus nicht)*
-d) keins, machen alle so ✗
+**F3.** Die Röntgen-Frage an jede Aufgabe lautet:
+a) „Wie lange dauert sie?" ✗
+b) „Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen?" ✓
+c) „Macht sie Spaß?" ✗
+d) „Ist sie differenzierbar?" ✗
 
-**F4.** Dual Coding heißt:
-a) Bild + Textwüste + Rede – dreifach hält besser ✗ *(die verbreitete Praxis!)*
-b) Bild + gesprochenes Wort – zwei Kanäle, die sich ergänzen ✓
-c) alles doppelt erklären ✗
-d) Videos statt Texte ✗
+**F4.** „Unterstreiche alle Adjektive" trainiert primär…
+a) Grammatikverständnis ✗ *(der Etiketten-Glaube)*
+b) Oberflächen-Suche – der Zielgedanke ist umgehbar ✓
+c) Konzentration ✗
+d) Lesekompetenz ✗
 
-**F5.** Das animierte Deko-Männchen auf der Folie…
-a) lockert auf und motiviert ✗ *(DER Glaube)*
-b) stiehlt Denkspur – Dekoration ist lästige Last ✓
-c) hilft visuellen Lerntypen ✗ *(Doppel-Mythos!)*
-d) ist Geschmackssache ✗
+**F5.** Der Torwächter (Aufmerksamkeit) bevorzugt von Natur aus…
+a) das Wichtige ✗ *(schön wär's)*
+b) Neues, Soziales, Bewegtes, Witziges ✓
+c) das, was die Lehrkraft betont ✗ *(nur wenn markiert!)*
+d) nichts – Aufmerksamkeit ist neutral ✗
 
-**F6 (Transfer, Freitext):** Operiere die Horror-Folie (Anhang 1.1) in drei Schritten: Was fliegt raus, was bleibt, was wandert in deinen Mund? *(Muster: Fließtext raus → Diagramm groß als einziger Träger; die zwei Zahlen als Beschriftung AN die Pfeile (Transienz-Schutz); Erklärung + Sonderfälle mündlich; Clipart-Sonne entsorgen.)*
+**F6 (Transfer, Freitext):** Du zeigst ein 3-Min.-Video zum Treibhauseffekt. Schreibe wörtlich: deinen Beachtungs-Auftrag davor + deine Kopplungs-Frage danach. *(Muster: „Zählt mit, an wie vielen Stellen Strahlung die Richtung wechselt – und notiert, WO sie hängen bleibt." / „Das Video zeigt Prinzip X – erklärt zu zweit: Welcher Teil unserer Merkregel war im Bild zu sehen, welcher NICHT?")*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 16"
 
-1. **Hook (3 Min., Selbsterleben!):** Der Doppel-Versuch digital: Horror-Folie 60 Sek. mit Vorlese-Audio → 3 Quizfragen → Zwilling 60 Sek. mit freiem Audio → 3 Parallelfragen → Ergebnisvergleich als persönliche Balkengrafik. („Dein eigenes WM hat gerade ausgesagt.")
-2. **See it (3 Min.):** Die drei Fresser als animierte Kanal-Grafik (zwei Ströme kollidieren / doppelter Strom / verwehender Strom).
-3. **Name it (3 Min.):** Checkliste als Karten; Fresser-Zuordnung: 6 Unterrichtsmomente → Split/Redundanz/Transienz.
-4. **Do it – Folien-Makeover-Spiel (8 Min., Engine!):** Überladene Beispielfolie → Elemente antippen: behalten / streichen / „in den Mund" (wird zu Sprechtext) / „an die Tafel" (bleibt stehen) → App rendert die entschlackte Version + bewertet gegen Musterlösung; 3 Level (NaWi/Sprache/Gesellschaft); danach: eigenes Material als Foto hochladen und mit geführter Checkliste selbst operieren.
-5. **Dual-Coding-Galerie:** die 3 Paare als Vergleichs-Swipes mit Fresser-Benennung.
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F5 sind Langzeit-Anker (beide fühlen sich im Alltag „richtig" an!). **Abschluss:** Action-Step-Formular „Vorlese-Nulldiät" mit Ehrlichkeits-Strichliste („heute ertappt: __×").
+1. **Hook (3 Min., Selbsterleben!):** Das Experiment digital: Folie 20 Sek. mit Timer → 3 Quizfragen → Auswertung „Deine Aufmerksamkeit lief zu: [Cartoon]". Ehrlichkeits-Punchline wie in der Sitzung.
+2. **See it (3 Min.):** Torwächter-Animation (Reize konkurrieren am Tor; Marker öffnen die richtige Tür).
+3. **Name it (3 Min.):** Dreiklang-Karten; Präzisions-Swipe: 8 Aufträge → lenkt / würfelt.
+4. **Do it – Aufgaben-Röntgen-Trainer (8 Min., Engine!):** Die 6 Karten als Fälle: Röntgen-Antwort wählen → Mogelpackungen umbauen (Freitext mit Muster-Vergleich; Heuristik prüft auf Denk-Verben: begründe/entscheide/vergleiche/was-wäre-wenn); danach: eigene Aufgabe eingeben und röntgen.
+5. **Marker-Skript-Editor:** die 3-Zeilen-Vorlage digital, mit Baukasten-Vorschlägen; Export ins Playbook.
+6. **Quiz (Teil 2)** + 30 % Altfragen; F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular + **Experiment-Setup für Modul 17**: App teilt den Nutzer per Zufall Gruppe A (Wiederlesen) oder B (Selbstabfrage) zu, zeigt die 10 Begriffe und terminiert die drei 2-Minuten-Sessions mit Erinnerungen – das Modul-17-Ergebnis wird persönlich!

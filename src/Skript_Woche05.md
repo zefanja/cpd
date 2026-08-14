@@ -1,4 +1,4 @@
-# Skript Woche 5: „Präsenz – Körper, Stimme, Selbstregulation"
+# Skript Woche 5: „100 % & die Interventionsleiter"
 ## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,24 +7,25 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie wirke ich ruhig und souverän – auch wenn ich es (noch) nicht bin? |
-| **Kernquellen** | Lovell/Dowley, Prinzip 4 („Master your own behaviour") und Routine 3 (Selbstregulation); Lemov T57 (Strong Voice / Register), T62 (Emotional Constancy) |
-| **Funktion im Jahr** | Das „Instrument" der Lehrkraft selbst. Liefert die körperlich-stimmliche Grundlage, auf der Signal (W4) und Interventionsleiter (W6) erst wirken. Der Reset-Anker wird zum persönlichen Werkzeug für alle Eskalationssituationen (W30). Erste Sitzung mit optionaler Selbst-Videoaufnahme – Vorübung für die Videoselbstanalyse in W8. |
-| **Lernziele** | Die TN können:<br>1. die vier Präsenz-Stellschrauben (Stand, Register, Wortzahl/Pausen, emotionale Konstanz) benennen und demonstrieren,<br>2. bewusst zwischen formalem und warmem Register wechseln,<br>3. haben einen persönlichen Reset-Anker für Stressmomente gebaut und dreimal durchgespielt. |
-| **Sitzungstyp** | Körper-Training. Ungewöhnlichste Sitzung des Blocks – die Moderation kündigt das an und rahmt es („heute arbeiten wir wie im Theater, aus gutem Grund"). |
+| **Leitfrage** | Wie reagiere ich auf kleine Störungen, ohne den Unterricht zu unterbrechen? |
+| **Kernquellen** | Lemov T55 (Least Invasive Intervention), Teacher Radar / „Pastore's Perch"; Lovell/Dowley, Routine 9 (Responding to low-level disruption) |
+| **Funktion im Jahr** | Das meistgewünschte Modul des Blocks – hier zahlt sich alles Vorherige aus: Erwartungen (W1) definieren, WAS eine Störung ist; Präsenz (W4) trägt jede Stufe. Die Leiter wird Referenzwerkzeug für W6 (Positiv-Rahmung der Stufen 2–3), W22 (hartnäckige Verweigerung) und W29 (Eskalation jenseits der Leiter). Direkt anschließend: Gruppenhospitation 1. |
+| **Lernziele** | Die TN können:<br>1. das 100 %-Prinzip begründen,<br>2. die sechs Stufen der Interventionsleiter in Reihenfolge anwenden und bewusst auf der kleinsten wirksamen einsteigen,<br>3. ihre Raumposition und ihr Scannen als präventives Radar gestalten. |
+| **Sitzungstyp** | Technik-Training mit dem intensivsten Rollenspiel des Blocks (Stufen-Karussell). |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Viel freie Fläche (Stühle an den Rand); Dreiergruppen-Inseln. **Diskretion beachten:** Körper- und Stimmübungen sind für manche TN heikler als jedes Rollenspiel – Gruppen dürfen sich Ecken suchen, niemand muss vor dem Plenum.
+**Raum:** Spielfläche mit 6 Stühlen in Klassenformation; A3-Poster der Leiter (wird entwickelt, nicht fertig aufgehängt – die Tafel-Entwicklung ist Teil der Didaktik); Sitzplan-Blankos.
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Körper-Labor-Anleitung mit Beobachtungsraster (Anhang 1.1)
-- [ ] Handout B: Reset-Anker-Karte (Anhang 1.2), stabiler Karton (soll ins Mäppchen/Portemonnaie passen!)
-- [ ] Störkarten-Set C: „Provokationen" (Anhang 1.3), verdeckt
-- [ ] Optional: TN-Handys für Selbst-Clips (vorher ankündigen: freiwillig, Clips bleiben auf dem eigenen Gerät)
+- [ ] Leiter-Poster als Ergebnis-Sicherung (nach der Tafel-Entwicklung aufhängen)
+- [ ] Handout A: Leiter-Referenzkarte mit Wortlaut-Beispielen (Anhang 1.1)
+- [ ] Sitzplan-Blankos (Anhang 1.2)
+- [ ] Scan-Trainingsmaterial: 90-Sek.-Videoclip einer Stillarbeitsphase mit 4 eingebauten Mikro-Störungen ODER Beschreibungskarte (Anhang 1.3)
+- [ ] Beobachtungsbogen Gruppenhospitation 1 (Anhang 3) – wird am Ende ausgeteilt
 
 ---
 
@@ -34,61 +35,62 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1).
 
-## Phase 2 · Brücke & Rahmung (Minute 8–12)
+## Phase 2 · Brücke & das 97 %-Problem (Minute 8–13)
 
 > **Moderationstext:**
-> *„Kurz zur Signal-Woche: Wer hat sein Signal eingeführt – und wie war die Probe mit der Klasse? Zwei Stimmen."* [2 Min.]
-> *„Heute wird es körperlich, und ich sage euch, warum. Ihr habt jetzt drei Wochen lang Wortlaute gelernt – aber jeder Wortlaut wird von einem Körper gesprochen. Derselbe Satz, einmal im Gehen genuschelt, einmal im Stand mit Pause davor, ist nicht derselbe Satz. Die unbequeme Nachricht zuerst: Eure Klasse liest euren Körper schneller als eure Worte. Die gute Nachricht sofort hinterher: Der Körper ist trainierbar. Souveränität ist zu einem erstaunlich großen Teil kein Charakterzug, sondern eine Sammlung von Verhaltensweisen – Stand, Stimme, Tempo, Pausen. Ihr müsst nicht jemand anderes WERDEN. Ihr müsst ein paar Dinge anders TUN. Heute probieren wir sie aus – ja, es wird sich zweimal albern anfühlen, ihr kennt die Regel."*
+> *„Anker-Woche: Wer hat seinen Reset-Anker gebraucht – und hat er gehalten? Eine Stimme genügt."* [1 Min.]
+> *„Jetzt ein Gedankenexperiment. Ihr gebt eine Anweisung: ‚Stifte weg, Blick zu mir.' 26 von 29 folgen. Drei schreiben weiter. Ihr fahrt fort – ist ja fast alles still, 90 Prozent, gute Quote. Frage an euch: Was habt ihr der Klasse gerade beigebracht?"* [Sammeln lassen – jemand wird es treffen.]
+> *„Genau: Ihr habt öffentlich neu verhandelt, für wen Anweisungen gelten. Ab jetzt ist die spannende Frage jeder Anweisung nicht mehr OB sie gilt, sondern für WEN. Und diese Verhandlung führt ihr dann jede Stunde neu – mit wechselnden Dreiergruppen. Das ist Modell 4 in Reinform: Die Ausnahme wird zur Norm, wenn sie folgenlos sichtbar ist. Deshalb heißt das heutige Prinzip 100 %. Und bevor jemand erschrickt: 100 % erreicht man nicht mit Härte. Man erreicht es mit dem GEGENTEIL – mit Interventionen, die so klein sind, dass sie den Unterricht gar nicht erst unterbrechen. Das ist die Leiter."*
 
-## Phase 3 · Input (Minute 12–26)
+## Phase 3 · Input (Minute 13–28)
 
-### 3a · See it: Die Vier-Varianten-Demo (Min. 12–17)
-Moderation spricht **denselben Satz** (*„Bücher zu. Stifte weg. Blick zu mir."*) in vier Varianten, TN notieren nach jeder ein Wirkungswort:
-1. Im Gehen, nebenbei Blätter sortierend, schnell.
-2. Stehend, aber mit 30 Wörtern Verpackung drumherum („Also, ähm, wenn ihr jetzt vielleicht mal langsam…").
-3. Stehend, knapp, aber mit hochgezogener, fragender Satzmelodie am Ende.
-4. Fester Stand, 2 Sekunden Pause davor, ruhig, tief, Satzenden fallen ab, danach Stille.
+### 3a · See it: Eine Störung, drei Antworten (Min. 13–17)
+Moderation spielt dieselbe Szene dreimal (2 TN „tuscheln" bei Stillarbeit):
+- **Antwort A (Overkill):** Unterricht stoppt: „JETZT REICHT ES ABER, Lena und Ali, IMMER ihr zwei…!" – ganze Klasse schaut auf, Arbeitsphase tot.
+- **Antwort B (Nichts):** Moderation sieht es, schaut weg, „will die Ruhe nicht gefährden". Tuscheln wächst.
+- **Antwort C (Leiter):** Moderation blickt beim Vorbeigehen kurz zu den beiden, bleibt zwei Sekunden in ihrer Nähe stehen, unterrichtet dabei weiter. Tuscheln endet. Kein Wort gefallen.
 
-> **Auswertung:** Wirkungswörter sammeln (typisch: 1 = „gehetzt/unwichtig", 2 = „unsicher", 3 = „bittend", 4 = „klar/gilt"). *„Merkt euch: Variante 4 war nicht lauter. Sie war langsamer, stiller und tiefer. Autorität ist fast nie Lautstärke – Lautstärke ist meistens ihr Ersatz."*
+> *„A hat die Störung besiegt und die Stunde gleich mit. B hat die Stunde geschont und die Störung gedüngt. C hat beides erhalten – und das ist der ganze Trick: die kleinste Intervention, die wirkt, so leise wie möglich, und der Unterricht läuft WEITER."*
 
-### 3b · Die vier Stellschrauben (Min. 17–23)
-> *„Erstens: **Stillstand.** Wichtige Ansagen im festen Stand, Füße geerdet, Hände ruhig – kein Nebenbei-Laufen, kein Material-Sortieren. Bewegung sagt ‚nebenbei', Stillstand sagt ‚jetzt'. Im Englischen heißt das square up: Schultern zur Klasse, voll zugewandt.*
-> *Zweitens: **Register.** Ihr habt zwei Sprechmodi, und der Wechsel ist das Werkzeug. Das formale Register für Anweisungen: ruhig, eher tief, wenige Worte, Pausen, Satzenden fallen ab – eine Aussage, keine Bitte. Das warme Register für Gespräch, Erklärung, Lob: beweglicher, heller, näher. Wer immer warm spricht, dem fehlt der Schalter für Ernst; wer immer formal spricht, wird zur Maschine. Der WECHSEL macht beides bedeutsam.*
-> *Drittens: **Wortzahl und Pausen** – kennt ihr aus letzter Woche, heute die Körperseite: Die Pause VOR dem Satz erzeugt Aufmerksamkeit, die Pause DANACH erzeugt Verbindlichkeit. Wer sofort weiterredet, entwertet, was er gerade gesagt hat.*
-> *Viertens: **Emotionale Konstanz.** Eure Klasse darf euch ärgern – sie darf es nur nicht MERKEN dürfen, dass es sie steuert. Ärger in der Stimme ist für eine Klasse ein Signal mit zwei Lesarten: ‚Es wird ernst' – oder, häufiger: ‚Wir haben einen Knopf gefunden.' Modell 4 aus Woche 1: Vor der Gruppe gelten Gruppengesetze; wer den Knopf kennt, drückt ihn. Konstanz heißt nicht Gefühllosigkeit – sie heißt: Die Reaktion ist berechenbar und professionell, der Ärger wird später und privat verarbeitet."*
+### 3b · Die Leiter entwickeln (Min. 17–25) — an der Tafel, Stufe für Stufe, mit je einem Wortlaut-Beispiel
+> *„Stufe 1: **Nonverbal.** Blick, kleine Geste, Nähe – während ihr weitersprecht. Löst nach meiner Erfahrung und nach Lemovs Videostudien die große Mehrheit aller Kleinstörungen. Kostet: null Unterrichtszeit.*
+> *Stufe 2: **Positive Gruppenkorrektur.** Ihr beschreibt, was fast alle richtig tun: ‚Ich sehe fast alle Stifte laufen.' Kein Name, kein Vorwurf – die Norm wird sichtbar gemacht, die Nachzügler docken an. Warum das POSITIV formuliert wird, vertiefen wir nächste Woche.*
+> *Stufe 3: **Anonyme Einzelkorrektur.** ‚Zwei fehlen noch.' Jetzt weiß jeder Betroffene, dass er gemeint ist – aber niemand sonst weiß es. Gesichtswahrung ist keine Weichheit, sie ist Effizienz: Wer sein Gesicht verliert, kämpft um es zurück. Vor Publikum. Modell 4.*
+> *Stufe 4: **Private Einzelkorrektur.** Leise, am Platz, im Vorbeigehen, halbe Hocke: ‚Emre, Stift raus, Aufgabe 2 – danke.' Formales Register, drei Sekunden, weitergehen.*
+> *Stufe 5: **Blitzschnelle öffentliche Korrektur.** Wenn es öffentlich sein muss, dann kurz und What-to-Do: ‚Emre – Aufgabe 2.' Name plus Handlung, zwei Sekunden, sofort weiter im Stoff. Keine Rede, keine Geschichte, kein ‚immer du'.*
+> *Stufe 6: **Konsequenz.** Schulkonform, angekündigt, ruhig, klein wie möglich – und danach ist die Sache verbucht, nicht nachgetragen. Zu Konsequenzketten kommen wir ausführlich in Woche 29; heute reicht: Die Leiter davor sorgt dafür, dass ihr diese Stufe selten braucht.*
+> *Die Einstiegsregel: **so niedrig wie möglich, so kurz wie möglich, so privat wie möglich – und danach sofort zurück zum Stoff.** Und für erfüllte Anweisungen gilt: Anerkennung, kein Festakt. Ein ‚Danke' genügt – wer Grundverhalten bejubelt, erklärt es zur Ausnahme."*
 
-### 3c · Selbstregulation: der Reset-Anker (Min. 23–26)
-> *„Bleibt die Frage: Wie bleibt man konstant, wenn innen der Puls auf 140 geht? Antwort: nicht durch Willenskraft im Moment, sondern durch einen VORBEREITETEN Mini-Ablauf – Lovell nennt das Selbstregulations-Routine. Drei Teile: ein Auslöser, den ihr kennt (‚freche Antwort vor der Klasse'), ein Körperanker (langsam ausatmen, Fersen im Boden spüren – dauert zwei Sekunden, sieht nach nichts aus), ein innerer Satz (‚Ruhig. Ich habe Zeit. Es ist nicht persönlich.'). Erst der Anker, dann die Reaktion. Zwei Sekunden Verzögerung sind kein Autoritätsverlust – sie SIND die Autorität."*
+### 3c · Das Radar (Min. 25–28)
+> *„Die beste Intervention ist die, die ihr nicht braucht, weil ihr früh dran wart. Zwei Gewohnheiten: Erstens **Position** – bei Stillarbeit steht ihr dort, wo ihr ALLE seht, Rücken zur Wand, gern die hintere Ecke: Lemov nennt das Pastore's Perch, benannt nach einer Lehrerin, die von dort ihre Klasse las wie ein Buch. Wer nur vorn steht, hat einen toten Winkel von der halben Klasse. Zweitens **Scannen als Gewohnheit** – nach jeder Anweisung wandert der Blick einmal komplett durch den Raum. Nicht misstrauisch – aufmerksam. Die Klasse merkt den Unterschied zwischen einer Lehrkraft, die guckt, und einer, die SIEHT."*
 
-## Phase 4 · Name it (Minute 26–30)
+## Phase 4 · Name it (Minute 28–32)
 
-**Präsenz-Checkliste** an der Tafel: Stand fest & zugewandt? · Hände ruhig? · Register bewusst gewählt? · Pause davor + danach? · Satzende unten? · Bei Provokation: erst Anker, dann Reaktion?
+Leiter-Poster aufhängen (Sicherung der Tafel-Entwicklung); Einstiegsregel als Merksatz wiederholen; Handout A austeilen. Kurze Verständnisprüfung per Fingerzeichen: Moderation nennt 4 Mini-Situationen, TN zeigen die Einstiegs-Stufe (1–6) – Abweichungen kurz diskutieren (Kalibrierung).
 
-Merksatz: *„Erst der Körper, dann das Signal, dann die Worte – und bei Sturm: erst der Atem."*
+## Phase 5 · Do it (Minute 32–52)
 
-## Phase 5 · Do it (Minute 30–52)
+### Runde 1 · Stufen-Karussell (Min. 32–44)
+Vierergruppen: Dieselbe Störung (2 SuS tuscheln bei Stillarbeit) wird nacheinander auf **Stufe 1, 2, 3 und 4** gespielt – jeder TN übernimmt eine Stufe als Lehrkraft und muss dabei WEITERUNTERRICHTEN (die Regie gibt einen Erklär-Auftrag: „Du erläuterst gerade die Hausaufgabe"). Beobachter-Checkfragen: Kleinste Stufe sauber ausgeführt? Unterricht lief weiter? Ton neutral-formal (W4!)? Nach jedem Durchgang 60 Sek. Feedback + Sofort-Wiederholung der Schwachstelle. *(Stufe 5 wird einmal von der Moderation demonstriert – „Name + Handlung, zwei Sekunden" – aber nicht von allen geübt: Die Verlockung, gleich öffentlich zu korrigieren, soll nicht trainiert werden.)*
 
-### Runde 1 · Körper-Labor (Min. 30–41, Dreiergruppen)
-Nach Handout A: Jeder spricht die Standard-Ansage in den 4 Varianten (bewusst auch die schlechten – Kontrast lehrt!), die zwei Beobachter geben NUR Wirkungs-Feedback aus dem Raster („wirkte auf mich: …"). Danach 2 freie Durchgänge nur in Variante 4, Feinschliff: Satzende, Pause, Stand. **Registerwechsel-Übung:** dieselbe Person spricht direkt hintereinander eine formale Ansage und ein warmes Lob – der hörbare Schalter ist das Lernziel.
-
-### Runde 2 · Reset-Anker bauen & härten (Min. 41–52)
+### Runde 2 · Radar-Übungen (Min. 44–52)
 Ablauf:
 
-1. 4 Min. Einzelarbeit: Anker-Karte ausfüllen (Handout B).
-2. 8 Min. Härtetest in Dreiergruppen: Beobachter zieht Störkarte C und spielt die Provokation, die übende Person durchläuft sichtbar (!) ihren Anker und reagiert dann formal-ruhig; 3 Durchgänge pro Person, Provokation steigert sich leicht.
+1. **Positions-Planung (4 Min.):** Auf dem eigenen Sitzplan-Blanko markieren: Stillarbeits-Standort (alle sichtbar?), Erklär-Standort, die tote Ecke des eigenen Raums.
+2. **Scan-Training (4 Min.):** Videoclip/Beschreibungskarte – die 4 Mikro-Störungen finden, für jede die Einstiegs-Stufe nennen und begründen (Plenum, hohes Tempo).
 
-Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht reflexhaft)? **Optional:** dritten Durchgang per Handy filmen, sofort selbst ansehen (30 Sek.), ein eigenes Aha notieren.
+## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
 
-## Phase 6 · Action Step (Minute 52–58)
-
-**Standard:** *„Vor jeder wichtigen Anweisung diese Woche: stehen bleiben, ausatmen, dann sprechen – und Satzenden bewusst nach unten. Ich notiere abends in einem Satz, wie es sich angefühlt hat."*
+**Standard:** *„Bei Stillarbeit interveniere ich diese Woche IMMER zuerst nonverbal (Blick/Nähe) und zähle abends: Wie oft hat Stufe 1 gereicht? Zusätzlich stehe ich bei Stillarbeit an meinem geplanten Radar-Punkt."*
 
 **Alternativen:**
 
-1. Register-Tagebuch: täglich eine Situation notieren, in der bewusst gewechselt wurde;
-2. Anker-Woche: Reset-Anker bei jeder aufkommenden Gereiztheit einsetzen, Strichliste.
+1. Stufen-Tagebuch: 3 Störungen pro Tag notieren – genutzte Stufe + hätte eine kleinere gereicht?;
+2. für TN mit „Overkill-Neigung" (aus W4-Coaching bekannt): eine Woche Verbot der Stufen 5–6 außer bei Sicherheitsthemen.
 
-> **Ausblick:** *„Nächste Woche das Modul, auf das viele von euch seit Woche 1 warten: Was tue ich konkret bei Störungen – die komplette Interventionsleiter, von der Augenbraue bis zur Konsequenz. Euer heutiges Werkzeug ist dafür die Grundierung: Ohne ruhigen Körper wirkt keine Stufe."*
+**Gruppenhospitation 1 (3 Min.):** Termin bestätigen, Gastgeber-Lehrkraft nennen, Beobachtungsbogen (Anhang 3) austeilen und die drei Spalten erklären; Regeln: beschreiben statt bewerten, Handys weg, Dank an den Gastgeber; Nachbesprechung 30 Min. direkt im Anschluss.
+
+> **Ausblick:** *„Nächste Woche drehen wir die Medaille um: Wie ihr korrigiert, sodass die Beziehung dabei WÄCHST – Positive Framing, präzises Lob, und warum ‚streng UND warm' kein Widerspruch ist, sondern das Ziel."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -96,87 +98,105 @@ Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht 
 
 # 4. Coaching-Woche 5 (Handreichung)
 
-- **Hospitationsfokus:** 2–3 Ansage-Momente; Protokoll je Moment: Stand oder Bewegung? Pause davor? Satzmelodie? Wortzahl grob?
-- **Sensibel auswerten:** Körper-Feedback ist persönlicher als Technik-Feedback. Immer über die WIRKUNG sprechen („Die Ansage um 9:12 kam im Stand mit Pause – die Klasse reagierte in 3 Sekunden; die um 9:31 im Gehen – sie verpuffte"), nie über die Person („Du wirkst unsicher").
-- **Übung im Gespräch:** Die schwächste protokollierte Ansage 2× im Coaching nachsprechen lassen – erst Original, dann Variante 4.
-- **Red Flag:** TN, die von echten Kontrollverlust-Momenten berichten (Schreien, Rausrennen) → Anker gemeinsam verfeinern, Entlastung normalisieren („passiert im ersten Jahr fast allen"), ggf. Frequenz der Coaching-Kontakte kurzfristig erhöhen; bei Erschöpfungssignalen an schulische Unterstützung erinnern.
+- **Hospitationsfokus:** eine Übungs-/Stillarbeitsphase; **Strichliste:** jede Intervention der Lehrkraft nach Stufe kategorisieren; zusätzlich Positions-Skizze (wo stand die Lehrkraft wann?).
+- **Auswertungsgespräch:** Strichlisten-Muster zeigen (typisch: Stufe 1 fehlt fast völlig, Einstieg bei 4–5) → Action Step daraus ableiten; Positions-Skizze neben den Sitzplan aus der Sitzung legen.
+- **Verzahnung Gruppenhospitation:** Coach moderiert die Nachbesprechung: Runde 1 nur Beobachtungen aus Spalte A/B (beschreibend!), Runde 2 „Ein Satz/Move, den ich klaue", Runde 3 Transfer: Welche Stufe will ich häufiger nutzen? Dank an Gastgeber organisieren.
+- **Red Flag:** TN berichtet von Störungen jenseits der Leiter (Beleidigungen, Verweigerung, Gefährdung) → nicht auf W29 vertrösten: im 1:1 die schulische Eskalationskette klären und W.I.N. (W7) vorziehen.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Körper-Labor
+## 1.1 Handout A: Leiter-Referenzkarte (mit Wortlaut-Beispielen)
 
-**Standard-Ansage:** *„Bücher zu. Stifte weg. Blick zu mir."*
-**Die 4 Varianten:** ① gehend + nebenbei ② stehend + 30 Wörter Verpackung ③ stehend + fragende Melodie ④ Stand + Pause + ruhig/tief + Stille danach.
-**Beobachtungsraster (nur ankreuzen/ein Wort):** wirkte … gehetzt / unsicher / bittend / klar / drohend / gleichgültig. Zusatzbeobachtung: Wo waren die Hände? Wohin ging der Blick?
-**Feedbackregel:** Nur Wirkung („wirkte auf mich …"), keine Persönlichkeitsurteile. Nach dem Feedback: sofort ein Wiederholungsdurchgang.
+| Stufe | Werkzeug | Beispiel-Wortlaut / Aktion | Kostet Unterrichtszeit? |
+|---|---|---|---|
+| 1 | Nonverbal | Blick halten (2 Sek.) · Geste „Stift" · Nähe beim Weitersprechen | nein |
+| 2 | Positive Gruppenkorrektur | *„Ich sehe fast alle Stifte laufen."* | 2 Sek. |
+| 3 | Anonyme Einzelkorrektur | *„Zwei fehlen noch."* | 2 Sek. |
+| 4 | Private Einzelkorrektur | leise, am Platz: *„Emre – Stift raus, Aufgabe 2. Danke."* | 3 Sek., ohne Publikum |
+| 5 | Blitz-Korrektur öffentlich | *„Emre – Aufgabe 2."* (Name + Handlung, sofort weiter) | 2 Sek. |
+| 6 | Konsequenz | schulkonform, ruhig angekündigt, klein; danach verbucht | variabel |
 
-## 1.2 Handout B: Reset-Anker-Karte (Format A7, zum Einstecken)
+**Einstiegsregel:** so niedrig, so kurz, so privat wie möglich – sofort zurück zum Stoff. **Anerkennung:** erfülltes Grundverhalten → „Danke", kein Jubel.
 
-- **Mein Auslöser** (die Situation, die mich am schnellsten hochbringt): …
-- **Mein Körperanker** (2 Sekunden, unsichtbar): … *(Beispiele: langsam ausatmen · Fersen spüren · Daumen drückt Zeigefinger · Schulterblätter sinken lassen)*
-- **Mein innerer Satz:** … *(Beispiele: „Ruhig. Ich habe Zeit." · „Nicht persönlich – Modell 4." · „Erst atmen, dann handeln.")*
-- **Meine erste äußere Reaktion danach** (formal, kurz): …
+## 1.2 Sitzplan-Blanko: Radar-Planung
+Felder: Stillarbeits-Standort (Stern) · Erklär-Standort (Kreis) · tote Ecke (schraffieren) · Laufweg-Skizze (Pfeile) · „Meine 2–3 Frühwarn-Plätze" (SuS, bei denen Störungen typischerweise beginnen – diskret!).
 
-## 1.3 Störkarten-Set C: Provokationen (Regieanweisungen, Steigerung von C1 zu C3)
+## 1.3 Scan-Trainings-Beschreibungskarte (Fallback ohne Video)
+*Stillarbeit, Minute 12:*
 
-- **C1 „Der Augenroller":** Auf eine Arbeitsanweisung hin demonstratives Augenrollen + hörbares Seufzen. *(Lernziel: nonverbal registrieren, NICHT kommentieren; Anweisung gilt weiter.)*
-- **C2 „Der Kommentator":** Halblaut zur Nachbarin: „Boah, ist das wieder sinnlos heute." *(Lernziel: Anker → Entscheidung: überhören + später privat, oder kurze formale Ansage ohne Debatte – beides gültig, Hauptsache ruhig.)*
-- **C3 „Der Frontalangriff":** Laut, an die Lehrkraft: „Das bringt doch eh nichts, was Sie hier machen!" *(Lernziel: Anker sichtbar durchlaufen; formal + kurz: „Das besprechen wir nach der Stunde. Jetzt: Aufgabe 2." – KEINE inhaltliche Verteidigung vor Publikum; W.I.N. folgt in W8.)*
+1. *Reihe 3 links: zwei Köpfe zueinander, Flüstern.*
+2. *Fensterreihe hinten: ein Schüler zeichnet, Heft leer.*
+3. *Mitte: eine Schülerin sucht seit 2 Min. im Rucksack.*
+4. *Vorn rechts: Handy halb unter dem Oberschenkel.*
+
+— Aufgabe: Für jede Beobachtung Einstiegs-Stufe + Begründung. *(Muster: 1→Stufe 1 Nähe; 2→Stufe 1 Blick/Nähe, ggf. 4 mit Arbeitsimpuls; 3→Stufe 4 leise Hilfe/Impuls – vermutlich keine Störung, sondern Orientierungslosigkeit!; 4→Stufe 4 privat, schulkonforme Handyregel, ruhig.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Der Anweisungs-Vierercheck? *(konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt)*
-2. Warum nie gegen Unruhe sprechen? *(adelt die Unruhe; Norm „zuhören optional")*
-3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? *(Warten auf 100 % – sonst Norm „halbherzig reicht")*
-4. Was ist Brighten the Lines? *(scharfe Start-/Endsignale für Arbeitsphasen)*
-5. (Anwendung) Formuliere ein Endsignal für eine Gruppenarbeit. *(z. B. Signal + „Stopp – Stifte weg, Blick zu mir. Gruppensprecher bleiben gleich dran.")*
+1. Die 4 Präsenz-Stellschrauben? *(Stand · Register · Wortzahl/Pausen · emotionale Konstanz)*
+2. Was heißt Emotional Constancy praktisch? *(berechenbar-ruhige Reaktion; Ärger wird kein Steuerknopf)*
+3. Der Vierercheck für Anweisungen? *(konkret, sequenziell, beobachtbar, ≤12 Wörter/Schritt)*
+4. Welche Norm unterrichtet eine durchgewunkene Begrüßungsroutine? *(„halbherzig reicht hier")*
+5. (Anwendung) Dein Reset-Anker in einem Satz. *(Auslöser → Körperanker → innerer Satz)*
 
 ## Teil 2: Modul-Quiz Woche 5 (für SPA/Folgewoche)
-**F1.** Autorität im Klassenzimmer ist vor allem…
-a) eine Frage der Persönlichkeit – man hat es oder nicht ✗ *(DER Kernmythos, Bill-Rogers-Echo)*
-b) trainierbares Verhalten: Stand, Register, Pausen, Konstanz ✓
-c) eine Frage von Körpergröße und Lautstärke ✗
-d) reine Erfahrungssache ✗
+**F1.** Zwei SuS tuscheln bei Stillarbeit. Erste Wahl:
+a) Namen nennen und ermahnen – Klarheit hilft ✗ *(Overkill-Reflex)*
+b) Blick/Nähe, dabei weiterunterrichten ✓
+c) ignorieren – ist ja nicht schlimm ✗ *(Normalisierungs-Falle)*
+d) beide sofort auseinandersetzen ✗
 
-**F2.** Ein Schüler kommentiert dich laut und frech vor der Klasse. Erster Schritt:
-a) sofortige scharfe Erwiderung – Schwäche zeigen geht nicht ✗ *(Reflex + Ehrgefühl)*
-b) Anker (ausatmen), dann formal und kurz: Klärung nach der Stunde ✓
-c) grundsätzlich ignorieren ✗ *(Normalisierungs-Falle)*
-d) die Klasse fragen, was sie davon hält ✗
+**F2.** Warum ist 97 % Befolgung ein Problem?
+a) Ist es nicht – Perfektion ist unrealistisch ✗ *(klingt vernünftig und erwachsen!)*
+b) Die sichtbare, folgenlose Ausnahme wird zur verhandelbaren Norm ✓
+c) Weil Kontrolle an sich wichtig ist ✗
+d) Wegen der Aufsichtspflicht ✗
 
-**F3.** Deine Ansage endet stimmlich „oben" (wie eine Frage). Wirkung:
-a) freundlich und einladend – gut so ✗ *(Höflichkeits-Verwechslung)*
-b) sie klingt wie eine Bitte und wird verhandelbar ✓
-c) keine – Melodie ist egal ✗
-d) motivierend für Schüchterne ✗
+**F3.** „Zwei fehlen noch" (Stufe 3) wirkt, weil…
+a) es Druck auf alle ausübt ✗
+b) die Gemeinten es wissen, aber ihr Gesicht wahren ✓
+c) es lustig ist ✗
+d) niemand gemeint sein könnte ✗
 
-**F4.** „Emotionale Konstanz" bedeutet:
-a) keine Gefühle zeigen, nie ✗ *(Roboter-Strohmann)*
-b) berechenbare, ruhige Reaktionen; Ärger wird nicht zum Steuerknopf der Klasse ✓
-c) immer freundlich lächeln ✗
-d) Störungen nicht ernst nehmen ✗
+**F4.** Ein Schüler erfüllt nach Stufe 4 die Anweisung. Du…
+a) lobst ihn ausführlich vor der Klasse ✗ *(Jubel-Falle: erklärt Grundverhalten zur Ausnahme)*
+b) nickst/„danke" – und weiter ✓
+c) sagst nichts, um ihn nicht zu verwöhnen ✗
+d) erinnerst ihn ans letzte Mal ✗ *(Nachtreten)*
 
-**F5.** Der Reset-Anker wirkt, weil…
-a) Atmen beruhigt eben ✗ *(teilrichtig, aber nicht der Kern)*
-b) ein VORBEREITETER Ablauf im Stressmoment abrufbar ist – Willenskraft allein ist es nicht ✓
-c) die Klasse ihn sieht und sich fürchtet ✗
-d) er Zeit schindet ✗
+**F5.** Bei Stillarbeit stehst du am besten…
+a) vorn am Pult – da gehört die Lehrkraft hin ✗ *(Gewohnheits-Distraktor)*
+b) mit Rücken zur Wand, alle im Blick (z. B. hintere Ecke) ✓
+c) ständig gehend, ohne Muster ✗ *(teilrichtig – Circulate kommt in W12, aber „ohne Muster" ist der Fehler)*
+d) draußen vor der Tür ✗
 
-**F6 (Transfer, Freitext):** Beschreibe deine Reaktion auf C3 („Das bringt doch eh nichts!") in vier Schritten – Körper, innerer Satz, Wortlaut, Nachbereitung. *(Muster: Fersen/Ausatmen → „Nicht persönlich" → formal: „Das klären wir nach der Stunde. Jetzt: Aufgabe 2." → W.I.N.-Gespräch nach der Stunde, Vorfall ggf. notieren.)*
+**F6 (Transfer, Freitext):** Minute 20, Stillarbeit: Ein Schüler pfeift leise vor sich hin, zwei andere grinsen schon. Beschreibe deine ersten zwei Züge inkl. Begründung der Stufenwahl. *(Muster: Stufe 1 – Nähe + Blick beim Weitergehen; wirkt es nicht in ~10 Sek.: Stufe 4 – leise, privat: „Ohne Pfeifen, danke." Begründung: klein starten, Publikum entziehen, Unterricht läuft weiter.)*
 
 ---
 
-# Anhang 3: Ableitung für die SPA „Modul 5"
+# Anhang 3: Beobachtungsbogen Gruppenhospitation 1
 
-1. **Hook (2 Min.):** Vier Audio-Aufnahmen derselben Ansage (die 4 Varianten) – Nutzer ordnet Wirkungswörter zu, App löst auf: „Variante 4 war die leiseste."
-2. **See it (5 Min.):** Video-Kontrastpaar oder animierte Figur (Stand/Gehen, Pausenbalken sichtbar als Timeline); Registerwechsel als hörbares Beispielpaar.
-3. **Name it (3 Min.):** Präsenz-Checkliste als Karten; Zuordnungsspiel Audio → verletzte Stellschraube.
-4. **Do it – Selbstaufnahme-Übung (8 Min., Kern!):** App fordert auf, die Standard-Ansage 2× aufzunehmen (Variante nach Wahl vs. Variante 4); Selbst-Analyse mit Checkliste (optional: automatische Sprechtempo-/Pausenanzeige, falls technisch machbar; sonst geführte Selbstbewertung). Datenschutz: Aufnahme bleibt lokal.
-5. **Reset-Anker-Builder:** Die 4 Kartenfelder digital; Export als Sperrbildschirm-Bild/Karte.
-6. **Szenario-Simulator:** C1–C3 als eskalierender Entscheidungsbaum; Verzweigungslogik belohnt „Anker vor Reaktion" und „kurz + formal + vertagen".
-7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–4). **Abschluss:** Action-Step-Formular mit Abend-Journal-Feld (1 Satz/Tag).
+**Fokus:** Stundenstart · Anweisungen · Interventionsleiter. **Regeln:** beschreiben, nicht bewerten; Wortlaute notieren; Dank an Gastgeber.
+
+| Spalte A: Wortlaut-Protokoll erste 5 Minuten | Spalte B: Interventions-Strichliste (Stufe 1–6) | Spalte C: „Ein Satz/Move, den ich klaue" |
+|---|---|---|
+| (Gruß, Setz-Signal, Starter-Satz, erste Anweisungen möglichst wörtlich) | (jede beobachtete Intervention einer Stufe zuordnen) | (konkret + wann ich ihn einsetze) |
+
+**Nachbesprechung (30 Min.):** Runde 1: nur Spalte A/B vorlesen (beschreibend). Runde 2: Spalte C reihum. Runde 3: „Welche Stufe will ich ab morgen häufiger nutzen – und in welcher Klasse?"
+
+---
+
+# Anhang 4: Ableitung für die SPA „Modul 5"
+
+1. **Hook (2 Min.):** Das 97 %-Gedankenexperiment als interaktive Frage („Was hat die Klasse gelernt?" – Freitext, dann Auflösung).
+2. **See it (5 Min.):** Die Drei-Antworten-Szene (A/B/C) als Videoclips oder animierte Sequenzen; Nutzer wählt nach jeder: „Was hat diese Antwort gekostet?"
+3. **Name it (4 Min.):** Leiter als interaktive Grafik – Stufen antippen → Wortlaut-Beispiel + Kosten; Reihenfolge-Sortierspiel.
+4. **Do it – Interventions-Simulator (8 Min., Engine!):** 8 Störungs-Szenarien (inkl. Anhang 1.3) → Stufe wählen → Konsequenz-Feedback mit Begründung (zu hoch eingestiegen → „Stunde unterbrochen, Gesichtsverlust-Risiko"; zu niedrig/zu lange gewartet → „Norm wächst"); Punktesystem: kleinste wirksame Stufe.
+5. **Radar-Spiel:** 360°-Klassenraum-Illustration → Standort wählen → App zeigt Sichtfeld/tote Winkel; eigener Sitzplan als Foto annotierbar.
+6. **Störungs-Tagebuch (Tracker-Engine):** täglich: Störung + genutzte Stufe + „hätte kleiner gereicht?" → Wochenauswertung als Stufen-Verteilungsdiagramm (Ziel-Trend: Verschiebung nach links).
+7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–5); F2 und F4 sind die Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Abend-Zählfeld („Wie oft hat Stufe 1 gereicht?").

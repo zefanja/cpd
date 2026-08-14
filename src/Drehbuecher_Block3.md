@@ -1,22 +1,22 @@
-# Drehbücher Block 3 (Wochen 15–20): Lernpsychologie & Gedächtnis
+# Drehbücher Block 3 (Wochen 14–19): Lernpsychologie & Gedächtnis
 
-*(Konventionen wie gehabt. Block-Dramaturgie: Vieles aus Block 1–2 wird jetzt „rückwärts erklärt" – die Moderation macht diese Rückverweise explizit; sie SIND die Elaboration. Woche 15 startet mit erweitertem Reaktivierungs-Retrieval, falls Ferien vorausgingen.)*
+*(Konventionen wie gehabt. Block-Dramaturgie: Vieles aus Block 1–2 wird jetzt „rückwärts erklärt" – die Moderation macht diese Rückverweise explizit; sie SIND die Elaboration. Woche 14 startet mit erweitertem Reaktivierungs-Retrieval, falls Ferien vorausgingen.)*
 
 ---
 
-## Woche 15: Gedächtnisarchitektur (Drehbuch)
+## Woche 14: Gedächtnisarchitektur (Drehbuch)
 
-**Material:** Ziffernfolgen-Karten für Selbstversuche; Schaubild WM-Trichter/LZG-Netz (aus W1, jetzt vertieft); 4 Fall-Karten „Klassiker"; Mythen-Kartenset (Lernstile, Lernpyramide, 10 %-Gehirn, „digital natives lernen anders").
+**Material:** Ziffernfolgen-Karten für Selbstversuche; Schaubild WM-Trichter/LZG-Netz (aus dem Auftakt, jetzt vertieft); 4 Fall-Karten „Klassiker"; Mythen-Kartenset (Lernstile, Lernpyramide, 10 %-Gehirn, „digital natives lernen anders").
 
 **Retrieval-Starter (erweitert, 10 Min., Reaktivierung):** 8 Fragen quer durch Block 1+2, darunter: Stundenarchitektur-Template aufzeichnen; 80 %-Regel; Exit-Ticket-Gütecheck; Interventionsleiter; (Anwendung) „Erste Stunde nach den Ferien – welche zwei Dinge etablierst du neu?"
 
 **Input (Min. 10–28):**
 1. *See it – Selbstversuche (Highlight der Sitzung, 6 Min.):*
-  1. 11-stellige Zahl rückwärts (scheitert) vs. Geburtsdatum rückwärts (klappt) – W1-Echo, jetzt erklärt;
+  1. 11-stellige Zahl rückwärts (scheitert) vs. Geburtsdatum rückwärts (klappt) – Auftakt-Echo, jetzt erklärt;
   2. Buchstabenreihe „BMWFBIUSAADAC" merken: erst als Einzelbuchstaben (unmöglich), dann als Chunks (trivial) → Schemata erweitern faktisch das Arbeitsgedächtnis;
   3. „Woran haben Sie gestern beim Abendessen gedacht?" → vergessen ist Standard, nicht Störfall.
 2. Kernsätze: **Lernen = dauerhafte Veränderung im Langzeitgedächtnis** – was dort nicht ankommt, wurde nicht gelernt, egal wie schön die Stunde war. **„Erinnert wird, worüber nachgedacht wurde"** (Willingham) – die Denkspur ist die Lernspur. **Vergessen beginnt sofort** (Ebbinghaus) – Unterricht, der Vergessen nicht einplant, plant es ein.
-3. Konsequenz-Kaskade an der Tafel entwickeln (mit der Gruppe!): Wenn WM eng ist → kleine Schritte (W11), Routinen (Block 1), Material entschlacken (W16). Wenn Vergessen Standard ist → Wiederholung einbauen (W18/19). Wenn Denken = Lernen → Aufmerksamkeit lenken (W17). *„Ihr seht: Block 1 und 2 waren angewandte Gedächtnispsychologie. Jetzt bekommt ihr die Landkarte dazu."*
+3. Konsequenz-Kaskade an der Tafel entwickeln (mit der Gruppe!): Wenn WM eng ist → kleine Schritte (W10), Routinen (Block 1), Material entschlacken (W15). Wenn Vergessen Standard ist → Wiederholung einbauen (W17/18). Wenn Denken = Lernen → Aufmerksamkeit lenken (W16). *„Ihr seht: Block 1 und 2 waren angewandte Gedächtnispsychologie. Jetzt bekommt ihr die Landkarte dazu."*
 4. Mythen-Impfung (4 Min.): Lernstile (auditiv/visuell als Präferenz ≠ Lernwirksamkeit; Modalität soll zum INHALT passen), Lernpyramide (Zahlen frei erfunden) – kurz, klar, mit Quellenhinweis.
 
 **Name it (Min. 28–33):** Diagnose-Raster: Bei jedem Unterrichtsproblem drei Fragen:
@@ -33,11 +33,11 @@
 
 ---
 
-## Woche 16: Kognitive Last managen (Drehbuch)
+## Woche 15: Kognitive Last managen (Drehbuch)
 
 **Material:** 2 echte überladene Folien (anonymisiert oder nachgebaut); Entschlackungs-Checkliste; TN bringen eigenen Foliensatz/Arbeitsblatt mit (vorab ansagen!); Beispielgalerie Dual Coding.
 
-**Retrieval-Starter:** 1. Diagnose-Raster (3 Fragen)? 2. Definition Lernen? 3. Willingham-Satz? 4. Do-Now-Standardformat (W14)? 5. (Anwendung) Widerlege die Lernpyramide in 2 Sätzen.
+**Retrieval-Starter:** 1. Diagnose-Raster (3 Fragen)? 2. Definition Lernen? 3. Willingham-Satz? 4. Do-Now-Standardformat (W13)? 5. (Anwendung) Widerlege die Lernpyramide in 2 Sätzen.
 
 **Input (Min. 8–26):**
 1. *See it – Live-Erleben:* Moderation präsentiert 90 Sek. mit einer Horror-Folie (Textwüste + Vorlesen + Zusatzinfos mündlich) und stellt danach 3 Verständnisfragen → Gruppe scheitert. Dieselben Inhalte als Bild + freie Rede → Fragen klappen. *„Ihr habt gerade Split Attention und Redundanz am eigenen WM gespürt."*
@@ -55,11 +55,11 @@
 
 ---
 
-## Woche 17: Aufmerksamkeit lenken (Drehbuch)
+## Woche 16: Aufmerksamkeit lenken (Drehbuch)
 
 **Material:** Experiment-Folie (reizüberladen, mit anschließendem Überraschungsquiz); 6 Aufgaben-Karten fürs „Röntgen"; Marker-Formulierungsliste.
 
-**Retrieval-Starter:** 1. Drei großen Last-Fresser? 2. Intrinsisch vs. lästig – je ein Beispiel? 3. Meilenstein-Kriterien (W10)? 4. Warum bleibt Wichtiges an der Tafel stehen? 5. (Anwendung) Deine Folie hat Bild + 60 Wörter + du sprichst. Diagnose + Fix?
+**Retrieval-Starter:** 1. Drei großen Last-Fresser? 2. Intrinsisch vs. lästig – je ein Beispiel? 3. Meilenstein-Kriterien (W9)? 4. Warum bleibt Wichtiges an der Tafel stehen? 5. (Anwendung) Deine Folie hat Bild + 60 Wörter + du sprichst. Diagnose + Fix?
 
 **Input (Min. 8–24):**
 1. *See it – Überraschungsexperiment:* Folie 20 Sek. zeigen (Diagramm + Randnotiz + kleines lustiges Icon), dann verdecken, Quiz: „Was stand in der Achsenbeschriftung?" (kaum jemand) vs. „Welches Icon war zu sehen?" (fast alle). *„Eure Aufmerksamkeit ist zum Icon gelaufen. Die eurer SuS läuft GENAUSO – nur nicht dahin, wo ihr sie braucht. Es sei denn, ihr lenkt sie."*
@@ -82,17 +82,17 @@ Prüffrage: „Was DENKT ein Schüler, der diese Aufgabe löst?"
 
 ---
 
-## Woche 18: Retrieval Practice (Drehbuch)
+## Woche 17: Retrieval Practice (Drehbuch)
 
 **Material:** 4 Format-Stationen (Quiz-Zettel, Brain-Dump-Blanko, Whiteboards, Frage-Kärtchen); 3-2-1-Vorlage; Ergebnisse des „Selbstexperiments" (siehe Vorab-Auftrag).
 
-**Vorab-Auftrag (in W17 stellen!):** Hälfte der Gruppe lernt eine 10-Item-Liste (z. B. Fachbegriffe) durch 3× Lesen, andere Hälfte durch 1× Lesen + 2× Selbstabfrage. Test heute unangekündigt in Min. 8.
+**Vorab-Auftrag (in W16 stellen!):** Hälfte der Gruppe lernt eine 10-Item-Liste (z. B. Fachbegriffe) durch 3× Lesen, andere Hälfte durch 1× Lesen + 2× Selbstabfrage. Test heute unangekündigt in Min. 8.
 
 **Retrieval-Starter:** regulär 5 Fragen (u. a. Lenkungs-Dreiklang; Split Attention; Exit-Ticket-Gütecheck; Anwendung: Röntge die Aufgabe „Fasse den Text zusammen").
 
 **Input (Min. 8–26):**
 1. *See it – das Selbstexperiment auflösen (6 Min.):* Test der 10 Items, Auswertung nach Gruppen an der Tafel. Der Abruf-Vorsprung ist fast immer sichtbar. *„Ihr habt den Testing Effect gerade an euch selbst gemessen. Abruf ist keine Leistungskontrolle – Abruf IST die Lernhandlung."*
-2. Prinzipien: Abruf stärkt die Spur mehr als jedes Wiederlesen; **Abruf unterbricht das Vergessen** (Ebbinghaus-Kurve wird bei jedem Abruf „neu gestartet", flacher); niedrigschwellig + benotungsfrei (sonst wird's Prüfungsangst statt Lernwerkzeug – Fehlerkultur folgt in W21); auch **Anwendung ist Abruf** (Konzept in neuem Kontext nutzen = elaborierter Abruf; Lemovs Vokabel-Beispiel).
+2. Prinzipien: Abruf stärkt die Spur mehr als jedes Wiederlesen; **Abruf unterbricht das Vergessen** (Ebbinghaus-Kurve wird bei jedem Abruf „neu gestartet", flacher); niedrigschwellig + benotungsfrei (sonst wird's Prüfungsangst statt Lernwerkzeug – Fehlerkultur folgt in W20); auch **Anwendung ist Abruf** (Konzept in neuem Kontext nutzen = elaborierter Abruf; Lemovs Vokabel-Beispiel).
 3. Formate-Landkarte: Do-Now-Quiz (Standard!), Brain Dump, Frage-Klassiker („Was? Warum heißt es so? Wozu?"), Whiteboard-Blitz, kumulative Aufgaben im Übungsset, Abfrage-Partnerarbeit.
 4. 3-2-1-Muster als Hausformat: 3 Fragen gestern, 2 letzte Woche, 1 letzter Monat.
 
@@ -108,17 +108,17 @@ Prüffrage: „Was DENKT ein Schüler, der diese Aufgabe löst?"
 
 ---
 
-## Woche 19: Spacing & Interleaving (Drehbuch)
+## Woche 18: Spacing & Interleaving (Drehbuch)
 
 **Material:** Halbjahres-Blanko-Landkarte; ein echtes geblocktes Übungsblatt (10× derselbe Aufgabentyp); Kurven-Schaubild „geblockt vs. verteilt" (Lernleistung vs. Behalten).
 
-**Retrieval-Starter:** 1. Gütekriterien Retrieval? 2. 3-2-1-Muster? 3. Testing Effect in einem Satz? 4. Fading-Treppe (W12)? 5. (Anwendung) Dein Kollege sagt: „Quizze bringen nichts, das ist bloß Abfragen." Antwort in 2 Sätzen?
+**Retrieval-Starter:** 1. Gütekriterien Retrieval? 2. 3-2-1-Muster? 3. Testing Effect in einem Satz? 4. Fading-Treppe (W11)? 5. (Anwendung) Dein Kollege sagt: „Quizze bringen nichts, das ist bloß Abfragen." Antwort in 2 Sätzen?
 
 **Input (Min. 8–26):**
 1. *See it – die Paradox-Kurve:* Schaubild: Geblocktes Üben gewinnt IN der Stunde (hohe Performance), verteiltes Üben gewinnt im Test 4 Wochen später. Kernsatz: **Lernleistung in der Stunde ≠ Lernen.** *„Das ist die unbequemste Erkenntnis des Jahres: Die Stunde, die sich am glattesten anfühlt, ist oft nicht die lernwirksamste. Erwünschte Erschwernisse sehen schlechter aus und wirken besser."*
 2. Spacing pragmatisch (McCrea): keine Optimal-Intervall-Wissenschaft nötig – **regelmäßige kumulative Quizze** (Fragen von letzter Woche bis vor 6 Monaten) sind die 80 %-Lösung. Klassenarbeiten kumulativ ankündigen → SuS-Lernverhalten ändert sich.
 3. Interleaving: jede 3.–4. Aufgabe im Set aus Alt-Themen; trainiert zusätzlich das AUSWÄHLEN der Methode – genau das, woran SuS in Prüfungen scheitern („Welches Verfahren ist hier dran?").
-4. Ehrlichkeit gegenüber SuS: erklären, WARUM gemischte Blätter sich schwerer anfühlen (Buy-in-Vorgriff W30; Metakognition W20).
+4. Ehrlichkeit gegenüber SuS: erklären, WARUM gemischte Blätter sich schwerer anfühlen (Buy-in-Vorgriff W29; Metakognition W19).
 
 **Name it (Min. 26–31):** Zwei Einbau-Regeln:
 
@@ -137,11 +137,11 @@ Plus Prüfungsregel: kumulativ prüfen + vorher ansagen.
 
 ---
 
-## Woche 20: Elaboration & Wissensorganisation + Konsolidierung Block 3 (Drehbuch)
+## Woche 19: Elaboration & Wissensorganisation + Konsolidierung Block 3 (Drehbuch)
 
 **Material:** Knowledge-Organizer-Beispiele (2 gute, 1 überladenes Negativbeispiel); KO-Blanko; Elaborations-Fragenfächer (Warum? Vergleich? Eigenes Beispiel? Erkläre einem Fünftklässler. Was wäre wenn?); 9-Prinzipien-Posterblanko; Block-3-Quiz (20 Fragen kumulativ).
 
-**Retrieval-Starter → Block-3-Quiz (Min. 2–12)** mit Selbstkorrektur (wie W14).
+**Retrieval-Starter → Block-3-Quiz (Min. 2–12)** mit Selbstkorrektur (wie W13).
 
 **Input (Min. 12–26):**
 1. Elaboration: Neues aktiv mit Bekanntem verknüpfen – Verarbeitungstiefe entscheidet über Dauer. Der Fragenfächer als Handwerkszeug; Warnung: *„Eine Mindmap ist nur dann Elaboration, wenn sie Denken über ZUSAMMENHÄNGE erzwingt – Begriffe mit Linien verbinden kann man auch gedankenlos."*

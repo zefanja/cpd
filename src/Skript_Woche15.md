@@ -1,5 +1,5 @@
-# Skript Woche 15: „Gedächtnisarchitektur – warum Lernen Gedächtnisveränderung ist"
-## 60-Minuten-Sitzung · Block 3 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 15: „Kognitive Last managen – Information & Kommunikation verschlanken"
+## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,165 +7,161 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was passiert im Kopf, wenn jemand etwas lernt – und was folgt daraus für jede Unterrichtsentscheidung? |
-| **Kernquellen** | McCrea, *Memorable Teaching* (Kap. 1–3: Lernen als LZG-Veränderung, WM-Flaschenhals, Schemata); Willingham (*Memory is the residue of thought*); Ebbinghaus (Vergessenskurve) |
-| **Funktion im Jahr** | Block-3-Auftakt und Perspektivwechsel: Die Werkzeuge aus Block 1–2 werden „rückwärts erklärt" – aus Rezept-Anwendern werden Leute, die das Warum kennen. Das Diagnose-Raster (WM überlastet? / nie im LZG? / falsche Denkspur?) wird die Deutungsbrille für W16–20. Die Mythen-Impfung schützt vor Lehrerzimmer-Folklore. Erste Sitzung nach den Ferien: erweiterte Reaktivierung. |
-| **Lernziele** | Die TN können:<br>1. das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären (mit Selbstversuchs-Evidenz),<br>2. den Willingham-Satz auf Unterrichtssituationen anwenden,<br>3. vier Klassiker-Probleme mit dem Diagnose-Raster deuten,<br>4. die zwei größten Lernmythen (Lernstile, Lernpyramide) kollegentauglich entkräften. |
-| **Sitzungstyp** | Erlebnis-Sitzung: Selbstversuche als Evidenz-Anker, dann Deutungs-Werkstatt. Wenig Skripten, viel Denken. |
+| **Leitfrage** | Wie halte ich den Denk-Kanal frei für das, worauf es ankommt? |
+| **Kernquellen** | McCrea, *Memorable Teaching* („Manage information", „Streamline communication", „Regulate load"); Cognitive-Load-Theorie (Sweller); Lemov T22 (Board = Paper, Bezug) |
+| **Funktion im Jahr** | Operationalisiert den WM-Flaschenhals aus W14 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für W10-Regeln (Stifte weg = Split Attention) und W12-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (W32 Packet, W33 Arbeitsblätter). |
+| **Lernziele** | Die TN können:<br>1. intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg),<br>2. die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz),<br>3. Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede),<br>4. eigenes Material mit der Checkliste operieren. |
+| **Sitzungstyp** | Werkstatt-Sitzung: Selbsterleben → Theorie → Chirurgie am eigenen Material. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Plenum für Selbstversuche, dann Vierergruppen. **Material:**
-- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1) liegt aus
-- [ ] Ziffern-/Buchstabenfolgen als Folien (Anhang 1.1)
-- [ ] Handout A: Das Gedächtnismodell + Diagnose-Raster (Anhang 1.2)
-- [ ] Fall-Kartenset: 4 Klassiker (Anhang 1.3)
-- [ ] Mythen-Kartenset: 4 Karten (Anhang 1.4)
+**Raum:** Vierergruppen, Laptops/Tablets der TN falls verfügbar (sonst Papier-OP). **Vorab-Auftrag (W14-Exit-Karte):** eigenen Foliensatz oder ein selbst erstelltes Arbeitsblatt mitbringen – ausdrücklich das „schlimmste" Exemplar.
+
+**Material (Checkliste):**
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Die Horror-Folie + ihre entschlackte Zwillingsfolie (Anhang 1.1 – vorbereiten!)
+- [ ] Handout A: Entschlackungs-Checkliste (Anhang 1.2)
+- [ ] Handout B: Dual-Coding-Beispielgalerie, 3 Paare (Anhang 1.3)
+- [ ] 3 Verständnisfragen zur Horror-Folie (auf Folie 2 versteckt)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard; Whiteboards liegen bereit.
+## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Reaktivierungs-Quiz (Minute 2–12)
-8 Fragen quer durch Block 1+2 (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Meta-Satz: *„Nach Ferien ist Reaktivierung wichtiger als Neues – das gilt für euch wie für eure Klassen. Wer diese Woche noch keinen Re-Establish-Moment hatte: Der Action Step wartet."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · Rahmung: der Blick hinter die Werkzeuge (Minute 12–15)
+## Phase 2 · See it: Der Anschlag auf euer Arbeitsgedächtnis (Minute 8–16)
 
-> **Moderationstext:**
-> *„Vierzehn Wochen lang habe ich euch Werkzeuge gegeben und bei den Warum-Fragen oft gesagt: ‚Kommt in Block 3.' Der ist jetzt da. Und ich verspreche euch: Nach den nächsten sechs Wochen seht ihr euren eigenen Unterricht mit Röntgenblick. Wir fangen mit dem Fundament an – mit der Frage, die banaler klingt, als sie ist: Was IST eigentlich Lernen? Und weil ich euch nichts erzählen will, was ihr nicht selbst gespürt habt, fangen wir mit drei Experimenten an. Versuchsobjekt: ihr."*
+**Der Doppel-Versuch (Herzstück – Regie exakt einhalten):**
 
-## Phase 3 · See it: Drei Selbstversuche (Minute 15–24)
+**Durchgang 1:** Moderation präsentiert 90 Sekunden mit der Horror-Folie (Anhang 1.1): dichter Fließtext + Diagramm + drei Aufzählungsebenen; die Moderation LIEST den Text wörtlich vor und streut zusätzlich mündliche Zusatzinfos ein, die NICHT auf der Folie stehen. Danach Folie weg, drei Verständnisfragen auf die Boards. [Ergebnis: mager – und zwar bei einem Raum voller motivierter Erwachsener.]
 
-**Versuch 1 – Der Flaschenhals (3 Min.):** *„Ich zeige euch gleich für fünf Sekunden eine Zahl. Danach schreibt ihr sie RÜCKWÄRTS aufs Board."* [Folie: 0 1 7 6 4 4 9 2 3 1 8 → Boards hoch → Chaos, Gelächter.] *„Und jetzt: euer eigenes Geburtsdatum, rückwärts. … Alle können es. Der Unterschied? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – und das hat, je nach Zählung, vier bis sieben Plätze. Das Geburtsdatum liegt im Langzeitgedächtnis und kostet: nichts."* (W1-Echo explizit machen – heute wird daraus Theorie.)
+**Durchgang 2:** Derselbe Inhalt, entschlackte Zwillingsfolie: EIN beschriftetes Schaubild, kein Fließtext; Moderation spricht frei dazu. Danach drei parallele Verständnisfragen. [Ergebnis: deutlich besser.]
 
-**Versuch 2 – Die Chunk-Magie (3 Min.):** [Folie 5 Sek.: B M W F B I U S A A D A C – Boards: kaum jemand schafft alle 13.] *„Und jetzt dieselben dreizehn Buchstaben, anders geschnitten: BMW – FBI – USA – ADAC."* [Boards: fast alle.] *„Dreizehn Elemente wurden zu vier – weil euer Langzeitgedächtnis die Muster kennt. Das nennt sich Schema, und es ist der wichtigste Begriff des Blocks: **Vorwissen erweitert faktisch das Arbeitsgedächtnis.** Wer viel weiß, kann mehr denken – nicht umgekehrt. Das ist übrigens der Grund, warum ‚erst Kompetenzen, Wissen kann man googeln' kognitiv Unsinn ist: Ohne Schemata im Kopf gibt es nichts, WOMIT man denkt."*
+> **Auswertung:** *„Haltet den Moment fest: Ihr seid hochmotivierte Profis, der Inhalt war identisch, die Zeit war identisch – und trotzdem dieser Unterschied. In Durchgang 1 habe ich drei Anschläge auf euer Arbeitsgedächtnis verübt: Ihr solltet LESEN, während ich etwas ANDERES sagte – zwei Sprachkanäle im Wettstreit. Ich habe VORGELESEN, was ihr schneller selbst lest – doppelte Verarbeitung derselben Information. Und die Zusatzinfos kamen nur mündlich – kaum gesagt, schon verweht. Eure Schüler erleben das täglich. Der Unterschied: Sie können nicht benennen, warum sie aussteigen – sie steigen einfach aus. Und der Beobachter notiert dann: unkonzentriert."*
 
-**Versuch 3 – Das Standard-Vergessen (3 Min.):** *„Letzter Versuch, ganz ohne Folie: Was genau haben Sie vorgestern zu Abend gegessen? … Und worüber haben Sie dabei nachgedacht? … Sehen Sie. Vergessen ist kein Betriebsunfall des Gehirns – es ist der Normalzustand. Ebbinghaus hat das vor 140 Jahren vermessen: Der Zugriff zerfällt steil, schon nach Tagen ist ohne Auffrischung der Großteil weg. Unterricht, der das Vergessen nicht einplant, plant es ein."*
+## Phase 3 · Input: Die Theorie zur Erfahrung (Minute 16–27)
 
-## Phase 4 · Input: Die drei Kernsätze + das Raster (Minute 24–32)
+### 3a · Gute Last, schlechte Last (Min. 16–20)
+> *„Zuerst die wichtigste Unterscheidung, damit niemand das Falsche mitnimmt: Es geht NICHT darum, Unterricht leicht zu machen. **Intrinsische Last** – die Schwierigkeit der Sache selbst – ist erwünscht: Denken soll stattfinden, Anstrengung ist der Stoff, aus dem Lernen ist. Was wir bekämpfen, ist die **lästige Last**: alles Drumherum, das Kapazität frisst, ohne Lernen zu erzeugen – das Suchen auf der überladenen Folie, das Entziffern der Anweisung, der Wettstreit der Kanäle. Die Formel der Woche: **Schwere Inhalte, schlanker Weg.** Wer beides senkt, langweilt. Wer beides hochfährt, überfordert. Die Kunst ist die Schere."*
 
-> *„Aus den drei Versuchen destillieren wir drei Sätze – die tragen den ganzen Block:*
-> *Erstens: **Lernen ist eine dauerhafte Veränderung im Langzeitgedächtnis.** Punkt. Was dort nicht ankommt, wurde nicht gelernt – egal wie lebendig die Stunde war, egal wie beschäftigt alle waren. Eine Stunde kann glänzen und nichts hinterlassen.*
-> *Zweitens, Willinghams Satz, den ihr euch tätowieren dürft: **Erinnert wird, worüber nachgedacht wurde.** Nicht, was ihr gesagt habt. Nicht, was auf der Folie stand. Die Denkspur ist die Lernspur. Wer beim Explosionsvideo über die Explosion staunt, lernt die Explosion – nicht die Reaktionsgleichung.*
-> *Drittens: **Vergessen ist Standard** – und deshalb ist Wiederholung keine verlorene Zeit, sondern der einzige bekannte Weg, die Zerfallskurve zu brechen. Wie genau, ist Woche 18 und 19.*
-> *Und jetzt seht ihr, warum Block 1 und 2 so gebaut waren, wie sie gebaut waren"* [Kaskade MIT der Gruppe an der Tafel entwickeln – Zuruf: Welches Werkzeug antwortet auf welchen Satz?]: *„Enges Arbeitsgedächtnis → kleine Schritte, Halbier-Regel, Routinen, die Denkplatz freiräumen. Denkspur = Lernspur → Aufmerksamkeit lenken, Stifte weg beim Modellieren. Vergessen ist Standard → Do Now mit Altstoff, kumulative Quizze. Ihr habt vierzehn Wochen angewandte Gedächtnispsychologie betrieben. Heute habt ihr die Landkarte dazu bekommen.*
-> *Daraus das Diagnose-Raster für jedes Unterrichtsproblem – drei Fragen:*
-> - **War das Arbeitsgedächtnis überlastet?**
-> - **Ist es nie im Langzeitgedächtnis angekommen – fehlt der Abruf?**
-> - **Lief die Denkspur woandershin?**
->
-> *Fast jedes ‚Die kapieren das einfach nicht' löst sich in einer dieser drei Fragen auf – und jede hat andere Konsequenzen."*
+### 3b · Die drei großen Fresser (Min. 20–24)
+> *„Fresser eins: **Split Attention** – zwei Informationsquellen konkurrieren um denselben Kanal. Der Klassiker: Text auf der Folie lesen, während die Lehrkraft anderes erzählt. Oder – Woche 10 lässt grüßen – mitschreiben, während erklärt wird. Ihr habt die Stifte-weg-Regel damals auf Zuruf geglaubt; heute wisst ihr, warum sie stimmt.*
+> *Fresser zwei: **Redundanz** – dieselbe Information doppelt verarbeitet. Folientext wörtlich vorlesen fühlt sich wie Service an und ist das Gegenteil: Das Gehirn liest UND hört UND vergleicht beide Ströme. Regel: Was steht, wird nicht vorgelesen – was gesagt wird, muss nicht auch noch dastehen.*
+> *Fresser drei: **Transienz** – Gesprochenes verschwindet. Eine dreischrittige Anweisung, nur mündlich gegeben, ist für die Hälfte der Klasse nach Schritt eins Geschichte. Deshalb eure W12-Startbedingung ‚Aufgabe schriftlich' – und deshalb die Regel: **Wichtiges bleibt stehen.** Kernschritte an der Tafel, bis Stundenende. Lemov nennt das Prinzip Board = Paper: Was an der Tafel steht, ist das Modell dessen, was im Heft stehen soll."*
 
-## Phase 5 · Mythen-Impfung (Minute 32–37)
+### 3c · Dual Coding, richtig verstanden (Min. 24–27)
+> *„Und die starke Kombination? **Bild plus gesprochenes Wort** – zwei verschiedene Kanäle, die sich ergänzen statt konkurrieren: Das Auge hält das Schaubild, das Ohr bekommt die Erklärung. DAS ist Dual Coding. Was Dual Coding NICHT ist: Bild plus Textwüste plus Rede – das ist Stau auf allen Spuren. Und Dekoration – das animierte Männchen, das Zufalls-Clipart – ist keine Auflockerung, sondern ein Aufmerksamkeits-Dieb; wohin die Denkspur dann läuft, klärt nächste Woche im Detail. Kurzregel für jede Folie: **Ein Gedanke. Ein Träger – Bild ODER Text. Der Rest kommt aus eurem Mund.**"*
 
-> *„Bevor wir üben, eine Schutzimpfung – denn im Lehrerzimmer kursieren Theorien, die sich zäh halten: **Lernstile** – ‚Der ist ein visueller Typ.' Die Präferenz existiert, der Lerneffekt nicht: In sauberen Studien lernen ‚visuelle Typen' mit passendem Material nicht besser. Die Regel, die stattdessen trägt: Die Modalität muss zum INHALT passen – Geografie braucht Karten für alle, Aussprache braucht Hören für alle. **Die Lernpyramide** – ‚Man behält 10 % vom Lesen, 90 % vom Lehren.' Die Zahlen sind erfunden; keine Quelle, keine Studie, runde Prozentwerte als Warnsignal. Der wahre Kern – aktive Verarbeitung schlägt passive – kommt bei uns sauber in Woche 18 und 20. Warum ich darauf herumreite? Weil ihr als Quereinsteiger in Konferenzen sitzen werdet, in denen damit Unterrichtsentscheidungen begründet werden. Ihr dürft dann freundlich und präzise sein."*
+## Phase 4 · Name it (Minute 27–31)
 
-## Phase 6 · Do it: Deutungs-Werkstatt (Minute 37–52)
+**Entschlackungs-Checkliste** (Handout A) durchgehen: ☐ Ein Gedanke pro Folie? ☐ Träger gewählt: Bild ODER Text? ☐ Nichts vorlesen, was steht? ☐ Anweisungen ab 2 Schritten schriftlich? ☐ Kernschritte bleiben stehen (Board = Paper)? ☐ Dekoration raus? — Merksatz: *„Schwer darf die Sache sein – nicht der Weg zu ihr."*
 
-### Runde 1 · Fall-Deutung mit dem Raster (Min. 37–47)
-Vierergruppen, je 2 Fall-Karten (Anhang 1.3): mit dem Raster deuten + EINE Konsequenz nennen (Werkzeug aus Block 1/2 genügt!). Plenums-Blitz: je Fall 45 Sekunden. *(Fall 4 ist der Aha-Kandidat: „Textverstehen scheitert trotz Lesefähigkeit" → fehlendes Vorwissen/Schema – die BMW-FBI-Erfahrung aufs Lesen übertragen.)*
+Fingerzeichen-Kalibrierung (2 Min.): 4 Mini-Beschreibungen → welcher Fresser? (z. B. „Lehrkraft diktiert die Hausaufgabe in den Packlärm" → Transienz + W2-Echo.)
 
-### Runde 2 · Mythen-Speeddating (Min. 47–52)
-Tandems ziehen eine Mythen-Karte und üben die 60-Sekunden-Lehrerzimmer-Antwort: freundlich, präzise, mit Alternative. Zwei Antworten im Plenum hören; Kriterium: Kein Besserwisser-Ton – „Der wahre Kern daran ist … – nur die Schlussfolgerung trägt nicht."
+## Phase 5 · Do it: Folien-/Material-Chirurgie (Minute 31–52)
 
-## Phase 7 · Action Step & Exit (Minute 52–60)
+### Runde 1 · Operation am eigenen Material (Min. 31–45)
+Jeder operiert 2 eigene Folien bzw. ein Arbeitsblatt nach Checkliste – real (am Gerät) oder als Papier-Markup (streichen/skizzieren). Moderation zirkuliert mit den zwei Standard-Interventionen: *„Welcher GEDANKE ist das? Dann darf nur er bleiben."* und *„Das hier – sagst du es, oder steht es? Beides geht nicht."* 
 
-**Standard:** *„Ich identifiziere in einer meiner Stunden die drei Stellen mit der höchsten Arbeitsgedächtnislast (neue Begriffe zählen! Parallelaufträge! Materialsuche!) und entschärfe EINE davon – und notiere, was sich ändert."*
+### Runde 2 · Vorher/Nachher-Review (Min. 45–52)
+Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist der eine Gedanke?" (Wenn er ihn nicht in 5 Sekunden nennen kann: weiter operieren.) Danach zeigen 2 TN ihre dramatischste Verwandlung am Beamer – Applaus ist erlaubt; die Vorher-Folie erntet das befreiende Gelächter des Wiedererkennens.
+
+## Phase 6 · Action Step (Minute 52–58)
+
+**Standard:** *„Ich überarbeite den Foliensatz meiner nächsten neuen Einheit nach der Checkliste – und halte in JEDER Stunde dieser Woche die Vorlese-Nulldiät: Nichts vorlesen, was die Klasse sieht."*
 
 **Alternativen:**
 
-1. Raster-Woche: jedes „Die kapieren es nicht"-Gefühl sofort mit den drei Diagnose-Fragen notieren (Zettel im Lehrerkalender).
-2. Re-Establish nachholen: wer nach den Ferien noch keinen Routinen-Neustart gemacht hat – jetzt (W2/W3-Handwerk).
+1. Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper).
+2. Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Woche.
 
-> **Ausblick:** *„Nächste Woche wird es chirurgisch: Wie ihr Material und eure eigene Kommunikation von unnötiger Last befreit – Folien-Chirurgie am offenen Foliensatz. Bringt eure schlimmste eigene Präsentation mit. Ja, die eine. Ihr wisst, welche."* **(Vorab-Auftrag W16 auf die Exit-Karte!)**
+> **Ausblick:** *„Der Kanal ist jetzt frei – nächste Woche geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 von letzter Woche: dem Filmeinstiegs-Problem."*
 
-**Exit-Karte:** Standard + Erinnerung Foliensatz-Mitbringen.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
 # 4. Coaching-Woche 15 (Handreichung)
 
-- **Hospitationsfokus:** WM-Last-Zählung: In einer Erklärphase mitzählen – neue Begriffe/Elemente pro Minute; Parallelaufträge notieren (hören + schreiben + suchen?).
-- **Auswertungsgespräch:** Zählung zeigen, TN wendet selbst das Raster an; die Kaskade nutzen: „Welches deiner Block-1/2-Werkzeuge antwortet darauf?" (Selbstwirksamkeit: Das Werkzeug existiert schon!).
-- **Ferien-Check:** Re-Establish gelaufen? Routinen-Zustand (Begrüßung, Signal, Do Now) kurz durchgehen – Verfall ist normal, Neustart ist Handwerk.
-- **Red Flag:** TN deutet Block 3 als „Theorie, die mir nichts bringt" → im 1:1 an einem SEINER Probleme das Raster durchspielen; die Deutungsbrille verkauft sich über den eigenen Fall.
+- **Format-Besonderheit:** Material-Sichtung VOR der Hospitation (TN schickt den Foliensatz der Stunde) – Coach legt die Checkliste an, zeigt sie aber erst im Gespräch.
+- **Hospitationsfokus:** Blickrichtungs-Stichproben: Wohin schauen die SuS während der Erklärung (Folie? Lehrkraft? Heft? – dreimal je 10 Sekunden zählen)? Vorlese-Momente protokollieren; verschwundene mündliche Anweisungen notieren (woran erkennbar: Rückfragen „Was sollten wir nochmal?").
+- **Auswertungsgespräch:** Erst die Rückfragen-Liste zeigen (Transienz-Beweis aus der eigenen Stunde überzeugt mehr als jede Folie), dann gemeinsam 2 Folien der NÄCHSTEN Stunde operieren.
+- **Red Flag:** TN mit extrem hohem Material-Perfektionismus (stundenlange Folienbastelei) → Vorgriff auf W31: Die Checkliste SPART Zeit – weniger Folie ist schneller gebaut; ggf. Zeitbudget vereinbaren.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Versuchs-Folien
-Folie 1: „0 1 7 6 4 4 9 2 3 1 8" (5 Sek.). Folie 2: „B M W F B I U S A A D A C" (5 Sek.). Folie 3: „BMW · FBI · USA · ADAC" (5 Sek.).
+## 1.1 Die Horror-Folie + Zwilling (Bauanleitung)
+**Inhalt (neutral, fachfremd fair):** „Der Wasserkreislauf". **Horror-Version:** 11 Zeilen Fließtext (Verdunstung, Kondensation, Niederschlag, Abfluss – verschachtelt formuliert) + kleines Kreislauf-Diagramm rechts unten + 3 Bullet-Ebenen mit Sonderfällen + Clipart-Sonne mit Sonnenbrille. Moderation liest den Text vor UND ergänzt mündlich zwei Zahlen (Verdunstungsanteil Ozeane ~86 %, Verweildauer Atmosphäre ~9 Tage), die nirgends stehen. **Fragen danach:**
 
-## 1.2 Handout A: Modell + Raster
-Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (4–7 Plätze, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:**
+1. Welche vier Stationen nennt der Kreislauf?
+2. Wie hoch ist der Ozean-Anteil an der Verdunstung?
+3. Wie lange bleibt Wasser durchschnittlich in der Atmosphäre?
 
-1. WM überlastet?
-2. Nie im LZG / kein Abruf?
-3. Denkspur woandershin?
+**Zwilling:** Nur das groß gezeichnete Kreislauf-Diagramm mit 4 beschrifteten Stationen; die zwei Zahlen stehen als einzige Textelemente an den passenden Pfeilen; Moderation spricht frei. Parallele Fragen: identisch.
 
-— je mit Konsequenz-Pfeil auf Block-1/2-Werkzeuge.
+## 1.2 Handout A: Entschlackungs-Checkliste — siehe Phase 4 (sechs Prüfpunkte + Merksatz; Fußzeile: „Die Schere: intrinsisch hoch, lästig runter").
 
-## 1.3 Fall-Kartenset (mit Auflösungshinweisen)
-**Fall 1:** „In der Stunde konnten sie es, im Test eine Woche später nicht." *(→ Frage 2: nur WM-Besuch, kein Abruf danach; Konsequenz: Do Now/kumulative Aufgaben; Vorgriff W19: Performance ≠ Learning.)*
-**Fall 2:** „Nach dem spektakulären Filmeinstieg können alle den Film nacherzählen, keiner die Fachfrage beantworten." *(→ Frage 3: Denkspur lief zum Spektakel; Konsequenz: präziser Beobachtungsauftrag – W17.)*
-**Fall 3:** „Die neue Schülerin ‚kann sich einfach nichts merken' – sagt die Klassenkonferenz." *(→ meist Frage 1+2: fehlende Schemata machen alles teuer; Konsequenz: Vorwissen aufbauen, kleinere Schritte – KEINE Eigenschafts-Diagnose!)*
-**Fall 4:** „Beim Sachtext scheitern viele – dabei können sie flüssig lesen." *(→ Schema-Lücke: Lesen ≠ Verstehen ohne Vorwissen zum Thema; Konsequenz: Vorwissen aktivieren/aufbauen vor dem Text.)*
-
-## 1.4 Mythen-Kartenset
-**M1 Lernstile** (Präferenz ≠ Wirkung; Modalität folgt dem Inhalt). **M2 Lernpyramide** (Zahlen erfunden; wahrer Kern: aktive Verarbeitung – sauber in W18/20). **M3 „10 % des Gehirns"** (neurologisch haltlos). **M4 „Digital Natives lernen anders"** (Gedächtnisarchitektur ist nicht verhandelbar; Mediengewohnheiten ≠ neue Kognition). — Kartenrückseite je: wahrer Kern + 60-Sek.-Antwortgerüst.
+## 1.3 Handout B: Dual-Coding-Galerie (3 Paare)
+**Paar 1 (Geografie):** Karte mit gesprochener Erläuterung ✓ vs. Karte + Fließtext daneben + Rede ✗. **Paar 2 (NaWi):** Versuchsskizze mit nummerierten Schritten, mündlich erklärt ✓ vs. Foto + Textspalte + Vorlesen ✗. **Paar 3 (Sprachen/Geschichte):** Zeitstrahl mit 5 Markern, frei erzählt ✓ vs. Zeitstrahl + Stichpunkt-Wolke + Zusatzanimationen ✗. — Je Paar eine Zeile: „Welcher Fresser wurde vermieden/begangen?"
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–14)
-1. Stundenarchitektur-Template aus dem Kopf skizzieren (7 Elemente). 2. Beide Enden der 80 %-Regel? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W2-Bauplan?
+## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
+1. Das Diagnose-Raster – die drei Fragen? *(WM überlastet? / nie im LZG–kein Abruf? / Denkspur woandershin?)*
+2. Willinghams Satz wörtlich? *(„Erinnert wird, worüber nachgedacht wurde.")*
+3. Was ist ein Schema – und was leistet es fürs Arbeitsgedächtnis? *(vernetztes Vorwissen; chunkt Elemente, erweitert faktisch die Kapazität)*
+4. Der Exit-Ticket-Gütecheck (Block 2)? *(Meilenstein / 3–5 Min. allein / schriftlich alle / Auswertung ≤10 Min.)*
+5. (Anwendung) Widerlege die Lernpyramide in zwei Sätzen – mit wahrem Kern. *(Zahlen erfunden, keine Quelle; wahrer Kern: aktive Verarbeitung schlägt passive – aber nicht in Prozent-Etagen.)*
 
 ## Teil 2: Modul-Quiz Woche 15 (für SPA/Folgewoche)
-**F1.** Eine Schülerin „kann sich einfach nichts merken". Wahrscheinlichste Erklärung:
-a) schwaches Gedächtnis als Eigenschaft ✗ *(die Konferenz-Diagnose)*
-b) fehlende Schemata + fehlender Abruf machen alles teuer ✓
-c) mangelnde Intelligenz ✗
-d) falscher Lerntyp ✗ *(Mythos-Distraktor)*
+**F1.** Folientext wörtlich vorlesen ist…
+a) barrierefrei und hilfreich für Schwache ✗ *(klingt fürsorglich!)*
+b) Redundanz – doppelte Verarbeitung, weniger Verstehen ✓
+c) Pflicht bei Fachtexten ✗
+d) egal, solange langsam gelesen wird ✗
 
-**F2.** „Erinnert wird, worüber nachgedacht wurde" bedeutet für den Filmeinstieg:
-a) Filme sind schlecht für den Unterricht ✗ *(Überkorrektur)*
-b) Erinnert wird, was der Film denken ließ – nicht automatisch das Konzept ✓
-c) Filme nur als Belohnung einsetzen ✗
-d) Text ist immer besser als Film ✗
+**F2.** Deine Aufgabe soll anspruchsvoll bleiben. Du senkst deshalb…
+a) die intrinsische Last – Erfolgserlebnisse zählen ✗ *(verwechselt die Lasten)*
+b) die lästige Last: Layout, Parallelkanäle, Suchaufwand ✓
+c) beides gleichmäßig ✗ *(klingt ausgewogen!)*
+d) nichts – Anstrengung härtet ab ✗
 
-**F3.** Lernstile (visuell/auditiv/kinästhetisch) berücksichtigen…
-a) ist evidenzbasierter Unterrichts-Standard ✗ *(der verbreitetste Lehrerglaube!)*
-b) verbessert Lernen nachweislich nicht; die Modalität soll zum Inhalt passen ✓
-c) hilft nur schwachen SuS ✗
-d) gilt nur in der Grundschule ✗
+**F3.** Die Hausaufgabe wird mündlich in den Packlärm gerufen. Hauptproblem:
+a) Unhöflichkeit ✗
+b) Transienz (+ W2-Endchaos): Gesprochenes verweht – Wichtiges muss stehen ✓
+c) zu leise ✗ *(teilrichtig – trifft den Mechanismus nicht)*
+d) keins, machen alle so ✗
 
-**F4.** „Wissen kann man googeln – wichtig sind Kompetenzen." Kognitiv betrachtet…
-a) stimmt das – Faktenwissen ist veraltet ✗ *(Zeitgeist-Distraktor)*
-b) braucht Denken Schemata im Langzeitgedächtnis – ohne Wissen kein Womit ✓
-c) stimmt beides nicht ✗
-d) gilt das nur für Mathe ✗
+**F4.** Dual Coding heißt:
+a) Bild + Textwüste + Rede – dreifach hält besser ✗ *(die verbreitete Praxis!)*
+b) Bild + gesprochenes Wort – zwei Kanäle, die sich ergänzen ✓
+c) alles doppelt erklären ✗
+d) Videos statt Texte ✗
 
-**F5.** Deine Stunde war lebendig, alle beschäftigt, gute Stimmung. Daraus folgt…
-a) es wurde gut gelernt ✗ *(DIE Verwechslung)*
-b) noch nichts – entscheidend ist, was im LZG ankommt (Ticket fragt nach!) ✓
-c) es wurde nichts gelernt ✗
-d) Stimmung ist unwichtig ✗
+**F5.** Das animierte Deko-Männchen auf der Folie…
+a) lockert auf und motiviert ✗ *(DER Glaube)*
+b) stiehlt Denkspur – Dekoration ist lästige Last ✓
+c) hilft visuellen Lerntypen ✗ *(Doppel-Mythos!)*
+d) ist Geschmackssache ✗
 
-**F6 (Transfer, Freitext):** Deute Fall 4 (Lesen klappt, Verstehen nicht) mit dem BMW-FBI-Versuch – und nenne die Konsequenz für deine nächste Textarbeit. *(Muster: Ohne Schemata bleibt jeder Satz eine 13-Buchstaben-Folge – Dekodieren ohne Chunks; Konsequenz: Vorwissen aktivieren/aufbauen VOR dem Text, Schlüsselbegriffe vorentlasten.)*
+**F6 (Transfer, Freitext):** Operiere die Horror-Folie (Anhang 1.1) in drei Schritten: Was fliegt raus, was bleibt, was wandert in deinen Mund? *(Muster: Fließtext raus → Diagramm groß als einziger Träger; die zwei Zahlen als Beschriftung AN die Pfeile (Transienz-Schutz); Erklärung + Sonderfälle mündlich; Clipart-Sonne entsorgen.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 15"
 
-1. **Hook (3 Min., Highlight!):** Die drei Selbstversuche als interaktive Sequenz: Ziffernfolge mit echtem 5-Sek.-Timer + Eingabefeld rückwärts; Buchstabenfolge roh vs. gechunkt; Abendessen-Frage als Reflexions-Prompt. Die eigene Fehlleistung ist der beste Theorie-Anker.
-2. **See it (4 Min.):** Das Modell als animierte Grafik (Items fallen sichtbar aus dem WM; Chunks docken als Pakete an); Kaskaden-Screen: Block-1/2-Werkzeuge fliegen an die drei Kernsätze.
-3. **Name it (3 Min.):** Diagnose-Raster als Entscheidungskarte; Zuordnung: 6 Mini-Situationen → Frage 1/2/3.
-4. **Do it – Fall-Diagnostiker (7 Min., Engine!):** Die 4 Klassiker als interaktive Fälle: Raster-Frage wählen → Konsequenz aus Werkzeug-Bibliothek ziehen → Feedback; Fall 3 enthält die Eigenschafts-Diagnose-Falle als explizite Fehleroption mit Aufklärung.
-5. **Mythen-Dojo:** 4 Mythen als Dialog-Simulation („Kollege sagt: … – deine Antwort?"), Scoring auf Ton (wahrer Kern zuerst) + Präzision; Ebbinghaus-Kurven-Explorer als Bonus (Slider: Wiederholungszeitpunkte → Kurve flacht).
-6. **Quiz (Teil 2)** + 30 % Altfragen; F3/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „3 Last-Stellen finden, 1 entschärfen" mit Vorher/Nachher-Notizfeld.
+1. **Hook (3 Min., Selbsterleben!):** Der Doppel-Versuch digital: Horror-Folie 60 Sek. mit Vorlese-Audio → 3 Quizfragen → Zwilling 60 Sek. mit freiem Audio → 3 Parallelfragen → Ergebnisvergleich als persönliche Balkengrafik. („Dein eigenes WM hat gerade ausgesagt.")
+2. **See it (3 Min.):** Die drei Fresser als animierte Kanal-Grafik (zwei Ströme kollidieren / doppelter Strom / verwehender Strom).
+3. **Name it (3 Min.):** Checkliste als Karten; Fresser-Zuordnung: 6 Unterrichtsmomente → Split/Redundanz/Transienz.
+4. **Do it – Folien-Makeover-Spiel (8 Min., Engine!):** Überladene Beispielfolie → Elemente antippen: behalten / streichen / „in den Mund" (wird zu Sprechtext) / „an die Tafel" (bleibt stehen) → App rendert die entschlackte Version + bewertet gegen Musterlösung; 3 Level (NaWi/Sprache/Gesellschaft); danach: eigenes Material als Foto hochladen und mit geführter Checkliste selbst operieren.
+5. **Dual-Coding-Galerie:** die 3 Paare als Vergleichs-Swipes mit Fresser-Benennung.
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F5 sind Langzeit-Anker (beide fühlen sich im Alltag „richtig" an!). **Abschluss:** Action-Step-Formular „Vorlese-Nulldiät" mit Ehrlichkeits-Strichliste („heute ertappt: __×").

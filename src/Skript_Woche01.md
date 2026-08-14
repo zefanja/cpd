@@ -1,4 +1,4 @@
-# Drehbuch Woche 1: „Fünf mentale Modelle des Unterrichtens"
+# Skript Woche 1: „Hohe Erwartungen – Verhalten ist ein Curriculum"
 ## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,251 +7,200 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Warum verhalten sich Klassen so, wie sie sich verhalten – und was folgt daraus für mich? |
-| **Kernquelle** | Lemov, *Teach Like a Champion 3.0*, Kapitel 1 („Five Themes: Mental Models and Purposeful Execution") |
-| **Funktion im Jahr** | Grundlagenmodul: liefert die Deutungsbrille, auf die sich ALLE 35 Folgemodule beziehen. Jede spätere Technik wird auf eines der fünf Modelle zurückgeführt. |
-| **Lernziele** | Die TN können:<br>1. die fünf Prinzipien in eigenen Worten erklären,<br>2. eine reale Unterrichtssituation der letzten Woche mit mindestens zwei Prinzipien deuten,<br>3. daraus einen ersten Beobachtungsauftrag für die eigene Klasse ableiten. |
-| **Sitzungstyp** | Deutung & Perspektivwechsel (noch kein Technik-Training – das beginnt in Woche 2). Einzige Sitzung des Jahres mit Analyse-Schwerpunkt statt Übungs-Schwerpunkt. |
-
-**Die fünf mentalen Modelle (Kurzform für alle Materialien):**
-1. **Gedächtnis:** Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht.
-2. **Gewohnheiten:** Routinen beschleunigen Lernen und setzen Denkkapazität frei.
-3. **Aufmerksamkeit:** Was Schüler beachten, ist das, was sie lernen.
-4. **Motivation ist sozial:** Gruppennormen wirken stärker als Regeln.
-5. **Unterrichten ist Beziehungsarbeit:** Kompetenter Unterricht erzeugt Vertrauen – nicht umgekehrt.
+| **Leitfrage** | Wie mache ich unsichtbare Erwartungen sichtbar und lehrbar? |
+| **Kernquellen** | Lovell/Dowley, Prinzip 3 („Start with high expectations") und Prinzip 5 („Behaviour is a curriculum"); Lemov T52 (Vorgriff), T61 Warm/Strict (Vorgriff) |
+| **Funktion im Jahr** | Erstes echtes Technik-Modul. Legt die Grundlage für ALLE Routinen (W2–7): Bevor man Routinen baut, muss man Erwartungen formulieren können. Liefert das Umformulierungs-Handwerk „vage → spezifisch", das in W3 (Anweisungen) direkt wiederverwendet wird. |
+| **Lernziele** | Die TN können:<br>1. erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt,<br>2. eine vage Erwartung nach 5 Kriterien nachschärfen,<br>3. eine Erwartungs-Einführung inkl. Begründung und Verständnis-Check skripten. |
+| **Sitzungstyp** | Technik-Training (Schreiben + Sprechen). Erste Sitzung mit vollem Standardraster inkl. Rollenspiel-Elementen. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Tische in Vierergruppen; Beamer; Flipchart; Sitzordnung so, dass Rollenspiel-Fläche frei bleibt (wird ab Woche 2 Standard).
+**Raum:** Vierergruppen; Flipchart für die Cluster-Sammlung aus den Beobachtungsbögen (wird in Phase 2 gebraucht!).
 
-**Material (Checkliste Moderation):**
-- [ ] Foliensatz (max. 12 Folien, Regeln aus Woche 16 gelten schon jetzt für uns selbst: 1 Idee pro Folie, Bild + Rede statt Textwüste)
-- [ ] Handout A: „Die fünf Modelle" (Einseiter, bleibt als Referenzkarte)
-- [ ] Handout B: Zwei Fallbeispiele (siehe Anhang 1) – alternativ: 2 kurze Videoclips (je 60–90 Sek.), falls verfügbar; die Fallbeispiele sind der videofreie Fallback
-- [ ] Handout C: Beobachtungsauftrag + Action-Step-Formular (Anhang 3)
-- [ ] Retrieval-Quiz als Folie oder Zettel (Anhang 2, Teil 1)
-- [ ] Timer sichtbar (Modellfunktion!)
+**Material (Checkliste):**
+- [ ] Retrieval-Quiz (Anhang 2, Teil 1) als Folie oder Zettel, liegt vor Beginn aus
+- [ ] Handout A: 6 Beispielpaare „vage → spezifisch" (Anhang 1.1)
+- [ ] Handout B: Erwartungs-Canvas (Anhang 1.2), 2 Kopien pro TN (eine für die Sitzung, eine als Vorlage)
+- [ ] Beobachtungsbögen aus dem Auftakt – TN wurden erinnert, sie mitzubringen (Fallback: 3 Leitfragen an der Tafel für die, die ihn vergessen haben)
+- [ ] Timer sichtbar
 
-**Moderations-Grundsatz:** Diese Sitzung modelliert selbst, was sie lehrt. Explizit machen! Der Meta-Kommentar („Merkt ihr, was ich gerade gemacht habe?") ist fester Bestandteil des Drehbuchs – Quereinsteiger lernen doppelt: Inhalt + Vorbild.
+**Vorab-Hinweis an die Moderation:** Diese Woche entscheidet sich, ob Action Steps ernst genommen werden. Die Brücken-Phase (Auftakt-Beobachtungen einsammeln) darf deshalb NICHT entfallen oder gehetzt werden – wer seinen Auftrag gemacht hat, muss erleben, dass er gebraucht wird.
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen & Start (Minute 0–2)
-
-Die Moderation startet **pünktlich auf die Sekunde** und kommentiert das später (Every Minute Matters als gelebte Norm). Das Retrieval-Quiz liegt/hängt bereits aus, bevor die Sitzung beginnt – wer sitzt, kann anfangen.
-
-> **Moderationstext (Vorschlag):**
-> *„Willkommen zur ersten richtigen Modulwoche. Ihr seht: Es liegt schon eine Aufgabe bereit, und der Timer läuft. Das machen wir ab jetzt jede Woche so – und in ein paar Wochen versteht ihr auch lernpsychologisch, warum. Vier Minuten, still, los."*
+## Phase 0 · Ankommen (Minute 0–2)
+Quiz liegt aus, Timer läuft, Start pünktlich. (Ab jetzt kommentarlos – die Norm trägt sich selbst.)
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8)
+5 Fragen (Anhang 2, Teil 1), 3 Min. still schriftlich, 3 Min. Auflösung per Aufrufen ohne Meldung – warm, mit Denkpause (die Moderation modelliert weiter, was in W21 Theorie wird).
 
-**Inhalt:** 5 Fragen zum Kickoff (Anhang 2, Teil 1). Einzelarbeit schriftlich (2 Min.), dann Blitz-Abgleich im Plenum (3 Min.) – Moderation ruft ohne Meldung auf (freundlich, mit Ankündigung: erster Vorgeschmack auf Cold Call, Woche 22).
-
-> **Meta-Kommentar (wichtig!):**
-> *„Kurz auf die Meta-Ebene: Was ich gerade gemacht habe – schriftlicher Abruf von letzter Woche, dann Aufrufen ohne Meldung – sind zwei Techniken, die ihr im Lauf des Jahres selbst lernen werdet. Ihr erlebt dieses Jahr jede Technik zweimal: einmal als Lernende, einmal als Lehrende."*
-
-## Phase 2 · Einstieg ins Thema: das Rätsel (Minute 8–12)
-
-**Dramaturgie:** Nicht mit Theorie starten, sondern mit einem Rätsel aus dem Alltag der TN.
+## Phase 2 · Brücke: Was habt ihr gesehen? (Minute 8–13)
 
 > **Moderationstext:**
-> *„Ihr unterrichtet jetzt seit einigen Tagen/Wochen. Ich wette, mindestens eine dieser drei Situationen kennt ihr schon:*
-> *Erstens: Ihr erklärt etwas – gründlich, korrekt, mit Beispiel. Am nächsten Tag ist es weg. Komplett.*
-> *Zweitens: Dieselbe Klasse, die bei Kollegin M. leise arbeitet, tanzt euch auf der Nase herum.*
-> *Drittens: Ein einzelner Schüler ist im Einzelgespräch umgänglich und klug – vor der Klasse spielt er den Clown.*
-> *Handzeichen: Wer hat mindestens eine davon erlebt?* [kurz würdigen] *Heute bekommt ihr die Brille, mit der diese drei Rätsel keine Rätsel mehr sind. Fünf Denk-Modelle, aus Kapitel 1 des Buchs, mit dem wir dieses Jahr viel arbeiten werden. Alles, was wir in den nächsten 35 Wochen trainieren, ist eine Antwort auf eines dieser fünf Modelle."*
+> *„Euer Auftrag war: die ersten fünf Minuten beobachten – Aufmerksamkeit und Begrüßungsroutine. Drei von euch bitte je eine Minute: Was habt ihr notiert?"*
 
-**Zieltransparenz (Folie):** Die drei Lernziele zeigen, in einem Satz erläutern (Backwards-Design als Vorbild – ohne es schon so zu nennen).
+Während der Berichte clustert die Moderation stichwortartig am Flipchart. Erfahrungsgemäß kommen: „Es dauert, bis alle stehen", „Sie schauen überall hin, nur nicht zu mir", „Ich wusste selbst nicht genau, was ich eigentlich erwarte". Dann die Pointe:
 
-## Phase 3 · Input: Die fünf Modelle (Minute 12–30)
+> *„Schaut auf diese Liste. Fast alles darauf hat dieselbe Wurzel: Die Erwartung existiert nur in eurem Kopf – als Gefühl. ‚Ordentlich reinkommen.' ‚Vernünftig sein.' Gefühle kann man nicht erfüllen und nicht einfordern. Heute lernt ihr, aus Gefühlen Erwartungen zu machen: sichtbar, lehrbar, prüfbar."*
 
-**Format:** Pro Modell ~3–4 Minuten nach festem Muster: **Alltagsbeispiel → Prinzip → „Was folgt daraus?"** – nie umgekehrt. Handout A wird ERST DANACH verteilt (Aufmerksamkeit auf die Moderation, nicht aufs Blatt – Meta-Kommentar am Ende der Phase).
+## Phase 3 · Input: Verhalten ist ein Curriculum (Minute 13–28)
 
-### Modell 1: Gedächtnis (Min. 12–16)
-> *„Selbstversuch: Ich sage euch gleich eine Telefonnummer und danach sollt ihr sie rückwärts aufsagen: 0-1-7-6-4-4-9-2-3-1-8. Wer schafft's?* [scheitern lassen, lachen lassen] *Und jetzt: Sagt mir euer eigenes Geburtsdatum rückwärts.* [alle können es] *Der Unterschied? Das eine musste im Arbeitsgedächtnis jongliert werden – das hat ungefähr vier bis sieben Plätze, mehr nicht. Das andere liegt im Langzeitgedächtnis und kostet fast nichts.*
-> *Das ist das erste Modell: **Das Arbeitsgedächtnis ist der Flaschenhals allen Lernens.** Alles Neue muss da durch. Wenn ihr erklärt und gleichzeitig sollen die Schüler mitschreiben und das Arbeitsblatt suchen und die Vokabel von gestern erinnern – dann ist der Flaschenhals verstopft, und es kommt nichts im Langzeitgedächtnis an. Und: 'Gelernt' heißt NUR 'im Langzeitgedächtnis angekommen'. Rätsel Nummer eins – 'gestern konnten sie es noch' – ist damit gelöst: Es war nie im Langzeitgedächtnis. Es war nur kurz im Arbeitsgedächtnis zu Besuch."*
+### 3a · See it: das Kontrastpaar (Min. 13–17)
+Folie mit beiden Versionen, laut vorlesen:
+- **A:** „Ich erwarte, dass ihr respektvoll und leise in den Unterricht startet."
+- **B:** „Wenn ich hereinkomme: aufstehen, Gespräche enden. Nach dem Setzen: Heft und Mäppchen liegen bereit, ihr arbeitet still am Starter. Spätestens 60 Sekunden nach dem Setzen höre ich nur noch Stifte."
 
-**Folie:** Schema Arbeitsgedächtnis (kleiner Trichter) → Langzeitgedächtnis (großes Netz). Keine weiteren Wörter.
+> *„Beide Lehrkräfte wollen dasselbe. Aber nur bei B können die Schüler wissen, was gemeint ist – und nur bei B kann die Lehrkraft fair einfordern, denn nur B ist überhaupt erfüllbar. Und noch etwas: Nur bei B lässt sich Erfüllung PRÜFEN. ‚Respektvoll' kann man nicht abhaken. ‚Alle Hefte liegen bereit' schon."*
 
-### Modell 2: Gewohnheiten (Min. 16–19)
-> *„Frage: Was habt ihr heute Morgen beim Zähneputzen gedacht? … Eben. Irgendwas anderes. Die Routine lief von allein und euer Denken war frei. **Genau das ist die Funktion von Routinen im Klassenzimmer:** Wenn 'Wie beginne ich die Stunde, wo kommt mein Heft hin, was tue ich, wenn ich fertig bin' automatisch läuft, ist das Arbeitsgedächtnis – Modell 1! – frei für den Inhalt. Routinen sind keine Dressur. Sie sind Denk-Befreiung. Unsere Begrüßungsroutine – alle stehen auf, Gruß, Setzen – ist so eine Routine: eine klare Zäsur, die jedem Gehirn im Raum sagt: Jetzt beginnt etwas anderes. Ob sie diese Funktion erfüllt, hängt aber davon ab, WIE sie durchgeführt wird. Dazu in Woche 3 mehr."*
+### 3b · Das Kernprinzip (Min. 17–23)
+> *„Jetzt der Satz, der diese Woche trägt: **Verhalten ist ein Curriculum.** Kein Schüler kommt mit fertigem Verhalten zur Welt – genauso wenig wie mit fertiger Bruchrechnung. Und niemand von euch würde Bruchrechnung so unterrichten: einmal erwähnen, nie üben, und beim ersten Fehler beleidigt sein. Genau so behandeln wir aber Verhalten: ‚Das habe ich doch am Schuljahresanfang gesagt!' – Einmal gesagt ist nicht gelernt. Das wisst ihr seit letzter Woche: Modell 1, Gedächtnis.*
+> *Also gilt für Verhalten dieselbe Didaktik wie für jeden Stoff: **erklären** (spezifisch!), **begründen** (ein Satz – Jugendliche, gerade in Sek II, folgen Erwartungen deutlich bereitwilliger, deren Sinn sie kennen), **modellieren** (zeigen, wie es aussieht), **üben** (ja, wirklich – kommt in Woche 2), **prüfen** (gleich mehr) und **Feedback geben** (kommt in Woche 5 und 7).*
+> *Und das Zeitfenster: Am Anfang – des Jahres, des Halbjahres, nach Ferien – akzeptiert eine Klasse hohe Erwartungen als Normalität. Wer niedrig startet und später anzieht, kämpft gegen etablierte Normen: Modell 4. Lockern geht immer und wird als Großzügigkeit erlebt. Nachschärfen wird als Ungerechtigkeit erlebt. Deshalb: hoch starten. Und wer schon drin steckt: Jeder Montag ist ein kleines Fenster, jeder explizite Neustart ein großes."*
 
-### Modell 3: Aufmerksamkeit (Min. 19–22)
-> *„Drittes Modell, und es klingt banal, ist aber radikal: **Gelernt wird, was beachtet wird. Punkt.** Nicht, was ihr gesagt habt. Nicht, was auf der Folie stand. Sondern das, worüber die Schülerin in diesem Moment nachgedacht hat. Wenn eure Erklärung brillant war, aber ihre Aufmerksamkeit beim Handy unterm Tisch – dann hat sie etwas über ihr Handy gelernt. Wenn euer Unterrichtseinstieg ein spektakuläres Explosionsvideo war, erinnern sie die Explosion – nicht die Reaktionsgleichung. Konsequenz für uns: Aufmerksamkeit ist die Währung des Klassenzimmers, und wir müssen sie aktiv lenken – nicht hoffen, dass sie schon richtig liegt."*
+### 3c · Behavioural CFU + Sek-II-Einwand (Min. 23–28)
+> *„Letzter Baustein: Woher weißt du, dass die Erwartung angekommen ist? Nicht durch ‚Alles klar?' – sondern durch Prüfen: ‚Jonas, was passiert, nachdem ihr euch gesetzt habt?' – ‚Lena, wie lange habt ihr Zeit bis zum Starter?' Zwei Fragen, zehn Sekunden, und die Klasse weiß: Das hier war ernst gemeint.*
+> *Und der Einwand, den einige von euch gerade denken: ‚In meiner Oberstufe wirkt das kindisch.' Nein – kindisch wirkt eine kindische FORMULIERUNG. Die Struktur bleibt, der Ton wird erwachsen: ‚Ich erwarte, dass Laptops zu sind, wenn jemand präsentiert – aus demselben Grund, aus dem Sie das in jeder Besprechung erwarten würden.' Explizit heißt nicht infantil. Implizit heißt nur: unfair für alle, die den Code nicht von allein knacken."*
 
-### Modell 4: Motivation ist sozial (Min. 22–26)
-> *„Rätsel zwei von vorhin: Warum arbeitet dieselbe Klasse bei Kollegin M. still und bei euch nicht? Die bequeme Antwort wäre: Frau M. ist eben eine Autoritätsperson, ich nicht. Die richtige Antwort: **In Frau M.s Stunde herrscht eine andere Norm.** Menschen – und Jugendliche hoch drei – tun, was die Gruppe tut. Meist unbewusst. Der Schüler, der bei euch reinruft, trifft keine Entscheidung gegen euch; er folgt der Norm 'hier ruft man rein'. Normen sind mächtiger als jede Regel auf dem Papier – und das Tückische: Sie sind unsichtbar, und sie entstehen IMMER. Die einzige Frage ist, ob absichtlich oder zufällig. Rätsel drei – der Klassenclown – gehört auch hierher: Vor der Gruppe gelten Gruppengesetze. Es ist fast nie persönlich. Das zu wissen, ist emotional die vielleicht wichtigste Entlastung eures ersten Jahres."*
+## Phase 4 · Name it (Minute 28–33)
 
-### Modell 5: Unterrichten ist Beziehungsarbeit (Min. 26–29)
-> *„Letztes Modell, und hier räumen wir mit einem Mythos auf, den viele von uns mitbringen: 'Erst muss ich eine Beziehung zu den Schülern aufbauen, DANN kann ich Anforderungen stellen.' Klingt plausibel, ist aber falsch herum. Lemov zeigt an hunderten Stunden herausragender Lehrkräfte: **Vertrauen entsteht durch gelingenden Unterricht.** Schüler vertrauen Lehrkräften, bei denen sie merken: Hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts – sie ist sein Ergebnis. Das ist eine gute Nachricht für euch: Ihr müsst nicht erst 'der coole Lehrer' werden. Ihr müsst gut unterrichten – die Beziehung kommt mit."*
+An der Tafel entwickeln (Zuruf, Moderation ordnet): **Die 5 Kriterien einer tragfähigen Erwartung:**
 
-**Abschluss-Meta-Kommentar (Min. 29–30):**
-> *„Bevor wir üben, kurz Meta: Ich habe jedes Modell mit einem Beispiel begonnen und erst dann den Merksatz gebracht – nie umgekehrt. Und ihr bekommt das Handout erst JETZT* [Handout A austeilen], *nicht vorher – sonst hättet ihr gelesen statt zugehört: Modell 3, Aufmerksamkeit. Merkt euch das Gefühl."*
+1. **beobachtbar** (man kann sie sehen/hören),
+2. **messbar** (man kann Erfüllung feststellen: alle? in welcher Zeit?),
+3. **positiv formuliert** (beschreibt das TUN, nicht das Lassen – „nicht schwätzen" sagt nicht, was stattdessen),
+4. **begründet** (ein Satz Sinn),
+5. **geprüft** (Behavioural CFU nach der Einführung).
 
-## Phase 4 · Name it: Die fünf Modelle griffbereit machen (Minute 30–35)
+Merkformel anbieten: *„Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."*
 
-**Übung „Blitz-Zuordnung" (Plenum, hohes Tempo):** Moderation liest 8 Mini-Situationen vor (je 1 Satz), TN rufen die Modellnummer per Fingerzeichen (1–5). Bei Uneinigkeit: 20 Sekunden Murmelrunde, dann Auflösung. Mehrfachzuordnungen sind erlaubt und erwünscht – die Diskussion darüber IST das Lernen.
+## Phase 5 · Do it (Minute 33–52)
 
-**Die 8 Situationen (mit Auflösung für die Moderation):**
-1. „Die Klasse braucht jeden Montag 10 Minuten, bis alle Material haben." → **2** (fehlende Routine), auch 3
-2. „Nach dem lustigen YouTube-Einstieg können alle das Video nacherzählen, aber niemand die Fachfrage beantworten." → **3**, auch 1
-3. „In Klasse 8b traut sich niemand, eine Frage zu stellen." → **4** (Norm), auch 5
-4. „Die SuS verwechseln die neuen Fachbegriffe, die ich alle in einer Stunde eingeführt habe." → **1** (Überlastung)
-5. „Seit die Stunden strukturiert laufen, kommt Leon freiwillig zu mir und fragt nach Zusatzaufgaben." → **5**, auch 4
-6. „Bei der Vertretungslehrkraft bricht in derselben Klasse Chaos aus." → **2** + **4** (Routinen sind personengebunden, bis sie Norm sind)
-7. „Ich habe die Hausaufgabe dreimal angesagt, trotzdem wussten viele nichts davon." → **3** (Ansage ≠ Aufmerksamkeit), auch 1
-8. „Zwei Schülerinnen, die einzeln freundlich sind, schaukeln sich gegenseitig hoch." → **4**
+### Runde 1 · Erwartungs-Canvas (Min. 33–43, Einzelarbeit)
+> *„Nehmt eure schwierigste Lerngruppe. Drei Erwartungen, die dort den größten Unterschied machen würden – oft rund um: Stundenstart, Arbeitsphasen, Gesprächsregeln. Füllt den Canvas: Verhalten (spezifisch!), Woran sichtbar?, Begründungssatz. Nutzt Handout A als Steinbruch."*
 
-## Phase 5 · Do it: Fallanalyse & Perspektivwechsel (Minute 35–52)
+Moderation zirkuliert und interveniert an der häufigsten Baustelle: Adjektive („ordentlich", „konzentriert", „respektvoll") aufspüren lassen – *„Jedes Adjektiv ist ein Versteck für Vagheit. Ersetze es durch eine Handlung."*
 
-### Teil A: Fallbeispiele mit der Fünf-Modelle-Brille (Min. 35–45)
-Vierergruppen. Jede Gruppe erhält **eines** der beiden Fallbeispiele (Anhang 1) mit drei Leitfragen:
-1. Welche Modelle erklären, was hier passiert? (mind. 2, mit Textbeleg)
-2. Was hat die Lehrkraft – bei bestem Willen – übersehen?
-3. Welcher EINE erste Ansatzpunkt hätte die größte Wirkung? (Noch keine Techniken nötig – Intuition reicht, wir sammeln sie ein.)
+### Runde 2 · Härtetest im Tandem (Min. 43–50)
+Partner prüft jede Erwartung mit genau zwei Fragen: **„Woran genau würde ICH als Beobachter die Erfüllung erkennen?"** und **„Kann ein 14-Jähriger das missverstehen – und wie?"** → gemeinsam nachschärfen. Dann wählt jeder EINE Erwartung und spricht die komplette Einführung einmal laut (Erwartung + Begründung + zwei CFU-Fragen) – Partner stoppt: unter 60 Sekunden?
 
-5 Min. Gruppenarbeit → 4 Min. Kurzberichte (je Gruppe 60 Sekunden, Moderation hält Ansatzpunkte am Flipchart fest – diese Liste wird in Woche 2–8 abgearbeitet und dabei jeweils wieder gezeigt: „Das habt ihr in Woche 1 selbst vorhergesagt!").
+### Blitzlicht (Min. 50–52)
+2 TN sprechen ihre Einführung im Plenum; Moderation würdigt konkret (Precise-Praise-Vorbild).
 
-### Teil B: Eigenes Erlebnis im Perspektivwechsel deuten (Min. 45–52)
-**Partnerarbeit** (Tandems, die auch Coaching-Tandems werden könnten):
-> *„Jetzt wird es persönlich – im guten Sinn. Denkt an EINE Situation aus euren ersten Unterrichtswochen, die euch geärgert, verunsichert oder verletzt hat. Erzählt sie eurem Partner in maximal 90 Sekunden. Der Partner hat dann eine einzige Aufgabe: Er deutet die Situation NEU – durch eines der fünf Modelle. Nicht trösten, nicht Ratschläge geben. Nur umdeuten: 'Durch die Brille von Modell 4 gesehen, war das vermutlich…'. Dann Wechsel."*
+## Phase 6 · Action Step (Minute 52–58)
 
-Je 3–4 Min. pro Richtung. **Warum diese Übung:** Der emotionale Perspektivwechsel („Es war nicht persönlich, es war eine Norm / ein überlastetes Arbeitsgedächtnis") ist der wichtigste Wellbeing-Schutz für Quereinsteiger im ersten Jahr – und es verankert die Modelle affektiv, nicht nur kognitiv.
+**Standard:** *„Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei CFU-Fragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?"*
 
-**Einsammeln (1 Min.):** 2–3 Freiwillige teilen ihren Perspektivwechsel in einem Satz.
+**Alternativen:**
 
-## Phase 6 · Action Step & Ausblick (Minute 52–58)
+1. Erwartungs-Neustart für die komplette Begrüßungsroutine (wenn diese zäh läuft – Vorgriff auf W2, mit Coach abstimmen);
+2. für Sek-II-Kurse: eine „erwachsene" Erwartung inkl. Begründung einführen (Laptop-/Handy-/Diskussionsregel).
 
-Handout C austeilen. Der Standard-Action-Step dieser Woche ist ein **Beobachtungsauftrag** (bewusst: erst sehen lernen, ab Woche 2 handeln):
+Schriftlich ins Formular, Kopie an Coach.
 
-> **Standard-Action-Step:**
-> *„Ich wähle EINE Klasse. In drei Stunden dieser Woche beobachte ich gezielt die ersten 5 Minuten:*
-> - *Worauf richtet sich die Aufmerksamkeit der Schüler tatsächlich – und was habe ich dafür getan oder nicht getan?*
-> - *Wie läuft unsere Begrüßungsroutine wirklich ab: Stehen alle? Ist es still, bevor ich grüße?*
->
-> *Ich notiere direkt nach der Stunde je 2–3 Stichpunkte auf dem Bogen."*
+> **Ausblick:** *„Nächste Woche nehmen wir uns die wertvollste Minute eurer Stunde vor: die erste. Unsere Begrüßungsroutine wird vom Ritual zum Werkzeug – mit Skript, Timer und allem Drum und Dran."*
 
-**Alternativen** (für TN mit dringlichem Klassenführungsproblem, mit Coach abstimmen):
-- Norm-Beobachtung: „Ich identifiziere in Klasse X die drei stärksten ungeschriebenen Normen – erwünschte wie unerwünschte."
-- Last-Beobachtung: „Ich zähle in einer eigenen Erklärphase mit, wie viele neue Elemente ich pro Minute einführe."
-
-Jeder trägt den gewählten Action Step **schriftlich** ins Formular ein (Selbstverpflichtung + Kopie an Coach).
-
-> **Ausblick:** *„Nächste Woche wird es handfest: Wie macht man Erwartungen so konkret, dass Schüler sie erfüllen KÖNNEN? Bringt bitte eure Beobachtungsbögen mit – wir starten damit."*
-
-## Phase 7 · Blitz-Feedback & Schluss (Minute 58–60)
-
-Exit Ticket für die Fortbildung selbst (Modellfunktion, ab jetzt Standard): Jeder notiert auf Karte:
-
-1. Das leuchtet mir am meisten ein: …
-2. Da bin ich skeptisch: …
-
-Abgabe beim Rausgehen. Die Skepsis-Karten sind Gold: Sie liefern die echten Fehlvorstellungen der Kohorte und fließen in Quiz-Distraktoren und Coaching ein.
+## Phase 7 · Exit-Karte (Minute 58–60)
+Standard: leuchtet ein / bin skeptisch.
 
 ---
 
-# 4. Coaching-Woche 1 (Handreichung für Coaches)
+# 4. Coaching-Woche 1 (Handreichung)
 
-- **Kennenlern-Hospitation** (volle Stunde, kein Bewertungsanspruch): Coach sitzt hinten, protokolliert nur beschreibend.
-- **Baseline-Video:** 15–20 Min. Unterricht aufnehmen (Einverständnisse vorab klären!). Das Video wird NICHT besprochen – es wird archiviert und erst in Woche 8 (Selbstanalyse 1) und Woche 36 (Kolloquium) geöffnet. Das den TN transparent machen: nimmt Druck.
-- **Auswertungsgespräch (30 Min.):** Kein Action-Step-Feedback (es gibt noch keinen umgesetzten), stattdessen:
-  1. Wie geht es dir wirklich?
-  2. Gemeinsames Durchgehen des Beobachtungsauftrags: Was genau wirst du notieren?
-  3. Vereinbarung des Coaching-Rhythmus & psychologischer Sicherheitsvertrag (nichts geht an die Schulleitung, Entwicklung statt Bewertung).
-- **Warnsignal-Radar:** Woche 1 ist der Moment, TN mit akuten Klassenführungs-Notlagen zu identifizieren → für diese ggf. Action-Step-Alternativen und Vorziehen einzelner Werkzeuge aus Woche 4/6 im 1:1.
+- **Hospitationsfokus:** Die Einführung der Erwartung (Termin mit TN abstimmen – der Coach soll die EINFÜHRUNG sehen, nicht irgendeine Stunde). Wortlaut mitschreiben.
+- **Beobachtungsleitfragen:** Waren alle 5 Kriterien hörbar? Kam die Begründung? Wurde per CFU geprüft – oder mit „Alles klar?" (typischer Rückfall)? Wie reagierte die Klasse?
+- **Auswertungsgespräch:** Erfolg konkret würdigen → Wortlaut-Protokoll gemeinsam lesen → Action Step für die Einforderungs-Woche schärfen („Wenn Schüler X die Erwartung Montag bricht, sage ich wörtlich: …" – 2× im Gespräch durchspielen!).
+- **Red Flag:** TN, die berichten „Ich habe eigentlich gar keine Erwartungen, ich reagiere nur" → im Coaching gemeinsam den Canvas füllen, ggf. Doppel-Slot.
 
 ---
 
-# Anhang 1: Fallbeispiele (Handout B)
+# Anhang 1: Übungsmaterial
 
-## Fallbeispiel 1: „Die Doppelstunde Chemie" (Fokus: Modelle 1, 2, 3)
-Herr T., Quereinsteiger aus der Industrie, plant seine erste eigene Doppelstunde in Klasse 9 mit viel Ehrgeiz: Ein spektakuläres Einstiegs-Experiment, dann eine Präsentation mit 14 Folien zur Elektronegativität, dabei sollen die SuS die wichtigsten Punkte mitschreiben; anschließend Gruppenarbeit mit einem neuen Arbeitsblattformat, das er extra entworfen hat. Das Experiment begeistert alle. Danach wird es unruhig: Beim Vortrag schreiben manche hektisch mit, andere gar nicht; zweimal muss er erklären, wie das neue Arbeitsblatt gemeint ist; die Gruppen brauchen lange, um überhaupt zu starten. Der Exit-Check am Ende ist ernüchternd: Fast alle können das Experiment beschreiben – die Regel zur Elektronegativität kann kaum jemand nennen. Herr T. ist frustriert: „Dabei war die Stunde so aufwendig vorbereitet!"
+## 1.1 Handout A: Sechs Beispielpaare „vage → spezifisch"
 
-*Auflösungshinweise (nur Moderation):* Modell 3: Aufmerksamkeit klebt am Experiment (seductive details), gelernt wurde das Beachtete. Modell 1: Zuhören + Mitschreiben + neues Blattformat = Arbeitsgedächtnis-Überlastung; 14 Folien = zu viele neue Elemente. Modell 2: keine Routinen für Gruppenstart und Materialfluss → Reibungsverluste. Wirkstärkster Ansatzpunkt (erwartbar): weniger Neues pro Zeiteinheit + feste Abläufe; Aufwand ≠ Wirkung.
+| Vage (Gefühl) | Spezifisch (Erwartung) |
+|---|---|
+| „Kommt ordentlich rein." | „Nach dem Setzen: Heft + Mäppchen liegen bereit, ihr arbeitet still am Starter – spätestens nach 60 Sekunden." |
+| „Meldet euch vernünftig." | „Eine Hand hebt sich still. Gesprochen wird, wenn der Name fällt." |
+| „Seid respektvoll in Diskussionen." | „Ausreden lassen. Widerspruch beginnt mit dem Argument des anderen: ‚Du sagst X – ich sehe das anders, weil…'" |
+| „Arbeitet konzentriert in Gruppen." | „Flüsterlautstärke: Nur euer Tisch hört euch. Jeder hält sein Ergebnis schriftlich fest." |
+| „Geht anständig mit Material um." | „Bücher werden mit beiden Händen zurückgestellt; Beschädigungen meldet ihr mir sofort – ohne Ärger zu bekommen." |
+| „Seid pünktlich fertig." (Oberstufe) | „Abgabe bis 14:00 Uhr im Kursordner. Wer es nicht schafft, schreibt mir VORHER – wie später im Beruf auch." |
 
-## Fallbeispiel 2: „Die 8c bei Frau K." (Fokus: Modelle 4, 5, 2)
-Frau K. hat die 8c in Geschichte übernommen. Sie hat sich vorgenommen, „erst mal die Beziehungsebene aufzubauen": lockerer Einstieg, viel Humor, bei kleineren Störungen großzügig weghören, Regeln wollte sie „gemeinsam mit der Klasse entwickeln, wenn man sich kennt". Die Begrüßungsroutine der Schule führt sie eher beiläufig durch – „bevor die Stimmung kippt". Nach drei Wochen ruft die Hälfte rein, das Aufstehen zur Begrüßung ist ein zäher, kichernder Prozess, und ausgerechnet die stille Mia, mit der Frau K. sich anfangs gut verstand, macht neuerdings mit, wenn zwei Jungen Zwischenrufe starten. Im Einzelgespräch ist Mia einsichtig und fast verlegen. Frau K. ist verletzt: „Ich war doch immer fair und freundlich zu denen."
+## 1.2 Handout B: Erwartungs-Canvas
 
-*Auflösungshinweise:* Modell 4: „Reinrufen ist normal" ist zur Norm geworden; Mia folgt der Gruppe, nicht ihrer Beziehung zu Frau K. – nicht persönlich! Modell 5: Beziehung-zuerst-Mythos; Vertrauen wäre durch verlässlichen, geordneten Unterricht entstanden. Modell 2: die beiläufige Begrüßungsroutine sendet „halbherzig reicht"; das Zeitfenster hoher Erwartungen (Woche 2) wurde verpasst – aber (wichtig für die Moral!): Ein Neustart ist jederzeit möglich, genau das lernen wir in Block 1.
+| Nr. | Erwartetes Verhalten (Handlung, kein Adjektiv!) | Woran sichtbar/messbar? | Begründung (1 Satz, „damit…") |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+Darunter: **Einführungs-Skript** (Erwartung → Begründung → CFU-Frage 1 → CFU-Frage 2) + **Vertretungslehrer-Test bestanden? ☐**
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Kickoff-Inhalte, Min. 2–8)
-1. Aus welchen drei Formaten besteht unser Programm? *(Input+Übung / 1:1-Coaching / Gruppenhospitation)*
-2. Was ist ein „Action Step"? Nenne zwei Qualitätsmerkmale. *(konkreter Wochenschritt; klein, beobachtbar, in 1 Woche machbar)*
-3. Ergänze: „Verhalten ändert sich durch ……, nicht durch ……" *(Übung/Probehandeln; Einsicht/Reden)*
-4. Wozu dient das Coaching – und wozu ausdrücklich nicht? *(Entwicklung; nicht Bewertung)*
-5. Was passiert in Woche 36 mit dem Video, das diese Woche aufgenommen wird? *(Vorher/Nachher im Abschluss-Kolloquium)*
+## Teil 1: Retrieval-Starter (Min. 2–8)
+1. Nenne die fünf mentalen Modelle aus dem Auftakt. *(Gedächtnis / Gewohnheiten / Aufmerksamkeit / Motivation ist sozial / Unterrichten ist Beziehungsarbeit)*
+2. „Gestern konnten sie es noch" – erkläre mit Modell 1. *(nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis angekommen)*
+3. Was folgt aus „Motivation ist sozial" für die Deutung von Störungen? *(meist Normphänomen, nicht persönlicher Angriff)*
+4. Ergänze: Gelernt wird, was ___ wird. *(beachtet/gedacht)*
+5. (Anwendung) Deine Klasse startet chaotisch in die Stunde – welche zwei Modelle erklären das am ehesten und warum? *(2: fehlende Routine; 4: Chaos ist Norm geworden; auch 3 vertretbar)*
 
-## Teil 2: Modul-Quiz Woche 1 (für SPA / Folgewoche) – mit Distraktoren aus echten Fehlvorstellungen
-**F1.** „Die Klasse konnte es in der Stunde, aber im Test war alles weg." Die beste Erklärung:
-a) Die SuS haben zu Hause nicht genug geübt ✗ *(bequeme Externalisierung)*
-b) Der Stoff war nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis ✓
-c) Der Test war unfair gestellt ✗
-d) Die Klasse ist schwächer als gedacht ✗ *(Begabungs-Attribution)*
+## Teil 2: Modul-Quiz Woche 1 (für SPA/Folgewoche) – Distraktoren aus Fehlvorstellungen
+**F1.** „Hohe Erwartungen haben" bedeutet in erster Linie:
+a) streng und unnachgiebig sein ✗ *(Härte-Gleichsetzung)*
+b) Klarheit + Zutrauen + konsequent freundliches Einfordern ✓
+c) viele Regeln aufstellen ✗
+d) keine Rücksicht auf schwierige Lebenslagen nehmen ✗ *(Empathie-Strohmann)*
 
-**F2.** Routinen im Unterricht dienen in erster Linie dazu, …
-a) den SuS Disziplin beizubringen ✗ *(Dressur-Fehlvorstellung)*
-b) Arbeitsgedächtnis für Inhalte freizusetzen ✓
-c) Zeit zu sparen ✗ *(stimmt auch, ist aber nicht der Kern – guter Teilrichtig-Distraktor)*
-d) dem Lehrer Kontrolle zu geben ✗
+**F2.** Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:
+a) Die Klasse ist unwillig/testet dich ✗ *(Personalisierung)*
+b) Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback ✓
+c) Die Erwartung war zu hoch – absenken ✗ *(voreiliges Lockern – der teuerste Fehler)*
+d) Ohne Strafen geht es eben nicht ✗
 
-**F3.** Ein Schüler, der im Einzelgespräch freundlich ist, stört vor der Klasse. Wahrscheinlichste Deutung:
-a) Er ist unaufrichtig und manipuliert ✗
-b) Er testet gezielt die Lehrkraft ✗ *(Personalisierungs-Falle)*
-c) Vor der Gruppe folgt er Gruppennormen ✓
-d) Er hat eine Verhaltensstörung ✗
+**F3.** „Respektvoll miteinander umgehen" ist als Erwartung:
+a) ideal, weil werteorientiert ✗ *(klingt pädagogisch wertvoll!)*
+b) zu vage – nicht beobachtbar, nicht prüfbar ✓
+c) nur für jüngere Klassen geeignet ✗
+d) juristisch problematisch ✗
 
-**F4.** „Erst Beziehung aufbauen, dann Anforderungen stellen." Diese Aussage ist …
-a) richtig – ohne Beziehung keine Leistung ✗ *(der verbreitetste Mythos, wörtlich)*
-b) falsch – Vertrauen entsteht wesentlich DURCH gelingenden, geordneten Unterricht ✓
-c) richtig für Sek I, falsch für Sek II ✗ *(Pseudo-Differenzierung)*
-d) falsch – Beziehung ist im Unterricht unwichtig ✗ *(Überkorrektur)*
+**F4.** Warum eine Begründung („damit…") zur Erwartung?
+a) Höflichkeitsfloskel ✗
+b) Sinn erhöht Akzeptanz – besonders bei älteren SuS ✓
+c) rechtlich vorgeschrieben ✗
+d) damit Eltern nicht klagen ✗
 
-**F5.** Nach einem spektakulären Einstiegsvideo erinnern die SuS das Video, nicht das Konzept. Welches Modell erklärt das am direktesten?
-a) Gedächtnis ✗ *(nah dran, aber nicht am direktesten)*
-b) Gewohnheiten ✗
-c) Aufmerksamkeit ✓
-d) Motivation ist sozial ✗
+**F5.** In der Oberstufe sind explizite Verhaltenserwartungen:
+a) überflüssig – junge Erwachsene wissen das ✗ *(DER Sek-II-Mythos)*
+b) nötig, aber im Ton erwachsen formuliert ✓
+c) kränkend ✗
+d) nur bei Problemen einzuführen ✗ *(dann ist das Fenster zu)*
 
-**F6 (Transfer, Freitext/Fallformat):** Ordne dem Fallbeispiel „8c bei Frau K." zwei Modelle zu und belege jedes mit einer Textstelle. *(Musterlösung: M4 – Mia folgt der Norm; M5 – Beziehung-zuerst scheitert; M2 akzeptabel mit Beleg Begrüßungsroutine.)*
+**F6 (Transfer, Freitext):** Formuliere „Seid leise während der Stillarbeit" nach allen 5 Kriterien um – inklusive Begründungssatz und einer CFU-Frage. *(Muster: „Stillarbeit heißt: kein Gespräch, Fragen per Handzeichen an mich – damit jeder ungestört denken kann. – CFU: ‚Emre, was machst du, wenn du eine Frage hast?'")*
 
 ---
 
-# Anhang 3: Beobachtungsbogen & Action-Step-Formular (Handout C)
-
-**Beobachtungsbogen „Erste 5 Minuten" (3 Stunden, eine Klasse):**
-
-| | Stunde 1 | Stunde 2 | Stunde 3 |
-|---|---|---|---|
-| Begrüßungsroutine: Standen alle? War es still, BEVOR ich gegrüßt habe? (ja/teils/nein + Notiz) | | | |
-| Sekunden vom Setzen bis „alle arbeiten/hören zu" (schätzen) | | | |
-| Worauf war die Aufmerksamkeit der SuS tatsächlich gerichtet? (3 Stichworte) | | | |
-| Was habe ICH getan/nicht getan, das dazu beitrug? (1 Satz) | | | |
-
-**Action-Step-Formular:**
+# Anhang 3: Action-Step-Formular (Standard ab W1)
 - Mein Action Step (wörtlich): …
-- Klasse/Stunden, in denen ich ihn umsetze: …
-- Woran erkenne ich am Freitag, dass ich ihn umgesetzt habe? …
+- Lerngruppe(n) / Stunden: …
+- Mein Einführungs-Skript in Stichworten: …
+- Woran erkenne ich am Freitag Erfolg? (Zählbar!) …
 - Kopie an Coach am: …
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Woche 1"
+# Anhang 4: Ableitung für die SPA „Modul 1"
 
-**Struktur der Selbstlern-SPA (Ziel: ≤ 25 Min.), 1:1 aus dem Drehbuch:**
-1. **Hook (2 Min.):** Die drei Rätsel als Auswahlkarten („Welches kennst du?") – personalisiert den Einstieg.
-2. **See it (8 Min.):** Die fünf Modelle als je 90-Sekunden-Sequenz: Alltagsbeispiel (Animation/Audio, z. B. Telefonnummer-Selbstversuch interaktiv!) → Merksatz → „Was folgt daraus"-Karte.
-3. **Name it (4 Min.):** Blitz-Zuordnung als Swipe-Spiel (die 8 Situationen aus Phase 4; Mehrfachlösungen mit Erklär-Feedback).
-4. **Do it (6 Min.):** Ein Fallbeispiel als interaktiver Fall (Textstellen markieren → Modell zuordnen → Musterauflösung schrittweise).
-5. **Perspektivwechsel (3 Min.):** Freitextfeld „Deine Situation" + geführte Umdeutung (Modell wählen → Satzanfang wird vorgegeben: „Durch diese Brille war das vermutlich…"). Optional KI-gestützt.
-6. **Quiz (Teil 2 oben)** mit den Fehlvorstellungs-Distraktoren; 30 %-Regel entfällt nur in Modul 1 (kein Vorwissen).
-7. **Abschluss = Action-Step-Formular** (digital, mit Freitag-Erinnerung) – nie eine Zusammenfassung als letzter Screen.
-
-**Assets, die aus dieser Sitzung wiederverwendbar sind:** beide Fallbeispiele, 8 Blitz-Situationen, 11 Quizfragen, Beobachtungsbogen als ausfüllbares Formular.
+1. **Hook (2 Min.):** Das Kontrastpaar A/B als Hörbeispiel; Nutzer tippt: „Bei wem weiß die Klasse, was zu tun ist?"
+2. **See it (5 Min.):** „Verhalten ist ein Curriculum" als Parallel-Animation: dieselbe Didaktik-Kette (erklären→üben→prüfen→Feedback) einmal für Bruchrechnung, einmal für die Meldung – synchron.
+3. **Name it (4 Min.):** Die 5 Kriterien als Checkliste; Sortier-Spiel: 8 Formulierungen den Kriterien-Verstößen zuordnen.
+4. **Do it – Umformulierungs-Trainer (7 Min., Kern-Engine!):** Vage Erwartung eingeben oder aus Liste wählen → App prüft per Heuristik/KI: Adjektiv-Alarm, Beobachtbarkeit, Positiv-Formulierung, Begründung vorhanden → iteratives Nachschärfen mit Ampel-Feedback. Beispiel-Bibliothek nach Stufe (Sek I/II) filterbar (Handout A als Startdatensatz).
+5. **Skript-Editor (4 Min.):** Einführungs-Skript (Erwartung+Begründung+2 CFU-Fragen) verfassen → wandert ins digitale Playbook.
+6. **Quiz (Teil 2)** – F2 und F5 sind die wichtigsten Fehlvorstellungs-Anker; plus 30 % Fragen aus Modul 0 (Modelle zuordnen).
+7. **Action-Step-Formular** mit Freitag-Erinnerung und Zählfeld („Erinnerungen Mo vs. Fr").

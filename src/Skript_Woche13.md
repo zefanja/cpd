@@ -1,5 +1,5 @@
-# Skript Woche 13: „Selbstständiges Üben & aktives Monitoring – das You do"
-## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 13: „Do Now & Exit Ticket – die Klammer der Stunde + Konsolidierung Block 2"
+## 60-Minuten-Sitzung · Block 2 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,161 +7,158 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was tue ich eigentlich, während die Klasse arbeitet? |
-| **Kernquellen** | Lovell/Dowley, Routine 9 (Independent Practice); Lemov T25 (Circulate), T9 (Active Observation); Rosenshine P9 |
-| **Funktion im Jahr** | Vervollständigt I–We–You. Verwandelt die Stillarbeit vom „toten Winkel" der Stunde in die Datenerhebungs-Phase: ActiveObs liefert den Rohstoff für Reteaching (W26) und Whole-Class-Feedback (W34); die Route verbindet sich mit dem Radar aus W6. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
-| **Lernziele** | Die TN können:<br>1. eine Stillarbeitsphase mit vollständigen Startbedingungen eröffnen,<br>2. mit geplanter Route zirkulieren und dabei Arbeit LESEN statt nur Ruhe überwachen,<br>3. per ActiveObs vorab festlegen, was sie bei wem prüfen,<br>4. Einzelhilfen kurz halten und wiederkehrende Fehler zur Sammelklärung bündeln. |
-| **Sitzungstyp** | Planungs- und Analysewerkstatt mit Video-/Fallarbeit; das Rollenspiel pausiert – dafür wird am eigenen Sitzplan gearbeitet. |
+| **Leitfrage** | Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen? |
+| **Kernquellen** | Lemov T20 (Do Now), T26 (Exit Ticket); McCrea (Vorgriff Spacing); Bambrick-Santoyo (Datenlogik, vereinfacht) |
+| **Funktion im Jahr** | Block-2-Finale: verschraubt Anfang (Do Now, aus W2 organisatorisch bekannt, jetzt didaktisch aufgeladen) und Ende (Exit Ticket) mit den Meilensteinen aus W9. Die 10-Minuten-Sortier-Auswertung ist die Basistechnik für Reteaching (W25) und Whole-Class-Feedback (W33). Das Stundenarchitektur-Template wird finalisiert – es ist der Vorläufer des Lean-Planers (W31). Block-2-Quiz als Meilenstein-Messung. |
+| **Lernziele** | Die TN können:<br>1. Do Nows nach dem 3-2-1-Vorläufer mit Wiederholungssubstanz füllen,<br>2. Exit Tickets exakt an Meilensteinen ausrichten (Gütecheck),<br>3. einen Klassensatz in ≤ 10 Minuten per Drei-Stapel-Sortierung auswerten und EINE Konsequenz ableiten. |
+| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Doppel-Werkstatt (Schreiben + Sortieren) + Konsolidierungs-Ritual. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; Beamer für Videoclip. **Vorab-Auftrag (W12-Exit-Karte):** eigenen Sitzplan der Hauptklasse mitbringen (Kopie/Foto).
-
-**Material (Checkliste):**
-- [ ] Retrieval-Quiz liegt aus (wieder auf Whiteboards – ab jetzt Standard!)
-- [ ] Handout A: Startbedingungen-Karte + You-do-Standard (Anhang 1.1)
-- [ ] Handout B: ActiveObs-Bogen (Anhang 1.2)
-- [ ] Videoclip: 3–4 Min. Circulate-Beispiel (alternativ: Laufweg-Fallkarte, Anhang 1.3)
-- [ ] Beobachtungsbogen Gruppenhospitation 2 (Anhang 3)
+**Raum:** Vierergruppen; drei markierte Sortier-Zonen pro Gruppentisch (grün/gelb/rot). **Material:**
+- [ ] Block-2-Quiz, 20 Fragen kumulativ ab W1 (Anhang 2, Teil 1) + Lösungsfolie
+- [ ] Handout A: Exit-Ticket-Gütecheck + Vorlagen (Anhang 1.1)
+- [ ] **Ein echter anonymisierter Exit-Ticket-Klassensatz** (~25 Stück; vom Coach oder einer erfahrenen Lehrkraft besorgt – ersatzweise das konstruierte Set aus Anhang 1.2, pro Gruppe ein Satz)
+- [ ] Handout B: Stundenarchitektur-Template (Anhang 1.3), 2 Kopien pro TN
+- [ ] Playbook-Mappen (Template wird eingeheftet)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Heute großes Quiz statt Starter."
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Block-2-Quiz (Minute 2–12)
+20 Fragen (Anhang 2, Teil 1), Einzelarbeit still (7 Min.), dann **Selbstkorrektur** per Lösungsfolie (3 Min.) – nur die zwei häufigsten Fehler kurz klären.
 
-## Phase 2 · Brücke & Provokation (Minute 8–13)
+> **Meta-Kommentar:** *„Drei Beobachtungen zu dem, was ihr gerade erlebt habt: Erstens – es war kumulativ, Fragen bis zurück zu Woche 1; warum das mächtig ist, wird in Woche 18 Theorie. Zweitens – ihr habt selbst korrigiert; ich habe null Korrekturzeit investiert und trotzdem wissen jetzt alle, wo sie stehen. Drittens – ich sehe gleich an den Fehler-Schwerpunkten, was ICH nachsteuern muss. Quiz als Dreifachwerkzeug: Lernen, Selbstdiagnose, Lehrerdiagnose. Merkt es euch für eure Klassen."*
 
-> **Moderationstext:**
-> *„Verrats-Fasten und 80 %-Checks: Wer hat vor der Stillarbeit gemessen – und was kam raus?"* [2 Stimmen.]
-> *„Und jetzt eine ehrliche Frage, anonym, auf die Boards: Was habt ihr in eurer letzten Stillarbeitsphase überwiegend getan? A: korrigiert oder Orga erledigt. B: dem geholfen, der sich zuerst gemeldet hat, dann dem nächsten. C: gezielt geprüft, was ankommt. Drei-zwei-eins-hoch."* [Ergebnis würdigen – A und B dominieren immer.]
-> *„Kein Vorwurf – A und B sind die natürlichen Antworten auf einen Beruf mit zu wenig Zeit. Aber heute drehe ich euch die Perspektive: Die Stillarbeit ist die einzige Phase, in der 28 Köpfe gleichzeitig SCHRIFTLICH zeigen, was wirklich angekommen ist. Es ist die datenreichste Viertelstunde eurer Stunde – und die meisten von uns verbringen sie mit dem Rücken zu den Daten. Heute lernt ihr, sie zu ernten. Das Beste: Es ist körperlich entspannter als die Melde-Feuerwehr aus Option B."*
+## Phase 2 · Input: Die Klammer (Minute 12–26)
 
-## Phase 3 · Input (Minute 13–27)
+### 2a · Do Now, didaktisch gewendet (Min. 12–16)
+> *„In Woche 2 habt ihr das Do Now als ORGANISATIONS-Werkzeug gebaut: Es startet die Stunde ohne euch. Heute bekommt es seinen zweiten Job: LERN-Werkzeug. Die Frage ist nur: Was steht drauf? Die verführerische Antwort: ein Appetizer zum neuen Thema. Die richtige: **Wiederholung.** Gestern, letzte Woche, letzter Monat – als Faustformat: drei Fragen von gestern, zwei von letzter Woche, eine von vor einem Monat. Warum ausgerechnet Altes? Die volle Begründung bekommt ihr in den Wochen 17 und 19 – heute reichen drei Pragmatik-Gründe: Wiederholung ist IMMER ohne Erklärung lösbar (Kriterium eins aus Woche 2, automatisch erfüllt), sie braucht null neue Vorbereitung (die Fragen existieren schon), und Rosenshine Prinzip 1 ist damit jeden Tag abgehakt, bevor die Stunde richtig begonnen hat."*
 
-### 3a · Startbedingungen (Min. 13–16)
-> *„Bevor ihr erntet, muss sauber gesät sein. Eine Stillarbeit beginnt mit fünf geklärten Dingen – ihr kennt das Handwerk aus Woche 4, hier die Checkliste: **Aufgabe** (steht schriftlich – Transienz, offiziell in Woche 16), **Zeit** (Timer sichtbar), **Sozialform** (allein? Flüsterpartner?), **Lautstärke** (definiert, nicht gefühlt), **Was-wenn-fertig** (die vergessene Fünfte! Ohne sie produziert jeder Schnelle eine Störung). Fünf Sätze, fünfzehn Sekunden – und die Phase trägt sich selbst."*
+### 2b · Exit Ticket (Min. 16–21)
+> *„Und am anderen Ende der Stunde: das ehrlichste Werkzeug, das ich kenne. Ein bis drei Aufgaben, drei bis fünf Minuten, schriftlich, JEDER, wird eingesammelt. Der ganze Trick steckt in einem Wort: Die Aufgaben messen eure **Meilensteine** aus Woche 9 – nicht das Thema, nicht die Stimmung, nicht ‚Fandet ihr es verständlich?'. Wenn euer Meilenstein war ‚kann zwischen past simple und present perfect entscheiden und die Entscheidung begründen', dann steht auf dem Ticket genau das: zwei Entscheidungssätze plus ein Begründungssatz. Das Exit Ticket ist die Empfangsbestätigung eurer Stunde – und es beantwortet die Frage, vor der sich unser Berufsstand traditionell drückt: Habe ich heute unterrichtet, oder haben sie gelernt?"*
 
-### 3b · Circulate: die geplante Route (Min. 16–21)
-> *„Dann die Ernte, Werkzeug eins: **Circulate.** Vier Regeln: **Früh die Ebene durchbrechen** – Lemov nennt es break the plane: in den ersten zwei Minuten in den Raum HINEIN, nicht am Pult verwurzeln; wer früh kommt, normalisiert seine Anwesenheit überall. **Route statt Rufreihenfolge** – wer nur zu Meldern geht, wird von den Lautesten durch den Raum dirigiert und sieht die Stillen nie; die Route plant ihr vorher, eure Frühwarn-Plätze aus Woche 6 zuerst. **Lesen, nicht wachen** – der Blick geht auf die HEFTE, nicht über die Köpfe; kurz markieren: Haken, Unterstreichung, ‚Schau Zeile 3' – drei Sekunden pro Heft reichen für Daten. **Kurz bleiben** – maximal 60 Sekunden pro Einzelhilfe. Wer fünf Minuten bei einem Schüler kniet, hat 27 andere unbeobachtet – und die wissen das."* [W6-Echo: Modell 4.]
+### 2c · Die 10-Minuten-Auswertung (Min. 21–26)
+> *„‚Und wann soll ich das korrigieren?' – Gar nicht. Ihr korrigiert nicht, ihr SORTIERT. Drei Stapel: **kann** – im Kern richtig. **Kann fast** – richtiger Ansatz, ein reparierbarer Fehler. **Kann nicht** – Ansatz fehlt oder Kernmissverständnis. Kein Rotstift, keine Randbemerkung, keine Note – Tickets sind Diagnose, nicht Leistungsmessung, und das sagt ihr der Klasse auch so. Beim Sortieren notiert ihr EINEN Satz: den häufigsten Fehler. Und dann die einzige Pflicht: **eine Konsequenz für morgen.** Grob: Ist der rote plus gelbe Stapel über einem Drittel – zehn Minuten Reteach für alle, mit NEUEM Zugang. Ist er klein – die Namen wandern auf euren ActiveObs-Bogen für die nächste Übungsphase. Zehn Minuten, Stoppuhr ehrlich. Die Feinmechanik dieser Entscheidungen bekommt ihr in Woche 25 – heute zählt der Reflex: Ticket → Stapel → ein Satz → eine Konsequenz."*
 
-### 3c · ActiveObs + Sammelklärung (Min. 21–27)
-> *„Werkzeug zwei macht aus dem Rundgang eine Messung: **Active Observation.** Der Unterschied liegt in einem Satz VOR der Stunde: ‚Ich prüfe heute bei Aufgabe 2, ob sie den Vorzeichenwechsel sauber machen – zuerst bei den vier Wackelkandidaten.' Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als der diffuse Helfer in zwanzig. Woher wisst ihr, wonach ihr sucht? Aus eurem Exemplar (Woche 10 – die markierte Scheiter-Stelle!) und bald aus eurer Fallen-Sammlung.*
-> *Und die wichtigste Effizienzregel: Wenn derselbe Fehler zum dritten Mal auftaucht – STOPP. Kurz einfrieren: ‚Stifte runter, Blick nach vorn – drei von euch sind in dieselbe Falle getappt, schauen wir sie gemeinsam an.' Zwei Minuten Sammelklärung ersetzen zehn Einzelerklärungen – und die, die den Fehler noch vor sich hatten, sind gleich mit immunisiert."*
+## Phase 3 · Name it (Minute 26–30)
 
-## Phase 4 · Name it (Minute 27–31)
+**Exit-Ticket-Gütecheck** (Handout A): misst den MEILENSTEIN (nicht das Thema)? · in 3–5 Min. von allen allein lösbar? · schriftlich, von jedem? · Auswertung in ≤ 10 Min. möglich (max. 3 Aufgaben, davon max. 1 offene)? — **Auswertungs-Reflex:** Stapeln → häufigster Fehler (1 Satz) → eine Konsequenz. Merksatz: *„Das Ticket fragt den Meilenstein – und morgen antwortet der Unterricht."*
 
-**You-do-Standard** fixieren: Startbedingungen (5!) → Ebene früh durchbrechen → Route (Frühwarn-Plätze zuerst) → lesen & markieren → Top-3-Fehlerliste führen (Klemmbrett!) → ≤ 60 Sek. pro Einzelhilfe → ab 3× derselbe Fehler: Sammelklärung. Merksatz: *„Ich helfe nicht dem Lautesten – ich lese den Raum."*
+## Phase 4 · Do it: Doppel-Werkstatt (Minute 30–50)
 
-## Phase 5 · Do it (Minute 31–52)
+### Runde 1 · Schreibwerkstatt (Min. 30–40)
+Jeder baut das Exit Ticket für die reale Stunde nächster Woche – auf Basis der eigenen Meilensteinkette aus W9 (liegt im Playbook!). Tandem-Gütecheck mit der Gretchenfrage: **„Zeig mir, welcher Meilenstein von welcher Aufgabe gemessen wird."** *(Häufigster Baufehler: Die Aufgabe prüft Wiedergabe, der Meilenstein verlangt Anwendung – Moderation macht 1 Beispiel im Plenum sichtbar.)*
 
-### Runde 1 · Video-/Fallanalyse (Min. 31–39)
-Clip zeigen (oder Fallkarte Anhang 1.3): TN zeichnen den Laufweg der Lehrkraft mit und markieren: Wo verwurzelt? Wer wurde nie gesehen? Wo wäre die Sammelklärung fällig gewesen? Plenums-Blitz (3 Min.) mit dem Standard als Prüfraster.
+### Runde 2 · Sortier-Simulation (Min. 40–50)
+Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zonen – **Stoppuhr läuft: 8 Minuten für ~25 Tickets.** Danach je Gruppe: häufigster Fehler in einem Satz + Konsequenz-Entscheidung als 30-Sekunden-Pitch. **Gruppen vergleichen:** Kommen alle zur selben Entscheidung? *(Die Abweichungen sind der Lerngewinn – besonders die Grenzfälle gelb/rot kalibrieren das Urteil.)*
 
-### Runde 2 · Eigene Route + ActiveObs-Bogen (Min. 39–52)
-Ablauf:
+## Phase 5 · Konsolidierung Block 2 (Minute 50–56)
 
-1. **Routenplanung (6 Min.):** Auf dem mitgebrachten Sitzplan: Route einzeichnen (Frühwarn-Plätze zuerst, blinde Ecke aus W6 abgedeckt?), Standort-Anker markieren.
-2. **ActiveObs-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus dem Exemplar)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden?
-3. **Tandem-Härtetest (2 Min.):** Partner fragt: „Zeig mir auf deiner Route den Schüler, den du realistisch NIE erreichst – und was änderst du?"
+**Stundenarchitektur-Template** (Handout B) gemeinsam durchgehen und ins Playbook heften: Do Now (3-2-1) → Meilensteine + Exemplar → I do (Vierklang) → We do (Treppe + 80 %-Check) → You do (Route + ActiveObs) → Exit Ticket (Gütecheck). 
 
-## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
+> *„Das ist Block 2 auf einer Seite – und es ist ab jetzt euer Standard-Stundenformular. In Woche 31 wird daraus ein 20-Minuten-Planungswerkzeug; bis dahin: benutzt es, bis es langweilig wird. Langweilig heißt: automatisiert."*
 
-**Standard:** *„In jeder Übungsphase dieser Woche laufe ich meine geplante Route und führe auf dem Klemmbrett die Top-3-Fehlerliste. Bei drittem Auftreten desselben Fehlers: Sammelklärung statt Einzelerklärung."*
+**Kompetenzmatrix:** Felder 4–5 aktualisieren (Bogen an Coach).
+
+## Phase 6 · Action Step (Minute 56–58)
+
+**Standard:** *„Ich schließe diese Woche JEDE Stunde in Klasse X mit einem Exit Ticket, sortiere am selben Tag in 10 Minuten – und setze mindestens einmal eine sichtbare Konsequenz in der Folgestunde um (und sage der Klasse, DASS sie aus ihren Tickets kommt: ‚Eure Tickets von gestern zeigen…')."*
 
 **Alternativen:**
 
-1. 60-Sekunden-Woche: Einzelhilfen hart deckeln, Stoppuhr im Kopf.
-2. Startbedingungen-Woche: jede Phase mit allen fünf Bedingungen eröffnen, besonders „Was-wenn-fertig".
+1. Do-Now-Umbau: alle Starter dieser Woche auf 3-2-1-Wiederholung umstellen.
+2. Für Korrektur-Geplagte: nur die Sortier-Disziplin – 3 Klassensätze beliebiger Art stoppuhr-ehrlich in ≤ 10 Min. sortieren statt korrigieren.
 
-**Gruppenhospitation 2 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3) austeilen: Fokus I do / We do – Wortlaut-Protokoll einer Modellierung + Fading-Stufen identifizieren.
+> **Ausblick:** *„Nach der Hospitation und den Ferien beginnt Block 3 – und der beantwortet die Warum-Fragen, die sich gestapelt haben: Warum Wiederholung? Warum kleine Schritte? Warum vergessen sie alles? Ihr bekommt die Landkarte des Gedächtnisses. Danach seid ihr nicht mehr Rezept-Anwender, sondern Leute, die wissen, warum das Rezept funktioniert."*
 
-> **Ausblick:** *„Nächste Woche schließen wir Block 2 mit der Klammer der Stunde: Das Do Now aus Woche 3 bekommt endlich Lern-Substanz, und ihr lernt das ehrlichste Diagnose-Werkzeug überhaupt kennen: das Exit Ticket – inklusive der Kunst, einen Klassensatz in zehn Minuten auszuwerten. Und: Block-2-Quiz!"*
+## Phase 7 · Exit-Karte (Minute 58–60)
+Erweitert (Blockabschluss):
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+1. Mein wertvollstes Block-2-Werkzeug: …
+2. Wo ich noch unsicher bin: … *(→ Meilenstein-Gespräch-Futter)*.
 
 ---
 
 # 4. Coaching-Woche 13 (Handreichung)
 
-- **Hospitationsfokus:** eine komplette Übungsphase; Coach zeichnet **Laufweg + Standzeiten** auf einem Sitzplan mit (das visuelle Protokoll dieser Woche – oft ein Schock-und-Aha-Bild: drei Inseln, eine tote Zone).
-- **Auswertungsgespräch:** Laufweg-Bild vorlegen, TN interpretiert zuerst selbst; Abgleich mit der geplanten Route aus der Sitzung; Frage: „Welche Daten hast du von deiner Runde mitgebracht?" (Klemmbrett zeigen lassen – leer ist ein Befund, kein Vorwurf).
-- **Verzahnung:** ActiveObs-Fokus für nächste Woche aus dem Exemplar der laufenden Einheit ableiten.
-- **Red Flag:** TN „schafft die Route nicht", weil Dauerbrände (Störungen) sie binden → das ist ein Block-1-Rückfall, kein W13-Problem: Interventionsleiter-Action-Step reaktivieren, Route erst danach.
+- **Hospitationsfokus:** Stunden-KLAMMER: die ersten 8 und letzten 8 Minuten (dazwischen darf der Coach raus – Fokus-Signal). Protokoll: Do-Now-Substanz (Wiederholung oder Appetizer?), Ticket-Meilenstein-Passung, wurde die Konsequenz aus dem Vortag sichtbar?
+- **Auswertungsgespräch:** Gemeinsame Live-Sortierung des frischen Ticket-Stapels (10-Min.-Stoppuhr!) – der Coach moderiert nur die Grenzfälle. Konsequenz für morgen gemeinsam festlegen.
+- **Gruppenhospitation 2** fällt in diese Tage: Nachbesprechung nach W12-Bogen; Brücke ziehen: „Welche Fading-Stufen habt ihr gesehen – und was misst das Exit Ticket des Gastgebers?"
+- **Red Flag:** TN benotet Exit Tickets oder kündigt sie als „Tests" an → sofort korrigieren: Diagnose-Charakter ist die Geschäftsgrundlage (sonst Prüfungsangst statt Daten; Fehlerkultur W20 wird sonst vergiftet).
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Startbedingungen + You-do-Standard
-**Die 5 Startbedingungen:** Aufgabe schriftlich · Zeit/Timer · Sozialform · Lautstärke definiert · Was-wenn-fertig. **Standard:** Ebene früh durchbrechen → Route (Frühwarn-Plätze zuerst) → lesen & markieren (✓ / Unterstreichung / „Zeile 3") → Top-3-Fehlerliste → ≤ 60 Sek./Einzelhilfe → 3× derselbe Fehler = Sammelklärung.
+## 1.1 Handout A: Exit-Ticket-Gütecheck + Vorlagen
+**Gütecheck:** ☐ misst den Meilenstein ☐ 3–5 Min., allein lösbar ☐ schriftlich, von jedem ☐ Auswertung ≤ 10 Min. (max. 3 Aufgaben, max. 1 offene). **Format-Vorlagen:**
 
-## 1.2 Handout B: ActiveObs-Bogen
-Kopf: Stunde/Klasse/Datum. — **Was prüfe ich?** (konkret, aus Exemplar/Fallen-Liste): … — **Woran erkenne ich den Fehler in 3 Sek.?** … — **Bei wem zuerst?** (3–4 Namen): … — **Route** (Skizze/Reihenfolge): … — Live-Teil: **Top-3-Fehler (Strichliste):** 1… 2… 3… — **Entscheidung:** Sammelklärung nötig? ☐ wann: … / Konsequenz für morgen: …
+1. 2 geschlossene + 1 Begründungssatz
+2. 1 Anwendungsaufgabe + „Erkläre deinen ersten Schritt"
+3. Entscheidungsformat: „Kreuze an UND begründe in einem Satz"
 
-## 1.3 Laufweg-Fallkarte (Fallback ohne Video)
-*Kl. 8, Übungsphase 15 Min., 26 SuS. Min. 0–3: Lehrkraft am Pult, sortiert Blätter. Min. 3: erste Meldung vorn rechts → Lehrkraft geht hin, bleibt 4 Min. (Erklärung im Sitzen). Min. 7: zwei Meldungen gleichzeitig, Lehrkraft pendelt zwischen beiden (je 2 Min.). Min. 11: Unruhe hinten links (unbesuchte Zone seit Beginn) → Ermahnung quer durch den Raum. Min. 12–15: Lehrkraft hilft erneut vorn rechts (derselbe Schüler). Nie besucht: hintere Reihe komplett, Fensterreihe. Dreimal aufgetreten (den Heften nach): Vorzeichenfehler bei Aufgabe 2 – unbemerkt.* — Aufgabe: Laufweg skizzieren, 3 Verstöße gegen den Standard benennen, den Sammelklärungs-Moment festlegen. *(Lösung: verwurzelt/Pult-Start · Melder-Dirigat · 60-Sek.-Regel verletzt · tote Zone → Unruhe als Folge (Modell 4!) · Sammelklärung spätestens Min. 8.)*
+**Verbots-Liste:** „Fandet ihr es verständlich?" · „Was hat euch gefallen?" · alles, was Selbstauskunft statt Können misst *(Vorgriff W20)*.
+
+## 1.2 Konstruierter Ticket-Satz (Fallback; Auszug-Beschreibung für eigene Erstellung)
+25 Tickets zur Aufgabe „Entscheide: past simple oder present perfect (2 Sätze) + begründe mit dem Signalwort": **11× grün** (beides richtig, Begründung nennt Signalwort), **8× gelb** (Entscheidung richtig, Begründung fehlt/zirkulär: „klingt besser"), **6× rot** (Signalwort ignoriert, „yesterday I have seen"). *(Eingebaute Kalibrier-Grenzfälle: 2 Tickets mit richtiger Entscheidung + falscher Begründung – gelb oder rot? Diskussion gewollt; W11-Fehlerkarte K6 lässt grüßen.)* — **Erwartete Konsequenz:** gelb+rot = 14/25 > ⅓ → 10-Min.-Reteach mit NEUEM Zugang (z. B. Zeitstrahl statt Regel-Wiederholung).
+
+## 1.3 Handout B: Stundenarchitektur-Template (Einseiter)
+Kopf: Klasse/Thema/Datum. — **Do Now (3-2-1):** … — **Meilensteine (2–5, Ampel-geprüft):** … — **Exemplar (Kernaufgabe):** … — **I do:** Falle: … — **We do:** Treppenstufen + 80 %-Check bei: … — **You do:** ActiveObs-Fokus + Route: … — **Exit Ticket:** Aufgaben (→ Meilenstein-Nr.): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die We-do-Checkliste – nenne 4 der 5 Punkte. *(alle schreiben mit / Fragen statt Vorsagen / Fading-Stufe bewusst / All-Response-Check / ≥80 % vor Stillarbeit)*
-2. Break-It-Down-Stufen in Reihenfolge? *(Hinweis → Beispiel → Regel → erster Schritt → Lösung)*
-3. Die W.I.N.-Struktur (Block 1)? *(Was ist passiert – Schülersicht zuerst / Impact / Next steps)*
-4. Warum sind allein eingeübte Fehler so teuer? *(Umlernen teurer als Lernen; verfestigte falsche Routine)*
-5. (Anwendung) Deine Whiteboard-Abfrage zeigt 60 % richtig – was jetzt? *(Stufe halten/zurück: erneut We do bzw. Lückenbeispiel; keine Stillarbeit freigeben)*
+## Teil 1: Block-2-Quiz (20 Fragen, kumulativ W1–12; Auswahl mit Lösungen)
+1. Die fünf mentalen Modelle? 2. Die 7 Schritte der Begrüßungsroutine? 3. Vierercheck für Anweisungen? 4. Die 6 Leiterstufen? 5. Umformulierungs-Formel? 6. W.I.N.-Schritte? 7. Die vier Rosenshine-Stränge? 8. Beide Enden der 80 %-Regel? 9. Die zwei Planungs-Todsünden? 10. Vier Ampel-Kriterien für Meilensteine? 11. Was ist Exemplar Planning? 12. Der Modellierungs-Vierklang? 13. Fluch des Wissens + Halbier-Regel? 14. Die vier Fading-Stufen? 15. Break-It-Down-Reihenfolge? 16. Warum lügt die Melder-Stichprobe? 17. Die 5 Startbedingungen? 18. Die 60-Sekunden-Regel und ihr Grund? 19. Ab wann Sammelklärung? 20. (Transfer) „Meine Klasse konnte es in der Stunde, im Test nicht" – deute mit ZWEI Werkzeugen/Konzepten aus Block 2. *(z. B. Melder-Stichprobe statt All-Response → nie geprüft, ob ALLE es konnten; verfrühtes You do → Fehler eingeübt; Vorgriff: Performance ≠ Learning kommt in W18)*
 
 ## Teil 2: Modul-Quiz Woche 13 (für SPA/Folgewoche)
-**F1.** Während der Stillarbeit ist deine Hauptaufgabe…
-a) Korrekturen und Orga – endlich Zeit dafür ✗ *(Alltagsrealität)*
-b) systematisches Datensammeln: Route, Lesen, Fehlerliste ✓
-c) beim schwächsten Schüler sitzen und intensiv helfen ✗ *(klingt fürsorglich – 27 unbeobachtet)*
-d) für absolute Ruhe sorgen ✗
+**F1.** Exit Tickets wertet man aus, indem man…
+a) alle gründlich korrigiert und benotet – Gewissenhaftigkeit ✗ *(Fleiß-Falle)*
+b) in 3 Stapel sortiert, den Top-Fehler notiert, EINE Konsequenz ableitet ✓
+c) sie zurückgibt und besprechen lässt ✗
+d) den Notenschnitt berechnet ✗
 
-**F2.** Vier SuS machen denselben Fehler. Du…
-a) erklärst es viermal einzeln – individuelle Förderung ✗ *(klingt vorbildlich!)*
-b) frierst kurz ein und klärst einmal für alle ✓
-c) wartest bis zur Besprechung am Ende ✗
-d) teilst die Lösung aus ✗
+**F2.** „Fandet ihr das Thema heute verständlich?" auf dem Ticket ist…
+a) gute Schülerorientierung ✗ *(klingt partizipativ!)*
+b) Selbstauskunft statt Verständnisprüfung ✓
+c) zu kurz ✗
+d) nur in der Oberstufe sinnvoll ✗
 
-**F3.** „Break the plane" früh in der Phase bewirkt…
-a) Kontrolle durch Einschüchterung ✗
-b) Anwesenheit wird normal; Daten fließen ab Minute 1 ✓
-c) Unruhe ✗
-d) nichts – Timing ist egal ✗
+**F3.** Das ideale Do Now enthält…
+a) einen spannenden Einstieg ins neue Thema ✗ *(DIE Verführung)*
+b) Wiederholung: gestern / letzte Woche / letzter Monat ✓
+c) die schwerste Aufgabe von gestern ✗
+d) organisatorische Ansagen ✗
 
-**F4.** Deine Route wird von Meldungen ständig durchkreuzt. Beste Lösung:
-a) Meldungen sofort bedienen – dafür sind sie da ✗ *(Service-Reflex: die Lauten dirigieren)*
-b) kurze Marker („Ich komme gleich"), Route halten, Melder einbauen ✓
-c) Meldungen in Stillarbeit verbieten ✗ *(Overkill)*
-d) Route aufgeben ✗
+**F4.** Dein rot+gelb-Anteil liegt bei 14 von 25. Konsequenz:
+a) Einzelförderung für die 14 ✗ *(logistisch unmöglich – klingt individuell)*
+b) 10-Min.-Reteach für alle, mit neuem Zugang ✓
+c) weiter im Stoff, die Arbeit klärt es ✗
+d) das Ticket war zu schwer – ignorieren ✗
 
-**F5.** Die fünfte Startbedingung „Was-wenn-fertig" verhindert vor allem…
-a) Langeweile ✗ *(teilrichtig – zu weich)*
-b) dass jeder Schnelle zur Störungsquelle wird ✓
-c) Abschreiben ✗
-d) Fragen ✗
+**F5.** Exit Tickets werden nicht benotet, weil…
+a) Noten verboten sind ✗
+b) sie Diagnose sind – Benotung erzeugt Angst statt ehrlicher Daten ✓
+c) sie zu kurz sind ✗
+d) Eltern sich beschweren ✗
 
-**F6 (Transfer, Freitext):** Analysiere die Laufweg-Fallkarte: Nenne drei Standard-Verstöße und formuliere die Sammelklärungs-Ansage wörtlich. *(Muster-Ansage: „Stifte runter, Blick nach vorn. Drei von euch sind bei Aufgabe 2 in dieselbe Falle getappt – beim Rüberbringen der −5. Schaut her: …")*
-
----
-
-# Anhang 3: Beobachtungsbogen Gruppenhospitation 2
-**Fokus:** I do / We do. | Spalte A: Wortlaut-Protokoll einer Modellierungssequenz (Think-Aloud-Momente unterstreichen!) | Spalte B: Fading beobachtet? (Vollbeispiel → Lücken → Ansatz → blank – was davon, in welcher Reihenfolge? All-Response-Checks?) | Spalte C: „Ein Move, den ich klaue." — **Nachbesprechung:** Runde 1 beschreibend (A/B), Runde 2 Spalte C, Runde 3: „Welche Fading-Stufe fehlt in MEINEM Unterricht am häufigsten?"
+**F6 (Transfer, Freitext):** Meilenstein: „Kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert." Entwirf das passende Exit Ticket (Aufgabe wörtlich) und begründe am Gütecheck. *(Muster: „Eine Pflanze steht 3 Tage im dunklen Schrank. Was zeigt der Stärkenachweis in den Blättern – und warum? Antworte in 2 Sätzen." – misst Vorhersage+Begründung, 4 Min., schriftlich, sortierbar.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 13"
+# Anhang 3: Ableitung für die SPA „Modul 13"
 
-1. **Hook (2 Min.):** Die anonyme A/B/C-Frage aus Phase 2 als Selbsttest mit ehrlicher Statistik-Einblendung („Du bist nicht allein: die meisten wählen A/B").
-2. **See it (5 Min.):** Laufweg-Fallkarte als animierte Draufsicht – der Laufweg zeichnet sich in Echtzeit, Nutzer stoppt an Verstoß-Stellen.
-3. **Name it (3 Min.):** Die 5 Startbedingungen + Standard als Checklisten-Karten; Lückenspiel: Welche Bedingung fehlt in dieser Phaseneröffnung (4 Audio-Beispiele)?
-4. **Do it – Sitzplan-Simulator (8 Min., Engine!):** eigenen Sitzplan nachbauen (Raster-Editor oder Foto-Annotation) → Route ziehen → App prüft: Frühwarn-Plätze zuerst? Tote Zonen? → ActiveObs-Bogen digital ausfüllen (Prüf-Fokus wird aus dem Modul-10-Exemplar-Markup vorgeschlagen!).
-5. **60-Sekunden-Spiel:** simulierte Hilfe-Anfragen; Nutzer entscheidet pro Fall: kurzer Impuls / Marker + weiter / Sammelklärung – Scoring nach Standard.
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Top-3-Fehlerlisten-Log (füttert Modul 26 vor!).
+1. **Hook (2 Min.):** „Die ehrlichste Frage des Berufs": Habe ich unterrichtet – oder haben sie gelernt? Nutzer schätzt für die letzte eigene Stunde: Wie viele von 25 hätten den Kern-Meilenstein bestanden? (Der Schätzwert wird nach dem Modul mit dem echten ersten Ticket verglichen – Feature „Schätzung vs. Realität".)
+2. **See it (4 Min.):** Ticket-Beispiele gut/schlecht als Swipe (Gütecheck-Verstoß benennen); die Verbots-Liste als Karten.
+3. **Name it (3 Min.):** Gütecheck + Auswertungs-Reflex (Stapeln → Satz → Konsequenz) als Merkkarten.
+4. **Do it – Ticket-Generator (7 Min., Engine!):** Meilenstein aus Modul 9 laden (modulübergreifende Daten!) → Aufgabenvorschlag wählen/formulieren → Gütecheck-Ampel; Export ins Playbook.
+5. **Sortier-Simulation (7 Min., Kernstück!):** Der 25er-Satz aus Anhang 1.2 als Drag-&-Drop in drei Zonen mit laufender Uhr; Grenzfälle (richtige Entscheidung, falsche Begründung) triggern Erklär-Feedback; Abschluss: Konsequenz-Entscheidung mit Auflösung (>⅓-Regel).
+6. **Block-2-Abschlussquiz** (20 Fragen aus dem Pool) mit Spinnennetz-Update-Screen (Kompetenzmatrix Felder 4–5).
+7. **Abschluss:** Action-Step-Formular mit Täglich-Log: Ticket gestellt ☐ · sortiert in __ Min. · Konsequenz morgen: … · „Eure Tickets zeigen…"-Satz gesagt ☐.

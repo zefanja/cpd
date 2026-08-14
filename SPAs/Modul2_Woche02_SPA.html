@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Modul 2 · Hohe Erwartungen – Verhalten ist ein Curriculum</title>
+<title>Modul 2 · Der starke Stundenstart</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -98,21 +98,18 @@ p+p{margin-top:.7rem}
   color:var(--petrol);margin-top:1.1rem;
 }
 
-/* ---------- Kontrastpaar-Karten (Hook) ---------- */
+/* ---------- Kontrastpaar/Rätsel-Karten (Hook) ---------- */
 .riddle-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
 @media(min-width:700px){.riddle-grid{grid-template-columns:repeat(2,1fr)}}
 .riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
 .riddle-card:hover{border-color:var(--petrol)}
 .riddle-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
 .riddle-card .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-bottom:.4rem;display:block}
+.riddle-card.correctpos{border-color:var(--petrol);background:var(--petrol-soft)}
+.riddle-card.wrongpos{border-color:#B0433A;background:#B0433A18}
+.riddle-card.missed{border-color:var(--amber);background:#C98A1B18}
 
-/* ---------- Parallel-Tabelle (Verhalten ist ein Curriculum) ---------- */
-.parallel-table{width:100%;border-collapse:collapse;margin-top:.9rem;font-size:.92rem}
-.parallel-table th{text-align:left;font-family:var(--display);font-weight:700;color:var(--petrol);padding:.4rem .5rem;border-bottom:2px solid var(--petrol)}
-.parallel-table td{padding:.5rem;border-bottom:1px dashed var(--line);vertical-align:top}
-.parallel-table td:first-child{font-weight:700;white-space:nowrap;color:var(--muted)}
-
-/* ---------- Situationen / Sortier-Spiel ---------- */
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
 .situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
 .situ-text{font-size:.96rem;font-weight:600}
 .num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
@@ -126,18 +123,31 @@ p+p{margin-top:.7rem}
 .situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
 .situ-note.on{display:block}
 
-/* ---------- Tabs (Stufen-Filter) ---------- */
+/* ---------- Reihenfolge-Karten (7 Schritte) ---------- */
+.order-card{
+  display:flex;align-items:center;gap:.8rem;width:100%;text-align:left;
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  padding:.85rem 1rem;margin-top:.7rem;cursor:pointer;font-family:var(--body);color:var(--ink);
+}
+.order-card:hover{border-color:var(--petrol)}
+.order-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.order-card.correctpos{border-color:var(--petrol);background:var(--petrol-soft)}
+.order-card.wrongpos{border-color:#B0433A;background:#B0433A18}
+.order-card .order-num{
+  width:2.1rem;height:2.1rem;border-radius:50%;background:var(--line);color:var(--ink);
+  display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;
+  flex-shrink:0;font-size:.95rem;
+}
+.order-card.sel .order-num{background:var(--petrol);color:#fff}
+.order-card.correctpos .order-num{background:var(--petrol);color:#fff}
+.order-card.wrongpos .order-num{background:#B0433A;color:#fff}
+.order-card .order-text{font-size:.94rem}
+.order-card .order-text b{display:block;font-family:var(--display);font-size:.98rem;color:var(--petrol);margin-bottom:.15rem}
+
+/* ---------- Tabs ---------- */
 .tab-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
 .tab-btn{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:.4rem .9rem;font-size:.85rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body)}
 .tab-btn.on{background:var(--petrol);border-color:var(--petrol);color:#fff}
-
-/* ---------- Bibliothek (Umformulierungs-Trainer) ---------- */
-.lib-grid{display:grid;gap:.7rem;margin-top:1rem;grid-template-columns:1fr}
-@media(min-width:700px){.lib-grid{grid-template-columns:repeat(2,1fr)}}
-.lib-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:.85rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
-.lib-card:hover{border-color:var(--petrol)}
-.lib-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
-.lib-card .stage-tag{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--petrol);font-weight:700}
 
 /* ---------- Ampel-Kriterien ---------- */
 .crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.55rem 0;border-bottom:1px dashed var(--line)}
@@ -162,7 +172,7 @@ textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid
 textarea{min-height:4.2em}
 input[type=number]{max-width:8rem}
 
-/* ---------- Quiz ---------- */
+/* ---------- Quiz / Szenarien ---------- */
 .quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
 .quiz-q{font-weight:700;font-size:.98rem}
 .quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
@@ -195,6 +205,13 @@ input[type=number]{max-width:8rem}
   opacity:0;pointer-events:none;transition:all .3s;z-index:60;
 }
 .toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Wochen-Verlaufskurve (Stoppuhr) ---------- */
+.chart-wrap{display:flex;align-items:flex-end;gap:.8rem;height:8rem;margin-top:1.1rem;padding:0 .3rem}
+.chart-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.chart-bar{width:100%;max-width:2.4rem;background:var(--petrol);border-radius:6px 6px 0 0;transition:height .4s ease;min-height:2px}
+.chart-label{font-size:.72rem;color:var(--muted);margin-top:.4rem;font-weight:600}
+.chart-val{font-size:.72rem;color:var(--ink);font-weight:700;margin-bottom:.2rem}
 
 /* ---------- Fußnavigation ---------- */
 .navbar{
@@ -259,11 +276,11 @@ input[type=number]{max-width:8rem}
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
   <span class="eyebrow">Woche 2 · Block 1: Klassenführung &amp; Routinen · Fortbildung Quereinsteiger Sek I/II</span>
-  <h1>Hohe Erwartungen – Verhalten ist ein Curriculum.</h1>
-  <p class="lead">Wie machst du unsichtbare Erwartungen sichtbar, lehrbar und prüfbar? In ca. 20–25 Minuten bekommst du das Handwerkszeug, auf dem alle Routinen der nächsten Wochen aufbauen.</p>
+  <h1>Der starke Stundenstart.</h1>
+  <p class="lead">Wie gewinnst du die ersten fünf Minuten jeder Stunde – jedes Mal? In ca. 25 Minuten baust du deine Begrüßungsroutine zum präzisen Werkzeug aus: mit Skript, Timer und einem Do Now, das sofort funktioniert.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Kontrastpaar A/B → das Prinzip „Verhalten ist ein Curriculum" → die 5 Kriterien im Sortier-Spiel → dein Umformulierungs-Trainer (Ampel-Feedback) → dein Einführungs-Skript → Quiz → dein Action Step.</p>
+    <p style="font-size:.9rem">Der Zeitrechner (was dein Stundenstart wirklich kostet) → Kontrastpaar A/B → die 7 Schritte in Reihenfolge → dein eigenes Skript → Szenario-Simulator mit Störkarten → dein Do-Now-Baukasten → Quiz → dein Action Step.</p>
   </div>
   <div class="field" id="tnNameField">
     <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
@@ -271,171 +288,187 @@ input[type=number]{max-width:8rem}
   </div>
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
-    <span class="badge">⏱ ca. 20–25 Min.</span>
-    <span class="badge">📖 Kernquelle: Lovell/Dowley, Prinzip 3 &amp; 5; Lemov T52, T61</span>
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📖 Kernquelle: Lovell/Dowley, Routine 1; Lemov T20, T51</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht's →</button></p>
 </section>
 
-<!-- 1 · HOOK: KONTRASTPAAR -->
-<section class="screen" data-title="Kontrastpaar">
-  <span class="eyebrow">Station 1 · Hook: Zwei Lehrkräfte, eine Absicht</span>
-  <h2>Bei wem weiß die Klasse, was zu tun ist?</h2>
-  <p class="lead">Beide Lehrkräfte wollen dasselbe. Lies beide Varianten und tippe die an, bei der Schüler wirklich wissen, was von ihnen erwartet wird.</p>
-  <div class="riddle-grid" id="contrastGrid"></div>
-  <div class="card reveal" id="contrastReveal"></div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Prinzip →</button></p>
-</section>
-
-<!-- 2 · SEE IT: VERHALTEN IST EIN CURRICULUM -->
-<section class="screen" data-title="Verhalten ist ein Curriculum">
-  <span class="eyebrow">Station 2 · See it: Das Prinzip, das diese Woche trägt</span>
-  <h2>Verhalten ist ein Curriculum.</h2>
-  <p class="lead">Kein Schüler kommt mit fertigem Verhalten zur Welt – genauso wenig wie mit fertiger Bruchrechnung. Und niemand würde Bruchrechnung so unterrichten: einmal erwähnen, nie üben, beim ersten Fehler beleidigt sein.</p>
-  <p style="margin-top:1rem"><button class="btn small" id="revealParallel">Zeig mir die Parallele →</button></p>
-  <div class="reveal" id="revealParallelBox">
-    <div class="card">
-      <table class="parallel-table">
-        <tr><th></th><th>Bruchrechnung</th><th>Erwartung „Starter still bearbeiten"</th></tr>
-        <tr><td>erklären</td><td>Regel vorführen</td><td>spezifisch sagen, was zu tun ist</td></tr>
-        <tr><td>begründen</td><td>wozu man das braucht</td><td>ein Satz „damit…"</td></tr>
-        <tr><td>modellieren</td><td>vorrechnen</td><td>zeigen, wie es aussieht</td></tr>
-        <tr><td>üben</td><td>Aufgaben rechnen</td><td>tatsächlich einfordern (Woche 3)</td></tr>
-        <tr><td>prüfen</td><td>Verständnisfrage</td><td>Verständnischeck zum Verhalten</td></tr>
-        <tr><td>Feedback geben</td><td>Fehler korrigieren</td><td>ab Woche 6/7</td></tr>
-      </table>
-      <p style="margin-top:.9rem">Für Verhalten gilt <strong>dieselbe Didaktik wie für jeden Stoff</strong>. „Das habe ich doch am Schuljahresanfang gesagt!" – einmal gesagt ist nicht gelernt. Das weißt du seit Woche 1: Modell 1, Gedächtnis.</p>
-    </div>
-    <p style="margin-top:1rem"><button class="btn small" id="revealFenster">Und das Zeitfenster? →</button></p>
-    <div class="reveal" id="revealFensterBox">
-      <p class="punchline">Hoch starten. Lockern ist billig – Nachschärfen ist teuer.</p>
-      <div class="card">
-        <p>Am Anfang – des Jahres, des Halbjahres, nach Ferien – akzeptiert eine Klasse hohe Erwartungen als Normalität. Wer niedrig startet und später anzieht, kämpft gegen etablierte Normen (Modell 4, Woche 1). Lockern wird als Großzügigkeit erlebt, Nachschärfen als Ungerechtigkeit. Und die gute Nachricht: Wer schon mittendrin steckt – jeder Montag ist ein kleines Fenster, jeder explizite Neustart ein großes.</p>
-      </div>
-      <p style="margin-top:1rem"><button class="btn small" id="revealCfu">Wie prüfst du, ob's angekommen ist? →</button></p>
-      <div class="reveal" id="revealCfuBox">
-        <div class="card">
-          <h3>Verständnischeck zum Verhalten</h3>
-          <p>Nicht durch „Alles klar?" – sondern durch Prüfen: „Jonas, was passiert, nachdem ihr euch gesetzt habt?" – „Lena, wie lange habt ihr Zeit bis zum Starter?" Zwei Fragen, zehn Sekunden, und die Klasse weiß: Das hier war ernst gemeint.</p>
-          <p style="margin-top:.6rem"><strong>Sek-II-Einwand:</strong> „In meiner Oberstufe wirkt das kindisch." Nein – kindisch wirkt eine kindische FORMULIERUNG. Die Struktur bleibt, der Ton wird erwachsen: „Ich erwarte, dass Laptops zu sind, wenn jemand präsentiert – aus demselben Grund, aus dem Sie das in jeder Besprechung erwarten würden." Explizit heißt nicht infantil.</p>
-        </div>
-        <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den 5 Kriterien →</button></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 3 · NAME IT: 5 KRITERIEN + SORTIER-SPIEL -->
-<section class="screen" data-title="5 Kriterien &amp; Sortier-Spiel">
-  <span class="eyebrow">Station 3 · Name it: Die 5 Kriterien einer tragfähigen Erwartung</span>
-  <h2>Woran erkennst du eine gute Erwartung?</h2>
+<!-- 1 · HOOK: ZEITRECHNER -->
+<section class="screen" data-title="Zeitrechner">
+  <span class="eyebrow">Station 1 · Hook: Der Zeitrechner</span>
+  <h2>Was kostet dich dein Stundenstart wirklich?</h2>
+  <p class="lead">Trag ein, wie viele Stunden du pro Woche unterrichtest und wie viele Minuten im Schnitt „verloren gehen" – Ankommen, Kramen, Ermahnen, bis wirklich alle im Stoff sind.</p>
   <div class="card">
-    <ol style="margin:0;padding-left:1.3rem;font-size:.94rem">
-      <li style="margin-top:.3rem"><strong>Beobachtbar</strong> – man kann sie sehen/hören.</li>
-      <li style="margin-top:.4rem"><strong>Messbar</strong> – man kann Erfüllung feststellen: alle? in welcher Zeit?</li>
-      <li style="margin-top:.4rem"><strong>Positiv formuliert</strong> – beschreibt das TUN, nicht das Lassen.</li>
-      <li style="margin-top:.4rem"><strong>Begründet</strong> – ein Satz Sinn.</li>
-      <li style="margin-top:.4rem"><strong>Geprüft</strong> – Verständnischeck zum Verhalten nach der Einführung.</li>
-    </ol>
-    <p class="hint" style="margin-top:.7rem">Merkformel: „Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."</p>
+    <div class="field" style="margin-top:0">
+      <label for="calcStunden">Deine Unterrichtsstunden pro Woche</label>
+      <input type="number" id="calcStunden" data-store="calcStunden" min="1" placeholder="z. B. 14">
+    </div>
+    <div class="field">
+      <label for="calcMinuten">Geschätzte Anlaufminuten pro Stunde</label>
+      <input type="number" id="calcMinuten" data-store="calcMinuten" min="0" placeholder="z. B. 4">
+    </div>
+    <p style="margin-top:.8rem"><button class="btn small" id="calcBtn">Ausrechnen →</button></p>
+    <div class="reveal" id="calcReveal">
+      <p class="punchline" id="calcResult"></p>
+      <p class="hint" id="calcSub" style="margin-top:.5rem"></p>
+    </div>
   </div>
-  <h3 style="margin-top:1.4rem">Sortier-Spiel: Welches Kriterium wird verletzt?</h3>
-  <p class="lead">Tippe eine oder mehrere Kriterien an – Mehrfachzuordnungen sind erlaubt. Dann „Auflösung zeigen".</p>
-  <p style="margin-top:.7rem"><button class="btn ghost small" id="sortResetBtn">Zurücksetzen</button></p>
-  <div id="sortList"></div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Umformulierungs-Trainer →</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Zum Kontrastpaar →</button></p>
 </section>
 
-<!-- 4 · DO IT: UMFORMULIERUNGS-TRAINER -->
-<section class="screen" data-title="Umformulierungs-Trainer">
-  <span class="eyebrow">Station 4 · Do it: Umformulierungs-Trainer (Kern-Engine)</span>
-  <h2>Schärfe eine vage Erwartung nach – mit Ampel-Feedback.</h2>
-  <p class="lead">Wähle eine vage Erwartung aus der Bibliothek oder schreib deine eigene. Der Trainer prüft automatisch gegen die Kriterien 1–4.</p>
-  <div class="tab-row" id="stageTabs"></div>
-  <div class="lib-grid" id="libGrid"></div>
-  <div class="field">
-    <label for="trainerInput">Deine (nachzuschärfende) Erwartung</label>
-    <textarea id="trainerInput" placeholder="z. B. Seid ordentlich und respektvoll…"></textarea>
+<!-- 2 · SEE IT: KONTRASTPAAR & UNTERSCHIEDE -->
+<section class="screen" data-title="Kontrastpaar">
+  <span class="eyebrow">Station 2 · See it: Dieselbe Lehrkraft, zwei Ergebnisse</span>
+  <h2>Variante A und Variante B – lies genau.</h2>
+  <p class="lead">Beide Male will dieselbe Lehrkraft dasselbe: einen ruhigen, klaren Start. Nur bei einer Variante gelingt er.</p>
+  <div class="card">
+    <h3>Variante A (schwach)</h3>
+    <p style="font-size:.95rem">Kommt herein, redet schon im Gehen: „Ja, guten Morgen, setzt euch, wir haben heute viel vor…" – sortiert Unterlagen am Pult. Die Hälfte steht halb, Getuschel läuft weiter, irgendwann beginnt der Unterricht – niemand könnte sagen, wann eigentlich.</p>
   </div>
-  <p style="margin-top:.6rem"><button class="btn small" id="trainerCheckBtn">Prüfen</button> <button class="btn ghost small" id="trainerModelBtn" style="display:none">Muster-Lösung anzeigen</button></p>
-  <div class="card" id="critRows"></div>
-  <p class="hint" style="margin-top:.6rem" id="trainerScore"></p>
-  <div class="card reveal" id="trainerModelCard"></div>
+  <div class="card">
+    <h3>Variante B (stark)</h3>
+    <p style="font-size:.95rem">Kommt herein, geht wortlos zum festen Punkt (Mitte vorn), stellt sich ruhig hin, Blick durch den Raum. Wartet. Auch als zwei noch tuscheln: wartet freundlich weiter, 8 Sekunden, Blick zu den beiden. Stille. Alle stehen. Dann warm: „Guten Morgen, 9b." – Antwort abwarten – „Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still." Timer startet sichtbar mit dem Setz-Signal. Bleibt vorn stehen und scannt (geht demonstrativ NICHT ans Pult).</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Markiere die 3 tatsächlichen Unterschiede.</h3>
+  <p class="lead">Sechs Aussagen, drei davon beschreiben einen echten Unterschied zwischen A und B. Tippe deine Auswahl an, dann „Prüfen".</p>
+  <div class="riddle-grid" id="diffGrid"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="diffResetBtn">Zurücksetzen</button> <button class="btn small" id="diffCheckBtn">Prüfen</button></p>
+  <div class="card reveal" id="diffReveal">
+    <p><strong>Was zählt, ist Handlung – nicht Eindruck:</strong> Der feste Punkt statt Sortieren am Pult, das Warten auf 100 % statt sofortigem Grüßen, und das Scannen statt des sofortigen Wegdrehens zum Rechner. Das sind die drei Stellschrauben, an denen du diese Woche arbeitest.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den 7 Schritten →</button></p>
+</section>
+
+<!-- 3 · NAME IT: DIE 7 SCHRITTE -->
+<section class="screen" data-title="Die 7 Schritte">
+  <span class="eyebrow">Station 3 · Name it: Die 7 Schritte</span>
+  <h2>Bring die Schritte in die richtige Reihenfolge.</h2>
+  <p class="lead">Tippe die Karten in der Reihenfolge an, in der sie ablaufen – vom ersten bis zum letzten Schritt. Ein Klick auf eine ausgewählte Karte nimmt sie wieder heraus. Danach „Prüfen".</p>
+  <p style="margin-top:.7rem"><button class="btn ghost small" id="stepResetBtn">Zurücksetzen</button> <button class="btn small" id="stepCheckBtn">Prüfen</button></p>
+  <div id="stepOrderList"></div>
+  <div class="card reveal" id="stepQualityCard">
+    <h3>Schritt 3 ist der Qualitätsschritt.</h3>
+    <p>„Warten auf 100 %" entscheidet, ob die Zäsur wirklich funktioniert. Wer in die Unruhe hineingrüßt, unterschreibt zweimal täglich denselben Vertrag: „Halbherzig reicht hier." Das ist Modell 4 aus dem Auftakt – ihr unterrichtet eine Norm, ob ihr wollt oder nicht.</p>
+  </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Skript-Editor →</button></p>
 </section>
 
-<!-- 5 · SKRIPT-EDITOR -->
+<!-- 4 · DO IT: SKRIPT-EDITOR -->
 <section class="screen" data-title="Skript-Editor">
-  <span class="eyebrow">Station 5 · Skript-Editor: Deine Einführung</span>
-  <h2>Erwartung → Begründung → 2 CFU-Fragen.</h2>
-  <p class="lead">Verfasse den kompletten Wortlaut deiner Einführung. Er wandert in dein persönliches Playbook.</p>
-  <p style="margin-top:.6rem"><button class="btn ghost small" id="fromTrainerBtn">Aus dem Trainer übernehmen</button></p>
+  <span class="eyebrow">Station 4 · Do it: Skript-Editor</span>
+  <h2>Skripte deine eigene Begrüßungsroutine.</h2>
+  <p class="lead">Fülle die dreispaltige Vorlage für dich aus. Pflichtfelder sind der Gruß und das Setz-Signal/der Starter-Satz – der Rest darf stichwortartig bleiben. Diese Seite wird deine erste offizielle Playbook-Seite.</p>
+  <p style="margin-top:.6rem"><button class="btn ghost small" id="scriptModelBtn">Musterbeispiel anzeigen</button></p>
+  <div class="card reveal" id="scriptModelCard"></div>
+
   <div class="field">
-    <label for="scriptErwartung">Erwartung (spezifisch, ein Satz Handlung)</label>
-    <textarea id="scriptErwartung" data-store="scriptErwartung"></textarea>
+    <label for="scriptStep1">1 · Vorbereitung <span class="sub">Welches Do Now steht bereit, bevor du grüßt?</span></label>
+    <textarea id="scriptStep1" data-store="scriptStep1"></textarea>
   </div>
   <div class="field">
-    <label for="scriptBegruendung">Begründung <span class="sub">„…damit…" – ein Satz.</span></label>
-    <textarea id="scriptBegruendung" data-store="scriptBegruendung"></textarea>
+    <label for="scriptStep2">2 · Fester Punkt <span class="sub">Wo genau stellst du dich hin?</span></label>
+    <textarea id="scriptStep2" data-store="scriptStep2"></textarea>
   </div>
   <div class="field">
-    <label for="scriptCfu1">CFU-Frage 1</label>
-    <input type="text" id="scriptCfu1" data-store="scriptCfu1" placeholder="z. B. „Jonas, was passiert, nachdem ihr euch gesetzt habt?“">
+    <label for="scriptStep3">3 · Warten auf 100 % <span class="sub">Wie lange wartest du notfalls, und worauf achtest du?</span></label>
+    <textarea id="scriptStep3" data-store="scriptStep3"></textarea>
   </div>
   <div class="field">
-    <label for="scriptCfu2">CFU-Frage 2</label>
-    <input type="text" id="scriptCfu2" data-store="scriptCfu2" placeholder="z. B. „Lena, wie lange habt ihr Zeit bis zum Starter?“">
+    <label for="scriptGruss">4 · Gruß-Wortlaut * <span class="sub">Pflichtfeld – dein exakter Wortlaut.</span></label>
+    <input type="text" id="scriptGruss" data-store="scriptGruss" placeholder="z. B. „Guten Morgen, 9b.“">
+  </div>
+  <div class="field">
+    <label for="scriptStarter">5 · Setz-Signal + Starter-Satz * <span class="sub">Pflichtfeld – jedes Mal wortidentisch.</span></label>
+    <input type="text" id="scriptStarter" data-store="scriptStarter" placeholder="z. B. „Setzt euch – ihr wisst, was zu tun ist: …“">
+  </div>
+  <div class="field">
+    <label for="scriptTimer">6 · Timer <span class="sub">Wo ist er sichtbar, wer bedient ihn?</span></label>
+    <textarea id="scriptTimer" data-store="scriptTimer"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptScan">7 · Scannen <span class="sub">Was tust du in den ersten 30–60 Sekunden, statt ans Pult zu gehen?</span></label>
+    <textarea id="scriptScan" data-store="scriptScan"></textarea>
+  </div>
+  <div class="field">
+    <label for="scriptDoItAgain">Reset-Satz für „Do It Again" <span class="sub">Dein neutraler Wortlaut für einen ausgefransten Start.</span></label>
+    <input type="text" id="scriptDoItAgain" data-store="scriptDoItAgain" placeholder="z. B. „Das können wir flüssiger. Noch einmal.“">
   </div>
   <div class="commit-box">
     <input type="checkbox" id="vertretungTest" data-store="scriptVertretungTest">
-    <label for="vertretungTest" style="font-weight:600">Vertretungslehrer-Test bestanden: Eine fremde Lehrkraft könnte allein anhand meines Wortlauts feststellen, ob die Klasse ihn erfüllt.</label>
+    <label for="vertretungTest" style="font-weight:600">Vertretungslehrer-Test bestanden: Eine fremde Lehrkraft könnte allein anhand meines Wortlauts in Schritt 4 und 5 loslegen.</label>
   </div>
   <div class="card">
-    <h3>Vorschau deiner Einführung</h3>
+    <h3>Vorschau deiner Routine</h3>
     <p id="scriptPreview" style="font-size:.94rem"></p>
   </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Szenario-Simulator →</button></p>
+</section>
+
+<!-- 5 · SZENARIO-SIMULATOR -->
+<section class="screen" data-title="Szenario-Simulator">
+  <span class="eyebrow">Station 5 · Do it: Szenario-Simulator</span>
+  <h2>Vier Störkarten. Was tust du?</h2>
+  <p class="lead">Wähle bei jeder Situation die Reaktion, die deine Routine am wenigsten gefährdet.</p>
+  <div id="scenarioList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Do-Now-Baukasten →</button></p>
+</section>
+
+<!-- 6 · DO-NOW-BAUKASTEN -->
+<section class="screen" data-title="Do-Now-Baukasten">
+  <span class="eyebrow">Station 6 · Der Do-Now-Baukasten</span>
+  <h2>Eine Aufgabe, die sofort funktioniert.</h2>
+  <p class="lead">Wähle dein Fach, sieh dir das Beispiel an – und formuliere danach deine eigene Aufgabe für nächste Woche.</p>
+  <div class="tab-row" id="fachTabs"></div>
+  <div class="card">
+    <h3 id="fachTitle"></h3>
+    <p id="fachExample" style="font-size:.96rem"></p>
+  </div>
+  <div class="field">
+    <label for="doNowEigen">Deine eigene Do-Now-Aufgabe</label>
+    <textarea id="doNowEigen" data-store="doNowEigen" placeholder="…"></textarea>
+  </div>
+  <div class="card" id="doNowCritCard"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
 </section>
 
-<!-- 6 · QUIZ -->
+<!-- 7 · QUIZ -->
 <section class="screen" data-title="Quiz">
-  <span class="eyebrow">Station 6 · Quiz</span>
-  <h2>Sechs Fragen zu Woche 2 – plus zwei zur Auffrischung von Woche 1.</h2>
-  <p class="lead">Rund 30 % der Fragen kommen aus dem Vormodul – so bleibt Woche 1 präsent.</p>
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 2 – plus zwei zur Auffrischung.</h2>
+  <p class="lead">Rund 30 % der Fragen kommen aus den Vormodulen – so bleiben Auftakt und Woche 1 präsent.</p>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">Transfer (Freitext): Formuliere „Seid leise während der Stillarbeit" nach allen 5 Kriterien um – inklusive Begründungssatz und einer CFU-Frage.</p>
+    <p class="quiz-q">Transfer (Freitext): Deine 8. Klasse braucht am Montag nach den Ferien 3 Minuten, bis alle stehen und still sind. Beschreibe dein Vorgehen in dieser Stunde UND deinen Plan für Dienstag.</p>
     <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Muster: „Stillarbeit heißt: kein Gespräch, Fragen per Handzeichen an mich – damit jeder ungestört denken kann. – CFU: ‚Emre, was machst du, wenn du eine Frage hast?'"</p>
+    <p class="quiz-note" id="transferNote">Muster: Montag ruhig durchhalten, ggf. Do It Again + kurzer Erwartungs-Neustart mit Begründung; Dienstag: identischer Ablauf, auf Konstanz setzen. NICHT: das Ritual aufgeben oder mit Strafe drohen.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
 
-<!-- 7 · ACTION STEP & ABSCHLUSS -->
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
 <section class="screen" data-title="Action Step &amp; Export">
-  <span class="eyebrow">Station 7 · Ein Schritt. Nicht fünf.</span>
+  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
   <h2>Dein Action Step für diese Woche.</h2>
-  <p class="lead">Diese Woche entscheidet sich, ob Action Steps ernst genommen werden. Wähle deinen.</p>
+  <p class="lead">Diese Woche zeigt sich, ob die Routine wirklich sitzt. Wähle deinen Action Step.</p>
   <div id="stepList"></div>
   <div class="commit-box">
     <input type="checkbox" id="commitCheck" data-store="commit">
     <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
   </div>
   <div class="card">
-    <h3>Zählfeld: Wie oft musstest du erinnern?</h3>
-    <div style="display:flex;gap:1.2rem;flex-wrap:wrap;margin-top:.6rem">
-      <div class="field" style="margin-top:0">
-        <label for="obsMontag">Montag</label>
-        <input type="number" id="obsMontag" data-store="obsMontag" min="0" placeholder="0">
-      </div>
-      <div class="field" style="margin-top:0">
-        <label for="obsFreitag">Freitag</label>
-        <input type="number" id="obsFreitag" data-store="obsFreitag" min="0" placeholder="0">
-      </div>
+    <h3>Stoppuhr-Tagebuch: Sekunden vom Setz-Signal bis ~90 % arbeiten</h3>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.6rem">
+      <div class="field" style="margin-top:0"><label for="obsMo">Mo</label><input type="number" id="obsMo" data-store="obsMo" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsDi">Di</label><input type="number" id="obsDi" data-store="obsDi" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsMi">Mi</label><input type="number" id="obsMi" data-store="obsMi" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsDo">Do</label><input type="number" id="obsDo" data-store="obsDo" min="0" placeholder="Sek."></div>
+      <div class="field" style="margin-top:0"><label for="obsFr">Fr</label><input type="number" id="obsFr" data-store="obsFr" min="0" placeholder="Sek."></div>
     </div>
-    <p class="hint" style="margin-top:.6rem" id="deltaHint"></p>
+    <div class="chart-wrap" id="weekChart"></div>
+    <p class="hint" style="margin-top:.6rem">Der motivierendste Datenpunkt des Frühjahrs: Die Kurve sinkt fast immer über die Woche.</p>
   </div>
   <div class="card">
     <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
@@ -463,7 +496,7 @@ input[type=number]{max-width:8rem}
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen auf dem Start-Bildschirm wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
-  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche wird es handfest: Unsere Begrüßungsroutine wird vom Ritual zum Werkzeug – mit Skript, Timer und allem Drum und Dran."</div>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche: Was tun, wenn ihr MITTEN in der Stunde die Aufmerksamkeit zurückbraucht – und wie ihr Anweisungen gebt, die beim ersten Mal ankommen. Bringt eure Stoppuhr-Werte mit!"</div>
 </section>
 
 </main>
@@ -489,135 +522,135 @@ input[type=number]{max-width:8rem}
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script src="./shared/cpd-config.js"></script>
-<script src="./shared/cpd-client.js" data-module-key="modul2-woche02-hohe-erwartungen"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul2-woche02-zaesuren"></script>
 <script>
 /* ================= Daten ================= */
-const CRIT_NAMES=['Beobachtbar','Messbar','Positiv formuliert','Begründet','Geprüft (CFU)'];
-const CRIT_COLORS=['var(--b1)','var(--b2)','var(--b3)','var(--b4)','var(--b5)'];
-
-const CONTRAST={
- a:'„Ich erwarte, dass ihr respektvoll und leise in den Unterricht startet."',
- b:'„Wenn ich hereinkomme: aufstehen, Gespräche enden. Nach dem Setzen: Heft und Mäppchen liegen bereit, ihr arbeitet still am Starter. Spätestens 60 Sekunden nach dem Setzen höre ich nur noch Stifte."'
-};
-
-const SORT_ITEMS=[
- {t:'„Ich erwarte, dass ihr leise und konzentriert arbeitet."',correct:[1],note:'„Leise" und „konzentriert" sind Gefühle, keine Handlungen – ein Vertretungslehrer könnte die Erfüllung nicht feststellen.'},
- {t:'„Wer stört, wird irgendwann drangenommen – dann sprechen wir drüber."',correct:[2],note:'Kein Wann, kein Wie oft – nicht zählbar, nicht in der Zeit überprüfbar.'},
- {t:'„Nicht rumschreien in der Gruppenarbeit!"',correct:[3],note:'Negativ formuliert – sagt, was NICHT sein soll, nicht was stattdessen gilt (z. B. Flüsterlautstärke).'},
- {t:'„Ab jetzt gilt: Handy bleibt in der Tasche."',correct:[4],note:'Keine Begründung („damit…") – wirkt wie eine willkürliche Anordnung statt einer nachvollziehbaren Regel.'},
- {t:'„Ich habe die Regel letzte Woche erklärt, das muss reichen."',correct:[5],note:'Erklärt, aber nie per Verständnischeck zum Verhalten geprüft, ob sie wirklich verstanden wurde.'},
- {t:'„Geht bitte respektvoll und rücksichtsvoll miteinander um."',correct:[1,4],note:'„Respektvoll" und „rücksichtsvoll" sind keine beobachtbaren Handlungen; außerdem fehlt jede Begründung, warum das gelten soll.'},
- {t:'„Wer öfter stört, kriegt halt Konsequenzen."',correct:[2],note:'„Öfter" ist keine Zahl – weder für dich noch für die SuS ist klar, ab wann die Grenze erreicht ist.'},
- {t:'„Meldet euch nicht ständig, sondern denkt erst mal nach."',correct:[3],note:'Beginnt negativ („meldet euch nicht") – die positive Handlung (z. B. „10 Sekunden Bedenkzeit vor der Meldung") fehlt.'}
+const DIFF_OPTIONS=[
+ {id:1,t:'Der Einstieg beginnt am festen Punkt vorn – nicht sortierend am Pult.',ok:true},
+ {id:2,t:'Es wird auf 100 % Stehen und Stille gewartet, bevor gegrüßt wird.',ok:true},
+ {id:3,t:'Der Gruß-Wortlaut wechselt jeden Tag, damit es nicht eintönig wird.',ok:false},
+ {id:4,t:'Die Lehrkraft scannt nach dem Setzen den Raum, statt sofort an den Rechner zu gehen.',ok:true},
+ {id:5,t:'In der starken Variante spricht die Lehrkraft deutlich lauter.',ok:false},
+ {id:6,t:'Der Do Now ist in der starken Variante inhaltlich schwerer.',ok:false}
 ];
-function shuffledIndices(n){
-  const arr=Array.from({length:n},(_,i)=>i);
-  for(let i=arr.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [arr[i],arr[j]]=[arr[j],arr[i]];
-  }
-  return arr;
-}
-let sortOrder=shuffledIndices(SORT_ITEMS.length);
 
-const LIBRARY=[
- {id:'l1',vague:'Kommt ordentlich rein.',spez:'Nach dem Setzen: Heft + Mäppchen liegen bereit, ihr arbeitet still am Starter – spätestens nach 60 Sekunden.',stage:'beide'},
- {id:'l2',vague:'Meldet euch vernünftig.',spez:'Eine Hand hebt sich still. Gesprochen wird, wenn der Name fällt.',stage:'beide'},
- {id:'l3',vague:'Seid respektvoll in Diskussionen.',spez:'Ausreden lassen. Widerspruch beginnt mit dem Argument des anderen: „Du sagst X – ich sehe das anders, weil…"',stage:'beide'},
- {id:'l4',vague:'Arbeitet konzentriert in Gruppen.',spez:'Flüsterlautstärke: Nur euer Tisch hört euch. Jeder hält sein Ergebnis schriftlich fest.',stage:'beide'},
- {id:'l5',vague:'Geht anständig mit Material um.',spez:'Bücher werden mit beiden Händen zurückgestellt; Beschädigungen meldet ihr mir sofort – ohne Ärger zu bekommen.',stage:'sek1'},
- {id:'l6',vague:'Seid pünktlich fertig.',spez:'Abgabe bis 14:00 Uhr im Kursordner. Wer es nicht schafft, schreibt mir VORHER – wie später im Beruf auch.',stage:'sek2'}
+const STEPS=[
+ {id:1,short:'Vorbereitung',text:'Do Now steht an der Tafel/Folie – bevor gegrüßt wird.'},
+ {id:2,short:'Fester Punkt',text:'Wortloser Gang zur eigenen Position, ruhig stehen.'},
+ {id:3,short:'Warten auf 100 %',text:'Alle stehen, es ist still – schweigend, freundlich, notfalls länger.'},
+ {id:4,short:'Warmer Gruß',text:'Blick durch den ganzen Raum, Antwort abwarten.'},
+ {id:5,short:'Setz-Signal + Starter-Satz',text:'Immer derselbe Wortlaut: „Setzt euch – ihr wisst, was zu tun ist: …“'},
+ {id:6,short:'Timer',text:'Startet exakt mit dem Setz-Signal, für alle sichtbar.'},
+ {id:7,short:'Scannen',text:'Lehrkraft bleibt präsent, Blick kreist – nicht sofort ans Pult.'}
+];
+const STEP_DISPLAY=[4,7,2,5,1,3,6];
+
+const SCENARIOS=[
+ {tag:'A1 · Die Sitzenbleiber',situ:'Zwei SuS bleiben beim Aufstehen demonstrativ-lässig sitzen.',opts:[
+   {t:'Direkt ansprechen: „Steht bitte auf!“',ok:false,note:'Startet die Stunde mit einer Ansprache statt mit Warten – riskiert eine Diskussion vor dem Gruß.'},
+   {t:'Ruhig warten, Blickkontakt zu den beiden suchen, bis sie aufstehen',ok:true,note:'Genau: warten + Blick statt Ansprache. Keine Diskussion vor dem Gruß.'},
+   {t:'Trotzdem grüßen und einfach anfangen',ok:false,note:'Unterschreibt den Vertrag „Halbherzig reicht" – Modell 4 aus dem Auftakt.'}
+ ]},
+ {tag:'A2 · Das Kichern',situ:'Beim Aufstehen kichern zwei SuS anhaltend miteinander.',opts:[
+   {t:'Die ganze Klasse zurechtweisen',ok:false,note:'Bestraft die Gruppe für das Verhalten von zweien – unnötig.'},
+   {t:'Freundlich weiterwarten; nach dem Setzen ggf. leise Einzelansprache',ok:true,note:'Genau: nicht die ganze Klasse abstrafen, sondern gezielt und leise.'},
+   {t:'Lauter und strenger werden',ok:false,note:'Eskaliert unnötig einen kleinen Moment.'}
+ ]},
+ {tag:'A3 · Das Nachplätschern',situ:'Nach dem Setzen tuscheln drei SuS weiter, statt zu starten.',opts:[
+   {t:'Den Starter-Satz wiederholen und dabei lauter werden',ok:false,note:'„Zerredet" die Routine – der Satz soll konstant bleiben, nicht eskalieren.'},
+   {t:'Blickkontakt und Nähe suchen; notfalls Do It Again für den Startmoment',ok:true,note:'Genau: Blick + Nähe, notfalls neutraler Reset statt Wiederholen/Zerreden.'},
+   {t:'Sofort eine Konsequenz ankündigen',ok:false,note:'Zu scharf für einen kleinen Ausrutscher direkt nach dem Setzen.'}
+ ]},
+ {tag:'A4 · Die Sofort-Frage',situ:'Direkt nach dem Setz-Signal platzt eine laute inhaltliche Frage herein.',opts:[
+   {t:'Die Frage sofort ausführlich beantworten',ok:false,note:'Unterbricht die gerade erst gestartete Routine.'},
+   {t:'Freundlich parken: „Gute Frage – nach dem Starter.“',ok:true,note:'Genau: Routine schützen, Frage wertschätzen, ohne sie sofort zu bedienen.'},
+   {t:'Die Frage komplett ignorieren, ohne Reaktion',ok:false,note:'Wirkt abweisend – „parken" ist freundlicher und genauso wirksam.'}
+ ]}
+];
+
+const FACH_EXAMPLES=[
+ {id:'mathe',label:'Mathe',text:'„Löse: 3(x–2)=15. Notiere jeden Schritt.“'},
+ {id:'deutsch',label:'Deutsch',text:'„Nenne die drei Merkmale der Kurzgeschichte von letzter Woche – je ein Beispiel aus dem Text.“'},
+ {id:'englisch',label:'Englisch',text:'„Write 3 sentences about your weekend using the past perfect.“'},
+ {id:'geschichte',label:'Geschichte',text:'„Ordne: Kriegsende – Währungsreform – Grundgesetz. Begründe in einem Satz.“'},
+ {id:'nawi',label:'Naturwissenschaften',text:'„Skizziere den Versuchsaufbau von Dienstag und beschrifte drei Teile.“'},
+ {id:'oberstufe',label:'Oberstufe (alle Fächer)',text:'„Formuliere die Kernthese des letzten Textes in maximal 20 Wörtern.“'}
 ];
 
 const QUIZ=[
- {q:'F1. „Hohe Erwartungen haben" bedeutet in erster Linie:',
+ {q:'F1. Die Klasse steht beim Ritual unruhig und halb. Beste Reaktion:',
   opts:[
-   {t:'streng und unnachgiebig sein',ok:false,note:'Härte-Gleichsetzung – der häufigste Irrtum.'},
-   {t:'Klarheit + Zutrauen + konsequent freundliches Einfordern',ok:true,note:'Genau das trägt diese Woche.'},
-   {t:'viele Regeln aufstellen',ok:false,note:'Menge ist nicht der Punkt – Klarheit ist es.'},
-   {t:'keine Rücksicht auf schwierige Lebenslagen nehmen',ok:false,note:'Empathie-Strohmann – beides schließt sich nicht aus.'}
+   {t:'Die Unruhigen vor dem Gruß ermahnen',ok:false,note:'Startet die Stunde mit Korrektur statt mit Warten.'},
+   {t:'Das Ritual abschaffen, es wirkt kindisch',ok:false,note:'Der Sek-II-Mythos.'},
+   {t:'Schweigend, freundlich warten; ggf. ruhig neu ansetzen',ok:true,note:'Genau: Schritt 3, der Qualitätsschritt.'},
+   {t:'Trotzdem grüßen – Zeit ist knapp',ok:false,note:'Der Kernfehler: unterschreibt „Halbherzig reicht hier".'}
   ]},
- {q:'F2. Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:',
+ {q:'F2. Ein gutes Do Now …',
+  opts:[
+   {t:'ist ohne Hilfe lösbar, schriftlich, wiederholt Bekanntes',ok:true,note:'Genau die drei Kriterien.'},
+   {t:'führt ins neue Thema ein und braucht eine kurze Erklärung',ok:false,note:'Plausibel – erzeugt aber sofort eine Frage-Traube.'},
+   {t:'beschäftigt nur die Schnellen, bis alle da sind',ok:false,note:'Nicht der Zweck – alle sollen sofort starten.'},
+   {t:'wird eingesammelt und benotet',ok:false,note:'Nicht Teil der Kriterien.'}
+  ]},
+ {q:'F3. Der Starter-Satz sollte …',
+  opts:[
+   {t:'täglich variieren, sonst wird es langweilig',ok:false,note:'Der Abwechslungs-Reflex – schwächt das Signal.'},
+   {t:'möglichst ausführlich sein',ok:false,note:'Kurz und konstant schlägt ausführlich.'},
+   {t:'schriftlich ersetzt werden',ok:false,note:'Teilrichtig: die Aufgabe steht schriftlich – das Signal bleibt mündlich.'},
+   {t:'wörtlich identisch bleiben – Konstanz macht ihn zum Signal',ok:true,note:'Genau.'}
+  ]},
+ {q:'F4. „Do It Again" ist …',
+  opts:[
+   {t:'eine Kollektivstrafe',ok:false,note:'Nicht der Kerngedanke.'},
+   {t:'ein neutraler Reset: Standard einüben, Zutrauen zeigen',ok:true,note:'Der Ton macht den Unterschied zwischen Reset und Demütigung.'},
+   {t:'Zeitverschwendung',ok:false,note:'Amortisations-Blindheit – zahlt sich über die Woche aus.'},
+   {t:'nur in Klasse 5–7 einsetzbar',ok:false,note:'Struktur bleibt, Ton wird erwachsener.'}
+  ]},
+ {q:'F5. Direkt nach dem Setz-Signal gehst du zum Rechner, um den Beamer zu starten. Problem?',
+  opts:[
+   {t:'Schritt 7 fehlt: Ohne Scan lernt die Klasse, dass der Start unbeobachtet ist',ok:true,note:'Genau.'},
+   {t:'keins – Technik muss laufen',ok:false,note:'Technik ist wichtig, aber nicht in diesem Moment.'},
+   {t:'Beamer gehört verboten',ok:false,note:'Nicht das Thema.'},
+   {t:'nur ein Problem in Sek I',ok:false,note:'Gilt in jeder Stufe.'}
+  ]},
+ {q:'🔁 Auftakt: „Die Klasse konnte es in der Stunde, aber im Test war alles weg." Die beste Erklärung:',
+  opts:[
+   {t:'Die SuS haben zu Hause nicht genug geübt',ok:false,note:'Erklärt nicht, warum es in der Stunde noch da war.'},
+   {t:'Der Test war unfair gestellt',ok:false,note:'Möglich, aber nicht die naheliegendste Erklärung.'},
+   {t:'Der Stoff war nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis',ok:true,note:'Modell 1, Gedächtnis.'},
+   {t:'Die Klasse ist schwächer als gedacht',ok:false,note:'Begabungs-Attribution.'}
+  ]},
+ {q:'🔁 Woche 1: Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:',
   opts:[
    {t:'Die Klasse ist unwillig/testet dich',ok:false,note:'Personalisierung.'},
-   {t:'Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback',ok:true,note:'Verhalten ist ein Curriculum.'},
    {t:'Die Erwartung war zu hoch – absenken',ok:false,note:'Der teuerste Fehler: voreiliges Lockern.'},
-   {t:'Ohne Strafen geht es eben nicht',ok:false,note:'Nicht der Kernhebel dieser Woche.'}
-  ]},
- {q:'F3. „Respektvoll miteinander umgehen" ist als Erwartung:',
-  opts:[
-   {t:'ideal, weil werteorientiert',ok:false,note:'Klingt pädagogisch wertvoll – ist trotzdem zu vage.'},
-   {t:'zu vage – nicht beobachtbar, nicht prüfbar',ok:true,note:'Adjektiv statt Handlung.'},
-   {t:'nur für jüngere Klassen geeignet',ok:false,note:'Keine Alters-Sonderregel.'},
-   {t:'juristisch problematisch',ok:false,note:'Kein juristisches Thema.'}
-  ]},
- {q:'F4. Warum eine Begründung („damit…") zur Erwartung?',
-  opts:[
-   {t:'Höflichkeitsfloskel',ok:false,note:'Mehr als Floskel.'},
-   {t:'Sinn erhöht Akzeptanz – besonders bei älteren SuS',ok:true,note:'Genau der Hebel aus Lovell.'},
-   {t:'rechtlich vorgeschrieben',ok:false,note:'Kein Rechtsthema.'},
-   {t:'damit Eltern nicht klagen',ok:false,note:'Nicht der pädagogische Grund.'}
-  ]},
- {q:'F5. In der Oberstufe sind explizite Verhaltenserwartungen:',
-  opts:[
-   {t:'überflüssig – junge Erwachsene wissen das',ok:false,note:'Der Sek-II-Mythos.'},
-   {t:'nötig, aber im Ton erwachsen formuliert',ok:true,note:'Struktur bleibt, der Ton wird erwachsen.'},
-   {t:'kränkend',ok:false,note:'Kindisch wirkt die Formulierung, nicht die Struktur.'},
-   {t:'nur bei Problemen einzuführen',ok:false,note:'Dann ist das Fenster oft schon zu.'}
-  ]},
- {q:'🔁 Woche 1: „Gestern konnten sie es noch" – welches Modell erklärt das?',
-  opts:[
-   {t:'Gedächtnis – nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis angekommen',ok:true,note:'Genau: „gelernt" heißt „im Langzeitgedächtnis angekommen".'},
-   {t:'Motivation ist sozial',ok:false,note:'Hier nicht einschlägig.'},
-   {t:'Aufmerksamkeit',ok:false,note:'Nah dran, aber Modell 1 passt direkter.'},
-   {t:'Beziehungsarbeit',ok:false,note:'Hier nicht einschlägig.'}
-  ]},
- {q:'🔁 Woche 1: Routinen dienen im Unterricht in erster Linie dazu, …',
-  opts:[
-   {t:'Disziplin beizubringen',ok:false,note:'Dressur-Fehlvorstellung.'},
-   {t:'Arbeitsgedächtnis für Inhalte freizusetzen',ok:true,note:'Routinen sind Denk-Befreiung.'},
-   {t:'Zeit zu sparen',ok:false,note:'Stimmt auch, ist aber nicht der Kern.'},
-   {t:'der Lehrkraft Kontrolle zu geben',ok:false,note:'Nicht der Kerngedanke.'}
+   {t:'Ohne Strafen geht es eben nicht',ok:false,note:'Nicht der Kernhebel.'},
+   {t:'Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback',ok:true,note:'Verhalten ist ein Curriculum.'}
   ]}
 ];
 
 const ACTIONSTEPS=[
- {id:'standard',label:'Nachgeschärfte Erwartung einführen (Standard)',
-  text:'Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei CFU-Fragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?'},
- {id:'restart',label:'Erwartungs-Neustart Begrüßungsroutine (Alternative)',
-  text:'Ich starte die komplette Begrüßungsroutine explizit neu: erklären, begründen, modellieren, per CFU prüfen – abgestimmt mit meinem Coach.'},
- {id:'adult',label:'Erwachsene Erwartung für Sek II (Alternative)',
-  text:'Ich führe für einen Oberstufenkurs eine „erwachsene" Erwartung inkl. Begründung ein (z. B. Laptop-, Handy- oder Diskussionsregel).'}
+ {id:'standard',label:'Do Now &amp; Begrüßungsroutine einführen (Standard)',
+  text:'Ich führe ab Montag in Klasse X das Do Now ein: Aufgabe steht an der Tafel, bevor ich grüße; ich warte auf 100 % Stehen und Stille; mein Setz-Signal + Starter-Satz sind jedes Mal wörtlich gleich; der Timer startet mit dem Setzen. Ich messe täglich: Sekunden vom Setz-Signal bis ~90 % arbeiten.'},
+ {id:'schritt3',label:'Nur Schritt 3 fokussieren (Alternative)',
+  text:'Ich fokussiere ausschließlich Schritt 3: Eine Woche konsequent auf 100 % Stehen und Stille warten, bevor ich grüße – und meine Erlebnisse dazu notieren.'},
+ {id:'doitagain',label:'Do It Again einführen (Alternative)',
+  text:'Ich führe „Do It Again" ein: Beim ersten ausgefransten Start der Woche setze ich neutral zurück – „Das können wir flüssiger. Noch einmal." – und halte die Reaktion der Klasse fest.'}
 ];
 
-const VAGUE_WORDS=['ordentlich','vernünftig','respektvoll','konzentriert','anständig','pünktlich','ruhig','brav','diszipliniert','angemessen','aufmerksam','freundlich','fair','leise','vorsichtig','verantwortungsvoll','artig','normal'];
-
-function analyzeText(raw){
-  const t=' '+raw.toLowerCase()+' ';
-  const foundVague=VAGUE_WORDS.filter(w=>t.includes(' '+w));
-  const hasNeg=/\b(nicht|kein|keine|niemals|nie)\b/.test(t);
-  const hasReason=/\b(damit|weil|denn)\b/.test(t);
-  const hasMeasure=/\d|sekunde|minute|sofort|spätestens|direkt nach|bevor/.test(t);
-  const empty=raw.trim().length===0;
-  return{
-    empty,foundVague,hasNeg,hasReason,hasMeasure,
-    beobachtbar:empty?'grey':(foundVague.length?'red':'green'),
-    messbar:empty?'grey':(hasMeasure?'green':'amber'),
-    positiv:empty?'grey':(hasNeg?'red':'green'),
-    begruendet:empty?'grey':(hasReason?'green':'amber')
-  };
-}
-
 /* ================= Zustand & Speicherung ================= */
-let state={name:'',contrastChoice:0,
- sortSel:[[],[],[],[],[],[],[],[]],sortRevealed:[false,false,false,false,false,false,false,false],
- trainerStage:'alle',trainerLib:'',trainerModelShown:false,
- scriptErwartung:'',scriptBegruendung:'',scriptCfu1:'',scriptCfu2:'',scriptVertretungTest:false,
+let state={name:'',
+ calcStunden:'',calcMinuten:'',
+ diffSel:[],diffRevealed:false,
+ stepOrder:[],stepRevealed:false,
+ scriptStep1:'',scriptStep2:'',scriptStep3:'',scriptGruss:'',scriptStarter:'',scriptTimer:'',scriptScan:'',scriptDoItAgain:'',scriptVertretungTest:false,scriptModelShown:false,
+ scenarioSel:[0,0,0,0],
+ doNowFach:'mathe',doNowEigen:'',
  quizSel:[0,0,0,0,0,0,0],transferAnswer:'',transferShown:false,
- actionStep:'standard',obsMontag:'',obsFreitag:'',
+ actionStep:'standard',obsMo:'',obsDi:'',obsMi:'',obsDo:'',obsFr:'',
  exitMit:'',exitSorge:'',commit:false,screen:0,
  submitted:false,submittedAt:null,submissionText:''};
-const STORE_KEY='modul2-woche02-hohe-erwartungen';
+const STORE_KEY='modul2-woche02-zaesuren';
 let saveTimer=null;
 
 /* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
@@ -632,7 +665,7 @@ const store=(function(){
       async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
   }
   try{
-    const t='__m2test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    const t='__m3test';localStorage.setItem(t,'1');localStorage.removeItem(t);
     return{label:'browser',
       async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
       async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
@@ -728,136 +761,160 @@ presBtn.addEventListener('click',()=>{
   presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
 });
 
-/* ================= Hook: Kontrastpaar ================= */
-function renderContrast(){
-  const g=document.getElementById('contrastGrid');g.innerHTML='';
-  [['a','Lehrkraft A'],['b','Lehrkraft B']].forEach(([key,label])=>{
-    const b=document.createElement('button');
-    b.className='riddle-card'+(state.contrastChoice===key?' sel':'');
-    b.innerHTML='<span class="tag">'+label+'</span>'+CONTRAST[key];
-    b.addEventListener('click',()=>{
-      state.contrastChoice=key;scheduleSave();renderContrast();
-      const rev=document.getElementById('contrastReveal');
-      rev.classList.add('on');
-      rev.innerHTML='<p>'+(key==='b'?'Genau – ':'Nachvollziehbar, A klingt wärmer. Aber: ')+'Nur bei B können Schüler wissen, was gemeint ist – und nur bei B lässt sich die Erfüllung überhaupt <strong>PRÜFEN</strong>. „Respektvoll" kann man nicht abhaken. „Alle Hefte liegen bereit" schon.</p>';
+/* ================= Hook: Zeitrechner ================= */
+document.getElementById('calcBtn').addEventListener('click',()=>{
+  const h=parseFloat(document.getElementById('calcStunden').value)||14;
+  const m=parseFloat(document.getElementById('calcMinuten').value)||4;
+  const weeks=38;
+  const minutesYear=h*m*weeks;
+  const hoursYear=minutesYear/60;
+  const daysYear=hoursYear/8;
+  state.calcStunden=h;state.calcMinuten=m;scheduleSave();
+  document.getElementById('calcResult').textContent=Math.round(hoursYear)+' Zeitstunden im Jahr – über '+daysYear.toFixed(1)+' Arbeitstage.';
+  document.getElementById('calcSub').textContent='Bei '+h+' Stunden/Woche und '+m+' verlorenen Minuten pro Stunde, über 38 Schulwochen gerechnet. Heute holst du sie zurück – nicht mit einem Trick, sondern mit dem Ritual, das du längst hast.';
+  document.getElementById('calcReveal').classList.add('on');
+});
+
+/* ================= See it: Unterschiede markieren ================= */
+function renderDiff(){
+  const g=document.getElementById('diffGrid');g.innerHTML='';
+  DIFF_OPTIONS.forEach(o=>{
+    const sel=state.diffSel.includes(o.id);
+    let cls='riddle-card'+(sel?' sel':'');
+    let extra='';
+    if(state.diffRevealed){
+      if(o.ok&&sel){cls+=' correctpos';extra='<br><span class="hint">✓ tatsächlicher Unterschied</span>';}
+      else if(o.ok&&!sel){cls+=' missed';extra='<br><span class="hint">Das war auch einer – leicht übersehen.</span>';}
+      else if(!o.ok&&sel){cls+=' wrongpos';extra='<br><span class="hint">✗ kein tatsächlicher Unterschied</span>';}
+    }
+    const b=document.createElement('button');b.className=cls;
+    b.innerHTML=o.t+extra;
+    if(!state.diffRevealed)b.addEventListener('click',()=>{
+      const idx=state.diffSel.indexOf(o.id);
+      if(idx>-1)state.diffSel.splice(idx,1);else state.diffSel.push(o.id);
+      scheduleSave();renderDiff();
     });
     g.appendChild(b);
   });
 }
-
-/* ================= See it: Reveals ================= */
-document.getElementById('revealParallel').addEventListener('click',()=>{document.getElementById('revealParallelBox').classList.add('on');});
-document.getElementById('revealFenster').addEventListener('click',()=>{document.getElementById('revealFensterBox').classList.add('on');});
-document.getElementById('revealCfu').addEventListener('click',()=>{document.getElementById('revealCfuBox').classList.add('on');});
-
-/* ================= Sortier-Spiel ================= */
-function renderSort(){
-  const wrap=document.getElementById('sortList');wrap.innerHTML='';
-  sortOrder.forEach((i,pos)=>{
-    const s=SORT_ITEMS[i];
-    const div=document.createElement('div');div.className='situ-item';
-    let btns='';
-    for(let n=1;n<=5;n++){
-      const sel=state.sortSel[i].includes(n);
-      const showCorrect=state.sortRevealed[i]&&s.correct.includes(n);
-      let cls='num-btn'+(sel?' sel':'')+(showCorrect?' correct':'');
-      let style=showCorrect?' style="background:'+CRIT_COLORS[n-1]+';border-color:'+CRIT_COLORS[n-1]+'"':'';
-      btns+='<button class="'+cls+'" data-i="'+i+'" data-n="'+n+'"'+style+'>'+(n)+' · '+CRIT_NAMES[n-1]+'</button>';
-    }
-    const correctNames=s.correct.map(n=>n+' · '+CRIT_NAMES[n-1]).join(', ');
-    div.innerHTML='<p class="situ-text">'+(pos+1)+'. '+s.t+'</p>'
-      +'<div class="num-row">'+btns+'</div>'
-      +'<p style="margin-top:.6rem"><button class="btn ghost small" data-reveal="'+i+'">Auflösung zeigen</button></p>'
-      +'<p class="situ-note'+(state.sortRevealed[i]?' on':'')+'"><strong>Verletzt: '+correctNames+'.</strong> '+s.note+'</p>';
-    wrap.appendChild(div);
-  });
-  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
-    const i=+b.dataset.i,n=+b.dataset.n;
-    const arr=state.sortSel[i];const idx=arr.indexOf(n);
-    if(idx>-1)arr.splice(idx,1);else arr.push(n);
-    scheduleSave();renderSort();
-  }));
-  wrap.querySelectorAll('[data-reveal]').forEach(b=>b.addEventListener('click',()=>{
-    state.sortRevealed[+b.dataset.reveal]=true;scheduleSave();renderSort();
-  }));
-}
-document.getElementById('sortResetBtn').addEventListener('click',()=>{
-  state.sortSel=SORT_ITEMS.map(()=>[]);
-  state.sortRevealed=SORT_ITEMS.map(()=>false);
-  sortOrder=shuffledIndices(SORT_ITEMS.length);
-  scheduleSave();renderSort();
-  showToast('Zuordnung zurückgesetzt.');
+document.getElementById('diffCheckBtn').addEventListener('click',()=>{
+  state.diffRevealed=true;scheduleSave();renderDiff();
+  document.getElementById('diffReveal').classList.add('on');
+});
+document.getElementById('diffResetBtn').addEventListener('click',()=>{
+  state.diffSel=[];state.diffRevealed=false;scheduleSave();renderDiff();
+  document.getElementById('diffReveal').classList.remove('on');
 });
 
-/* ================= Umformulierungs-Trainer ================= */
-function renderStageTabs(){
-  const t=document.getElementById('stageTabs');t.innerHTML='';
-  [['alle','Alle'],['sek1','Sek I'],['sek2','Sek II']].forEach(([key,label])=>{
-    const b=document.createElement('button');b.className='tab-btn'+(state.trainerStage===key?' on':'');
-    b.textContent=label;
-    b.addEventListener('click',()=>{state.trainerStage=key;scheduleSave();renderStageTabs();renderLibrary();});
-    t.appendChild(b);
-  });
-}
-function renderLibrary(){
-  const wrap=document.getElementById('libGrid');wrap.innerHTML='';
-  LIBRARY.filter(l=>state.trainerStage==='alle'||l.stage==='beide'||l.stage===state.trainerStage).forEach(l=>{
-    const b=document.createElement('button');b.className='lib-card'+(state.trainerLib===l.id?' sel':'');
-    b.innerHTML='<span class="stage-tag">'+(l.stage==='sek1'?'Sek I':l.stage==='sek2'?'Sek II':'Sek I/II')+'</span><p style="margin-top:.3rem;font-weight:600">'+l.vague+'</p>';
-    b.addEventListener('click',()=>{
-      state.trainerLib=l.id;state.trainerModelShown=false;scheduleSave();
-      document.getElementById('trainerInput').value=l.vague;
-      renderLibrary();runCheck();renderTrainerModel();
+/* ================= Name it: 7 Schritte ================= */
+function renderStepOrder(){
+  const wrap=document.getElementById('stepOrderList');wrap.innerHTML='';
+  STEP_DISPLAY.forEach(id=>{
+    const step=STEPS.find(s=>s.id===id);
+    const pos=state.stepOrder.indexOf(id);
+    const num=pos>-1?pos+1:'?';
+    let cls='order-card'+(pos>-1?' sel':'');
+    if(state.stepRevealed&&pos>-1){cls+=((pos+1)===id?' correctpos':' wrongpos');}
+    const b=document.createElement('button');b.className=cls;
+    b.innerHTML='<span class="order-num">'+num+'</span><span class="order-text"><b>'+step.short+'</b>'+step.text+'</span>';
+    if(!state.stepRevealed)b.addEventListener('click',()=>{
+      const idx=state.stepOrder.indexOf(id);
+      if(idx>-1)state.stepOrder.splice(idx,1);else state.stepOrder.push(id);
+      scheduleSave();renderStepOrder();
     });
     wrap.appendChild(b);
   });
 }
-function runCheck(){
-  const raw=document.getElementById('trainerInput').value;
-  const r=analyzeText(raw);
-  const rows=[
-    ['1 · Beobachtbar',r.beobachtbar,r.foundVague.length?('Enthält vage Wörter: „'+r.foundVague.join('“, „')+'“ – ersetze sie durch eine sichtbare Handlung.'):'Keine vagen Adjektive gefunden – klingt beobachtbar.'],
-    ['2 · Messbar',r.messbar,r.hasMeasure?'Enthält eine Zeit-/Zählangabe – gut prüfbar.':'Noch keine Zeit- oder Zählangabe (z. B. „spätestens nach 60 Sekunden").'],
-    ['3 · Positiv formuliert',r.positiv,r.hasNeg?'Enthält eine Verneinung – sag stattdessen, was zu TUN ist.':'Beschreibt ein Tun statt einer Verneinung – gut.'],
-    ['4 · Begründet',r.begruendet,r.hasReason?'Enthält eine „damit/weil"-Begründung – gut.':'Noch keine Begründung – ergänze einen „damit…"-Satz.']
-  ];
-  document.getElementById('critRows').innerHTML=rows.map(row=>
-    '<div class="crit-row"><span class="crit-light '+row[1]+'"></span><div class="crit-text"><b>'+row[0]+'</b>'+row[2]+'</div></div>'
-  ).join('')+'<div class="crit-row"><span class="crit-light grey"></span><div class="crit-text"><b>5 · Geprüft (CFU)</b>Das prüfst du gleich im Skript-Editor mit zwei CFU-Fragen.</div></div>';
-  const greens=['beobachtbar','messbar','positiv','begruendet'].filter(k=>r[k]==='green').length;
-  document.getElementById('trainerScore').textContent=raw.trim()?('Ampel-Stand: '+greens+' von 4 automatisch prüfbaren Kriterien grün.'):'Schreib oder wähle eine Erwartung, um die Ampel zu sehen.';
-  document.getElementById('trainerModelBtn').style.display=state.trainerLib?'inline-flex':'none';
-}
-function renderTrainerModel(){
-  const card=document.getElementById('trainerModelCard');
-  const l=LIBRARY.find(x=>x.id===state.trainerLib);
-  if(!l||!state.trainerModelShown){card.classList.remove('on');card.innerHTML='';return;}
-  card.classList.add('on');
-  card.innerHTML='<h3>Muster-Lösung</h3><p>'+l.spez+'</p>';
-}
-document.getElementById('trainerCheckBtn').addEventListener('click',()=>{
-  state.trainerText=document.getElementById('trainerInput').value;scheduleSave();runCheck();
+document.getElementById('stepCheckBtn').addEventListener('click',()=>{
+  if(state.stepOrder.length<7){showToast('Bring erst alle 7 Karten in eine Reihenfolge.');return;}
+  state.stepRevealed=true;scheduleSave();renderStepOrder();
+  document.getElementById('stepQualityCard').classList.add('on');
 });
-document.getElementById('trainerModelBtn').addEventListener('click',()=>{
-  state.trainerModelShown=!state.trainerModelShown;scheduleSave();renderTrainerModel();
-});
-document.getElementById('trainerInput').addEventListener('input',()=>{
-  state.trainerText=document.getElementById('trainerInput').value;scheduleSave();
+document.getElementById('stepResetBtn').addEventListener('click',()=>{
+  state.stepOrder=[];state.stepRevealed=false;scheduleSave();renderStepOrder();
+  document.getElementById('stepQualityCard').classList.remove('on');
 });
 
 /* ================= Skript-Editor ================= */
-document.getElementById('fromTrainerBtn').addEventListener('click',()=>{
-  const t=document.getElementById('trainerInput').value;
-  if(t){document.getElementById('scriptErwartung').value=t;state.scriptErwartung=t;scheduleSave();renderScriptPreview();showToast('Aus dem Trainer übernommen.');}
-  else{showToast('Der Trainer ist noch leer.');}
+document.getElementById('scriptModelBtn').addEventListener('click',()=>{
+  state.scriptModelShown=!state.scriptModelShown;scheduleSave();renderScriptModel();
 });
+function renderScriptModel(){
+  const card=document.getElementById('scriptModelCard');
+  if(!state.scriptModelShown){card.classList.remove('on');card.innerHTML='';return;}
+  card.classList.add('on');
+  card.innerHTML='<h3>Musterbeispiel</h3><p style="font-size:.9rem">'
+   +'<strong>1 Vorbereitung:</strong> Do Now an Tafel/Folie VOR dem Gruß; Timer bereit<br>'
+   +'<strong>2 Fester Punkt:</strong> wortlos zur Position Mitte vorn; Unterlagen bleiben zu<br>'
+   +'<strong>3 Warten 100 %:</strong> ruhiger Blick durch den Raum; bei Restunruhe freundlich weiterwarten, Blick zu den Betreffenden; KEIN Gruß in Unruhe<br>'
+   +'<strong>4 Gruß:</strong> „Guten Morgen, 9b." – Blick kreist; Antwort abwarten<br>'
+   +'<strong>5 Setz-Signal + Starter-Satz:</strong> „Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still." – identischer Wortlaut jede Stunde<br>'
+   +'<strong>6 Timer:</strong> startet exakt mit dem Setz-Signal, für alle sichtbar<br>'
+   +'<strong>7 Scan:</strong> vorn bleiben, Blick kreist 30–60 Sek.; erst dann Orga<br>'
+   +'<strong>Reset:</strong> „Das können wir flüssiger. Noch einmal." – neutraler Ton, kein Vorwurf, sofort neu</p>';
+}
 function renderScriptPreview(){
   const parts=[];
-  if(state.scriptErwartung)parts.push(state.scriptErwartung);
-  if(state.scriptBegruendung)parts.push(state.scriptBegruendung);
-  if(state.scriptCfu1)parts.push('CFU 1: '+state.scriptCfu1);
-  if(state.scriptCfu2)parts.push('CFU 2: '+state.scriptCfu2);
+  if(state.scriptStep1)parts.push('Vorbereitung: '+state.scriptStep1);
+  if(state.scriptStep2)parts.push('Fester Punkt: '+state.scriptStep2);
+  if(state.scriptStep3)parts.push('Warten: '+state.scriptStep3);
+  if(state.scriptGruss)parts.push('Gruß: '+state.scriptGruss);
+  if(state.scriptStarter)parts.push('Setz-Signal: '+state.scriptStarter);
+  if(state.scriptTimer)parts.push('Timer: '+state.scriptTimer);
+  if(state.scriptScan)parts.push('Scan: '+state.scriptScan);
+  if(state.scriptDoItAgain)parts.push('Reset: '+state.scriptDoItAgain);
   document.getElementById('scriptPreview').textContent=parts.length?parts.join(' — '):'Noch keine Eingaben.';
+}
+
+/* ================= Szenario-Simulator ================= */
+function renderScenarios(){
+  const wrap=document.getElementById('scenarioList');wrap.innerHTML='';
+  SCENARIOS.forEach((s,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    s.opts.forEach((o,j)=>{
+      const sel=state.scenarioSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.scenarioSel[i]){
+      const chosen=s.opts[state.scenarioSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Trägt die Routine. ':'✗ Riskiert die Routine. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+s.tag+': '+s.situ+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.scenarioSel[i]=j+1;scheduleSave();renderScenarios();
+  }));
+}
+
+/* ================= Do-Now-Baukasten ================= */
+function renderFachTabs(){
+  const t=document.getElementById('fachTabs');t.innerHTML='';
+  FACH_EXAMPLES.forEach(f=>{
+    const b=document.createElement('button');b.className='tab-btn'+(state.doNowFach===f.id?' on':'');
+    b.textContent=f.label;
+    b.addEventListener('click',()=>{state.doNowFach=f.id;scheduleSave();renderFachTabs();renderFachExample();});
+    t.appendChild(b);
+  });
+}
+function renderFachExample(){
+  const f=FACH_EXAMPLES.find(x=>x.id===state.doNowFach)||FACH_EXAMPLES[0];
+  document.getElementById('fachTitle').textContent=f.label;
+  document.getElementById('fachExample').textContent=f.text;
+}
+function renderDoNowCrit(){
+  const raw=document.getElementById('doNowEigen').value;
+  const hasTime=/\d|minute|min\.|sofort/i.test(raw);
+  const hasText=raw.trim().length>0;
+  const card=document.getElementById('doNowCritCard');
+  card.innerHTML='<h3>Kriterien-Check</h3>'
+   +'<div class="crit-row"><span class="crit-light '+(hasText?'green':'grey')+'"></span><div class="crit-text"><b>Schriftlich</b>'+(hasText?'Es steht etwas Konkretes da.':'Noch keine Aufgabe eingetragen.')+'</div></div>'
+   +'<div class="crit-row"><span class="crit-light '+(hasTime?'green':'amber')+'"></span><div class="crit-text"><b>3–5 Minuten</b>'+(hasTime?'Enthält eine Zeit-/Zählangabe.':'Noch keine Zeitangabe erkennbar.')+'</div></div>'
+   +'<div class="crit-row"><span class="crit-light grey"></span><div class="crit-text"><b>Ohne Erklärung lösbar</b>Das kannst nur du beurteilen: Könnte die Klasse sofort loslegen, ganz ohne dein Zutun?</div></div>';
 }
 
 /* ================= Quiz ================= */
@@ -905,15 +962,18 @@ function updateCommitLabel(){
   const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
 }
-function updateDeltaHint(){
-  const m=parseInt(state.obsMontag,10),f=parseInt(state.obsFreitag,10);
-  const el=document.getElementById('deltaHint');
-  if(!isNaN(m)&&!isNaN(f)){
-    const diff=m-f;
-    el.textContent=diff>0?('Rückgang um '+diff+' Erinnerungen – die Erwartung setzt sich durch.'):(diff<0?'Noch mehr Erinnerungen nötig als am Montag – normal in der Übungsphase, weiter konsequent freundlich einfordern.':'Gleich viele Erinnerungen wie am Montag – bleib konsequent, Verhalten braucht Wiederholung.');
-  }else{
-    el.textContent='Trag Montag und Freitag ein, sobald du sie gezählt hast.';
-  }
+function renderWeekChart(){
+  const days=[['obsMo','Mo'],['obsDi','Di'],['obsMi','Mi'],['obsDo','Do'],['obsFr','Fr']];
+  const vals=days.map(([k])=>parseFloat(state[k])||0);
+  const max=Math.max(...vals,1);
+  const wrap=document.getElementById('weekChart');wrap.innerHTML='';
+  days.forEach(([k,label],i)=>{
+    const v=vals[i];
+    const h=v>0?Math.max((v/max)*100,4):2;
+    const col=document.createElement('div');col.className='chart-col';
+    col.innerHTML='<div class="chart-val">'+(v||'–')+'</div><div class="chart-bar" style="height:'+h+'%"></div><div class="chart-label">'+label+'</div>';
+    wrap.appendChild(col);
+  });
 }
 
 /* ================= Formulare binden ================= */
@@ -926,8 +986,9 @@ function bindStores(){
       el.addEventListener('input',()=>{
         state[k]=el.value;scheduleSave();renderSummary();
         if(k==='name')setSharedName(el.value);
-        if(k==='scriptErwartung'||k==='scriptBegruendung'||k==='scriptCfu1'||k==='scriptCfu2')renderScriptPreview();
-        if(k==='obsMontag'||k==='obsFreitag')updateDeltaHint();
+        if(['scriptStep1','scriptStep2','scriptStep3','scriptGruss','scriptStarter','scriptTimer','scriptScan','scriptDoItAgain'].includes(k))renderScriptPreview();
+        if(k==='doNowEigen')renderDoNowCrit();
+        if(['obsMo','obsDi','obsMi','obsDo','obsFr'].includes(k))renderWeekChart();
       });
     }
   });
@@ -935,15 +996,17 @@ function bindStores(){
 
 /* ================= Zusammenfassung & Export ================= */
 function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-function critNamesOf(arr){return arr.map(n=>n+'·'+CRIT_NAMES[n-1]).join(', ')||'–';}
 function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function scenarioScore(){return state.scenarioSel.reduce((a,v,i)=>a+(v&&SCENARIOS[i].opts[v-1].ok?1:0),0);}
 function renderSummary(){
-  const sortDone=state.sortRevealed.filter(Boolean).length;
   const quizDone=state.quizSel.filter(v=>v>0).length;
+  const scenDone=state.scenarioSel.filter(v=>v>0).length;
   const rows=[
-    ['Sortier-Spiel', sortDone===8?'✓ alle 8 aufgelöst':sortDone+'/8',sortDone===8],
-    ['Umformulierungs-Trainer', (document.getElementById('trainerInput')&&document.getElementById('trainerInput').value.trim())?'✓ geprüft':'noch offen',!!(document.getElementById('trainerInput')&&document.getElementById('trainerInput').value.trim())],
-    ['Skript-Editor', (state.scriptErwartung&&state.scriptBegruendung&&state.scriptCfu1&&state.scriptCfu2)?'✓ ausgefüllt':'noch offen',!!(state.scriptErwartung&&state.scriptBegruendung&&state.scriptCfu1&&state.scriptCfu2)],
+    ['Kontrastpaar & Unterschiede', state.diffRevealed?'✓ geprüft':'noch offen',state.diffRevealed],
+    ['Die 7 Schritte', state.stepRevealed?'✓ geprüft':'noch offen',state.stepRevealed],
+    ['Skript-Editor', (state.scriptGruss&&state.scriptStarter)?'✓ Pflichtfelder ausgefüllt':'noch offen',!!(state.scriptGruss&&state.scriptStarter)],
+    ['Szenario-Simulator', scenDone===SCENARIOS.length?'✓ '+scenarioScore()+'/'+SCENARIOS.length+' tragfähig':scenDone+'/'+SCENARIOS.length,scenDone===SCENARIOS.length],
+    ['Do-Now-Baukasten', state.doNowEigen?'✓ formuliert':'noch offen',!!state.doNowEigen],
     ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
     ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
   ];
@@ -971,14 +1034,16 @@ document.getElementById('submitBtn').addEventListener('click',async()=>{
 });
 function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-  let t='MODUL 2 · HOHE ERWARTUNGEN – VERHALTEN IST EIN CURRICULUM – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
-  t+='— SORTIER-SPIEL —\n';
-  SORT_ITEMS.forEach((s,i)=>{t+=(i+1)+'. '+critNamesOf(state.sortSel[i])+' (richtig: '+critNamesOf(s.correct)+')\n';});
-  t+='\n— UMFORMULIERUNGS-TRAINER —\n'+(document.getElementById('trainerInput')?document.getElementById('trainerInput').value||'–':'–')+'\n';
-  t+='\n— SKRIPT-EDITOR —\nErwartung: '+(state.scriptErwartung||'–')+'\nBegründung: '+(state.scriptBegruendung||'–')+'\nCFU 1: '+(state.scriptCfu1||'–')+'\nCFU 2: '+(state.scriptCfu2||'–')+'\nVertretungslehrer-Test: '+(state.scriptVertretungTest?'bestanden':'noch nicht bestätigt')+'\n';
+  let t='MODUL 2 · DER STARKE STUNDENSTART – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— ZEITRECHNER —\n'+(state.calcStunden||'–')+' Std./Woche × '+(state.calcMinuten||'–')+' Anlaufminuten\n';
+  t+='\n— KONTRASTPAAR & UNTERSCHIEDE —\nAusgewählt: '+(state.diffSel.join(', ')||'–')+'\n';
+  t+='\n— DIE 7 SCHRITTE —\n'+(state.stepRevealed?'geprüft':'noch offen')+'\n';
+  t+='\n— SKRIPT-EDITOR —\nVorbereitung: '+(state.scriptStep1||'–')+'\nFester Punkt: '+(state.scriptStep2||'–')+'\nWarten: '+(state.scriptStep3||'–')+'\nGruß: '+(state.scriptGruss||'–')+'\nSetz-Signal: '+(state.scriptStarter||'–')+'\nTimer: '+(state.scriptTimer||'–')+'\nScan: '+(state.scriptScan||'–')+'\nReset: '+(state.scriptDoItAgain||'–')+'\nVertretungslehrer-Test: '+(state.scriptVertretungTest?'bestanden':'noch nicht bestätigt')+'\n';
+  t+='\n— SZENARIO-SIMULATOR —\n'+scenarioScore()+' von '+SCENARIOS.length+' tragfähig gewählt\n';
+  t+='\n— DO-NOW-BAUKASTEN —\nFach: '+state.doNowFach+'\nEigene Aufgabe: '+(state.doNowEigen||'–')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
-  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nErinnerungen Montag: '+(state.obsMontag||'–')+' · Freitag: '+(state.obsFreitag||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nStoppuhr Mo–Fr: '+[state.obsMo,state.obsDi,state.obsMi,state.obsDo,state.obsFr].map(v=>v||'–').join(' / ')+'\n';
   t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
   return t;
 }
@@ -997,24 +1062,29 @@ document.getElementById('pdfBtn').addEventListener('click',()=>{
 });
 function buildPrint(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-  let h='<h1>Modul 2 · Hohe Erwartungen – Verhalten ist ein Curriculum</h1>';
+  let h='<h1>Modul 2 · Der starke Stundenstart</h1>';
   h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 2 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
   const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
-  h+='<h2>Sortier-Spiel</h2>';
-  SORT_ITEMS.forEach((s,i)=>{h+=f((i+1)+'. '+s.t,'Deine Wahl: '+critNamesOf(state.sortSel[i])+' · Richtig: '+critNamesOf(s.correct));});
-  h+='<div class="pagebreak"></div><h2>Skript-Editor</h2>';
-  h+=f('Erwartung:',state.scriptErwartung);
-  h+=f('Begründung:',state.scriptBegruendung);
-  h+=f('CFU-Frage 1:',state.scriptCfu1);
-  h+=f('CFU-Frage 2:',state.scriptCfu2);
+  h+='<h2>Skript-Editor</h2>';
+  h+=f('1 Vorbereitung:',state.scriptStep1);
+  h+=f('2 Fester Punkt:',state.scriptStep2);
+  h+=f('3 Warten auf 100 %:',state.scriptStep3);
+  h+=f('4 Gruß-Wortlaut:',state.scriptGruss);
+  h+=f('5 Setz-Signal + Starter-Satz:',state.scriptStarter);
+  h+=f('6 Timer:',state.scriptTimer);
+  h+=f('7 Scannen:',state.scriptScan);
+  h+=f('Reset-Satz „Do It Again":',state.scriptDoItAgain);
   h+=f('Vertretungslehrer-Test:',state.scriptVertretungTest?'bestanden':'noch nicht bestätigt');
+  h+='<div class="pagebreak"></div><h2>Do-Now-Baukasten</h2>';
+  h+=f('Fach:',state.doNowFach);
+  h+=f('Eigene Do-Now-Aufgabe:',state.doNowEigen);
   h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
   h+=f('Transferaufgabe:',state.transferAnswer);
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   h+='<div class="pagebreak"></div><h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
-  h+=f('Erinnerungen Montag:',state.obsMontag)+f('Erinnerungen Freitag:',state.obsFreitag);
+  h+=f('Stoppuhr Mo–Fr:',[state.obsMo,state.obsDi,state.obsMi,state.obsDo,state.obsFr].map(v=>v||'–').join(' / '));
   h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
-  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger Sek I/II · Modul 2 „Hohe Erwartungen – Verhalten ist ein Curriculum" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger Sek I/II · Modul 2 „Der starke Stundenstart" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
   document.getElementById('printReport').innerHTML=h;
 }
 
@@ -1031,9 +1101,11 @@ function downloadStateFile(){
   }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
 }
 function refreshAllUI(){
-  bindStores();renderContrast();renderSort();renderStageTabs();renderLibrary();
-  if(document.getElementById('trainerInput'))document.getElementById('trainerInput').value=state.trainerText||'';
-  runCheck();renderTrainerModel();renderScriptPreview();renderQuiz();renderSteps();updateCommitLabel();updateDeltaHint();renderSummary();
+  bindStores();renderDiff();renderStepOrder();renderScriptModel();renderScriptPreview();
+  renderScenarios();renderFachTabs();renderFachExample();renderDoNowCrit();
+  renderQuiz();renderSteps();updateCommitLabel();renderWeekChart();renderSummary();
+  if(state.diffRevealed)document.getElementById('diffReveal').classList.add('on');
+  if(state.stepRevealed)document.getElementById('stepQualityCard').classList.add('on');
   if(state.transferShown)document.getElementById('transferNote').classList.add('on');
 }
 function loadStateFile(evt){
@@ -1067,18 +1139,20 @@ function showToast(msg){
   await loadState();
   applyTeacherName();
   bindStores();
-  renderContrast();
-  renderSort();
-  renderStageTabs();
-  renderLibrary();
-  if(state.trainerText)document.getElementById('trainerInput').value=state.trainerText;
-  runCheck();
-  renderTrainerModel();
+  renderDiff();
+  renderStepOrder();
+  renderScriptModel();
   renderScriptPreview();
+  renderScenarios();
+  renderFachTabs();
+  renderFachExample();
+  renderDoNowCrit();
   renderQuiz();
   renderSteps();
   updateCommitLabel();
-  updateDeltaHint();
+  renderWeekChart();
+  if(state.diffRevealed)document.getElementById('diffReveal').classList.add('on');
+  if(state.stepRevealed)document.getElementById('stepQualityCard').classList.add('on');
   if(state.transferShown)document.getElementById('transferNote').classList.add('on');
   const hints={
     cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',

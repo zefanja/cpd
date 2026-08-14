@@ -1,4 +1,4 @@
-# Skript Woche 12: „Angeleitetes Üben – das We do"
+# Skript Woche 12: „Selbstständiges Üben & aktives Monitoring – das You do"
 ## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,23 +7,24 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen? |
-| **Kernquellen** | Lovell/Dowley, Routine 8 (Guided Practice); Lemov T37 (Break It Down), T21 (Take the Steps); Rosenshine P5 (angeleitetes Üben), P8 (Gerüste); Guidance-Fading-Forschung |
-| **Funktion im Jahr** | Schließt die in W9 diagnostizierte „Sprung-Lücke". Die Fading-Treppe wird Standardwerkzeug (kehrt in W33 als Differenzierungs-Gerüst wieder); Break It Down ist die Fehler-Reaktions-Grammatik für No Opt Out (W23); die Stichproben-Kritik öffnet die Tür zu All-Response-Systemen (W25). Erste echte Begegnung mit Mini-Whiteboards – als erlebtes Werkzeug, noch nicht als Technik-Modul. |
-| **Lernziele** | Die TN können:<br>1. eine We-do-Phase mit Mitschrift aller, Frage-Steuerung und All-Response-Checks führen,<br>2. eine Fading-Treppe in vier Stufen für ein eigenes Thema bauen,<br>3. auf Fehler mit der kleinsten hilfreichen Zerlegung reagieren (Break It Down statt Lösung verraten),<br>4. begründen, warum verfrühtes You do die teuersten Fehler produziert. |
-| **Sitzungstyp** | Live-Demo mit der Gruppe als Klasse + Bau-Werkstatt + Rollenspiel. |
+| **Leitfrage** | Was tue ich eigentlich, während die Klasse arbeitet? |
+| **Kernquellen** | Lovell/Dowley, Routine 9 (Independent Practice); Lemov T25 (Circulate), T9 (Active Observation); Rosenshine P9 |
+| **Funktion im Jahr** | Vervollständigt I–We–You. Verwandelt die Stillarbeit vom „toten Winkel" der Stunde in die Datenerhebungs-Phase: ActiveObs liefert den Rohstoff für Reteaching (W25) und Whole-Class-Feedback (W33); die Route verbindet sich mit dem Radar aus W5. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
+| **Lernziele** | Die TN können:<br>1. eine Stillarbeitsphase mit vollständigen Startbedingungen eröffnen,<br>2. mit geplanter Route zirkulieren und dabei Arbeit LESEN statt nur Ruhe überwachen,<br>3. per ActiveObs vorab festlegen, was sie bei wem prüfen,<br>4. Einzelhilfen kurz halten und wiederkehrende Fehler zur Sammelklärung bündeln. |
+| **Sitzungstyp** | Planungs- und Analysewerkstatt mit Video-/Fallarbeit; das Rollenspiel pausiert – dafür wird am eigenen Sitzplan gearbeitet. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Plenumsbestuhlung für die Live-Demo (Min. 8–16), danach Vierergruppen. **Material:**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Klassensatz Mini-Whiteboards + Folienstifte + Wischlappen (Investition lohnt – sie werden ab jetzt in jeder Sitzung benutzt!)
-- [ ] Handout A: Fading-Treppen-Vorlage mit Musterbeispiel (Anhang 1.1)
-- [ ] Fehlerkarten-Set: 6 typische Schülerfehler zum Ziehen (Anhang 1.2)
-- [ ] Handout B: Break-It-Down-Stufenkarte (Anhang 1.3)
-- [ ] Demo-Inhalt der Moderation vorbereitet (Empfehlung: Prozentwert berechnen ODER Argument-Aufbau These-Beleg-Erläuterung)
+**Raum:** Vierergruppen; Beamer für Videoclip. **Vorab-Auftrag (W11-Exit-Karte):** eigenen Sitzplan der Hauptklasse mitbringen (Kopie/Foto).
+
+**Material (Checkliste):**
+- [ ] Retrieval-Quiz liegt aus (wieder auf Whiteboards – ab jetzt Standard!)
+- [ ] Handout A: Startbedingungen-Karte + You-do-Standard (Anhang 1.1)
+- [ ] Handout B: ActiveObs-Bogen (Anhang 1.2)
+- [ ] Videoclip: 3–4 Min. Circulate-Beispiel (alternativ: Laufweg-Fallkarte, Anhang 1.3)
+- [ ] Beobachtungsbogen Gruppenhospitation 2 (Anhang 3)
 
 ---
 
@@ -31,133 +32,136 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1) — **erstmals auf Mini-Whiteboards beantwortet** („3-2-1-hoch" pro Frage). Meta-Satz danach: *„Ich habe gerade in sechs Minuten fünfmal den Lernstand von ALLEN gesehen. Merkt euch das Gefühl – es wird heute noch wichtig."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Live-We-do mit der Gruppe (Minute 8–16)
+## Phase 2 · Brücke & Provokation (Minute 8–13)
 
-Die Moderation führt ein ECHTES We do durch – die TN sind die Klasse (Whiteboards bleiben in der Hand):
+> **Moderationstext:**
+> *„Verrats-Fasten und 80 %-Checks: Wer hat vor der Stillarbeit gemessen – und was kam raus?"* [2 Stimmen.]
+> *„Und jetzt eine ehrliche Frage, anonym, auf die Boards: Was habt ihr in eurer letzten Stillarbeitsphase überwiegend getan? A: korrigiert oder Orga erledigt. B: dem geholfen, der sich zuerst gemeldet hat, dann dem nächsten. C: gezielt geprüft, was ankommt. Drei-zwei-eins-hoch."* [Ergebnis würdigen – A und B dominieren immer.]
+> *„Kein Vorwurf – A und B sind die natürlichen Antworten auf einen Beruf mit zu wenig Zeit. Aber heute drehe ich euch die Perspektive: Die Stillarbeit ist die einzige Phase, in der 28 Köpfe gleichzeitig SCHRIFTLICH zeigen, was wirklich angekommen ist. Es ist die datenreichste Viertelstunde eurer Stunde – und die meisten von uns verbringen sie mit dem Rücken zu den Daten. Heute lernt ihr, sie zu ernten. Das Beste: Es ist körperlich entspannter als die Melde-Feuerwehr aus Option B."*
 
-Ablauf der Demo (am Beispiel Prozentwert): Aufgabe 1 wird gemeinsam gelöst – Moderation fragt jeden Schritt aus der Gruppe ab (*„Was suche ich zuerst? … Schreibt den Ansatz aufs Board – hoch."*), ALLE schreiben mit; bei Aufgabe 2 gibt die Moderation nur noch den ersten Schritt vor, den Rest liefern die „Schüler" auf Zuruf + Boards; Aufgabe 3 komplett auf Boards, Moderation scannt, kommentiert die Fehlerquote (*„Vier Boards mit demselben Vorzeichenfehler – schauen wir hin"*), löst per gestufter Hilfe auf.
+## Phase 3 · Input (Minute 13–27)
 
-> **Auswertung (3 Min.):** *„Ich lege die Karten auf den Tisch – was habe ich gesteuert? Erstens: Ich habe nichts vorgerechnet, ich habe ALLES erfragt – aber in einer Reihenfolge, die tragen musste. Zweitens: Jeder von euch hat jede Aufgabe geschrieben – Zuschauen war nicht buchbar. Drittens: Die Hilfe wurde von Aufgabe zu Aufgabe dünner – das habt ihr vielleicht gar nicht gemerkt. Viertens: Ich habe dreimal ALLE geprüft, nicht drei Freiwillige. Das ist das ganze We do in vier Sätzen."*
+### 3a · Startbedingungen (Min. 13–16)
+> *„Bevor ihr erntet, muss sauber gesät sein. Eine Stillarbeit beginnt mit fünf geklärten Dingen – ihr kennt das Handwerk aus Woche 3, hier die Checkliste: **Aufgabe** (steht schriftlich – Transienz, offiziell in Woche 15), **Zeit** (Timer sichtbar), **Sozialform** (allein? Flüsterpartner?), **Lautstärke** (definiert, nicht gefühlt), **Was-wenn-fertig** (die vergessene Fünfte! Ohne sie produziert jeder Schnelle eine Störung). Fünf Sätze, fünfzehn Sekunden – und die Phase trägt sich selbst."*
 
-## Phase 3 · Input: Fading, Break It Down, die Stichproben-Falle (Minute 16–27)
+### 3b · Circulate: die geplante Route (Min. 16–21)
+> *„Dann die Ernte, Werkzeug eins: **Circulate.** Vier Regeln: **Früh die Ebene durchbrechen** – Lemov nennt es break the plane: in den ersten zwei Minuten in den Raum HINEIN, nicht am Pult verwurzeln; wer früh kommt, normalisiert seine Anwesenheit überall. **Route statt Rufreihenfolge** – wer nur zu Meldern geht, wird von den Lautesten durch den Raum dirigiert und sieht die Stillen nie; die Route plant ihr vorher, eure Frühwarn-Plätze aus Woche 5 zuerst. **Lesen, nicht wachen** – der Blick geht auf die HEFTE, nicht über die Köpfe; kurz markieren: Haken, Unterstreichung, ‚Schau Zeile 3' – drei Sekunden pro Heft reichen für Daten. **Kurz bleiben** – maximal 60 Sekunden pro Einzelhilfe. Wer fünf Minuten bei einem Schüler kniet, hat 27 andere unbeobachtet – und die wissen das."* [W5-Echo: Modell 4.]
 
-### 3a · Guidance Fading (Min. 16–20)
-> *„Die Verantwortungsübergabe aus Woche 9 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Der Sprung-Fehler aus Woche 9 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
-
-### 3b · Break It Down (Min. 20–24)
-> *„Und was, wenn im We do eine falsche Antwort kommt? Der Reflex – ich kenne ihn gut – ist: Lösung sagen, weiter, Zeit ist knapp. Aber wer die Lösung verrät, hat gerade selbst geübt, nicht der Schüler. Lemovs Alternative: **Break It Down** – die kleinste Hilfe zuerst, gestuft: Erst ein **Hinweis** (‚Schau nochmal auf die Einheit'), dann ein **Beispiel** (‚Bei der Aufgabe vorhin haben wir zuerst…'), dann die **Regel** (‚Was sagt unsere Merkregel über…?'), dann der **erste Schritt** – und erst ganz zuletzt die Lösung. Jede Stufe gibt dem Kopf noch eine Chance, selbst anzukommen. Klingt nach Zeitverlust? Es sind Sekunden – und es sind die Sekunden, in denen gelernt wird."*
-
-### 3c · Die Stichproben-Falle + die 80 %-Schwelle (Min. 24–27)
-> *„Bleibt die Frage: WANN ist eine Stufe tragfähig? Und hier die wichtigste Warnung der Woche: **Drei richtige Meldungen sind keine Daten.** Das sind eure drei stärksten Schüler – eine Stichprobe, die systematisch lügt. Die Antwort habt ihr heute schon in der Hand gehalten: Boards hoch, ALLE antworten, ihr seht die Quote in fünf Sekunden. Und die Schwelle kennt ihr aus Woche 9: Erst bei rund 80 % sicherer Beherrschung wird die nächste Stufe betreten – und erst dann beginnt Stillarbeit. Warum so streng? Weil verfrühtes You do nicht einfach ‚schwierig' ist – es ist giftig: Wer zwanzig Minuten allein falsch übt, hat den Fehler EINGEÜBT. Und Umlernen ist teurer als Lernen; das werdet ihr in Block 3 im Detail verstehen. Die böseste Pointe des Schulalltags: Die fleißige Stillarbeitsphase kann Schaden anrichten, wenn die Brücke davor fehlte."*
+### 3c · ActiveObs + Sammelklärung (Min. 21–27)
+> *„Werkzeug zwei macht aus dem Rundgang eine Messung: **Active Observation.** Der Unterschied liegt in einem Satz VOR der Stunde: ‚Ich prüfe heute bei Aufgabe 2, ob sie den Vorzeichenwechsel sauber machen – zuerst bei den vier Wackelkandidaten.' Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als der diffuse Helfer in zwanzig. Woher wisst ihr, wonach ihr sucht? Aus eurem Exemplar (Woche 9 – die markierte Scheiter-Stelle!) und bald aus eurer Fallen-Sammlung.*
+> *Und die wichtigste Effizienzregel: Wenn derselbe Fehler zum dritten Mal auftaucht – STOPP. Kurz einfrieren: ‚Stifte runter, Blick nach vorn – drei von euch sind in dieselbe Falle getappt, schauen wir sie gemeinsam an.' Zwei Minuten Sammelklärung ersetzen zehn Einzelerklärungen – und die, die den Fehler noch vor sich hatten, sind gleich mit immunisiert."*
 
 ## Phase 4 · Name it (Minute 27–31)
 
-**We-do-Checkliste** an der Tafel: alle schreiben mit · Fragen statt Vorsagen · Fading-Stufe bewusst gewählt · mindestens ein All-Response-Check pro Stufe · ≥ 80 % BEVOR die nächste Stufe / die Stillarbeit beginnt. **Break-It-Down-Stufen:** Hinweis → Beispiel → Regel → erster Schritt → (Lösung). Merksatz: *„Die kleinste Hilfe zuerst – und Daten vor jedem Stufenwechsel."*
+**You-do-Standard** fixieren: Startbedingungen (5!) → Ebene früh durchbrechen → Route (Frühwarn-Plätze zuerst) → lesen & markieren → Top-3-Fehlerliste führen (Klemmbrett!) → ≤ 60 Sek. pro Einzelhilfe → ab 3× derselbe Fehler: Sammelklärung. Merksatz: *„Ich helfe nicht dem Lautesten – ich lese den Raum."*
 
 ## Phase 5 · Do it (Minute 31–52)
 
-### Runde 1 · Fading-Treppe bauen (Min. 31–41)
-Einzelarbeit an der eigenen aktuellen Unterrichtseinheit: alle vier Stufen konkret ausarbeiten (Handout A – bei Textfächern: Vollbeispiel = Musterabsatz, Lückenbeispiel = Absatz mit Leerstellen, Ansatz = erster Satz + Gliederungsgerüst). Tandem-Check mit der einen kritischen Frage: **„Ist Stufe 2 wirklich kleiner als Stufe 1 – oder ist es ein verkleideter Sprung?"** *(Häufigster Baufehler: Stufe 2 lässt gleich die schwierigste Stelle offen. Regel: Die erste Lücke ist eine leichte.)*
+### Runde 1 · Video-/Fallanalyse (Min. 31–39)
+Clip zeigen (oder Fallkarte Anhang 1.3): TN zeichnen den Laufweg der Lehrkraft mit und markieren: Wo verwurzelt? Wer wurde nie gesehen? Wo wäre die Sammelklärung fällig gewesen? Plenums-Blitz (3 Min.) mit dem Standard als Prüfraster.
 
-### Runde 2 · Break-It-Down-Rollenspiel (Min. 41–52)
-Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den Fehler im „We do" der übenden Lehrkraft; die Lehrkraft reagiert gestuft – der Beobachter zählt mit der Stufenkarte mit: Wo wurde eingestiegen? Wurde die Lösung zu früh verraten? 2 Durchgänge pro Person (verschiedene Karten), nach Feedback Sofort-Wiederholung. **Die eigentliche Übung ist das Unterdrücken des Verrat-Reflexes** – die Moderation sagt das vorher laut.
+### Runde 2 · Eigene Route + ActiveObs-Bogen (Min. 39–52)
+Ablauf:
 
-## Phase 6 · Action Step (Minute 52–58)
+1. **Routenplanung (6 Min.):** Auf dem mitgebrachten Sitzplan: Route einzeichnen (Frühwarn-Plätze zuerst, blinde Ecke aus W5 abgedeckt?), Standort-Anker markieren.
+2. **ActiveObs-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus dem Exemplar)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden?
+3. **Tandem-Härtetest (2 Min.):** Partner fragt: „Zeig mir auf deiner Route den Schüler, den du realistisch NIE erreichst – und was änderst du?"
 
-**Standard:** *„Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele (We do) – und ich prüfe mit Boards oder Abfrage an ALLE, dass wir bei ≥ 80 % sind, bevor jemand allein arbeitet."*
+## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
+
+**Standard:** *„In jeder Übungsphase dieser Woche laufe ich meine geplante Route und führe auf dem Klemmbrett die Top-3-Fehlerliste. Bei drittem Auftreten desselben Fehlers: Sammelklärung statt Einzelerklärung."*
 
 **Alternativen:**
 
-1. Treppen-Woche: die gebaute Fading-Treppe in der realen Einheit vollständig durchlaufen und pro Stufe die Quote notieren.
-2. Verrats-Fasten: eine Woche lang bei keiner falschen Antwort die Lösung sagen – immer erst Hinweis/Beispiel/Regel (Strichliste: Wie oft hat eine kleine Stufe gereicht?).
+1. 60-Sekunden-Woche: Einzelhilfen hart deckeln, Stoppuhr im Kopf.
+2. Startbedingungen-Woche: jede Phase mit allen fünf Bedingungen eröffnen, besonders „Was-wenn-fertig".
 
-*(Whiteboard-Logistik-Hinweis an TN: Wer noch keinen Klassensatz hat – laminierte Klarsichthüllen mit weißem Blatt + Folienstift kosten fast nichts. Beschaffungsweg über die Schule klärt der Coach.)*
+**Gruppenhospitation 2 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3) austeilen: Fokus I do / We do – Wortlaut-Protokoll einer Modellierung + Fading-Stufen identifizieren.
 
-> **Ausblick:** *„Nächste Woche das You do – und die provokante These: Die Stillarbeitsphase ist nicht eure Verschnaufpause, sondern die datenreichste Phase der Stunde. Ihr lernt, was ihr währenddessen eigentlich tut. Bringt dafür den Sitzplan eurer Hauptklasse mit – Kopie oder Foto genügt."*
+> **Ausblick:** *„Nächste Woche schließen wir Block 2 mit der Klammer der Stunde: Das Do Now aus Woche 2 bekommt endlich Lern-Substanz, und ihr lernt das ehrlichste Diagnose-Werkzeug überhaupt kennen: das Exit Ticket – inklusive der Kunst, einen Klassensatz in zehn Minuten auszuwerten. Und: Block-2-Quiz!"*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Sitzplan-Erinnerung (W13).
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
 # 4. Coaching-Woche 12 (Handreichung)
 
-- **Hospitationsfokus:** der Übergang Erklärung → Übung. Protokoll: Wie viele gemeinsame Beispiele? Wer hat sie geliefert (Lehrkraft/Melder/alle)? Gab es einen All-Response-Check vor der Stillarbeit – und was zeigte er?
-- **Auswertungsgespräch:** Die eine Frage ins Zentrum: „Woher wusstest du, dass sie bereit für die Stillarbeit waren?" – ehrliche Antwort ist oft „Bauchgefühl/Zeitdruck" → Action Step: der 80 %-Check als Pflichtstation.
-- **Break-It-Down-Mikroübung im Gespräch:** Coach spielt zwei Schülerfehler aus der hospitierten Stunde nach, TN reagiert gestuft.
-- **Red Flag:** „Whiteboards sind mir zu unruhig/Grundschule" → nicht diskutieren, sondern vereinbaren: EINE Stunde testen mit sauberer Routine-Einführung (W3-Handwerk: Schreibsignal, Stille, 3-2-1-hoch); Erfahrung schlägt Vorbehalt fast immer.
+- **Hospitationsfokus:** eine komplette Übungsphase; Coach zeichnet **Laufweg + Standzeiten** auf einem Sitzplan mit (das visuelle Protokoll dieser Woche – oft ein Schock-und-Aha-Bild: drei Inseln, eine tote Zone).
+- **Auswertungsgespräch:** Laufweg-Bild vorlegen, TN interpretiert zuerst selbst; Abgleich mit der geplanten Route aus der Sitzung; Frage: „Welche Daten hast du von deiner Runde mitgebracht?" (Klemmbrett zeigen lassen – leer ist ein Befund, kein Vorwurf).
+- **Verzahnung:** ActiveObs-Fokus für nächste Woche aus dem Exemplar der laufenden Einheit ableiten.
+- **Red Flag:** TN „schafft die Route nicht", weil Dauerbrände (Störungen) sie binden → das ist ein Block-1-Rückfall, kein W12-Problem: Interventionsleiter-Action-Step reaktivieren, Route erst danach.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Fading-Treppen-Vorlage (mit Musterbeispiel „lineare Gleichungen")
-**Stufe 1 – Vollbeispiel:** 3x + 5 = 20, komplett vorgeführt mit Think Aloud (W11!). → **Stufe 2 – Lückenbeispiel:** 4x + 3 = 19; Lösungsweg steht, Lücken bei „| −3" und beim Endergebnis – Klasse füllt (erste Lücke leicht!). → **Stufe 3 – Ansatz:** 5x − 7 = 18; vorgegeben nur: „Erster Schritt: beide Seiten +7. Weiter allein." → **Stufe 4 – blank:** 6x + 11 = 47. — Pro Stufe ein Feld: „All-Response-Check: … / Quote: …%". *(Rückseite: Blanko + Textfach-Variante: Musterabsatz → Lückenabsatz → erster Satz + Gerüst → blank.)*
+## 1.1 Handout A: Startbedingungen + You-do-Standard
+**Die 5 Startbedingungen:** Aufgabe schriftlich · Zeit/Timer · Sozialform · Lautstärke definiert · Was-wenn-fertig. **Standard:** Ebene früh durchbrechen → Route (Frühwarn-Plätze zuerst) → lesen & markieren (✓ / Unterstreichung / „Zeile 3") → Top-3-Fehlerliste → ≤ 60 Sek./Einzelhilfe → 3× derselbe Fehler = Sammelklärung.
 
-## 1.2 Fehlerkarten-Set (Regieanweisung: Fehler überzeugt vertreten, nicht sofort einknicken!)
-- **K1 (Mathe):** „3x + 5 = 20, also x = 5, weil 20 geteilt durch… äh, minus 5 durch 3… ich hab einfach 20 − 5 − 3 gerechnet: 12? Nein, 5!" *(Rechenweg-Wirrwarr)*
-- **K2 (Mathe):** Vorzeichenfehler: „x = −5, weil minus 5 auf die andere Seite." 
-- **K3 (Deutsch):** These ohne Beleg: „Der Autor ist dagegen, das merkt man halt."
-- **K4 (Englisch):** „Yesterday I have seen him." *(Signalwort ignoriert)*
-- **K5 (NaWi):** Einheit vergessen/vertauscht: „Das Ergebnis ist 12." – „12 was?" – „Einfach 12."
-- **K6 (universal):** Richtige Antwort, falsche Begründung: „Stimmt zufällig – aber der Weg war geraten." *(Bonusfall: Right is Right als Vorgeschmack auf W23!)*
+## 1.2 Handout B: ActiveObs-Bogen
+Kopf: Stunde/Klasse/Datum. — **Was prüfe ich?** (konkret, aus Exemplar/Fallen-Liste): … — **Woran erkenne ich den Fehler in 3 Sek.?** … — **Bei wem zuerst?** (3–4 Namen): … — **Route** (Skizze/Reihenfolge): … — Live-Teil: **Top-3-Fehler (Strichliste):** 1… 2… 3… — **Entscheidung:** Sammelklärung nötig? ☐ wann: … / Konsequenz für morgen: …
 
-## 1.3 Handout B: Break-It-Down-Stufenkarte
-**1 Hinweis** („Schau nochmal auf …") → **2 Beispiel** („Vorhin bei Aufgabe 1 haben wir zuerst …") → **3 Regel** („Was sagt unsere Merkregel?") → **4 erster Schritt** (vormachen, Rest zurückgeben) → **(5 Lösung** – nur wenn 1–4 nicht tragen; dann zurückgeben: „Erkläre den Weg nochmal mit deinen Worten"**)**. Regel: kleinste Hilfe zuerst; nach jeder Stufe zurück an den Schüler.
+## 1.3 Laufweg-Fallkarte (Fallback ohne Video)
+*Kl. 8, Übungsphase 15 Min., 26 SuS. Min. 0–3: Lehrkraft am Pult, sortiert Blätter. Min. 3: erste Meldung vorn rechts → Lehrkraft geht hin, bleibt 4 Min. (Erklärung im Sitzen). Min. 7: zwei Meldungen gleichzeitig, Lehrkraft pendelt zwischen beiden (je 2 Min.). Min. 11: Unruhe hinten links (unbesuchte Zone seit Beginn) → Ermahnung quer durch den Raum. Min. 12–15: Lehrkraft hilft erneut vorn rechts (derselbe Schüler). Nie besucht: hintere Reihe komplett, Fensterreihe. Dreimal aufgetreten (den Heften nach): Vorzeichenfehler bei Aufgabe 2 – unbemerkt.* — Aufgabe: Laufweg skizzieren, 3 Verstöße gegen den Standard benennen, den Sammelklärungs-Moment festlegen. *(Lösung: verwurzelt/Pult-Start · Melder-Dirigat · 60-Sek.-Regel verletzt · tote Zone → Unruhe als Folge (Modell 4!) · Sammelklärung spätestens Min. 8.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, auf Whiteboards!)
-1. Der Modellierungs-Vierklang? *(Vormachen / Denken laut / Falle zeigen+auflösen / Kernschritte fixieren)*
-2. Fluch des Wissens + Gegenmittel? *(Zwischenschritte für Experten unsichtbar; Halbier-Regel)*
-3. Die Umformulierungs-Formel (Block 1)? *(„Ich sehe … – ich will …")*
-4. Die 80 %-Regel – beide Enden? *(<80 % zurück modellieren; dauerhaft 100 % Anspruch rauf)*
-5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach. *(individuell; Kriterium: Nicht-Beispiel liegt nah an der Konzeptgrenze)*
+## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
+1. Die We-do-Checkliste – nenne 4 der 5 Punkte. *(alle schreiben mit / Fragen statt Vorsagen / Fading-Stufe bewusst / All-Response-Check / ≥80 % vor Stillarbeit)*
+2. Break-It-Down-Stufen in Reihenfolge? *(Hinweis → Beispiel → Regel → erster Schritt → Lösung)*
+3. Die W.I.N.-Struktur (Block 1)? *(Was ist passiert – Schülersicht zuerst / Impact / Next steps)*
+4. Warum sind allein eingeübte Fehler so teuer? *(Umlernen teurer als Lernen; verfestigte falsche Routine)*
+5. (Anwendung) Deine Whiteboard-Abfrage zeigt 60 % richtig – was jetzt? *(Stufe halten/zurück: erneut We do bzw. Lückenbeispiel; keine Stillarbeit freigeben)*
 
 ## Teil 2: Modul-Quiz Woche 12 (für SPA/Folgewoche)
-**F1.** Drei SuS beantworten deine Kontrollfrage richtig. Schluss:
-a) Die Klasse kann es – weiter ✗ *(Alltagslogik: „es kamen ja richtige Antworten")*
-b) Keine belastbaren Daten – die Melder-Stichprobe lügt systematisch ✓
-c) Die Klasse kann es nicht ✗
-d) Die Frage war zu leicht ✗
+**F1.** Während der Stillarbeit ist deine Hauptaufgabe…
+a) Korrekturen und Orga – endlich Zeit dafür ✗ *(Alltagsrealität)*
+b) systematisches Datensammeln: Route, Lesen, Fehlerliste ✓
+c) beim schwächsten Schüler sitzen und intensiv helfen ✗ *(klingt fürsorglich – 27 unbeobachtet)*
+d) für absolute Ruhe sorgen ✗
 
-**F2.** Ein Schüler steckt im We do fest. Erste Hilfe:
-a) Lösung zeigen – Zeit ist knapp und andere warten ✗ *(DER Reflex)*
-b) kleinste Stufe: Hinweis, dann ggf. Beispiel/Regel ✓
-c) einen starken Schüler antworten lassen ✗ *(teilrichtig – aber dann muss es zurück zum Ersten: W23!)*
-d) die Aufgabe wechseln ✗
+**F2.** Vier SuS machen denselben Fehler. Du…
+a) erklärst es viermal einzeln – individuelle Förderung ✗ *(klingt vorbildlich!)*
+b) frierst kurz ein und klärst einmal für alle ✓
+c) wartest bis zur Besprechung am Ende ✗
+d) teilst die Lösung aus ✗
 
-**F3.** Verfrühtes You do ist gefährlich, weil…
-a) SuS sich langweilen ✗
-b) allein eingeübte Fehler entstehen – Umlernen ist teurer als Lernen ✓
-c) die Aufsicht schwieriger wird ✗
-d) es unfair gegenüber Schwachen ist ✗ *(klingt sozial – trifft es nicht)*
+**F3.** „Break the plane" früh in der Phase bewirkt…
+a) Kontrolle durch Einschüchterung ✗
+b) Anwesenheit wird normal; Daten fließen ab Minute 1 ✓
+c) Unruhe ✗
+d) nichts – Timing ist egal ✗
 
-**F4.** Auf deiner Fading-Treppe lässt Stufe 2 ausgerechnet die schwierigste Stelle offen. Das ist…
-a) gut – da liegt ja der Lernkern ✗ *(klingt anspruchsvoll!)*
-b) ein verkleideter Sprung – die erste Lücke muss eine leichte sein ✓
-c) egal, Hauptsache Lücken ✗
-d) nur in Mathe ein Problem ✗
+**F4.** Deine Route wird von Meldungen ständig durchkreuzt. Beste Lösung:
+a) Meldungen sofort bedienen – dafür sind sie da ✗ *(Service-Reflex: die Lauten dirigieren)*
+b) kurze Marker („Ich komme gleich"), Route halten, Melder einbauen ✓
+c) Meldungen in Stillarbeit verbieten ✗ *(Overkill)*
+d) Route aufgeben ✗
 
-**F5.** Der beste Zeitpunkt für den Beginn der Stillarbeit:
-a) wenn die Zeit knapp wird ✗ *(Schulrealität!)*
-b) wenn ein All-Response-Check ~80 % zeigt ✓
-c) nach genau zwei Beispielen ✗ *(Rezept-Falle: die Zahl ist Richtwert, der Check entscheidet)*
-d) wenn keine Fragen mehr kommen ✗ *(Selbstauskunft – W21 lässt grüßen)*
+**F5.** Die fünfte Startbedingung „Was-wenn-fertig" verhindert vor allem…
+a) Langeweile ✗ *(teilrichtig – zu weich)*
+b) dass jeder Schnelle zur Störungsquelle wird ✓
+c) Abschreiben ✗
+d) Fragen ✗
 
-**F6 (Transfer, Freitext):** Ein Schüler sagt im We do: „Yesterday I have seen him." Spiele Break It Down schriftlich durch – deine ersten drei Züge wörtlich. *(Muster: 1 Hinweis: „Schau auf das erste Wort des Satzes." → 2 Beispiel: „Yesterday I ___ football – wie hieß das vorhin?" → 3 Regel: „Was macht ein Signalwort wie yesterday mit der Zeitform?" – Lösung wird nicht verraten.)*
+**F6 (Transfer, Freitext):** Analysiere die Laufweg-Fallkarte: Nenne drei Standard-Verstöße und formuliere die Sammelklärungs-Ansage wörtlich. *(Muster-Ansage: „Stifte runter, Blick nach vorn. Drei von euch sind bei Aufgabe 2 in dieselbe Falle getappt – beim Rüberbringen der −5. Schaut her: …")*
 
 ---
 
-# Anhang 3: Ableitung für die SPA „Modul 12"
+# Anhang 3: Beobachtungsbogen Gruppenhospitation 2
+**Fokus:** I do / We do. | Spalte A: Wortlaut-Protokoll einer Modellierungssequenz (Think-Aloud-Momente unterstreichen!) | Spalte B: Fading beobachtet? (Vollbeispiel → Lücken → Ansatz → blank – was davon, in welcher Reihenfolge? All-Response-Checks?) | Spalte C: „Ein Move, den ich klaue." — **Nachbesprechung:** Runde 1 beschreibend (A/B), Runde 2 Spalte C, Runde 3: „Welche Fading-Stufe fehlt in MEINEM Unterricht am häufigsten?"
 
-1. **Hook (2 Min.):** Die Stichproben-Falle als Simulation: App zeigt eine „Klasse" aus 28 Punkten, 3 melden sich (alle grün) – Nutzer entscheidet „weiter?" – App deckt auf: 12 der stummen 25 sind rot. Punchline: „Deine Melder-Stichprobe lügt."
-2. **See it (5 Min.):** Das Live-We-do als kommentiertes Video/Transkript – die vier Steuerungs-Karten (alle schreiben / Fragen statt Vorsagen / Fading / All-Response) an den Stellen antippen, wo sie sichtbar werden.
-3. **Name it (3 Min.):** Fading-Treppe als interaktive Grafik; Break-It-Down-Stufen als Sortier-Spiel.
-4. **Do it – Fading-Treppen-Bauer (8 Min., Engine!):** Thema eingeben → vier Stufenfelder ausfüllen; Prüf-Heuristik: „Ist deine erste Lücke die leichteste Stelle?" (Selbst-Check-Prompt); Beispielbibliothek (Mathe/Sprachen/NaWi/Gesellschaft) als Vorlagen; Export ins Playbook.
-5. **Break-It-Down-Simulator:** Die 6 Fehlerkarten als verzweigte Dialoge – Nutzer wählt pro Zug Hinweis/Beispiel/Regel/erster Schritt/Lösung; Scoring belohnt kleinste tragende Stufe, „Lösung verraten" beendet den Fall mit Erklär-Feedback. K6 (richtig geraten) verzweigt zum Ausblick auf Modul 23.
-6. **80 %-Rechner:** Klassengröße + Board-Ergebnis eingeben → Ampel „Stufe halten / nächste Stufe / Stillarbeit frei".
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Stufen-Quoten-Log (Treppe × Tage).
+---
+
+# Anhang 4: Ableitung für die SPA „Modul 12"
+
+1. **Hook (2 Min.):** Die anonyme A/B/C-Frage aus Phase 2 als Selbsttest mit ehrlicher Statistik-Einblendung („Du bist nicht allein: die meisten wählen A/B").
+2. **See it (5 Min.):** Laufweg-Fallkarte als animierte Draufsicht – der Laufweg zeichnet sich in Echtzeit, Nutzer stoppt an Verstoß-Stellen.
+3. **Name it (3 Min.):** Die 5 Startbedingungen + Standard als Checklisten-Karten; Lückenspiel: Welche Bedingung fehlt in dieser Phaseneröffnung (4 Audio-Beispiele)?
+4. **Do it – Sitzplan-Simulator (8 Min., Engine!):** eigenen Sitzplan nachbauen (Raster-Editor oder Foto-Annotation) → Route ziehen → App prüft: Frühwarn-Plätze zuerst? Tote Zonen? → ActiveObs-Bogen digital ausfüllen (Prüf-Fokus wird aus dem Modul-9-Exemplar-Markup vorgeschlagen!).
+5. **60-Sekunden-Spiel:** simulierte Hilfe-Anfragen; Nutzer entscheidet pro Fall: kurzer Impuls / Marker + weiter / Sammelklärung – Scoring nach Standard.
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Top-3-Fehlerlisten-Log (füttert Modul 25 vor!).

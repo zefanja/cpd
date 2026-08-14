@@ -1,5 +1,5 @@
-# Skript Woche 27: „Motivations-Mechanik & Treiber 1: Secure Success"
-## 60-Minuten-Sitzung · Block 5 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 27: „Treiber 2 & 3: Run Routines & Nudge Norms – Kosten senken, Normen verschieben"
+## 60-Minuten-Sitzung · Block 5 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,21 +7,21 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: 80 %-Regel (W9), Fading (W12) |
-| **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgewochen (W28–31) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
-| **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
-| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
+| **Leitfrage** | Wie senke ich die Kosten der Anstrengung – und wie mache ich Anstrengung ansteckend? |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Run routines" + „Nudge norms"); Verzahnung: komplettes Block-1-Playbook, Modell 4 (Auftakt), Positive Framing (W6), Show Call (W24) |
+| **Funktion im Jahr** | Die Reinterpretations-Sitzung – das „Aha des Jahres": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert W6 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
+| **Lernziele** | Die TN können:<br>1. Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren,<br>2. Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit),<br>3. erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit),<br>4. den Konsistenz-Hebel im Kollegium benennen. |
+| **Sitzungstyp** | Reinterpretation + Sprach-Training – dramaturgisch die „Belohnungs-Sitzung": Die TN entdecken, dass sie das meiste schon können. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen. **Material:**
-- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1)
-- [ ] Der Nora-&-Evie-Kontrastfall als Vorlesetext/Folie (Anhang 1.1)
-- [ ] Handout A: Die EVK-Mechanik + Analysebogen (Anhang 1.2)
-- [ ] Handout B: Secure-Success-Werkzeuge + Attributions-Sprachkarte (Anhang 1.3)
+**Raum:** Vierergruppen; das eigene Playbook liegt auf dem Tisch (Vorab-Erinnerung per W26-Exit-Karte: Playbook mitbringen!). **Material:**
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Handout A: Die EVK-Landkarte des Playbooks (Anhang 1.1)
+- [ ] Sprach-Audit-Kartenset: 10 Negativ-Norm-Aussagen (Anhang 1.2)
+- [ ] Handout B: Sichtbarkeits-Plan-Vorlage (Anhang 1.3)
 
 ---
 
@@ -29,133 +29,144 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Reaktivierungs-Quiz + Re-Establish-Check (Minute 2–12)
-8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Osterferien sind vorbei – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der W21-Zettel gilt weiter, Montag ist das Fenster."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Nora & Evie (Minute 12–19)
+## Phase 2 · Brücke (Minute 8–12)
 
-Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleiche Klasse, gleiches Fach:
+> **Moderationstext:**
+> *„Erfolgs-Konstruktion: Wer hat seinem Fall zwei Erfolge gebaut – und was war beobachtbar?"* [2 Stimmen; auch „nichts sichtbar" würdigen: Erwartungs-Reparatur braucht Wochen, nicht Tage – Ausdauer ist Teil der Maßnahme.]
+> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Jahres bereits vollständig umgesetzt. Es hat sieben Wochen gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
 
-> *„**Nora** meldet sich, erledigt Hausaufgaben, fragt nach Zusatzaufgaben. **Evie** legt den Kopf auf den Tisch, ‚vergisst' Material, sagt bei jeder Aufgabe ‚kein Bock'. Die Lehrerzimmer-Diagnose steht in drei Sekunden: Nora ist motiviert, Evie ist unmotiviert. Fall geschlossen.*
-> *Und jetzt drehen wir die Kamera. Dieselbe Evie: dreieinhalb Stunden konzentriertes Training im Handballverein, freiwillig, dreimal die Woche. Perfekt geschnittene Videos für ihren Kanal – Schnittsoftware selbst beigebracht, über Stunden. Ist Evie ein unmotivierter Mensch? … Offensichtlich nicht. Evie ist ein hochmotivierter Mensch – nur nicht in Mathe, vierte Stunde, bei Frau K.*
-> *Das ist die wichtigste Umbau-Arbeit des heutigen Tages: **‚Unmotiviert' ist keine Eigenschaftsdiagnose. Es ist eine Situationsbeschreibung.** Und Situationen – im Gegensatz zu Eigenschaften – kann man verändern. Ihr kennt dieses Denkmuster: In Woche 15 haben wir ‚kann sich nichts merken' von der Eigenschaft zur Architektur-Frage umgebaut. Heute dasselbe mit ‚will nicht'."*
+## Phase 3 · Input A: Run Routines – die Reinterpretation (Minute 12–22)
 
-## Phase 3 · Input (Minute 19–30)
+> *„Die Auflösung: **Block 1.** Und jetzt der Blick durch die EVK-Brille – schlagt euer Playbook auf, wir gehen es durch:*
+> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Woche 20 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als im September, auch dort, wo ihr am WERT nie geschraubt habt.*
+> *Warum sage ich euch das erst jetzt? Weil die Reihenfolge des Programms genau darauf gebaut ist: Handwerk zuerst, Theorie als Belohnung – ihr SEHT die Mechanik jetzt in eurem eigenen Unterricht, statt sie glauben zu müssen. Und die praktische Konsequenz für heute: Wenn bei einem Schüler die Kosten der Engpass sind – Woche 26, euer Analysebogen – dann ist die Antwort oft kein Gespräch und kein Anreiz, sondern schlicht: Welche meiner Routinen erreicht ihn noch nicht? Läuft sein Stundenstart? Weiß er, was zu tun ist, wenn er hängt? Ist SEIN Blamage-Risiko gedeckelt?"*
 
-### 3a · Die EVK-Mechanik (Min. 19–24)
-> *„Wenn Motivation situativ ist – wovon hängt die Situation ab? McCrea bündelt die Motivationsforschung in einer Faustformel, unserer Brille für die nächsten fünf Wochen: **Anstrengungsbereitschaft = Erwartung × Wert ÷ Kosten.***
-> *​**Erwartung:** Glaube ich, dass ich es SCHAFFEN kann? Nicht objektiv – subjektiv, aus Evies Sicht. Wer fünf Jahre Mathe-Misserfolg gesammelt hat, dessen Erwartung liegt bei null.*
-> *​**Wert:** Bringt es mir etwas – ist es interessant, nützlich, oder zahlt es auf mein Ansehen ein? Wert ist vielfältiger als ‚Interesse': Auch ‚meine Freundin macht mit' ist Wert.*
-> *​**Kosten:** Was kostet es mich – Anstrengung, Zeit, Verwirrung, und die gefährlichste Währung: **Blamage-Risiko.** Vor der Klasse zu scheitern ist für Vierzehnjährige teurer als jede Hausaufgabe lang ist.*
-> *Und das Entscheidende an der Formel: Es ist eine MULTIPLIKATION mit einem Teiler. Erwartung null? Dann ist das Produkt null – egal wie spannend ihr das Thema verpackt. Deshalb scheitern die Motivations-Feuerwerke: Wer bei Evie den WERT hochdreht – tolles Thema, Alltagsbezug, Video! – aber die Erwartung bei null lässt, multipliziert mit null. Die Formel sagt euch, WO ihr ansetzen müsst, bevor ihr loslegt. Sie ist ein Diagnose-, kein Zauberwerkzeug."*
+## Phase 4 · Input B: Nudge Norms (Minute 22–32)
 
-### 3b · Treiber 1: Secure Success (Min. 24–30)
-> *„Und damit zum ersten von fünf Treibern, dem mit dem größten Hebel: **Secure Success – Erfolg konstruieren.** Nichts motiviert so zuverlässig wie die Erfahrung, etwas zu KÖNNEN, das gestern noch nicht ging – Erfolg füttert die Erwartung, und Erwartung ist der Multiplikator. Die schlechte Nachricht zuerst: Für Evie ist Mathe eine Misserfolgs-Maschine – jede Stunde bestätigt die Null. Die gute Nachricht: Ihr könnt die Maschine umbauen, und die Werkzeuge BESITZT ihr schon:*
-> *​**Der 80 %-Korridor** aus Woche 9 ist Motivationstechnik: Übungsphasen, in denen vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Woche 12: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
-> *Dazu die Sprach-Schicht, die **Attribution**: WORAUF führt ihr Erfolg zurück, wenn ihr lobt? ‚Du bist halt schlau' ist Talent-Attribution – sie macht den nächsten Misserfolg zur Identitätsfrage; ihr kennt das Argument aus Woche 7. ‚Du hast die Probe gemacht, DESHALB stimmt es' ist Vorgehens-Attribution – sie macht Erfolg wiederholbar: Das Vorgehen kann Evie morgen wieder wählen, ihr Talent nicht. Precise Praise aus Block 1 war immer schon Motivationstechnik – heute wisst ihr, warum.*
-> *Und die Fußnote zu **Belohnungssystemen** – Sticker, Punkte, Gummibärchen: Sie funktionieren, kurzfristig, als Starthilfe für Verhalten, das noch keinen Eigenwert hat. Aber sie sind ein Kredit mit Zinsen: Dauerhaft eingesetzt, verschieben sie den Wert vom Tun zur Belohnung – und wehe, die Belohnung bleibt aus. Regel: sparsam, temporär, mit geplantem Ausstieg – und immer parallel am echten Treiber bauen: am Erfolg."*
+> *„Treiber 3, und jetzt wird es sozial: **Nudge Norms.** Auftakt, Modell 4: Menschen tun, was ihre Gruppe normal findet – Jugendliche in Hochpotenz. Die Frage ist nie OB Normen wirken, sondern WELCHE gerade sichtbar sind. Und hier kommt der Satz, der wehtut:*
+> *​**Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Woche 6, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
+> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr habt es letzte Woche gelernt – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe zweiundzwanzig laufende Stifte' macht hörbar, was sonst lautlos bliebe.*
+> *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kollegen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
 
-## Phase 4 · Name it (Minute 30–33)
+## Phase 5 · Name it (Minute 32–35)
 
-**Die Brille:** Anstrengung = **E × W ÷ K**. Diagnose-Reihenfolge: erst E prüfen (Multiplikator!), dann K senken (Blamage-Risiko!), dann W heben. **Secure-Success-Besteck:** 80 %-Korridor · Fading-Einstiegserfolge · Vorentlastung · Vorgehens-Attribution. Merksätze: *„Unmotiviert ist eine Situationsbeschreibung."* / *„Erfolg ist die Mutter der Motivation – und Erfolg kann man konstruieren."*
+**Kosten-Frage** (bei K-Engpass): *„Welche meiner Routinen erreicht diesen Schüler noch nicht?"* **Normen-Regel:** *„Beschreibe nie das Fehlverhalten der Vielen – plakatiere die Mehrheit, die liefert (wenn wahr)."* **Sichtbarkeits-Trio:** Show Call · konkrete Peer-Anerkennung · arbeitende Mehrheit aussprechen. Merksatz: *„Die Norm ist, was die Bühne bekommt."*
 
-## Phase 5 · Do it (Minute 33–52)
+## Phase 6 · Do it (Minute 35–52)
 
-### Runde 1 · EVK-Fallanalyse am eigenen Schüler (Min. 33–45)
-Einzelarbeit auf dem Analysebogen (Anhang 1.2): Jeder wählt den eigenen „Evie-Fall" (diskret, kein Name auf dem Bogen nötig) und analysiert: E aus SEINER Sicht (Belege: Misserfolgsgeschichte? Vermeidungsverhalten?), W aus seiner Sicht, K aus seiner Sicht (Blamage-Risiko!). Dann: Welcher Faktor ist der Engpass – und welche EINE Maßnahme aus dem Besteck adressiert ihn? Tandem-Beratung (4 Min.): Partner prüft mit zwei Fragen: **„Ist deine Diagnose aus SEINER Sicht geschrieben – oder aus deiner?"** und **„Adressiert deine Maßnahme wirklich den Engpass – oder den bequemsten Faktor?"** *(Der klassische Fehler: E-Problem diagnostiziert, W-Maßnahme geplant – „ich mache das Thema spannender".)*
+### Runde 1 · Sprach-Audit (Min. 35–45)
+Tandems, 10 Karten (Anhang 1.2): Negativ-Norm-Aussage laut lesen → die versteckte Werbebotschaft benennen („Was plakatiert dieser Satz?") → Positiv-Norm-Umbau laut sprechen. Tempo-Format ab Karte 5 (der Umbau soll schneller werden als der Frust-Reflex). Qualitätsbremse: *„Wahrheits-Check – und kein Zucker: ‚Toll, dass wenigstens ein paar…' ist Ironie-Gift, Woche 6 gilt."*
 
-### Runde 2 · Attributions-Sprint (Min. 45–52)
-Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut in Vorgehens-Attributionen umformuliert – Tempo-Format wie der Umformulierungs-Sprint aus W7 (60 Sekunden, wechseln, Rekordjagd). Qualitätsbremse: *„Die Attribution muss ein WIEDERHOLBARES Vorgehen benennen – ‚gut aufgepasst' ist keins, ‚erst die Einheiten notiert' schon."*
+### Runde 2 · Sichtbarkeits-Plan (Min. 45–52)
+Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen:
 
-## Phase 6 · Action Step (Minute 52–58)
+1. Welche erwünschte Norm ist real vorhanden, aber unsichtbar?
+2. Welche Bühne bekommt sie diese Woche – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)?
+3. Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an?
 
-**Standard:** *„Ich konstruiere für meinen Evie-Fall diese Woche ZWEI garantierte Erfolgserlebnisse (Vorentlastung, Fading-Einstieg oder passgenaue Erstaufgabe) – und attribuiere jeden sichtbaren Erfolg in der Klasse auf das Vorgehen. Freitags notiere ich, was sich bei meinem Fall beobachtbar verändert hat – und sei es nur der Kopf, der nicht mehr auf dem Tisch liegt."*
+Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
+
+## Phase 7 · Action Step & Exit (Minute 52–60)
+
+**Standard:** *„Ich ersetze eine Woche lang JEDE Negativ-Norm-Aussage durch eine wahre Positiv-Norm-Aussage – Strichliste auf dem Pult (ertappt/umgebaut). Zusätzlich setze ich zwei Punkte meines Sichtbarkeits-Plans um."*
 
 **Alternativen:**
 
-1. Attributions-Woche pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult.
-2. EVK-Diagnose-Woche: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
+1. Bühnen-Woche: jeden Tag EINE konkrete Peer-Anerkennung für Anstrengung (nicht Leistung!).
+2. Konsistenz-Pilot: das Gespräch mit dem einen Kollegen führen und die gemeinsame Formulierung vereinbaren.
 
-> **Ausblick:** *„Nächste Woche die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
+> **Ausblick:** *„Nächste Woche Treiber 4 – der stillste und vielleicht wichtigste: Zugehörigkeit. Warum Schüler sich für Räume anstrengen, in denen sie gesehen werden – und was die Minute zwischen eurem Betreten des Raums und dem Begrüßungsritual damit zu tun hat. Bringt eure Sitzpläne mit."* **(Vorab-Auftrag auf die Exit-Karte: Sitzplan der schwierigsten Klasse!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerung: Playbook zur nächsten Sitzung mitbringen (W28).
+**Exit-Karte:** Standard + Sitzplan-Erinnerung.
 
 ---
 
 # 4. Coaching-Woche 27 (Handreichung)
 
-- **Hospitationsfokus:** der Evie-Fall in vivo: Verhalten des gewählten Schülers in einer Stunde beobachten (Vermeidungsmuster? Wann arbeitet er doch?) + Attributions-Protokoll: jedes Lehrer-Lob wörtlich, kategorisiert Talent/Vorgehen/unspezifisch.
-- **Auswertungsgespräch:** EVK-Bogen des TN neben die Beobachtung legen – stimmt die Diagnose mit dem beobachteten Verhalten überein? (Häufige Korrektur: Was wie W-Mangel aussieht, ist Blamage-Vermeidung = K.) Die zwei geplanten Erfolgserlebnisse konkretisieren: Wann genau, welche Aufgabe, woran misst du den Erfolg?
-- **Ton-Wache:** Vorentlastung DISKRET organisieren (nie „Ich geb dir was Leichteres" vor der Klasse – das wäre eine Kosten-Explosion durch Status-Verlust).
-- **Red Flag:** TN deutet die EVK-Brille als Entschuldigungs-Maschine („Der kann ja nicht anders, seine Erwartung ist null") → klarstellen: Die Brille erklärt, sie entlässt nicht – sie zeigt den ARBEITSPUNKT. Zweite Red Flag: Belohnungssystem als Dauerlösung geplant → Ausstiegsplan einfordern.
+- **Hospitationsfokus – das Normen-Protokoll:** 15 Minuten lang jede Norm-Kommunikation wörtlich mitschreiben und kategorisieren: Negativ-Norm / Positiv-Norm / neutral. Zusätzlich: Wer bekam die Bühne (Störung oder Anstrengung)? Strichliste.
+- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt (a) beobachtet worden?
+- **Verzahnung:** Beim W26-Fall nachfassen: Falls K-Engpass diagnostiziert war – die Kosten-Frage stellen („Welche Routine erreicht ihn nicht?") und eine Routinen-Reparatur als Maßnahme ergänzen.
+- **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit") oder das Verhalten erst per Routine aufbauen (W1/W2), DANN plakatieren.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Der Nora-&-Evie-Kontrastfall (Vorlesetext) — siehe Phase 2 (wörtlich; Folie: nur die zwei Namen + „motiviert?/unmotiviert?" als Tafelanschrieb, der nach der Kamera-Drehung durchgestrichen wird).
+## 1.1 Handout A: Die EVK-Landkarte des Playbooks
+Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit September."
 
-## 1.2 Handout A: EVK-Analysebogen
-Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E – Erwartung (aus SEINER Sicht):** Belege für Misserfolgsgeschichte: … / Traut er sich Einstiegsaufgaben zu? … / Schätzung 0–10: … — **W – Wert (aus seiner Sicht):** Interesse? Nutzen? Sozialer Wert? … / 0–10: … — **K – Kosten (aus seiner Sicht):** Anstrengung? Verwirrung (Lastprobleme, W16!)? **Blamage-Risiko?** … / 0–10: … — **Engpass-Diagnose:** … — **Meine EINE Maßnahme (aus dem Besteck, passend zum Engpass):** … — **Woran messe ich in 2 Wochen Veränderung (beobachtbar!):** …
+## 1.2 Sprach-Audit-Kartenset (10 Karten; versteckte Werbung → Muster-Umbau kursiv)
+1. „Die Hälfte hat schon wieder keine Hausaufgaben!" *(Werbung: Nicht-Abgabe ist normal)* → *„Über die Hälfte hat sie dabei – von den anderen sehe ich sie morgen. Ich halte nach, ihr kennt mich."*
+2. „Immer dieses Reingerufe bei euch!" *(Reinrufen ist Klassenidentität)* → *„Die meisten warten, bis ihr Name fällt – so machen wir das hier."*
+3. „Keiner hört mehr zu, wenn Mitschüler präsentieren." → *„Ich sehe viele Blicke nach vorn – ich will alle. Lea hat es verdient."*
+4. „In dieser Klasse kommt ja grundsätzlich jeder zu spät." → *„Zweiundzwanzig von euch sitzen um acht arbeitsbereit – das ist unser Standard."*
+5. „Ihr seid die unruhigste 8. die ich je hatte." *(Identitäts-Plakat!)* → *streichen; stattdessen konkret + positiv: „Der Start heute hat 40 Sekunden gedauert – das könnt ihr, das will ich jede Stunde sehen."*
+6. „Wieder haben nur drei Leute den Text gelesen." → *„Wer den Text gelesen hat, ist jetzt klar im Vorteil – und morgen prüfe ich mit dem Starter nach. Fair angekündigt."* *(+ Systemfix: Leseauftrag mit Retrieval koppeln!)*
+7. „Das Niveau der Abgaben wird immer schlechter." → *Show Call der besten Abgabe: „SO sieht der Standard aus – was macht diese Arbeit stark?"*
+8. „Bei Gruppenarbeit arbeitet doch eh nur einer pro Tisch." → *„Tisch drei hat die Rollen sauber verteilt – jeder hat ein Ergebnis im Heft. Genau so."*
+9. „Handys sind das Krebsgeschwür dieser Klasse." → *„Die Regel gilt, und fast alle halten sie – wer nicht, kennt die Konsequenz. Ohne Drama."*
+10. „Niemand meldet sich mehr freiwillig." → *„Ich habe heute vier mutige Erstantworten gehört – Fehler inklusive, so lernen wir hier."*
 
-## 1.3 Handout B: Besteck + Attributions-Sprachkarte
-**Besteck:** 80 %-Korridor (W9) · Fading-Einstieg (W12) · Vorentlastung (diskret! 3 Min. vorab) · passgenaue Erstaufgabe („die ersten zwei schafft er sicher") · Vorgehens-Attribution. **Sprint-Karten (8, Original → Muster):**
-1. „Du bist einfach begabt in Mathe!" → *„Du hast die Probe gerechnet, BEVOR du abgegeben hast – deshalb stimmt es."*
-2. „Na, da hattest du wohl Glück!" → *„Du hast das Signalwort unterstrichen – das war kein Glück, das war Methode."*
-3. „Siehst du, geht doch – wenn du nur willst!" → *„Du hast heute zuerst das Beispiel angeschaut und DANN gerechnet – genau so geht das."*
-4. „Du bist halt ein Sprachentyp." → *„Du hast dir die Vokabeln selbst abgefragt statt sie zu lesen – das zahlt sich aus."*
-5. „Endlich mal aufgepasst!" → *„Du hast dir Stichworte gemacht, während ich erklärt habe – und die Antwort saß."*
-6. „Dafür hast du ein Händchen." → *„Du hast erst skizziert, dann gebaut – der Plan war der Unterschied."*
-7. „Klar kannst DU das – du bist ja gut." → *„Du hast bei der schweren Stelle nicht aufgegeben, sondern die Merkregel geholt."*
-8. „Heute war wohl dein Glückstag!" → *„Du hast zuerst die leichten Aufgaben gesichert und dann die schwere angepackt – kluge Reihenfolge."*
+## 1.3 Handout B: Sichtbarkeits-Plan (Vorlage)
+Vorlage:
+
+1. **Wahre, unsichtbare Norm in meiner Klasse:** … (beobachtbar? ☐)
+2. **Bühne diese Woche:** Show Call am … von … | Peer-Anerkennung: wer, wofür (Anstrengung!): … | Mehrheits-Ansage bei Gelegenheit: …
+3. **Konsistenz-Anstoß:** Kollege/in: … | gemeinsame Formulierung: … | Gespräch am: …
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–26)
-1. Der Entscheidungs-Dreisatz (W26)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Umformulierungs-Formel (Block 1)? 8. (Anwendung) Erste Woche nach Osterferien: dein Re-Establish-Plan in zwei Sätzen?
+## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
+1. Die EVK-Formel + die Multiplikator-Pointe? *(E × W ÷ K; E=0 → alles null)*
+2. Die teuerste Kosten-Währung? *(Blamage-Risiko)*
+3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? 4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
+5. (Anwendung) Dein Fall zeigt hohe Kosten trotz guter Routinen – welche Kostenart prüfst du zuerst? *(Blamage-Risiko: Fehlerkultur bei IHM angekommen? Wird er ausgelacht?)*
 
 ## Teil 2: Modul-Quiz Woche 27 (für SPA/Folgewoche)
-**F1.** „Evie ist einfach unmotiviert." Diese Aussage ist…
-a) eine ehrliche, brauchbare Diagnose ✗ *(die Lehrerzimmer-Diagnose)*
-b) eine Eigenschafts-Zuschreibung – korrekt wäre die Situationsbeschreibung (E×W÷K analysieren) ✓
-c) beleidigend, aber wahr ✗
-d) nur mit Elterngespräch zu klären ✗
+**F1.** „Die Hälfte hat schon wieder keine Hausaufgaben!" bewirkt vor allem…
+a) sozialen Druck auf die Säumigen ✗ *(die Absicht)*
+b) Normalisierung: Nicht-Abgabe wird als üblich plakatiert ✓
+c) nichts ✗
+d) Respekt vor der Ehrlichkeit der Lehrkraft ✗
 
-**F2.** Evies Erwartung liegt bei null. Du machst das Thema spektakulär spannend. Ergebnis:
-a) Motivation steigt – Interesse zieht ✗ *(das Motivations-Feuerwerk)*
-b) null × hoher Wert = null; erst muss die Erwartung einen Riss bekommen ✓
-c) Motivation steigt langfristig ✗
-d) hängt vom Thema ab ✗
+**F2.** Routinen wirken motivational, weil sie…
+a) Disziplin erzwingen ✗ *(die Law-and-Order-Lesart)*
+b) die Kosten senken: Orientierung, Entzifferung, Blamage-Risiko ✓
+c) Zeit sparen ✗ *(teilrichtig – nicht der EVK-Kern)*
+d) den Wert des Unterrichts erhöhen ✗ *(falscher Formel-Faktor!)*
 
-**F3.** Die gefährlichste Kosten-Währung im Klassenzimmer:
-a) Zeitaufwand ✗
-b) Blamage-Risiko vor der Gruppe ✓
-c) Materialkosten ✗
-d) Hausaufgabenlänge ✗
+**F3.** Positiv-Norm-Kommunikation setzt voraus, dass…
+a) man notfalls etwas übertreibt – der Zweck heiligt ✗ *(fliegt auf)*
+b) die plakatierte Mehrheit WAHR und beobachtbar ist ✓
+c) die Klasse jung genug ist ✗
+d) man vorher straft ✗
 
-**F4.** „Du bist halt schlau" vs. „Du hast die Probe gemacht":
-a) beides Lob, beides gut ✗ *(fühlt sich gleich an)*
-b) Talent-Attribution macht Misserfolg zur Identitätsfrage; Vorgehens-Attribution macht Erfolg wiederholbar ✓
-c) Talent-Lob ist ehrlicher ✗
-d) der Unterschied ist akademisch ✗
+**F4.** Warum ist Show Call eine „Normen-Maschine"?
+a) weil er Fehler bestraft ✗
+b) jede gezeigte Arbeit definiert öffentlich, was „normal gut" hier heißt ✓
+c) weil Technik beeindruckt ✗
+d) ist er nicht – er ist reines Feedback ✗ *(die halbe Wahrheit aus W24)*
 
-**F5.** Ein Punktesystem für Hausaufgaben ist…
-a) grundsätzlich schädlich ✗ *(Überkorrektur)*
-b) eine temporäre Starthilfe mit geplantem Ausstieg – parallel am echten Erfolg bauen ✓
-c) die Dauerlösung für schwache Klassen ✗ *(der Kredit mit Zinsen)*
-d) nur in der Grundschule wirksam ✗
+**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte" ist besonders schädlich, weil…
+a) es unhöflich ist ✗
+b) es eine IDENTITÄT plakatiert – Normen kleben an Identitäten fester als an Verhalten ✓
+c) Eltern es erfahren könnten ✗
+d) Vergleiche verboten sind ✗
 
-**F6 (Transfer, Freitext):** Dein Evie-Fall verweigert jede Textaufgabe. Analysiere in drei Sätzen mit EVK und benenne die EINE Maßnahme samt Diskretions-Plan. *(Muster: E vermutlich Engpass [Misserfolgsgeschichte bei Textaufgaben], K hoch [Blamage beim Vorlesen/Scheitern], W unklar → Maßnahme: Vorentlastung der morgigen Schlüsselaufgabe im 2-Min-Einzelkontakt nach der Stunde – diskret, nie vor Publikum; Messpunkt: Beteiligt er sich morgen bei genau dieser Aufgabe?)*
+**F6 (Transfer, Freitext):** Baue Karte 6 um („Wieder haben nur drei den Text gelesen") – Positiv-Norm-Satz PLUS der Systemfix, der das Problem an der Wurzel packt. *(Muster: Norm-Satz siehe Karte; Systemfix: Leseaufträge mit angekündigtem Retrieval-Starter koppeln [W17/18] – Lesen bekommt sichtbare Konsequenz statt Appell.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 27"
 
-1. **Hook (3 Min.):** Nora & Evie als Comic-Sequenz mit Kamera-Drehung (Klassenzimmer → Handballhalle → Schnittsoftware); die durchgestrichene Diagnose als Kernbild.
-2. **See it (4 Min.):** Die EVK-Formel als interaktiver Rechner: drei Slider (E/W/K) → Anstrengungs-Anzeige; der Null-Multiplikator als Aha (W-Slider auf Maximum bei E=0 bewegt nichts!).
-3. **Name it (3 Min.):** Besteck-Karten; Diagnose-Reihenfolge-Karte (E → K → W).
-4. **Do it – EVK-Fallanalysator (9 Min., Engine!):** geführter Analysebogen (Anhang 1.2 digital) mit den zwei Tandem-Prüffragen als Pflicht-Prompts („aus SEINER Sicht?" / „Engpass oder bequemster Faktor?"); Maßnahmen-Auswahl wird gegen die Engpass-Diagnose validiert (E-Problem + W-Maßnahme → Warnhinweis mit Erklärung); Fall wird gespeichert und in Modul 29 (Beziehung) wieder aufgerufen.
-5. **Attributions-Sprint als Timer-Spiel:** die 8 Karten im 60-Sekunden-Modus (Umformulierungs-Engine aus Modul 7 wiederverwendet!); Heuristik prüft auf wiederholbares Vorgehen (Verben-Liste).
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 konstruierte Erfolge" mit Beobachtungs-Journal für den eigenen Fall.
+1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Jahres schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
+2. **See it (4 Min.):** Die EVK-Landkarte als interaktive Grafik: Block-1-Werkzeuge antippen → Kosten-Position leuchtet und der Formel-Nenner schrumpft sichtbar.
+3. **Name it (3 Min.):** Normen-Regel + Sichtbarkeits-Trio als Karten; „Was plakatiert dieser Satz?"-Vorschau mit 3 Beispielen.
+4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Umformulierungs-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".
+5. **Sichtbarkeits-Planer:** die Vorlage digital mit Wochen-Erinnerungen; Show-Call-Verzahnung (Modul-24-Dreischritt wird eingeblendet).
+6. **Konsistenz-Baustein:** Gesprächsleitfaden-Karte für den Kollegen-Anstoß („Als Frage rahmen, nicht als Belehrung") – Vorgeschmack auf die Erwachsenen-Gespräche in Modul 30.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Doppel-Strichliste (ertappt/umgebaut) + Sichtbarkeits-Plan-Checkboxen.

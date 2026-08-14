@@ -1,4 +1,4 @@
-# Skript Woche 23: „No Opt Out & Right is Right – Anspruch halten"
+# Skript Woche 23: „Turn and Talk & Everybody Writes – Denk-Ratio maximieren"
 ## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,21 +7,21 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
-| **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
-| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht das Exemplar (W10) als Maßstab; Break It Down (W12) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in W33 wieder). |
-| **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Exemplar als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
-| **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
+| **Leitfrage** | Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %? |
+| **Kernquellen** | Lemov T43 (Turn and Talk), T38 (Everybody Writes); Ratio-Konzept (W21) |
+| **Funktion im Jahr** | Skaliert die Einzeltechniken (W21/22) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (W24). Die enge Zeitführung nutzt das komplette W2/W3-Handwerk (Signale, Kanten, Timer). |
+| **Lernziele** | Die TN können:<br>1. beide Ratio-Regler benennen und Formate danach auswählen,<br>2. ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte),<br>3. Schreiben als Denkzeit vor Diskussionen einsetzen,<br>4. die vier häufigsten Format-Bugs erkennen und beheben. |
+| **Sitzungstyp** | Selbsterleben + Choreografie-Drill mit Stoppuhr – die Sitzung praktiziert durchgehend, was sie lehrt. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen + Kalibrier-Plenum. **Material:**
+**Raum:** Vierergruppen; feste „Übungspartner"-Zuordnung sichtbar (modelliert „feste Partner"!). **Material:**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Die Schleife in 4 Varianten + Stretch-It-Fächer (Anhang 1.1)
-- [ ] Kalibrierungs-Set: 10 Schülerantworten von „fast richtig" bis „richtig, aber flapsig" (Anhang 1.2)
-- [ ] Rollenkarten „Weiß-nicht"-Varianten (Anhang 1.3)
+- [ ] Handout A: Standard-Choreografie + Prompt-Prüfkarte (Anhang 1.1)
+- [ ] Bug-Karten: 4 verunglückte Turn-and-Talk-Szenen (Anhang 1.2)
+- [ ] Stoppuhren; Choreografie-Drill-Bogen (Anhang 1.3)
 
 ---
 
@@ -31,55 +31,63 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Der Drei-Wörter-Deal (Minute 8–14)
+## Phase 2 · See it: Das Selbsterleben (Minute 8–17)
 
-Moderation spielt den Dialog mit einem TN:
+Die Moderation stellt der Gruppe zweimal eine echte, diskussionswürdige Frage – **erst A, dann B, bewusst nacheinander:**
 
-> L: *„Was unterscheidet Wetter von Klima – Jonas?"* — J: *„Weiß nicht."* — L: *„Hm. Mia?"* — M: [antwortet richtig] — L: *„Genau! Weiter im Text."*
+**Variante A (klassisch):** *„Sollten Retrieval-Quizze irgendwann doch benotet werden – was meint ihr? Wer möchte?"* [Melde-Dynamik abwarten: zäh, 1–2 übliche Stimmen, Rest schaut.]
+
+**Variante B (choreografiert):** *„Neue Frage, neues Verfahren. – Sollte man Schülern die Programm-Bücher direkt in die Hand geben? Notiert 90 Sekunden still eure Position mit EINEM Grund – Stift läuft … [Timer] … Stopp. Jetzt 45 Sekunden: Vergleicht mit eurem Übungspartner – wer hat den stärkeren Grund? … [Endsignal] … Danke. Karla – was hat DEIN PARTNER gesagt?"* [2–3 Ernte-Cold-Calls, davon mindestens einer als Partnerfrage.]
 
 > **Auswertung:**
-> *„Alle zufrieden? Die richtige Antwort ist gefallen, die Stunde läuft. Aber schauen wir auf Jonas: Was hat ER in dieser Szene gelernt? … Dass ‚weiß nicht' funktioniert. Drei Wörter – und er hat für den Rest der Stunde frei. Das ist ein Deal, und ihr habt ihn gerade unterschrieben: Aussteigen kostet nichts. Und Modell 4 sorgt dafür, dass der Deal die Runde macht: Nächste Woche probieren ihn drei weitere.*
-> *Wohlgemerkt: Jonas ist kein Verweigerer. ‚Weiß nicht' ist meistens die billigste verfügbare Antwort auf eine unangenehme Situation – und sie bleibt nur so billig, wie IHR sie macht. Lemovs Gegenmittel heißt No Opt Out, und die Grundidee passt in einen Satz: **Die Runde endet erst, wenn die Ausgangsperson erfolgreich war.** Nicht als Strafe – als Versprechen: Bei mir kommt jeder ans Ziel."*
+> *„Ihr habt es gespürt – jetzt seziert es: Was war in B strukturell anders?"* [Sammeln: alle haben geschrieben = alle haben gedacht; die 45 Sekunden waren dicht, weil kurz; die Partnerfrage zwang zum ZUHÖREN; niemand konnte ‚nichts haben'.] *„Merkt euch besonders den letzten Punkt: In Variante A ist Zuhören optional. In Variante B ist es Überlebensstrategie – wer nicht zuhört, steht bei ‚Was hat dein Partner gesagt?' im Regen. Ein einziger Fragetyp verwandelt Partnergespräche von Plauderei in Arbeit."*
 
-## Phase 3 · Input (Minute 14–28)
+## Phase 3 · Input (Minute 17–28)
 
-### 3a · Die Schleife in vier Varianten (Min. 14–20)
-> *„Die Mechanik: Nach dem ‚Weiß nicht' beschafft ihr Hilfe – und kehrt dann ZU JONAS ZURÜCK. Vier Varianten, nach Aufwand sortiert:*
-> *​**Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Woche 12: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
-> *​**Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
-> *​**Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
-> *​**Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
-> *Und zur häufigsten Sorge – ‚Ist das Zurückkommen nicht bloßstellend?': Umgekehrt. Bloßstellend ist das AUFGEBEN – die stille Botschaft ‚Von dir erwartet hier keiner was'. Das Zurückkommen sagt das Gegenteil, und es ist nebenbei die Mindestform von Abruf, Woche 18: Auch das Wiederholen einer gehörten Antwort ist eine Gedächtnishandlung. Der Ton entscheidet: beiläufig-warm, kein Triumph, kein ‚Na also, geht doch!'"*
+### 3a · Die beiden Regler & Everybody Writes (Min. 17–21)
+> *„Woche 21, die zwei Regler: Wie VIELE denken (Participation Ratio) und wie TIEF (Think Ratio). Cold Call hebt den ersten Regler – aber immer noch antwortet einer nach dem anderen. Die heutigen Formate heben beide gleichzeitig. Baustein eins: **Everybody Writes** – vor jeder Diskussionsfrage schreiben ALLE, zwei bis vier Minuten. Vier Effekte auf einen Schlag: Jeder denkt (Schreiben ist nicht delegierbar); die Denkzeit ist demokratisch (auch die Langsamen kommen an – Wait Time für alle, verlängert); die Beiträge danach sind besser (formuliert schlägt improvisiert); und ihr habt schriftliches Material in der Hand – wofür, seht ihr nächste Woche. Nebeneffekt für die Stillen: Wer vom Blatt ablesen darf, meldet sich eher – das Geschriebene ist ein Sicherheitsnetz."*
 
-### 3b · Right is Right + Format Matters (Min. 20–25)
-> *„Zweite Baustelle: die halb richtige Antwort. Der Reflex – ich kenne ihn, er fühlt sich pädagogisch an – ist das Aufrunden: ‚Jaaa, genau, so ungefähr!' Drei Kosten hat dieser Reflex: Der Schüler speichert die halbe Antwort als ganze. Die Klasse lernt, dass ‚ungefähr' hier der Standard ist. Und in der Klausur rundet niemand auf. **Right is Right** heißt: freundlich würdigen, präzise nachfassen – ‚Fast. Der erste Teil steht – schärfe den zweiten nach.' Woran messt ihr ‚ganz richtig'? An eurem Exemplar aus Woche 10 – deshalb habt ihr es geschrieben. Drei Prüfsteine: vollständig richtig, nicht ungefähr richtig; die GESTELLTE Frage beantwortet, nicht eine benachbarte; und – dritter Prüfstein mit eigenem Namen – **Format Matters:** Fachsprache zählt. ‚Das Ding oben wird kleiner' mag inhaltlich stimmen – im Fach heißt es Zähler. Die Einforderung ist freundlich und kurz: ‚Richtig – jetzt in Fachsprache.' Das ist keine Pedanterie: Die Prüfung, das Studium, der Beruf sprechen Fachsprache, und wer sie hier nie sprechen musste, hat sie dort nicht.*
-> *Ausnahme mit Augenmaß: Beim allerersten Gehversuch in einem neuen Konzept darf die Alltagssprache eine Brücke sein – aber sie bleibt eine Brücke, kein Wohnort."*
+### 3b · Turn and Talk: die sechs Stellschrauben (Min. 21–26)
+> *„Baustein zwei: **Turn and Talk** – das Partnergespräch. Es hat einen miserablen Ruf (‚dann quatschen die doch nur'), und der Ruf ist verdient – für die SCHLAFFE Version. Die enge Version hat sechs Stellschrauben:*
+> - *​**Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama.*
+> - *​**Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar.*
+> - *​**Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende.*
+> - *​**Klares Startsignal** – ‚Mit dem Partner – los'.*
+> - *​**Klares Endsignal:** euer Aufmerksamkeitssignal aus Woche 3, exakt dafür gebaut.*
+> - *​**Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
+>
+> *Und die Lehrkraft WÄHREND der 60 Sekunden? Nicht ans Pult – kreisen und lauschen: Ihr hört in einer Minute fünf Gespräche an und wisst, welche Ernte sich lohnt (‚Ich habe bei Tisch drei etwas Spannendes gehört – Aylin?'). Das ist euer Circulate aus Woche 12, auf Ohren umgestellt."*
 
-### 3c · Stretch It (Min. 25–28)
-> *„Und was passiert nach einer RICHTIGEN Antwort? Der Standard-Reflex: ‚Genau!' – Punkt, weiter. Verschenkt. **Stretch It:** Die Belohnung für richtig ist eine interessantere Frage. ‚Richtig – woher weißt du das?' ‚Stimmt – und was wäre, wenn X anders wäre?' ‚Genau – ein Gegenbeispiel?' Ihr kennt den Fragenfächer aus Woche 20 – hier ist sein Einsatzort im Plenum. Stretch It ist eure Differenzierung nach oben ohne ein einziges Zusatzblatt: Die Starken bekommen ihre Herausforderung in der laufenden Runde. Und es sendet eine Norm: Bei uns ist ‚richtig' der Anfang des Denkens, nicht sein Ende."*
+### 3c · Die vier Bugs (Min. 26–28)
+> *„Die vier Bugs, an denen das Format stirbt: **zu lang** (Abschweifen ist keine Charakterfrage, sondern eine Zeitfrage) · **unpräziser Prompt** (‚Redet mal über den Text' erntet Wochenendpläne) · **keine Ernte** (ohne Ernte lernt die Klasse in zwei Wochen: Das Gespräch ist folgenlos – Beliebigkeit) · **Lehrkraft am Pult** (die Minute ist Datenzeit, keine Verschnaufpause)."*
 
 ## Phase 4 · Name it (Minute 28–32)
 
-**Merkformeln:** No Opt Out: *„Es endet bei dir – mit Erfolg."* · Right is Right: Reflexfrage *„Würde diese Antwort im Test volle Punkte bekommen?"* (Maßstab: Exemplar) · Format Matters: *„Richtig – jetzt in Fachsprache."* · Stretch It: Auf richtig folgt eine Frage, kein Punkt. — Fingerzeichen-Kalibrierung: 4 Mini-Antworten vorlesen → durchlassen (✓) oder nachfassen (✗)? (Vorgeschmack auf Runde 2.)
+**Standard-Choreografie** (Handout A): **Write (1–3 Min.) → Talk (30–90 Sek.) → Ernte (2–3 Cold Calls, davon 1 Partnerfrage).** Davor: Prompt-Prüfkarte (diskutierbar? präzise? in 60 Sek. substanziell?). Merksätze: *„Auf dem Wellenkamm beenden."* / *„Ohne Ernte keine Ernsthaftigkeit."*
+
+Fingerzeichen: 4 Prompts vorlesen → besteht die Prüfkarte? (z. B. „Tauscht euch über das Gedicht aus" ✗ / „Einigt euch auf DAS eine Wort, das die Stimmung kippen lässt – mit Zeilenbeleg" ✓.)
 
 ## Phase 5 · Do it (Minute 32–52)
 
-### Runde 1 · Schleifen-Rollenspiel (Min. 32–42)
-Vierergruppen, Rollenkarten (Anhang 1.3): Jeder führt zwei Schleifen als Lehrkraft (verschiedene Karten). Beobachter-Checkfragen: Kam die Rückkehr zur Ausgangsperson? War sie mehr als Papageien-Echo (eigene Worte/Anwendung)? Ton beiläufig-warm, kein Triumph? Bei Karte 4 (Verweigerung): ruhig geblieben, Angebot gemacht, Schleife offen gehalten?
+### Runde 1 · Bug-Diagnose (Min. 32–38)
+Tandems ziehen 2 Bug-Karten (Anhang 1.2): Bug benennen + Reparatur in einem Satz. Blitz-Vergleich im Plenum (je Karte 30 Sek.).
 
-### Runde 2 · Kalibrierung (Min. 42–52) — das Kernstück
-Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlassen / ✗ nachfassen. **Bei jeder Uneinigkeit: 60 Sekunden Begründungs-Austausch, dann Auflösung durch die Moderation.** *(Die Diskussion über die Grenzfälle – Nr. 4, 7, 9 – IST das Lernen: Ein Kollegium mit gemeinsamem Right-is-Right-Standard ist mehr wert als zehn Einzelkönner. Moderation sagt das explizit.)*
+### Runde 2 · Prompt-Werkstatt (Min. 38–44)
+Einzelarbeit: 2 eigene Diskussionsanlässe der kommenden Woche in präzise Prompts fassen; Tandem-Prüfkarte. Standard-Intervention der Moderation: *„Kann man deine Frage mit ‚ja' erledigen? Dann baue eine Entscheidung ein: einigt euch / wählt / ordnet."*
+
+### Runde 3 · Choreografie-Drill (Min. 44–52)
+Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W3-Kanten!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Kein ‚weiß nicht' bleibt diese Woche stehen: Ich beschaffe Hilfe (Hinweis oder Peer) und komme IMMER zur Ausgangsperson zurück – und sei es nur zum Anwenden der inzwischen geklärten Antwort. Abends notiere ich den bemerkenswertesten Rückkehr-Moment."*
+**Standard:** *„Vor jeder Diskussionsfrage dieser Woche: erst 2 Minuten Everybody Writes, dann 60 Sekunden Turn and Talk mit festen Partnern, dann Ernte mit mindestens einer Partnerfrage. Feste Partner teile ich am Montag zu – mit Begründung (W1-Handwerk)."*
 
 **Alternativen:**
 
-1. Right-is-Right-Woche: eine Woche lang kein Aufrunden – Reflexfrage im Kopf („volle Punkte?"), Nachfass-Formel bereit.
-2. Stretch-It-Woche: jede richtige Antwort in Klasse X bekommt eine Anschlussfrage aus dem Fächer.
+1. Ernte-Fokus: eine Woche lang JEDES Partnergespräch (auch spontane) mit „Was hat dein Partner gesagt?" ernten.
+2. Wellenkamm-Disziplin: alle Talk-Phasen hart auf 60 Sekunden – Beobachtung: Wann kippt Dichte in Rest-Zeit?
 
-> **Ausblick:** *„Ihr könnt jetzt Einzelne zum Denken bringen. Nächste Woche skalieren wir auf alle gleichzeitig: Turn and Talk und Everybody Writes – wie aus einer Frage an einen eine Denkaufgabe für achtundzwanzig wird. Mit Stoppuhr, versprochen."*
+> **Ausblick:** *„Ihr sammelt jetzt Denk-Material von allen – schriftlich. Nächste Woche machen wir es SICHTBAR: Mini-Whiteboards als Röntgengerät, Checkpoints in Arbeitsphasen, und die stärkste Feedback-Form, die ich kenne: Schülerarbeiten gemeinsam an der Wand – Show Call. Eure Everybody-Writes-Zettel sind dafür das Rohmaterial."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -87,89 +95,79 @@ Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlasse
 
 # 4. Coaching-Woche 23 (Handreichung)
 
-- **Hospitationsfokus:** Schleifen-Protokoll: jedes „weiß nicht"/Halb-Richtig wörtlich + was folgte (Rückkehr ja/nein? Aufrunden ja/nein?). Heatmap aus W22 weiterführen (Ziel-Zonen-Check!).
-- **Auswertungsgespräch:** Protokoll vorlegen; die eine verpasste Rückkehr gemeinsam nachspielen (Coach ist der Schüler). Kalibrier-Mini: 3 Antworten aus der hospitierten Stunde gemeinsam bewerten – deckt sich das Urteil?
-- **Verzahnung:** Exemplar der laufenden Einheit als Right-is-Right-Maßstab danebenlegen.
-- **Red Flag:** Rückkehr gerät zum Triumph-Moment („Siehste, geht doch!") oder zum Verhör → Ton-Arbeit im 1:1 (W5-Register); die Schleife trägt nur warm. Zweite Red Flag: TN fasst ALLES nach, auch Erstversuche in neuem Stoff → Augenmaß-Regel besprechen (Brücke Alltagssprache).
+- **Hospitationsfokus – die Ratio-Schätzung:** In einer 10-Minuten-Frage-/Diskussionssequenz zählen: Wie viele SuS haben nachweislich produziert (geschrieben/gesprochen/geantwortet)? Zusätzlich: Talk-Phasen stoppen (reale Länge!) und Ernte protokollieren (fand sie statt? Partnerfrage?).
+- **Auswertungsgespräch:** Die Ratio-Zahl nennen („In den 10 Minuten haben nachweislich 9 von 27 produziert") – sie ist der stärkste Veränderungshebel dieser Woche. Dann eine Sequenz der Folgewoche gemeinsam choreografieren (Write/Talk/Ernte mit Zeiten).
+- **Verzahnung:** Feste-Partner-Zuteilung besprechen (Kriterien: Arbeitsfähigkeit vor Freundschaft; 2–3 heikle Kombinationen vorab lösen).
+- **Red Flag:** Talk-Phasen real bei 4–5 Minuten („die waren so schön im Gespräch") → Wellenkamm-Prinzip klären: Die Dichte der ersten Minute ist der Maßstab, nicht die Gesprächsfreude der fünften; Dichte-Verlust live im nächsten Video zeigen.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Schleife + Stretch-It-Fächer
-**Die 4 Varianten** (Kurzform mit Beispielsätzen, siehe Phase 3a). **Rückkehr-Formate:** eigene Worte / Anwendungsfrage / Transferbeispiel – nie bloßes Echo erzwingen, wenn mehr möglich ist. **Stretch-It-Fächer:** Woher weißt du das? · Was wäre wenn …? · Gegenbeispiel? · Geht es auch anders/kürzer? · Wo würde das im Alltag auftauchen? — Fußzeile: „Ton: beiläufig-warm. Kein Triumph."
+## 1.1 Handout A: Choreografie + Prompt-Prüfkarte
+**Sequenz:** Write 1–3 Min. (Ansage: Aufgabe + Zeit + „Stift läuft") → Endsignal → Talk 30–90 Sek. (Ansage: Auftrag + Zeit + „los") → kreisen & lauschen → Endsignal (W3!) → Ernte: 2–3 Cold Calls, davon ≥ 1 „Was hat dein Partner gesagt?". **Prompt-Prüfkarte:** ☐ diskutierbar (Entscheidung/Abwägung eingebaut: einigt euch / wählt / ordnet / begründet) ☐ präzise (EIN Fokus) ☐ in 60 Sek. substanziell beantwortbar. **Bug-Liste:** zu lang · unpräzise · keine Ernte · Lehrkraft am Pult.
 
-## 1.2 Kalibrierungs-Set (10 Antworten; ✓/✗ + Begründung für Moderation)
-*Kontext je Karte angegeben; Auswahl:*
-1. Frage: „Was ist ein Prädikat?" – „Das Verb im Satz." → **✗ nachfassen** *(unvollständig: mehrteilige Prädikate; „Kern: ja – und wenn zwei Verben da sind?")*
-2. „Warum schwimmt Eis?" – „Weil es leichter ist als Wasser." → **✗** *(Dichte fehlt – Format Matters: „Richtig gedacht – jetzt mit dem Fachwort.")*
-3. „Nenne ein Beispiel für erneuerbare Energie." – „Windkraft." → **✓** *(Frage vollständig beantwortet – Stretch It anbieten: „Woran erkennt man ‚erneuerbar'?")*
-4. **Grenzfall:** „Was besagt der Satz des Pythagoras?" – „a² + b² = c²." → **✗ (diskussionswürdig!)** *(Formel ohne Geltungsbedingung rechtwinklig + Hypotenusen-Zuordnung = halbe Antwort; DIE Kalibrier-Debatte)*
-5. „Wann endete der Zweite Weltkrieg in Europa?" – „1945." → **✓ knapp** *(Frage beantwortet; Stretch: „Monat? Woran machst du das Ende fest?")*
-6. „Was ist eine Metapher?" – „So ein sprachliches Bild halt, wie ‚Meer aus Tränen'." → **✗ Format** *(Beispiel top, Definition flapsig: „Beispiel perfekt – jetzt die Definition in einem Fachsatz.")*
-7. **Grenzfall:** Frage nach dem Unterschied Wetter/Klima – Antwort erklärt nur Klima, korrekt. → **✗** *(nur die halbe GESTELLTE Frage – freundlich: „Klima steht. Und Wetter?")*
-8. „Übersetze: I have been living here since 2020." – „Ich lebe hier seit 2020." → **✓** *(korrekt; Stretch: „Warum NICHT ‚ich habe gelebt'?")*
-9. **Grenzfall:** richtige Antwort, erkennbar geraten (Begründung: „Bauchgefühl"). → **✗** *(W12-Karte K6! „Ergebnis stimmt – jetzt der Weg: Woran hättest du es prüfen können?")*
-10. „Was macht der Dativ?" – „Wem-Fall." → **✗ nachfassen** *(Merkwort ≠ Funktion: „Das Fragewort stimmt – was ZEIGT der Dativ im Satz an?")*
+## 1.2 Bug-Karten (4 Szenen; Bug + Muster-Reparatur für Moderation/SPA)
+**B1:** „Tauscht euch mal fünf Minuten über die Französische Revolution aus." *(Bugs: unpräzise + zu lang → „Einigt euch in 60 Sekunden: Welche EINE Ursache wiegt am schwersten? Ein Beleg.")*
+**B2:** Perfekter Prompt, 45 Sekunden, Endsignal – dann: „Gut, weiter im Text, Seite 12." *(Bug: keine Ernte → 2 Cold Calls + Partnerfrage nachrüsten.)*
+**B3:** Talk läuft; Lehrkraft sortiert am Pult Arbeitsblätter für die nächste Phase. *(Bug: Pult statt kreisen → lauschen + gezielte Ernte-Auswahl.)*
+**B4:** „Sucht euch einen Partner und besprecht Aufgabe 3." – 40 Sekunden Stühlerücken, zwei Grüppchen zu dritt, einer allein. *(Bug: keine festen Partner → Zuteilung als Routine, Woche-2-Handwerk.)*
 
-## 1.3 Rollenkarten „Weiß-nicht"-Varianten (Regieanweisungen)
-- **R1 „Echt unsicher":** Du weißt es halb; auf einen kleinen Hinweis hin kommst du selbst drauf. *(Ziel: Variante 1 genügt – Lehrkraft soll NICHT sofort zum Peer springen.)*
-- **R2 „Braucht den Peer":** Du weißt es wirklich nicht; nach Mias Antwort kannst du sie mit eigenen Worten fassen – aber nur, wenn die Lehrkraft eine ANWENDUNGS-Rückfrage stellt (bei „Wiederhol mal" antwortest du hölzern wortgleich). *(Ziel: Rückkehr-Format über Echo hinaus.)*
-- **R3 „Halber Ansatz":** Du lieferst einen richtigen Anfang und brichst ab. *(Ziel: Teilantwort als Material – „Der Anfang steht, bau weiter.")*
-- **R4 „Kein Bock":** Du verweigerst („Keine Ahnung, ist mir auch egal"), verschränkst die Arme; du taust NUR bei ruhigem Ton + Rückkehr-Angebot minimal auf. *(Ziel: Block-1-Werkzeuge, Schleife offen halten, kein Machtkampf vor Publikum.)*
+## 1.3 Choreografie-Drill-Bogen (Stoppuhr-Wächter)
+Zeilen: Write angesagt mit Zeit? ☐ / reale Write-Zeit: __ / Endsignal sauber? ☐ / Talk-Ansage mit Auftrag+Zeit? ☐ / reale Talk-Zeit: __ (Ziel 30–90!) / gekreist & gelauscht? ☐ / Ernte: __ Cold Calls, Partnerfrage? ☐ — Fußzeile: „Ein Impuls, dann 30-Sek.-Wiederholung der schwächsten Stelle."
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Der Cold-Call-Standard – nenne 4 der Bedingungen. *(eingeführt+begründet / Frage-Pause-Name / warm / normal-vorhersagbar / nie Disziplinierung / breit streuen)*
-2. Warum Frage → Pause → Name? *(bis zum Namen denken alle)*
-3. Zwei der vier Fehlerkultur-Hebel (W21)? *(erwarten+würdigen / eigene Fehler souverän / neutral+zügig inkl. Miene / Lach-Verbot)*
-4. Break-It-Down-Stufen (Block 2)? *(Hinweis → Beispiel → Regel → erster Schritt → Lösung)*
-5. (Anwendung) Dein Cold Call trifft auf Schweigen – deine erste Reaktion nach W22-Stand? *(freundlich Hinweis ODER weiterreichen + „ich komme zurück" – heute wird daraus die volle Schleife)*
+1. Die 4 No-Opt-Out-Varianten? *(Hinweis / Peer + Rückkehr / Teilantwort ausbauen / Verweigerung: ruhig + Angebot + W.I.N.)*
+2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Exemplar)*
+3. PR × TR – wofür stehen die Regler (W21)? *(wie viele denken × wie tief)*
+4. Wait Time: Sekunden + Rahmung? *(3–5 Sek.; produktiv rahmen: „einige notieren – gut")*
+5. (Anwendung) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache – deine Reaktion nach Format Matters? *(würdigen + „jetzt in Fachsprache" – kurz, freundlich)*
 
 ## Teil 2: Modul-Quiz Woche 23 (für SPA/Folgewoche)
-**F1.** Nach der Peer-Antwort zur Ausgangsperson zurückzukehren ist…
-a) unnötige Wiederholung – die Antwort ist ja gefallen ✗ *(Effizienz-Logik)*
-b) der Kern von No Opt Out: Erfolg + Abruf für die Ausgangsperson ✓
-c) Bloßstellung des Schwächeren ✗ *(DIE Sorge – Empathie-Distraktor)*
-d) nur bei starken Schülern sinnvoll ✗
+**F1.** Die ideale Länge eines Turn and Talk:
+a) 5–10 Minuten, damit echte Tiefe entsteht ✗ *(DIE Intuition)*
+b) 30–90 Sekunden – auf dem Wellenkamm beenden ✓
+c) bis alle Paare fertig sind ✗
+d) je länger, desto besser ✗
 
-**F2.** „Jaaa, so ungefähr, genau!" zu einer halbrichtigen Antwort…
-a) schützt Motivation und Selbstwert ✗ *(fühlt sich pädagogisch an)*
-b) speichert Halbes als Ganzes und senkt den Klassenstandard ✓
-c) ist in Sek II angemessen ✗
-d) spart wertvolle Zeit ✗
+**F2.** „Was hat dein Partner gesagt?" bewirkt…
+a) Verwirrung – man soll die eigene Meinung sagen ✗
+b) Zuhör-Verbindlichkeit im Partnergespräch ✓
+c) Prüfungsangst ✗
+d) nichts Besonderes ✗
 
-**F3.** „Das Ding oben wird kleiner" (inhaltlich korrekt). Format Matters heißt:
-a) Antwort ablehnen – falsch ist falsch ✗ *(Härte-Verwechslung)*
-b) würdigen + Fachsprache einfordern: „Richtig – jetzt mit dem Fachwort" ✓
-c) durchwinken – Inhalt schlägt Form ✗ *(der Alltagskompromiss)*
-d) den Schüler das Fachwort nachschlagen lassen ✗
+**F3.** Vor der Diskussion schreiben alle 2 Minuten. Der wichtigste Effekt:
+a) Ruhe im Raum ✗ *(Nebeneffekt)*
+b) Jeder denkt – Schreiben ist nicht delegierbar, Denkzeit wird demokratisch ✓
+c) Handschrift-Training ✗
+d) Material für die Notengebung ✗
 
-**F4.** Die Belohnung für eine richtige Antwort ist…
-a) präzises Lob und weiter ✗ *(teilrichtig – verschenkt den Moment)*
-b) eine interessantere Anschlussfrage (Stretch It) ✓
-c) ein Bonuspunkt ✗
-d) Ruhe vor dem nächsten Aufruf ✗
+**F4.** Während der Talk-Phase gehört die Lehrkraft…
+a) ans Pult – kurz durchatmen und Nächstes vorbereiten ✗ *(Alltagsrealität)*
+b) in den Raum: kreisen, lauschen, Ernte auswählen ✓
+c) aus dem Raum – Vertrauen zeigen ✗
+d) zu einem festen Paar ✗
 
-**F5.** „a² + b² = c²" auf die Frage nach dem Satz des Pythagoras ist…
-a) die perfekte Antwort ✗ *(die Kalibrier-Falle!)*
-b) halb – ohne rechtwinklig + Hypotenusen-Zuordnung gilt die Formel nicht ✓
-c) falsch ✗
-d) Geschmackssache des Lehrers ✗ *(genau das soll Kalibrierung beenden)*
+**F5.** Zwei Wochen ohne Ernte nach Partnergesprächen. Die Klasse lernt:
+a) nichts – Ernte ist optional ✗
+b) das Gespräch ist folgenlos → Beliebigkeit zieht ein ✓
+c) Selbstständigkeit ✗ *(klingt reformpädagogisch)*
+d) Zuhören ✗
 
-**F6 (Transfer, Freitext):** Jonas: „Weiß nicht." Mia liefert die richtige Antwort. Schreibe deine Rückkehr zu Jonas wörtlich – als Anwendungsfrage, nicht als Echo-Befehl. *(Muster: „Danke, Mia. Jonas – ein kalter, verregneter Juli: Wetter oder Klima? Und warum?" Bewertungsanker: Anwendung statt Wiederholung, Ton beiläufig.)*
+**F6 (Transfer, Freitext):** Baue aus „Redet mal über die Grafik zur Schere zwischen Arm und Reich" eine volle Choreografie: Write-Prompt (wörtlich), Talk-Auftrag mit Zeit (wörtlich), Ernte-Plan. *(Muster: Write 2 Min.: „Notiere die überraschendste Zahl der Grafik + einen Satz, warum sie dich überrascht." → Talk 60 Sek.: „Einigt euch auf DIE eine Zahl, die in die Zeitung müsste." → Ernte: 2 Cold Calls, davon „Welche Zahl hat dein Partner gewählt – und warum?")*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 23"
 
-1. **Hook (2 Min.):** Der Drei-Wörter-Deal als Comic-Sequenz; Frage: „Was hat Jonas gelernt?" (Freitext, dann Auflösung).
-2. **See it (4 Min.):** Die 4 Schleifen-Varianten als kurze Audio-Dialoge; Aufgabe: Variante identifizieren + Rückkehr-Moment antippen.
-3. **Name it (3 Min.):** Merkformeln als Karten; ✓/✗-Vorschau mit 4 Mini-Antworten.
-4. **Do it – Schleifen-Simulator (8 Min., Engine!):** verzweigte Dialoge nach den Rollenkarten R1–R4 (KI-Schülerantworten nach Regieanweisung); Scoring: Rückkehr erfolgt? Format über Echo? Ton-Wahl (Button-Optionen inkl. Triumph-Falle „Na also, geht doch!" mit Feedback); R4 verzweigt zu Block-1-Werkzeugen + W.I.N.-Verweis.
-5. **Kalibrierungs-Modul (Kernstück!):** Die 10 Antworten einzeln bewerten → nach jeder: eigene Wahl vs. (anonyme) Kohorten-Verteilung vs. Auflösung mit Begründung – der Community-Vergleich macht den Kalibrier-Effekt der Live-Sitzung digital erlebbar; Grenzfälle 4/7/9 mit ausführlicher Begründungskarte.
-6. **Stretch-It-Roulette:** richtige Antwort erscheint → Fächer-Frage dazu formulieren/wählen.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit „Rückkehr-Moment des Tages"-Journal.
+1. **Hook (2 Min.):** Variante A vs. B als Split-Screen-Animation mit Denk-Anzeige (Köpfe leuchten auf, wenn sie produzieren) – die Ratio wird sichtbar.
+2. **See it (4 Min.):** Die Choreografie als Zeitleisten-Grafik; die sechs Stellschrauben als antippbare Stationen mit Audio-Beispielen.
+3. **Name it (3 Min.):** Prüfkarte + Bug-Liste als Karten; Prompt-Swipe (8 Prompts → besteht/besteht nicht + welcher Verstoß).
+4. **Do it – Sequenz-Bauer (8 Min., Engine!):** Drag-&-Drop-Choreografie auf Zeitleiste (Write/Talk/Ernte-Blöcke mit Zeitreglern; App warnt bei Talk > 90 Sek. und fehlender Ernte); eigener Prompt wird per Prüfkarten-Heuristik gecheckt (Ja/Nein-Detektor, Entscheidungs-Verben-Suche: einigt/wählt/ordnet); Bug-Karten B1–B4 als Diagnose-Level vorab.
+5. **Zeitgefühl-Training:** „Wie lang sind 60 Sekunden?"-Spiel (Button halten, ohne Uhr) – kalibriert das Wellenkamm-Gefühl; Wiederverwendung des Modul-21-Timers.
+6. **Feste-Partner-Planer:** Sitzplan-Tool (aus Modul 12/21 wiederverwendet) mit Partner-Zuteilungs-Ansicht + Einführungs-Skriptfeld (W1-Bauplan).
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Sequenz-Log (Write/Talk/Ernte-Häkchen pro Stunde) – füttert die Ratio-Selbstbeobachtung.

@@ -1,4 +1,4 @@
-# Skript Woche 11: „Modellieren & Erklären – das I do"
+# Skript Woche 11: „Angeleitetes Üben – das We do"
 ## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,24 +7,23 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können? |
-| **Kernquellen** | Lovell/Dowley, Routine 7 (Explaining/Modelling); Rosenshine P2 (kleine Schritte), P4 (Modellieren); Worked-Example-Forschung (Sweller, Vorgriff W16); Lemov (Think Aloud, economy of language) |
-| **Funktion im Jahr** | Herz des Sequencing-&-Modelling-Strangs. Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W12 Break It Down, W16 CLT, W34 Erwartungshorizonte). Das Exemplar aus W10 liefert die Schrittgrößen-Diagnose. |
-| **Lernziele** | Die TN können:<br>1. einen Fachinhalt atomisieren (ein neues Element nach dem anderen),<br>2. beim Modellieren hörbar denken – inklusive einer absichtlich vorgeführten und aufgelösten Falle,<br>3. den Fluch des Wissens bei sich erkennen und mit der Halbier-Regel kontern,<br>4. Aufmerksamkeitsdisziplin beim Erklären durchsetzen (Stifte weg, Fixierung danach). |
-| **Sitzungstyp** | Mikroteaching-Sitzung – die Do-it-Phase ist mit 23 Minuten die längste des Jahres; Input entsprechend straff. |
+| **Leitfrage** | Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen? |
+| **Kernquellen** | Lovell/Dowley, Routine 8 (Guided Practice); Lemov T37 (Break It Down), T21 (Take the Steps); Rosenshine P5 (angeleitetes Üben), P8 (Gerüste); Guidance-Fading-Forschung |
+| **Funktion im Jahr** | Schließt die in W8 diagnostizierte „Sprung-Lücke". Die Fading-Treppe wird Standardwerkzeug (kehrt in W32 als Differenzierungs-Gerüst wieder); Break It Down ist die Fehler-Reaktions-Grammatik für No Opt Out (W22); die Stichproben-Kritik öffnet die Tür zu All-Response-Systemen (W24). Erste echte Begegnung mit Mini-Whiteboards – als erlebtes Werkzeug, noch nicht als Technik-Modul. |
+| **Lernziele** | Die TN können:<br>1. eine We-do-Phase mit Mitschrift aller, Frage-Steuerung und All-Response-Checks führen,<br>2. eine Fading-Treppe in vier Stufen für ein eigenes Thema bauen,<br>3. auf Fehler mit der kleinsten hilfreichen Zerlegung reagieren (Break It Down statt Lösung verraten),<br>4. begründen, warum verfrühtes You do die teuersten Fehler produziert. |
+| **Sitzungstyp** | Live-Demo mit der Gruppe als Klasse + Bau-Werkstatt + Rollenspiel. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen-Inseln mit „Bühne" (ein Stuhl-Halbkreis pro Insel); Timer pro Gruppe (Handys erlaubt). **Vorab-Auftrag (seit W10 bekannt, per Exit-Karte erinnert):** Jeder hat eine 3-Minuten-Modellierung eines echten Fachinhalts vorbereitet (Zielgruppe: die Gruppe als fachfremde „Klasse" – das ist Absicht: fachfremde Zuhörer spüren Riesenschritte am eigenen Leib).
-
-**Material (Checkliste):**
+**Raum:** Plenumsbestuhlung für die Live-Demo (Min. 8–16), danach Vierergruppen. **Material:**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Mikroteaching-Feedbackbogen (Anhang 1.1), 3 Kopien pro TN
-- [ ] Handout B: Der Modellierungs-Vierklang mit Think-Aloud-Satzanfängen (Anhang 1.2)
-- [ ] Los-Reihenfolge pro Gruppe (Kartenstapel)
-- [ ] Für die Moderations-Demo: ein trivialer Inhalt vorbereitet (Empfehlung: Kommasetzung bei „weil" ODER Dreisatz)
+- [ ] Klassensatz Mini-Whiteboards + Folienstifte + Wischlappen (Investition lohnt – sie werden ab jetzt in jeder Sitzung benutzt!)
+- [ ] Handout A: Fading-Treppen-Vorlage mit Musterbeispiel (Anhang 1.1)
+- [ ] Fehlerkarten-Set: 6 typische Schülerfehler zum Ziehen (Anhang 1.2)
+- [ ] Handout B: Break-It-Down-Stufenkarte (Anhang 1.3)
+- [ ] Demo-Inhalt der Moderation vorbereitet (Empfehlung: Prozentwert berechnen ODER Argument-Aufbau These-Beleg-Erläuterung)
 
 ---
 
@@ -32,142 +31,133 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1).
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1) — **erstmals auf Mini-Whiteboards beantwortet** („3-2-1-hoch" pro Frage). Meta-Satz danach: *„Ich habe gerade in sechs Minuten fünfmal den Lernstand von ALLEN gesehen. Merkt euch das Gefühl – es wird heute noch wichtig."*
 
-## Phase 2 · Brücke (Minute 8–11)
+## Phase 2 · See it: Live-We-do mit der Gruppe (Minute 8–16)
 
-> **Moderationstext:**
-> *„Exemplar-Woche: Wer hat vor einer Stunde die Idealantwort geschrieben – und was ist euch dabei aufgefallen?"* [2 Stimmen; fast immer kommt: „Mir ist aufgefallen, wie viel die eigentlich wissen müssen." Darauf aufbauen:]
-> *„Genau DAS ist die Tür zu heute. Beim Exemplar-Schreiben habt ihr die Lücken gesehen – zwischen dem, was ihr im Kopf habt, und dem, was im Schülerheft stehen soll. Heute geht es darum, wie ihr diese Lücke überbrückt: das I do. Und ich beginne mit einer unbequemen These: **Ausgerechnet eure Stärke – eure Fachlichkeit, eure Berufserfahrung – ist beim Erklären euer größtes Handicap.** Beweis folgt in vier Minuten, am lebenden Objekt: an mir."*
+Die Moderation führt ein ECHTES We do durch – die TN sind die Klasse (Whiteboards bleiben in der Hand):
 
-## Phase 3 · Input (Minute 11–27)
+Ablauf der Demo (am Beispiel Prozentwert): Aufgabe 1 wird gemeinsam gelöst – Moderation fragt jeden Schritt aus der Gruppe ab (*„Was suche ich zuerst? … Schreibt den Ansatz aufs Board – hoch."*), ALLE schreiben mit; bei Aufgabe 2 gibt die Moderation nur noch den ersten Schritt vor, den Rest liefern die „Schüler" auf Zuruf + Boards; Aufgabe 3 komplett auf Boards, Moderation scannt, kommentiert die Fehlerquote (*„Vier Boards mit demselben Vorzeichenfehler – schauen wir hin"*), löst per gestufter Hilfe auf.
 
-### 3a · See it: Dieselbe Erklärung, zweimal (Min. 11–17)
-Moderation erklärt denselben trivialen Inhalt zweimal à 2 Minuten:
+> **Auswertung (3 Min.):** *„Ich lege die Karten auf den Tisch – was habe ich gesteuert? Erstens: Ich habe nichts vorgerechnet, ich habe ALLES erfragt – aber in einer Reihenfolge, die tragen musste. Zweitens: Jeder von euch hat jede Aufgabe geschrieben – Zuschauen war nicht buchbar. Drittens: Die Hilfe wurde von Aufgabe zu Aufgabe dünner – das habt ihr vielleicht gar nicht gemerkt. Viertens: Ich habe dreimal ALLE geprüft, nicht drei Freiwillige. Das ist das ganze We do in vier Sätzen."*
 
-**Version 1 (Ergebnis-Präsentation):** flüssig, korrekt, kompakt – Regel nennen, ein Beispiel zeigen, fertig. So erklärt ein Profi, dem alles selbstverständlich ist.
+## Phase 3 · Input: Fading, Break It Down, die Stichproben-Falle (Minute 16–27)
 
-**Version 2 (Modellierung mit Think Aloud):** *„Ich lese zuerst den GANZEN Satz – nicht nur bis zum weil, den ganzen. … Jetzt frage ich mich: Wo ist das zweite Verb? Da – ‚regnet'. Zwei Verben heißt fast immer: zwei Teilsätze. … Und hier ist die Falle, in die fast alle tappen: Viele setzen das Komma nach Gefühl, da wo man Luft holt. Klingt vernünftig – geht aber schief, sobald der Satz lang wird. Deshalb suche ich nicht nach Luft, sondern nach dem Verb. …"*
+### 3a · Guidance Fading (Min. 16–20)
+> *„Die Verantwortungsübergabe aus Woche 8 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Der Sprung-Fehler aus Woche 8 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
 
-> **Auswertung (2 Min.):** *„Was konnte Version 2, was Version 1 nicht konnte?"* [Sammeln: Man hört das VORGEHEN, nicht nur das Ergebnis; die Falle wurde gezeigt UND entschärft; Entscheidungspunkte wurden sichtbar.] *„Version 1 zeigt, DASS ich es kann. Version 2 zeigt, WIE man es macht. Nur Version 2 ist Unterricht."*
+### 3b · Break It Down (Min. 20–24)
+> *„Und was, wenn im We do eine falsche Antwort kommt? Der Reflex – ich kenne ihn gut – ist: Lösung sagen, weiter, Zeit ist knapp. Aber wer die Lösung verrät, hat gerade selbst geübt, nicht der Schüler. Lemovs Alternative: **Break It Down** – die kleinste Hilfe zuerst, gestuft: Erst ein **Hinweis** (‚Schau nochmal auf die Einheit'), dann ein **Beispiel** (‚Bei der Aufgabe vorhin haben wir zuerst…'), dann die **Regel** (‚Was sagt unsere Merkregel über…?'), dann der **erste Schritt** – und erst ganz zuletzt die Lösung. Jede Stufe gibt dem Kopf noch eine Chance, selbst anzukommen. Klingt nach Zeitverlust? Es sind Sekunden – und es sind die Sekunden, in denen gelernt wird."*
 
-### 3b · Die Prinzipien (Min. 17–25)
-> *„Erstens: **Atomisieren.** Ein neues Element nach dem anderen – Rosenshine P2, ihr kennt es. Neu ist heute das Diagnose-Werkzeug: euer Exemplar aus letzter Woche. Zerlegt die Idealantwort in ihre Bausteine – jeder Baustein, den die Klasse noch nicht sicher hat, ist ein eigener Schritt. Nicht zwei in einem Atemzug.*
-> *Zweitens: **Lautes Denken.** Experten-Denken ist unsichtbar – ihr müsst es hörbar machen: die Entscheidungen (‚zuerst prüfe ich…'), die Selbstfragen (‚woran erkenne ich…?'), und – das Kronjuwel – **die Falle**: den typischen Fehler absichtlich ansteuern, benennen, auflösen. ‚Viele würden jetzt X tun – verständlich, weil… – aber dann passiert…' Eine vorgeführte Falle immunisiert besser als zehn Warnungen. Und woher kennt ihr die typischen Fallen? Ab Woche 21 sammelt ihr sie systematisch; bis dahin: aus den Fehlern der letzten Klassenarbeit.*
-> *Drittens: **Der Fluch des Wissens.** Jetzt die These vom Anfang: Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte, die ihr vor fünfzehn Jahren mühsam gelernt habt, sind zu EINEM Schritt verschmolzen – für euch. Für einen Schüler ohne Vorkenntnisse sind es immer noch fünf. Und ihr, mit Berufsjahren im Fachgebiet, tragt die Maximaldosis dieses Fluchs. Er ist nicht heilbar, aber behandelbar – mit der **Halbier-Regel: Halbiere die Schrittgröße, die sich richtig anfühlt.** Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.*
-> *Viertens: **Aufmerksamkeitsdisziplin.** Während ihr modelliert: Stifte weg, nur zusehen und zuhören. Ja, das kollidiert mit dem Elternhaus-Reflex ‚Mitschreiben ist fleißig'. Aber wer gleichzeitig versteht und abschreibt, tut beides halb – warum genau, bekommt ihr in Woche 16 mit Theorie unterfüttert. Die Fixierung kommt DANACH: als eigener Schritt, von eurem stehengebliebenen Tafelbild."*
+### 3c · Die Stichproben-Falle + die 80 %-Schwelle (Min. 24–27)
+> *„Bleibt die Frage: WANN ist eine Stufe tragfähig? Und hier die wichtigste Warnung der Woche: **Drei richtige Meldungen sind keine Daten.** Das sind eure drei stärksten Schüler – eine Stichprobe, die systematisch lügt. Die Antwort habt ihr heute schon in der Hand gehalten: Boards hoch, ALLE antworten, ihr seht die Quote in fünf Sekunden. Und die Schwelle kennt ihr aus Woche 8: Erst bei rund 80 % sicherer Beherrschung wird die nächste Stufe betreten – und erst dann beginnt Stillarbeit. Warum so streng? Weil verfrühtes You do nicht einfach ‚schwierig' ist – es ist giftig: Wer zwanzig Minuten allein falsch übt, hat den Fehler EINGEÜBT. Und Umlernen ist teurer als Lernen; das werdet ihr in Block 3 im Detail verstehen. Die böseste Pointe des Schulalltags: Die fleißige Stillarbeitsphase kann Schaden anrichten, wenn die Brücke davor fehlte."*
 
-### 3c · Vierklang zusammensetzen (Min. 25–27)
-> *„Der Bauplan jeder Modellierung, unser Vierklang:*
-> - ***Vormachen** – bewusst entscheiden: einmal in Echtgeschwindigkeit als Vorschau oder gleich Schritt für Schritt.*
-> - ***Denken laut** – Entscheidungen und Selbstfragen hörbar.*
-> - ***eine Falle** zeigen und auflösen.*
-> - ***Kernschritte fixieren** – an der Tafel, und sie bleiben stehen."*
+## Phase 4 · Name it (Minute 27–31)
 
-## Phase 4 · Name it (Minute 27–30)
+**We-do-Checkliste** an der Tafel: alle schreiben mit · Fragen statt Vorsagen · Fading-Stufe bewusst gewählt · mindestens ein All-Response-Check pro Stufe · ≥ 80 % BEVOR die nächste Stufe / die Stillarbeit beginnt. **Break-It-Down-Stufen:** Hinweis → Beispiel → Regel → erster Schritt → (Lösung). Merksatz: *„Die kleinste Hilfe zuerst – und Daten vor jedem Stufenwechsel."*
 
-Handout B austeilen: Vierklang + Think-Aloud-Satzanfänge + Halbier-Regel + „Stifte weg"-Regel. Feedbackbogen (Handout A) erklären: vier Kriterien, ankreuzbar, plus ein Freitextfeld „stärkster Moment".
+## Phase 5 · Do it (Minute 31–52)
 
-## Phase 5 · Do it: Mikroteaching-Runden (Minute 30–53)
+### Runde 1 · Fading-Treppe bauen (Min. 31–41)
+Einzelarbeit an der eigenen aktuellen Unterrichtseinheit: alle vier Stufen konkret ausarbeiten (Handout A – bei Textfächern: Vollbeispiel = Musterabsatz, Lückenbeispiel = Absatz mit Leerstellen, Ansatz = erster Satz + Gliederungsgerüst). Tandem-Check mit der einen kritischen Frage: **„Ist Stufe 2 wirklich kleiner als Stufe 1 – oder ist es ein verkleideter Sprung?"** *(Häufigster Baufehler: Stufe 2 lässt gleich die schwierigste Stelle offen. Regel: Die erste Lücke ist eine leichte.)*
 
-**Setup:** Vierergruppen, Los-Reihenfolge. Pro Person ein 5,5-Minuten-Slot: **3 Min. Modellierung** (Timer hart!) + **1,5 Min. Feedback** nach Bogen (Reihenfolge: stärkster Moment zuerst, dann EIN Kriterium mit Luft) + **1 Min. Sofort-Wiederholung** der schwächsten 30 Sekunden. Nach jedem Slot Rollenwechsel.
+### Runde 2 · Break-It-Down-Rollenspiel (Min. 41–52)
+Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den Fehler im „We do" der übenden Lehrkraft; die Lehrkraft reagiert gestuft – der Beobachter zählt mit der Stufenkarte mit: Wo wurde eingestiegen? Wurde die Lösung zu früh verraten? 2 Durchgänge pro Person (verschiedene Karten), nach Feedback Sofort-Wiederholung. **Die eigentliche Übung ist das Unterdrücken des Verrat-Reflexes** – die Moderation sagt das vorher laut.
 
-**Moderations-Rotation – die drei häufigsten Interventionen:**
-1. Ergebnis-Präsentation statt Modellierung (kein hörbares Denken) → Zwischenruf-Karte: „Denk laut – was fragst du dich GERADE?"
-2. Fallen-Vermeidung (aus Angst, Fehler „in die Köpfe zu setzen") → kurz entkräften: Die benannte + aufgelöste Falle schützt; die verschwiegene lauert. (Volle Begründung in W21.)
-3. Zeitüberziehung durch Vollständigkeitsdrang → Timer gilt; Erkenntnis aussprechen lassen: „Ich wollte zu viel in drei Minuten" = Atomisierung nicht gelungen – wertvollstes Feedback der Runde.
+## Phase 6 · Action Step (Minute 52–58)
 
-## Phase 6 · Action Step (Minute 53–58)
-
-**Standard:** *„In einer Erklärphase pro Tag denke ich hörbar laut – inklusive EINER absichtlich vorgeführten und aufgelösten Falle. Die Falle wähle ich vorher aus den Fehlern der letzten Klassenarbeit/Übung."*
+**Standard:** *„Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele (We do) – und ich prüfe mit Boards oder Abfrage an ALLE, dass wir bei ≥ 80 % sind, bevor jemand allein arbeitet."*
 
 **Alternativen:**
 
-1. Selbst-Audio: eine Erklärphase mit dem Handy aufnehmen (nur Ton reicht!) und abends zählen: neue Elemente pro Minute – Halbier-Regel anwenden.
-2. Stifte-weg-Woche: jede Modellierung mit expliziter Ansage („Stifte weg – erst schauen, gleich schreiben") und separater Fixierungsphase.
+1. Treppen-Woche: die gebaute Fading-Treppe in der realen Einheit vollständig durchlaufen und pro Stufe die Quote notieren.
+2. Verrats-Fasten: eine Woche lang bei keiner falschen Antwort die Lösung sagen – immer erst Hinweis/Beispiel/Regel (Strichliste: Wie oft hat eine kleine Stufe gereicht?).
 
-> **Ausblick:** *„Nächste Woche die Brücke, die der Beispielstunde aus Woche 9 gefehlt hat: das We do. Wie ihr die Klasse vom Zusehen zum Selbermachen führt, ohne sie fallen zu lassen – mit einer Treppe aus verschwindenden Hilfen."*
+*(Whiteboard-Logistik-Hinweis an TN: Wer noch keinen Klassensatz hat – laminierte Klarsichthüllen mit weißem Blatt + Folienstift kosten fast nichts. Beschaffungsweg über die Schule klärt der Coach.)*
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+> **Ausblick:** *„Nächste Woche das You do – und die provokante These: Die Stillarbeitsphase ist nicht eure Verschnaufpause, sondern die datenreichste Phase der Stunde. Ihr lernt, was ihr währenddessen eigentlich tut. Bringt dafür den Sitzplan eurer Hauptklasse mit – Kopie oder Foto genügt."*
+
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Sitzplan-Erinnerung (W12).
 
 ---
 
 # 4. Coaching-Woche 11 (Handreichung)
 
-- **Hospitationsfokus:** eine Erklärphase; **Transkript-Ausschnitt** anfertigen (2–3 Minuten wörtlich mitschreiben oder mit Erlaubnis Audio) – das mächtigste Werkzeug dieser Woche.
-- **Auswertungsgespräch:** Transkript gemeinsam lesen; TN zählt selbst: neue Elemente pro Minute? Think-Aloud-Anteile markieren (oft: null – Ergebnis-Sprache dominiert). Dann 2 Minuten der Erklärung im Gespräch NEU sprechen: mit Selbstfrage + Falle. 
-- **Verzahnung:** Exemplar aus W10 danebenlegen – „Welcher Baustein der Idealantwort kam in der Erklärung gar nicht vor?"
-- **Red Flag:** TN, die das Mikroteaching als bloßstellend erlebt haben → im 1:1 auffangen: Feedback-Erleben besprechen, ggf. Tandem-Konstellation für W12 anpassen; die Übungskultur trägt nur mit Sicherheit.
+- **Hospitationsfokus:** der Übergang Erklärung → Übung. Protokoll: Wie viele gemeinsame Beispiele? Wer hat sie geliefert (Lehrkraft/Melder/alle)? Gab es einen All-Response-Check vor der Stillarbeit – und was zeigte er?
+- **Auswertungsgespräch:** Die eine Frage ins Zentrum: „Woher wusstest du, dass sie bereit für die Stillarbeit waren?" – ehrliche Antwort ist oft „Bauchgefühl/Zeitdruck" → Action Step: der 80 %-Check als Pflichtstation.
+- **Break-It-Down-Mikroübung im Gespräch:** Coach spielt zwei Schülerfehler aus der hospitierten Stunde nach, TN reagiert gestuft.
+- **Red Flag:** „Whiteboards sind mir zu unruhig/Grundschule" → nicht diskutieren, sondern vereinbaren: EINE Stunde testen mit sauberer Routine-Einführung (W2-Handwerk: Schreibsignal, Stille, 3-2-1-hoch); Erfahrung schlägt Vorbehalt fast immer.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Mikroteaching-Feedbackbogen
-☐ **Schrittgröße:** ein neues Element nach dem anderen? (Wo kamen zwei auf einmal?)
-☐ **Denken hörbar:** Selbstfragen/Entscheidungen zu hören? (Beispiel notieren)
-☐ **Falle:** gezeigt UND aufgelöst?
-☐ **Sprachökonomie:** Füllwörter, Doppel-Erklärungen, Abschweifer? (W4-Echo)
-✍ **Stärkster Moment (wörtlich):** …
-✍ **EIN Impuls:** …
+## 1.1 Handout A: Fading-Treppen-Vorlage (mit Musterbeispiel „lineare Gleichungen")
+**Stufe 1 – Vollbeispiel:** 3x + 5 = 20, komplett vorgeführt mit Think Aloud (W10!). → **Stufe 2 – Lückenbeispiel:** 4x + 3 = 19; Lösungsweg steht, Lücken bei „| −3" und beim Endergebnis – Klasse füllt (erste Lücke leicht!). → **Stufe 3 – Ansatz:** 5x − 7 = 18; vorgegeben nur: „Erster Schritt: beide Seiten +7. Weiter allein." → **Stufe 4 – blank:** 6x + 11 = 47. — Pro Stufe ein Feld: „All-Response-Check: … / Quote: …%". *(Rückseite: Blanko + Textfach-Variante: Musterabsatz → Lückenabsatz → erster Satz + Gerüst → blank.)*
 
-## 1.2 Handout B: Vierklang & Think-Aloud-Werkzeugkasten
-**Vierklang:** Vormachen (Echtgeschwindigkeit als Vorschau ODER direkt schrittweise – bewusst wählen) → Denken laut → eine Falle zeigen + auflösen → Kernschritte fixieren (Tafel bleibt stehen).
-**Think-Aloud-Satzanfänge:** „Zuerst prüfe ich…" · „Jetzt frage ich mich…" · „Woran erkenne ich…?" · „Hier stutze ich, denn…" · „Viele würden jetzt … – verständlich, weil … – aber dann …" · „Ich kontrolliere mein Ergebnis, indem…"
-**Halbier-Regel:** Die Schrittgröße, die sich richtig anfühlt, halbieren. **Stifte-weg-Regel:** Verstehen zuerst, Fixieren danach – als eigener Schritt vom stehenden Tafelbild.
+## 1.2 Fehlerkarten-Set (Regieanweisung: Fehler überzeugt vertreten, nicht sofort einknicken!)
+- **K1 (Mathe):** „3x + 5 = 20, also x = 5, weil 20 geteilt durch… äh, minus 5 durch 3… ich hab einfach 20 − 5 − 3 gerechnet: 12? Nein, 5!" *(Rechenweg-Wirrwarr)*
+- **K2 (Mathe):** Vorzeichenfehler: „x = −5, weil minus 5 auf die andere Seite." 
+- **K3 (Deutsch):** These ohne Beleg: „Der Autor ist dagegen, das merkt man halt."
+- **K4 (Englisch):** „Yesterday I have seen him." *(Signalwort ignoriert)*
+- **K5 (NaWi):** Einheit vergessen/vertauscht: „Das Ergebnis ist 12." – „12 was?" – „Einfach 12."
+- **K6 (universal):** Richtige Antwort, falsche Begründung: „Stimmt zufällig – aber der Weg war geraten." *(Bonusfall: Right is Right als Vorgeschmack auf W22!)*
+
+## 1.3 Handout B: Break-It-Down-Stufenkarte
+**1 Hinweis** („Schau nochmal auf …") → **2 Beispiel** („Vorhin bei Aufgabe 1 haben wir zuerst …") → **3 Regel** („Was sagt unsere Merkregel?") → **4 erster Schritt** (vormachen, Rest zurückgeben) → **(5 Lösung** – nur wenn 1–4 nicht tragen; dann zurückgeben: „Erkläre den Weg nochmal mit deinen Worten"**)**. Regel: kleinste Hilfe zuerst; nach jeder Stufe zurück an den Schüler.
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Die vier Ampel-Kriterien für Meilensteine? *(kumulativ, verteilt, messbar, klar)*
-2. Die zwei Planungs-Todsünden – je ein Erkennungsmerkmal? *(Aktivitätsfokus: Methode vor Ziel; Abdeckungsfokus: „Stoff durch" als Erfolgsmaß)*
-3. Die 6 Leiterstufen (Block 1)? *(nonverbal → … → Konsequenz)*
-4. Warum schreibt man das Exemplar selbst – nenne zwei der drei Renditen? *(Präzision des Ziels / Lücken+Schrittgrößen sichtbar / Maßstab für Antworten)*
-5. (Anwendung) Baue aus „Thema: Wahlrecht" ein messbares Ziel. *(z. B. „kann 2 Pro- und 2 Contra-Argumente nennen und eines mit Beispiel entfalten")*
+## Teil 1: Retrieval-Starter (Min. 2–8, auf Whiteboards!)
+1. Der Modellierungs-Vierklang? *(Vormachen / Denken laut / Falle zeigen+auflösen / Kernschritte fixieren)*
+2. Fluch des Wissens + Gegenmittel? *(Zwischenschritte für Experten unsichtbar; Halbier-Regel)*
+3. Die Umformulierungs-Formel (Block 1)? *(„Ich sehe … – ich will …")*
+4. Die 80 %-Regel – beide Enden? *(<80 % zurück modellieren; dauerhaft 100 % Anspruch rauf)*
+5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach. *(individuell; Kriterium: Nicht-Beispiel liegt nah an der Konzeptgrenze)*
 
 ## Teil 2: Modul-Quiz Woche 11 (für SPA/Folgewoche)
-**F1.** Der Fluch des Wissens bedeutet:
-a) Wissen macht überheblich ✗ *(Wortassoziation)*
-b) Experten unterschätzen systematisch, was Schülern ohne Vorkenntnisse fehlt – Zwischenschritte sind unsichtbar verschmolzen ✓
-c) zu viel Wissen verwirrt die SuS ✗
-d) Fachwissen veraltet schnell ✗
+**F1.** Drei SuS beantworten deine Kontrollfrage richtig. Schluss:
+a) Die Klasse kann es – weiter ✗ *(Alltagslogik: „es kamen ja richtige Antworten")*
+b) Keine belastbaren Daten – die Melder-Stichprobe lügt systematisch ✓
+c) Die Klasse kann es nicht ✗
+d) Die Frage war zu leicht ✗
 
-**F2.** Während du modellierst, sollen die SuS…
-a) alles mitschreiben – sonst geht es verloren ✗ *(Eltern-Reflex + Fleiß-Ethos)*
-b) nur zusehen/zuhören; fixiert wird danach vom stehenden Tafelbild ✓
-c) parallel schon Aufgaben lösen ✗
-d) im Buch mitlesen ✗
+**F2.** Ein Schüler steckt im We do fest. Erste Hilfe:
+a) Lösung zeigen – Zeit ist knapp und andere warten ✗ *(DER Reflex)*
+b) kleinste Stufe: Hinweis, dann ggf. Beispiel/Regel ✓
+c) einen starken Schüler antworten lassen ✗ *(teilrichtig – aber dann muss es zurück zum Ersten: W22!)*
+d) die Aufgabe wechseln ✗
 
-**F3.** Eine typische Falle absichtlich vorführen…
-a) setzt den Fehler erst in die Köpfe ✗ *(DIE Angst – klingt plausibel!)*
-b) immunisiert: benannt + aufgelöst schützt besser als Warnungen ✓
-c) verwirrt schwache SuS ✗
-d) kostet zu viel Zeit ✗
+**F3.** Verfrühtes You do ist gefährlich, weil…
+a) SuS sich langweilen ✗
+b) allein eingeübte Fehler entstehen – Umlernen ist teurer als Lernen ✓
+c) die Aufsicht schwieriger wird ✗
+d) es unfair gegenüber Schwachen ist ✗ *(klingt sozial – trifft es nicht)*
 
-**F4.** Deine Erklärung fühlt sich „quälend kleinschrittig" an. Wahrscheinlich ist sie…
-a) zu langsam – Tempo erhöhen ✗ *(das Gefühl lügt – Fluch des Wissens)*
-b) für die Klasse gerade richtig (Halbier-Regel) ✓
-c) unter dem Niveau der Klasse ✗
-d) ein Zeichen schlechter Vorbereitung ✗
+**F4.** Auf deiner Fading-Treppe lässt Stufe 2 ausgerechnet die schwierigste Stelle offen. Das ist…
+a) gut – da liegt ja der Lernkern ✗ *(klingt anspruchsvoll!)*
+b) ein verkleideter Sprung – die erste Lücke muss eine leichte sein ✓
+c) egal, Hauptsache Lücken ✗
+d) nur in Mathe ein Problem ✗
 
-**F5.** „Version 1" (flüssige Ergebnis-Präsentation) zeigt der Klasse…
-a) wie man es macht ✗
-b) dass die Lehrkraft es kann – das Vorgehen bleibt unsichtbar ✓
-c) alles Nötige, wenn sie kurz ist ✗
-d) zu wenig Fachlichkeit ✗
+**F5.** Der beste Zeitpunkt für den Beginn der Stillarbeit:
+a) wenn die Zeit knapp wird ✗ *(Schulrealität!)*
+b) wenn ein All-Response-Check ~80 % zeigt ✓
+c) nach genau zwei Beispielen ✗ *(Rezept-Falle: die Zahl ist Richtwert, der Check entscheidet)*
+d) wenn keine Fragen mehr kommen ✗ *(Selbstauskunft – W20 lässt grüßen)*
 
-**F6 (Transfer, Freitext):** Skizziere eine 3-Min.-Modellierung für einen Inhalt deines Fachs nach dem Vierklang – notiere wörtlich eine Selbstfrage und deine Falle samt Auflösung. *(Bewertungsanker: Selbstfrage in Ich-Form, Falle benannt + Grund ihrer Verführungskraft + Auflösung.)*
+**F6 (Transfer, Freitext):** Ein Schüler sagt im We do: „Yesterday I have seen him." Spiele Break It Down schriftlich durch – deine ersten drei Züge wörtlich. *(Muster: 1 Hinweis: „Schau auf das erste Wort des Satzes." → 2 Beispiel: „Yesterday I ___ football – wie hieß das vorhin?" → 3 Regel: „Was macht ein Signalwort wie yesterday mit der Zeitform?" – Lösung wird nicht verraten.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 11"
 
-1. **Hook (2 Min.):** Der Fluch-des-Wissens-Selbsttest: Nutzer soll „einen Schuh zubinden" in Einzelschritten aufschreiben – App zeigt danach die 12-Schritte-Version für Schüler ohne Vorkenntnisse. Punchline: „So fühlt sich dein Fach für deine Klasse an."
-2. **See it (5 Min.):** Version 1 vs. Version 2 als Audio-Paar; Aufgabe: alle Think-Aloud-Momente in Version 2 antippen (Transkript-Markup).
-3. **Name it (3 Min.):** Vierklang-Karten + Satzanfänge-Sammlung als Spickzettel-Export.
-4. **Do it – Atomisierungs-Trainer (7 Min., Engine!):** Fachinhalt wählen/eingeben → in Teilschritte zerlegen → Vergleich mit Musterlösung; das in Modul 10 markierte „Scheiter-Stelle"-Markup aus dem Exemplar wird hier automatisch eingeblendet („Dein Modul-10-Ich sagt: hier brauchen Schwache einen Extra-Schritt").
-5. **Selbstaufnahme-Auftrag (Kern!):** App führt durch: 3-Min.-Modellierung aufnehmen (nur Audio) → geführte Selbstanalyse mit Feedbackbogen-Kriterien → „neue Elemente pro Minute" selbst zählen mit Zähl-Buttons. Aufnahme bleibt lokal.
-6. **Fallen-Bibliothek (wachsende Datenbank):** eigene Fach-Fallen eintragen (Fehler + warum verführerisch + Auflösung) – wird in Modul 21 (Plan for Error) wieder aufgerufen und weitergefüllt (Modul-übergreifende Kontinuität!).
-7. **Quiz (Teil 2)** + 30 % Altfragen; F2/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Eine Falle pro Tag" mit Fallen-Log.
+1. **Hook (2 Min.):** Die Stichproben-Falle als Simulation: App zeigt eine „Klasse" aus 28 Punkten, 3 melden sich (alle grün) – Nutzer entscheidet „weiter?" – App deckt auf: 12 der stummen 25 sind rot. Punchline: „Deine Melder-Stichprobe lügt."
+2. **See it (5 Min.):** Das Live-We-do als kommentiertes Video/Transkript – die vier Steuerungs-Karten (alle schreiben / Fragen statt Vorsagen / Fading / All-Response) an den Stellen antippen, wo sie sichtbar werden.
+3. **Name it (3 Min.):** Fading-Treppe als interaktive Grafik; Break-It-Down-Stufen als Sortier-Spiel.
+4. **Do it – Fading-Treppen-Bauer (8 Min., Engine!):** Thema eingeben → vier Stufenfelder ausfüllen; Prüf-Heuristik: „Ist deine erste Lücke die leichteste Stelle?" (Selbst-Check-Prompt); Beispielbibliothek (Mathe/Sprachen/NaWi/Gesellschaft) als Vorlagen; Export ins Playbook.
+5. **Break-It-Down-Simulator:** Die 6 Fehlerkarten als verzweigte Dialoge – Nutzer wählt pro Zug Hinweis/Beispiel/Regel/erster Schritt/Lösung; Scoring belohnt kleinste tragende Stufe, „Lösung verraten" beendet den Fall mit Erklär-Feedback. K6 (richtig geraten) verzweigt zum Ausblick auf Modul 22.
+6. **80 %-Rechner:** Klassengröße + Board-Ergebnis eingeben → Ampel „Stufe halten / nächste Stufe / Stillarbeit frei".
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Stufen-Quoten-Log (Treppe × Tage).

@@ -147,6 +147,28 @@
   // data-module-key-Attribut des eigenen <script>-Tags.
   if (!moduleKey) return;
 
+  // Lokale Vorschau ohne Login: file:// (Doppelklick auf die HTML-Datei)
+  // oder localhost. Fortschritt wird dann nur im Browser gespeichert statt
+  // in Supabase, damit Module ohne Kurszuordnung/Login angeschaut werden können.
+  var isLocalPreview =
+    window.location.protocol === "file:" ||
+    /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+
+  if (isLocalPreview) {
+    var LOCAL_PREFIX = "cpd_local_progress_" + moduleKey + "_";
+    window.storage = {
+      async get(k) {
+        var raw = localStorage.getItem(LOCAL_PREFIX + k);
+        return raw === null ? null : { value: raw };
+      },
+      async set(k, v) {
+        localStorage.setItem(LOCAL_PREFIX + k, v);
+        return true;
+      },
+    };
+    return;
+  }
+
   document.documentElement.style.visibility = "hidden";
 
   var session = getTeacherSession();

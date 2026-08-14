@@ -1,5 +1,5 @@
-# Skript Woche 9: „Rosenshine & die Architektur einer Stunde"
-## 60-Minuten-Sitzung · Block 2 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 9: „Lernziele & Backwards Design – wissen, wohin"
+## 60-Minuten-Sitzung · Block 2 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,24 +7,23 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie ist eine wirksame Stunde grundsätzlich gebaut? |
-| **Kernquellen** | Rosenshine, *Principles of Instruction* (American Educator, 2012); Lovell/Dowley R7–R9 (Vorschau); McCrea (Logik „Schüler ohne Vorkenntnisse vs. Experten", Vorgriff Block 3) |
-| **Funktion im Jahr** | Block-2-Auftakt: liefert das Ordnungsgerüst, in das sich W10–14 einsortieren (jede Folgewoche „wohnt" in einem Rosenshine-Strang). Das Audit-Raster wird in W32 (Lean-Qualitätscheck) wiederverwendet. Die 80 %-Regel wird Referenzgröße für W12, W22 und W27. |
-| **Lernziele** | Die TN können:<br>1. die 10 Prinzipien in den vier Strängen (Reviewing / Sequencing & Modelling / Questioning / Practising) verorten,<br>2. eine Stunde mit dem Audit-Raster prüfen,<br>3. I do – We do – You do als Verantwortungsübergabe erklären und den „Sprung-Fehler" (übersprungenes We do) erkennen,<br>4. die 80 %-Erfolgsquote als Steuergröße nutzen. |
-| **Sitzungstyp** | Konzept-Sitzung mit Analyse-Übung (Audit + Redesign) – bewusst weniger Rollenspiel: Das Gerüst muss erst stehen, bevor ab W11 wieder körperlich trainiert wird. |
+| **Leitfrage** | Was genau sollen meine Schüler am Ende können – und woran erkenne ich es? |
+| **Kernquellen** | McCrea, *Lean Lesson Planning* (Backwards Design, Lern-Meilensteine, die zwei Planungs-Todsünden); Lemov T1 (Exemplar Planning) |
+| **Funktion im Jahr** | Das Steuerungs-Modul: Meilensteine + Exemplar werden Referenz für Exit Tickets (W13), CFU-Ausrichtung (Block 4), Erwartungshorizonte (W33) und das komplette Lean-Framework (W31/32). Wer diese Woche verpasst, plant den Rest des Jahres im Nebel. |
+| **Lernziele** | Die TN können:<br>1. die zwei Planungs-Todsünden (Aktivitätsfokus, Abdeckungsfokus) bei sich selbst erkennen,<br>2. 2–5 Lern-Meilensteine für eine Stunde formulieren (kumulativ, verteilt, messbar, klar),<br>3. per Exemplar Planning die ideale Schülerantwort vorab selbst verfassen und daraus Planungskonsequenzen ziehen. |
+| **Sitzungstyp** | Schreibwerkstatt an REALEN Stunden der kommenden Woche – der Output der Sitzung wird montags unterrichtet. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; Tafel/Flipchart für die Strang-Entwicklung. **Vorab-Auftrag (in W8 angesagt!):** Jeder bringt einen eigenen Stundenverlaufsplan mit (beliebiges Format – auch „Zettel mit drei Stichworten" ist erlaubt und ehrlich).
+**Raum:** Tandems an Tischen. **Vorab-Auftrag (in W8 angesagt!):** Jeder bringt das Thema einer echten Stunde der KOMMENDEN Woche mit (Fach, Klasse, Stoff – mehr nicht).
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Rosenshine-Übersichtskarte – 10 Prinzipien in 4 Strängen (Anhang 1.1)
-- [ ] Handout B: Audit-Raster (Anhang 1.2)
-- [ ] Die „schwache Beispielstunde" als Einseiter, pro Tandem eine Kopie (Anhang 1.3)
-- [ ] Rosenshine-Poster für den Raum (hängt ab heute dauerhaft neben dem Leiter-Poster)
+- [ ] Handout A: Meilenstein-Canvas mit Prüf-Ampel (Anhang 1.1)
+- [ ] Handout B: Vier Beispiel-Meilensteinketten – 2 tragfähige, 2 kaputte (Anhang 1.2)
+- [ ] Die zwei „inneren Monologe" als Vorlesetexte (Anhang 1.3)
 
 ---
 
@@ -32,151 +31,139 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1; enthält ab jetzt immer 2 Block-1-Fragen).
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1).
 
-## Phase 2 · Brücke & Blockwechsel-Rahmung (Minute 8–13)
+## Phase 2 · See it: Die zwei Todsünden als Selbsterkennung (Minute 8–15)
+
+Moderation liest beide inneren Monologe vor (Anhang 1.3) – langsam, mit Genuss:
+
+> **Planer A (Aktivitätsfokus):** *„Ich hab bei Instagram dieses geniale Gruppenpuzzle zur Französischen Revolution gesehen – mit Rollenkarten und allem. Das MUSS ich machen. Okay… was war nochmal eigentlich das Thema diese Woche? Egal, das pass ich an. Die Stunde wird super."*
+> **Planer B (Abdeckungsfokus):** *„Kapitel 7 muss bis Freitag durch, sonst schaffe ich Kapitel 8 nicht vor den Ferien. Also: Montag Seite 84 bis 87, Mittwoch 88 bis 91, die Aufgaben 1 bis 6, Freitag Rest. Puh. Eng, aber machbar."*
 
 > **Moderationstext:**
-> *„Kurz zu den W.I.N.-Gesprächen: Wer hat eins geführt – und was war der überraschendste Moment?"* [2 Stimmen; typisch: „Er hat mir Dinge erzählt, die ich nicht wusste" – genau das würdigen.]
-> *„Und jetzt ein Schnitt. Acht Wochen lang ging es um den Raum: Ruhe, Routinen, Beziehung. Warum? Damit ab heute das eigentliche Geschäft möglich ist. Denn – Hand aufs Herz – eine stille Klasse ist noch keine lernende Klasse. Man kann in vorbildlicher Ruhe nichts lernen.*
-> *Für das eigentliche Geschäft gebe ich euch heute das solideste Fundament, das die Unterrichtsforschung zu bieten hat. Barak Rosenshine hat drei völlig verschiedene Wissensquellen übereinandergelegt: die Kognitionspsychologie – wie Gedächtnis und Denken funktionieren; Beobachtungsstudien von Lehrkräften, deren Klassen Jahr für Jahr überdurchschnittlich lernen; und Interventionsstudien – was passiert, wenn man Lehrkräften bestimmte Verfahren beibringt. Das Bemerkenswerte: **Alle drei Quellen zeigen in dieselbe Richtung.** Das ist in der Bildungsforschung selten genug, um es ernst zu nehmen. Herausgekommen sind zehn Prinzipien – und die gute Nachricht: Vier davon macht ihr längst."*
+> *„Handzeichen, ehrlich und ohne Scham: Wer erkennt sich in A? … In B? … In beiden, je nach Wochentag? Ich auch – jahrelang. Und jetzt der unbequeme Punkt: Beide fühlen sich nach guter Arbeit an. A hat Begeisterung, B hat Pflichtgefühl. Aber beide optimieren das Falsche: A optimiert Beschäftigung – die Frage ‚Was tun die Schüler?' hat die Frage ‚Was lernen sie?' verdrängt. B optimiert Durchkommen – der STOFF ist durch, ob die KÖPFE mit sind, steht auf keinem seiner Zettel. McCrea nennt das die zwei Todsünden der Planung, und das Gegengift ist banal auszusprechen und schwer zu leben: **Fang am Ende an.**"*
 
-## Phase 3 · Input: Die vier Stränge (Minute 13–28)
+## Phase 3 · Input: Backwards Design, Meilensteine, Exemplar (Minute 15–28)
 
-*Didaktische Regel für die Moderation: Die 10 Prinzipien werden NICHT als Liste durchgekaut, sondern als vier Erzählstränge mit je einem Klassenzimmer-Bild – und mit ständigen Rückverweisen auf das, was die TN schon tun. Wiedererkennen motiviert; eine 10er-Liste erschlägt (Modell 1!).*
+### 3a · Backwards Design (Min. 15–18)
+> *„Die Planungsreihenfolge, die trägt: ERST ‚Was sollen sie am Ende können?' – dann ‚Woran erkenne ich das?' – dann, ganz zuletzt, ‚Welche Aktivität bringt sie dahin?'. Lemovs Befund aus den Videostudien dazu ist bemerkenswert: Die wirksamsten Lehrkräfte verbringen MEHR Zeit mit dem Ziel und WENIGER mit der Aktivitätenauswahl als der Durchschnitt – exakt umgekehrt zum Bauchgefühl. Und noch eine Entwarnung: ‚Am Ende anfangen' heißt nicht ‚mehr planen'. Es heißt: die ersten zehn Planungsminuten anders herum verwenden."*
 
-### Strang 1: Reviewing – Wiederholung als Tagesgeschäft (Min. 13–16)
-> *„Prinzip 1 und 10: tägliche Wiederholung zu Beginn, wöchentliche und monatliche Wiederholung im Verlauf. Klingt banal – ist aber das am konsequentesten missachtete Prinzip im Schulalltag, weil der Stoffdruck ruft. Ihr allerdings kennt es aus eigener Erfahrung: Womit beginnt jede unserer Sitzungen? Eben. Ihr sitzt seit neun Wochen in einer Rosenshine-Fortbildung, die nach Rosenshine gebaut ist. Und euer Do Now aus Woche 3 ist der vorbereitete Landeplatz dafür – ab Woche 14 füllen wir ihn systematisch mit Wiederholung."*
+### 3b · Lern-Meilensteine (Min. 18–23)
+> *„Das Ziel einer Stunde ist kein Thema. ‚Wir machen heute Photosynthese' ist ein ORT, kein Ziel – man kann dort ankommen, ohne dass irgendjemand etwas kann. Stattdessen: zwei bis fünf **Meilensteine** – Könnens-Sätze. Für Photosynthese etwa: ‚Kann die Wortgleichung nennen' → ‚kann erklären, wozu die Pflanze Licht braucht' → ‚kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert.' Vier Prüfsteine, unsere Ampel: **kumulativ** – sie bauen aufeinander; **verteilt** – den ersten schaffen fast alle, den letzten die Stärksten (das ist eure Differenzierung, eingebaut statt angeflanscht!); **messbar** – man kann eine Aufgabe dazu stellen; **klar** – ein Schüler versteht den Satz. Merkt euch die Meilensteine gut: Sie sind ab Woche 13 die Messlatte eurer Exit Tickets und ab Woche 33 das Skelett eurer Erwartungshorizonte. Was ihr heute lernt, benutzt ihr bis Juni wöchentlich."*
 
-### Strang 2: Sequencing & Modelling – kleine Schritte, gezeigtes Denken (Min. 16–20)
-> *„Prinzipien 2, 4 und 8: neuen Stoff in kleinen Schritten, Modellieren mit Beispielen, Gerüste für Schwieriges. Das Bild dazu: Ihr seid Bergführer mit einer Gruppe, die zum ersten Mal am Berg ist. Der Anfängerfehler ist nicht die falsche Route – es ist die Schrittlänge. Was für euch EIN Schritt ist (‚einfach den Bruch erweitern'), sind für Schüler ohne Vorkenntnisse fünf. Warum das kognitiv so ist, bekommt ihr in Block 3 in voller Schönheit; heute reicht die Regel: kleiner schneiden, als sich richtig anfühlt. Die Wochen 10 und 11 gehören diesem Strang."*
+### 3c · Exemplar Planning (Min. 23–28)
+> *„Und jetzt Lemovs Technik Nummer eins – wortwörtlich, es ist die erste im Buch: **Schreib die ideale Schülerantwort selbst auf. Vorher.** Nicht die Aufgabe – die ANTWORT. Warum das so mächtig ist, merkt ihr beim ersten Versuch: Ihr wollt ‚Die Schüler können den Treibhauseffekt erklären'. Gut – schreibt die Erklärung, die ihr von einem Achtklässler sehen wollt. Drei Sätze? Sieben? Mit dem Wort ‚Wärmestrahlung' oder reicht ‚Wärme'? Mit Beispiel? In dem Moment, in dem ihr das ausformuliert, passieren drei Dinge: Erstens wisst ihr zum ersten Mal PRÄZISE, was ihr wollt. Zweitens seht ihr sofort die Lücken – ‚dafür müssen sie ja erstmal wissen, was Strahlung ist' – eure Schrittgrößen-Planung aus Woche 8 fällt euch in den Schoß. Drittens habt ihr den Maßstab für jede Antwort in der Stunde: Right is Right, kommt in Block 4, braucht genau dieses Exemplar. Fünf Minuten Schreibarbeit, dreifache Rendite."*
 
-### Strang 3: Questioning – viele Fragen, alle prüfen (Min. 20–23)
-> *„Prinzipien 3 und 6: viele Fragen stellen, und das Verständnis ALLER prüfen – nicht der drei Meldefinger. Rosenshines Beobachtung: Die wirksamsten Lehrkräfte stellen schlicht mehr Fragen und lassen mehr Schüler antworten als der Durchschnitt. Wie man das technisch sauber macht – Cold Call, Whiteboards, all das – ist der komplette Block 4. Heute nur der Platzhalter im Gerüst: Nach jedem kleinen Schritt kommt eine Prüfschleife. Erklären ohne Prüfen ist Senden ohne Empfangsbestätigung."*
+## Phase 4 · Name it (Minute 28–32)
 
-### Strang 4: Practising – vom geführten zum freien Üben (Min. 23–27)
-> *„Prinzipien 5, 7 und 9: angeleitetes Üben, hohe Erfolgsquote, selbstständiges Üben. Hier wohnt die Formel, die ihr vermutlich schon kennt: **I do – We do – You do.** Ich zeige es. Wir machen es gemeinsam. Ihr macht es allein. Das ist keine Methodenmode, sondern schlichte Verantwortungsübergabe – und der klassische Anfängerfehler ist der Sprung: erklärt (I do), Arbeitsblatt (You do), wundern. Das We do – gemeinsam durcharbeiten, Hilfen langsam abbauen – ist die Brücke, und wer sie überspringt, lässt die Hälfte der Klasse am Ufer stehen. Woche 12 und 13 gehören diesem Strang.*
-> *Und die Steuergröße für das alles: Prinzip 7, die **80-Prozent-Regel.** In Übungsphasen sollen etwa vier von fünf Antworten richtig sein. Deutlich darunter? Zurück zum Modellieren – die Brücke war zu kurz. Deutlich darüber, dauerhaft 100 %? Der Anspruch ist zu niedrig – es wird geübt, was schon sitzt. 80 Prozent ist der Korridor, in dem Üben lernt statt frustriert oder langweilt."*
+Handout A: **Ampel-Check je Meilenstein:** kumulativ? · verteilt? · messbar? · klar? — plus **Exemplar-Frage:** „Habe ich die Idealantwort auf die Schlüsselaufgabe selbst ausformuliert?" — plus **Reihenfolge-Regel:** Ziel → Nachweis → Aktivität (nie andersherum).
 
-### Einordnung: der „Frontalunterricht"-Einwand (Min. 27–28)
-> *„Bevor jemand es denkt: Das hier ist kein Plädoyer für Dauermonolog. Explizite Instruktion nach Rosenshine ist hochinteraktiv – kurze Erklärsequenzen, ständig unterbrochen von Fragen, Prüfungen, gemeinsamem Arbeiten. Der Gegensatz ist nicht ‚Frontal vs. modern'. Der Gegensatz ist ‚geführt vs. allein gelassen' – und Schüler ohne Vorkenntnisse – das sind eure Schüler in fast allem – brauchen Führung."*
+Fingerzeichen-Kalibrierung (2 Min.): 4 Formulierungen vorlesen – Ziel oder Thema? (z. B. „Die SuS setzen sich mit Gedichten auseinander" = Thema/Nebel; „Die SuS können ein Metrum bestimmen und am Text belegen" = Ziel.)
 
-## Phase 4 · Name it (Minute 28–33)
+## Phase 5 · Do it: Werkstatt an der echten Montagsstunde (Minute 32–52)
 
-Handout B austeilen: **Das Audit-Raster** – fünf Prüffragen an jede Stunde:
+### Runde 1 · Kalibrierung an Fremdmaterial (Min. 32–38)
+Tandems bewerten die 4 Beispielketten (Handout B) mit der Ampel: Welche zwei sind kaputt – und woran genau? Plenums-Blitz: je Kette 30 Sekunden. *(Die kaputten Ketten scheitern an „nicht kumulativ" bzw. „nicht messbar" – siehe Anhang 1.2; die Diskussion kalibriert die Ampel, bevor sie auf Eigenes losgelassen wird.)*
 
-1. Beginnt sie mit Wiederholung?
-2. Wie groß sind die Schritte (neue Elemente pro Erklärsequenz)?
-3. Wo sind die Prüfschleifen – und prüfen sie ALLE?
-4. Gibt es ein echtes We do zwischen Zeigen und Alleinarbeiten?
-5. Geschätzte Erfolgsquote im Üben – im Korridor?
+### Runde 2 · Eigene Meilensteinkette + Exemplar (Min. 38–48)
+Einzelarbeit an der mitgebrachten realen Stunde:
 
-Fingerzeichen-Kalibrierung (2 Min.): Moderation liest 3 Stunden-Kurzbeschreibungen vor, TN zeigen den verletzten Strang (1–4).
+1. 2–5 Meilensteine schreiben (5 Min.).
+2. zur Schlüsselaufgabe des obersten erreichbaren Meilensteins das Exemplar ausformulieren – die Antwort, wie sie im Heft stehen soll (5 Min.).
 
-## Phase 5 · Do it: Audit & Redesign (Minute 33–52)
+Moderation zirkuliert; häufigste Intervention: *„Das ist die Aufgabe – ich will die ANTWORT sehen."*
 
-### Runde 1 · Fremd-Audit (Min. 33–41)
-Tandems erhalten die schwache Beispielstunde (Anhang 1.3) und auditieren mit dem Raster: die vier größten Verstöße finden und benennen (mit Prinzip-Nummer – die gemeinsame Sprache wird geübt). Kurzer Plenums-Abgleich: Die Verstöße sind absichtlich eindeutig; Diskussionen entstehen bei Frage 5 (Erfolgsquote schätzen) – gewollt.
-
-### Runde 2 · Redesign (Min. 41–48)
-> *„Jetzt reparieren, nicht neu erfinden: Baut die Stunde mit MINIMALEN Eingriffen Rosenshine-konform um. Regel: Ihr dürft nichts hinzuerfinden, was länger als fünf Minuten dauert."* — Tandems skizzieren; 2 Tandems pitchen ihr Redesign in je 60 Sekunden. *(Typische gute Lösungen: Do Now mit Vorwissen statt Kaltstart; Erklärblock dritteln mit Prüffragen; 2 gemeinsame Beispiele vor dem Arbeitsblatt; Exit-Aufgabe statt „Wer noch Fragen hat…".)*
-
-### Runde 3 · Selbst-Audit (Min. 48–52)
-Jeder legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage markieren, bei der der eigene Plan am schwächsten ist. Kein Vorzeigen, keine Beichte – nur die private Diagnose (sie wird der Action Step).
+### Runde 3 · Härtetest (Min. 48–52)
+Tandem-Prüfung mit zwei Fragen: **„Woran MISST du Meilenstein 2 – welche Aufgabe stellst du?"** und **„Zeig mir im Exemplar die Scheiter-Stelle – die Stelle, an der schwache Schüler scheitern werden."** → nachschärfen. *(Die zweite Frage erzwingt den Blick auf Schrittgrößen – die Brücke zu W10.)*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Jede meiner Stunden dieser Woche beginnt mit fünf Minuten Wiederholung – Format frei (Fragen an der Tafel, mündliche Runde, Mini-Quiz). Freitags notiere ich: Was hat sich am Stundenverlauf dadurch verändert?"*
+**Standard:** *„Für jede NEUE Stunde dieser Woche schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe – vor allem anderen, vor der Methodenwahl, vor dem Material. Fünf Minuten, handschriftlich reicht."*
 
 **Alternativen:**
 
-1. Selbst-Audit-Fix: den in Runde 3 markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben.
-2. 80 %-Beobachtung: in einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.
+1. Einseiter-Woche: alle Stunden nur als Meilensteine + Exemplar + grobe Phasen planen (Vorgriff Lean, W31 – gut für chronisch Überplanende).
+2. Todsünden-Wache: die eigene Planung jeder Stunde nachträglich taggen (A? B? Backwards?) – reine Diagnose-Woche für Skeptiker.
 
-> **Ausblick:** *„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang. Bringt das Thema einer echten Stunde eurer KOMMENDEN Woche mit – daran wird gearbeitet."* **(Vorab-Auftrag auf die Exit-Karte!)**
+> **Ausblick:** *„Nächste Woche: das I do. Wie man erklärt, dass Schüler ohne Vorkenntnisse wirklich folgen – lautes Denken, Beispiele, und warum ausgerechnet eure Berufserfahrung euer größtes Erklär-Handicap ist. Bringt Mut mit: Es wird Mikroteaching geben – jeder erklärt drei Minuten vor der Gruppe. Bereitet dafür einen kleinen Fachinhalt eurer Wahl vor."* **(Vorab-Auftrag W10 explizit ansagen und auf die Exit-Karte drucken!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: Thema einer echten Stunde der kommenden Woche zu W10 mitbringen.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile Mikroteaching-Auftrag.
 
 ---
 
 # 4. Coaching-Woche 9 (Handreichung)
 
-- **Vorbereitung:** TN schickt den Verlaufsplan der Hospitationsstunde vorab; Coach legt selbst das Audit-Raster an (nicht zeigen – erst nach dem Gespräch abgleichen).
-- **Hospitationsfokus:** Plan vs. Realität, besonders Schrittgröße: Wie viele neue Elemente pro Erklärsequenz? Gab es ein We do oder den Sprung?
-- **Auswertungsgespräch:** TN auditiert die eigene gehaltene Stunde zuerst selbst (Raster), Coach ergänzt; Action Step aus der schwächsten Prüffrage ableiten. **Wichtig:** Der Klassenführungs-Dauer-Action-Step aus dem Meilenstein-Gespräch läuft parallel weiter – kurz abfragen (2 Min.), nicht fallen lassen.
-- **Red Flag:** TN deutet Rosenshine als „zurück zum Frontalunterricht" und wirft moderne Formate komplett über Bord → Einordnung aus Phase 3 wiederholen: geführt ≠ monologisch; Gruppenformate haben ihren Platz – NACH gesicherter Grundlage (You do in Sozialform).
+- **Format-Wechsel:** Diese Woche ist ein PLANUNGS-Coaching sinnvoll (30 Min. vor der Stunde statt nur Hospitation): Meilensteine + Exemplar der Montagsstunde gemeinsam durchgehen; Coach fragt nur die zwei Härtetest-Fragen.
+- **Hospitationsfokus (falls regulär):** Wird das geplante Ziel im Unterricht sichtbar? Kennen die SuS es (Stichprobe: 2 SuS nach der Stunde fragen: „Was solltet ihr heute lernen?" – ernüchternd und erhellend)?
+- **Auswertung:** Exemplar neben 3 echte Schülerantworten aus der Stunde legen – die Lücke ist der nächste Action Step.
+- **Red Flag:** TN produziert 8+ „Meilensteine" pro Stunde (Vollständigkeitsangst) → gemeinsam auf 3 eindampfen: „Welche zwei sind nur Zwischenschritte von anderen?"
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Rosenshine-Übersichtskarte
+## 1.1 Handout A: Meilenstein-Canvas
+Kopf: Fach/Klasse/Thema/Datum. — Tabelle: Meilenstein (Könnens-Satz) | Ampel: kumulativ · verteilt · messbar · klar | Prüfaufgabe dazu (ein Satz). — Fußfeld: **Exemplar** (die Idealantwort zur Schlüsselaufgabe, ausformuliert!). — Merkzeile: Ziel → Nachweis → Aktivität.
 
-**Strang Reviewing:** P1 tägliche Wiederholung · P10 wöchentl./monatl. Wiederholung → *unsere Werkzeuge: Do Now (W3/14), kumulative Quizze (W18/19)*
-**Strang Sequencing & Modelling:** P2 kleine Schritte · P4 Modellieren/Beispiele · P8 Gerüste → *W10, W11, W12 (Fading)*
-**Strang Questioning:** P3 viele Fragen · P6 Verständnis aller prüfen → *Block 4 komplett*
-**Strang Practising:** P5 angeleitetes Üben · P7 hohe Erfolgsquote (~80 %) · P9 selbstständiges Üben → *W12, W13*
-**Formel:** I do → We do → You do. **Steuergröße:** 80 %-Korridor.
+## 1.2 Handout B: Vier Beispielketten
+**Kette 1 (tragfähig, Englisch Kl. 8):** kann 5 unregelmäßige Verben im past simple bilden → kann in 4 vorgegebenen Sätzen zwischen past simple und present perfect entscheiden → kann die Entscheidung mit der Signalwort-Regel begründen → kann einen eigenen 5-Satz-Text über das Wochenende fehlerfrei im past simple schreiben. *(kumulativ ✓ verteilt ✓ messbar ✓ klar ✓)*
+**Kette 2 (kaputt, Geschichte Kl. 9):** kann sich in die Zeit des Kalten Krieges einfühlen → versteht die Bedeutung der Kubakrise → reflektiert Parallelen zur Gegenwart. *(nicht messbar: „einfühlen/verstehen/reflektieren" ohne Nachweisform; keine Prüfaufgabe stellbar)*
+**Kette 3 (tragfähig, Chemie Kl. 8):** kann die Teilchen in Wort- und Symbolschreibweise von Wasser benennen → kann den Versuchsaufbau der Wasserzersetzung skizzieren und beschriften → kann das 2:1-Volumenverhältnis der Gase mit der Formel erklären → kann vorhersagen, welche Gasmengen bei doppelter Wassermenge entstehen. *(alle ✓)*
+**Kette 4 (kaputt, Mathe Kl. 7):** kann den Satz des Pythagoras anwenden → kann rechtwinklige Dreiecke erkennen → weiß, was eine Hypotenuse ist. *(nicht kumulativ – Reihenfolge steht Kopf: Das Schwerste zuerst; als Kette rückwärts wäre sie tragfähig – guter Diskussionsfall!)*
 
-## 1.2 Handout B: Audit-Raster (5 Prüffragen)
-1. Wiederholung am Anfang? (was/wie lange) — 2. Schrittgröße? (neue Elemente pro Erklärsequenz zählen!) — 3. Prüfschleifen: wo, und prüfen sie ALLE? — 4. Echtes We do vorhanden (gemeinsame Beispiele, Hilfenabbau)? — 5. Erfolgsquote im Üben geschätzt: <80 % / ~80 % / ~100 %?
-
-## 1.3 Die schwache Beispielstunde (Einseiter, Fach neutral gehalten: „Prozentrechnung, Kl. 7")
-*Min. 0–5: Begrüßung, Organisatorisches, Rückgabe eines Tests. Min. 5–25: Lehrkraft erklärt am Stück: Grundwert, Prozentwert, Prozentsatz, die drei Formeln, zwei Sonderfälle, Taschenrechner-Tipp (Folien mit viel Text, SuS schreiben parallel ab). Zwischenfrage: „Alle verstanden? Gut." Min. 25–40: Arbeitsblatt mit 12 gemischten Aufgaben, Einzelarbeit. Lehrkraft korrigiert währenddessen den Test von gestern am Pult; wer Fragen hat, kommt nach vorn (Schlange bildet sich). Min. 40–45: „Wir vergleichen die ersten drei – wer hat Aufgabe 1? … Richtig. Hausaufgabe: Rest des Blattes. Ihr könnt schon mal packen."*
-*(Eingebaute Verstöße für das Audit: kein Review · Riesenschritte, 6+ neue Elemente am Stück · Selbstauskunft statt Prüfung · kein We do, Sprung ins You do · Erfolgsquote unbekannt/Schlange als Symptom · Melder-Stichprobe beim Vergleich · aufgelöstes Ende. Bonus-Fund für Aufmerksame: Split Attention beim Abschreiben während des Erklärens – wird in W16 offiziell.)*
+## 1.3 Vorlesetexte „Innere Monologe" — siehe Phase 2 (Planer A / Planer B, wörtlich).
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Die drei W.I.N.-Schritte in Reihenfolge? *(Was ist passiert – aus Schülersicht zuerst / Impact / Next steps)*
-2. Interventionsleiter Stufen 1–3? *(nonverbal / positive Gruppenkorrektur / anonyme Einzelkorrektur)*
-3. Die drei Kriterien eines Do Now? *(ohne Erklärung lösbar, schriftlich, 3–5 Min. – ideal: Wiederholung)*
-4. Welches mentale Modell begründet „kleine Schritte"? *(Modell 1 – enges Arbeitsgedächtnis)*
-5. (Anwendung) Nach den Herbstferien ist die Begrüßungsroutine „vergessen" – deine ersten zwei Züge? *(explizit neu einführen mit Begründung/CFU nach W2-Bauplan; konsequent auf 100 % warten, ggf. Do It Again)*
+1. Die vier Rosenshine-Stränge? *(Reviewing / Sequencing & Modelling / Questioning / Practising)*
+2. Was tust du bei ~50 % Erfolgsquote im Üben – und bei dauerhaft 100 %? *(zurück zu Modellieren/We do; Anspruch erhöhen)*
+3. Die Umformulierungs-Formel aus Block 1? *(„Ich sehe [erfüllender Teil] – ich will [Zielzustand]")*
+4. Warum ist das We do unverzichtbar – mit welchem mentalen Modell begründest du das? *(Verantwortungsübergabe braucht Brücke; Modell 1: WM-Entlastung durch geführte Schritte)*
+5. (Anwendung) Nenne die Reviewing-Elemente in UNSEREN Sitzungen. *(Retrieval-Starter wöchentlich, Block-Quizze, kumulative Fragen)*
 
 ## Teil 2: Modul-Quiz Woche 9 (für SPA/Folgewoche)
-**F1.** Explizite Instruktion nach Rosenshine ist…
-a) veralteter Frontalunterricht mit neuem Etikett ✗ *(DAS Vorurteil)*
-b) hochinteraktives Vorgehen in kleinen, ständig geprüften Schritten ✓
-c) nur für schwache Lerngruppen geeignet ✗
-d) Vortrag mit guten Folien ✗
+**F1.** „Die SuS setzen sich mit dem Klimawandel auseinander" ist…
+a) ein gutes, offenes Lernziel ✗ *(klingt kompetenzorientiert!)*
+b) ein Thema ohne messbares Ziel – keine Prüfaufgabe stellbar ✓
+c) zu anspruchsvoll für Sek I ✗
+d) nur als Projektziel geeignet ✗
 
-**F2.** In deiner Übungsphase liegen etwa 50 % der Antworten richtig. Du…
-a) lässt weiter üben – Übung macht den Meister ✗ *(klingt weise; übt Fehler ein)*
-b) gehst zurück zu Modellieren/We do ✓
-c) gibst leichtere Aufgaben aus ✗ *(senkt das Ziel statt die Brücke zu bauen)*
-d) beendest das Thema und machst nach der Arbeit weiter ✗
+**F2.** Exemplar Planning bedeutet…
+a) Musterstunden erfahrener Kollegen übernehmen ✗ *(Wortfalle)*
+b) die ideale Schülerantwort vor der Stunde selbst ausformulieren ✓
+c) im Unterricht viele Beispiele zeigen ✗ *(nah dran – das ist P4, nicht T1)*
+d) den Erwartungshorizont nach der Klassenarbeit schreiben ✗
 
-**F3.** Deine Klasse löst im Üben dauerhaft 100 % fehlerfrei. Das bedeutet:
-a) perfekter Unterricht – weiter so ✗ *(fühlt sich großartig an!)*
-b) vermutlich zu niedriger Anspruch – es wird geübt, was schon sitzt ✓
-c) die Klasse ist überdurchschnittlich ✗
-d) die 80 %-Regel ist widerlegt ✗
+**F3.** Die wirksamsten Lehrkräfte verwenden (laut Lemovs Videostudien) …
+a) mehr Zeit auf originelle Aktivitäten ✗ *(Bauchgefühl!)*
+b) mehr Zeit auf Ziele/Exemplare, weniger auf Aktivitätenauswahl ✓
+c) gar keine schriftliche Planung ✗
+d) fertige Verlagsmaterialien ✗
 
-**F4.** Der „Sprung-Fehler" bezeichnet…
-a) Themenwechsel ohne Überleitung ✗ *(Wortfalle)*
-b) das Überspringen des We do: vom Erklären direkt ins Alleinarbeiten ✓
-c) zu schnelles Sprechen ✗
-d) fehlende Hausaufgabenkontrolle ✗
+**F4.** „Verteilt" als Meilenstein-Kriterium heißt:
+a) die Meilensteine sind über die Stunde verteilt ✗ *(Wortfalle)*
+b) den ersten schaffen fast alle, den letzten die Stärksten – Differenzierung eingebaut ✓
+c) jeder Schüler bekommt einen anderen ✗
+d) sie verteilen sich auf mehrere Stunden ✗
 
-**F5.** „Viele Fragen stellen" (P3) meint bei Rosenshine…
-a) Quizshows und Ratespiele ✗
-b) nach jedem kleinen Schritt Prüfschleifen für möglichst ALLE ✓
-c) offene Philosophie-Fragen ✗
-d) rhetorische Fragen zur Aktivierung ✗ *(fühlt sich interaktiv an, prüft nichts)*
+**F5.** Der Abdeckungsfokus („Kapitel 7 muss durch") ist gefährlich, weil…
+a) Lehrpläne unwichtig sind ✗ *(Strohmann)*
+b) „Stoff durch" nichts darüber sagt, ob Köpfe mitgekommen sind ✓
+c) er zu langsam ist ✗
+d) Schulbücher schlecht sind ✗
 
-**F6 (Transfer, Freitext):** Nenne die vier größten Rosenshine-Verstöße der Beispielstunde (Anhang 1.3) – je mit Prinzip und einem konkreten Reparaturvorschlag ≤ 5 Minuten. *(Muster: kein Review → Do Now „2 Aufgaben Brüche von letzter Woche"; Riesenschritte → nach Grundwert/Prozentwert stoppen + Prüffrage; Selbstauskunft → 2 Whiteboard-Aufgaben; Sprung → 2 gemeinsame Beispiele vor dem Blatt.)*
+**F6 (Transfer, Freitext):** Baue aus dem Thema „Wahlrecht ab 16" (Politik, Kl. 10) eine Kette aus drei Meilensteinen + formuliere das Exemplar zum mittleren. *(Muster: kann 2 Pro- und 2 Contra-Argumente nennen → kann ein Argument mit Beleg/Beispiel entfalten → kann eine begründete eigene Position in 5 Sätzen formulieren, die ein Gegenargument aufgreift. Exemplar Mitte z. B.: „Ein Argument dafür ist, dass 16-Jährige von politischen Entscheidungen – etwa beim Klima – am längsten betroffen sind. Wer betroffen ist, sollte mitentscheiden dürfen; das zeigt sich auch daran, dass …")*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 9"
 
-1. **Hook (2 Min.):** „Drei Quellen, eine Richtung" als animierte Konvergenz-Grafik (Kognitionspsychologie + Meisterlehrer-Studien + Interventionsstudien laufen auf dieselben 10 Prinzipien zu).
-2. **See it (5 Min.):** Die vier Stränge als aufklappbare Karten mit je einem 45-Sek.-Klassenzimmer-Beispiel (Video/Audio); ständige „Das machst du schon"-Badges (Do Now, Block-1-Verweise) für den Wiedererkennungs-Effekt.
-3. **Name it (3 Min.):** Sortier-Spiel: 10 Prinzipien-Karten in die 4 Stränge ziehen; danach I-We-You als Verantwortungs-Schieberegler-Animation.
-4. **Do it – Stunden-Audit-Tool (9 Min., Engine!):** Die schwache Beispielstunde als interaktiver Zeitstrahl – Nutzer markiert Verstöße direkt im Verlauf, wählt Prinzip + Reparatur aus Optionen; danach: eigenen Stundenplan als Freitext/Foto einfügen und mit dem 5-Fragen-Raster selbst auditieren (geführte Checkliste, Ergebnis als Ampelprofil).
-5. **80 %-Simulator:** Schieberegler Erfolgsquote → App zeigt die richtige Reaktion (zurück modellieren / im Korridor / Anspruch rauf) mit Fallbeispielen.
-6. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–8); F2/F3 sind die Langzeit-Anker (beide Enden des Korridors!).
-7. **Abschluss:** Action-Step-Formular mit Wochenzähler „Stunden mit 5-Min.-Review: __/__".
+1. **Hook (2 Min.):** Die zwei inneren Monologe als Audio – Nutzer tippt nach jedem: „Welche Frage fehlt in diesem Kopf?" (Auflösung: „Was LERNEN sie dabei?").
+2. **See it (4 Min.):** Backwards-Design-Reihenfolge als animierte Umkehrung (Aktivität-zuerst-Pfeil dreht sich um); Lemov-Befund als Balkengrafik (Zeitverwendung Top-Lehrkräfte vs. Durchschnitt).
+3. **Name it (4 Min.):** Ampel-Kriterien als Karten; „Ziel oder Thema?"-Swipe-Spiel mit 10 Formulierungen.
+4. **Do it – Meilenstein-Werkstatt (8 Min., Engine!):** Thema eingeben → Kette bauen → Ampel-Prüfung pro Meilenstein (Heuristik: Verb-Check gegen Nebelverben-Liste „verstehen/kennenlernen/auseinandersetzen/reflektieren"; Prüfaufgaben-Pflichtfeld erzwingt Messbarkeit); die 4 Beispielketten aus Anhang 1.2 als Kalibrier-Level vorab (Fehler finden).
+5. **Exemplar-Editor:** Schlüsselaufgabe + Idealantwort verfassen; App-Prompt: „Markiere die Scheiter-Stelle – die Stelle, an der Schwache scheitern werden" → dieses Markup wird als Schrittgrößen-Hinweis in Modul 10 wieder eingeblendet (Modul-übergreifende Datennutzung!).
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Exemplar vor Methodenwahl" mit Wochenzähler + Erinnerung an den Mikroteaching-Vorab-Auftrag für Modul 10.

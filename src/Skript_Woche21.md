@@ -1,5 +1,5 @@
-# Skript Woche 21: „Kultur des Fehlers & Schluss mit Selbstauskunft"
-## 60-Minuten-Sitzung · Block 4 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 21: „Cold Call & Wait Time – alle denken mit"
+## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,22 +7,22 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
-| **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
-| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (W22–26) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert das Exemplar (W10) und die Fallen-Sammlung (W11) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
-| **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
-| **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
+| **Leitfrage** | Wie sorge ich dafür, dass alle denken – nicht nur die fünf Melder? |
+| **Kernquellen** | Lemov T34 (Cold Call), T33 (Wait Time), T36 (Means of Participation); Ratio-Konzept (Participation × Think) |
+| **Funktion im Jahr** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf W20 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für W22 (No Opt Out schließt die Schleife) und W23 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in W28 als Beziehungs-Heatmap wieder). |
+| **Lernziele** | Die TN können:<br>1. Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal),<br>2. die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen,<br>3. 3–5 Sekunden Wartezeit aushalten und produktiv rahmen,<br>4. Means of Participation vor jeder Frage ansagen. |
+| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Jahres (die Pause wird mit der Stoppuhr gemessen). |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Tandems, Spielfläche klein. **Material:**
-- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1)
-- [ ] Reaktions-Kartenset: 8 typische Lehrerreaktionen auf Fehler (Anhang 1.1)
-- [ ] Handout A: Der Fehlerreaktions-Dreiklang + Ersetzungs-Regel (Anhang 1.2)
-- [ ] Plan-for-Error-Canvas (Anhang 1.3)
-- [ ] Re-Establish-Skriptvorlage (W2/W3-Kondensat, Anhang 1.4)
+**Raum:** Vierergruppen mit Spielfläche; Stoppuhren (Handys). **Material:**
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Handout A: Cold-Call-Standard + Einführungsskript-Vorlage Sek I/Sek II (Anhang 1.1)
+- [ ] Störkarten-Set D, 3 Karten (Anhang 1.2)
+- [ ] Sitzplan-Heatmap-Blanko (Anhang 1.3)
+- [ ] Fachfragen-Kärtchen für den Drill (12 kurze Fragen quer durch die Blöcke)
 
 ---
 
@@ -30,49 +30,59 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Reaktivierungs-Quiz + Re-Establish (Minute 2–14)
-8 Fragen quer (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Direkt anschließend **Re-Establish-Mini-Übung (4 Min.):** Frage 8 („Erste Woche nach Ferien – was etablierst du neu?") wird sofort umgesetzt: Jeder skriptet in 4 Minuten seinen Re-Establish-Moment für Montag (Erwartung + Begründung + Behavioural CFU – reines W2-Handwerk, Vorlage Anhang 1.4). *„Nicht diskutieren – schreiben. Ihr könnt das im Schlaf; der Zettel geht Montag mit in die Stunde."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
 
-## Phase 2 · See it: Das nutzlose Ritual (Minute 14–20)
-
-Moderation spielt eine 90-Sekunden-Szene: erklärt etwas Kurzes, dann: *„Alle verstanden? … Fragen? … Keiner? Sehr gut, dann weiter."* Blättert demonstrativ zur nächsten Folie.
-
-> **Auswertung:**
-> *„Frage an euch: Was weiß ich jetzt über den Lernstand dieser Klasse? … Exakt: nichts. Null. Und trotzdem ist ‚Alle verstanden?' der meistgesprochene Satz in deutschen Klassenzimmern. Warum liefert er nichts? Zwei Gründe. Erstens die **sozialen Kosten**: Wer jetzt die Hand hebt, sagt vor 28 Zeugen ‚Ich bin der Langsame'. Dieser Preis ist für einen Vierzehnjährigen unbezahlbar – also schweigt er und hofft. Zweitens, subtiler: **Viele wissen nicht, DASS sie es nicht verstanden haben.** Um zu merken, dass man etwas nicht kann, muss man es schon halb können – das ist der Kern des Dunning-Kruger-Befunds. Die Frage ‚Verstanden?' fragt also genau die Instanz, die am wenigsten Bescheid weiß: die Selbsteinschätzung von Schülern ohne Vorkenntnisse.*
-> *Die Ersetzungs-Regel des Tages: **Jede Selbstauskunfts-Frage wird durch eine prüfbare Mini-Aufgabe ersetzt.** Nicht ‚Verstanden?', sondern: ‚Boards raus – löst Nummer 2.' Nicht ‚Noch Fragen?', sondern: ‚Schreibt den ersten Schritt auf – hoch.' Ihr habt die Werkzeuge längst; heute bekommt ihr das Verbotsschild dazu."*
-
-## Phase 3 · Input: Culture of Error (Minute 20–30)
+## Phase 2 · Brücke & das stille Abo (Minute 8–13)
 
 > **Moderationstext:**
-> *„Aber – und jetzt kommt das eigentliche Thema – prüfbare Aufgaben liefern nur dann ehrliche Daten, wenn Schüler bereit sind, Fehler zu ZEIGEN. Und das sind sie nur, wenn Fehler in eurem Raum sicher sind. Lemov nennt das Culture of Error, und sie hängt an vier Hebeln, die alle bei EUCH liegen:*
-> *Hebel eins: **Fehler erwarten und würdigen.** Sprache wie: ‚Diesen Fehler machen kluge Leute – warum ist er so verführerisch?' oder ‚Ich HOFFE, dass einige in die Falle getappt sind, dann lohnt sich die nächste Minute.' Ihr kennt das Prinzip aus Woche 11 – die vorgeführte Falle – jetzt wird es Klassennorm: Fehler sind hier Material, kein Makel.*
-> *Hebel zwei: **Eigene Fehler souverän behandeln.** Ihr werdet euch verrechnen, verschreiben, versprechen. Die Klasse beobachtet in diesem Moment nur eines: eure Reaktion. ‚Ah, gut aufgepasst – wo genau lag mein Fehler?' unterrichtet mehr Fehlerkultur als jedes Plakat.*
-> *Hebel drei – der unsichtbarste: **Richtig und falsch neutral und zügig klären.** Und zwar mit dem GESICHT. Die enttäuschte Miene, das Seufzen, das gedehnte ‚Hmmm…' – eure Mimik unterrichtet, bevor ihr ein Wort gesagt habt. Emotional Constancy aus Woche 5, angewandt auf Fehlerantworten: Der Fehler gehört zur Aufgabe, nicht zur Person; die Wärme gilt der Person, die Klarheit der Sache.*
-> *Hebel vier: **Niemals über Fehler lachen lassen.** Das ist eine 100-Prozent-Norm wie in Woche 6 – ein geduldetes Kichern über eine falsche Antwort kostet euch zehn ehrliche Antworten in den Folgewochen.*
-> *Und der Planungs-Baustein dazu: **Plan for Error.** Die drei wahrscheinlichsten Fehler einer Stunde kann man VORHER kennen – aus der letzten Klassenarbeit, aus eurer Fallen-Sammlung aus Woche 11, aus dem Exemplar mit seiner markierten Scheiter-Stelle. Wer die Fehler kennt, hat die Reaktion im Koffer statt im Improvisationsmodus. Aus Überraschung wird Plan."*
+> *„Verstanden?-Strichlisten: Wer hat sich ertappt – und wie oft am Montag gegen Freitag?"* [2 Stimmen, fallende Kurve würdigen.]
+> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Jahres: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
 
-## Phase 4 · Name it (Minute 30–33)
+## Phase 3 · Input (Minute 13–28)
 
-**Ersetzungs-Regel:** Selbstauskunft → prüfbare Mini-Aufgabe. **Fehlerreaktions-Dreiklang:** (1) neutral benennen („Das ist noch nicht richtig – schauen wir hin") → (2) Ursache würdigen („Der Fehler ist naheliegend, weil…") → (3) nutzen („Wer hatte dasselbe? Boards hoch – gut, dann lohnt sich das jetzt für alle"). **Vier Kultur-Hebel:** erwarten/würdigen · eigene Fehler souverän · neutral & zügig (Miene!) · Lach-Verbot als 100 %-Norm. Merksatz: *„Daten bekommt nur, wer Fehler sicher macht."*
+### 3a · See it: Der Kontrast (Min. 13–18)
+Moderation spielt zweimal dieselbe Frage-Situation mit der Gruppe:
 
-## Phase 5 · Do it (Minute 33–52)
+**Variante A:** *„Wer kann mir sagen, warum die Weimarer Republik so instabil war? … Ja, [Name des Schnellsten]!"* [Latenz unter 1 Sekunde – der Name fällt, bevor jemand anderes denken konnte.]
 
-### Runde 1 · Reaktions-Makeover mit Miene (Min. 33–44)
-Tandems, 8 Reaktions-Karten (Anhang 1.1): Karte ziehen, die schwache Reaktion LAUT im Original spielen (mit Miene! – das Original muss man gespielt haben, um es bei sich zu erkennen), dann nach Dreiklang umformulieren und erneut spielen – diesmal mit neutraler Miene und ruhigem Ton. Der Partner achtet AUSSCHLIESSLICH auf Gesicht und Stimme: *„Der Text kann stimmen und die Miene alles verraten."* 2 Runden mit Wechsel.
+**Variante B:** *„Gleich möchte ich von jemandem hören – warum war die Weimarer Republik so instabil? Denkt kurz nach; zwei Stichworte im Kopf reichen."* [4 Sekunden Stille, ruhiger Blick durch den Raum – dann erst:] *„… Cem?"*
 
-### Runde 2 · Plan-for-Error-Canvas (Min. 44–52)
-Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrscheinlichsten Fehler notieren (Quellen: Fallen-Sammlung W11, letzte Arbeit, Exemplar-Scheiter-Stelle) + zu jedem ein Reaktions-Skript (Dreiklang, wörtlich). Tandem-Härtetest: **„Sind das die WAHRSCHEINLICHSTEN Fehler – oder die interessantesten?"** *(Der klassische Baufehler: Lehrkräfte planen für die exotische Verwechslung und werden vom banalen Vorzeichenfehler überrascht.)*
+> **Auswertung:** *„Was war in Variante B anders – und zwar für ALLE im Raum, nicht nur für Cem?"* [Sammeln: In A denkt nur der Melder; in B mussten alle denken, weil bis zur Namensnennung jeder gemeint sein konnte.] *„Das ist der ganze Mechanismus in einer Reihenfolge: **Frage → Pause → Name.** Die Pause ist die Denkzeit für alle; der Name kommt erst, wenn gedacht wurde. Dreht ihr die Reihenfolge um – ‚Cem, warum war…' – schaltet ihr im selben Moment 27 Gehirne ab: nicht gemeint, nicht zuständig."*
+
+### 3b · Cold Call als Kultur (Min. 18–24)
+> *„Jetzt die Gelingensbedingungen, und sie sind nicht verhandelbar:*
+> *Erstens: **angekündigt und begründet einführen.** Cold Call wird nicht heimlich gestartet – er wird der Klasse erklärt: ‚Ich rufe ab jetzt auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern weil jede Stimme hier zählt und weil ich wissen will, wie IHR denkt, nicht nur die Schnellsten.' Das Skriptgerüst bekommt ihr gleich, in zwei Tonlagen.*
+> *Zweitens: **warm.** Ton und Miene aus Woche 4 und 21 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
+> *Drittens: **vorhersagbar-normal.** Mehrmals pro Stunde, ab Tag eins, als Alltagsformat – nicht als seltenes Ereignis, das Puls erzeugt. Was normal ist, macht keine Angst; Modell 4, Normen, ihr kennt es.*
+> *Viertens – die rote Linie: **niemals als Disziplinierung.** Der Cold Call auf den Träumer, um ihn zu ‚erwischen', ist die häufigste und zerstörerischste Zweckentfremdung: Ihr verwandelt euer Lernwerkzeug in eine Waffe, und die Klasse lernt in einer einzigen Szene: Drankommen ist Strafe. Für Träumer habt ihr die Leiter aus Woche 5 – Stufe 1, Blick und Nähe. Cold Call bleibt sauber.*
+> *Und fünftens: **niedrigschwellig starten.** Die ersten Cold Calls sind Meinungsfragen, Einschätzungen, Berichte aus der Partnerarbeit – Fragen ohne Blamage-Risiko. Das Sicherheitsnetz für ‚Weiß nicht' bauen wir nächste Woche ein; bis dahin gilt bei Schweigen: freundlich Hinweis geben oder weiterreichen und zurückkommen – nie stehen lassen, nie bohren."*
+
+### 3c · Wait Time + Means of Participation (Min. 24–28)
+> *„Zwei Verstärker dazu. **Wait Time:** Nach der Frage drei bis fünf Sekunden Stille aushalten – und das ist schwerer, als es klingt: Die durchschnittliche Lehrer-Wartezeit liegt unter einer Sekunde. Fünf Sekunden fühlen sich im Klassenzimmer an wie eine kleine Ewigkeit; genau deshalb üben wir sie heute mit der Stoppuhr. Und rahmt die Stille produktiv: ‚Ich sehe, einige notieren Stichworte – gut so.' Die Stille ist kein Loch, sie ist Arbeitszeit.*
+> *Und **Means of Participation:** Sagt VOR der Frage an, WIE geantwortet wird – ‚Gleich per Cold Call' / ‚Diesmal Meldung' / ‚Auf die Boards' / ‚Erst mit dem Partner'. Der ewige Reinruf-Kampf ist zur Hälfte ein Klarheitsproblem: Wer nicht weiß, welcher Kanal offen ist, nimmt irgendeinen. Die Ansage schließt die falschen Kanäle, bevor sie benutzt werden."*
+
+## Phase 4 · Name it (Minute 28–32)
+
+**Cold-Call-Standard** (Handout A): eingeführt & begründet · Frage → Pause (3–5 Sek.) → Name · warm in Ton und Miene · vorhersagbar-normal (mehrmals pro Stunde) · NIE als Disziplinierung · breit streuen (Heatmap!). **Wait-Time-Standard:** 3–5 Sek., still, Blick kreist, produktiv gerahmt. **MoP-Regel:** Kanal-Ansage VOR der Frage. Merksatz: *„Erst denken alle – dann fällt ein Name."*
+
+## Phase 5 · Do it (Minute 32–52)
+
+### Runde 1 · Einführungsskript (Min. 32–39)
+Einzelarbeit: das eigene Einführungsskript wörtlich schreiben (Vorlage Anhang 1.1; Sek-II-Kurse nutzen die erwachsene Tonlage). Tandem-Check: Kommt die Begründung VOR der Ansage der Neuerung? Klingt es nach Einladung?
+
+### Runde 2 · Sequenz-Drill mit Stoppuhr (Min. 39–52)
+Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt 3 Cold-Call-Zyklen mit echten Fachfragen-Kärtchen durch; der Wächter misst die Pause – **unter 3 Sekunden: Zyklus wird wiederholt** (die harte Regel ist der Trainingseffekt; das Aushalten wird körperlich gelernt). Runde 2 pro Person mit einer Störkarte D (Anhang 1.2). Feedback-Fokus: Pause gehalten? Ton warm? Reihenfolge sauber (kein Name vor der Frage)?
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich streiche ‚Habt ihr das verstanden?' und ‚Noch Fragen?' KOMPLETT aus meinem Repertoire und ersetze jede dieser Situationen durch eine prüfbare Mini-Aufgabe. Ehrlichkeits-Strichliste auf dem Pult: Wie oft ertappt?"*
+**Standard:** *„Ich führe Cold Call in Klasse X mit meinem Skript ein und setze ab dann mindestens fünf warme Cold Calls pro Stunde nach Frage-Pause-Name. Die Pause zähle ich innerlich: einundzwanzig, zweiundzwanzig, dreiundzwanzig."*
 
 **Alternativen:**
 
-1. Miene-Woche: Fehlerreaktions-Dreiklang mit bewusst neutraler Mimik – abends 1 Notiz zur schwierigsten Situation.
-2. Falle-erhofft-Woche: jede Stunde einmal den Satz „Ich hoffe, einige sind in die Falle getappt – dann lohnt sich das jetzt" (oder Variante) ehrlich einsetzen.
+1. für fragile Klassenkultur (Coach-Absprache!): erst eine Woche Means of Participation konsequent vor jeder Frage – Cold-Call-Start dann in W22.
+2. Wait-Time-Solo: eine Woche lang JEDE Frage (auch an Melder) mit 3–5 Sek. Pause – Beobachtung: Wie verändern sich die Antworten?
 
-> **Ausblick:** *„Auf diesem Fundament bauen wir nächste Woche das Werkzeug, vor dem viele von euch Respekt haben – zu Unrecht, wenn man es richtig macht: Cold Call. Aufrufen ohne Meldung, warm und fair. Danach denken in euren Frage-Phasen nicht mehr drei Leute mit, sondern achtundzwanzig."*
+> **Ausblick:** *„Eine Frage ist heute offen geblieben: Was, wenn die Antwort ‚Weiß nicht' lautet – oder nur halb richtig ist? Nächste Woche bekommt Cold Call sein Sicherheitsnetz und seinen Anspruch: No Opt Out und Right is Right. Danach endet keine Runde mehr ohne Erfolg."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -80,84 +90,80 @@ Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrsch
 
 # 4. Coaching-Woche 21 (Handreichung)
 
-- **Hospitationsfokus:**
-  1. Re-Establish-Moment am Montag beobachten (Zettel aus der Sitzung!).
-  2. Selbstauskunfts-Zählung: Wie oft „Verstanden?/Fragen?" – und was geschah stattdessen/danach?
-  3. Miene bei Fehlerantworten (2–3 Momente wörtlich + mimisch protokollieren – taktvoll formuliert).
-- **Auswertungsgespräch:** Strichliste zeigen; die zwei ertappten Momente gemeinsam in Mini-Aufgaben übersetzen und laut sprechen. Plan-for-Error-Canvas für die kommende Stunde durchgehen: Wahrscheinlichkeits-Check.
-- **Verzahnung:** Der Block-4-Dauer-Action-Step aus dem Meilenstein-Gespräch (W20) läuft parallel – kurz abfragen.
-- **Red Flag:** TN berichtet, dass die Klasse über Fehler lacht und er „darüber hinweggeht" → sofort adressieren: Das Lach-Verbot ist die Eintrittskarte für ALLE Block-4-Techniken; ggf. Klassengespräch + 100 %-Durchsetzung (W6) als vorgezogener Schritt, Cold Call (W22) für diese Klasse um eine Woche schieben.
+- **Hospitationsfokus – die Heatmap-Woche:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
+- **Auswertungsgespräch:** Heatmap wortlos vorlegen, TN interpretiert zuerst selbst – die blinden Flecken (hinten links? nur eine Geschlechterhälfte? nur Melder?) sind fast immer unbewusst und fast immer da. Pausenwerte daneben. Action Step: 2 konkrete „kalte Zonen" benennen, die nächste Woche gezielt Aufrufe bekommen.
+- **Einführungs-Beobachtung:** Wenn möglich die EINFÜHRUNGS-Stunde hospitieren – die Klassenreaktion auf das Skript ist das wertvollste Feedback.
+- **Red Flag:** Cold Call trifft beobachtbar überwiegend Störer/Träumer → sofort stoppen und umsteuern (Zweckentfremdung zerstört in Tagen, was in Wochen gebaut wurde); Leiter-Werkzeuge reaktivieren, Cold Call neu rahmen.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Reaktions-Kartenset (8 Karten; Original → Muster-Makeover kursiv)
-1. „Nein, falsch. Wer kann's richtig?" → *„Das ist noch nicht richtig – und der Weg dahin ist interessant. Wo bist du abgebogen?"*
-2. [Seufzen + Augenbrauen hoch] „Hmmm… jemand anders?" → *neutrale Miene:* „*Noch nicht ganz – lass es stehen, wir kommen zurück zu dir."* *(No-Opt-Out-Vorgeschmack!)*
-3. „Das hatten wir doch letzte Woche!" → *„Der Fehler zeigt mir: Das ist noch nicht sicher. Gut, dass er JETZT kommt und nicht in der Arbeit."*
-4. „Fast! Ich nehm's mal als richtig." → *„Fast – der erste Teil stimmt. Schärfe den zweiten nach."* *(Right-is-Right-Vorgeschmack W23)*
-5. „Na, DAS war ja wohl nichts." → *„Noch nicht richtig – und ich wette, die Hälfte hatte denselben Gedanken. Boards hoch: Wer auch?"*
-6. „Denk doch mal nach!" → *„Nimm dir zehn Sekunden – ich komme zurück."* *(Wait-Time-Vorgeschmack W22)*
-7. [Zur Klasse, lachend] „Da hat wohl jemand geschlafen!" → *streichen ohne Ersatz – Demütigung hat kein Makeover; stattdessen Dreiklang.*
-8. „Okaaay… interessant… ähm, weiter." → *„Das ist eine andere Frage als meine – merken wir uns. Zu MEINER Frage: Was sagt die Regel?"*
+## 1.1 Handout A: Standard + Einführungsskripte
+**Muster Sek I:** *„Ab heute ändere ich etwas: Ich rufe auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern aus zwei Gründen: Erstens zählt hier jede Stimme, nicht nur die schnellste. Zweitens will ich wissen, wie IHR denkt – alle. Damit das fair ist: Ihr bekommt nach jeder Frage Denkzeit, und ‚Ich bin noch nicht sicher' ist eine erlaubte Antwort – dann helfen wir weiter und kommen zu dir zurück. Probieren wir es: [einfache Meinungsfrage] … [Pause] … Lena?"*
+**Tonlage Sek II:** *„Ich werde in diesem Kurs regelmäßig ohne Meldung aufrufen – so, wie in jeder guten Besprechung Beiträge auch aktiv eingeholt werden. Der Grund: Die Qualität unserer Diskussion hängt davon ab, dass mehr als vier Stimmen tragen. Sie bekommen Denkzeit; Unfertiges ist ausdrücklich zugelassen – Denken in Entwürfen gehört dazu."*
+**Blanko-Felder:** Meine Begründung (2 Sätze): … | Mein Fairness-Zusatz: … | Meine erste niedrigschwellige Frage: …
 
-## 1.2 Handout A: Dreiklang + Ersetzungs-Regel + die vier Hebel — siehe Phase 4 (mit den Beispielsätzen aus Phase 3; Fußzeile: „Die Miene spricht zuerst.").
+## 1.2 Störkarten-Set D (Regieanweisungen)
+- **D1 „Weiß nicht":** Der aufgerufene SuS zuckt die Schultern: „Keine Ahnung." *(Lernziel diese Woche: freundlich Hinweis geben ODER weiterreichen + ankündigen „Ich komme zu dir zurück" – und es TUN. Volles Werkzeug kommt in W22.)*
+- **D2 „Der Flapsige":** antwortet mit Witz statt Inhalt („Weil die halt keinen Bock mehr hatten, lol"). *(Lernziel: neutral ernst nehmen + nachfassen: „Da steckt ein Kern drin – formuliere ihn fachlich." Kein Lachen mitspielen, keine Strafpredigt.)*
+- **D3 „Der Reinrufer":** Ein NICHT aufgerufener SuS ruft die Antwort rein. *(Lernziel: MoP-Ansage nachschärfen + ruhig zurückgeben: „Die Frage lag bei Cem – Cem?" Reinruf nicht verwerten, sonst wird er belohnt.)*
 
-## 1.3 Plan-for-Error-Canvas
-Kopf: Einheit/Stunde. — Tabelle (3 Zeilen): **Wahrscheinlicher Fehler** (konkret!) | **Quelle** (Arbeit/Fallen-Liste/Exemplar) | **Mein Reaktions-Skript** (Dreiklang, wörtlich) | **Präventiv zeigen als Falle im I do?** ☐ — Fußzeile: „Wahrscheinlich schlägt interessant."
-
-## 1.4 Re-Establish-Skriptvorlage (Kondensat W2/W3)
-Meine Erwartung nach den Ferien (spezifisch): … | Mein Begründungssatz: … | Meine 2 CFU-Fragen: … | Ggf. Do It Again bereit? ☐ — Merkzeile: „Das Fenster ist wieder offen."
+## 1.3 Sitzplan-Heatmap-Blanko
+Sitzplan-Raster + Legende: ○ Cold Call · ● Meldung · Strichdichte = Häufigkeit. Auswertungszeilen: „Kalte Zonen: … / Muster (Geschlecht/Sitzposition/Leistung): … / Meine 2 Ziel-Zonen nächste Woche: …"
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–20)
-1. Nenne 5 der 9 McCrea-Prinzipien. 2. Der KO-Gütecheck? 3. Die zwei Spacing-Einbau-Regeln? 4. Performance ≠ Learning in einem Satz? 5. Schritt 3 der Begrüßungsroutine + Begründung? 6. Der Lenkungs-Dreiklang? 7. Die fünf Retrieval-Gütekriterien? 8. (Anwendung) Erste Woche nach den Ferien: Welche 2–3 Dinge etablierst du explizit neu – und mit welchem Bauplan? *(→ wird direkt zur Re-Establish-Übung)*
+## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
+1. Die Ersetzungs-Regel (W20)? *(Selbstauskunft → prüfbare Mini-Aufgabe)*
+2. Der Fehlerreaktions-Dreiklang? *(neutral benennen → Ursache würdigen → nutzen)*
+3. Warum liefert „Alle verstanden?" nichts – zwei Gründe? *(soziale Kosten; Dunning-Kruger)*
+4. Die All-Response-Formate aus Block 2? *(Whiteboards, Fingercodes/Abfrage an alle)*
+5. (Anwendung) Skizziere ein Plan-for-Error für „Kommasetzung bei weil" – ein wahrscheinlicher Fehler + Reaktion. *(z. B. Komma nach Gefühl/Atempause statt vor der Konjunktion → Dreiklang + Verb-Suchregel als Hinweis)*
 
 ## Teil 2: Modul-Quiz Woche 21 (für SPA/Folgewoche)
-**F1.** „Noch Fragen?" – keine Meldung. Das heißt:
-a) Alle haben verstanden ✗ *(der Alltagsschluss)*
-b) Nichts – die Frage liefert strukturell keine Daten ✓
-c) Die Klasse ist desinteressiert ✗
-d) Die Erklärung war besonders gut ✗
+**F1.** Cold Call auf den Schüler, der gerade aus dem Fenster träumt, ist…
+a) effizient – weckt und diszipliniert zugleich ✗ *(DIE Zweckentfremdung – fühlt sich clever an)*
+b) Kulturzerstörung: Das Lernwerkzeug wird zur Waffe; für Träumer gibt es Stufe 1 der Leiter ✓
+c) verboten ✗
+d) nur in Sek I in Ordnung ✗
 
-**F2.** Ein guter Umgang mit einer falschen Antwort:
-a) schnell und schonend übergehen, um nicht zu beschämen ✗ *(klingt empathisch – entwertet den Fehler UND die Person)*
-b) neutral benennen, Ursache würdigen, für alle nutzen ✓
-c) erst zwei richtige Antworten loben, dann korrigieren ✗ *(Lobsandwich-Echo)*
-d) die Frage vereinfachen, bis es klappt ✗
+**F2.** Die richtige Reihenfolge:
+a) Name → Frage → Pause ✗ *(das Alltagsmuster – schaltet 27 Gehirne ab)*
+b) Frage → Pause → Name ✓
+c) Frage → Name → Pause ✗
+d) egal, Hauptsache freundlich ✗
 
-**F3.** Warum wissen viele SuS nicht, dass sie etwas nicht verstanden haben?
-a) Sie lügen aus Bequemlichkeit ✗
-b) Um Nichtkönnen zu erkennen, braucht man schon halbes Können (Dunning-Kruger) ✓
-c) Sie hören nicht zu ✗
-d) Pubertät ✗
+**F3.** Fünf Sekunden Stille nach deiner Frage sind…
+a) peinlich und ein Zeichen einer schlechten Frage ✗ *(das Lehrer-Bauchgefühl)*
+b) Denkzeit – auszuhalten und produktiv zu rahmen ✓
+c) Zeitverschwendung bei 45-Minuten-Stunden ✗
+d) nur bei schweren Fragen nötig ✗
 
-**F4.** Deine enttäuschte Miene bei einer Fehlerantwort…
-a) ist menschlich und daher unproblematisch ✗ *(stimmt halb – und unterrichtet trotzdem)*
-b) unterrichtet die Klasse schneller als jedes Wort: Fehler kosten hier ✓
-c) motiviert zu mehr Anstrengung ✗
-d) fällt niemandem auf ✗
+**F4.** Cold Call wird eingeführt…
+a) unangekündigt – sonst verliert er die Wirkung ✗ *(Überraschungs-Logik)*
+b) explizit, mit Begründung und Fairness-Zusagen ✓
+c) nur nach Elterninformation ✗
+d) gar nicht – er ergibt sich ✗
 
-**F5.** Plan for Error plant für…
-a) die interessantesten, exotischsten Fehler ✗ *(der Werkstatt-Klassiker)*
-b) die WAHRSCHEINLICHSTEN Fehler – Quellen: Arbeiten, Fallen-Liste, Exemplar ✓
-c) alle denkbaren Fehler ✗
-d) Fehler der Lehrkraft ✗
+**F5.** Ein Schüler ruft die Antwort rein, während Cem aufgerufen ist. Du…
+a) nimmst die richtige Antwort dankbar auf – Hauptsache Inhalt ✗ *(belohnt den Reinruf)*
+b) gibst ruhig zurück: „Die Frage lag bei Cem – Cem?" ✓
+c) ermahnst den Reinrufer scharf ✗ *(Overkill – MoP nachschärfen genügt)*
+d) stellst eine neue Frage ✗
 
-**F6 (Transfer, Freitext):** Ein Schüler antwortet falsch, zwei andere kichern. Beschreibe deine Reaktion in drei Zügen (Kichern, Fehler, Nutzung) – mit Wortlaut. *(Muster: Kichern sofort + ruhig stoppen [„Bei uns wird über Fehler nicht gelacht – sie bringen uns weiter"] → Dreiklang zur Antwort → Nutzung: „Boards hoch – wer hatte denselben Gedanken?" Bewertungsanker: 100 %-Norm zuerst, dann Dreiklang, Miene neutral.)*
+**F6 (Transfer, Freitext):** Schreibe dein Cold-Call-Einführungsskript für deine schwierigste Klasse: Begründung (2 Sätze), Fairness-Zusatz, erste niedrigschwellige Frage. *(Bewertungsanker: Begründung vor Neuerung; Einladungston; „unsicher ist erlaubt"-Zusage; risikofreie Erstfrage.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 21"
 
-1. **Hook (2 Min.):** Das nutzlose Ritual als Audio – danach die Frage: „Was weiß die Lehrkraft jetzt?" (Slider 0–100 %, Auflösung: 0).
-2. **See it (4 Min.):** Die zwei Gründe animiert: soziale Kosten (Preisschild an der Meldung) + Dunning-Kruger-Kurve vereinfacht.
-3. **Name it (3 Min.):** Dreiklang + vier Hebel als Karten; Phrasen-Verbot-Spiel: 8 Lehrersätze → Selbstauskunft erkennen und Mini-Aufgabe als Ersatz wählen.
-4. **Do it – Reaktions-Simulator mit Ton (8 Min., Engine!):** Die 8 Karten als Audio-Paare (Original mit Seufzer-Tonspur vs. Makeover neutral) – Nutzer wählt/formuliert die Umformulierung; Karte 7 hat als Lerneffekt KEIN Makeover (Auflösung: „Demütigung repariert man nicht sprachlich – man ersetzt sie"). Optional Selbstaufnahme: eigene Reaktion einsprechen, Checkliste Ton/Neutralität.
-5. **Plan-for-Error-Canvas digital:** zieht die Fallen-Bibliothek aus Modul 11 automatisch als Quellvorschläge (modulübergreifend!); Wahrscheinlichkeits-Selbstcheck als Pflicht-Prompt.
-6. **Re-Establish-Generator:** W2-Bauplan als 3-Felder-Formular mit Montags-Erinnerung (saisonales Feature – nach jeden Ferien reaktivierbar).
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Ertappt-Strichliste („Verstanden?"-Zähler, Ziel: fallende Kurve).
+1. **Hook (2 Min.):** „Das stille Abo": animierte Klasse, 5 Hände, 23 ausgegraute Köpfe mit Abo-Etikett; Regler Participation/Think Ratio zum Schieben.
+2. **See it (4 Min.):** Variante A/B als Audio mit sichtbarer Zeitleiste (Namens-Zeitpunkt markiert); Aufgabe: „In welcher Sekunde hörten 27 Gehirne auf zu arbeiten?"
+3. **Name it (3 Min.):** Standard-Karten; Reihenfolge-Puzzle (Frage/Pause/Name); rote-Linie-Karte (nie Disziplinierung) prominent.
+4. **Do it – Sequenztrainer mit Mikrofon/Timer (8 Min., Engine!):** App zeigt Fachfrage → Nutzer spricht sie ein → hält die Pause (App misst still mit!) → spricht den Namen; unter 3 Sek. = Wiederholung mit ermutigendem Feedback („Die Ewigkeit ist Training"). Alternativ ohne Mikro: Halte-den-Button-gedrückt-Spiel mit Zeitgefühl-Kalibrierung.
+5. **Störfall-Simulator:** D1–D3 als Entscheidungsbäume; D1 endet mit Cliffhanger auf Modul 22 („Das volle Sicherheitsnetz: nächstes Modul").
+6. **Heatmap-Selbsttool:** digitaler Sitzplan zum Selbst-Tracken einer eigenen Stunde (Aufrufe antippen) → Zonen-Auswertung; verzahnt mit dem Coach-Bogen.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit „5 warme Cold Calls"-Tageszähler + Einführungsskript-Export ins Playbook.

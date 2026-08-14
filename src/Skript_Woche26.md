@@ -1,5 +1,5 @@
-# Skript Woche 26: „Vom Datum zur Entscheidung – Reteaching & Own and Track + Konsolidierung Block 4"
-## 60-Minuten-Sitzung · Block 4 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 26: „Motivations-Mechanik & Treiber 1: Secure Success"
+## 60-Minuten-Sitzung · Block 5 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,157 +7,155 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was mache ich mit all den Daten – heute, morgen, vor der Klassenarbeit? |
-| **Kernquellen** | Lemov T14 (Own and Track); Bambrick-Santoyo (Driven-by-Data-Logik, vereinfacht); Verzahnung mit T26 (W14) |
-| **Funktion im Jahr** | Block-4-Finale: schließt den Datenkreislauf Sehen (W25) → Entscheiden → Handeln. Die Reteach-Formate operationalisieren die >⅓-Faustregel aus W14; Own and Track verlängert die Fehlerkultur (W21) in die Schülerhand und wird in W34 (DIRT) wiederaufgenommen. Das CFU-Repertoire-Blatt konsolidiert den Block. Block-4-Quiz als Meilenstein-Messung; Peer-Hospitation 4 läuft in dieser Phase. |
-| **Lernziele** | Die TN können:<br>1. aus Fehlerprofilen die passende Reteach-Entscheidung ableiten (Klasse / Kleingruppe / Einzelimpuls),<br>2. die Replay-Falle vermeiden (Reteach = NEUER Zugang),<br>3. Fehlerkorrektur per Fehlerjournal in Schülerhand geben,<br>4. CFU-Daten einer Einheit zur gezielten Klassenarbeits-Vorbereitung aggregieren. |
-| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Datenfall-Duell + Konsolidierungs-Ritual. |
+| **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: 80 %-Regel (W8), Fading (W11) |
+| **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgewochen (W27–30) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
+| **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
+| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; zwei unterschiedliche Fall-Sets vorbereitet. **Material:**
-- [ ] Block-4-Quiz, 20 Fragen kumulativ (Anhang 2, Teil 1) + Lösungsfolie
-- [ ] Zwei Datenfall-Sets (Anhang 1.1): Set A „ein Muster, >40 %" / Set B „diffus" – je als beschriebenes Ticket-Profil (oder echte anonymisierte Sätze vom Coach)
-- [ ] Handout A: Entscheidungs-Dreisatz + Reteach-Formate (Anhang 1.2)
-- [ ] Handout B: Fehlerjournal-Beispielseite + Einführungsskript (Anhang 1.3)
-- [ ] CFU-Repertoire-Blatt (Anhang 1.4); Kompetenzmatrix-Bögen
+**Raum:** Vierergruppen. **Material:**
+- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1)
+- [ ] Der Nora-&-Evie-Kontrastfall als Vorlesetext/Folie (Anhang 1.1)
+- [ ] Handout A: Die EVK-Mechanik + Analysebogen (Anhang 1.2)
+- [ ] Handout B: Secure-Success-Werkzeuge + Attributions-Sprachkarte (Anhang 1.3)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
+## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Block-4-Quiz (Minute 2–12)
-20 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Viertes Block-Quiz – und wer die eigene Fehlerkurve über die vier Quizze verfolgt, betreibt gerade Own and Track an sich selbst. Das Werkzeug dazu bekommt ihr heute für eure Klassen."*
+## Phase 1 · Reaktivierungs-Quiz + Re-Establish-Check (Minute 2–12)
+8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Osterferien sind vorbei – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der W20-Zettel gilt weiter, Montag ist das Fenster."*
 
-## Phase 2 · Input: Die Entscheidungslogik (Minute 12–26)
+## Phase 2 · See it: Nora & Evie (Minute 12–19)
 
-### 2a · Vom Stapel zur Entscheidung (Min. 12–18)
-> **Moderationstext:**
-> *„Woche 14 endete mit einer Faustregel: rot plus gelb über ein Drittel – Reteach. Heute die Feinmechanik, denn nicht jedes Fehlerprofil verdient dieselbe Antwort. Der **Entscheidungs-Dreisatz**, drei Fragen an jeden Stapel:*
-> *​Frage eins: **Welches MUSTER?** Ein Fehler bei vielen – oder viele verschiedene Fehler bei wenigen? Das ist die wichtigste Weiche, und sie wird am häufigsten übersehen.*
-> *​Frage zwei: **Welches FORMAT?** Ein Muster bei über einem Drittel → zehn Minuten Klassen-Reteach am Folgetag. Ein Muster bei zehn bis dreißig Prozent → Kleingruppe an den Gruppentisch, WÄHREND der Rest übt – und dass der Rest selbstständig übt, verdanken wir euren Routinen aus Block 1; ohne sie ist die Kleingruppe unmöglich. Einzelfälle → Impuls beim Circulate, die Namen stehen auf eurem ActiveObs-Bogen.*
-> *​Frage drei – die eiserne Regel: **Welcher NEUE Zugang?** Reteach ist niemals Replay. Die alte Erklärung, nur lauter und langsamer, hat es beim ersten Mal nicht geschafft – warum sollte sie es beim zweiten? Neuer Zugang heißt: anderes Beispiel, andere Darstellung (Zeichnung statt Regel, Zeitstrahl statt Text, Gegenbeispiel statt Beispiel), anderer Einstiegspunkt. Eure Fading-Treppe aus Woche 12 ist die Fundgrube: Oft ist der neue Zugang schlicht eine Stufe tiefer.*
-> *Und die Diffus-Falle: Wenn der Stapel VIELE VERSCHIEDENE Fehler zeigt, ist der Klassen-Reteach die falsche Antwort – ihr würdet zwanzig Leuten etwas erklären, das nur je drei brauchen. Diffuse Profile heißen: differenziert reagieren – Checkpoints, Kleingruppen-Rotation, Einzelimpulse – oder, wenn WIRKLICH alles wackelt, ehrlich sein: Die Einheit braucht einen Schritt zurück, nicht einen Flicken."*
+Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleiche Klasse, gleiches Fach:
 
-### 2b · Own and Track + Klassenarbeits-Vorlauf (Min. 18–26)
-> *„Zweiter Baustein – und er dreht die Verantwortung um: **Own and Track.** Die klassische ‚Berichtigung' – Musterlösung dreimal sauber abschreiben – ist Beschäftigung, kein Lernen: Abschreiben erzeugt keine Abrufspur, ihr wisst das seit Woche 18. Die Alternative: Der Fehler gehört dem Schüler, und er ARBEITET damit. Minimum: richtige Lösung selbst notieren PLUS ein Satz ‚Mein Denkfehler war …'. Dieser eine Satz ist der Unterschied zwischen Ritual und Lernen – wer seinen Denkfehler benennen kann, hat ihn verstanden. Das Zuhause dafür: ein **Fehlerjournal** – hinterer Heftteil oder eigenes Blatt, zwei Spalten. Vor der Klassenarbeit ist es das persönlichste Lernmaterial, das es gibt: Retrieval am eigenen Fehler, maßgeschneidert. Die Einführung ist – ihr ahnt es – W2-Handwerk: erklären, begründen, erste Einträge gemeinsam machen, prüfen.*
-> *Und der dritte Baustein, der alles zusammenzieht: **der Klassenarbeits-Vorlauf.** Eine Woche vor der Arbeit legt ihr eure gesammelten Daten nebeneinander – Ticket-Stapel, Board-Befunde, Top-3-Listen vom Klemmbrett – und fragt: Welche zwei, drei Baustellen tauchen ÜBERALL auf? Die bekommen die Wiederholstunde. Nicht ‚Wiederholt mal alles' – das ist die Gießkanne, und sie gießt vor allem das, was schon wächst. Gezielte Wiederholung dorthin, wo die Daten zeigen. Das ist der Moment, in dem sich ein halbes Jahr CFU-Aufbau in Notenpunkten auszahlt."*
+> *„**Nora** meldet sich, erledigt Hausaufgaben, fragt nach Zusatzaufgaben. **Evie** legt den Kopf auf den Tisch, ‚vergisst' Material, sagt bei jeder Aufgabe ‚kein Bock'. Die Lehrerzimmer-Diagnose steht in drei Sekunden: Nora ist motiviert, Evie ist unmotiviert. Fall geschlossen.*
+> *Und jetzt drehen wir die Kamera. Dieselbe Evie: dreieinhalb Stunden konzentriertes Training im Handballverein, freiwillig, dreimal die Woche. Perfekt geschnittene Videos für ihren Kanal – Schnittsoftware selbst beigebracht, über Stunden. Ist Evie ein unmotivierter Mensch? … Offensichtlich nicht. Evie ist ein hochmotivierter Mensch – nur nicht in Mathe, vierte Stunde, bei Frau K.*
+> *Das ist die wichtigste Umbau-Arbeit des heutigen Tages: **‚Unmotiviert' ist keine Eigenschaftsdiagnose. Es ist eine Situationsbeschreibung.** Und Situationen – im Gegensatz zu Eigenschaften – kann man verändern. Ihr kennt dieses Denkmuster: In Woche 14 haben wir ‚kann sich nichts merken' von der Eigenschaft zur Architektur-Frage umgebaut. Heute dasselbe mit ‚will nicht'."*
 
-## Phase 3 · Name it (Minute 26–30)
+## Phase 3 · Input (Minute 19–30)
 
-**Entscheidungs-Dreisatz:** Muster? → Format? (>⅓ Klasse / 10–30 % Kleingruppe / einzeln Circulate) → NEUER Zugang? **Replay-Verbot:** anderes Beispiel, andere Darstellung, andere Stufe. **Own-and-Track-Minimum:** Lösung selbst + „Mein Denkfehler war …". **Vorlauf-Regel:** Daten aggregieren → 2–3 Baustellen → gezielte Wiederholstunde. Merksatz: *„Die Daten entscheiden – und nie zweimal dieselbe Erklärung."*
+### 3a · Die EVK-Mechanik (Min. 19–24)
+> *„Wenn Motivation situativ ist – wovon hängt die Situation ab? McCrea bündelt die Motivationsforschung in einer Faustformel, unserer Brille für die nächsten fünf Wochen: **Anstrengungsbereitschaft = Erwartung × Wert ÷ Kosten.***
+> *​**Erwartung:** Glaube ich, dass ich es SCHAFFEN kann? Nicht objektiv – subjektiv, aus Evies Sicht. Wer fünf Jahre Mathe-Misserfolg gesammelt hat, dessen Erwartung liegt bei null.*
+> *​**Wert:** Bringt es mir etwas – ist es interessant, nützlich, oder zahlt es auf mein Ansehen ein? Wert ist vielfältiger als ‚Interesse': Auch ‚meine Freundin macht mit' ist Wert.*
+> *​**Kosten:** Was kostet es mich – Anstrengung, Zeit, Verwirrung, und die gefährlichste Währung: **Blamage-Risiko.** Vor der Klasse zu scheitern ist für Vierzehnjährige teurer als jede Hausaufgabe lang ist.*
+> *Und das Entscheidende an der Formel: Es ist eine MULTIPLIKATION mit einem Teiler. Erwartung null? Dann ist das Produkt null – egal wie spannend ihr das Thema verpackt. Deshalb scheitern die Motivations-Feuerwerke: Wer bei Evie den WERT hochdreht – tolles Thema, Alltagsbezug, Video! – aber die Erwartung bei null lässt, multipliziert mit null. Die Formel sagt euch, WO ihr ansetzen müsst, bevor ihr loslegt. Sie ist ein Diagnose-, kein Zauberwerkzeug."*
 
-## Phase 4 · Do it: Datenfall-Duell (Minute 30–48)
+### 3b · Treiber 1: Secure Success (Min. 24–30)
+> *„Und damit zum ersten von fünf Treibern, dem mit dem größten Hebel: **Secure Success – Erfolg konstruieren.** Nichts motiviert so zuverlässig wie die Erfahrung, etwas zu KÖNNEN, das gestern noch nicht ging – Erfolg füttert die Erwartung, und Erwartung ist der Multiplikator. Die schlechte Nachricht zuerst: Für Evie ist Mathe eine Misserfolgs-Maschine – jede Stunde bestätigt die Null. Die gute Nachricht: Ihr könnt die Maschine umbauen, und die Werkzeuge BESITZT ihr schon:*
+> *​**Der 80 %-Korridor** aus Woche 8 ist Motivationstechnik: Übungsphasen, in denen vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Woche 11: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
+> *Dazu die Sprach-Schicht, die **Attribution**: WORAUF führt ihr Erfolg zurück, wenn ihr lobt? ‚Du bist halt schlau' ist Talent-Attribution – sie macht den nächsten Misserfolg zur Identitätsfrage; ihr kennt das Argument aus Woche 6. ‚Du hast die Probe gemacht, DESHALB stimmt es' ist Vorgehens-Attribution – sie macht Erfolg wiederholbar: Das Vorgehen kann Evie morgen wieder wählen, ihr Talent nicht. Precise Praise aus Block 1 war immer schon Motivationstechnik – heute wisst ihr, warum.*
+> *Und die Fußnote zu **Belohnungssystemen** – Sticker, Punkte, Gummibärchen: Sie funktionieren, kurzfristig, als Starthilfe für Verhalten, das noch keinen Eigenwert hat. Aber sie sind ein Kredit mit Zinsen: Dauerhaft eingesetzt, verschieben sie den Wert vom Tun zur Belohnung – und wehe, die Belohnung bleibt aus. Regel: sparsam, temporär, mit geplantem Ausstieg – und immer parallel am echten Treiber bauen: am Erfolg."*
 
-### Runde 1 · Diagnose & Plan (Min. 30–42)
-Zwei Gruppen-Hälften bekommen je ein Fall-Set (Anhang 1.1): Diagnose per Dreisatz → Reteach-Miniplan (Format, NEUER Zugang konkret!, Erfolgscheck: Woran merke ich morgen, dass es saß? → Board-Blitz!) → 60-Sekunden-Pitch. **Der inszenierte Aha:** Set A führt zum Klassen-Reteach, Set B NICHT – die Gruppen vergleichen und entdecken, dass identische Fehlerquoten verschiedene Antworten brauchen. Moderation erntet: *„Gleiche Prozentzahl, andere Struktur, andere Entscheidung – DAS ist Datenlesen."*
+## Phase 4 · Name it (Minute 30–33)
 
-### Runde 2 · Fehlerjournal adaptieren (Min. 42–48)
-Einzelarbeit: Journal-Format für die eigene Klasse festlegen (wo? wann gepflegt? – direkt nach Rückgabe, 10 Min. Stundenzeit!) + Einführungswortlaut notieren (Handout B als Gerüst). Tandem-Check: Ist der Denkfehler-Satz als PFLICHTFELD verankert?
+**Die Brille:** Anstrengung = **E × W ÷ K**. Diagnose-Reihenfolge: erst E prüfen (Multiplikator!), dann K senken (Blamage-Risiko!), dann W heben. **Secure-Success-Besteck:** 80 %-Korridor · Fading-Einstiegserfolge · Vorentlastung · Vorgehens-Attribution. Merksätze: *„Unmotiviert ist eine Situationsbeschreibung."* / *„Erfolg ist die Mutter der Motivation – und Erfolg kann man konstruieren."*
 
-## Phase 5 · Konsolidierung Block 4 (Minute 48–56)
+## Phase 5 · Do it (Minute 33–52)
 
-**CFU-Repertoire-Blatt** (Anhang 1.4) ausfüllen und ins Playbook: Welches Werkzeug wofür – Whiteboards (Echtzeit-Verteilung), Cold Call (Einzeltiefe + Ratio), Checkpoints (Fehler-Schranke), Exit Ticket (Stunden-Bilanz), Show Call (Feedback-Hebel), Fehlerjournal (Schüler-Ownership), Vorlauf-Aggregation (Prüfungs-Steuerung). 
+### Runde 1 · EVK-Fallanalyse am eigenen Schüler (Min. 33–45)
+Einzelarbeit auf dem Analysebogen (Anhang 1.2): Jeder wählt den eigenen „Evie-Fall" (diskret, kein Name auf dem Bogen nötig) und analysiert: E aus SEINER Sicht (Belege: Misserfolgsgeschichte? Vermeidungsverhalten?), W aus seiner Sicht, K aus seiner Sicht (Blamage-Risiko!). Dann: Welcher Faktor ist der Engpass – und welche EINE Maßnahme aus dem Besteck adressiert ihn? Tandem-Beratung (4 Min.): Partner prüft mit zwei Fragen: **„Ist deine Diagnose aus SEINER Sicht geschrieben – oder aus deiner?"** und **„Adressiert deine Maßnahme wirklich den Engpass – oder den bequemsten Faktor?"** *(Der klassische Fehler: E-Problem diagnostiziert, W-Maßnahme geplant – „ich mache das Thema spannender".)*
 
-> *„Schaut auf dieses Blatt: Vor sechs Wochen war eure einzige Frage ‚Alle verstanden?'. Heute steht hier ein komplettes Diagnose-Besteck. Block 4 ist das Herzstück des Jahres – ab jetzt fliegt ihr auf Instrumenten, nicht auf Sicht."*
+### Runde 2 · Attributions-Sprint (Min. 45–52)
+Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut in Vorgehens-Attributionen umformuliert – Tempo-Format wie der Umformulierungs-Sprint aus W6 (60 Sekunden, wechseln, Rekordjagd). Qualitätsbremse: *„Die Attribution muss ein WIEDERHOLBARES Vorgehen benennen – ‚gut aufgepasst' ist keins, ‚erst die Einheiten notiert' schon."*
 
-**Kompetenzmatrix:** Felder 6–7 aktualisieren (an Coach).
+## Phase 6 · Action Step (Minute 52–58)
 
-## Phase 6 · Action Step (Minute 56–58)
-
-**Standard:** *„Nach der nächsten Übungsphase oder dem nächsten Ticket-Stapel mit einem Muster über 30 % plane ich einen 10-Minuten-Reteach für den Folgetag – mit nachweislich NEUEM Zugang (notiert: alter Zugang war …, neuer ist …) und Board-Blitz als Erfolgscheck."*
+**Standard:** *„Ich konstruiere für meinen Evie-Fall diese Woche ZWEI garantierte Erfolgserlebnisse (Vorentlastung, Fading-Einstieg oder passgenaue Erstaufgabe) – und attribuiere jeden sichtbaren Erfolg in der Klasse auf das Vorgehen. Freitags notiere ich, was sich bei meinem Fall beobachtbar verändert hat – und sei es nur der Kopf, der nicht mehr auf dem Tisch liegt."*
 
 **Alternativen:**
 
-1. Journal-Start: Fehlerjournal in einer Klasse einführen (Einführungsskript + erste gemeinsame Einträge nach der nächsten Rückgabe).
-2. Vorlauf-Pilot: für die nächste anstehende Klassenarbeit die Daten-Aggregation durchziehen und die Wiederholstunde danach bauen.
+1. Attributions-Woche pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult.
+2. EVK-Diagnose-Woche: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
 
-> **Ausblick:** *„Nach den Osterferien beginnt Block 5 – und er beantwortet die Frage hinter allen Fragen: Warum strengen Menschen sich an? Motivation als System mit fünf Stellschrauben. Erste Überraschung vorab: Die Hälfte des Werkzeugkastens besitzt ihr längst, ohne es zu wissen. Erholt euch – ihr habt das dichteste Drittel des Jahres geschafft."*
+> **Ausblick:** *„Nächste Woche die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
 
-## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss):
-
-1. Mein wichtigstes CFU-Werkzeug: …
-2. Meine offene Daten-Frage: …
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerung: Playbook zur nächsten Sitzung mitbringen (W27).
 
 ---
 
 # 4. Coaching-Woche 26 (Handreichung)
 
-- **Hospitationsfokus:** ein realer Reteach (Termin nach Ticket-Lage abstimmen): NEUER Zugang – oder Replay in Zeitlupe? Erfolgscheck am Ende vorhanden?
-- **Auswertungsgespräch:** Reteach-Protokoll; die Replay-Frage direkt stellen: „Was war am zweiten Zugang ANDERS als am ersten?" Wenn die Antwort stockt: gemeinsam einen echten Alternativ-Zugang für dieselbe Baustelle bauen (Fading-Treppe als Steinbruch).
-- **Peer-Hospitation 4:** Nachbesprechung moderieren (Bogen W25); die Gastgeber ausdrücklich würdigen; Muster über beide Stunden ziehen: „Welche CFU-Werkzeuge haben wir bei UNS gesehen – welche fehlen kollektiv?"
-- **Meilenstein-Check Block 4 im Gespräch:** Matrix-Felder 6–7 gegen Hospitationsbelege; Block-5-Ausblick.
-- **Red Flag:** TN reteacht ALLES („Sicherheitsdenken") und kommt im Stoff nicht voran → Dreisatz-Disziplin: Nur Muster über der Schwelle bekommen Klassenzeit; Rest läuft über Kleingruppe/Circulate – sonst frisst die Diagnose den Unterricht.
+- **Hospitationsfokus:** der Evie-Fall in vivo: Verhalten des gewählten Schülers in einer Stunde beobachten (Vermeidungsmuster? Wann arbeitet er doch?) + Attributions-Protokoll: jedes Lehrer-Lob wörtlich, kategorisiert Talent/Vorgehen/unspezifisch.
+- **Auswertungsgespräch:** EVK-Bogen des TN neben die Beobachtung legen – stimmt die Diagnose mit dem beobachteten Verhalten überein? (Häufige Korrektur: Was wie W-Mangel aussieht, ist Blamage-Vermeidung = K.) Die zwei geplanten Erfolgserlebnisse konkretisieren: Wann genau, welche Aufgabe, woran misst du den Erfolg?
+- **Ton-Wache:** Vorentlastung DISKRET organisieren (nie „Ich geb dir was Leichteres" vor der Klasse – das wäre eine Kosten-Explosion durch Status-Verlust).
+- **Red Flag:** TN deutet die EVK-Brille als Entschuldigungs-Maschine („Der kann ja nicht anders, seine Erwartung ist null") → klarstellen: Die Brille erklärt, sie entlässt nicht – sie zeigt den ARBEITSPUNKT. Zweite Red Flag: Belohnungssystem als Dauerlösung geplant → Ausstiegsplan einfordern.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Die zwei Datenfall-Sets (beschriebene Profile; je 25 Tickets zur Aufgabe „Löse 3(x−2)=15 und erkläre deinen ersten Schritt")
-**Set A – ein Muster:** 13× richtig · 10× identischer Fehler: ausmultipliziert zu „3x−2=15" (Klammer-Distributiv-Fehler) · 2× leer. *(Erwartete Entscheidung: Klassen-Reteach 10 Min.; alter Zugang war die Regel „Klammer auflösen" – neuer Zugang z. B.: Klammer als „3 Päckchen mit je (x−2)" legen/zeichnen, Gegenbeispiel prüfen lassen; Erfolgscheck: 2 Board-Aufgaben.)*
-**Set B – diffus:** 14× richtig · 3× Distributiv-Fehler · 3× Vorzeichenfehler beim Umstellen · 2× Rechenfehler am Ende · 3× leer/Ansatz fehlt. *(Erwartete Entscheidung: KEIN Klassen-Reteach – 11 Fehler, aber 4 Ursachen; stattdessen: Checkpoint-gestützte Übungsphase, Kleingruppe für die 3 Ansatzlosen, Distributiv+Vorzeichen als gezielte Circulate-Impulse mit Namen; ggf. 2 Alt-Aufgaben ins nächste Set – W19!)*
+## 1.1 Der Nora-&-Evie-Kontrastfall (Vorlesetext) — siehe Phase 2 (wörtlich; Folie: nur die zwei Namen + „motiviert?/unmotiviert?" als Tafelanschrieb, der nach der Kamera-Drehung durchgestrichen wird).
 
-## 1.2 Handout A: Dreisatz + Formate — siehe Phase 2a/3 (mit Format-Tabelle: Schwelle | Format | Zeitbedarf | Erfolgscheck).
+## 1.2 Handout A: EVK-Analysebogen
+Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E – Erwartung (aus SEINER Sicht):** Belege für Misserfolgsgeschichte: … / Traut er sich Einstiegsaufgaben zu? … / Schätzung 0–10: … — **W – Wert (aus seiner Sicht):** Interesse? Nutzen? Sozialer Wert? … / 0–10: … — **K – Kosten (aus seiner Sicht):** Anstrengung? Verwirrung (Lastprobleme, W15!)? **Blamage-Risiko?** … / 0–10: … — **Engpass-Diagnose:** … — **Meine EINE Maßnahme (aus dem Besteck, passend zum Engpass):** … — **Woran messe ich in 2 Wochen Veränderung (beobachtbar!):** …
 
-## 1.3 Handout B: Fehlerjournal
-**Beispielseite (zwei Spalten + Pflichtsatz):** Aufgabe/Datum | Mein Fehler (Original!) | Richtige Lösung (selbst) | **„Mein Denkfehler war …"** (Pflichtsatz) | ☐ In der nächsten Arbeit dran gedacht? **Einführungsskript (Gerüst):** *„Ab heute führt ihr hinten im Heft euer Fehlerjournal. Warum: Eure Fehler sind euer wertvollstes Lernmaterial – kein Arbeitsblatt der Welt ist so genau auf euch zugeschnitten. Nach jeder Rückgabe bekommt ihr zehn Minuten dafür. Die wichtigste Zeile ist der Satz ‚Mein Denkfehler war…' – wer den schreiben kann, macht den Fehler kein zweites Mal. Vor der Arbeit lernt ihr zuerst aus dem Journal – per Selbstabfrage, ihr wisst wie."* + CFU: „Timo, was ist die Pflichtzeile?"
-
-## 1.4 CFU-Repertoire-Blatt (Konsolidierung)
-Tabelle: Werkzeug | Was es zeigt | Wann ich es einsetze | Mein Routinen-Status (läuft/holprig/fehlt). Zeilen: Whiteboards · Cold Call (F-P-N) · No Opt Out · Checkpoints · Exit Ticket + Sortierung · Show Call · Fehlerjournal · Vorlauf-Aggregation. Fußzeile: „Auf Instrumenten fliegen, nicht auf Sicht."
+## 1.3 Handout B: Besteck + Attributions-Sprachkarte
+**Besteck:** 80 %-Korridor (W8) · Fading-Einstieg (W11) · Vorentlastung (diskret! 3 Min. vorab) · passgenaue Erstaufgabe („die ersten zwei schafft er sicher") · Vorgehens-Attribution. **Sprint-Karten (8, Original → Muster):**
+1. „Du bist einfach begabt in Mathe!" → *„Du hast die Probe gerechnet, BEVOR du abgegeben hast – deshalb stimmt es."*
+2. „Na, da hattest du wohl Glück!" → *„Du hast das Signalwort unterstrichen – das war kein Glück, das war Methode."*
+3. „Siehst du, geht doch – wenn du nur willst!" → *„Du hast heute zuerst das Beispiel angeschaut und DANN gerechnet – genau so geht das."*
+4. „Du bist halt ein Sprachentyp." → *„Du hast dir die Vokabeln selbst abgefragt statt sie zu lesen – das zahlt sich aus."*
+5. „Endlich mal aufgepasst!" → *„Du hast dir Stichworte gemacht, während ich erklärt habe – und die Antwort saß."*
+6. „Dafür hast du ein Händchen." → *„Du hast erst skizziert, dann gebaut – der Plan war der Unterschied."*
+7. „Klar kannst DU das – du bist ja gut." → *„Du hast bei der schweren Stelle nicht aufgegeben, sondern die Merkregel geholt."*
+8. „Heute war wohl dein Glückstag!" → *„Du hast zuerst die leichten Aufgaben gesichert und dann die schwere angepackt – kluge Reihenfolge."*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-4-Quiz (20 Fragen kumulativ; Auswahl)
-1. Die Ersetzungs-Regel? 2. Der Fehlerreaktions-Dreiklang? 3. Zwei Gründe, warum „Verstanden?" nichts liefert? 4. Die vier Kultur-Hebel? 5. Frage-Pause-Name – warum diese Reihenfolge? 6. Die rote Linie des Cold Call? 7. Wait Time: Sekunden + Rahmung? 8. Die 4 No-Opt-Out-Varianten? 9. Right-is-Right-Reflexfrage + Maßstab? 10. Format Matters in einem Satz? 11. Stretch-It-Prinzip? 12. Die Standard-Choreografie W24? 13. Zwei der vier Turn-and-Talk-Bugs? 14. Die Whiteboard-Routine (5 Schritte + X)? 15. Der Show-Call-Dreischritt? 16. Warum auch Exzellenz zeigen? 17. (Block 2) Beide Enden der 80 %-Regel? 18. (Block 3) Testing Effect? 19. (Block 1) W.I.N.? 20. (Transfer) „Ich prüfe ständig, aber es ändert sich nichts." Diagnostiziere mit ZWEI Block-4-Konzepten. *(Sehen ohne Entscheiden = Deko; fehlender Reteach/Replay-Falle; ggf. Selbstauskunft statt Prüfung.)*
+## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–25)
+1. Der Entscheidungs-Dreisatz (W25)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Umformulierungs-Formel (Block 1)? 8. (Anwendung) Erste Woche nach Osterferien: dein Re-Establish-Plan in zwei Sätzen?
 
 ## Teil 2: Modul-Quiz Woche 26 (für SPA/Folgewoche)
-**F1.** 40 % scheitern am selben Fehler. Du…
-a) erklärst morgen dasselbe nochmal, langsamer und lauter ✗ *(die Replay-Falle – fühlt sich gründlich an)*
-b) planst 10 Min. Reteach mit NEUEM Zugang + Erfolgscheck ✓
-c) gibst ein Zusatzblatt für zu Hause ✗
-d) senkst das Anspruchsniveau der Arbeit ✗
+**F1.** „Evie ist einfach unmotiviert." Diese Aussage ist…
+a) eine ehrliche, brauchbare Diagnose ✗ *(die Lehrerzimmer-Diagnose)*
+b) eine Eigenschafts-Zuschreibung – korrekt wäre die Situationsbeschreibung (E×W÷K analysieren) ✓
+c) beleidigend, aber wahr ✗
+d) nur mit Elterngespräch zu klären ✗
 
-**F2.** 11 von 25 haben Fehler – aber vier verschiedene Ursachen. Beste Antwort:
-a) Klassen-Reteach, die Quote ist ja hoch ✗ *(die Diffus-Falle!)*
-b) differenziert: Kleingruppe für Ansatzlose, gezielte Einzelimpulse, Checkpoints ✓
-c) weiter im Stoff ✗
-d) die Aufgabe war schlecht – ignorieren ✗
+**F2.** Evies Erwartung liegt bei null. Du machst das Thema spektakulär spannend. Ergebnis:
+a) Motivation steigt – Interesse zieht ✗ *(das Motivations-Feuerwerk)*
+b) null × hoher Wert = null; erst muss die Erwartung einen Riss bekommen ✓
+c) Motivation steigt langfristig ✗
+d) hängt vom Thema ab ✗
 
-**F3.** Eine gute Berichtigung…
-a) schreibt die Musterlösung dreimal sauber ab ✗ *(die Schultradition)*
-b) enthält die selbst notierte Lösung + den benannten eigenen Denkfehler ✓
-c) wird benotet, sonst macht sie keiner ✗
-d) ist nur für Schwache nötig ✗
+**F3.** Die gefährlichste Kosten-Währung im Klassenzimmer:
+a) Zeitaufwand ✗
+b) Blamage-Risiko vor der Gruppe ✓
+c) Materialkosten ✗
+d) Hausaufgabenlänge ✗
 
-**F4.** „Wiederholt fürs Klassenarbeit mal alles von Kapitel 3 bis 5" ist…
-a) fair, weil vollständig ✗ *(klingt gründlich)*
-b) die Gießkanne – die Daten hätten 2–3 Baustellen gezeigt ✓
-c) der Standard und daher richtig ✗
-d) zu wenig ✗
+**F4.** „Du bist halt schlau" vs. „Du hast die Probe gemacht":
+a) beides Lob, beides gut ✗ *(fühlt sich gleich an)*
+b) Talent-Attribution macht Misserfolg zur Identitätsfrage; Vorgehens-Attribution macht Erfolg wiederholbar ✓
+c) Talent-Lob ist ehrlicher ✗
+d) der Unterschied ist akademisch ✗
 
-**F5.** Der Reteach endet. Woran merkst du MORGEN, dass er saß?
-a) Die Klasse hat genickt ✗ *(Selbstauskunft in Zeitlupe)*
-b) am geplanten Erfolgscheck: 2 Board-Aufgaben zum selben Muster ✓
-c) an der Stimmung ✗
-d) an der nächsten Klassenarbeit ✗ *(zu spät für Steuerung)*
+**F5.** Ein Punktesystem für Hausaufgaben ist…
+a) grundsätzlich schädlich ✗ *(Überkorrektur)*
+b) eine temporäre Starthilfe mit geplantem Ausstieg – parallel am echten Erfolg bauen ✓
+c) die Dauerlösung für schwache Klassen ✗ *(der Kredit mit Zinsen)*
+d) nur in der Grundschule wirksam ✗
 
-**F6 (Transfer, Freitext):** Nimm Set A (Anhang 1.1): Skizziere den 10-Min.-Reteach – alter Zugang, neuer Zugang, Erfolgscheck. *(Bewertungsanker: Neuer Zugang strukturell anders [Darstellung/Beispieltyp/Stufe], nicht nur langsamer; Check als All-Response.)*
+**F6 (Transfer, Freitext):** Dein Evie-Fall verweigert jede Textaufgabe. Analysiere in drei Sätzen mit EVK und benenne die EINE Maßnahme samt Diskretions-Plan. *(Muster: E vermutlich Engpass [Misserfolgsgeschichte bei Textaufgaben], K hoch [Blamage beim Vorlesen/Scheitern], W unklar → Maßnahme: Vorentlastung der morgigen Schlüsselaufgabe im 2-Min-Einzelkontakt nach der Stunde – diskret, nie vor Publikum; Messpunkt: Beteiligt er sich morgen bei genau dieser Aufgabe?)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 26"
 
-1. **Hook (2 Min.):** Das Duell als Teaser: „Zwei Stapel, gleiche Fehlerquote – nur EINER braucht den Klassen-Reteach. Welcher?" (Neugier-Cliffhanger vor dem Input.)
-2. **See it (4 Min.):** Der Dreisatz als Entscheidungsbaum-Animation; Replay-Falle als Kontrast-Audio (dieselbe Erklärung in Zeitlupe vs. neuer Zugang).
-3. **Name it (3 Min.):** Format-Tabelle + Own-and-Track-Minimum als Karten.
-4. **Do it – Datenfall-Bibliothek (9 Min., Engine!):** Set A und B als interaktive Ticket-Stapel (durchblätterbar!) → Muster-Diagnose → Format-Wahl → Zugang formulieren (Replay-Detektor: App fragt „Was ist strukturell anders?") → Erfolgscheck wählen; weitere Fälle (Sprachfach-Set, Leere-Boards-Fall) als Level; verzahnt mit den Top-3-Fehlerlisten aus Modul 13 (eigene Daten als Fall importierbar!).
-5. **Fehlerjournal-Vorlage:** druckbares Format + Einführungsskript-Editor; Erinnerung „10 Min. nach jeder Rückgabe".
-6. **Block-4-Abschluss:** CFU-Repertoire-Blatt digital (Status-Ampeln, wandert ins Dashboard); Block-4-Quiz aus dem Pool; Kompetenzmatrix-Update Felder 6–7 mit Spinnennetz.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker (beide Fallen!). **Abschluss:** Action-Step-Formular „Mein nächster Reteach" mit Alter-Zugang/Neuer-Zugang-Pflichtfeldern.
+1. **Hook (3 Min.):** Nora & Evie als Comic-Sequenz mit Kamera-Drehung (Klassenzimmer → Handballhalle → Schnittsoftware); die durchgestrichene Diagnose als Kernbild.
+2. **See it (4 Min.):** Die EVK-Formel als interaktiver Rechner: drei Slider (E/W/K) → Anstrengungs-Anzeige; der Null-Multiplikator als Aha (W-Slider auf Maximum bei E=0 bewegt nichts!).
+3. **Name it (3 Min.):** Besteck-Karten; Diagnose-Reihenfolge-Karte (E → K → W).
+4. **Do it – EVK-Fallanalysator (9 Min., Engine!):** geführter Analysebogen (Anhang 1.2 digital) mit den zwei Tandem-Prüffragen als Pflicht-Prompts („aus SEINER Sicht?" / „Engpass oder bequemster Faktor?"); Maßnahmen-Auswahl wird gegen die Engpass-Diagnose validiert (E-Problem + W-Maßnahme → Warnhinweis mit Erklärung); Fall wird gespeichert und in Modul 28 (Beziehung) wieder aufgerufen.
+5. **Attributions-Sprint als Timer-Spiel:** die 8 Karten im 60-Sekunden-Modus (Umformulierungs-Engine aus Modul 6 wiederverwendet!); Heuristik prüft auf wiederholbares Vorgehen (Verben-Liste).
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 konstruierte Erfolge" mit Beobachtungs-Journal für den eigenen Fall.

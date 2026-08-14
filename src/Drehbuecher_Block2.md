@@ -1,10 +1,10 @@
-# Drehbücher Block 2 (Wochen 9–14): Effektive Instruktion – das Grundgerüst
+# Drehbücher Block 2 (Wochen 8–13): Effektive Instruktion – das Grundgerüst
 
 *(Konventionen wie Block 1: Standardraster 0–2 Ankommen · 2–8 Retrieval · 8–28 Input/See it · 28–33 Name it · 33–52 Do it · 52–58 Action Step · 58–60 Exit-Karte. Rollenspielregeln unverändert. Retrieval-Starter enthalten ab jetzt immer 2 Block-1-Fragen – Spacing im Programm.)*
 
 ---
 
-## Woche 9: Rosenshine & die Architektur einer Stunde (Drehbuch)
+## Woche 8: Rosenshine & die Architektur einer Stunde (Drehbuch)
 
 **Material:** Rosenshine-Poster (10 Prinzipien in 4 Strängen); Audit-Bogen; eine absichtlich schwache Beispielstunde (Verlaufsplan, 1 Seite: viel Aktivität, kein Review, kein CFU, riesige Schritte); TN bringen eigenen Verlaufsplan mit (vorab ankündigen!).
 
@@ -29,7 +29,7 @@
 
 ---
 
-## Woche 10: Lernziele & Backwards Design (Drehbuch)
+## Woche 9: Lernziele & Backwards Design (Drehbuch)
 
 **Material:** Meilenstein-Canvas (Ziel → 2–5 Meilensteine → Prüfkriterien-Ampel); 4 Beispiel-Meilensteinketten (2 gute, 2 kaputte); TN bringen Thema ihrer nächsten realen Stunde mit.
 
@@ -45,13 +45,13 @@
 
 **Do it (Min. 31–52):** *Kalibrierung (6 Min.):* Die 4 Beispielketten im Plenum per Fingerzeichen bewerten – wo hakt es? *Werkstatt (13 Min.):* Jeder baut Meilensteinkette + Exemplar für die eigene reale Stunde nächster Woche; Tandem-Härtetest: „Woran MISST du Meilenstein 2?" – nachschärfen.
 
-**Action Step:** siehe Curriculum (vor jeder neuen Stunde zuerst die ideale Schülerantwort schreiben). *Alternative:* Für die ganze Woche nur Stunden-Einseiter: Meilensteine + Exemplar + grobe Phasen, sonst nichts (Vorgriff Lean, W32).
+**Action Step:** siehe Curriculum (vor jeder neuen Stunde zuerst die ideale Schülerantwort schreiben). *Alternative:* Für die ganze Woche nur Stunden-Einseiter: Meilensteine + Exemplar + grobe Phasen, sonst nichts (Vorgriff Lean, W31).
 
 **SPA-Quiz:** F1: „‚Die SuS setzen sich mit dem Klimawandel auseinander' ist…" a) ein gutes Lernziel ✗ b) ein Thema ohne messbares Ziel ✓ c) zu anspruchsvoll ✗ d) nur für Sek II geeignet ✗. — F2: „Exemplar Planning heißt…" a) Musterstunden von Profis kopieren ✗ (Wortfalle) b) die ideale Schülerantwort vorab selbst verfassen ✓ c) Beispiele im Unterricht zeigen ✗ (nah dran) d) Erwartungshorizonte nachträglich schreiben ✗.
 
 ---
 
-## Woche 11: Modellieren & Erklären – das „I do" (Drehbuch)
+## Woche 10: Modellieren & Erklären – das „I do" (Drehbuch)
 
 **Material:** Timer; Mikroteaching-Feedbackbogen (Schrittgröße / Denken hörbar? / Wortökonomie / Falle gezeigt?); Los-Reihenfolge.
 
@@ -61,7 +61,7 @@
 
 **Input (Min. 8–24):**
 1. *See it:* Moderation modelliert 2 Min. einen einfachen Inhalt (z. B. Dreisatz oder Kommasetzung) MIT lautem Denken: *„Ich lese zuerst die Frage GANZ… hier stutze ich, denn… viele würden jetzt X tun – das ist die Falle, weil…"* Danach dieselben 2 Min. als reine Ergebnis-Präsentation. Plenum: Unterschied?
-2. Prinzipien: **Atomisieren** (ein neues Element nach dem anderen; Rosenshine P2); **Think Aloud**: das Expertendenken hörbar machen – Entscheidungen, Zweifel, Fallen (die Falle absichtlich vorführen und auflösen ist Gold); **Worked Examples** + Beispiel/Nicht-Beispiel-Paare schärfen Konzeptgrenzen; **Fluch des Wissens**: *„Gerade ihr mit Berufspraxis: Eure Expertise ist euer größtes Erklär-Handicap. Was euch trivial vorkommt, ist für Schüler ohne Vorkenntnisse ein Zehnschritte-Problem. Regel: halbiere die gefühlte Schrittgröße."*; **Aufmerksamkeitsdisziplin**: beim Modellieren Stifte weg – Mitschrift danach (split attention, sauber begründet in W16).
+2. Prinzipien: **Atomisieren** (ein neues Element nach dem anderen; Rosenshine P2); **Think Aloud**: das Expertendenken hörbar machen – Entscheidungen, Zweifel, Fallen (die Falle absichtlich vorführen und auflösen ist Gold); **Worked Examples** + Beispiel/Nicht-Beispiel-Paare schärfen Konzeptgrenzen; **Fluch des Wissens**: *„Gerade ihr mit Berufspraxis: Eure Expertise ist euer größtes Erklär-Handicap. Was euch trivial vorkommt, ist für Schüler ohne Vorkenntnisse ein Zehnschritte-Problem. Regel: halbiere die gefühlte Schrittgröße."*; **Aufmerksamkeitsdisziplin**: beim Modellieren Stifte weg – Mitschrift danach (split attention, sauber begründet in W15).
 
 **Name it (Min. 24–29):** Modellierungs-Vierklang:
 
@@ -80,11 +80,11 @@
 
 ---
 
-## Woche 12: Angeleitetes Üben – das „We do" (Drehbuch)
+## Woche 11: Angeleitetes Üben – das „We do" (Drehbuch)
 
 **Material:** Fading-Treppen-Vorlage (4 Stufen: Vollbeispiel → Lückenbeispiel → nur Ansatz → blank); Klassensatz Mini-Whiteboards (Demo!); Fehlerkarten (typische Schülerfehler zum Ziehen).
 
-**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Umformulierungs-Formel (W7)? 4. 80 %-Regel? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
+**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Umformulierungs-Formel (W6)? 4. 80 %-Regel? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
 
 **Input (Min. 8–24):**
 1. *See it – Live-Demo mit der Gruppe als Klasse:* Moderation führt ein echtes We do durch (z. B. Argumentationsaufbau oder Prozentaufgabe): Aufgabe gemeinsam lösen, Schritte per Fragen aus der Gruppe holen, ALLE schreiben mit, zwischendurch Whiteboard-Abfrage. Danach offenlegen, was gesteuert war.
@@ -100,7 +100,7 @@
 
 ---
 
-## Woche 13: Selbstständiges Üben & aktives Monitoring – das „You do" (Drehbuch)
+## Woche 12: Selbstständiges Üben & aktives Monitoring – das „You do" (Drehbuch)
 
 **Material:** Sitzplan-Blankos; ActiveObs-Bogen-Vorlage (Was prüfe ich? / Bei wem zuerst? / Route); Klemmbrett-Symbolik; Videoclip Circulate (alternativ: Laufweg-Fallkarte).
 
@@ -108,9 +108,9 @@
 
 **Input (Min. 8–24):**
 1. Provokante Eröffnung: *„Hand aufs Herz: Was habt ihr bisher in Stillarbeitsphasen getan? … Die Stillarbeit ist nicht eure Verschnaufpause – sie ist die datenreichste Phase der ganzen Stunde. 25 Köpfe zeigen euch schriftlich, live, was angekommen ist. Man muss nur hinsehen. Systematisch."*
-2. Startbedingungen (Rückgriff W4): Aufgabe/Zeit/Sozialform/Lautstärke/„Was-wenn-fertig" VOR Beginn geklärt, Timer sichtbar.
+2. Startbedingungen (Rückgriff W3): Aufgabe/Zeit/Sozialform/Lautstärke/„Was-wenn-fertig" VOR Beginn geklärt, Timer sichtbar.
 3. Circulate (Lemov T25): früh die „Ebene durchbrechen" (in den Raum hinein, nicht am Pult kleben); geplante Route statt Melder-Hopping; Arbeit LESEN, kurz markieren („✓", Unterstreichung), weitergehen; Interaktionen kurz halten.
-4. ActiveObs (T9): VORHER festlegen, was geprüft wird (z. B. „Aufgabe 2, Vorzeichenfehler") – gezielte Datenjagd statt diffusem Helfen; wiederkehrende Fehler → an die Tafel, einmal für alle klären (Vorgriff Reteach W26).
+4. ActiveObs (T9): VORHER festlegen, was geprüft wird (z. B. „Aufgabe 2, Vorzeichenfehler") – gezielte Datenjagd statt diffusem Helfen; wiederkehrende Fehler → an die Tafel, einmal für alle klären (Vorgriff Reteach W25).
 5. Anti-Pattern benennen: Festwachsen bei Einzelnen (Rest 10 Min. unbeobachtet = Einladung an Modell 4).
 
 **Name it (Min. 24–29):** You-do-Standard: Startbedingungen komplett → Route ablaufen → lesen & markieren → Fehlerliste führen (Top 3) → max. 60 Sek. pro Einzelhilfe → Sammelklärung statt Serienerklärung.
@@ -127,15 +127,15 @@
 
 ---
 
-## Woche 14: Do Now & Exit Ticket + Konsolidierung Block 2 (Drehbuch)
+## Woche 13: Do Now & Exit Ticket + Konsolidierung Block 2 (Drehbuch)
 
 **Material:** Exit-Ticket-Vorlagen; anonymisierter echter Klassensatz Exit Tickets (25 Stück, vom Coach/einer erfahrenen Lehrkraft besorgt); 3 Sortierkörbe/Zonen („kann / kann fast / kann nicht"); Stundenarchitektur-Template (A4); Block-2-Quiz (20 Fragen kumulativ ab W1).
 
-**Retrieval-Starter:** entfällt als Einzelblock – ersetzt durch **Block-2-Quiz (Min. 2–12)**: 20 Fragen, Einzelarbeit, Selbstkorrektur mit Lösungsfolie; Fehler-Schwerpunkte kurz klären. (Meta-Kommentar: *„Das war ein kumulatives Quiz mit Selbstkorrektur – merken, kommt in Woche 18/19 als Theorie."*)
+**Retrieval-Starter:** entfällt als Einzelblock – ersetzt durch **Block-2-Quiz (Min. 2–12)**: 20 Fragen, Einzelarbeit, Selbstkorrektur mit Lösungsfolie; Fehler-Schwerpunkte kurz klären. (Meta-Kommentar: *„Das war ein kumulatives Quiz mit Selbstkorrektur – merken, kommt in Woche 17/18 als Theorie."*)
 
 **Input (Min. 12–26):**
-1. Do Now, didaktisch gewendet: Die Organisationsroutine aus W3 bekommt Lernsubstanz – Standardformat ab jetzt: Wiederholung gestern/letzte Woche/letzter Monat (3-2-1-Muster als Vorgriff auf Spacing).
-2. Exit Ticket (Lemov T26): 1–3 Aufgaben, EXAKT an den Meilensteinen (W10) ausgerichtet, 3–5 Min., schriftlich, alle, einsammeln. *„Es ist die ehrlichste Antwort auf die Frage: Habe ich heute unterrichtet – oder haben sie gelernt?"*
+1. Do Now, didaktisch gewendet: Die Organisationsroutine aus W2 bekommt Lernsubstanz – Standardformat ab jetzt: Wiederholung gestern/letzte Woche/letzter Monat (3-2-1-Muster als Vorgriff auf Spacing).
+2. Exit Ticket (Lemov T26): 1–3 Aufgaben, EXAKT an den Meilensteinen (W9) ausgerichtet, 3–5 Min., schriftlich, alle, einsammeln. *„Es ist die ehrlichste Antwort auf die Frage: Habe ich heute unterrichtet – oder haben sie gelernt?"*
 3. 10-Minuten-Auswertung: sortieren statt korrigieren (3 Stapel), häufigsten Fehler benennen, EINE Konsequenz für morgen festlegen (weiter / 10-Min.-Reteach / Einzelimpulse). Keine Noten, kein Rotstift-Marathon.
 
 **Name it (Min. 26–30):** Exit-Ticket-Gütecheck: misst es den Meilenstein (nicht das Thema)? in 5 Min. lösbar? von allen allein lösbar? Auswertung ≤10 Min. möglich?
@@ -144,4 +144,4 @@
 
 **Konsolidierung (Min. 52–58):** Stundenarchitektur-Template finalisieren (Do Now → Ziel/Meilensteine → I/We/You mit CFU-Punkten → Exit Ticket) und ins Playbook; Kompetenzmatrix-Update Felder 4–5; Action Step: siehe Curriculum (jede Stunde Exit Ticket + eine nachweisliche Anpassung der Folgestunde).
 
-**SPA-Quiz:** F1: „Exit Tickets wertet man aus, indem man…" a) alle gründlich korrigiert und benotet ✗ (Gewissenhaftigkeits-Falle) b) in 3 Stapel sortiert und EINE Konsequenz ableitet ✓ c) sie den SuS zurückgibt ✗ d) den Schnitt berechnet ✗. — F2: „Dein Exit Ticket fragt: ‚Fandet ihr das Thema verständlich?' Das ist…" a) gute Schülerorientierung ✗ b) Selbstauskunft statt Verständnisprüfung ✓ (Vorgriff W21!) c) zu kurz ✗ d) nur in Sek I sinnvoll ✗.
+**SPA-Quiz:** F1: „Exit Tickets wertet man aus, indem man…" a) alle gründlich korrigiert und benotet ✗ (Gewissenhaftigkeits-Falle) b) in 3 Stapel sortiert und EINE Konsequenz ableitet ✓ c) sie den SuS zurückgibt ✗ d) den Schnitt berechnet ✗. — F2: „Dein Exit Ticket fragt: ‚Fandet ihr das Thema verständlich?' Das ist…" a) gute Schülerorientierung ✗ b) Selbstauskunft statt Verständnisprüfung ✓ (Vorgriff W20!) c) zu kurz ✗ d) nur in Sek I sinnvoll ✗.

@@ -1,5 +1,5 @@
-# Skript Woche 14: „Do Now & Exit Ticket – die Klammer der Stunde + Konsolidierung Block 2"
-## 60-Minuten-Sitzung · Block 2 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 14: „Gedächtnisarchitektur – warum Lernen Gedächtnisveränderung ist"
+## 60-Minuten-Sitzung · Block 3 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,158 +7,165 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen? |
-| **Kernquellen** | Lemov T20 (Do Now), T26 (Exit Ticket); McCrea (Vorgriff Spacing); Bambrick-Santoyo (Datenlogik, vereinfacht) |
-| **Funktion im Jahr** | Block-2-Finale: verschraubt Anfang (Do Now, aus W3 organisatorisch bekannt, jetzt didaktisch aufgeladen) und Ende (Exit Ticket) mit den Meilensteinen aus W10. Die 10-Minuten-Sortier-Auswertung ist die Basistechnik für Reteaching (W26) und Whole-Class-Feedback (W34). Das Stundenarchitektur-Template wird finalisiert – es ist der Vorläufer des Lean-Planers (W32). Block-2-Quiz als Meilenstein-Messung. |
-| **Lernziele** | Die TN können:<br>1. Do Nows nach dem 3-2-1-Vorläufer mit Wiederholungssubstanz füllen,<br>2. Exit Tickets exakt an Meilensteinen ausrichten (Gütecheck),<br>3. einen Klassensatz in ≤ 10 Minuten per Drei-Stapel-Sortierung auswerten und EINE Konsequenz ableiten. |
-| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Doppel-Werkstatt (Schreiben + Sortieren) + Konsolidierungs-Ritual. |
+| **Leitfrage** | Was passiert im Kopf, wenn jemand etwas lernt – und was folgt daraus für jede Unterrichtsentscheidung? |
+| **Kernquellen** | McCrea, *Memorable Teaching* (Kap. 1–3: Lernen als LZG-Veränderung, WM-Flaschenhals, Schemata); Willingham (*Memory is the residue of thought*); Ebbinghaus (Vergessenskurve) |
+| **Funktion im Jahr** | Block-3-Auftakt und Perspektivwechsel: Die Werkzeuge aus Block 1–2 werden „rückwärts erklärt" – aus Rezept-Anwendern werden Leute, die das Warum kennen. Das Diagnose-Raster (WM überlastet? / nie im LZG? / falsche Denkspur?) wird die Deutungsbrille für W15–19. Die Mythen-Impfung schützt vor Lehrerzimmer-Folklore. Erste Sitzung nach den Ferien: erweiterte Reaktivierung. |
+| **Lernziele** | Die TN können:<br>1. das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären (mit Selbstversuchs-Evidenz),<br>2. den Willingham-Satz auf Unterrichtssituationen anwenden,<br>3. vier Klassiker-Probleme mit dem Diagnose-Raster deuten,<br>4. die zwei größten Lernmythen (Lernstile, Lernpyramide) kollegentauglich entkräften. |
+| **Sitzungstyp** | Erlebnis-Sitzung: Selbstversuche als Evidenz-Anker, dann Deutungs-Werkstatt. Wenig Skripten, viel Denken. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; drei markierte Sortier-Zonen pro Gruppentisch (grün/gelb/rot). **Material:**
-- [ ] Block-2-Quiz, 20 Fragen kumulativ ab W1 (Anhang 2, Teil 1) + Lösungsfolie
-- [ ] Handout A: Exit-Ticket-Gütecheck + Vorlagen (Anhang 1.1)
-- [ ] **Ein echter anonymisierter Exit-Ticket-Klassensatz** (~25 Stück; vom Coach oder einer erfahrenen Lehrkraft besorgt – ersatzweise das konstruierte Set aus Anhang 1.2, pro Gruppe ein Satz)
-- [ ] Handout B: Stundenarchitektur-Template (Anhang 1.3), 2 Kopien pro TN
-- [ ] Playbook-Mappen (Template wird eingeheftet)
+**Raum:** Plenum für Selbstversuche, dann Vierergruppen. **Material:**
+- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1) liegt aus
+- [ ] Ziffern-/Buchstabenfolgen als Folien (Anhang 1.1)
+- [ ] Handout A: Das Gedächtnismodell + Diagnose-Raster (Anhang 1.2)
+- [ ] Fall-Kartenset: 4 Klassiker (Anhang 1.3)
+- [ ] Mythen-Kartenset: 4 Karten (Anhang 1.4)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Heute großes Quiz statt Starter."
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Whiteboards liegen bereit.
 
-## Phase 1 · Block-2-Quiz (Minute 2–12)
-20 Fragen (Anhang 2, Teil 1), Einzelarbeit still (7 Min.), dann **Selbstkorrektur** per Lösungsfolie (3 Min.) – nur die zwei häufigsten Fehler kurz klären.
+## Phase 1 · Reaktivierungs-Quiz (Minute 2–12)
+8 Fragen quer durch Block 1+2 (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Meta-Satz: *„Nach Ferien ist Reaktivierung wichtiger als Neues – das gilt für euch wie für eure Klassen. Wer diese Woche noch keinen Re-Establish-Moment hatte: Der Action Step wartet."*
 
-> **Meta-Kommentar:** *„Drei Beobachtungen zu dem, was ihr gerade erlebt habt: Erstens – es war kumulativ, Fragen bis zurück zu Woche 1; warum das mächtig ist, wird in Woche 19 Theorie. Zweitens – ihr habt selbst korrigiert; ich habe null Korrekturzeit investiert und trotzdem wissen jetzt alle, wo sie stehen. Drittens – ich sehe gleich an den Fehler-Schwerpunkten, was ICH nachsteuern muss. Quiz als Dreifachwerkzeug: Lernen, Selbstdiagnose, Lehrerdiagnose. Merkt es euch für eure Klassen."*
+## Phase 2 · Rahmung: der Blick hinter die Werkzeuge (Minute 12–15)
 
-## Phase 2 · Input: Die Klammer (Minute 12–26)
+> **Moderationstext:**
+> *„Vierzehn Wochen lang habe ich euch Werkzeuge gegeben und bei den Warum-Fragen oft gesagt: ‚Kommt in Block 3.' Der ist jetzt da. Und ich verspreche euch: Nach den nächsten sechs Wochen seht ihr euren eigenen Unterricht mit Röntgenblick. Wir fangen mit dem Fundament an – mit der Frage, die banaler klingt, als sie ist: Was IST eigentlich Lernen? Und weil ich euch nichts erzählen will, was ihr nicht selbst gespürt habt, fangen wir mit drei Experimenten an. Versuchsobjekt: ihr."*
 
-### 2a · Do Now, didaktisch gewendet (Min. 12–16)
-> *„In Woche 3 habt ihr das Do Now als ORGANISATIONS-Werkzeug gebaut: Es startet die Stunde ohne euch. Heute bekommt es seinen zweiten Job: LERN-Werkzeug. Die Frage ist nur: Was steht drauf? Die verführerische Antwort: ein Appetizer zum neuen Thema. Die richtige: **Wiederholung.** Gestern, letzte Woche, letzter Monat – als Faustformat: drei Fragen von gestern, zwei von letzter Woche, eine von vor einem Monat. Warum ausgerechnet Altes? Die volle Begründung bekommt ihr in den Wochen 18 und 19 – heute reichen drei Pragmatik-Gründe: Wiederholung ist IMMER ohne Erklärung lösbar (Kriterium eins aus Woche 3, automatisch erfüllt), sie braucht null neue Vorbereitung (die Fragen existieren schon), und Rosenshine Prinzip 1 ist damit jeden Tag abgehakt, bevor die Stunde richtig begonnen hat."*
+## Phase 3 · See it: Drei Selbstversuche (Minute 15–24)
 
-### 2b · Exit Ticket (Min. 16–21)
-> *„Und am anderen Ende der Stunde: das ehrlichste Werkzeug, das ich kenne. Ein bis drei Aufgaben, drei bis fünf Minuten, schriftlich, JEDER, wird eingesammelt. Der ganze Trick steckt in einem Wort: Die Aufgaben messen eure **Meilensteine** aus Woche 10 – nicht das Thema, nicht die Stimmung, nicht ‚Fandet ihr es verständlich?'. Wenn euer Meilenstein war ‚kann zwischen past simple und present perfect entscheiden und die Entscheidung begründen', dann steht auf dem Ticket genau das: zwei Entscheidungssätze plus ein Begründungssatz. Das Exit Ticket ist die Empfangsbestätigung eurer Stunde – und es beantwortet die Frage, vor der sich unser Berufsstand traditionell drückt: Habe ich heute unterrichtet, oder haben sie gelernt?"*
+**Versuch 1 – Der Flaschenhals (3 Min.):** *„Ich zeige euch gleich für fünf Sekunden eine Zahl. Danach schreibt ihr sie RÜCKWÄRTS aufs Board."* [Folie: 0 1 7 6 4 4 9 2 3 1 8 → Boards hoch → Chaos, Gelächter.] *„Und jetzt: euer eigenes Geburtsdatum, rückwärts. … Alle können es. Der Unterschied? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – und das hat, je nach Zählung, vier bis sieben Plätze. Das Geburtsdatum liegt im Langzeitgedächtnis und kostet: nichts."* (Auftakt-Echo explizit machen – heute wird daraus Theorie.)
 
-### 2c · Die 10-Minuten-Auswertung (Min. 21–26)
-> *„‚Und wann soll ich das korrigieren?' – Gar nicht. Ihr korrigiert nicht, ihr SORTIERT. Drei Stapel: **kann** – im Kern richtig. **Kann fast** – richtiger Ansatz, ein reparierbarer Fehler. **Kann nicht** – Ansatz fehlt oder Kernmissverständnis. Kein Rotstift, keine Randbemerkung, keine Note – Tickets sind Diagnose, nicht Leistungsmessung, und das sagt ihr der Klasse auch so. Beim Sortieren notiert ihr EINEN Satz: den häufigsten Fehler. Und dann die einzige Pflicht: **eine Konsequenz für morgen.** Grob: Ist der rote plus gelbe Stapel über einem Drittel – zehn Minuten Reteach für alle, mit NEUEM Zugang. Ist er klein – die Namen wandern auf euren ActiveObs-Bogen für die nächste Übungsphase. Zehn Minuten, Stoppuhr ehrlich. Die Feinmechanik dieser Entscheidungen bekommt ihr in Woche 26 – heute zählt der Reflex: Ticket → Stapel → ein Satz → eine Konsequenz."*
+**Versuch 2 – Die Chunk-Magie (3 Min.):** [Folie 5 Sek.: B M W F B I U S A A D A C – Boards: kaum jemand schafft alle 13.] *„Und jetzt dieselben dreizehn Buchstaben, anders geschnitten: BMW – FBI – USA – ADAC."* [Boards: fast alle.] *„Dreizehn Elemente wurden zu vier – weil euer Langzeitgedächtnis die Muster kennt. Das nennt sich Schema, und es ist der wichtigste Begriff des Blocks: **Vorwissen erweitert faktisch das Arbeitsgedächtnis.** Wer viel weiß, kann mehr denken – nicht umgekehrt. Das ist übrigens der Grund, warum ‚erst Kompetenzen, Wissen kann man googeln' kognitiv Unsinn ist: Ohne Schemata im Kopf gibt es nichts, WOMIT man denkt."*
 
-## Phase 3 · Name it (Minute 26–30)
+**Versuch 3 – Das Standard-Vergessen (3 Min.):** *„Letzter Versuch, ganz ohne Folie: Was genau haben Sie vorgestern zu Abend gegessen? … Und worüber haben Sie dabei nachgedacht? … Sehen Sie. Vergessen ist kein Betriebsunfall des Gehirns – es ist der Normalzustand. Ebbinghaus hat das vor 140 Jahren vermessen: Der Zugriff zerfällt steil, schon nach Tagen ist ohne Auffrischung der Großteil weg. Unterricht, der das Vergessen nicht einplant, plant es ein."*
 
-**Exit-Ticket-Gütecheck** (Handout A): misst den MEILENSTEIN (nicht das Thema)? · in 3–5 Min. von allen allein lösbar? · schriftlich, von jedem? · Auswertung in ≤ 10 Min. möglich (max. 3 Aufgaben, davon max. 1 offene)? — **Auswertungs-Reflex:** Stapeln → häufigster Fehler (1 Satz) → eine Konsequenz. Merksatz: *„Das Ticket fragt den Meilenstein – und morgen antwortet der Unterricht."*
+## Phase 4 · Input: Die drei Kernsätze + das Raster (Minute 24–32)
 
-## Phase 4 · Do it: Doppel-Werkstatt (Minute 30–50)
+> *„Aus den drei Versuchen destillieren wir drei Sätze – die tragen den ganzen Block:*
+> *Erstens: **Lernen ist eine dauerhafte Veränderung im Langzeitgedächtnis.** Punkt. Was dort nicht ankommt, wurde nicht gelernt – egal wie lebendig die Stunde war, egal wie beschäftigt alle waren. Eine Stunde kann glänzen und nichts hinterlassen.*
+> *Zweitens, Willinghams Satz, den ihr euch tätowieren dürft: **Erinnert wird, worüber nachgedacht wurde.** Nicht, was ihr gesagt habt. Nicht, was auf der Folie stand. Die Denkspur ist die Lernspur. Wer beim Explosionsvideo über die Explosion staunt, lernt die Explosion – nicht die Reaktionsgleichung.*
+> *Drittens: **Vergessen ist Standard** – und deshalb ist Wiederholung keine verlorene Zeit, sondern der einzige bekannte Weg, die Zerfallskurve zu brechen. Wie genau, ist Woche 17 und 19.*
+> *Und jetzt seht ihr, warum Block 1 und 2 so gebaut waren, wie sie gebaut waren"* [Kaskade MIT der Gruppe an der Tafel entwickeln – Zuruf: Welches Werkzeug antwortet auf welchen Satz?]: *„Enges Arbeitsgedächtnis → kleine Schritte, Halbier-Regel, Routinen, die Denkplatz freiräumen. Denkspur = Lernspur → Aufmerksamkeit lenken, Stifte weg beim Modellieren. Vergessen ist Standard → Do Now mit Altstoff, kumulative Quizze. Ihr habt vierzehn Wochen angewandte Gedächtnispsychologie betrieben. Heute habt ihr die Landkarte dazu bekommen.*
+> *Daraus das Diagnose-Raster für jedes Unterrichtsproblem – drei Fragen:*
+> - **War das Arbeitsgedächtnis überlastet?**
+> - **Ist es nie im Langzeitgedächtnis angekommen – fehlt der Abruf?**
+> - **Lief die Denkspur woandershin?**
+>
+> *Fast jedes ‚Die kapieren das einfach nicht' löst sich in einer dieser drei Fragen auf – und jede hat andere Konsequenzen."*
 
-### Runde 1 · Schreibwerkstatt (Min. 30–40)
-Jeder baut das Exit Ticket für die reale Stunde nächster Woche – auf Basis der eigenen Meilensteinkette aus W10 (liegt im Playbook!). Tandem-Gütecheck mit der Gretchenfrage: **„Zeig mir, welcher Meilenstein von welcher Aufgabe gemessen wird."** *(Häufigster Baufehler: Die Aufgabe prüft Wiedergabe, der Meilenstein verlangt Anwendung – Moderation macht 1 Beispiel im Plenum sichtbar.)*
+## Phase 5 · Mythen-Impfung (Minute 32–37)
 
-### Runde 2 · Sortier-Simulation (Min. 40–50)
-Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zonen – **Stoppuhr läuft: 8 Minuten für ~25 Tickets.** Danach je Gruppe: häufigster Fehler in einem Satz + Konsequenz-Entscheidung als 30-Sekunden-Pitch. **Gruppen vergleichen:** Kommen alle zur selben Entscheidung? *(Die Abweichungen sind der Lerngewinn – besonders die Grenzfälle gelb/rot kalibrieren das Urteil.)*
+> *„Bevor wir üben, eine Schutzimpfung – denn im Lehrerzimmer kursieren Theorien, die sich zäh halten: **Lernstile** – ‚Der ist ein visueller Typ.' Die Präferenz existiert, der Lerneffekt nicht: In sauberen Studien lernen ‚visuelle Typen' mit passendem Material nicht besser. Die Regel, die stattdessen trägt: Die Modalität muss zum INHALT passen – Geografie braucht Karten für alle, Aussprache braucht Hören für alle. **Die Lernpyramide** – ‚Man behält 10 % vom Lesen, 90 % vom Lehren.' Die Zahlen sind erfunden; keine Quelle, keine Studie, runde Prozentwerte als Warnsignal. Der wahre Kern – aktive Verarbeitung schlägt passive – kommt bei uns sauber in Woche 17 und 20. Warum ich darauf herumreite? Weil ihr als Quereinsteiger in Konferenzen sitzen werdet, in denen damit Unterrichtsentscheidungen begründet werden. Ihr dürft dann freundlich und präzise sein."*
 
-## Phase 5 · Konsolidierung Block 2 (Minute 50–56)
+## Phase 6 · Do it: Deutungs-Werkstatt (Minute 37–52)
 
-**Stundenarchitektur-Template** (Handout B) gemeinsam durchgehen und ins Playbook heften: Do Now (3-2-1) → Meilensteine + Exemplar → I do (Vierklang) → We do (Treppe + 80 %-Check) → You do (Route + ActiveObs) → Exit Ticket (Gütecheck). 
+### Runde 1 · Fall-Deutung mit dem Raster (Min. 37–47)
+Vierergruppen, je 2 Fall-Karten (Anhang 1.3): mit dem Raster deuten + EINE Konsequenz nennen (Werkzeug aus Block 1/2 genügt!). Plenums-Blitz: je Fall 45 Sekunden. *(Fall 4 ist der Aha-Kandidat: „Textverstehen scheitert trotz Lesefähigkeit" → fehlendes Vorwissen/Schema – die BMW-FBI-Erfahrung aufs Lesen übertragen.)*
 
-> *„Das ist Block 2 auf einer Seite – und es ist ab jetzt euer Standard-Stundenformular. In Woche 32 wird daraus ein 20-Minuten-Planungswerkzeug; bis dahin: benutzt es, bis es langweilig wird. Langweilig heißt: automatisiert."*
+### Runde 2 · Mythen-Speeddating (Min. 47–52)
+Tandems ziehen eine Mythen-Karte und üben die 60-Sekunden-Lehrerzimmer-Antwort: freundlich, präzise, mit Alternative. Zwei Antworten im Plenum hören; Kriterium: Kein Besserwisser-Ton – „Der wahre Kern daran ist … – nur die Schlussfolgerung trägt nicht."
 
-**Kompetenzmatrix:** Felder 4–5 aktualisieren (Bogen an Coach).
+## Phase 7 · Action Step & Exit (Minute 52–60)
 
-## Phase 6 · Action Step (Minute 56–58)
-
-**Standard:** *„Ich schließe diese Woche JEDE Stunde in Klasse X mit einem Exit Ticket, sortiere am selben Tag in 10 Minuten – und setze mindestens einmal eine sichtbare Konsequenz in der Folgestunde um (und sage der Klasse, DASS sie aus ihren Tickets kommt: ‚Eure Tickets von gestern zeigen…')."*
+**Standard:** *„Ich identifiziere in einer meiner Stunden die drei Stellen mit der höchsten Arbeitsgedächtnislast (neue Begriffe zählen! Parallelaufträge! Materialsuche!) und entschärfe EINE davon – und notiere, was sich ändert."*
 
 **Alternativen:**
 
-1. Do-Now-Umbau: alle Starter dieser Woche auf 3-2-1-Wiederholung umstellen.
-2. Für Korrektur-Geplagte: nur die Sortier-Disziplin – 3 Klassensätze beliebiger Art stoppuhr-ehrlich in ≤ 10 Min. sortieren statt korrigieren.
+1. Raster-Woche: jedes „Die kapieren es nicht"-Gefühl sofort mit den drei Diagnose-Fragen notieren (Zettel im Lehrerkalender).
+2. Re-Establish nachholen: wer nach den Ferien noch keinen Routinen-Neustart gemacht hat – jetzt (W1/W2-Handwerk).
 
-> **Ausblick:** *„Nach der Hospitation und den Ferien beginnt Block 3 – und der beantwortet die Warum-Fragen, die sich gestapelt haben: Warum Wiederholung? Warum kleine Schritte? Warum vergessen sie alles? Ihr bekommt die Landkarte des Gedächtnisses. Danach seid ihr nicht mehr Rezept-Anwender, sondern Leute, die wissen, warum das Rezept funktioniert."*
+> **Ausblick:** *„Nächste Woche wird es chirurgisch: Wie ihr Material und eure eigene Kommunikation von unnötiger Last befreit – Folien-Chirurgie am offenen Foliensatz. Bringt eure schlimmste eigene Präsentation mit. Ja, die eine. Ihr wisst, welche."* **(Vorab-Auftrag W15 auf die Exit-Karte!)**
 
-## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss):
-
-1. Mein wertvollstes Block-2-Werkzeug: …
-2. Wo ich noch unsicher bin: … *(→ Meilenstein-Gespräch-Futter)*.
+**Exit-Karte:** Standard + Erinnerung Foliensatz-Mitbringen.
 
 ---
 
 # 4. Coaching-Woche 14 (Handreichung)
 
-- **Hospitationsfokus:** Stunden-KLAMMER: die ersten 8 und letzten 8 Minuten (dazwischen darf der Coach raus – Fokus-Signal). Protokoll: Do-Now-Substanz (Wiederholung oder Appetizer?), Ticket-Meilenstein-Passung, wurde die Konsequenz aus dem Vortag sichtbar?
-- **Auswertungsgespräch:** Gemeinsame Live-Sortierung des frischen Ticket-Stapels (10-Min.-Stoppuhr!) – der Coach moderiert nur die Grenzfälle. Konsequenz für morgen gemeinsam festlegen.
-- **Gruppenhospitation 2** fällt in diese Tage: Nachbesprechung nach W13-Bogen; Brücke ziehen: „Welche Fading-Stufen habt ihr gesehen – und was misst das Exit Ticket des Gastgebers?"
-- **Red Flag:** TN benotet Exit Tickets oder kündigt sie als „Tests" an → sofort korrigieren: Diagnose-Charakter ist die Geschäftsgrundlage (sonst Prüfungsangst statt Daten; Fehlerkultur W21 wird sonst vergiftet).
+- **Hospitationsfokus:** WM-Last-Zählung: In einer Erklärphase mitzählen – neue Begriffe/Elemente pro Minute; Parallelaufträge notieren (hören + schreiben + suchen?).
+- **Auswertungsgespräch:** Zählung zeigen, TN wendet selbst das Raster an; die Kaskade nutzen: „Welches deiner Block-1/2-Werkzeuge antwortet darauf?" (Selbstwirksamkeit: Das Werkzeug existiert schon!).
+- **Ferien-Check:** Re-Establish gelaufen? Routinen-Zustand (Begrüßung, Signal, Do Now) kurz durchgehen – Verfall ist normal, Neustart ist Handwerk.
+- **Red Flag:** TN deutet Block 3 als „Theorie, die mir nichts bringt" → im 1:1 an einem SEINER Probleme das Raster durchspielen; die Deutungsbrille verkauft sich über den eigenen Fall.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Exit-Ticket-Gütecheck + Vorlagen
-**Gütecheck:** ☐ misst den Meilenstein ☐ 3–5 Min., allein lösbar ☐ schriftlich, von jedem ☐ Auswertung ≤ 10 Min. (max. 3 Aufgaben, max. 1 offene). **Format-Vorlagen:**
+## 1.1 Versuchs-Folien
+Folie 1: „0 1 7 6 4 4 9 2 3 1 8" (5 Sek.). Folie 2: „B M W F B I U S A A D A C" (5 Sek.). Folie 3: „BMW · FBI · USA · ADAC" (5 Sek.).
 
-1. 2 geschlossene + 1 Begründungssatz
-2. 1 Anwendungsaufgabe + „Erkläre deinen ersten Schritt"
-3. Entscheidungsformat: „Kreuze an UND begründe in einem Satz"
+## 1.2 Handout A: Modell + Raster
+Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (4–7 Plätze, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:**
 
-**Verbots-Liste:** „Fandet ihr es verständlich?" · „Was hat euch gefallen?" · alles, was Selbstauskunft statt Können misst *(Vorgriff W21)*.
+1. WM überlastet?
+2. Nie im LZG / kein Abruf?
+3. Denkspur woandershin?
 
-## 1.2 Konstruierter Ticket-Satz (Fallback; Auszug-Beschreibung für eigene Erstellung)
-25 Tickets zur Aufgabe „Entscheide: past simple oder present perfect (2 Sätze) + begründe mit dem Signalwort": **11× grün** (beides richtig, Begründung nennt Signalwort), **8× gelb** (Entscheidung richtig, Begründung fehlt/zirkulär: „klingt besser"), **6× rot** (Signalwort ignoriert, „yesterday I have seen"). *(Eingebaute Kalibrier-Grenzfälle: 2 Tickets mit richtiger Entscheidung + falscher Begründung – gelb oder rot? Diskussion gewollt; W12-Fehlerkarte K6 lässt grüßen.)* — **Erwartete Konsequenz:** gelb+rot = 14/25 > ⅓ → 10-Min.-Reteach mit NEUEM Zugang (z. B. Zeitstrahl statt Regel-Wiederholung).
+— je mit Konsequenz-Pfeil auf Block-1/2-Werkzeuge.
 
-## 1.3 Handout B: Stundenarchitektur-Template (Einseiter)
-Kopf: Klasse/Thema/Datum. — **Do Now (3-2-1):** … — **Meilensteine (2–5, Ampel-geprüft):** … — **Exemplar (Kernaufgabe):** … — **I do:** Falle: … — **We do:** Treppenstufen + 80 %-Check bei: … — **You do:** ActiveObs-Fokus + Route: … — **Exit Ticket:** Aufgaben (→ Meilenstein-Nr.): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
+## 1.3 Fall-Kartenset (mit Auflösungshinweisen)
+**Fall 1:** „In der Stunde konnten sie es, im Test eine Woche später nicht." *(→ Frage 2: nur WM-Besuch, kein Abruf danach; Konsequenz: Do Now/kumulative Aufgaben; Vorgriff W18: Performance ≠ Learning.)*
+**Fall 2:** „Nach dem spektakulären Filmeinstieg können alle den Film nacherzählen, keiner die Fachfrage beantworten." *(→ Frage 3: Denkspur lief zum Spektakel; Konsequenz: präziser Beobachtungsauftrag – W16.)*
+**Fall 3:** „Die neue Schülerin ‚kann sich einfach nichts merken' – sagt die Klassenkonferenz." *(→ meist Frage 1+2: fehlende Schemata machen alles teuer; Konsequenz: Vorwissen aufbauen, kleinere Schritte – KEINE Eigenschafts-Diagnose!)*
+**Fall 4:** „Beim Sachtext scheitern viele – dabei können sie flüssig lesen." *(→ Schema-Lücke: Lesen ≠ Verstehen ohne Vorwissen zum Thema; Konsequenz: Vorwissen aktivieren/aufbauen vor dem Text.)*
+
+## 1.4 Mythen-Kartenset
+**M1 Lernstile** (Präferenz ≠ Wirkung; Modalität folgt dem Inhalt). **M2 Lernpyramide** (Zahlen erfunden; wahrer Kern: aktive Verarbeitung – sauber in W17/19). **M3 „10 % des Gehirns"** (neurologisch haltlos). **M4 „Digital Natives lernen anders"** (Gedächtnisarchitektur ist nicht verhandelbar; Mediengewohnheiten ≠ neue Kognition). — Kartenrückseite je: wahrer Kern + 60-Sek.-Antwortgerüst.
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-2-Quiz (20 Fragen, kumulativ W1–13; Auswahl mit Lösungen)
-1. Die fünf mentalen Modelle? 2. Die 7 Schritte der Begrüßungsroutine? 3. Vierercheck für Anweisungen? 4. Die 6 Leiterstufen? 5. Umformulierungs-Formel? 6. W.I.N.-Schritte? 7. Die vier Rosenshine-Stränge? 8. Beide Enden der 80 %-Regel? 9. Die zwei Planungs-Todsünden? 10. Vier Ampel-Kriterien für Meilensteine? 11. Was ist Exemplar Planning? 12. Der Modellierungs-Vierklang? 13. Fluch des Wissens + Halbier-Regel? 14. Die vier Fading-Stufen? 15. Break-It-Down-Reihenfolge? 16. Warum lügt die Melder-Stichprobe? 17. Die 5 Startbedingungen? 18. Die 60-Sekunden-Regel und ihr Grund? 19. Ab wann Sammelklärung? 20. (Transfer) „Meine Klasse konnte es in der Stunde, im Test nicht" – deute mit ZWEI Werkzeugen/Konzepten aus Block 2. *(z. B. Melder-Stichprobe statt All-Response → nie geprüft, ob ALLE es konnten; verfrühtes You do → Fehler eingeübt; Vorgriff: Performance ≠ Learning kommt in W19)*
+## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–13)
+1. Stundenarchitektur-Template aus dem Kopf skizzieren (7 Elemente). 2. Beide Enden der 80 %-Regel? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W1-Bauplan?
 
 ## Teil 2: Modul-Quiz Woche 14 (für SPA/Folgewoche)
-**F1.** Exit Tickets wertet man aus, indem man…
-a) alle gründlich korrigiert und benotet – Gewissenhaftigkeit ✗ *(Fleiß-Falle)*
-b) in 3 Stapel sortiert, den Top-Fehler notiert, EINE Konsequenz ableitet ✓
-c) sie zurückgibt und besprechen lässt ✗
-d) den Notenschnitt berechnet ✗
+**F1.** Eine Schülerin „kann sich einfach nichts merken". Wahrscheinlichste Erklärung:
+a) schwaches Gedächtnis als Eigenschaft ✗ *(die Konferenz-Diagnose)*
+b) fehlende Schemata + fehlender Abruf machen alles teuer ✓
+c) mangelnde Intelligenz ✗
+d) falscher Lerntyp ✗ *(Mythos-Distraktor)*
 
-**F2.** „Fandet ihr das Thema heute verständlich?" auf dem Ticket ist…
-a) gute Schülerorientierung ✗ *(klingt partizipativ!)*
-b) Selbstauskunft statt Verständnisprüfung ✓
-c) zu kurz ✗
-d) nur in der Oberstufe sinnvoll ✗
+**F2.** „Erinnert wird, worüber nachgedacht wurde" bedeutet für den Filmeinstieg:
+a) Filme sind schlecht für den Unterricht ✗ *(Überkorrektur)*
+b) Erinnert wird, was der Film denken ließ – nicht automatisch das Konzept ✓
+c) Filme nur als Belohnung einsetzen ✗
+d) Text ist immer besser als Film ✗
 
-**F3.** Das ideale Do Now enthält…
-a) einen spannenden Einstieg ins neue Thema ✗ *(DIE Verführung)*
-b) Wiederholung: gestern / letzte Woche / letzter Monat ✓
-c) die schwerste Aufgabe von gestern ✗
-d) organisatorische Ansagen ✗
+**F3.** Lernstile (visuell/auditiv/kinästhetisch) berücksichtigen…
+a) ist evidenzbasierter Unterrichts-Standard ✗ *(der verbreitetste Lehrerglaube!)*
+b) verbessert Lernen nachweislich nicht; die Modalität soll zum Inhalt passen ✓
+c) hilft nur schwachen SuS ✗
+d) gilt nur in der Grundschule ✗
 
-**F4.** Dein rot+gelb-Anteil liegt bei 14 von 25. Konsequenz:
-a) Einzelförderung für die 14 ✗ *(logistisch unmöglich – klingt individuell)*
-b) 10-Min.-Reteach für alle, mit neuem Zugang ✓
-c) weiter im Stoff, die Arbeit klärt es ✗
-d) das Ticket war zu schwer – ignorieren ✗
+**F4.** „Wissen kann man googeln – wichtig sind Kompetenzen." Kognitiv betrachtet…
+a) stimmt das – Faktenwissen ist veraltet ✗ *(Zeitgeist-Distraktor)*
+b) braucht Denken Schemata im Langzeitgedächtnis – ohne Wissen kein Womit ✓
+c) stimmt beides nicht ✗
+d) gilt das nur für Mathe ✗
 
-**F5.** Exit Tickets werden nicht benotet, weil…
-a) Noten verboten sind ✗
-b) sie Diagnose sind – Benotung erzeugt Angst statt ehrlicher Daten ✓
-c) sie zu kurz sind ✗
-d) Eltern sich beschweren ✗
+**F5.** Deine Stunde war lebendig, alle beschäftigt, gute Stimmung. Daraus folgt…
+a) es wurde gut gelernt ✗ *(DIE Verwechslung)*
+b) noch nichts – entscheidend ist, was im LZG ankommt (Ticket fragt nach!) ✓
+c) es wurde nichts gelernt ✗
+d) Stimmung ist unwichtig ✗
 
-**F6 (Transfer, Freitext):** Meilenstein: „Kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert." Entwirf das passende Exit Ticket (Aufgabe wörtlich) und begründe am Gütecheck. *(Muster: „Eine Pflanze steht 3 Tage im dunklen Schrank. Was zeigt der Stärkenachweis in den Blättern – und warum? Antworte in 2 Sätzen." – misst Vorhersage+Begründung, 4 Min., schriftlich, sortierbar.)*
+**F6 (Transfer, Freitext):** Deute Fall 4 (Lesen klappt, Verstehen nicht) mit dem BMW-FBI-Versuch – und nenne die Konsequenz für deine nächste Textarbeit. *(Muster: Ohne Schemata bleibt jeder Satz eine 13-Buchstaben-Folge – Dekodieren ohne Chunks; Konsequenz: Vorwissen aktivieren/aufbauen VOR dem Text, Schlüsselbegriffe vorentlasten.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 14"
 
-1. **Hook (2 Min.):** „Die ehrlichste Frage des Berufs": Habe ich unterrichtet – oder haben sie gelernt? Nutzer schätzt für die letzte eigene Stunde: Wie viele von 25 hätten den Kern-Meilenstein bestanden? (Der Schätzwert wird nach dem Modul mit dem echten ersten Ticket verglichen – Feature „Schätzung vs. Realität".)
-2. **See it (4 Min.):** Ticket-Beispiele gut/schlecht als Swipe (Gütecheck-Verstoß benennen); die Verbots-Liste als Karten.
-3. **Name it (3 Min.):** Gütecheck + Auswertungs-Reflex (Stapeln → Satz → Konsequenz) als Merkkarten.
-4. **Do it – Ticket-Generator (7 Min., Engine!):** Meilenstein aus Modul 10 laden (modulübergreifende Daten!) → Aufgabenvorschlag wählen/formulieren → Gütecheck-Ampel; Export ins Playbook.
-5. **Sortier-Simulation (7 Min., Kernstück!):** Der 25er-Satz aus Anhang 1.2 als Drag-&-Drop in drei Zonen mit laufender Uhr; Grenzfälle (richtige Entscheidung, falsche Begründung) triggern Erklär-Feedback; Abschluss: Konsequenz-Entscheidung mit Auflösung (>⅓-Regel).
-6. **Block-2-Abschlussquiz** (20 Fragen aus dem Pool) mit Spinnennetz-Update-Screen (Kompetenzmatrix Felder 4–5).
-7. **Abschluss:** Action-Step-Formular mit Täglich-Log: Ticket gestellt ☐ · sortiert in __ Min. · Konsequenz morgen: … · „Eure Tickets zeigen…"-Satz gesagt ☐.
+1. **Hook (3 Min., Highlight!):** Die drei Selbstversuche als interaktive Sequenz: Ziffernfolge mit echtem 5-Sek.-Timer + Eingabefeld rückwärts; Buchstabenfolge roh vs. gechunkt; Abendessen-Frage als Reflexions-Prompt. Die eigene Fehlleistung ist der beste Theorie-Anker.
+2. **See it (4 Min.):** Das Modell als animierte Grafik (Items fallen sichtbar aus dem WM; Chunks docken als Pakete an); Kaskaden-Screen: Block-1/2-Werkzeuge fliegen an die drei Kernsätze.
+3. **Name it (3 Min.):** Diagnose-Raster als Entscheidungskarte; Zuordnung: 6 Mini-Situationen → Frage 1/2/3.
+4. **Do it – Fall-Diagnostiker (7 Min., Engine!):** Die 4 Klassiker als interaktive Fälle: Raster-Frage wählen → Konsequenz aus Werkzeug-Bibliothek ziehen → Feedback; Fall 3 enthält die Eigenschafts-Diagnose-Falle als explizite Fehleroption mit Aufklärung.
+5. **Mythen-Dojo:** 4 Mythen als Dialog-Simulation („Kollege sagt: … – deine Antwort?"), Scoring auf Ton (wahrer Kern zuerst) + Präzision; Ebbinghaus-Kurven-Explorer als Bonus (Slider: Wiederholungszeitpunkte → Kurve flacht).
+6. **Quiz (Teil 2)** + 30 % Altfragen; F3/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „3 Last-Stellen finden, 1 entschärfen" mit Vorher/Nachher-Notizfeld.

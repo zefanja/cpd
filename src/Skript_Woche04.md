@@ -1,4 +1,4 @@
-# Skript Woche 4: „Aufmerksamkeit einholen & glasklare Anweisungen"
+# Skript Woche 4: „Präsenz – Körper, Stimme, Register, Selbstregulation"
 ## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,22 +7,24 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie bekomme ich 30 Menschen in fünf Sekunden still – und wie gebe ich Anweisungen, die wirklich ankommen? |
-| **Kernquellen** | Lovell/Dowley, Routine 4 (Gaining attention); Lemov T52 (What to Do), T28 (Brighten the Lines); Sprachökonomie (Lovell/Lemov) |
-| **Funktion im Jahr** | Zweites Kernwerkzeug der Klassenführung. Das Aufmerksamkeitssignal wird zur Voraussetzung fast aller späteren Techniken (Übergänge W8, Turn-and-Talk-Endsignal W24, Whiteboard-Routine W25). Der What-to-Do-Standard nutzt direkt das „vage→spezifisch"-Handwerk aus W2. |
-| **Lernziele** | Die TN können:<br>1. ein Aufmerksamkeitssignal regelkonform etablieren und durchhalten (Signal → Warten → 100 % → sprechen),<br>2. Arbeitsanweisungen nach dem Vierercheck formulieren (konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt),<br>3. Arbeitsphasen mit scharfen Start-/Endsignalen rahmen. |
-| **Sitzungstyp** | Technik-Training: Schreiben (Rewrite-Sprint) + Rollenspiel (Signal-Ernstfall). |
+| **Leitfrage** | Wie wirke ich ruhig und souverän – auch wenn ich es (noch) nicht bin – und wie klinge ich warm und unnachgiebig zugleich? |
+| **Kernquellen** | Lovell/Dowley, Prinzip 4 („Master your own behaviour") und Routine 3 (Selbstregulation); Lemov T57 (Strong Voice / Register), T62 (Emotional Constancy), T61 (Warm/Strict) |
+| **Funktion im Jahr** | Das „Instrument" der Lehrkraft selbst. Liefert die körperlich-stimmliche Grundlage, auf der Signal (W3) und Interventionsleiter (W5) erst wirken. Der Reset-Anker wird zum persönlichen Werkzeug für alle Eskalationssituationen (W29). Warm/Strict steht hier – und nicht bei der Sprachwoche W6 –, weil es genau genommen kein Wortschatz, sondern ein Registerwechsel ist: warmer Ton, formale Sache, in einem Satz. Erste Sitzung mit optionaler Selbst-Videoaufnahme – Vorübung für die Videoselbstanalyse in W7. |
+| **Lernziele** | Die TN können:<br>1. die vier Präsenz-Stellschrauben (Stand, Register, Wortzahl/Pausen, emotionale Konstanz) benennen und demonstrieren,<br>2. bewusst zwischen formalem und warmem Register wechseln,<br>3. Warmherzigkeit und Strenge im selben Satz ausdrücken (Warm/Strict als Registeranwendung),<br>4. haben einen persönlichen Reset-Anker für Stressmomente gebaut und dreimal durchgespielt. |
+| **Sitzungstyp** | Körper-Training. Ungewöhnlichste Sitzung des Blocks – die Moderation kündigt das an und rahmt es („heute arbeiten wir wie im Theater, aus gutem Grund"). |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** wie W3 (Spielfläche + Schreibtische). **Material:**
+**Raum:** Viel freie Fläche (Stühle an den Rand); Dreiergruppen-Inseln. **Diskretion beachten:** Körper- und Stimmübungen sind für manche TN heikler als jedes Rollenspiel – Gruppen dürfen sich Ecken suchen, niemand muss vor dem Plenum.
+
+**Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Rewrite-Aufgaben mit 5 vagen Anweisungen (Anhang 1.1)
-- [ ] Handout B: Signal-Einführungsskript-Vorlage mit Muster (Anhang 1.2)
-- [ ] Störkarten-Set B, 3 Karten (Anhang 1.3), verdeckt
-- [ ] Stoppuhr-Werte der TN aus W3 (mitbringen lassen – Brückenphase!)
+- [ ] Handout A: Körper-Labor-Anleitung mit Beobachtungsraster (Anhang 1.1)
+- [ ] Handout B: Reset-Anker-Karte (Anhang 1.2), stabiler Karton (soll ins Mäppchen/Portemonnaie passen!)
+- [ ] Störkarten-Set C: „Provokationen" (Anhang 1.3), verdeckt
+- [ ] Optional: TN-Handys für Selbst-Clips (vorher ankündigen: freiwillig, Clips bleiben auf dem eigenen Gerät)
 
 ---
 
@@ -32,60 +34,63 @@
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1).
 
-## Phase 2 · Brücke: Die Stoppuhr-Kurven (Minute 8–12)
+## Phase 2 · Brücke & Rahmung (Minute 8–12)
 
 > **Moderationstext:**
-> *„Zückt eure Stoppuhr-Werte. Wer mag: Montag versus Freitag – zwei Zahlen, laut."* [3–4 TN; typisch: 110 Sek. → 55 Sek. o. ä. Moderation an der Tafel notieren.] *„Seht ihr die Richtung? Das ist keine Magie – das ist eine Routine, die einrastet. Merkt euch dieses Gefühl: Ihr habt zum ersten Mal einen Trainingseffekt bei einer KLASSE gemessen. Heute nehmen wir uns den Moment vor, der euch als Nächstes Zeit frisst: mitten in der Stunde die Aufmerksamkeit zurückholen – und die Anweisung, die danach kommt."*
+> *„Kurz zur Signal-Woche: Wer hat sein Signal eingeführt – und wie war die Probe mit der Klasse? Zwei Stimmen."* [2 Min.]
+> *„Heute wird es körperlich, und ich sage euch, warum. Ihr habt jetzt drei Wochen lang Wortlaute gelernt – aber jeder Wortlaut wird von einem Körper gesprochen. Derselbe Satz, einmal im Gehen genuschelt, einmal im Stand mit Pause davor, ist nicht derselbe Satz. Die unbequeme Nachricht zuerst: Eure Klasse liest euren Körper schneller als eure Worte. Die gute Nachricht sofort hinterher: Der Körper ist trainierbar. Souveränität ist zu einem erstaunlich großen Teil kein Charakterzug, sondern eine Sammlung von Verhaltensweisen – Stand, Stimme, Tempo, Pausen. Ihr müsst nicht jemand anderes WERDEN. Ihr müsst ein paar Dinge anders TUN. Heute probieren wir sie aus – ja, es wird sich zweimal albern anfühlen, ihr kennt die Regel."*
 
-## Phase 3 · Input (Minute 12–28)
+## Phase 3 · Input (Minute 12–26)
 
-### 3a · See it: Doppel-Demo „gegen die Wand vs. durch den Raum" (Min. 12–18)
-Moderation spielt mit 6 TN als murmelnder „Gruppenarbeits-Klasse":
+### 3a · See it: Die Vier-Varianten-Demo (Min. 12–17)
+Moderation spricht **denselben Satz** (*„Bücher zu. Stifte weg. Blick zu mir."*) in vier Varianten, TN notieren nach jeder ein Wirkungswort:
+1. Im Gehen, nebenbei Blätter sortierend, schnell.
+2. Stehend, aber mit 30 Wörtern Verpackung drumherum („Also, ähm, wenn ihr jetzt vielleicht mal langsam…").
+3. Stehend, knapp, aber mit hochgezogener, fragender Satzmelodie am Ende.
+4. Fester Stand, 2 Sekunden Pause davor, ruhig, tief, Satzenden fallen ab, danach Stille.
 
-**Variante A (schwach):** Moderation ruft in die laufende Unruhe hinein: „So, Leute, hört mal – HALLO – ich brauch mal kurz eure Aufmerksamkeit, also, wir machen jetzt Folgendes, ihr packt gleich mal die Sachen von der Gruppenarbeit weg, also nicht alles, die Zettel braucht ihr noch, und dann schlagt ihr das Buch auf, ich glaube Seite 34, nein 36, und guckt euch schon mal die Aufgabe an, aber erst wenn…" – wird dabei lauter, läuft herum, die Hälfte hört gar nicht hin.
+> **Auswertung:** Wirkungswörter sammeln (typisch: 1 = „gehetzt/unwichtig", 2 = „unsicher", 3 = „bittend", 4 = „klar/gilt"). *„Merkt euch: Variante 4 war nicht lauter. Sie war langsamer, stiller und tiefer. Autorität ist fast nie Lautstärke – Lautstärke ist meistens ihr Ersatz."*
 
-**Variante B (stark):** Moderation geht zum festen Punkt, gibt das Signal (z. B. erhobene Hand + *„Stopp – Blick zu mir."*), steht still, wartet schweigend. 5 Sekunden. Als alle schauen: *„Danke. Drei Schritte:"* [Pause] *„Erstens: Gruppenzettel in die Mitte."* [Pause, Blick] *„Zweitens: Buch auf, Seite 36."* [Pause] *„Drittens: Aufgabe 2 lesen – noch nicht lösen. Los."*
+### 3b · Die vier Stellschrauben (Min. 17–23)
+> *„Erstens: **Stillstand.** Wichtige Ansagen im festen Stand, Füße geerdet, Hände ruhig – kein Nebenbei-Laufen, kein Material-Sortieren. Bewegung sagt ‚nebenbei', Stillstand sagt ‚jetzt'. Im Englischen heißt das square up: Schultern zur Klasse, voll zugewandt.*
+> *Zweitens: **Register.** Ihr habt zwei Sprechmodi, und der Wechsel ist das Werkzeug. Das formale Register für Anweisungen: ruhig, eher tief, wenige Worte, Pausen, Satzenden fallen ab – eine Aussage, keine Bitte. Das warme Register für Gespräch, Erklärung, Lob: beweglicher, heller, näher. Wer immer warm spricht, dem fehlt der Schalter für Ernst; wer immer formal spricht, wird zur Maschine. Der WECHSEL macht beides bedeutsam.*
+> *Zwischenstopp, und das ist die wichtigste Anwendung des Registers: **Warm/Strict.** Der verbreitetste Irrtum im Lehrerzimmer ist das ODER – entweder man ist der Nette, oder man ist der Strenge. Lemovs Videos zeigen durchgehend das UND, gleichzeitig, im selben Satz: ‚Weil ich weiß, dass du das besser kannst, nehme ich das so nicht an.' Hört ihr beides? Der warme Ton trägt die formale Sache. Die Strenge ist die Verpackung des Zutrauens – ein Standard, den ich bei dir hochhalte, ist ein Kompliment; gesenkte Erwartungen sind die höflichste Form der Abwertung, und Jugendliche spüren das mit erschreckender Präzision. Praktisch: freundlicher Ton + unverhandelbare Sache; Erklärung des Warum + keine Debatte über das Ob; Konsequenz heute + Neuanfang morgen. Das Muster für eure Karte: **„Weil [Zutrauen], [Standard]."***
+> *Drittens: **Wortzahl und Pausen** – kennt ihr aus letzter Woche, heute die Körperseite: Die Pause VOR dem Satz erzeugt Aufmerksamkeit, die Pause DANACH erzeugt Verbindlichkeit. Wer sofort weiterredet, entwertet, was er gerade gesagt hat.*
+> *Viertens: **Emotionale Konstanz.** Eure Klasse darf euch ärgern – sie darf es nur nicht MERKEN dürfen, dass es sie steuert. Ärger in der Stimme ist für eine Klasse ein Signal mit zwei Lesarten: ‚Es wird ernst' – oder, häufiger: ‚Wir haben einen Knopf gefunden.' Modell 4 aus dem Auftakt: Vor der Gruppe gelten Gruppengesetze; wer den Knopf kennt, drückt ihn. Konstanz heißt nicht Gefühllosigkeit – sie heißt: Die Reaktion ist berechenbar und professionell, der Ärger wird später und privat verarbeitet."*
 
-> **Auswertung (3 Min.):** *„Handlungen, keine Eindrücke – was war anders?"* [Sammeln: stand still / wartete / sprach erst bei 100 % / nummerierte / kurze Sätze / Pausen / Endsignal „Los".]
+### 3c · Selbstregulation: der Reset-Anker (Min. 23–26)
+> *„Bleibt die Frage: Wie bleibt man konstant, wenn innen der Puls auf 140 geht? Antwort: nicht durch Willenskraft im Moment, sondern durch einen VORBEREITETEN Mini-Ablauf – Lovell nennt das Selbstregulations-Routine. Drei Teile: ein Auslöser, den ihr kennt (‚freche Antwort vor der Klasse'), ein Körperanker (langsam ausatmen, Fersen im Boden spüren – dauert zwei Sekunden, sieht nach nichts aus), ein innerer Satz (‚Ruhig. Ich habe Zeit. Es ist nicht persönlich.'). Erst der Anker, dann die Reaktion. Zwei Sekunden Verzögerung sind kein Autoritätsverlust – sie SIND die Autorität."*
 
-### 3b · Die Prinzipien (Min. 18–25)
-> *„Erstens: **Nie gegen Unruhe sprechen.** Alles, was in Unruhe gesagt wird, adelt die Unruhe – ihr verkündet: Man kann mir zuhören UND weiterreden. Die Reihenfolge ist unverhandelbar: Signal → warten → 100 % Blick → DANN sprechen. Und das Warten kennt ihr schon – es ist Schritt 3 eurer Begrüßungsroutine, nur mitten in der Stunde.*
-> *Zweitens: **What to Do.** ‚Passt auf!' ist keine Anweisung – es ist ein Wunsch. Eine Anweisung sagt, was zu TUN ist: konkret, in Reihenfolge, beobachtbar. ‚Konzentriert euch' kann ich nicht sehen. ‚Stift weg, Blick zu mir' kann ich sehen – und einfordern. Ihr erkennt das Handwerk wieder: Es ist eure Erwartungs-Umformulierung aus Woche 2, nur im Sekundentakt.*
-> *Drittens: **Sprachökonomie.** Jedes zusätzliche Wort verdünnt das Signal. Faustregel: höchstens zwölf Wörter pro Schritt – und nach der Anweisung: Stopp. Nicht nachplätschern, nicht dreimal umformulieren. Wer nachplätschert, lehrt die Klasse, dass die erste Version nie zählt.*
-> *Viertens: **Brighten the Lines.** Arbeitsphasen brauchen scharfe Kanten: ein klares Startsignal – ‚In drei, zwei, eins: los' – und ein klares Endsignal. Unscharfe Kanten fransen aus: Wer nicht weiß, wann es losgeht, startet nie richtig; wer nicht weiß, wann Schluss ist, hört mittendrin auf."*
+## Phase 4 · Name it (Minute 26–30)
 
-### 3c · Die Einführung des Signals (Min. 25–28)
-> *„Ein Signal, das ihr nie eingeführt habt, ist keins. Die Einführung ist eine Erwartungs-Einführung nach Woche-2-Bauplan: Signal zeigen, Erwartung spezifisch benennen (‚Wenn ihr das seht/hört: Gespräche enden, Stifte liegen, Blick zu mir – innerhalb von fünf Sekunden'), begründen (ein Satz), per CFU prüfen (‚Merve, was tust du beim Signal?') – und dann: einmal PROBEN. Ja, üben, mitten in der Stunde, dreißig Sekunden. Danach gilt es."*
+**Präsenz-Checkliste** an der Tafel: Stand fest & zugewandt? · Hände ruhig? · Register bewusst gewählt? · Pause davor + danach? · Satzende unten? · Bei einer Anforderung: Wärme UND Sache hörbar (Warm/Strict)? · Bei Provokation: erst Anker, dann Reaktion?
 
-## Phase 4 · Name it (Minute 28–33)
+Merksatz: *„Erst der Körper, dann das Signal, dann die Worte – und bei Sturm: erst der Atem."*
 
-An der Tafel: **Signal-Standard:** Signal → schweigend warten → 100 % → sprechen. (Niemals: Signal + sofort losreden.) **Anweisungs-Vierercheck:** konkret? · sequenziell (nummeriert)? · beobachtbar? · ≤ 12 Wörter pro Schritt? Plus **Kanten-Regel:** Start- und Endsignal für jede Arbeitsphase.
+## Phase 5 · Do it (Minute 30–52)
 
-Merksatz: *„Erst still, dann kurz, dann Stopp."*
+### Runde 1 · Körper-Labor (Min. 30–41, Dreiergruppen)
+Nach Handout A: Jeder spricht die Standard-Ansage in den 4 Varianten (bewusst auch die schlechten – Kontrast lehrt!), die zwei Beobachter geben NUR Wirkungs-Feedback aus dem Raster („wirkte auf mich: …"). Danach 2 freie Durchgänge nur in Variante 4, Feinschliff: Satzende, Pause, Stand. **Registerwechsel-Übung:** dieselbe Person spricht direkt hintereinander eine formale Ansage und ein warmes Lob – der hörbare Schalter ist das Lernziel. **Warm/Strict-Sätze (3 Min.):** Jeder formuliert für zwei reale eigene Situationen (fehlende Hausaufgaben eines fähigen Schülers; schludrige Abgabe einer starken Schülerin) je einen Satz nach dem Muster „Weil [Zutrauen], [Standard]." und spricht ihn laut – die Beobachter hören auf beides: Kam die Wärme UND die Unverhandelbarkeit an?
 
-## Phase 5 · Do it (Minute 33–52)
+### Runde 2 · Reset-Anker bauen & härten (Min. 41–52)
+Ablauf:
 
-### Runde 1 · Rewrite-Sprint (Min. 33–41)
-Handout A: 5 vage Anweisungen, Einzelarbeit mit Zeitdruck (5 Min.), dann Tandem-Vierercheck (3 Min.). Moderation sammelt 2 Lösungen pro Aufgabe im Zuruf und lässt die Gruppe Wörter ZÄHLEN (der Zählakt diszipliniert nachhaltig).
+1. 4 Min. Einzelarbeit: Anker-Karte ausfüllen (Handout B).
+2. 8 Min. Härtetest in Dreiergruppen: Beobachter zieht Störkarte C und spielt die Provokation, die übende Person durchläuft sichtbar (!) ihren Anker und reagiert dann formal-ruhig; 3 Durchgänge pro Person, Provokation steigert sich leicht.
 
-### Runde 2 · Signal-Ernstfall (Min. 41–52)
-Vierergruppen auf der Spielfläche: Jeder
-
-1. spricht seine Signal-EINFÜHRUNG (Handout B, 60 Sek.),
-2. setzt das Signal in laufender „Gruppenarbeit" ein – Regie zieht eine Störkarte B.
-
-Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/Schritt? 2. Kurzdurchlauf der schwächsten Stelle. (Zeitwächter je Gruppe: 2,5 Min. pro Person inkl. Feedback.)
+Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht reflexhaft)? **Optional:** dritten Durchgang per Handy filmen, sofort selbst ansehen (30 Sek.), ein eigenes Aha notieren.
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich führe am Montag in Klasse X mein Aufmerksamkeitssignal nach dem W2-Bauplan ein (zeigen – Erwartung – Begründung – CFU – Probe) und halte eine Woche eisern die Reihenfolge: Signal, schweigen, 100 %, erst dann sprechen."*
+**Standard:** *„Vor jeder wichtigen Anweisung diese Woche: stehen bleiben, ausatmen, dann sprechen – und Satzenden bewusst nach unten. Ich notiere abends in einem Satz, wie es sich angefühlt hat."*
 
 **Alternativen:**
 
-1. Wörter-Diät: eine Woche jede Arbeitsanweisung vorher notieren und auf ≤ 12 Wörter/Schritt kürzen;
-2. Kanten-Woche: jede Arbeitsphase mit „3-2-1-los" starten und mit Signal beenden.
+1. Register-Tagebuch: täglich eine Situation notieren, in der bewusst gewechselt wurde;
+1b. Warm/Strict-Woche: jede Anforderung an einen einzelnen Schüler bekommt einen „Weil …, …"-Satz;
+2. Anker-Woche: Reset-Anker bei jeder aufkommenden Gereiztheit einsetzen, Strichliste.
 
-> **Ausblick:** *„Nächste Woche geht es um euch selbst: Körper, Stimme, Ruhe – wie ihr souverän WIRKT, auch wenn ihr es noch nicht durchgehend seid. Spoiler: Es ist trainierbar wie alles andere."*
+> **Ausblick:** *„Nächste Woche das Modul, auf das viele von euch seit dem Auftakt warten: Was tue ich konkret bei Störungen – die komplette Interventionsleiter, von der Augenbraue bis zur Konsequenz. Euer heutiges Werkzeug ist dafür die Grundierung: Ohne ruhigen Körper wirkt keine Stufe."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -93,91 +98,87 @@ Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/
 
 # 4. Coaching-Woche 4 (Handreichung)
 
-- **Hospitationsfokus:** Signal-Einsätze (alle in der Stunde) + eine Arbeitsanweisung wörtlich protokollieren.
-- **Zählprotokoll:** Pro Signal: Sekunden bis 100 %? Wurde in Unruhe gesprochen (ja/nein)? Wörter der protokollierten Anweisung zählen, Vierercheck anlegen.
-- **Auswertungsgespräch:** Protokoll zeigen; typischste Baustelle: Signal + sofort losreden → Action Step: „Nach dem Signal zähle ich innerlich bis drei, BEVOR ich spreche" – 3× im Gespräch durchspielen.
-- **Querverbindung:** TN mit weiter zähem Stundenstart → W3- und W4-Werkzeuge im Coaching verzahnen (der Starter-Satz IST eine What-to-Do-Anweisung).
+- **Hospitationsfokus:** 2–3 Ansage-Momente; Protokoll je Moment: Stand oder Bewegung? Pause davor? Satzmelodie? Wortzahl grob?
+- **Sensibel auswerten:** Körper-Feedback ist persönlicher als Technik-Feedback. Immer über die WIRKUNG sprechen („Die Ansage um 9:12 kam im Stand mit Pause – die Klasse reagierte in 3 Sekunden; die um 9:31 im Gehen – sie verpuffte"), nie über die Person („Du wirkst unsicher").
+- **Übung im Gespräch:** Die schwächste protokollierte Ansage 2× im Coaching nachsprechen lassen – erst Original, dann Variante 4.
+- **Red Flag:** TN, die von echten Kontrollverlust-Momenten berichten (Schreien, Rausrennen) → Anker gemeinsam verfeinern, Entlastung normalisieren („passiert im ersten Jahr fast allen"), ggf. Frequenz der Coaching-Kontakte kurzfristig erhöhen; bei Erschöpfungssignalen an schulische Unterstützung erinnern.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Rewrite-Sprint (mit Musterlösungen für Moderation/SPA)
+## 1.1 Handout A: Körper-Labor
 
-| Vage Anweisung | Musterlösung (What to Do) |
-|---|---|
-| „Passt jetzt mal alle auf!" | *„Stifte weg. Blick zu mir."* (4 Wörter + 3 Wörter) |
-| „Macht mal mit der Aufgabe weiter." | *„Buch S. 36, Aufgabe 2. Allein, still. Zehn Minuten – los."* |
-| „Räumt vernünftig auf." | *„Erstens: Scheren in die Kiste. Zweitens: Schnipsel in den Müll. Drittens: Tisch leer, hinsetzen."* |
-| „Seid leise bei der Gruppenarbeit." | *„Flüsterlautstärke: Nur euer Tisch hört euch."* |
-| „Beeilt euch mal ein bisschen." | *„Noch zwei Minuten. Schreibt den letzten Satz zu Ende."* |
+**Standard-Ansage:** *„Bücher zu. Stifte weg. Blick zu mir."*
+**Die 4 Varianten:** ① gehend + nebenbei ② stehend + 30 Wörter Verpackung ③ stehend + fragende Melodie ④ Stand + Pause + ruhig/tief + Stille danach.
+**Beobachtungsraster (nur ankreuzen/ein Wort):** wirkte … gehetzt / unsicher / bittend / klar / drohend / gleichgültig. Zusatzbeobachtung: Wo waren die Hände? Wohin ging der Blick?
+**Feedbackregel:** Nur Wirkung („wirkte auf mich …"), keine Persönlichkeitsurteile. Nach dem Feedback: sofort ein Wiederholungsdurchgang.
 
-## 1.2 Handout B: Signal-Einführungsskript (Muster + Blanko)
+## 1.2 Handout B: Reset-Anker-Karte (Format A7, zum Einstecken)
 
-**Muster (Sek I):** *„Ab heute gibt es ein Zeichen. Wenn ich die Hand hebe und ‚Stopp – Blick zu mir' sage, passiert Folgendes: Gespräche enden, Stifte liegen, alle schauen zu mir – innerhalb von fünf Sekunden. Warum: Ich will euch nie anbrüllen müssen, und ihr verliert keine Arbeitszeit durch dreifache Ansagen. – Timo, was tust du beim Signal? … Aylin, wie schnell? … Gut. Wir proben das einmal: Redet kurz mit dem Nachbarn … [Signal] … Danke – 4 Sekunden. So bleibt das."*
+- **Mein Auslöser** (die Situation, die mich am schnellsten hochbringt): …
+- **Mein Körperanker** (2 Sekunden, unsichtbar): … *(Beispiele: langsam ausatmen · Fersen spüren · Daumen drückt Zeigefinger · Schulterblätter sinken lassen)*
+- **Mein innerer Satz:** … *(Beispiele: „Ruhig. Ich habe Zeit." · „Nicht persönlich – Modell 4." · „Erst atmen, dann handeln.")*
+- **Meine erste äußere Reaktion danach** (formal, kurz): …
 
-**Sek-II-Tonlage (Beispielsatz):** *„Ich unterbreche Arbeitsphasen mit diesem Zeichen statt mit Rufen – aus demselben Grund, aus dem in jeder Konferenz jemand den Raum sammelt: Es respektiert Ihre Zeit."*
+## 1.3 Störkarten-Set C: Provokationen (Regieanweisungen, Steigerung von C1 zu C3)
 
-**Blanko-Felder:** Mein Signal (Geste/Wortlaut): … · Erwartung in 3 Handlungen: … · Begründungssatz: … · Meine 2 CFU-Fragen: … · Probe-Ansage: …
-
-## 1.3 Störkarten-Set B (Regieanweisungen)
-
-- **B1 „Die Fünf Unbeirrten":** Beim Signal reden 2 SuS einfach weiter (nicht provokant – vertieft). *(Lernziel: schweigend warten + Blick/Nähe; NICHT lauter werden, nicht Namen rufen.)*
-- **B2 „Der Nachäffer":** Ein SuS imitiert das Signal übertrieben, andere grinsen. *(Lernziel: Emotional Constancy – kurz neutral bleiben, keine Bühne geben; ggf. leise Einzelansprache nach Start der Arbeitsphase; W.I.N. als Option benennen.)*
-- **B3 „Die Sofort-Frage":** Direkt nach dem Signal, vor der Anweisung: „Können wir die Gruppen tauschen?" *(Lernziel: parken – „Gleich. Erst die drei Schritte." – Anweisung durchziehen.)*
+- **C1 „Der Augenroller":** Auf eine Arbeitsanweisung hin demonstratives Augenrollen + hörbares Seufzen. *(Lernziel: nonverbal registrieren, NICHT kommentieren; Anweisung gilt weiter.)*
+- **C2 „Der Kommentator":** Halblaut zur Nachbarin: „Boah, ist das wieder sinnlos heute." *(Lernziel: Anker → Entscheidung: überhören + später privat, oder kurze formale Ansage ohne Debatte – beides gültig, Hauptsache ruhig.)*
+- **C3 „Der Frontalangriff":** Laut, an die Lehrkraft: „Das bringt doch eh nichts, was Sie hier machen!" *(Lernziel: Anker sichtbar durchlaufen; formal + kurz: „Das besprechen wir nach der Stunde. Jetzt: Aufgabe 2." – KEINE inhaltliche Verteidigung vor Publikum; W.I.N. folgt in W7.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Nenne die 7 Teilschritte der Begrüßungsroutine. *(Vorbereitung / fester Punkt / Warten 100 % / Gruß / Setz-Signal+Starter-Satz / Timer / Scan)*
-2. Warum wartet man schweigend auf 100 %, statt in die Unruhe zu grüßen? *(sonst Norm „halbherzig reicht"; Zäsur-Funktion)*
-3. Die 5 Kriterien einer Erwartung (W2)? *(beobachtbar, messbar, positiv, begründet, geprüft)*
-4. Welches mentale Modell erklärt: Ansage ist nicht gleich Ankommen? *(Modell 3 – Aufmerksamkeit; gelernt/gehört wird, was beachtet wird)*
-5. (Anwendung) Dein Do Now: Woran erkennst du nach 2 Minuten, dass es zu schwer war? *(Frage-Traube/viele Hände, kaum Stifte laufen → Kriterium „ohne Erklärung lösbar" verletzt)*
+1. Der Anweisungs-Vierercheck? *(konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt)*
+2. Warum nie gegen Unruhe sprechen? *(adelt die Unruhe; Norm „zuhören optional")*
+3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? *(Warten auf 100 % – sonst Norm „halbherzig reicht")*
+4. Was ist Brighten the Lines? *(scharfe Start-/Endsignale für Arbeitsphasen)*
+5. (Anwendung) Formuliere ein Endsignal für eine Gruppenarbeit. *(z. B. Signal + „Stopp – Stifte weg, Blick zu mir. Gruppensprecher bleiben gleich dran.")*
 
 ## Teil 2: Modul-Quiz Woche 4 (für SPA/Folgewoche)
-**F1.** Die Klasse murmelt nach deinem Signal weiter. Du…
-a) sprichst lauter – Hauptsache alle hören dich ✗ *(DIE Intuition)*
-b) wartest schweigend, Blick durch den Raum, ggf. Nähe ✓
-c) beginnst einfach – die Interessierten hören ja zu ✗ *(90 %-Falle, Vorgriff W6)*
-d) drohst mit Konsequenzen ✗
+**F1.** Autorität im Klassenzimmer ist vor allem…
+a) eine Frage der Persönlichkeit – man hat es oder nicht ✗ *(DER Kernmythos, Bill-Rogers-Echo)*
+b) trainierbares Verhalten: Stand, Register, Pausen, Konstanz ✓
+c) eine Frage von Körpergröße und Lautstärke ✗
+d) reine Erfahrungssache ✗
 
-**F2.** Welche Anweisung besteht den Vierercheck?
-a) „Seid jetzt bitte alle mal richtig konzentriert bei der Sache" ✗
-b) „Buch S. 12, Aufgabe 3. Allein, still. Los." ✓
-c) „Nicht mehr reden da hinten!" ✗ *(negativ, nicht sequenziell)*
-d) „Wir wollten doch eigentlich weiterarbeiten, oder?" ✗ *(Wunsch als Frage)*
+**F2.** Ein Schüler kommentiert dich laut und frech vor der Klasse. Erster Schritt:
+a) sofortige scharfe Erwiderung – Schwäche zeigen geht nicht ✗ *(Reflex + Ehrgefühl)*
+b) Anker (ausatmen), dann formal und kurz: Klärung nach der Stunde ✓
+c) grundsätzlich ignorieren ✗ *(Normalisierungs-Falle)*
+d) die Klasse fragen, was sie davon hält ✗
 
-**F3.** Nach einer guten Anweisung solltest du…
-a) sie sicherheitshalber zweimal umformulieren ✗ *(Fürsorge-Reflex – lehrt Weghören)*
-b) stoppen und die Umsetzung beobachten ✓
-c) leise weitersprechen ✗
-d) sofort Einzelnen helfen ✗
+**F3.** Deine Ansage endet stimmlich „oben" (wie eine Frage). Wirkung:
+a) freundlich und einladend – gut so ✗ *(Höflichkeits-Verwechslung)*
+b) sie klingt wie eine Bitte und wird verhandelbar ✓
+c) keine – Melodie ist egal ✗
+d) motivierend für Schüchterne ✗
 
-**F4.** „In 3, 2, 1 – los" dient dazu, …
-a) Druck aufzubauen ✗
-b) die Kante der Arbeitsphase zu schärfen (Brighten the Lines) ✓
-c) Zeit zu schinden ✗
-d) jüngere SuS zu motivieren ✗ *(Alters-Distraktor)*
+**F4.** „Emotionale Konstanz" bedeutet:
+a) keine Gefühle zeigen, nie ✗ *(Roboter-Strohmann)*
+b) berechenbare, ruhige Reaktionen; Ärger wird nicht zum Steuerknopf der Klasse ✓
+c) immer freundlich lächeln ✗
+d) Störungen nicht ernst nehmen ✗
 
-**F5.** Dein Signal funktioniert nach zwei Wochen schlechter. Wahrscheinlichste Ursache:
-a) Das Signal war falsch gewählt ✗
-b) Du hast begonnen, in Restunruhe zu sprechen – das Signal wurde entwertet ✓
-c) Die Klasse ist es leid – neues Signal nötig ✗ *(Abwechslungs-Mythos)*
-d) Signale wirken generell nur kurz ✗
+**F5.** Der Reset-Anker wirkt, weil…
+a) Atmen beruhigt eben ✗ *(teilrichtig, aber nicht der Kern)*
+b) ein VORBEREITETER Ablauf im Stressmoment abrufbar ist – Willenskraft allein ist es nicht ✓
+c) die Klasse ihn sieht und sich fürchtet ✗
+d) er Zeit schindet ✗
 
-**F6 (Transfer, Freitext):** Schreibe die Umbau-Anweisung „Macht euch mal fertig für den Film und kommt nach vorn" als nummerierte What-to-Do-Sequenz mit Start-Signal. *(Muster: „Erstens: Stifte weg, Hefte zu. Zweitens: Stuhl leise nach vorn tragen. Drittens: hinsetzen, Blick zur Leinwand. – In 3, 2, 1: los.")*
+**F6 (Transfer, Freitext):** Beschreibe deine Reaktion auf C3 („Das bringt doch eh nichts!") in vier Schritten – Körper, innerer Satz, Wortlaut, Nachbereitung. *(Muster: Fersen/Ausatmen → „Nicht persönlich" → formal: „Das klären wir nach der Stunde. Jetzt: Aufgabe 2." → W.I.N.-Gespräch nach der Stunde, Vorfall ggf. notieren.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 4"
 
-1. **Hook (2 Min.):** Audio-Kontrast Variante A/B (nur Ton!) – Aufgabe: „Bei welcher Version weißt du nach einmal Hören, was zu tun ist?"
-2. **See it (5 Min.):** Video/Illustration der Doppel-Demo; Tipp-Aufgabe: die 4 Prinzipien in der starken Version wiederfinden.
-3. **Name it (3 Min.):** Vierercheck + Signal-Standard als Merkkarten; Mini-Sortierung: 6 Anweisungen → besteht/besteht nicht + welcher Verstoß.
-4. **Do it – Anweisungs-Prüfmaschine (7 Min., Engine!):** Anweisung eintippen → automatische Analyse: Wortzahl pro Schritt, Verb-Check (Handlung?), Negativ-Formulierung-Alarm, Nummerierung erkannt? → iterativ verbessern. Rewrite-Aufgaben aus Anhang 1.1 als Level mit Musterlösungs-Vergleich.
-5. **Szenario-Simulator (4 Min.):** Störkarten B1–B3 als Entscheidungsbäume („Signal gegeben, zwei reden weiter → a) lauter b) warten c) Namen rufen" → Konsequenz-Feedback mit Normen-Erklärung).
-6. **Skript-Editor:** Signal-Einführung (Handout-B-Felder) verfassen → Playbook-Export; Sek-I/Sek-II-Tonlagen-Beispiele einblendbar.
-7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–3); F5 ist der wichtigste Langzeit-Anker (Signal-Entwertung). **Abschluss:** Action-Step-Formular mit Selbstzähl-Feld („Wie oft habe ich diese Woche in Unruhe gesprochen?" – ehrliche Strichliste).
+1. **Hook (2 Min.):** Vier Audio-Aufnahmen derselben Ansage (die 4 Varianten) – Nutzer ordnet Wirkungswörter zu, App löst auf: „Variante 4 war die leiseste."
+2. **See it (5 Min.):** Video-Kontrastpaar oder animierte Figur (Stand/Gehen, Pausenbalken sichtbar als Timeline); Registerwechsel als hörbares Beispielpaar.
+3. **Name it (3 Min.):** Präsenz-Checkliste als Karten; Zuordnungsspiel Audio → verletzte Stellschraube.
+4. **Do it – Selbstaufnahme-Übung (8 Min., Kern!):** App fordert auf, die Standard-Ansage 2× aufzunehmen (Variante nach Wahl vs. Variante 4); Selbst-Analyse mit Checkliste (optional: automatische Sprechtempo-/Pausenanzeige, falls technisch machbar; sonst geführte Selbstbewertung). Datenschutz: Aufnahme bleibt lokal.
+5. **Reset-Anker-Builder:** Die 4 Kartenfelder digital; Export als Sperrbildschirm-Bild/Karte.
+6. **Szenario-Simulator:** C1–C3 als eskalierender Entscheidungsbaum; Verzweigungslogik belohnt „Anker vor Reaktion" und „kurz + formal + vertagen".
+7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–4). **Abschluss:** Action-Step-Formular mit Abend-Journal-Feld (1 Satz/Tag).

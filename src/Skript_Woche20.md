@@ -1,5 +1,5 @@
-# Skript Woche 20: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Halbjahres-Meilenstein)"
-## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 20: „Kultur des Fehlers & Schluss mit Selbstauskunft"
+## 60-Minuten-Sitzung · Block 4 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,168 +7,157 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
-| **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
-| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (W15) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in W33/34 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit W0-Vergleich, Video-Selbstanalyse Nr. 2. |
-| **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
-| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Doppel-Input + KO-Werkstatt + Meilenstein-Ritual. Zeitdisziplin wie W14. |
+| **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
+| **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
+| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (W21–25) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert das Exemplar (W9) und die Fallen-Sammlung (W10) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
+| **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
+| **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; Meilenstein-Ecke mit Matrix-Bögen. **Vorab-Hinweis (W19-Exit-Karte):** aktuelle eigene Unterrichtseinheit im Kopf haben (KO wird dafür gebaut); W0-Matrix-Bogen bringt der COACH mit (liegt in dessen Unterlagen).
-
-**Material (Checkliste):**
-- [ ] Block-3-Quiz, 20 Fragen kumulativ (Anhang 2, Teil 1) + Lösungsfolie
-- [ ] Handout A: Elaborations-Fragenfächer (Anhang 1.1)
-- [ ] KO-Beispiele: 2 gute, 1 überladenes Negativ (Anhang 1.2) + KO-Blanko
-- [ ] Handout B: Die 10-Minuten-Lernstrategie-Rede, Skriptgerüst (Anhang 1.3)
-- [ ] Kompetenzmatrix-Bögen (identisch W0/W8); 9-Prinzipien-Posterblanko (Anhang 1.4)
+**Raum:** Tandems, Spielfläche klein. **Material:**
+- [ ] Erweitertes Reaktivierungs-Quiz (8 Fragen, Anhang 2 Teil 1)
+- [ ] Reaktions-Kartenset: 8 typische Lehrerreaktionen auf Fehler (Anhang 1.1)
+- [ ] Handout A: Der Fehlerreaktions-Dreiklang + Ersetzungs-Regel (Anhang 1.2)
+- [ ] Plan-for-Error-Canvas (Anhang 1.3)
+- [ ] Re-Establish-Skriptvorlage (W1/W2-Kondensat, Anhang 1.4)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
+## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Block-3-Quiz (Minute 2–12)
-20 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Kumulativ bis Woche 1 zurück – ihr habt gerade gespürt, wie sich die 1er-Fragen anfühlen: leicht vergessen, genau richtig. Spacing an euch selbst, Woche 19 live."*
+## Phase 1 · Reaktivierungs-Quiz + Re-Establish (Minute 2–14)
+8 Fragen quer (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Direkt anschließend **Re-Establish-Mini-Übung (4 Min.):** Frage 8 („Erste Woche nach Ferien – was etablierst du neu?") wird sofort umgesetzt: Jeder skriptet in 4 Minuten seinen Re-Establish-Moment für Montag (Erwartung + Begründung + Behavioural CFU – reines W1-Handwerk, Vorlage Anhang 1.4). *„Nicht diskutieren – schreiben. Ihr könnt das im Schlaf; der Zettel geht Montag mit in die Stunde."*
 
-## Phase 2 · Input A: Elaboration – Vernetzen statt Stapeln (Minute 12–20)
+## Phase 2 · See it: Das nutzlose Ritual (Minute 14–20)
+
+Moderation spielt eine 90-Sekunden-Szene: erklärt etwas Kurzes, dann: *„Alle verstanden? … Fragen? … Keiner? Sehr gut, dann weiter."* Blättert demonstrativ zur nächsten Folie.
+
+> **Auswertung:**
+> *„Frage an euch: Was weiß ich jetzt über den Lernstand dieser Klasse? … Exakt: nichts. Null. Und trotzdem ist ‚Alle verstanden?' der meistgesprochene Satz in deutschen Klassenzimmern. Warum liefert er nichts? Zwei Gründe. Erstens die **sozialen Kosten**: Wer jetzt die Hand hebt, sagt vor 28 Zeugen ‚Ich bin der Langsame'. Dieser Preis ist für einen Vierzehnjährigen unbezahlbar – also schweigt er und hofft. Zweitens, subtiler: **Viele wissen nicht, DASS sie es nicht verstanden haben.** Um zu merken, dass man etwas nicht kann, muss man es schon halb können – das ist der Kern des Dunning-Kruger-Befunds. Die Frage ‚Verstanden?' fragt also genau die Instanz, die am wenigsten Bescheid weiß: die Selbsteinschätzung von Schülern ohne Vorkenntnisse.*
+> *Die Ersetzungs-Regel des Tages: **Jede Selbstauskunfts-Frage wird durch eine prüfbare Mini-Aufgabe ersetzt.** Nicht ‚Verstanden?', sondern: ‚Boards raus – löst Nummer 2.' Nicht ‚Noch Fragen?', sondern: ‚Schreibt den ersten Schritt auf – hoch.' Ihr habt die Werkzeuge längst; heute bekommt ihr das Verbotsschild dazu."*
+
+## Phase 3 · Input: Culture of Error (Minute 20–30)
 
 > **Moderationstext:**
-> *„Block 3, letzter Baustein. Ihr wisst jetzt: rein ins Langzeitgedächtnis (Abruf), verteilt über die Zeit (Spacing). Heute die dritte Dimension: WIE das Wissen dort liegt. Gestapelt – lose Fakten nebeneinander – oder vernetzt, als Schema. Woche 15, der BMW-FBI-Versuch: Nur vernetztes Wissen chunkt, nur Schemata erweitern das Denken. Und Vernetzung entsteht durch eine Sorte von Denkarbeit: **Elaboration** – Neues aktiv mit Bekanntem verknüpfen. Willingham nochmal: Erinnert wird, worüber nachgedacht wurde – und je TIEFER verarbeitet, desto haltbarer die Spur.*
-> *Das Handwerkszeug ist ein Fragenfächer:* [Handout A] *„**Warum?** – die Mutter aller Elaborationsfragen. **Inwiefern ist X anders als Y?** – Vergleich erzwingt Grenzziehung. **Nenne ein eigenes Beispiel** – Transfer in die eigene Welt. **Erkläre es einem Fünftklässler** – Vereinfachung erzwingt Durchdringung. **Was wäre, wenn …?** – Variation testet das Verständnis der Struktur.*
-> *Und eine Warnung vor dem beliebtesten Etikettenschwindel: **Eine Mindmap ist nur dann Elaboration, wenn sie Denken über Zusammenhänge erzwingt.** Begriffe mit Linien verbinden kann man völlig gedankenlos – schön bunt, null Verarbeitung. Der Fix ist derselbe wie beim Aufgaben-Röntgen aus Woche 17: Beschriftet die LINIEN. ‚Verbinde und schreibe an jede Linie, WIE die Begriffe zusammenhängen' – jetzt ist das Denken unumgehbar."*
+> *„Aber – und jetzt kommt das eigentliche Thema – prüfbare Aufgaben liefern nur dann ehrliche Daten, wenn Schüler bereit sind, Fehler zu ZEIGEN. Und das sind sie nur, wenn Fehler in eurem Raum sicher sind. Lemov nennt das Culture of Error, und sie hängt an vier Hebeln, die alle bei EUCH liegen:*
+> *Hebel eins: **Fehler erwarten und würdigen.** Sprache wie: ‚Diesen Fehler machen kluge Leute – warum ist er so verführerisch?' oder ‚Ich HOFFE, dass einige in die Falle getappt sind, dann lohnt sich die nächste Minute.' Ihr kennt das Prinzip aus Woche 10 – die vorgeführte Falle – jetzt wird es Klassennorm: Fehler sind hier Material, kein Makel.*
+> *Hebel zwei: **Eigene Fehler souverän behandeln.** Ihr werdet euch verrechnen, verschreiben, versprechen. Die Klasse beobachtet in diesem Moment nur eines: eure Reaktion. ‚Ah, gut aufgepasst – wo genau lag mein Fehler?' unterrichtet mehr Fehlerkultur als jedes Plakat.*
+> *Hebel drei – der unsichtbarste: **Richtig und falsch neutral und zügig klären.** Und zwar mit dem GESICHT. Die enttäuschte Miene, das Seufzen, das gedehnte ‚Hmmm…' – eure Mimik unterrichtet, bevor ihr ein Wort gesagt habt. Emotional Constancy aus Woche 4, angewandt auf Fehlerantworten: Der Fehler gehört zur Aufgabe, nicht zur Person; die Wärme gilt der Person, die Klarheit der Sache.*
+> *Hebel vier: **Niemals über Fehler lachen lassen.** Das ist eine 100-Prozent-Norm wie in Woche 5 – ein geduldetes Kichern über eine falsche Antwort kostet euch zehn ehrliche Antworten in den Folgewochen.*
+> *Und der Planungs-Baustein dazu: **Plan for Error.** Die drei wahrscheinlichsten Fehler einer Stunde kann man VORHER kennen – aus der letzten Klassenarbeit, aus eurer Fallen-Sammlung aus Woche 10, aus dem Exemplar mit seiner markierten Scheiter-Stelle. Wer die Fehler kennt, hat die Reaktion im Koffer statt im Improvisationsmodus. Aus Überraschung wird Plan."*
 
-## Phase 3 · Input B: Knowledge Organizer + Metakognition (Minute 20–28)
+## Phase 4 · Name it (Minute 30–33)
 
-> *„Werkzeug zwei macht die Zielstruktur sichtbar: der **Knowledge Organizer** – das Kernwissen einer Einheit auf EINER Seite. Begriffe mit Ein-Satz-Definitionen, die zwei, drei Kernzusammenhänge, Daten, ein Schaubild. Die Kunst ist die AUSWAHL: Kernwissen, nicht Vollständigkeit – der KO ist ein Destillat, kein Archiv. Sein dreifacher Nutzen: Er ist die perfekte **Retrieval-Quelle** (‚KO umdrehen, abfragen' – die Selbstabfrage hat ein Zuhause); er schafft **Transparenz** – Schüler und Eltern sehen schwarz auf weiß, was am Ende sitzen muss (Erwartungs-Klarheit, Woche 2 auf Wissensebene!); und er diszipliniert EUCH – wer das Kernwissen nicht auf eine Seite bekommt, weiß noch nicht, was der Kern ist. Backwards Design, Woche 10, in Blattform.*
-> *Und der letzte Baustein des Blocks, vielleicht der wichtigste: **Gebt die Werkzeuge weiter.** Alles, was ihr in Block 3 gelernt habt – Abruf schlägt Wiederlesen, verteilt schlägt Vorabend, holprig ist das neue Gut – gehört auch euren Schülern. Sie lernen zu Hause mit Textmarker und Nachtschichten, weil es ihnen niemand anders gezeigt hat. Zehn Minuten ‚So lernt man für meine Arbeit' – mit dem KO als Werkzeug und einer Live-Demo der Selbstabfrage – sind eine der rentabelsten Investitionen des Halbjahres. Und sie sind Metakognition im besten Sinn: Die Schüler verstehen ihr eigenes Lernsystem. Das Skriptgerüst dafür bekommt ihr gleich."*
+**Ersetzungs-Regel:** Selbstauskunft → prüfbare Mini-Aufgabe. **Fehlerreaktions-Dreiklang:** (1) neutral benennen („Das ist noch nicht richtig – schauen wir hin") → (2) Ursache würdigen („Der Fehler ist naheliegend, weil…") → (3) nutzen („Wer hatte dasselbe? Boards hoch – gut, dann lohnt sich das jetzt für alle"). **Vier Kultur-Hebel:** erwarten/würdigen · eigene Fehler souverän · neutral & zügig (Miene!) · Lach-Verbot als 100 %-Norm. Merksatz: *„Daten bekommt nur, wer Fehler sicher macht."*
 
-## Phase 4 · Name it (Minute 28–31)
+## Phase 5 · Do it (Minute 33–52)
 
-**KO-Gütecheck:** eine Seite? · nur Kernwissen (Destillat!)? · abfragbar formuliert (Definitionen verdeckbar)? · schülertauglich (keine Lehrersprache)? — **Elaborations-Check:** Erzwingt die Frage VERKNÜPFUNG (nicht Wiedergabe)? Linien beschriftet? — **Metakognitions-Minimum:** 10-Min.-Rede + Live-Demo Selbstabfrage + KO als Werkzeug.
+### Runde 1 · Reaktions-Makeover mit Miene (Min. 33–44)
+Tandems, 8 Reaktions-Karten (Anhang 1.1): Karte ziehen, die schwache Reaktion LAUT im Original spielen (mit Miene! – das Original muss man gespielt haben, um es bei sich zu erkennen), dann nach Dreiklang umformulieren und erneut spielen – diesmal mit neutraler Miene und ruhigem Ton. Der Partner achtet AUSSCHLIESSLICH auf Gesicht und Stimme: *„Der Text kann stimmen und die Miene alles verraten."* 2 Runden mit Wechsel.
 
-## Phase 5 · Do it: KO-Werkstatt (Minute 31–48)
+### Runde 2 · Plan-for-Error-Canvas (Min. 44–52)
+Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrscheinlichsten Fehler notieren (Quellen: Fallen-Sammlung W10, letzte Arbeit, Exemplar-Scheiter-Stelle) + zu jedem ein Reaktions-Skript (Dreiklang, wörtlich). Tandem-Härtetest: **„Sind das die WAHRSCHEINLICHSTEN Fehler – oder die interessantesten?"** *(Der klassische Baufehler: Lehrkräfte planen für die exotische Verwechslung und werden vom banalen Vorzeichenfehler überrascht.)*
 
-### Runde 1 · Kalibrierung (Min. 31–36)
-Die drei Beispiel-KOs (Anhang 1.2) im Tandem prüfen: Der überladene fällt sofort auf – aber WARUM genau? (Vollständigkeitswahn: 40 Begriffe, keine Hierarchie, Fließtext statt abfragbarer Struktur.) Die zwei guten vergleichen: Was macht sie abfragbar?
+## Phase 6 · Action Step (Minute 52–58)
 
-### Runde 2 · Eigener KO (Min. 36–46)
-Einzelarbeit: KO für die laufende eigene Einheit bauen (Blanko) – Zeitdruck ist Absicht: *„Zehn Minuten. Was nicht in zehn Minuten aufs Blatt will, ist vermutlich kein Kernwissen."* Moderation zirkuliert mit der Standard-Intervention: *„Streiche drei Einträge. Welche drei tun am wenigsten weh? Eben."*
-
-### Runde 3 · Härtetest (Min. 46–48)
-Tandem: Partner deckt die rechte Spalte ab und fragt sich selbst 60 Sekunden ab – funktioniert der KO als Abfragewerkzeug? Zwei Fragenfächer-Fragen dazu formulieren (Elaboration am eigenen KO).
-
-## Phase 6 · Meilenstein Halbjahr & Action Step (Minute 48–58)
-
-**9-Prinzipien-Poster (3 Min.):** Matrix „McCrea-Prinzip × mein Unterrichtsbeispiel" – mindestens 6 von 9 aus dem Gedächtnis füllen (selbst ein Brain Dump!); Rest offen lassen, wird im Coaching vervollständigt.
-
-**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 8 Felder neu einschätzen. 
-
-> *„Euer Coach legt diese Woche den W0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein halbes Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
-
-**Ansage Video-Selbstanalyse Nr. 2 (1 Min.):** wie W8 (Anleitung liegt im Playbook), diesmal mit frei wählbarem Fokus aus Block 2/3 – VOR dem Meilenstein-Gespräch.
-
-**Standard-Action-Step:** *„Ich gebe meiner Klasse vor der nächsten Arbeit den Knowledge Organizer aus – und halte die 10-Minuten-Lernstrategie-Rede mit Live-Demo der Selbstabfrage. Danach frage ich per Board-Blitz ab: ‚Wie lernt ihr jetzt für die Arbeit – drei Stichworte.'"*
+**Standard:** *„Ich streiche ‚Habt ihr das verstanden?' und ‚Noch Fragen?' KOMPLETT aus meinem Repertoire und ersetze jede dieser Situationen durch eine prüfbare Mini-Aufgabe. Ehrlichkeits-Strichliste auf dem Pult: Wie oft ertappt?"*
 
 **Alternativen:**
 
-1. Mindmap-Upgrade: die nächste Mindmap-Aufgabe mit Linien-Beschriftungspflicht stellen.
-2. Fächer-Woche: jede Stunde endet mit einer Fragenfächer-Frage als Mini-Elaboration (2 Min., mündlich, Turn-and-Talk-Vorgeschmack).
+1. Miene-Woche: Fehlerreaktions-Dreiklang mit bewusst neutraler Mimik – abends 1 Notiz zur schwierigsten Situation.
+2. Falle-erhofft-Woche: jede Stunde einmal den Satz „Ich hoffe, einige sind in die Falle getappt – dann lohnt sich das jetzt" (oder Variante) ehrlich einsetzen.
 
-> **Ausblick:** *„Block 4 beginnt – und er beantwortet die Frage, die sich durch alles zieht: Woher weiß ich in ECHTZEIT, was in 28 Köpfen passiert? Es startet mit dem Fundament: der Kultur des Fehlers. Bis dahin: Meilenstein-Gespräch genießen. Ihr habt es verdient."*
+> **Ausblick:** *„Auf diesem Fundament bauen wir nächste Woche das Werkzeug, vor dem viele von euch Respekt haben – zu Unrecht, wenn man es richtig macht: Cold Call. Aufrufen ohne Meldung, warm und fair. Danach denken in euren Frage-Phasen nicht mehr drei Leute mit, sondern achtundzwanzig."*
 
-## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert (Blockabschluss):
-
-1. Mein wertvollstes Block-3-Konzept: …
-2. Was ich meinen Schülern davon zuerst weitergebe: …
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
-# 4. Coaching-Woche 20: Meilenstein-Gespräch Halbjahr (Handreichung, 45–60 Min.)
+# 4. Coaching-Woche 20 (Handreichung)
 
-**Struktur:**
-
-1. **Matrix-Vergleich W0 → W8 → W20 (15 Min.; W8-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen.
-2. **Video-Selbstanalyse Nr. 2 (20 Min.):** wie W8-Format; Vergleichsfrage: „Was siehst du heute, was du in Woche 8 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.)
-3. **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen.
-4. **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
-
-**Red Flags:** Matrix zeigt Stagnation/Rückschritt in Feldern 1–3 (Klassenführung) → kein Drama, aber Priorität: Block-4-Techniken BRAUCHEN das Fundament; ggf. gezielten Reparatur-Plan vor W22 (Cold Call ohne Klassenkultur wird toxisch). TN will den KO „für alle Einheiten sofort" bauen → Lean-Bremse: einer pro Einheit, ab jetzt, reicht.
+- **Hospitationsfokus:**
+  1. Re-Establish-Moment am Montag beobachten (Zettel aus der Sitzung!).
+  2. Selbstauskunfts-Zählung: Wie oft „Verstanden?/Fragen?" – und was geschah stattdessen/danach?
+  3. Miene bei Fehlerantworten (2–3 Momente wörtlich + mimisch protokollieren – taktvoll formuliert).
+- **Auswertungsgespräch:** Strichliste zeigen; die zwei ertappten Momente gemeinsam in Mini-Aufgaben übersetzen und laut sprechen. Plan-for-Error-Canvas für die kommende Stunde durchgehen: Wahrscheinlichkeits-Check.
+- **Verzahnung:** Der Block-4-Dauer-Action-Step aus dem Meilenstein-Gespräch (W19) läuft parallel – kurz abfragen.
+- **Red Flag:** TN berichtet, dass die Klasse über Fehler lacht und er „darüber hinweggeht" → sofort adressieren: Das Lach-Verbot ist die Eintrittskarte für ALLE Block-4-Techniken; ggf. Klassengespräch + 100 %-Durchsetzung (W5) als vorgezogener Schritt, Cold Call (W21) für diese Klasse um eine Woche schieben.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Elaborations-Fragenfächer
-**Warum?** · **Inwiefern anders als …?** · **Eigenes Beispiel?** · **Erkläre es einem Fünftklässler.** · **Was wäre, wenn …?** — je mit einem Fachbeispiel; Fußzeile: „Prüffrage an jede Elaborationsaufgabe: Erzwingt sie Verknüpfung – oder genügt Wiedergabe? (Mindmap-Regel: Linien beschriften!)"
+## 1.1 Reaktions-Kartenset (8 Karten; Original → Muster-Makeover kursiv)
+1. „Nein, falsch. Wer kann's richtig?" → *„Das ist noch nicht richtig – und der Weg dahin ist interessant. Wo bist du abgebogen?"*
+2. [Seufzen + Augenbrauen hoch] „Hmmm… jemand anders?" → *neutrale Miene:* „*Noch nicht ganz – lass es stehen, wir kommen zurück zu dir."* *(No-Opt-Out-Vorgeschmack!)*
+3. „Das hatten wir doch letzte Woche!" → *„Der Fehler zeigt mir: Das ist noch nicht sicher. Gut, dass er JETZT kommt und nicht in der Arbeit."*
+4. „Fast! Ich nehm's mal als richtig." → *„Fast – der erste Teil stimmt. Schärfe den zweiten nach."* *(Right-is-Right-Vorgeschmack W22)*
+5. „Na, DAS war ja wohl nichts." → *„Noch nicht richtig – und ich wette, die Hälfte hatte denselben Gedanken. Boards hoch: Wer auch?"*
+6. „Denk doch mal nach!" → *„Nimm dir zehn Sekunden – ich komme zurück."* *(Wait-Time-Vorgeschmack W21)*
+7. [Zur Klasse, lachend] „Da hat wohl jemand geschlafen!" → *streichen ohne Ersatz – Demütigung hat kein Makeover; stattdessen Dreiklang.*
+8. „Okaaay… interessant… ähm, weiter." → *„Das ist eine andere Frage als meine – merken wir uns. Zu MEINER Frage: Was sagt die Regel?"*
 
-## 1.2 KO-Beispiele (Bauanleitung)
-**Gut 1 (Chemie, ‚Wasser als Stoff', Kl. 8):** 12 Begriffe mit Ein-Satz-Definitionen (zweispaltig, rechte Spalte verdeckbar), 1 beschriftetes Teilchen-Schaubild, 3 Kernzusammenhänge als Wenn-Dann-Sätze, 2 Daten. **Gut 2 (Geschichte, ‚Weimarer Republik scheitert', Kl. 9):** 10 Begriffe, Zeitstrahl mit 6 Markern, 3 Ursache-Wirkungs-Ketten, 1 Streitfrage. **Negativ:** ~40 Begriffe in Fließtext-Kästen, drei Schriftgrößen, keine Hierarchie, Lehrersprache („epochenspezifische Kontingenzerfahrung") – auf Zwei-Seiten-Optik gequetscht.
+## 1.2 Handout A: Dreiklang + Ersetzungs-Regel + die vier Hebel — siehe Phase 4 (mit den Beispielsätzen aus Phase 3; Fußzeile: „Die Miene spricht zuerst.").
 
-## 1.3 Handout B: Die 10-Minuten-Lernstrategie-Rede (Skriptgerüst)
-Skriptgerüst:
+## 1.3 Plan-for-Error-Canvas
+Kopf: Einheit/Stunde. — Tabelle (3 Zeilen): **Wahrscheinlicher Fehler** (konkret!) | **Quelle** (Arbeit/Fallen-Liste/Exemplar) | **Mein Reaktions-Skript** (Dreiklang, wörtlich) | **Präventiv zeigen als Falle im I do?** ☐ — Fußzeile: „Wahrscheinlich schlägt interessant."
 
-1. **Einstieg mit der Illusion (2 Min.):** *„Wer lernt mit Textmarker und Durchlesen? Ehrlich. – Das fühlt sich gut an. Und genau deshalb funktioniert es kaum. Ich zeige euch, warum."* Kurzversion Flüssigkeits-Illusion in Schülersprache (W19-Erklärskript-Ton).
-2. **Live-Demo Selbstabfrage (4 Min.):** KO austeilen, rechte Spalte abdecken, 2 SuS demonstrieren lassen; 3-Schritt: abdecken → antworten → aufdecken → Haken/Kreis.
-3. **Der Wochenplan (2 Min.):** *„Dreimal 15 Minuten, verteilt, schlägt einmal 2 Stunden am Vorabend – gleiche Zeit, mehr bleibt."*
-4. **Board-Blitz-CFU (2 Min.):** „Wie lernst du jetzt für die Arbeit – drei Stichworte, hoch."
-
-## 1.4 9-Prinzipien-Posterblanko (McCrea, Memorable Teaching)
-Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die 9 in Kurzform: Lernen = LZG-Veränderung ernst nehmen · Information managen · Kommunikation verschlanken · Last regulieren · Aufmerksamkeit orientieren · Abruf einbauen · verteilt wiederholen · Elaboration beschleunigen · Strukturen verfeinern/Metakognition einbetten. *(Zuordnung leicht gruppiert – als Arbeitsposter, nicht als Zitat.)*
+## 1.4 Re-Establish-Skriptvorlage (Kondensat W1/W2)
+Meine Erwartung nach den Ferien (spezifisch): … | Mein Begründungssatz: … | Meine 2 CFU-Fragen: … | Ggf. Do It Again bereit? ☐ — Merkzeile: „Das Fenster ist wieder offen."
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-3-Quiz (20 Fragen, kumulativ; Auswahl)
-1. Die drei Kernsätze aus W15? 2. Das Diagnose-Raster? 3. Was leistet ein Schema fürs WM? 4. Die drei Last-Fresser? 5. Intrinsisch vs. lästig? 6. Dual Coding richtig? 7. Der Lenkungs-Dreiklang? 8. Die Röntgen-Frage? 9. Testing Effect? 10. Flüssigkeits-Illusion? 11. Die fünf Retrieval-Gütekriterien? 12. 3-2-1? 13. Performance ≠ Learning? 14. Warum wirkt Spacing (Kurven-Logik)? 15. Interleaving-Zusatznutzen? 16. Prüfungsregel? 17. (Block 1) Leiterstufen 1–6? 18. (Block 2) Exemplar Planning? 19. (Block 2) Exit-Ticket-Gütecheck? 20. (Transfer) Ein Kollege sagt: „Meine Stunden laufen super, aber in den Arbeiten ist alles weg." Deute mit DREI Block-3-Konzepten und nenne je eine Konsequenz. *(Performance ≠ Learning → Ticket statt Gefühl; kein Abruf → 3-2-1; geblockt → Landkarte/Interleaving.)*
+## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–19)
+1. Nenne 5 der 9 McCrea-Prinzipien. 2. Der KO-Gütecheck? 3. Die zwei Spacing-Einbau-Regeln? 4. Performance ≠ Learning in einem Satz? 5. Schritt 3 der Begrüßungsroutine + Begründung? 6. Der Lenkungs-Dreiklang? 7. Die fünf Retrieval-Gütekriterien? 8. (Anwendung) Erste Woche nach den Ferien: Welche 2–3 Dinge etablierst du explizit neu – und mit welchem Bauplan? *(→ wird direkt zur Re-Establish-Übung)*
 
 ## Teil 2: Modul-Quiz Woche 20 (für SPA/Folgewoche)
-**F1.** Ein guter Knowledge Organizer…
-a) enthält möglichst vollständig alles Wichtige der Einheit ✗ *(Fleiß-Falle)*
-b) destilliert abfragbares Kernwissen auf eine Seite ✓
-c) ersetzt das Heft ✗
-d) ist ein Foto des Tafelbilds ✗
+**F1.** „Noch Fragen?" – keine Meldung. Das heißt:
+a) Alle haben verstanden ✗ *(der Alltagsschluss)*
+b) Nichts – die Frage liefert strukturell keine Daten ✓
+c) Die Klasse ist desinteressiert ✗
+d) Die Erklärung war besonders gut ✗
 
-**F2.** „Erstellt eine Mindmap zum Thema" ist…
-a) automatisch Elaboration – Vernetzung ist ja sichtbar ✗ *(der Etikettenschwindel)*
-b) nur mit Verknüpfungs-Zwang elaborativ (Linien beschriften!) ✓
-c) Zeitverschwendung ✗
-d) nur für visuelle Lerntypen sinnvoll ✗ *(Mythos-Doppel-Distraktor)*
+**F2.** Ein guter Umgang mit einer falschen Antwort:
+a) schnell und schonend übergehen, um nicht zu beschämen ✗ *(klingt empathisch – entwertet den Fehler UND die Person)*
+b) neutral benennen, Ursache würdigen, für alle nutzen ✓
+c) erst zwei richtige Antworten loben, dann korrigieren ✗ *(Lobsandwich-Echo)*
+d) die Frage vereinfachen, bis es klappt ✗
 
-**F3.** „Erkläre es einem Fünftklässler" wirkt, weil…
-a) es nett klingt ✗
-b) Vereinfachen Durchdringung erzwingt – Fachsprache kann man nachplappern, Einfachheit nicht ✓
-c) Fünftklässler streng sind ✗
-d) es Zeit spart ✗
+**F3.** Warum wissen viele SuS nicht, dass sie etwas nicht verstanden haben?
+a) Sie lügen aus Bequemlichkeit ✗
+b) Um Nichtkönnen zu erkennen, braucht man schon halbes Können (Dunning-Kruger) ✓
+c) Sie hören nicht zu ✗
+d) Pubertät ✗
 
-**F4.** Die Lernstrategie-Rede vor der Klassenarbeit ist…
-a) Aufgabe der Eltern/der SuS selbst ✗ *(die stillschweigende Schulannahme)*
-b) eine der rentabelsten 10-Minuten-Investitionen: Metakognition mit Werkzeug ✓
-c) nur in der Unterstufe nötig ✗
-d) Stoffzeit-Verschwendung ✗
+**F4.** Deine enttäuschte Miene bei einer Fehlerantwort…
+a) ist menschlich und daher unproblematisch ✗ *(stimmt halb – und unterrichtet trotzdem)*
+b) unterrichtet die Klasse schneller als jedes Wort: Fehler kosten hier ✓
+c) motiviert zu mehr Anstrengung ✗
+d) fällt niemandem auf ✗
 
-**F5.** Der KO diszipliniert auch die Lehrkraft, weil…
-a) er Arbeit macht ✗
-b) wer den Kern nicht auf eine Seite bekommt, kennt den Kern noch nicht ✓
-c) die Schulleitung ihn sehen will ✗
-d) Eltern ihn einfordern ✗
+**F5.** Plan for Error plant für…
+a) die interessantesten, exotischsten Fehler ✗ *(der Werkstatt-Klassiker)*
+b) die WAHRSCHEINLICHSTEN Fehler – Quellen: Arbeiten, Fallen-Liste, Exemplar ✓
+c) alle denkbaren Fehler ✗
+d) Fehler der Lehrkraft ✗
 
-**F6 (Transfer, Freitext):** Formuliere zu deinem aktuellen Thema je EINE Frage aus drei verschiedenen Fächer-Kategorien – und markiere, welche davon ein schwacher Schüler durch bloße Wiedergabe beantworten könnte (dann: nachschärfen). *(Bewertungsanker: drei verschiedene Kategorien; Wiedergabe-Test ehrlich angewandt.)*
+**F6 (Transfer, Freitext):** Ein Schüler antwortet falsch, zwei andere kichern. Beschreibe deine Reaktion in drei Zügen (Kichern, Fehler, Nutzung) – mit Wortlaut. *(Muster: Kichern sofort + ruhig stoppen [„Bei uns wird über Fehler nicht gelacht – sie bringen uns weiter"] → Dreiklang zur Antwort → Nutzung: „Boards hoch – wer hatte denselben Gedanken?" Bewertungsanker: 100 %-Norm zuerst, dann Dreiklang, Miene neutral.)*
 
 ---
 
 # Anhang 3: Ableitung für die SPA „Modul 20"
 
-1. **Hook (2 Min.):** „Gestapelt oder vernetzt?" – zwei animierte Wissens-Darstellungen desselben Themas (Fakten-Stapel vs. beschriftetes Netz); Frage: „Welches überlebt die Ferien?"
-2. **See it (4 Min.):** Fragenfächer als aufklappbare Karten mit Fachbeispielen; das Mindmap-Vorher/Nachher (unbeschriftete vs. beschriftete Linien) als Kontrastpaar.
-3. **Name it (3 Min.):** KO-Gütecheck + Elaborations-Check als Karten; Negativ-KO als Suchbild („Finde 4 Verstöße").
-4. **Do it – KO-Editor (8 Min., Engine!):** zweispaltige Struktur (Begriff | Definition verdeckbar) + Schaubild-Platzhalter + Zusammenhangs-Zeilen; harte Limits als Feature (max. 15 Begriffe, 1 Seite – die App erzwingt das Destillat!); Abfrage-Modus eingebaut (rechte Spalte blenden = Retrieval-Quelle, verzahnt mit der Karteikarten-Engine aus Modul 18!); Export/Druck für die Klasse.
-5. **Fragenfächer-Generator:** Kategorie würfeln → Frage zum eigenen Thema formulieren → Wiedergabe-Test als Selbst-Check-Prompt.
-6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz W0/W8/W20** als Highlight-Screen (drei Linien übereinander; W8-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des Halbjahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
-7. **Abschluss:** Action-Step-Formular „KO + Rede" mit Board-Blitz-Ergebnisfeld („drei Stichworte der Klasse notieren").
+1. **Hook (2 Min.):** Das nutzlose Ritual als Audio – danach die Frage: „Was weiß die Lehrkraft jetzt?" (Slider 0–100 %, Auflösung: 0).
+2. **See it (4 Min.):** Die zwei Gründe animiert: soziale Kosten (Preisschild an der Meldung) + Dunning-Kruger-Kurve vereinfacht.
+3. **Name it (3 Min.):** Dreiklang + vier Hebel als Karten; Phrasen-Verbot-Spiel: 8 Lehrersätze → Selbstauskunft erkennen und Mini-Aufgabe als Ersatz wählen.
+4. **Do it – Reaktions-Simulator mit Ton (8 Min., Engine!):** Die 8 Karten als Audio-Paare (Original mit Seufzer-Tonspur vs. Makeover neutral) – Nutzer wählt/formuliert die Umformulierung; Karte 7 hat als Lerneffekt KEIN Makeover (Auflösung: „Demütigung repariert man nicht sprachlich – man ersetzt sie"). Optional Selbstaufnahme: eigene Reaktion einsprechen, Checkliste Ton/Neutralität.
+5. **Plan-for-Error-Canvas digital:** zieht die Fallen-Bibliothek aus Modul 10 automatisch als Quellvorschläge (modulübergreifend!); Wahrscheinlichkeits-Selbstcheck als Pflicht-Prompt.
+6. **Re-Establish-Generator:** W1-Bauplan als 3-Felder-Formular mit Montags-Erinnerung (saisonales Feature – nach jeden Ferien reaktivierbar).
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Ertappt-Strichliste („Verstanden?"-Zähler, Ziel: fallende Kurve).

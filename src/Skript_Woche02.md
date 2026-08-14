@@ -1,4 +1,4 @@
-# Skript Woche 2: „Hohe Erwartungen – Verhalten ist ein Curriculum"
+# Skript Woche 2: „Die Zäsuren der Stunde – starker Start, geordnetes Ende"
 ## 60-Minuten-Sitzung · Block 1 · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,200 +7,233 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie mache ich unsichtbare Erwartungen sichtbar und lehrbar? |
-| **Kernquellen** | Lovell/Dowley, Prinzip 3 („Start with high expectations") und Prinzip 5 („Behaviour is a curriculum"); Lemov T52 (Vorgriff), T61 Warm/Strict (Vorgriff) |
-| **Funktion im Jahr** | Erstes echtes Technik-Modul. Legt die Grundlage für ALLE Routinen (W3–8): Bevor man Routinen baut, muss man Erwartungen formulieren können. Liefert das Umformulierungs-Handwerk „vage → spezifisch", das in W4 (Anweisungen) direkt wiederverwendet wird. |
-| **Lernziele** | Die TN können:<br>1. erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt,<br>2. eine vage Erwartung nach 5 Kriterien nachschärfen,<br>3. eine Erwartungs-Einführung inkl. Begründung und Verständnis-Check skripten. |
-| **Sitzungstyp** | Technik-Training (Schreiben + Sprechen). Erste Sitzung mit vollem Standardraster inkl. Rollenspiel-Elementen. |
+| **Leitfrage** | Wie gewinne ich die ersten fünf Minuten jeder Stunde – und wie beende ich sie so, dass morgen genauso beginnt? |
+| **Kernquellen** | Lovell/Dowley, Routine 1 (Entry Routine – adaptiert) und Routine 12 (Engagement bis zum Ende); Lemov T20 (Do Now), T51 (Do It Again), T31 (Every Minute Matters), „Strong Start" (adaptiert); Kontext: schulisches Ritual Aufstehen–Begrüßung–Setzen |
+| **Funktion im Jahr** | Erste vollständige Routine des Playbooks – und zwar gleich als **Paar**: Anfang und Ende sind dieselbe Zäsur, gespiegelt. Etabliert das dreispaltige Skript-Format (Standard für ~10 weitere Module) und das Rollenspiel mit Störkarten. Das Do Now wird hier organisatorisch eingeführt und in W13/W17 didaktisch aufgeladen; das Stundenende liefert die Reservekarten-Logik, die in W13 (Exit Ticket) inhaltlich gefüllt wird. |
+| **Lernziele** | Die TN können:<br>1. den Stundenauftakt an unserer Schule als 7-Schritt-Routine skripten (Wortlaut + Position + Material),<br>2. die Qualitätsbedingung „100 % vor dem Gruß" begründen und durchhalten,<br>3. ein Do Now organisatorisch korrekt anschließen,<br>4. einen Routine-Ausrutscher mit Do It Again neutral zurücksetzen,<br>5. ein Stundenende mit Puffer, Pack-Signal und Verabschiedung im Stehen gestalten. |
+| **Sitzungstyp** | Volles Technik-Training mit Rollenspiel-Karussell – die intensivste Übungssitzung bisher. Geübt wird der Start; das Ende wird geskriptet und in einem Kurzdurchgang gesprochen (es ist dasselbe Handwerk im Kleinformat). |
+
+**Schulkontext (prägt alles):** Kein Türschwellen-Ritual wie bei Lemov – die Lehrkraft betritt den Raum, die Klasse ist in der Regel schon da. Unser Ritual: **Alle stehen auf → Begrüßung → Setzen.** Die Sitzung behandelt dieses Ritual nicht als Folklore, sondern als präzises Werkzeug.
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen; Flipchart mit der W1-Liste „Ansatzpunkte" (aus der Fallanalyse – wird in Phase 2 gebraucht!).
+**Raum:** Freie Spielfläche mit 6–8 Stühlen als „Klasse" (Rollenspiel-Karussell!); Tische für Skript-Arbeit am Rand; Tür/Raumecke als „Auftrittspunkt" markieren.
 
 **Material (Checkliste):**
-- [ ] Retrieval-Quiz (Anhang 2, Teil 1) als Folie oder Zettel, liegt vor Beginn aus
-- [ ] Handout A: 6 Beispielpaare „vage → spezifisch" (Anhang 1.1)
-- [ ] Handout B: Erwartungs-Canvas (Anhang 1.2), 2 Kopien pro TN (eine für die Sitzung, eine als Vorlage)
-- [ ] Beobachtungsbögen aus W1 – TN wurden erinnert, sie mitzubringen (Fallback: 3 Leitfragen an der Tafel für die, die ihn vergessen haben)
-- [ ] Timer sichtbar
-
-**Vorab-Hinweis an die Moderation:** Diese Woche entscheidet sich, ob Action Steps ernst genommen werden. Die Brücken-Phase (W1-Beobachtungen einsammeln) darf deshalb NICHT entfallen oder gehetzt werden – wer seinen Auftrag gemacht hat, muss erleben, dass er gebraucht wird.
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Handout A: Dreispaltige Skript-Vorlage MIT ausgefülltem Musterbeispiel (Anhang 1.1) – das Muster ist entscheidend: Exemplar Planning für uns selbst
+- [ ] Störkarten-Set A, 4 Karten (Anhang 1.2), verdeckt
+- [ ] Handout B: Do-Now-Kriterien + Fachbeispiele (Anhang 1.3)
+- [ ] Handout C: Ende-Bausteine (Anhang 1.4)
+- [ ] Sichtbarer Timer (wird im Rollenspiel real benutzt)
+- [ ] Playbook-Mappen (falls in W1 noch nicht ausgeteilt)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2)
-Quiz liegt aus, Timer läuft, Start pünktlich. (Ab jetzt kommentarlos – die Norm trägt sich selbst.)
+## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
 ## Phase 1 · Retrieval-Starter (Minute 2–8)
-5 Fragen (Anhang 2, Teil 1), 3 Min. still schriftlich, 3 Min. Auflösung per Aufrufen ohne Meldung – warm, mit Denkpause (die Moderation modelliert weiter, was in W22 Theorie wird).
+5 Fragen (Anhang 2, Teil 1), Standardablauf.
 
-## Phase 2 · Brücke: Was habt ihr gesehen? (Minute 8–13)
+## Phase 2 · Brücke & Rätsel (Minute 8–12)
 
 > **Moderationstext:**
-> *„Euer Auftrag war: die ersten fünf Minuten beobachten – Aufmerksamkeit und Begrüßungsroutine. Drei von euch bitte je eine Minute: Was habt ihr notiert?"*
+> *„Kurzer Erfahrungsbericht zur Erwartungs-Einführung: Wer hat's gemacht – und was ist passiert? Zwei Stimmen."* [2 Min., würdigen, offene Fragen ins Coaching verweisen]
+> *„Und jetzt eine Rechnung. Angenommen, euer Stundenstart kostet im Schnitt vier unproduktive Minuten – Ankommen, Kramen, Ermahnen, bis alle im Stoff sind. Vier Minuten, bei sagen wir 14 Stunden pro Woche, 38 Schulwochen: über 35 Zeitstunden im Jahr. Fast eine ganze Arbeitswoche – verloren an das Vorspiel. Heute holen wir sie zurück. Und zwar nicht mit einem Trick, sondern mit dem Ritual, das ihr längst habt: Aufstehen, Begrüßung, Setzen. Es ist da. Die Frage ist nur, ob es ARBEITET."*
 
-Während der Berichte clustert die Moderation stichwortartig am Flipchart. Erfahrungsgemäß kommen: „Es dauert, bis alle stehen", „Sie schauen überall hin, nur nicht zu mir", „Ich wusste selbst nicht genau, was ich eigentlich erwarte". Dann die Pointe:
+## Phase 3 · Input (Minute 12–30)
 
-> *„Schaut auf diese Liste. Fast alles darauf hat dieselbe Wurzel: Die Erwartung existiert nur in eurem Kopf – als Gefühl. ‚Ordentlich reinkommen.' ‚Vernünftig sein.' Gefühle kann man nicht erfüllen und nicht einfordern. Heute lernt ihr, aus Gefühlen Erwartungen zu machen: sichtbar, lehrbar, prüfbar."*
+### 3a · See it: Die Doppel-Demo (Min. 12–18) — das Herzstück
+Die Moderation spielt beide Varianten selbst, mit 6 TN als Klasse (vorher instruiert: Variante A = trödeln, halb aufstehen, weitertuscheln; Variante B = normal mitspielen):
 
-## Phase 3 · Input: Verhalten ist ein Curriculum (Minute 13–28)
+**Variante A (schwach):** Moderation kommt herein, redet schon im Gehen („Ja, guten Morgen, setzt euch, wir haben heute viel vor…"), sortiert Unterlagen am Pult, die Hälfte steht halb, Getuschel läuft weiter, irgendwann beginnt der Unterricht – niemand könnte sagen, wann eigentlich.
 
-### 3a · See it: das Kontrastpaar (Min. 13–17)
-Folie mit beiden Versionen, laut vorlesen:
-- **A:** „Ich erwarte, dass ihr respektvoll und leise in den Unterricht startet."
-- **B:** „Wenn ich hereinkomme: aufstehen, Gespräche enden. Nach dem Setzen: Heft und Mäppchen liegen bereit, ihr arbeitet still am Starter. Spätestens 60 Sekunden nach dem Setzen höre ich nur noch Stifte."
+**Variante B (stark):** Moderation kommt herein, geht **wortlos** zum festen Punkt (Mitte vorn), stellt sich ruhig hin, Blick durch den Raum. Wartet. Auch als zwei noch tuscheln: wartet freundlich weiter, 8 Sekunden, Blick zu den beiden. Stille. Alle stehen. Dann warm: *„Guten Morgen, 9b."* – Antwort abwarten – *„Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still."* Timer startet sichtbar mit dem Setz-Signal. Moderation bleibt vorn stehen und scannt (geht demonstrativ NICHT ans Pult).
 
-> *„Beide Lehrkräfte wollen dasselbe. Aber nur bei B können die Schüler wissen, was gemeint ist – und nur bei B kann die Lehrkraft fair einfordern, denn nur B ist überhaupt erfüllbar. Und noch etwas: Nur bei B lässt sich Erfüllung PRÜFEN. ‚Respektvoll' kann man nicht abhaken. ‚Alle Hefte liegen bereit' schon."*
+> **Auswertung (Plenum, 3 Min.):** *„Was genau war anders? Sammelt – ich will Handlungen hören, keine Eindrücke."* [Sammlung deckt die 7 Schritte fast vollständig auf – die Gruppe ‚entdeckt' die Zerlegung selbst.]
 
-### 3b · Das Kernprinzip (Min. 17–23)
-> *„Jetzt der Satz, der diese Woche trägt: **Verhalten ist ein Curriculum.** Kein Schüler kommt mit fertigem Verhalten zur Welt – genauso wenig wie mit fertiger Bruchrechnung. Und niemand von euch würde Bruchrechnung so unterrichten: einmal erwähnen, nie üben, und beim ersten Fehler beleidigt sein. Genau so behandeln wir aber Verhalten: ‚Das habe ich doch am Schuljahresanfang gesagt!' – Einmal gesagt ist nicht gelernt. Das wisst ihr seit letzter Woche: Modell 1, Gedächtnis.*
-> *Also gilt für Verhalten dieselbe Didaktik wie für jeden Stoff: **erklären** (spezifisch!), **begründen** (ein Satz – Jugendliche, gerade in Sek II, folgen Erwartungen deutlich bereitwilliger, deren Sinn sie kennen), **modellieren** (zeigen, wie es aussieht), **üben** (ja, wirklich – kommt in Woche 3), **prüfen** (gleich mehr) und **Feedback geben** (kommt in Woche 6 und 7).*
-> *Und das Zeitfenster: Am Anfang – des Jahres, des Halbjahres, nach Ferien – akzeptiert eine Klasse hohe Erwartungen als Normalität. Wer niedrig startet und später anzieht, kämpft gegen etablierte Normen: Modell 4. Lockern geht immer und wird als Großzügigkeit erlebt. Nachschärfen wird als Ungerechtigkeit erlebt. Deshalb: hoch starten. Und wer schon drin steckt: Jeder Montag ist ein kleines Fenster, jeder explizite Neustart ein großes."*
+### 3b · Warum das Warten alles entscheidet (Min. 18–22)
+> *„Der wichtigste Moment der ganzen Sequenz ist der unbequemste: die Sekunden, in denen ich schweigend gewartet habe. Wer in die Unruhe hineingrüßt, unterschreibt zweimal täglich denselben Vertrag: ‚Halbherzig reicht hier.' Das ist Modell 4 – ihr unterrichtet eine Norm, ob ihr wollt oder nicht. Die Wartezeit dagegen sagt ohne ein Wort: Wir beginnen gemeinsam, vollständig, oder gar nicht. Das ist euer erster 100%-Moment der Stunde – Wochen bevor wir ‚100 %' offiziell behandeln.*
+> *Und die Funktion des Rituals insgesamt? Es ist eine ZÄSUR. Pausengehirne sind überall – beim Streit von eben, beim Handy, beim Pausenbrot. Das gemeinsame Aufstehen ist ein körperliches Signal an 28 Gehirne: Jetzt beginnt etwas anderes. Lemov lässt seine Lehrkräfte dafür an der Türschwelle stehen – wir haben unser eigenes Ritual, und richtig ausgeführt leistet es exakt dasselbe: Zäsur, warmer Kontakt, gemeinsamer Start."*
 
-### 3c · Behavioural CFU + Sek-II-Einwand (Min. 23–28)
-> *„Letzter Baustein: Woher weißt du, dass die Erwartung angekommen ist? Nicht durch ‚Alles klar?' – sondern durch Prüfen: ‚Jonas, was passiert, nachdem ihr euch gesetzt habt?' – ‚Lena, wie lange habt ihr Zeit bis zum Starter?' Zwei Fragen, zehn Sekunden, und die Klasse weiß: Das hier war ernst gemeint.*
-> *Und der Einwand, den einige von euch gerade denken: ‚In meiner Oberstufe wirkt das kindisch.' Nein – kindisch wirkt eine kindische FORMULIERUNG. Die Struktur bleibt, der Ton wird erwachsen: ‚Ich erwarte, dass Laptops zu sind, wenn jemand präsentiert – aus demselben Grund, aus dem Sie das in jeder Besprechung erwarten würden.' Explizit heißt nicht infantil. Implizit heißt nur: unfair für alle, die den Code nicht von allein knacken."*
+### 3c · Do Now & Do It Again: die Kette schließen (Min. 22–26)
+> *„Nach dem Setzen ist der zweite kritische Moment: Was passiert in Sekunde eins danach? Wenn die Antwort ‚nichts Bestimmtes' ist, füllt die Klasse die Lücke – verlässlich. Deshalb koppeln wir an das Setz-Signal ein **Do Now**: eine Aufgabe, die schon an der Tafel steht, BEVOR ihr grüßt. Drei Kriterien: ohne Erklärung lösbar (sonst entsteht sofort eine Frage-Traube), schriftlich (sichtbar, wer arbeitet), drei bis fünf Minuten kurz. Inhaltlich ideal ist Wiederholung – warum, versteht ihr in Block 3 in voller Tiefe; heute reicht: Es funktioniert immer, es braucht keine Einführung, und es startet das Denken.*
+> *Und wenn die Routine mal ausfranst – Montagmorgen, nach Ferien, sechste Stunde? Dann gibt es ein Werkzeug namens **Do It Again**: ruhig, ohne Vorwurf: ‚Das können wir flüssiger. Noch einmal.' Es ist kein Strafexerzieren – es ist die Botschaft: Der Standard gilt, und ich traue euch zu, ihn zu erfüllen. Der Ton macht den Unterschied zwischen Reset und Demütigung."*
 
-## Phase 4 · Name it (Minute 28–33)
+### 3d · Das Stundenende: dieselbe Zäsur, gespiegelt (Min. 26–30)
 
-An der Tafel entwickeln (Zuruf, Moderation ordnet): **Die 5 Kriterien einer tragfähigen Erwartung:**
+> *„Und jetzt drehen wir die Stunde um. Denn sie hat zwei Zäsuren, nicht eine – und die zweite unterrichtet die Norm für die erste von morgen. Wer im Klingel-Chaos endet – Packen ab Minute 42, Rufen über die Köpfe, Hausaufgabe in den Lärm – der startet morgen genau dort. Drei Bausteine, und ihr kennt alle drei schon aus dem Anfang:*
+> *​**Puffer.** Plant das Ende auf drei Minuten VOR dem Klingeln. Der Rest ist Reserve – nie umgekehrt. Wer bis zur Sekunde plant, endet immer im Chaos.*
+> *​**Geordneter Abschluss.** Gepackt wird auf Signal, nicht auf Verdacht. Verabschiedet wird im Stehen – der exakte Spiegel eurer Begrüßung: gemeinsame Zäsur am Anfang, gemeinsame Zäsur am Ende. Und begrabt bitte den Satz ‚Ihr könnt schon mal leise packen': Das ist eine Einladung, morgen zwei Minuten früher zu packen. Übermorgen vier.*
+> *​**Every Minute Matters.** Wenn doch zwei Minuten übrig bleiben, habt ihr Reservekarten – zwei, drei Abruf-Fragen zur Stunde. Nie Leerlauf; Leerlauf am Ende ist die teuerste Minute des Tages, weil sie die Norm setzt.*
+> *Und wenn das Ende zerfasert? Dasselbe Werkzeug wie vorn: Do It Again. ‚Wir machen das noch einmal – ruhig, im Stehen.' Dreißig Sekunden, und die Norm steht wieder."*
 
-1. **beobachtbar** (man kann sie sehen/hören),
-2. **messbar** (man kann Erfüllung feststellen: alle? in welcher Zeit?),
-3. **positiv formuliert** (beschreibt das TUN, nicht das Lassen – „nicht schwätzen" sagt nicht, was stattdessen),
-4. **begründet** (ein Satz Sinn),
-5. **geprüft** (Behavioural CFU nach der Einführung).
+## Phase 4 · Name it (Minute 30–34)
 
-Merkformel anbieten: *„Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."*
+Die 7 Teilschritte an der Tafel fixieren (aus der Demo-Auswertung zusammenführen):
+1. **Vorbereitung:** Starter/Do Now steht an der Tafel, BEVOR gegrüßt wird (ggf. vor der Stunde/in der Pause anschreiben oder Folie).
+2. **Fester Punkt:** wortloser Gang zur eigenen Position, ruhig stehen.
+3. **Warten auf 100 %:** alle stehen, es ist still – schweigend, freundlich, notfalls länger. (Der Qualitätsschritt!)
+4. **Warmer Gruß:** mit Blick durch den ganzen Raum, Antwort abwarten.
+5. **Setz-Signal + Starter-Satz:** immer derselbe Wortlaut („Setzt euch – ihr wisst, was zu tun ist: …").
+6. **Timer startet** mit dem Setz-Signal, sichtbar.
+7. **Scannen:** Lehrkraft bleibt präsent, Blick kreist – NICHT sofort an Pult/Rechner.
 
-## Phase 5 · Do it (Minute 33–52)
+Merksatz: *„Erst alle, dann der Gruß. Erst der Satz, dann der Timer. Erst der Scan, dann alles andere."*
 
-### Runde 1 · Erwartungs-Canvas (Min. 33–43, Einzelarbeit)
-> *„Nehmt eure schwierigste Lerngruppe. Drei Erwartungen, die dort den größten Unterschied machen würden – oft rund um: Stundenstart, Arbeitsphasen, Gesprächsregeln. Füllt den Canvas: Verhalten (spezifisch!), Woran sichtbar?, Begründungssatz. Nutzt Handout A als Steinbruch."*
+Dazu die **3 Ende-Bausteine** (Spiegelbild, an dieselbe Tafelhälfte):
+8. **Puffer:** Ende drei Minuten vor dem Klingeln geplant, Rest ist Reserve.
+9. **Abschluss auf Signal:** gepackt wird auf Ansage, verabschiedet wird im Stehen.
+10. **Reservekarten:** 2–3 Abruf-Fragen für übrig bleibende Minuten.
 
-Moderation zirkuliert und interveniert an der häufigsten Baustelle: Adjektive („ordentlich", „konzentriert", „respektvoll") aufspüren lassen – *„Jedes Adjektiv ist ein Versteck für Vagheit. Ersetze es durch eine Handlung."*
+Merksatz fürs Ende: *„Drei Minuten Puffer. Packen auf Signal. Abschied im Stehen."*
 
-### Runde 2 · Härtetest im Tandem (Min. 43–50)
-Partner prüft jede Erwartung mit genau zwei Fragen: **„Woran genau würde ICH als Beobachter die Erfüllung erkennen?"** und **„Kann ein 14-Jähriger das missverstehen – und wie?"** → gemeinsam nachschärfen. Dann wählt jeder EINE Erwartung und spricht die komplette Einführung einmal laut (Erwartung + Begründung + zwei CFU-Fragen) – Partner stoppt: unter 60 Sekunden?
+## Phase 5 · Do it: Rollenspiel-Karussell (Minute 34–52)
 
-### Blitzlicht (Min. 50–52)
-2 TN sprechen ihre Einführung im Plenum; Moderation würdigt konkret (Precise-Praise-Vorbild).
+**Setup:** Vierergruppen an der Spielfläche (bei 8 TN: zwei Flächen). Rollen: 1 Lehrkraft, 2–3 Klasse, 1 Regie/Beobachter mit Checkliste (= die 7 Schritte).
+
+**Runde 1 (Min. 34–41):** Jeder spielt die komplette Sequenz einmal, Klasse kooperativ. Beobachter checkt die 7 Schritte ab; Feedback nach Standardregel (Wirksames zuerst, EIN Impuls); die schwächste Stelle wird sofort 30 Sekunden nachgespielt.
+
+**Runde 2 (Min. 41–48):** Regie zieht verdeckt EINE Störkarte (Anhang 1.2). Die Lehrkraft weiß nicht, welche. Fokus-Feedback: Wurde Schritt 3 durchgehalten (Warten statt Hineingrüßen)? Blieb der Ton warm? Kam ggf. Do It Again neutral?
+
+**Runde 3 – Skript-Reinschrift (Min. 48–52):** Jeder überträgt SEINE Routine in die dreispaltige Vorlage (Anhang 1.1) – **inklusive der drei Ende-Zeilen** (Pack-Signal, Verabschiedungs-Wortlaut, zwei Reservekarten-Fragen) → erste offizielle Playbook-Seite. Wer fertig ist, spricht dem Tandempartner den Verabschiedungs-Wortlaut einmal laut vor. Moderation: *„Dieses Blatt ist ab Montag euer Spickzettel. Legt es die erste Woche wirklich aufs Pult – Profis arbeiten mit Checklisten, Piloten seit hundert Jahren."*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
-**Standard:** *„Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei CFU-Fragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?"*
+**Standard:** *„Ich führe ab Montag in Klasse X das Do Now ein: Aufgabe steht an der Tafel, bevor ich grüße; ich warte auf 100 % Stehen und Stille; mein Setz-Signal + Starter-Satz sind jedes Mal wörtlich gleich; der Timer startet mit dem Setzen. Ich messe täglich: Sekunden vom Setz-Signal bis ~90 % arbeiten."*
 
 **Alternativen:**
 
-1. Erwartungs-Neustart für die komplette Begrüßungsroutine (wenn diese zäh läuft – Vorgriff auf W3, mit Coach abstimmen);
-2. für Sek-II-Kurse: eine „erwachsene" Erwartung inkl. Begründung einführen (Laptop-/Handy-/Diskussionsregel).
+0. Ende-Woche: jede Stunde endet drei Minuten vor dem Klingeln geordnet – Packen auf Signal, Verabschiedung im Stehen; ich notiere täglich, ob es gehalten hat;
+1. Nur Schritt 3 fokussieren (für TN, deren Ritual „durchgewunken" wird): eine Woche konsequent auf 100 % warten, Erlebnisse notieren;
+2. Do It Again einführen: beim ersten ausgefransten Start der Woche neutral zurücksetzen und die Reaktion der Klasse festhalten.
 
-Schriftlich ins Formular, Kopie an Coach.
+> **Ausblick:** *„Nächste Woche: Was tun, wenn ihr MITTEN in der Stunde die Aufmerksamkeit zurückbraucht – und wie ihr Anweisungen gebt, die beim ersten Mal ankommen. Bringt eure Stoppuhr-Werte mit!"*
 
-> **Ausblick:** *„Nächste Woche nehmen wir uns die wertvollste Minute eurer Stunde vor: die erste. Unsere Begrüßungsroutine wird vom Ritual zum Werkzeug – mit Skript, Timer und allem Drum und Dran."*
-
-## Phase 7 · Exit-Karte (Minute 58–60)
-Standard: leuchtet ein / bin skeptisch.
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
 ---
 
 # 4. Coaching-Woche 2 (Handreichung)
 
-- **Hospitationsfokus:** Die Einführung der Erwartung (Termin mit TN abstimmen – der Coach soll die EINFÜHRUNG sehen, nicht irgendeine Stunde). Wortlaut mitschreiben.
-- **Beobachtungsleitfragen:** Waren alle 5 Kriterien hörbar? Kam die Begründung? Wurde per CFU geprüft – oder mit „Alles klar?" (typischer Rückfall)? Wie reagierte die Klasse?
-- **Auswertungsgespräch:** Erfolg konkret würdigen → Wortlaut-Protokoll gemeinsam lesen → Action Step für die Einforderungs-Woche schärfen („Wenn Schüler X die Erwartung Montag bricht, sage ich wörtlich: …" – 2× im Gespräch durchspielen!).
-- **Red Flag:** TN, die berichten „Ich habe eigentlich gar keine Erwartungen, ich reagiere nur" → im Coaching gemeinsam den Canvas füllen, ggf. Doppel-Slot.
+- **Hospitationsfokus:** ausschließlich die ersten 10 Minuten (danach darf der Coach gehen – das Signal „ich komme nur für deinen Action Step" stärkt die Fokus-Logik). **Bei Action-Step-Alternative 0 stattdessen die letzten 8 Minuten.**
+- **Messwerkzeuge:** Stoppuhr (Setz-Signal → 90 % arbeiten); Protokoll: Wurde auf 100 % gewartet? Wortlaut des Starter-Satzes konstant? Timer sichtbar? Scan oder Pult?
+- **Auswertungsgespräch:** Zahlen zeigen (Tagesverlauf!) – fast immer sinkt die Zeit über die Woche: der motivierendste Datenpunkt des Frühjahrs. Danach: nächster Feinschliff als Action Step (häufig: Schritt 7, weil viele nach dem Setz-Signal sofort zum Pult gehen).
+- **Red Flag:** Klassen, die das Aufstehen aktiv verweigern/karikieren → das ist kein Routine-, sondern ein Normen-/Beziehungsthema: W.I.N.-Vorgriff im 1:1, ggf. Erwartungs-Neustart (W1) mit Klassengespräch; nicht allein am Ritual herumdoktern.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Sechs Beispielpaare „vage → spezifisch"
+## 1.1 Handout A: Dreispaltige Skript-Vorlage (mit Musterbeispiel)
 
-| Vage (Gefühl) | Spezifisch (Erwartung) |
-|---|---|
-| „Kommt ordentlich rein." | „Nach dem Setzen: Heft + Mäppchen liegen bereit, ihr arbeitet still am Starter – spätestens nach 60 Sekunden." |
-| „Meldet euch vernünftig." | „Eine Hand hebt sich still. Gesprochen wird, wenn der Name fällt." |
-| „Seid respektvoll in Diskussionen." | „Ausreden lassen. Widerspruch beginnt mit dem Argument des anderen: ‚Du sagst X – ich sehe das anders, weil…'" |
-| „Arbeitet konzentriert in Gruppen." | „Flüsterlautstärke: Nur euer Tisch hört euch. Jeder hält sein Ergebnis schriftlich fest." |
-| „Geht anständig mit Material um." | „Bücher werden mit beiden Händen zurückgestellt; Beschädigungen meldet ihr mir sofort – ohne Ärger zu bekommen." |
-| „Seid pünktlich fertig." (Oberstufe) | „Abgabe bis 14:00 Uhr im Kursordner. Wer es nicht schafft, schreibt mir VORHER – wie später im Beruf auch." |
+| Tool / Schritt | Wortlaut (kursiv = wörtlich sprechen) | Aktion & Hinweise |
+|---|---|---|
+| 1 Vorbereitung | — | Do Now an Tafel/Folie VOR dem Gruß; Timer bereit |
+| 2 Fester Punkt | — | wortlos zur Position Mitte vorn; Unterlagen bleiben zu |
+| 3 Warten 100 % | — | ruhiger Blick durch den Raum; bei Restunruhe: freundlich weiterwarten, Blick zu den Betreffenden; KEIN Gruß in Unruhe |
+| 4 Gruß | *„Guten Morgen, 9b."* | Blick kreist; Antwort abwarten |
+| 5 Setz-Signal + Starter-Satz | *„Setzt euch – ihr wisst, was zu tun ist: Starter an der Tafel, vier Minuten, still."* | identischer Wortlaut jede Stunde |
+| 6 Timer | — | startet exakt mit dem Setz-Signal, für alle sichtbar |
+| 7 Scan | — | vorn bleiben, Blick kreist 30–60 Sek.; erst dann Orga |
+| (Reset) | *„Das können wir flüssiger. Noch einmal."* | Do It Again: neutraler Ton, kein Vorwurf, sofort neu |
+| **E1 Puffer** | — | Ende ab 3 Min. vor dem Klingeln eingeplant; letzter Inhaltsblock endet vorher |
+| **E2 Pack-Signal** | *„Stifte weg, Hefte zu – aufräumen."* | erst auf Signal; nie „schon mal leise packen" |
+| **E3 Verabschiedung** | *„Danke für die Stunde – bis Donnerstag."* | im Stehen, Blick kreist; Spiegel der Begrüßung |
+| (Reserve) | *„Zwei Fragen noch: …"* | Reservekarten für übrig bleibende Minuten (Every Minute Matters) |
 
-## 1.2 Handout B: Erwartungs-Canvas
+*(Leerversion auf der Rückseite zum Selbst-Ausfüllen.)*
 
-| Nr. | Erwartetes Verhalten (Handlung, kein Adjektiv!) | Woran sichtbar/messbar? | Begründung (1 Satz, „damit…") |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+## 1.2 Störkarten-Set A (Regieanweisungen für die „Klasse")
 
-Darunter: **Einführungs-Skript** (Erwartung → Begründung → CFU-Frage 1 → CFU-Frage 2) + **Vertretungslehrer-Test bestanden? ☐**
+- **A1 „Die Sitzenbleiber":** Zwei SuS bleiben beim Aufstehen demonstrativ-lässig sitzen, stehen erst bei direktem Blick auf. *(Lernziel Lehrkraft: warten + Blick statt Ansprache; keine Diskussion vor dem Gruß.)*
+- **A2 „Das Kichern":** Beim Aufstehen kichern zwei SuS anhaltend miteinander. *(Lernziel: freundlich weiterwarten; ggf. nach dem Setzen leise Einzelansprache – nicht die ganze Klasse abstrafen.)*
+- **A3 „Das Nachplätschern":** Nach dem Setzen tuscheln drei SuS weiter statt zu starten. *(Lernziel: Starter-Satz nicht wiederholen/zerreden; Blick + Nähe; notfalls Do It Again für den Startmoment.)*
+- **A4 „Die Sofort-Frage":** Direkt nach dem Setz-Signal platzt eine laute inhaltliche Frage herein. *(Lernziel: freundlich parken: „Gute Frage – nach dem Starter." Routine schützen.)*
+
+## 1.3 Handout B: Do-Now-Kriterien + Fachbeispiele
+
+**Kriterien:** ohne Erklärung lösbar · schriftlich · 3–5 Min. · idealerweise Wiederholung · steht VOR dem Gruß.
+
+Beispiele: **Mathe:** „Löse: 3(x–2)=15. Notiere jeden Schritt." · **Deutsch:** „Nenne die drei Merkmale der Kurzgeschichte von letzter Woche – je ein Beispiel aus ‚…'" · **Englisch:** „Write 3 sentences about your weekend using the past perfect." · **Geschichte:** „Ordne: Kriegsende – Währungsreform – Grundgesetz. Begründe in einem Satz." · **Naturwissenschaften:** „Skizziere den Versuchsaufbau von Dienstag und beschrifte drei Teile." · **Oberstufe (alle Fächer):** „Formuliere die Kernthese des letzten Textes in maximal 20 Wörtern."
 
 ---
+
+## 1.4 Handout C: Ende-Bausteine (A6, Rückseite der Skript-Vorlage)
+
+**Die drei Bausteine:** Puffer (3 Min. vor dem Klingeln) · Abschluss auf Signal (packen auf Ansage, Verabschiedung im Stehen) · Reservekarten (2–3 Abruf-Fragen).
+
+**Verbotssätze:** „Ihr könnt schon mal leise packen." · „Die Hausaufgabe steht an der Tafel" (in den Lärm gerufen) · „Wir sind schon fertig, ihr könnt reden."
+
+**Meine Reservekarten für diese Woche (2–3 Fragen zum Stoff, ohne Vorbereitung stellbar):**
+1. …
+2. …
+3. …
+
+**Mein Verabschiedungs-Wortlaut (jedes Mal gleich):** …
 
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Nenne die fünf mentalen Modelle aus Woche 1. *(Gedächtnis / Gewohnheiten / Aufmerksamkeit / Motivation ist sozial / Unterrichten ist Beziehungsarbeit)*
-2. „Gestern konnten sie es noch" – erkläre mit Modell 1. *(nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis angekommen)*
-3. Was folgt aus „Motivation ist sozial" für die Deutung von Störungen? *(meist Normphänomen, nicht persönlicher Angriff)*
-4. Ergänze: Gelernt wird, was ___ wird. *(beachtet/gedacht)*
-5. (Anwendung) Deine Klasse startet chaotisch in die Stunde – welche zwei Modelle erklären das am ehesten und warum? *(2: fehlende Routine; 4: Chaos ist Norm geworden; auch 3 vertretbar)*
+1. Nenne die 5 Kriterien einer tragfähigen Erwartung. *(beobachtbar, messbar, positiv, begründet, geprüft)*
+2. Warum ist voreiliges Absenken einer Erwartung teurer als konsequentes Einfordern? *(Norm senkt sich mit; Nachschärfen wird als Ungerechtigkeit erlebt)*
+3. Was ist Behavioural CFU – ein Beispiel? *(Verständnis der Erwartung prüfen: „Was passiert nach dem Setzen, Jonas?")*
+4. Welches mentale Modell begründet, dass Routinen Denken freisetzen? *(Modell 2 – via Modell 1: WM-Entlastung)*
+5. (Anwendung) Formuliere „Seid leise beim Reinkommen" spezifisch um. *(z. B.: „Nach dem Setzen arbeitet ihr ohne Gespräch am Starter; Fragen per Handzeichen.")*
 
-## Teil 2: Modul-Quiz Woche 2 (für SPA/Folgewoche) – Distraktoren aus Fehlvorstellungen
-**F1.** „Hohe Erwartungen haben" bedeutet in erster Linie:
-a) streng und unnachgiebig sein ✗ *(Härte-Gleichsetzung)*
-b) Klarheit + Zutrauen + konsequent freundliches Einfordern ✓
-c) viele Regeln aufstellen ✗
-d) keine Rücksicht auf schwierige Lebenslagen nehmen ✗ *(Empathie-Strohmann)*
+## Teil 2: Modul-Quiz Woche 2 (für SPA/Folgewoche)
+**F1.** Die Klasse steht beim Ritual unruhig und halb. Beste Reaktion:
+a) trotzdem grüßen – Zeit ist knapp ✗ *(DER Kernfehler)*
+b) schweigend, freundlich warten; ggf. ruhig neu ansetzen ✓
+c) das Ritual abschaffen, es wirkt kindisch ✗ *(Sek-II-Mythos)*
+d) die Unruhigen vor dem Gruß ermahnen ✗ *(startet die Stunde mit Korrektur)*
 
-**F2.** Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:
-a) Die Klasse ist unwillig/testet dich ✗ *(Personalisierung)*
-b) Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback ✓
-c) Die Erwartung war zu hoch – absenken ✗ *(voreiliges Lockern – der teuerste Fehler)*
-d) Ohne Strafen geht es eben nicht ✗
+**F2.** Ein gutes Do Now…
+a) führt ins neue Thema ein und braucht eine kurze Erklärung ✗ *(plausibel – erzeugt aber die Frage-Traube)*
+b) ist ohne Hilfe lösbar, schriftlich, wiederholt Bekanntes ✓
+c) beschäftigt die Schnellen, bis alle da sind ✗
+d) wird eingesammelt und benotet ✗
 
-**F3.** „Respektvoll miteinander umgehen" ist als Erwartung:
-a) ideal, weil werteorientiert ✗ *(klingt pädagogisch wertvoll!)*
-b) zu vage – nicht beobachtbar, nicht prüfbar ✓
-c) nur für jüngere Klassen geeignet ✗
-d) juristisch problematisch ✗
+**F3.** Der Starter-Satz sollte…
+a) täglich variieren, sonst wird es langweilig ✗ *(Abwechslungs-Reflex)*
+b) wörtlich identisch bleiben – Konstanz macht ihn zum Signal ✓
+c) möglichst ausführlich sein ✗
+d) schriftlich ersetzt werden ✗ *(teilrichtig: Aufgabe steht schriftlich – das SIGNAL bleibt mündlich)*
 
-**F4.** Warum eine Begründung („damit…") zur Erwartung?
-a) Höflichkeitsfloskel ✗
-b) Sinn erhöht Akzeptanz – besonders bei älteren SuS ✓
-c) rechtlich vorgeschrieben ✗
-d) damit Eltern nicht klagen ✗
+**F4.** „Do It Again" ist…
+a) eine Kollektivstrafe ✗
+b) ein neutraler Reset: Standard einüben, Zutrauen zeigen ✓
+c) Zeitverschwendung ✗ *(Amortisations-Blindheit)*
+d) nur in Klasse 5–7 einsetzbar ✗
 
-**F5.** In der Oberstufe sind explizite Verhaltenserwartungen:
-a) überflüssig – junge Erwachsene wissen das ✗ *(DER Sek-II-Mythos)*
-b) nötig, aber im Ton erwachsen formuliert ✓
-c) kränkend ✗
-d) nur bei Problemen einzuführen ✗ *(dann ist das Fenster zu)*
+**F5.** Direkt nach dem Setz-Signal gehst du zum Rechner, um den Beamer zu starten. Problem?
+a) keins – Technik muss laufen ✗
+b) Schritt 7 fehlt: Ohne Scan lernt die Klasse, dass der Start unbeobachtet ist ✓
+c) Beamer gehört verboten ✗
+d) nur ein Problem in Sek I ✗
 
-**F6 (Transfer, Freitext):** Formuliere „Seid leise während der Stillarbeit" nach allen 5 Kriterien um – inklusive Begründungssatz und einer CFU-Frage. *(Muster: „Stillarbeit heißt: kein Gespräch, Fragen per Handzeichen an mich – damit jeder ungestört denken kann. – CFU: ‚Emre, was machst du, wenn du eine Frage hast?'")*
-
----
-
-# Anhang 3: Action-Step-Formular (Standard ab W2)
-- Mein Action Step (wörtlich): …
-- Lerngruppe(n) / Stunden: …
-- Mein Einführungs-Skript in Stichworten: …
-- Woran erkenne ich am Freitag Erfolg? (Zählbar!) …
-- Kopie an Coach am: …
+**F6 (Transfer, Freitext):** Deine 8. Klasse braucht am Montag nach den Ferien 3 Minuten, bis alle stehen und still sind. Beschreibe dein Vorgehen in dieser Stunde UND deinen Plan für Dienstag. *(Muster: Montag ruhig durchhalten, ggf. Do It Again + kurzer Erwartungs-Neustart mit Begründung; Dienstag: identischer Ablauf, auf Konstanz setzen; NICHT: Ritual aufgeben oder Strafandrohung.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 2"
+**F7.** „Ihr könnt schon mal leise packen" (Minute 40) bewirkt…
+a) einen entspannten Ausklang ✗ *(fühlt sich großzügig an!)*
+b) die Norm, morgen ab Minute 38 zu packen ✓
+c) Dankbarkeit ✗
+d) nichts ✗
 
-1. **Hook (2 Min.):** Das Kontrastpaar A/B als Hörbeispiel; Nutzer tippt: „Bei wem weiß die Klasse, was zu tun ist?"
-2. **See it (5 Min.):** „Verhalten ist ein Curriculum" als Parallel-Animation: dieselbe Didaktik-Kette (erklären→üben→prüfen→Feedback) einmal für Bruchrechnung, einmal für die Meldung – synchron.
-3. **Name it (4 Min.):** Die 5 Kriterien als Checkliste; Sortier-Spiel: 8 Formulierungen den Kriterien-Verstößen zuordnen.
-4. **Do it – Umformulierungs-Trainer (7 Min., Kern-Engine!):** Vage Erwartung eingeben oder aus Liste wählen → App prüft per Heuristik/KI: Adjektiv-Alarm, Beobachtbarkeit, Positiv-Formulierung, Begründung vorhanden → iteratives Nachschärfen mit Ampel-Feedback. Beispiel-Bibliothek nach Stufe (Sek I/II) filterbar (Handout A als Startdatensatz).
-5. **Skript-Editor (4 Min.):** Einführungs-Skript (Erwartung+Begründung+2 CFU-Fragen) verfassen → wandert ins digitale Playbook.
-6. **Quiz (Teil 2)** – F2 und F5 sind die wichtigsten Fehlvorstellungs-Anker; plus 30 % Fragen aus Modul 1 (Modelle zuordnen).
-7. **Action-Step-Formular** mit Freitag-Erinnerung und Zählfeld („Erinnerungen Mo vs. Fr").
+**F8 (Transfer, Freitext):** Deine Stunde endet regelmäßig im Klingelchaos. Beschreibe die drei Bausteine, mit denen du das ab Montag änderst – und den Satz, den du streichst. *(Muster: Puffer 3 Min. vorher, Packen erst auf Signal, Verabschiedung im Stehen; gestrichen wird „Ihr könnt schon mal leise packen".)*
+
+# Anhang 3: Ableitung für die SPA „Modul 2"
+
+1. **Hook (2 Min.):** Der Zeitrechner: Nutzer gibt eigene Wochenstunden + geschätzte „Anlaufminuten" ein → App rechnet Jahresverlust hoch („Deine verlorene Arbeitswoche").
+2. **See it (6 Min.):** Video-Kontrastpaar Variante A/B (alternativ Audio + Illustration); danach Tipp-Aufgabe: „Markiere die 3 Unterschiede" (aus 6 Optionen).
+3. **Name it (4 Min.):** Die 7 Schritte als sortierbare Karten (Reihenfolge herstellen); Schritt 3 wird bei Erfolg hervorgehoben: „Der Qualitätsschritt".
+4. **Do it – Skript-Editor (7 Min., Engine-Wiederverwendung!):** Dreispaltige Vorlage digital ausfüllen (Muster einblendbar); Pflichtfelder: Gruß-Wortlaut, Starter-Satz; Playbook-Export.
+5. **Szenario-Simulator (4 Min.):** Die 4 Störkarten als verzweigte Entscheidungen („Zwei bleiben sitzen – was tust du?" → 3 Optionen → Konsequenz-Feedback mit Norm-Erklärung).
+6. **Do-Now-Baukasten:** Fach wählen → Beispielaufgaben (Anhang 1.3 als Startdatensatz) → eigene formulieren → Kriterien-Check (erklärt sich selbst? schriftlich? 3–5 Min.?).
+7. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–2). **Abschluss:** Action-Step-Formular mit täglichem Stoppuhr-Eingabefeld (Wochen-Verlaufskurve als Motivations-Feature!).

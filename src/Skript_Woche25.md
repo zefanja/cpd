@@ -1,5 +1,5 @@
-# Skript Woche 25: „Show Me, Affirmative Checking & Show Call – Daten sichtbar machen"
-## 60-Minuten-Sitzung · Block 4 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 25: „Vom Datum zur Entscheidung – Reteaching & Own and Track + Konsolidierung Block 4"
+## 60-Minuten-Sitzung · Block 4 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,164 +7,157 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie sehe ich in Echtzeit, was 30 Köpfe denken – und wie nutze ich Schülerarbeiten öffentlich? |
-| **Kernquellen** | Lemov T10 (Show Me), T11 (Affirmative Checking), T13 (Show Call) |
-| **Funktion im Jahr** | Macht die seit W12 nebenbei genutzten Whiteboards zur vollwertigen Technik (mit eigener Routine!) und führt mit Show Call die stärkste Feedback-Form ein – möglich erst JETZT, weil Fehlerkultur (W21) und Everybody-Writes-Material (W24) vorliegen. Affirmative Checking schließt die W12-Lücke „eingeübte Fehler". Show Call kehrt in W28 (Normen-Maschine) und W34 (Whole-Class-Feedback) wieder. Vorbereitung der ersten PEER-Hospitation (GH 4). |
-| **Lernziele** | Die TN können:<br>1. eine Whiteboard-Routine skripten und einführen (Schreibsignal → Stille → 3-2-1-hoch → Scan → Entscheidung),<br>2. Checkpoints in Arbeitsphasen einbauen,<br>3. eine Show-Call-Moderation im Dreischritt führen (würdigen → präzise verbessern → Transfer) – bei fehlerhaften UND exzellenten Arbeiten. |
-| **Sitzungstyp** | Technik-Training mit Live-Erleben + Moderations-Übung an echten Arbeiten. |
+| **Leitfrage** | Was mache ich mit all den Daten – heute, morgen, vor der Klassenarbeit? |
+| **Kernquellen** | Lemov T14 (Own and Track); Bambrick-Santoyo (Driven-by-Data-Logik, vereinfacht); Verzahnung mit T26 (W13) |
+| **Funktion im Jahr** | Block-4-Finale: schließt den Datenkreislauf Sehen (W24) → Entscheiden → Handeln. Die Reteach-Formate operationalisieren die >⅓-Faustregel aus W13; Own and Track verlängert die Fehlerkultur (W20) in die Schülerhand und wird in W33 (DIRT) wiederaufgenommen. Das CFU-Repertoire-Blatt konsolidiert den Block. Block-4-Quiz als Meilenstein-Messung; Peer-Hospitation 4 läuft in dieser Phase. |
+| **Lernziele** | Die TN können:<br>1. aus Fehlerprofilen die passende Reteach-Entscheidung ableiten (Klasse / Kleingruppe / Einzelimpuls),<br>2. die Replay-Falle vermeiden (Reteach = NEUER Zugang),<br>3. Fehlerkorrektur per Fehlerjournal in Schülerhand geben,<br>4. CFU-Daten einer Einheit zur gezielten Klassenarbeits-Vorbereitung aggregieren. |
+| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Datenfall-Duell + Konsolidierungs-Ritual. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Plenum + Vierergruppen; Dokumentenkamera/Visualizer ODER Handy+Beamer (Show-Call-Technik real zeigen!). **Material:**
-- [ ] Retrieval-Quiz liegt aus (läuft heute demonstrativ als perfekte Whiteboard-Routine – die Moderation modelliert Schritt für Schritt!)
-- [ ] Klassensatz Mini-Whiteboards
-- [ ] 4 anonymisierte Schülerarbeiten (2 fehlerhaft, 1 solide, 1 exzellent – vom Coach besorgt; Fallback: Anhang 1.3)
-- [ ] Handout A: Whiteboard-Routine + Fingercodes + Entscheidungsregel (Anhang 1.1)
-- [ ] Handout B: Show-Call-Dreischritt + Einführungsskript (Anhang 1.2)
-- [ ] Beobachtungsbogen Peer-Hospitation 4 (Anhang 3)
+**Raum:** Vierergruppen; zwei unterschiedliche Fall-Sets vorbereitet. **Material:**
+- [ ] Block-4-Quiz, 20 Fragen kumulativ (Anhang 2, Teil 1) + Lösungsfolie
+- [ ] Zwei Datenfall-Sets (Anhang 1.1): Set A „ein Muster, >40 %" / Set B „diffus" – je als beschriebenes Ticket-Profil (oder echte anonymisierte Sätze vom Coach)
+- [ ] Handout A: Entscheidungs-Dreisatz + Reteach-Formate (Anhang 1.2)
+- [ ] Handout B: Fehlerjournal-Beispielseite + Einführungsskript (Anhang 1.3)
+- [ ] CFU-Repertoire-Blatt (Anhang 1.4); Kompetenzmatrix-Bögen
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
 
-## Phase 1 · Retrieval-Starter als Modell (Minute 2–9)
-5 Fragen – heute führt die Moderation die Whiteboard-Routine DEMONSTRATIV mustergültig: *„Frage lesen … schreibt – still … [Scan] … drei – zwei – eins – hoch! … [Blick schwenkt 5 Sek.] … Runter. Ich habe gesehen: Bei Frage 2 fehlen einigen die letzten zwei Stufen – die klären wir in 30 Sekunden…"* Danach Meta-Kommentar: *„Ihr habt gerade das heutige Thema erlebt: Ich habe fünfmal in Folge die komplette Klasse geröntgt UND jedes Mal eine sichtbare Entscheidung getroffen. Heute zerlegen wir das."*
+## Phase 1 · Block-4-Quiz (Minute 2–12)
+20 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Viertes Block-Quiz – und wer die eigene Fehlerkurve über die vier Quizze verfolgt, betreibt gerade Own and Track an sich selbst. Das Werkzeug dazu bekommt ihr heute für eure Klassen."*
 
-## Phase 2 · Input A: Show Me & Affirmative Checking (Minute 9–20)
+## Phase 2 · Input: Die Entscheidungslogik (Minute 12–26)
 
-### 2a · Show Me: das Röntgengerät (Min. 9–15)
+### 2a · Vom Stapel zur Entscheidung (Min. 12–18)
 > **Moderationstext:**
-> *„Erinnert euch an Woche 12: Drei richtige Meldungen sind keine Daten. **Show Me** ist die Antwort in Serienreife: Alle antworten gleichzeitig sichtbar – Whiteboards, Fingercodes (eins bis vier für Multiple Choice), ABCD-Karten. In neunzig Sekunden habe ich hundert Prozent Beteiligung UND die komplette Fehlerverteilung. Das ist der Unterschied zwischen Stichprobe und Röntgenbild.*
-> *Aber – und das ist der Punkt, an dem es in der Praxis scheitert – **Show Me ist eine ROUTINE, kein Einfall.** Ohne Routine: Boards werden bemalt, hochgehalten wird nach Sicht beim Nachbarn, das Runter dauert ewig. Mit Routine – und ihr wisst seit Woche 3, wie man Routinen baut – läuft es in Sekunden: Schreibsignal, Stille während des Schreibens (sonst schreibt die Hälfte beim Nachbarn ab und das Röntgenbild lügt!), auf ‚drei-zwei-eins-hoch' gleichzeitig, fünf Sekunden Scan, Runter-Signal. Und dann – der Schritt, der aus dem Spielzeug ein Werkzeug macht – **die sichtbare Entscheidung:** ‚Achtzehn richtig, sieben mit demselben Vorzeichenfehler – wir schauen einmal gemeinsam hin, dann weiter.' Sehen ohne Entscheiden ist Deko."*
+> *„Woche 13 endete mit einer Faustregel: rot plus gelb über ein Drittel – Reteach. Heute die Feinmechanik, denn nicht jedes Fehlerprofil verdient dieselbe Antwort. Der **Entscheidungs-Dreisatz**, drei Fragen an jeden Stapel:*
+> *​Frage eins: **Welches MUSTER?** Ein Fehler bei vielen – oder viele verschiedene Fehler bei wenigen? Das ist die wichtigste Weiche, und sie wird am häufigsten übersehen.*
+> *​Frage zwei: **Welches FORMAT?** Ein Muster bei über einem Drittel → zehn Minuten Klassen-Reteach am Folgetag. Ein Muster bei zehn bis dreißig Prozent → Kleingruppe an den Gruppentisch, WÄHREND der Rest übt – und dass der Rest selbstständig übt, verdanken wir euren Routinen aus Block 1; ohne sie ist die Kleingruppe unmöglich. Einzelfälle → Impuls beim Circulate, die Namen stehen auf eurem ActiveObs-Bogen.*
+> *​Frage drei – die eiserne Regel: **Welcher NEUE Zugang?** Reteach ist niemals Replay. Die alte Erklärung, nur lauter und langsamer, hat es beim ersten Mal nicht geschafft – warum sollte sie es beim zweiten? Neuer Zugang heißt: anderes Beispiel, andere Darstellung (Zeichnung statt Regel, Zeitstrahl statt Text, Gegenbeispiel statt Beispiel), anderer Einstiegspunkt. Eure Fading-Treppe aus Woche 11 ist die Fundgrube: Oft ist der neue Zugang schlicht eine Stufe tiefer.*
+> *Und die Diffus-Falle: Wenn der Stapel VIELE VERSCHIEDENE Fehler zeigt, ist der Klassen-Reteach die falsche Antwort – ihr würdet zwanzig Leuten etwas erklären, das nur je drei brauchen. Diffuse Profile heißen: differenziert reagieren – Checkpoints, Kleingruppen-Rotation, Einzelimpulse – oder, wenn WIRKLICH alles wackelt, ehrlich sein: Die Einheit braucht einen Schritt zurück, nicht einen Flicken."*
 
-### 2b · Affirmative Checking: die Schranke (Min. 15–20)
-> *„Zweites Werkzeug, klein und unterschätzt: **Affirmative Checking** – Checkpoints in Arbeitsphasen. ‚Bevor ihr zu Aufgabe 3 geht: Zeigt mir Aufgabe 2 – Daumen an der Aufgabe, ich komme rum' oder als Board-Blitz. Warum? Woche 12, die teuerste Sorte Fehler: die zwanzig Minuten allein falsch geübten. Der Checkpoint ist die Schranke davor – niemand fährt mit einem eingebauten Fehler auf die Autobahn. Praktisch: ein bis zwei Checkpoints pro Übungsphase, an den Stellen, die euer Plan-for-Error aus Woche 21 als Risikozonen markiert. Eure Route aus Woche 13 bekommt damit Haltepunkte."*
+### 2b · Own and Track + Klassenarbeits-Vorlauf (Min. 18–26)
+> *„Zweiter Baustein – und er dreht die Verantwortung um: **Own and Track.** Die klassische ‚Berichtigung' – Musterlösung dreimal sauber abschreiben – ist Beschäftigung, kein Lernen: Abschreiben erzeugt keine Abrufspur, ihr wisst das seit Woche 17. Die Alternative: Der Fehler gehört dem Schüler, und er ARBEITET damit. Minimum: richtige Lösung selbst notieren PLUS ein Satz ‚Mein Denkfehler war …'. Dieser eine Satz ist der Unterschied zwischen Ritual und Lernen – wer seinen Denkfehler benennen kann, hat ihn verstanden. Das Zuhause dafür: ein **Fehlerjournal** – hinterer Heftteil oder eigenes Blatt, zwei Spalten. Vor der Klassenarbeit ist es das persönlichste Lernmaterial, das es gibt: Retrieval am eigenen Fehler, maßgeschneidert. Die Einführung ist – ihr ahnt es – W1-Handwerk: erklären, begründen, erste Einträge gemeinsam machen, prüfen.*
+> *Und der dritte Baustein, der alles zusammenzieht: **der Klassenarbeits-Vorlauf.** Eine Woche vor der Arbeit legt ihr eure gesammelten Daten nebeneinander – Ticket-Stapel, Board-Befunde, Top-3-Listen vom Klemmbrett – und fragt: Welche zwei, drei Baustellen tauchen ÜBERALL auf? Die bekommen die Wiederholstunde. Nicht ‚Wiederholt mal alles' – das ist die Gießkanne, und sie gießt vor allem das, was schon wächst. Gezielte Wiederholung dorthin, wo die Daten zeigen. Das ist der Moment, in dem sich ein halbes Jahr CFU-Aufbau in Notenpunkten auszahlt."*
 
-## Phase 3 · Input B: Show Call (Minute 20–30)
+## Phase 3 · Name it (Minute 26–30)
 
-> *„Und jetzt das Werkzeug mit der größten Hebelwirkung – und den höchsten Voraussetzungen: **Show Call.** Eine Schülerarbeit wird projiziert – Dokumentenkamera, Handyfoto an den Beamer – und gemeinsam besprochen. Warum ist das so stark? Feedback an einem echten, konkreten Beispiel erreicht die ganze Klasse gleichzeitig; die Everybody-Writes-Zettel von letzter Woche sind das perfekte Rohmaterial. Und warum ist es voraussetzungsreich? Weil es OHNE die Fehlerkultur aus Woche 21 eine öffentliche Hinrichtung ist. Deshalb die Gelingensbedingungen:*
-> *Erstens: **als Ehrung einführen.** Wörtlich, bevor die erste Arbeit an die Wand geht: ‚Wenn ich eine Arbeit zeige, ist das eine Auszeichnung – an dieser Arbeit lernen wir alle. Es wird nie darum gehen, jemanden vorzuführen.' Am Anfang anonym (Name abdecken, Foto beschneiden); nach zwei, drei Wochen fragen die Ersten von selbst, ob ihre gezeigt wird – DAS ist der Kultur-Indikator.*
-> *Zweitens: **der Dreischritt**:*
-> - *Würdigen – konkret, was trägt: ‚Der Ansatz in Zeile eins ist genau richtig gewählt.'*
-> - *EINEN Verbesserungsfokus – nicht fünf: ‚Schaut auf Zeile drei – wo kippt es, und warum ist das verführerisch?' (Die Klasse arbeitet, nicht die Lehrkraft – Cold Call, Turn and Talk, alles einsetzbar!)*
-> - *Transfer: ‚Prüft jetzt eure eigene Zeile drei.'*
->
-> *Drittens – und das vergessen fast alle: **Auch Exzellenz zeigen.** Nicht nur Fehler-Anschauung – auch die herausragende Arbeit an die Wand: ‚So sieht eine vollständige Begründung aus – was genau macht sie so stark?' Erinnert ihr euch an Woche 2, Lovells Prinzip: Man muss Exzellenz GESEHEN haben, um sie anzustreben? Das galt für euch bei den Hospitationen – es gilt für eure Schüler bei Schülerarbeiten. Show Call kalibriert den Anspruch der Klasse."*
+**Entscheidungs-Dreisatz:** Muster? → Format? (>⅓ Klasse / 10–30 % Kleingruppe / einzeln Circulate) → NEUER Zugang? **Replay-Verbot:** anderes Beispiel, andere Darstellung, andere Stufe. **Own-and-Track-Minimum:** Lösung selbst + „Mein Denkfehler war …". **Vorlauf-Regel:** Daten aggregieren → 2–3 Baustellen → gezielte Wiederholstunde. Merksatz: *„Die Daten entscheiden – und nie zweimal dieselbe Erklärung."*
 
-## Phase 4 · Name it (Minute 30–33)
+## Phase 4 · Do it: Datenfall-Duell (Minute 30–48)
 
-**Whiteboard-Routine:** Schreibsignal → still schreiben → „3-2-1-hoch" → 5-Sek.-Scan → Runter → **sichtbare Entscheidung** (weiter / gemeinsam hinschauen / Kleingruppe). **Checkpoint-Regel:** 1–2 pro Übungsphase, an Plan-for-Error-Risikozonen. **Show-Call-Dreischritt:** würdigen → EIN Fokus (Klasse arbeitet!) → Transfer. Merksatz: *„Sehen ohne Entscheiden ist Deko – Zeigen ohne Würdigen ist Vorführen."*
+### Runde 1 · Diagnose & Plan (Min. 30–42)
+Zwei Gruppen-Hälften bekommen je ein Fall-Set (Anhang 1.1): Diagnose per Dreisatz → Reteach-Miniplan (Format, NEUER Zugang konkret!, Erfolgscheck: Woran merke ich morgen, dass es saß? → Board-Blitz!) → 60-Sekunden-Pitch. **Der inszenierte Aha:** Set A führt zum Klassen-Reteach, Set B NICHT – die Gruppen vergleichen und entdecken, dass identische Fehlerquoten verschiedene Antworten brauchen. Moderation erntet: *„Gleiche Prozentzahl, andere Struktur, andere Entscheidung – DAS ist Datenlesen."*
 
-## Phase 5 · Do it (Minute 33–52)
+### Runde 2 · Fehlerjournal adaptieren (Min. 42–48)
+Einzelarbeit: Journal-Format für die eigene Klasse festlegen (wo? wann gepflegt? – direkt nach Rückgabe, 10 Min. Stundenzeit!) + Einführungswortlaut notieren (Handout B als Gerüst). Tandem-Check: Ist der Denkfehler-Satz als PFLICHTFELD verankert?
 
-### Runde 1 · Whiteboard-Routine skripten & spielen (Min. 33–41)
-Vierergruppen: Routine dreispaltig skripten (W3-Format!) inkl. Einführungswortlaut für die Klasse; dann einmal komplett durchspielen (einer dirigiert, drei sind Klasse, eine eingebaute Störung: ein „Schüler" hält verspätet hoch und schielt vorher zum Nachbarn – Reaktion: Stille-Regel nachschärfen, nicht dramatisieren).
+## Phase 5 · Konsolidierung Block 4 (Minute 48–56)
 
-### Runde 2 · Show-Call-Moderation (Min. 41–52)
-An den 4 echten Arbeiten (rotierend, je ~2,5 Min. + 30 Sek. Feedback): Jeder moderiert einen Dreischritt – zwei TN an fehlerhaften, einer an der soliden, einer an der exzellenten Arbeit (Exzellenz-Moderation ist eigenes Handwerk: „Was macht sie stark?" statt „Fehler suchen"). Feedback-Fokus: Ton (Ehrung?), EIN Fokus gehalten?, hat die KLASSE gearbeitet (mindestens ein Cold Call/Turn-and-Talk-Element)?
+**CFU-Repertoire-Blatt** (Anhang 1.4) ausfüllen und ins Playbook: Welches Werkzeug wofür – Whiteboards (Echtzeit-Verteilung), Cold Call (Einzeltiefe + Ratio), Checkpoints (Fehler-Schranke), Exit Ticket (Stunden-Bilanz), Show Call (Feedback-Hebel), Fehlerjournal (Schüler-Ownership), Vorlauf-Aggregation (Prüfungs-Steuerung). 
 
-## Phase 6 · Action Step & Peer-Hospitations-Vorbereitung (Minute 52–58)
+> *„Schaut auf dieses Blatt: Vor sechs Wochen war eure einzige Frage ‚Alle verstanden?'. Heute steht hier ein komplettes Diagnose-Besteck. Block 4 ist das Herzstück des Jahres – ab jetzt fliegt ihr auf Instrumenten, nicht auf Sicht."*
 
-**Standard:** *„Ich führe die Whiteboard-Routine in Klasse X mit Skript ein und treffe in jeder Stunde mindestens EINE sichtbare Datenentscheidung – angesagt: ‚Ich sehe …, also machen wir …'."*
+**Kompetenzmatrix:** Felder 6–7 aktualisieren (an Coach).
+
+## Phase 6 · Action Step (Minute 56–58)
+
+**Standard:** *„Nach der nächsten Übungsphase oder dem nächsten Ticket-Stapel mit einem Muster über 30 % plane ich einen 10-Minuten-Reteach für den Folgetag – mit nachweislich NEUEM Zugang (notiert: alter Zugang war …, neuer ist …) und Board-Blitz als Erfolgscheck."*
 
 **Alternativen:**
 
-1. Show-Call-Start: ein Show Call pro Tag, erst anonym, ab Tag 3 mit einverstandenen Namen – Einführungsskript am Montag.
-2. Checkpoint-Woche: jede Übungsphase bekommt 1–2 Schranken an den Plan-for-Error-Zonen.
+1. Journal-Start: Fehlerjournal in einer Klasse einführen (Einführungsskript + erste gemeinsame Einträge nach der nächsten Rückgabe).
+2. Vorlauf-Pilot: für die nächste anstehende Klassenarbeit die Daten-Aggregation durchziehen und die Wiederholstunde danach bauen.
 
-**Peer-Hospitation 4 (4 Min. – neue Stufe!):** *„Ab dieser Runde hospitiert ihr EINANDER. Zwei von euch öffnen ihre Stunden – und hier die wichtigste Regel, sie ist zugleich Feedbackkultur-Modell: **Der Gastgeber bestimmt vorher den Beobachtungsfokus.** ‚Schaut bei mir auf die Ernte nach Turn and Talk' oder ‚Zählt meine CFU-Momente' – der Beobachtete steuert, was gesehen wird. Bogen: CFU-Zählprotokoll (Anhang 3). Wer öffnet?"* [Freiwillige + Termine fixieren; Coach moderiert die Nachbesprechung.]
+> **Ausblick:** *„Nach den Osterferien beginnt Block 5 – und er beantwortet die Frage hinter allen Fragen: Warum strengen Menschen sich an? Motivation als System mit fünf Stellschrauben. Erste Überraschung vorab: Die Hälfte des Werkzeugkastens besitzt ihr längst, ohne es zu wissen. Erholt euch – ihr habt das dichteste Drittel des Jahres geschafft."*
 
-> **Ausblick:** *„Ihr könnt jetzt sehen. Nächste Woche das letzte Puzzlestück von Block 4: Was tue ich mit all den Daten – heute, morgen, vor der Klassenarbeit? Reteaching, Fehlerjournale, und die Kunst, aus einem Ticket-Stapel eine Entscheidung zu machen. Plus Block-4-Quiz."*
+## Phase 7 · Exit-Karte (Minute 58–60)
+Erweitert (Blockabschluss):
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
+1. Mein wichtigstes CFU-Werkzeug: …
+2. Meine offene Daten-Frage: …
 
 ---
 
 # 4. Coaching-Woche 25 (Handreichung)
 
-- **Hospitationsfokus:** die Whiteboard-EINFÜHRUNG (Skript-Treue: Stille beim Schreiben? gleichzeitiges Hoch?) + Entscheidungs-Zählung: Wie oft wurde nach dem Scan eine Entscheidung ANGESAGT?
-- **Auswertungsgespräch:** Entscheidungs-Zählung zeigen (häufigster Befund: gescannt, genickt, weitergemacht – die Ansage fehlt); eine Scan-Situation nachspielen: Coach beschreibt ein Board-Tableau („8 von 25 falsch, gleicher Fehler"), TN formuliert die Entscheidung laut.
-- **Show-Call-Begleitung:** Beim ersten Show Call möglichst hospitieren – der Ton der Erstmoderation prägt die Kultur; ggf. vorher im 1:1 an einer Arbeit proben.
-- **Red Flag:** Show Call einer fehlerhaften Arbeit OHNE Einführungsritual/bei fragiler Fehlerkultur → stoppen: erst W21-Fundament prüfen (Lach-Verbot durchgesetzt?), Show Call ggf. 2 Wochen nur mit Exzellenz-Arbeiten fahren.
+- **Hospitationsfokus:** ein realer Reteach (Termin nach Ticket-Lage abstimmen): NEUER Zugang – oder Replay in Zeitlupe? Erfolgscheck am Ende vorhanden?
+- **Auswertungsgespräch:** Reteach-Protokoll; die Replay-Frage direkt stellen: „Was war am zweiten Zugang ANDERS als am ersten?" Wenn die Antwort stockt: gemeinsam einen echten Alternativ-Zugang für dieselbe Baustelle bauen (Fading-Treppe als Steinbruch).
+- **Peer-Hospitation 4:** Nachbesprechung moderieren (Bogen W24); die Gastgeber ausdrücklich würdigen; Muster über beide Stunden ziehen: „Welche CFU-Werkzeuge haben wir bei UNS gesehen – welche fehlen kollektiv?"
+- **Meilenstein-Check Block 4 im Gespräch:** Matrix-Felder 6–7 gegen Hospitationsbelege; Block-5-Ausblick.
+- **Red Flag:** TN reteacht ALLES („Sicherheitsdenken") und kommt im Stoff nicht voran → Dreisatz-Disziplin: Nur Muster über der Schwelle bekommen Klassenzeit; Rest läuft über Kleingruppe/Circulate – sonst frisst die Diagnose den Unterricht.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Whiteboard-Routine (dreispaltig, Muster)
-| Schritt | Wortlaut | Hinweise |
-|---|---|---|
-| Schreibsignal | *„Auf die Boards: [Aufgabe]. Still."* | Stille = Datenschutz fürs Röntgenbild |
-| Schreibphase | — | Scan von der Radar-Position (W6) |
-| Hoch | *„Drei – zwei – eins – hoch!"* | gleichzeitig; Nachzügler nicht kommentieren, beim 2. Mal Routine üben (Do It Again) |
-| Scan | — | 5 Sek., systematisch reihenweise; Fehlerverteilung merken (ggf. 2–3 Namen) |
-| Runter + Entscheidung | *„Runter. Ich sehe: … Also: …"* | IMMER ansagen: weiter / gemeinsam / Kleingruppe |
-**Fingercodes-Variante:** 1–4 Finger an die Brust (nicht hoch – diskreter, kein Abschauen). **Einführung:** W2-Bauplan (Erwartung + Begründung „Ich will euch ALLE sehen, nicht nur die Schnellen" + CFU + Probe).
+## 1.1 Die zwei Datenfall-Sets (beschriebene Profile; je 25 Tickets zur Aufgabe „Löse 3(x−2)=15 und erkläre deinen ersten Schritt")
+**Set A – ein Muster:** 13× richtig · 10× identischer Fehler: ausmultipliziert zu „3x−2=15" (Klammer-Distributiv-Fehler) · 2× leer. *(Erwartete Entscheidung: Klassen-Reteach 10 Min.; alter Zugang war die Regel „Klammer auflösen" – neuer Zugang z. B.: Klammer als „3 Päckchen mit je (x−2)" legen/zeichnen, Gegenbeispiel prüfen lassen; Erfolgscheck: 2 Board-Aufgaben.)*
+**Set B – diffus:** 14× richtig · 3× Distributiv-Fehler · 3× Vorzeichenfehler beim Umstellen · 2× Rechenfehler am Ende · 3× leer/Ansatz fehlt. *(Erwartete Entscheidung: KEIN Klassen-Reteach – 11 Fehler, aber 4 Ursachen; stattdessen: Checkpoint-gestützte Übungsphase, Kleingruppe für die 3 Ansatzlosen, Distributiv+Vorzeichen als gezielte Circulate-Impulse mit Namen; ggf. 2 Alt-Aufgaben ins nächste Set – W18!)*
 
-## 1.2 Handout B: Show-Call-Dreischritt + Einführungsskript
-**Einführung (wörtlich, vor dem ersten Mal):** *„Ab heute zeige ich manchmal eine eurer Arbeiten hier vorn. Das ist eine Auszeichnung: An dieser Arbeit lernen wir alle – an dem, was stark ist, und an dem, was viele genauso machen würden. Es geht NIE darum, jemanden vorzuführen; am Anfang bleiben die Namen weg. Über Fehler wird hier nicht gelacht – das gilt weiter."* **Dreischritt:** (1) Würdigen (konkret!) → (2) EIN Fokus, Klasse arbeitet (Cold Call/T&T) → (3) Transfer auf die eigene Arbeit. **Exzellenz-Variante:** „Was genau macht sie stark?" – 2 Merkmale von der Klasse benennen lassen, als Kriterien festhalten.
+## 1.2 Handout A: Dreisatz + Formate — siehe Phase 2a/3 (mit Format-Tabelle: Schwelle | Format | Zeitbedarf | Erfolgscheck).
 
-## 1.3 Fallback-Arbeiten (Bauanleitung, falls kein echter Satz verfügbar)
-Aufgabe: „Begründe in 3–4 Sätzen, ob 16-Jährige wählen dürfen sollten." **A (fehlerhaft):** Behauptung ohne Beleg, Wiederholung statt Begründung. **B (fehlerhaft):** zwei Argumente, aber Schluss widerspricht dem eigenen Argument. **C (solide):** These + Beleg, Fachbegriff fehlt. **D (exzellent):** These, Beleg, Gegenargument aufgegriffen, präzises Fazit. *(Zu jeder: 1 Würdigungs-Kandidat + 1 Fokus-Kandidat notiert.)*
+## 1.3 Handout B: Fehlerjournal
+**Beispielseite (zwei Spalten + Pflichtsatz):** Aufgabe/Datum | Mein Fehler (Original!) | Richtige Lösung (selbst) | **„Mein Denkfehler war …"** (Pflichtsatz) | ☐ In der nächsten Arbeit dran gedacht? **Einführungsskript (Gerüst):** *„Ab heute führt ihr hinten im Heft euer Fehlerjournal. Warum: Eure Fehler sind euer wertvollstes Lernmaterial – kein Arbeitsblatt der Welt ist so genau auf euch zugeschnitten. Nach jeder Rückgabe bekommt ihr zehn Minuten dafür. Die wichtigste Zeile ist der Satz ‚Mein Denkfehler war…' – wer den schreiben kann, macht den Fehler kein zweites Mal. Vor der Arbeit lernt ihr zuerst aus dem Journal – per Selbstabfrage, ihr wisst wie."* + CFU: „Timo, was ist die Pflichtzeile?"
+
+## 1.4 CFU-Repertoire-Blatt (Konsolidierung)
+Tabelle: Werkzeug | Was es zeigt | Wann ich es einsetze | Mein Routinen-Status (läuft/holprig/fehlt). Zeilen: Whiteboards · Cold Call (F-P-N) · No Opt Out · Checkpoints · Exit Ticket + Sortierung · Show Call · Fehlerjournal · Vorlauf-Aggregation. Fußzeile: „Auf Instrumenten fliegen, nicht auf Sicht."
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–9, als Muster-Whiteboard-Routine!)
-1. Die Standard-Choreografie W24? *(Write 1–3 Min. → Talk 30–90 Sek. → Ernte mit Partnerfrage)*
-2. Vier der sechs Turn-and-Talk-Stellschrauben? 3. Warum Schreiben vor Reden – der wichtigste Effekt? *(jeder denkt; Denkzeit demokratisch)* 4. ActiveObs in einem Satz (W13)? 5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus W22: kalte Zonen gezielt ansteuern)*
+## Teil 1: Block-4-Quiz (20 Fragen kumulativ; Auswahl)
+1. Die Ersetzungs-Regel? 2. Der Fehlerreaktions-Dreiklang? 3. Zwei Gründe, warum „Verstanden?" nichts liefert? 4. Die vier Kultur-Hebel? 5. Frage-Pause-Name – warum diese Reihenfolge? 6. Die rote Linie des Cold Call? 7. Wait Time: Sekunden + Rahmung? 8. Die 4 No-Opt-Out-Varianten? 9. Right-is-Right-Reflexfrage + Maßstab? 10. Format Matters in einem Satz? 11. Stretch-It-Prinzip? 12. Die Standard-Choreografie W23? 13. Zwei der vier Turn-and-Talk-Bugs? 14. Die Whiteboard-Routine (5 Schritte + X)? 15. Der Show-Call-Dreischritt? 16. Warum auch Exzellenz zeigen? 17. (Block 2) Beide Enden der 80 %-Regel? 18. (Block 3) Testing Effect? 19. (Block 1) W.I.N.? 20. (Transfer) „Ich prüfe ständig, aber es ändert sich nichts." Diagnostiziere mit ZWEI Block-4-Konzepten. *(Sehen ohne Entscheiden = Deko; fehlender Reteach/Replay-Falle; ggf. Selbstauskunft statt Prüfung.)*
 
 ## Teil 2: Modul-Quiz Woche 25 (für SPA/Folgewoche)
-**F1.** Mini-Whiteboards in der Oberstufe sind…
-a) unter dem Niveau erwachsener Lerner ✗ *(die verbreitete Abwehr)*
-b) auch dort das schnellste 100 %-Diagnosewerkzeug – Routine und Rahmung entscheiden ✓
-c) nur für Mathe geeignet ✗
-d) rechtlich bedenklich ✗
+**F1.** 40 % scheitern am selben Fehler. Du…
+a) erklärst morgen dasselbe nochmal, langsamer und lauter ✗ *(die Replay-Falle – fühlt sich gründlich an)*
+b) planst 10 Min. Reteach mit NEUEM Zugang + Erfolgscheck ✓
+c) gibst ein Zusatzblatt für zu Hause ✗
+d) senkst das Anspruchsniveau der Arbeit ✗
 
-**F2.** Beim Schreiben auf die Boards gilt Stille, weil…
-a) Ruhe grundsätzlich gut ist ✗
-b) Abschauen das Röntgenbild verfälscht – die Daten müssen individuell sein ✓
-c) die Nachbarklasse gestört wird ✗
-d) es feierlicher wirkt ✗
+**F2.** 11 von 25 haben Fehler – aber vier verschiedene Ursachen. Beste Antwort:
+a) Klassen-Reteach, die Quote ist ja hoch ✗ *(die Diffus-Falle!)*
+b) differenziert: Kleingruppe für Ansatzlose, gezielte Einzelimpulse, Checkpoints ✓
+c) weiter im Stoff ✗
+d) die Aufgabe war schlecht – ignorieren ✗
 
-**F3.** Nach dem Board-Scan nickst du und machst weiter. Was fehlt?
-a) nichts – du hast ja gesehen ✗ *(der häufigste Befund!)*
-b) die ANGESAGTE Entscheidung: „Ich sehe …, also …" ✓
-c) das Einsammeln der Boards ✗
-d) eine Note ✗
+**F3.** Eine gute Berichtigung…
+a) schreibt die Musterlösung dreimal sauber ab ✗ *(die Schultradition)*
+b) enthält die selbst notierte Lösung + den benannten eigenen Denkfehler ✓
+c) wird benotet, sonst macht sie keiner ✗
+d) ist nur für Schwache nötig ✗
 
-**F4.** Show Call einer fehlerhaften Arbeit setzt voraus:
-a) das schriftliche Einverständnis der Eltern ✗
-b) etablierte Fehlerkultur + Einführung als Ehrung + würdigender Dreischritt ✓
-c) dass der Fehler besonders originell ist ✗
-d) dauerhafte Anonymität ✗ *(teilrichtig: nur der Anfang)*
+**F4.** „Wiederholt fürs Klassenarbeit mal alles von Kapitel 3 bis 5" ist…
+a) fair, weil vollständig ✗ *(klingt gründlich)*
+b) die Gießkanne – die Daten hätten 2–3 Baustellen gezeigt ✓
+c) der Standard und daher richtig ✗
+d) zu wenig ✗
 
-**F5.** Warum auch exzellente Arbeiten zeigen?
-a) als Belohnung für die Starken ✗ *(nett – nicht der Kern)*
-b) Exzellenz kalibriert den Anspruch: Man muss sie gesehen haben, um sie anzustreben ✓
-c) um Konkurrenz anzuheizen ✗
-d) um Zeit zu füllen ✗
+**F5.** Der Reteach endet. Woran merkst du MORGEN, dass er saß?
+a) Die Klasse hat genickt ✗ *(Selbstauskunft in Zeitlupe)*
+b) am geplanten Erfolgscheck: 2 Board-Aufgaben zum selben Muster ✓
+c) an der Stimmung ✗
+d) an der nächsten Klassenarbeit ✗ *(zu spät für Steuerung)*
 
-**F6 (Transfer, Freitext):** Board-Tableau: 17 von 25 richtig, 6 mit identischem Fehler in Schritt 2, 2 leer. Formuliere deine angesagte Entscheidung wörtlich. *(Muster: „Runter. Siebzehn stehen – stark. Sechs sind in Schritt 2 in dieselbe Falle getappt: Die schauen wir uns JETZT gemeinsam an, zwei Minuten. Und ihr zwei mit leerem Board: Ich komme gleich zu euch." – Bewertungsanker: Zahlen benennen, Entscheidung ansagen, alle drei Gruppen adressiert.)*
-
----
-
-# Anhang 3: Beobachtungsbogen Peer-Hospitation 4
-**Neu: Der GASTGEBER benennt vorher seinen Fokus:** „Beobachtet bei mir bitte: …" — **Standardteil CFU-Zählprotokoll:** | Zeit | CFU-Moment (Werkzeug: Board/Cold Call/Checkpoint/Ticket…) | Wie viele wurden erreicht? | Folgte eine sichtbare Entscheidung? | — Spalte C: „Ein Move, den ich klaue." — **Nachbesprechung (Coach moderiert):** Runde 1: NUR zum Gastgeber-Fokus, beschreibend. Runde 2: Zählprotokoll-Muster. Runde 3: Spalte C + „Was übernehme ich bis zur nächsten Peer-Runde?" — Dank an die Öffnenden ist Pflichtritual (Öffnen ist die mutigste Handlung des Programms).
+**F6 (Transfer, Freitext):** Nimm Set A (Anhang 1.1): Skizziere den 10-Min.-Reteach – alter Zugang, neuer Zugang, Erfolgscheck. *(Bewertungsanker: Neuer Zugang strukturell anders [Darstellung/Beispieltyp/Stufe], nicht nur langsamer; Check als All-Response.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 25"
+# Anhang 3: Ableitung für die SPA „Modul 25"
 
-1. **Hook (2 Min.):** „Stichprobe vs. Röntgenbild": animierte Klasse – 3 Melder-Punkte vs. 25 Board-Kacheln, die gleichzeitig aufleuchten (Fehler rot) – der Informationsunterschied als Bild.
-2. **See it (4 Min.):** Die Muster-Routine als Video/Audio mit Zeitleiste; Aufgabe: die 5 Schritte + die Entscheidung antippen.
-3. **Name it (3 Min.):** Routine-Schritte als Sortier-Spiel; Merksatz-Karte.
-4. **Do it – Entscheidungs-Simulator (8 Min., Engine!):** Board-Tableaus erscheinen (verschiedene Verteilungen: 90 % richtig / 40 % gleicher Fehler / diffus / 3 leere) → Nutzer formuliert/wählt die angesagte Entscheidung → Feedback nach Entscheidungsregel; das diffuse Tableau verzweigt mit Cliffhanger zu Modul 26.
-5. **Show-Call-Moderationstrainer:** Die 4 Fallback-Arbeiten (Anhang 1.3) als Bilder; Nutzer baut den Dreischritt (Würdigung wählen → Fokus wählen → Transfer formulieren); Ton-Fallen als Optionen („Schaut mal, was hier schiefging" ✗ mit Erklär-Feedback); Exzellenz-Arbeit als eigenes Level.
-6. **Routine-Skript-Editor** (dreispaltig, W3-Engine wiederverwendet) inkl. Einführungswortlaut; Playbook-Export.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F3/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Entscheidungs-Zähler („heute angesagt: __×") + Peer-Hospitations-Terminfeld.
+1. **Hook (2 Min.):** Das Duell als Teaser: „Zwei Stapel, gleiche Fehlerquote – nur EINER braucht den Klassen-Reteach. Welcher?" (Neugier-Cliffhanger vor dem Input.)
+2. **See it (4 Min.):** Der Dreisatz als Entscheidungsbaum-Animation; Replay-Falle als Kontrast-Audio (dieselbe Erklärung in Zeitlupe vs. neuer Zugang).
+3. **Name it (3 Min.):** Format-Tabelle + Own-and-Track-Minimum als Karten.
+4. **Do it – Datenfall-Bibliothek (9 Min., Engine!):** Set A und B als interaktive Ticket-Stapel (durchblätterbar!) → Muster-Diagnose → Format-Wahl → Zugang formulieren (Replay-Detektor: App fragt „Was ist strukturell anders?") → Erfolgscheck wählen; weitere Fälle (Sprachfach-Set, Leere-Boards-Fall) als Level; verzahnt mit den Top-3-Fehlerlisten aus Modul 12 (eigene Daten als Fall importierbar!).
+5. **Fehlerjournal-Vorlage:** druckbares Format + Einführungsskript-Editor; Erinnerung „10 Min. nach jeder Rückgabe".
+6. **Block-4-Abschluss:** CFU-Repertoire-Blatt digital (Status-Ampeln, wandert ins Dashboard); Block-4-Quiz aus dem Pool; Kompetenzmatrix-Update Felder 6–7 mit Spinnennetz.
+7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker (beide Fallen!). **Abschluss:** Action-Step-Formular „Mein nächster Reteach" mit Alter-Zugang/Neuer-Zugang-Pflichtfeldern.

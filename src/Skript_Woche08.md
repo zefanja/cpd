@@ -1,5 +1,5 @@
-# Skript Woche 8: „Übergänge, Stundenende & das W.I.N.-Gespräch + Meilenstein 1"
-## 60-Minuten-Sitzung · Block 1 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 8: „Rosenshine & die Architektur einer Stunde"
+## 60-Minuten-Sitzung · Block 2 (Auftakt) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,24 +7,24 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie halte ich das Niveau bis zur letzten Minute – und was tue ich NACH der Stunde mit dem Schüler, den ich am liebsten meide? |
-| **Kernquellen** | Lovell/Dowley, Routine 5 (Transitions), Routine 6 (After-class conversation / W.I.N.), Routine 12 (Engagement bis zum Ende); Lemov T51 (Do It Again), T31 (Every Minute Matters) |
-| **Funktion im Jahr** | Block-1-Finale: schließt die letzte Lücke im Stundengerüst (Übergänge, Ende) und liefert mit W.I.N. das Beziehungs-Reparaturwerkzeug, das in W23 (Verweigerung), W30 (nach Eskalationen) und W31 (Elterngespräch-Struktur!) wiederkehrt. Meilenstein 1: Playbook-Deckblatt, Kompetenzmatrix-Update, Video-Selbstanalyse Nr. 1. |
-| **Lernziele** | Die TN können:<br>1. Übergänge als nummerierte Mini-Routinen führen und mit Do It Again neutral zurücksetzen,<br>2. ein Stundenende mit Puffer und geordnetem Abschluss gestalten,<br>3. ein W.I.N.-Gespräch in drei Schwierigkeitsgraden führen (einsichtig / abblockend / eskalierend). |
-| **Sitzungstyp** | Kombinierte Sitzung: 2 kompakte Technik-Inputs + das anspruchsvollste Rollenspiel des Blocks + Meilenstein-Ritual. Zeitdisziplin ist heute kritisch – die Moderation kürzt notfalls den Übergangs-Teil, nie das W.I.N.-Rollenspiel. |
+| **Leitfrage** | Wie ist eine wirksame Stunde grundsätzlich gebaut? |
+| **Kernquellen** | Rosenshine, *Principles of Instruction* (American Educator, 2012); Lovell/Dowley R7–R9 (Vorschau); McCrea (Logik „Schüler ohne Vorkenntnisse vs. Experten", Vorgriff Block 3) |
+| **Funktion im Jahr** | Block-2-Auftakt: liefert das Ordnungsgerüst, in das sich W9–13 einsortieren (jede Folgewoche „wohnt" in einem Rosenshine-Strang). Das Audit-Raster wird in W31 (Lean-Qualitätscheck) wiederverwendet. Die 80 %-Regel wird Referenzgröße für W11, W21 und W26. |
+| **Lernziele** | Die TN können:<br>1. die 10 Prinzipien in den vier Strängen (Reviewing / Sequencing & Modelling / Questioning / Practising) verorten,<br>2. eine Stunde mit dem Audit-Raster prüfen,<br>3. I do – We do – You do als Verantwortungsübergabe erklären und den „Sprung-Fehler" (übersprungenes We do) erkennen,<br>4. die 80 %-Erfolgsquote als Steuergröße nutzen. |
+| **Sitzungstyp** | Konzept-Sitzung mit Analyse-Übung (Audit + Redesign) – bewusst weniger Rollenspiel: Das Gerüst muss erst stehen, bevor ab W10 wieder körperlich trainiert wird. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Dreiergruppen-Inseln mit Abstand (W.I.N. braucht Diskretion); Playbook-Mappen-Station mit Lochern/Deckblättern.
+**Raum:** Vierergruppen; Tafel/Flipchart für die Strang-Entwicklung. **Vorab-Auftrag (in W7 angesagt!):** Jeder bringt einen eigenen Stundenverlaufsplan mit (beliebiges Format – auch „Zettel mit drei Stichworten" ist erlaubt und ehrlich).
 
 **Material (Checkliste):**
-- [ ] Erweitertes Retrieval-Quiz Block 1 (8 Fragen, Anhang 2 Teil 1)
-- [ ] Handout A: W.I.N.-Leitfadenkarte (Anhang 1.1), A6 laminiert (Langzeit-Werkzeug!)
-- [ ] Rollenkarten-Set W.I.N., 3 Karten mit Regieanweisungen (Anhang 1.2)
-- [ ] Handout B: Übergangs- & Ende-Bausteine (Anhang 1.3)
-- [ ] Playbook-Deckblätter, Kompetenzmatrix-Bögen (identisch zu W0!), Anleitung Video-Selbstanalyse Nr. 1 (Anhang 3)
+- [ ] Retrieval-Quiz liegt aus
+- [ ] Handout A: Rosenshine-Übersichtskarte – 10 Prinzipien in 4 Strängen (Anhang 1.1)
+- [ ] Handout B: Audit-Raster (Anhang 1.2)
+- [ ] Die „schwache Beispielstunde" als Einseiter, pro Tandem eine Kopie (Anhang 1.3)
+- [ ] Rosenshine-Poster für den Raum (hängt ab heute dauerhaft neben dem Leiter-Poster)
 
 ---
 
@@ -32,155 +32,151 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter erweitert (Minute 2–10)
-8 Fragen kumulativ über Block 1 (Anhang 2, Teil 1); Selbstkorrektur per Lösungsfolie; Moderation klärt nur die 2 häufigsten Fehler. Meta-Satz: *„Das war euer erstes Block-Quiz – merkt euch das Format, eure Schüler bekommen es ab Block 3 auch."*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1; enthält ab jetzt immer 2 Block-1-Fragen).
 
-## Phase 2 · Input A: Übergänge & Stundenende (Minute 10–20)
-
-> **Moderationstext (Einstieg):**
-> *„Ihr beherrscht jetzt den Anfang. Aber Stunden haben zwei weitere Sollbruchstellen: jeden Wechsel mittendrin – und die letzten fünf Minuten. Beides ist dasselbe Handwerk wie Woche 3, nur im Kleinformat."*
-> *„**Übergänge:** Ein Übergang ist eine Mini-Routine, und er scheitert aus genau einem Grund: Er wurde als EIN Auftrag gegeben statt als Schrittfolge. ‚Macht euch für die Gruppenarbeit fertig' sind vier Aufträge in einem Nebel. Stattdessen – ihr kennt es: nummerieren, ansagen, Kante setzen: ‚Erstens: Blätter nach links. Zweitens: Bücher raus. Drittens: Seite 40. – In 3, 2, 1: los.' Und wenn der Übergang zerfasert? **Do It Again** – ihr kennt es von der Begrüßungsroutine: ruhig, ohne Vorwurf: ‚Das können wir flüssiger. Noch einmal.' Der Ton entscheidet, ob es ein Reset ist oder eine Strafrunde: Ein Reset klingt wie ein Trainer, der weiß, dass die Mannschaft es kann.*
-> *„**Stundenende:** Die letzte Minute unterrichtet die Norm für morgen. Wer im Klingel-Chaos endet – Packen ab Minute 42, Rufen über die Köpfe, Hausaufgabe in den Lärm – der startet morgen dort. Drei Bausteine: **Puffer** (plant das Ende auf drei Minuten VOR dem Klingeln – der Rest ist Reserve, nie umgekehrt), **geordneter Abschluss** (gepackt wird auf Signal; verabschiedet wird im Stehen – der Spiegel eurer Begrüßung: gemeinsame Zäsur auch am Ende), und **Every Minute Matters**: Wenn doch zwei Minuten übrig sind, habt ihr Reservekarten – zwei, drei Abruf-Fragen zur Stunde. Nie wieder ‚Ihr könnt schon mal leise packen': Das ist eine Einladung, ab morgen früher zu packen."*
-
-Kurz-Übung im Plenum (2 Min.): Einen typischen Übergang der TN (Zuruf) live gemeinsam nummerieren.
-
-## Phase 3 · Input B: Das W.I.N.-Gespräch (Minute 20–30)
+## Phase 2 · Brücke & Blockwechsel-Rahmung (Minute 8–13)
 
 > **Moderationstext:**
-> *„Jetzt zum wichtigsten Werkzeug des heutigen Tages. In jedem eurer Kurse gibt es einen Schüler, mit dem ihr NACH der Stunde reden müsstet – und es nicht tut. Weil keine Zeit ist, weil es unangenehm ist, weil das letzte Gespräch eine Predigt wurde, die nichts geändert hat. Das Werkzeug dafür heißt W.I.N., dauert drei bis fünf Minuten und hat drei Schritte – und der erste Schritt ist der, den fast alle falsch herum machen:*
-> *​**W – Was ist passiert?** Und zwar aus SEINEM Mund zuerst. Nicht eure Anklageschrift – seine Version. ‚Erzähl mir, was in der Stunde los war.' Dann zuhören. Wirklich. Oft erfahrt ihr hier die fehlende Hälfte der Geschichte – den Streit aus der Pause, die Fünf von der Stunde davor.*
-> *​**I – Impact.** Welche Wirkung hatte es? Sachlich, konkret, ohne Moralkeule: ‚Die Gruppe hinter dir hat acht Minuten verloren. Und ich musste dich dreimal ansprechen statt zu unterrichten.' Wirkung beschreiben heißt nicht beschämen – es heißt sichtbar machen, was der Schüler oft ehrlich nicht auf dem Schirm hat.*
-> *​**N – Next steps.** Gemeinsam, konkret, klein: ‚Was machen wir morgen anders – du und ich?' Auch das UND ich ist ernst gemeint: ‚Ich setze dich in Reihe zwei und gebe dir das Zeichen, bevor ich dich drannehme' ist ein legitimer Deal.*
-> *Die Rahmenbedingungen: privat (nie zwischen Tür und Angel vor Publikum), ruhig (euer warmes Register – das Gespräch ist Beziehungsarbeit, keine Verlängerung der Sanktion), kurz (drei bis fünf Minuten – Länge ist kein Qualitätsmerkmal, sondern ein Predigt-Symptom), und zukunftsgerichtet: Das Gespräch endet mit einem Plan, nicht mit einem Schuldspruch. Und ein W.I.N. nach einer Konsequenz ist kein Widerspruch – es ist die Reparatur: Konsequenz heute, Neuanfang morgen. Woche 7 lässt grüßen."*
+> *„Kurz zu den W.I.N.-Gesprächen: Wer hat eins geführt – und was war der überraschendste Moment?"* [2 Stimmen; typisch: „Er hat mir Dinge erzählt, die ich nicht wusste" – genau das würdigen.]
+> *„Und jetzt ein Schnitt. Sieben Wochen lang ging es um den Raum: Ruhe, Routinen, Beziehung. Warum? Damit ab heute das eigentliche Geschäft möglich ist. Denn – Hand aufs Herz – eine stille Klasse ist noch keine lernende Klasse. Man kann in vorbildlicher Ruhe nichts lernen.*
+> *Für das eigentliche Geschäft gebe ich euch heute das solideste Fundament, das die Unterrichtsforschung zu bieten hat. Barak Rosenshine hat drei völlig verschiedene Wissensquellen übereinandergelegt: die Kognitionspsychologie – wie Gedächtnis und Denken funktionieren; Beobachtungsstudien von Lehrkräften, deren Klassen Jahr für Jahr überdurchschnittlich lernen; und Interventionsstudien – was passiert, wenn man Lehrkräften bestimmte Verfahren beibringt. Das Bemerkenswerte: **Alle drei Quellen zeigen in dieselbe Richtung.** Das ist in der Bildungsforschung selten genug, um es ernst zu nehmen. Herausgekommen sind zehn Prinzipien – und die gute Nachricht: Vier davon macht ihr längst."*
 
-## Phase 4 · Name it (Minute 30–33)
+## Phase 3 · Input: Die vier Stränge (Minute 13–28)
 
-W.I.N.-Karte (Handout A) austeilen; die drei Schritte + vier Rahmenbedingungen (privat · ruhig · kurz · zukunftsgerichtet) fixieren. Merksatz: *„Erst seine Geschichte, dann die Wirkung, dann der Plan."* Fingerzeichen-Check: Moderation liest 3 Gesprächseröffnungen vor, TN zeigen ✓/✗ (z. B. „Weißt du eigentlich, wie oft du heute…" = ✗, Anklage statt W).
+*Didaktische Regel für die Moderation: Die 10 Prinzipien werden NICHT als Liste durchgekaut, sondern als vier Erzählstränge mit je einem Klassenzimmer-Bild – und mit ständigen Rückverweisen auf das, was die TN schon tun. Wiedererkennen motiviert; eine 10er-Liste erschlägt (Modell 1!).*
 
-## Phase 5 · Do it: W.I.N.-Rollenspiele (Minute 33–51)
+### Strang 1: Reviewing – Wiederholung als Tagesgeschäft (Min. 13–16)
+> *„Prinzip 1 und 10: tägliche Wiederholung zu Beginn, wöchentliche und monatliche Wiederholung im Verlauf. Klingt banal – ist aber das am konsequentesten missachtete Prinzip im Schulalltag, weil der Stoffdruck ruft. Ihr allerdings kennt es aus eigener Erfahrung: Womit beginnt jede unserer Sitzungen? Eben. Ihr sitzt seit neun Wochen in einer Rosenshine-Fortbildung, die nach Rosenshine gebaut ist. Und euer Do Now aus Woche 2 ist der vorbereitete Landeplatz dafür – ab Woche 13 füllen wir ihn systematisch mit Wiederholung."*
 
-Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min.** (4 Min. Gespräch + 2 Min. Feedback + Blitz-Wiederholung des schwächsten Moments). Rollenkarten in Reihenfolge steigender Schwierigkeit (Anhang 1.2): Runde 1 „einsichtig", Runde 2 „abblockend", Runde 3 „eskalierend". Rollenwechsel nach jeder Runde – jeder ist einmal Lehrkraft.
+### Strang 2: Sequencing & Modelling – kleine Schritte, gezeigtes Denken (Min. 16–20)
+> *„Prinzipien 2, 4 und 8: neuen Stoff in kleinen Schritten, Modellieren mit Beispielen, Gerüste für Schwieriges. Das Bild dazu: Ihr seid Bergführer mit einer Gruppe, die zum ersten Mal am Berg ist. Der Anfängerfehler ist nicht die falsche Route – es ist die Schrittlänge. Was für euch EIN Schritt ist (‚einfach den Bruch erweitern'), sind für Schüler ohne Vorkenntnisse fünf. Warum das kognitiv so ist, bekommt ihr in Block 3 in voller Schönheit; heute reicht die Regel: kleiner schneiden, als sich richtig anfühlt. Die Wochen 9 und 11 gehören diesem Strang."*
 
-**Beobachter-Checkfragen:** Kam W wirklich zuerst (offene Frage, dann Stille ausgehalten)? Blieb I sachlich (Wirkung, keine Moral)? War N gemeinsam und konkret? Rahmen: warm, kurz, privat?
+### Strang 3: Questioning – viele Fragen, alle prüfen (Min. 20–23)
+> *„Prinzipien 3 und 6: viele Fragen stellen, und das Verständnis ALLER prüfen – nicht der drei Meldefinger. Rosenshines Beobachtung: Die wirksamsten Lehrkräfte stellen schlicht mehr Fragen und lassen mehr Schüler antworten als der Durchschnitt. Wie man das technisch sauber macht – Cold Call, Whiteboards, all das – ist der komplette Block 4. Heute nur der Platzhalter im Gerüst: Nach jedem kleinen Schritt kommt eine Prüfschleife. Erklären ohne Prüfen ist Senden ohne Empfangsbestätigung."*
 
-**Moderations-Rotation:** Bei „abblockend" ist die Kunst das Aushalten der Einsilbigkeit (nicht zutexten! Stille + „Nimm dir Zeit" + ggf. geschlossene Einstiegsfrage als Brücke). Bei „eskalierend" gilt: Anker (W5!), formales Register, ggf. vertagen: *„Ich merke, jetzt ist kein guter Moment. Morgen, große Pause, hier."* – Vertagen ist ein legitimer Ausgang, kein Scheitern.
+### Strang 4: Practising – vom geführten zum freien Üben (Min. 23–27)
+> *„Prinzipien 5, 7 und 9: angeleitetes Üben, hohe Erfolgsquote, selbstständiges Üben. Hier wohnt die Formel, die ihr vermutlich schon kennt: **I do – We do – You do.** Ich zeige es. Wir machen es gemeinsam. Ihr macht es allein. Das ist keine Methodenmode, sondern schlichte Verantwortungsübergabe – und der klassische Anfängerfehler ist der Sprung: erklärt (I do), Arbeitsblatt (You do), wundern. Das We do – gemeinsam durcharbeiten, Hilfen langsam abbauen – ist die Brücke, und wer sie überspringt, lässt die Hälfte der Klasse am Ufer stehen. Woche 11 und 13 gehören diesem Strang.*
+> *Und die Steuergröße für das alles: Prinzip 7, die **80-Prozent-Regel.** In Übungsphasen sollen etwa vier von fünf Antworten richtig sein. Deutlich darunter? Zurück zum Modellieren – die Brücke war zu kurz. Deutlich darüber, dauerhaft 100 %? Der Anspruch ist zu niedrig – es wird geübt, was schon sitzt. 80 Prozent ist der Korridor, in dem Üben lernt statt frustriert oder langweilt."*
 
-## Phase 6 · Meilenstein 1 & Action Step (Minute 51–58)
+### Einordnung: der „Frontalunterricht"-Einwand (Min. 27–28)
+> *„Bevor jemand es denkt: Das hier ist kein Plädoyer für Dauermonolog. Explizite Instruktion nach Rosenshine ist hochinteraktiv – kurze Erklärsequenzen, ständig unterbrochen von Fragen, Prüfungen, gemeinsamem Arbeiten. Der Gegensatz ist nicht ‚Frontal vs. modern'. Der Gegensatz ist ‚geführt vs. allein gelassen' – und Schüler ohne Vorkenntnisse – das sind eure Schüler in fast allem – brauchen Führung."*
 
-**Playbook-Ritual (3 Min.):** Skripte W2–W8 einheften, Deckblatt „Mein Klassenführungs-Playbook" – Moderation: *„Acht Wochen, sieben Werkzeuge, alle selbst geschrieben. Das hier ist keine Mappe – das ist euer erstes Berufsjahr in Reinschrift."*
+## Phase 4 · Name it (Minute 28–33)
 
-**Kompetenzmatrix (2 Min.):** Felder 1–3 neu einschätzen (gleicher Bogen wie W0 – noch NICHT vergleichen, das passiert im Coaching mit dem W0-Bogen daneben).
+Handout B austeilen: **Das Audit-Raster** – fünf Prüffragen an jede Stunde:
 
-**Action Step (Standard):** *„Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler / der Schülerin, den/die ich bisher gemieden habe – vorbereitet mit der Karte, maximal fünf Minuten."* **Alternativen:**
+1. Beginnt sie mit Wiederholung?
+2. Wie groß sind die Schritte (neue Elemente pro Erklärsequenz)?
+3. Wo sind die Prüfschleifen – und prüfen sie ALLE?
+4. Gibt es ein echtes We do zwischen Zeigen und Alleinarbeiten?
+5. Geschätzte Erfolgsquote im Üben – im Korridor?
 
-1. Ende-Woche: jede Stunde endet drei Minuten vor dem Klingeln geordnet, Verabschiedung im Stehen.
-2. Übergangs-Woche: jeden Übergang nummerieren, bei Zerfasern einmal Do It Again.
+Fingerzeichen-Kalibrierung (2 Min.): Moderation liest 3 Stunden-Kurzbeschreibungen vor, TN zeigen den verletzten Strang (1–4).
 
-**Ansage Video-Selbstanalyse Nr. 1 (1 Min.):** Anleitung (Anhang 3) mitgeben – VOR dem Meilenstein-Gespräch erledigen.
+## Phase 5 · Do it: Audit & Redesign (Minute 33–52)
 
-> **Ausblick:** *„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Es beginnt mit den zehn am besten abgesicherten Prinzipien der Unterrichtsforschung. Bringt dafür einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt."* **(Vorab-Auftrag W9 auf die Exit-Karte drucken!)**
+### Runde 1 · Fremd-Audit (Min. 33–41)
+Tandems erhalten die schwache Beispielstunde (Anhang 1.3) und auditieren mit dem Raster: die vier größten Verstöße finden und benennen (mit Prinzip-Nummer – die gemeinsame Sprache wird geübt). Kurzer Plenums-Abgleich: Die Verstöße sind absichtlich eindeutig; Diskussionen entstehen bei Frage 5 (Erfolgsquote schätzen) – gewollt.
 
-## Phase 7 · Exit-Karte (Minute 58–60)
-Erweitert:
+### Runde 2 · Redesign (Min. 41–48)
+> *„Jetzt reparieren, nicht neu erfinden: Baut die Stunde mit MINIMALEN Eingriffen Rosenshine-konform um. Regel: Ihr dürft nichts hinzuerfinden, was länger als fünf Minuten dauert."* — Tandems skizzieren; 2 Tandems pitchen ihr Redesign in je 60 Sekunden. *(Typische gute Lösungen: Do Now mit Vorwissen statt Kaltstart; Erklärblock dritteln mit Prüffragen; 2 gemeinsame Beispiele vor dem Arbeitsblatt; Exit-Aufgabe statt „Wer noch Fragen hat…".)*
 
-1. Mein wertvollstes Block-1-Werkzeug: …
-2. Woran ich in Block 1 weiterarbeiten muss: …
+### Runde 3 · Selbst-Audit (Min. 48–52)
+Jeder legt das Raster an den MITGEBRACHTEN eigenen Plan: die eine Prüffrage markieren, bei der der eigene Plan am schwächsten ist. Kein Vorzeigen, keine Beichte – nur die private Diagnose (sie wird der Action Step).
 
-*(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: eigenen Stundenverlaufsplan zu W9 mitbringen.
+## Phase 6 · Action Step (Minute 52–58)
+
+**Standard:** *„Jede meiner Stunden dieser Woche beginnt mit fünf Minuten Wiederholung – Format frei (Fragen an der Tafel, mündliche Runde, Mini-Quiz). Freitags notiere ich: Was hat sich am Stundenverlauf dadurch verändert?"*
+
+**Alternativen:**
+
+1. Selbst-Audit-Fix: den in Runde 3 markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben.
+2. 80 %-Beobachtung: in einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.
+
+> **Ausblick:** *„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang. Bringt das Thema einer echten Stunde eurer KOMMENDEN Woche mit – daran wird gearbeitet."* **(Vorab-Auftrag auf die Exit-Karte!)**
+
+## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: Thema einer echten Stunde der kommenden Woche zu W9 mitbringen.
 
 ---
 
-# 4. Coaching-Woche 8: Meilenstein-Gespräch 1 (Handreichung, 45–60 Min.)
+# 4. Coaching-Woche 8 (Handreichung)
 
-**Struktur:**
-
-1. **Video-Selbstanalyse gemeinsam (20 Min.):** TN zeigt seinen annotierten 10-Min.-Ausschnitt, spricht zuerst („Was sehe ich heute, was ich in Woche 1 nicht gesehen hätte?"); Coach ergänzt max. 2 Beobachtungen – eine Stärke, eine Baustelle, beides mit Zeitstempel. Das Baseline-Video aus W1 bleibt versiegelt (Vorfreude schützen!).
-2. **Matrix-Vergleich (10 Min.):** W0- neben W8-Bogen; Verschiebungen benennen lassen; Precise Praise des Coaches auf konkrete Verhaltensänderungen.
-3. **Block-2-Ausblick (10 Min.):** dringendster Klassenführungs-Rest wird als „Dauer-Action-Step" definiert (läuft im Coaching parallel weiter, auch wenn die Inputs zu Instruktion wechseln!).
-4. **W.I.N.-Nachfrage:** Wie lief das Gespräch mit dem gemiedenen Schüler? Ggf. im Coaching nachspielen.
-
-**Red Flags:** Matrix-Selbstbild deutlich über Coach-Bild → behutsam mit Video-Zeitstempeln kalibrieren, nie frontal. Erschöpfungssignale nach 8 Wochen Doppelbelastung → Block 6 (Arbeitsökonomie) als Perspektive benennen, kurzfristig EINEN Entlastungs-Deal schließen (z. B. Korrektur-Triage light vorziehen).
+- **Vorbereitung:** TN schickt den Verlaufsplan der Hospitationsstunde vorab; Coach legt selbst das Audit-Raster an (nicht zeigen – erst nach dem Gespräch abgleichen).
+- **Hospitationsfokus:** Plan vs. Realität, besonders Schrittgröße: Wie viele neue Elemente pro Erklärsequenz? Gab es ein We do oder den Sprung?
+- **Auswertungsgespräch:** TN auditiert die eigene gehaltene Stunde zuerst selbst (Raster), Coach ergänzt; Action Step aus der schwächsten Prüffrage ableiten. **Wichtig:** Der Klassenführungs-Dauer-Action-Step aus dem Meilenstein-Gespräch läuft parallel weiter – kurz abfragen (2 Min.), nicht fallen lassen.
+- **Red Flag:** TN deutet Rosenshine als „zurück zum Frontalunterricht" und wirft moderne Formate komplett über Bord → Einordnung aus Phase 3 wiederholen: geführt ≠ monologisch; Gruppenformate haben ihren Platz – NACH gesicherter Grundlage (You do in Sozialform).
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: W.I.N.-Leitfadenkarte (A6, laminiert)
+## 1.1 Handout A: Rosenshine-Übersichtskarte
 
-**W – Was ist passiert?** Seine/ihre Version zuerst: *„Erzähl mir, was in der Stunde los war."* → zuhören, Stille aushalten.
-**I – Impact:** Wirkung sachlich: *„Die Gruppe hat acht Minuten verloren; ich musste dreimal unterbrechen."* Keine Moralkeule.
-**N – Next steps:** gemeinsam + konkret + klein: *„Was machen wir morgen anders – du und ich?"*
-**Rahmen:** privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. **Notausgang:** vertagen ist legitim: *„Morgen, große Pause, hier."*
+**Strang Reviewing:** P1 tägliche Wiederholung · P10 wöchentl./monatl. Wiederholung → *unsere Werkzeuge: Do Now (W2/13), kumulative Quizze (W17/18)*
+**Strang Sequencing & Modelling:** P2 kleine Schritte · P4 Modellieren/Beispiele · P8 Gerüste → *W9, W10, W11 (Fading)*
+**Strang Questioning:** P3 viele Fragen · P6 Verständnis aller prüfen → *Block 4 komplett*
+**Strang Practising:** P5 angeleitetes Üben · P7 hohe Erfolgsquote (~80 %) · P9 selbstständiges Üben → *W11, W12*
+**Formel:** I do → We do → You do. **Steuergröße:** 80 %-Korridor.
 
-## 1.2 Rollenkarten-Set W.I.N. (Regieanweisungen für die „Schüler"-Rolle)
+## 1.2 Handout B: Audit-Raster (5 Prüffragen)
+1. Wiederholung am Anfang? (was/wie lange) — 2. Schrittgröße? (neue Elemente pro Erklärsequenz zählen!) — 3. Prüfschleifen: wo, und prüfen sie ALLE? — 4. Echtes We do vorhanden (gemeinsame Beispiele, Hilfenabbau)? — 5. Erfolgsquote im Üben geschätzt: <80 % / ~80 % / ~100 %?
 
-- **Karte 1 „Einsichtig" (Jara, 13):** Du hast in der Stunde ständig reingerufen. Auf W erzählst du ehrlich: Du warst aufgedreht, es tut dir halb leid. Du nimmst Vorschläge an, wirst aber nur konkret, wenn die Lehrkraft konkret wird. *(Lernziel: sauberer Durchlauf; Falle: Lehrkraft predigt trotzdem, obwohl längst Einsicht da ist.)*
-- **Karte 2 „Abblockend" (Tim, 15):** Du hast bei Stillarbeit demonstrativ nichts getan. Antworten: „Weiß nicht." – „Kann sein." – Schulterzucken. Arme verschränkt. Du taust NUR auf, wenn die Lehrkraft Stille aushält und echtes Interesse zeigt (z. B. nachfragt, ob was anderes los ist) – dann deutest du an: Stress zu Hause. *(Lernziel: Aushalten statt Zutexten; Falle: Lehrkraft füllt jede Pause und beantwortet W selbst.)*
-- **Karte 3 „Eskalierend" (Melis, 16):** Du wurdest wegen Handy ermahnt und findest das ungerecht („Bei anderen sagen Sie nie was!"). Du wirst lauter, unterbrichst, wirfst der Lehrkraft Ungerechtigkeit vor. Wenn die Lehrkraft ruhig bleibt UND einen Teil anerkennt („Kann sein, dass ich das nicht immer sehe – lass uns bei heute bleiben"), fährst du auf 60 % runter. Bei Gegen-Eskalation legst du nach. *(Lernziel: Anker, formales Register, Teil-Anerkennung ohne Sache-Aufgabe, ggf. würdevoll vertagen.)*
-
-## 1.3 Handout B: Übergangs- & Ende-Bausteine
-**Übergangs-Formel:** nummerieren („Erstens… Zweitens… Drittens…") → Kante („In 3, 2, 1 – los") → Scan. **Reset:** *„Das können wir flüssiger. Noch einmal."* **Ende-Bausteine:** Puffer −3 Min. · Packen auf Signal · Verabschiedung im Stehen (Spiegel der Begrüßung) · 3 Reservefragen (Abruf zur Stunde) auf Karteikarte im Buch.
+## 1.3 Die schwache Beispielstunde (Einseiter, Fach neutral gehalten: „Prozentrechnung, Kl. 7")
+*Min. 0–5: Begrüßung, Organisatorisches, Rückgabe eines Tests. Min. 5–25: Lehrkraft erklärt am Stück: Grundwert, Prozentwert, Prozentsatz, die drei Formeln, zwei Sonderfälle, Taschenrechner-Tipp (Folien mit viel Text, SuS schreiben parallel ab). Zwischenfrage: „Alle verstanden? Gut." Min. 25–40: Arbeitsblatt mit 12 gemischten Aufgaben, Einzelarbeit. Lehrkraft korrigiert währenddessen den Test von gestern am Pult; wer Fragen hat, kommt nach vorn (Schlange bildet sich). Min. 40–45: „Wir vergleichen die ersten drei – wer hat Aufgabe 1? … Richtig. Hausaufgabe: Rest des Blattes. Ihr könnt schon mal packen."*
+*(Eingebaute Verstöße für das Audit: kein Review · Riesenschritte, 6+ neue Elemente am Stück · Selbstauskunft statt Prüfung · kein We do, Sprung ins You do · Erfolgsquote unbekannt/Schlange als Symptom · Melder-Stichprobe beim Vergleich · aufgelöstes Ende. Bonus-Fund für Aufmerksame: Split Attention beim Abschreiben während des Erklärens – wird in W15 offiziell.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Erweiterter Retrieval-Starter Block 1 (8 Fragen)
-1. Die 6 Leiterstufen in Reihenfolge? 2. Umformulierungs-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + Kante; bei Zerfasern Do It Again)*
+## Teil 1: Retrieval-Starter (Min. 2–8)
+1. Die drei W.I.N.-Schritte in Reihenfolge? *(Was ist passiert – aus Schülersicht zuerst / Impact / Next steps)*
+2. Interventionsleiter Stufen 1–3? *(nonverbal / positive Gruppenkorrektur / anonyme Einzelkorrektur)*
+3. Die drei Kriterien eines Do Now? *(ohne Erklärung lösbar, schriftlich, 3–5 Min. – ideal: Wiederholung)*
+4. Welches mentale Modell begründet „kleine Schritte"? *(Modell 1 – enges Arbeitsgedächtnis)*
+5. (Anwendung) Nach den Herbstferien ist die Begrüßungsroutine „vergessen" – deine ersten zwei Züge? *(explizit neu einführen mit Begründung/CFU nach W1-Bauplan; konsequent auf 100 % warten, ggf. Do It Again)*
 
 ## Teil 2: Modul-Quiz Woche 8 (für SPA/Folgewoche)
-**F1.** „Do It Again" ist…
-a) eine Kollektivstrafe für die Klasse ✗ *(häufigste Fehldeutung)*
-b) ein neutraler Reset: Standard einüben + Zutrauen zeigen ✓
-c) Zeitverschwendung ✗
-d) nur in Klasse 5–7 einsetzbar ✗
+**F1.** Explizite Instruktion nach Rosenshine ist…
+a) veralteter Frontalunterricht mit neuem Etikett ✗ *(DAS Vorurteil)*
+b) hochinteraktives Vorgehen in kleinen, ständig geprüften Schritten ✓
+c) nur für schwache Lerngruppen geeignet ✗
+d) Vortrag mit guten Folien ✗
 
-**F2.** Das W.I.N.-Gespräch beginnt mit…
-a) deiner Schilderung der Vorfälle – Fakten zuerst ✗ *(DIE Intuition: Anklageschrift)*
-b) seiner/ihrer Version: „Erzähl mir, was los war" ✓
-c) der Ankündigung der Konsequenz ✗
-d) einer Entschuldigungsforderung ✗
+**F2.** In deiner Übungsphase liegen etwa 50 % der Antworten richtig. Du…
+a) lässt weiter üben – Übung macht den Meister ✗ *(klingt weise; übt Fehler ein)*
+b) gehst zurück zu Modellieren/We do ✓
+c) gibst leichtere Aufgaben aus ✗ *(senkt das Ziel statt die Brücke zu bauen)*
+d) beendest das Thema und machst nach der Arbeit weiter ✗
 
-**F3.** „Ihr könnt schon mal leise packen" (Minute 40) bewirkt…
-a) einen entspannten Ausklang ✗ *(fühlt sich großzügig an!)*
-b) die Norm, morgen ab Minute 38 zu packen ✓
-c) Dankbarkeit ✗
-d) nichts ✗
+**F3.** Deine Klasse löst im Üben dauerhaft 100 % fehlerfrei. Das bedeutet:
+a) perfekter Unterricht – weiter so ✗ *(fühlt sich großartig an!)*
+b) vermutlich zu niedriger Anspruch – es wird geübt, was schon sitzt ✓
+c) die Klasse ist überdurchschnittlich ✗
+d) die 80 %-Regel ist widerlegt ✗
 
-**F4.** Tim antwortet im Nachgespräch nur „weiß nicht". Du…
-a) füllst die Stille mit deiner Deutung der Ereignisse ✗ *(Zutext-Reflex)*
-b) hältst die Stille aus, zeigst Interesse, bietest ggf. eine Brücke an ✓
-c) brichst ab – bringt ja nichts ✗
-d) drohst mit Elternanruf ✗
+**F4.** Der „Sprung-Fehler" bezeichnet…
+a) Themenwechsel ohne Überleitung ✗ *(Wortfalle)*
+b) das Überspringen des We do: vom Erklären direkt ins Alleinarbeiten ✓
+c) zu schnelles Sprechen ✗
+d) fehlende Hausaufgabenkontrolle ✗
 
-**F5.** Ein W.I.N. direkt nach einer verhängten Konsequenz ist…
-a) widersprüchlich – erst muss die Strafe wirken ✗ *(Härte-Logik)*
-b) die Reparatur: Konsequenz heute, Neuanfang morgen ✓
-c) ein Zurückrudern ✗
-d) nur bei kleinen Vorfällen sinnvoll ✗
+**F5.** „Viele Fragen stellen" (P3) meint bei Rosenshine…
+a) Quizshows und Ratespiele ✗
+b) nach jedem kleinen Schritt Prüfschleifen für möglichst ALLE ✓
+c) offene Philosophie-Fragen ✗
+d) rhetorische Fragen zur Aktivierung ✗ *(fühlt sich interaktiv an, prüft nichts)*
 
-**F6 (Transfer, Freitext):** Melis eskaliert im Gespräch („Bei anderen sagen Sie nie was!"). Schreibe deine nächsten zwei Sätze – mit Teil-Anerkennung, ohne die Sache aufzugeben. *(Muster: „Kann sein, dass ich nicht alles sehe – dem gehe ich nach. Für heute bleibt es dabei: Handy weg in meiner Stunde. Lass uns überlegen, wie morgen besser läuft.")*
-
----
-
-# Anhang 3: Anleitung Video-Selbstanalyse Nr. 1 (Handout)
-
-1. **Aufnahme:** 10–15 Min. einer normalen Stunde diese Woche (Handy auf Stativ/Bücherstapel, hinten im Raum; Einverständnisse liegen seit W0 vor). Nicht die Vorzeigestunde wählen – die normale.
-2. **Ansehen (allein, 2 Durchgänge):** Durchgang 1 nur schauen, nichts notieren (der Fremdheitsschock beim ersten Selbst-Sehen ist normal und vergeht). Durchgang 2 mit Block-1-Checklisten annotieren: Zeitstempel + Beobachtung (Begrüßungsroutine Schritt 3? Signal-Reihenfolge? Interventionsstufen? 3:1-Quotient? Satzmelodie?).
-3. **Drei Notizen mitbringen:**
-   1. eine Stelle, auf die ich stolz bin (Zeitstempel).
-   2. eine Stelle, die ich heute anders machen würde – und WIE.
-   3. eine Frage an meinen Coach.
-4. **Regel:** Das Video gehört dir. Der Coach sieht nur den Ausschnitt, den du zeigst.
+**F6 (Transfer, Freitext):** Nenne die vier größten Rosenshine-Verstöße der Beispielstunde (Anhang 1.3) – je mit Prinzip und einem konkreten Reparaturvorschlag ≤ 5 Minuten. *(Muster: kein Review → Do Now „2 Aufgaben Brüche von letzter Woche"; Riesenschritte → nach Grundwert/Prozentwert stoppen + Prüffrage; Selbstauskunft → 2 Whiteboard-Aufgaben; Sprung → 2 gemeinsame Beispiele vor dem Blatt.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 8"
+# Anhang 3: Ableitung für die SPA „Modul 8"
 
-1. **Hook (2 Min.):** „Der gemiedene Schüler": Nutzer denkt an IHN/SIE (Name lokal, optional) – App: „In 20 Minuten hast du den Gesprächsplan."
-2. **See it (5 Min.):** Zwei kontrastierende Nachgespräch-Audios (Predigt vs. W.I.N.) – Aufgabe: die 3 Schritte im guten Beispiel identifizieren, im schlechten die Anklage-Eröffnung markieren.
-3. **Name it (3 Min.):** W.I.N.-Karte digital + ✓/✗-Spiel mit 6 Gesprächseröffnungen.
-4. **Do it – W.I.N.-Simulator (9 Min., Engine-Highlight!):** Verzweigter Dialog mit den drei Rollenkarten-Profilen (KI-generierte Schülerantworten nach Regieanweisung); Feedback-Logik: belohnt offene W-Fragen, sachliches I, gemeinsames N; bestraft Zutexten, Moralkeule, vorschnelle Konsequenz-Ansage; „Vertagen" ist als würdiger Ausgang modelliert.
-5. **Übergangs-Baukasten:** eigenen Problem-Übergang eingeben → nummerierte Schrittfolge bauen → Kanten-Check; Ende-Checkliste (Puffer/Signal/Stehen/Reservefragen) als Wochenplan.
-6. **Meilenstein-Features:** Kompetenzmatrix-Wiederholung (Spinnennetz W0 vs. W8 wird erstmals sichtbar – der Motivations-Screen des Quartals!); Playbook-PDF-Export aller Skripte Module 2–8; Block-1-Abschlussquiz (20 Fragen kumulativ, Fragenpool aus allen Modul-Quizzen).
-7. **Abschluss:** Action-Step-Formular „Mein W.I.N. diese Woche" mit Vorbereitungsfeldern (W-Eröffnungsfrage wörtlich, mein I-Satz, mein N-Angebot) + Erinnerung.
+1. **Hook (2 Min.):** „Drei Quellen, eine Richtung" als animierte Konvergenz-Grafik (Kognitionspsychologie + Meisterlehrer-Studien + Interventionsstudien laufen auf dieselben 10 Prinzipien zu).
+2. **See it (5 Min.):** Die vier Stränge als aufklappbare Karten mit je einem 45-Sek.-Klassenzimmer-Beispiel (Video/Audio); ständige „Das machst du schon"-Badges (Do Now, Block-1-Verweise) für den Wiedererkennungs-Effekt.
+3. **Name it (3 Min.):** Sortier-Spiel: 10 Prinzipien-Karten in die 4 Stränge ziehen; danach I-We-You als Verantwortungs-Schieberegler-Animation.
+4. **Do it – Stunden-Audit-Tool (9 Min., Engine!):** Die schwache Beispielstunde als interaktiver Zeitstrahl – Nutzer markiert Verstöße direkt im Verlauf, wählt Prinzip + Reparatur aus Optionen; danach: eigenen Stundenplan als Freitext/Foto einfügen und mit dem 5-Fragen-Raster selbst auditieren (geführte Checkliste, Ergebnis als Ampelprofil).
+5. **80 %-Simulator:** Schieberegler Erfolgsquote → App zeigt die richtige Reaktion (zurück modellieren / im Korridor / Anspruch rauf) mit Fallbeispielen.
+6. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–8); F2/F3 sind die Langzeit-Anker (beide Enden des Korridors!).
+7. **Abschluss:** Action-Step-Formular mit Wochenzähler „Stunden mit 5-Min.-Review: __/__".

@@ -1,5 +1,5 @@
-# Skript Woche 35: „Growth Teaching – sich selbst weiterentwickeln"
-## 60-Minuten-Sitzung · Block 6 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 35: „Das Abschlusskolloquium – Vorher/Nachher"
+## 90–120-Minuten-Sondersitzung · Block 6 (Finale) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,185 +7,116 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie werde ich nach diesem Jahr weiter besser – ohne dieses Programm? |
-| **Kernquellen** | Ericsson (Deliberate Practice / Erfahrungs-Plateau); EEF *Effective Professional Development* (die vier Mechanismen – jetzt offengelegt); Lemov et al., *Practice Perfect*; Lesepfad: Willingham, Wiliam, Sherrington (WalkThrus) |
-| **Funktion im Jahr** | Die Übergabe-Sitzung: Das Programm legt seine eigene Bauweise offen (Meta-Ebene als EEF-Mechanismus „Motivation + Verankerung") und übergibt die Selbststeuerungs-Werkzeuge für Jahr 2. Video-Selbstanalyse Nr. 3 läuft in Tandems (Coach-Rolle wandert zum Peer!); der Entwicklungsplan Jahr 2 entsteht; das Kolloquium wird konkret vorbereitet. |
-| **Lernziele** | Die TN können:<br>1. das Erfahrungs-Plateau erklären (Erfahrung allein macht ab ~Jahr 3 nicht besser – gezielte Übung schon),<br>2. die vier EEF-Mechanismen benennen und im eigenen Jahr wiederfinden,<br>3. die vier Selbststeuerungs-Werkzeuge einrichten (Video-Routine, eigener Action-Step-Zyklus, Tandem mit Kalendereintrag, Lesepfad),<br>4. haben ihr Selbst-Coaching-Minimum und ihren Entwicklungsplan Jahr 2 schriftlich fixiert. |
-| **Sitzungstyp** | Meta-Sitzung + Tandem-Videoanalyse + Planungswerkstatt – die Sitzung, in der das Programm sich überflüssig macht. |
+| **Leitfrage** | Was hat ein Jahr gezielte Übung bewirkt – sichtbar gemacht, gewürdigt, weitergegeben? |
+| **Funktion im Jahr** | Programm-Finale in eigenem Format: kein Input, keine Übung – Bilanz, Würdigung, Staffelübergabe. Das Kolloquium ist zugleich das letzte Programmelement nach EEF-Logik: Es verankert (öffentliches Commitment auf Jahr 2), motiviert (der Vorher/Nachher-Beweis) und macht die Schule zum Zeugen (Schulleitung, ggf. künftige Kohorte-2-Mitglieder als Gäste). Matrix-Spinnennetz final (W0/W19/W35); Programm-Feedback für Kohorte 2; Zertifikate; Peer-Mentor-Angebot. |
+| **Beteiligte** | Kohorte, Coaches, Moderation, Schulleitung (Eröffnung + Zertifikate); optional als Gäste: interessierte Kollegen / designierte Kohorte 2. |
+| **Sitzungstyp** | Kolloquium – festlich, aber arbeitsnah: Es werden echte Videos gezeigt und echte Pläne vorgestellt. Kein Prüfungsformat (mehrfach explizit machen). |
+
+**Zeitrahmen-Varianten:** Bei 6 TN: ~95 Min. · bei 8 TN: ~115 Min. (Rechenbasis: 12 Min. pro TN inkl. Resonanz + 35 Min. Rahmenprogramm). Bei größeren Kohorten: zwei parallele Räume mit je einem Coach, gemeinsamer Auftakt und Abschluss.
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Tandem-Inseln mit Geräten (Video Nr. 3 auf TN-Handys/Laptops), Plenum. **Vorab:** Alle haben Video Nr. 3 aufgenommen und annotiert (seit W34 angesagt; Coach hat nachgefasst!).
+**Raum:** festlich-funktional: Stuhlhalbkreis, Beamer + Ton GETESTET (Videos!), Zertifikats-Tisch, Getränke/Gebäck (ja, wirklich – Rituale brauchen Form). **Technik-Generalprobe am Vortag:** alle Video-Ausschnitte der TN liegen abspielbereit auf EINEM Gerät (Reihenfolge = Programmfolge; erspart 8× Kabel-Chaos).
 
 **Material (Checkliste):**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Folie: die Plateau-Kurve (Anhang 1.1)
-- [ ] Handout A: Die vier EEF-Mechanismen – Programm-Landkarte rückwärts (Anhang 1.2)
-- [ ] Handout B: Selbst-Coaching-Minimum + Entwicklungsplan Jahr 2 (Anhang 1.3)
-- [ ] Handout C: Der Lesepfad (Anhang 1.4)
-- [ ] Kolloquiums-Leitfaden (Anhang 3) – wird am Ende ausgeteilt
+- [ ] Programmfolge als Aushang (Reihenfolge der TN – vorab gelost oder abgestimmt)
+- [ ] Zertifikate: vorbereitet MIT individuellem Precise-Praise-Satz (siehe Abschnitt 5 – die Sätze schreiben Coach + Moderation vorab gemeinsam!)
+- [ ] Kompetenzmatrix: Spinnennetz-Ausdrucke pro TN (W0/W19/W35 übereinander – W35-Erhebung lief im Coaching dieser Woche)
+- [ ] Programm-Feedback-Bögen (Anhang 2)
+- [ ] Zeitwächter-Schild + Glöckchen (mit Humor eingeführt, gnadenlos genutzt)
+- [ ] Taschentücher (sichtbar platziert – running gag seit W34, und er wird gebraucht)
+
+**Briefing Schulleitung (vorab, 3 Kernbotschaften):**
+
+1. Würdigen, was SICHTBAR wird (die Videos sprechen lassen – keine Generalrede über Bildungspolitik).
+2. Der Satz „Diese Investition hat sich gelohnt – und sie geht weiter" (Kohorte 2 ankündigen, falls beschlossen).
+3. Zertifikate persönlich übergeben, den Precise-Praise-Satz LAUT vorlesen.
 
 ---
 
-# 3. Ablauf im Detail (60 Minuten)
+# 3. Ablauf im Detail (Variante 8 TN, ~115 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–5)
+Musik, Getränke, Programmfolge hängt. Die Moderation begrüßt einzeln – Mikromoment-Handwerk, letzter Auftritt.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards. *(Letzter regulärer Starter des Jahres – die Moderation sagt es an; leiser Abschieds-Moment.)*
+## Phase 1 · Eröffnung durch die Schulleitung (Minute 5–12)
+Nach Briefing. Danach Übergabe an die Moderation.
 
-## Phase 2 · See it: Das Plateau (Minute 8–15)
+## Phase 2 · Rahmung durch die Moderation (Minute 12–18)
 
-[Plateau-Kurve auflegen: x-Achse Berufsjahre, y-Achse Wirksamkeit; steiler Anstieg Jahre 1–3, dann flache Linie – mit einer zweiten, weiter steigenden Kurve darüber.]
+> **Moderationstext (Vorschlag):**
+> *„Vor fünfunddreißig Wochen habe ich Ihnen drei Versprechen gegeben und drei Bitten formuliert. Eine der Bitten hieß: Hier wird geübt, laut, und es wird sich zweimal albern anfühlen. Sie haben geliefert – in diesem Raum wurde skriptiert, gespielt, gestoppt, wiederholt, gescheitert und sofort noch einmal probiert, mehr als in jeder Fortbildung, von der ich je gehört habe. Heute kein Input, kein Quiz –"* [Pause] *„gut, fast kein Quiz: Wer nennt mir die fünf Motivations-Treiber? … Danke. DAS war das letzte Retrieval des Jahres, es musste sein.*
+> *Heute zeigen Sie sich selbst, was ein Jahr gezielte Übung bewirkt. Jede und jeder von Ihnen zeigt zwei Videoausschnitte: einen aus Woche 1 – versiegelt seit September – und einen von vor zwei Wochen. Dazwischen liegen keine zehn Berufsjahre. Dazwischen liegen fünfunddreißig Wochen mit je einem Schritt. Die Spielregeln: Acht bis zehn Minuten pro Person, das Glöckchen ist unbestechlich. Nach jeder Präsentation zwei Minuten Stärken-Resonanz aus der Kohorte – konkret, ihr könnt das, es ist euer Handwerk. Und: Das hier ist keine Prüfung. Es ist ein Zeugnis – eines, das Sie sich selbst ausstellen."*
+
+## Phase 3 · Die Präsentationen (Minute 18–98; 8 × 10 Min.)
+
+**Format pro TN (aus dem W34-Leitfaden):**
+
+1. Baseline-Ausschnitt W1 (1–2 Min.)
+2. Kontrast-Ausschnitt Video 3 (1–2 Min., möglichst gleiche Situations-Kategorie)
+3. „Meine drei Techniken" (je 1 Satz Wirkung)
+4. „Meine Baustelle + mein Jahr-2-Plan"
+
+Dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualität und schneidet Kitsch freundlich ab: *„Konkret – was genau war stark?"*).
+
+**Moderations-Regie:** Nach jedem TN ein Übergangs-Satz, der ein MUSTER würdigt statt zu wiederholen (*„Schon der dritte Stundenstart, bei dem im September gerufen und im Juni gewartet wird – merkt euch dieses Muster."*). **Pausenregel:** Nach TN 4 fünf Minuten Pause (in der 95-Min.-Variante: nach TN 3, drei Minuten). **Emotions-Regie:** Die W1-Videos lösen regelmäßig Lachen UND Rührung aus – beides zulassen, nichts zerreden; das Taschentuch-Schild zeigt, wenn es passt.
+
+## Phase 4 · Das Spinnennetz & die Bilanz (Minute 98–106)
+
+Jeder erhält den eigenen Dreifach-Spinnennetz-Ausdruck (W0/W19/W35). Zwei Minuten stilles Betrachten, dann Blitzlicht reihum, EIN Satz: *„Was sagt dir dein Netz?"*
+
+> **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit letzter Woche, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab August selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
+
+## Phase 5 · Programm-Feedback (Minute 106–112)
+
+Bögen (Anhang 2): **Behalten / Ändern / Streichen** – still, ehrlich, anonym möglich; Zusatzfeld: „Mein Rat an Kohorte 2 in einem Satz" (wird – wie die W34-Botschaften – Teil der nächsten Auftaktwoche). Einsammeln.
+
+> *„Ihr wart die erste Kohorte. Alles, was an diesem Programm gut war, wird bleiben, weil ihr es bestätigt – und alles, was besser geht, wird besser, weil ihr es aufschreibt. Das ist Own and Track auf Programmebene."*
+
+## Phase 6 · Zertifikate & Peer-Mentor-Angebot (Minute 112–118)
+
+**Zertifikatsübergabe durch die Schulleitung:** Jedes Zertifikat trägt einen individuellen **Precise-Praise-Satz** (vorab von Coach + Moderation formuliert: konkret, verdient, aufs Vorgehen – z. B. *„…hat aus einem improvisierten Stundenstart eine Routine gebaut, die in 40 Sekunden 28 Menschen ins Arbeiten bringt"*). Die Schulleitung liest ihn LAUT. Applaus pro Person – das Format trägt die Würdigung, nicht die Länge.
+
+**Peer-Mentor-Angebot (Moderation):** *„Im Herbst startet Kohorte 2 – und sie wird eines brauchen, das kein Buch und kein Coach ersetzen kann: Menschen, die diesen Weg gerade selbst gegangen sind. Wer sich vorstellen kann, als Peer-Mentor eine Stunde im Monat zu geben – Hospitationsgast, Erste-Wochen-Pate, Erfahrungsstimme in der Auftaktwoche –, sagt mir das diese Woche. Kein Amt, kein Papierkram: ein Tandem mit Vorsprung."*
+
+## Phase 7 · Schlusswort (Minute 118–120)
 
 > **Moderationstext:**
-> *„Eine unbequeme Kurve zum Einstieg in die vorletzte Sitzung. Die Forschung zur Lehrerwirksamkeit zeigt ein robustes Muster: In den ersten zwei, drei Jahren werden Lehrkräfte steil besser – der pure Überlebensdruck erzwingt Lernen. Und dann… passiert im Durchschnitt: nichts mehr. Die Kurve wird flach. Die Lehrkraft mit zwanzig Jahren Erfahrung ist im Schnitt nicht wirksamer als die mit fünf. Nicht, weil Erfahrung wertlos wäre – sondern weil **Erfahrung allein nur wiederholt, was schon läuft.** Ericsson, der Vater der Expertise-Forschung, hat es überall gefunden, vom Schach bis zur Chirurgie: Besser wird, wer GEZIELT übt – am Rand des eigenen Könnens, mit Fokus, mit Feedback, mit Wiederholung. Klingt bekannt? Es ist die Definition dieses Jahres.*
-> *Und da ist die zweite Kurve: die derjenigen, die weiter steigen. Der Unterschied zwischen den Kurven ist kein Talent und keine Arbeitsmoral – es ist ein SYSTEM. Ihr hattet dieses Jahr eins: Es hieß Fortbildung, Coach, Kohorte. Ab August habt ihr es nicht mehr – es sei denn, ihr baut es euch selbst. Genau das tun wir heute. Aber vorher löse ich ein Versprechen ein und lege die Karten auf den Tisch: Ich zeige euch, wie dieses Jahr GEBAUT war."*
+> *„Ein letzter Satz, dann ist es vollbracht. In der allerersten Sitzung stand ein einziger Satz auf der Folie: Handwerk ist lernbar. Sie haben ihn dieses Jahr nicht geglaubt – Sie haben ihn bewiesen. Ein prall gefülltes Playbook, drei Spinnennetze und zwei Videos, zwischen denen Welten liegen. Was Sie ab morgen unterrichten, sind Fächer. Was Sie ab morgen SIND, ist etwas anderes: Kollegen, die wissen, wie man besser wird – aus eigener Kraft, mit System, ein Schritt pro Woche. Es war mir eine Ehre. Die Stunde ist zu Ende – Sie wissen ja jetzt, wie man eine Stunde beendet: geordnet, im Stehen, und drei Minuten vor dem Klingeln."*
 
-## Phase 3 · Input A: Die Offenlegung (Minute 15–23)
-
-> *„Die Education Endowment Foundation hat hunderte Fortbildungsstudien ausgewertet und gefragt: Was unterscheidet Fortbildungen, die Unterricht verändern, von denen, die Ordner füllen? Die Antwort sind vier Mechanismen – und ihr habt alle vier ein Jahr lang erlebt:*
-> *​**Wissen aufbauen:** nicht als Vortrag, sondern gedächtnisgerecht – eure Retrieval-Starter, die kumulativen Block-Quizze, die Selbstversuche. Wir haben euch Gedächtnispsychologie nicht erzählt, wir haben sie an euch ANGEWANDT.*
-> *​**Motivation sichern:** Ziele mit der Matrix, glaubwürdige Quellen, Erfolgserlebnisse konstruiert – eure Stoppuhr-Kurven in Woche 4 waren euer erstes Secure Success, lange bevor ihr das Wort kanntet. Und heute, diese Offenlegung selbst, ist ein Mechanismus: Wer das System versteht, kämpft nicht gegen das System – Buy-in, Woche 30.*
-> *​**Technik entwickeln:** Modellieren, Skripten, Rollenspiel, sofortige Wiederholung – Deliberate Practice. Ihr habt in diesem Raum lauter geübt als jede Fortbildung, die ihr je erleben werdet. Der Grund steht auf Folie 2 der allerersten Sitzung: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht.*
-> *​**Verankerung im Alltag:** ein Action Step pro Woche, Coaching am echten Unterricht, Hospitationen. Die Fortbildung fand nie hier statt – sie fand montags in euren Klassenzimmern statt; hier war nur die Probebühne.*
-> *Warum ich euch das zeige? Weil ihr ab jetzt eure eigene Fortbildung DESIGNT. Und wer die vier Mechanismen kennt, erkennt in dreißig Sekunden, ob eine Fortbildung, ein Buch, ein Vorsatz sie bedient – oder nur Ordner füllt. Die Frage an jede künftige Entwicklungs-Idee: Wo ist das Wissen, wo die Motivation, wo die ÜBUNG, wo die Verankerung?"*
-
-## Phase 4 · Input B: Der Werkzeugkasten für Jahr 2 (Minute 23–30)
-
-> *„Vier Werkzeuge, alle erprobt, alle koffertauglich:*
-> *​**Eins: die Video-Routine.** Ihr habt drei Selbstanalysen hinter euch und wisst: Nichts zeigt euch euren Unterricht so ehrlich. Ein Video pro Quartal, zwei Durchgänge, drei Notizen – das Format kennt ihr auswendig. Das Handy ist euer Coach für 2027.*
-> *​**Zwei: der eigene Action-Step-Zyklus.** Ein Fokus pro Monat (nicht fünf – ihr kennt die Regel seit Tag eins), ein konkreter Step pro Woche, freitags zwei Minuten Bilanz. Das Formular kennt ihr – es funktioniert ohne mich.*
-> *​**Drei: das Tandem – mit Kalendereintrag.** Der wichtigste Satz dieser Phase: **Gute Vorsätze sterben, Termine überleben.** Eure Tandems aus diesem Jahr sind das wertvollste, was ihr mitnehmt – aber nur, wenn die gegenseitigen Besuche JETZT im Kalender stehen, mit Datum, bevor ihr diesen Raum verlasst. Zwei Peer-Besuche pro Halbjahr, Gastgeber-Fokus-Regel, ihr könnt das.*
-> *​**Vier: der Lesepfad.** Fünf Bücher, die auf diesem Jahr aufbauen"* [Handout C kurz zeigen] *„– Regel: ein Buch pro Halbjahr, und aus jedem Buch EIN Action Step. Ein Buch ohne Action Step ist Unterhaltung – auch schön, zählt aber nicht als Fortbildung. Vier Mechanismen, ihr wisst jetzt warum.*
-> *Und alles zusammen als **Selbst-Coaching-Minimum** – bewusst ein MINIMUM, kein Maximalprogramm: 1 Fokus pro Monat · 1 Step pro Woche · 1 Video pro Quartal · 2 Peer-Besuche pro Halbjahr · 1 Buch pro Halbjahr. Das ist weniger Zeit, als ihr früher an einem einzigen Korrektur-Sonntag verloren habt – und es ist der Unterschied zwischen den beiden Kurven."*
-
-## Phase 5 · Do it (Minute 30–52)
-
-### Runde 1 · Video-Selbstanalyse Nr. 3 in Tandems (Min. 30–44) — die Coach-Rolle wandert
-Tandems: Jeder zeigt den annotierten Ausschnitt (5–6 Min. pro Person inkl. Gespräch). **Der Peer führt das Gespräch nach Coach-Struktur** (an der Tafel):
-
-1. „Was siehst du heute, was du in Woche 20 nicht gesehen hättest?"
-2. Eine Stärke mit Zeitstempel würdigen – Precise Praise!
-3. EIN Impuls.
-
-*(Moderation rahmt vorher: „Das ist keine Übung – das IST euer Format ab August. Heute mit Netz.")*
-
-### Runde 2 · Entwicklungsplan Jahr 2 (Min. 44–52)
-Einzelarbeit auf Handout B:
-
-1. Meine zwei Baustellen für Jahr 2 (Quellen: Matrix-Verlauf, Video 3, Coach-Feedback) – priorisiert.
-2. Selbst-Coaching-Minimum unterschreiben (ja, wirklich unterschreiben – Commitment-Ritual).
-3. **Tandem-Termine für Halbjahr 1 JETZT in beide Kalender** (die Moderation wartet sichtbar, bis Handys gezückt sind).
-4. Buch Nr. 1 vom Lesepfad wählen.
-
-## Phase 6 · Kolloquiums-Vorbereitung & Action Step (Minute 52–58)
-
-**Kolloquium konkret (4 Min., Leitfaden Anhang 3 austeilen):** *„Nächste Woche kein normales Format: 90 bis 120 Minuten, Schulleitung eröffnet, und ihr seid das Programm. Jeder präsentiert 8 bis 10 Minuten: zwei Videoausschnitte – einer aus Woche 1, versiegelt seit September, einer aus Video 3 – plus drei Techniken, die euren Unterricht verändert haben, plus eine Baustelle mit Plan. Danach zwei Minuten Stärken-Resonanz aus der Kohorte. Kein Prüfungsformat – ein Zeugnis-Format: Ihr zeigt euch selbst, was ein Jahr gezielte Übung bewirkt. Das Baseline-Video bekommt ihr diese Woche vom Coach – schaut es euch VORHER allein an. Bringt Taschentücher. Ich meine das nur halb im Scherz."*
-
-**Action Step (Standard):** *„Ich bereite meine Kolloquiums-Präsentation vor: Baseline-Ausschnitt wählen (1–2 Min.), Kontrast-Ausschnitt aus Video 3 (1–2 Min.), meine drei Techniken benennen, meine Baustelle mit Jahr-2-Plan formulieren. Generalprobe im Tandem bis Donnerstag."*
-
-## Phase 7 · Exit-Karte (Minute 58–60)
-Letzte reguläre Exit-Karte, erweitert:
-
-1. Der Satz aus diesem Jahr, der bleibt: …
-2. Meine Botschaft an die nächste Kohorte: …
-
-*(fließt anonymisiert in die Kohorte-2-Auftaktwoche – die Kohorte wird Teil des Programms!)*
+[Aufstehen. Applaus. Ende.]
 
 ---
 
 # 4. Coaching-Woche 35 (Handreichung)
 
-- **Die Übergabe-Woche:** Das Coaching-Gespräch hat EINEN Fokus: Ablösung. Entwicklungsplan Jahr 2 durchgehen – der Coach fragt, korrigiert nicht mehr (letzte Kalibrierung: Sind die zwei Baustellen die richtigen? Matrix + eigene Belege danebenlegen).
-- **Baseline-Video übergeben:** versiegelt seit W1 – Übergabe mit Ritual-Charakter; TN schaut allein, VOR dem Kolloquium. Hinweis mitgeben: „Der erste Impuls ist Fremdscham. Der zweite ist Stolz. Warte auf den zweiten."
-- **Kolloquiums-Generalprobe anbieten** (Tandem hat Vorrang – Coach nur als Fallback); Zeitdisziplin proben (8–10 Min. sind schnell vorbei).
-- **Peer-Mentor-Sondierung:** Im Gespräch vorsichtig sondieren, wer sich als Peer-Mentor für Kohorte 2 eignet UND Lust hätte (wird in W36 offiziell angeboten – keine Zusagen einholen, nur Boden bereiten).
-- **Red Flag:** TN plant für Jahr 2 ein Maximalprogramm (5 Baustellen, 3 Bücher parallel) → auf das MINIMUM eindampfen: Die Selbstüberforderung ist der häufigste Grund, warum Selbststeuerung nach 6 Wochen stirbt; lieber unterschreiben, was hält.
+- **Vor dem Kolloquium:** W35-Matrix-Erhebung im letzten 1:1 (ruhig, ohne Kommentar – das Netz spricht im Kolloquium); Precise-Praise-Satz je TN mit der Moderation finalisieren; Technik-Zulieferung (Ausschnitte einsammeln).
+- **Nach dem Kolloquium – das Abschlussgespräch (30 Min., in den Tagen danach):**
+  1. Kolloquiums-Nachlese: Wie war es, sich selbst zu sehen?
+  2. Jahr-2-Vertrag final: Termine real im Kalender? Erster Monatsfokus startklar für August?
+  3. Offizielle Übergabe: „Ab jetzt bist du dein Coach – und du weißt, wo du mich findest."
+  4. Peer-Mentor-Interessierte an die Moderation melden.
+- **Programm-Nachlese (Coaches + Moderation, eigener Termin):** Feedback-Bögen auswerten (Behalten/Ändern/Streichen clustern); Kohorte-2-Anpassungen beschließen und dokumentieren; die W34-Botschaften + Kolloquiums-Räte für die neue Auftaktwoche aufbereiten.
+- **Red Flag (auch im Finale ernst):** TN, deren Netz/Video kaum Entwicklung zeigt oder die das Kolloquium als beschämend erlebt haben → das Abschlussgespräch wird zum Perspektivgespräch: ehrlich, warm, mit konkretem Jahr-2-Support (ggf. verlängertes Coaching-Angebot); niemand verlässt das Programm mit einem Scheitern-Gefühl als letztem Eindruck.
 
 ---
 
-# Anhang 1: Übungsmaterial
+# Anhang 1: Programmfolge-Vorlage (Aushang)
+Kolloquium [Datum] · Eröffnung: Schulleitung · Rahmung · Präsentationen: 1. … 2. … 3. … 4. … — PAUSE — 5. … 6. … 7. … 8. … · Spinnennetz-Bilanz · Programm-Feedback · Zertifikate · Schlusswort. *(Glöckchen-Piktogramm mit Augenzwinkern: „8–10 Min. – das Glöckchen kennt kein Warm/Strict, nur Strict.")*
 
-## 1.1 Die Plateau-Kurve (Folien-Bauanleitung)
-x: Berufsjahre 1–20; y: Wirksamkeit. Kurve A (grau): steil bis Jahr ~3, dann flach („Erfahrung allein"). Kurve B (farbig): steigt weiter, moderater, aber stetig („gezielte Übung mit System"). Markierung bei Jahr 1: „IHR – heute." Beschriftung der Lücke zwischen den Kurven bei Jahr 10: „kein Talent. Ein System."
+# Anhang 2: Programm-Feedback-Bogen (Kohorte 1 → Kohorte 2)
+**BEHALTEN** (Was hat dir am meisten gebracht? Konkret – Format, Woche, Werkzeug): … **ÄNDERN** (Was hätte anders getaktet/gebaut sein sollen?): … **STREICHEN** (Was hat dir wenig gebracht – ehrlich): … **Mein Rat an Kohorte 2 in einem Satz:** … **Optional – Name, falls Rückfragen okay:** … *(Anonymität ausdrücklich erlaubt; die Sätze der letzten Zeile werden – anonymisiert – Teil der nächsten Auftaktwoche.)*
 
-## 1.2 Handout A: Die vier EEF-Mechanismen – unser Jahr rückwärts
-Tabelle: Mechanismus | So sah er bei uns aus (je 3–4 Programm-Elemente, siehe Phase 3) | **Meine Prüffrage für künftige Fortbildung/Bücher/Vorsätze:** „Wo ist Wissen – Motivation – ÜBUNG – Verankerung?" Fußzeile: „Fehlt die Übung, füllt es Ordner."
+# Anhang 3: Zertifikats-Vorlage (Struktur)
+Schullogo · „Zertifikat – Berufsbegleitende Professionalisierung für den Quereinstieg, Schuljahr …" · Name · Umfang (35 Wochenmodule, wöchentliches Unterrichtscoaching, 5 kollegiale Hospitationen, 3 Meilenstein-Kolloquien, Abschlusskolloquium mit Unterrichtsdokumentation) · **Individueller Würdigungssatz (Precise Praise):** „…" · Unterschriften Schulleitung + Programmleitung · Datum. *(Formulierungs-Check für den Würdigungssatz: konkret? verdient? aufs Vorgehen? – die W6-Kriterien gelten bis zur letzten Urkunde.)*
 
-## 1.3 Handout B: Selbst-Coaching-Minimum + Entwicklungsplan Jahr 2
-**Minimum (zum Unterschreiben):** 1 Fokus/Monat · 1 Action Step/Woche (Freitag: 2-Min.-Bilanz) · 1 Video/Quartal (2 Durchgänge, 3 Notizen) · 2 Peer-Besuche/Halbjahr (Gastgeber-Fokus-Regel) · 1 Buch/Halbjahr (+ 1 Action Step daraus). Unterschrift: ______ **Entwicklungsplan:** Baustelle 1 (+ Beleg, + erster Monatsfokus): … | Baustelle 2 (Start: 2. Quartal!): … | Tandem-Termine H1 (IN BEIDEN KALENDERN ☐☐): …/… | Buch Nr. 1: … | Mein Video-Quartalstermin: …
+# Anhang 4: Ableitung für die SPA „Modul 35 / Jahres-Dashboard"
 
-## 1.4 Handout C: Der Lesepfad (5 Bücher, je 1 Satz + Anschluss)
-1. **Willingham, *Why Don't Students Like School?*** – die Kognition hinter Block 3, als Ganzes erzählt. *(Anschluss: W15–20)*
-2. **Wiliam, *Embedded Formative Assessment*** – Block 4 in voller Tiefe und mit Prüfungskultur-Horizont. *(W21–26)*
-3. **Sherrington/Caviglioli, *WalkThrus*** – 150 Techniken als Bildanleitungen; das Nachschlagewerk für den Monatsfokus. *(ganzjährig)*
-4. **Lemov et al., *Practice Perfect*** – wie man übt; das Buch hinter unserer Übungskultur – und die Vorlage, falls ihr je selbst Kollegen trainiert. *(Meta)*
-5. **McCrea, *Evidence Snacks*** (oder erneut *Motivated Teaching* mit Textmarker) – Evidenz in Wochenhäppchen; passt exakt ins Minimum. *(Erhalt)*
-Regel: 1 Buch pro Halbjahr · 1 Action Step pro Buch · Tandem erzählt Tandem, was hängen blieb (Abruf!).
-
----
-
-# Anhang 2: Quiz-Material
-
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards — der letzte!)
-1. Der WCF-Fünfschritt? *(lesen → Muster-Bogen → Feedbackstunde → DIRT → Stichprobe)*
-2. Die Triage-Frage + die vier Formate? 3. DIRT in einem Satz? 4. Die 5-Treiber (Block 5)? *(Success/Routines/Norms/Belonging/Buy-in)* 5. (Anwendung) Ein Kollege plant eine Fortbildung: 3 Stunden Vortrag, Handout, Ende. Welcher EEF-Mechanismus fehlt am dramatischsten – und was würdest du ergänzen? *(Übung [+ Verankerung]; ergänzen: Skripten + Rollenspiel + Action Step mit Follow-up)*
-
-## Teil 2: Modul-Quiz Woche 35 (für SPA)
-**F1.** „Mit den Jahren wird man automatisch ein besserer Lehrer."
-a) Stimmt – Erfahrung ist der beste Lehrmeister ✗ *(DER Berufsmythos)*
-b) Nur ~3 Jahre; danach steigt nur, wer gezielt übt (Fokus, Feedback, Wiederholung) ✓
-c) Stimmt nie ✗
-d) Hängt vom Fach ab ✗
-
-**F2.** Eine Fortbildung ohne Übungsanteil…
-a) spart Zeit und liefert trotzdem ✗
-b) verletzt den EEF-Kernbefund: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht ✓
-c) ist für Erfahrene ausreichend ✗
-d) ist rechtlich unzulässig ✗
-
-**F3.** „Gute Vorsätze sterben, Termine überleben" heißt für das Tandem:
-a) man trifft sich, wenn beide Zeit haben ✗ *(der Tod des Tandems)*
-b) die Peer-Besuche stehen MIT DATUM in beiden Kalendern, bevor das Jahr endet ✓
-c) monatliche Absichtserklärungen genügen ✗
-d) der Coach erinnert schon ✗
-
-**F4.** Ein Fachbuch „zählt" als Fortbildung, wenn…
-a) man es durchgelesen hat ✗ *(Unterhaltung)*
-b) EIN Action Step daraus im Unterricht landet ✓
-c) man es im Kollegium empfiehlt ✗
-d) es dick genug ist ✗
-
-**F5.** Das Selbst-Coaching-Minimum ist bewusst klein, weil…
-a) mehr nicht nötig ist ✗
-b) Maximalprogramme in Wochen sterben – gehaltene Minima tragen Jahre (80 %-Logik, W32!) ✓
-c) die Schulleitung nicht mehr erlaubt ✗
-d) Selbststeuerung überschätzt wird ✗
-
-**F6 (Transfer, Freitext):** Entwirf dein Jahr-2-System in fünf Zeilen: Baustelle 1, erster Monatsfokus, Video-Termin, Tandem-Termine, Buch 1. *(Bewertungsanker: Baustelle mit Beleg; Fokus konkret als Technik, nicht als Wunsch; alle Termine mit Datum.)*
-
----
-
-# Anhang 3: Kolloquiums-Leitfaden (für TN, wird heute ausgeteilt)
-**Format:** 90–120 Min. · Schulleitung eröffnet · pro TN 8–10 Min. + 2 Min. Stärken-Resonanz der Kohorte. **Deine Präsentation:**
-
-1. Baseline-Ausschnitt W1 (1–2 Min., selbst gewählt – Mut zur ehrlichen Stelle!)
-2. Kontrast-Ausschnitt Video 3 (1–2 Min., dieselbe Situations-KATEGORIE wenn möglich: Stundenstart gegen Stundenstart schlägt Rosinen-Picking)
-3. Meine drei Techniken (benennen + je 1 Satz, was sie verändert haben)
-4. Meine Baustelle + mein Jahr-2-Plan (zeigt: Entwicklung endet nicht – sie wechselt den Träger)
-
-**Stärken-Resonanz:** Die Kohorte antwortet mit konkreten Stärken (Precise Praise – letzter Auftritt der Feedbackregel). **Kein Prüfungsformat.** Zeitwächter gnadenlos, Taschentücher erlaubt.
-
----
-
-# Anhang 4: Ableitung für die SPA „Modul 35"
-
-1. **Hook (2 Min.):** Die Plateau-Kurve interaktiv: Slider „Berufsjahr" – die Lücke zwischen den Kurven wächst mit; Markierung „DU – heute" auf Jahr 1.
-2. **See it (4 Min.):** Die Offenlegung als „Making-of"-Screen: die vier EEF-Mechanismen erscheinen, und Programm-Elemente aus den Modulen 0–34 fliegen an ihre Plätze (das Jahr sortiert sich vor den Augen – der emotionale Kern des Moduls).
-3. **Name it (3 Min.):** Minimum-Karte + die Fortbildungs-Prüffrage; Mechanismen-Check-Spiel: 4 fiktive Fortbildungsangebote → welcher Mechanismus fehlt?
-4. **Do it – Entwicklungsplan-Builder (9 Min., Engine!):** zieht automatisch die eigenen Daten: Matrix-Verlauf (Spinnennetz), Action-Step-Historie, schwächste Quiz-Kategorien → schlägt Baustellen-Kandidaten VOR (der Daten-Zahltag des Jahres!) → Nutzer priorisiert 2, terminiert Video/Tandem/Buch → Minimum mit Unterschrift-Geste (Touch-Signatur) → Export als „Mein Jahr-2-Vertrag" (PDF).
-5. **Video-Analyse-Guide Nr. 3:** das bekannte Zwei-Durchgänge-Format als geführter Ablauf; NEU: Peer-Gesprächs-Leitfaden für die Tandem-Rolle (die 3 Coach-Fragen als Karten).
-6. **Kolloquiums-Vorbereitungs-Assistent:** Leitfaden-Checkliste + Ausschnitt-Wahl-Hilfe („gleiche Kategorie W1/V3") + 10-Min.-Probetimer.
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3/F4 sind Langzeit-Anker. **Abschluss:** kein Action-Step-Formular – stattdessen der Jahr-2-Vertrag. (Der Action Step IST ab jetzt selbstgesteuert – die App sagt das explizit.)
+1. **Kein Lernmodul – ein Zeugnis-Screen.** Das Modul öffnet mit dem finalen **Spinnennetz W0/W19/W35** als animierter Aufbau (die drei Linien zeichnen sich nacheinander – der Gänsehaut-Moment der SPA).
+2. **Jahres-Dashboard:** alle Verlaufsdaten auf einem Screen: Action-Step-Historie (35 Einträge!), Quiz-Kurven über 6 Blöcke, Planungszeit- und Korrekturzeit-Graphen (Module 32/34), Störungs-/3:1-/Cold-Call-Tracker-Trends – „Dein Jahr in Daten".
+3. **Portfolio-Export:** ein PDF-Paket auf Knopfdruck: Playbook (alle Skript-Editor-Exporte), Jahr-2-Vertrag, Spinnennetz, Dashboard-Zusammenfassung – das digitale Gegenstück zum Zertifikat.
+4. **Kolloquiums-Begleiter:** Ablauf-Checkliste + Präsentations-Timer (8–10 Min. mit Glöckchen-Sound) für die Live-Veranstaltung.
+5. **Programm-Feedback digital:** Behalten/Ändern/Streichen-Formular (speist die Kohorte-2-Anpassung); Rat-an-Kohorte-2-Feld.
+6. **Abschluss-Screen:** „Handwerk ist lernbar – bewiesen von dir." + Übergabe an den Erhaltungsmodus: Die Karteikarten-Engine läuft weiter (Spaced Retrieval über den Jahresstoff, Frequenz reduziert), Quartals-Video-Erinnerungen aktiv, Tandem-Termine im Kalender-Sync. Die SPA wechselt vom Kurs- in den Begleiter-Modus.

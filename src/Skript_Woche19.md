@@ -1,5 +1,5 @@
-# Skript Woche 19: „Spacing & Interleaving – Vergessen strategisch nutzen"
-## 60-Minuten-Sitzung · Block 3 · Fortbildung Quereinsteiger Sek I/II
+# Skript Woche 19: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Halbjahres-Meilenstein)"
+## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
 
@@ -7,169 +7,168 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wann sollte ich wiederholen – und warum ist „etwas vergessen haben" ideal? |
-| **Kernquellen** | McCrea, *Memorable Teaching* (Spacing); Rohrer & Pashler (Interleaving); Bjork (desirable difficulties, Performance ≠ Learning); Ebbinghaus (W15) |
-| **Funktion im Jahr** | Die zeitliche Dimension des Retrieval: Aus „abrufen" wird „verteilt abrufen". Löst rückwirkend Fall 1 aus W15 und die Block-2-Transferfrage („in der Stunde konnten sie es") vollständig auf. Die Wiederholungs-Landkarte wird Planungswerkzeug für W33 (Inter-Lesson-Planning); die kumulative Prüfungsregel verändert das Klassenarbeits-Design (W34). Gruppenhospitation 3 wird vorbereitet. |
-| **Lernziele** | Die TN können:<br>1. den Spacing-Effekt erklären und pragmatisch umsetzen (kumulative Quizze statt Intervall-Wissenschaft),<br>2. Übungssets interleaven und den Zusatznutzen (Methoden-WAHL trainieren) begründen,<br>3. Performance und Learning unterscheiden und daraus Konsequenzen für die eigene Stunden-Bewertung ziehen. |
-| **Sitzungstyp** | Konzept-Sitzung mit zwei Bau-Übungen (Landkarte + Blatt-Umbau); die Kurven-Grafik ist das Herzstück. |
+| **Leitfrage** | Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
+| **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
+| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (W14) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in W32/33 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit W0-Vergleich, Video-Selbstanalyse Nr. 2. |
+| **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
+| **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Doppel-Input + KO-Werkstatt + Meilenstein-Ritual. Zeitdisziplin wie W13. |
 
 ---
 
 # 2. Vorbereitung
 
-**Raum:** Vierergruppen. **Material:**
-- [ ] Retrieval-Quiz liegt aus
-- [ ] Die Paradox-Kurven-Grafik als Folie/Poster (Anhang 1.1)
-- [ ] Handout A: Halbjahres-Landkarten-Blanko (Anhang 1.2)
-- [ ] Das geblockte Beispiel-Übungsblatt, pro Tandem (Anhang 1.3)
-- [ ] Handout B: Einbau-Regeln + Schüler-Erklärskript (Anhang 1.4)
-- [ ] Beobachtungsbogen Gruppenhospitation 3 (Anhang 3)
+**Raum:** Vierergruppen; Meilenstein-Ecke mit Matrix-Bögen. **Vorab-Hinweis (W18-Exit-Karte):** aktuelle eigene Unterrichtseinheit im Kopf haben (KO wird dafür gebaut); W0-Matrix-Bogen bringt der COACH mit (liegt in dessen Unterlagen).
+
+**Material (Checkliste):**
+- [ ] Block-3-Quiz, 20 Fragen kumulativ (Anhang 2, Teil 1) + Lösungsfolie
+- [ ] Handout A: Elaborations-Fragenfächer (Anhang 1.1)
+- [ ] KO-Beispiele: 2 gute, 1 überladenes Negativ (Anhang 1.2) + KO-Blanko
+- [ ] Handout B: Die 10-Minuten-Lernstrategie-Rede, Skriptgerüst (Anhang 1.3)
+- [ ] Kompetenzmatrix-Bögen (identisch W0/W7); 9-Prinzipien-Posterblanko (Anhang 1.4)
 
 ---
 
 # 3. Ablauf im Detail (60 Minuten)
 
-## Phase 0 · Ankommen (Minute 0–2) — Standard.
+## Phase 0 · Ankommen (Minute 0–2) — Standard; Hinweis: „Block-Quiz statt Starter."
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Block-3-Quiz (Minute 2–12)
+20 Fragen (Anhang 2, Teil 1), still, Selbstkorrektur. Meta-Satz: *„Kumulativ bis Woche 1 zurück – ihr habt gerade gespürt, wie sich die 1er-Fragen anfühlen: leicht vergessen, genau richtig. Spacing an euch selbst, Woche 18 live."*
 
-## Phase 2 · Brücke & Provokation (Minute 8–12)
+## Phase 2 · Input A: Elaboration – Vernetzen statt Stapeln (Minute 12–20)
 
 > **Moderationstext:**
-> *„3-2-1-Woche: Wie hat eure Klasse auf den Trainings-Satz reagiert – Tag 1 gegen Tag 5?"* [2 Stimmen.]
-> *„Und jetzt stelle ich euch die unbequemste Frage des Jahres. Denkt an eure beste Stunde der letzten Wochen – die, nach der ihr dachtet: Heute lief es. Woran habt ihr das festgemacht? … Vermutlich: Es lief FLÜSSIG. Die Aufgaben klappten, wenig Fehler, gutes Tempo, zufriedene Gesichter. Und jetzt die Provokation, mit Forschung im Rücken: **Genau dieses Gefühl ist ein unzuverlässiger Zeuge.** Die Stunde, die sich am glattesten anfühlt, ist oft nicht die, aus der am meisten bleibt. Heute lernt ihr, warum – und wie ihr das Vergessen eurer Schüler von einem Feind in ein Werkzeug verwandelt."*
+> *„Block 3, letzter Baustein. Ihr wisst jetzt: rein ins Langzeitgedächtnis (Abruf), verteilt über die Zeit (Spacing). Heute die dritte Dimension: WIE das Wissen dort liegt. Gestapelt – lose Fakten nebeneinander – oder vernetzt, als Schema. Woche 14, der BMW-FBI-Versuch: Nur vernetztes Wissen chunkt, nur Schemata erweitern das Denken. Und Vernetzung entsteht durch eine Sorte von Denkarbeit: **Elaboration** – Neues aktiv mit Bekanntem verknüpfen. Willingham nochmal: Erinnert wird, worüber nachgedacht wurde – und je TIEFER verarbeitet, desto haltbarer die Spur.*
+> *Das Handwerkszeug ist ein Fragenfächer:* [Handout A] *„**Warum?** – die Mutter aller Elaborationsfragen. **Inwiefern ist X anders als Y?** – Vergleich erzwingt Grenzziehung. **Nenne ein eigenes Beispiel** – Transfer in die eigene Welt. **Erkläre es einem Fünftklässler** – Vereinfachung erzwingt Durchdringung. **Was wäre, wenn …?** – Variation testet das Verständnis der Struktur.*
+> *Und eine Warnung vor dem beliebtesten Etikettenschwindel: **Eine Mindmap ist nur dann Elaboration, wenn sie Denken über Zusammenhänge erzwingt.** Begriffe mit Linien verbinden kann man völlig gedankenlos – schön bunt, null Verarbeitung. Der Fix ist derselbe wie beim Aufgaben-Röntgen aus Woche 16: Beschriftet die LINIEN. ‚Verbinde und schreibe an jede Linie, WIE die Begriffe zusammenhängen' – jetzt ist das Denken unumgehbar."*
 
-## Phase 3 · Input (Minute 12–27)
+## Phase 3 · Input B: Knowledge Organizer + Metakognition (Minute 20–28)
 
-### 3a · Die Paradox-Kurve: Performance ≠ Learning (Min. 12–17)
-[Kurven-Grafik auflegen, Anhang 1.1: zwei Übungsregimes, zwei Messzeitpunkte.]
-> *„Zwei Klassen üben denselben Stoff, gleiche Gesamtzeit. Klasse GEBLOCKT übt alles am Stück – am Ende der Stunde: starke Leistung, die linke Säule. Klasse VERTEILT übt in Portionen über Wochen, mit Lücken dazwischen – am Ende jeder Stunde: holpriger, mehr Fehler. Und dann der Test vier Wochen später: Die Verhältnisse KIPPEN. Verteilt schlägt geblockt, oft deutlich. Das ist kein Ausreißer – Bjork und Kollegen finden dieses Muster seit Jahrzehnten, quer durch Altersstufen und Fächer.*
-> *Der Begriff dazu: **Performance ist nicht Learning.** Was in der Stunde flüssig läuft, ist Momentan-Leistung – gestützt vom noch warmen Arbeitsgedächtnis und vom Kontext. Lernen ist, was in vier Wochen noch da ist. Und die bittere Pointe: Die beiden korrelieren schwächer, als unser Bauchgefühl behauptet. **Erwünschte Erschwernisse** – desirable difficulties – sehen in der Stunde schlechter aus und wirken langfristig besser. Euer Stolz auf die glatte Stunde ist menschlich. Er ist nur kein Messinstrument."*
+> *„Werkzeug zwei macht die Zielstruktur sichtbar: der **Knowledge Organizer** – das Kernwissen einer Einheit auf EINER Seite. Begriffe mit Ein-Satz-Definitionen, die zwei, drei Kernzusammenhänge, Daten, ein Schaubild. Die Kunst ist die AUSWAHL: Kernwissen, nicht Vollständigkeit – der KO ist ein Destillat, kein Archiv. Sein dreifacher Nutzen: Er ist die perfekte **Retrieval-Quelle** (‚KO umdrehen, abfragen' – die Selbstabfrage hat ein Zuhause); er schafft **Transparenz** – Schüler und Eltern sehen schwarz auf weiß, was am Ende sitzen muss (Erwartungs-Klarheit, Woche 1 auf Wissensebene!); und er diszipliniert EUCH – wer das Kernwissen nicht auf eine Seite bekommt, weiß noch nicht, was der Kern ist. Backwards Design, Woche 9, in Blattform.*
+> *Und der letzte Baustein des Blocks, vielleicht der wichtigste: **Gebt die Werkzeuge weiter.** Alles, was ihr in Block 3 gelernt habt – Abruf schlägt Wiederlesen, verteilt schlägt Vorabend, holprig ist das neue Gut – gehört auch euren Schülern. Sie lernen zu Hause mit Textmarker und Nachtschichten, weil es ihnen niemand anders gezeigt hat. Zehn Minuten ‚So lernt man für meine Arbeit' – mit dem KO als Werkzeug und einer Live-Demo der Selbstabfrage – sind eine der rentabelsten Investitionen des Halbjahres. Und sie sind Metakognition im besten Sinn: Die Schüler verstehen ihr eigenes Lernsystem. Das Skriptgerüst dafür bekommt ihr gleich."*
 
-### 3b · Spacing pragmatisch (Min. 17–21)
-> *„Warum wirkt Verteilen? Woche 15: Die Zerfallskurve. Wer nach einer Lücke abruft, ruft ETWAS VERGESSENES ab – der Abruf ist schwerer, und genau deshalb gräbt er tiefer. Das leicht Vergessene ist der ideale Übungsgegenstand; das noch Warme zu üben ist fast umsonst. Deshalb der Merksatz: **Vergessen ist kein Unfall – es ist die Vorbereitung des nächsten Lerngewinns.**
-> *Und jetzt die Entwarnung, bevor jemand Intervall-Tabellen googelt: Ihr braucht keine Optimal-Abstände. McCreas Pragmatik genügt: **Regelmäßige kumulative Quizze** – euer 3-2-1 tut es bereits! – plus zwei Einbau-Regeln, die gleich kommen. Die 80-Prozent-Lösung schlägt die perfekte, die nie umgesetzt wird."*
+## Phase 4 · Name it (Minute 28–31)
 
-### 3c · Interleaving + der Prüfungs-Hebel (Min. 21–27)
-> *„Zweites Werkzeug: **Interleaving** – Aufgabentypen mischen statt blocken. Das klassische Übungsblatt hat zehnmal denselben Typ: Nach Aufgabe drei weiß die Hand, was zu tun ist, und der Kopf macht Feierabend. Gemischt – jede dritte, vierte Aufgabe aus einem Alt-Thema – muss der Kopf bei JEDER Aufgabe erst entscheiden: Welches Verfahren ist hier überhaupt dran? Und genau DAS ist die Prüfungsschwierigkeit: In der Klassenarbeit steht nicht über der Aufgabe ‚Binomische Formel Nr. 2'. Interleaving trainiert das Erkennen, nicht nur das Ausführen.*
-> *Und der größte Hebel zum Schluss, einer mit Ansage: **Prüft kumulativ – und kündigt es an.** ‚Jede Klassenarbeit enthält Aufgaben aus früheren Themen' – dieser eine Satz, konsequent gelebt, verändert das Lernverhalten einer Klasse mehr als jede Lernberatung: Bulimie-Lernen lohnt sich schlagartig nicht mehr. Wichtig ist die Fairness-Flanke: angekündigt, mit den 3-2-1-Quizzen als laufendem Training – dann ist es kein Fallenstellen, sondern ein Versprechen: Was wir lernen, bleibt Thema.*
-> *Letzter Punkt, Ehrlichkeit gegenüber den Schülern: Gemischte Blätter FÜHLEN sich schwerer an, und die Klasse wird protestieren – ‚Früher konnten wir das besser!' Erklärt ihnen die Flüssigkeits-Illusion in ihrer Sprache"* [Handout B, Erklärskript] *„– das ist zugleich euer erster Buy-in-Baustein; das ganze Thema kommt in Block 5."*
+**KO-Gütecheck:** eine Seite? · nur Kernwissen (Destillat!)? · abfragbar formuliert (Definitionen verdeckbar)? · schülertauglich (keine Lehrersprache)? — **Elaborations-Check:** Erzwingt die Frage VERKNÜPFUNG (nicht Wiedergabe)? Linien beschriftet? — **Metakognitions-Minimum:** 10-Min.-Rede + Live-Demo Selbstabfrage + KO als Werkzeug.
 
-## Phase 4 · Name it (Minute 27–31)
+## Phase 5 · Do it: KO-Werkstatt (Minute 31–48)
 
-**Zwei Einbau-Regeln** (Handout B):
+### Runde 1 · Kalibrierung (Min. 31–36)
+Die drei Beispiel-KOs (Anhang 1.2) im Tandem prüfen: Der überladene fällt sofort auf – aber WARUM genau? (Vollständigkeitswahn: 40 Begriffe, keine Hierarchie, Fließtext statt abfragbarer Struktur.) Die zwei guten vergleichen: Was macht sie abfragbar?
 
-1. Jedes Quiz kumulativ (3-2-1 – läuft schon).
-2. Jedes Übungsset zu ≥ 25 % aus Alt-Themen.
+### Runde 2 · Eigener KO (Min. 36–46)
+Einzelarbeit: KO für die laufende eigene Einheit bauen (Blanko) – Zeitdruck ist Absicht: *„Zehn Minuten. Was nicht in zehn Minuten aufs Blatt will, ist vermutlich kein Kernwissen."* Moderation zirkuliert mit der Standard-Intervention: *„Streiche drei Einträge. Welche drei tun am wenigsten weh? Eben."*
 
-**Prüfungsregel:** kumulativ prüfen + ankündigen + per Quiz trainieren. **Merksätze:** *„Performance ist nicht Learning."* / *„Das leicht Vergessene ist der beste Übungsstoff."*
+### Runde 3 · Härtetest (Min. 46–48)
+Tandem: Partner deckt die rechte Spalte ab und fragt sich selbst 60 Sekunden ab – funktioniert der KO als Abfragewerkzeug? Zwei Fragenfächer-Fragen dazu formulieren (Elaboration am eigenen KO).
 
-Fingerzeichen-Kalibrierung: 4 Aussagen → stimmt/stimmt nicht (z. B. „Wenn die Übungsphase fehlerfrei läuft, war die Stunde lernwirksam" ✗).
+## Phase 6 · Meilenstein Halbjahr & Action Step (Minute 48–58)
 
-## Phase 5 · Do it (Minute 31–52)
+**9-Prinzipien-Poster (3 Min.):** Matrix „McCrea-Prinzip × mein Unterrichtsbeispiel" – mindestens 6 von 9 aus dem Gedächtnis füllen (selbst ein Brain Dump!); Rest offen lassen, wird im Coaching vervollständigt.
 
-### Runde 1 · Wiederholungs-Landkarte (Min. 31–43)
-Einzelarbeit auf dem Halbjahres-Blanko (Anhang 1.2): Die eigenen Kernthemen des Halbjahres eintragen; für JEDES Kernthema mindestens drei Wiederkehr-Punkte setzen (Starter / Übungsset / Klassenarbeit) – mit wachsenden Abständen (Woche +1, +4, +10 als grobe Faustlinie). Tandem-Check mit der Gretchenfrage: **„Zeig mir ein Thema, das nach seiner Einheit nie wieder auftaucht – und repariere es."** *(Fast jeder findet eins – der Moment, in dem ‚durch ist durch' stirbt.)*
+**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 8 Felder neu einschätzen. 
 
-### Runde 2 · Blatt-Umbau (Min. 43–52)
-Tandems interleaven das geblockte Beispielblatt (Anhang 1.3): Welche drei Aufgaben fliegen raus, was kommt aus Alt-Themen rein, und – wichtig – an welche Position? Kurz-Vergleich im Plenum: Wo platziert man die erste Alt-Aufgabe? *(Auflösung: nicht als Nr. 1 – erst Anlauf im neuen Typ, dann mischen; und die Alt-Aufgaben so wählen, dass VERWECHSLUNGSGEFAHR mit dem neuen Typ besteht – die Unterscheidung ist der Trainingseffekt.)*
+> *„Euer Coach legt diese Woche den W0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein halbes Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
 
-## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
+**Ansage Video-Selbstanalyse Nr. 2 (1 Min.):** wie W7 (Anleitung liegt im Playbook), diesmal mit frei wählbarem Fokus aus Block 2/3 – VOR dem Meilenstein-Gespräch.
 
-**Standard:** *„Ich baue in mein nächstes Übungsblatt mindestens drei Aufgaben aus früheren Themen ein – und kündige der Klasse an: Ab jetzt enthält jede Klassenarbeit Altstoff, trainiert wird das in unseren Quizzen. Den Protest beantworte ich mit dem Erklärskript."*
+**Standard-Action-Step:** *„Ich gebe meiner Klasse vor der nächsten Arbeit den Knowledge Organizer aus – und halte die 10-Minuten-Lernstrategie-Rede mit Live-Demo der Selbstabfrage. Danach frage ich per Board-Blitz ab: ‚Wie lernt ihr jetzt für die Arbeit – drei Stichworte.'"*
 
 **Alternativen:**
 
-1. Landkarten-Vollausbau: die Wiederholungs-Landkarte fertigstellen und im Coaching durchsprechen.
-2. Performance-Fasten: eine Woche lang Stunden NICHT nach Glattheit bewerten, sondern nach dem Ticket vom Folgetag (Vergleichsnotizen).
+1. Mindmap-Upgrade: die nächste Mindmap-Aufgabe mit Linien-Beschriftungspflicht stellen.
+2. Fächer-Woche: jede Stunde endet mit einer Fragenfächer-Frage als Mini-Elaboration (2 Min., mündlich, Turn-and-Talk-Vorgeschmack).
 
-**Gruppenhospitation 3 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3): Fokus Wiederholungs- und Retrieval-Routinen.
+> **Ausblick:** *„Block 4 beginnt – und er beantwortet die Frage, die sich durch alles zieht: Woher weiß ich in ECHTZEIT, was in 28 Köpfen passiert? Es startet mit dem Fundament: der Kultur des Fehlers. Bis dahin: Meilenstein-Gespräch genießen. Ihr habt es verdient."*
 
-> **Ausblick:** *„Nächste Woche schließen wir Block 3: Wie Wissen sich vernetzt statt stapelt – Elaboration und Knowledge Organizer. Und: Halbjahres-Meilenstein mit Kompetenzmatrix-Vergleich. Bringt euer Playbook UND euren W0-Bogen-Nerv mit – es gibt etwas zu feiern."*
+## Phase 7 · Exit-Karte (Minute 58–60)
+Erweitert (Blockabschluss):
 
-## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: aktuelle eigene Unterrichtseinheit für den KO-Bau (W20) im Kopf haben; Playbook mitbringen.
+1. Mein wertvollstes Block-3-Konzept: …
+2. Was ich meinen Schülern davon zuerst weitergebe: …
 
 ---
 
-# 4. Coaching-Woche 19 (Handreichung)
+# 4. Coaching-Woche 19: Meilenstein-Gespräch Halbjahr (Handreichung, 45–60 Min.)
 
-- **Hospitationsfokus:** ein Übungsset/Arbeitsblatt der Woche sichten: Anteil Alt-Themen? Position? Zusätzlich: Wie bewertet der TN selbst die Stunde („lief gut") – und was sagt das Folgetags-Ticket? Die Diskrepanz dokumentieren (freundlich!).
-- **Auswertungsgespräch:** Landkarte gemeinsam durchgehen; ein „verwaistes" Thema reparieren; die Ankündigungs-Formulierung für kumulative Arbeiten wörtlich proben (Fairness-Flanke betonen).
-- **Verzahnung Gruppenhospitation 3:** Nachbesprechung moderieren; Kernfrage: „Welche Spacing-Spuren waren sichtbar – und welche Reaktion der SuS auf Abrufformate habt ihr beobachtet?"
-- **Red Flag:** TN kündigt kumulative Arbeiten an, OHNE die Quiz-Trainingsschiene zu fahren → stoppen: Ohne Training ist die Ankündigung eine Falle und beschädigt Vertrauen (und Noten).
+**Struktur:**
+
+1. **Matrix-Vergleich W0 → W7 → W19 (15 Min.; W7-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen.
+2. **Video-Selbstanalyse Nr. 2 (20 Min.):** wie W7-Format; Vergleichsfrage: „Was siehst du heute, was du in Woche 7 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.)
+3. **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen.
+4. **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
+
+**Red Flags:** Matrix zeigt Stagnation/Rückschritt in Feldern 1–3 (Klassenführung) → kein Drama, aber Priorität: Block-4-Techniken BRAUCHEN das Fundament; ggf. gezielten Reparatur-Plan vor W21 (Cold Call ohne Klassenkultur wird toxisch). TN will den KO „für alle Einheiten sofort" bauen → Lean-Bremse: einer pro Einheit, ab jetzt, reicht.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Die Paradox-Kurven-Grafik (Bauanleitung)
-Balkenpaar links „Ende der Übungsstunde": GEBLOCKT hoch (~85 %), VERTEILT mittel (~65 %). Balkenpaar rechts „Test nach 4 Wochen": GEBLOCKT niedrig (~45 %), VERTEILT hoch (~70 %). Überschrift: „Gleiche Übungszeit – zwei Regimes". Fußzeile: „Performance (links) ≠ Learning (rechts)". *(Werte illustrativ im Rahmen typischer Befunde – als solche kennzeichnen.)*
+## 1.1 Handout A: Elaborations-Fragenfächer
+**Warum?** · **Inwiefern anders als …?** · **Eigenes Beispiel?** · **Erkläre es einem Fünftklässler.** · **Was wäre, wenn …?** — je mit einem Fachbeispiel; Fußzeile: „Prüffrage an jede Elaborationsaufgabe: Erzwingt sie Verknüpfung – oder genügt Wiedergabe? (Mindmap-Regel: Linien beschriften!)"
 
-## 1.2 Halbjahres-Landkarten-Blanko
-Zeitleiste 20 Wochen; Zeilen: „Neue Einheiten" / „Starter-Wiederkehr" / „Übungsset-Wiederkehr" / „Klassenarbeits-Wiederkehr". Legende: ● Einführung ○ Wiederkehr. Faustlinie am Rand: „+1 Woche / +4 Wochen / +10 Wochen".
+## 1.2 KO-Beispiele (Bauanleitung)
+**Gut 1 (Chemie, ‚Wasser als Stoff', Kl. 8):** 12 Begriffe mit Ein-Satz-Definitionen (zweispaltig, rechte Spalte verdeckbar), 1 beschriftetes Teilchen-Schaubild, 3 Kernzusammenhänge als Wenn-Dann-Sätze, 2 Daten. **Gut 2 (Geschichte, ‚Weimarer Republik scheitert', Kl. 9):** 10 Begriffe, Zeitstrahl mit 6 Markern, 3 Ursache-Wirkungs-Ketten, 1 Streitfrage. **Negativ:** ~40 Begriffe in Fließtext-Kästen, drei Schriftgrößen, keine Hierarchie, Lehrersprache („epochenspezifische Kontingenzerfahrung") – auf Zwei-Seiten-Optik gequetscht.
 
-## 1.3 Das geblockte Beispielblatt (fachneutral konstruiert: Mathe, lineare Gleichungen, Kl. 7)
-10 Aufgaben, alle vom Typ ax + b = c in steigender Schwierigkeit. **Umbau-Auftrag:** 3 ersetzen durch Alt-Themen MIT Verwechslungspotenzial (z. B. Terme nur VEREINFACHEN – kein „= c"!; eine Textaufgabe, die erst ins Modell übersetzt werden muss; ein Bruchrechnungs-Klassiker). Position: frühestens ab Aufgabe 4. *(Sprachfach-Alternative auf der Rückseite: 10× past simple bilden → mischen mit present perfect-Entscheidung + einem Wortstellungs-Altfall.)*
+## 1.3 Handout B: Die 10-Minuten-Lernstrategie-Rede (Skriptgerüst)
+Skriptgerüst:
 
-## 1.4 Handout B: Einbau-Regeln + Schüler-Erklärskript
-**Erklärskript (Sek-I-Ton):** *„Euch kommt das gemischte Blatt schwerer vor als früher – stimmt, und das ist Absicht. Beim alten Blatt wusste eure Hand ab Aufgabe drei, was zu tun ist – euer Kopf hatte frei. In der Arbeit steht aber über keiner Aufgabe, welches Verfahren dran ist. Genau DAS üben wir jetzt: erkennen, was dran ist. Es fühlt sich holpriger an – und bleibt dafür. Holprig ist hier das neue Gut."*
+1. **Einstieg mit der Illusion (2 Min.):** *„Wer lernt mit Textmarker und Durchlesen? Ehrlich. – Das fühlt sich gut an. Und genau deshalb funktioniert es kaum. Ich zeige euch, warum."* Kurzversion Flüssigkeits-Illusion in Schülersprache (W18-Erklärskript-Ton).
+2. **Live-Demo Selbstabfrage (4 Min.):** KO austeilen, rechte Spalte abdecken, 2 SuS demonstrieren lassen; 3-Schritt: abdecken → antworten → aufdecken → Haken/Kreis.
+3. **Der Wochenplan (2 Min.):** *„Dreimal 15 Minuten, verteilt, schlägt einmal 2 Stunden am Vorabend – gleiche Zeit, mehr bleibt."*
+4. **Board-Blitz-CFU (2 Min.):** „Wie lernst du jetzt für die Arbeit – drei Stichworte, hoch."
+
+## 1.4 9-Prinzipien-Posterblanko (McCrea, Memorable Teaching)
+Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die 9 in Kurzform: Lernen = LZG-Veränderung ernst nehmen · Information managen · Kommunikation verschlanken · Last regulieren · Aufmerksamkeit orientieren · Abruf einbauen · verteilt wiederholen · Elaboration beschleunigen · Strukturen verfeinern/Metakognition einbetten. *(Zuordnung leicht gruppiert – als Arbeitsposter, nicht als Zitat.)*
 
 ---
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die fünf Gütekriterien für Retrieval? *(ohne Hilfsmittel / schriftlich-alle / benotungsfrei / sofortige Auflösung / regelmäßig)*
-2. Das 3-2-1-Muster? *(3× gestern, 2× letzte Woche, 1× letzter Monat)*
-3. Der Testing Effect in einem Satz? *(Abruf stärkt Behalten mehr als Wiederlesen)*
-4. Die Röntgen-Frage (W17)? *(„Was muss man denken – und lässt es sich umgehen?")*
-5. (Anwendung) Ein Schüler lernt für die Arbeit ausschließlich am Vorabend, vier Stunden am Stück. Diagnose + Alternative in zwei Sätzen? *(geblockt + keine Lücken = hohe Morgen-Performance, schneller Zerfall; verteilt über die Woche mit Selbstabfrage – dieselbe Zeit, mehr bleibt.)*
+## Teil 1: Block-3-Quiz (20 Fragen, kumulativ; Auswahl)
+1. Die drei Kernsätze aus W14? 2. Das Diagnose-Raster? 3. Was leistet ein Schema fürs WM? 4. Die drei Last-Fresser? 5. Intrinsisch vs. lästig? 6. Dual Coding richtig? 7. Der Lenkungs-Dreiklang? 8. Die Röntgen-Frage? 9. Testing Effect? 10. Flüssigkeits-Illusion? 11. Die fünf Retrieval-Gütekriterien? 12. 3-2-1? 13. Performance ≠ Learning? 14. Warum wirkt Spacing (Kurven-Logik)? 15. Interleaving-Zusatznutzen? 16. Prüfungsregel? 17. (Block 1) Leiterstufen 1–6? 18. (Block 2) Exemplar Planning? 19. (Block 2) Exit-Ticket-Gütecheck? 20. (Transfer) Ein Kollege sagt: „Meine Stunden laufen super, aber in den Arbeiten ist alles weg." Deute mit DREI Block-3-Konzepten und nenne je eine Konsequenz. *(Performance ≠ Learning → Ticket statt Gefühl; kein Abruf → 3-2-1; geblockt → Landkarte/Interleaving.)*
 
 ## Teil 2: Modul-Quiz Woche 19 (für SPA/Folgewoche)
-**F1.** Die Übungsphase lief glatt, fast alles richtig. Das bedeutet:
-a) Das Thema sitzt langfristig ✗ *(DIE Illusion – Kern-Distraktor)*
-b) Hohe Momentan-Performance – über das Behalten sagt es wenig ✓
-c) Die Aufgaben waren zu schwer ✗
-d) Du kannst das Thema abhaken ✗
+**F1.** Ein guter Knowledge Organizer…
+a) enthält möglichst vollständig alles Wichtige der Einheit ✗ *(Fleiß-Falle)*
+b) destilliert abfragbares Kernwissen auf eine Seite ✓
+c) ersetzt das Heft ✗
+d) ist ein Foto des Tafelbilds ✗
 
-**F2.** Interleaving nervt die Klasse anfangs, weil…
-a) es didaktisch fragwürdig ist ✗
-b) die erwünschte Erschwernis sich wie Rückschritt anfühlt – langfristig wirkt sie ✓
-c) Schüler grundsätzlich faul sind ✗
-d) es nur Leistungsstarken hilft ✗ *(klingt differenzierungssensibel)*
+**F2.** „Erstellt eine Mindmap zum Thema" ist…
+a) automatisch Elaboration – Vernetzung ist ja sichtbar ✗ *(der Etikettenschwindel)*
+b) nur mit Verknüpfungs-Zwang elaborativ (Linien beschriften!) ✓
+c) Zeitverschwendung ✗
+d) nur für visuelle Lerntypen sinnvoll ✗ *(Mythos-Doppel-Distraktor)*
 
-**F3.** Der Zusatznutzen des Interleaving gegenüber bloßem Wiederholen:
-a) mehr Aufgaben pro Blatt ✗
-b) das AUSWÄHLEN des Verfahrens wird trainiert – die eigentliche Prüfungshürde ✓
-c) weniger Korrekturaufwand ✗
-d) es gibt keinen ✗
+**F3.** „Erkläre es einem Fünftklässler" wirkt, weil…
+a) es nett klingt ✗
+b) Vereinfachen Durchdringung erzwingt – Fachsprache kann man nachplappern, Einfachheit nicht ✓
+c) Fünftklässler streng sind ✗
+d) es Zeit spart ✗
 
-**F4.** Kumulative Klassenarbeiten sind fair, wenn…
-a) sie unangekündigt kommen – das Leben prüft auch unangekündigt ✗ *(Härte-Rhetorik)*
-b) sie angekündigt sind und per kumulativer Quizze laufend trainiert werden ✓
-c) der Altstoff leichter gewichtet wird ✗
-d) nur das letzte Thema zählt ✗
+**F4.** Die Lernstrategie-Rede vor der Klassenarbeit ist…
+a) Aufgabe der Eltern/der SuS selbst ✗ *(die stillschweigende Schulannahme)*
+b) eine der rentabelsten 10-Minuten-Investitionen: Metakognition mit Werkzeug ✓
+c) nur in der Unterstufe nötig ✗
+d) Stoffzeit-Verschwendung ✗
 
-**F5.** „Das Thema ist durch" bedeutet in der Spacing-Logik:
-a) Es kann archiviert werden ✗ *(Schulalltag)*
-b) Jetzt beginnt seine Wiederkehr-Karriere: Starter, Sets, Arbeiten ✓
-c) Es kommt erst im nächsten Schuljahr wieder ✗
-d) Es war zu leicht ✗
+**F5.** Der KO diszipliniert auch die Lehrkraft, weil…
+a) er Arbeit macht ✗
+b) wer den Kern nicht auf eine Seite bekommt, kennt den Kern noch nicht ✓
+c) die Schulleitung ihn sehen will ✗
+d) Eltern ihn einfordern ✗
 
-**F6 (Transfer, Freitext):** Deine Klasse protestiert gegen das gemischte Blatt: „Früher konnten wir das besser!" Antworte in drei Sätzen – mit der Flüssigkeits-Illusion in Schülersprache. *(Muster: siehe Erklärskript Anhang 1.4; Bewertungsanker: Gefühl validieren + Mechanismus erklären + Prüfungsnutzen benennen.)*
-
----
-
-# Anhang 3: Beobachtungsbogen Gruppenhospitation 3
-**Fokus:** Wiederholungs- & Retrieval-Routinen. | Spalte A: Abruf-Momente protokollieren (wann, Format, wer produziert – alle oder Melder?) | Spalte B: Spacing-Spuren (Altstoff im Starter/Set? Wie alt?) + Gütekriterien-Check (benotungsfrei? Auflösung sofort?) | Spalte C: „Ein Format/Move, den ich klaue." — **Nachbesprechung:** Runde 1 beschreibend, Runde 2 Spalte C, Runde 3: „Welches meiner Themen bekommt ab Montag seine Wiederkehr-Karriere?"
+**F6 (Transfer, Freitext):** Formuliere zu deinem aktuellen Thema je EINE Frage aus drei verschiedenen Fächer-Kategorien – und markiere, welche davon ein schwacher Schüler durch bloße Wiedergabe beantworten könnte (dann: nachschärfen). *(Bewertungsanker: drei verschiedene Kategorien; Wiedergabe-Test ehrlich angewandt.)*
 
 ---
 
-# Anhang 4: Ableitung für die SPA „Modul 19"
+# Anhang 3: Ableitung für die SPA „Modul 19"
 
-1. **Hook (2 Min.):** „Deine beste Stunde" als Reflexions-Prompt → App konfrontiert mit der Paradox-Kurve: „Woran hast du sie gemessen – an der linken oder der rechten Säule?"
-2. **See it (4 Min.):** Kurven-Simulation interaktiv: Regler „Übungsverteilung" (geblockt ↔ verteilt) bewegt beide Säulenpaare live; zweiter Regler „Wiederholungs-Klicks" flacht die Ebbinghaus-Kurve (Modul-15-Explorer wird wiederverwendet).
-3. **Name it (3 Min.):** Einbau-Regeln + Prüfungsregel als Karten; Stimmt/stimmt-nicht-Swipe (die 4 Kalibrier-Aussagen).
-4. **Do it – Spacing-Planer (8 Min., Engine!):** Kernthemen + Termine eingeben → App generiert Wiederkehr-Vorschläge (+1/+4/+10) als Kalender-Landkarte; „Verwaiste Themen"-Detektor markiert alles ohne Wiederkehr rot; Export/Erinnerungen.
-5. **Blatt-Umbau-Spiel:** Das 10-Aufgaben-Blatt als Drag-&-Drop – 3 Aufgaben ersetzen, Position wählen; Scoring: Verwechslungspotenzial der Alt-Aufgaben + Position ≥ 4; Sprachfach-Level als Alternative.
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F5 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Ankündigungs-Skript-Feld (wörtlich) + Protest-Antwort-Checkbox.
+1. **Hook (2 Min.):** „Gestapelt oder vernetzt?" – zwei animierte Wissens-Darstellungen desselben Themas (Fakten-Stapel vs. beschriftetes Netz); Frage: „Welches überlebt die Ferien?"
+2. **See it (4 Min.):** Fragenfächer als aufklappbare Karten mit Fachbeispielen; das Mindmap-Vorher/Nachher (unbeschriftete vs. beschriftete Linien) als Kontrastpaar.
+3. **Name it (3 Min.):** KO-Gütecheck + Elaborations-Check als Karten; Negativ-KO als Suchbild („Finde 4 Verstöße").
+4. **Do it – KO-Editor (8 Min., Engine!):** zweispaltige Struktur (Begriff | Definition verdeckbar) + Schaubild-Platzhalter + Zusammenhangs-Zeilen; harte Limits als Feature (max. 15 Begriffe, 1 Seite – die App erzwingt das Destillat!); Abfrage-Modus eingebaut (rechte Spalte blenden = Retrieval-Quelle, verzahnt mit der Karteikarten-Engine aus Modul 17!); Export/Druck für die Klasse.
+5. **Fragenfächer-Generator:** Kategorie würfeln → Frage zum eigenen Thema formulieren → Wiedergabe-Test als Selbst-Check-Prompt.
+6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz W0/W7/W19** als Highlight-Screen (drei Linien übereinander; W7-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des Halbjahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
+7. **Abschluss:** Action-Step-Formular „KO + Rede" mit Board-Blitz-Ergebnisfeld („drei Stichworte der Klasse notieren").
