@@ -279,7 +279,7 @@ textarea{min-height:4.2em}
 
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
-  <span class="eyebrow">Auftakt · Teil 2 · Fortbildung Quereinsteiger Sek I/II</span>
+  <span class="eyebrow">Auftakt · Teil 2 · Fortbildung Sek I/II</span>
   <h1>Fünf mentale Modelle des Unterrichtens.</h1>
   <p class="lead">Warum verhalten sich Klassen so, wie sie sich verhalten – und was folgt daraus für dich? In ca. 25 Minuten bekommst du die Denkbrille für das ganze Jahr: Alles, was du in den nächsten 35 Modulen trainierst, ist eine Antwort auf eines dieser fünf Modelle.</p>
   <div class="card">
@@ -399,12 +399,12 @@ textarea{min-height:4.2em}
   <span class="eyebrow">Station 2 · Fünf mentale Modelle · 5 von 5</span>
   <span class="model-tag" style="background:var(--b5)">5</span>
   <h2>„Erst muss ich die Beziehung aufbauen, dann darf ich Anforderungen stellen."</h2>
-  <p class="lead">Klingt plausibel. Ist aber falsch herum – und hier räumen wir mit einem Mythos auf, den viele Quereinsteiger mitbringen.</p>
+  <p class="lead">Klingt plausibel. Ist aber falsch herum.</p>
   <p style="margin-top:1rem"><button class="btn small" id="revealBtn6">Zeig mir das Prinzip →</button></p>
   <div class="reveal" id="reveal6">
     <p class="punchline">Vertrauen entsteht durch gelingenden Unterricht – nicht umgekehrt.</p>
     <div class="card">
-      <p><strong>Was folgt daraus:</strong> Lemov zeigt an hunderten Stunden herausragender Lehrkräfte: Schüler vertrauen Lehrkräften, bei denen sie merken – hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts, sie ist sein Ergebnis. Eine gute Nachricht für dich: Du musst nicht erst „der coole Lehrer" werden. Du musst gut unterrichten – die Beziehung kommt mit.</p>
+      <p><strong>Was folgt daraus:</strong> Schüler vertrauen Lehrkräften, bei denen sie merken – hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts, sie ist sein Ergebnis. Eine gute Nachricht für dich: Du musst nicht erst „der coole Lehrer" werden. Du musst gut unterrichten – die Beziehung kommt mit.</p>
     </div>
     <div class="card" style="background:var(--petrol-soft);border-color:var(--petrol)">
       <h3>Die fünf Modelle im Überblick</h3>
@@ -1038,7 +1038,7 @@ function buildPrint(){
   h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
   h+=f('Notizen Stunde 1:',state.obsStunde1)+f('Notizen Stunde 2:',state.obsStunde2)+f('Notizen Stunde 3:',state.obsStunde3);
   h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
-  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger Sek I/II · Modul 1 „Fünf mentale Modelle des Unterrichtens" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 1 „Fünf mentale Modelle des Unterrichtens" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
   document.getElementById('printReport').innerHTML=h;
 }
 

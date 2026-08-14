@@ -275,7 +275,7 @@ input[type=number]{max-width:8rem}
 
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
-  <span class="eyebrow">Woche 2 · Block 1: Klassenführung &amp; Routinen · Fortbildung Quereinsteiger Sek I/II</span>
+  <span class="eyebrow">Woche 2 · Block 1: Klassenführung &amp; Routinen · Fortbildung Sek I/II</span>
   <h1>Der starke Stundenstart.</h1>
   <p class="lead">Wie gewinnst du die ersten fünf Minuten jeder Stunde – jedes Mal? In ca. 25 Minuten baust du deine Begrüßungsroutine zum präzisen Werkzeug aus: mit Skript, Timer und einem Do Now, das sofort funktioniert.</p>
   <div class="card">
@@ -1084,7 +1084,7 @@ function buildPrint(){
   h+='<div class="pagebreak"></div><h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
   h+=f('Stoppuhr Mo–Fr:',[state.obsMo,state.obsDi,state.obsMi,state.obsDo,state.obsFr].map(v=>v||'–').join(' / '));
   h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
-  h+='<div class="foot">Fortbildungsprogramm Quereinsteiger Sek I/II · Modul 2 „Der starke Stundenstart" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 2 „Der starke Stundenstart" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
   document.getElementById('printReport').innerHTML=h;
 }
 
