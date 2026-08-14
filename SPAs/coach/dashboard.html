@@ -427,7 +427,6 @@ function renderTeachers() {
 }
 
 var PRINT_DOMAIN = 'cpd.tetzels.de';
-var PRINT_LOGIN_PATH = '/spas/login.html';
 
 function renderPrintCodes() {
   var wrap = document.getElementById('printCodes');
@@ -446,7 +445,7 @@ function renderPrintCodes() {
       '<span class="course">' + esc(courseName[t.course_id] || '–') + '</span>' +
       '<span class="name">' + esc(t.name) + '</span>' +
       '<span class="code">' + esc(t.login_code) + '</span>' +
-      '<span class="url">' + esc(PRINT_DOMAIN + PRINT_LOGIN_PATH) + '</span>' +
+      '<span class="url">' + esc(PRINT_DOMAIN) + '</span>' +
       (t.active ? '' : '<span class="inactive-note">Account deaktiviert</span>') +
       '</div>';
   }).join('');
