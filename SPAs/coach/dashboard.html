@@ -409,7 +409,8 @@ document.getElementById('teacherForm').addEventListener('submit', async function
 
 /* ---------- Modul-Matrizen (Sichtbarkeit & Fortschritt) ---------- */
 function moduleHeaderCell(m, colToggle) {
-  var short = String(m.sort_order);
+  var shortMatch = m.key.match(/^modul([0-9a-z]+)-/i);
+  var short = shortMatch ? shortMatch[1] : String(m.sort_order);
   var full = m.title.replace(/^Modul \d+ · /, '');
   var toggle = colToggle ? '<input type="checkbox" class="colToggleAll" data-module="' + m.id + '" title="Modul für alle Kurse an-/abwählen">' : '';
   return '<th title="' + esc(full) + '">' + toggle + '<abbr>W' + esc(short) + '</abbr></th>';
