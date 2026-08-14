@@ -117,6 +117,32 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
   background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:1rem;margin-top:1rem;
   max-height:60vh;overflow-y:auto;
 }
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+.section-head h2{margin-bottom:0}
+#printCodes{display:none}
+
+@media print{
+  body *{visibility:hidden}
+  #printCodes, #printCodes *{visibility:visible}
+  #printCodes{
+    display:block;position:absolute;top:0;left:0;width:100%;margin:0;padding:0;background:#fff;
+  }
+  .print-head{padding:0 0 .3rem;margin-bottom:.6rem;border-bottom:2px solid var(--petrol)}
+  .print-head h1{font-family:var(--display);font-size:1.2rem;color:var(--petrol)}
+  .print-head p{font-size:.75rem;color:var(--muted);margin-top:.15rem}
+  .code-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0}
+  .code-card{
+    border:1px dashed #999;padding:.7rem .8rem;break-inside:avoid;page-break-inside:avoid;
+    display:flex;flex-direction:column;gap:.25rem;margin:-1px 0 0 -1px;
+  }
+  .code-card .course{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+  .code-card .name{font-family:var(--display);font-weight:700;font-size:1rem;color:var(--ink)}
+  .code-card .code{
+    font-family:var(--display);font-weight:800;font-size:1.5rem;letter-spacing:.1em;color:var(--petrol);
+  }
+  .code-card .url{font-size:.75rem;color:var(--ink)}
+  .code-card .inactive-note{font-size:.7rem;color:var(--red);font-weight:700}
+}
 </style>
 </head>
 <body>
@@ -157,7 +183,10 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
   </section>
 
   <section id="teachersSection">
-    <h2>Lehrkräfte</h2>
+    <div class="section-head">
+      <h2>Lehrkräfte</h2>
+      <button class="ghost" id="printCodesBtn" type="button">Alle Codes als PDF drucken</button>
+    </div>
     <table>
       <thead><tr><th>Name</th><th>Code</th><th>Kurs</th><th>Aktiv</th><th></th></tr></thead>
       <tbody id="teachersTable"></tbody>
@@ -183,6 +212,8 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 
 </main>
 </div>
+
+<div id="printCodes"></div>
 
 <div id="answersOverlay" class="overlay hidden">
   <div class="overlay-panel">
@@ -394,6 +425,44 @@ function renderTeachers() {
     });
   });
 }
+
+var PRINT_DOMAIN = 'cpd.tetzels.de';
+var PRINT_LOGIN_PATH = '/spas/login.html';
+
+function renderPrintCodes() {
+  var wrap = document.getElementById('printCodes');
+  var courseName = {};
+  db.courses.forEach(function (c) { courseName[c.id] = c.name; });
+
+  var teachers = db.teachers.slice().sort(function (a, b) {
+    var ca = courseName[a.course_id] || '';
+    var cb = courseName[b.course_id] || '';
+    if (ca !== cb) return ca < cb ? -1 : 1;
+    return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+  });
+
+  var cards = teachers.map(function (t) {
+    return '<div class="code-card">' +
+      '<span class="course">' + esc(courseName[t.course_id] || '–') + '</span>' +
+      '<span class="name">' + esc(t.name) + '</span>' +
+      '<span class="code">' + esc(t.login_code) + '</span>' +
+      '<span class="url">' + esc(PRINT_DOMAIN + PRINT_LOGIN_PATH) + '</span>' +
+      (t.active ? '' : '<span class="inactive-note">Account deaktiviert</span>') +
+      '</div>';
+  }).join('');
+
+  wrap.innerHTML =
+    '<div class="print-head">' +
+      '<h1>CPD Fortbildung · Zugangscodes</h1>' +
+      '<p>Anmeldung unter ' + esc(PRINT_DOMAIN) + ' &middot; Stand: ' + esc(new Date().toLocaleDateString('de-DE')) + '</p>' +
+    '</div>' +
+    '<div class="code-grid">' + (cards || '<p>Noch keine Lehrkräfte angelegt.</p>') + '</div>';
+}
+
+document.getElementById('printCodesBtn').addEventListener('click', function () {
+  renderPrintCodes();
+  window.print();
+});
 
 function generateCode() {
   var alphabet = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // ohne 0/O/1/I/L zur besseren Lesbarkeit
