@@ -106,7 +106,7 @@ p+p{margin-top:.7rem}
 /* ---------- Riddle-Karten (Hook) ---------- */
 .riddle-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
 @media(min-width:700px){.riddle-grid{grid-template-columns:repeat(3,1fr)}}
-.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
+.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);font-size:.96rem;color:var(--ink)}
 .riddle-card:hover{border-color:var(--petrol)}
 .riddle-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
 .riddle-card .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-bottom:.4rem;display:block}
@@ -577,9 +577,9 @@ const MODEL_NAMES=['Gedächtnis','Gewohnheiten','Aufmerksamkeit','Motivation ist
 const MODEL_COLORS=['var(--b1)','var(--b2)','var(--b3)','var(--b4)','var(--b5)'];
 
 const RIDDLES=[
- {tag:'Rätsel 1',t:'Ich erkläre etwas gründlich, korrekt, mit Beispiel. Am nächsten Tag ist es komplett weg.'},
- {tag:'Rätsel 2',t:'Dieselbe Klasse, die bei einer Kollegin leise arbeitet, tanzt mir auf der Nase herum.'},
- {tag:'Rätsel 3',t:'Ein Schüler ist im Einzelgespräch umgänglich und klug – vor der Klasse spielt er den Clown.'}
+ {tag:'Situation 1',t:'Ich erkläre etwas gründlich, korrekt, mit Beispiel. Am nächsten Tag ist es komplett weg.'},
+ {tag:'Situation 2',t:'Dieselbe Klasse, die bei einer Kollegin leise arbeitet, tanzt mir auf der Nase herum.'},
+ {tag:'Situation 3',t:'Ein Schüler ist im Einzelgespräch umgänglich und klug – vor der Klasse spielt er den Clown.'}
 ];
 
 const SITUATIONS=[
