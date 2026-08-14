@@ -63,10 +63,9 @@ Baseline-Video und das Abschluss-Kolloquium sind unverändert.
 | `Modul2_Woche02_SPA.html` | `Modul1_Woche01_SPA.html` | `modul2-woche02-hohe-erwartungen` | `modul1-woche01-hohe-erwartungen` |
 | `Modul3_Woche03_SPA.html` | `Modul2_Woche02_SPA.html` | `modul3-woche03-starker-stundenstart` | `modul2-woche02-zaesuren` |
 
-**Noch zu tun:** `supabase/migrations/0003_umnummerierung_block1.sql` gegen die Produktionsdatenbank
-laufen lassen. Die Migration arbeitet ausschließlich mit `UPDATE`, die `modules.id` bleibt erhalten –
-**kein Teilnehmerfortschritt geht verloren**. Bis dahin zeigen die Modulkarten in „Meine Module" auf
-die alten Dateinamen und laufen ins Leere.
+**Erledigt (2026-08-14):** `supabase/migrations/0003_umnummerierung_block1.sql` wurde gegen die
+Produktionsdatenbank ausgeführt und verifiziert. Die Modulkarten in „Meine Module" zeigen jetzt auf
+die neuen Dateinamen; `module.id` blieb erhalten, kein Teilnehmerfortschritt ging verloren.
 
 Inhaltlich offen: Die SPA zur neuen Woche 2 deckt bisher nur den Stundenstart ab – das Stundenende
 fehlt dort noch. Für die neue Woche 3 (Aufmerksamkeit, Anweisungen, Übergänge) gibt es noch keine SPA.
