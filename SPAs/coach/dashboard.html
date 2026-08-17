@@ -115,10 +115,24 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 .overlay-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:.5rem}
 .overlay-head h2{font-family:var(--display);font-size:1.1rem;color:var(--petrol)}
 .answers-body{
-  white-space:pre-wrap;font-family:'Inter',system-ui,sans-serif;font-size:.85rem;line-height:1.5;
+  font-family:'Inter',system-ui,sans-serif;font-size:.85rem;line-height:1.5;
   background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:1rem;margin-top:1rem;
   max-height:60vh;overflow-y:auto;
 }
+.submission-section{margin-bottom:1.15rem}
+.submission-section:last-child{margin-bottom:0}
+.submission-section h3{
+  font-family:var(--display);font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--petrol);border-bottom:1px solid var(--line);padding-bottom:.35rem;margin-bottom:.5rem;
+}
+.submission-row{
+  display:flex;flex-wrap:wrap;gap:.2rem .8rem;padding:.32rem 0;border-bottom:1px dashed var(--line);
+}
+.submission-row:last-child{border-bottom:none}
+.submission-row .label{flex:0 0 auto;min-width:35%;max-width:100%;color:var(--muted);font-weight:600}
+.submission-row .value{flex:1 1 12rem;color:var(--ink);white-space:pre-wrap}
+.submission-line{padding:.32rem 0;color:var(--ink);white-space:pre-wrap}
+.submission-line:not(:last-child){border-bottom:1px dashed var(--line)}
 .section-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
 .section-head h2{margin-bottom:0}
 #printCodes{display:none}
@@ -226,7 +240,7 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
       <button type="button" class="ghost" id="answersClose">Schließen ✕</button>
     </div>
     <div id="answersStatus" class="msg hidden"></div>
-    <pre id="answersBody" class="answers-body hidden"></pre>
+    <div id="answersBody" class="answers-body hidden"></div>
   </div>
 </div>
 
@@ -644,6 +658,55 @@ function renderProgress() {
 document.getElementById('hideDoneModules').addEventListener('change', renderProgress);
 
 /* ---------- Antworten-Ansicht ---------- */
+// Erwartetes Textformat (aus summaryText() der Modul-SPAs):
+//   MODUL X · TITEL – ERGEBNISBOGEN
+//   Name · Datum
+//
+//   — SEKTION —
+//   Label: Wert
+//   Label: Wert
+//
+//   — NÄCHSTE SEKTION —
+//   ...
+function renderSubmissionHTML(text) {
+  if (!text) {
+    return '<p class="muted">Noch keine Zusammenfassung verfügbar – die Lehrkraft hat das Modul noch nicht bis zur letzten Station bearbeitet.</p>';
+  }
+  var blocks = text.trim().split(/\n\s*\n/);
+  var sections = blocks.slice(1); // erster Block ist der Kopf (Titel/Name/Datum), bereits im Overlay-Titel sichtbar
+  if (sections.length === 0) sections = blocks;
+
+  var html = sections.map(function (block) {
+    var lines = block.split('\n').filter(function (l) { return l.trim() !== ''; });
+    if (lines.length === 0) return '';
+    var headingMatch = lines[0].match(/^\s*[—-]+\s*(.*?)\s*[—-]+\s*$/);
+    var title = headingMatch ? headingMatch[1] : '';
+    var bodyLines = headingMatch ? lines.slice(1) : lines;
+
+    var rows = bodyLines.map(function (line) {
+      var colonIdx = line.indexOf(':');
+      if (colonIdx > -1) {
+        var before = line.slice(0, colonIdx);
+        var openParens = (before.match(/\(/g) || []).length;
+        var closeParens = (before.match(/\)/g) || []).length;
+        if (openParens === closeParens) {
+          var label = line.slice(0, colonIdx).trim();
+          var value = line.slice(colonIdx + 1).trim();
+          return '<div class="submission-row"><span class="label">' + esc(label) + '</span><span class="value">' + esc(value || '–') + '</span></div>';
+        }
+      }
+      return '<div class="submission-line">' + esc(line) + '</div>';
+    }).join('');
+
+    return '<div class="submission-section">' +
+      (title ? '<h3>' + esc(title) + '</h3>' : '') +
+      rows +
+      '</div>';
+  }).join('');
+
+  return html || '<p class="muted">Noch keine Zusammenfassung verfügbar.</p>';
+}
+
 function openAnswers(teacherId, moduleId) {
   var teacher = db.teachers.find(function (t) { return t.id === teacherId; });
   var module = db.modules.find(function (m) { return m.id === moduleId; });
@@ -668,8 +731,7 @@ function openAnswers(teacherId, moduleId) {
   statusEl.classList.remove('hidden');
 
   var body = document.getElementById('answersBody');
-  body.textContent = state.submissionText ||
-    'Noch keine Zusammenfassung verfügbar – die Lehrkraft hat das Modul noch nicht bis zur letzten Station bearbeitet.';
+  body.innerHTML = renderSubmissionHTML(state.submissionText);
   body.classList.remove('hidden');
 
   document.getElementById('answersOverlay').classList.remove('hidden');
