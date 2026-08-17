@@ -124,10 +124,9 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 #printCodes{display:none}
 
 @media print{
-  body *{visibility:hidden}
-  #printCodes, #printCodes *{visibility:visible}
+  #loginScreen, #app, #answersOverlay, #passwordOverlay{display:none !important}
   #printCodes{
-    display:block;position:absolute;top:0;left:0;width:100%;margin:0;padding:0;background:#fff;
+    display:block;width:100%;margin:0;padding:0;background:#fff;
   }
   .print-head{padding:0 0 .3rem;margin-bottom:.6rem;border-bottom:2px solid var(--petrol)}
   .print-head h1{font-family:var(--display);font-size:1.2rem;color:var(--petrol)}
@@ -431,7 +430,7 @@ function renderTeachers() {
   });
 }
 
-var PRINT_DOMAIN = 'cpd.tetzels.de';
+var PRINT_DOMAIN = 'cpd.fels-schule.de';
 
 function renderPrintCodes() {
   var wrap = document.getElementById('printCodes');
