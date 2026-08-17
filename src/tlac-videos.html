@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teach Like a Champion 3.0 — Video Index</title>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --card-bg: #ffffff;
+    --border: #e2e2e0;
+    --text: #22221f;
+    --muted: #6b6b66;
+    --accent: #b3282d;
+    --accent-hover: #8f1f23;
+    --tag-bg: #f0e6e6;
+    --tag-text: #7a2226;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 1.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.4rem;
+  }
+  header p.subtitle {
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: .9rem;
+  }
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    align-items: center;
+  }
+  .mode-group {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .mode-group button {
+    border: none;
+    background: var(--card-bg);
+    padding: .45rem .9rem;
+    font-size: .85rem;
+    cursor: pointer;
+    color: var(--text);
+    border-right: 1px solid var(--border);
+  }
+  .mode-group button:last-child { border-right: none; }
+  .mode-group button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  #search {
+    padding: .45rem .75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: .85rem;
+    min-width: 220px;
+    flex: 1;
+  }
+  .count {
+    color: var(--muted);
+    font-size: .8rem;
+    margin-left: auto;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  h2.chapter-heading {
+    font-size: 1rem;
+    margin: 1.75rem 0 .75rem;
+    padding-bottom: .35rem;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+  }
+  h2.chapter-heading:first-child { margin-top: 0; }
+  ul.video-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  li.video-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .7rem .9rem;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+  .clip-num {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: .8rem;
+    min-width: 2.4rem;
+  }
+  .video-info { flex: 1; min-width: 0; }
+  .video-title {
+    font-weight: 600;
+    font-size: .92rem;
+  }
+  .video-title a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .video-title a:hover { color: var(--accent); }
+  .chapter-tags {
+    margin-top: .25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+  }
+  .chapter-tags span {
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: .68rem;
+    padding: .1rem .45rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .watch-btn {
+    flex-shrink: 0;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: .4rem .8rem;
+    border-radius: 7px;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  .watch-btn:hover { background: var(--accent-hover); }
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 2rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Teach Like a Champion 3.0 — Video Index</h1>
+  <p class="subtitle">Companion site videos, linked directly. <span id="total-count"></span></p>
+  <div class="controls">
+    <div class="mode-group" id="mode-group">
+      <button data-mode="chapter" class="active">By Chapter</button>
+      <button data-mode="alpha">Alphabetical</button>
+      <button data-mode="clip">By Clip #</button>
+    </div>
+    <input id="search" type="search" placeholder="Filter by teacher, title, or chapter…">
+    <span class="count" id="visible-count"></span>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<script id="video-data" type="application/json">
+{
+  "chapterOrder": [
+    "Keystone Videos",
+    "Chapter 1 - Five Themes",
+    "Chapter 2 - Lesson Preparation",
+    "Chapter 3 - Check for Understanding",
+    "Chapter 4 - Academic Ethos",
+    "Chapter 5 - Lesson Structures",
+    "Chapter 6 - Pacing",
+    "Chapter 7 - Building Ratio Through Questioning",
+    "Chapter 8 - Building Ratio Through Writing",
+    "Chapter 9 - Building Ratio Through Discussion",
+    "Chapter 10 - Procedures and Routines",
+    "Chapter 11 - High Behavioral Expectations",
+    "Chapter 12 - Building Student Motivation and Trust"
+  ],
+  "videos": [
+    {
+      "id": "6261406990001",
+      "clip": 1,
+      "title": "Sadie McCleary Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 1 - Five Themes",
+        "Chapter 6 - Pacing",
+        "Chapter 7 - Building Ratio Through Questioning",
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261406990001"
+    },
+    {
+      "id": "6261437361001",
+      "clip": 2,
+      "title": "Jessica Bracey Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 1 - Five Themes",
+        "Chapter 6 - Pacing",
+        "Chapter 8 - Building Ratio Through Writing",
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261437361001"
+    },
+    {
+      "id": "6261433651001",
+      "clip": 3,
+      "title": "Denarius Frazier Remainder",
+      "chapters": [
+        "Chapter 1 - Five Themes",
+        "Chapter 2 - Lesson Preparation",
+        "Chapter 3 - Check for Understanding",
+        "Chapter 5 - Lesson Structures",
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcbf3ac95113002289705f/index.html?videoId=6261433651001"
+    },
+    {
+      "id": "6261437508001",
+      "clip": 4,
+      "title": "Rachel Harley and Hasan Clayton Slowing the Data",
+      "chapters": [
+        "Chapter 1 - Five Themes"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcbf3ac95113002289705f/index.html?videoId=6261437508001"
+    },
+    {
+      "id": "6261433559001",
+      "clip": 5,
+      "title": "Christine Torres Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 2 - Lesson Preparation",
+        "Chapter 3 - Check for Understanding",
+        "Chapter 4 - Academic Ethos",
+        "Chapter 5 - Lesson Structures",
+        "Chapter 6 - Pacing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261433559001"
+    },
+    {
+      "id": "6261438186001",
+      "clip": 6,
+      "title": "Sarah Wright Tio Luis",
+      "chapters": [
+        "Chapter 2 - Lesson Preparation",
+        "Chapter 7 - Building Ratio Through Questioning",
+        "Chapter 9 - Building Ratio Through Discussion",
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc0d07334b20024897b7c/index.html?videoId=6261438186001"
+    },
+    {
+      "id": "6261464243001",
+      "clip": 7,
+      "title": "Julia Addeo Binominals",
+      "chapters": [
+        "Chapter 2 - Lesson Preparation",
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc0d07334b20024897b7c/index.html?videoId=6261464243001"
+    },
+    {
+      "id": "6261462513001",
+      "clip": 8,
+      "title": "Gabby Woolf Jekyll and Hyde",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462513001"
+    },
+    {
+      "id": "6261463859001",
+      "clip": 9,
+      "title": "Lauren Moyle Cranium",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261463859001"
+    },
+    {
+      "id": "6261464153001",
+      "clip": 10,
+      "title": "Retrieval Practice Montage",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261464153001"
+    },
+    {
+      "id": "6261460438001",
+      "clip": 11,
+      "title": "Nicole Warren Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 3 - Check for Understanding",
+        "Chapter 5 - Lesson Structures",
+        "Chapter 6 - Pacing",
+        "Chapter 10 - Procedures and Routines",
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261460438001"
+    },
+    {
+      "id": "6261464623001",
+      "clip": 12,
+      "title": "Active Observation Montage",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261464623001"
+    },
+    {
+      "id": "6261464624001",
+      "clip": 13,
+      "title": "BreOnna Tindall Justice",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261464624001"
+    },
+    {
+      "id": "6261462255001",
+      "clip": 14,
+      "title": "Narlene Pacheco Active Observation",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462255001"
+    },
+    {
+      "id": "6261462691001",
+      "clip": 15,
+      "title": "Dani Quinn Show Me",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462691001"
+    },
+    {
+      "id": "6261462515001",
+      "clip": 16,
+      "title": "Belanger Frazier Show Me Montage",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462515001"
+    },
+    {
+      "id": "6261407152001",
+      "clip": 17,
+      "title": "Wing Boom Boom Pow",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261407152001"
+    },
+    {
+      "id": "6261462514001",
+      "clip": 18,
+      "title": "Hilary Lewis Green Post It",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462514001"
+    },
+    {
+      "id": "6261462256001",
+      "clip": 19,
+      "title": "Jessica Madio Silent Hand When You Are Ready",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462256001"
+    },
+    {
+      "id": "6261462516001",
+      "clip": 20,
+      "title": "Jon Bogard Go To IP",
+      "chapters": [
+        "Chapter 3 - Check for Understanding"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc12cc951130022897062/index.html?videoId=6261462516001"
+    },
+    {
+      "id": "6261473346001",
+      "clip": 21,
+      "title": "Denarius Frazier Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 3 - Check for Understanding",
+        "Chapter 9 - Building Ratio Through Discussion",
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261473346001"
+    },
+    {
+      "id": "6261473348001",
+      "clip": 37,
+      "title": "Denarius Frazier Quadrilateral",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261473348001"
+    },
+    {
+      "id": "6261475947001",
+      "clip": 38,
+      "title": "Denarius Frazier Cosine",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261475947001"
+    },
+    {
+      "id": "6261475262001",
+      "clip": 39,
+      "title": "Derek Pollak Fifth Root",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261475262001"
+    },
+    {
+      "id": "6261476142001",
+      "clip": 40,
+      "title": "Aiden Thomas Y Intercept",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261476142001"
+    },
+    {
+      "id": "6261474543001",
+      "clip": 41,
+      "title": "Emily Badillo Traitor",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261474543001"
+    },
+    {
+      "id": "6261475263001",
+      "clip": 42,
+      "title": "Jennie Saliba Workhouse",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261475263001"
+    },
+    {
+      "id": "6261473350001",
+      "clip": 43,
+      "title": "Arielle Hoo How Did You Know",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261473350001"
+    },
+    {
+      "id": "6261476523001",
+      "clip": 44,
+      "title": "Michael Towne Red Dye",
+      "chapters": [
+        "Chapter 4 - Academic Ethos",
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261476523001"
+    },
+    {
+      "id": "6261407154001",
+      "clip": 45,
+      "title": "Darryl Williams Has To Be",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261407154001"
+    },
+    {
+      "id": "6261476141001",
+      "clip": 46,
+      "title": "Jasmine Howard Unique Output",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261476141001"
+    },
+    {
+      "id": "6261471827001",
+      "clip": 47,
+      "title": "Christine Torres Loud and Proud",
+      "chapters": [
+        "Chapter 4 - Academic Ethos",
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261471827001"
+    },
+    {
+      "id": "6261472536001",
+      "clip": 48,
+      "title": "Beth Verrilli Hither",
+      "chapters": [
+        "Chapter 4 - Academic Ethos"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc16ac951130022897063/index.html?videoId=6261472536001"
+    },
+    {
+      "id": "6261476525001",
+      "clip": 49,
+      "title": "Sarah Wright But Esperanza",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261476525001"
+    },
+    {
+      "id": "6261476140001",
+      "clip": 50,
+      "title": "Christine Torres Silently to Seats",
+      "chapters": [
+        "Chapter 5 - Lesson Structures",
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261476140001"
+    },
+    {
+      "id": "6261406995001",
+      "clip": 51,
+      "title": "Joshua Humphrey Pause It Right Now",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261406995001"
+    },
+    {
+      "id": "6261406987001",
+      "clip": 52,
+      "title": "Hasan Clayton Two Noses",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261406987001"
+    },
+    {
+      "id": "6261536955001",
+      "clip": 53,
+      "title": "Rachel Boothman We Are Solving",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261536955001"
+    },
+    {
+      "id": "6261537448001",
+      "clip": 54,
+      "title": "Sadie McCleary Board Paper",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261537448001"
+    },
+    {
+      "id": "6261537449001",
+      "clip": 55,
+      "title": "Nicholas Hermann Forces",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261537449001"
+    },
+    {
+      "id": "6261537156001",
+      "clip": 56,
+      "title": "Kirby Jarrell A Doubtful Freedom",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261537156001"
+    },
+    {
+      "id": "6261536772001",
+      "clip": 57,
+      "title": "Dan Cosgrove Earthworm",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261536772001"
+    },
+    {
+      "id": "6261538224001",
+      "clip": 58,
+      "title": "Gabby Woolf Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 5 - Lesson Structures",
+        "Chapter 9 - Building Ratio Through Discussion",
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261538224001"
+    },
+    {
+      "id": "6261521860001",
+      "clip": 59,
+      "title": "Eric Snider The Wind",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261521860001"
+    },
+    {
+      "id": "6261539202001",
+      "clip": 60,
+      "title": "Jill Murray Quartering Act",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261539202001"
+    },
+    {
+      "id": "6261541663001",
+      "clip": 61,
+      "title": "Maggie Johnson Grew Serious",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261541663001"
+    },
+    {
+      "id": "6261541195001",
+      "clip": 62,
+      "title": "Jessica Bracey Things Have Changed",
+      "chapters": [
+        "Chapter 5 - Lesson Structures"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1b8d2a2f7002185ee1d/index.html?videoId=6261541195001"
+    },
+    {
+      "id": "6261541506001",
+      "clip": 63,
+      "title": "Narlene Pacheco Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 5 - Lesson Structures",
+        "Chapter 7 - Building Ratio Through Questioning",
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261541506001"
+    },
+    {
+      "id": "6261541602001",
+      "clip": 64,
+      "title": "Brighten Lines Montage",
+      "chapters": [
+        "Chapter 6 - Pacing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1f3d2a2f7002185ee1e/index.html?videoId=6261541602001"
+    },
+    {
+      "id": "6261541603001",
+      "clip": 65,
+      "title": "Arrianna Chopp Means of Participation",
+      "chapters": [
+        "Chapter 6 - Pacing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1f3d2a2f7002185ee1e/index.html?videoId=6261541603001"
+    },
+    {
+      "id": "6261541321001",
+      "clip": 66,
+      "title": "Emily Badillo Go Right To Work",
+      "chapters": [
+        "Chapter 6 - Pacing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc1f3d2a2f7002185ee1e/index.html?videoId=6261541321001"
+    },
+    {
+      "id": "6261539256001",
+      "clip": 67,
+      "title": "Maggie Johnson Focus On Why",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261539256001"
+    },
+    {
+      "id": "6261541507001",
+      "clip": 68,
+      "title": "Josefina Maino I Need More Hands",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261541507001"
+    },
+    {
+      "id": "6261541194001",
+      "clip": 69,
+      "title": "Aiden Thomas Wait Time Montage",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261541194001"
+    },
+    {
+      "id": "6261541193001",
+      "clip": 70,
+      "title": "Akilah Bond Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 7 - Building Ratio Through Questioning",
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261541193001"
+    },
+    {
+      "id": "6261539255001",
+      "clip": 71,
+      "title": "Denarius Frazier Parts of a Circle",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261539255001"
+    },
+    {
+      "id": "6261541604001",
+      "clip": 72,
+      "title": "NaJee Carter Cold Call Montage",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261541604001"
+    },
+    {
+      "id": "6261520679001",
+      "clip": 73,
+      "title": "Brittney Moore So Hard To Choose",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261520679001"
+    },
+    {
+      "id": "6261541320001",
+      "clip": 74,
+      "title": "Summer Payne Individual Turns",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning",
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261541320001"
+    },
+    {
+      "id": "6261541196001",
+      "clip": 75,
+      "title": "Sadie McCleary Means of Participation",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261541196001"
+    },
+    {
+      "id": "6261408974001",
+      "clip": 76,
+      "title": "James Beeston Switched On At All Times",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261408974001"
+    },
+    {
+      "id": "6261521858001",
+      "clip": 77,
+      "title": "James Beeston How Can We Use This",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261521858001"
+    },
+    {
+      "id": "6261552174001",
+      "clip": 78,
+      "title": "Madalyn McClelland Maps",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261552174001"
+    },
+    {
+      "id": "6261550866001",
+      "clip": 79,
+      "title": "Jessica Bracey What You Said Is",
+      "chapters": [
+        "Chapter 7 - Building Ratio Through Questioning"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc22cc951130022897066/index.html?videoId=6261550866001"
+    },
+    {
+      "id": "6261549268001",
+      "clip": 80,
+      "title": "Arielle Hoo Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 8 - Building Ratio Through Writing",
+        "Chapter 9 - Building Ratio Through Discussion",
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261549268001"
+    },
+    {
+      "id": "6261546158001",
+      "clip": 81,
+      "title": "Silent Solo Montage",
+      "chapters": [
+        "Chapter 8 - Building Ratio Through Writing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2677334b20024897b7f/index.html?videoId=6261546158001"
+    },
+    {
+      "id": "6261549266001",
+      "clip": 82,
+      "title": "Emily Badillo Three Minutes On Your Own",
+      "chapters": [
+        "Chapter 8 - Building Ratio Through Writing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2677334b20024897b7f/index.html?videoId=6261549266001"
+    },
+    {
+      "id": "6261550769001",
+      "clip": 83,
+      "title": "Brittany Rumph Artful Sentence",
+      "chapters": [
+        "Chapter 8 - Building Ratio Through Writing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2677334b20024897b7f/index.html?videoId=6261550769001"
+    },
+    {
+      "id": "6261548283001",
+      "clip": 84,
+      "title": "Sarah Fischler Exhausting Six Months",
+      "chapters": [
+        "Chapter 8 - Building Ratio Through Writing"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2677334b20024897b7f/index.html?videoId=6261548283001"
+    },
+    {
+      "id": "6261543374001",
+      "clip": 85,
+      "title": "BreOnna Tindall Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 9 - Building Ratio Through Discussion",
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261543374001"
+    },
+    {
+      "id": "6261549480001",
+      "clip": 86,
+      "title": "Sarah Wright Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261549480001"
+    },
+    {
+      "id": "6261549267001",
+      "clip": 87,
+      "title": "Alonte Johnson Mothers Courage",
+      "chapters": [
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2d3d2a2f7002185ee20/index.html?videoId=6261549267001"
+    },
+    {
+      "id": "6261548282001",
+      "clip": 88,
+      "title": "Ben Esser Shorter Turn and Talk",
+      "chapters": [
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2d3d2a2f7002185ee20/index.html?videoId=6261548282001"
+    },
+    {
+      "id": "6261550770001",
+      "clip": 89,
+      "title": "Jason Brewer Batch Process",
+      "chapters": [
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2d3d2a2f7002185ee20/index.html?videoId=6261550770001"
+    },
+    {
+      "id": "6261546159001",
+      "clip": 90,
+      "title": "Josh Sullivan Say More About That",
+      "chapters": [
+        "Chapter 9 - Building Ratio Through Discussion"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc2d3d2a2f7002185ee20/index.html?videoId=6261546159001"
+    },
+    {
+      "id": "6261550867001",
+      "clip": 91,
+      "title": "Nikki Bowen Stand Up",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261550867001"
+    },
+    {
+      "id": "6261408981001",
+      "clip": 92,
+      "title": "Darren Hollingsworth Smart Smart",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261408981001"
+    },
+    {
+      "id": "6261406825001",
+      "clip": 93,
+      "title": "Sadie McCleary Grab One of Each",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261406825001"
+    },
+    {
+      "id": "6261520627001",
+      "clip": 94,
+      "title": "Trona CenaJoseph Its Gonna Be Fine",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261520627001"
+    },
+    {
+      "id": "6261550865001",
+      "clip": 95,
+      "title": "Steve Chiger Knowing What To Do",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261550865001"
+    },
+    {
+      "id": "6261544271001",
+      "clip": 96,
+      "title": "Tamesha McGuire Tuck Your Chair",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261544271001"
+    },
+    {
+      "id": "6261409252001",
+      "clip": 97,
+      "title": "Christine Torres Habits of Attention Outtakes",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261409252001"
+    },
+    {
+      "id": "6261544270001",
+      "clip": 98,
+      "title": "Denarius Frazier Solutions",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261544270001"
+    },
+    {
+      "id": "6261548284001",
+      "clip": 99,
+      "title": "Lauren Moyle This is Your Challange",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261548284001"
+    },
+    {
+      "id": "6261408876001",
+      "clip": 100,
+      "title": "Mallory Grossman Quick Poll",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261408876001"
+    },
+    {
+      "id": "6261407458001",
+      "clip": 101,
+      "title": "John Burmeister Trill",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261407458001"
+    },
+    {
+      "id": "6261557252001",
+      "clip": 102,
+      "title": "Kirby Jarrell Go Brown",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261557252001"
+    },
+    {
+      "id": "6261557355001",
+      "clip": 103,
+      "title": "Do It Again Montage",
+      "chapters": [
+        "Chapter 10 - Procedures and Routines"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc32dc951130022897067/index.html?videoId=6261557355001"
+    },
+    {
+      "id": "6261557066001",
+      "clip": 104,
+      "title": "Emily Bisso Write What I Write",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations",
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261557066001"
+    },
+    {
+      "id": "6261555725001",
+      "clip": 105,
+      "title": "Denarius Frazier Check In With Your Neighbor",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555725001"
+    },
+    {
+      "id": "6261555377001",
+      "clip": 106,
+      "title": "Sadie McCleary Notes For Today",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555377001"
+    },
+    {
+      "id": "6261408875001",
+      "clip": 107,
+      "title": "Jason Brewer Pencils Are Down",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261408875001"
+    },
+    {
+      "id": "6261555375001",
+      "clip": 108,
+      "title": "Arielle Hoo Eyes Up Here",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555375001"
+    },
+    {
+      "id": "6261557249001",
+      "clip": 109,
+      "title": "Tamesha McGuire Baseline",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261557249001"
+    },
+    {
+      "id": "6261555643001",
+      "clip": 110,
+      "title": "Denarius Frazier Try That Grid",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555643001"
+    },
+    {
+      "id": "6261408972001",
+      "clip": 111,
+      "title": "Katie Kroell Sacrifice",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261408972001"
+    },
+    {
+      "id": "6261557250001",
+      "clip": 112,
+      "title": "Julia Addeo Keystone",
+      "chapters": [
+        "Keystone Videos",
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_615dd8513dafb80025892a94/index.html?videoId=6261557250001"
+    },
+    {
+      "id": "6261555376001",
+      "clip": 113,
+      "title": "Rodolpho Loureiro Fix Your Mistakes",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555376001"
+    },
+    {
+      "id": "6261407158001",
+      "clip": 114,
+      "title": "Marisa Ancona Pens to Paper",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261407158001"
+    },
+    {
+      "id": "6261408644001",
+      "clip": 115,
+      "title": "Be Seen Looking Montage",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261408644001"
+    },
+    {
+      "id": "6261555457001",
+      "clip": 116,
+      "title": "Ashley Hinton Nonverbal Montage",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555457001"
+    },
+    {
+      "id": "6261555817001",
+      "clip": 117,
+      "title": "Laura Baxter Orange Row",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261555817001"
+    },
+    {
+      "id": "6261406912001",
+      "clip": 118,
+      "title": "Josh Goodrich Lets Get To It",
+      "chapters": [
+        "Chapter 11 - High Behavioral Expectations"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc376c951130022897068/index.html?videoId=6261406912001"
+    },
+    {
+      "id": "6261555644001",
+      "clip": 121,
+      "title": "Trona CenaJoseph Register Shifts",
+      "chapters": [
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc3c5c95113002289706a/index.html?videoId=6261555644001"
+    },
+    {
+      "id": "6261557065001",
+      "clip": 124,
+      "title": "Positive Framing Montage",
+      "chapters": [
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc3c5c95113002289706a/index.html?videoId=6261557065001"
+    },
+    {
+      "id": "6261408878001",
+      "clip": 125,
+      "title": "Steve Chiger Kudos",
+      "chapters": [
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc3c5c95113002289706a/index.html?videoId=6261408878001"
+    },
+    {
+      "id": "6261406986001",
+      "clip": 126,
+      "title": "Darren Hollingsworth Rabble",
+      "chapters": [
+        "Chapter 12 - Building Student Motivation and Trust"
+      ],
+      "link": "https://players.brightcove.net/624142947001/experience_60dcc3c5c95113002289706a/index.html?videoId=6261406986001"
+    }
+  ]
+}
+</script>
+
+<script>
+const data = JSON.parse(document.getElementById('video-data').textContent);
+const chapterOrder = data.chapterOrder;
+const videos = data.videos;
+
+document.getElementById('total-count').textContent = `${videos.length} unique videos across ${chapterOrder.length} sections.`;
+
+let mode = 'chapter';
+let query = '';
+
+function matchesQuery(v) {
+  if (!query) return true;
+  const q = query.toLowerCase();
+  return v.title.toLowerCase().includes(q) ||
+         v.chapters.some(c => c.toLowerCase().includes(q));
+}
+
+function render() {
+  const main = document.getElementById('main');
+  main.innerHTML = '';
+  const filtered = videos.filter(matchesQuery);
+  document.getElementById('visible-count').textContent = `${filtered.length} shown`;
+
+  if (filtered.length === 0) {
+    main.innerHTML = '<p class="empty">No videos match your filter.</p>';
+    return;
+  }
+
+  function shortChapterLabel(c) {
+    const m = c.match(/^Chapter (\d+) - (.*)/);
+    return m ? `Ch. ${m[1]}: ${m[2]}` : c;
+  }
+
+  function renderItem(v) {
+    const li = document.createElement('li');
+    li.className = 'video-item';
+    li.innerHTML = `
+      <span class="clip-num">#${v.clip}</span>
+      <div class="video-info">
+        <div class="video-title"><a href="${v.link}" target="_blank" rel="noopener">${v.title}</a></div>
+        <div class="chapter-tags">${v.chapters.map(c => `<span>${shortChapterLabel(c)}</span>`).join('')}</div>
+      </div>
+      <a class="watch-btn" href="${v.link}" target="_blank" rel="noopener">Watch ▸</a>
+    `;
+    return li;
+  }
+
+  if (mode === 'chapter') {
+    for (const chapter of chapterOrder) {
+      const items = filtered.filter(v => v.chapters.includes(chapter));
+      if (items.length === 0) continue;
+      const h2 = document.createElement('h2');
+      h2.className = 'chapter-heading';
+      h2.textContent = `${chapter} (${items.length})`;
+      main.appendChild(h2);
+      const ul = document.createElement('ul');
+      ul.className = 'video-list';
+      items.sort((a, b) => a.clip - b.clip).forEach(v => ul.appendChild(renderItem(v)));
+      main.appendChild(ul);
+    }
+  } else {
+    const sorted = [...filtered];
+    if (mode === 'alpha') {
+      sorted.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (mode === 'clip') {
+      sorted.sort((a, b) => a.clip - b.clip);
+    }
+    const ul = document.createElement('ul');
+    ul.className = 'video-list';
+    sorted.forEach(v => ul.appendChild(renderItem(v)));
+    main.appendChild(ul);
+  }
+}
+
+document.getElementById('mode-group').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-mode]');
+  if (!btn) return;
+  mode = btn.dataset.mode;
+  document.querySelectorAll('#mode-group button').forEach(b => b.classList.toggle('active', b === btn));
+  render();
+});
+
+document.getElementById('search').addEventListener('input', (e) => {
+  query = e.target.value;
+  render();
+});
+
+render();
+</script>
+
+</body>
+</html>
