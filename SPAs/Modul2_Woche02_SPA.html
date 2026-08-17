@@ -360,6 +360,7 @@ input[type=number]{max-width:8rem}
   <span class="eyebrow">Station 4 · Do it: Skript-Editor</span>
   <h2>Skripte deine eigene Begrüßungsroutine.</h2>
   <p class="lead">Fülle die dreispaltige Vorlage für dich aus. Pflichtfelder sind der Gruß und das Setz-Signal/der Starter-Satz – der Rest darf stichwortartig bleiben. Diese Seite wird deine erste offizielle Playbook-Seite.</p>
+  <p class="hint" id="auftaktPrefillHint" style="display:none;margin-top:.5rem">↻ Aus deinem Mini-Skript vom Auftakt vorausgefüllt – prüfe die Felder und baue sie zur vollen Routine aus.</p>
   <p style="margin-top:.6rem"><button class="btn ghost small" id="scriptModelBtn">Musterbeispiel anzeigen</button></p>
   <div class="card reveal" id="scriptModelCard"></div>
 
@@ -1014,6 +1015,28 @@ function renderScriptPreview(){
   document.getElementById('scriptPreview').textContent=parts.length?parts.join(' — '):'Noch keine Eingaben.';
 }
 
+/* Übernimmt das Mini-Skript aus dem Auftakt (Modul 0) in die entsprechenden
+   Felder des Skript-Editors – nur dort, wo hier noch nichts eingetragen ist,
+   damit eigene Eingaben nie überschrieben werden. */
+async function applyAuftaktPrefill(){
+  if(!window.CPD||typeof window.CPD.getModuleState!=='function')return;
+  let onboarding;
+  try{onboarding=await window.CPD.getModuleState('modul0-onboarding');}catch(e){return;}
+  if(!onboarding)return;
+  const map={scriptStep2:onboarding.skript1,scriptStep3:onboarding.skript2,scriptGruss:onboarding.skript3};
+  let filled=false;
+  Object.keys(map).forEach(k=>{
+    if(!state[k]&&map[k]){state[k]=map[k];filled=true;}
+  });
+  if(!state.scriptStarter&&(onboarding.skript4||onboarding.skript5)){
+    state.scriptStarter=[onboarding.skript4,onboarding.skript5].filter(Boolean).join(' — ');
+    filled=true;
+  }
+  if(filled)scheduleSave();
+  const hintEl=document.getElementById('auftaktPrefillHint');
+  if(hintEl)hintEl.style.display=filled?'':'none';
+}
+
 /* ================= Das geordnete Ende ================= */
 function renderEndTraps(){
   const g=document.getElementById('endTrapGrid');g.innerHTML='';
@@ -1370,6 +1393,7 @@ function showToast(msg){
 (async function init(){
   await loadState();
   applyTeacherName();
+  await applyAuftaktPrefill();
   bindStores();
   renderDiff();
   renderStepOrder();

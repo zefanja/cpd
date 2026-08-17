@@ -11,6 +11,18 @@
   var SESSION_KEY = "cpd_session";
   var moduleKey = document.currentScript && document.currentScript.dataset.moduleKey;
 
+  // Lokale Vorschau ohne Login: file:// (Doppelklick auf die HTML-Datei)
+  // oder localhost. Wird hier (statt erst weiter unten) berechnet, weil
+  // getModuleState() sie auch auf Seiten ohne data-module-key braucht.
+  var isLocalPreview =
+    window.location.protocol === "file:" ||
+    /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+
+  // Coach-Vorschau: ?preview=1 in der URL (Link aus dem Coach-Dashboard).
+  var isCoachPreview = /(?:^|[?&])preview=1(?:&|$)/.test(
+    window.location.search
+  );
+
   function getTeacherSession() {
     try {
       var raw = localStorage.getItem(SESSION_KEY);
@@ -111,6 +123,45 @@
     window.location.href = loginPage || "login.html";
   }
 
+  // Liest den gespeicherten Zustand eines ANDEREN Moduls (z. B. Modul 0 aus
+  // Modul 2 heraus), um Stationen mit passenden Eingaben aus früheren Modulen
+  // vorzubefüllen. Nutzt bewusst kein "resolvedModuleId"/"teacherClient" aus
+  // der Gate-Logik weiter unten, da diese Funktion auch von Seiten ohne
+  // data-module-key (oder für ein fremdes Modul) aufgerufen werden kann.
+  async function getModuleState(otherModuleKey) {
+    if (isLocalPreview || isCoachPreview) {
+      try {
+        var raw = localStorage.getItem(
+          "cpd_local_progress_" + otherModuleKey + "_" + otherModuleKey
+        );
+        return raw ? JSON.parse(raw) : null;
+      } catch (e) {
+        return null;
+      }
+    }
+    var session = getTeacherSession();
+    if (!session) return null;
+    try {
+      var client = await createTeacherClient(session);
+      var moduleRes = await client
+        .from("modules")
+        .select("id")
+        .eq("key", otherModuleKey)
+        .maybeSingle();
+      if (moduleRes.error || !moduleRes.data) return null;
+      var progressRes = await client
+        .from("progress")
+        .select("state")
+        .eq("teacher_id", session.teacher.id)
+        .eq("module_id", moduleRes.data.id)
+        .maybeSingle();
+      if (progressRes.error || !progressRes.data) return null;
+      return progressRes.data.state || null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   function onBodyReady(cb) {
     if (document.body) cb();
     else document.addEventListener("DOMContentLoaded", cb, { once: true });
@@ -140,27 +191,14 @@
     createCoachClient: createCoachClient,
     loginByCode: loginByCode,
     logout: logout,
+    getModuleState: getModuleState,
   };
   window.CPD = CPD;
 
   // Gate- und Storage-Logik läuft nur auf Modul-Seiten, erkennbar am
   // data-module-key-Attribut des eigenen <script>-Tags.
+  // (isLocalPreview/isCoachPreview: siehe Berechnung weiter oben.)
   if (!moduleKey) return;
-
-  // Lokale Vorschau ohne Login: file:// (Doppelklick auf die HTML-Datei)
-  // oder localhost. Fortschritt wird dann nur im Browser gespeichert statt
-  // in Supabase, damit Module ohne Kurszuordnung/Login angeschaut werden können.
-  var isLocalPreview =
-    window.location.protocol === "file:" ||
-    /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
-
-  // Coach-Vorschau: ?preview=1 in der URL (Link aus dem Coach-Dashboard).
-  // Verhält sich wie die lokale Vorschau, funktioniert aber auf jeder Domain,
-  // ohne Login und ohne Kurszuordnung – damit ein Coach jedes Modul ansehen
-  // kann, ohne echte Teilnehmerdaten zu berühren.
-  var isCoachPreview = /(?:^|[?&])preview=1(?:&|$)/.test(
-    window.location.search
-  );
 
   if (isLocalPreview || isCoachPreview) {
     var LOCAL_PREFIX = "cpd_local_progress_" + moduleKey + "_";
