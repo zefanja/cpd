@@ -111,11 +111,11 @@
 
 **Input (Min. 8–26):**
 1. *See it – Live-Demo Negativ/Positiv:* Moderation spielt: (A) redet gegen Murmeln an, wird lauter, Anweisung in 40 Wörtern mit drei Einschüben; (B) Signal → schweigend warten → Blickkontakt 100 % → „Stifte weg. Blick zu mir. Danke." → Anweisung in Schrittfolge.
-2. Prinzipien: Nie gegen Unruhe sprechen (was in Unruhe gesagt wird, adelt die Unruhe); What to Do (Lemov T52): konkret–sequenziell–beobachtbar–knapp; Brighten the Lines (T28): Start-/Endsignale scharf („In 3, 2, 1 – los"); Sprachökonomie: Anweisung → Stopp. Nicht nachplätschern.
+2. Prinzipien: Nie gegen Unruhe sprechen (was in Unruhe gesagt wird, adelt die Unruhe); What to Do (Lemov T52): konkret–sequenziell–beobachtbar–knapp; Brighten the Lines (T28) = klare Abgrenzung: Start-/Endsignale scharf – zwei gleichwertige Startvarianten: Countdown („In 3, 2, 1 – los") oder Ankündigungs-Start („Gestartet wird erst, wenn ich ‚Los‘ sage" – Startwort VOR den Schritten, damit niemand bei Schritt eins losrennt); Sprachökonomie: Anweisung → Stopp. Nicht nachplätschern.
 3. Merkhilfe: *„Erst der Körper (Position, Stille), dann das Signal, dann die Worte – und so wenige wie möglich."*
-4. **Übergänge (Lovell R5) als Anwendungsfall:** ein Übergang ist Signal → warten → nummerierte What-to-Do-Anweisung → Kante. *„Macht euch fertig für die Gruppenarbeit" sind vier Aufträge in einem Nebel.* Bei Zerfasern: Do It Again (T51), neutraler Ton. Kein neuer Inhalt – nur ein Name für das, was gerade geübt wurde.
+4. **Übergänge (Lovell R5) als Anwendungsfall:** ein Übergang ist Signal → warten → nummerierte What-to-Do-Anweisung → klare Abgrenzung. *„Macht euch fertig für die Gruppenarbeit" sind vier Aufträge in einem Nebel.* Bei Zerfasern: Do It Again (T51), neutraler Ton. Kein neuer Inhalt – nur ein Name für das, was gerade geübt wurde.
 
-**Name it (Min. 28–33):** Anweisungs-Vierercheck: konkret? sequenziell? beobachtbar? ≤ 12 Wörter pro Schritt? – plus Signal-Standard: Signal geben → warten → erst bei 100 % sprechen – plus Übergangs-Formel: Signal → warten → nummerieren → Kante → (bei Bedarf) Do It Again. Im Do it hängt jede Person an ihren Signal-Einsatz direkt einen Übergang an.
+**Name it (Min. 28–33):** Anweisungs-Vierercheck: konkret? sequenziell? beobachtbar? ≤ 12 Wörter pro Schritt? – plus Signal-Standard: Signal geben → warten → erst bei 100 % sprechen – plus Abgrenzungs-Regel (jede Arbeitsphase mit eindeutigem Start- und Endsignal) plus Übergangs-Formel: Signal → warten → nummerieren → abgrenzen → (bei Bedarf) Do It Again. Im Do it hängt jede Person an ihren Signal-Einsatz direkt einen Übergang an.
 
 **Do it (Min. 31–52):**
 - *Rewrite-Sprint (8 Min.):* 5 vage Anweisungen („Passt jetzt mal auf", „Macht mal weiter", „Räumt vernünftig auf"…) einzeln in What-to-Do-Form; Tandem-Check mit Viererprüfung.
@@ -131,7 +131,7 @@
 
 **Material:** freier Spielraum; ggf. Handykameras für Selbst-Clips; Karte „Mein Reset-Anker" (Vorlage: Auslöser → Körperanker → innerer Satz).
 
-**Retrieval-Starter:** 1. Vierercheck für Anweisungen? 2. Warum nie gegen Unruhe sprechen? 3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? 4. Was ist Brighten the Lines? 5. (Anwendung) Formuliere ein Endsignal für Gruppenarbeit.
+**Retrieval-Starter:** 1. Vierercheck für Anweisungen? 2. Warum nie gegen Unruhe sprechen? 3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? 4. Was ist Brighten the Lines (klare Abgrenzung)? Nenne die zwei Startvarianten. 5. (Anwendung) Formuliere ein Endsignal für Gruppenarbeit.
 
 **Input (Min. 8–24):** Kernbotschaft: *„Souveränität ist zum großen Teil Verhalten, und Verhalten ist übbar – ihr müsst nicht erst jemand anderes WERDEN."* Vier Stellschrauben mit je 60-Sek.-Demo durch Moderation:
 

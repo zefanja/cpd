@@ -135,7 +135,7 @@ Feedback-Fokus: War die Reaktion konstant im Ton? Kam sie NACH dem Anker (nicht 
 1. Der Anweisungs-Vierercheck? *(konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt)*
 2. Warum nie gegen Unruhe sprechen? *(adelt die Unruhe; Norm „zuhören optional")*
 3. Teilschritt 3 der Begrüßungsroutine und seine Begründung? *(Warten auf 100 % – sonst Norm „halbherzig reicht")*
-4. Was ist Brighten the Lines? *(scharfe Start-/Endsignale für Arbeitsphasen)*
+4. Was ist Brighten the Lines? *(klare Abgrenzung: eindeutiges Start- und Endsignal für jede Arbeitsphase – Countdown oder Ankündigungs-Start)*
 5. (Anwendung) Formuliere ein Endsignal für eine Gruppenarbeit. *(z. B. Signal + „Stopp – Stifte weg, Blick zu mir. Gruppensprecher bleiben gleich dran.")*
 
 ## Teil 2: Modul-Quiz Woche 4 (für SPA/Folgewoche)

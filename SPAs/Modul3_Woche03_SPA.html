@@ -306,7 +306,7 @@ input[type=number]{max-width:8rem}
   </div>
   <div class="card">
     <h3>Variante B (stark)</h3>
-    <p style="font-size:.95rem">Geht zum festen Punkt, gibt das Signal (erhobene Hand + „Stopp – Blick zu mir.“), steht still, wartet schweigend. 5 Sekunden. Als alle schauen: „Danke. Drei Schritte:" [Pause] „Erstens: Gruppenzettel in die Mitte." [Pause, Blick] „Zweitens: Buch auf, Seite 36." [Pause] „Drittens: Aufgabe 2 lesen – noch nicht lösen. Los."</p>
+    <p style="font-size:.95rem">Geht zum festen Punkt, gibt das Signal (erhobene Hand + „Stopp – Blick zu mir.“), steht still, wartet schweigend. 5 Sekunden. Als alle schauen: „Danke. Drei Schritte – losgelegt wird erst, wenn ich ‚Los‘ sage:" [Pause] „Erstens: Gruppenzettel in die Mitte." [Pause, Blick] „Zweitens: Buch auf, Seite 36." [Pause] „Drittens: Aufgabe 2 lesen – noch nicht lösen." [Pause, Scan] „Los."</p>
   </div>
   <h3 style="margin-top:1.4rem">Markiere die 3 tatsächlichen Unterschiede.</h3>
   <p class="lead">Sechs Aussagen, drei davon beschreiben einen echten Unterschied zwischen A und B. Tippe deine Auswahl an, dann „Prüfen".</p>
@@ -334,9 +334,16 @@ input[type=number]{max-width:8rem}
   <div class="card">
     <p><strong>Signal-Standard:</strong> Signal → schweigend warten → 100 % → sprechen. (Niemals: Signal + sofort losreden.)</p>
     <p style="margin-top:.5rem"><strong>Anweisungs-Vierercheck:</strong> konkret? · sequenziell (nummeriert)? · beobachtbar? · ≤ 12 Wörter pro Schritt?</p>
-    <p style="margin-top:.5rem"><strong>Kanten-Regel:</strong> Start- und Endsignal für jede Arbeitsphase.</p>
-    <p style="margin-top:.5rem"><strong>Übergangs-Formel:</strong> Signal → warten → nummerieren → Kante → (bei Zerfasern) Do It Again.</p>
-    <p class="punchline" style="margin-top:.9rem">„Erst still, dann kurz, dann Stopp."</p>
+    <p style="margin-top:.5rem"><strong>Abgrenzungs-Regel:</strong> Jede Arbeitsphase hat ein eindeutiges Startsignal und ein eindeutiges Endsignal – sie grenzt sich hörbar ab von dem, was davor und danach kommt.</p>
+    <p style="margin-top:.5rem"><strong>Übergangs-Formel:</strong> Signal → warten → nummerieren → abgrenzen → (bei Zerfasern) Do It Again.</p>
+    <p class="punchline" style="margin-top:.9rem">„Erst still, dann kurz, dann Stopp." — „Kein Start ohne Startwort, kein Ende ohne Signal."</p>
+  </div>
+  <div class="card" style="margin-top:1rem">
+    <h3>Zwei Startsignale – wähle eines und bleib dabei</h3>
+    <p style="margin-top:.4rem"><strong>Countdown:</strong> „In drei, zwei, eins: los." Hörbar, gemeinsam, alle starten in derselben Sekunde. Stark in Sek I und bei kurzen Wechseln – in der Oberstufe kann es albern wirken.</p>
+    <p style="margin-top:.5rem"><strong>Ankündigungs-Start:</strong> Du sagst <em>vor</em> den Schritten, woran der Start erkennbar ist – „Gestartet wird erst, wenn ich ‚Los‘ sage" –, nennst dann die Schritte und setzt am Ende das eine Wort: „Los."</p>
+    <p class="hint" style="margin-top:.5rem">Warum die Ankündigung mehr bringt, als sie klingt: Ohne sie starten die Schnellen schon bei Schritt eins – und hören Schritt drei nie. Mit ihr hört die ganze Klasse die Anweisung zu Ende. Ein Kurs, der auf ‚Los‘ wartet, wirkt professionell; ein Kurs, der heruntergezählt wird, fühlt sich behandelt wie Klasse 5.</p>
+    <p style="margin-top:.5rem"><strong>Das Ende</strong> braucht dieselbe Schärfe: Vorwarnung („Noch zwei Minuten"), dann dein Aufmerksamkeitssignal – kein Verklingenlassen.</p>
   </div>
   <h3 style="margin-top:1.6rem">Welche Kriterien verletzt jede Anweisung?</h3>
   <p class="lead">Wähle bei jeder Anweisung an, welche der vier Kriterien sie NICHT besteht. Manche Anweisungen bestehen alle vier – dann wählst du nichts aus. Danach „Auflösung zeigen".</p>
@@ -368,8 +375,10 @@ input[type=number]{max-width:8rem}
 <section class="screen" data-title="Übergangs-Trainer">
   <span class="eyebrow">Station 5 · Der Übergangs-Trainer</span>
   <h2>Ein Übergang ist dasselbe Werkzeug, nur schneller.</h2>
-  <p class="lead">Signal → warten → nummerierte What-to-Do-Anweisung → scharfe Kante. Wähle ein Zielszenario und bring die Schritte in die richtige Reihenfolge.</p>
+  <p class="lead">Signal → warten → nummerierte What-to-Do-Anweisung → klare Abgrenzung. Wähle ein Zielszenario und bring die Schritte in die richtige Reihenfolge.</p>
   <div class="tab-row" id="transTabs"></div>
+  <p class="hint" style="margin-top:.9rem">Startsignal-Variante (ändert die letzte Karte):</p>
+  <div class="tab-row" id="startVarTabs"></div>
   <div id="transOrderList"></div>
   <p style="margin-top:.9rem"><button class="btn ghost small" id="transResetBtn">Zurücksetzen</button> <button class="btn small" id="transCheckBtn">Prüfen</button></p>
   <div class="card reveal" id="transReveal"></div>
@@ -417,6 +426,18 @@ input[type=number]{max-width:8rem}
     <label for="sigProbe">6 · Probe-Ansage <span class="sub">Wie kündigst du die einmalige Übung an?</span></label>
     <textarea id="sigProbe" data-store="sigProbe" placeholder="„Wir proben das einmal: Redet kurz mit dem Nachbarn …“"></textarea>
   </div>
+  <div class="field">
+    <label for="sigStart">7 · Mein Startsignal für Arbeitsphasen <span class="sub">Eine Variante wählen – und eine Woche lang nicht wechseln.</span></label>
+    <select id="sigStart" data-store="sigStart">
+      <option value="">– bitte wählen –</option>
+      <option value="Countdown: &quot;In drei, zwei, eins: los.&quot;">Countdown – „In drei, zwei, eins: los.“</option>
+      <option value="Ankündigungs-Start: &quot;Gestartet wird erst, wenn ich ‚Los‘ sage.&quot; … [Schritte] … &quot;Los.&quot;">Ankündigungs-Start – „Gestartet wird auf mein ‚Los‘.“</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="sigEnde">8 · Mein Endsignal für Arbeitsphasen <span class="sub">Vorwarnung + Signal – kein Verklingenlassen.</span></label>
+    <input type="text" id="sigEnde" data-store="sigEnde" placeholder="z. B. &quot;Noch zwei Minuten.&quot; … dann Hand heben + &quot;Stopp – Blick zu mir.&quot;">
+  </div>
   <div class="commit-box">
     <input type="checkbox" id="sigProbeDone" data-store="sigProbeDone">
     <label for="sigProbeDone" style="font-weight:600">Ich habe meine Signal-Einführung einmal laut gesprochen – vor mir selbst, dem Spiegel oder einer Kollegin.</label>
@@ -431,20 +452,20 @@ input[type=number]{max-width:8rem}
 <!-- 8 · QUIZ -->
 <section class="screen" data-title="Quiz">
   <span class="eyebrow">Station 8 · Quiz</span>
-  <h2>Sechs Fragen zu Woche 3 – plus zwei zur Auffrischung.</h2>
+  <h2>Sieben Fragen zu Woche 3 – plus zwei zur Auffrischung.</h2>
   <p class="lead">Rund 30 % der Fragen kommen aus den Vormodulen – so bleiben Woche 1 und Woche 2 präsent.</p>
   <div id="quizList"></div>
   <div class="quiz-item">
     <p class="quiz-q">Transfer (Freitext): Schreibe die Umbau-Anweisung „Macht euch mal fertig für den Film und kommt nach vorn" als nummerierte What-to-Do-Sequenz mit Start-Signal.</p>
     <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Muster: „Erstens: Stifte weg, Hefte zu. Zweitens: Stuhl leise nach vorn tragen. Drittens: hinsetzen, Blick zur Leinwand. – In 3, 2, 1: los."</p>
+    <p class="quiz-note" id="transferNote">Muster A (Countdown): „Erstens: Stifte weg, Hefte zu. Zweitens: Stuhl leise nach vorn tragen. Drittens: hinsetzen, Blick zur Leinwand. – In 3, 2, 1: los." · Muster B (Ankündigungs-Start): „Drei Schritte, angefangen wird auf mein ‚Los‘. Erstens … Zweitens … Drittens … – Los."</p>
   </div>
   <div class="quiz-item">
     <p class="quiz-q">Transfer (Freitext): Dein Aufmerksamkeitssignal wirkt nach zwei Wochen schlechter als am Anfang. Beschreibe die wahrscheinlichste Ursache UND was du ab morgen konkret änderst.</p>
     <textarea id="transferAnswer2" data-store="transferAnswer2" style="margin-top:.8rem" placeholder="…"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transfer2RevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transfer2Note">Muster: Ursache ist fast immer, dass in Restunruhe gesprochen wurde – das entwertet das Signal. Ab morgen: nach dem Signal innerlich bis drei zählen, BEVOR gesprochen wird – die Reihenfolge Signal → schweigen → 100 % → sprechen strikt einhalten.</p>
+    <p class="quiz-note" id="transfer2Note">Muster: Ursache ist fast immer, dass in Restunruhe gesprochen wurde – das entwertet das Signal. Ab morgen zwei mögliche Wege, beide gleich gut – einen wählen: (a) nach dem Signal innerlich bis drei zählen, BEVOR gesprochen wird; (b) statt zu zählen den Blick nach dem Signal einmal komplett durch den Raum wandern lassen (von links hinten nach rechts hinten) und erst sprechen, wenn er angekommen ist – an eine sichtbare Handlung gekoppelt statt an eine Zahl, und der Scan fällt gratis mit ab. In beiden Fällen gilt: Signal → schweigen → 100 % → sprechen, strikt.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
@@ -546,9 +567,9 @@ const PRINCIPLES=[
  {id:3,name:'Sprachökonomie',
   desc:'Jedes zusätzliche Wort verdünnt das Signal. Faustregel: höchstens zwölf Wörter pro Schritt – danach: Stopp. Nicht nachplätschern.',
   quote:'„Zweitens: Buch auf, Seite 36." (5 Wörter)'},
- {id:4,name:'Brighten the Lines',
-  desc:'Arbeitsphasen brauchen scharfe Kanten: ein klares Startsignal und ein klares Endsignal. Unscharfe Kanten fransen aus.',
-  quote:'„Drittens: Aufgabe 2 lesen – noch nicht lösen. Los."'}
+ {id:4,name:'Brighten the Lines – klare Abgrenzung',
+  desc:'Eine Arbeitsphase braucht einen erkennbaren Anfang und ein erkennbares Ende – sie muss sich hörbar abgrenzen von dem, was davor und danach passiert. Fehlt die Abgrenzung, franst die Phase an beiden Enden aus. Zwei Startsignale sind gleich stark: der Countdown und der Ankündigungs-Start.',
+  quote:'„Drei Schritte – losgelegt wird erst, wenn ich ‚Los‘ sage … Los."'}
 ];
 
 const CRIT_NAMES=['konkret','sequenziell / nummeriert','beobachtbar','≤ 12 Wörter/Schritt'];
@@ -576,7 +597,7 @@ const TRANSITIONS={
    {id:3,short:'Erstens',text:'„Stühle zu viert zusammenschieben."'},
    {id:4,short:'Zweitens',text:'„Ein Blatt und ein Stift pro Gruppe."'},
    {id:5,short:'Drittens',text:'„Aufgabe 4 aufschlagen."'},
-   {id:6,short:'Kante',text:'„In drei, zwei, eins – los."'}
+   {id:6,short:'Abgrenzung',text:''}
  ],display:[4,1,6,2,5,3]},
  film:{label:'Film schauen',steps:[
    {id:1,short:'Signal',text:'„Stopp – Blick zu mir."'},
@@ -584,7 +605,7 @@ const TRANSITIONS={
    {id:3,short:'Erstens',text:'„Stifte weg, Hefte zu."'},
    {id:4,short:'Zweitens',text:'„Stuhl leise nach vorn tragen."'},
    {id:5,short:'Drittens',text:'„Hinsetzen, Blick zur Leinwand."'},
-   {id:6,short:'Kante',text:'„In drei, zwei, eins – los."'}
+   {id:6,short:'Abgrenzung',text:''}
  ],display:[5,2,6,1,4,3]},
  aufraeumen:{label:'Aufräumen',steps:[
    {id:1,short:'Signal',text:'„Stopp – Blick zu mir."'},
@@ -592,10 +613,22 @@ const TRANSITIONS={
    {id:3,short:'Erstens',text:'„Scheren in die Kiste."'},
    {id:4,short:'Zweitens',text:'„Schnipsel in den Müll."'},
    {id:5,short:'Drittens',text:'„Tisch leer, hinsetzen."'},
-   {id:6,short:'Kante',text:'„In drei, zwei, eins – los."'}
+   {id:6,short:'Abgrenzung',text:''}
  ],display:[3,6,1,5,2,4]}
 };
 const TRANS_ORDER=['gruppenarbeit','film','aufraeumen'];
+
+/* Zwei gleichwertige Startsignale. Der Ankündigungs-Start nennt das Startwort
+   VOR den Schritten – deshalb hat er zusätzlich einen Vorspann (pre). */
+const START_VARIANTS={
+ countdown:{label:'Countdown',pre:'',text:'„In drei, zwei, eins – los."',
+  note:'Hörbar und gemeinsam – alle starten in derselben Sekunde. Stark in Sek I und bei kurzen Wechseln.'},
+ ansage:{label:'Ankündigungs-Start',pre:'„Drei Schritte – gestartet wird erst, wenn ich ‚Los‘ sage."',text:'„Los."',
+  note:'Das Startwort steht VOR den Schritten. Dadurch startet niemand schon bei Schritt eins – die ganze Klasse hört die Anweisung zu Ende. Funktioniert in jeder Jahrgangsstufe, auch in der Oberstufe.'}
+};
+const START_VAR_ORDER=['countdown','ansage'];
+function startVar(){return START_VARIANTS[state.startVariant]||START_VARIANTS.countdown;}
+function stepText(step){return step.short==='Abgrenzung'?startVar().text:step.text;}
 
 const SCENARIOS=[
  {tag:'B1 · Die Fünf Unbeirrten',situ:'Beim Signal reden zwei SuS einfach weiter – nicht provokant, eher vertieft ins Gespräch.',opts:[
@@ -637,12 +670,19 @@ const QUIZ=[
    {t:'leise weitersprechen',ok:false,note:'Verdünnt das Signal – nachplätschern zählt nicht.'},
    {t:'sofort Einzelnen helfen',ok:false,note:'Erst beobachten, ob die Anweisung insgesamt ankommt.'}
   ]},
- {q:'F4. „In 3, 2, 1 – los" dient dazu, …',
+ {q:'F4. „In 3, 2, 1 – los" bzw. „Gestartet wird auf mein ‚Los‘" dient dazu, …',
   opts:[
    {t:'Druck aufzubauen',ok:false,note:'Nicht der Zweck.'},
-   {t:'die Kante der Arbeitsphase zu schärfen (Brighten the Lines)',ok:true,note:'Genau: ein klares Startsignal.'},
+   {t:'die Arbeitsphase klar abzugrenzen – erkennbarer Anfang (Brighten the Lines)',ok:true,note:'Genau: ein eindeutiges Startsignal, das die Phase von allem davor trennt.'},
    {t:'Zeit zu schinden',ok:false,note:'Nicht der Zweck.'},
    {t:'jüngere SuS zu motivieren',ok:false,note:'Gilt in jeder Stufe, nicht altersabhängig.'}
+  ]},
+ {q:'F4b. Warum kommt beim Ankündigungs-Start das Startwort VOR die Schritte („Gestartet wird auf mein ‚Los‘ …")?',
+  opts:[
+   {t:'Es klingt freundlicher',ok:false,note:'Nett, aber nicht der Grund – es geht um den Startzeitpunkt.'},
+   {t:'Sonst starten die Schnellen schon bei Schritt eins und hören Schritt drei nie',ok:true,note:'Genau: Die Ankündigung hält alle bis zum letzten Schritt im Zuhören.'},
+   {t:'Es spart Wörter',ok:false,note:'Im Gegenteil – es kostet einen halben Satz, der sich aber lohnt.'},
+   {t:'Es ersetzt das Aufmerksamkeitssignal',ok:false,note:'Zwei verschiedene Dinge: Das Signal sammelt, das Startwort startet.'}
   ]},
  {q:'F5. Dein Signal funktioniert nach zwei Wochen schlechter. Wahrscheinlichste Ursache:',
   opts:[
@@ -679,8 +719,8 @@ const ACTIONSTEPS=[
   text:'Ich führe am Montag in Klasse X mein Aufmerksamkeitssignal nach dem W1-Bauplan ein (zeigen – Erwartung – Begründung – CFU – Probe) und halte eine Woche eisern die Reihenfolge: Signal, schweigen, 100 %, erst dann sprechen.'},
  {id:'woerterdiaet',label:'Wörter-Diät (Alternative)',
   text:'Eine Woche notiere ich jede Arbeitsanweisung vorher und kürze sie auf ≤ 12 Wörter pro Schritt, bevor ich sie ausspreche.'},
- {id:'kantenwoche',label:'Kanten-Woche (Alternative)',
-  text:'Jede Arbeitsphase starte ich diese Woche mit „3-2-1-los" und beende sie mit einem klaren Signal.'},
+ {id:'abgrenzungswoche',label:'Abgrenzungs-Woche (Alternative)',
+  text:'Jede Arbeitsphase grenze ich diese Woche klar ab: immer dasselbe Startsignal – entweder „In 3, 2, 1: los" oder der Ankündigungs-Start „Gestartet wird auf mein ‚Los‘" – und am Ende immer mein Aufmerksamkeitssignal. Eine Variante wählen, eine Woche nicht wechseln.'},
  {id:'uebergangswoche',label:'Übergangs-Woche (Alternative)',
   text:'Ich nummeriere den immer gleichen Problem-Übergang einer Klasse, führe ihn eine Woche identisch durch, setze bei Zerfasern einmal Do It Again ein – und stoppe die Sekunden.'}
 ];
@@ -693,10 +733,10 @@ let state={name:'',
  engineInput:'',
  rewrite1:'',rewrite2:'',rewrite3:'',rewrite4:'',rewrite5:'',
  rewriteRevealed1:false,rewriteRevealed2:false,rewriteRevealed3:false,rewriteRevealed4:false,rewriteRevealed5:false,
- transTab:'gruppenarbeit',
+ transTab:'gruppenarbeit',startVariant:'countdown',
  transState:{gruppenarbeit:{order:[],revealed:false},film:{order:[],revealed:false},aufraeumen:{order:[],revealed:false}},
  scenarioSel:[0,0,0],
- sigGeste:'',sigErwartung:'',sigBegruendung:'',sigCfu1:'',sigCfu2:'',sigProbe:'',sigProbeDone:false,sigModelShown:false,
+ sigGeste:'',sigErwartung:'',sigBegruendung:'',sigCfu1:'',sigCfu2:'',sigProbe:'',sigStart:'',sigEnde:'',sigProbeDone:false,sigModelShown:false,
  quizSel:[0,0,0,0,0,0,0,0],transferAnswer:'',transferShown:false,
  transferAnswer2:'',transfer2Shown:false,
  actionStep:'standard',talkMo:'',talkDi:'',talkMi:'',talkDo:'',talkFr:'',
@@ -736,6 +776,8 @@ function normalizeState(){
   if(!Array.isArray(state.principleRevealed)||state.principleRevealed.length!==PRINCIPLES.length)state.principleRevealed=PRINCIPLES.map(()=>false);
   if(!Array.isArray(state.scenarioSel))state.scenarioSel=[0,0,0];
   if(!state.transState)state.transState={};
+  if(state.actionStep==='kantenwoche')state.actionStep='abgrenzungswoche';
+  if(!START_VARIANTS[state.startVariant])state.startVariant='countdown';
   TRANS_ORDER.forEach(k=>{if(!state.transState[k])state.transState[k]={order:[],revealed:false};});
 }
 async function loadState(){
@@ -1005,6 +1047,16 @@ function renderRewrites(){
 }
 
 /* ================= Übergangs-Trainer ================= */
+function renderStartVarTabs(){
+  const t=document.getElementById('startVarTabs');if(!t)return;t.innerHTML='';
+  START_VAR_ORDER.forEach(key=>{
+    const b=document.createElement('button');b.className='tab-btn'+(state.startVariant===key?' on':'');
+    b.textContent=START_VARIANTS[key].label;
+    b.addEventListener('click',()=>{state.startVariant=key;scheduleSave();renderStartVarTabs();renderTransOrder();
+      document.getElementById('transReveal').classList.remove('on');});
+    t.appendChild(b);
+  });
+}
 function renderTransTabs(){
   const t=document.getElementById('transTabs');t.innerHTML='';
   TRANS_ORDER.forEach(key=>{
@@ -1027,7 +1079,7 @@ function renderTransOrder(){
     let cls='order-card'+(pos>-1?' sel':'');
     if(st.revealed&&pos>-1)cls+=((pos+1)===id?' correctpos':' wrongpos');
     const b=document.createElement('button');b.className=cls;
-    b.innerHTML='<span class="order-num">'+num+'</span><span class="order-text"><b>'+step.short+'</b>'+step.text+'</span>';
+    b.innerHTML='<span class="order-num">'+num+'</span><span class="order-text"><b>'+step.short+'</b>'+stepText(step)+'</span>';
     if(!st.revealed)b.addEventListener('click',()=>{
       const idx=st.order.indexOf(id);
       if(idx>-1)st.order.splice(idx,1);else st.order.push(id);
@@ -1041,10 +1093,13 @@ document.getElementById('transCheckBtn').addEventListener('click',()=>{
   const key=state.transTab,def=TRANSITIONS[key],st=state.transState[key];
   if(st.order.length<def.steps.length){showToast('Bring erst alle Karten in eine Reihenfolge.');return;}
   st.revealed=true;scheduleSave();renderTransOrder();
-  const wordSteps=def.steps.filter(s=>s.short!=='Signal'&&s.short!=='Warten'&&s.short!=='Kante');
+  const wordSteps=def.steps.filter(s=>s.short!=='Signal'&&s.short!=='Warten'&&s.short!=='Abgrenzung');
   const totalWords=wordSteps.reduce((a,s)=>a+s.text.split(/\s+/).filter(Boolean).length,0);
+  const v=startVar();
   const revealEl=document.getElementById('transReveal');
-  revealEl.innerHTML='<p><strong>Signal → warten → nummerieren → Kante.</strong> Die reinen Anweisungs-Schritte dieses Übergangs kommen zusammen auf '+totalWords+' Wörter – kurz genug, dass niemand aussteigt, bevor der letzte Schritt fällt.</p>';
+  revealEl.innerHTML='<p><strong>Signal → warten → nummerieren → abgrenzen.</strong> Die reinen Anweisungs-Schritte dieses Übergangs kommen zusammen auf '+totalWords+' Wörter – kurz genug, dass niemand aussteigt, bevor der letzte Schritt fällt.</p>'
+    +'<p style="margin-top:.6rem"><strong>Deine Variante: '+v.label+'.</strong> '+v.note+'</p>'
+    +(v.pre?'<p style="margin-top:.6rem" class="hint">So klingt der ganze Übergang: '+v.pre+' … [die drei Schritte] … '+v.text+'</p>':'');
   revealEl.classList.add('on');
 });
 document.getElementById('transResetBtn').addEventListener('click',()=>{
@@ -1099,6 +1154,8 @@ function renderSigPreview(){
   if(state.sigCfu1)parts.push('CFU 1: '+state.sigCfu1);
   if(state.sigCfu2)parts.push('CFU 2: '+state.sigCfu2);
   if(state.sigProbe)parts.push('Probe: '+state.sigProbe);
+  if(state.sigStart)parts.push('Startsignal: '+state.sigStart);
+  if(state.sigEnde)parts.push('Endsignal: '+state.sigEnde);
   document.getElementById('sigPreview').textContent=parts.length?parts.join(' — '):'Noch keine Eingaben.';
 }
 
@@ -1172,10 +1229,11 @@ function bindStores(){
     if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
     else{
       el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
       el.addEventListener('input',()=>{
         state[k]=el.value;scheduleSave();renderSummary();
         if(k==='name')setSharedName(el.value);
-        if(['sigGeste','sigErwartung','sigBegruendung','sigCfu1','sigCfu2','sigProbe'].includes(k))renderSigPreview();
+        if(['sigGeste','sigErwartung','sigBegruendung','sigCfu1','sigCfu2','sigProbe','sigStart','sigEnde'].includes(k))renderSigPreview();
         if(['talkMo','talkDi','talkMi','talkDo','talkFr'].includes(k))renderWeekChart();
       });
     }
@@ -1233,7 +1291,7 @@ function summaryText(){
   [1,2,3,4,5].forEach(n=>{t+='Rewrite '+n+': '+(state['rewrite'+n]||'–')+'\n';});
   t+='\n— ÜBERGANGS-TRAINER —\n'+TRANS_ORDER.filter(k=>state.transState[k].revealed).length+' von '+TRANS_ORDER.length+' Szenarien geprüft\n';
   t+='\n— SZENARIO-SIMULATOR —\n'+scenarioScore()+' von '+SCENARIOS.length+' tragfähig gewählt\n';
-  t+='\n— SKRIPT-EDITOR: SIGNAL-EINFÜHRUNG —\nSignal: '+(state.sigGeste||'–')+'\nErwartung: '+(state.sigErwartung||'–')+'\nBegründung: '+(state.sigBegruendung||'–')+'\nCFU 1: '+(state.sigCfu1||'–')+'\nCFU 2: '+(state.sigCfu2||'–')+'\nProbe-Ansage: '+(state.sigProbe||'–')+'\nProbe gesprochen: '+(state.sigProbeDone?'ja':'nein')+'\n';
+  t+='\n— SKRIPT-EDITOR: SIGNAL-EINFÜHRUNG —\nSignal: '+(state.sigGeste||'–')+'\nErwartung: '+(state.sigErwartung||'–')+'\nBegründung: '+(state.sigBegruendung||'–')+'\nCFU 1: '+(state.sigCfu1||'–')+'\nCFU 2: '+(state.sigCfu2||'–')+'\nProbe-Ansage: '+(state.sigProbe||'–')+'\nStartsignal: '+(state.sigStart||'–')+'\nEndsignal: '+(state.sigEnde||'–')+'\nProbe gesprochen: '+(state.sigProbeDone?'ja':'nein')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer Übergang: '+(state.transferAnswer||'–')+'\nTransfer Signal-Entwertung: '+(state.transferAnswer2||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\n';
@@ -1266,6 +1324,8 @@ function buildPrint(){
   h+=f('4 CFU-Frage 1:',state.sigCfu1);
   h+=f('5 CFU-Frage 2:',state.sigCfu2);
   h+=f('6 Probe-Ansage:',state.sigProbe);
+  h+=f('7 Startsignal für Arbeitsphasen:',state.sigStart);
+  h+=f('8 Endsignal für Arbeitsphasen:',state.sigEnde);
   h+=f('Probe gesprochen:',state.sigProbeDone?'ja':'nein');
   h+='<div class="pagebreak"></div><h2>Anweisungs-Prüfmaschine · Rewrite-Sprint</h2>';
   REWRITE_ITEMS.forEach((r,i)=>{h+=f('Vage: '+r.vague,state['rewrite'+(i+1)]);});
@@ -1295,7 +1355,7 @@ function downloadStateFile(){
 }
 function refreshAllUI(){
   bindStores();renderDiff();renderPrinciples();renderSort();refreshEngineMain();renderRewrites();
-  renderTransTabs();renderTransOrder();renderScenarios();renderSigModel();renderSigPreview();
+  renderTransTabs();renderStartVarTabs();renderTransOrder();renderScenarios();renderSigModel();renderSigPreview();
   renderQuiz();renderSteps();updateCommitLabel();renderWeekChart();renderSummary();
   if(state.diffRevealed)document.getElementById('diffReveal').classList.add('on');
   if(state.transferShown)document.getElementById('transferNote').classList.add('on');
@@ -1338,7 +1398,7 @@ function showToast(msg){
   renderSort();
   refreshEngineMain();
   renderRewrites();
-  renderTransTabs();
+  renderTransTabs();renderStartVarTabs();
   renderTransOrder();
   renderScenarios();
   renderSigModel();

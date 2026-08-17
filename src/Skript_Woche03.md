@@ -9,8 +9,8 @@
 |---|---|
 | **Leitfrage** | Wie bekomme ich 30 Menschen in fünf Sekunden still, wie gebe ich Anweisungen, die wirklich ankommen – und wie bringe ich die Klasse ohne Zeitverlust von A nach B? |
 | **Kernquellen** | Lovell/Dowley, Routine 4 (Gaining attention) und Routine 5 (Transitions); Lemov T52 (What to Do), T28 (Brighten the Lines), T51 (Do It Again); Sprachökonomie (Lovell/Lemov) |
-| **Funktion im Jahr** | Zweites Kernwerkzeug der Klassenführung. Das Aufmerksamkeitssignal wird zur Voraussetzung fast aller späteren Techniken (Turn-and-Talk-Endsignal W23, Whiteboard-Routine W24). Der What-to-Do-Standard nutzt direkt das „vage→spezifisch"-Handwerk aus W1. Der Übergang ist hier kein neues Thema, sondern der **Anwendungsfall** von nummerierter Anweisung + scharfen Kanten – deshalb steht er hier und nicht in einem eigenen Modul. |
-| **Lernziele** | Die TN können:<br>1. ein Aufmerksamkeitssignal regelkonform etablieren und durchhalten (Signal → Warten → 100 % → sprechen),<br>2. Arbeitsanweisungen nach dem Vierercheck formulieren (konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt),<br>3. Arbeitsphasen mit scharfen Start-/Endsignalen rahmen,<br>4. einen Übergang als nummerierte Mini-Routine führen und bei Zerfasern mit Do It Again neutral zurücksetzen. |
+| **Funktion im Jahr** | Zweites Kernwerkzeug der Klassenführung. Das Aufmerksamkeitssignal wird zur Voraussetzung fast aller späteren Techniken (Turn-and-Talk-Endsignal W23, Whiteboard-Routine W24). Der What-to-Do-Standard nutzt direkt das „vage→spezifisch"-Handwerk aus W1. Der Übergang ist hier kein neues Thema, sondern der **Anwendungsfall** von nummerierter Anweisung + klarer Abgrenzung – deshalb steht er hier und nicht in einem eigenen Modul. |
+| **Lernziele** | Die TN können:<br>1. ein Aufmerksamkeitssignal regelkonform etablieren und durchhalten (Signal → Warten → 100 % → sprechen),<br>2. Arbeitsanweisungen nach dem Vierercheck formulieren (konkret, sequenziell, beobachtbar, ≤ 12 Wörter/Schritt),<br>3. Arbeitsphasen klar abgrenzen – mit eindeutigem Start- und Endsignal (zwei Varianten: Countdown oder Ankündigungs-Start),<br>4. einen Übergang als nummerierte Mini-Routine führen und bei Zerfasern mit Do It Again neutral zurücksetzen. |
 | **Sitzungstyp** | Technik-Training: Schreiben (Rewrite-Sprint) + Rollenspiel (Signal-Ernstfall, zweite Runde als Übergang). |
 
 ---
@@ -44,31 +44,42 @@ Moderation spielt mit 6 TN als murmelnder „Gruppenarbeits-Klasse":
 
 **Variante A (schwach):** Moderation ruft in die laufende Unruhe hinein: „So, Leute, hört mal – HALLO – ich brauch mal kurz eure Aufmerksamkeit, also, wir machen jetzt Folgendes, ihr packt gleich mal die Sachen von der Gruppenarbeit weg, also nicht alles, die Zettel braucht ihr noch, und dann schlagt ihr das Buch auf, ich glaube Seite 34, nein 36, und guckt euch schon mal die Aufgabe an, aber erst wenn…" – wird dabei lauter, läuft herum, die Hälfte hört gar nicht hin.
 
-**Variante B (stark):** Moderation geht zum festen Punkt, gibt das Signal (z. B. erhobene Hand + *„Stopp – Blick zu mir."*), steht still, wartet schweigend. 5 Sekunden. Als alle schauen: *„Danke. Drei Schritte:"* [Pause] *„Erstens: Gruppenzettel in die Mitte."* [Pause, Blick] *„Zweitens: Buch auf, Seite 36."* [Pause] *„Drittens: Aufgabe 2 lesen – noch nicht lösen. Los."*
+**Variante B (stark):** Moderation geht zum festen Punkt, gibt das Signal (z. B. erhobene Hand + *„Stopp – Blick zu mir."*), steht still, wartet schweigend. 5 Sekunden. Als alle schauen: *„Danke. Drei Schritte – losgelegt wird erst, wenn ich ‚Los' sage:"* [Pause] *„Erstens: Gruppenzettel in die Mitte."* [Pause, Blick] *„Zweitens: Buch auf, Seite 36."* [Pause] *„Drittens: Aufgabe 2 lesen – noch nicht lösen."* [Pause, Scan] *„Los."*
 
-> **Auswertung (3 Min.):** *„Handlungen, keine Eindrücke – was war anders?"* [Sammeln: stand still / wartete / sprach erst bei 100 % / nummerierte / kurze Sätze / Pausen / Endsignal „Los".]
+> **Auswertung (3 Min.):** *„Handlungen, keine Eindrücke – was war anders?"* [Sammeln: stand still / wartete / sprach erst bei 100 % / nummerierte / kurze Sätze / Pausen / kündigte das Startwort VOR den Schritten an / Startsignal „Los".]
 
 ### 3b · Die Prinzipien (Min. 18–24)
 > *„Erstens: **Nie gegen Unruhe sprechen.** Die Reihenfolge ist unverhandelbar: Signal → warten → 100 % Blick → DANN sprechen. Warum das so ist, habt ihr eben im Quiz selbst beantwortet – es ist Schritt 3 eurer Begrüßungsroutine, nur mitten in der Stunde. Ich sage dazu heute nichts Neues; ich fordere es nur ein.*
 > *Zweitens: **What to Do.** ‚Passt auf!' ist keine Anweisung – es ist ein Wunsch. Eine Anweisung sagt, was zu TUN ist: konkret, in Reihenfolge, beobachtbar. ‚Konzentriert euch' kann ich nicht sehen. ‚Stift weg, Blick zu mir' kann ich sehen – und einfordern. Ihr erkennt das Handwerk wieder: Es ist eure Erwartungs-Umformulierung aus Woche 1, nur im Sekundentakt.*
 > *Drittens: **Sprachökonomie.** Jedes zusätzliche Wort verdünnt das Signal. Faustregel: höchstens zwölf Wörter pro Schritt – und nach der Anweisung: Stopp. Nicht nachplätschern, nicht dreimal umformulieren. Wer nachplätschert, lehrt die Klasse, dass die erste Version nie zählt.*
-> *Viertens: **Brighten the Lines.** Arbeitsphasen brauchen scharfe Kanten: ein klares Startsignal – ‚In drei, zwei, eins: los' – und ein klares Endsignal. Unscharfe Kanten fransen aus: Wer nicht weiß, wann es losgeht, startet nie richtig; wer nicht weiß, wann Schluss ist, hört mittendrin auf."*
+> *Viertens: **Brighten the Lines – klare Abgrenzung.** Eine Arbeitsphase braucht einen erkennbaren Anfang und ein erkennbares Ende. Sie muss sich hörbar von dem abgrenzen, was davor und danach passiert. Fehlt diese Abgrenzung, franst die Phase an beiden Enden aus: Wer nicht weiß, wann es losgeht, startet nie richtig; wer nicht weiß, wann Schluss ist, hört mittendrin auf.*
+> *Für das Startsignal habt ihr zwei Varianten – nehmt die, die zu euch und zur Lerngruppe passt:*
+> *• **Countdown:** ‚In drei, zwei, eins: los.' Hörbar, gemeinsam, alle starten in derselben Sekunde. Stark in Sek I, kann in Sek II albern wirken.*
+> *• **Ankündigungs-Start:** Ihr sagt VOR den Schritten, woran der Start erkennbar ist – ‚Losgelegt wird erst, wenn ich ‚Los' sage' – nennt dann die Schritte und setzt am Ende das eine Wort: ‚Los.' Der Vorteil ist größer, als er klingt: Ohne Ankündigung starten die Schnellen schon bei Schritt eins und hören Schritt drei nie. Mit Ankündigung hört die ganze Klasse die Anweisung zu Ende. Und das Ganze funktioniert in jeder Jahrgangsstufe – ein Oberstufenkurs, der auf ‚Los' wartet, wirkt professionell; ein Oberstufenkurs, der heruntergezählt wird, fühlt sich behandelt wie Klasse 5.*
+> *Das Ende braucht dieselbe Schärfe: eine Vorwarnung (‚Noch zwei Minuten'), dann euer Aufmerksamkeitssignal – nicht ein Verklingenlassen."*
 
 ### 3c · Die Einführung des Signals (Min. 24–26)
 > *„Ein Signal, das ihr nie eingeführt habt, ist keins. Die Einführung ist eine Erwartungs-Einführung nach Woche-1-Bauplan: Signal zeigen, Erwartung spezifisch benennen (‚Wenn ihr das seht/hört: Gespräche enden, Stifte liegen, Blick zu mir – innerhalb von fünf Sekunden'), begründen (ein Satz), per CFU prüfen (‚Merve, was tust du beim Signal?') – und dann: einmal PROBEN. Ja, üben, mitten in der Stunde, dreißig Sekunden. Danach gilt es."*
 
 ### 3d · Der Übergang – alles von eben, nur schneller (Min. 26–28)
 > *„Und jetzt gebe ich euch keine neue Technik, sondern einen Namen für etwas, das ihr in den letzten zehn Minuten schon gelernt habt. Jeder Wechsel mitten in der Stunde – Buch raus, Gruppen bilden, aufräumen – heißt **Übergang**, und er scheitert aus genau einem Grund: Er wird als EIN Auftrag gegeben statt als Schrittfolge. ‚Macht euch für die Gruppenarbeit fertig' sind vier Aufträge in einem Nebel.*
-> *Ein Übergang ist deshalb nichts anderes als: Signal → warten → nummerierte What-to-Do-Anweisung → scharfe Kante. Genau die vier Dinge von eben. ‚Erstens: Blätter nach links. Zweitens: Bücher raus. Drittens: Seite 40. – In drei, zwei, eins: los.'*
+> *Ein Übergang ist deshalb nichts anderes als: Signal → warten → nummerierte What-to-Do-Anweisung → klare Abgrenzung. Genau die vier Dinge von eben. ‚Drei Schritte, gestartet wird auf mein Los: Erstens: Blätter nach links. Zweitens: Bücher raus. Drittens: Seite 40. – Los.'*
 > *Und wenn er zerfasert? **Do It Again**, ihr kennt es von der Begrüßungsroutine: ruhig, ohne Vorwurf – ‚Das können wir flüssiger. Noch einmal.' Ein Reset klingt wie ein Trainer, der weiß, dass die Mannschaft es kann. Übergänge sind übrigens die stillste Zeitquelle des Schultags: Wer sechs Übergänge pro Tag um je 40 Sekunden verkürzt, gewinnt eine Unterrichtsstunde pro Woche."*
 
 ## Phase 4 · Name it (Minute 28–33)
 
-An der Tafel: **Signal-Standard:** Signal → schweigend warten → 100 % → sprechen. (Niemals: Signal + sofort losreden.) **Anweisungs-Vierercheck:** konkret? · sequenziell (nummeriert)? · beobachtbar? · ≤ 12 Wörter pro Schritt? Plus **Kanten-Regel:** Start- und Endsignal für jede Arbeitsphase.
+An der Tafel: **Signal-Standard:** Signal → schweigend warten → 100 % → sprechen. (Niemals: Signal + sofort losreden.) **Anweisungs-Vierercheck:** konkret? · sequenziell (nummeriert)? · beobachtbar? · ≤ 12 Wörter pro Schritt? Plus **Abgrenzungs-Regel:** Jede Arbeitsphase hat ein eindeutiges Startsignal und ein eindeutiges Endsignal – sie grenzt sich hörbar ab von dem, was davor und danach kommt.
 
-**Übergangs-Formel** (an dieselbe Tafelhälfte, weil es dieselben Bausteine sind): *Signal → warten → nummerieren → Kante → (bei Zerfasern) Do It Again.*
+**Zwei Startsignale zur Auswahl** (beide an die Tafel, TN wählen eines und bleiben dabei):
 
-Merksatz: *„Erst still, dann kurz, dann Stopp."* — für Übergänge: *„Nummeriere, was du sonst zeigst."*
+| | Wortlaut | Passt besonders |
+|---|---|---|
+| **Countdown** | „In drei, zwei, eins: los." | Sek I, kurze Wechsel, große Gruppen |
+| **Ankündigungs-Start** | „Gestartet wird erst auf mein ‚Los'." … [Schritte] … „Los." | Sek II, mehrschrittige Anweisungen, unruhige Klassen |
+
+**Übergangs-Formel** (an dieselbe Tafelhälfte, weil es dieselben Bausteine sind): *Signal → warten → nummerieren → abgrenzen → (bei Zerfasern) Do It Again.*
+
+Merksatz: *„Erst still, dann kurz, dann Stopp."* — für Übergänge: *„Nummeriere, was du sonst zeigst."* — für die Abgrenzung: *„Kein Start ohne Startwort, kein Ende ohne Signal."*
 
 ## Phase 5 · Do it (Minute 33–52)
 
@@ -80,9 +91,9 @@ Vierergruppen auf der Spielfläche: Jeder
 
 1. spricht seine Signal-EINFÜHRUNG (Handout B, 60 Sek.),
 2. setzt das Signal in laufender „Gruppenarbeit" ein – Regie zieht eine Störkarte B –,
-3. und hängt **direkt einen Übergang an**: die Regie nennt das Ziel („in Partnerarbeit an Aufgabe 4" / „Material weg, Buch auf" / „Stuhlkreis"), die Lehrkraft nummeriert live und setzt die Kante.
+3. und hängt **direkt einen Übergang an**: die Regie nennt das Ziel („in Partnerarbeit an Aufgabe 4" / „Material weg, Buch auf" / „Stuhlkreis"), die Lehrkraft nummeriert live und grenzt die Phase klar ab (Startsignal-Variante vorher ansagen: Countdown oder Ankündigungs-Start).
 
-Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/Schritt? War der Übergang nummeriert und mit Kante versehen – oder ein Nebelauftrag? 2. Kurzdurchlauf der schwächsten Stelle. (Zeitwächter je Gruppe: 2,5 Min. pro Person inkl. Feedback.)
+Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/Schritt? War der Übergang nummeriert und klar abgegrenzt (erkennbares Startwort) – oder ein Nebelauftrag? 2. Kurzdurchlauf der schwächsten Stelle. (Zeitwächter je Gruppe: 2,5 Min. pro Person inkl. Feedback.)
 
 *Bei zerfasertem Durchgang: Die Regie fordert einmal ausdrücklich ein Do It Again ein – der neutrale Ton ist hier das eigentliche Übungsziel.*
 
@@ -93,7 +104,7 @@ Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/
 **Alternativen:**
 
 1. Wörter-Diät: eine Woche jede Arbeitsanweisung vorher notieren und auf ≤ 12 Wörter/Schritt kürzen;
-2. Kanten-Woche: jede Arbeitsphase mit „3-2-1-los" starten und mit Signal beenden;
+2. Abgrenzungs-Woche: jede Arbeitsphase mit demselben Startsignal starten – entweder „In 3, 2, 1: los" oder der Ankündigungs-Start „Gestartet wird auf mein ‚Los'" – und jede mit dem Aufmerksamkeitssignal beenden (eine Variante wählen, eine Woche nicht wechseln);
 3. Übergangs-Woche: den immer gleichen Problem-Übergang einer Klasse nummerieren, eine Woche identisch durchführen, bei Zerfasern einmal Do It Again – und die Sekunden mitstoppen.
 
 > **Ausblick:** *„Nächste Woche geht es um euch selbst: Körper, Stimme, Ruhe – wie ihr souverän WIRKT, auch wenn ihr es noch nicht durchgehend seid. Spoiler: Es ist trainierbar wie alles andere."*
@@ -106,7 +117,7 @@ Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/
 
 - **Hospitationsfokus:** Signal-Einsätze (alle in der Stunde) + eine Arbeitsanweisung wörtlich protokollieren + **einen Übergang stoppen** (Sekunden von der Ansage bis zum Arbeitsbeginn aller).
 - **Zählprotokoll:** Pro Signal: Sekunden bis 100 %? Wurde in Unruhe gesprochen (ja/nein)? Wörter der protokollierten Anweisung zählen, Vierercheck anlegen.
-- **Auswertungsgespräch:** Protokoll zeigen; typischste Baustelle: Signal + sofort losreden → Action Step: „Nach dem Signal zähle ich innerlich bis drei, BEVOR ich spreche" – 3× im Gespräch durchspielen.
+- **Auswertungsgespräch:** Protokoll zeigen; typischste Baustelle: Signal + sofort losreden → Action Step in zwei Varianten (TN wählt eine): (a) *„Nach dem Signal zähle ich innerlich bis drei, BEVOR ich spreche."* (b) *„Nach dem Signal wandert mein Blick einmal durch den ganzen Raum – von links hinten nach rechts hinten. Erst wenn der Blick angekommen ist, spreche ich."* Variante (b) ist für viele leichter, weil sie an eine sichtbare Handlung gekoppelt ist statt an eine Zahl – und sie liefert nebenbei den Scan. – 3× im Gespräch durchspielen.
 - **Querverbindung:** TN mit weiter zähem Stundenstart → W2- und W3-Werkzeuge im Coaching verzahnen (der Starter-Satz IST eine What-to-Do-Anweisung).
 
 ---
@@ -129,7 +140,7 @@ Feedback-Fokus: Wurde geschwiegen bis 100 %? Blieb die Anweisung ≤ 12 Wörter/
 
 **Sek-II-Tonlage (Beispielsatz):** *„Ich unterbreche Arbeitsphasen mit diesem Zeichen statt mit Rufen – aus demselben Grund, aus dem in jeder Konferenz jemand den Raum sammelt: Es respektiert Ihre Zeit."*
 
-**Blanko-Felder:** Mein Signal (Geste/Wortlaut): … · Erwartung in 3 Handlungen: … · Begründungssatz: … · Meine 2 CFU-Fragen: … · Probe-Ansage: …
+**Blanko-Felder:** Mein Signal (Geste/Wortlaut): … · Erwartung in 3 Handlungen: … · Begründungssatz: … · Meine 2 CFU-Fragen: … · Probe-Ansage: … · **Mein Startsignal für Arbeitsphasen** (eine Variante ankreuzen und dabei bleiben): ☐ Countdown „In 3, 2, 1: los" ☐ Ankündigungs-Start „Gestartet wird auf mein ‚Los'" · **Mein Endsignal:** …
 
 ## 1.3 Störkarten-Set B (Regieanweisungen)
 
@@ -167,11 +178,17 @@ b) stoppen und die Umsetzung beobachten ✓
 c) leise weitersprechen ✗
 d) sofort Einzelnen helfen ✗
 
-**F4.** „In 3, 2, 1 – los" dient dazu, …
+**F4.** „In 3, 2, 1 – los" bzw. „Gestartet wird auf mein ‚Los'" dient dazu, …
 a) Druck aufzubauen ✗
-b) die Kante der Arbeitsphase zu schärfen (Brighten the Lines) ✓
+b) die Arbeitsphase klar abzugrenzen – erkennbarer Anfang (Brighten the Lines) ✓
 c) Zeit zu schinden ✗
-d) jüngere SuS zu motivieren ✗ *(Alters-Distraktor)*
+d) jüngere SuS zu motivieren ✗ *(Alters-Distraktor – der Ankündigungs-Start funktioniert gerade in Sek II)*
+
+**F4b.** Warum kündigt man das Startwort VOR den Schritten an („Gestartet wird auf mein ‚Los'")?
+a) Es klingt freundlicher ✗
+b) Sonst starten die Schnellen schon bei Schritt eins und hören Schritt drei nie ✓
+c) Es spart Wörter ✗
+d) Es ersetzt das Aufmerksamkeitssignal ✗ *(Verwechslung Start- vs. Sammelsignal)*
 
 **F5.** Dein Signal funktioniert nach zwei Wochen schlechter. Wahrscheinlichste Ursache:
 a) Das Signal war falsch gewählt ✗
@@ -185,7 +202,7 @@ b) ein neutraler Reset: Standard einüben + Zutrauen zeigen ✓
 c) Zeitverschwendung ✗
 d) nur in Klasse 5–7 einsetzbar ✗
 
-**F7 (Transfer, Freitext):** Schreibe die Umbau-Anweisung „Macht euch mal fertig für den Film und kommt nach vorn" als nummerierte What-to-Do-Sequenz mit Start-Signal. *(Muster: „Erstens: Stifte weg, Hefte zu. Zweitens: Stuhl leise nach vorn tragen. Drittens: hinsetzen, Blick zur Leinwand. – In 3, 2, 1: los.")*
+**F7 (Transfer, Freitext):** Schreibe die Umbau-Anweisung „Macht euch mal fertig für den Film und kommt nach vorn" als nummerierte What-to-Do-Sequenz mit Start-Signal. *(Muster A – Countdown: „Erstens: Stifte weg, Hefte zu. Zweitens: Stuhl leise nach vorn tragen. Drittens: hinsetzen, Blick zur Leinwand. – In 3, 2, 1: los." · Muster B – Ankündigungs-Start: „Drei Schritte, angefangen wird auf mein ‚Los'. Erstens: … Zweitens: … Drittens: … – Los.")*
 
 ---
 
@@ -195,7 +212,7 @@ d) nur in Klasse 5–7 einsetzbar ✗
 2. **See it (5 Min.):** Video/Illustration der Doppel-Demo; Tipp-Aufgabe: die 4 Prinzipien in der starken Version wiederfinden.
 3. **Name it (3 Min.):** Vierercheck + Signal-Standard als Merkkarten; Mini-Sortierung: 6 Anweisungen → besteht/besteht nicht + welcher Verstoß.
 4. **Do it – Anweisungs-Prüfmaschine (7 Min., Engine!):** Anweisung eintippen → automatische Analyse: Wortzahl pro Schritt, Verb-Check (Handlung?), Negativ-Formulierung-Alarm, Nummerierung erkannt? → iterativ verbessern. Rewrite-Aufgaben aus Anhang 1.1 als Level mit Musterlösungs-Vergleich.
-5. **Übergangs-Trainer (3 Min.):** Zielzustand wählen („Gruppenarbeit", „Film", „Aufräumen") → Schritte in die richtige Reihenfolge ziehen, Kante setzen; App misst die Wortzahl.
+5. **Übergangs-Trainer (3 Min.):** Zielzustand wählen („Gruppenarbeit", „Film", „Aufräumen") → Schritte in die richtige Reihenfolge ziehen, Abgrenzung setzen (Startsignal-Variante wählbar: Countdown oder Ankündigungs-Start); App misst die Wortzahl.
 6. **Szenario-Simulator (4 Min.):** Störkarten B1–B3 als Entscheidungsbäume („Signal gegeben, zwei reden weiter → a) lauter b) warten c) Namen rufen" → Konsequenz-Feedback mit Normen-Erklärung).
 7. **Skript-Editor:** Signal-Einführung (Handout-B-Felder) verfassen → Playbook-Export; Sek-I/Sek-II-Tonlagen-Beispiele einblendbar.
 8. **Quiz (Teil 2)** + 30 % Altfragen (Module 1–3); F5 ist der wichtigste Langzeit-Anker (Signal-Entwertung). **Abschluss:** Action-Step-Formular mit Selbstzähl-Feld („Wie oft habe ich diese Woche in Unruhe gesprochen?" – ehrliche Strichliste).

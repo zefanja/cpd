@@ -175,14 +175,14 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Leitfrage:** Wie bekomme ich 30 Menschen in 5 Sekunden still, wie gebe ich Anweisungen, die wirklich ankommen – und wie bringe ich die Klasse ohne Zeitverlust von A nach B?
 
-**Lernziele:** Die TN können ein Aufmerksamkeitssignal etablieren, Arbeitsanweisungen nach dem „What to Do"-Standard formulieren und einen Übergang als nummerierte Mini-Routine mit scharfen Kanten führen.
+**Lernziele:** Die TN können ein Aufmerksamkeitssignal etablieren, Arbeitsanweisungen nach dem „What to Do"-Standard formulieren und einen Übergang als nummerierte Mini-Routine mit klarer Abgrenzung führen.
 
 **Kernideen:**
 1. **Gaining Attention (Lovell, Routine 4):** Festes Signal → 100 % Blickkontakt abwarten → erst dann sprechen. Nie gegen Unruhe anreden.
 2. **What to Do (Lemov T52):** Anweisungen müssen **konkret, sequenziell, beobachtbar und knapp** sein. „Passt auf!" ist keine Anweisung; „Stift weg, Blick zu mir" ist eine.
-3. **Brighten the Lines (Lemov T28):** Anfang und Ende von Arbeitsphasen scharf markieren („In 3, 2, 1 … los"), damit Übergänge nicht ausfransen.
+3. **Brighten the Lines (Lemov T28) – klare Abgrenzung:** Anfang und Ende von Arbeitsphasen eindeutig markieren, damit Phasen nicht ausfransen. Zwei gleichwertige Startsignale: Countdown („In 3, 2, 1 … los", stark in Sek I) oder Ankündigungs-Start („Gestartet wird erst, wenn ich ‚Los‘ sage" – das Startwort steht VOR den Schritten, damit die Schnellen nicht bei Schritt eins losstarten und Schritt drei nie hören; funktioniert auch in Sek II).
 4. **Ökonomie der Sprache:** Je weniger Worte, desto klarer das Signal (Lovell/Lemov: economy of language). Anweisung geben → stoppen → nicht nachplätschern.
-5. **Tight Transitions (Lovell R5) als Anwendungsfall, nicht als neues Thema:** Ein Übergang ist genau die Kette Signal → warten → nummerierte What-to-Do-Anweisung → Kante. Er scheitert, wenn er als EIN Auftrag statt als Schrittfolge gegeben wird („Macht euch fertig für die Gruppenarbeit"). Bei Zerfasern: Do It Again (Lemov T51), neutraler Ton.
+5. **Tight Transitions (Lovell R5) als Anwendungsfall, nicht als neues Thema:** Ein Übergang ist genau die Kette Signal → warten → nummerierte What-to-Do-Anweisung → klare Abgrenzung. Er scheitert, wenn er als EIN Auftrag statt als Schrittfolge gegeben wird („Macht euch fertig für die Gruppenarbeit"). Bei Zerfasern: Do It Again (Lemov T51), neutraler Ton.
 
 **Typische Fehlvorstellungen:** „Lauter werden hilft" (Gegenteil: leiser + warten wirkt stärker); „Höflichkeit erfordert lange Sätze" (Kürze ist nicht Unfreundlichkeit).
 
@@ -190,7 +190,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Action Step:** „Ich etabliere ein Aufmerksamkeitssignal in Klasse X, erkläre und übe es am Montag – und ich spreche erst, wenn alle Stifte liegen."
 
-**SPA-Bausteine:** Anweisungs-Prüfmaschine (Text eingeben → Analyse: beobachtbar? sequenziell? ≤ 12 Wörter?); Übergangs-Trainer (Zielzustand wählen → Schritte ordnen → Kante setzen, Wortzahl-Messung); Audio-Beispiele mit Stimm-Kontrast; Entscheidungsbaum „Signal gegeben, 5 SuS reden weiter – was jetzt?".
+**SPA-Bausteine:** Anweisungs-Prüfmaschine (Text eingeben → Analyse: beobachtbar? sequenziell? ≤ 12 Wörter?); Übergangs-Trainer (Zielzustand wählen → Schritte ordnen → Abgrenzung setzen, Startsignal-Variante wählbar, Wortzahl-Messung); Audio-Beispiele mit Stimm-Kontrast; Entscheidungsbaum „Signal gegeben, 5 SuS reden weiter – was jetzt?".
 
 ---
 

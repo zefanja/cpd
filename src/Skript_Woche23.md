@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %? |
 | **Kernquellen** | Lemov T43 (Turn and Talk), T38 (Everybody Writes); Ratio-Konzept (W21) |
-| **Funktion im Jahr** | Skaliert die Einzeltechniken (W21/22) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (W24). Die enge Zeitführung nutzt das komplette W2/W3-Handwerk (Signale, Kanten, Timer). |
+| **Funktion im Jahr** | Skaliert die Einzeltechniken (W21/22) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (W24). Die enge Zeitführung nutzt das komplette W2/W3-Handwerk (Signale, klare Abgrenzung, Timer). |
 | **Lernziele** | Die TN können:<br>1. beide Ratio-Regler benennen und Formate danach auswählen,<br>2. ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte),<br>3. Schreiben als Denkzeit vor Diskussionen einsetzen,<br>4. die vier häufigsten Format-Bugs erkennen und beheben. |
 | **Sitzungstyp** | Selbsterleben + Choreografie-Drill mit Stoppuhr – die Sitzung praktiziert durchgehend, was sie lehrt. |
 
@@ -76,7 +76,7 @@ Tandems ziehen 2 Bug-Karten (Anhang 1.2): Bug benennen + Reparatur in einem Satz
 Einzelarbeit: 2 eigene Diskussionsanlässe der kommenden Woche in präzise Prompts fassen; Tandem-Prüfkarte. Standard-Intervention der Moderation: *„Kann man deine Frage mit ‚ja' erledigen? Dann baue eine Entscheidung ein: einigt euch / wählt / ordnet."*
 
 ### Runde 3 · Choreografie-Drill (Min. 44–52)
-Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W3-Kanten!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
+Vierergruppen: Jeder dirigiert die VOLLE Sequenz mit den anderen als Klasse (eigener Prompt aus Runde 2!): Write-Ansage mit Zeit → Timer → Endsignal → Talk-Ansage mit Zeit → kreisen & lauschen → Endsignal → Ernte mit Partnerfrage. **Stoppuhr-Wächter** protokolliert die realen Zeiten (Drill-Bogen). Feedback-Fokus: Signalschärfe (W3-Abgrenzung!) + Ernte-Verbindlichkeit; die schwächste Stelle wird 30 Sekunden nachgespielt.
 
 ## Phase 6 · Action Step (Minute 52–58)
 

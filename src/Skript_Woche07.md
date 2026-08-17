@@ -124,7 +124,7 @@ Erweitert:
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Erweiterter Retrieval-Starter Block 1 (8 Fragen)
-1. Die 6 Leiterstufen in Reihenfolge? 2. Umformulierungs-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + Kante; bei Zerfasern Do It Again)*
+1. Die 6 Leiterstufen in Reihenfolge? 2. Umformulierungs-Formel + Ironie-Regel? *(„Ich sehe… – ich will…"; Ironie = Abhebung)* 3. Die 7 Schritte der Begrüßungsroutine? 4. Vierercheck für Anweisungen? 5. Lob-Dreiklang + Unterschied Anerkennung/Lob? 6. Die 4 Präsenz-Stellschrauben? 7. Was prüft Behavioural CFU? 8. (Anwendung) Die Klasse trödelt beim Materialwechsel – nenne ZWEI Werkzeuge und ihre Reihenfolge. *(nummerierte Schrittfolge + klare Abgrenzung; bei Zerfasern Do It Again)*
 
 ## Teil 2: Modul-Quiz Woche 7 (für SPA/Folgewoche)
 **F1.** Ein W.I.N.-Gespräch dauert idealerweise…
@@ -179,6 +179,6 @@ d) nur bei kleinen Vorfällen sinnvoll ✗
 2. **See it (5 Min.):** Zwei kontrastierende Nachgespräch-Audios (Predigt vs. W.I.N.) – Aufgabe: die 3 Schritte im guten Beispiel identifizieren, im schlechten die Anklage-Eröffnung markieren.
 3. **Name it (3 Min.):** W.I.N.-Karte digital + ✓/✗-Spiel mit 6 Gesprächseröffnungen.
 4. **Do it – W.I.N.-Simulator (9 Min., Engine-Highlight!):** Verzweigter Dialog mit den drei Rollenkarten-Profilen (KI-generierte Schülerantworten nach Regieanweisung); Feedback-Logik: belohnt offene W-Fragen, sachliches I, gemeinsames N; bestraft Zutexten, Moralkeule, vorschnelle Konsequenz-Ansage; „Vertagen" ist als würdiger Ausgang modelliert.
-5. **Übergangs-Baukasten:** eigenen Problem-Übergang eingeben → nummerierte Schrittfolge bauen → Kanten-Check; Ende-Checkliste (Puffer/Signal/Stehen/Reservefragen) als Wochenplan.
+5. **Übergangs-Baukasten:** eigenen Problem-Übergang eingeben → nummerierte Schrittfolge bauen → Abgrenzungs-Check (Start- und Endsignal gesetzt?); Ende-Checkliste (Puffer/Signal/Stehen/Reservefragen) als Wochenplan.
 6. **Meilenstein-Features:** Kompetenzmatrix-Wiederholung (Spinnennetz W0 vs. W7 wird erstmals sichtbar – der Motivations-Screen des Quartals!); Playbook-PDF-Export aller Skripte Module 2–8; Block-1-Abschlussquiz (20 Fragen kumulativ, Fragenpool aus allen Modul-Quizzen).
 7. **Abschluss:** Action-Step-Formular „Mein W.I.N. diese Woche" mit Vorbereitungsfeldern (W-Eröffnungsfrage wörtlich, mein I-Satz, mein N-Angebot) + Erinnerung.
