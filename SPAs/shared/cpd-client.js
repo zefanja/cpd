@@ -154,7 +154,15 @@
     window.location.protocol === "file:" ||
     /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
 
-  if (isLocalPreview) {
+  // Coach-Vorschau: ?preview=1 in der URL (Link aus dem Coach-Dashboard).
+  // Verhält sich wie die lokale Vorschau, funktioniert aber auf jeder Domain,
+  // ohne Login und ohne Kurszuordnung – damit ein Coach jedes Modul ansehen
+  // kann, ohne echte Teilnehmerdaten zu berühren.
+  var isCoachPreview = /(?:^|[?&])preview=1(?:&|$)/.test(
+    window.location.search
+  );
+
+  if (isLocalPreview || isCoachPreview) {
     var LOCAL_PREFIX = "cpd_local_progress_" + moduleKey + "_";
     window.storage = {
       async get(k) {

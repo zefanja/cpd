@@ -90,6 +90,14 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
 }
 .course-card input.courseNameEdit{font-weight:600;padding:.3rem .35rem;text-overflow:ellipsis}
 .course-card .badge{align-self:flex-start}
+.module-card{
+  border:1px solid var(--line);border-radius:10px;padding:.7rem .8rem;background:var(--bg);
+  display:flex;align-items:center;justify-content:space-between;gap:.6rem;
+  text-decoration:none;color:inherit;transition:border-color .15s;
+}
+.module-card:hover{border-color:var(--petrol)}
+.module-card .mod-name{font-weight:600;font-size:.88rem}
+.module-card .arrow{color:var(--muted)}
 .msg{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;margin-top:.8rem}
 .msg.error{background:#FBEAE7;color:#8a3220}
 .msg.hidden{display:none}
@@ -194,6 +202,12 @@ input.nameEdit:focus{border-color:var(--petrol);outline:none;background:var(--ca
       <div class="field"><label for="courseName">Neuer Kurs</label><input type="text" id="courseName" placeholder="z. B. Kohorte 2026" required></div>
       <button class="primary" type="submit">Anlegen</button>
     </form>
+  </section>
+
+  <section id="modulePreviewSection">
+    <h2>Module ansehen</h2>
+    <p class="muted" style="margin-bottom:1rem">Öffnet das Modul in einer Vorschau ohne Login – der Fortschritt wird dabei nicht gespeichert.</p>
+    <div id="modulePreviewGrid" class="course-grid"></div>
   </section>
 
   <section id="progressSection">
@@ -320,7 +334,7 @@ async function loadAll() {
   var [coursesRes, teachersRes, modulesRes, cmRes, progRes] = await Promise.all([
     client.from('courses').select('id,name').order('name'),
     client.from('teachers').select('id,name,login_code,course_id,active').order('name'),
-    client.from('modules').select('id,key,title,sort_order').order('sort_order'),
+    client.from('modules').select('id,key,title,file,sort_order').order('sort_order'),
     client.from('course_modules').select('course_id,module_id,visible'),
     client.from('progress').select('teacher_id,module_id,state,updated_at'),
   ]);
@@ -333,8 +347,18 @@ async function loadAll() {
   renderCourses();
   renderTeacherCourseSelect();
   renderTeachers();
+  renderModulePreviews();
   renderVisibilityMatrix();
   renderProgress();
+}
+
+/* ---------- Module ansehen ---------- */
+function renderModulePreviews() {
+  var grid = document.getElementById('modulePreviewGrid');
+  grid.innerHTML = db.modules.map(function (m) {
+    return '<a class="module-card" href="../' + encodeURIComponent(m.file) + '?preview=1" target="_blank" rel="noopener">' +
+      '<span class="mod-name">' + esc(m.title) + '</span><span class="arrow">Vorschau &rarr;</span></a>';
+  }).join('') || '<p class="muted">Noch keine Module.</p>';
 }
 
 /* ---------- Kurse ---------- */
