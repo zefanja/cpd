@@ -101,7 +101,7 @@ p+p{margin-top:.7rem}
 /* ---------- Kontrastpaar-Karten (Hook) ---------- */
 .riddle-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
 @media(min-width:700px){.riddle-grid{grid-template-columns:repeat(2,1fr)}}
-.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
+.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;cursor:pointer;text-align:left;font-family:var(--body);font-size:.96rem;color:var(--ink)}
 .riddle-card:hover{border-color:var(--petrol)}
 .riddle-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
 .riddle-card .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-bottom:.4rem;display:block}
@@ -134,7 +134,7 @@ p+p{margin-top:.7rem}
 /* ---------- Bibliothek (Umformulierungs-Trainer) ---------- */
 .lib-grid{display:grid;gap:.7rem;margin-top:1rem;grid-template-columns:1fr}
 @media(min-width:700px){.lib-grid{grid-template-columns:repeat(2,1fr)}}
-.lib-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:.85rem;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink)}
+.lib-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:.85rem;cursor:pointer;text-align:left;font-family:var(--body);font-size:.96rem;color:var(--ink)}
 .lib-card:hover{border-color:var(--petrol)}
 .lib-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
 .lib-card .stage-tag{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--petrol);font-weight:700}
@@ -335,7 +335,7 @@ input[type=number]{max-width:8rem}
       <li style="margin-top:.3rem"><strong>Beobachtbar</strong> – man kann sie sehen/hören.</li>
       <li style="margin-top:.4rem"><strong>Messbar</strong> – man kann Erfüllung feststellen: alle? in welcher Zeit?</li>
       <li style="margin-top:.4rem"><strong>Positiv formuliert</strong> – beschreibt das TUN, nicht das Lassen.</li>
-      <li style="margin-top:.4rem"><strong>Begründet</strong> – ein Satz Sinn.</li>
+      <li style="margin-top:.4rem"><strong>Begründet</strong> – ein (Neben)Satz, der den Sinn erklärt.</li>
       <li style="margin-top:.4rem"><strong>Geprüft</strong> – Verständnischeck zum Verhalten nach der Einführung.</li>
     </ol>
     <p class="hint" style="margin-top:.7rem">Merkformel: „Könnte ein wohlwollender Vertretungslehrer mit meiner Erwartungsformulierung allein feststellen, ob die Klasse sie erfüllt? Wenn nein: zu vage."</p>
@@ -368,11 +368,11 @@ input[type=number]{max-width:8rem}
 <!-- 5 · SKRIPT-EDITOR -->
 <section class="screen" data-title="Skript-Editor">
   <span class="eyebrow">Station 5 · Skript-Editor: Deine Einführung</span>
-  <h2>Erwartung → Begründung → 2 CFU-Fragen.</h2>
+  <h2>Erwartung → Begründung → 2 Verständnisfragen.</h2>
   <p class="lead">Verfasse den kompletten Wortlaut deiner Einführung. Er wandert in dein persönliches Playbook.</p>
   <p style="margin-top:.6rem"><button class="btn ghost small" id="fromTrainerBtn">Aus dem Trainer übernehmen</button></p>
   <div class="field">
-    <label for="scriptErwartung">Erwartung (spezifisch, ein Satz Handlung)</label>
+    <label for="scriptErwartung">Erwartung (spezifisch, ein Satz)</label>
     <textarea id="scriptErwartung" data-store="scriptErwartung"></textarea>
   </div>
   <div class="field">
@@ -380,11 +380,11 @@ input[type=number]{max-width:8rem}
     <textarea id="scriptBegruendung" data-store="scriptBegruendung"></textarea>
   </div>
   <div class="field">
-    <label for="scriptCfu1">CFU-Frage 1</label>
+    <label for="scriptCfu1">Verständnisfrage 1</label>
     <input type="text" id="scriptCfu1" data-store="scriptCfu1" placeholder="z. B. „Jonas, was passiert, nachdem ihr euch gesetzt habt?“">
   </div>
   <div class="field">
-    <label for="scriptCfu2">CFU-Frage 2</label>
+    <label for="scriptCfu2">Verständnisfrage 2</label>
     <input type="text" id="scriptCfu2" data-store="scriptCfu2" placeholder="z. B. „Lena, wie lange habt ihr Zeit bis zum Starter?“">
   </div>
   <div class="commit-box">
@@ -405,10 +405,10 @@ input[type=number]{max-width:8rem}
   <p class="lead">Rund 30 % der Fragen kommen aus dem Vormodul – so bleibt der Auftakt präsent.</p>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">Transfer (Freitext): Formuliere „Seid leise während der Stillarbeit" nach allen 5 Kriterien um – inklusive Begründungssatz und einer CFU-Frage.</p>
+    <p class="quiz-q">Transfer (Freitext): Formuliere „Seid leise während der Stillarbeit" nach allen 5 Kriterien um – inklusive Begründungssatz und einer Verständnisfrage.</p>
     <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Muster: „Stillarbeit heißt: kein Gespräch, Fragen per Handzeichen an mich – damit jeder ungestört denken kann. – CFU: ‚Emre, was machst du, wenn du eine Frage hast?'"</p>
+    <p class="quiz-note" id="transferNote">Muster: „Stillarbeit heißt: kein Gespräch, Fragen per Handzeichen an mich – damit jeder ungestört denken kann. – Verständnisfrage: ‚Emre, was machst du, wenn du eine Frage hast?'"</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
@@ -492,12 +492,12 @@ input[type=number]{max-width:8rem}
 <script src="./shared/cpd-client.js" data-module-key="modul1-woche01-hohe-erwartungen"></script>
 <script>
 /* ================= Daten ================= */
-const CRIT_NAMES=['Beobachtbar','Messbar','Positiv formuliert','Begründet','Geprüft (CFU)'];
+const CRIT_NAMES=['Beobachtbar','Messbar','Positiv formuliert','Begründet','Geprüft (Verständnisfrage)'];
 const CRIT_COLORS=['var(--b1)','var(--b2)','var(--b3)','var(--b4)','var(--b5)'];
 
 const CONTRAST={
  a:'„Ich erwarte, dass ihr respektvoll und leise in den Unterricht startet."',
- b:'„Wenn ich hereinkomme: aufstehen, Gespräche enden. Nach dem Setzen: Heft und Mäppchen liegen bereit, ihr arbeitet still am Starter. Spätestens 60 Sekunden nach dem Setzen höre ich nur noch Stifte."'
+ b:'„Wenn ich hereinkomme, steht ihr auf und die Gespräche klingen aus – das ist unser Startsignal. Sobald ihr sitzt: Heft und Mäppchen liegen bereit, ihr arbeitet still am Starter. Spätestens 60 Sekunden nach dem Setzen höre ich nur noch Stifte."'
 };
 
 const SORT_ITEMS=[
@@ -532,60 +532,60 @@ const LIBRARY=[
 const QUIZ=[
  {q:'F1. „Hohe Erwartungen haben" bedeutet in erster Linie:',
   opts:[
-   {t:'streng und unnachgiebig sein',ok:false,note:'Härte-Gleichsetzung – der häufigste Irrtum.'},
    {t:'Klarheit + Zutrauen + konsequent freundliches Einfordern',ok:true,note:'Genau das trägt diese Woche.'},
+   {t:'streng und unnachgiebig sein',ok:false,note:'Härte-Gleichsetzung – der häufigste Irrtum.'},
    {t:'viele Regeln aufstellen',ok:false,note:'Menge ist nicht der Punkt – Klarheit ist es.'},
    {t:'keine Rücksicht auf schwierige Lebenslagen nehmen',ok:false,note:'Empathie-Strohmann – beides schließt sich nicht aus.'}
   ]},
  {q:'F2. Deine gut eingeführte Erwartung wird nach drei Tagen nicht mehr erfüllt. Beste Deutung:',
   opts:[
    {t:'Die Klasse ist unwillig/testet dich',ok:false,note:'Personalisierung.'},
-   {t:'Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback',ok:true,note:'Verhalten ist ein Curriculum.'},
    {t:'Die Erwartung war zu hoch – absenken',ok:false,note:'Der teuerste Fehler: voreiliges Lockern.'},
+   {t:'Verhalten braucht wie jeder Lernstoff Wiederholung, Übung und Feedback',ok:true,note:'Verhalten ist ein Curriculum.'},
    {t:'Ohne Strafen geht es eben nicht',ok:false,note:'Nicht der Kernhebel dieser Woche.'}
   ]},
  {q:'F3. „Respektvoll miteinander umgehen" ist als Erwartung:',
   opts:[
    {t:'ideal, weil werteorientiert',ok:false,note:'Klingt pädagogisch wertvoll – ist trotzdem zu vage.'},
-   {t:'zu vage – nicht beobachtbar, nicht prüfbar',ok:true,note:'Adjektiv statt Handlung.'},
    {t:'nur für jüngere Klassen geeignet',ok:false,note:'Keine Alters-Sonderregel.'},
-   {t:'juristisch problematisch',ok:false,note:'Kein juristisches Thema.'}
+   {t:'juristisch problematisch',ok:false,note:'Kein juristisches Thema.'},
+   {t:'zu vage – nicht beobachtbar, nicht prüfbar',ok:true,note:'Adjektiv statt Handlung.'}
   ]},
  {q:'F4. Warum eine Begründung („damit…") zur Erwartung?',
   opts:[
-   {t:'Höflichkeitsfloskel',ok:false,note:'Mehr als Floskel.'},
    {t:'Sinn erhöht Akzeptanz – besonders bei älteren SuS',ok:true,note:'Genau der Hebel aus Lovell.'},
+   {t:'Höflichkeitsfloskel',ok:false,note:'Mehr als Floskel.'},
    {t:'rechtlich vorgeschrieben',ok:false,note:'Kein Rechtsthema.'},
    {t:'damit Eltern nicht klagen',ok:false,note:'Nicht der pädagogische Grund.'}
   ]},
  {q:'F5. In der Oberstufe sind explizite Verhaltenserwartungen:',
   opts:[
    {t:'überflüssig – junge Erwachsene wissen das',ok:false,note:'Der Sek-II-Mythos.'},
-   {t:'nötig, aber im Ton erwachsen formuliert',ok:true,note:'Struktur bleibt, der Ton wird erwachsen.'},
    {t:'kränkend',ok:false,note:'Kindisch wirkt die Formulierung, nicht die Struktur.'},
+   {t:'nötig, aber im Ton erwachsen formuliert',ok:true,note:'Struktur bleibt, der Ton wird erwachsen.'},
    {t:'nur bei Problemen einzuführen',ok:false,note:'Dann ist das Fenster oft schon zu.'}
   ]},
  {q:'🔁 Auftakt: „Gestern konnten sie es noch" – welches Modell erklärt das?',
   opts:[
-   {t:'Gedächtnis – nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis angekommen',ok:true,note:'Genau: „gelernt" heißt „im Langzeitgedächtnis angekommen".'},
    {t:'Motivation ist sozial',ok:false,note:'Hier nicht einschlägig.'},
+   {t:'Gedächtnis – nur im Arbeitsgedächtnis, nie im Langzeitgedächtnis angekommen',ok:true,note:'Genau: „gelernt" heißt „im Langzeitgedächtnis angekommen".'},
    {t:'Aufmerksamkeit',ok:false,note:'Nah dran, aber Modell 1 passt direkter.'},
    {t:'Beziehungsarbeit',ok:false,note:'Hier nicht einschlägig.'}
   ]},
  {q:'🔁 Auftakt: Routinen dienen im Unterricht in erster Linie dazu, …',
   opts:[
    {t:'Disziplin beizubringen',ok:false,note:'Dressur-Fehlvorstellung.'},
-   {t:'Arbeitsgedächtnis für Inhalte freizusetzen',ok:true,note:'Routinen sind Denk-Befreiung.'},
    {t:'Zeit zu sparen',ok:false,note:'Stimmt auch, ist aber nicht der Kern.'},
-   {t:'der Lehrkraft Kontrolle zu geben',ok:false,note:'Nicht der Kerngedanke.'}
+   {t:'der Lehrkraft Kontrolle zu geben',ok:false,note:'Nicht der Kerngedanke.'},
+   {t:'Arbeitsgedächtnis für Inhalte freizusetzen',ok:true,note:'Routinen sind Denk-Befreiung.'}
   ]}
 ];
 
 const ACTIONSTEPS=[
  {id:'standard',label:'Nachgeschärfte Erwartung einführen (Standard)',
-  text:'Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei CFU-Fragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?'},
+  text:'Ich führe am Montag in Lerngruppe X meine nachgeschärfte Erwartung ein: erklären, begründen, per zwei Verständnisfragen prüfen – und fordere sie die ganze Woche konsequent freundlich ein. Freitag notiere ich: Wie oft musste ich erinnern – Montag vs. Freitag?'},
  {id:'restart',label:'Erwartungs-Neustart Begrüßungsroutine (Alternative)',
-  text:'Ich starte die komplette Begrüßungsroutine explizit neu: erklären, begründen, modellieren, per CFU prüfen – abgestimmt mit meinem Coach.'},
+  text:'Ich starte die komplette Begrüßungsroutine explizit neu: erklären, begründen, modellieren, per Verständnisfrage prüfen'},
  {id:'adult',label:'Erwachsene Erwartung für Sek II (Alternative)',
   text:'Ich führe für einen Oberstufenkurs eine „erwachsene" Erwartung inkl. Begründung ein (z. B. Laptop-, Handy- oder Diskussionsregel).'}
 ];
@@ -823,7 +823,7 @@ function runCheck(){
   ];
   document.getElementById('critRows').innerHTML=rows.map(row=>
     '<div class="crit-row"><span class="crit-light '+row[1]+'"></span><div class="crit-text"><b>'+row[0]+'</b>'+row[2]+'</div></div>'
-  ).join('')+'<div class="crit-row"><span class="crit-light grey"></span><div class="crit-text"><b>5 · Geprüft (CFU)</b>Das prüfst du gleich im Skript-Editor mit zwei CFU-Fragen.</div></div>';
+  ).join('')+'<div class="crit-row"><span class="crit-light grey"></span><div class="crit-text"><b>5 · Geprüft (Verständnisfrage)</b>Das prüfst du gleich im Skript-Editor mit zwei Verständnisfragen.</div></div>';
   const greens=['beobachtbar','messbar','positiv','begruendet'].filter(k=>r[k]==='green').length;
   document.getElementById('trainerScore').textContent=raw.trim()?('Ampel-Stand: '+greens+' von 4 automatisch prüfbaren Kriterien grün.'):'Schreib oder wähle eine Erwartung, um die Ampel zu sehen.';
   document.getElementById('trainerModelBtn').style.display=state.trainerLib?'inline-flex':'none';
@@ -855,8 +855,8 @@ function renderScriptPreview(){
   const parts=[];
   if(state.scriptErwartung)parts.push(state.scriptErwartung);
   if(state.scriptBegruendung)parts.push(state.scriptBegruendung);
-  if(state.scriptCfu1)parts.push('CFU 1: '+state.scriptCfu1);
-  if(state.scriptCfu2)parts.push('CFU 2: '+state.scriptCfu2);
+  if(state.scriptCfu1)parts.push('Verständnisfrage 1: '+state.scriptCfu1);
+  if(state.scriptCfu2)parts.push('Verständnisfrage 2: '+state.scriptCfu2);
   document.getElementById('scriptPreview').textContent=parts.length?parts.join(' — '):'Noch keine Eingaben.';
 }
 
@@ -975,7 +975,7 @@ function summaryText(){
   t+='— SORTIER-SPIEL —\n';
   SORT_ITEMS.forEach((s,i)=>{t+=(i+1)+'. '+critNamesOf(state.sortSel[i])+' (richtig: '+critNamesOf(s.correct)+')\n';});
   t+='\n— UMFORMULIERUNGS-TRAINER —\n'+(document.getElementById('trainerInput')?document.getElementById('trainerInput').value||'–':'–')+'\n';
-  t+='\n— SKRIPT-EDITOR —\nErwartung: '+(state.scriptErwartung||'–')+'\nBegründung: '+(state.scriptBegruendung||'–')+'\nCFU 1: '+(state.scriptCfu1||'–')+'\nCFU 2: '+(state.scriptCfu2||'–')+'\nVertretungslehrer-Test: '+(state.scriptVertretungTest?'bestanden':'noch nicht bestätigt')+'\n';
+  t+='\n— SKRIPT-EDITOR —\nErwartung: '+(state.scriptErwartung||'–')+'\nBegründung: '+(state.scriptBegruendung||'–')+'\nVerständnisfrage 1: '+(state.scriptCfu1||'–')+'\nVerständnisfrage 2: '+(state.scriptCfu2||'–')+'\nVertretungslehrer-Test: '+(state.scriptVertretungTest?'bestanden':'noch nicht bestätigt')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nErinnerungen Montag: '+(state.obsMontag||'–')+' · Freitag: '+(state.obsFreitag||'–')+'\n';
@@ -1005,8 +1005,8 @@ function buildPrint(){
   h+='<div class="pagebreak"></div><h2>Skript-Editor</h2>';
   h+=f('Erwartung:',state.scriptErwartung);
   h+=f('Begründung:',state.scriptBegruendung);
-  h+=f('CFU-Frage 1:',state.scriptCfu1);
-  h+=f('CFU-Frage 2:',state.scriptCfu2);
+  h+=f('Verständnisfrage 1:',state.scriptCfu1);
+  h+=f('Verständnisfrage 2:',state.scriptCfu2);
   h+=f('Vertretungslehrer-Test:',state.scriptVertretungTest?'bestanden':'noch nicht bestätigt');
   h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
   h+=f('Transferaufgabe:',state.transferAnswer);
