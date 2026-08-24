@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 4 · Präsenz: Körper, Stimme, Register</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Karten (Hook / Varianten) ---------- */
+.riddle-grid{display:grid;gap:.8rem;margin-top:1.1rem;grid-template-columns:1fr}
+@media(min-width:700px){.riddle-grid{grid-template-columns:repeat(2,1fr)}}
+.riddle-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem;text-align:left;font-family:var(--body);font-size:.96rem;color:var(--ink)}
+.riddle-card .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-bottom:.4rem;display:block}
+.riddle-card.correctpos{border-color:var(--petrol);background:var(--petrol-soft)}
+.riddle-card.wrongpos{border-color:#B0433A;background:#B0433A18}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Tabs ---------- */
+.tab-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.tab-btn{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:.4rem .9rem;font-size:.85rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body)}
+.tab-btn.on{background:var(--petrol);border-color:var(--petrol);color:#fff}
+
+/* ---------- Ampel-Kriterien ---------- */
+.crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.55rem 0;border-bottom:1px dashed var(--line)}
+.crit-row:last-child{border-bottom:none}
+.crit-light{width:1rem;height:1rem;border-radius:50%;flex-shrink:0;margin-top:.2rem}
+.crit-light.grey{background:var(--line)}
+.crit-light.red{background:#B0433A}
+.crit-light.amber{background:var(--amber)}
+.crit-light.green{background:var(--petrol)}
+.crit-text{font-size:.9rem}
+.crit-text b{display:block;font-size:.85rem;margin-bottom:.1rem}
+
+/* ---------- Checklisten (Körper-Labor) ---------- */
+.check-row{display:flex;gap:.6rem;align-items:flex-start;padding:.4rem 0;border-bottom:1px dashed var(--line)}
+.check-row:last-of-type{border-bottom:none}
+.check-row input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0;cursor:pointer}
+.check-row label{font-size:.9rem;cursor:pointer}
+.score-line{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:1.05rem;margin-top:.7rem}
+
+/* ---------- Chips (Beispiel-Vorschläge) ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.45rem}
+.chip{
+  border:1px dashed var(--line);background:var(--bg);border-radius:999px;
+  padding:.25rem .65rem;font-size:.78rem;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.chip:hover{border-color:var(--petrol);color:var(--petrol);border-style:solid}
+
+/* ---------- Anker-Karte ---------- */
+.anchor-card{
+  border:2px solid var(--petrol);border-radius:var(--radius);background:var(--petrol-soft);
+  padding:1rem 1.1rem;margin-top:1rem;max-width:26rem;
+}
+.anchor-card h4{font-family:var(--display);font-weight:800;font-size:.95rem;color:var(--petrol);margin-bottom:.5rem;letter-spacing:.04em;text-transform:uppercase}
+.anchor-card .aline{font-size:.92rem;padding:.3rem 0;border-bottom:1px dashed #B9CFCA}
+.anchor-card .aline:last-child{border-bottom:none}
+.anchor-card .aline b{display:block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+input[type=number]{max-width:8rem}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+.quiz-score{font-weight:700;color:var(--petrol);margin-top:1rem}
+.step-label{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--petrol);font-weight:700;margin-top:.9rem;display:block}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Wochen-Verlaufskurve ---------- */
+.chart-wrap{display:flex;align-items:flex-end;gap:.8rem;height:8rem;margin-top:1.1rem;padding:0 .3rem}
+.chart-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.chart-bar{width:100%;max-width:2.4rem;background:var(--petrol);border-radius:6px 6px 0 0;transition:height .4s ease;min-height:2px}
+.chart-label{font-size:.72rem;color:var(--muted);margin-top:.4rem;font-weight:600}
+.chart-val{font-size:.72rem;color:var(--ink);font-weight:700;margin-bottom:.2rem}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .ankerbox{border:1.2pt solid #0E5B54;border-radius:6pt;padding:8pt 10pt;margin:6pt 0 10pt;max-width:74mm}
+  #printReport .ankerbox .l{font-size:7.5pt;text-transform:uppercase;letter-spacing:.06em;color:#555}
+  #printReport .ankerbox .v{font-size:10pt;margin-bottom:4pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 4</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 4 · Block 1: Klassenführung &amp; Routinen · Fortbildung Sek I/II</span>
+  <h1>Souveränität ist kein Charakterzug. Sie ist eine Sammlung von Verhaltensweisen.</h1>
+  <p class="lead">Wie wirkst du ruhig und souverän – auch wenn du es (noch) nicht bist? Und wie klingst du warm und unnachgiebig zugleich? Drei Wochen lang ging es um Wortlaute. Heute geht es um den Körper, der sie spricht. Deine Klasse liest ihn schneller als deine Worte – und er ist trainierbar.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Vier-Varianten-Demo → die vier Stellschrauben → Warm/Strict-Labor → Präsenz-Checkliste &amp; Diagnose → Körper-Labor mit Selbstbewertung → dein Reset-Anker → Provokations-Simulator (C1–C3) → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley, Prinzip 4 &amp; Routine 3; Lemov T57, T61, T62</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <p style="font-size:.9rem"><strong>Ein Wort vorweg:</strong> Dieses Modul ist körperlicher als alle bisherigen – du wirst laut sprechen, dich beobachten, dich zweimal albern fühlen. Das gehört dazu. Such dir für die Sprechübungen einen Ort, an dem dich niemand hört, dem du das nicht selbst erlaubt hast.</p>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · HOOK: VIER VARIANTEN -->
+<section class="screen" data-title="Vier Varianten">
+  <span class="eyebrow">Station 1 · Hook: Derselbe Satz, viermal</span>
+  <h2>Ein Satz. Vier Körper. Vier Wirkungen.</h2>
+  <p class="lead">Dieselbe Lehrkraft sagt viermal exakt denselben Satz: <em>„Bücher zu. Stifte weg. Blick zu mir.“</em> Nur die Ausführung ändert sich. Ordne jeder Variante das Wirkungswort zu, das die Klasse spüren würde.</p>
+  <div id="variantList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="varResetBtn">Zurücksetzen</button> <button class="btn small" id="varCheckBtn">Prüfen</button></p>
+  <div class="card reveal" id="varReveal">
+    <p><strong>Der entscheidende Punkt:</strong> Variante 4 war nicht die lauteste – sie war die leiseste. Sie war langsamer, stiller und tiefer. Autorität ist fast nie Lautstärke. Lautstärke ist meistens ihr Ersatz.</p>
+    <p class="punchline">Nicht lauter. Langsamer.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den vier Stellschrauben →</button></p>
+</section>
+
+<!-- 2 · SEE IT: VIER STELLSCHRAUBEN -->
+<section class="screen" data-title="Die 4 Stellschrauben">
+  <span class="eyebrow">Station 2 · See it: Die vier Stellschrauben</span>
+  <h2>Vier Dinge, die du TUN kannst – ohne jemand anderes zu WERDEN.</h2>
+  <p class="lead">Tippe jede Karte an: Sie zeigt dir, woran man die Stellschraube in Variante 4 hört – und was passiert, wenn sie fehlt.</p>
+  <div id="screwList"></div>
+  <div class="card" style="margin-top:1.4rem">
+    <h3>Merksatz</h3>
+    <p class="punchline" style="font-size:clamp(1.2rem,4vw,1.7rem)">„Erst der Körper, dann das Signal, dann die Worte – und bei Sturm: erst der Atem.“</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Warm/Strict-Labor →</button></p>
+</section>
+
+<!-- 3 · WARM/STRICT -->
+<section class="screen" data-title="Warm/Strict">
+  <span class="eyebrow">Station 3 · Die wichtigste Anwendung des Registers</span>
+  <h2>Warm UND streng. Im selben Satz.</h2>
+  <p class="lead">Der verbreitetste Irrtum im Lehrerzimmer ist das ODER: entweder der Nette oder der Strenge. Lemovs Videos zeigen durchgehend das UND – gleichzeitig, in einem Satz.</p>
+  <div class="card">
+    <p><strong>Das Muster:</strong></p>
+    <p class="punchline" style="font-size:clamp(1.3rem,4.5vw,1.9rem)">„Weil [Zutrauen], [Standard].“</p>
+    <p style="margin-top:.6rem;font-size:.94rem">Der warme Ton trägt die formale Sache. Die Strenge ist die Verpackung des Zutrauens: Ein Standard, den ich bei dir hochhalte, ist ein Kompliment. Gesenkte Erwartungen sind die höflichste Form der Abwertung – und Jugendliche spüren das mit erschreckender Präzision.</p>
+    <p class="hint" style="margin-top:.6rem">Praktisch: freundlicher Ton + unverhandelbare Sache · Erklärung des Warum + keine Debatte über das Ob · Konsequenz heute + Neuanfang morgen.</p>
+  </div>
+
+  <h3 style="margin-top:1.7rem">Teil A · Hör genau hin: Was ist was?</h3>
+  <p class="lead">Ordne jedem Satz zu, was er tatsächlich transportiert. Danach „Auflösung zeigen“.</p>
+  <div id="wsList"></div>
+  <p style="margin-top:.8rem"><button class="btn ghost small" id="wsResetBtn">Zurücksetzen</button></p>
+
+  <h3 style="margin-top:1.8rem">Teil B · Deine zwei Sätze</h3>
+  <p class="lead">Zwei reale Situationen. Formuliere je einen Satz nach dem Muster „Weil [Zutrauen], [Standard].“ – die Prüfung schaut, ob wirklich beides drin ist.</p>
+  <div id="wsBuildList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Präsenz-Checkliste →</button></p>
+</section>
+
+<!-- 4 · NAME IT: CHECKLISTE & DIAGNOSE -->
+<section class="screen" data-title="Checkliste &amp; Diagnose">
+  <span class="eyebrow">Station 4 · Name it: Die Präsenz-Checkliste</span>
+  <h2>An der Tafel stünde das hier.</h2>
+  <div class="card">
+    <p style="font-size:.95rem">Stand fest &amp; zugewandt? · Hände ruhig? · Register bewusst gewählt? · Pause davor + danach? · Satzende unten? · Bei einer Anforderung: Wärme UND Sache hörbar (Warm/Strict)? · Bei Provokation: erst Anker, dann Reaktion?</p>
+  </div>
+  <h3 style="margin-top:1.7rem">Diagnose: Welche Stellschraube ist verletzt?</h3>
+  <p class="lead">Wähle bei jeder Szene an, welche der vier Stellschrauben nicht sitzt. Manche Szenen sind sauber – dann wählst du nichts. Danach „Auflösung zeigen“.</p>
+  <div id="diagList"></div>
+  <p style="margin-top:.8rem"><button class="btn ghost small" id="diagResetBtn">Zurücksetzen</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter ins Körper-Labor →</button></p>
+</section>
+
+<!-- 5 · DO IT: KÖRPER-LABOR -->
+<section class="screen" data-title="Körper-Labor">
+  <span class="eyebrow">Station 5 · Do it: Körper-Labor (Kern)</span>
+  <h2>Jetzt sprichst du. Zweimal.</h2>
+  <p class="lead">Standard-Ansage: <em>„Bücher zu. Stifte weg. Blick zu mir.“</em> Sprich sie zweimal laut – zuerst so, wie du sie heute im Unterricht sagen würdest, dann bewusst als Variante 4. Nach jedem Durchgang hakst du selbst ab, was gestimmt hat.</p>
+  <div class="card" style="border-style:dashed">
+    <p class="hint">🔒 Diese SPA nimmt nichts auf und braucht keinen Mikrofonzugriff. Wenn du dich zusätzlich mit dem Handy filmen willst: gern – der Clip bleibt auf deinem Gerät. In Woche 7 arbeiten wir systematisch mit Videoselbstanalyse; das hier ist die Vorübung.</p>
+  </div>
+
+  <div class="card">
+    <h3>Durchgang A · So, wie du es heute sagen würdest</h3>
+    <p class="hint">Erst sprechen, dann ankreuzen – nicht umgekehrt.</p>
+    <div id="labA"></div>
+    <p class="score-line" id="labAScore"></p>
+    <div class="field">
+      <label for="labANote">Wirkung auf dich selbst <span class="sub">Ein Wort genügt: gehetzt · unsicher · bittend · klar · drohend · gleichgültig</span></label>
+      <input type="text" id="labANote" data-store="labANote" placeholder="…">
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Durchgang B · Bewusst Variante 4</h3>
+    <p class="hint">Fester Stand · 2 Sekunden Pause davor · ruhig und tief · Satzenden fallen ab · danach Stille.</p>
+    <div id="labB"></div>
+    <p class="score-line" id="labBScore"></p>
+    <div class="field">
+      <label for="labBNote">Wirkung auf dich selbst</label>
+      <input type="text" id="labBNote" data-store="labBNote" placeholder="…">
+    </div>
+  </div>
+
+  <div class="card reveal" id="labCompare"></div>
+
+  <div class="card">
+    <h3>Registerwechsel-Übung</h3>
+    <p style="font-size:.94rem">Sprich direkt hintereinander: (1) eine formale Ansage – ruhig, tief, kurz, Satzende unten. (2) ein warmes Lob – beweglicher, heller, näher. Der hörbare Schalter dazwischen ist das Lernziel.</p>
+    <div class="commit-box" style="margin-top:.8rem">
+      <input type="checkbox" id="regDone" data-store="regDone">
+      <label for="regDone" style="font-weight:600">Ich habe beides direkt hintereinander laut gesprochen – der Wechsel war hörbar.</label>
+    </div>
+    <div class="field">
+      <label for="regLob">Mein warmer Satz <span class="sub">Der Satz, mit dem du in Durchgang 2 gelobt hast – notiere ihn, du brauchst ihn diese Woche.</span></label>
+      <input type="text" id="regLob" data-store="regLob" placeholder="z. B. „Das war die Stelle, an der du wirklich sauber argumentiert hast.“">
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Reset-Anker →</button></p>
+</section>
+
+<!-- 6 · RESET-ANKER-BUILDER -->
+<section class="screen" data-title="Reset-Anker">
+  <span class="eyebrow">Station 6 · Do it: Der Reset-Anker</span>
+  <h2>Wie bleibst du konstant, wenn innen der Puls auf 140 geht?</h2>
+  <p class="lead">Nicht durch Willenskraft im Moment, sondern durch einen vorbereiteten Mini-Ablauf. Drei Teile: ein Auslöser, den du kennst. Ein Körperanker, der zwei Sekunden dauert und nach nichts aussieht. Ein innerer Satz. Erst der Anker, dann die Reaktion.</p>
+  <p class="punchline">Zwei Sekunden Verzögerung sind kein Autoritätsverlust – sie SIND die Autorität.</p>
+
+  <div class="field">
+    <label for="ankAusl">1 · Mein Auslöser * <span class="sub">Die Situation, die dich am schnellsten hochbringt.</span></label>
+    <input type="text" id="ankAusl" data-store="ankAusl" placeholder="z. B. freche Antwort vor der Klasse">
+    <div class="chip-row" data-chips="ankAusl"></div>
+  </div>
+  <div class="field">
+    <label for="ankKoerper">2 · Mein Körperanker * <span class="sub">2 Sekunden, von außen unsichtbar.</span></label>
+    <input type="text" id="ankKoerper" data-store="ankKoerper" placeholder="z. B. langsam ausatmen">
+    <div class="chip-row" data-chips="ankKoerper"></div>
+  </div>
+  <div class="field">
+    <label for="ankSatz">3 · Mein innerer Satz * <span class="sub">Kurz genug, um ihn im Stress wirklich zu denken.</span></label>
+    <input type="text" id="ankSatz" data-store="ankSatz" placeholder="z. B. „Ruhig. Ich habe Zeit.“">
+    <div class="chip-row" data-chips="ankSatz"></div>
+  </div>
+  <div class="field">
+    <label for="ankReaktion">4 · Meine erste äußere Reaktion danach <span class="sub">Formal und kurz – kein Inhalt, keine Debatte.</span></label>
+    <input type="text" id="ankReaktion" data-store="ankReaktion" placeholder="z. B. „Das besprechen wir nach der Stunde. Jetzt: Aufgabe 2.“">
+    <div class="chip-row" data-chips="ankReaktion"></div>
+  </div>
+
+  <h3 style="margin-top:1.6rem">Deine Anker-Karte</h3>
+  <p class="hint">Diese Karte landet im PDF-Export – im A7-Format zum Ausschneiden fürs Mäppchen oder Portemonnaie.</p>
+  <div class="anchor-card" id="anchorCard"></div>
+
+  <div class="card">
+    <h3>Härtetest: dreimal durchspielen</h3>
+    <p style="font-size:.94rem">Der Anker wirkt erst, wenn er im Stress abrufbar ist – also muss er im Ruhezustand geübt werden. Lies die Provokation, lauf deinen Anker sichtbar durch, sprich deine Reaktion laut. Dreimal, steigend.</p>
+    <div id="hardList"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Provokations-Simulator →</button></p>
+</section>
+
+<!-- 7 · SZENARIO-SIMULATOR -->
+<section class="screen" data-title="Provokations-Simulator">
+  <span class="eyebrow">Station 7 · Do it: Provokations-Simulator</span>
+  <h2>Drei Störkarten, jede in zwei Zügen.</h2>
+  <p class="lead">Erst der erste Zug (was tust du in der ersten Sekunde?), dann der zweite (was sagst oder tust du danach?). Die Steigerung ist Absicht: C1 kitzelt, C3 zielt.</p>
+  <div id="scenarioList"></div>
+  <div class="card reveal" id="scenarioSummary"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 8 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 8 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 4 – plus zwei zur Auffrischung.</h2>
+  <p class="lead">Rund 30 % der Fragen kommen aus den Vormodulen – so bleiben Woche 1 bis 3 präsent.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Beschreibe deine Reaktion auf C3 („Das bringt doch eh nichts, was Sie hier machen!“) in vier Schritten – Körper, innerer Satz, Wortlaut, Nachbereitung.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="1. Körper: … 2. Innerer Satz: … 3. Wortlaut: … 4. Nachbereitung: …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: <strong>Körper</strong> – Fersen spüren, langsam ausatmen, stehen bleiben. <strong>Innerer Satz</strong> – „Nicht persönlich. Modell 4.“ <strong>Wortlaut</strong> – formal und kurz: „Das klären wir nach der Stunde. Jetzt: Aufgabe 2.“ Keine inhaltliche Verteidigung vor Publikum. <strong>Nachbereitung</strong> – kurzes Gespräch nach der Stunde (W.I.N. folgt in W7), Vorfall ggf. notieren, eigenen Ärger später und privat verarbeiten.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 9 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 9 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Präsenz entsteht nicht im Modul, sondern in der Wiederholung. Wähle einen Schritt – und nur einen.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+
+  <div class="card">
+    <h3>Abend-Journal: ein Satz pro Tag</h3>
+    <p class="hint">Kein Bericht, keine Bewertung – ein Satz dazu, wie es sich angefühlt hat.</p>
+    <div class="field" style="margin-top:.6rem"><label for="jMo">Montag</label><input type="text" id="jMo" data-store="jMo" placeholder="…"></div>
+    <div class="field"><label for="jDi">Dienstag</label><input type="text" id="jDi" data-store="jDi" placeholder="…"></div>
+    <div class="field"><label for="jMi">Mittwoch</label><input type="text" id="jMi" data-store="jMi" placeholder="…"></div>
+    <div class="field"><label for="jDo">Donnerstag</label><input type="text" id="jDo" data-store="jDo" placeholder="…"></div>
+    <div class="field"><label for="jFr">Freitag</label><input type="text" id="jFr" data-store="jFr" placeholder="…"></div>
+  </div>
+
+  <div class="card">
+    <h3>Strichliste: Wie oft habe ich den Reset-Anker gezogen?</h3>
+    <p class="hint">Jedes Mal, wenn Gereiztheit aufkam und du VOR der Reaktion den Anker durchlaufen hast.</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.6rem">
+      <div class="field" style="margin-top:0"><label for="ankMo">Mo</label><input type="number" id="ankMo" data-store="ankMo" min="0" placeholder="Anzahl"></div>
+      <div class="field" style="margin-top:0"><label for="ankDi">Di</label><input type="number" id="ankDi" data-store="ankDi" min="0" placeholder="Anzahl"></div>
+      <div class="field" style="margin-top:0"><label for="ankMi">Mi</label><input type="number" id="ankMi" data-store="ankMi" min="0" placeholder="Anzahl"></div>
+      <div class="field" style="margin-top:0"><label for="ankDo">Do</label><input type="number" id="ankDo" data-store="ankDo" min="0" placeholder="Anzahl"></div>
+      <div class="field" style="margin-top:0"><label for="ankFr">Fr</label><input type="number" id="ankFr" data-store="ankFr" min="0" placeholder="Anzahl"></div>
+    </div>
+    <div class="chart-wrap" id="weekChart"></div>
+    <p class="hint" style="margin-top:.6rem">Hier gibt es keine Zielrichtung nach unten: Die Zahl zeigt nur, wie oft du in Reichweite von Ärger warst – und den Anker tatsächlich gezogen hast statt reflexhaft zu reagieren.</p>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts – dort ist auch die Anker-Karte zum Ausschneiden dabei.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche das Modul, auf das viele seit dem Auftakt warten: Was tue ich konkret bei Störungen – die komplette Interventionsleiter, von der Augenbraue bis zur Konsequenz. Euer heutiges Werkzeug ist dafür die Grundierung: Ohne ruhigen Körper wirkt keine Stufe.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul4-woche04-praesenz"></script>
+<script>
+/* ================= Daten ================= */
+const EFFECT_WORDS=['gehetzt / unwichtig','unsicher','bittend','klar / das gilt'];
+
+const VARIANTS=[
+ {id:1,label:'Variante 1',
+  desc:'Im Gehen gesprochen, dabei Blätter sortierend, schnell – der Satz fällt nebenbei.',
+  correct:1,
+  note:'Bewegung sagt „nebenbei“. Wer im Gehen anweist, teilt der Klasse mit, dass die Anweisung nicht besonders wichtig ist.'},
+ {id:2,label:'Variante 2',
+  desc:'Im Stand, aber mit 30 Wörtern Verpackung drumherum: „Also, ähm, wenn ihr jetzt vielleicht mal langsam …“',
+  correct:2,
+  note:'Jedes Füllwort ist eine kleine Entschuldigung dafür, dass man überhaupt etwas verlangt. Die Klasse hört die Entschuldigung, nicht die Anweisung.'},
+ {id:3,label:'Variante 3',
+  desc:'Im Stand, knapp – aber mit hochgezogener, fragender Satzmelodie am Ende.',
+  correct:3,
+  note:'Die Melodie macht aus der Aussage eine Bitte. Und über eine Bitte lässt sich verhandeln.'},
+ {id:4,label:'Variante 4',
+  desc:'Fester Stand, 2 Sekunden Pause davor, ruhig und tief, Satzenden fallen ab – danach Stille.',
+  correct:4,
+  note:'Kein Wort mehr als in Variante 1, keine Dezibel mehr. Nur Stand, Pause, Melodie, Stille.'}
+];
+
+const SCREWS=[
+ {id:1,name:'Stillstand (square up)',
+  desc:'Wichtige Ansagen im festen Stand, Füße geerdet, Hände ruhig – kein Nebenbei-Laufen, kein Material-Sortieren. Schultern zur Klasse, voll zugewandt.',
+  hear:'In Variante 4: Die Lehrkraft bleibt stehen, bevor das erste Wort fällt.',
+  miss:'Fehlt sie, sagt der Körper „nebenbei“ – und die Klasse glaubt dem Körper, nicht dem Satz.'},
+ {id:2,name:'Register',
+  desc:'Du hast zwei Sprechmodi, und der Wechsel ist das Werkzeug. Formal für Anweisungen: ruhig, eher tief, wenige Worte, Pausen, Satzenden fallen ab. Warm für Gespräch, Erklärung, Lob: beweglicher, heller, näher.',
+  hear:'In Variante 4: Aussage, keine Bitte – die Satzenden fallen ab.',
+  miss:'Wer immer warm spricht, dem fehlt der Schalter für Ernst. Wer immer formal spricht, wird zur Maschine. Der WECHSEL macht beides bedeutsam.'},
+ {id:3,name:'Wortzahl und Pausen',
+  desc:'Die Wortökonomie kennst du aus Woche 3 – hier kommt die Körperseite dazu: Die Pause VOR dem Satz erzeugt Aufmerksamkeit, die Pause DANACH erzeugt Verbindlichkeit.',
+  hear:'In Variante 4: 2 Sekunden Stille davor, Stille danach.',
+  miss:'Wer sofort weiterredet, entwertet, was er gerade gesagt hat.'},
+ {id:4,name:'Emotionale Konstanz',
+  desc:'Deine Klasse darf dich ärgern – sie darf nur nicht merken dürfen, dass es sie steuert. Konstanz heißt nicht Gefühllosigkeit: Die Reaktion ist berechenbar und professionell, der Ärger wird später und privat verarbeitet.',
+  hear:'In Variante 4: derselbe ruhige Ton, egal was vorher im Raum passiert ist.',
+  miss:'Ärger in der Stimme hat für eine Klasse zwei Lesarten: „Es wird ernst“ – oder, häufiger: „Wir haben einen Knopf gefunden.“ Modell 4 aus dem Auftakt: Wer den Knopf kennt, drückt ihn.'}
+];
+
+const WS_CATS=['nur warm','nur streng','warm UND streng'];
+const WS_ITEMS=[
+ {t:'„Weil ich weiß, dass du das besser kannst, nehme ich das so nicht an.“',correct:3,
+  note:'Das Muster in Reinform: Zutrauen trägt den Standard. Beides in einem Satz, ohne Pause dazwischen.'},
+ {t:'„Schon gut, mach dir keinen Kopf – gib es einfach ab, wenn du magst.“',correct:1,
+  note:'Freundlich gemeint, aber es ist eine gesenkte Erwartung – die höflichste Form der Abwertung. Der Schüler hört: Von dir erwarte ich nichts.'},
+ {t:'„Ohne Hausaufgabe kein Ausflug. Punkt.“',correct:2,
+  note:'Der Standard steht – aber ohne jedes Zutrauen dahinter. Es bleibt eine Machtansage, und die lädt zum Kräftemessen ein.'},
+ {t:'„Deine Analyse ist stark genug für eine sehr gute Note – deshalb bekommst du sie zurück und überarbeitest den Schluss.“',correct:3,
+  note:'Genau: Die Rückgabe IST das Kompliment. Warm im Ton, unverhandelbar in der Sache.'},
+ {t:'„Du bist ein netter Kerl, aber Mathe ist halt nicht deins.“',correct:1,
+  note:'Wärme ohne Standard – und in diesem Fall sogar ein Urteil, das dem Schüler die Zukunft zuklappt.'},
+ {t:'„Das ist die dritte verspätete Abgabe. Nächstes Mal Fehlnote.“',correct:2,
+  note:'Sachlich korrekt, aber rein administrativ. Ein halber Satz Zutrauen davor würde aus der Drohung einen Standard machen.'}
+];
+
+const WS_BUILD=[
+ {situ:'Ein fähiger Schüler hat zum dritten Mal die Hausaufgabe nicht dabei.',
+  model:'„Weil du in der Stunde die besten Beiträge lieferst, will ich das auch schriftlich sehen – morgen liegt sie auf meinem Tisch.“'},
+ {situ:'Eine starke Schülerin gibt eine sichtbar schludrige Arbeit ab.',
+  model:'„Weil ich weiß, was du kannst, nehme ich das so nicht an – du bekommst sie zurück und gibst sie Freitag neu ab.“'}
+];
+
+const CHECKLIST=[
+ 'Fester Stand, Schultern zur Klasse – kein Gehen, kein Sortieren',
+ 'Hände ruhig, nichts in der Hand',
+ '2 Sekunden Pause VOR dem ersten Wort',
+ 'Keine Verpackung, keine Füllwörter',
+ 'Satzenden fallen ab – keine Frage-Melodie',
+ 'Stille NACH der Ansage – kein Nachplätschern'
+];
+
+const DIAG_ITEMS=[
+ {t:'Die Lehrkraft ruft die Anweisung über die Schulter, während sie zum Pult zurückläuft.',correct:[1],
+  note:'Der Inhalt kann perfekt sein – der Körper sagt „nebenbei“, und die Klasse folgt dem Körper.'},
+ {t:'„Könntet ihr jetzt vielleicht mal so langsam anfangen, ja?“ – Stimme geht am Ende nach oben.',correct:[2,3],
+  note:'Registerfehler (Bitte statt Aussage) plus Verpackung. Beides zusammen macht die Anweisung verhandelbar.'},
+ {t:'Nach der Anweisung erklärt die Lehrkraft die Aufgabe noch dreimal in anderen Worten.',correct:[3],
+  note:'Die Pause danach fehlt. Nachplätschern entwertet den Satz, den man gerade gesagt hat – und lehrt: Beim ersten Mal muss man nicht hinhören.'},
+ {t:'„Ich habe es jetzt WIRKLICH oft genug gesagt!“ – lauter, hörbar gereizt.',correct:[4],
+  note:'Der Knopf ist gefunden. Ab jetzt weiß die Klasse, womit sie dich steuert – unabhängig davon, ob sie es benutzt.'},
+ {t:'Die Lehrkraft lobt eine Gruppe im exakt gleichen tiefen, knappen Befehlston wie die Ansage davor.',correct:[2],
+  note:'Kein Wechsel, kein Kontrast: Das Lob kommt nicht an, und die formale Ansage verliert ihre Besonderheit.'},
+ {t:'Fester Stand, zwei Sekunden Pause, ruhig: „Bücher zu. Stifte weg. Blick zu mir.“ – dann Stille.',correct:[],
+  note:'Sauber. Alle vier Stellschrauben sitzen – das ist Variante 4.'}
+];
+
+const ANKER_CHIPS={
+ ankAusl:['freche Antwort vor der Klasse','Handy trotz dritter Ermahnung','demonstratives Augenrollen','Getuschel während meiner Erklärung','„Das ist doch eh sinnlos“'],
+ ankKoerper:['langsam ausatmen','Fersen im Boden spüren','Daumen drückt Zeigefinger','Schulterblätter sinken lassen','einen Schritt zur Seite'],
+ ankSatz:['„Ruhig. Ich habe Zeit.“','„Nicht persönlich – Modell 4.“','„Erst atmen, dann handeln.“','„Das ist die Rolle, nicht ich.“'],
+ ankReaktion:['„Das besprechen wir nach der Stunde. Jetzt: Aufgabe 2.“','„Danke. Weiter.“','[nonverbal registrieren, Anweisung gilt weiter]','„Ich komme gleich zu dir.“']
+};
+
+const HARDCARDS=[
+ {tag:'C1 · Der Augenroller',t:'Auf deine Arbeitsanweisung hin: demonstratives Augenrollen und ein hörbares Seufzen.',
+  goal:'Nonverbal registrieren, NICHT kommentieren – die Anweisung gilt weiter.'},
+ {tag:'C2 · Der Kommentator',t:'Halblaut zur Nachbarin: „Boah, ist das wieder sinnlos heute.“',
+  goal:'Anker, dann entscheiden: überhören und später privat – oder kurze formale Ansage ohne Debatte. Beides gültig, Hauptsache ruhig.'},
+ {tag:'C3 · Der Frontalangriff',t:'Laut, direkt an dich: „Das bringt doch eh nichts, was Sie hier machen!“',
+  goal:'Anker sichtbar durchlaufen, dann formal und kurz vertagen – keine inhaltliche Verteidigung vor Publikum.'}
+];
+
+const SCENARIOS=[
+ {tag:'C1 · Der Augenroller',
+  situ:'Du hast gerade eine Arbeitsanweisung gegeben. Ein Schüler rollt demonstrativ mit den Augen und seufzt hörbar. Die Nachbarn schauen kurz hin.',
+  s1q:'Erster Zug – die erste Sekunde:',
+  s1:[
+   {t:'Registrieren, Blick kurz halten, weitermachen – die Anweisung gilt',ok:true,note:'Genau. Das Augenrollen ist nonverbal; deine Antwort darf es auch sein. Keine Bühne, kein Zeitverlust.'},
+   {t:'Sofort ansprechen: „Was soll das Augenrollen?“',ok:false,note:'Damit machst du eine Geste zum Thema der Stunde – und gibst ihr ein Publikum von 28 Leuten.'},
+   {t:'Wegschauen und schneller weiterreden',ok:false,note:'Das ist kein Ignorieren, das ist Flucht – und im Ton hörbar. Ruhe sieht anders aus.'}
+  ],
+  s2q:'Zweiter Zug – es passiert in derselben Stunde noch einmal:',
+  s2:[
+   {t:'Nähe suchen, ruhig weiterarbeiten – Ansprache leise nach der Stunde',ok:true,note:'Nähe ist die stärkste nonverbale Stufe. Und das Gespräch gehört nicht vor Publikum.'},
+   {t:'Jetzt doch laut ansprechen – zweimal geht nicht durch',ok:false,note:'Der Reflex ist verständlich, aber die Eskalation kostet mehr als das Augenrollen.'},
+   {t:'Konsequenz sofort verhängen, ohne Vorwarnung',ok:false,note:'Die Interventionsleiter kommt in Woche 5 – sie beginnt nicht bei der Konsequenz.'}
+  ]},
+ {tag:'C2 · Der Kommentator',
+  situ:'Halblaut, aber für die halbe Klasse hörbar, sagt eine Schülerin zu ihrer Nachbarin: „Boah, ist das wieder sinnlos heute.“',
+  s1q:'Erster Zug – die erste Sekunde:',
+  s1:[
+   {t:'Anker: ausatmen, Fersen spüren – dann entscheiden',ok:true,note:'Genau. Erst der Anker, dann die Reaktion. Die zwei Sekunden gehören dir, nicht ihr.'},
+   {t:'Sofort kontern: „Dann mach du es doch besser!“',ok:false,note:'Ein Konter ist ein Angebot zum Duell – vor Publikum, das du nicht gewinnen kannst.'},
+   {t:'Lauter werden, damit die Klasse merkt, dass das nicht geht',ok:false,note:'Lautstärke ist der Ersatz für Autorität, nicht ihre Form. Und der Knopf ist gefunden.'}
+  ],
+  s2q:'Zweiter Zug – deine Reaktion:',
+  s2:[
+   {t:'Überhören und nach der Stunde unter vier Augen ansprechen',ok:true,note:'Gültig: Der Unterricht läuft weiter, die Sache ist nicht vergessen.'},
+   {t:'Kurze formale Ansage ohne Debatte: „Wir arbeiten weiter. Aufgabe 2.“',ok:true,note:'Ebenfalls gültig: kurz, formal, kein Angebot zur Diskussion. Beide Wege sind richtig – Hauptsache ruhig.'},
+   {t:'Vor der Klasse begründen, warum die Stunde sinnvoll ist',ok:false,note:'Damit verhandelst du deinen Unterricht vor Publikum – und lieferst genau die Bühne, die der Satz gesucht hat.'}
+  ]},
+ {tag:'C3 · Der Frontalangriff',
+  situ:'Laut und direkt an dich gerichtet, die ganze Klasse hört mit: „Das bringt doch eh nichts, was Sie hier machen!“',
+  s1q:'Erster Zug – die erste Sekunde:',
+  s1:[
+   {t:'Anker sichtbar durchlaufen: stehen bleiben, ausatmen, zwei Sekunden',ok:true,note:'Genau. Die zwei Sekunden sind kein Zögern – sie sind das sichtbarste Autoritätssignal, das du in diesem Moment hast.'},
+   {t:'Sofort inhaltlich verteidigen, was du im Unterricht tust',ok:false,note:'Vor Publikum verteidigen heißt: Der Angriff hat funktioniert. Und die Klasse bekommt eine Debatte statt einer Stunde.'},
+   {t:'Den Schüler direkt rausschicken',ok:false,note:'Der schärfste Schritt als erster Schritt – danach hast du nichts mehr in der Hand, und die Beziehung ist beschädigt.'}
+  ],
+  s2q:'Zweiter Zug – dein Wortlaut:',
+  s2:[
+   {t:'„Das besprechen wir nach der Stunde. Jetzt: Aufgabe 2.“',ok:true,note:'Genau: formal, kurz, vertagt. Kein Inhalt, keine Debatte, der Unterricht läuft weiter. Das Gespräch danach ist nicht optional.'},
+   {t:'„Wenn dir das nicht passt, kannst du ja gehen.“',ok:false,note:'Ein Machtsatz, der dich in die Ecke stellt, aus der du nicht mehr herauskommst, ohne das Gesicht zu verlieren.'},
+   {t:'Die Klasse fragen, ob sie das auch so sieht',ok:false,note:'Damit machst du eine Provokation zur Abstimmung – und übergibst die Führung.'}
+  ]}
+];
+
+const QUIZ=[
+ {q:'F1. Autorität im Klassenzimmer ist vor allem …',
+  opts:[
+   {t:'eine Frage der Persönlichkeit – man hat es oder nicht',ok:false,note:'Der Kernmythos. Er ist bequem, weil er niemanden zum Üben zwingt – und falsch.'},
+   {t:'trainierbares Verhalten: Stand, Register, Pausen, Konstanz',ok:true,note:'Genau: eine Sammlung von Verhaltensweisen, keine Eigenschaft.'},
+   {t:'eine Frage von Körpergröße und Lautstärke',ok:false,note:'Variante 4 war die leiseste – und die wirksamste.'},
+   {t:'reine Erfahrungssache',ok:false,note:'Erfahrung allein trainiert nichts. Zehn Jahre schlechte Ansagen ergeben zehn Jahre schlechte Ansagen.'}
+  ]},
+ {q:'F2. Ein Schüler kommentiert dich laut und frech vor der Klasse. Erster Schritt:',
+  opts:[
+   {t:'sofortige scharfe Erwiderung – Schwäche zeigen geht nicht',ok:false,note:'Reflex plus Ehrgefühl. Genau darauf zielt die Provokation.'},
+   {t:'Anker (ausatmen), dann formal und kurz: Klärung nach der Stunde',ok:true,note:'Genau: erst der Anker, dann die Reaktion – und keine inhaltliche Verteidigung vor Publikum.'},
+   {t:'grundsätzlich ignorieren',ok:false,note:'Die Normalisierungs-Falle: Was nie geklärt wird, wird zum Standard.'},
+   {t:'die Klasse fragen, was sie davon hält',ok:false,note:'Damit übergibst du die Führung an das Publikum.'}
+  ]},
+ {q:'F3. Deine Ansage endet stimmlich „oben“ (wie eine Frage). Wirkung:',
+  opts:[
+   {t:'freundlich und einladend – gut so',ok:false,note:'Die Höflichkeits-Verwechslung: Wärme entsteht im Ton, nicht in der Satzmelodie einer Anweisung.'},
+   {t:'sie klingt wie eine Bitte und wird verhandelbar',ok:true,note:'Genau. Über eine Bitte lässt sich diskutieren – über eine Aussage nicht.'},
+   {t:'keine – Melodie ist egal',ok:false,note:'Die Melodie ist einer der stärksten Hinweise, die eine Klasse hat.'},
+   {t:'motivierend für Schüchterne',ok:false,note:'Unsicherheit im Ton entlastet niemanden – sie verunsichert alle.'}
+  ]},
+ {q:'F4. „Emotionale Konstanz“ bedeutet:',
+  opts:[
+   {t:'keine Gefühle zeigen, nie',ok:false,note:'Der Roboter-Strohmann. Konstanz ist Berechenbarkeit, nicht Gefühllosigkeit.'},
+   {t:'berechenbare, ruhige Reaktionen; Ärger wird nicht zum Steuerknopf der Klasse',ok:true,note:'Genau – und der Ärger selbst wird später und privat verarbeitet, nicht unterdrückt.'},
+   {t:'immer freundlich lächeln',ok:false,note:'Dauerwärme kostet dich den Schalter für Ernst.'},
+   {t:'Störungen nicht ernst nehmen',ok:false,note:'Im Gegenteil: ruhig heißt nicht folgenlos.'}
+  ]},
+ {q:'F5. Der Reset-Anker wirkt, weil …',
+  opts:[
+   {t:'Atmen eben beruhigt',ok:false,note:'Teilrichtig, aber nicht der Kern – sonst würde es reichen, sich im Moment „zusammenzureißen“.'},
+   {t:'ein VORBEREITETER Ablauf im Stressmoment abrufbar ist – Willenskraft allein ist es nicht',ok:true,note:'Genau: Der Anker wird im Ruhezustand gebaut, damit er im Stress ohne Entscheidung läuft.'},
+   {t:'die Klasse ihn sieht und sich fürchtet',ok:false,note:'Er ist von außen praktisch unsichtbar – das ist Teil des Designs.'},
+   {t:'er Zeit schindet',ok:false,note:'Die zwei Sekunden sind kein Aufschub, sondern die Bedingung für eine konstante Reaktion.'}
+  ]},
+ {q:'🔁 Woche 3: Der Anweisungs-Vierercheck lautet:',
+  opts:[
+   {t:'freundlich, begründet, wiederholt, laut',ok:false,note:'Klingt fürsorglich, ist aber die Anleitung zum Wortschwall.'},
+   {t:'konkret, sequenziell, beobachtbar, ≤ 12 Wörter pro Schritt',ok:true,note:'Genau – die vier Kriterien aus Woche 3.'},
+   {t:'kurz, streng, wiederholt, kontrolliert',ok:false,note:'Zwei der Wörter stimmen ungefähr, das Raster nicht.'},
+   {t:'angekündigt, nummeriert, bebildert, abgefragt',ok:false,note:'Nummeriert ja – der Rest gehört nicht zum Check.'}
+  ]},
+ {q:'🔁 Woche 2: Beim Stundenbeginn wartest du schweigend auf 100 % Stehen und Stille, bevor du grüßt. Warum genau diese Reihenfolge?',
+  opts:[
+   {t:'Damit du Zeit gewinnst, deine Unterlagen zu sortieren',ok:false,note:'Während des Wartens bleibst du präsent – das Warten ist Arbeit, keine Pause.'},
+   {t:'Weil die Schulordnung es so vorschreibt',ok:false,note:'Keine formale Vorgabe, sondern eine Trainings-Entscheidung.'},
+   {t:'Sonst unterschreibst du zweimal täglich den Vertrag „Halbherzig reicht hier“',ok:true,note:'Genau – Modell 4 aus dem Auftakt.'},
+   {t:'Um die Klasse zu bestrafen',ok:false,note:'Das Gegenteil des Zwecks.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'Stand, Atem, Satzende (Standard)',
+  text:'Vor jeder wichtigen Anweisung diese Woche: stehen bleiben, ausatmen, dann sprechen – und Satzenden bewusst nach unten. Abends notiere ich in einem Satz, wie es sich angefühlt hat.'},
+ {id:'register',label:'Register-Tagebuch (Alternative)',
+  text:'Ich notiere täglich eine Situation, in der ich bewusst zwischen formalem und warmem Register gewechselt habe – und was der Wechsel bewirkt hat.'},
+ {id:'warmstrict',label:'Warm/Strict-Woche (Alternative)',
+  text:'Jede Anforderung an einen einzelnen Schüler bekommt diese Woche einen „Weil …, …“-Satz: Zutrauen und Standard in einem Satz.'},
+ {id:'anker',label:'Anker-Woche (Alternative)',
+  text:'Ich setze meinen Reset-Anker bei jeder aufkommenden Gereiztheit ein – vor der Reaktion, nicht danach – und führe eine Strichliste.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',
+ varSel:VARIANTS.map(()=>0),varRevealed:false,
+ screwRevealed:SCREWS.map(()=>false),
+ wsSel:WS_ITEMS.map(()=>0),wsRevealed:WS_ITEMS.map(()=>false),
+ wsBuild1:'',wsBuild2:'',wsBuildRevealed1:false,wsBuildRevealed2:false,
+ diagSel:DIAG_ITEMS.map(()=>[]),diagRevealed:DIAG_ITEMS.map(()=>false),
+ labA:CHECKLIST.map(()=>false),labB:CHECKLIST.map(()=>false),
+ labANote:'',labBNote:'',regDone:false,regLob:'',
+ ankAusl:'',ankKoerper:'',ankSatz:'',ankReaktion:'',hardDone:[false,false,false],
+ scenarioS1:[0,0,0],scenarioS2:[0,0,0],
+ quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+ actionStep:'standard',
+ jMo:'',jDi:'',jMi:'',jDo:'',jFr:'',
+ ankMo:'',ankDi:'',ankMi:'',ankDo:'',ankFr:'',
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
+const STORE_KEY='modul4-woche04-praesenz';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m4test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+function normalizeState(){
+  if(!Array.isArray(state.varSel)||state.varSel.length!==VARIANTS.length)state.varSel=VARIANTS.map(()=>0);
+  if(!Array.isArray(state.screwRevealed)||state.screwRevealed.length!==SCREWS.length)state.screwRevealed=SCREWS.map(()=>false);
+  if(!Array.isArray(state.wsSel)||state.wsSel.length!==WS_ITEMS.length)state.wsSel=WS_ITEMS.map(()=>0);
+  if(!Array.isArray(state.wsRevealed)||state.wsRevealed.length!==WS_ITEMS.length)state.wsRevealed=WS_ITEMS.map(()=>false);
+  if(!Array.isArray(state.diagSel)||state.diagSel.length!==DIAG_ITEMS.length)state.diagSel=DIAG_ITEMS.map(()=>[]);
+  if(!Array.isArray(state.diagRevealed)||state.diagRevealed.length!==DIAG_ITEMS.length)state.diagRevealed=DIAG_ITEMS.map(()=>false);
+  if(!Array.isArray(state.labA)||state.labA.length!==CHECKLIST.length)state.labA=CHECKLIST.map(()=>false);
+  if(!Array.isArray(state.labB)||state.labB.length!==CHECKLIST.length)state.labB=CHECKLIST.map(()=>false);
+  if(!Array.isArray(state.hardDone)||state.hardDone.length!==HARDCARDS.length)state.hardDone=HARDCARDS.map(()=>false);
+  if(!Array.isArray(state.scenarioS1)||state.scenarioS1.length!==SCENARIOS.length)state.scenarioS1=SCENARIOS.map(()=>0);
+  if(!Array.isArray(state.scenarioS2)||state.scenarioS2.length!==SCENARIOS.length)state.scenarioS2=SCENARIOS.map(()=>0);
+  if(!Array.isArray(state.quizSel))state.quizSel=[];
+  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+/* Namensfeld nur bei Standalone-Nutzung zeigen: ist eine Lehrkraft eingeloggt
+   (store.label==='cloud'), ist der Name über die Session bereits bekannt. */
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Vier Varianten ================= */
+function renderVariants(){
+  const wrap=document.getElementById('variantList');wrap.innerHTML='';
+  VARIANTS.forEach((v,i)=>{
+    const div=document.createElement('div');
+    let cls='situ-item';
+    if(state.varRevealed&&state.varSel[i]){
+      cls+=(state.varSel[i]===v.correct)?'':'';
+    }
+    div.className=cls;
+    let btns='';
+    EFFECT_WORDS.forEach((w,j)=>{
+      const sel=state.varSel[i]===j+1;
+      let c='num-btn'+(sel?' sel':'');
+      let style='';
+      if(state.varRevealed&&j+1===v.correct){c+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(state.varRevealed&&sel){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+style+'>'+w+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+v.label+' · '+esc(v.desc)+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p class="situ-note'+(state.varRevealed?' on':'')+'"><strong>'+EFFECT_WORDS[v.correct-1]+'.</strong> '+v.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    if(state.varRevealed)return;
+    state.varSel[+b.dataset.i]=+b.dataset.j+1;scheduleSave();renderVariants();
+  }));
+}
+document.getElementById('varCheckBtn').addEventListener('click',()=>{
+  state.varRevealed=true;scheduleSave();renderVariants();
+  document.getElementById('varReveal').classList.add('on');
+});
+document.getElementById('varResetBtn').addEventListener('click',()=>{
+  state.varSel=VARIANTS.map(()=>0);state.varRevealed=false;scheduleSave();renderVariants();
+  document.getElementById('varReveal').classList.remove('on');
+});
+
+/* ================= See it: Die vier Stellschrauben ================= */
+function renderScrews(){
+  const wrap=document.getElementById('screwList');wrap.innerHTML='';
+  SCREWS.forEach((p,i)=>{
+    const on=state.screwRevealed[i];
+    const div=document.createElement('div');div.className='step-card'+(on?' sel':'');
+    div.innerHTML='<h3>'+p.id+' · '+p.name+'</h3><p>'+p.desc+'</p>'
+      +(on
+        ?'<p class="hint" style="margin-top:.6rem;border-top:1px dashed var(--line);padding-top:.5rem"><strong>So hörst du sie:</strong> '+p.hear+'<br><strong>Fehlt sie:</strong> '+p.miss+'</p>'
+        :'<p class="hint" style="margin-top:.6rem">Antippen →</p>');
+    div.addEventListener('click',()=>{
+      state.screwRevealed[i]=!state.screwRevealed[i];scheduleSave();renderScrews();
+    });
+    wrap.appendChild(div);
+  });
+}
+
+/* ================= Warm/Strict ================= */
+function renderWs(){
+  const wrap=document.getElementById('wsList');wrap.innerHTML='';
+  WS_ITEMS.forEach((s,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    let btns='';
+    WS_CATS.forEach((cat,j)=>{
+      const sel=state.wsSel[i]===j+1;
+      let c='num-btn'+(sel?' sel':'');
+      let style='';
+      if(state.wsRevealed[i]&&j+1===s.correct){c+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(state.wsRevealed[i]&&sel){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+style+'>'+cat+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+(i+1)+'. '+esc(s.t)+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p style="margin-top:.6rem"><button class="btn ghost small" data-reveal="'+i+'">Auflösung zeigen</button></p>'
+      +'<p class="situ-note'+(state.wsRevealed[i]?' on':'')+'"><strong>'+WS_CATS[s.correct-1]+'.</strong> '+s.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    state.wsSel[+b.dataset.i]=+b.dataset.j+1;scheduleSave();renderWs();
+  }));
+  wrap.querySelectorAll('[data-reveal]').forEach(b=>b.addEventListener('click',()=>{
+    state.wsRevealed[+b.dataset.reveal]=true;scheduleSave();renderWs();
+  }));
+}
+document.getElementById('wsResetBtn').addEventListener('click',()=>{
+  state.wsSel=WS_ITEMS.map(()=>0);state.wsRevealed=WS_ITEMS.map(()=>false);
+  scheduleSave();renderWs();showToast('Zuordnung zurückgesetzt.');
+});
+
+/* Heuristische Prüfung der Warm/Strict-Sätze */
+const TRUST_WORDS=/\bweil\b|ich weiß|du kannst|zutrau|kann mehr|besser kannst|stark|so gut|dein niveau|unter deinem|traue ich|deine beiträge|dein potenzial/i;
+const STANDARD_WORDS=/\bbis\b|morgen|neu\b|nochmal|noch einmal|erwarte|nehme ich (das )?so nicht|zurück|überarbeit|abgabe|liegt auf|freitag|montag|dienstag|mittwoch|donnerstag|termin|deshalb|darum|deswegen/i;
+const SOFT_WORDS=/vielleicht|wenn du magst|wäre schön|könntest du eventuell|mach dir keinen kopf|schon gut|ist nicht schlimm/i;
+function analyzeWs(raw){
+  const t=String(raw||'').trim();
+  if(!t)return '<p class="hint">Noch kein Satz eingetragen.</p>';
+  const wc=t.split(/\s+/).filter(Boolean).length;
+  const rows=[];
+  const trust=TRUST_WORDS.test(t);
+  const standard=STANDARD_WORDS.test(t);
+  const soft=SOFT_WORDS.test(t);
+  rows.push([trust?'green':'red','Zutrauen hörbar?',trust
+    ?'Ja – der Satz sagt, warum du gerade von dieser Person mehr erwartest.'
+    :'Noch nicht erkennbar. Ohne das „Weil …“ bleibt nur die Forderung übrig.']);
+  rows.push([standard?'green':'red','Standard unverhandelbar?',standard
+    ?'Ja – es ist erkennbar, was bis wann konkret passiert.'
+    :'Noch nicht erkennbar. Was genau tut die Person, bis wann?']);
+  rows.push([soft?'amber':'green','Weichmacher?',soft
+    ?'Da sind Weichmacher drin („vielleicht“, „wenn du magst“ …) – sie verwandeln den Standard in ein Angebot.'
+    :'Keine typischen Weichmacher gefunden.']);
+  rows.push([wc<=28?'green':'amber','Länge: '+wc+' Wörter',wc<=28
+    ?'Kurz genug, um ihn im Vorbeigehen wirklich zu sagen.'
+    :'Recht lang – je länger der Satz, desto mehr Angriffsfläche für eine Debatte.']);
+  return rows.map(r=>'<div class="crit-row"><span class="crit-light '+r[0]+'"></span><div class="crit-text"><b>'+r[1]+'</b>'+r[2]+'</div></div>').join('');
+}
+function renderWsBuild(){
+  const wrap=document.getElementById('wsBuildList');wrap.innerHTML='';
+  WS_BUILD.forEach((r,i)=>{
+    const k='wsBuild'+(i+1),rk='wsBuildRevealed'+(i+1);
+    const div=document.createElement('div');div.className='quiz-item';
+    div.innerHTML='<p class="quiz-q">Situation '+(i+1)+': '+esc(r.situ)+'</p>'
+      +'<textarea data-idx="'+i+'" placeholder="„Weil …, …“"></textarea>'
+      +'<p style="margin-top:.6rem"><button class="btn small" data-check="'+i+'">Prüfen</button> <button class="btn ghost small" data-reveal="'+i+'">Musterlösung anzeigen</button></p>'
+      +'<div id="wsResult'+i+'" style="margin-top:.6rem">'+analyzeWs(state[k])+'</div>'
+      +'<p class="quiz-note'+(state[rk]?' on':'')+'">Muster: '+r.model+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('textarea[data-idx]').forEach(t=>{
+    const i=+t.dataset.idx;t.value=state['wsBuild'+(i+1)]||'';
+    t.addEventListener('input',()=>{state['wsBuild'+(i+1)]=t.value;scheduleSave();});
+  });
+  wrap.querySelectorAll('[data-check]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.check;
+    document.getElementById('wsResult'+i).innerHTML=analyzeWs(state['wsBuild'+(i+1)]||'');
+  }));
+  wrap.querySelectorAll('[data-reveal]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.reveal;state['wsBuildRevealed'+(i+1)]=true;scheduleSave();renderWsBuild();
+  }));
+}
+
+/* ================= Name it: Diagnose ================= */
+function renderDiag(){
+  const wrap=document.getElementById('diagList');wrap.innerHTML='';
+  DIAG_ITEMS.forEach((s,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    let btns='';
+    SCREWS.forEach((sc,idx)=>{
+      const n=idx+1;
+      const sel=state.diagSel[i].includes(n);
+      const showCorrect=state.diagRevealed[i]&&s.correct.includes(n);
+      let cls='num-btn'+(sel?' sel':'')+(showCorrect?' correct':'');
+      let style=showCorrect?' style="background:var(--petrol);border-color:var(--petrol)"':'';
+      btns+='<button class="'+cls+'" data-i="'+i+'" data-n="'+n+'"'+style+'>'+n+' · '+sc.name.replace(' (square up)','')+'</button>';
+    });
+    const names=s.correct.length?s.correct.map(n=>n+' · '+SCREWS[n-1].name.replace(' (square up)','')).join(', '):'keine – hier sitzt alles';
+    div.innerHTML='<p class="situ-text">'+(i+1)+'. '+esc(s.t)+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p style="margin-top:.6rem"><button class="btn ghost small" data-reveal="'+i+'">Auflösung zeigen</button></p>'
+      +'<p class="situ-note'+(state.diagRevealed[i]?' on':'')+'"><strong>Verletzt: '+names+'.</strong> '+s.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,n=+b.dataset.n;
+    const arr=state.diagSel[i];const idx=arr.indexOf(n);
+    if(idx>-1)arr.splice(idx,1);else arr.push(n);
+    scheduleSave();renderDiag();
+  }));
+  wrap.querySelectorAll('[data-reveal]').forEach(b=>b.addEventListener('click',()=>{
+    state.diagRevealed[+b.dataset.reveal]=true;scheduleSave();renderDiag();
+  }));
+}
+document.getElementById('diagResetBtn').addEventListener('click',()=>{
+  state.diagSel=DIAG_ITEMS.map(()=>[]);state.diagRevealed=DIAG_ITEMS.map(()=>false);
+  scheduleSave();renderDiag();showToast('Diagnose zurückgesetzt.');
+});
+
+/* ================= Körper-Labor ================= */
+function renderLab(which){
+  const key=which==='A'?'labA':'labB';
+  const wrap=document.getElementById(which==='A'?'labA':'labB');
+  wrap.innerHTML='';
+  CHECKLIST.forEach((c,i)=>{
+    const id=key+'_'+i;
+    const row=document.createElement('div');row.className='check-row';
+    row.innerHTML='<input type="checkbox" id="'+id+'"'+(state[key][i]?' checked':'')+'><label for="'+id+'">'+c+'</label>';
+    row.querySelector('input').addEventListener('change',e=>{
+      state[key][i]=e.target.checked;scheduleSave();renderLabScores();renderSummary();
+    });
+    wrap.appendChild(row);
+  });
+}
+function renderLabScores(){
+  const a=state.labA.filter(Boolean).length,b=state.labB.filter(Boolean).length;
+  document.getElementById('labAScore').textContent=a+' von '+CHECKLIST.length+' Kriterien erfüllt';
+  document.getElementById('labBScore').textContent=b+' von '+CHECKLIST.length+' Kriterien erfüllt';
+  const cmp=document.getElementById('labCompare');
+  const bothDone=(a>0||b>0);
+  if(!bothDone){cmp.classList.remove('on');cmp.innerHTML='';return;}
+  let txt;
+  if(b>a)txt='<strong>Durchgang B liegt '+(b-a)+' Kriterien vor A.</strong> Genau darum geht es: Der Unterschied ist keine Persönlichkeitsfrage, sondern eine Handlungsfrage – und er ist in zwei Minuten herstellbar. Was du hier bewusst getan hast, muss diese Woche in den Unterricht.';
+  else if(b===a)txt='<strong>Gleichstand.</strong> Zwei Möglichkeiten: Entweder sitzt Variante 4 bei dir schon – dann ist der Action Step das Halten unter Stress. Oder du warst in B nachsichtiger mit dir als in A. Sprich beide Durchgänge noch einmal, diesmal mit der Checkliste vor Augen.';
+  else txt='<strong>Durchgang A war stärker.</strong> Das passiert, wenn man in B zu sehr auf die Technik achtet und dabei verkrampft. Sprich B noch einmal – nur zwei Dinge im Kopf: Pause davor, Satzende unten. Der Rest kommt von allein.';
+  cmp.innerHTML='<p>'+txt+'</p>';
+  cmp.classList.add('on');
+}
+
+/* ================= Reset-Anker ================= */
+function renderChips(){
+  document.querySelectorAll('[data-chips]').forEach(row=>{
+    const k=row.dataset.chips;row.innerHTML='';
+    (ANKER_CHIPS[k]||[]).forEach(v=>{
+      const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=v;
+      b.addEventListener('click',()=>{
+        state[k]=v;
+        const el=document.getElementById(k);if(el)el.value=v;
+        scheduleSave();renderAnchorCard();renderSummary();
+      });
+      row.appendChild(b);
+    });
+  });
+}
+function renderAnchorCard(){
+  const c=document.getElementById('anchorCard');
+  const rows=[
+    ['Mein Auslöser',state.ankAusl],
+    ['Mein Körperanker (2 Sek.)',state.ankKoerper],
+    ['Mein innerer Satz',state.ankSatz],
+    ['Erste äußere Reaktion',state.ankReaktion]
+  ];
+  c.innerHTML='<h4>Reset-Anker</h4>'+rows.map(r=>
+    '<div class="aline"><b>'+r[0]+'</b>'+esc(r[1]||'…')+'</div>').join('');
+}
+function renderHard(){
+  const wrap=document.getElementById('hardList');wrap.innerHTML='';
+  HARDCARDS.forEach((h,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    div.innerHTML='<p class="situ-text">'+h.tag+'</p><p style="font-size:.94rem;margin-top:.3rem">'+esc(h.t)+'</p>'
+      +'<p class="hint" style="margin-top:.4rem">Lernziel: '+h.goal+'</p>'
+      +'<div class="check-row" style="margin-top:.5rem"><input type="checkbox" id="hard'+i+'"'+(state.hardDone[i]?' checked':'')+'><label for="hard'+i+'">Durchgespielt: Anker gelaufen, Reaktion laut gesprochen.</label></div>';
+    div.querySelector('input').addEventListener('change',e=>{
+      state.hardDone[i]=e.target.checked;scheduleSave();renderSummary();
+    });
+    wrap.appendChild(div);
+  });
+}
+
+/* ================= Szenario-Simulator ================= */
+function renderScenarios(){
+  const wrap=document.getElementById('scenarioList');wrap.innerHTML='';
+  SCENARIOS.forEach((s,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let html='<p class="quiz-q">'+s.tag+'</p><p style="font-size:.94rem;margin-top:.4rem">'+esc(s.situ)+'</p>';
+    html+='<span class="step-label">'+s.s1q+'</span><div class="quiz-opts">';
+    s.s1.forEach((o,j)=>{
+      const sel=state.scenarioS1[i]===j+1;
+      html+='<button class="quiz-opt'+(sel?(o.ok?' right':' wrong'):'')+'" data-i="'+i+'" data-j="'+j+'" data-step="1">'+o.t+'</button>';
+    });
+    html+='</div>';
+    if(state.scenarioS1[i]){
+      const c=s.s1[state.scenarioS1[i]-1];
+      html+='<p class="quiz-note on">'+(c.ok?'✓ ':'✗ ')+c.note+'</p>';
+      html+='<span class="step-label">'+s.s2q+'</span><div class="quiz-opts">';
+      s.s2.forEach((o,j)=>{
+        const sel=state.scenarioS2[i]===j+1;
+        html+='<button class="quiz-opt'+(sel?(o.ok?' right':' wrong'):'')+'" data-i="'+i+'" data-j="'+j+'" data-step="2">'+o.t+'</button>';
+      });
+      html+='</div>';
+      if(state.scenarioS2[i]){
+        const c2=s.s2[state.scenarioS2[i]-1];
+        html+='<p class="quiz-note on">'+(c2.ok?'✓ ':'✗ ')+c2.note+'</p>';
+      }
+    }
+    div.innerHTML=html;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    if(b.dataset.step==='1'){state.scenarioS1[i]=j+1;}
+    else{state.scenarioS2[i]=j+1;}
+    scheduleSave();renderScenarios();renderScenarioSummary();
+  }));
+}
+function scenarioScore(){
+  let n=0;
+  SCENARIOS.forEach((s,i)=>{
+    if(state.scenarioS1[i]&&s.s1[state.scenarioS1[i]-1].ok)n++;
+    if(state.scenarioS2[i]&&s.s2[state.scenarioS2[i]-1].ok)n++;
+  });
+  return n;
+}
+function scenarioDone(){
+  return SCENARIOS.filter((s,i)=>state.scenarioS1[i]&&state.scenarioS2[i]).length;
+}
+function renderScenarioSummary(){
+  const el=document.getElementById('scenarioSummary');
+  if(scenarioDone()<SCENARIOS.length){el.classList.remove('on');el.innerHTML='';return;}
+  const ankerFirst=SCENARIOS.filter((s,i)=>state.scenarioS1[i]&&s.s1[state.scenarioS1[i]-1].ok).length;
+  el.innerHTML='<p><strong>'+scenarioScore()+' von 6 Zügen tragfähig – davon '+ankerFirst+' von 3 im ersten Zug.</strong></p>'
+   +'<p style="margin-top:.6rem">Das Muster über alle drei Karten hinweg ist immer dasselbe: <em>erst der Anker, dann kurz und formal, Inhaltliches vertagen.</em> Was sich steigert, ist die Provokation – nicht deine Antwort. Genau das macht sie berechenbar, und Berechenbarkeit ist der Kern emotionaler Konstanz.</p>';
+  el.classList.add('on');
+}
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+function renderWeekChart(){
+  const days=[['ankMo','Mo'],['ankDi','Di'],['ankMi','Mi'],['ankDo','Do'],['ankFr','Fr']];
+  const vals=days.map(([k])=>parseFloat(state[k])||0);
+  const max=Math.max(...vals,1);
+  const wrap=document.getElementById('weekChart');wrap.innerHTML='';
+  days.forEach(([k,label],i)=>{
+    const v=vals[i];
+    const h=v>0?Math.max((v/max)*100,4):2;
+    const col=document.createElement('div');col.className='chart-col';
+    col.innerHTML='<div class="chart-val">'+(state[k]!==''?v:'–')+'</div><div class="chart-bar" style="height:'+h+'%"></div><div class="chart-label">'+label+'</div>';
+    wrap.appendChild(col);
+  });
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(['ankAusl','ankKoerper','ankSatz','ankReaktion'].includes(k))renderAnchorCard();
+        if(['ankMo','ankDi','ankMi','ankDo','ankFr'].includes(k))renderWeekChart();
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function varScore(){return state.varSel.reduce((a,v,i)=>a+(v===VARIANTS[i].correct?1:0),0);}
+function wsScore(){return state.wsSel.reduce((a,v,i)=>a+(v===WS_ITEMS[i].correct?1:0),0);}
+function ankerComplete(){return !!(state.ankAusl&&state.ankKoerper&&state.ankSatz);}
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const screwsDone=state.screwRevealed.filter(Boolean).length;
+  const wsDone=state.wsRevealed.filter(Boolean).length;
+  const diagDone=state.diagRevealed.filter(Boolean).length;
+  const labA=state.labA.filter(Boolean).length,labB=state.labB.filter(Boolean).length;
+  const hard=state.hardDone.filter(Boolean).length;
+  const rows=[
+    ['Vier-Varianten-Demo', state.varRevealed?'✓ '+varScore()+'/'+VARIANTS.length+' richtig zugeordnet':'noch offen',state.varRevealed],
+    ['Die 4 Stellschrauben', screwsDone===SCREWS.length?'✓ alle angesehen':screwsDone+'/'+SCREWS.length,screwsDone===SCREWS.length],
+    ['Warm/Strict · Erkennen', wsDone===WS_ITEMS.length?'✓ '+wsScore()+'/'+WS_ITEMS.length+' richtig':wsDone+'/'+WS_ITEMS.length,wsDone===WS_ITEMS.length],
+    ['Warm/Strict · eigene Sätze', (state.wsBuild1&&state.wsBuild2)?'✓ beide formuliert':(state.wsBuild1||state.wsBuild2?'1/2':'noch offen'),!!(state.wsBuild1&&state.wsBuild2)],
+    ['Diagnose Stellschrauben', diagDone===DIAG_ITEMS.length?'✓ geprüft':diagDone+'/'+DIAG_ITEMS.length,diagDone===DIAG_ITEMS.length],
+    ['Körper-Labor A/B', (labA||labB)?'A: '+labA+'/'+CHECKLIST.length+' · B: '+labB+'/'+CHECKLIST.length:'noch offen',labB>0],
+    ['Registerwechsel gesprochen', state.regDone?'✓ erledigt':'noch offen',!!state.regDone],
+    ['Reset-Anker-Karte', ankerComplete()?'✓ Pflichtfelder ausgefüllt':'noch offen',ankerComplete()],
+    ['Härtetest C1–C3', hard===HARDCARDS.length?'✓ dreimal durchgespielt':hard+'/'+HARDCARDS.length,hard===HARDCARDS.length],
+    ['Provokations-Simulator', scenarioDone()===SCENARIOS.length?'✓ '+scenarioScore()+'/6 Züge tragfähig':scenarioDone()+'/'+SCENARIOS.length,scenarioDone()===SCENARIOS.length],
+    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 4 · PRÄSENZ: KÖRPER, STIMME, REGISTER – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— VIER-VARIANTEN-DEMO —\n'+varScore()+' von '+VARIANTS.length+' richtig zugeordnet\n';
+  t+='\n— WARM/STRICT —\nErkennen: '+wsScore()+' von '+WS_ITEMS.length+' richtig\n';
+  t+='Satz 1 (Hausaufgabe): '+(state.wsBuild1||'–')+'\n';
+  t+='Satz 2 (schludrige Abgabe): '+(state.wsBuild2||'–')+'\n';
+  t+='\n— DIAGNOSE STELLSCHRAUBEN —\n'+state.diagRevealed.filter(Boolean).length+' von '+DIAG_ITEMS.length+' geprüft\n';
+  t+='\n— KÖRPER-LABOR —\nDurchgang A: '+state.labA.filter(Boolean).length+'/'+CHECKLIST.length+' Kriterien · Wirkung: '+(state.labANote||'–')+'\n';
+  t+='Durchgang B (Variante 4): '+state.labB.filter(Boolean).length+'/'+CHECKLIST.length+' Kriterien · Wirkung: '+(state.labBNote||'–')+'\n';
+  t+='Registerwechsel gesprochen: '+(state.regDone?'ja':'nein')+' · warmer Satz: '+(state.regLob||'–')+'\n';
+  t+='\n— RESET-ANKER —\nAuslöser: '+(state.ankAusl||'–')+'\nKörperanker: '+(state.ankKoerper||'–')+'\nInnerer Satz: '+(state.ankSatz||'–')+'\nErste Reaktion: '+(state.ankReaktion||'–')+'\nHärtetest: '+state.hardDone.filter(Boolean).length+' von '+HARDCARDS.length+' durchgespielt\n';
+  t+='\n— PROVOKATIONS-SIMULATOR —\n'+scenarioScore()+' von 6 Zügen tragfähig\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer C3: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\n';
+  t+='Abend-Journal Mo–Fr:\n'+[['Mo','jMo'],['Di','jDi'],['Mi','jMi'],['Do','jDo'],['Fr','jFr']].map(([l,k])=>'  '+l+': '+(state[k]||'–')).join('\n')+'\n';
+  t+='Anker-Strichliste Mo–Fr: '+[state.ankMo,state.ankDi,state.ankMi,state.ankDo,state.ankFr].map(v=>v||'–').join(' / ')+'\n';
+  t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 4 · Präsenz: Körper, Stimme, Register</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 4 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Reset-Anker-Karte (zum Ausschneiden)</h2>';
+  h+='<div class="ankerbox">'
+    +'<div class="l">Mein Auslöser</div><div class="v">'+esc(state.ankAusl||'–')+'</div>'
+    +'<div class="l">Mein Körperanker (2 Sek.)</div><div class="v">'+esc(state.ankKoerper||'–')+'</div>'
+    +'<div class="l">Mein innerer Satz</div><div class="v">'+esc(state.ankSatz||'–')+'</div>'
+    +'<div class="l">Erste äußere Reaktion</div><div class="v">'+esc(state.ankReaktion||'–')+'</div>'
+    +'</div>';
+  h+=f('Härtetest C1–C3 durchgespielt:',state.hardDone.filter(Boolean).length+' von '+HARDCARDS.length);
+  h+='<h2>Warm/Strict – meine Sätze</h2>';
+  WS_BUILD.forEach((r,i)=>{h+=f(r.situ,state['wsBuild'+(i+1)]);});
+  h+=f('Erkennungsübung:',wsScore()+' von '+WS_ITEMS.length+' richtig');
+  h+='<div class="pagebreak"></div><h2>Körper-Labor</h2>';
+  h+=f('Durchgang A – erfüllte Kriterien:',state.labA.filter(Boolean).length+' von '+CHECKLIST.length);
+  h+=f('Durchgang A – Wirkung:',state.labANote);
+  h+=f('Durchgang B (Variante 4) – erfüllte Kriterien:',state.labB.filter(Boolean).length+' von '+CHECKLIST.length);
+  h+=f('Durchgang B – Wirkung:',state.labBNote);
+  h+=f('Registerwechsel gesprochen:',state.regDone?'ja':'nein');
+  h+=f('Mein warmer Satz:',state.regLob);
+  h+='<h2>Provokations-Simulator ('+scenarioScore()+'/6 tragfähig)</h2>';
+  h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
+  h+=f('Transferaufgabe C3:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<div class="pagebreak"></div><h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
+  h+='<h2>Abend-Journal</h2>';
+  [['Montag','jMo'],['Dienstag','jDi'],['Mittwoch','jMi'],['Donnerstag','jDo'],['Freitag','jFr']].forEach(([l,k])=>{h+=f(l+':',state[k]);});
+  h+=f('Anker-Strichliste Mo–Fr:',[state.ankMo,state.ankDi,state.ankMi,state.ankDo,state.ankFr].map(v=>v||'–').join(' / '));
+  h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 4 „Präsenz – Körper, Stimme, Register, Selbstregulation“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul4-woche04-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderVariants();renderScrews();renderWs();renderWsBuild();renderDiag();
+  renderLab('A');renderLab('B');renderLabScores();
+  renderChips();renderAnchorCard();renderHard();
+  renderScenarios();renderScenarioSummary();
+  renderQuiz();renderSteps();updateCommitLabel();renderWeekChart();renderSummary();
+  if(state.varRevealed)document.getElementById('varReveal').classList.add('on');
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht es.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>
