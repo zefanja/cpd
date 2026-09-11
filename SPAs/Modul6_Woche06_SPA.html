@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 6 · Positive Framing &amp; Precise Praise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Ampel-Kriterien ---------- */
+.crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.6rem 0;border-bottom:1px dashed var(--line);cursor:pointer}
+.crit-row:last-child{border-bottom:none}
+.crit-light{width:1.1rem;height:1.1rem;border-radius:50%;flex-shrink:0;margin-top:.15rem;transition:background .15s}
+.crit-light.grey{background:var(--line)}
+.crit-light.red{background:#B0433A}
+.crit-light.amber{background:var(--amber)}
+.crit-light.green{background:var(--petrol)}
+.crit-text{font-size:.9rem}
+.crit-text b{display:block;font-size:.85rem;margin-bottom:.1rem}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+input[type=number]{max-width:6rem}
+input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:1.4rem}
+.range-labels{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);margin-top:.2rem}
+.range-value{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:1.3rem;margin-top:.5rem}
+
+/* ---------- Chips / Kategorien ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+
+/* ---------- Formel-Karten ---------- */
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
+.formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+
+/* ---------- Timer-Trainer ---------- */
+.timer-box{background:var(--card);border:2px solid var(--petrol);border-radius:var(--radius);padding:1.2rem;margin-top:1rem;text-align:center}
+.timer-num{font-family:var(--display);font-weight:800;font-size:2.6rem;color:var(--petrol)}
+.timer-card-text{font-size:1.15rem;font-weight:700;margin-top:.8rem;min-height:3.2em;display:flex;align-items:center;justify-content:center}
+.timer-count{font-size:.9rem;color:var(--muted);margin-top:.5rem}
+.timer-best{font-size:.85rem;color:var(--amber);font-weight:700;margin-top:.3rem}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+.quiz-score{font-weight:700;color:var(--petrol);margin-top:1rem}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Tracker ---------- */
+.chart-wrap{display:flex;align-items:flex-end;gap:.8rem;height:8rem;margin-top:1.1rem;padding:0 .3rem}
+.chart-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.chart-bar{width:100%;max-width:2.4rem;background:var(--petrol);border-radius:6px 6px 0 0;transition:height .4s ease,background .3s;min-height:2px}
+.chart-label{font-size:.72rem;color:var(--muted);margin-top:.4rem;font-weight:600}
+.chart-val{font-size:.72rem;color:var(--ink);font-weight:700;margin-bottom:.2rem}
+.track-day{display:grid;grid-template-columns:2.2rem 1fr 1fr;gap:.6rem;align-items:center;margin-top:.6rem}
+.track-day span{font-size:.85rem;font-weight:700;color:var(--muted)}
+.track-day .lbl{font-size:.72rem;color:var(--muted);display:block;margin-bottom:.15rem}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 6</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 6 · Block 1: Klassenführung &amp; Routinen · Fortbildung Sek I/II</span>
+  <h1>Jede Korrektur ist eine Abhebung. Was, wenn das Konto schon leer ist?</h1>
+  <p class="lead">Woche 5 hat euch die Interventionsleiter gegeben – ihr könnt jetzt korrigieren, ohne den Unterricht zu unterbrechen. Heute geht es um die Kehrseite: Wie ihr korrigiert, sodass die Beziehung dabei WÄCHST statt leidet. Zwei Sprachwerkzeuge, ein Konto, ein Verhältnis: 3:1.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Das Beziehungskonto → das Grammatik-Wunder → zwei Sprachwerkzeuge im Zuordnungsspiel → Umformulierungs-Trainer mit Timer (Kernstück) → Lob-Qualitäts-Check → dein 3:1-Tracker → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lemov T59–T60 (Positive Framing, Precise Praise); Lovell/Dowley, Prinzip 10 („Bank positivity“)</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · HOOK: DAS BEZIEHUNGSKONTO -->
+<section class="screen" data-title="Das Beziehungskonto">
+  <span class="eyebrow">Station 1 · Hook: Das Beziehungskonto</span>
+  <h2>Nicht die Bank mit dem Geld. Die mit der Beziehung.</h2>
+  <p class="lead">Jede Interaktion mit einer Schülerin oder einem Schüler ist eine Buchung: Anerkennung, echtes Interesse, Lob – Einzahlung. Korrektur, Ermahnung, Konsequenz – Abhebung. Denk an deinen anstrengendsten Schüler, deine anstrengendste Schülerin.</p>
+  <div class="card">
+    <label for="acctSlider" style="font-weight:600;font-size:.92rem">Wie ist der Kontostand bei dieser Person gerade – ehrlich?</label>
+    <input type="range" id="acctSlider" min="0" max="10" step="1">
+    <div class="range-labels"><span>tiefrot</span><span>ausgeglichen</span><span>deutlich im Plus</span></div>
+    <div class="range-value" id="acctValue"></div>
+    <p style="margin-top:.8rem"><button class="btn small" id="acctRevealBtn">Was bedeutet das?</button></p>
+  </div>
+  <div class="card reveal" id="acctReveal">
+    <p id="acctRevealText"></p>
+    <p style="margin-top:.6rem">Von einem roten Konto kann man nichts mehr abheben: Jede weitere Korrektur wird als Angriff verbucht, nicht als Führung. Lovell nennt das Prinzip „Bank positivity“ – wer korrigieren können will (und das MUSST ihr, Woche 5), braucht Guthaben.</p>
+    <p class="punchline">Heute lernt ihr zwei Einzahlungs-Werkzeuge.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Grammatik-Wunder →</button></p>
+</section>
+
+<!-- 2 · SEE IT: DAS GRAMMATIK-WUNDER -->
+<section class="screen" data-title="Das Grammatik-Wunder">
+  <span class="eyebrow">Station 2 · See it: Das Grammatik-Wunder</span>
+  <h2>Gleicher Ton, gleiche Länge, gleiches Ziel. Trotzdem ein Unterschied.</h2>
+  <p class="lead">Zu jeder Ansage gibt es zwei Umformulierungen – nur eine davon ist echtes Positive Framing. Die andere trägt das Fehlverhalten weiter, oft getarnt mit einem Giftwort. Finde die echte.</p>
+  <div id="seeList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="seeResetBtn">Zurücksetzen</button> <button class="btn small" id="seeCheckBtn">Alle prüfen</button></p>
+  <div class="card reveal" id="seeReveal">
+    <p><strong>Die Formel:</strong> Ich sehe [den erfüllenden Teil] – ich will [den Zielzustand]. Dazu: anonym korrigieren, namentlich loben – nie umgekehrt.</p>
+    <p style="margin-top:.6rem">Und die Falle: Ein Satz, der weiter das Fehlverhalten beschreibt – auch in freundlichem Ton, auch ohne Schimpfwort – macht dieses Verhalten zur sichtbaren Norm. „Hier wird immer gequatscht“, sagt die Grammatik, auch wenn niemand das Wort „immer“ ernst meint.</p>
+    <p class="punchline">Nicht das Fehlverhalten beschreiben. Den Zielzustand.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den Sprachwerkzeugen →</button></p>
+</section>
+
+<!-- 3 · NAME IT: DIE ZWEI SPRACHWERKZEUGE -->
+<section class="screen" data-title="Die zwei Sprachwerkzeuge">
+  <span class="eyebrow">Station 3 · Name it: Die zwei Sprachwerkzeuge</span>
+  <h2>Zwei Formeln. Plus ein Rückruf aus Woche 4.</h2>
+  <div class="formula-card">
+    <h4>Positive Framing</h4>
+    <p class="f">„Ich sehe [erfüllender Teil] – ich will [Zielzustand].“</p>
+    <p>Annahme des Guten: „Ihr habt vergessen …“ · anonym korrigieren, namentlich loben · Ironie-Verbot.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Precise Praise</h4>
+    <p class="f">konkret · verdient · prozessbezogen</p>
+    <p>Sonst ist es keine Einzahlung, sondern Falschgeld. Verdient heißt: über dem Grundstandard – für bloßes Erfüllen reicht Anerkennung („Danke“). Prozessbezogen heißt: das Vorgehen loben, nicht die Person. Kein Lobsandwich (Lob–Kritik–Lob) – Schüler:innen durchschauen es, und jedes Lob wird zum Vorboten einer Kritik.</p>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Rückruf Woche 4</h4>
+    <p class="f" style="font-size:.98rem;margin-top:.3rem">Warm/Strict: „Weil [Zutrauen], [Standard].“</p>
+    <p style="font-size:.85rem;color:var(--muted)">Der Register-Zwilling von heute: Framing ist die Grammatik der Gruppenansprache, Warm/Strict die der Einzelansprache.</p>
+  </div>
+  <h3 style="margin-top:1.8rem">Zuordnungsspiel: Welches Werkzeug ist das?</h3>
+  <p class="lead">Neun Lehrersätze. Tippe die passende Kategorie an.</p>
+  <div id="matchList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Umformulierungs-Trainer →</button></p>
+</section>
+
+<!-- 4 · DO IT: UMFORMULIERUNGS-TRAINER -->
+<section class="screen" data-title="Umformulierungs-Trainer">
+  <span class="eyebrow">Station 4 · Do it: Umformulierungs-Trainer (Kernstück)</span>
+  <h2>Die Umformulierung muss schneller werden als der Ärger-Reflex.</h2>
+  <p class="lead">Erst die Rekordjagd: 60 Sekunden, so viele Ansagen wie möglich laut umformulieren. Danach übe schriftlich, mit sofortigem Formel-Check.</p>
+
+  <div class="timer-box">
+    <div class="timer-num" id="timerNum">60</div>
+    <div class="timer-card-text" id="timerCardText">Bereit? Drück Start.</div>
+    <p style="margin-top:.8rem">
+      <button class="btn" id="timerStartBtn">▶ Start (60 Sek.)</button>
+      <button class="btn ghost" id="timerNextBtn" disabled>Umformuliert! → nächste</button>
+    </p>
+    <div class="timer-count" id="timerCount"></div>
+    <div class="timer-best" id="timerBestLine"></div>
+  </div>
+
+  <h3 style="margin-top:1.8rem">Schriftliches Training mit Formel-Check</h3>
+  <p class="lead">Tippe deine Umformulierung ein – wir prüfen live auf erfüllenden Teil, Zielzustand und Giftwörter (endlich, schon wieder, immer, nie …).</p>
+  <div id="reframeList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Lob-Qualitäts-Check →</button></p>
+</section>
+
+<!-- 5 · LOB-QUALITÄTS-CHECK -->
+<section class="screen" data-title="Lob-Qualitäts-Check">
+  <span class="eyebrow">Station 5 · Do it: Lob-Qualitäts-Check</span>
+  <h2>Ist das ein präzises Lob – oder Falschgeld?</h2>
+  <p class="lead">Schreib ein Lob, das du diese Woche wirklich aussprechen könntest. Prüfe es dann selbst gegen den Dreiklang.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="lobText">Dein Lobsatz</label>
+      <textarea id="lobText" data-store="lobText" placeholder="z. B. Du hast die Probe gemacht, BEVOR du abgegeben hast – das ist der Unterschied."></textarea>
+    </div>
+    <p class="hint" id="kitschWarn" style="margin-top:.6rem"></p>
+    <h3 style="margin-top:1.1rem">Der Dreiklang – tippe an, was zutrifft</h3>
+    <div id="critList"></div>
+    <p class="hint" id="critScoreLine" style="margin-top:.7rem"></p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum 3:1-Tracker →</button></p>
+</section>
+
+<!-- 6 · 3:1-TRACKER -->
+<section class="screen" data-title="3:1-Tracker">
+  <span class="eyebrow">Station 6 · Tracker: Dein 3:1-Konto</span>
+  <h2>Drei Einzahlungen pro Abhebung. Gezählt, nicht gefühlt.</h2>
+  <p class="lead">Trag für eine Stunde pro Tag ehrlich mit: wie oft Anerkennung/Lob (+), wie oft Korrektur (–). Ironie zählt als –.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="acctName">Dein „rotes Konto“ diese Woche <span class="sub">Bleibt nur bei dir, nicht im Export an den Coach sichtbar über den Namen hinaus.</span></label>
+      <input type="text" id="acctName" data-store="acctName" placeholder="Name oder Kürzel">
+    </div>
+    <div id="trackDays"></div>
+    <div class="chart-wrap" id="ratioChart"></div>
+    <p class="hint" id="ratioHint" style="margin-top:.6rem"></p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Sieben Fragen zu Woche 6 – plus Auffrischung.</h2>
+  <p class="lead">Ein Teil der Fragen kommt aus den Vormodulen – so bleiben Woche 3–5 präsent.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Ein leistungsstarker Schüler gibt eine hingeschluderte Arbeit ab. Formuliere deine Rückmeldung als Warm/Strict-Satz plus einen präzisen Prozess-Hinweis.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Weil … nehme ich das so nicht an – bis morgen mit … Dein Vorgehen bei … war übrigens …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: „Weil ich weiß, was du kannst, nehme ich das so nicht an – bis morgen mit Proberechnung. Dein Ansatz in Aufgabe 2 war übrigens der eleganteste im Kurs: DEN will ich sauber ausgeführt sehen.“</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Schritt – und nur einen.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="bestQuotient">Freitags: mein bester Tages-Quotient <span class="sub">z. B. „4:1“ oder „bei der 8b: 5:1“</span></label>
+      <input type="text" id="bestQuotient" data-store="bestQuotient" placeholder="…">
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche schließen wir Block 1: Übergänge, das Stundenende – und das Werkzeug für danach: das strukturierte Nachgespräch mit dem Schüler, dem ihr am liebsten aus dem Weg geht. Plus: euer erster Meilenstein mit Video-Selbstanalyse. Bringt euer Playbook mit – es bekommt sein Deckblatt.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul6-woche06-framing-praise"></script>
+<script>
+/* ================= Daten ================= */
+const ACCT_TEXT=[
+ {max:3,t:'Tiefrot. Jede weitere Korrektur wird gerade nicht als Führung gehört, sondern als Angriff verbucht.'},
+ {max:6,t:'Ausgeglichen bis leicht rot. Es geht – aber ihr habt wenig Puffer für die nächste nötige Korrektur.'},
+ {max:10,t:'Im Plus. Von hier aus kann korrigiert werden, ohne dass es als Angriff ankommt.'}
+];
+
+const GIFTWOERTER=['endlich','schon wieder','immer','nie wieder',' nie ','ständig','schon wieder mal'];
+const POS_MARKERS=['ich sehe','ich will','ihr habt vergessen','ich glaube, ihr habt'];
+
+const SEE_PAIRS=[
+ {neg:'„Hört auf zu quatschen!“',
+  a:'Ich sehe fast alle Hefte offen – ich will alle sehen.',
+  b:'Könnt ihr ENDLICH mal ruhig sein?',
+  correct:1,
+  note:'B beschreibt weiter das Fehlverhalten und trägt das Giftwort „endlich“ – das macht Quatschen zur Norm. A zeigt den erfüllenden Teil und den Zielzustand.'},
+ {neg:'„Warum arbeitet ihr da hinten schon wieder nicht?“',
+  a:'Immer dasselbe hinten – wann klappt das mal?',
+  b:'Zwei Tische fehlen noch – ihr wisst, was zu tun ist.',
+  correct:2,
+  note:'A wiederholt den Vorwurf mit Giftwort „immer“. B benennt anonym den Zielzustand.'},
+ {neg:'„Immer muss ich alles dreimal sagen!“',
+  a:'Ihr habt vergessen, dass wir im Flüsterton arbeiten – ab jetzt wieder.',
+  b:'Schon WIEDER zu laut hier.',
+  correct:1,
+  note:'A unterstellt Gutwilligkeit („habt vergessen“). B ist reine Wiederholung des Vorwurfs mit Giftwort „schon wieder“.'}
+];
+
+const CATS=['Positive Framing','Precise Praise','Warm/Strict','Ironie-Falle','Lobsandwich'];
+const MATCH_ITEMS=[
+ {t:'„Ich sehe fast alle Hefte offen – ich will alle sehen.“',cat:0,note:'Beschreibt den erfüllenden Teil + Zielzustand – die Grundformel.'},
+ {t:'„Zwei Tische fehlen noch – ihr wisst, was zu tun ist.“',cat:0,note:'Anonym korrigiert, Zielzustand benannt, Gutwilligkeit unterstellt.'},
+ {t:'„Deine Gliederung in Aufgabe 2 war der sauberste Ansatz im Kurs.“',cat:1,note:'Konkret, verdient, ergebnisbezogen – kein Kitschwort.'},
+ {t:'„Du hast die Probe gemacht, BEVOR du abgegeben hast – das ist der Unterschied.“',cat:1,note:'Prozessbezogen: das Vorgehen wird gelobt, nicht die Person.'},
+ {t:'„Weil ich weiß, was du kannst, nehme ich das so nicht an – bis morgen mit Proberechnung.“',cat:2,note:'Zutrauen + unverhandelbarer Standard, ein Satz (Woche 4).'},
+ {t:'„Weil du das kannst, erwarte ich heute mehr Sorgfalt.“',cat:2,note:'Gleiche Formel: Weil [Zutrauen], [Standard].'},
+ {t:'„SCHÖN, dass jetzt auch die Letzten ihr Buch gefunden haben.“',cat:3,note:'Positive Framing getarnt – der Ton verrät die Abhebung.'},
+ {t:'„Wie NETT, dass ihr euch auch mal beteiligt.“',cat:3,note:'Ironie ist eine Abhebung im Einzahlungs-Kostüm.'},
+ {t:'„Super gemacht – aber leider viele Fehler drin – nächstes Mal wird’s bestimmt besser!“',cat:4,note:'Lob–Kritik–Lob: Jedes künftige Lob wird als Vorbote gehört.'}
+];
+
+const REFRAME_CARDS=[
+ {neg:'„Hört auf zu quatschen!“',sample:'„Ich höre fast nur Stifte – ich will nur Stifte hören.“'},
+ {neg:'„Warum seid ihr immer noch nicht fertig?“',sample:'„Die meisten sind bei Aufgabe 3 – noch zwei Minuten, dann vergleichen wir.“'},
+ {neg:'„Immer kommst du zu spät!“',sample:'„Morgen sehe ich dich um 8:00 an deinem Platz – ich weiß, dass du das kannst.“ (+ privat, Stufe 4!)'},
+ {neg:'„Nicht abschreiben!“',sample:'„Eigene Lösung, eigenes Heft – ich will DEINEN Denkweg sehen.“'},
+ {neg:'„Schon wieder keine Hausaufgaben, Klasse 8b!“',sample:'„Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen. Ihr wisst, dass ich nachhalte.“ (nur wenn wahr!)'},
+ {neg:'„Du hörst mir nie zu.“',sample:'„Blick zu mir, Emre – dieser Teil betrifft dich direkt.“'},
+ {neg:'„Das ist doch viel zu laut hier!“',sample:'„Flüsterlautstärke – nur euer Tisch hört euch.“'},
+ {neg:'„Wer jetzt nicht fertig wird, hat Pech gehabt.“',sample:'„Noch drei Minuten – schreibt den Satz zu Ende, an dem ihr gerade seid.“'},
+ {neg:'„Räumt endlich mal richtig auf!“',sample:'„Erstens Scheren in die Kiste, zweitens Tisch leer – zwei Tische sind schon fertig.“'},
+ {neg:'„Musst du schon wieder dazwischenrufen?“',sample:'„Hand heben, warten, drankommen – du weißt, wie es geht, und deine Idee will ich hören.“'}
+];
+
+const CRIT_LABELS=[
+ {b:'Konkret',d:'Was genau war gut? (nicht „super gemacht“, sondern das Detail.)'},
+ {b:'Verdient',d:'Über dem Grundstandard – für bloßes Erfüllen reicht Anerkennung.'},
+ {b:'Prozessbezogen',d:'Das Vorgehen wird gelobt, nicht die Person.'}
+];
+const KITSCH_WORDS=['super gemacht','toll gemacht','klasse gemacht','schön gemacht','gut gemacht','richtig gut','einfach toll'];
+
+const DAYS=[['Mo','Montag'],['Di','Dienstag'],['Mi','Mittwoch'],['Do','Donnerstag'],['Fr','Freitag']];
+
+const QUIZ=[
+ {q:'F1. Warum kein Lobsandwich?',
+  opts:[
+   {t:'Es kostet zu viel Zeit',ok:false,note:'Nicht der Kernpunkt.'},
+   {t:'Es vergiftet Lob: Jedes Lob wird zum Vorboten von Kritik',ok:true,note:'Genau – nach dem zweiten Mal wird jedes Lob als Ankündigung gehört.'},
+   {t:'Lob ist grundsätzlich schädlich',ok:false,note:'Überkorrektur – es geht um die Struktur, nicht um Lob an sich.'},
+   {t:'Kritik gehört sich nicht',ok:false,note:'Kritik verdient einen eigenen, ehrlichen Satz – kein Brötchen.'}
+  ]},
+ {q:'F2. „Super gemacht!“ zur bloß erledigten Routineaufgabe ist …',
+  opts:[
+   {t:'motivierend – Lob schadet nie',ok:false,note:'DER Kernmythos dieser Stunde.'},
+   {t:'Lob-Inflation – Anerkennung („Danke“) hätte gereicht',ok:true,note:'Genau – wer Grundverhalten bejubelt, erklärt es zur Ausnahme.'},
+   {t:'in Ordnung bei schwachen SuS',ok:false,note:'Gut gemeinte Abwertung.'},
+   {t:'manipulativ',ok:false,note:'Nicht der Kernpunkt.'}
+  ]},
+ {q:'F3. „Du bist einfach ein Naturtalent in Deutsch!“ – Risiko?',
+  opts:[
+   {t:'keins, Persönlichkeitsstärkung',ok:false,note:'Klingt gut gemeint, ist aber die Falle.'},
+   {t:'Personen-Lob wird bei der nächsten schweren Aufgabe zur Identitäts-Hypothek',ok:true,note:'Genau – wer für Schlausein gelobt wurde, riskiert beim Fehler die Identität.'},
+   {t:'andere werden neidisch',ok:false,note:'Teilrichtig, nicht der Kern.'},
+   {t:'Eltern beschweren sich',ok:false,note:'Kein pädagogisches Argument.'}
+  ]},
+ {q:'F4. „SCHÖN, dass jetzt auch die Letzten ihr Buch gefunden haben“ ist …',
+  opts:[
+   {t:'Positive Framing',ok:false,note:'Die Tarnung!'},
+   {t:'Ironie – eine Abhebung im Einzahlungs-Kostüm',ok:true,note:'Genau – Ironie tarnt sich als Einzahlung, ist aber eine Abhebung.'},
+   {t:'präzises Lob',ok:false,note:'Kein echtes Lob – der Ton verrät es.'},
+   {t:'neutral',ok:false,note:'Nichts an diesem Satz ist neutral.'}
+  ]},
+ {q:'F5 (🔁 Auffrischung Woche 4). Warm/Strict bedeutet:',
+  opts:[
+   {t:'mal warm, mal streng – je nach Tagesform abwechseln',ok:false,note:'Das ODER, nicht das UND.'},
+   {t:'gleichzeitig: hoher Standard als Ausdruck von Zutrauen',ok:true,note:'Genau – beides zusammen, in einem Satz.'},
+   {t:'streng zu Jungen, warm zu Mädchen',ok:false,note:'Nichts mit dem Prinzip zu tun.'},
+   {t:'streng im Unterricht, warm in der Pause',ok:false,note:'Plausibel klingende, aber falsche Trennung.'}
+  ]},
+ {q:'🔁 Woche 3: Der Anweisungs-Vierercheck lautet:',
+  opts:[
+   {t:'freundlich, begründet, wiederholt, laut',ok:false,note:'Klingt fürsorglich, ist aber die Anleitung zum Wortschwall.'},
+   {t:'konkret, sequenziell, beobachtbar, ≤ 12 Wörter pro Schritt',ok:true,note:'Genau – die vier Kriterien aus Woche 3.'},
+   {t:'kurz, streng, wiederholt, kontrolliert',ok:false,note:'Zwei der Wörter stimmen ungefähr, das Raster nicht.'},
+   {t:'angekündigt, nummeriert, bebildert, abgefragt',ok:false,note:'Nummeriert ja – der Rest gehört nicht zum Check.'}
+  ]},
+ {q:'🔁 Woche 5: Die Einstiegsregel der Interventionsleiter lautet:',
+  opts:[
+   {t:'So laut wie nötig, so schnell wie möglich',ok:false,note:'Genau das Gegenteil des Prinzips.'},
+   {t:'So niedrig, so kurz, so privat wie möglich – sofort zurück zum Stoff',ok:true,note:'Der zentrale Merksatz aus Woche 5.'},
+   {t:'Immer bei Stufe 3 einsteigen, das ist sicher',ok:false,note:'Es gibt keine Standard-Einstiegsstufe – die kleinste wirksame zählt.'},
+   {t:'Erst warnen, dann konsequent durchziehen',ok:false,note:'Klingt konsequent, ist aber kein Leiter-Prinzip.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'3:1 mitzählen (Standard)',
+  text:'3:1 – auf jede Korrektur kommen drei konkrete positive Rückmeldungen. Ich zähle in EINER Stunde pro Tag ehrlich mit (Strichliste) und notiere freitags meinen besten Tages-Quotienten.'},
+ {id:'annahme',label:'Annahme-des-Guten-Woche (Alternative)',
+  text:'Jede Korrektur beginnt mit „Ihr habt vergessen …“ / „Ich glaube, ihr habt überhört …“.'},
+ {id:'vielkritiker',label:'Ein gezieltes Lob täglich (Alternative)',
+  text:'Nur beim anstrengendsten Schüler / bei der anstrengendsten Schülerin: ein verdientes, präzises Lob pro Tag, gezielt gesucht.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',
+ acctSlider:5,acctRevealed:false,
+ seeSel:SEE_PAIRS.map(()=>0),seeRevealed:false,
+ matchSel:MATCH_ITEMS.map(()=>0),
+ reframeText:REFRAME_CARDS.map(()=>''),
+ timerBest:0,
+ lobText:'',lobCrit:CRIT_LABELS.map(()=>false),
+ acctName:'',
+ track:{},
+ quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+ actionStep:'standard',bestQuotient:'',
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
+DAYS.forEach(([k])=>{state.track['p'+k]='';state.track['m'+k]='';});
+const STORE_KEY='modul6-woche06-framing-praise';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m6test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+function normalizeState(){
+  if(!Array.isArray(state.seeSel)||state.seeSel.length!==SEE_PAIRS.length)state.seeSel=SEE_PAIRS.map(()=>0);
+  if(!Array.isArray(state.matchSel)||state.matchSel.length!==MATCH_ITEMS.length)state.matchSel=MATCH_ITEMS.map(()=>0);
+  if(!Array.isArray(state.reframeText)||state.reframeText.length!==REFRAME_CARDS.length)state.reframeText=REFRAME_CARDS.map(()=>'');
+  if(!Array.isArray(state.lobCrit)||state.lobCrit.length!==CRIT_LABELS.length)state.lobCrit=CRIT_LABELS.map(()=>false);
+  if(!state.track||typeof state.track!=='object')state.track={};
+  DAYS.forEach(([k])=>{if(state.track['p'+k]===undefined)state.track['p'+k]='';if(state.track['m'+k]===undefined)state.track['m'+k]='';});
+  if(!Array.isArray(state.quizSel))state.quizSel=[];
+  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Beziehungskonto ================= */
+const acctSliderEl=document.getElementById('acctSlider');
+function acctText(v){return (ACCT_TEXT.find(x=>v<=x.max)||ACCT_TEXT[ACCT_TEXT.length-1]).t;}
+function renderAcct(){
+  acctSliderEl.value=state.acctSlider;
+  document.getElementById('acctValue').textContent=state.acctSlider+' / 10';
+  document.getElementById('acctRevealText').textContent=acctText(state.acctSlider);
+}
+acctSliderEl.addEventListener('input',()=>{
+  state.acctSlider=+acctSliderEl.value;scheduleSave();
+  document.getElementById('acctValue').textContent=state.acctSlider+' / 10';
+  document.getElementById('acctRevealText').textContent=acctText(state.acctSlider);
+});
+document.getElementById('acctRevealBtn').addEventListener('click',()=>{
+  state.acctRevealed=true;scheduleSave();
+  document.getElementById('acctReveal').classList.add('on');
+});
+
+/* ================= See it: Grammatik-Wunder ================= */
+function renderSee(){
+  const wrap=document.getElementById('seeList');wrap.innerHTML='';
+  SEE_PAIRS.forEach((v,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const opts=[v.a,v.b];
+    let btns='';
+    opts.forEach((w,j)=>{
+      const sel=state.seeSel[i]===j+1;
+      let c='num-btn'+(sel?' sel':'');
+      let style='';
+      if(state.seeRevealed&&j+1===v.correct){c+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(state.seeRevealed&&sel){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+style+'>'+(j===0?'A · ':'B · ')+w+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+v.neg+'</p>'
+      +'<div class="num-row" style="flex-direction:column">'+btns+'</div>'
+      +'<p class="situ-note'+(state.seeRevealed?' on':'')+'"><strong>Version '+(v.correct===1?'A':'B')+' ist echtes Positive Framing.</strong> '+v.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    if(state.seeRevealed)return;
+    state.seeSel[+b.dataset.i]=+b.dataset.j+1;scheduleSave();renderSee();
+  }));
+}
+document.getElementById('seeCheckBtn').addEventListener('click',()=>{
+  state.seeRevealed=true;scheduleSave();renderSee();
+  document.getElementById('seeReveal').classList.add('on');
+});
+document.getElementById('seeResetBtn').addEventListener('click',()=>{
+  state.seeSel=SEE_PAIRS.map(()=>0);state.seeRevealed=false;scheduleSave();renderSee();
+  document.getElementById('seeReveal').classList.remove('on');
+});
+
+/* ================= Name it: Zuordnungsspiel ================= */
+function renderMatch(){
+  const wrap=document.getElementById('matchList');wrap.innerHTML='';
+  MATCH_ITEMS.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const sel=state.matchSel[i];
+    let chips='';
+    CATS.forEach((c,j)=>{
+      const isSel=sel===j+1;
+      let cls='cat-chip'+(isSel?' sel':'');
+      if(sel&&j+1===item.cat+1){cls+=' correct';}
+      else if(sel&&isSel){cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+c+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+item.t+'</p>'
+      +'<div class="chip-row">'+chips+'</div>'
+      +'<p class="situ-note'+(sel?' on':'')+'"><strong>'+CATS[item.cat]+'.</strong> '+item.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.matchSel[+b.dataset.i]=+b.dataset.j+1;scheduleSave();renderMatch();
+  }));
+}
+
+/* ================= Do it: Timer-Trainer ================= */
+let timerRunning=false,timerSeconds=60,timerInterval=null,timerCardIdx=0,timerCount=0,timerOrder=[];
+function shuffledOrder(){
+  const idx=REFRAME_CARDS.map((_,i)=>i);
+  for(let i=idx.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[idx[i],idx[j]]=[idx[j],idx[i]];}
+  return idx;
+}
+function renderTimerBest(){
+  document.getElementById('timerBestLine').textContent=state.timerBest>0?('Bisheriger Rekord: '+state.timerBest+' Karten in 60 Sekunden'):'';
+}
+document.getElementById('timerStartBtn').addEventListener('click',()=>{
+  timerRunning=true;timerSeconds=60;timerCount=0;timerCardIdx=0;timerOrder=shuffledOrder();
+  document.getElementById('timerStartBtn').disabled=true;
+  document.getElementById('timerNextBtn').disabled=false;
+  document.getElementById('timerNum').textContent=timerSeconds;
+  document.getElementById('timerCardText').textContent=REFRAME_CARDS[timerOrder[0]].neg;
+  document.getElementById('timerCount').textContent='Umformuliert: 0';
+  clearInterval(timerInterval);
+  timerInterval=setInterval(()=>{
+    timerSeconds--;
+    document.getElementById('timerNum').textContent=timerSeconds;
+    if(timerSeconds<=0)endTimerRound();
+  },1000);
+});
+document.getElementById('timerNextBtn').addEventListener('click',()=>{
+  if(!timerRunning)return;
+  timerCount++;
+  timerCardIdx=(timerCardIdx+1)%timerOrder.length;
+  document.getElementById('timerCardText').textContent=REFRAME_CARDS[timerOrder[timerCardIdx]].neg;
+  document.getElementById('timerCount').textContent='Umformuliert: '+timerCount;
+});
+function endTimerRound(){
+  timerRunning=false;
+  clearInterval(timerInterval);
+  document.getElementById('timerStartBtn').disabled=false;
+  document.getElementById('timerStartBtn').textContent='▶ Noch einmal (60 Sek.)';
+  document.getElementById('timerNextBtn').disabled=true;
+  document.getElementById('timerCardText').textContent='Zeit um! '+timerCount+' Karten umformuliert.';
+  if(timerCount>state.timerBest){
+    state.timerBest=timerCount;scheduleSave();
+    showToast('Neuer Rekord: '+timerCount+' Karten!');
+  }
+  renderTimerBest();
+}
+
+/* ================= Do it: Schriftliches Training ================= */
+function reframeCheck(text){
+  const low=text.toLowerCase();
+  const hasPos=POS_MARKERS.some(m=>low.includes(m));
+  const badWord=GIFTWOERTER.find(g=>low.includes(g.trim()));
+  if(!text.trim())return{cls:'',msg:''};
+  if(badWord)return{cls:'color:#B0433A','msg':'⚠ Enthält ein Giftwort ("'+badWord.trim()+'") – trägt das Fehlverhalten weiter statt den Zielzustand zu benennen.'};
+  if(hasPos)return{cls:'color:var(--petrol)','msg':'✓ Erfüllender Teil / Zielzustand erkennbar.'};
+  return{cls:'color:var(--amber)','msg':'Prüfe: Ist ein erfüllender Teil oder Zielzustand benannt ("ich sehe …", "ich will …")?'};
+}
+function renderReframe(){
+  const wrap=document.getElementById('reframeList');wrap.innerHTML='';
+  REFRAME_CARDS.forEach((c,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const val=state.reframeText[i]||'';
+    const check=reframeCheck(val);
+    div.innerHTML='<p class="situ-text">'+(i+1)+'. '+c.neg+'</p>'
+      +'<div class="field" style="margin-top:.6rem"><textarea data-idx="'+i+'" placeholder="Deine Umformulierung …" style="min-height:3em">'+esc(val)+'</textarea></div>'
+      +'<p class="hint" style="'+check.cls+'" data-hint="'+i+'">'+check.msg+'</p>'
+      +'<p style="margin-top:.5rem"><button class="btn ghost small" data-reveal="'+i+'">Musterlösung anzeigen</button></p>'
+      +'<p class="situ-note" id="reframeNote'+i+'"><em>'+c.sample+'</em></p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('textarea[data-idx]').forEach(t=>t.addEventListener('input',()=>{
+    const i=+t.dataset.idx;
+    state.reframeText[i]=t.value;scheduleSave();
+    const check=reframeCheck(t.value);
+    const hintEl=wrap.querySelector('[data-hint="'+i+'"]');
+    hintEl.textContent=check.msg;hintEl.setAttribute('style',check.cls);
+  }));
+  wrap.querySelectorAll('[data-reveal]').forEach(b=>b.addEventListener('click',()=>{
+    document.getElementById('reframeNote'+b.dataset.reveal).classList.add('on');
+  }));
+}
+
+/* ================= Lob-Qualitäts-Check ================= */
+function renderCrit(){
+  const wrap=document.getElementById('critList');wrap.innerHTML='';
+  CRIT_LABELS.forEach((c,i)=>{
+    const on=state.lobCrit[i];
+    const row=document.createElement('div');row.className='crit-row';
+    row.innerHTML='<span class="crit-light '+(on?'green':'grey')+'"></span><span class="crit-text"><b>'+c.b+'</b>'+c.d+'</span>';
+    row.addEventListener('click',()=>{state.lobCrit[i]=!state.lobCrit[i];scheduleSave();renderCrit();});
+    wrap.appendChild(row);
+  });
+  const n=state.lobCrit.filter(Boolean).length;
+  document.getElementById('critScoreLine').textContent=n===CRIT_LABELS.length?'✓ Alle drei Kriterien erfüllt – das ist eine echte Einzahlung.':(n+' von '+CRIT_LABELS.length+' Kriterien angetippt.');
+  updateKitschWarn();
+}
+function updateKitschWarn(){
+  const low=(state.lobText||'').toLowerCase();
+  const hit=KITSCH_WORDS.find(w=>low.includes(w));
+  const el=document.getElementById('kitschWarn');
+  if(!el)return;
+  if(hit){el.textContent='⚠ Kitsch-Alarm: "'+hit+'" allein ist kein präzises Lob – was genau war gut?';el.style.color='#B0433A';}
+  else{el.textContent='';el.style.color='';}
+}
+
+/* ================= 3:1-Tracker ================= */
+function renderTrackDays(){
+  const wrap=document.getElementById('trackDays');wrap.innerHTML='';
+  DAYS.forEach(([k,label])=>{
+    const row=document.createElement('div');row.className='track-day';
+    row.innerHTML='<span>'+k+'</span>'
+      +'<div><span class="lbl">+ Einzahlung</span><input type="number" min="0" data-day="p" data-k="'+k+'" value="'+(state.track['p'+k]||'')+'" placeholder="0"></div>'
+      +'<div><span class="lbl">– Abhebung</span><input type="number" min="0" data-day="m" data-k="'+k+'" value="'+(state.track['m'+k]||'')+'" placeholder="0"></div>';
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{
+    state.track[inp.dataset.day+inp.dataset.k]=inp.value;scheduleSave();renderRatioChart();
+  }));
+}
+function ratioFor(k){
+  const p=parseFloat(state.track['p'+k])||0,m=parseFloat(state.track['m'+k])||0;
+  if(m===0)return p>0?p:0;
+  return p/m;
+}
+function renderRatioChart(){
+  const wrap=document.getElementById('ratioChart');wrap.innerHTML='';
+  const vals=DAYS.map(([k])=>ratioFor(k));
+  const max=Math.max(...vals,3);
+  DAYS.forEach(([k,label],i)=>{
+    const v=vals[i];
+    const has=(state.track['p'+k]!==''||state.track['m'+k]!=='');
+    const h=has?Math.max((v/max)*100,4):2;
+    const col=document.createElement('div');col.className='chart-col';
+    const color=v>=3?'var(--petrol)':(has?'var(--amber)':'var(--line)');
+    col.innerHTML='<div class="chart-val">'+(has?v.toFixed(1):'–')+'</div><div class="chart-bar" style="height:'+h+'%;background:'+color+'"></div><div class="chart-label">'+label.slice(0,2)+'</div>';
+    wrap.appendChild(col);
+  });
+  const filled=DAYS.filter(([k])=>state.track['p'+k]!==''||state.track['m'+k]!=='').length;
+  document.getElementById('ratioHint').textContent=filled>0?('Ziel: 3:1 oder besser – grüner Balken erreicht.'+(state.acctName?' Heute schon eingezahlt bei „'+state.acctName+'“?':'')):'Noch keine Einträge diese Woche.';
+}
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(k==='lobText')updateKitschWarn();
+        if(k==='acctName')renderRatioChart();
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function seeScore(){return state.seeSel.reduce((a,v,i)=>a+(v===SEE_PAIRS[i].correct?1:0),0);}
+function matchScore(){return state.matchSel.reduce((a,v,i)=>a+(v===MATCH_ITEMS[i].cat+1?1:0),0);}
+function matchDone(){return state.matchSel.filter(v=>v>0).length;}
+function reframeDone(){return state.reframeText.filter(t=>t&&t.trim()).length;}
+function weekAvgRatio(){
+  const filled=DAYS.filter(([k])=>state.track['p'+k]!==''||state.track['m'+k]!=='');
+  if(!filled.length)return null;
+  const sum=filled.reduce((a,[k])=>a+ratioFor(k),0);
+  return sum/filled.length;
+}
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const avg=weekAvgRatio();
+  const rows=[
+    ['Beziehungskonto', state.acctRevealed?'✓ beantwortet':'noch offen',state.acctRevealed],
+    ['Grammatik-Wunder', state.seeRevealed?'✓ '+seeScore()+'/'+SEE_PAIRS.length+' richtig erkannt':'noch offen',state.seeRevealed],
+    ['Zuordnungsspiel', matchDone()===MATCH_ITEMS.length?'✓ '+matchScore()+'/'+MATCH_ITEMS.length+' richtig':matchDone()+'/'+MATCH_ITEMS.length,matchDone()===MATCH_ITEMS.length],
+    ['Umformulierungs-Trainer', state.timerBest>0?'✓ Rekord: '+state.timerBest+' Karten':'noch nicht gestartet',state.timerBest>0],
+    ['Schriftliches Training', reframeDone()+'/'+REFRAME_CARDS.length+' Karten geübt',reframeDone()===REFRAME_CARDS.length],
+    ['Lob-Qualitäts-Check', state.lobCrit.every(Boolean)?'✓ alle Kriterien geprüft':'noch offen',state.lobCrit.every(Boolean)],
+    ['3:1-Tracker', avg!==null?'Ø '+avg.toFixed(1)+':1':'noch offen',avg!==null],
+    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 6 · POSITIVE FRAMING & PRECISE PRAISE – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— BEZIEHUNGSKONTO —\nEingeschätzter Kontostand: '+state.acctSlider+'/10\n';
+  t+='\n— GRAMMATIK-WUNDER —\n'+seeScore()+' von '+SEE_PAIRS.length+' richtig erkannt\n';
+  t+='\n— ZUORDNUNGSSPIEL —\n'+matchScore()+' von '+MATCH_ITEMS.length+' richtig\n';
+  t+='\n— UMFORMULIERUNGS-TRAINER —\nRekord: '+state.timerBest+' Karten in 60 Sek.\nSchriftlich geübt: '+reframeDone()+' von '+REFRAME_CARDS.length+' Karten\n';
+  t+='\n— LOB-QUALITÄTS-CHECK —\n'+(state.lobText||'–')+'\nKriterien erfüllt: '+state.lobCrit.filter(Boolean).length+'/'+CRIT_LABELS.length+'\n';
+  const avg=weekAvgRatio();
+  t+='\n— 3:1-TRACKER —\n'+DAYS.map(([k,l])=>l+': +'+(state.track['p'+k]||'–')+' / -'+(state.track['m'+k]||'–')).join('\n')+'\nDurchschnitt: '+(avg!==null?avg.toFixed(1)+':1':'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nBester Tages-Quotient: '+(state.bestQuotient||'–')+'\n';
+  t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 6 · Positive Framing &amp; Precise Praise</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 6 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Beziehungskonto</h2>'+f('Eingeschätzter Kontostand:',state.acctSlider+' / 10');
+  h+='<h2>Grammatik-Wunder</h2>'+f('Richtig erkannt:',seeScore()+' von '+SEE_PAIRS.length);
+  h+='<h2>Zuordnungsspiel</h2>'+f('Richtig:',matchScore()+' von '+MATCH_ITEMS.length);
+  h+='<div class="pagebreak"></div><h2>Umformulierungs-Trainer</h2>'+f('Rekord (60 Sek.):',state.timerBest+' Karten')+f('Schriftlich geübt:',reframeDone()+' von '+REFRAME_CARDS.length+' Karten');
+  h+='<h2>Lob-Qualitäts-Check</h2>'+f('Lobsatz:',state.lobText)+f('Kriterien erfüllt:',state.lobCrit.filter(Boolean).length+'/'+CRIT_LABELS.length);
+  const avg=weekAvgRatio();
+  h+='<h2>3:1-Tracker</h2>';
+  DAYS.forEach(([k,l])=>{h+=f(l+':','+'+(state.track['p'+k]||'–')+' / -'+(state.track['m'+k]||'–'));});
+  h+=f('Wochendurchschnitt:',avg!==null?avg.toFixed(1)+':1':'–');
+  h+='<div class="pagebreak"></div><h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
+  h+=f('Transferaufgabe:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>'+f('Bester Tages-Quotient:',state.bestQuotient);
+  h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 6 „Positive Framing & Precise Praise“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul6-woche06-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderAcct();renderSee();renderMatch();
+  renderReframe();renderTimerBest();renderCrit();
+  renderTrackDays();renderRatioChart();
+  renderQuiz();renderSteps();updateCommitLabel();renderSummary();
+  if(state.acctRevealed)document.getElementById('acctReveal').classList.add('on');
+  if(state.seeRevealed)document.getElementById('seeReveal').classList.add('on');
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht es.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>
