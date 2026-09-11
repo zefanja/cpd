@@ -122,7 +122,7 @@ Zwei Spalten: „+ (Anerkennung/Lob, konkret)" | „– (Korrektur)". Fußzeile:
 2. Die Einstiegsregel der Stufenwahl? *(so niedrig, so kurz, so privat wie möglich – zurück zum Stoff)*
 3. Wo stehst du bei Stillarbeit und warum? *(Radar-Punkt, alle im Blick, Rücken zur Wand)*
 4. Registerwechsel: wann formal, wann warm? *(Anweisung/Korrektur formal; Gespräch/Erklärung/Lob warm)*
-5. (Anwendung) Formuliere eine positive Gruppenkorrektur für „fünf arbeiten nicht". *(z. B. „Ich sehe die meisten Stifte laufen – ich will alle sehen.")*
+5. (Anwendung) Formuliere eine positive Gruppenkorrektur für „fünf arbeiten nicht". *(z. B. „Ich sehe, die meisten schreiben schon – ich will alle sehen.")*
 
 ## Teil 2: Modul-Quiz Woche 6 (für SPA/Folgewoche)
 **F1.** Warum kein Lobsandwich?

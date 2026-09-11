@@ -160,7 +160,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 **Input (Min. 8–26):**
 1. Prinzip 100 %: *„Wenn ihr eine Anweisung gebt und 26 von 29 folgen, habt ihr nicht 90 % Erfolg – ihr habt gerade öffentlich neu verhandelt, für wen Anweisungen gelten."* 100 % erreichen – aber mit dem KLEINSTEN wirksamen Mittel.
-2. Die Leiter (Lemov T55, an Tafel aufbauen): (1) nonverbal (Blick, Geste, Nähe – weiterunterrichten dabei!) → (2) positive Gruppenkorrektur (*„Ich sehe fast alle Stifte…"*) → (3) anonyme Einzelkorrektur (*„Zwei fehlen noch."*) → (4) private/leise Einzelkorrektur am Platz → (5) blitzschnelle öffentliche Korrektur (Name + What-to-Do, 2 Sekunden, weiter im Stoff) → (6) Konsequenz (schulkonform).
+2. Die Leiter (Lemov T55, an Tafel aufbauen): (1) nonverbal (Blick, Geste, Nähe – weiterunterrichten dabei!) → (2) positive Gruppenkorrektur (*„Ich sehe, die meisten schreiben schon…"*) → (3) anonyme Einzelkorrektur (*„Zwei fehlen noch."*) → (4) private/leise Einzelkorrektur am Platz → (5) blitzschnelle öffentliche Korrektur (Name + What-to-Do, 2 Sekunden, weiter im Stoff) → (6) Konsequenz (schulkonform).
 3. Teacher Radar: Position mit Rundumblick (Ecken/„Pastore's Perch"), aktives Scannen als Gewohnheit nach JEDER Anweisung.
 
 **Name it (Min. 26–31):** Entscheidungsregel: „So niedrig wie möglich, so kurz wie möglich, so privat wie möglich – und danach sofort zurück zum Stoff." Anerkennung („Danke") für Erfüllung, kein Überschwang.

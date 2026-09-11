@@ -54,7 +54,7 @@ Moderation spielt dieselbe Szene dreimal (2 TN „tuscheln" bei Stillarbeit):
 
 ### 3b · Die Leiter entwickeln (Min. 17–25) — an der Tafel, Stufe für Stufe, mit je einem Wortlaut-Beispiel
 > *„Stufe 1: **Nonverbal.** Blick, kleine Geste, Nähe – während ihr weitersprecht. Löst nach meiner Erfahrung und nach Lemovs Videostudien die große Mehrheit aller Kleinstörungen. Kostet: null Unterrichtszeit.*
-> *Stufe 2: **Positive Gruppenkorrektur.** Ihr beschreibt, was fast alle richtig tun: ‚Ich sehe fast alle Stifte laufen.' Kein Name, kein Vorwurf – die Norm wird sichtbar gemacht, die Nachzügler docken an. Warum das POSITIV formuliert wird, vertiefen wir nächste Woche.*
+> *Stufe 2: **Positive Gruppenkorrektur.** Ihr beschreibt, was fast alle richtig tun: ‚Ich sehe, die meisten schreiben schon.' Kein Name, kein Vorwurf – die Norm wird sichtbar gemacht, die Nachzügler docken an. Warum das POSITIV formuliert wird, vertiefen wir nächste Woche.*
 > *Stufe 3: **Anonyme Einzelkorrektur.** ‚Zwei fehlen noch.' Jetzt weiß jeder Betroffene, dass er gemeint ist – aber niemand sonst weiß es. Gesichtswahrung ist keine Weichheit, sie ist Effizienz: Wer sein Gesicht verliert, kämpft um es zurück. Vor Publikum. Modell 4.*
 > *Stufe 4: **Private Einzelkorrektur.** Leise, am Platz, im Vorbeigehen, halbe Hocke: ‚Emre, Stift raus, Aufgabe 2 – danke.' Formales Register, drei Sekunden, weitergehen.*
 > *Stufe 5: **Blitzschnelle öffentliche Korrektur.** Wenn es öffentlich sein muss, dann kurz und What-to-Do: ‚Emre – Aufgabe 2.' Name plus Handlung, zwei Sekunden, sofort weiter im Stoff. Keine Rede, keine Geschichte, kein ‚immer du'.*
@@ -112,7 +112,7 @@ Ablauf:
 | Stufe | Werkzeug | Beispiel-Wortlaut / Aktion | Kostet Unterrichtszeit? |
 |---|---|---|---|
 | 1 | Nonverbal | Blick halten (2 Sek.) · Geste „Stift" · Nähe beim Weitersprechen | nein |
-| 2 | Positive Gruppenkorrektur | *„Ich sehe fast alle Stifte laufen."* | 2 Sek. |
+| 2 | Positive Gruppenkorrektur | *„Ich sehe, die meisten schreiben schon."* | 2 Sek. |
 | 3 | Anonyme Einzelkorrektur | *„Zwei fehlen noch."* | 2 Sek. |
 | 4 | Private Einzelkorrektur | leise, am Platz: *„Emre – Stift raus, Aufgabe 2. Danke."* | 3 Sek., ohne Publikum |
 | 5 | Blitz-Korrektur öffentlich | *„Emre – Aufgabe 2."* (Name + Handlung, sofort weiter) | 2 Sek. |
