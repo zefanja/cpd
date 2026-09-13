@@ -165,6 +165,9 @@ p+p{margin-top:.7rem}
 .rung .rung-body{display:none;margin-top:.6rem;padding-top:.6rem;border-top:1px dashed var(--line);font-size:.9rem}
 .rung.open .rung-body{display:block}
 .rung.open{border-color:var(--petrol);background:var(--petrol-soft)}
+.ladder-ref{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 1.2rem}
+.ladder-ref-item{display:flex;align-items:center;gap:.45rem;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem .3rem .4rem;font-size:.78rem}
+.ladder-ref-item .num{width:1.3rem;height:1.3rem;border-radius:50%;background:var(--petrol);color:#fff;font-weight:700;font-size:.72rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 
 /* ---------- Anker-Karte ---------- */
 .anchor-card{
@@ -297,7 +300,7 @@ input[type=number]{max-width:8rem}
 <section class="screen" data-title="Start">
   <span class="eyebrow">Woche 5 · Block 1: Klassenführung &amp; Routinen · Fortbildung Sek I/II</span>
   <h1>100 % ist kein Härtegrad. Es ist die kleinste Intervention, die wirkt.</h1>
-  <p class="lead">26 von 29 folgen deiner Anweisung. Drei nicht. Ihr fahrt trotzdem fort – gute Quote, oder? Die Wahrheit: Ihr habt gerade neu verhandelt, für wen eure Anweisungen gelten. Heute lernst du die Interventionsleiter – sechs Stufen, mit denen du 100 % erreichst, ohne den Unterricht auch nur eine Sekunde zu unterbrechen.</p>
+  <p class="lead">22 von 25 folgen deiner Anweisung. Drei nicht. Ihr fahrt trotzdem fort – gute Quote, oder? Die Wahrheit: Ihr habt gerade neu verhandelt, für wen eure Anweisungen gelten. Heute lernst du die Interventionsleiter – sechs Stufen, mit denen du 100 % erreichst, ohne den Unterricht auch nur eine Sekunde zu unterbrechen.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
     <p style="font-size:.9rem">Das 97 %-Gedankenexperiment → drei Antworten auf dieselbe Störung → die sechs Stufen der Leiter → Interventions-Simulator (Kernstück) → Radar: Position &amp; Scannen → Stufen-Tagebuch → Quiz → dein Action Step.</p>
@@ -318,8 +321,8 @@ input[type=number]{max-width:8rem}
 <!-- 1 · HOOK: 97-PROZENT-PROBLEM -->
 <section class="screen" data-title="Das 97%-Problem">
   <span class="eyebrow">Station 1 · Hook: Das 97 %-Gedankenexperiment</span>
-  <h2>26 von 29 folgen. Ist das nicht schon gut genug?</h2>
-  <p class="lead">Du gibst eine Anweisung: „Stifte weg, Blick zu mir.“ 26 von 29 folgen. Drei schreiben weiter. Du fährst fort – ist ja fast alles still, 90 Prozent, gute Quote. Frage: Was hast du der Klasse damit gerade beigebracht?</p>
+  <h2>22 von 25 folgen. Ist das nicht schon gut genug?</h2>
+  <p class="lead">Du gibst eine Anweisung: „Stifte weg, Blick zu mir.“ 22 von 25 folgen. Drei schreiben weiter. Du fährst fort – ist ja fast alles still, 88 Prozent, gute Quote. Frage: Was hast du der Klasse damit gerade beigebracht?</p>
   <div class="card">
     <div class="field" style="margin-top:0">
       <label for="hookAnswer">Deine Antwort</label>
@@ -373,6 +376,7 @@ input[type=number]{max-width:8rem}
   <span class="eyebrow">Station 4 · Do it: Interventions-Simulator (Kern)</span>
   <h2>Acht Störungen. Deine Einstiegsstufe.</h2>
   <p class="lead">Wähle bei jeder Situation die Stufe (1–6), mit der du einsteigen würdest – die kleinste, die realistisch wirkt. Zu hoch eingestiegen kostet Unterricht und Gesicht, zu niedrig kostet Zeit.</p>
+  <div class="ladder-ref" id="ladderRef"></div>
   <div id="simList"></div>
   <div class="card reveal" id="simSummary"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Radar →</button></p>
@@ -559,22 +563,22 @@ const KALIB=[
 ];
 
 const SIM=[
- {tag:'Szene 1',situ:'Zwei Schüler:innen tuscheln leise, während die Klasse in Stillarbeit ist.',correct:1,
-  note:'Nonverbal reicht: Blick halten oder kurz in ihre Nähe treten, dabei weiterarbeiten. Kein Wort nötig.'},
- {tag:'Szene 2',situ:'Nach der Ansage „Stifte raus“ schreiben zwei von 28 Schüler:innen noch nicht.',correct:2,
-  note:'Fast alle sind schon dabei – die Norm ist sichtbar. Eine positive Gruppenkorrektur („Ich sehe, die meisten schreiben schon“) holt den Rest ab, ohne jemanden bloßzustellen.'},
- {tag:'Szene 3',situ:'Beim Rundgang siehst du: Genau zwei Hefte sind noch nicht offen, der Rest der Klasse arbeitet.',correct:3,
+ {tag:'Szene 1',situ:'Beim Rundgang siehst du: Genau zwei Hefte sind noch nicht offen, der Rest der Klasse arbeitet.',correct:3,
   note:'Die Betroffenen wissen, dass sie gemeint sind („Zwei fehlen noch“) – aber niemand sonst weiß es. Gesichtswahrung schützt die Beziehung.'},
+ {tag:'Szene 2',situ:'Ein Schüler verweigert nach mehreren ruhigen Stufen wiederholt und bewusst jede Anweisung.',correct:6,
+  note:'Wenn die Leiter durchlaufen ist und die Verweigerung bewusst bleibt: schulkonforme, ruhig angekündigte Konsequenz – danach ist die Sache verbucht.'},
+ {tag:'Szene 3',situ:'Zwei Schüler:innen tuscheln leise, während die Klasse in Stillarbeit ist.',correct:1,
+  note:'Nonverbal reicht: Blick halten oder kurz in ihre Nähe treten, dabei weiterarbeiten. Kein Wort nötig.'},
  {tag:'Szene 4',situ:'Emre hat zum dritten Mal seinen Stift nicht dabei. Du gehst gerade an seinem Platz vorbei, alle anderen arbeiten konzentriert.',correct:4,
   note:'Leise, am Platz, im Vorbeigehen: „Emre, Stift raus, Aufgabe 2 – danke.“ Drei Sekunden, kein Publikum.'},
- {tag:'Szene 5',situ:'Trotz eines stillen Blickkontakts vor einer Minute hat ein Schüler sein Handy wieder sichtbar auf dem Tisch liegen – die Klasse hat es bereits bemerkt.',correct:5,
+ {tag:'Szene 5',situ:'Nach der Ansage „Stifte raus“ schreiben zwei von 25 Schüler:innen noch nicht.',correct:2,
+  note:'Fast alle sind schon dabei – die Norm ist sichtbar. Eine positive Gruppenkorrektur („Ich sehe, die meisten schreiben schon“) holt den Rest ab, ohne jemanden bloßzustellen.'},
+ {tag:'Szene 6',situ:'Trotz eines stillen Blickkontakts vor einer Minute hat ein Schüler sein Handy wieder sichtbar auf dem Tisch liegen – die Klasse hat es bereits bemerkt.',correct:5,
   note:'Wenn es öffentlich werden muss: kurz und What-to-Do – „Jamal, Handy weg.“ Name plus Handlung, zwei Sekunden, sofort weiter im Stoff.'},
- {tag:'Szene 6',situ:'Ein Schüler verweigert nach mehreren ruhigen Stufen wiederholt und bewusst jede Anweisung.',correct:6,
-  note:'Wenn die Leiter durchlaufen ist und die Verweigerung bewusst bleibt: schulkonforme, ruhig angekündigte Konsequenz – danach ist die Sache verbucht.'},
- {tag:'Szene 7 (Transfer)',situ:'Minute 20, Stillarbeit: Ein Schüler pfeift leise vor sich hin, zwei andere fangen schon an zu grinsen.',correct:1,
-  note:'Erster Zug: Nähe + Blick beim Weitergehen. Reicht es nicht in ca. 10 Sekunden, folgt Stufe 4 – leise, privat: „Ohne Pfeifen, danke.“'},
- {tag:'Szene 8 (Scan)',situ:'Beim Scannen bemerkst du: Eine Schülerin sucht seit zwei Minuten in ihrem Rucksack, ihr Heft liegt leer da.',correct:4,
-  note:'Wahrscheinlich keine Störung, sondern Orientierungslosigkeit. Trotzdem Stufe 4 – aber als leise Hilfe/Impuls statt Ermahnung: „Brauchst du was? Seite 42.“'}
+ {tag:'Szene 7 (Scan)',situ:'Beim Scannen bemerkst du: Eine Schülerin sucht seit zwei Minuten in ihrem Rucksack, ihr Heft liegt leer da.',correct:4,
+  note:'Wahrscheinlich keine Störung, sondern Orientierungslosigkeit. Trotzdem Stufe 4 – aber als leise Hilfe/Impuls statt Ermahnung: „Brauchst du was? Seite 42.“'},
+ {tag:'Szene 8 (Transfer)',situ:'Minute 20, Stillarbeit: Ein Schüler pfeift leise vor sich hin, zwei andere fangen schon an zu grinsen.',correct:1,
+  note:'Erster Zug: Nähe + Blick beim Weitergehen. Reicht es nicht in ca. 10 Sekunden, folgt Stufe 4 – leise, privat: „Ohne Pfeifen, danke.“'}
 ];
 const GENERIC_HIGH='Zu hoch eingestiegen: Der Unterricht wird unnötig unterbrochen, und du riskierst einen Gesichtsverlust vor Publikum, den du nicht brauchst.';
 const GENERIC_LOW='Zu niedrig gewählt: In dieser Situation reicht diese Stufe voraussichtlich nicht – die Norm wächst weiter, während du wartest.';
@@ -878,6 +882,14 @@ document.getElementById('kalibResetBtn').addEventListener('click',()=>{
 });
 
 /* ================= Interventions-Simulator ================= */
+function renderLadderRef(){
+  const wrap=document.getElementById('ladderRef');if(!wrap)return;wrap.innerHTML='';
+  LADDER.forEach(r=>{
+    const span=document.createElement('span');span.className='ladder-ref-item';
+    span.innerHTML='<span class="num">'+r.n+'</span><span>'+esc(r.name)+'</span>';
+    wrap.appendChild(span);
+  });
+}
 function simNote(item,sel){
   if(sel===item.correct)return '✓ Genau die richtige Stufe. '+item.note;
   if(sel>item.correct)return '✗ '+GENERIC_HIGH+' Die kleinste wirksame Stufe wäre hier '+item.correct+' gewesen: '+item.note;
@@ -1123,7 +1135,7 @@ function downloadStateFile(){
 }
 function refreshAllUI(){
   bindStores();renderSee();renderLadder();renderKalib();
-  renderSim();renderSimSummary();renderRadarPos();
+  renderLadderRef();renderSim();renderSimSummary();renderRadarPos();
   renderQuiz();renderSteps();updateCommitLabel();renderWeekChart();renderSummary();
   if(state.hookRevealed)document.getElementById('hookReveal').classList.add('on');
   if(state.seeRevealed)document.getElementById('seeReveal').classList.add('on');
