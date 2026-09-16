@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 10 · Modellieren &amp; Erklären</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Ampel-Kriterien ---------- */
+.crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.6rem 0;border-bottom:1px dashed var(--line);cursor:pointer}
+.crit-row:last-child{border-bottom:none}
+.crit-light{width:1.1rem;height:1.1rem;border-radius:50%;flex-shrink:0;margin-top:.15rem;transition:background .15s}
+.crit-light.grey{background:var(--line)}
+.crit-light.red{background:#B0433A}
+.crit-light.amber{background:var(--amber)}
+.crit-light.green{background:var(--petrol)}
+.crit-text{font-size:.9rem}
+.crit-text b{display:block;font-size:.85rem;margin-bottom:.1rem}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+input[type=number]{max-width:6rem}
+
+/* ---------- Chips / Kategorien ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+
+/* ---------- Formel-Karten ---------- */
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
+.formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Dynamische Listen (Schuh-Schritte, Atomisierung, Fallen) ---------- */
+.dyn-row{display:flex;gap:.5rem;margin-top:.6rem;align-items:center}
+.dyn-row .dyn-idx{font-family:var(--display);font-weight:800;color:var(--petrol);width:1.6rem;flex-shrink:0;text-align:center}
+.dyn-row input[type=text]{flex:1}
+.dyn-row button.rm{
+  flex-shrink:0;border:1.5px solid var(--line);background:var(--card);border-radius:8px;
+  width:2.4rem;height:2.4rem;cursor:pointer;color:#B0433A;font-weight:700;font-size:1rem;
+}
+.dyn-add{margin-top:.7rem}
+.sample-list{margin-top:.8rem;padding-left:1.1rem}
+.sample-list li{font-size:.88rem;margin-top:.3rem;color:var(--ink)}
+
+/* ---------- Transkript-Marker ---------- */
+.transcript{font-size:1rem;line-height:1.9}
+.seg-btn{cursor:pointer;padding:.1rem .2rem;border-radius:5px;transition:background .15s}
+.seg-btn.sel{background:var(--petrol-soft)}
+.seg-btn.correct{background:var(--petrol);color:#fff}
+.seg-btn.missed{background:#B0433A18;text-decoration:underline;text-decoration-color:#B0433A}
+.version-block{border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;background:var(--card)}
+.version-block h4{font-family:var(--display);font-weight:800;font-size:.85rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:.5rem}
+
+/* ---------- Zähler ---------- */
+.counter-box{display:flex;align-items:center;gap:1.1rem;margin-top:.8rem}
+.counter-btn{width:2.6rem;height:2.6rem;border-radius:50%;border:1.5px solid var(--petrol);background:var(--card);color:var(--petrol);font-size:1.3rem;font-weight:700;cursor:pointer;font-family:var(--body)}
+.counter-num{font-family:var(--display);font-weight:800;font-size:1.8rem;color:var(--petrol);min-width:2.5rem;text-align:center}
+
+/* ---------- Fallen-Karten ---------- */
+.fallen-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:1rem;margin-top:.8rem;position:relative}
+.fallen-card .rm{position:absolute;top:.7rem;right:.7rem;border:none;background:none;color:#B0433A;font-weight:700;cursor:pointer;font-size:.85rem}
+.cross-module-card{border-style:dashed;background:var(--bg)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 10</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 10 · Block 2: Instruktion &amp; Aktives Lernen · Fortbildung Sek I/II</span>
+  <h1>Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können?</h1>
+  <p class="lead">Ausgerechnet eure Stärke – Fachlichkeit, Berufserfahrung – ist beim Erklären euer größtes Handicap. Heute lernt ihr, warum das so ist, und bekommt das Gegenmittel: den Vierklang des Modellierens plus eine Übung, die euch das selbst spüren lässt.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Fluch-des-Wissens-Selbsttest → Version 1 vs. Version 2 im Transkript-Check → der Vierklang → Atomisierungs-Trainer (Kernstück) → Selbstaufnahme-Auftrag → deine Fallen-Bibliothek → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R7 (Explaining/Modelling); Rosenshine P2/P4; Lemov (Think Aloud)</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · HOOK: FLUCH-DES-WISSENS-SELBSTTEST -->
+<section class="screen" data-title="Fluch-des-Wissens-Selbsttest">
+  <span class="eyebrow">Station 1 · Hook: Der Fluch-des-Wissens-Selbsttest</span>
+  <h2>Beschreib in Einzelschritten, wie man einen Schuh zubindet.</h2>
+  <p class="lead">Für jemanden, der es noch NIE gemacht hat. Jeder Schritt eine eigene Zeile – so klein wie möglich. Nimm dir wirklich eine Minute.</p>
+  <div class="card">
+    <div id="shoeList"></div>
+    <p class="dyn-add"><button class="btn ghost small" id="shoeAddBtn">+ Schritt hinzufügen</button></p>
+    <p style="margin-top:1rem"><button class="btn small" id="shoeRevealBtn">Auflösen</button></p>
+  </div>
+  <div class="card reveal" id="shoeReveal">
+    <p id="shoeCompareText" style="font-weight:600"></p>
+    <p style="margin-top:.6rem">So sieht eine Version aus, die wirklich nichts voraussetzt:</p>
+    <ol class="sample-list" id="shoeSampleList"></ol>
+    <p class="punchline">So fühlt sich dein Fach für deine Klasse an.</p>
+    <p style="margin-top:.6rem">Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte sind für euch zu EINEM Schritt verschmolzen – für einen Schüler ohne Vorkenntnisse sind es immer noch viele.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Transkript-Check →</button></p>
+</section>
+
+<!-- 2 · SEE IT: VERSION 1 VS. VERSION 2 -->
+<section class="screen" data-title="Version 1 vs. Version 2">
+  <span class="eyebrow">Station 2 · See it: Dieselbe Erklärung, zweimal</span>
+  <h2>Version 1 zeigt, dass ich es kann. Version 2 zeigt, wie man es macht.</h2>
+  <p class="lead">Gleicher Inhalt – Kommasetzung bei „weil" –, zweimal erklärt. Lies beide. Tippe dann in Version 2 alle Momente an, in denen wirklich „laut gedacht" wird: Selbstfragen, Entscheidungen, die Falle.</p>
+  <div class="version-block">
+    <h4>Version 1 · Ergebnis-Präsentation</h4>
+    <p>Bei „weil" kommt ein Komma. Beispiel: „Ich bleibe zu Hause, weil es regnet." Fertig.</p>
+  </div>
+  <div class="version-block">
+    <h4>Version 2 · Modellierung mit Think Aloud</h4>
+    <p class="transcript" id="transcriptWrap"></p>
+  </div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="transReset">Zurücksetzen</button> <button class="btn small" id="transCheck">Prüfen</button></p>
+  <div class="card reveal" id="transReveal">
+    <p id="transScoreText"></p>
+    <p style="margin-top:.6rem">Version 1 zeigt nur das Ergebnis. Version 2 macht Entscheidungen, Selbstfragen und die Falle hörbar – nur Version 2 ist Unterricht.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Vierklang →</button></p>
+</section>
+
+<!-- 3 · NAME IT: DER VIERKLANG -->
+<section class="screen" data-title="Der Vierklang">
+  <span class="eyebrow">Station 3 · Name it: Der Vierklang</span>
+  <h2>Der Bauplan jeder Modellierung.</h2>
+  <div id="vierklangList"></div>
+  <h3 style="margin-top:1.6rem">Think-Aloud-Satzanfänge</h3>
+  <p class="lead">Dein Spickzettel für die nächste Erklärphase.</p>
+  <div class="card">
+    <ul class="sample-list" id="starterList"></ul>
+    <p style="margin-top:.9rem"><button class="btn ghost small" id="starterCopyBtn">📋 Als Text kopieren</button></p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Atomisierungs-Trainer →</button></p>
+</section>
+
+<!-- 4 · DO IT: ATOMISIERUNGS-TRAINER -->
+<section class="screen" data-title="Atomisierungs-Trainer">
+  <span class="eyebrow">Station 4 · Do it: Atomisierungs-Trainer (Kernstück)</span>
+  <h2>Ein neues Element nach dem anderen.</h2>
+  <p class="lead">Nimm einen echten Fachinhalt deiner kommenden Woche. Zerlege ihn in Teilschritte – so klein, dass es sich fast albern anfühlt.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="atomContent">Fachinhalt <span class="sub">z. B. „Bruchrechnung erweitern", „Passé composé mit avoir"</span></label>
+      <input type="text" id="atomContent" data-store="atomContent" placeholder="…">
+    </div>
+    <h3 style="margin-top:1.2rem">Teilschritte</h3>
+    <div id="atomList"></div>
+    <p class="dyn-add"><button class="btn ghost small" id="atomAddBtn">+ Schritt hinzufügen</button></p>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Selbstprüfung</h4>
+    <p style="margin-top:.4rem">Wirkt deine Schrittliste zu grob? <strong>Halbier-Regel:</strong> Halbiere die Schrittgröße, die sich richtig anfühlt. Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.</p>
+  </div>
+  <div class="card cross-module-card">
+    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Aus Modul 9: deine Scheiter-Stelle</h4>
+    <p class="hint" id="crossModuleText" style="margin-top:.4rem">Lade …</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Selbstaufnahme →</button></p>
+</section>
+
+<!-- 5 · SELBSTAUFNAHME-AUFTRAG -->
+<section class="screen" data-title="Selbstaufnahme-Auftrag">
+  <span class="eyebrow">Station 5 · Do it: Selbstaufnahme-Auftrag</span>
+  <h2>Drei Minuten Modellierung. Aufgenommen von dir selbst.</h2>
+  <p class="lead">Das Video/Audio gehört dir – es bleibt lokal auf deinem Gerät. Niemand außer dir sieht oder hört es.</p>
+  <div class="card">
+    <h3>Schritt 1 · Aufnahme</h3>
+    <p style="font-size:.9rem">Nimm diese Woche eine 3-Minuten-Modellierung eines echten Fachinhalts auf (nur Ton reicht). Handy auf Stativ/Bücherstapel.</p>
+    <div class="commit-box" style="margin-top:.8rem">
+      <input type="checkbox" id="recordDone" data-store="recordDone">
+      <label for="recordDone" style="font-weight:600">Aufnahme erledigt.</label>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Schritt 2 · Geführte Selbstanalyse</h3>
+    <p class="lead">Höre dir die Aufnahme an und prüfe dich selbst mit dem Feedbackbogen.</p>
+    <div id="critList"></div>
+    <div class="field">
+      <label for="strongMoment">Stärkster Moment (wörtlich)</label>
+      <textarea id="strongMoment" data-store="strongMoment" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="impulse">EIN Impuls für nächstes Mal</label>
+      <textarea id="impulse" data-store="impulse" placeholder="…"></textarea>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Schritt 3 · Neue Elemente pro Minute zählen</h3>
+    <p class="lead">Spiel die Aufnahme noch einmal ab und zähle mit, wie viele neue Elemente pro Minute vorkommen.</p>
+    <div class="counter-box">
+      <button class="counter-btn" id="elMinus">−</button>
+      <span class="counter-num" id="elCount">0</span>
+      <button class="counter-btn" id="elPlus">+</button>
+    </div>
+    <p class="hint" id="elHint" style="margin-top:.7rem"></p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Fallen-Bibliothek →</button></p>
+</section>
+
+<!-- 6 · FALLEN-BIBLIOTHEK -->
+<section class="screen" data-title="Fallen-Bibliothek">
+  <span class="eyebrow">Station 6 · Deine Fallen-Bibliothek</span>
+  <h2>Typische Fehler, absichtlich gezeigt und aufgelöst.</h2>
+  <p class="lead">Eine wachsende Sammlung deiner Fach-Fallen. Sie geht heute mit dir – und wird in Modul 20 (Plan for Error) wieder aufgerufen und weitergefüllt.</p>
+  <div id="fallenList"></div>
+  <p class="dyn-add"><button class="btn ghost small" id="fallenAddBtn">+ Falle hinzufügen</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 10 – plus Auffrischung.</h2>
+  <p class="lead">Ein Teil der Fragen kommt aus den Vormodulen – so bleiben Block 1 und 2 präsent.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Skizziere eine 3-Min.-Modellierung für einen Inhalt deines Fachs nach dem Vierklang – notiere wörtlich eine Selbstfrage und deine Falle samt Auflösung.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Selbstfrage: … / Falle: … / Auflösung: …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Bewertungsanker anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Bewertungsanker: Selbstfrage in Ich-Form, Falle benannt + Grund ihrer Verführungskraft + Auflösung.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Schritt – und nur einen.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="fallenLog">Fallen-Log diese Woche <span class="sub">Wie viele bewusst vorgeführte Fallen? z. B. „4 von 5 Tagen"</span></label>
+      <input type="text" id="fallenLog" data-store="fallenLog" placeholder="…">
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen" schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche die Brücke, die der Beispielstunde aus Woche 8 gefehlt hat: das We do. Wie ihr die Klasse vom Zusehen zum Selbermachen führt, ohne sie fallen zu lassen – mit einer Treppe aus verschwindenden Hilfen."</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul10-woche10-modellieren"></script>
+<script>
+/* ================= Daten ================= */
+const SHOE_SAMPLE=[
+ 'Stelle sicher, dass beide Schuhe an den Füßen sitzen und die Senkel offen sind.',
+ 'Nimm den linken Senkel in die linke Hand, den rechten in die rechte Hand.',
+ 'Kreuze den rechten Senkel über den linken, sodass ein X entsteht.',
+ 'Führe den rechten Senkel unter dem linken hindurch und ziehe beide Enden stramm – das ist der erste Knoten.',
+ 'Forme mit dem linken Senkel eine Schlaufe, indem du ihn in der Mitte zusammenfaltest.',
+ 'Halte die Schlaufe mit Daumen und Zeigefinger der linken Hand fest.',
+ 'Lege den rechten Senkel einmal ganz um die Schlaufe herum.',
+ 'Schiebe mit dem rechten Senkel eine zweite Schlaufe durch die dabei entstehende Lücke.',
+ 'Fasse beide Schlaufen, eine mit jeder Hand.',
+ 'Ziehe beide Schlaufen gleichzeitig vorsichtig auseinander, bis der Knoten fest sitzt.',
+ 'Prüfe, ob beide Schlaufen etwa gleich lang sind – sonst nachjustieren.',
+ 'Prüfe, ob der Knoten fest sitzt, indem du leicht an beiden Schlaufen ziehst.'
+];
+
+const TRANSCRIPT_SEGMENTS=[
+ {t:'Ich lese zuerst den GANZEN Satz – nicht nur bis zum „weil", den ganzen.',think:true},
+ {t:'Jetzt frage ich mich: Wo ist das zweite Verb?',think:true},
+ {t:'Da – „regnet".',think:false},
+ {t:'Zwei Verben heißt fast immer: zwei Teilsätze.',think:true},
+ {t:'Und hier ist die Falle, in die fast alle tappen:',think:true},
+ {t:'Viele setzen das Komma nach Gefühl, da wo man Luft holt.',think:true},
+ {t:'Klingt vernünftig – geht aber schief, sobald der Satz lang wird.',think:true},
+ {t:'Deshalb suche ich nicht nach Luft, sondern nach dem Verb.',think:true}
+];
+
+const VIERKLANG=[
+ {h:'Vormachen',f:'Bewusst entscheiden: einmal in Echtgeschwindigkeit als Vorschau oder gleich Schritt für Schritt.'},
+ {h:'Denken laut',f:'Entscheidungen und Selbstfragen hörbar machen.'},
+ {h:'Eine Falle zeigen und auflösen',f:'Den typischen Fehler absichtlich ansteuern, benennen, auflösen.'},
+ {h:'Kernschritte fixieren',f:'An der Tafel – und sie bleiben stehen.'}
+];
+
+const STARTERS=['„Zuerst prüfe ich…"','„Jetzt frage ich mich…"','„Woran erkenne ich…?"','„Hier stutze ich, denn…"','„Viele würden jetzt … tun – verständlich, weil … – aber dann …"','„Ich kontrolliere mein Ergebnis, indem…"'];
+
+const CRIT_LABELS=[
+ {b:'Schrittgröße',d:'Ein neues Element nach dem anderen? (Wo kamen zwei auf einmal?)'},
+ {b:'Denken hörbar',d:'Selbstfragen/Entscheidungen zu hören?'},
+ {b:'Falle',d:'Gezeigt UND aufgelöst?'},
+ {b:'Sprachökonomie',d:'Füllwörter, Doppel-Erklärungen, Abschweifer?'}
+];
+
+const QUIZ=[
+ {q:'F1. Der Fluch des Wissens bedeutet:',
+  opts:[
+   {t:'Wissen macht überheblich',ok:false,note:'Reine Wortassoziation, nicht der Kernpunkt.'},
+   {t:'Experten unterschätzen systematisch, was Schülern ohne Vorkenntnisse fehlt – Zwischenschritte sind unsichtbar verschmolzen',ok:true,note:'Genau – die eigene Erfahrung macht Schrittgrößen unsichtbar.'},
+   {t:'Zu viel Wissen verwirrt die SuS',ok:false,note:'Nicht der Kernpunkt.'},
+   {t:'Fachwissen veraltet schnell',ok:false,note:'Hat mit dem Fluch des Wissens nichts zu tun.'}
+  ]},
+ {q:'F2. Während du modellierst, sollen die SuS…',
+  opts:[
+   {t:'alles mitschreiben – sonst geht es verloren',ok:false,note:'Der Eltern-Reflex, aber wer gleichzeitig versteht und abschreibt, tut beides halb.'},
+   {t:'nur zusehen/zuhören; fixiert wird danach vom stehenden Tafelbild',ok:true,note:'Genau – Verstehen zuerst, Fixieren danach als eigener Schritt.'},
+   {t:'parallel schon Aufgaben lösen',ok:false,note:'Das ist der Sprung-Fehler, nicht Modellieren.'},
+   {t:'im Buch mitlesen',ok:false,note:'Lenkt von deinem lauten Denken ab.'}
+  ]},
+ {q:'F3. Eine typische Falle absichtlich vorführen…',
+  opts:[
+   {t:'setzt den Fehler erst in die Köpfe',ok:false,note:'DIE Angst – klingt plausibel, stimmt aber nicht.'},
+   {t:'immunisiert: benannt + aufgelöst schützt besser als Warnungen',ok:true,note:'Genau – die verschwiegene Falle lauert, die aufgelöste schützt.'},
+   {t:'verwirrt schwache SuS',ok:false,note:'Das Gegenteil ist der Fall.'},
+   {t:'kostet zu viel Zeit',ok:false,note:'Nicht der Kernpunkt.'}
+  ]},
+ {q:'F4. Deine Erklärung fühlt sich „quälend kleinschrittig" an. Wahrscheinlich ist sie…',
+  opts:[
+   {t:'zu langsam – Tempo erhöhen',ok:false,note:'Das Gefühl lügt – Fluch des Wissens.'},
+   {t:'für die Klasse gerade richtig (Halbier-Regel)',ok:true,note:'Genau – was sich für dich zu klein anfühlt, ist für Anfänger oft passend.'},
+   {t:'unter dem Niveau der Klasse',ok:false,note:'Meist das Gegenteil.'},
+   {t:'ein Zeichen schlechter Vorbereitung',ok:false,note:'Kein Zusammenhang.'}
+  ]},
+ {q:'F5. „Version 1" (flüssige Ergebnis-Präsentation) zeigt der Klasse…',
+  opts:[
+   {t:'wie man es macht',ok:false,note:'Genau das zeigt sie nicht.'},
+   {t:'dass die Lehrkraft es kann – das Vorgehen bleibt unsichtbar',ok:true,note:'Genau – Ergebnis-Sprache statt Vorgehen.'},
+   {t:'alles Nötige, wenn sie kurz ist',ok:false,note:'Kürze ersetzt kein sichtbares Vorgehen.'},
+   {t:'zu wenig Fachlichkeit',ok:false,note:'Am Fachwissen liegt es nicht.'}
+  ]},
+ {q:'🔁 Woche 8: Der „Sprung-Fehler" bezeichnet…',
+  opts:[
+   {t:'Themenwechsel ohne Überleitung',ok:false,note:'Wortfalle.'},
+   {t:'das Überspringen des We do: vom Erklären direkt ins Alleinarbeiten',ok:true,note:'Genau der Sprung aus Woche 8.'},
+   {t:'zu schnelles Sprechen',ok:false,note:'Nicht gemeint.'},
+   {t:'fehlende Hausaufgabenkontrolle',ok:false,note:'Kein Zusammenhang.'}
+  ]},
+ {q:'🔁 Woche 9: Exemplar Planning bedeutet…',
+  opts:[
+   {t:'Musterstunden erfahrener Kollegen übernehmen',ok:false,note:'Wortfalle.'},
+   {t:'die ideale Schülerantwort vor der Stunde selbst ausformulieren',ok:true,note:'Genau – Lemovs Technik Nummer eins.'},
+   {t:'im Unterricht viele Beispiele zeigen',ok:false,note:'Das ist P4, nicht Exemplar Planning.'},
+   {t:'den Erwartungshorizont nach der Klassenarbeit schreiben',ok:false,note:'Zeitlich falsch – Exemplar kommt VOR der Stunde.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'Eine Falle pro Tag (Standard)',
+  text:'In einer Erklärphase pro Tag denke ich hörbar laut – inklusive EINER absichtlich vorgeführten und aufgelösten Falle. Die Falle wähle ich vorher aus den Fehlern der letzten Klassenarbeit/Übung.'},
+ {id:'audio',label:'Selbst-Audio (Alternative)',
+  text:'Eine Erklärphase mit dem Handy aufnehmen (nur Ton reicht!) und abends zählen: neue Elemente pro Minute – Halbier-Regel anwenden.'},
+ {id:'stifteweg',label:'Stifte-weg-Woche (Alternative)',
+  text:'Jede Modellierung mit expliziter Ansage („Stifte weg – erst schauen, gleich schreiben") und separater Fixierungsphase.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',
+ shoeSteps:['','',''],shoeRevealed:false,
+ transSel:TRANSCRIPT_SEGMENTS.map(()=>false),transChecked:false,
+ atomContent:'',atomSteps:['','',''],
+ recordDone:false,critVals:CRIT_LABELS.map(()=>false),strongMoment:'',impulse:'',
+ elCount:0,
+ fallen:[{fehler:'',verfuehrung:'',aufloesung:''}],
+ quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+ actionStep:'standard',fallenLog:'',
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
+const STORE_KEY='modul10-woche10-modellieren';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m10test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+function normalizeState(){
+  if(!Array.isArray(state.shoeSteps)||!state.shoeSteps.length)state.shoeSteps=['','',''];
+  if(!Array.isArray(state.transSel)||state.transSel.length!==TRANSCRIPT_SEGMENTS.length)state.transSel=TRANSCRIPT_SEGMENTS.map(()=>false);
+  if(!Array.isArray(state.atomSteps)||!state.atomSteps.length)state.atomSteps=['','',''];
+  if(!Array.isArray(state.critVals)||state.critVals.length!==CRIT_LABELS.length)state.critVals=CRIT_LABELS.map(()=>false);
+  if(typeof state.elCount!=='number')state.elCount=0;
+  if(!Array.isArray(state.fallen)||!state.fallen.length)state.fallen=[{fehler:'',verfuehrung:'',aufloesung:''}];
+  state.fallen.forEach(f=>{if(typeof f.fehler!=='string')f.fehler='';if(typeof f.verfuehrung!=='string')f.verfuehrung='';if(typeof f.aufloesung!=='string')f.aufloesung='';});
+  if(!Array.isArray(state.quizSel))state.quizSel=[];
+  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Schuh-Selbsttest ================= */
+function renderShoe(){
+  const wrap=document.getElementById('shoeList');wrap.innerHTML='';
+  state.shoeSteps.forEach((v,i)=>{
+    const row=document.createElement('div');row.className='dyn-row';
+    row.innerHTML='<span class="dyn-idx">'+(i+1)+'.</span>'
+      +'<input type="text" data-idx="'+i+'" value="'+esc(v)+'" placeholder="Schritt '+(i+1)+' …">'
+      +(state.shoeSteps.length>1?'<button class="rm" data-rm="'+i+'" title="Entfernen">✕</button>':'');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{
+    state.shoeSteps[+inp.dataset.idx]=inp.value;scheduleSave();
+  }));
+  wrap.querySelectorAll('[data-rm]').forEach(b=>b.addEventListener('click',()=>{
+    state.shoeSteps.splice(+b.dataset.rm,1);scheduleSave();renderShoe();
+  }));
+}
+document.getElementById('shoeAddBtn').addEventListener('click',()=>{
+  state.shoeSteps.push('');scheduleSave();renderShoe();
+});
+document.getElementById('shoeRevealBtn').addEventListener('click',()=>{
+  state.shoeRevealed=true;scheduleSave();
+  const n=state.shoeSteps.filter(s=>s&&s.trim()).length;
+  document.getElementById('shoeCompareText').textContent='Du hast '+n+' Schritt'+(n===1?'':'e')+' notiert. Eine wirklich voraussetzungsfreie Version braucht eher '+SHOE_SAMPLE.length+'.';
+  const sl=document.getElementById('shoeSampleList');sl.innerHTML='';
+  SHOE_SAMPLE.forEach(s=>{const li=document.createElement('li');li.textContent=s;sl.appendChild(li);});
+  document.getElementById('shoeReveal').classList.add('on');
+});
+
+/* ================= See it: Transkript-Check ================= */
+function renderTranscript(){
+  const wrap=document.getElementById('transcriptWrap');wrap.innerHTML='';
+  TRANSCRIPT_SEGMENTS.forEach((seg,i)=>{
+    const span=document.createElement('span');
+    let cls='seg-btn';
+    if(state.transSel[i])cls+=' sel';
+    if(state.transChecked){
+      if(seg.think&&state.transSel[i])cls+=' correct';
+      else if(seg.think&&!state.transSel[i])cls+=' missed';
+      else if(!seg.think&&state.transSel[i])cls+=' missed';
+    }
+    span.className=cls;span.dataset.i=i;
+    span.textContent=seg.t+' ';
+    wrap.appendChild(span);
+  });
+  wrap.querySelectorAll('.seg-btn').forEach(s=>s.addEventListener('click',()=>{
+    if(state.transChecked)return;
+    const i=+s.dataset.i;state.transSel[i]=!state.transSel[i];scheduleSave();renderTranscript();
+  }));
+}
+document.getElementById('transCheck').addEventListener('click',()=>{
+  state.transChecked=true;scheduleSave();renderTranscript();
+  const correct=TRANSCRIPT_SEGMENTS.filter((seg,i)=>seg.think===state.transSel[i]).length;
+  document.getElementById('transScoreText').textContent=correct+' von '+TRANSCRIPT_SEGMENTS.length+' Segmenten richtig erkannt.';
+  document.getElementById('transReveal').classList.add('on');
+});
+document.getElementById('transReset').addEventListener('click',()=>{
+  state.transSel=TRANSCRIPT_SEGMENTS.map(()=>false);state.transChecked=false;scheduleSave();renderTranscript();
+  document.getElementById('transReveal').classList.remove('on');
+});
+
+/* ================= Name it: Vierklang & Starter ================= */
+function renderVierklang(){
+  const wrap=document.getElementById('vierklangList');wrap.innerHTML='';
+  VIERKLANG.forEach(v=>{
+    const div=document.createElement('div');div.className='formula-card';
+    div.innerHTML='<h4>'+v.h+'</h4><p class="f" style="font-size:.95rem">'+v.f+'</p>';
+    wrap.appendChild(div);
+  });
+}
+function renderStarters(){
+  const wrap=document.getElementById('starterList');wrap.innerHTML='';
+  STARTERS.forEach(s=>{const li=document.createElement('li');li.textContent=s;wrap.appendChild(li);});
+}
+document.getElementById('starterCopyBtn').addEventListener('click',async()=>{
+  const t=STARTERS.join('\n');
+  try{await navigator.clipboard.writeText(t);showToast('Satzanfänge kopiert.');}
+  catch(e){showToast('Kopieren nicht möglich in dieser Ansicht.');}
+});
+
+/* ================= Do it: Atomisierungs-Trainer ================= */
+function renderAtom(){
+  const wrap=document.getElementById('atomList');wrap.innerHTML='';
+  state.atomSteps.forEach((v,i)=>{
+    const row=document.createElement('div');row.className='dyn-row';
+    row.innerHTML='<span class="dyn-idx">'+(i+1)+'.</span>'
+      +'<input type="text" data-idx="'+i+'" value="'+esc(v)+'" placeholder="Teilschritt '+(i+1)+' …">'
+      +(state.atomSteps.length>1?'<button class="rm" data-rm="'+i+'" title="Entfernen">✕</button>':'');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{
+    state.atomSteps[+inp.dataset.idx]=inp.value;scheduleSave();
+  }));
+  wrap.querySelectorAll('[data-rm]').forEach(b=>b.addEventListener('click',()=>{
+    state.atomSteps.splice(+b.dataset.rm,1);scheduleSave();renderAtom();
+  }));
+}
+document.getElementById('atomAddBtn').addEventListener('click',()=>{
+  state.atomSteps.push('');scheduleSave();renderAtom();
+});
+async function renderCrossModule(){
+  const el=document.getElementById('crossModuleText');
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function')){
+    el.textContent='Noch keine Modul-9-Daten gefunden.';return;
+  }
+  try{
+    const other=await window.CPD.getModuleState('modul9-woche09-lernziele');
+    if(other&&other.exemplarScheiterstelle&&String(other.exemplarScheiterstelle).trim()){
+      el.textContent='Dein Modul-9-Ich sagt: „'+other.exemplarScheiterstelle+'" – hier brauchen Schwache vermutlich einen Extra-Schritt.';
+    }else{
+      el.textContent='Noch keine Modul-9-Daten gefunden.';
+    }
+  }catch(e){el.textContent='Noch keine Modul-9-Daten gefunden.';}
+}
+
+/* ================= Selbstaufnahme: Kriterien & Zähler ================= */
+function renderCrit(){
+  const wrap=document.getElementById('critList');wrap.innerHTML='';
+  CRIT_LABELS.forEach((c,i)=>{
+    const on=state.critVals[i];
+    const row=document.createElement('div');row.className='crit-row';
+    row.innerHTML='<span class="crit-light '+(on?'green':'grey')+'"></span><span class="crit-text"><b>'+c.b+'</b>'+c.d+'</span>';
+    row.addEventListener('click',()=>{state.critVals[i]=!state.critVals[i];scheduleSave();renderCrit();});
+    wrap.appendChild(row);
+  });
+}
+function renderElCount(){
+  document.getElementById('elCount').textContent=state.elCount;
+  let hint='';
+  if(state.elCount>0){
+    hint=state.elCount<=2?'Guter Korridor für Erklärphasen mit vielen Vorkenntnislücken.':(state.elCount<=4?'Im üblichen Bereich – prüfe, ob die Klasse wirklich mitkommt.':'Vermutlich zu viele neue Elemente pro Minute – Halbier-Regel anwenden.');
+  }
+  document.getElementById('elHint').textContent=hint;
+}
+document.getElementById('elMinus').addEventListener('click',()=>{state.elCount=Math.max(0,state.elCount-1);scheduleSave();renderElCount();});
+document.getElementById('elPlus').addEventListener('click',()=>{state.elCount++;scheduleSave();renderElCount();});
+
+/* ================= Fallen-Bibliothek ================= */
+function renderFallen(){
+  const wrap=document.getElementById('fallenList');wrap.innerHTML='';
+  state.fallen.forEach((f,i)=>{
+    const div=document.createElement('div');div.className='fallen-card';
+    div.innerHTML=(state.fallen.length>1?'<button class="rm" data-rm="'+i+'">✕ Entfernen</button>':'')
+      +'<div class="field" style="margin-top:0"><label>Fehler / Falle</label><textarea data-f="fehler" data-idx="'+i+'" style="min-height:2.6em">'+esc(f.fehler)+'</textarea></div>'
+      +'<div class="field"><label>Warum verführerisch?</label><textarea data-f="verfuehrung" data-idx="'+i+'" style="min-height:2.6em">'+esc(f.verfuehrung)+'</textarea></div>'
+      +'<div class="field"><label>Auflösung</label><textarea data-f="aufloesung" data-idx="'+i+'" style="min-height:2.6em">'+esc(f.aufloesung)+'</textarea></div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('textarea').forEach(t=>t.addEventListener('input',()=>{
+    state.fallen[+t.dataset.idx][t.dataset.f]=t.value;scheduleSave();
+  }));
+  wrap.querySelectorAll('[data-rm]').forEach(b=>b.addEventListener('click',()=>{
+    state.fallen.splice(+b.dataset.rm,1);scheduleSave();renderFallen();
+  }));
+}
+document.getElementById('fallenAddBtn').addEventListener('click',()=>{
+  state.fallen.push({fehler:'',verfuehrung:'',aufloesung:''});scheduleSave();renderFallen();
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function shoeCount(){return state.shoeSteps.filter(s=>s&&s.trim()).length;}
+function transScore(){return TRANSCRIPT_SEGMENTS.filter((seg,i)=>seg.think===state.transSel[i]).length;}
+function atomCount(){return state.atomSteps.filter(s=>s&&s.trim()).length;}
+function fallenCount(){return state.fallen.filter(f=>f.fehler&&f.fehler.trim()).length;}
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const rows=[
+   ['Fluch-des-Wissens-Selbsttest', state.shoeRevealed?'✓ '+shoeCount()+' Schritte notiert':'noch offen',state.shoeRevealed],
+   ['Transkript-Check', state.transChecked?'✓ '+transScore()+'/'+TRANSCRIPT_SEGMENTS.length+' richtig erkannt':'noch offen',state.transChecked],
+   ['Atomisierungs-Trainer', (state.atomContent&&atomCount()>0)?'✓ '+atomCount()+' Teilschritte':'noch offen',!!(state.atomContent&&atomCount()>0)],
+   ['Selbstaufnahme', state.recordDone?'✓ aufgenommen · '+state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length+' Kriterien':'noch offen',state.recordDone],
+   ['Fallen-Bibliothek', fallenCount()+' Falle(n) eingetragen',fallenCount()>0],
+   ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+   ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen".';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 10 · MODELLIEREN & ERKLÄREN – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— FLUCH-DES-WISSENS-SELBSTTEST —\n'+shoeCount()+' Schritte notiert (Musterlösung: '+SHOE_SAMPLE.length+')\n'+state.shoeSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join('\n')+'\n';
+  t+='\n— TRANSKRIPT-CHECK —\n'+transScore()+' von '+TRANSCRIPT_SEGMENTS.length+' Segmenten richtig erkannt\n';
+  t+='\n— ATOMISIERUNGS-TRAINER —\nFachinhalt: '+(state.atomContent||'–')+'\n'+state.atomSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join('\n')+'\n';
+  t+='\n— SELBSTAUFNAHME —\nAufnahme erledigt: '+(state.recordDone?'ja':'nein')+'\nKriterien erfüllt: '+state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length+'\nStärkster Moment: '+(state.strongMoment||'–')+'\nImpuls: '+(state.impulse||'–')+'\nNeue Elemente/Min.: '+state.elCount+'\n';
+  t+='\n— FALLEN-BIBLIOTHEK —\n'+(state.fallen.filter(f=>f.fehler&&f.fehler.trim()).map(f=>'Fehler: '+f.fehler+' | Verführung: '+f.verfuehrung+' | Auflösung: '+f.aufloesung).join('\n')||'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nFallen-Log: '+(state.fallenLog||'–')+'\n';
+  t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 10 · Modellieren &amp; Erklären</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 10 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Fluch-des-Wissens-Selbsttest</h2>'+f('Schritte notiert:',shoeCount()+' (Musterlösung: '+SHOE_SAMPLE.length+')');
+  h+='<h2>Transkript-Check</h2>'+f('Richtig erkannt:',transScore()+' von '+TRANSCRIPT_SEGMENTS.length);
+  h+='<div class="pagebreak"></div><h2>Atomisierungs-Trainer</h2>'+f('Fachinhalt:',state.atomContent)+f('Teilschritte:',state.atomSteps.filter(s=>s&&s.trim()).join(' / '));
+  h+='<h2>Selbstaufnahme</h2>'+f('Aufnahme erledigt:',state.recordDone?'ja':'nein')+f('Kriterien erfüllt:',state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length)+f('Stärkster Moment:',state.strongMoment)+f('Impuls:',state.impulse)+f('Neue Elemente/Min.:',String(state.elCount));
+  h+='<div class="pagebreak"></div><h2>Fallen-Bibliothek</h2>'+f('Einträge:',state.fallen.filter(fx=>fx.fehler&&fx.fehler.trim()).map(fx=>fx.fehler+' → '+fx.aufloesung).join(' | '));
+  h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+f('Transferaufgabe:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>'+f('Fallen-Log:',state.fallenLog);
+  h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 10 „Modellieren & Erklären" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul10-woche10-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderShoe();renderTranscript();renderVierklang();renderStarters();
+  renderAtom();renderCrit();renderElCount();renderFallen();
+  renderQuiz();renderSteps();updateCommitLabel();renderSummary();
+  if(state.shoeRevealed){
+    const n=state.shoeSteps.filter(s=>s&&s.trim()).length;
+    document.getElementById('shoeCompareText').textContent='Du hast '+n+' Schritt'+(n===1?'':'e')+' notiert. Eine wirklich voraussetzungsfreie Version braucht eher '+SHOE_SAMPLE.length+'.';
+    const sl=document.getElementById('shoeSampleList');sl.innerHTML='';
+    SHOE_SAMPLE.forEach(s=>{const li=document.createElement('li');li.textContent=s;sl.appendChild(li);});
+    document.getElementById('shoeReveal').classList.add('on');
+  }
+  if(state.transChecked){
+    const correct=TRANSCRIPT_SEGMENTS.filter((seg,i)=>seg.think===state.transSel[i]).length;
+    document.getElementById('transScoreText').textContent=correct+' von '+TRANSCRIPT_SEGMENTS.length+' Segmenten richtig erkannt.';
+    document.getElementById('transReveal').classList.add('on');
+  }
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+  renderCrossModule();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht es.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern" am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>

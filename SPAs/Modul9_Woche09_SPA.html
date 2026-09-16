@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 9 · Lernziele &amp; Backwards Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Formel-Karten ---------- */
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
+.formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Backwards-Design-Fluss (modulspezifisch) ---------- */
+.flow-row{display:flex;align-items:stretch;gap:.5rem;margin-top:1rem;flex-wrap:wrap}
+.flow-box{flex:1;min-width:8rem;background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:.8rem;text-align:center;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center}
+.flow-box.wrong{text-decoration:line-through;color:var(--muted);border-style:dashed}
+.flow-box.right{border-color:var(--petrol);background:var(--petrol-soft);color:var(--petrol)}
+.flow-arrow{font-size:1.3rem;color:var(--muted);flex-shrink:0;align-self:center}
+.flow-label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:700;margin-top:1.1rem}
+
+/* ---------- Lemov-Befund-Balken (modulspezifisch) ---------- */
+.bar-group{margin-top:.6rem}
+.bar-row{margin-top:.9rem}
+.bar-label{font-size:.82rem;font-weight:600;display:flex;justify-content:space-between;gap:.5rem}
+.bar-track{height:1.3rem;background:var(--line);border-radius:7px;overflow:hidden;margin-top:.3rem}
+.bar-fill{height:100%;border-radius:7px 0 0 7px;background:var(--petrol)}
+.bar-fill.muted{background:#9DB8B2}
+
+/* ---------- Meilenstein-Werkstatt (modulspezifisch) ---------- */
+.milestone-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.milestone-card .rownum{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:.9rem;margin-bottom:.4rem}
+.milestone-card textarea{min-height:3em}
+.crit-mini-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.7rem}
+.crit-mini{display:inline-flex;align-items:center;gap:.35rem;font-size:.78rem;cursor:pointer;border:1px solid var(--line);border-radius:999px;padding:.28rem .65rem;background:var(--bg);font-family:var(--body);color:var(--muted)}
+.crit-mini .dot{width:.65rem;height:.65rem;border-radius:50%;background:var(--line);flex-shrink:0}
+.crit-mini.on{border-color:var(--petrol);color:var(--petrol);background:var(--petrol-soft)}
+.crit-mini.on .dot{background:var(--petrol)}
+.milestone-remove{background:none;border:none;color:#B0433A;font-size:.78rem;cursor:pointer;margin-top:.7rem;font-family:var(--body);padding:0}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 9</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 9 · Block 2 · Fortbildung Sek I/II</span>
+  <h1>Kapitel 7 muss durch. Aber was, wenn niemand mitkommt?</h1>
+  <p class="lead">Sieben Wochen lang ging es um den Raum: Ruhe, Routinen, Beziehung. Ab heute geht es ums eigentliche Geschäft – was in den Köpfen ankommt. Ihr lernt die Planungsreihenfolge, die trägt, und schreibt selbst die Antwort, die ihr von euren Schülern sehen wollt – bevor ihr irgendeine Methode wählt.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Die zwei Planer → Backwards Design umgekehrt → Ampel-Kriterien &amp; Ziel-oder-Thema → Meilenstein-Werkstatt (Kernstück) → Exemplar-Editor → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: McCrea, Lean Lesson Planning (Backwards Design, Meilensteine, zwei Planungs-Todsünden); Lemov T1 (Exemplar Planning)</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · HOOK: ZWEI INNERE MONOLOGE -->
+<section class="screen" data-title="Zwei innere Monologe">
+  <span class="eyebrow">Station 1 · Hook: Zwei innere Monologe</span>
+  <h2>Erkennst du dich in einem der beiden?</h2>
+  <p class="lead">Zwei Planer, zwei Denkweisen – beide fühlen sich nach guter Arbeit an. Lies beide Monologe und finde die Frage, die in beiden Köpfen fehlt.</p>
+  <div class="card">
+    <p style="font-style:italic">„Ich hab bei Instagram dieses geniale Gruppenpuzzle zur Französischen Revolution gesehen – mit Rollenkarten und allem. Das MUSS ich machen. Okay… was war nochmal eigentlich das Thema diese Woche? Egal, das pass ich an. Die Stunde wird super.“</p>
+    <p class="hint" style="margin-top:.5rem">Planer A · Aktivitätsfokus</p>
+  </div>
+  <div class="field">
+    <label for="mono1Q">Welche Frage fehlt in diesem Kopf?</label>
+    <textarea id="mono1Q" data-store="mono1Q" placeholder="…"></textarea>
+  </div>
+  <div class="card" style="margin-top:1.4rem">
+    <p style="font-style:italic">„Kapitel 7 muss bis Freitag durch, sonst schaffe ich Kapitel 8 nicht vor den Ferien. Also: Montag Seite 84 bis 87, Mittwoch 88 bis 91, die Aufgaben 1 bis 6, Freitag Rest. Puh. Eng, aber machbar.“</p>
+    <p class="hint" style="margin-top:.5rem">Planer B · Abdeckungsfokus</p>
+  </div>
+  <div class="field">
+    <label for="mono2Q">Und hier?</label>
+    <textarea id="mono2Q" data-store="mono2Q" placeholder="…"></textarea>
+  </div>
+  <p style="margin-top:1rem"><button class="btn small" id="monoRevealBtn">Auflösung anzeigen</button></p>
+  <div class="card reveal" id="monoReveal">
+    <p>Beiden fehlt dieselbe Frage: <strong>„Was LERNEN sie dabei?“</strong></p>
+    <p style="margin-top:.6rem">A optimiert Beschäftigung – die Frage „Was tun die Schüler?“ hat die Frage „Was lernen sie?“ verdrängt. B optimiert Durchkommen – der Stoff ist durch, ob die Köpfe mit sind, steht auf keinem seiner Zettel. Das sind die zwei Todsünden der Planung, und das Gegengift ist banal auszusprechen und schwer zu leben.</p>
+    <p class="punchline">Fang am Ende an.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu Backwards Design →</button></p>
+</section>
+
+<!-- 2 · SEE IT: BACKWARDS DESIGN -->
+<section class="screen" data-title="Backwards Design">
+  <span class="eyebrow">Station 2 · See it: Rückwärts geplant</span>
+  <h2>Die Planungsreihenfolge, die trägt.</h2>
+  <p class="lead">ERST „Was sollen sie am Ende können?“ – dann „Woran erkenne ich das?“ – dann, ganz zuletzt, „Welche Aktivität bringt sie dahin?“. Das Bauchgefühl geht genau andersherum.</p>
+  <div class="card">
+    <p class="flow-label">So fühlt es sich an (Bauchgefühl)</p>
+    <div class="flow-row">
+      <div class="flow-box wrong">Aktivität</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box wrong">Nachweis</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box wrong">Ziel</div>
+    </div>
+    <p class="flow-label" style="margin-top:1.4rem">So trägt es (Backwards Design)</p>
+    <div class="flow-row">
+      <div class="flow-box right">1 · Ziel</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box right">2 · Nachweis</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box right">3 · Aktivität</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Lemovs Befund aus den Videostudien</h3>
+    <p class="lead" style="font-size:.9rem">Die wirksamsten Lehrkräfte verbringen MEHR Zeit mit dem Ziel und WENIGER mit der Aktivitätenauswahl als der Durchschnitt – exakt umgekehrt zum Bauchgefühl.</p>
+    <div class="bar-group">
+      <div class="bar-row">
+        <div class="bar-label"><span>Zeit auf Ziel/Exemplar – Top-Lehrkräfte</span><span>viel</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label"><span>Zeit auf Ziel/Exemplar – Durchschnitt</span><span>wenig</span></div>
+        <div class="bar-track"><div class="bar-fill muted" style="width:30%"></div></div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label"><span>Zeit auf Aktivitätenauswahl – Top-Lehrkräfte</span><span>wenig</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:30%"></div></div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label"><span>Zeit auf Aktivitätenauswahl – Durchschnitt</span><span>viel</span></div>
+        <div class="bar-track"><div class="bar-fill muted" style="width:70%"></div></div>
+      </div>
+    </div>
+    <p style="margin-top:1rem"><button class="btn small" id="flowRevealBtn">Was bedeutet das für meine Planung?</button></p>
+    <div class="reveal" id="flowReveal">
+      <p>„Am Ende anfangen“ heißt nicht „mehr planen“. Es heißt: die ersten zehn Planungsminuten anders herum verwenden.</p>
+      <p class="punchline">Ziel → Nachweis → Aktivität. In dieser Reihenfolge, nicht umgekehrt.</p>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Ampel →</button></p>
+</section>
+
+<!-- 3 · NAME IT: AMPEL & ZIEL-ODER-THEMA -->
+<section class="screen" data-title="Ampel &amp; Ziel oder Thema">
+  <span class="eyebrow">Station 3 · Name it: Die Ampel + Ziel oder Thema</span>
+  <h2>Vier Prüfsteine für jeden Meilenstein.</h2>
+  <div class="formula-card">
+    <h4>Kumulativ</h4>
+    <p class="f">Die Meilensteine bauen aufeinander auf.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Verteilt</h4>
+    <p class="f">Den ersten schaffen fast alle, den letzten die Stärksten.</p>
+    <p>Differenzierung eingebaut, nicht angeflanscht.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Messbar</h4>
+    <p class="f">Man kann eine Aufgabe dazu stellen.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Klar</h4>
+    <p class="f">Ein Schüler versteht den Satz.</p>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Zwei weitere Prüffragen</h4>
+    <p class="f" style="font-size:.98rem;margin-top:.3rem">Exemplar-Frage: „Habe ich die Idealantwort auf die Schlüsselaufgabe selbst ausformuliert?“</p>
+    <p class="f" style="font-size:.98rem;margin-top:.5rem">Reihenfolge-Regel: Ziel → Nachweis → Aktivität (nie andersherum).</p>
+  </div>
+  <h3 style="margin-top:1.8rem">Ziel oder Thema? Tippe an.</h3>
+  <p class="lead">Sechs Formulierungen – manche sind ein Ort (Thema), manche ein Könnens-Satz (Ziel).</p>
+  <div id="targetList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Meilenstein-Werkstatt →</button></p>
+</section>
+
+<!-- 4 · DO IT: MEILENSTEIN-WERKSTATT -->
+<section class="screen" data-title="Meilenstein-Werkstatt">
+  <span class="eyebrow">Station 4 · Do it: Meilenstein-Werkstatt (Kernstück)</span>
+  <h2>Erst kalibrieren, dann selbst bauen.</h2>
+  <p class="lead">Vier Beispielketten aus vier Fächern – zwei tragen, zwei sind kaputt. Finde heraus, welche.</p>
+  <div id="chainList"></div>
+
+  <h3 style="margin-top:1.8rem">Deine eigene Meilensteinkette</h3>
+  <p class="lead">Nimm das Thema einer echten Stunde der kommenden Woche und baue 2–5 Meilensteine – Könnens-Sätze, die aufeinander aufbauen.</p>
+  <div class="field">
+    <label for="milestoneTopic">Thema / Fach / Klasse</label>
+    <input type="text" id="milestoneTopic" data-store="milestoneTopic" placeholder="z. B. Prozentrechnung, Kl. 7">
+  </div>
+  <div id="milestoneList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="milestoneAddBtn">+ Meilenstein hinzufügen</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Exemplar-Editor →</button></p>
+</section>
+
+<!-- 5 · EXEMPLAR-EDITOR -->
+<section class="screen" data-title="Exemplar-Editor">
+  <span class="eyebrow">Station 5 · Exemplar Planning</span>
+  <h2>Schreib die ideale Schülerantwort. Vorher.</h2>
+  <p class="lead">Nicht die Aufgabe – die ANTWORT. Zur Schlüsselaufgabe des obersten erreichbaren Meilensteins.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="exemplarTask">Die Schlüsselaufgabe</label>
+      <textarea id="exemplarTask" data-store="exemplarTask" placeholder="Welche Aufgabe stellst du, um den obersten Meilenstein zu prüfen?"></textarea>
+    </div>
+    <div class="field">
+      <label for="exemplarAnswer">Die Idealantwort <span class="sub">So, wie sie im Heft stehen soll – ausformuliert, nicht stichwortartig.</span></label>
+      <textarea id="exemplarAnswer" data-store="exemplarAnswer" style="min-height:6em" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exemplarScheiterstelle">Die Scheiter-Stelle <span class="sub">An welcher Stelle im Exemplar werden schwache Schüler scheitern?</span></label>
+      <textarea id="exemplarScheiterstelle" data-store="exemplarScheiterstelle" placeholder="…"></textarea>
+    </div>
+    <p class="hint" style="margin-top:.6rem">💡 Dieses Markup ist dein Diagnose-Werkzeug für nächste Woche: In Modul 10 zerlegt ihr genau an dieser Scheiter-Stelle eure Erklärung in kleinere Schritte.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 6 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 6 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 9 – plus Transfer.</h2>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Baue aus dem Thema „Wahlrecht ab 16“ (Politik, Kl. 10) eine Kette aus drei Meilensteinen + formuliere das Exemplar zum mittleren.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Meilenstein 1: … Meilenstein 2: … Meilenstein 3: … Exemplar (Mitte): …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: „kann 2 Pro- und 2 Contra-Argumente nennen → kann ein Argument mit Beleg/Beispiel entfalten → kann eine begründete eigene Position in 5 Sätzen formulieren, die ein Gegenargument aufgreift.“ Exemplar Mitte z. B.: „Ein Argument dafür ist, dass 16-Jährige von politischen Entscheidungen – etwa beim Klima – am längsten betroffen sind. Wer betroffen ist, sollte mitentscheiden dürfen; das zeigt sich auch daran, dass …“</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 7 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 7 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Schritt – und nur einen.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="weekCounter">Freitags: mein Wochenzähler <span class="sub">z. B. „4 von 5 neuen Stunden mit Exemplar zuerst geschrieben“</span></label>
+      <input type="text" id="weekCounter" data-store="weekCounter" placeholder="…">
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+    <p class="hint" style="margin-top:.6rem">📌 Erinnerung für nächste Woche: Bereite eine 3-Minuten-Modellierung eines eigenen Fachinhalts vor – Woche 10 beginnt mit Mikroteaching.</p>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche das I do. Wie man erklärt, dass Schüler ohne Vorkenntnisse wirklich folgen – lautes Denken, Beispiele, und warum ausgerechnet eure Berufserfahrung euer größtes Erklär-Handicap ist. Bringt Mut mit: Es wird Mikroteaching geben – jeder erklärt drei Minuten vor der Gruppe. Bereitet dafür einen kleinen Fachinhalt eurer Wahl vor.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul9-woche09-lernziele"></script>
+<script>
+/* ================= Daten ================= */
+const NEBELVERBEN=['verstehen','kennenlernen','auseinandersetzen','reflektieren','einfühlen','beschäftigen','sich bewusst'];
+
+const TARGET_ITEMS=[
+ {t:'„Die SuS setzen sich mit Gedichten auseinander.“',correct:2,note:'Thema: Ort ohne Können-Nachweis – „auseinandersetzen“ ist ein Nebelverb.'},
+ {t:'„Die SuS können ein Metrum bestimmen und am Text belegen.“',correct:1,note:'Ziel: ein Könnens-Satz mit Nachweis („belegen“).'},
+ {t:'„Die SuS lernen die Epoche der Romantik kennen.“',correct:2,note:'Thema: „kennenlernen“ ist nicht messbar.'},
+ {t:'„Die SuS können drei Merkmale der Romantik an einem Gedicht nachweisen.“',correct:1,note:'Ziel: zählbar und prüfbar.'},
+ {t:'„Die SuS beschäftigen sich mit dem Wasserkreislauf.“',correct:2,note:'Thema: „beschäftigen“ sagt nichts über das Können.'},
+ {t:'„Die SuS können die vier Stationen des Wasserkreislaufs in der richtigen Reihenfolge erklären.“',correct:1,note:'Ziel: konkrete, prüfbare Leistung.'}
+];
+
+const CHAINS=[
+ {t:'Englisch Kl. 8: kann 5 unregelmäßige Verben im past simple bilden → kann in 4 vorgegebenen Sätzen zwischen past simple und present perfect entscheiden → kann die Entscheidung mit der Signalwort-Regel begründen → kann einen eigenen 5-Satz-Text über das Wochenende fehlerfrei im past simple schreiben.',correct:1,note:'Trägt: kumulativ, verteilt, messbar und klar – jede Stufe hat eine Prüfaufgabe.'},
+ {t:'Geschichte Kl. 9: kann sich in die Zeit des Kalten Krieges einfühlen → versteht die Bedeutung der Kubakrise → reflektiert Parallelen zur Gegenwart.',correct:2,note:'Kaputt: „einfühlen/verstehen/reflektieren“ sind Nebelverben ohne Nachweisform – für keine Stufe lässt sich eine Prüfaufgabe stellen.'},
+ {t:'Chemie Kl. 8: kann die Teilchen in Wort- und Symbolschreibweise von Wasser benennen → kann den Versuchsaufbau der Wasserzersetzung skizzieren und beschriften → kann das 2:1-Volumenverhältnis der Gase mit der Formel erklären → kann vorhersagen, welche Gasmengen bei doppelter Wassermenge entstehen.',correct:1,note:'Trägt: alle vier Ampel-Kriterien erfüllt.'},
+ {t:'Mathe Kl. 7: kann den Satz des Pythagoras anwenden → kann rechtwinklige Dreiecke erkennen → weiß, was eine Hypotenuse ist.',correct:2,note:'Kaputt: nicht kumulativ – das Schwerste steht am Anfang. Rückwärts gelesen wäre die Kette tragfähig.'}
+];
+
+const CRIT_LABELS2=[
+ {b:'Kumulativ',d:'Baut dieser Meilenstein auf dem vorigen auf?'},
+ {b:'Verteilt',d:'Passt die Schwierigkeit zur Position in der Kette?'},
+ {b:'Messbar',d:'Lässt sich eine Prüfaufgabe dazu stellen?'},
+ {b:'Klar',d:'Versteht ein Schüler diesen Satz?'}
+];
+
+const QUIZ=[
+ {q:'F1. „Die SuS setzen sich mit dem Klimawandel auseinander“ ist…',
+  opts:[
+   {t:'ein gutes, offenes Lernziel',ok:false,note:'Klingt kompetenzorientiert – ist aber ein Thema ohne Nachweis.'},
+   {t:'ein Thema ohne messbares Ziel – keine Prüfaufgabe stellbar',ok:true,note:'Genau – „auseinandersetzen“ lässt sich nicht prüfen.'},
+   {t:'zu anspruchsvoll für Sek I',ok:false,note:'Nicht der Kernpunkt.'},
+   {t:'nur als Projektziel geeignet',ok:false,note:'Nicht der Kernpunkt.'}
+  ]},
+ {q:'F2. Exemplar Planning bedeutet…',
+  opts:[
+   {t:'Musterstunden erfahrener Kollegen übernehmen',ok:false,note:'Wortfalle – es geht nicht um fremde Stunden.'},
+   {t:'die ideale Schülerantwort vor der Stunde selbst ausformulieren',ok:true,note:'Genau – Lemovs Technik Nummer eins.'},
+   {t:'im Unterricht viele Beispiele zeigen',ok:false,note:'Das ist P4 (Modellieren), nicht T1.'},
+   {t:'den Erwartungshorizont nach der Klassenarbeit schreiben',ok:false,note:'Zu spät – das Exemplar entsteht VOR der Stunde.'}
+  ]},
+ {q:'F3. Die wirksamsten Lehrkräfte verwenden (laut Lemovs Videostudien) …',
+  opts:[
+   {t:'mehr Zeit auf originelle Aktivitäten',ok:false,note:'Genau das Bauchgefühl, das widerlegt wird.'},
+   {t:'mehr Zeit auf Ziele/Exemplare, weniger auf Aktivitätenauswahl',ok:true,note:'Genau umgekehrt zur Intuition.'},
+   {t:'gar keine schriftliche Planung',ok:false,note:'Nicht belegt.'},
+   {t:'fertige Verlagsmaterialien',ok:false,note:'Nicht der Befund.'}
+  ]},
+ {q:'F4. „Verteilt“ als Meilenstein-Kriterium heißt:',
+  opts:[
+   {t:'die Meilensteine sind über die Stunde verteilt',ok:false,note:'Wortfalle.'},
+   {t:'den ersten schaffen fast alle, den letzten die Stärksten – Differenzierung eingebaut',ok:true,note:'Genau – eingebaute Differenzierung.'},
+   {t:'jeder Schüler bekommt einen anderen Meilenstein',ok:false,note:'Nicht gemeint.'},
+   {t:'sie verteilen sich auf mehrere Stunden',ok:false,note:'Nicht gemeint.'}
+  ]},
+ {q:'F5. Der Abdeckungsfokus („Kapitel 7 muss durch“) ist gefährlich, weil…',
+  opts:[
+   {t:'Lehrpläne unwichtig sind',ok:false,note:'Strohmann-Argument.'},
+   {t:'„Stoff durch“ nichts darüber sagt, ob Köpfe mitgekommen sind',ok:true,note:'Genau der Kernpunkt von Planer B.'},
+   {t:'er zu langsam ist',ok:false,note:'Nicht der Kernpunkt.'},
+   {t:'Schulbücher schlecht sind',ok:false,note:'Nicht der Kernpunkt.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'Exemplar vor Methodenwahl (Standard)',
+  text:'Für jede NEUE Stunde dieser Woche schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe – vor allem anderen, vor der Methodenwahl, vor dem Material. Fünf Minuten, handschriftlich reicht.'},
+ {id:'einseiter',label:'Einseiter-Woche (Alternative)',
+  text:'Alle Stunden nur als Meilensteine + Exemplar + grobe Phasen planen (gut für chronisch Überplanende).'},
+ {id:'todsuenden',label:'Todsünden-Wache (Alternative)',
+  text:'Die eigene Planung jeder Stunde nachträglich taggen (Aktivitätsfokus? Abdeckungsfokus? Backwards?) – reine Diagnose-Woche für Skeptiker.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+function mkMilestone(){return{text:'',crit:[false,false,false,false],task:''};}
+let state={name:'',
+ mono1Q:'',mono2Q:'',monoRevealed:false,
+ flowRevealed:false,
+ targetSel:TARGET_ITEMS.map(()=>0),
+ chainSel:CHAINS.map(()=>0),
+ milestoneTopic:'',
+ milestones:[mkMilestone(),mkMilestone()],
+ exemplarTask:'',exemplarAnswer:'',exemplarScheiterstelle:'',
+ quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+ actionStep:'standard',weekCounter:'',
+ exitMit:'',exitSorge:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
+const STORE_KEY='modul9-woche09-lernziele';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m9test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+function normalizeState(){
+  if(!Array.isArray(state.targetSel)||state.targetSel.length!==TARGET_ITEMS.length)state.targetSel=TARGET_ITEMS.map(()=>0);
+  if(!Array.isArray(state.chainSel)||state.chainSel.length!==CHAINS.length)state.chainSel=CHAINS.map(()=>0);
+  if(!Array.isArray(state.milestones)||state.milestones.length<2)state.milestones=[mkMilestone(),mkMilestone()];
+  state.milestones.forEach(m=>{
+    if(!Array.isArray(m.crit)||m.crit.length!==4)m.crit=[false,false,false,false];
+    if(typeof m.text!=='string')m.text='';
+    if(typeof m.task!=='string')m.task='';
+  });
+  if(!Array.isArray(state.quizSel))state.quizSel=[];
+  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Innere Monologe ================= */
+document.getElementById('monoRevealBtn').addEventListener('click',()=>{
+  state.monoRevealed=true;scheduleSave();
+  document.getElementById('monoReveal').classList.add('on');
+  renderSummary();
+});
+
+/* ================= See it: Backwards Design ================= */
+document.getElementById('flowRevealBtn').addEventListener('click',()=>{
+  state.flowRevealed=true;scheduleSave();
+  document.getElementById('flowReveal').classList.add('on');
+  renderSummary();
+});
+
+/* ================= Name it: Ziel oder Thema ================= */
+function renderTargetItems(){
+  const wrap=document.getElementById('targetList');wrap.innerHTML='';
+  TARGET_ITEMS.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const sel=state.targetSel[i];
+    let btns='';
+    ['Ziel','Thema'].forEach((lbl,j)=>{
+      const val=j+1;
+      let cls='num-btn'+(sel===val?' sel':'');
+      let style='';
+      if(sel&&val===item.correct){cls+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(sel===val&&val!==item.correct){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+cls+'" data-i="'+i+'" data-v="'+val+'"'+style+'>'+lbl+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+item.t+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p class="situ-note'+(sel?' on':'')+'">'+item.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    state.targetSel[+b.dataset.i]=+b.dataset.v;scheduleSave();renderTargetItems();renderSummary();
+  }));
+}
+
+/* ================= Do it: Meilenstein-Kalibrierung ================= */
+function renderChains(){
+  const wrap=document.getElementById('chainList');wrap.innerHTML='';
+  CHAINS.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const sel=state.chainSel[i];
+    let btns='';
+    ['Trägt','Kaputt'].forEach((lbl,j)=>{
+      const val=j+1;
+      let cls='num-btn'+(sel===val?' sel':'');
+      let style='';
+      if(sel&&val===item.correct){cls+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(sel===val&&val!==item.correct){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+cls+'" data-i="'+i+'" data-v="'+val+'"'+style+'>'+lbl+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+item.t+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p class="situ-note'+(sel?' on':'')+'">'+item.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    state.chainSel[+b.dataset.i]=+b.dataset.v;scheduleSave();renderChains();renderSummary();
+  }));
+}
+
+/* ================= Do it: Eigene Meilensteinkette ================= */
+function milestoneCheck(text){
+  const low=(text||'').toLowerCase();
+  if(!text||!text.trim())return{cls:'',msg:''};
+  const bad=NEBELVERBEN.find(w=>low.includes(w));
+  if(bad)return{cls:'color:#B0433A','msg':'⚠ Nebelverb „'+bad+'“ – vermutlich nicht messbar. Woran erkennst du das Können konkret?'};
+  if(low.trim().startsWith('kann '))return{cls:'color:var(--petrol)','msg':'✓ Könnens-Satz erkennbar.'};
+  return{cls:'color:var(--amber)','msg':'Formuliere als Könnens-Satz: „kann …“'};
+}
+function renderMilestones(){
+  const wrap=document.getElementById('milestoneList');wrap.innerHTML='';
+  state.milestones.forEach((m,i)=>{
+    const div=document.createElement('div');div.className='milestone-card';
+    const check=milestoneCheck(m.text);
+    let crits='';
+    CRIT_LABELS2.forEach((c,k)=>{
+      const on=m.crit[k];
+      crits+='<span class="crit-mini'+(on?' on':'')+'" data-mi="'+i+'" data-ck="'+k+'" title="'+c.d+'"><span class="dot"></span>'+c.b+'</span>';
+    });
+    div.innerHTML='<div class="rownum">Meilenstein '+(i+1)+'</div>'
+      +'<textarea data-mi="'+i+'" data-field="text" placeholder="kann …">'+esc(m.text)+'</textarea>'
+      +'<p class="hint" style="'+check.cls+'" data-mhint="'+i+'">'+check.msg+'</p>'
+      +'<div class="crit-mini-row">'+crits+'</div>'
+      +'<div class="field" style="margin-top:.6rem"><label style="font-size:.82rem">Prüfaufgabe dazu (ein Satz)</label>'
+      +'<input type="text" data-mi="'+i+'" data-field="task" value="'+esc(m.task)+'" placeholder="z. B. 4 Sätze im Heft ergänzen"></div>'
+      +(state.milestones.length>2?'<button class="milestone-remove" data-remove="'+i+'">Meilenstein entfernen</button>':'');
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('textarea[data-field="text"]').forEach(t=>t.addEventListener('input',()=>{
+    const i=+t.dataset.mi;state.milestones[i].text=t.value;scheduleSave();
+    const check=milestoneCheck(t.value);
+    const hintEl=wrap.querySelector('[data-mhint="'+i+'"]');
+    if(hintEl){hintEl.textContent=check.msg;hintEl.setAttribute('style',check.cls);}
+    renderSummary();
+  }));
+  wrap.querySelectorAll('input[data-field="task"]').forEach(inp=>inp.addEventListener('input',()=>{
+    const i=+inp.dataset.mi;state.milestones[i].task=inp.value;scheduleSave();renderSummary();
+  }));
+  wrap.querySelectorAll('.crit-mini').forEach(el=>el.addEventListener('click',()=>{
+    const i=+el.dataset.mi,k=+el.dataset.ck;
+    state.milestones[i].crit[k]=!state.milestones[i].crit[k];scheduleSave();renderMilestones();renderSummary();
+  }));
+  wrap.querySelectorAll('[data-remove]').forEach(b=>b.addEventListener('click',()=>{
+    state.milestones.splice(+b.dataset.remove,1);scheduleSave();renderMilestones();renderSummary();
+  }));
+}
+document.getElementById('milestoneAddBtn').addEventListener('click',()=>{
+  if(state.milestones.length>=5)return;
+  state.milestones.push(mkMilestone());
+  scheduleSave();renderMilestones();renderSummary();
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function targetScore(){return state.targetSel.reduce((a,v,i)=>a+(v===TARGET_ITEMS[i].correct?1:0),0);}
+function targetDone(){return state.targetSel.filter(v=>v>0).length;}
+function chainScore(){return state.chainSel.reduce((a,v,i)=>a+(v===CHAINS[i].correct?1:0),0);}
+function chainDone(){return state.chainSel.filter(v=>v>0).length;}
+function milestonesFilledCount(){return state.milestones.filter(m=>m.text&&m.text.trim()).length;}
+function milestonesCritComplete(){return state.milestones.filter(m=>m.crit.every(Boolean)&&m.task&&m.task.trim()).length;}
+
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const rows=[
+    ['Innere Monologe', state.monoRevealed?'✓ Auflösung gelesen':'noch offen',state.monoRevealed],
+    ['Backwards Design', state.flowRevealed?'✓ gelesen':'noch offen',state.flowRevealed],
+    ['Ziel oder Thema?', targetDone()===TARGET_ITEMS.length?'✓ '+targetScore()+'/'+TARGET_ITEMS.length+' richtig':targetDone()+'/'+TARGET_ITEMS.length,targetDone()===TARGET_ITEMS.length],
+    ['Meilenstein-Kalibrierung', chainDone()===CHAINS.length?'✓ '+chainScore()+'/'+CHAINS.length+' richtig':chainDone()+'/'+CHAINS.length,chainDone()===CHAINS.length],
+    ['Eigene Meilensteinkette', milestonesFilledCount()+'/'+state.milestones.length+' formuliert, '+milestonesCritComplete()+' vollständig geprüft',milestonesCritComplete()>0],
+    ['Exemplar', (state.exemplarTask&&state.exemplarAnswer)?'✓ ausformuliert':'noch offen',!!(state.exemplarTask&&state.exemplarAnswer)],
+    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 9 · LERNZIELE & BACKWARDS DESIGN – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— INNERE MONOLOGE —\nPlaner A – fehlende Frage: '+(state.mono1Q||'–')+'\nPlaner B – fehlende Frage: '+(state.mono2Q||'–')+'\n';
+  t+='\n— ZIEL ODER THEMA —\n'+targetScore()+' von '+TARGET_ITEMS.length+' richtig\n';
+  t+='\n— MEILENSTEIN-KALIBRIERUNG —\n'+chainScore()+' von '+CHAINS.length+' richtig\n';
+  t+='\n— EIGENE MEILENSTEINKETTE —\nThema: '+(state.milestoneTopic||'–')+'\n'
+    +state.milestones.map((m,i)=>(i+1)+'. '+(m.text||'–')+' (Prüfaufgabe: '+(m.task||'–')+', Kriterien: '+m.crit.filter(Boolean).length+'/4)').join('\n')+'\n';
+  t+='\n— EXEMPLAR —\nSchlüsselaufgabe: '+(state.exemplarTask||'–')+'\nIdealantwort: '+(state.exemplarAnswer||'–')+'\nScheiter-Stelle: '+(state.exemplarScheiterstelle||'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nWochenzähler: '+(state.weekCounter||'–')+'\n';
+  t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 9 · Lernziele &amp; Backwards Design</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 9 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Innere Monologe</h2>'+f('Planer A – fehlende Frage:',state.mono1Q)+f('Planer B – fehlende Frage:',state.mono2Q);
+  h+='<h2>Ziel oder Thema?</h2>'+f('Richtig:',targetScore()+' von '+TARGET_ITEMS.length);
+  h+='<h2>Meilenstein-Kalibrierung</h2>'+f('Richtig:',chainScore()+' von '+CHAINS.length);
+  h+='<div class="pagebreak"></div><h2>Eigene Meilensteinkette</h2>'+f('Thema:',state.milestoneTopic);
+  state.milestones.forEach((m,i)=>{h+=f('Meilenstein '+(i+1)+':',(m.text||'–')+' — Prüfaufgabe: '+(m.task||'–')+' — Kriterien: '+m.crit.filter(Boolean).length+'/4');});
+  h+='<h2>Exemplar</h2>'+f('Schlüsselaufgabe:',state.exemplarTask)+f('Idealantwort:',state.exemplarAnswer)+f('Scheiter-Stelle:',state.exemplarScheiterstelle);
+  h+='<div class="pagebreak"></div><h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
+  h+=f('Transferaufgabe:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>'+f('Wochenzähler:',state.weekCounter);
+  h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 9 „Lernziele & Backwards Design“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul9-woche09-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();renderTargetItems();renderChains();renderMilestones();
+  renderQuiz();renderSteps();updateCommitLabel();renderSummary();
+  if(state.monoRevealed)document.getElementById('monoReveal').classList.add('on');
+  if(state.flowRevealed)document.getElementById('flowReveal').classList.add('on');
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht es.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>

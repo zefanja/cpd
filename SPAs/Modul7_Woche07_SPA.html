@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 7 · Das W.I.N.-Gespräch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---------- Reveal-Sequenzen ---------- */
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:1.1rem;
+}
+
+/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
+.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
+.situ-text{font-size:.96rem;font-weight:600}
+.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.num-btn{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
+  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
+  color:var(--muted);font-family:var(--body);
+}
+.num-btn.sel{border-color:var(--ink);color:var(--ink)}
+.num-btn.correct{color:#fff}
+.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
+.situ-note.on{display:block}
+
+/* ---------- Chips / Kategorien ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+
+/* ---------- Formel-Karten ---------- */
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
+.formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+
+/* ---------- Dialog-Beispiele (See it) ---------- */
+.dialog-block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;margin-top:.9rem}
+.dialog-block h4{font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.5rem}
+.dialog-line{padding:.55rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+.dialog-line:last-child{border-bottom:none}
+.dialog-line .who{font-weight:700;font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:.15rem}
+.dialog-line.pickable{cursor:pointer}
+.dialog-line.marked{background:var(--petrol-soft);border-radius:8px;padding-left:.5rem;padding-right:.5rem}
+.dialog-line.wrongmark{background:#B0433A18;border-radius:8px;padding-left:.5rem;padding-right:.5rem}
+.tag-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+.tag-btn{border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.3rem .7rem;font-size:.78rem;font-weight:700;cursor:pointer;color:var(--muted);font-family:var(--body)}
+.tag-btn.sel{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tag-btn.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.tag-btn.wrong{background:#B0433A;border-color:#B0433A;color:#fff}
+
+/* ---------- W.I.N.-Simulator ---------- */
+.role-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.role-tab{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:.4rem .9rem;font-size:.85rem;font-weight:700;cursor:pointer;color:var(--muted);font-family:var(--body)}
+.role-tab.cur{border-color:var(--petrol);color:var(--petrol)}
+.role-tab.done{background:var(--petrol-soft);color:var(--petrol);border-color:var(--petrol)}
+.sim-card{background:var(--card);border:2px solid var(--petrol);border-radius:var(--radius);padding:1.1rem;margin-top:1rem}
+.sim-context{font-size:.88rem;color:var(--muted)}
+.sim-reply{background:var(--petrol-soft);border-radius:10px;padding:.7rem .85rem;font-size:.9rem;margin:.7rem 0;font-style:italic}
+.sim-step-label{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--petrol);letter-spacing:.05em;text-transform:uppercase;margin-top:1rem}
+.sim-opts{display:grid;gap:.5rem;margin-top:.5rem}
+.sim-opt{border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;text-align:left;cursor:pointer;font-family:var(--body);font-size:.9rem;color:var(--ink)}
+.sim-opt.good{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.sim-opt.bad{border-color:#B0433A;background:#B0433A18}
+.sim-fb{font-size:.85rem;color:var(--muted);margin-top:.6rem;padding-top:.6rem;border-top:1px dashed var(--line)}
+.sim-done{font-weight:700;color:var(--petrol);margin-top:.9rem}
+
+/* ---------- Übergangs-Baukasten ---------- */
+.step-list{display:grid;gap:.5rem;margin-top:.7rem}
+.step-row{display:flex;gap:.5rem;align-items:center}
+.step-row .num{width:1.6rem;flex-shrink:0;font-weight:700;color:var(--petrol);font-family:var(--display)}
+.step-row input{flex:1}
+.step-row .rm{border:none;background:none;color:#B0433A;font-size:1.15rem;cursor:pointer;padding:.2rem .5rem;line-height:1}
+.check-list{display:grid;gap:.55rem;margin-top:.7rem}
+.check-row{display:flex;gap:.6rem;align-items:flex-start;cursor:pointer;font-size:.9rem}
+.check-row input{width:1.2rem;height:1.2rem;margin-top:.1rem;accent-color:var(--petrol);flex-shrink:0}
+
+/* ---------- Kompetenzmatrix (Ausschnitt) ---------- */
+.matrix-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.8rem}
+.matrix-item h3{font-size:.98rem}
+.matrix-item .lf{font-size:.86rem;color:var(--muted);margin:.25rem 0 .6rem}
+.stufe-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.4rem}
+.stufe-btn{border:1.5px solid var(--line);background:var(--bg);border-radius:9px;padding:.45rem .2rem;font-size:.8rem;font-weight:700;cursor:pointer;color:var(--muted);font-family:var(--body)}
+.stufe-btn.sel{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.stufe-desc{font-size:.76rem;color:var(--muted);margin-top:.45rem;min-height:2.1em}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Quiz / Szenarien ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  .pagebreak{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 7</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 7 · Block 1 (Abschluss): Klassenführung &amp; Routinen · Fortbildung Sek I/II</span>
+  <h1>Der Schüler, dem du am liebsten aus dem Weg gehst. Heute redet ihr.</h1>
+  <p class="lead">In jedem Kurs gibt es diese eine Person, mit der ihr nach der Stunde reden müsstet – und es nicht tut. Heute bekommt ihr das Werkzeug dafür: drei Minuten, drei Schritte, ein Plan. Und weil Block 1 damit zu Ende geht: euer erster Meilenstein mit Video-Selbstanalyse.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Der gemiedene Schüler → Predigt vs. W.I.N. im Vergleich → die W.I.N.-Karte + Eröffnungs-Check → der W.I.N.-Simulator (Kernstück) → dein Übergangs-Baukasten → Meilenstein 1 (Kompetenzmatrix) → Quiz → dein Action Step.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R6 (After-class conversation/W.I.N.); Lemov (Building Student Motivation and Trust, Vorgriff); Bambrick-Santoyo (Meilenstein-Logik)</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · HOOK: DER GEMIEDENE SCHÜLER -->
+<section class="screen" data-title="Der gemiedene Schüler">
+  <span class="eyebrow">Station 1 · Hook: Der gemiedene Schüler</span>
+  <h2>Denk an IHN oder SIE. Du weißt sofort, wen ich meine.</h2>
+  <p class="lead">In jedem deiner Kurse gibt es wahrscheinlich eine Person, mit der ein Nachgespräch längst fällig ist – und die du bisher umschifft hast. Kein Name muss hier erscheinen, der bleibt nur bei dir und wird nicht an deinen Coach exportiert.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="studentName">Kürzel oder Vorname <span class="sub">Optional. Bleibt nur lokal bei dir – nicht im Export sichtbar.</span></label>
+      <input type="text" id="studentName" data-store="studentName" placeholder="z. B. „J.“ oder ein Kürzel">
+    </div>
+    <p style="margin-top:.8rem"><button class="btn small" id="studentRevealBtn">Weiter</button></p>
+  </div>
+  <div class="card reveal" id="studentReveal">
+    <p id="studentRevealText"></p>
+    <p class="punchline">In 20 Minuten hast du den Gesprächsplan dafür.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu Predigt vs. W.I.N. →</button></p>
+</section>
+
+<!-- 2 · SEE IT: PREDIGT VS. W.I.N. -->
+<section class="screen" data-title="Predigt vs. W.I.N.">
+  <span class="eyebrow">Station 2 · See it: Zwei Nachgespräche</span>
+  <h2>Gleicher Anlass, gleiche Lehrkraft. Zwei völlig verschiedene Gespräche.</h2>
+  <p class="lead">Zuerst die W.I.N.-Version: Ordne den drei Lehrkraft-Sätzen die passenden Schritte zu. Danach die Predigt-Version: Finde die Anklage-Eröffnung.</p>
+
+  <div class="dialog-block">
+    <h4>Version 1 · Das W.I.N.-Gespräch</h4>
+    <div id="goodDialog"></div>
+  </div>
+
+  <div class="dialog-block">
+    <h4>Version 2 · Die Predigt</h4>
+    <div id="badDialog"></div>
+    <p class="hint" style="margin-top:.6rem">Tippe die Zeile an, die die Anklage-Eröffnung ist.</p>
+  </div>
+
+  <div class="card reveal" id="dialogReveal">
+    <p><strong>Der Unterschied:</strong> Version 1 beginnt mit einer offenen Frage – SEINER Version zuerst –, beschreibt die Wirkung sachlich und endet mit einem gemeinsamen, konkreten Plan. Version 2 beginnt mit einer Anklageschrift, zählt Verfehlungen auf und endet mit einer Drohung.</p>
+    <p class="punchline">Erst seine Geschichte, dann die Wirkung, dann der Plan.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur W.I.N.-Karte →</button></p>
+</section>
+
+<!-- 3 · NAME IT: DIE W.I.N.-KARTE -->
+<section class="screen" data-title="Die W.I.N.-Karte">
+  <span class="eyebrow">Station 3 · Name it: Die W.I.N.-Karte</span>
+  <h2>Drei Buchstaben. Drei bis fünf Minuten. Ein Plan.</h2>
+  <div class="formula-card">
+    <h4>W · Was ist passiert?</h4>
+    <p class="f">„Erzähl mir, was in der Stunde los war.“</p>
+    <p>Seine/ihre Version zuerst – zuhören, Stille aushalten.</p>
+  </div>
+  <div class="formula-card">
+    <h4>I · Impact</h4>
+    <p class="f">„Die Gruppe hat acht Minuten verloren; ich musste dreimal unterbrechen.“</p>
+    <p>Wirkung sachlich beschreiben. Keine Moralkeule.</p>
+  </div>
+  <div class="formula-card">
+    <h4>N · Next steps</h4>
+    <p class="f">„Was machen wir morgen anders – du und ich?“</p>
+    <p>Gemeinsam, konkret, klein.</p>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Rahmen</h4>
+    <p style="font-size:.9rem">privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. <strong>Notausgang:</strong> vertagen ist legitim: „Morgen, große Pause, hier.“</p>
+  </div>
+  <h3 style="margin-top:1.8rem">✓/✗-Check: Welche Eröffnung passt zu W.I.N.?</h3>
+  <p class="lead">Sechs Gesprächseröffnungen. Tippe an: gute Eröffnung oder ungünstige Eröffnung?</p>
+  <div id="openerList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum W.I.N.-Simulator →</button></p>
+</section>
+
+<!-- 4 · DO IT: W.I.N.-SIMULATOR -->
+<section class="screen" data-title="W.I.N.-Simulator">
+  <span class="eyebrow">Station 4 · Do it: W.I.N.-Simulator (Kernstück)</span>
+  <h2>Drei Rollen. Drei Schwierigkeitsgrade. Du führst das Gespräch.</h2>
+  <p class="lead">Wähle für jede Rolle nacheinander deine W-, I- und N-Formulierung. Die Antwort der Schülerin/des Schülers reagiert auf deine Wahl.</p>
+  <div class="role-tabs" id="roleTabs"></div>
+  <div id="simArea"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Übergangs-Baukasten →</button></p>
+</section>
+
+<!-- 5 · ÜBERGANGS-BAUKASTEN -->
+<section class="screen" data-title="Übergangs-Baukasten">
+  <span class="eyebrow">Station 5 · Übergangs-Baukasten</span>
+  <h2>Dein schwierigster Übergang – in Schritte zerlegt.</h2>
+  <p class="lead">Der frühere Übergangs- und Ende-Input dieser Sitzung wohnt in Woche 2/3 – hier nur der Baukasten dafür, kurz und praktisch.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="transProblem">Welcher Übergang läuft bei dir am unruhigsten? <span class="sub">z. B. „Vom Sitzkreis zurück an die Tische“</span></label>
+      <textarea id="transProblem" data-store="transProblem" placeholder="…"></textarea>
+    </div>
+    <h3 style="margin-top:1.1rem">Deine nummerierte Schrittfolge</h3>
+    <div class="step-list" id="stepList"></div>
+    <p style="margin-top:.6rem"><button class="btn ghost small" id="addStepBtn">+ Schritt hinzufügen</button></p>
+    <h3 style="margin-top:1.2rem">Abgrenzungs-Check</h3>
+    <div class="check-list">
+      <label class="check-row"><input type="checkbox" id="startSignalCheck" data-store="startSignal"><span>Startsignal für den Übergang klar gesetzt (Wort/Geste)?</span></label>
+      <label class="check-row"><input type="checkbox" id="endSignalCheck" data-store="endSignal"><span>Endsignal gesetzt – ab wann gilt der Übergang als abgeschlossen?</span></label>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Ende-Checkliste</h3>
+    <p class="lead" style="margin-top:.2rem">Puffer · Signal · Stehen · Reservefragen – die vier Bausteine eines sauberen Stundenendes.</p>
+    <div class="check-list" id="endCheckList"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Meilenstein 1 →</button></p>
+</section>
+
+<!-- 6 · MEILENSTEIN 1 -->
+<section class="screen" data-title="Meilenstein 1">
+  <span class="eyebrow">Station 6 · Meilenstein 1: Kompetenzmatrix &amp; Playbook</span>
+  <h2>Sieben Wochen, sieben Werkzeuge. Zeit für eine erste Standortbestimmung.</h2>
+  <p class="lead">Schätze die ersten drei Felder deiner Kompetenzmatrix neu ein – exakt der gleiche Bogen wie in Woche 0. Der Vergleich mit deinem W0-Bogen passiert bewusst NICHT hier, sondern im Coaching-Gespräch dieser Woche.</p>
+  <div id="matrix3List"></div>
+  <div class="card">
+    <h3>Playbook-Ritual</h3>
+    <p style="font-size:.9rem">Hefte deine Skripte aus W1–W7 zusammen, Deckblatt „Mein Klassenführungs-Playbook“. Sieben Wochen, sieben Werkzeuge, alle selbst geschrieben – das hier ist keine Mappe, das ist dein erstes Berufsjahr in Reinschrift. Der PDF-Export am Ende dieses Moduls ist dein digitales Deckblatt für heute.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 7 – plus Auffrischung.</h2>
+  <p class="lead">Ein Teil der Fragen kommt aus den Vormodulen – so bleibt Block 1 präsent.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">Transfer (Freitext): Melis eskaliert im Gespräch („Bei anderen sagen Sie nie was!“). Schreibe deine nächsten zwei Sätze – mit Teil-Anerkennung, ohne die Sache aufzugeben.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Kann sein, dass ich nicht alles sehe – dem gehe ich nach. Für heute bleibt es dabei: …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: „Kann sein, dass ich nicht alles sehe – dem gehe ich nach. Für heute bleibt es dabei: Handy weg in meiner Stunde. Lass uns überlegen, wie morgen besser läuft.“</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Schritt – und nur einen.</p>
+  <div id="stepChoiceList"></div>
+
+  <div class="card">
+    <h3>Deine Vorbereitung fürs echte Gespräch</h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="winOpener">Meine W-Eröffnungsfrage (wörtlich)</label>
+      <textarea id="winOpener" data-store="winOpener" placeholder="Erzähl mir, was …"></textarea>
+    </div>
+    <div class="field">
+      <label for="winImpact">Mein I-Satz</label>
+      <textarea id="winImpact" data-store="winImpact" placeholder="Die Wirkung war …"></textarea>
+    </div>
+    <div class="field">
+      <label for="winNext">Mein N-Angebot</label>
+      <textarea id="winNext" data-store="winNext" placeholder="Was machen wir morgen anders …"></textarea>
+    </div>
+  </div>
+
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt ins Meilenstein-Gespräch ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitWertvoll">Mein wertvollstes Block-1-Werkzeug:</label>
+      <textarea id="exitWertvoll" data-store="exitWertvoll" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitBaustelle">Woran ich in Block 1 weiterarbeiten muss:</label>
+      <textarea id="exitBaustelle" data-store="exitBaustelle" placeholder="…"></textarea>
+    </div>
+    <p class="hint" style="margin-top:.6rem">💡 Erinnerung: Bring zu Woche 8 einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt.</p>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Es beginnt mit den zehn am besten abgesicherten Prinzipien der Unterrichtsforschung. Bringt dafür einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul7-woche07-win-gespraech"></script>
+<script>
+/* ================= Daten ================= */
+const GOOD_DIALOG=[
+ {who:'Lehrkraft',t:'„Erzähl mir, was heute in der Stunde los war.“',step:'W'},
+ {who:'Schüler',t:'„Ich war einfach aufgedreht heute … hab andauernd reingerufen.“'},
+ {who:'Lehrkraft',t:'„Danke, dass du das so offen sagst. Die Gruppe neben dir hat dadurch Zeit verloren – und ich musste dich heute dreimal ansprechen, statt zu unterrichten.“',step:'I'},
+ {who:'Schüler',t:'„Ja, stimmt. Tut mir leid.“'},
+ {who:'Lehrkraft',t:'„Was machen wir morgen anders – du und ich?“',step:'N'},
+ {who:'Schüler',t:'„Ich setz mich vielleicht nach vorne?“'},
+ {who:'Lehrkraft',t:'„Gute Idee. Ich geb dir außerdem ein Zeichen, bevor ich dich drannehme.“'}
+];
+const BAD_DIALOG=[
+ {who:'Lehrkraft',t:'„Weißt du eigentlich, wie oft ich dich heute ermahnen musste? Fünfmal! Das geht so nicht weiter.“',accusation:true},
+ {who:'Schüler',t:'„…“'},
+ {who:'Lehrkraft',t:'„Du störst nicht nur dich, sondern die ganze Klasse, und das ist mir jetzt echt zu bunt.“'},
+ {who:'Schüler',t:'„Ist ja gut.“'},
+ {who:'Lehrkraft',t:'„Ich erwarte, dass sich das ab morgen ändert, sonst hat das Konsequenzen.“'}
+];
+const WIN_STEP_LABELS={W:'W · Was ist passiert?',I:'I · Impact',N:'N · Next steps'};
+
+const OPENERS=[
+ {t:'„Erzähl mir, was in der Stunde los war.“',good:true,note:'Offene Frage, seine/ihre Version zuerst – der W-Einstieg.'},
+ {t:'„Ich wollte kurz hören, wie es dir gerade geht.“',good:true,note:'Echtes Interesse statt Anklage – öffnet das Gespräch.'},
+ {t:'„Nimm dir Zeit, ich hör dir zu.“',good:true,note:'Signalisiert Raum für die Schülerversion, kein Verhör.'},
+ {t:'„Weißt du eigentlich, wie oft du heute gestört hast?“',good:false,note:'Anklageschrift statt Frage – DIE Intuition, die W.I.N. vermeidet.'},
+ {t:'„Das war jetzt aber wirklich nicht in Ordnung, oder?“',good:false,note:'Vorwurf mit eingebauter Antwort – lässt keinen Raum für die Schülersicht.'},
+ {t:'„Ich hab dir das schon hundertmal gesagt!“',good:false,note:'Predigt-Eröffnung – Länge und Wiederholung sind kein Qualitätsmerkmal.'}
+];
+
+const ROLES=[
+ {id:'jara',name:'Jara (13) · „Einsichtig“',context:'Jara hat in der Stunde ständig reingerufen.',
+  steps:{
+   W:[
+    {t:'„Erzähl mir, was in der Stunde los war.“',good:true,reply:'„Ich war einfach aufgedreht heute … hab andauernd reingerufen. Tut mir eigentlich schon leid.“',fb:'Offene Frage – Jara öffnet sich sofort.'},
+    {t:'„Weißt du eigentlich, wie oft du reingerufen hast?“',good:false,reply:'„Keine Ahnung, was weiß ich …“ (zuckt mit den Schultern)',fb:'Anklage-Frage – auch bei einsichtigen Schülern unnötig defensiv.'},
+    {t:'„Das war heute wieder mal richtig unmöglich von dir.“',good:false,reply:'(schulterzuckt, sagt nichts)',fb:'Vorwurf statt Frage – W bedeutet ZUERST zuhören, nicht urteilen.'}
+   ],
+   I:[
+    {t:'„Die Klasse hat dadurch mehrfach den Faden verloren, und ich musste dich immer wieder unterbrechen.“',good:true,reply:'„Ja, das merk ich schon selbst …“',fb:'Sachlich, konkret, ohne Moralkeule – genau richtig.'},
+    {t:'„Das kann so nicht weitergehen, das ist wirklich respektlos.“',good:false,reply:'(zieht sich zurück)',fb:'Moralkeule statt Wirkungsbeschreibung.'},
+    {t:'„Ich bin von dir wirklich enttäuscht.“',good:false,reply:'(schweigt betreten)',fb:'Beschämt die Person statt die Wirkung zu beschreiben.'}
+   ],
+   N:[
+    {t:'„Was machen wir morgen anders – du und ich?“',good:true,reply:'„Ich setz mich vielleicht weiter vorne hin?“',fb:'Gemeinsam und konkret – Jara liefert sogar selbst einen Vorschlag.'},
+    {t:'„Du weißt ja, was zu tun ist.“',good:false,reply:'„Ähm … okay.“',fb:'Zu vage – kein konkreter, gemeinsamer Plan.'},
+    {t:'„Ich erwarte ab morgen absolute Ruhe von dir.“',good:false,reply:'(nickt stumm)',fb:'Einseitige Ansage statt gemeinsamer Plan – das UND ich fehlt.'}
+   ]
+  }},
+ {id:'tim',name:'Tim (15) · „Abblockend“',context:'Tim hat bei Stillarbeit demonstrativ nichts getan – Arme verschränkt, „Weiß nicht“.',
+  steps:{
+   W:[
+    {t:'„Erzähl mir, was heute los war – ich hab Zeit.“',good:true,reply:'(zuckt mit den Schultern) „Weiß nicht.“ — Du hältst die Stille aus, wartest. Nach einer Pause: „… Ist grad viel zu Hause gerade.“',fb:'Offene Frage + Stille ausgehalten – genau so taut Tim auf.'},
+    {t:'„Warum machst du eigentlich nie was in Stillarbeit?“',good:false,reply:'(verschränkt die Arme, schaut weg) „…“',fb:'Anklage – Tim blockt noch mehr ab.'},
+    {t:'„Ich schätze, dir ist alles egal, oder?“',good:false,reply:'(schweigt)',fb:'Du legst ihm Worte in den Mund, statt die Stille auszuhalten und zu fragen.'}
+   ],
+   I:[
+    {t:'„Du hast heute nichts abgegeben, und ich mache mir Sorgen, dass dir was fehlt, um mitzukommen.“',good:true,reply:'„… Ja, vielleicht.“',fb:'Wirkung + echtes Interesse sachlich benannt, keine Moralkeule.'},
+    {t:'„Das ist jetzt schon das dritte Mal – so geht das nicht.“',good:false,reply:'(zuckt mit den Schultern)',fb:'Zählt Verfehlungen auf statt die Wirkung zu beschreiben.'},
+    {t:'„Ehrlich, das nervt mich langsam.“',good:false,reply:'(schweigt, schaut weg)',fb:'Persönliche Verärgerung statt sachliche Wirkung.'}
+   ],
+   N:[
+    {t:'„Was würde dir helfen, morgen wieder reinzukommen – auch wenn’s zu Hause gerade schwierig ist?“',good:true,reply:'„Vielleicht wenn ich am Anfang schon weiß, was zu tun ist.“',fb:'Gemeinsam, konkret, nimmt seine Situation ernst.'},
+    {t:'„Streng dich einfach mehr an.“',good:false,reply:'(nickt stumm)',fb:'Kein konkreter, gemeinsamer Plan.'},
+    {t:'„Ab morgen erwarte ich volle Mitarbeit.“',good:false,reply:'(schweigt)',fb:'Einseitige Ansage statt gemeinsamer Plan.'}
+   ]
+  }},
+ {id:'melis',name:'Melis (16) · „Eskalierend“',context:'Melis wurde wegen Handy ermahnt und findet das ungerecht.',
+  steps:{
+   W:[
+    {t:'„Erzähl mir, was aus deiner Sicht passiert ist.“',good:true,reply:'„Sie sagen bei anderen NIE was, nur bei mir – das ist unfair!“ (wird lauter)',fb:'Offene Frage – Melis eskaliert trotzdem, das ist Teil ihres Profils. Wichtig ist jetzt ein sachliches I.'},
+    {t:'„Du weißt genau, dass Handys nicht erlaubt sind.“',good:false,reply:'„Und bei den anderen ist das wohl okay, oder?!“ (noch lauter)',fb:'Rechtfertigung statt Frage – Eskalation verschärft sich sofort.'},
+    {t:'„Jetzt beruhig dich erstmal.“',good:false,reply:'„ICH soll mich beruhigen?!“',fb:'Klassischer Verstärker – „beruhig dich“ eskaliert fast immer weiter.'}
+   ],
+   I:[
+    {t:'„Kann sein, dass ich das nicht immer sehe – dem gehe ich nach. Für heute bleibt es dabei: Handy weg in meiner Stunde.“',good:true,reply:'(ca. 60 % runter) „… Okay. Aber das ist echt nicht fair sonst.“',fb:'Teil-Anerkennung ohne die Sache aufzugeben + formales Register – der Anker aus W4.'},
+    {t:'„Bei dir sind aber besonders oft Handys im Spiel.“',good:false,reply:'(legt nach, noch lauter)',fb:'Gegen-Eskalation durch Vorwurf – verschärft weiter.'},
+    {t:'„Das ist mir jetzt egal, wir reden das nach der Stunde.“',good:false,reply:'(legt nach) „Sie hören mir ja eh nicht zu!“',fb:'Wirkt wie Abwimmeln – kein Anker, keine Anerkennung.'}
+   ],
+   N:[
+    {t:'„Lass uns morgen in der großen Pause hier in Ruhe weiterreden – jetzt ist nicht der richtige Moment.“',good:true,reply:'„… Okay, gut.“',fb:'Würdevolles Vertagen – ein legitimer, guter Ausgang, kein Scheitern.'},
+    {t:'„Was schlägst du vor, damit du das Handy in meiner Stunde gar nicht erst brauchst?“',good:true,reply:'„Vielleicht wenn ich’s vorher in die Tasche pack.“',fb:'Gemeinsamer, konkreter Plan – funktioniert, wenn die Eskalation schon gesunken ist.'},
+    {t:'„Wir klären das jetzt sofort, bis du einsiehst, dass ich recht habe.“',good:false,reply:'(legt erneut nach)',fb:'Durchziehen um jeden Preis – genau die Intuition, vor der das Skript warnt.'}
+   ]
+  }}
+];
+
+const ENDCHECK=[
+ 'Zeitpuffer für das Stundenende eingeplant (nicht bis zur letzten Sekunde unterrichtet)',
+ 'Klares Signal fürs Packen gegeben (nicht schleichend)',
+ 'Ich stehe sichtbar am Ausgang / bei der Tür',
+ 'Reservefragen/-aufgabe für die letzten Minuten parat'
+];
+
+const MATRIX3=[
+ {t:'Routinen & Stundenstart',f:'Beginnen meine Stunden verlässlich strukturiert (Begrüßungsritual sauber, <60 Sek. bis alle bereit sind)?'},
+ {t:'Anweisungen & Aufmerksamkeit',f:'Bekomme ich die Klasse zuverlässig still, und kommen meine Arbeitsanweisungen beim ersten Mal an?'},
+ {t:'Intervention & Präsenz',f:'Reagiere ich auf Störungen ruhig, abgestuft und ohne den Unterricht zu unterbrechen?'}
+];
+const STUFEN=[
+ 'Stufe 1 · „Ich reagiere situativ, es fühlt sich zufällig an.“',
+ 'Stufe 2 · „Ich habe ein Vorgehen, muss aktiv daran denken.“',
+ 'Stufe 3 · „Läuft in Standardsituationen stabil, kippt unter Druck.“',
+ 'Stufe 4 · „Läuft automatisch, ich kann situativ anpassen.“'
+];
+
+const QUIZ=[
+ {q:'F1. Ein W.I.N.-Gespräch dauert idealerweise…',
+  opts:[
+   {t:'so lange, bis der Schüler wirklich einsichtig ist',ok:false,note:'Predigt-Logik.'},
+   {t:'drei bis fünf Minuten – Länge ist kein Qualitätsmerkmal',ok:true,note:'Genau – kurz, privat, zukunftsgerichtet.'},
+   {t:'eine ganze Pause',ok:false,note:'Zu lang – verletzt „kurz“.'},
+   {t:'nur wenige Sekunden zwischen Tür und Angel',ok:false,note:'Verletzt „privat“.'}
+  ]},
+ {q:'F2. Das W.I.N.-Gespräch beginnt mit…',
+  opts:[
+   {t:'deiner Schilderung der Vorfälle – Fakten zuerst',ok:false,note:'DIE Intuition: Anklageschrift.'},
+   {t:'seiner/ihrer Version: „Erzähl mir, was los war“',ok:true,note:'Genau – seine Geschichte zuerst.'},
+   {t:'der Ankündigung der Konsequenz',ok:false,note:'Das gehört nicht in den Einstieg.'},
+   {t:'einer Entschuldigungsforderung',ok:false,note:'Zu früh und einseitig.'}
+  ]},
+ {q:'F3. Das Gespräch eskaliert trotz Anker und formalem Register. Du…',
+  opts:[
+   {t:'ziehst es durch – abbrechen wäre Autoritätsverlust',ok:false,note:'DIE Intuition, die selten hilft.'},
+   {t:'vertagst würdevoll und benennst Ort und Zeit',ok:true,note:'Genau – der Notausgang aus der W.I.N.-Karte.'},
+   {t:'rufst sofort die Eltern an',ok:false,note:'Kein Bestandteil des Gesprächs selbst.'},
+   {t:'schickst den Schüler kommentarlos weg',ok:false,note:'Kein würdevoller Abschluss.'}
+  ]},
+ {q:'F4. Tim antwortet im Nachgespräch nur „weiß nicht“. Du…',
+  opts:[
+   {t:'füllst die Stille mit deiner Deutung der Ereignisse',ok:false,note:'Zutext-Reflex.'},
+   {t:'hältst die Stille aus, zeigst Interesse, bietest ggf. eine Brücke an',ok:true,note:'Genau – Aushalten statt Zutexten.'},
+   {t:'brichst ab – bringt ja nichts',ok:false,note:'Gibt zu früh auf.'},
+   {t:'drohst mit Elternanruf',ok:false,note:'Eskaliert statt zu öffnen.'}
+  ]},
+ {q:'F5. Ein W.I.N. direkt nach einer verhängten Konsequenz ist…',
+  opts:[
+   {t:'widersprüchlich – erst muss die Strafe wirken',ok:false,note:'Härte-Logik.'},
+   {t:'die Reparatur: Konsequenz heute, Neuanfang morgen',ok:true,note:'Genau – der Rückbezug auf Woche 6.'},
+   {t:'ein Zurückrudern',ok:false,note:'Kein Widerspruch, sondern Beziehungsarbeit.'},
+   {t:'nur bei kleinen Vorfällen sinnvoll',ok:false,note:'Gilt unabhängig von der Schwere.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'standard',label:'Mein W.I.N.-Gespräch (Standard)',
+  text:'Ich führe diese Woche ein W.I.N.-Gespräch mit dem Schüler / der Schülerin, den/die ich bisher gemieden habe – vorbereitet mit der Karte, maximal fünf Minuten.'},
+ {id:'vorgespraech',label:'Vorbereitendes Kurzgespräch (Alternative)',
+  text:'Falls ein W.I.N. diese Woche organisatorisch nicht gelingt: ein vorbereitendes Kurzgespräch ohne Anlass („Ich wollte kurz hören, wie es dir gerade geht“) – Einzahlung aufs Konto, bevor abgehoben wird.'},
+ {id:'konsolidierung',label:'Konsolidierungs-Woche (Alternative)',
+  text:'Die schwächste eigene Routine aus Block 1 (Start, Signal, Übergang oder Ende) eine Woche lang täglich identisch durchführen und messen.'}
+];
+
+/* ================= Zustand & Speicherung ================= */
+let state={name:'',
+ studentName:'',studentRevealed:false,
+ goodTagSel:GOOD_DIALOG.filter(l=>l.step).map(()=>0),
+ badPick:0,
+ openerSel:OPENERS.map(()=>0),
+ sim:{jara:{w:0,i:0,n:0},tim:{w:0,i:0,n:0},melis:{w:0,i:0,n:0}},simRole:'jara',
+ transProblem:'',transSteps:['',''],startSignal:false,endSignal:false,
+ endCheck:ENDCHECK.map(()=>false),
+ matrix3:[0,0,0],
+ quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+ actionStep:'standard',winOpener:'',winImpact:'',winNext:'',
+ exitWertvoll:'',exitBaustelle:'',commit:false,screen:0,
+ submitted:false,submittedAt:null,submissionText:''};
+const STORE_KEY='modul7-woche07-win-gespraech';
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m7test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+function normalizeState(){
+  const goodLen=GOOD_DIALOG.filter(l=>l.step).length;
+  if(!Array.isArray(state.goodTagSel)||state.goodTagSel.length!==goodLen)state.goodTagSel=GOOD_DIALOG.filter(l=>l.step).map(()=>0);
+  if(!Array.isArray(state.openerSel)||state.openerSel.length!==OPENERS.length)state.openerSel=OPENERS.map(()=>0);
+  if(!state.sim||typeof state.sim!=='object')state.sim={};
+  ROLES.forEach(r=>{if(!state.sim[r.id])state.sim[r.id]={w:0,i:0,n:0};});
+  if(!state.simRole||!ROLES.some(r=>r.id===state.simRole))state.simRole=ROLES[0].id;
+  if(!Array.isArray(state.transSteps)||state.transSteps.length<1)state.transSteps=[''];
+  if(!Array.isArray(state.endCheck)||state.endCheck.length!==ENDCHECK.length)state.endCheck=ENDCHECK.map(()=>false);
+  if(!Array.isArray(state.matrix3)||state.matrix3.length!==MATRIX3.length)state.matrix3=MATRIX3.map(()=>0);
+  if(!Array.isArray(state.quizSel))state.quizSel=[];
+  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Hook: Der gemiedene Schüler ================= */
+document.getElementById('studentRevealBtn').addEventListener('click',()=>{
+  state.studentRevealed=true;scheduleSave();
+  const n=state.studentName?('„'+state.studentName+'“'):'diese Person';
+  document.getElementById('studentRevealText').textContent='Gut. Denk an '+n+' immer wieder in den nächsten Minuten – das Werkzeug, das du gleich lernst, ist genau für dieses Gespräch gebaut.';
+  document.getElementById('studentReveal').classList.add('on');
+});
+
+/* ================= See it: Dialoge ================= */
+function renderGoodDialog(){
+  const wrap=document.getElementById('goodDialog');wrap.innerHTML='';
+  let tagIdx=0;
+  GOOD_DIALOG.forEach(line=>{
+    const div=document.createElement('div');div.className='dialog-line';
+    let html='<span class="who">'+line.who+'</span>'+line.t;
+    if(line.step){
+      const myIdx=tagIdx;tagIdx++;
+      const sel=state.goodTagSel[myIdx];
+      let tags='';
+      ['W','I','N'].forEach(k=>{
+        const isSel=sel===('WIN'.indexOf(k)+1);
+        let cls='tag-btn'+(isSel?' sel':'');
+        if(sel&&k===line.step)cls+=' correct';
+        else if(isSel&&k!==line.step)cls+=' wrong';
+        tags+='<button class="'+cls+'" data-idx="'+myIdx+'" data-k="'+k+'">'+k+'</button>';
+      });
+      html+='<div class="tag-row">'+tags+'</div>';
+      if(sel)div.classList.add(sel===('WIN'.indexOf(line.step)+1)?'marked':'wrongmark');
+    }
+    div.innerHTML=html;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.tag-btn').forEach(b=>b.addEventListener('click',()=>{
+    const idx=+b.dataset.idx,k=b.dataset.k;
+    state.goodTagSel[idx]='WIN'.indexOf(k)+1;scheduleSave();renderGoodDialog();checkDialogsDone();
+  }));
+}
+function renderBadDialog(){
+  const wrap=document.getElementById('badDialog');wrap.innerHTML='';
+  let lehrIdx=0;
+  BAD_DIALOG.forEach((line)=>{
+    const div=document.createElement('div');div.className='dialog-line';
+    let html='<span class="who">'+line.who+'</span>'+line.t;
+    if(line.who==='Lehrkraft'){
+      const myIdx=lehrIdx;lehrIdx++;
+      div.classList.add('pickable');
+      if(state.badPick===myIdx+1){
+        div.classList.add(line.accusation?'marked':'wrongmark');
+        html+='<div class="hint" style="margin-top:.4rem">'+(line.accusation?'✓ Richtig – das ist die Anklage-Eröffnung.':'✗ Das ist nicht die Eröffnung – schau nach der ersten Lehrkraft-Zeile.')+'</div>';
+      }
+      div.addEventListener('click',()=>{
+        state.badPick=myIdx+1;scheduleSave();renderBadDialog();checkDialogsDone();
+      });
+    }
+    div.innerHTML=html;
+    wrap.appendChild(div);
+  });
+}
+function checkDialogsDone(){
+  const goodDone=state.goodTagSel.every(v=>v>0);
+  if(goodDone&&state.badPick>0){
+    document.getElementById('dialogReveal').classList.add('on');
+  }
+}
+
+/* ================= Name it: Opener-Check ================= */
+function renderOpeners(){
+  const wrap=document.getElementById('openerList');wrap.innerHTML='';
+  OPENERS.forEach((o,i)=>{
+    const div=document.createElement('div');div.className='situ-item';
+    const sel=state.openerSel[i];
+    const goodBtnCls='num-btn'+(sel===1?' sel':'')+(sel&&o.good?' correct':'')+((sel===1&&!o.good)?'':'');
+    let btns='';
+    [['✓ gute Eröffnung',true],['✗ ungünstig',false]].forEach(([label,val],j)=>{
+      const isSel=sel===j+1;
+      let cls='num-btn'+(isSel?' sel':'');
+      let style='';
+      if(sel&&val===o.good){cls+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
+      else if(sel&&isSel){style=' style="border-color:#B0433A;color:#B0433A"';}
+      btns+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'"'+style+'>'+label+'</button>';
+    });
+    div.innerHTML='<p class="situ-text">'+o.t+'</p>'
+      +'<div class="num-row">'+btns+'</div>'
+      +'<p class="situ-note'+(sel?' on':'')+'">'+o.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    const val=j===0;
+    state.openerSel[i]=(val===true?1:2);scheduleSave();renderOpeners();
+  }));
+}
+
+/* ================= Do it: W.I.N.-Simulator ================= */
+function roleDone(id){const s=state.sim[id];return s.w>0&&s.i>0&&s.n>0;}
+function renderRoleTabs(){
+  const wrap=document.getElementById('roleTabs');wrap.innerHTML='';
+  ROLES.forEach(r=>{
+    const b=document.createElement('button');
+    b.className='role-tab'+(state.simRole===r.id?' cur':'')+(roleDone(r.id)?' done':'');
+    b.textContent=r.name+(roleDone(r.id)?' ✓':'');
+    b.addEventListener('click',()=>{state.simRole=r.id;scheduleSave();renderRoleTabs();renderSim();});
+    wrap.appendChild(b);
+  });
+}
+function renderSim(){
+  const role=ROLES.find(r=>r.id===state.simRole);
+  const s=state.sim[role.id];
+  const wrap=document.getElementById('simArea');
+  let html='<div class="sim-card"><p class="sim-context">'+role.context+'</p>';
+  const order=['W','I','N'];
+  for(const key of order){
+    const stepKey=key.toLowerCase();
+    const prevKey=order[order.indexOf(key)-1];
+    if(prevKey&&s[prevKey.toLowerCase()]===0)break;
+    const opts=role.steps[key];
+    const chosen=s[stepKey];
+    html+='<div class="sim-step-label">'+WIN_STEP_LABELS[key]+'</div><div class="sim-opts">';
+    opts.forEach((o,j)=>{
+      const isSel=chosen===j+1;
+      let cls='sim-opt'+(isSel?(o.good?' good':' bad'):'');
+      html+='<button class="sim-opt-btn" data-role="'+role.id+'" data-step="'+stepKey+'" data-j="'+j+'"><div class="'+cls+'">'+o.t+'</div></button>';
+    });
+    html+='</div>';
+    if(chosen){
+      const o=opts[chosen-1];
+      html+='<div class="sim-reply">'+o.reply+'</div><div class="sim-fb">'+(o.good?'✓ ':'○ ')+o.fb+'</div>';
+    }
+  }
+  if(s.w>0&&s.i>0&&s.n>0){
+    html+='<div class="sim-done">✓ Gespräch mit '+role.name.split(' ')[0]+' abgeschlossen.</div>';
+  }
+  html+='</div>';
+  wrap.innerHTML=html;
+  wrap.querySelectorAll('.sim-opt-btn').forEach(b=>b.addEventListener('click',()=>{
+    const roleId=b.dataset.role,step=b.dataset.step,j=+b.dataset.j;
+    state.sim[roleId][step]=j+1;scheduleSave();renderRoleTabs();renderSim();
+  }));
+}
+
+/* ================= Übergangs-Baukasten ================= */
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  state.transSteps.forEach((v,i)=>{
+    const row=document.createElement('div');row.className='step-row';
+    row.innerHTML='<span class="num">'+(i+1)+'.</span><input type="text" data-idx="'+i+'" value="'+esc(v)+'" placeholder="Schritt '+(i+1)+' …">'
+      +(state.transSteps.length>1?'<button class="rm" data-rm="'+i+'" title="Entfernen">✕</button>':'');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('input[data-idx]').forEach(inp=>inp.addEventListener('input',()=>{
+    state.transSteps[+inp.dataset.idx]=inp.value;scheduleSave();
+  }));
+  wrap.querySelectorAll('[data-rm]').forEach(b=>b.addEventListener('click',()=>{
+    state.transSteps.splice(+b.dataset.rm,1);scheduleSave();renderSteps();
+  }));
+}
+document.getElementById('addStepBtn').addEventListener('click',()=>{
+  state.transSteps.push('');scheduleSave();renderSteps();
+});
+function renderEndCheck(){
+  const wrap=document.getElementById('endCheckList');wrap.innerHTML='';
+  ENDCHECK.forEach((label,i)=>{
+    const row=document.createElement('label');row.className='check-row';
+    row.innerHTML='<input type="checkbox" data-i="'+i+'" '+(state.endCheck[i]?'checked':'')+'><span>'+label+'</span>';
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('input').forEach(inp=>inp.addEventListener('change',()=>{
+    state.endCheck[+inp.dataset.i]=inp.checked;scheduleSave();
+  }));
+}
+
+/* ================= Meilenstein 1 ================= */
+function renderMatrix3(){
+  const wrap=document.getElementById('matrix3List');wrap.innerHTML='';
+  MATRIX3.forEach((m,i)=>{
+    const div=document.createElement('div');div.className='matrix-item';
+    let btns='';
+    for(let s=1;s<=4;s++){
+      btns+='<button class="stufe-btn'+(state.matrix3[i]===s?' sel':'')+'" data-i="'+i+'" data-s="'+s+'">'+s+'</button>';
+    }
+    div.innerHTML='<h3>'+(i+1)+'. '+m.t+'</h3><p class="lf">'+m.f+'</p>'
+      +'<div class="stufe-row">'+btns+'</div>'
+      +'<p class="stufe-desc">'+(state.matrix3[i]?STUFEN[state.matrix3[i]-1]:'Wähle die Stufe, die den NORMALFALL deiner letzten Woche beschreibt.')+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.stufe-btn').forEach(b=>b.addEventListener('click',()=>{
+    state.matrix3[+b.dataset.i]=+b.dataset.s;scheduleSave();renderMatrix3();
+  }));
+}
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();
+  document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Action Steps ================= */
+function renderStepChoices(){
+  const wrap=document.getElementById('stepChoiceList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
+    div.addEventListener('click',()=>{
+      state.actionStep=s.id;scheduleSave();renderStepChoices();updateCommitLabel();
+    });
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    else{
+      el.value=state[k]||'';
+      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
+      el.addEventListener('input',()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+      });
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function goodTagScore(){
+  const items=GOOD_DIALOG.filter(l=>l.step);
+  return state.goodTagSel.reduce((a,v,i)=>a+(v===('WIN'.indexOf(items[i].step)+1)?1:0),0);
+}
+function goodTagDone(){return state.goodTagSel.filter(v=>v>0).length;}
+function openerScore(){return state.openerSel.reduce((a,v,i)=>a+((v===1)===OPENERS[i].good?1:0),0);}
+function openerDone(){return state.openerSel.filter(v=>v>0).length;}
+function simDoneCount(){return ROLES.filter(r=>roleDone(r.id)).length;}
+function transStepsDone(){return state.transSteps.filter(s=>s&&s.trim()).length;}
+function matrix3Done(){return state.matrix3.filter(v=>v>0).length;}
+
+function renderSummary(){
+  const quizDone=state.quizSel.filter(v=>v>0).length;
+  const rows=[
+    ['Der gemiedene Schüler', state.studentRevealed?'✓ beantwortet':'noch offen',state.studentRevealed],
+    ['Predigt vs. W.I.N.', (goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)?'✓ '+goodTagScore()+'/'+GOOD_DIALOG.filter(l=>l.step).length+' Schritte richtig zugeordnet':'noch offen',(goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)],
+    ['W.I.N.-Karte & Eröffnungs-Check', openerDone()===OPENERS.length?'✓ '+openerScore()+'/'+OPENERS.length+' richtig':openerDone()+'/'+OPENERS.length,openerDone()===OPENERS.length],
+    ['W.I.N.-Simulator', simDoneCount()===ROLES.length?'✓ alle 3 Gespräche geführt':simDoneCount()+'/'+ROLES.length+' Gespräche',simDoneCount()===ROLES.length],
+    ['Übergangs-Baukasten', transStepsDone()>0?transStepsDone()+' Schritte notiert':'noch offen',transStepsDone()>0],
+    ['Meilenstein 1', matrix3Done()===MATRIX3.length?'✓ vollständig eingeschätzt':matrix3Done()+'/'+MATRIX3.length,matrix3Done()===MATRIX3.length],
+    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
+    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+  document.getElementById('summaryStatus').innerHTML=rows.map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function summaryText(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let t='MODUL 7 · DAS W.I.N.-GESPRÄCH + MEILENSTEIN 1 – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— PREDIGT VS. W.I.N. —\nSchritte richtig zugeordnet: '+goodTagScore()+' von '+GOOD_DIALOG.filter(l=>l.step).length+'\nAnklage-Eröffnung erkannt: '+(state.badPick===1?'ja':(state.badPick?'nein':'–'))+'\n';
+  t+='\n— W.I.N.-KARTE & ERÖFFNUNGS-CHECK —\n'+openerScore()+' von '+OPENERS.length+' richtig erkannt\n';
+  t+='\n— W.I.N.-SIMULATOR —\n'+ROLES.map(r=>{
+    const s=state.sim[r.id];
+    if(!(s.w&&s.i&&s.n))return r.name+': noch nicht abgeschlossen';
+    const w=r.steps.W[s.w-1],i=r.steps.I[s.i-1],n=r.steps.N[s.n-1];
+    return r.name+': W '+(w.good?'✓':'○')+' · I '+(i.good?'✓':'○')+' · N '+(n.good?'✓':'○');
+  }).join('\n')+'\n';
+  t+='\n— ÜBERGANGS-BAUKASTEN —\nÜbergang: '+(state.transProblem||'–')+'\nSchritte: '+state.transSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join(' / ')+'\nStartsignal gesetzt: '+(state.startSignal?'ja':'nein')+' · Endsignal gesetzt: '+(state.endSignal?'ja':'nein')+'\nEnde-Checkliste: '+state.endCheck.filter(Boolean).length+'/'+ENDCHECK.length+'\n';
+  t+='\n— MEILENSTEIN 1 (Kompetenzmatrix, Felder 1–3) —\n'+MATRIX3.map((m,i)=>(i+1)+'. '+m.t+': '+(state.matrix3[i]?'Stufe '+state.matrix3[i]:'–')).join('\n')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nW-Eröffnungsfrage: '+(state.winOpener||'–')+'\nI-Satz: '+(state.winImpact||'–')+'\nN-Angebot: '+(state.winNext||'–')+'\n';
+  t+='\n— EXIT-KARTE —\nWertvollstes Block-1-Werkzeug: '+(state.exitWertvoll||'–')+'\nBaustelle: '+(state.exitBaustelle||'–')+'\n';
+  return t;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+function buildPrint(){
+  const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+  let h='<h1>Modul 7 · Das W.I.N.-Gespräch + Meilenstein 1</h1>';
+  h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 7 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
+  const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
+  h+='<h2>Predigt vs. W.I.N.</h2>'+f('Schritte richtig zugeordnet:',goodTagScore()+' von '+GOOD_DIALOG.filter(l=>l.step).length)+f('Anklage-Eröffnung erkannt:',state.badPick===1?'ja':(state.badPick?'nein':'–'));
+  h+='<h2>W.I.N.-Karte & Eröffnungs-Check</h2>'+f('Richtig erkannt:',openerScore()+' von '+OPENERS.length);
+  h+='<div class="pagebreak"></div><h2>W.I.N.-Simulator</h2>';
+  ROLES.forEach(r=>{
+    const s=state.sim[r.id];
+    if(s.w&&s.i&&s.n){
+      const w=r.steps.W[s.w-1],i=r.steps.I[s.i-1],n=r.steps.N[s.n-1];
+      h+=f(r.name+':','W '+(w.good?'gut':'suboptimal')+' · I '+(i.good?'gut':'suboptimal')+' · N '+(n.good?'gut':'suboptimal'));
+    }else{h+=f(r.name+':','noch nicht abgeschlossen');}
+  });
+  h+='<h2>Übergangs-Baukasten</h2>'+f('Übergang:',state.transProblem)+f('Schritte:',state.transSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join(' / '))+f('Ende-Checkliste erledigt:',state.endCheck.filter(Boolean).length+'/'+ENDCHECK.length);
+  h+='<div class="pagebreak"></div><h2>Meilenstein 1 – Kompetenzmatrix (Felder 1–3)</h2>';
+  MATRIX3.forEach((m,i)=>{h+=f((i+1)+'. '+m.t+':',state.matrix3[i]?'Stufe '+state.matrix3[i]:'–');});
+  h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+f('Transferaufgabe:',state.transferAnswer);
+  const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
+  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>'+f('W-Eröffnungsfrage:',state.winOpener)+f('I-Satz:',state.winImpact)+f('N-Angebot:',state.winNext);
+  h+='<h2>Exit-Karte</h2>'+f('Wertvollstes Block-1-Werkzeug:',state.exitWertvoll)+f('Baustelle:',state.exitBaustelle);
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 7 „Das W.I.N.-Gespräch + Meilenstein 1“ · Kopie an Coach im Meilenstein-Gespräch dieser Woche.</div>';
+  document.getElementById('printReport').innerHTML=h;
+}
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download='modul7-woche07-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  renderGoodDialog();renderBadDialog();checkDialogsDone();
+  renderOpeners();renderRoleTabs();renderSim();
+  renderSteps();renderEndCheck();renderMatrix3();
+  renderQuiz();renderStepChoices();updateCommitLabel();renderSummary();
+  if(state.studentRevealed){
+    const n=state.studentName?('„'+state.studentName+'“'):'diese Person';
+    document.getElementById('studentRevealText').textContent='Gut. Denk an '+n+' immer wieder in den nächsten Minuten – das Werkzeug, das du gleich lernst, ist genau für dieses Gespräch gebaut.';
+    document.getElementById('studentReveal').classList.add('on');
+  }
+  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      Object.assign(state,data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast('Fortschritt geladen – weiter geht es.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+})();
+</script>
+</body>
+</html>
