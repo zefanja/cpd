@@ -532,6 +532,12 @@ const MATCH_ITEMS=[
  {t:'„Wie NETT, dass ihr euch auch mal beteiligt.“',cat:3,note:'Ironie ist eine Abhebung im Einzahlungs-Kostüm.'},
  {t:'„Super gemacht – aber leider viele Fehler drin – nächstes Mal wird’s bestimmt besser!“',cat:4,note:'Lob–Kritik–Lob: Jedes künftige Lob wird als Vorbote gehört.'}
 ];
+function shuffleIdx(n){
+  const idx=Array.from({length:n},(_,i)=>i);
+  for(let i=idx.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[idx[i],idx[j]]=[idx[j],idx[i]];}
+  return idx;
+}
+const MATCH_ORDER=shuffleIdx(MATCH_ITEMS.length);
 
 const REFRAME_CARDS=[
  {neg:'„Hört auf zu quatschen!“',sample:'„Ich höre fast nur Stifte – ich will nur Stifte hören.“'},
@@ -809,7 +815,8 @@ document.getElementById('seeResetBtn').addEventListener('click',()=>{
 /* ================= Name it: Zuordnungsspiel ================= */
 function renderMatch(){
   const wrap=document.getElementById('matchList');wrap.innerHTML='';
-  MATCH_ITEMS.forEach((item,i)=>{
+  MATCH_ORDER.forEach(i=>{
+    const item=MATCH_ITEMS[i];
     const div=document.createElement('div');div.className='situ-item';
     const sel=state.matchSel[i];
     let chips='';
@@ -832,11 +839,7 @@ function renderMatch(){
 
 /* ================= Do it: Timer-Trainer ================= */
 let timerRunning=false,timerSeconds=60,timerInterval=null,timerCardIdx=0,timerCount=0,timerOrder=[];
-function shuffledOrder(){
-  const idx=REFRAME_CARDS.map((_,i)=>i);
-  for(let i=idx.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[idx[i],idx[j]]=[idx[j],idx[i]];}
-  return idx;
-}
+function shuffledOrder(){return shuffleIdx(REFRAME_CARDS.length);}
 function renderTimerBest(){
   document.getElementById('timerBestLine').textContent=state.timerBest>0?('Bisheriger Rekord: '+state.timerBest+' Karten in 60 Sekunden'):'';
 }
