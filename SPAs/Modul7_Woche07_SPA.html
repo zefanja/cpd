@@ -159,16 +159,6 @@ p+p{margin-top:.7rem}
 .sim-fb{font-size:.85rem;color:var(--muted);margin-top:.6rem;padding-top:.6rem;border-top:1px dashed var(--line)}
 .sim-done{font-weight:700;color:var(--petrol);margin-top:.9rem}
 
-/* ---------- Übergangs-Baukasten ---------- */
-.step-list{display:grid;gap:.5rem;margin-top:.7rem}
-.step-row{display:flex;gap:.5rem;align-items:center}
-.step-row .num{width:1.6rem;flex-shrink:0;font-weight:700;color:var(--petrol);font-family:var(--display)}
-.step-row input{flex:1}
-.step-row .rm{border:none;background:none;color:#B0433A;font-size:1.15rem;cursor:pointer;padding:.2rem .5rem;line-height:1}
-.check-list{display:grid;gap:.55rem;margin-top:.7rem}
-.check-row{display:flex;gap:.6rem;align-items:flex-start;cursor:pointer;font-size:.9rem}
-.check-row input{width:1.2rem;height:1.2rem;margin-top:.1rem;accent-color:var(--petrol);flex-shrink:0}
-
 /* ---------- Kompetenzmatrix (Ausschnitt) ---------- */
 .matrix-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.8rem}
 .matrix-item h3{font-size:.98rem}
@@ -289,7 +279,7 @@ textarea{min-height:4.2em}
   <p class="lead">In jedem Kurs gibt es diese eine Person, mit der ihr nach der Stunde reden müsstet – und es nicht tut. Heute bekommt ihr das Werkzeug dafür: drei Minuten, drei Schritte, ein Plan. Und weil Block 1 damit zu Ende geht: euer erster Meilenstein mit Video-Selbstanalyse.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Der gemiedene Schüler → Predigt vs. W.I.N. im Vergleich → die W.I.N.-Karte + Eröffnungs-Check → der W.I.N.-Simulator (Kernstück) → dein Übergangs-Baukasten → Meilenstein 1 (Kompetenzmatrix) → Quiz → dein Action Step.</p>
+    <p style="font-size:.9rem">Der gemiedene Schüler → Predigt vs. W.I.N. im Vergleich → die W.I.N.-Karte + Eröffnungs-Check → der W.I.N.-Simulator (Kernstück) → Meilenstein 1 (Kompetenzmatrix) → Quiz → dein Action Step.</p>
   </div>
   <div class="field" id="tnNameField">
     <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
@@ -371,7 +361,7 @@ textarea{min-height:4.2em}
     <p style="font-size:.9rem">privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. <strong>Notausgang:</strong> vertagen ist legitim: „Morgen, große Pause, hier.“</p>
   </div>
   <h3 style="margin-top:1.8rem">✓/✗-Check: Welche Eröffnung passt zu W.I.N.?</h3>
-  <p class="lead">Sechs Gesprächseröffnungen. Tippe an: gute Eröffnung oder ungünstige Eröffnung?</p>
+  <p class="lead">Acht Gesprächseröffnungen – nicht jede klingt so, wie sie ist. Tippe an: gute Eröffnung oder ungünstige Eröffnung?</p>
   <div id="openerList"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum W.I.N.-Simulator →</button></p>
 </section>
@@ -383,39 +373,12 @@ textarea{min-height:4.2em}
   <p class="lead">Wähle für jede Rolle nacheinander deine W-, I- und N-Formulierung. Die Antwort der Schülerin/des Schülers reagiert auf deine Wahl.</p>
   <div class="role-tabs" id="roleTabs"></div>
   <div id="simArea"></div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Übergangs-Baukasten →</button></p>
-</section>
-
-<!-- 5 · ÜBERGANGS-BAUKASTEN -->
-<section class="screen" data-title="Übergangs-Baukasten">
-  <span class="eyebrow">Station 5 · Übergangs-Baukasten</span>
-  <h2>Dein schwierigster Übergang – in Schritte zerlegt.</h2>
-  <p class="lead">Der frühere Übergangs- und Ende-Input dieser Sitzung wohnt in Woche 2/3 – hier nur der Baukasten dafür, kurz und praktisch.</p>
-  <div class="card">
-    <div class="field" style="margin-top:0">
-      <label for="transProblem">Welcher Übergang läuft bei dir am unruhigsten? <span class="sub">z. B. „Vom Sitzkreis zurück an die Tische“</span></label>
-      <textarea id="transProblem" data-store="transProblem" placeholder="…"></textarea>
-    </div>
-    <h3 style="margin-top:1.1rem">Deine nummerierte Schrittfolge</h3>
-    <div class="step-list" id="stepList"></div>
-    <p style="margin-top:.6rem"><button class="btn ghost small" id="addStepBtn">+ Schritt hinzufügen</button></p>
-    <h3 style="margin-top:1.2rem">Abgrenzungs-Check</h3>
-    <div class="check-list">
-      <label class="check-row"><input type="checkbox" id="startSignalCheck" data-store="startSignal"><span>Startsignal für den Übergang klar gesetzt (Wort/Geste)?</span></label>
-      <label class="check-row"><input type="checkbox" id="endSignalCheck" data-store="endSignal"><span>Endsignal gesetzt – ab wann gilt der Übergang als abgeschlossen?</span></label>
-    </div>
-  </div>
-  <div class="card">
-    <h3>Ende-Checkliste</h3>
-    <p class="lead" style="margin-top:.2rem">Puffer · Signal · Stehen · Reservefragen – die vier Bausteine eines sauberen Stundenendes.</p>
-    <div class="check-list" id="endCheckList"></div>
-  </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Meilenstein 1 →</button></p>
 </section>
 
-<!-- 6 · MEILENSTEIN 1 -->
+<!-- 5 · MEILENSTEIN 1 -->
 <section class="screen" data-title="Meilenstein 1">
-  <span class="eyebrow">Station 6 · Meilenstein 1: Kompetenzmatrix &amp; Playbook</span>
+  <span class="eyebrow">Station 5 · Meilenstein 1: Kompetenzmatrix &amp; Playbook</span>
   <h2>Sieben Wochen, sieben Werkzeuge. Zeit für eine erste Standortbestimmung.</h2>
   <p class="lead">Schätze die ersten drei Felder deiner Kompetenzmatrix neu ein – exakt der gleiche Bogen wie in Woche 0. Der Vergleich mit deinem W0-Bogen passiert bewusst NICHT hier, sondern im Coaching-Gespräch dieser Woche.</p>
   <div id="matrix3List"></div>
@@ -426,9 +389,9 @@ textarea{min-height:4.2em}
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
 </section>
 
-<!-- 7 · QUIZ -->
+<!-- 6 · QUIZ -->
 <section class="screen" data-title="Quiz">
-  <span class="eyebrow">Station 7 · Quiz</span>
+  <span class="eyebrow">Station 6 · Quiz</span>
   <h2>Fünf Fragen zu Woche 7 – plus Auffrischung.</h2>
   <p class="lead">Ein Teil der Fragen kommt aus den Vormodulen – so bleibt Block 1 präsent.</p>
   <div id="quizList"></div>
@@ -441,9 +404,9 @@ textarea{min-height:4.2em}
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
 
-<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<!-- 7 · ACTION STEP & ABSCHLUSS -->
 <section class="screen" data-title="Action Step &amp; Export">
-  <span class="eyebrow">Station 8 · Ein Schritt. Nicht sieben.</span>
+  <span class="eyebrow">Station 7 · Ein Schritt. Nicht sieben.</span>
   <h2>Dein Action Step für diese Woche.</h2>
   <p class="lead">Wähle einen Schritt – und nur einen.</p>
   <div id="stepChoiceList"></div>
@@ -544,12 +507,14 @@ const BAD_DIALOG=[
 const WIN_STEP_LABELS={W:'W · Was ist passiert?',I:'I · Impact',N:'N · Next steps'};
 
 const OPENERS=[
+ {t:'„Ich mach mir Sorgen – deshalb erkläre ich dir erst mal, wie ich die Stunde erlebt habe.“',good:false,note:'Klingt fürsorglich, ist aber die Lehrerversion zuerst – der typische Auftakt zur Predigt. W.I.N. beginnt mit seiner/ihrer Sicht.'},
+ {t:'„Mir ist heute etwas aufgefallen, und ich würde gern deine Sicht dazu hören.“',good:true,note:'Nennt den Anlass ehrlich, ohne Vorwurf, und gibt der Schülersicht den Vorrang – ein sauberer W-Einstieg.'},
  {t:'„Erzähl mir, was in der Stunde los war.“',good:true,note:'Offene Frage, seine/ihre Version zuerst – der W-Einstieg.'},
- {t:'„Ich wollte kurz hören, wie es dir gerade geht.“',good:true,note:'Echtes Interesse statt Anklage – öffnet das Gespräch.'},
- {t:'„Nimm dir Zeit, ich hör dir zu.“',good:true,note:'Signalisiert Raum für die Schülerversion, kein Verhör.'},
+ {t:'„Ich sag dir gleich, was das für Konsequenzen hat – aber erst darfst du was dazu sagen.“',good:false,note:'Die Konsequenz vorab macht die Schülerversion zur Formalität. Wer den Ausgang schon kennt, erzählt nichts Ehrliches mehr.'},
  {t:'„Weißt du eigentlich, wie oft du heute gestört hast?“',good:false,note:'Anklageschrift statt Frage – DIE Intuition, die W.I.N. vermeidet.'},
- {t:'„Das war jetzt aber wirklich nicht in Ordnung, oder?“',good:false,note:'Vorwurf mit eingebauter Antwort – lässt keinen Raum für die Schülersicht.'},
- {t:'„Ich hab dir das schon hundertmal gesagt!“',good:false,note:'Predigt-Eröffnung – Länge und Wiederholung sind kein Qualitätsmerkmal.'}
+ {t:'„Heute passt es vielleicht nicht – wollen wir morgen in der großen Pause reden?“',good:true,note:'Vertagen ist der legitime Notausgang: besser ein ruhiges Gespräch morgen als ein Gespräch im Affekt heute.'},
+ {t:'„Warum machst du das eigentlich immer?“',good:false,note:'„Warum“ erzeugt Rechtfertigungsdruck, „immer“ klebt ein Etikett auf. Das ist keine offene W-Frage.'},
+ {t:'„Nimm dir Zeit, ich hör dir zu.“',good:true,note:'Signalisiert Raum für die Schülerversion, kein Verhör.'}
 ];
 
 const ROLES=[
@@ -607,13 +572,6 @@ const ROLES=[
     {t:'„Wir klären das jetzt sofort, bis du einsiehst, dass ich recht habe.“',good:false,reply:'(legt erneut nach)',fb:'Durchziehen um jeden Preis – genau die Intuition, vor der das Skript warnt.'}
    ]
   }}
-];
-
-const ENDCHECK=[
- 'Zeitpuffer für das Stundenende eingeplant (nicht bis zur letzten Sekunde unterrichtet)',
- 'Klares Signal fürs Packen gegeben (nicht schleichend)',
- 'Ich stehe sichtbar am Ausgang / bei der Tür',
- 'Reservefragen/-aufgabe für die letzten Minuten parat'
 ];
 
 const MATRIX3=[
@@ -682,8 +640,6 @@ let state={name:'',
  badPick:0,
  openerSel:OPENERS.map(()=>0),
  sim:{jara:{w:0,i:0,n:0},tim:{w:0,i:0,n:0},melis:{w:0,i:0,n:0}},simRole:'jara',
- transProblem:'',transSteps:['',''],startSignal:false,endSignal:false,
- endCheck:ENDCHECK.map(()=>false),
  matrix3:[0,0,0],
  quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
  actionStep:'standard',winOpener:'',winImpact:'',winNext:'',
@@ -722,8 +678,6 @@ function normalizeState(){
   if(!state.sim||typeof state.sim!=='object')state.sim={};
   ROLES.forEach(r=>{if(!state.sim[r.id])state.sim[r.id]={w:0,i:0,n:0};});
   if(!state.simRole||!ROLES.some(r=>r.id===state.simRole))state.simRole=ROLES[0].id;
-  if(!Array.isArray(state.transSteps)||state.transSteps.length<1)state.transSteps=[''];
-  if(!Array.isArray(state.endCheck)||state.endCheck.length!==ENDCHECK.length)state.endCheck=ENDCHECK.map(()=>false);
   if(!Array.isArray(state.matrix3)||state.matrix3.length!==MATRIX3.length)state.matrix3=MATRIX3.map(()=>0);
   if(!Array.isArray(state.quizSel))state.quizSel=[];
   while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
@@ -955,37 +909,6 @@ function renderSim(){
   }));
 }
 
-/* ================= Übergangs-Baukasten ================= */
-function renderSteps(){
-  const wrap=document.getElementById('stepList');wrap.innerHTML='';
-  state.transSteps.forEach((v,i)=>{
-    const row=document.createElement('div');row.className='step-row';
-    row.innerHTML='<span class="num">'+(i+1)+'.</span><input type="text" data-idx="'+i+'" value="'+esc(v)+'" placeholder="Schritt '+(i+1)+' …">'
-      +(state.transSteps.length>1?'<button class="rm" data-rm="'+i+'" title="Entfernen">✕</button>':'');
-    wrap.appendChild(row);
-  });
-  wrap.querySelectorAll('input[data-idx]').forEach(inp=>inp.addEventListener('input',()=>{
-    state.transSteps[+inp.dataset.idx]=inp.value;scheduleSave();
-  }));
-  wrap.querySelectorAll('[data-rm]').forEach(b=>b.addEventListener('click',()=>{
-    state.transSteps.splice(+b.dataset.rm,1);scheduleSave();renderSteps();
-  }));
-}
-document.getElementById('addStepBtn').addEventListener('click',()=>{
-  state.transSteps.push('');scheduleSave();renderSteps();
-});
-function renderEndCheck(){
-  const wrap=document.getElementById('endCheckList');wrap.innerHTML='';
-  ENDCHECK.forEach((label,i)=>{
-    const row=document.createElement('label');row.className='check-row';
-    row.innerHTML='<input type="checkbox" data-i="'+i+'" '+(state.endCheck[i]?'checked':'')+'><span>'+label+'</span>';
-    wrap.appendChild(row);
-  });
-  wrap.querySelectorAll('input').forEach(inp=>inp.addEventListener('change',()=>{
-    state.endCheck[+inp.dataset.i]=inp.checked;scheduleSave();
-  }));
-}
-
 /* ================= Meilenstein 1 ================= */
 function renderMatrix3(){
   const wrap=document.getElementById('matrix3List');wrap.innerHTML='';
@@ -1077,7 +1000,6 @@ function goodTagDone(){return state.goodTagSel.filter(v=>v>0).length;}
 function openerScore(){return state.openerSel.reduce((a,v,i)=>a+((v===1)===OPENERS[i].good?1:0),0);}
 function openerDone(){return state.openerSel.filter(v=>v>0).length;}
 function simDoneCount(){return ROLES.filter(r=>roleDone(r.id)).length;}
-function transStepsDone(){return state.transSteps.filter(s=>s&&s.trim()).length;}
 function matrix3Done(){return state.matrix3.filter(v=>v>0).length;}
 
 function renderSummary(){
@@ -1087,7 +1009,6 @@ function renderSummary(){
     ['Predigt vs. W.I.N.', (goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)?'✓ '+goodTagScore()+'/'+GOOD_DIALOG.filter(l=>l.step).length+' Schritte richtig zugeordnet':'noch offen',(goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)],
     ['W.I.N.-Karte & Eröffnungs-Check', openerDone()===OPENERS.length?'✓ '+openerScore()+'/'+OPENERS.length+' richtig':openerDone()+'/'+OPENERS.length,openerDone()===OPENERS.length],
     ['W.I.N.-Simulator', simDoneCount()===ROLES.length?'✓ alle 3 Gespräche geführt':simDoneCount()+'/'+ROLES.length+' Gespräche',simDoneCount()===ROLES.length],
-    ['Übergangs-Baukasten', transStepsDone()>0?transStepsDone()+' Schritte notiert':'noch offen',transStepsDone()>0],
     ['Meilenstein 1', matrix3Done()===MATRIX3.length?'✓ vollständig eingeschätzt':matrix3Done()+'/'+MATRIX3.length,matrix3Done()===MATRIX3.length],
     ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
     ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
@@ -1125,7 +1046,6 @@ function summaryText(){
     const w=r.steps.W[s.w-1],i=r.steps.I[s.i-1],n=r.steps.N[s.n-1];
     return r.name+': W '+(w.good?'✓':'○')+' · I '+(i.good?'✓':'○')+' · N '+(n.good?'✓':'○');
   }).join('\n')+'\n';
-  t+='\n— ÜBERGANGS-BAUKASTEN —\nÜbergang: '+(state.transProblem||'–')+'\nSchritte: '+state.transSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join(' / ')+'\nStartsignal gesetzt: '+(state.startSignal?'ja':'nein')+' · Endsignal gesetzt: '+(state.endSignal?'ja':'nein')+'\nEnde-Checkliste: '+state.endCheck.filter(Boolean).length+'/'+ENDCHECK.length+'\n';
   t+='\n— MEILENSTEIN 1 (Kompetenzmatrix, Felder 1–3) —\n'+MATRIX3.map((m,i)=>(i+1)+'. '+m.t+': '+(state.matrix3[i]?'Stufe '+state.matrix3[i]:'–')).join('\n')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
@@ -1161,7 +1081,6 @@ function buildPrint(){
       h+=f(r.name+':','W '+(w.good?'gut':'suboptimal')+' · I '+(i.good?'gut':'suboptimal')+' · N '+(n.good?'gut':'suboptimal'));
     }else{h+=f(r.name+':','noch nicht abgeschlossen');}
   });
-  h+='<h2>Übergangs-Baukasten</h2>'+f('Übergang:',state.transProblem)+f('Schritte:',state.transSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join(' / '))+f('Ende-Checkliste erledigt:',state.endCheck.filter(Boolean).length+'/'+ENDCHECK.length);
   h+='<div class="pagebreak"></div><h2>Meilenstein 1 – Kompetenzmatrix (Felder 1–3)</h2>';
   MATRIX3.forEach((m,i)=>{h+=f((i+1)+'. '+m.t+':',state.matrix3[i]?'Stufe '+state.matrix3[i]:'–');});
   h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+f('Transferaufgabe:',state.transferAnswer);
@@ -1188,7 +1107,7 @@ function refreshAllUI(){
   bindStores();
   renderGoodDialog();renderBadDialog();checkDialogsDone();
   renderOpeners();renderRoleTabs();renderSim();
-  renderSteps();renderEndCheck();renderMatrix3();
+  renderMatrix3();
   renderQuiz();renderStepChoices();updateCommitLabel();renderSummary();
   if(state.studentRevealed){
     const n=state.studentName?('„'+state.studentName+'“'):'diese Person';
