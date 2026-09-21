@@ -360,9 +360,9 @@ textarea{min-height:4.2em}
     <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Rahmen</h4>
     <p style="font-size:.9rem">privat · ruhig (warmes Register) · 3–5 Min. · zukunftsgerichtet. <strong>Notausgang:</strong> vertagen ist legitim: „Morgen, große Pause, hier.“</p>
   </div>
-  <h3 style="margin-top:1.8rem">✓/✗-Check: Welche Eröffnung passt zu W.I.N.?</h3>
-  <p class="lead">Acht Gesprächseröffnungen – nicht jede klingt so, wie sie ist. Tippe an: gute Eröffnung oder ungünstige Eröffnung?</p>
-  <div id="openerList"></div>
+  <h3 style="margin-top:1.8rem">Check: Welcher Satz passt zu W.I.N.?</h3>
+  <p class="lead">Sechs Situationen, je drei Formulierungen. Alle klingen freundlich – aber nur eine hält, was die Karte verspricht. Die Antwort ist nach dem Tippen gesperrt.</p>
+  <div id="winCheckList"></div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum W.I.N.-Simulator →</button></p>
 </section>
 
@@ -506,15 +506,37 @@ const BAD_DIALOG=[
 ];
 const WIN_STEP_LABELS={W:'W · Was ist passiert?',I:'I · Impact',N:'N · Next steps'};
 
-const OPENERS=[
- {t:'„Ich mach mir Sorgen – deshalb erkläre ich dir erst mal, wie ich die Stunde erlebt habe.“',good:false,note:'Klingt fürsorglich, ist aber die Lehrerversion zuerst – der typische Auftakt zur Predigt. W.I.N. beginnt mit seiner/ihrer Sicht.'},
- {t:'„Mir ist heute etwas aufgefallen, und ich würde gern deine Sicht dazu hören.“',good:true,note:'Nennt den Anlass ehrlich, ohne Vorwurf, und gibt der Schülersicht den Vorrang – ein sauberer W-Einstieg.'},
- {t:'„Erzähl mir, was in der Stunde los war.“',good:true,note:'Offene Frage, seine/ihre Version zuerst – der W-Einstieg.'},
- {t:'„Ich sag dir gleich, was das für Konsequenzen hat – aber erst darfst du was dazu sagen.“',good:false,note:'Die Konsequenz vorab macht die Schülerversion zur Formalität. Wer den Ausgang schon kennt, erzählt nichts Ehrliches mehr.'},
- {t:'„Weißt du eigentlich, wie oft du heute gestört hast?“',good:false,note:'Anklageschrift statt Frage – DIE Intuition, die W.I.N. vermeidet.'},
- {t:'„Heute passt es vielleicht nicht – wollen wir morgen in der großen Pause reden?“',good:true,note:'Vertagen ist der legitime Notausgang: besser ein ruhiges Gespräch morgen als ein Gespräch im Affekt heute.'},
- {t:'„Warum machst du das eigentlich immer?“',good:false,note:'„Warum“ erzeugt Rechtfertigungsdruck, „immer“ klebt ein Etikett auf. Das ist keine offene W-Frage.'},
- {t:'„Nimm dir Zeit, ich hör dir zu.“',good:true,note:'Signalisiert Raum für die Schülerversion, kein Verhör.'}
+const WIN_CHECK=[
+ {q:'Die Klasse packt noch, drei Mitschüler stehen in der Nähe. Du willst Jara ansprechen. Wie startest du?',opts:[
+  {t:'„Jara, ich würde gern in Ruhe mit dir reden – bleib bitte kurz, wenn die anderen draußen sind.“',ok:true,note:'Privat und ruhig: Das Gespräch findet ohne Publikum statt, und die Einladung klingt nach Angebot, nicht nach Vorladung.'},
+  {t:'„Jara, ich würde gern kurz mit dir reden – am besten gleich hier, das dauert nur eine Minute.“',ok:false,note:'Klingt entspannt, aber „gleich hier“ heißt Publikum und Zeitdruck. Ein W.I.N. braucht Diskretion – und keine Minute Türgespräch.'},
+  {t:'„Jara, wir müssen dringend reden – das kann nicht bis morgen warten, ich hole dich gleich zu mir.“',ok:false,note:'Alarmton statt ruhigem Register. Wer so beginnt, hat das Gespräch schon vor dem ersten Wort zur Anklage gemacht.'}
+ ]},
+ {q:'Tim hat mehrfach aufs Handy geschaut, die Gruppenarbeit blieb liegen. Ihr seid jetzt allein. Womit beginnst du?',opts:[
+  {t:'„Mir ist in der Stunde etwas aufgefallen – wie hast du sie erlebt?“',ok:true,note:'Der Anlass wird benannt, ohne Vorwurf, dann kommt seine Sicht zuerst. Das ist der W-Einstieg.'},
+  {t:'„Ich weiß, dass es um das Handy ging – erzähl mir trotzdem, wie du das siehst.“',ok:false,note:'„Trotzdem“ verrät, dass das Urteil feststeht. Die Einladung zum Erzählen ist nur Fassade.'},
+  {t:'„Bevor du etwas sagst: Ich habe mir drei Dinge notiert, die mich heute gestört haben.“',ok:false,note:'Die Lehrerversion kommt zuerst. Damit ist die Schülerversion nur noch Reaktion auf eine Liste.'}
+ ]},
+ {q:'Melis fühlt sich schon vor dem Gespräch ungerecht behandelt und schaut dich abwehrend an. Dein erster Satz?',opts:[
+  {t:'„Du bist doch eigentlich ein kluger Kopf – warum verbaust du dir das selbst?“',ok:false,note:'Lob als Köder, dazu eine Warum-Frage und eine Moralkeule in einem Satz. Melis muss sich sofort rechtfertigen.'},
+  {t:'„Erzähl mir bitte, was heute in der Stunde aus deiner Sicht los war.“',ok:true,note:'Offene Frage, ihre Version zuerst. Gerade bei Abwehr ist das der sicherste Einstieg.'},
+  {t:'„Ich möchte, dass wir das jetzt klären – und zwar so, dass es nicht wieder passiert.“',ok:false,note:'Das Ergebnis ist schon vorgegeben, bevor Melis etwas gesagt hat. Ihre Sicht kommt gar nicht vor.'}
+ ]},
+ {q:'Du bist nach der Stunde selbst noch wütend, der Puls ist oben. Der Schüler wartet an der Tür. Was sagst du?',opts:[
+  {t:'„Ich bin ehrlich sauer, und ich sage dir jetzt in Ruhe, was ich von dem Verhalten halte.“',ok:false,note:'„In Ruhe“ ändert nichts: Das ist eine Predigt, nur mit ruhiger Stimme.'},
+  {t:'„Ich merke, ich bin gerade zu angespannt – lass uns morgen in der großen Pause reden.“',ok:true,note:'Vertagen ist der legitime Notausgang. Ein ruhiges Gespräch morgen schlägt ein Gespräch im Affekt heute.'},
+  {t:'„Ich bin nicht sauer – aber sag mir bitte, warum du das gemacht hast.“',ok:false,note:'Der Ärger wird geleugnet, und die Warum-Frage verlangt eine Rechtfertigung. Beides schadet dem Gespräch.'}
+ ]},
+ {q:'Tim hat seine Sicht erzählt. Jetzt kommt das I (Impact). Welcher Satz passt?',opts:[
+  {t:'„Ich war ehrlich enttäuscht von dir – das hätte ich von dir nicht erwartet.“',ok:false,note:'Klingt wie eine Ich-Botschaft, macht aber die Beziehung zum Druckmittel. W.I.N. beschreibt die Wirkung auf den Ablauf, nicht auf deine Gefühle.'},
+  {t:'„Durch dein Verhalten hat die ganze Klasse gelitten – das ist respektlos den anderen gegenüber.“',ok:false,note:'Moralkeule und Etikett („respektlos“). Sachlich bleibt daran nichts, was Tim überprüfen könnte.'},
+  {t:'„Die Gruppenarbeit hat zehn Minuten gestockt, und ich musste zweimal unterbrechen.“',ok:true,note:'Sachlich, beobachtbar, ohne Bewertung der Person. So sieht ein I-Satz aus.'}
+ ]},
+ {q:'Tim hat die Wirkung gehört. Jetzt kommt das N (Next steps). Was sagst du?',opts:[
+  {t:'„Ab morgen liegt dein Handy vorne auf meinem Pult, verstanden?“',ok:false,note:'Konkret, aber diktiert. Das N soll gemeinsam entstehen – „du und ich“ –, sonst bleibt es ein Befehl.'},
+  {t:'„Was könnten wir morgen anders machen – du und ich? Ein kleiner Schritt reicht.“',ok:true,note:'Gemeinsam, klein und auf morgen gerichtet. Genau das meint N.'},
+  {t:'„Ich erwarte, dass du dich ab sofort zusammenreißt – kriegst du das hin?“',ok:false,note:'Zu groß und zu vage, die Frage ist suggestiv. Auf „Ja“ folgt kein Plan.'}
+ ]}
 ];
 
 const ROLES=[
@@ -638,7 +660,7 @@ let state={name:'',
  studentName:'',studentRevealed:false,
  goodTagSel:GOOD_DIALOG.filter(l=>l.step).map(()=>0),
  badPick:0,
- openerSel:OPENERS.map(()=>0),
+ winCheckSel:WIN_CHECK.map(()=>0),winCheckPos:[],
  sim:{jara:{w:0,i:0,n:0},tim:{w:0,i:0,n:0},melis:{w:0,i:0,n:0}},simRole:'jara',
  matrix3:[0,0,0],
  quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
@@ -671,10 +693,28 @@ const store=(function(){
     async set(k,v){mem[k]=v;return true}};
 })();
 
+/* Antwortreihenfolge pro Teilnehmer einmal mischen und im Zustand behalten.
+   Die richtige Antwort wird gleichmäßig auf die Positionen verteilt, damit kein Muster entsteht. */
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function makeWinCheckOrder(){
+  const n=WIN_CHECK[0].opts.length;
+  let slots=[];while(slots.length<WIN_CHECK.length)slots=slots.concat(shuffle([...Array(n).keys()]));
+  slots=slots.slice(0,WIN_CHECK.length);
+  return WIN_CHECK.map((c,i)=>{
+    const okIdx=c.opts.findIndex(o=>o.ok);
+    const rest=shuffle(c.opts.map((o,j)=>j).filter(j=>j!==okIdx));
+    const order=[];
+    for(let k=0;k<c.opts.length;k++)order.push(k===slots[i]?okIdx:rest.shift());
+    return order;
+  });
+}
 function normalizeState(){
   const goodLen=GOOD_DIALOG.filter(l=>l.step).length;
   if(!Array.isArray(state.goodTagSel)||state.goodTagSel.length!==goodLen)state.goodTagSel=GOOD_DIALOG.filter(l=>l.step).map(()=>0);
-  if(!Array.isArray(state.openerSel)||state.openerSel.length!==OPENERS.length)state.openerSel=OPENERS.map(()=>0);
+  if(!Array.isArray(state.winCheckSel)||state.winCheckSel.length!==WIN_CHECK.length)state.winCheckSel=WIN_CHECK.map(()=>0);
+  const posOk=Array.isArray(state.winCheckPos)&&state.winCheckPos.length===WIN_CHECK.length&&WIN_CHECK.every((c,i)=>
+    Array.isArray(state.winCheckPos[i])&&state.winCheckPos[i].length===c.opts.length&&c.opts.every((o,j)=>state.winCheckPos[i].includes(j)));
+  if(!posOk)state.winCheckPos=makeWinCheckOrder();
   if(!state.sim||typeof state.sim!=='object')state.sim={};
   ROLES.forEach(r=>{if(!state.sim[r.id])state.sim[r.id]={w:0,i:0,n:0};});
   if(!state.simRole||!ROLES.some(r=>r.id===state.simRole))state.simRole=ROLES[0].id;
@@ -834,31 +874,32 @@ function checkDialogsDone(){
   }
 }
 
-/* ================= Name it: Opener-Check ================= */
-function renderOpeners(){
-  const wrap=document.getElementById('openerList');wrap.innerHTML='';
-  OPENERS.forEach((o,i)=>{
-    const div=document.createElement('div');div.className='situ-item';
-    const sel=state.openerSel[i];
-    const goodBtnCls='num-btn'+(sel===1?' sel':'')+(sel&&o.good?' correct':'')+((sel===1&&!o.good)?'':'');
-    let btns='';
-    [['✓ gute Eröffnung',true],['✗ ungünstig',false]].forEach(([label,val],j)=>{
-      const isSel=sel===j+1;
-      let cls='num-btn'+(isSel?' sel':'');
-      let style='';
-      if(sel&&val===o.good){cls+=' correct';style=' style="background:var(--petrol);border-color:var(--petrol)"';}
-      else if(sel&&isSel){style=' style="border-color:#B0433A;color:#B0433A"';}
-      btns+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'"'+style+'>'+label+'</button>';
+/* ================= Name it: W.I.N.-Formulierungs-Check ================= */
+function renderWinCheck(){
+  const wrap=document.getElementById('winCheckList');wrap.innerHTML='';
+  WIN_CHECK.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.winCheckSel[i];        // 0 = offen, sonst Originalindex+1 der gewählten Option
+    let opts='';
+    state.winCheckPos[i].forEach(j=>{
+      const o=item.opts[j];
+      let cls='quiz-opt';
+      if(sel){if(o.ok)cls+=' right';else if(sel===j+1)cls+=' wrong';}
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'"'+(sel?' disabled':'')+'>'+o.t+'</button>';
     });
-    div.innerHTML='<p class="situ-text">'+o.t+'</p>'
-      +'<div class="num-row">'+btns+'</div>'
-      +'<p class="situ-note'+(sel?' on':'')+'">'+o.note+'</p>';
+    let note='';
+    if(sel){
+      const chosen=item.opts[sel-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note
+        +(chosen.ok?'':'<br><strong>Passend wäre gewesen:</strong> '+item.opts.find(o=>o.ok).note)+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q"><span class="sub">'+(i+1)+' / '+WIN_CHECK.length+'</span> '+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
     wrap.appendChild(div);
   });
-  wrap.querySelectorAll('.num-btn').forEach(b=>b.addEventListener('click',()=>{
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
     const i=+b.dataset.i,j=+b.dataset.j;
-    const val=j===0;
-    state.openerSel[i]=(val===true?1:2);scheduleSave();renderOpeners();
+    if(state.winCheckSel[i])return;         // Antwort ist nach dem Aufdecken gesperrt
+    state.winCheckSel[i]=j+1;scheduleSave();renderWinCheck();renderSummary();
   }));
 }
 
@@ -997,8 +1038,8 @@ function goodTagScore(){
   return state.goodTagSel.reduce((a,v,i)=>a+(v===('WIN'.indexOf(items[i].step)+1)?1:0),0);
 }
 function goodTagDone(){return state.goodTagSel.filter(v=>v>0).length;}
-function openerScore(){return state.openerSel.reduce((a,v,i)=>a+((v===1)===OPENERS[i].good?1:0),0);}
-function openerDone(){return state.openerSel.filter(v=>v>0).length;}
+function winCheckScore(){return state.winCheckSel.reduce((a,v,i)=>a+(v&&WIN_CHECK[i].opts[v-1].ok?1:0),0);}
+function winCheckDone(){return state.winCheckSel.filter(v=>v>0).length;}
 function simDoneCount(){return ROLES.filter(r=>roleDone(r.id)).length;}
 function matrix3Done(){return state.matrix3.filter(v=>v>0).length;}
 
@@ -1007,7 +1048,7 @@ function renderSummary(){
   const rows=[
     ['Der gemiedene Schüler', state.studentRevealed?'✓ beantwortet':'noch offen',state.studentRevealed],
     ['Predigt vs. W.I.N.', (goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)?'✓ '+goodTagScore()+'/'+GOOD_DIALOG.filter(l=>l.step).length+' Schritte richtig zugeordnet':'noch offen',(goodTagDone()===GOOD_DIALOG.filter(l=>l.step).length&&state.badPick>0)],
-    ['W.I.N.-Karte & Eröffnungs-Check', openerDone()===OPENERS.length?'✓ '+openerScore()+'/'+OPENERS.length+' richtig':openerDone()+'/'+OPENERS.length,openerDone()===OPENERS.length],
+    ['W.I.N.-Karte & Formulierungs-Check', winCheckDone()===WIN_CHECK.length?'✓ '+winCheckScore()+'/'+WIN_CHECK.length+' richtig':winCheckDone()+'/'+WIN_CHECK.length,winCheckDone()===WIN_CHECK.length],
     ['W.I.N.-Simulator', simDoneCount()===ROLES.length?'✓ alle 3 Gespräche geführt':simDoneCount()+'/'+ROLES.length+' Gespräche',simDoneCount()===ROLES.length],
     ['Meilenstein 1', matrix3Done()===MATRIX3.length?'✓ vollständig eingeschätzt':matrix3Done()+'/'+MATRIX3.length,matrix3Done()===MATRIX3.length],
     ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
@@ -1039,7 +1080,7 @@ function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
   let t='MODUL 7 · DAS W.I.N.-GESPRÄCH + MEILENSTEIN 1 – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
   t+='— PREDIGT VS. W.I.N. —\nSchritte richtig zugeordnet: '+goodTagScore()+' von '+GOOD_DIALOG.filter(l=>l.step).length+'\nAnklage-Eröffnung erkannt: '+(state.badPick===1?'ja':(state.badPick?'nein':'–'))+'\n';
-  t+='\n— W.I.N.-KARTE & ERÖFFNUNGS-CHECK —\n'+openerScore()+' von '+OPENERS.length+' richtig erkannt\n';
+  t+='\n— W.I.N.-KARTE & FORMULIERUNGS-CHECK —\n'+winCheckScore()+' von '+WIN_CHECK.length+' richtig erkannt\n';
   t+='\n— W.I.N.-SIMULATOR —\n'+ROLES.map(r=>{
     const s=state.sim[r.id];
     if(!(s.w&&s.i&&s.n))return r.name+': noch nicht abgeschlossen';
@@ -1072,7 +1113,7 @@ function buildPrint(){
   h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 7 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
   const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
   h+='<h2>Predigt vs. W.I.N.</h2>'+f('Schritte richtig zugeordnet:',goodTagScore()+' von '+GOOD_DIALOG.filter(l=>l.step).length)+f('Anklage-Eröffnung erkannt:',state.badPick===1?'ja':(state.badPick?'nein':'–'));
-  h+='<h2>W.I.N.-Karte & Eröffnungs-Check</h2>'+f('Richtig erkannt:',openerScore()+' von '+OPENERS.length);
+  h+='<h2>W.I.N.-Karte & Formulierungs-Check</h2>'+f('Richtig erkannt:',winCheckScore()+' von '+WIN_CHECK.length);
   h+='<div class="pagebreak"></div><h2>W.I.N.-Simulator</h2>';
   ROLES.forEach(r=>{
     const s=state.sim[r.id];
@@ -1106,7 +1147,7 @@ function downloadStateFile(){
 function refreshAllUI(){
   bindStores();
   renderGoodDialog();renderBadDialog();checkDialogsDone();
-  renderOpeners();renderRoleTabs();renderSim();
+  renderWinCheck();renderRoleTabs();renderSim();
   renderMatrix3();
   renderQuiz();renderStepChoices();updateCommitLabel();renderSummary();
   if(state.studentRevealed){

@@ -177,7 +177,7 @@ d) nur bei kleinen Vorfällen sinnvoll ✗
 
 1. **Hook (2 Min.):** „Der gemiedene Schüler": Nutzer denkt an IHN/SIE (Name lokal, optional) – App: „In 20 Minuten hast du den Gesprächsplan."
 2. **See it (5 Min.):** Zwei kontrastierende Nachgespräch-Audios (Predigt vs. W.I.N.) – Aufgabe: die 3 Schritte im guten Beispiel identifizieren, im schlechten die Anklage-Eröffnung markieren.
-3. **Name it (3 Min.):** W.I.N.-Karte digital + ✓/✗-Spiel mit 8 Gesprächseröffnungen (gemischte Reihenfolge, bewusst auch „freundlich klingende“ Fehlgriffe wie Lehrerversion zuerst oder Konsequenz vorab, dazu „Vertagen“ als richtige Eröffnung).
+3. **Name it (3 Min.):** W.I.N.-Karte digital + Formulierungs-Check: 6 Situationen (Rahmen, W-Einstieg ×2, Vertagen, I-Satz, N-Satz) mit je 3 gleich freundlich klingenden Formulierungen, genau eine passt; Position der richtigen Antwort pro Teilnehmer gemischt, Antwort nach dem Tippen gesperrt, Begründung zu jeder Option.
 4. **Do it – W.I.N.-Simulator (9 Min., Engine-Highlight!):** Verzweigter Dialog mit den drei Rollenkarten-Profilen (KI-generierte Schülerantworten nach Regieanweisung); Feedback-Logik: belohnt offene W-Fragen, sachliches I, gemeinsames N; bestraft Zutexten, Moralkeule, vorschnelle Konsequenz-Ansage; „Vertagen" ist als würdiger Ausgang modelliert.
 5. **Meilenstein-Features:** Kompetenzmatrix-Wiederholung (Spinnennetz W0 vs. W7 wird erstmals sichtbar – der Motivations-Screen des Quartals!); Playbook-PDF-Export aller Skripte Module 2–8; Block-1-Abschlussquiz (20 Fragen kumulativ, Fragenpool aus allen Modul-Quizzen).
 6. **Abschluss:** Action-Step-Formular „Mein W.I.N. diese Woche" mit Vorbereitungsfeldern (W-Eröffnungsfrage wörtlich, mein I-Satz, mein N-Angebot) + Erinnerung.
