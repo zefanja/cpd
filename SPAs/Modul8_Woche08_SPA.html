@@ -155,6 +155,9 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
 .formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
 .formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
 .formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+.audit-legend{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.audit-legend li{font-size:.9rem;color:var(--ink);display:flex;gap:.55rem;align-items:baseline}
+.audit-legend b{font-family:var(--display);color:var(--petrol);min-width:1.8rem}
 
 /* ---------- Quiz / Szenarien ---------- */
 .quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
@@ -376,6 +379,10 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
   <span class="eyebrow">Station 4 · Do it: Stunden-Audit-Tool (Kernstück)</span>
   <h2>„Prozentrechnung, Klasse 7" – eine schwache Beispielstunde.</h2>
   <p class="lead">Vier Zeitabschnitte. Prüfe jeden gegen das Audit-Raster: Welche Frage(n) sind verletzt? Tippe an, dann prüfen.</p>
+  <div class="formula-card">
+    <h4>Das Audit-Raster: 5 Fragen an jede Stunde</h4>
+    <ol class="audit-legend" id="auditLegend"></ol>
+  </div>
   <div id="timelineList"></div>
   <p style="margin-top:.9rem"><button class="btn ghost small" id="timelineResetBtn">Zurücksetzen</button> <button class="btn small" id="timelineCheckBtn">Alle prüfen</button></p>
   <div class="card reveal" id="timelineReveal">
@@ -762,7 +769,10 @@ function renderStrands(){
 /* ================= Name it: Sortierspiel ================= */
 function renderMatch(){
   const wrap=document.getElementById('matchList');wrap.innerHTML='';
-  PRINCIPLES.forEach((item,i)=>{
+  // Anzeige nach P-Nummer statt nach Strang, damit die Reihenfolge die Lösung nicht verrät
+  const order=PRINCIPLES.map((_,i)=>i).sort((a,b)=>parseInt(PRINCIPLES[a].t.slice(1))-parseInt(PRINCIPLES[b].t.slice(1)));
+  order.forEach(i=>{
+    const item=PRINCIPLES[i];
     const div=document.createElement('div');div.className='situ-item';
     const sel=state.matchSel[i];
     let chips='';
@@ -795,6 +805,9 @@ function renderIwy(){
 }
 
 /* ================= Do it: Stunden-Audit-Tool ================= */
+function renderAuditLegend(){
+  document.getElementById('auditLegend').innerHTML=AUDIT_QUESTIONS.map((q,j)=>'<li><b>F'+(j+1)+'</b><span>'+q+'</span></li>').join('');
+}
 function renderTimeline(){
   const wrap=document.getElementById('timelineList');wrap.innerHTML='';
   WEAK_LESSON.forEach((seg,i)=>{
@@ -805,7 +818,7 @@ function renderTimeline(){
       let cls='audit-chip'+(sel?' sel':'');
       if(state.timelineRevealed&&seg.correct.includes(j)){cls+=' correct';}
       else if(state.timelineRevealed&&sel){cls+=' wrong';}
-      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">F'+(j+1)+'</button>';
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'" title="'+q+'">F'+(j+1)+'</button>';
     });
     div.innerHTML='<div class="timeline-time">'+seg.time+'</div>'
       +'<div class="timeline-text">'+seg.text+'</div>'
@@ -838,7 +851,7 @@ function renderSelfAudit(){
   AUDIT_QUESTIONS.forEach((q,i)=>{
     const val=AMPEL_SEQ[state.selfAudit[i]||0];
     const row=document.createElement('div');row.className='crit-row';
-    row.innerHTML='<span class="crit-light '+val+'"></span><span class="crit-text"><b>'+q+'</b><span class="crit-hint">Tippen: grau → rot → gelb → grün</span></span>';
+    row.innerHTML='<span class="crit-light '+val+'"></span><span class="crit-text"><b>F'+(i+1)+' · '+q+'</b><span class="crit-hint">Tippen: grau → rot → gelb → grün</span></span>';
     row.addEventListener('click',()=>{
       state.selfAudit[i]=((state.selfAudit[i]||0)+1)%AMPEL_SEQ.length;scheduleSave();renderSelfAudit();
     });
@@ -1027,7 +1040,7 @@ function downloadStateFile(){
 }
 function refreshAllUI(){
   bindStores();renderStrands();renderMatch();renderIwy();
-  renderTimeline();renderSelfAudit();renderRate();
+  renderAuditLegend();renderTimeline();renderSelfAudit();renderRate();
   renderQuiz();renderSteps();updateCommitLabel();renderSummary();
   if(state.convRevealed)document.getElementById('convReveal').classList.add('on');
   if(state.timelineRevealed)document.getElementById('timelineReveal').classList.add('on');
