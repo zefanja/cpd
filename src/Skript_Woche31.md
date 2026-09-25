@@ -8,8 +8,8 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
-| **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W9), Stundenarchitektur-Template (W13), Rosenshine-Audit (W8) |
-| **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das W13-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit W8-Audit als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
+| **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W9), Stundenarchitektur-Template (W13), Stunden-Check mit den fünf Fragen (W8) |
+| **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das W13-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem W8-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
 | **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
 | **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
 
@@ -23,7 +23,7 @@
 - [ ] Retrieval-Quiz liegt aus
 - [ ] Handout A: Lean-Einseiter (= W13-Template, verschlankt; Anhang 1.1), 3 Kopien pro TN
 - [ ] Handout B: Die Fragenfolge + Repertoire-Blanko (Anhang 1.2)
-- [ ] Audit-Raster aus W8 (liegt im Playbook – Erinnerung!)
+- [ ] Die fünf Fragen an jede Stunde aus W8 (liegen im Playbook – Erinnerung!)
 - [ ] Taschenrechner-Folie für die Eingangsrechnung
 
 ---
@@ -64,7 +64,7 @@
 Moderation ruft Zeitmarken (7 Min.: Ticket-Check / 14 Min.: „Frage vier nicht vergessen – was kommt zurück?") und zirkuliert mit der Standard-Intervention: *„Das ist Material-Feinschliff – Stichwort reicht. Nächste Frage."*
 
 ### Runde 2 · Der Qualitätsbeweis (Min. 50–52 – bewusst knapp, Vollversion im Coaching)
-Tandem-Blitz: Partner legt das W8-Audit-Raster an den Einseiter – 2 Minuten, fünf Prüffragen im Schnelldurchlauf. *„Und? Hält die 20-Minuten-Stunde dem Audit stand? … Das ist der Punkt der heutigen Sitzung: Sie hält. Nicht weil ihr heute Genies wart – sondern weil ihr seit dreißig Wochen ein System baut, das die Qualität TRÄGT. Die 90 Minuten am Sonntag haben nie die Qualität bezahlt. Sie haben eure Unsicherheit bezahlt – und die ist weg."*
+Tandem-Blitz: Partner legt die fünf Fragen aus W8 an den Einseiter – 2 Minuten im Schnelldurchlauf. *„Und? Hält die 20-Minuten-Stunde dem Audit stand? … Das ist der Punkt der heutigen Sitzung: Sie hält. Nicht weil ihr heute Genies wart – sondern weil ihr seit dreißig Wochen ein System baut, das die Qualität TRÄGT. Die 90 Minuten am Sonntag haben nie die Qualität bezahlt. Sie haben eure Unsicherheit bezahlt – und die ist weg."*
 
 ## Phase 6 · Action Step (Minute 52–58)
 

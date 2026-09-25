@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können? |
 | **Kernquellen** | Lovell/Dowley, Routine 7 (Explaining/Modelling); Rosenshine P2 (kleine Schritte), P4 (Modellieren); Worked-Example-Forschung (Sweller, Vorgriff W15); Lemov (Think Aloud, economy of language) |
-| **Funktion im Jahr** | Herz des Sequencing-&-Modelling-Strangs. Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W11 Break It Down, W15 CLT, W33 Erwartungshorizonte). Das Exemplar aus W9 liefert die Schrittgrößen-Diagnose. |
+| **Funktion im Jahr** | Vertieft Frage 3 aus W8 (Erklären: kleine Schritte, Vormachen). Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W11 Break It Down, W15 CLT, W33 Erwartungshorizonte). Das Exemplar aus W9 liefert die Schrittgrößen-Diagnose. |
 | **Lernziele** | Die TN können:<br>1. einen Fachinhalt atomisieren (ein neues Element nach dem anderen),<br>2. beim Modellieren hörbar denken – inklusive einer absichtlich vorgeführten und aufgelösten Falle,<br>3. den Fluch des Wissens bei sich erkennen und mit der Halbier-Regel kontern,<br>4. Aufmerksamkeitsdisziplin beim Erklären durchsetzen (Stifte weg, Fixierung danach). |
 | **Sitzungstyp** | Mikroteaching-Sitzung – die Do-it-Phase ist mit 23 Minuten die längste des Jahres; Input entsprechend straff. |
 

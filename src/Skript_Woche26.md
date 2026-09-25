@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: 80 %-Regel (W8), Fading (W11) |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: Erfolgsquote (W8), Fading (W11) |
 | **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgewochen (W27–30) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
 | **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
 | **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
@@ -51,13 +51,13 @@ Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleic
 
 ### 3b · Treiber 1: Secure Success (Min. 24–30)
 > *„Und damit zum ersten von fünf Treibern, dem mit dem größten Hebel: **Secure Success – Erfolg konstruieren.** Nichts motiviert so zuverlässig wie die Erfahrung, etwas zu KÖNNEN, das gestern noch nicht ging – Erfolg füttert die Erwartung, und Erwartung ist der Multiplikator. Die schlechte Nachricht zuerst: Für Evie ist Mathe eine Misserfolgs-Maschine – jede Stunde bestätigt die Null. Die gute Nachricht: Ihr könnt die Maschine umbauen, und die Werkzeuge BESITZT ihr schon:*
-> *​**Der 80 %-Korridor** aus Woche 8 ist Motivationstechnik: Übungsphasen, in denen vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Woche 11: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
+> *​**Die hohe Erfolgsquote** aus Woche 8 ist Motivationstechnik: Übungsphasen, in denen mindestens vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Woche 11: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
 > *Dazu die Sprach-Schicht, die **Attribution**: WORAUF führt ihr Erfolg zurück, wenn ihr lobt? ‚Du bist halt schlau' ist Talent-Attribution – sie macht den nächsten Misserfolg zur Identitätsfrage; ihr kennt das Argument aus Woche 6. ‚Du hast die Probe gemacht, DESHALB stimmt es' ist Vorgehens-Attribution – sie macht Erfolg wiederholbar: Das Vorgehen kann Evie morgen wieder wählen, ihr Talent nicht. Precise Praise aus Block 1 war immer schon Motivationstechnik – heute wisst ihr, warum.*
 > *Und die Fußnote zu **Belohnungssystemen** – Sticker, Punkte, Gummibärchen: Sie funktionieren, kurzfristig, als Starthilfe für Verhalten, das noch keinen Eigenwert hat. Aber sie sind ein Kredit mit Zinsen: Dauerhaft eingesetzt, verschieben sie den Wert vom Tun zur Belohnung – und wehe, die Belohnung bleibt aus. Regel: sparsam, temporär, mit geplantem Ausstieg – und immer parallel am echten Treiber bauen: am Erfolg."*
 
 ## Phase 4 · Name it (Minute 30–33)
 
-**Die Brille:** Anstrengung = **E × W ÷ K**. Diagnose-Reihenfolge: erst E prüfen (Multiplikator!), dann K senken (Blamage-Risiko!), dann W heben. **Secure-Success-Besteck:** 80 %-Korridor · Fading-Einstiegserfolge · Vorentlastung · Vorgehens-Attribution. Merksätze: *„Unmotiviert ist eine Situationsbeschreibung."* / *„Erfolg ist die Mutter der Motivation – und Erfolg kann man konstruieren."*
+**Die Brille:** Anstrengung = **E × W ÷ K**. Diagnose-Reihenfolge: erst E prüfen (Multiplikator!), dann K senken (Blamage-Risiko!), dann W heben. **Secure-Success-Besteck:** hohe Erfolgsquote (≥ 4 von 5) · Fading-Einstiegserfolge · Vorentlastung · Vorgehens-Attribution. Merksätze: *„Unmotiviert ist eine Situationsbeschreibung."* / *„Erfolg ist die Mutter der Motivation – und Erfolg kann man konstruieren."*
 
 ## Phase 5 · Do it (Minute 33–52)
 
@@ -99,7 +99,7 @@ Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut i
 Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E – Erwartung (aus SEINER Sicht):** Belege für Misserfolgsgeschichte: … / Traut er sich Einstiegsaufgaben zu? … / Schätzung 0–10: … — **W – Wert (aus seiner Sicht):** Interesse? Nutzen? Sozialer Wert? … / 0–10: … — **K – Kosten (aus seiner Sicht):** Anstrengung? Verwirrung (Lastprobleme, W15!)? **Blamage-Risiko?** … / 0–10: … — **Engpass-Diagnose:** … — **Meine EINE Maßnahme (aus dem Besteck, passend zum Engpass):** … — **Woran messe ich in 2 Wochen Veränderung (beobachtbar!):** …
 
 ## 1.3 Handout B: Besteck + Attributions-Sprachkarte
-**Besteck:** 80 %-Korridor (W8) · Fading-Einstieg (W11) · Vorentlastung (diskret! 3 Min. vorab) · passgenaue Erstaufgabe („die ersten zwei schafft er sicher") · Vorgehens-Attribution. **Sprint-Karten (8, Original → Muster):**
+**Besteck:** hohe Erfolgsquote (W8) · Fading-Einstieg (W11) · Vorentlastung (diskret! 3 Min. vorab) · passgenaue Erstaufgabe („die ersten zwei schafft er sicher") · Vorgehens-Attribution. **Sprint-Karten (8, Original → Muster):**
 1. „Du bist einfach begabt in Mathe!" → *„Du hast die Probe gerechnet, BEVOR du abgegeben hast – deshalb stimmt es."*
 2. „Na, da hattest du wohl Glück!" → *„Du hast das Signalwort unterstrichen – das war kein Glück, das war Methode."*
 3. „Siehst du, geht doch – wenn du nur willst!" → *„Du hast heute zuerst das Beispiel angeschaut und DANN gerechnet – genau so geht das."*

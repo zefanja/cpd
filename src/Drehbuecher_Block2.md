@@ -4,28 +4,25 @@
 
 ---
 
-## Woche 8: Rosenshine & die Architektur einer Stunde (Drehbuch)
+## Woche 8: Fünf Fragen an jede Stunde (Drehbuch)
 
-**Material:** Rosenshine-Poster (10 Prinzipien in 4 Strängen); Audit-Bogen; eine absichtlich schwache Beispielstunde (Verlaufsplan, 1 Seite: viel Aktivität, kein Review, kein CFU, riesige Schritte); TN bringen eigenen Verlaufsplan mit (vorab ankündigen!).
+*(Ausführlich: `Skript_Woche08.md`.)*
+
+**Material:** Stunde A und Stunde B (Mathe Kl. 7, Einführung Prozentwert: A ordentlich, aber ohne gemeinsames Üben und ohne Blick auf alle; B dasselbe Thema, umgebaut); Handout „Fünf Fragen an jede Stunde“; Vorlage Stundenprofil (45-Min.-Balken, fünf Farben); Szenenkarten aus verschiedenen Fächern. TN denken an eine tatsächlich gehaltene Stunde (kein Plan nötig).
 
 **Retrieval-Starter:** 1. W.I.N. ausgeschrieben + Reihenfolge? 2. Interventionsleiter Stufen 1–3? 3. Was ist ein Do Now (3 Merkmale)? 4. Welches mentale Modell begründet „kleine Schritte"? 5. (Anwendung) Deine Klasse hat nach den Ferien die Begrüßungsroutine „vergessen" – was tust du?
 
-**Input (Min. 8–28):**
-1. Rahmung: *„Block 1 hat euch den Raum verschafft. Ab heute füllen wir ihn. Und wir starten mit dem am besten abgesicherten Rahmen, den die Unterrichtsforschung hat: zehn Prinzipien, destilliert aus Kognitionspsychologie, Studien zu Meisterlehrern und Interventionsforschung – alle drei Quellen zeigen in dieselbe Richtung. Das ist selten und genau deshalb so wertvoll."*
-2. Die 10 Prinzipien NICHT einzeln durchkauen, sondern als 4 Stränge erzählen: **Reviewing** (tägl./wöchentl./monatl. Wiederholung – kennt ihr als Retrieval-Starter am eigenen Leib), **Sequencing & Modelling** (kleine Schritte, Modellieren, Gerüste), **Questioning** (viele Fragen, Verständnis ALLER prüfen), **Practising** (angeleitet üben, hohe Erfolgsquote ~80 %, selbstständig üben). Pro Strang 1 konkretes Klassenzimmer-Bild.
-3. I do – We do – You do als Übersetzungsformel; Kernwarnung: *„Der klassische Anfängerfehler ist nicht schlechtes Erklären – es ist das übersprungene We do: erklärt, Arbeitsblatt, wundern."*
-4. 80 %-Regel als Steuergröße: darunter → zurück zum Modellieren; weit darüber → Anspruch rauf.
-5. Einordnung explizite Instruktion vs. „Frontalunterricht"-Vorurteil: hochinteraktiv, fragengetrieben, nicht Dauermonolog.
+**See it (Min. 12–24):** Stunde A lesen, Note geben (meist 2–3), Auflösung: 11 von 27 lösen am nächsten Tag die Einstiegsaufgabe. Tandems finden in Stunde B fünf Unterschiede unter der Frage: Wer muss wann denken, und woran sieht die Lehrerin, ob es angekommen ist? Sammeln an einer Zeitleiste.
 
-**Name it (Min. 28–33):** Audit-Raster: Für jede Stunde prüfbar: Review am Anfang? Schrittgröße? Wie oft/wie breit wird Verstehen geprüft? Erfolgsquote geschätzt? Übungsanteil angeleitet vs. selbstständig?
+**Name it (Min. 24–34):** Die fünf Fragen an jede Stunde, je mit kurzer Szene: 1 Ziel (W9) · 2 Einstieg: holen alle etwas aus dem Gedächtnis? (P1, P10 → W13) · 3 Erklären: wie lange rede ich am Stück? (P2, P4 → W10) · 4 Gemeinsam üben und die Antworten aller sehen (P3, P5, P6, P8 → W11, Block 4) · 5 Allein üben: gelingt es den meisten, was tue ich währenddessen? (P7, P9 → W12). Erfolgsquote richtig einordnen: ca. 80 % beim gemeinsamen Üben neuer Inhalte, fast fehlerfrei bei Einzelarbeit und Wiederholung. Frontalunterricht-Einwand: In Stunde B redet die Lehrerin weniger am Stück als in A. Kurztraining: 3 Szenen, Finger zeigen die Frage.
 
-**Do it (Min. 33–52):** *Runde 1 (8 Min.):* Schwache Beispielstunde im Tandem auditieren – die 4 größten Verstöße finden. *Runde 2 (11 Min.):* Redesign: Stunde mit minimalen Eingriffen Rosenshine-konform umbauen (nicht neu erfinden – reparieren!). 2 Tandems pitchen ihr Redesign in 60 Sek.
+**Do it (Min. 34–50):** Stundenprofil der eigenen Stunde in fünf Farben zeichnen (grau Organisation · rot ich rede/Freiwillige antworten · gelb alle antworten · grün gemeinsam üben · blau allein arbeiten), fünf Fragen darunter beantworten (u. a. längster roter Block in Minuten), im Tandem die eine Stelle markieren, Änderung im Satzmuster formulieren („In Minute __ statt __ werde ich …“, max. 5 Min. Mehraufwand).
 
-**Action Step:** siehe Curriculum (jede Stunde beginnt mit 5 Min. Wiederholung). *Alternative:* Eigene Stunde der Woche vorab auditieren und EINEN Verstoß beheben.
+**Action Step:** Die Änderung aus dem Stundenprofil in mindestens drei Stunden umsetzen und danach jeweils das Profil zeichnen. *Alternative:* Spätestens nach fünf Minuten Erklären beantworten alle eine Frage schriftlich.
 
-**Coaching-Fokus:** Verlaufsplan vorab schicken lassen; Hospitation prüft Plan vs. Realität bei Schrittgröße.
+**Coaching-Fokus:** Coach zeichnet in der Hospitation das Stundenprofil mit, TN danach das eigene; Abweichungen besprechen (meist werden rote Blöcke unterschätzt).
 
-**SPA-Quiz:** F1: „Explizite Instruktion ist…" a) veralteter Frontalunterricht ✗ (Kernvorurteil) b) hochinteraktives Vorgehen in kleinen geprüften Schritten ✓ c) nur für schwache Lerner ✗ d) Vorlesen mit Folien ✗. — F2: „In der Übungsphase liegen ~50 % richtig. Du…" a) übst weiter, Übung macht den Meister ✗ (plausibel!) b) gehst zurück ins Modellieren/We do ✓ c) gibst leichtere Aufgaben ✗ d) beendest das Thema ✗. — F3: „~80 % Erfolgsquote ist…" a) zu leicht, Anspruch fehlt ✗ b) der Zielkorridor für lernwirksames Üben ✓ c) Zufallswert ✗ d) nur für Klassenarbeiten relevant ✗.
+**SPA-Quiz:** siehe `Skript_Woche08.md`, Anhang 2 Teil 2.
 
 ---
 
@@ -33,7 +30,7 @@
 
 **Material:** Meilenstein-Canvas (Ziel → 2–5 Meilensteine → Prüfkriterien-Ampel); 4 Beispiel-Meilensteinketten (2 gute, 2 kaputte); TN bringen Thema ihrer nächsten realen Stunde mit.
 
-**Retrieval-Starter:** 1. Die 4 Rosenshine-Stränge? 2. Was tun bei <80 % Erfolgsquote? 3. Positive-Framing-Formel? 4. Warum ist das We do unverzichtbar (Modell 1!)? 5. (Anwendung) Nenne die Reviewing-Elemente in UNSEREN Sitzungen.
+**Retrieval-Starter:** 1. Die fünf Fragen an jede Stunde? 2. Was tun, wenn beim gemeinsamen Üben nur die Hälfte richtig liegt? 3. Positive-Framing-Formel? 4. Warum ist das We do unverzichtbar (Modell 1!)? 5. (Anwendung) Stundenprofil mit 18 Min. Rot, danach direkt Blau – welche Fragen sind betroffen?
 
 **Input (Min. 8–26):**
 1. *See it – die zwei Todsünden als Selbsterkennung:* Zwei innere Monologe vorlesen: Planer A: „Ich hab da eine super Gruppenpuzzle-Idee, da bau ich die Stunde drumrum…" (Aktivitätsfokus); Planer B: „Kapitel 7 muss diese Woche durch…" (Abdeckungsfokus). Handzeichen ohne Scham: *„Wer erkennt sich? Ich mich auch. Beide fühlen sich nach Arbeit an – beide optimieren das Falsche: Beschäftigung bzw. Durchkommen statt Lernen."*

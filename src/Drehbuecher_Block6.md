@@ -19,7 +19,7 @@
 
 **Name it (Min. 26–31):** Lean-Regeln: Reihenfolge nie brechen / Einseiter genügt / Aktivitäten aus dem Repertoire zuerst / Zeitbudget setzen (Timer beim Planen!) / „gut genug" ist ein Qualitätsurteil, kein Makel.
 
-**Do it (Min. 31–52):** **Planungs-Wettmessen:** Jeder plant eine reale Stunde der nächsten Woche mit dem Lean-Wizard – Timer läuft, Ziel ≤ 20 Min. (die meisten schaffen 15–25); danach Tandem-Qualitätscheck mit dem Audit-Raster aus W8 (Beweis: schneller UND Rosenshine-konform). Kurze Blitzlicht-Runde: gestoppte Zeiten + Aha-Momente.
+**Do it (Min. 31–52):** **Planungs-Wettmessen:** Jeder plant eine reale Stunde der nächsten Woche mit dem Lean-Wizard – Timer läuft, Ziel ≤ 20 Min. (die meisten schaffen 15–25); danach Tandem-Qualitätscheck mit den fünf Fragen aus W8 (Beweis: schneller UND Rosenshine-konform). Kurze Blitzlicht-Runde: gestoppte Zeiten + Aha-Momente.
 
 **Action Step:** siehe Curriculum (alle Stunden der Woche nur mit Lean-Framework, Zeiten stoppen). *Alternative:* Zeitbudget-Woche: hartes Planungslimit 20 Min./Stunde mit Timer.
 

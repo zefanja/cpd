@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen? |
 | **Kernquellen** | Lovell/Dowley, Routine 8 (Guided Practice); Lemov T37 (Break It Down), T21 (Take the Steps); Rosenshine P5 (angeleitetes Üben), P8 (Gerüste); Guidance-Fading-Forschung |
-| **Funktion im Jahr** | Schließt die in W8 diagnostizierte „Sprung-Lücke". Die Fading-Treppe wird Standardwerkzeug (kehrt in W32 als Differenzierungs-Gerüst wieder); Break It Down ist die Fehler-Reaktions-Grammatik für No Opt Out (W22); die Stichproben-Kritik öffnet die Tür zu All-Response-Systemen (W24). Erste echte Begegnung mit Mini-Whiteboards – als erlebtes Werkzeug, noch nicht als Technik-Modul. |
+| **Funktion im Jahr** | Vertieft Frage 4 aus W8: Schließt die Lücke zwischen Erklären und Einzelarbeit, die Stunde A in W8 hatte. Die Fading-Treppe wird Standardwerkzeug (kehrt in W32 als Differenzierungs-Gerüst wieder); Break It Down ist die Fehler-Reaktions-Grammatik für No Opt Out (W22); die Stichproben-Kritik öffnet die Tür zu All-Response-Systemen (W24). Erste echte Begegnung mit Mini-Whiteboards – als erlebtes Werkzeug, noch nicht als Technik-Modul. |
 | **Lernziele** | Die TN können:<br>1. eine We-do-Phase mit Mitschrift aller, Frage-Steuerung und All-Response-Checks führen,<br>2. eine Fading-Treppe in vier Stufen für ein eigenes Thema bauen,<br>3. auf Fehler mit der kleinsten hilfreichen Zerlegung reagieren (Break It Down statt Lösung verraten),<br>4. begründen, warum verfrühtes You do die teuersten Fehler produziert. |
 | **Sitzungstyp** | Live-Demo mit der Gruppe als Klasse + Bau-Werkstatt + Rollenspiel. |
 
@@ -44,7 +44,7 @@ Ablauf der Demo (am Beispiel Prozentwert): Aufgabe 1 wird gemeinsam gelöst – 
 ## Phase 3 · Input: Fading, Break It Down, die Stichproben-Falle (Minute 16–27)
 
 ### 3a · Guidance Fading (Min. 16–20)
-> *„Die Verantwortungsübergabe aus Woche 8 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Der Sprung-Fehler aus Woche 8 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
+> *„Der Übergang vom Zusehen zum Selbermachen aus Woche 8 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Der Sprung-Fehler aus Woche 8 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
 
 ### 3b · Break It Down (Min. 20–24)
 > *„Und was, wenn im We do eine falsche Antwort kommt? Der Reflex – ich kenne ihn gut – ist: Lösung sagen, weiter, Zeit ist knapp. Aber wer die Lösung verrät, hat gerade selbst geübt, nicht der Schüler. Lemovs Alternative: **Break It Down** – die kleinste Hilfe zuerst, gestuft: Erst ein **Hinweis** (‚Schau nochmal auf die Einheit'), dann ein **Beispiel** (‚Bei der Aufgabe vorhin haben wir zuerst…'), dann die **Regel** (‚Was sagt unsere Merkregel über…?'), dann der **erste Schritt** – und erst ganz zuletzt die Lösung. Jede Stufe gibt dem Kopf noch eine Chance, selbst anzukommen. Klingt nach Zeitverlust? Es sind Sekunden – und es sind die Sekunden, in denen gelernt wird."*
@@ -114,7 +114,7 @@ Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den F
 1. Der Modellierungs-Vierklang? *(Vormachen / Denken laut / Falle zeigen+auflösen / Kernschritte fixieren)*
 2. Fluch des Wissens + Gegenmittel? *(Zwischenschritte für Experten unsichtbar; Halbier-Regel)*
 3. Die Umformulierungs-Formel (Block 1)? *(„Ich sehe … – ich will …")*
-4. Die 80 %-Regel – beide Enden? *(<80 % zurück modellieren; dauerhaft 100 % Anspruch rauf)*
+4. Erfolgsquote – wann ca. 80 %, wann fast 100 %? *(ca. 80 % beim gemeinsamen Üben: weiter in die Einzelarbeit, deutlich darunter zurück ins gemeinsame Üben; fast fehlerfrei bei Einzelarbeit und Wiederholung)*
 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach. *(individuell; Kriterium: Nicht-Beispiel liegt nah an der Konzeptgrenze)*
 
 ## Teil 2: Modul-Quiz Woche 11 (für SPA/Folgewoche)

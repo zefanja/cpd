@@ -295,25 +295,25 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ---
 
-## Woche 8: Rosenshine & die Architektur einer Stunde
+## Woche 8: Fünf Fragen an jede Stunde
 
-**Leitfrage:** Wie ist eine wirksame Stunde grundsätzlich gebaut?
+**Leitfrage:** Woran erkenne ich, ob in meiner Stunde gelernt wird?
 
-**Lernziele:** Die TN können die 10 Rosenshine-Prinzipien nennen, in die vier Stränge (Reviewing, Questioning, Sequencing/Modelling, Practising) gruppieren und eine eigene Stunde daraufhin auditieren.
+**Lernziele:** Die TN können eine Stunde mit fünf Fragen (Ziel, Einstieg, Erklären, gemeinsam üben, allein üben) prüfen, jede Schwäche einem Rosenshine-Prinzip zuordnen und für die schwächste Stelle einer eigenen, tatsächlich gehaltenen Stunde eine konkrete, kleine Änderung formulieren.
 
 **Kernideen:**
-1. **Die 10 Prinzipien (Rosenshine, 2012):** tägliche Wiederholung; kleine Schritte; viele Fragen; Modellieren; angeleitetes Üben; Verständnis aller prüfen; hohe Erfolgsquote (~80 %); Gerüste für schwierige Aufgaben; selbstständiges Üben; wöchentliche/monatliche Wiederholung.
-2. **I do – We do – You do (Guidance Fading):** Verantwortung wandert schrittweise von Lehrkraft zu Lernenden; der häufigste Anfängerfehler ist das Überspringen des „We do".
-3. **Hohe Erfolgsquote als Steuergröße:** ca. 80 % richtige Antworten in Übungsphasen – darunter: zurück zum Modellieren; darüber: Anspruch erhöhen.
-4. **Schüler ohne Vorkenntnisse ≠ Experten:** Schüler haben noch keine Vorkenntnisse und brauchen explizite Instruktion; „entdeckendes Lernen" überfordert ohne Vorwissen das Arbeitsgedächtnis (Verbindung zu Woche 14–15).
+1. **Die 10 Prinzipien (Rosenshine, 2012)**, geordnet nach dem Ablauf einer Stunde: Einstieg mit Wiederholung (P1, P10); kleine Schritte mit Übung nach jedem Schritt, Vormachen (P2, P4); viele Fragen an alle, Verständnis prüfen, angeleitetes Üben, Hilfen (P3, P5, P6, P8); hohe Erfolgsquote, begleitetes selbstständiges Üben (P7, P9). Jede der fünf Fragen wird in einer Folgewoche vertieft (W9–W13).
+2. **I do – We do – You do:** Der häufigste Fehler ist, nach der Erklärung sofort in die Einzelarbeit zu gehen. Das gemeinsame Üben fehlt.
+3. **Erfolgsquote:** Beim gemeinsamen Üben neuer Inhalte zeigen ca. 80 % richtige Antworten, dass es allein weitergehen kann; darunter zurück ins gemeinsame Üben. Bei Einzelarbeit und Wiederholung ist fast fehlerfrei das Ziel.
+4. **Stundenprofil:** Eine Stunde als Balken danach, wer gerade arbeitet (Organisation / Lehrkraft redet / alle antworten / gemeinsam üben / allein arbeiten), macht Schwächen messbar, z. B. den längsten Redeblock.
 
-**Typische Fehlvorstellungen:** „Frontalunterricht ist per se schlecht" (explizite Instruktion ≠ Dauermonolog – sie ist hochinteraktiv); „Gute Stunden brauchen spektakuläre Methoden" (Wirkung liegt in der Grundarchitektur).
+**Typische Fehlvorstellungen:** „Das ist Frontalunterricht" (explizite Instruktion ist hochinteraktiv – in der Musterstunde redet die Lehrkraft weniger am Stück); „Eine gut erklärte Stunde ist eine gute Stunde" (ohne Blick auf die Antworten aller bleibt offen, was ankommt); „Alles klar? – Keine Fragen" als Verständnisprüfung.
 
-**Übungsteil:** Rosenshine-Audit: TN bringen einen eigenen Stundenverlauf mit und prüfen ihn gegen die 10 Prinzipien; Redesign einer schwachen Beispielstunde in Kleingruppen.
+**Übungsteil:** Zwei Stunden zum selben Thema vergleichen (ordentlich vs. umgebaut); Szenen aus verschiedenen Fächern der betroffenen Frage zuordnen; eigenes Stundenprofil zeichnen, im Tandem die schwächste Stelle finden, eine Änderung formulieren.
 
-**Action Step:** „Jede meiner Stunden dieser Woche beginnt mit 5 Minuten Wiederholung (Prinzip 1) – Format frei."
+**Action Step:** „Ich setze meine Änderung aus dem Stundenprofil in mindestens drei Stunden dieser Woche um und zeichne danach jeweils das Profil."
 
-**SPA-Bausteine:** Interaktive Rosenshine-Übersicht (10 Karten mit Beispiel-Videos); Stunden-Audit-Tool (Verlaufsplan hochladen/eingeben → Checkliste); Sortier-Aufgabe Prinzipien ↔ vier Stränge.
+**SPA-Bausteine:** Stunde A bewerten; Stunde B mit Phasen-Zuordnung zu den fünf Fragen; Fragen-Karten mit Szenen; Szenen-Training (Frage + beste Reparatur); Stundenprofil-Werkzeug mit automatischen Kennzahlen; Protokoll „Profil nach der Stunde".
 
 ---
 

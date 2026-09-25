@@ -76,7 +76,7 @@ Dreiergruppen (Lehrkraft / Schüler / Beobachter mit Karte), **3 Runden à 6 Min
 
 **Ansage Video-Selbstanalyse Nr. 1 (1 Min.):** Anleitung (Anhang 3) mitgeben – VOR dem Meilenstein-Gespräch erledigen.
 
-> **Ausblick:** *„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Es beginnt mit den zehn am besten abgesicherten Prinzipien der Unterrichtsforschung. Bringt dafür einen eigenen Stundenverlaufsplan mit – egal wie formlos, auch der Drei-Stichwort-Zettel zählt."* **(Vorab-Auftrag W8 auf die Exit-Karte drucken!)**
+> **Ausblick:** *„Block 1 ist geschafft – ihr habt den Raum. Ab nächster Woche füllen wir ihn: Wie erklärt, geführt und geübt wird, damit wirklich gelernt wird. Wir beginnen mit fünf Fragen, die ihr an jede Stunde stellen könnt. Denkt dafür an eine Stunde, die ihr diese Woche tatsächlich haltet. Einen Plan braucht ihr nicht, wir arbeiten mit dem, was wirklich passiert ist."* **(Vorab-Auftrag W8 auf die Exit-Karte drucken!)**
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
 Erweitert:
@@ -84,7 +84,7 @@ Erweitert:
 1. Mein wertvollstes Block-1-Werkzeug: …
 2. Woran ich in Block 1 weiterarbeiten muss: …
 
-*(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: eigenen Stundenverlaufsplan zu W8 mitbringen.
+*(fließt ins Meilenstein-Gespräch ein)* + Erinnerungszeile: zu W8 eine tatsächlich gehaltene Stunde im Kopf haben (kein Plan nötig).
 
 ---
 

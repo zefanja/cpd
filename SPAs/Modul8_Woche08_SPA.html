@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Modul 8 · Rosenshine</title>
+<title>Modul 8 · Fünf Fragen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -16,7 +16,7 @@
   --petrol:#0E5B54;
   --petrol-soft:#E0ECE9;
   --amber:#C98A1B;
-  --b1:#0E5B54; --b2:#2E5E8C; --b3:#6C4E85; --b4:#4E7A38; --b5:#B96A24; --b6:#9A4432;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
   --radius:14px;
   --fs:17px;
   --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
@@ -91,56 +91,70 @@ p+p{margin-top:.7rem}
 .btn.small{font-size:.82rem;padding:.45rem .8rem}
 .btn:disabled{opacity:.45;cursor:not-allowed}
 
-/* ---------- Reveal-Sequenzen ---------- */
 .reveal{display:none}
 .reveal.on{display:block;animation:fadeUp .4s ease}
 .punchline{
   font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
-  color:var(--petrol);margin-top:1.1rem;
+  color:var(--petrol);margin-top:.6rem;
 }
 
-/* ---------- Sortier-/Zuordnungs-Spiele ---------- */
-.situ-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.8rem}
-.situ-text{font-size:.96rem;font-weight:600}
-.num-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
-.num-btn{
-  border:1.5px solid var(--line);background:var(--bg);border-radius:9px;
-  padding:.4rem .7rem;font-size:.85rem;font-weight:700;cursor:pointer;
-  color:var(--muted);font-family:var(--body);
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
 }
-.num-btn.sel{border-color:var(--ink);color:var(--ink)}
-.num-btn.correct{color:#fff}
-.situ-note{font-size:.85rem;color:var(--muted);margin-top:.6rem;display:none;border-top:1px dashed var(--line);padding-top:.5rem}
-.situ-note.on{display:block}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
 
-/* ---------- Ampel-Kriterien (2-state, aus Modul6) ---------- */
-.crit-row{display:flex;align-items:flex-start;gap:.65rem;padding:.6rem 0;border-bottom:1px dashed var(--line);cursor:pointer}
-.crit-row:last-child{border-bottom:none}
-.crit-light{width:1.1rem;height:1.1rem;border-radius:50%;flex-shrink:0;margin-top:.15rem;transition:background .15s}
-.crit-light.grey{background:var(--line)}
-.crit-light.red{background:#B0433A}
-.crit-light.amber{background:var(--amber)}
-.crit-light.green{background:var(--petrol)}
-.crit-text{font-size:.9rem}
-.crit-text b{display:block;font-size:.85rem;margin-bottom:.1rem}
-.crit-hint{font-size:.72rem;color:var(--muted);margin-top:.15rem}
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
 
-/* ---------- Formulare ---------- */
-.field{margin-top:1rem}
-.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
-.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
-textarea,input[type=text],input[type=number],select{
-  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
-  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.65rem .75rem;resize:vertical;
-}
-textarea:focus,input[type=text]:focus,input[type=number]:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
-textarea{min-height:4.2em}
-input[type=number]{max-width:6rem}
-input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:1.4rem}
-.range-labels{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);margin-top:.2rem}
-.range-value{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:1.3rem;margin-top:.5rem}
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
 
-/* ---------- Chips / Kategorien ---------- */
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
 .chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
 .cat-chip{
   border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
@@ -149,20 +163,21 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
 .cat-chip.sel{border-color:var(--ink);color:var(--ink)}
 .cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
 .cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
 
-/* ---------- Formel-Karten ---------- */
 .formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
 .formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
-.formula-card .f{font-family:var(--display);font-weight:700;font-size:1.05rem;color:var(--ink)}
-.formula-card p{font-size:.86rem;color:var(--muted);margin-top:.4rem}
-.audit-legend{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
-.audit-legend li{font-size:.9rem;color:var(--ink);display:flex;gap:.55rem;align-items:baseline}
-.audit-legend b{font-family:var(--display);color:var(--petrol);min-width:1.8rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
 
-/* ---------- Quiz / Szenarien ---------- */
+/* ---------- Quiz / Szenen ---------- */
 .quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
 .quiz-q{font-weight:700;font-size:.98rem}
-.quiz-opts{display:grid;gap:.5rem;margin-top:.8rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
 .quiz-opt{
   border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
   text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
@@ -171,16 +186,29 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
 .quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
 .quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
 .quiz-note.on{display:block}
-.quiz-score{font-weight:700;color:var(--petrol);margin-top:1rem}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
 
 /* ---------- Action-Step-Karten ---------- */
 .step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
 .step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
-.step-card h3{display:flex;align-items:center;gap:.5rem;font-size:.98rem}
+.step-card h3{font-size:.98rem}
 .step-card p{font-size:.9rem;margin-top:.4rem}
-
 .commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
 .commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
 .export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
 .summary-status{margin-top:1rem;display:grid;gap:.4rem}
 .summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
@@ -192,50 +220,6 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
   opacity:0;pointer-events:none;transition:all .3s;z-index:60;
 }
 .toast.show{opacity:1;transform:translateX(-50%)}
-
-/* ---------- Drei-Quellen-Konvergenz ---------- */
-.conv-wrap{display:flex;flex-direction:column;gap:.6rem;margin-top:1.1rem}
-.conv-source{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:.8rem 1rem;font-size:.88rem;font-weight:600}
-.conv-arrow{text-align:center;font-size:1.2rem;color:var(--petrol)}
-.conv-result{background:var(--petrol);color:#fff;border-radius:var(--radius);padding:1rem 1.15rem;font-family:var(--display);font-weight:800;font-size:1.15rem;text-align:center}
-@media(min-width:640px){
-  .conv-wrap{flex-direction:row;align-items:center;flex-wrap:wrap}
-  .conv-source{flex:1;min-width:9rem}
-  .conv-arrow{flex:0 0 auto}
-}
-
-/* ---------- Stränge / aufklappbare Karten ---------- */
-.strand-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
-.strand-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
-.strand-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem}
-.strand-card .formula{font-size:.82rem;color:var(--muted);margin-top:.2rem}
-.strand-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.7rem}
-.strand-card.open .body{display:block;animation:fadeUp .3s ease}
-.strand-card.open .plus{transform:rotate(45deg);display:inline-block}
-.strand-quote{font-style:italic;font-size:.92rem;color:#3E4A45}
-
-/* ---------- Audit-Zeitstrahl ---------- */
-.timeline-seg{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;margin-top:.9rem}
-.timeline-time{font-family:var(--display);font-weight:800;color:var(--petrol);font-size:.85rem;letter-spacing:.03em}
-.timeline-text{font-size:.92rem;margin-top:.3rem}
-.audit-chip{border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.3rem .65rem;font-size:.78rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body)}
-.audit-chip.sel{border-color:var(--ink);color:var(--ink)}
-.audit-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
-.audit-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
-.audit-check-row{margin-top:.7rem}
-
-/* ---------- I do - We do - You do ---------- */
-.iwy-track{display:flex;gap:.5rem;margin-top:1rem}
-.iwy-step{flex:1;text-align:center;border:1.5px solid var(--line);border-radius:10px;padding:.7rem .4rem;font-size:.82rem;font-weight:700;color:var(--muted)}
-.iwy-step.active{border-color:var(--petrol);background:var(--petrol-soft);color:var(--petrol)}
-.iwy-desc{font-size:.88rem;color:var(--muted);margin-top:.7rem;min-height:3em}
-
-/* ---------- 80%-Simulator ---------- */
-.zone-box{border-radius:var(--radius);padding:1rem 1.15rem;margin-top:1rem;border:2px solid var(--petrol);background:var(--petrol-soft)}
-.zone-box.warn{border-color:var(--amber);background:#F7EEDD}
-.zone-box.low{border-color:#B0433A;background:#F5E4E2}
-.zone-box h4{font-family:var(--display);font-weight:800;font-size:1rem}
-.zone-box p{font-size:.88rem;margin-top:.4rem}
 
 /* ---------- Fußnavigation ---------- */
 .navbar{
@@ -278,6 +262,8 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
   #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
   #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
   #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
   .pagebreak{break-before:page}
 }
 </style>
@@ -299,12 +285,13 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
 
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
-  <span class="eyebrow">Woche 8 · Block 2: Auftakt „Wie ist eine wirksame Stunde gebaut?" · Fortbildung Sek I/II</span>
-  <h1>Eine stille Klasse ist noch keine lernende Klasse.</h1>
-  <p class="lead">Sieben Wochen ging es um den Raum: Ruhe, Routinen, Beziehung. Ab heute geht es um das eigentliche Geschäft. Barak Rosenshine hat drei völlig verschiedene Wissensquellen übereinandergelegt – und alle drei zeigen in dieselbe Richtung. Zehn Prinzipien. Vier davon macht ihr längst.</p>
+  <span class="eyebrow">Woche 8 · Auftakt Block 2 · Fortbildung Sek I/II</span>
+  <h1>Woran erkenne ich, ob in meiner Stunde gelernt wird?</h1>
+  <p class="lead">Sieben Wochen lang ging es darum, dass in deinem Raum Ruhe und Ordnung herrschen. Das war nötig, aber es ist nicht das Ziel. Eine ruhige Klasse lernt nicht automatisch etwas. Ab heute geht es darum, was in dieser Ruhe passiert.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Drei Quellen, eine Richtung → die vier Stränge → Sortierspiel + I do–We do–You do → Stunden-Audit-Tool (Kernstück) → 80-%-Simulator → Quiz → dein Action Step.</p>
+    <p style="font-size:.9rem">Du schaust dir zwei Stunden zum selben Thema an und findest heraus, warum in der einen deutlich mehr gelernt wird. Daraus ergeben sich fünf Fragen, die du an jede Stunde stellen kannst. Du übst sie an kurzen Szenen aus verschiedenen Fächern und wendest sie dann auf eine Stunde an, die du selbst gehalten hast.</p>
+    <p class="hint" style="margin-top:.6rem">📌 Denk schon jetzt an eine konkrete Stunde, die du letzte Woche gehalten hast. Du brauchst sie in Station 5.</p>
   </div>
   <div class="field" id="tnNameField">
     <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
@@ -313,142 +300,173 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
     <span class="badge">⏱ ca. 30 Min.</span>
-    <span class="badge">📖 Kernquellen: Rosenshine, „Principles of Instruction" (2012); Lovell/Dowley R7–R9; McCrea (Vorgriff Block 3)</span>
+    <span class="badge">📖 Kernquelle: Rosenshine, „Principles of Instruction“ (2012)</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
 </section>
 
-<!-- 1 · HOOK: DREI QUELLEN, EINE RICHTUNG -->
-<section class="screen" data-title="Drei Quellen, eine Richtung">
-  <span class="eyebrow">Station 1 · Hook: Drei Quellen, eine Richtung</span>
-  <h2>Kognitionspsychologie. Meisterlehrer-Studien. Interventionsstudien.</h2>
-  <p class="lead">Barak Rosenshine hat drei völlig verschiedene Wissensquellen übereinandergelegt – und das Bemerkenswerte ist: Sie zeigen alle in dieselbe Richtung. Das ist in der Bildungsforschung selten genug, um es ernst zu nehmen.</p>
-  <div class="conv-wrap">
-    <div class="conv-source">🧠 Kognitionspsychologie<br><span style="font-weight:400;color:var(--muted)">wie Gedächtnis &amp; Denken funktionieren</span></div>
-    <div class="conv-arrow">→</div>
-    <div class="conv-source">👩‍🏫 Beobachtungsstudien<br><span style="font-weight:400;color:var(--muted)">Klassen, die Jahr für Jahr überdurchschnittlich lernen</span></div>
-    <div class="conv-arrow">→</div>
-    <div class="conv-source">🧪 Interventionsstudien<br><span style="font-weight:400;color:var(--muted)">was passiert, wenn man Verfahren gezielt trainiert</span></div>
-  </div>
-  <p style="text-align:center;margin-top:.7rem;color:var(--petrol);font-weight:700">↓</p>
-  <div class="conv-result">10 Prinzipien</div>
-  <p style="margin-top:1rem"><button class="btn small" id="convRevealBtn">Was heißt das für uns?</button></p>
-  <div class="card reveal" id="convReveal">
-    <p>Herausgekommen sind zehn Prinzipien – und die gute Nachricht: Vier davon macht ihr in diesem Programm längst (euer Retrieval-Starter, euer Do Now). Ihr sitzt seit acht Wochen in einer Fortbildung, die nach Rosenshine gebaut ist.</p>
-    <p class="punchline">Geführt ≠ langweilig. Geführt heißt: niemand fällt vom Berg.</p>
-  </div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den vier Strängen →</button></p>
-</section>
-
-<!-- 2 · SEE IT: DIE VIER STRÄNGE -->
-<section class="screen" data-title="Die vier Stränge">
-  <span class="eyebrow">Station 2 · See it: Die vier Stränge</span>
-  <h2>Zehn Prinzipien, vier Erzählstränge.</h2>
-  <p class="lead">Statt einer 10er-Liste (die erschlägt, Modell 1 lässt grüßen) gruppieren wir zu vier Strängen. Tippe eine Karte an.</p>
-  <div id="strandList"></div>
-  <div class="card" style="border-style:dashed;margin-top:1.3rem">
-    <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Einordnung: der „Frontalunterricht"-Einwand</h4>
-    <p style="font-size:.9rem;margin-top:.4rem">Das hier ist kein Plädoyer für Dauermonolog. Explizite Instruktion nach Rosenshine ist hochinteraktiv – kurze Erklärsequenzen, ständig unterbrochen von Fragen, Prüfungen, gemeinsamem Arbeiten. Der Gegensatz ist nicht „Frontal vs. modern". Der Gegensatz ist „geführt vs. allein gelassen" – und eure Schüler brauchen in fast allem Führung.</p>
-  </div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Sortierspiel →</button></p>
-</section>
-
-<!-- 3 · NAME IT: SORTIERSPIEL + I DO WE DO YOU DO -->
-<section class="screen" data-title="Sortierspiel &amp; I do–We do–You do">
-  <span class="eyebrow">Station 3 · Name it: Sortierspiel &amp; I do–We do–You do</span>
-  <h2>Zehn Prinzipien-Karten, vier Fächer.</h2>
-  <p class="lead">Ordne jedes Prinzip seinem Strang zu.</p>
-  <div id="matchList"></div>
-  <h3 style="margin-top:1.8rem">I do – We do – You do</h3>
-  <p class="lead">Die Formel des Practising-Strangs: die Verantwortungsübergabe in drei Schritten. Tippe einen Schritt an.</p>
-  <div class="iwy-track" id="iwyTrack"></div>
+<!-- 1 · STUNDE A -->
+<section class="screen" data-title="Eine ordentliche Stunde?">
+  <span class="eyebrow">Station 1 · Eine ordentliche Stunde?</span>
+  <h2>Mathematik, Klasse 7: Einführung Prozentwert.</h2>
+  <p class="lead">Lies den Verlauf der Stunde. Die Farben zeigen, wer gerade arbeitet: Die Lehrerin redet (rot), alle arbeiten allein (blau) oder es wird organisiert (grau).</p>
+  <div id="lessonAView"></div>
   <div class="card">
-    <p class="iwy-desc" id="iwyDesc"></p>
+    <h3>Welche Note gibst du dieser Stunde?</h3>
+    <div class="chip-row grade-row" id="gradeRow"></div>
+    <div class="field">
+      <label for="gradeWhy">Was ist gut an dieser Stunde, was eher nicht?</label>
+      <textarea id="gradeWhy" data-store="gradeWhy" placeholder="…"></textarea>
+    </div>
+    <p style="margin-top:.8rem"><button class="btn small" id="aRevealBtn">Wie ging es weiter?</button></p>
   </div>
-  <div class="formula-card" style="margin-top:1rem">
-    <h4>Der Sprung-Fehler</h4>
-    <p class="f">I do → You do (We do übersprungen)</p>
-    <p>Erklärt, Arbeitsblatt, gewundert. Wer die Brücke überspringt, lässt die Hälfte der Klasse am Ufer stehen.</p>
+  <div class="card reveal" id="aReveal">
+    <p>In der nächsten Stunde kam eine Aufgabe zum Prozentwert als Einstiegsaufgabe.</p>
+    <p class="punchline">11 von 27 haben sie gelöst.</p>
+    <p style="margin-top:.8rem">Die meisten geben dieser Stunde eine 2 oder 3. Sie ist freundlich, klar erklärt und ruhig. Trotzdem können die meisten Schüler am Ende nicht, was sie können sollten.</p>
+    <div class="field">
+      <label for="aGuess">Deine Vermutung: Woran könnte das liegen?</label>
+      <textarea id="aGuess" data-store="aGuess" placeholder="…"></textarea>
+    </div>
   </div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Stunden-Audit →</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu Stunde B →</button></p>
 </section>
 
-<!-- 4 · DO IT: STUNDEN-AUDIT-TOOL -->
-<section class="screen" data-title="Stunden-Audit-Tool">
-  <span class="eyebrow">Station 4 · Do it: Stunden-Audit-Tool (Kernstück)</span>
-  <h2>„Prozentrechnung, Klasse 7" – eine schwache Beispielstunde.</h2>
-  <p class="lead">Vier Zeitabschnitte. Prüfe jeden gegen das Audit-Raster: Welche Frage(n) sind verletzt? Tippe an, dann prüfen.</p>
+<!-- 2 · STUNDE B -->
+<section class="screen" data-title="Dieselbe Stunde, umgebaut">
+  <span class="eyebrow">Station 2 · Dieselbe Stunde, umgebaut</span>
+  <h2>Gleiches Thema, gleiche 45 Minuten, gleiches Buch.</h2>
+  <p class="lead">Neu sind zwei Farben: Gelb heißt, alle antworten und die Lehrerin sieht die Antworten. Grün heißt, die Klasse übt gemeinsam und die Lehrerin hilft noch mit. Ordne jede Phase von Stunde B der Frage zu, die sie vor allem beantwortet.</p>
   <div class="formula-card">
-    <h4>Das Audit-Raster: 5 Fragen an jede Stunde</h4>
-    <ol class="audit-legend" id="auditLegend"></ol>
+    <h4>Die fünf Fragen an jede Stunde</h4>
+    <ol class="q-legend" id="qLegendB"></ol>
   </div>
-  <div id="timelineList"></div>
-  <p style="margin-top:.9rem"><button class="btn ghost small" id="timelineResetBtn">Zurücksetzen</button> <button class="btn small" id="timelineCheckBtn">Alle prüfen</button></p>
-  <div class="card reveal" id="timelineReveal">
-    <p><strong>Bonus-Fund für Aufmerksame:</strong> Split Attention beim Abschreiben während des Erklärens – wird in Woche 15 offiziell eingeführt.</p>
+  <div class="plabel">Stunde A</div>
+  <div id="barA2"></div>
+  <div class="plabel">Stunde B</div>
+  <div id="barB"></div>
+  <div class="legend" id="legendB"></div>
+  <div id="lessonBList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="bResetBtn">Zurücksetzen</button> <button class="btn small" id="bCheckBtn">Auflösen</button></p>
+  <div class="card reveal" id="bReveal">
+    <p>Nächste Stunde, dieselbe Einstiegsaufgabe: <strong>23 von 27</strong> lösen sie richtig.</p>
+    <p>Stunde B hat keine neue Methode und kein Material, das Stunde A nicht auch hatte. Der Unterschied liegt nur darin, <strong>wann die Schüler selbst denken müssen</strong> und <strong>wann die Lehrerin sieht, was ankommt</strong>.</p>
+    <p class="hint">Grundwert und Prozentsatz kommen in Stunde B erst in den nächsten Stunden. Weniger Stoff pro Stunde ist hier kein Verlust, denn Stunde A hat ihn zwar erklärt, aber die meisten haben ihn nicht gelernt.</p>
   </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den fünf Fragen →</button></p>
+</section>
 
-  <h3 style="margin-top:1.8rem">Selbst-Audit: dein mitgebrachter Stundenplan</h3>
-  <p class="lead">Skizziere kurz deinen Plan für eine echte Stunde der kommenden Woche, dann lege das 5-Fragen-Raster selbst an – tippe jede Ampel bis zur ehrlichen Einschätzung durch (grau → rot → gelb → grün).</p>
+<!-- 3 · FÜNF FRAGEN -->
+<section class="screen" data-title="Fünf Fragen an jede Stunde">
+  <span class="eyebrow">Station 3 · Fünf Fragen an jede Stunde</span>
+  <h2>Zehn Prinzipien, fünf Fragen.</h2>
+  <p class="lead">Barak Rosenshine hat 2012 zehn Prinzipien wirksamen Unterrichts zusammengefasst. Du musst sie nicht auswendig lernen. Es reicht, wenn du dir fünf Fragen merkst, die du an jede Stunde stellen kannst. Jede Karte zeigt eine Szene und wo wir die Frage in den nächsten Wochen vertiefen.</p>
+  <div id="qCards"></div>
+  <div class="card" style="border-style:dashed;margin-top:1.3rem">
+    <h3>„Ist das nicht einfach Frontalunterricht?“</h3>
+    <p style="font-size:.92rem">Schau noch einmal auf Stunde B: Die Lehrerin redet dort weniger am Stück als in Stunde A, und die Schüler schreiben viel öfter selbst etwas auf. Der Unterschied ist nicht, ob jemand vorne steht. Der Unterschied ist, ob die Lehrkraft laufend sieht, was bei allen ankommt.</p>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h3>Woher kommen die Prinzipien?</h3>
+    <p style="font-size:.92rem">Rosenshine hat drei Arten von Forschung verglichen: Gedächtnisforschung, Beobachtungen in Klassen mit besonders großem Lernzuwachs und Studien, in denen Lehrkräfte gezielt geschult wurden. Die drei kommen zu ähnlichen Ergebnissen, und das ist in der Bildungsforschung selten.</p>
+    <p class="hint">Rosenshine ordnet seine Prinzipien nicht nach Stundenphasen. Wir tun es, weil du so planst und so deine Stunden erlebst.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den Szenen →</button></p>
+</section>
+
+<!-- 4 · SZENEN -->
+<section class="screen" data-title="Szenen erkennen">
+  <span class="eyebrow">Station 4 · Szenen erkennen</span>
+  <h2>Acht Stunden, acht Stellen, an denen es hakt.</h2>
+  <p class="lead">Bei jeder Szene zwei Schritte: Welche der fünf Fragen ist betroffen? Und welche Reparatur hilft am meisten? Alle drei Reparaturen klingen vernünftig, aber nur eine setzt an der richtigen Stelle an.</p>
+  <div class="formula-card">
+    <h4>Die fünf Fragen</h4>
+    <ol class="q-legend" id="qLegendS"></ol>
+  </div>
+  <div id="sceneList"></div>
+  <p class="hint" id="sceneScore" style="margin-top:1rem"></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu deinem Stundenprofil →</button></p>
+</section>
+
+<!-- 5 · MEIN STUNDENPROFIL -->
+<section class="screen" data-title="Mein Stundenprofil">
+  <span class="eyebrow">Station 5 · Mein Stundenprofil</span>
+  <h2>Deine Stunde als Farbbalken.</h2>
+  <p class="lead">Nimm eine Stunde, die du letzte Woche <strong>tatsächlich gehalten</strong> hast. Trage die Phasen der Reihe nach ein, so wie es wirklich war und nicht wie es geplant war. Minutengenau muss es nicht sein.</p>
+  <div class="scene"><span class="tag">Beispiel</span>Ein Physiklehrer zeichnet seine Stunde und stellt fest, dass sein längster roter Block 22 Minuten dauert. „Das kam mir wie zehn vor.“ Seine Änderung: Nach dem ersten Versuchsaufbau zeichnen alle den Schaltplan auf ein Whiteboard, bevor er weitererklärt.</div>
+
   <div class="card">
     <div class="field" style="margin-top:0">
-      <label for="ownPlan">Mein Stundenplan <span class="sub">Format frei – auch der Drei-Stichwort-Zettel zählt.</span></label>
-      <textarea id="ownPlan" data-store="ownPlan" placeholder="Fach, Klasse, grober Verlauf …"></textarea>
+      <label for="profTopic">Fach, Klasse, Thema</label>
+      <input type="text" id="profTopic" data-store="profTopic" placeholder="z. B. Bio 8b, Aufbau der Zelle">
     </div>
-    <div id="selfAuditList" style="margin-top:.6rem"></div>
-    <p class="hint" id="selfAuditScoreLine" style="margin-top:.7rem"></p>
+    <h3 style="margin-top:1.1rem">Phasen</h3>
+    <div class="legend" id="legendP"></div>
+    <p class="hint" style="margin-top:.5rem">Wenn nur Freiwillige antworten, ist das rot, nicht gelb. Gelb heißt: alle antworten, und du siehst die Antworten.</p>
+    <div id="segList"></div>
+    <div class="add-row" id="addRow"></div>
+    <div id="barP"></div>
+    <p class="hint" id="profSum" style="margin-top:.3rem"></p>
   </div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum 80-%-Simulator →</button></p>
-</section>
 
-<!-- 5 · 80-%-SIMULATOR -->
-<section class="screen" data-title="80-%-Simulator">
-  <span class="eyebrow">Station 5 · Die Steuergröße: 80-%-Regel</span>
-  <h2>In Übungsphasen sollen etwa vier von fünf Antworten richtig sein.</h2>
-  <p class="lead">Schieb den Regler auf die Erfolgsquote, die du in deiner letzten Übungsphase geschätzt hättest.</p>
   <div class="card">
-    <label for="rateSlider" style="font-weight:600;font-size:.92rem">Geschätzte Erfolgsquote im Üben</label>
-    <input type="range" id="rateSlider" min="0" max="100" step="5">
-    <div class="range-labels"><span>0 %</span><span>50 %</span><span>100 %</span></div>
-    <div class="range-value" id="rateValue"></div>
+    <h3>Die fünf Fragen an deine Stunde</h3>
+    <div class="field">
+      <label for="profZiel">1 · Ziel: Was sollten am Ende alle können? <span class="sub">Ein Satz. Wenn es nicht in einen Satz passt, ist das schon der Befund.</span></label>
+      <input type="text" id="profZiel" data-store="profZiel" placeholder="Am Ende können alle …">
+    </div>
+    <div class="metrics" id="metrics"></div>
+    <div class="field">
+      <label for="profAllein">5 · Allein üben: Wie viele konnten es in der Einzelarbeit ungefähr? Woher weißt du das?</label>
+      <textarea id="profAllein" data-store="profAllein" placeholder="z. B. „Etwa die Hälfte – ich weiß es nur von denen, die sich gemeldet haben.“"></textarea>
+    </div>
   </div>
-  <div id="rateZone"></div>
+
+  <div class="card">
+    <h3>Die eine Stelle</h3>
+    <p style="font-size:.92rem">Bei welcher Frage hätte deine Stunde am meisten gewonnen?</p>
+    <div class="chip-row" id="weakRow"></div>
+    <p style="font-size:.92rem;margin-top:1rem">Formuliere eine Änderung, die höchstens fünf Minuten zusätzlich kostet:</p>
+    <div class="sentence">
+      <label>In meiner nächsten Stunde zu diesem Thema werde ich in Minute
+        <input type="text" id="chMin" data-store="chMin" placeholder="z. B. 12"></label>
+      <label>statt
+        <input type="text" id="chStatt" data-store="chStatt" placeholder="z. B. „Alles klar? Dann Aufgabe 1–8.“"></label>
+      <label>Folgendes tun:
+        <textarea id="chNeu" data-store="chNeu" placeholder="z. B. zwei Aufgaben gemeinsam rechnen, die zweite auf Whiteboards, und zählen, wie viele richtig liegen."></textarea></label>
+    </div>
+  </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
 </section>
 
 <!-- 6 · QUIZ -->
 <section class="screen" data-title="Quiz">
   <span class="eyebrow">Station 6 · Quiz</span>
-  <h2>Fünf Fragen zu Woche 8 – plus Auffrischung.</h2>
-  <p class="lead">Ein Teil der Fragen kommt aus den Vormodulen – so bleiben Block 1 und Woche 7 präsent.</p>
+  <h2>Fünf Fragen zu Woche 8.</h2>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">Transfer (Freitext): Nenne die vier größten Rosenshine-Verstöße der Beispielstunde – je mit Prinzip und einem konkreten Reparaturvorschlag ≤ 5 Minuten.</p>
-    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="1. kein Review → … 2. Riesenschritte → … 3. Selbstauskunft → … 4. Sprung → …"></textarea>
-    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Muster: kein Review → Do Now „2 Aufgaben Brüche von letzter Woche"; Riesenschritte → nach Grundwert/Prozentwert stoppen + Prüffrage; Selbstauskunft → 2 Whiteboard-Aufgaben; Sprung → 2 gemeinsame Beispiele vor dem Blatt.</p>
+    <p class="quiz-q">F6 (Freitext): Was nimmst du aus deinem Stundenprofil mit? Nenne die Frage, bei der deine Stunde am schwächsten war, und was du konkret änderst.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
 
 <!-- 7 · ACTION STEP & ABSCHLUSS -->
 <section class="screen" data-title="Action Step &amp; Export">
-  <span class="eyebrow">Station 7 · Ein Schritt. Nicht sieben.</span>
+  <span class="eyebrow">Station 7 · Action Step</span>
   <h2>Dein Action Step für diese Woche.</h2>
-  <p class="lead">Wähle einen Schritt – und nur einen.</p>
+  <p class="lead">Wähle einen Action Step.</p>
   <div id="stepList"></div>
   <div class="commit-box">
     <input type="checkbox" id="commitCheck" data-store="commit">
-    <label for="commitCheck" style="font-weight:600" id="commitLabel">Ich verpflichte mich auf den gewählten Action Step für diese Woche.</label>
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
   </div>
 
   <div class="card">
-    <h3>Wochenzähler</h3>
-    <div class="field" style="margin-top:.5rem">
-      <label for="reviewCount">Stunden mit 5-Min.-Review diese Woche <span class="sub">z. B. „4 / 5"</span></label>
-      <input type="text" id="reviewCount" data-store="reviewCount" placeholder="__ / __">
-    </div>
+    <h3>Profil nach der Stunde</h3>
+    <p class="hint">Trag nach drei Stunden dieser Woche kurz ein, wie es lief. Dein Coach sieht so, ob sich etwas verändert.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
   </div>
 
   <div class="card">
@@ -461,7 +479,7 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
       <label for="exitSorge">Da bin ich skeptisch:</label>
       <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
     </div>
-    <p class="hint" style="margin-top:.6rem">📌 Erinnerung: Bring zu Woche 9 das Thema einer echten Stunde deiner KOMMENDEN Woche mit (Fach, Klasse, Stoff).</p>
+    <p class="hint" style="margin-top:.6rem">📌 Erinnerung: Bring zu Woche 9 das Thema einer Stunde mit, die du nächste Woche hältst (Fach, Klasse, Stoff).</p>
   </div>
 
   <div class="card">
@@ -474,11 +492,11 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
       <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
     </div>
     <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
-    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen" schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
-    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern" herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
-  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche der Strang, der alles steuert – und der im Alltag als Erstes unter die Räder kommt: Was genau sollen sie am Ende können? Ihr lernt die zwei Todsünden der Stundenplanung kennen. Spoiler: Ihr begeht mindestens eine davon regelmäßig. Ich auch, jahrelang. Bringt das Thema einer echten Stunde eurer KOMMENDEN Woche mit – daran wird gearbeitet."</div>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche nehmen wir uns Frage 1 vor: Was sollen am Ende alle können? Die Frage klingt einfach, aber viele Stunden scheitern genau daran. Bring das Thema einer Stunde mit, die du nächste Woche hältst. Daran arbeiten wir.“</div>
 </section>
 
 </main>
@@ -507,121 +525,181 @@ input[type=range]{width:100%;accent-color:var(--petrol);margin-top:.7rem;height:
 <script src="./shared/cpd-client.js" data-module-key="modul8-woche08-rosenshine"></script>
 <script>
 /* ================= Daten ================= */
-const STRANDS=['Reviewing','Sequencing & Modelling','Questioning','Practising'];
+const COLORS={
+  grau:{label:'Organisation'},
+  rot:{label:'Ich rede / Freiwillige antworten'},
+  gelb:{label:'Alle antworten, ich sehe es'},
+  gruen:{label:'Gemeinsam üben'},
+  blau:{label:'Allein / in Gruppen arbeiten'}
+};
+const COLOR_KEYS=Object.keys(COLORS);
 
-const STRAND_CARDS=[
- {t:'Reviewing',f:'P1 tägliche Wiederholung · P10 wöchentliche/monatliche Wiederholung',
-  quote:'„Womit beginnt jede unserer Sitzungen? Eben. Ihr sitzt seit neun Wochen in einer Rosenshine-Fortbildung, die nach Rosenshine gebaut ist. Und euer Do Now aus Woche 2 ist der vorbereitete Landeplatz dafür."',
-  badge:'✓ Das macht ihr schon: Retrieval-Starter, Do Now (W2/W3)'},
- {t:'Sequencing & Modelling',f:'P2 kleine Schritte · P4 Modellieren/Beispiele · P8 Gerüste',
-  quote:'„Ihr seid Bergführer mit einer Gruppe, die zum ersten Mal am Berg ist. Der Anfängerfehler ist nicht die falsche Route – es ist die Schrittlänge. Merkt euch die Regel: kleiner schneiden, als sich richtig anfühlt."',
-  badge:'→ Wird vertieft in Woche 9 und Woche 11'},
- {t:'Questioning',f:'P3 viele Fragen · P6 Verständnis aller prüfen',
-  quote:'„Die wirksamsten Lehrkräfte stellen schlicht mehr Fragen und lassen mehr Schüler antworten als der Durchschnitt. Erklären ohne Prüfen ist Senden ohne Empfangsbestätigung."',
-  badge:'→ Volles Werkzeug in Block 4'},
- {t:'Practising',f:'P5 angeleitetes Üben · P7 hohe Erfolgsquote (~80 %) · P9 selbstständiges Üben',
-  quote:'„I do – We do – You do: Ich zeige es. Wir machen es gemeinsam. Ihr macht es allein. Der klassische Anfängerfehler ist der Sprung: erklärt, Arbeitsblatt, gewundert."',
-  badge:'→ Wird vertieft in Woche 11 und Woche 13'}
+const QUESTIONS=[
+ {k:'Ziel',q:'Was sollen am Ende alle können, und woran sehe ich das?'},
+ {k:'Einstieg',q:'Holen zu Beginn alle etwas aus dem Gedächtnis?'},
+ {k:'Erklären',q:'Wie viele Minuten rede ich am Stück, bevor alle etwas tun müssen?'},
+ {k:'Gemeinsam üben',q:'Lösen wir Aufgaben gemeinsam, und sehe ich dabei die Antworten aller, bevor sie allein arbeiten?'},
+ {k:'Allein üben',q:'Gelingt den meisten die Einzelarbeit, und was tue ich währenddessen?'}
 ];
 
-const PRINCIPLES=[
- {t:'P1 · Tägliche Wiederholung zu Beginn der Stunde',s:0},
- {t:'P10 · Wöchentliche und monatliche Wiederholung',s:0},
- {t:'P2 · Neuen Stoff in kleinen Schritten vermitteln',s:1},
- {t:'P4 · Modellieren mit Beispielen (Vormachen)',s:1},
- {t:'P8 · Gerüste für schwierige Aufgaben bereitstellen',s:1},
- {t:'P3 · Viele Fragen stellen',s:2},
- {t:'P6 · Verständnis ALLER Schüler prüfen, nicht nur der Meldefinger',s:2},
- {t:'P5 · Angeleitetes Üben (We do)',s:3},
- {t:'P7 · Hohe Erfolgsquote (~80 %) im Üben anstreben',s:3},
- {t:'P9 · Selbstständiges Üben ermöglichen (You do)',s:3}
+const LESSON_A=[
+ {c:'grau',m:3,t:'Begrüßung, Anwesenheit.'},
+ {c:'rot',m:4,t:'Hausaufgaben: „Wer hatte Probleme?“ Zwei Schüler nennen je eine Aufgabe, die Lehrerin rechnet sie an der Tafel vor.'},
+ {c:'rot',m:15,t:'Die Lehrerin erklärt freundlich und klar an gut gestalteten Folien: was „Prozent“ bedeutet, Grundwert, Prozentsatz, Prozentwert, die Formel W = G · p/100 und den Dreisatz als zweiten Weg. Dazu zwei vorgerechnete Beispiele. Zwischendurch fragt sie: „Was heißt ‚Prozent‘ wörtlich?“ Drei melden sich, die zweite Antwort ist richtig. Am Ende: „Ist so weit alles klar? Fragen?“ Keine Fragen.'},
+ {c:'blau',m:18,t:'Buch S. 84, Nr. 1–8, Partnerarbeit erlaubt. Die Lehrerin geht herum und hilft, wo sich jemand meldet. An drei Tischen erklärt sie die Formel noch einmal.'},
+ {c:'rot',m:5,t:'Nr. 1–3 vergleichen, die Freiwilligen haben richtig gerechnet. Hausaufgabe: Nr. 9–12.'}
 ];
 
-const IWY=[
- {k:'I do',d:'Ich zeige es. Die Lehrkraft modelliert, denkt laut, macht Denken sichtbar.'},
- {k:'We do',d:'Wir machen es gemeinsam. Gemeinsame Beispiele, Hilfen werden langsam abgebaut – die Brücke.'},
- {k:'You do',d:'Ihr macht es allein. Selbstständiges Üben – erst jetzt, mit gesicherter Grundlage.'}
+const LESSON_B=[
+ {c:'gelb',m:5,t:'An der Tafel stehen drei Aufgaben: ¼ von 80 · 30 % als Bruch · 0,15 · 200. Alle lösen sie schriftlich, währenddessen nimmt die Lehrerin die Anwesenheit auf. Sie geht durch die Reihen, schaut auf die Hefte und bespricht kurz die Aufgabe, bei der die meisten Fehler hatten.',
+  ok:[1],note:'<b>Frage 2 · Einstieg.</b> Statt zwei Freiwilligen, die Hausaufgaben vorrechnen lassen, rufen alle etwas ab, und zwar genau das Vorwissen (Brüche, Dezimalzahlen), das sie gleich brauchen. Die Lehrerin sieht nebenbei, wo es hakt. <span class="hint">P1 · Beginne mit einer kurzen Wiederholung.</span>'},
+ {c:'rot',m:4,t:'Sie erklärt nur den Prozentwert und nur die Formel. Ein Beispiel rechnet sie laut denkend vor, beim zweiten nennen die Schüler die Schritte.',
+  ok:[2],note:'<b>Frage 3 · Erklären.</b> Ein Begriff, ein Verfahren, vier Minuten. Stunde A hatte in 15 Minuten drei Begriffe, zwei Verfahren und zwei Anwendungen. <span class="hint">P2 · Kleine Schritte · P4 · Modelle zeigen.</span>'},
+ {c:'gelb',m:3,t:'Alle schreiben auf ihr Whiteboard: „20 % Rabatt auf 60 €. Was ist hier der Grundwert?“ und halten es gleichzeitig hoch.',
+  ok:[3],note:'<b>Frage 4 · Antworten aller sehen.</b> Stunde A fragte „Alles klar?“ und bekam Schweigen. Hier sieht die Lehrerin in fünf Sekunden 27 Antworten. <span class="hint">P3 · Viele Fragen, Antworten aller prüfen · P6 · Verständnis prüfen.</span>'},
+ {c:'gruen',m:10,t:'Drei Aufgaben gemeinsam: Bei der ersten diktieren die Schüler, sie schreibt. Die zweite rechnen alle auf dem Whiteboard. Die dritte rechnen alle allein, ohne Hilfe an der Tafel. Sie zählt mit: 22 von 27 richtig. Die fünf anderen kommen an den Vordertisch.',
+  ok:[3,4],note:'<b>Frage 4 · Gemeinsam üben.</b> Das fehlende Stück in Stunde A. Die Hilfe wird von Aufgabe zu Aufgabe weniger, und am Ende weiß die Lehrerin, wer allein weiterarbeiten kann (22 von 27, also gut vier von fünf) und wer noch nicht. <span class="hint">P5 · Üben anleiten · P8 · Hilfen geben und abbauen · P7 · Hohe Erfolgsquote.</span>'},
+ {c:'blau',m:16,t:'Buch Nr. 1–6 allein, von leicht nach schwer. Sie geht zuerst zu den fünf am Vordertisch, dann in einer festen Runde durch alle Reihen und setzt Häkchen bei richtigen Lösungen.',
+  ok:[4],note:'<b>Frage 5 · Allein üben.</b> Die Einzelarbeit beginnt erst, als die meisten es können, und die Lehrerin geht gezielt herum, statt auf Meldungen zu warten. <span class="hint">P9 · Selbstständiges Üben verlangen und begleiten.</span>'},
+ {c:'gelb',m:7,t:'Zwei Aufgaben auf einem Zettel, alle geben ab. Nach der Stunde sortiert sie die Zettel in zwei Stapel: „kann es“ und „noch nicht“.',
+  ok:[0,4],note:'<b>Frage 1 · Ziel</b> (und Frage 5). Die Zettel zeigen, ob das Ziel der Stunde erreicht ist, und zwar für jeden einzelnen Schüler. Stunde A wusste es nur von den Freiwilligen. Der Stapel „noch nicht“ bestimmt den Einstieg der nächsten Stunde.'}
 ];
 
-const AUDIT_QUESTIONS=[
- 'Beginnt sie mit Wiederholung?',
- 'Wie groß sind die Schritte (neue Elemente pro Erklärsequenz)?',
- 'Wo sind die Prüfschleifen – und prüfen sie ALLE?',
- 'Gibt es ein echtes We do zwischen Zeigen und Alleinarbeiten?',
- 'Geschätzte Erfolgsquote im Üben – im Korridor?'
+const Q_CARDS=[
+ {week:'vertieft in Woche 9',pr:'Voraussetzung (McCrea, Lemov)',
+  scene:'An der Tafel steht „Heute: Stromkreise“. Die Gruppen bauen, zeichnen, gestalten ein Plakat. Am Ende fragt ein Kollege: „Was sollten sie heute lernen?“ Die Antwort: „Na, Stromkreise.“',
+  comment:'Ein Thema ist kein Ziel. Ein Ziel ist eine Aufgabe, die am Ende alle lösen können sollen. Erst wenn das klar ist, lässt sich prüfen, ob die Stunde funktioniert hat.',
+  a:'A: Das Ziel bleibt unklar, am Ende vergleichen Freiwillige.',b:'B: Zwei Aufgaben auf einem Zettel zeigen für jeden, ob das Ziel erreicht ist.'},
+ {week:'vertieft in Woche 13',pr:'P1 kurze Wiederholung zu Beginn · P10 wöchentlich und monatlich wiederholen',
+  scene:'„Letzte Stunde hatten wir die Weimarer Verfassung. Wer weiß noch etwas?“ Drei Hände, drei gute Antworten. Die Lehrerin ist zufrieden. Die anderen 24 haben zugehört, oder auch nicht.',
+  comment:'Mit Wiederholung zu beginnen, kennst du aus jeder Sitzung dieser Fortbildung. Entscheidend ist, dass alle abrufen müssen, nicht nur drei.',
+  a:'A: Zwei Freiwillige nennen Probleme mit der Hausaufgabe.',b:'B: Alle lösen drei Aufgaben zum nötigen Vorwissen.'},
+ {week:'vertieft in Woche 10',pr:'P2 kleine Schritte, Übung nach jedem Schritt · P4 Modelle und Beispiele zeigen',
+  scene:'Die Englischlehrerin führt das present perfect ein: Bildung, Signalwörter, Unterschied zum simple past, dazu eine Liste unregelmäßiger Partizipien. Das Tafelbild ist sauber, die Erklärung klar. Nach 20 Minuten folgt ein Lückentext. Die Hälfte setzt simple past ein.',
+  comment:'Rosenshine sagt nicht nur „kleine Schritte“. Er sagt: kleine Schritte und nach jedem Schritt üben. Was für dich ein Schritt ist, sind für jemanden, der das Thema zum ersten Mal sieht, oft fünf.',
+  a:'A: 15 Minuten, drei Begriffe, zwei Verfahren.',b:'B: 4 Minuten, ein Begriff, ein Verfahren, dann sofort eine Aufgabe für alle.'},
+ {week:'vertieft in Woche 11 und Block 4',pr:'P3 viele Fragen, Antworten aller prüfen · P5 Üben anleiten · P6 Verständnis prüfen · P8 Hilfen geben',
+  scene:'Der Chemielehrer rechnet eine Stöchiometrie-Aufgabe vor. „Alles klar?“ Nicken. „Dann Aufgaben 1 bis 10.“ Nach drei Minuten sitzt die Hälfte der Klasse vor einem leeren Blatt.',
+  comment:'Der Fehler liegt nicht in der Erklärung, sondern darin, dass danach sofort die Einzelarbeit kam. Dazwischen fehlt das gemeinsame Üben, bei dem du noch hilfst und siehst, wer es kann. Manche nennen das „I do – We do – You do“, und das We do fehlt am häufigsten. „Alles klar?“ misst übrigens nicht, ob sie es können, sondern ob sie glauben, es zu können.',
+  a:'A: „Ist so weit alles klar?“ – dann Buch S. 84.',b:'B: Whiteboard-Frage an alle, drei gemeinsame Aufgaben mit abnehmender Hilfe.'},
+ {week:'vertieft in Woche 12',pr:'P7 hohe Erfolgsquote · P9 selbstständiges Üben verlangen und begleiten',
+  scene:'Übungsphase quadratische Gleichungen. Der Lehrer geht herum und sieht, dass fast alle fast alles falsch haben. „Macht weiter, dafür ist Übung ja da.“',
+  comment:'Richtwert: Wenn beim gemeinsamen Üben etwa vier von fünf richtig liegen, können sie allein weiterarbeiten. Liegen deutlich weniger richtig, geh zurück und rechne noch ein Beispiel gemeinsam, gern in kleineren Schritten. Bei der Einzelarbeit und bei Wiederholungen soll es dann fast fehlerfrei laufen. Dort ist fehlerfrei das Ziel, denn wer Fehler übt, lernt die Fehler.',
+  a:'A: Hilfe nur für die, die sich melden. Wie viele es können, bleibt unbekannt.',b:'B: Erst bei 22 von 27 geht es in die Einzelarbeit. Die Lehrerin geht gezielt herum.'}
 ];
 
-const WEAK_LESSON=[
- {time:'Min. 0–5',text:'Begrüßung, Organisatorisches, Rückgabe eines Tests.',
-  correct:[0],note:'Kein Wiederholungsstart – die Stunde beginnt mit Organisation statt Review (Frage 1). Reparatur: Do Now mit 2–3 Wiederholungsaufgaben aus der letzten Stunde, während organisiert wird.'},
- {time:'Min. 5–25',text:'Lehrkraft erklärt am Stück: Grundwert, Prozentwert, Prozentsatz, die drei Formeln, zwei Sonderfälle, Taschenrechner-Tipp (Folien mit viel Text, SuS schreiben parallel ab). Zwischenfrage: „Alle verstanden? Gut."',
-  correct:[1,2],note:'Riesenschritte – sechs oder mehr neue Elemente am Stück (Frage 2) – und die einzige Prüfschleife ist eine Selbstauskunft, die niemanden wirklich prüft (Frage 3). Reparatur: Erklärblock dritteln, nach jedem Drittel eine echte Prüffrage an alle.'},
- {time:'Min. 25–40',text:'Arbeitsblatt mit 12 gemischten Aufgaben, Einzelarbeit. Lehrkraft korrigiert währenddessen den Test von gestern am Pult; wer Fragen hat, kommt nach vorn (Schlange bildet sich).',
-  correct:[3,4],note:'Kein We do – der Sprung vom Erklären direkt ins Alleinarbeiten (Frage 4); die Erfolgsquote bleibt unbekannt, die Schlange am Pult ist das Symptom (Frage 5). Reparatur: zwei gemeinsame Beispiele vor dem Arbeitsblatt, dann beim Rundgang stichprobenartig die Erfolgsquote schätzen.'},
- {time:'Min. 40–45',text:'„Wir vergleichen die ersten drei – wer hat Aufgabe 1? … Richtig. Hausaufgabe: Rest des Blattes. Ihr könnt schon mal packen."',
-  correct:[2],note:'Prüfschleife per Meldung – es antwortet, wer sich meldet, nicht alle (Frage 3, verletzt „prüfen sie ALLE"); dazu ein aufgelöstes Ende ohne Sicherung. Reparatur: Exit-Aufgabe statt „wer noch Fragen hat" – alle schreiben eine Antwort auf, die Lehrkraft sammelt einen Querschnitt ein.'}
+const SCENES=[
+ {tag:'Englisch, Kl. 8',t:'Die Lehrerin führt das present perfect ein: Bildung, Signalwörter, Unterschied zum simple past und eine Liste unregelmäßiger Partizipien, zusammen 20 Minuten mit klarem Tafelbild. Danach folgt ein Lückentext.',
+  q:2,qnote:'Frage 3: zu viel Neues auf einmal, und geübt wird erst nach 20 Minuten.',
+  fixes:[
+   {t:'Den Lückentext in Partnerarbeit machen lassen.',ok:false,note:'Die Partner haben dieselbe Menge Stoff im Kopf. Die Überforderung wird nur geteilt.'},
+   {t:'Nur die Bildung und eine Gruppe Signalwörter. Nach 5 Minuten schreiben alle zwei Sätze auf ein Whiteboard.',ok:true,note:'Kleiner Schritt, sofort geübt, und die Lehrerin sieht, ob es sitzt, bevor der nächste Schritt kommt.'},
+   {t:'Das Tafelbild farbig gliedern.',ok:false,note:'Schöner, aber genauso viel auf einmal.'}]},
+ {tag:'Geschichte, Kl. 9',t:'„Letzte Stunde ging es um die Weimarer Verfassung. Wer weiß noch etwas?“ Drei Schüler melden sich und antworten gut.',
+  q:1,qnote:'Frage 2: Wiederholung ja, aber nur drei rufen ab.',
+  fixes:[
+   {t:'Warten, bis sich noch jemand meldet.',ok:false,note:'Es melden sich immer dieselben.'},
+   {t:'Die Verfassung noch einmal kurz zusammenfassen.',ok:false,note:'Dann wiederholt die Lehrerin, nicht die Klasse.'},
+   {t:'Drei kurze Fragen schriftlich, alle beantworten sie.',ok:true,note:'Alle müssen abrufen, und die Lehrerin sieht, was hängen geblieben ist.'}]},
+ {tag:'Chemie, Kl. 8',t:'Der Lehrer rechnet eine Stöchiometrie-Aufgabe vor. „Jetzt ihr: Aufgaben 1 bis 10.“ Die Hälfte der Klasse sitzt ratlos da.',
+  q:3,qnote:'Frage 4: Von einem vorgerechneten Beispiel direkt in die Einzelarbeit, das gemeinsame Üben fehlt.',
+  fixes:[
+   {t:'Zwei Aufgaben gemeinsam rechnen und die Hilfe dabei schrittweise zurücknehmen, erst dann allein.',ok:true,note:'Das ist das fehlende We do.'},
+   {t:'Einen Lösungszettel auslegen.',ok:false,note:'Hilft beim Kontrollieren, nicht beim Können.'},
+   {t:'Die Aufgaben in Gruppen bearbeiten lassen.',ok:false,note:'Dann rechnet in jeder Gruppe einer, und die anderen schreiben ab.'}]},
+ {tag:'Biologie, Kl. 10',t:'Nach der Erklärung zur Mitose fragt die Lehrerin: „Alle verstanden? Daumen hoch!“ Alle zeigen den Daumen nach oben.',
+  q:3,qnote:'Frage 4: Die Erklärung kann gut gewesen sein. Es fehlt der Blick auf die Antworten aller, denn der Daumen zeigt nur, was die Schüler glauben.',
+  fixes:[
+   {t:'„Wer es nicht verstanden hat, kommt nachher zu mir.“',ok:false,note:'Es kommt, wer merkt, dass er es nicht verstanden hat. Das sind selten alle, die es betrifft.'},
+   {t:'Die Erklärung noch einmal langsamer wiederholen.',ok:false,note:'Vielleicht nötig, vielleicht nicht. Ohne Antworten weiß sie es nicht.'},
+   {t:'Alle beschriften auf einem Whiteboard eine Skizze mit der richtigen Phase.',ok:true,note:'In wenigen Sekunden sieht sie, wer es kann.'}]},
+ {tag:'Deutsch, Kl. 7',t:'Die Klasse schreibt allein Einleitungen für eine Erörterung. Die Lehrerin sitzt am Pult und bereitet die nächste Stunde vor. Wer Fragen hat, meldet sich.',
+  q:4,qnote:'Frage 5: Die Einzelarbeit läuft ohne Begleitung. Wer nicht weiterkommt, meldet sich oft gar nicht.',
+  fixes:[
+   {t:'Eine feste Runde durch die Klasse, zuerst zu drei vorher ausgewählten Schülern.',ok:true,note:'Sie sieht die Texte, während sie entstehen, und fängt Fehler ab, bevor sie sich festsetzen.'},
+   {t:'Eine Checkliste an die Tafel hängen.',ok:false,note:'Kann helfen, ersetzt aber nicht den Blick auf die Texte.'},
+   {t:'Die Einleitungen einsammeln und zu Hause korrigieren.',ok:false,note:'Die Rückmeldung kommt eine Woche zu spät.'}]},
+ {tag:'Mathematik, Kl. 9',t:'In der Übungsphase zu quadratischen Gleichungen rechnen fast alle fast alles falsch. „Macht weiter, dafür ist Übung ja da.“',
+  q:4,qnote:'Frage 5: Die Erfolgsquote ist viel zu niedrig. Wer weiterübt, übt die Fehler ein.',
+  fixes:[
+   {t:'Die Lösungen austeilen, damit alle sich selbst korrigieren.',ok:false,note:'Dann wissen sie, dass es falsch war, aber nicht, wie es richtig geht.'},
+   {t:'Die Einzelarbeit unterbrechen und zwei Aufgaben gemeinsam rechnen.',ok:true,note:'Zurück ins gemeinsame Üben, bis etwa vier von fünf richtig liegen.'},
+   {t:'Die Aufgaben als Hausaufgabe aufgeben.',ok:false,note:'Dann üben sie die Fehler zu Hause weiter.'}]},
+ {tag:'Physik, Kl. 8',t:'An der Tafel steht „Heute: Stromkreise“. Am Ende hat jede Gruppe ein Plakat gestaltet. Was die Schüler jetzt können sollen, weiß niemand genau.',
+  q:0,qnote:'Frage 1: Es gibt ein Thema, aber kein Ziel.',
+  fixes:[
+   {t:'Die Plakate präsentieren lassen.',ok:false,note:'Zeigt, was die Gruppen gestaltet haben, nicht, was jeder Einzelne kann.'},
+   {t:'Eine Bewertungsskala für die Plakate ausgeben.',ok:false,note:'Bewertet das Plakat, nicht das Verständnis.'},
+   {t:'Vorher eine Aufgabe festlegen, die am Ende alle lösen sollen, z. B. „Zeichne den Schaltplan für …“.',ok:true,note:'Dann ist klar, worauf die Stunde hinarbeitet, und am Ende lässt es sich prüfen.'}]},
+ {tag:'Erdkunde, Kl. 7',t:'Der Lehrer teilt drei Klimadiagramme aus: „Beschreibt sie so, wie es im Buch auf S. 40 steht.“',
+  q:2,qnote:'Frage 3: Es fehlt das Vormachen. Die Buchseite beschreibt ein Ergebnis, aber nicht, wie man dahin kommt.',
+  fixes:[
+   {t:'Ein Diagramm laut denkend beschreiben, dann eines gemeinsam, erst dann allein.',ok:true,note:'Vormachen, gemeinsam üben, dann allein.'},
+   {t:'Die Buchseite gemeinsam lesen.',ok:false,note:'Besser als nichts, aber lesen ist nicht vormachen.'},
+   {t:'Die Aufgabe in Partnerarbeit geben.',ok:false,note:'Zwei, die es nicht können, können es zu zweit auch nicht.'}]}
 ];
 
 const QUIZ=[
- {q:'F1. Explizite Instruktion nach Rosenshine ist…',
+ {q:'F1. Explizite Instruktion nach Rosenshine …',
   opts:[
-   {t:'veralteter Frontalunterricht mit neuem Etikett',ok:false,note:'DAS Vorurteil.'},
-   {t:'hochinteraktives Vorgehen in kleinen, ständig geprüften Schritten',ok:true,note:'Genau – geführt ≠ monologisch.'},
-   {t:'nur für schwache Lerngruppen geeignet',ok:false,note:'Es gilt für Schüler ohne Vorkenntnisse – das sind eure Schüler in fast allem.'},
-   {t:'Vortrag mit guten Folien',ok:false,note:'Version 1 statt Version 2 – kommt in Woche 10 vor.'}
+   {t:'ist Frontalunterricht unter neuem Namen',ok:false,note:'Das ist das häufigste Vorurteil. In Stunde B redet die Lehrerin weniger am Stück als in Stunde A.'},
+   {t:'wechselt ständig zwischen kurzen Erklärungen und Aufgaben, bei denen die Lehrkraft die Antworten aller sieht',ok:true,note:'Genau.'},
+   {t:'eignet sich nur für schwache Lerngruppen',ok:false,note:'Sie eignet sich für alle, für die der Stoff neu ist, und das ist fast immer der Fall.'},
+   {t:'ist ein Vortrag mit gut gestalteten Folien',ok:false,note:'Das beschreibt Stunde A.'}
   ]},
- {q:'F2. In deiner Übungsphase liegen etwa 50 % der Antworten richtig. Du…',
+ {q:'F2. Beim gemeinsamen Üben löst etwa die Hälfte die Aufgabe richtig. Was tust du?',
   opts:[
-   {t:'lässt weiter üben – Übung macht den Meister',ok:false,note:'Klingt weise; übt Fehler ein.'},
-   {t:'gehst zurück zu Modellieren/We do',ok:true,note:'Genau – die Brücke war zu kurz.'},
-   {t:'gibst leichtere Aufgaben aus',ok:false,note:'Senkt das Ziel statt die Brücke zu bauen.'},
-   {t:'beendest das Thema und machst nach der Arbeit weiter',ok:false,note:'Kein pädagogisches Argument.'}
+   {t:'mit der Einzelarbeit beginnen, denn durch Übung wird es besser',ok:false,note:'Dann übt die Hälfte der Klasse Fehler ein.'},
+   {t:'noch ein oder zwei Aufgaben gemeinsam rechnen und dabei kleinere Schritte machen',ok:true,note:'Genau. Erst wenn etwa vier von fünf richtig liegen, geht es allein weiter.'},
+   {t:'die Lösungen austeilen, damit alle sich selbst korrigieren',ok:false,note:'Dann wissen sie, dass es falsch war, aber nicht, wie es richtig geht.'},
+   {t:'das Thema abschließen und nach der Klassenarbeit wieder aufgreifen',ok:false,note:'Das verschiebt das Problem nur.'}
   ]},
- {q:'F3. Deine Klasse löst im Üben dauerhaft 100 % fehlerfrei. Das bedeutet:',
+ {q:'F3. Welche Aussage zur Erfolgsquote stimmt?',
   opts:[
-   {t:'perfekter Unterricht – weiter so',ok:false,note:'Fühlt sich großartig an – ist aber die Falle.'},
-   {t:'vermutlich zu niedriger Anspruch – es wird geübt, was schon sitzt',ok:true,note:'Genau – der Korridor liegt bei ~80 %.'},
-   {t:'die Klasse ist überdurchschnittlich',ok:false,note:'Sagt nichts über den Anspruch aus.'},
-   {t:'die 80-%-Regel ist widerlegt',ok:false,note:'Im Gegenteil – sie bestätigt sich.'}
+   {t:'In jeder Übungsphase sollen genau 80 % richtig sein.',ok:false,note:'80 % ist ein Richtwert für das gemeinsame Üben neuer Inhalte, keine feste Vorgabe für jede Phase.'},
+   {t:'Beim gemeinsamen Üben neuer Inhalte zeigen etwa 80 %, dass es weitergehen kann. Bei Einzelarbeit und Wiederholung ist fast fehlerfrei das Ziel.',ok:true,note:'Genau.'},
+   {t:'100 % richtig heißt immer, dass die Aufgaben zu leicht sind.',ok:false,note:'Bei der Festigung und bei Wiederholungen ist genau das gewollt.'},
+   {t:'Die Erfolgsquote spielt erst in der Klassenarbeit eine Rolle.',ok:false,note:'Dann ist es zu spät, um noch etwas zu ändern.'}
   ]},
- {q:'F4. Der „Sprung-Fehler" bezeichnet…',
+ {q:'F4. „Alle verstanden? Daumen hoch!“ Alle zeigen den Daumen hoch. Warum reicht das nicht?',
   opts:[
-   {t:'Themenwechsel ohne Überleitung',ok:false,note:'Wortfalle.'},
-   {t:'das Überspringen des We do: vom Erklären direkt ins Alleinarbeiten',ok:true,note:'Genau – die Brücke fehlt.'},
-   {t:'zu schnelles Sprechen',ok:false,note:'Nicht der Kernpunkt.'},
-   {t:'fehlende Hausaufgabenkontrolle',ok:false,note:'Nicht der Kernpunkt.'}
+   {t:'Weil Daumenzeichen kindisch wirken',ok:false,note:'Das ist nicht das Problem.'},
+   {t:'Weil die Schüler nur zeigen, was sie selbst glauben. Ob sie es können, sieht man daran nicht.',ok:true,note:'Genau. Eine Aufgabe, die alle lösen und zeigen, sagt mehr.'},
+   {t:'Weil es zu lange dauert',ok:false,note:'Es geht sogar sehr schnell, zeigt aber nichts.'},
+   {t:'Es reicht, wenn wirklich alle den Daumen heben',ok:false,note:'Gerade wer etwas falsch verstanden hat, hält sich oft für sicher.'}
   ]},
- {q:'F5. „Viele Fragen stellen" (P3) meint bei Rosenshine…',
+ {q:'F5. Welche Reihenfolge passt zu Rosenshine?',
   opts:[
-   {t:'Quizshows und Ratespiele',ok:false,note:'Nicht der Kernpunkt.'},
-   {t:'nach jedem kleinen Schritt Prüfschleifen für möglichst ALLE',ok:true,note:'Genau – Erklären ohne Prüfen ist Senden ohne Empfangsbestätigung.'},
-   {t:'offene Philosophie-Fragen',ok:false,note:'Nicht das Prinzip.'},
-   {t:'rhetorische Fragen zur Aktivierung',ok:false,note:'Fühlt sich interaktiv an, prüft aber niemanden.'}
+   {t:'Erklären → Einzelarbeit → Vergleichen',ok:false,note:'Das ist Stunde A.'},
+   {t:'Wiederholen → in kleinen Schritten erklären und nachfragen → gemeinsam üben → allein üben',ok:true,note:'Genau. Das ist Stunde B.'},
+   {t:'Gruppenarbeit → Präsentation → Zusammenfassung durch die Lehrkraft',ok:false,note:'Dann erarbeiten die Schüler Neues ohne Anleitung.'},
+   {t:'Einzelarbeit → Erklären → Wiederholen',ok:false,note:'Erst üben, dann erklären, das überfordert bei neuem Stoff.'}
   ]}
 ];
 
 const ACTIONSTEPS=[
- {id:'standard',label:'5-Minuten-Review (Standard)',
-  text:'Jede meiner Stunden dieser Woche beginnt mit fünf Minuten Wiederholung – Format frei (Fragen an der Tafel, mündliche Runde, Mini-Quiz). Freitags notiere ich: Was hat sich am Stundenverlauf dadurch verändert?'},
- {id:'selfaudit',label:'Selbst-Audit-Fix (Alternative)',
-  text:'Den im Selbst-Audit markierten Schwachpunkt in ZWEI Stunden dieser Woche gezielt beheben.'},
- {id:'quote',label:'80-%-Beobachtung (Alternative)',
-  text:'In einer Übungsphase pro Tag die Erfolgsquote grob schätzen (Stichprobe beim Rundgang) und notieren – noch ohne Konsequenz, nur Blick schärfen.'}
+ {id:'profil',label:'Meine Änderung umsetzen (Standard)',
+  text:'Ich setze meine Änderung aus dem Stundenprofil in mindestens drei Stunden dieser Woche um. Nach jeder dieser Stunden zeichne ich in zwei Minuten das Profil.'},
+ {id:'fuenfmin',label:'Nach fünf Minuten: alle antworten (Alternative)',
+  text:'In jeder Stunde dieser Woche beantworten spätestens nach fünf Minuten Erklären alle eine Frage schriftlich, und ich schaue mir die Antworten an, bevor ich weitermache.'}
 ];
 
+const STATE_VERSION=2;
+
 /* ================= Zustand & Speicherung ================= */
-let state={name:'',
- convRevealed:false,
- strandOpen:STRAND_CARDS.map(()=>false),
- matchSel:PRINCIPLES.map(()=>0),
- iwyStep:0,
- timelineSel:WEAK_LESSON.map(()=>[]),timelineRevealed:false,
- ownPlan:'',selfAudit:AUDIT_QUESTIONS.map(()=>0),
- rateSlider:50,
- quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
- actionStep:'standard',reviewCount:'',
- exitMit:'',exitSorge:'',commit:false,screen:0,
- submitted:false,submittedAt:null,submissionText:''};
+function freshState(){
+  return {v:STATE_VERSION,name:'',
+   grade:0,gradeWhy:'',aRevealed:false,aGuess:'',
+   bSel:LESSON_B.map(()=>-1),bRevealed:false,
+   qOpen:Q_CARDS.map(()=>false),
+   sceneQ:SCENES.map(()=>-1),sceneFix:SCENES.map(()=>-1),
+   profTopic:'',segs:[],profZiel:'',profAllein:'',weak:-1,chMin:'',chStatt:'',chNeu:'',
+   quizSel:QUIZ.map(()=>0),transferAnswer:'',
+   actionStep:'profil',log:[{s:'',r:'',g:''},{s:'',r:'',g:''},{s:'',r:'',g:''}],
+   exitMit:'',exitSorge:'',commit:false,screen:0,
+   submitted:false,submittedAt:null,submissionText:''};
+}
+let state=freshState();
 const STORE_KEY='modul8-woche08-rosenshine';
 let saveTimer=null;
 
@@ -648,20 +726,28 @@ const store=(function(){
     async set(k,v){mem[k]=v;return true}};
 })();
 
+/* Stände aus der ersten Modulfassung (Rosenshine-Stränge) passen nicht mehr zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacyV1 abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacyV1:data});
+}
 function normalizeState(){
-  if(!Array.isArray(state.strandOpen)||state.strandOpen.length!==STRAND_CARDS.length)state.strandOpen=STRAND_CARDS.map(()=>false);
-  if(!Array.isArray(state.matchSel)||state.matchSel.length!==PRINCIPLES.length)state.matchSel=PRINCIPLES.map(()=>0);
-  if(typeof state.iwyStep!=='number'||state.iwyStep<0||state.iwyStep>2)state.iwyStep=0;
-  if(!Array.isArray(state.timelineSel)||state.timelineSel.length!==WEAK_LESSON.length)state.timelineSel=WEAK_LESSON.map(()=>[]);
-  state.timelineSel=state.timelineSel.map(a=>Array.isArray(a)?a:[]);
-  if(!Array.isArray(state.selfAudit)||state.selfAudit.length!==AUDIT_QUESTIONS.length)state.selfAudit=AUDIT_QUESTIONS.map(()=>0);
-  if(!Array.isArray(state.quizSel))state.quizSel=[];
-  while(state.quizSel.length<QUIZ.length)state.quizSel.push(0);
-  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='standard';
+  const f=freshState();
+  const arr=(k,len,fill)=>{if(!Array.isArray(state[k])||state[k].length!==len)state[k]=f[k];};
+  arr('bSel',LESSON_B.length);arr('qOpen',Q_CARDS.length);
+  arr('sceneQ',SCENES.length);arr('sceneFix',SCENES.length);arr('quizSel',QUIZ.length);arr('log',3);
+  if(!Array.isArray(state.segs))state.segs=[];
+  state.segs=state.segs.filter(s=>s&&COLORS[s.c]).map(s=>({c:s.c,m:Math.max(1,Math.min(90,parseInt(s.m)||1))}));
+  state.log=state.log.map(r=>Object.assign({s:'',r:'',g:''},r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep='profil';
+  state.v=STATE_VERSION;
 }
 async function loadState(){
   const v=await store.get(STORE_KEY);
-  if(v){try{Object.assign(state,JSON.parse(v));}catch(e){}}
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
   normalizeState();
   if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
 }
@@ -685,7 +771,7 @@ function scheduleSave(){
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
 window.addEventListener('pagehide',flushSave);
 
-function esc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 
 /* ================= Navigation ================= */
 const screens=[...document.querySelectorAll('.screen')];
@@ -713,7 +799,7 @@ document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()
   go(b.dataset.nav==='next'?cur+1:cur-1);
 }));
 document.addEventListener('keydown',e=>{
-  if(e.target.matches('textarea,input'))return;
+  if(e.target.matches('textarea,input,select'))return;
   if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
   if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
 });
@@ -745,138 +831,238 @@ presBtn.addEventListener('click',()=>{
   presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
 });
 
-/* ================= Hook: Drei Quellen ================= */
-document.getElementById('convRevealBtn').addEventListener('click',()=>{
-  state.convRevealed=true;scheduleSave();
-  document.getElementById('convReveal').classList.add('on');
-});
-
-/* ================= See it: Vier Stränge ================= */
-function renderStrands(){
-  const wrap=document.getElementById('strandList');wrap.innerHTML='';
-  STRAND_CARDS.forEach((c,i)=>{
-    const div=document.createElement('div');div.className='strand-card'+(state.strandOpen[i]?' open':'');
-    div.innerHTML='<h3>'+c.t+'<span class="plus">+</span></h3>'
-      +'<p class="formula">'+c.f+'</p>'
-      +'<div class="body"><p class="strand-quote">'+c.quote+'</p><p style="margin-top:.6rem"><span class="badge ok">'+c.badge+'</span></p></div>';
-    div.addEventListener('click',()=>{
-      state.strandOpen[i]=!state.strandOpen[i];scheduleSave();renderStrands();
-    });
-    wrap.appendChild(div);
+/* ================= Stundenprofil: Darstellung & Kennzahlen ================= */
+function barHtml(segs){
+  const total=segs.reduce((a,s)=>a+s.m,0);
+  const span=Math.max(45,total);
+  let h='<div class="pbar">';
+  segs.forEach(s=>{
+    const w=s.m/span*100;
+    h+='<div class="pseg bg-'+s.c+' '+s.c+'" style="width:'+w+'%" title="'+esc(COLORS[s.c].label)+' · '+s.m+' Min.">'+(s.m>=3?s.m+'′':'')+'</div>';
   });
+  h+='</div><div class="pticks"><span>0</span><span>'+Math.round(span/3)+'</span><span>'+Math.round(span*2/3)+'</span><span>'+span+' Min.</span></div>';
+  return h;
+}
+function legendHtml(keys){
+  return (keys||COLOR_KEYS).map(k=>'<span><i class="sw bg-'+k+'"></i>'+COLORS[k].label+'</span>').join('');
+}
+function timeLabels(segs){
+  let t=0;return segs.map(s=>{const a=t;t+=s.m;return 'Min. '+a+'–'+t;});
+}
+function profileMetrics(segs){
+  const total=segs.reduce((a,s)=>a+s.m,0);
+  // längster zusammenhängender roter Block
+  let longest=0,run=0;
+  segs.forEach(s=>{if(s.c==='rot'){run+=s.m;longest=Math.max(longest,run);}else run=0;});
+  // erste Minute, in der alle aktiv sind (gelb, grün, blau)
+  let t=0,firstActive=null;
+  for(const s of segs){if(['gelb','gruen','blau'].includes(s.c)){firstActive=t;break;}t+=s.m;}
+  // gemeinsames Üben zwischen Erklären und Einzelarbeit: Phase direkt vor dem ersten Blau (Grau übersprungen)
+  let bridge=null;
+  const firstBlue=segs.findIndex(s=>s.c==='blau');
+  if(firstBlue>-1){
+    bridge=false;
+    for(let i=firstBlue-1;i>=0;i--){
+      if(segs[i].c==='grau')continue;
+      bridge=(segs[i].c==='gelb'||segs[i].c==='gruen');break;
+    }
+  }
+  const per={};COLOR_KEYS.forEach(k=>per[k]=0);segs.forEach(s=>per[s.c]+=s.m);
+  return{total,longest,firstActive,bridge,per};
 }
 
-/* ================= Name it: Sortierspiel ================= */
-function renderMatch(){
-  const wrap=document.getElementById('matchList');wrap.innerHTML='';
-  // Anzeige nach P-Nummer statt nach Strang, damit die Reihenfolge die Lösung nicht verrät
-  const order=PRINCIPLES.map((_,i)=>i).sort((a,b)=>parseInt(PRINCIPLES[a].t.slice(1))-parseInt(PRINCIPLES[b].t.slice(1)));
-  order.forEach(i=>{
-    const item=PRINCIPLES[i];
-    const div=document.createElement('div');div.className='situ-item';
-    const sel=state.matchSel[i];
+/* ================= Station 1: Stunde A ================= */
+function renderLessonA(){
+  const labels=timeLabels(LESSON_A);
+  let h=barHtml(LESSON_A)+'<div class="legend">'+legendHtml(['grau','rot','blau'])+'</div>';
+  LESSON_A.forEach((s,i)=>{h+='<div class="phase c-'+s.c+'"><div class="phase-time">'+labels[i]+'</div><div class="phase-text">'+s.t+'</div></div>';});
+  document.getElementById('lessonAView').innerHTML=h;
+  const row=document.getElementById('gradeRow');row.innerHTML='';
+  [1,2,3,4,5,6].forEach(n=>{
+    const b=document.createElement('button');b.className='cat-chip'+(state.grade===n?' sel':'');b.textContent=n;
+    b.addEventListener('click',()=>{state.grade=n;scheduleSave();renderLessonA();renderSummary();});
+    row.appendChild(b);
+  });
+}
+document.getElementById('aRevealBtn').addEventListener('click',()=>{
+  state.aRevealed=true;scheduleSave();document.getElementById('aReveal').classList.add('on');
+});
+
+/* ================= Station 2: Stunde B ================= */
+function qLegendHtml(){return QUESTIONS.map((q,j)=>'<li><b>F'+(j+1)+'</b><span><strong>'+q.k+':</strong> '+q.q+'</span></li>').join('');}
+function renderLessonB(){
+  document.getElementById('barA2').innerHTML=barHtml(LESSON_A);
+  document.getElementById('barB').innerHTML=barHtml(LESSON_B);
+  document.getElementById('legendB').innerHTML=legendHtml();
+  const labels=timeLabels(LESSON_B);
+  const wrap=document.getElementById('lessonBList');wrap.innerHTML='';
+  LESSON_B.forEach((seg,i)=>{
+    const div=document.createElement('div');div.className='phase c-'+seg.c;
     let chips='';
-    STRANDS.forEach((c,j)=>{
-      const isSel=sel===j+1;
-      let cls='cat-chip'+(isSel?' sel':'');
-      if(sel&&j===item.s){cls+=' correct';}
-      else if(sel&&isSel){cls+=' wrong';}
-      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+c+'</button>';
+    QUESTIONS.forEach((q,j)=>{
+      const sel=state.bSel[i]===j;
+      let cls='cat-chip'+(sel?' sel':'');
+      if(state.bRevealed&&seg.ok.includes(j))cls+=' correct';
+      else if(state.bRevealed&&sel)cls+=' wrong';
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'" title="'+esc(q.q)+'">F'+(j+1)+' '+q.k+'</button>';
     });
-    div.innerHTML='<p class="situ-text">'+item.t+'</p>'
-      +'<div class="chip-row">'+chips+'</div>';
+    div.innerHTML='<div class="phase-time">'+labels[i]+' · '+COLORS[seg.c].label+'</div>'
+      +'<div class="phase-text">'+seg.t+'</div>'
+      +'<div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(state.bRevealed?' on':'')+'">'+seg.note+'</p>';
     wrap.appendChild(div);
   });
   wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
-    state.matchSel[+b.dataset.i]=+b.dataset.j+1;scheduleSave();renderMatch();renderSummary();
+    if(state.bRevealed)return;
+    state.bSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderLessonB();renderSummary();
   }));
+  document.getElementById('bReveal').classList.toggle('on',state.bRevealed);
 }
+document.getElementById('bCheckBtn').addEventListener('click',()=>{state.bRevealed=true;scheduleSave();renderLessonB();renderSummary();});
+document.getElementById('bResetBtn').addEventListener('click',()=>{state.bSel=LESSON_B.map(()=>-1);state.bRevealed=false;scheduleSave();renderLessonB();renderSummary();});
+function bScore(){return state.bSel.reduce((a,v,i)=>a+(LESSON_B[i].ok.includes(v)?1:0),0);}
 
-/* ================= I do - We do - You do ================= */
-function renderIwy(){
-  const wrap=document.getElementById('iwyTrack');wrap.innerHTML='';
-  IWY.forEach((s,i)=>{
-    const b=document.createElement('button');b.className='iwy-step'+(state.iwyStep===i?' active':'');
-    b.textContent=s.k;
-    b.addEventListener('click',()=>{state.iwyStep=i;scheduleSave();renderIwy();});
-    wrap.appendChild(b);
-  });
-  document.getElementById('iwyDesc').textContent=IWY[state.iwyStep].d;
-}
-
-/* ================= Do it: Stunden-Audit-Tool ================= */
-function renderAuditLegend(){
-  document.getElementById('auditLegend').innerHTML=AUDIT_QUESTIONS.map((q,j)=>'<li><b>F'+(j+1)+'</b><span>'+q+'</span></li>').join('');
-}
-function renderTimeline(){
-  const wrap=document.getElementById('timelineList');wrap.innerHTML='';
-  WEAK_LESSON.forEach((seg,i)=>{
-    const div=document.createElement('div');div.className='timeline-seg';
-    let chips='';
-    AUDIT_QUESTIONS.forEach((q,j)=>{
-      const sel=state.timelineSel[i].includes(j);
-      let cls='audit-chip'+(sel?' sel':'');
-      if(state.timelineRevealed&&seg.correct.includes(j)){cls+=' correct';}
-      else if(state.timelineRevealed&&sel){cls+=' wrong';}
-      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'" title="'+q+'">F'+(j+1)+'</button>';
-    });
-    div.innerHTML='<div class="timeline-time">'+seg.time+'</div>'
-      +'<div class="timeline-text">'+seg.text+'</div>'
-      +'<div class="audit-check-row chip-row">'+chips+'</div>'
-      +'<p class="situ-note'+(state.timelineRevealed?' on':'')+'">'+seg.note+'</p>';
+/* ================= Station 3: Fünf Fragen ================= */
+function renderQCards(){
+  const wrap=document.getElementById('qCards');wrap.innerHTML='';
+  Q_CARDS.forEach((c,i)=>{
+    const q=QUESTIONS[i];
+    const div=document.createElement('div');div.className='q-card'+(state.qOpen[i]?' open':'');
+    div.innerHTML='<h3><span><span class="num">'+(i+1)+'</span>'+q.k+'</span><span class="plus">+</span></h3>'
+      +'<p class="sub">'+q.q+'</p>'
+      +'<div class="body">'
+      +'<div class="scene"><span class="tag">Szene</span>'+c.scene+'</div>'
+      +'<p class="comment">'+c.comment+'</p>'
+      +'<div class="ab"><div class="a">'+c.a+'</div><div class="b">'+c.b+'</div></div>'
+      +'<div class="badge-row"><span class="badge">'+c.pr+'</span><span class="badge ok">→ '+c.week+'</span></div>'
+      +'</div>';
+    div.querySelector('h3').addEventListener('click',()=>{state.qOpen[i]=!state.qOpen[i];scheduleSave();renderQCards();});
+    div.querySelector('.sub').addEventListener('click',()=>{state.qOpen[i]=!state.qOpen[i];scheduleSave();renderQCards();});
     wrap.appendChild(div);
   });
-  wrap.querySelectorAll('.audit-chip').forEach(b=>b.addEventListener('click',()=>{
-    if(state.timelineRevealed)return;
-    const i=+b.dataset.i,j=+b.dataset.j;
-    const arr=state.timelineSel[i];
-    const idx=arr.indexOf(j);
-    if(idx>-1)arr.splice(idx,1);else arr.push(j);
-    scheduleSave();renderTimeline();
-  }));
 }
-document.getElementById('timelineCheckBtn').addEventListener('click',()=>{
-  state.timelineRevealed=true;scheduleSave();renderTimeline();
-  document.getElementById('timelineReveal').classList.add('on');
-});
-document.getElementById('timelineResetBtn').addEventListener('click',()=>{
-  state.timelineSel=WEAK_LESSON.map(()=>[]);state.timelineRevealed=false;scheduleSave();renderTimeline();
-  document.getElementById('timelineReveal').classList.remove('on');
-});
 
-/* ================= Selbst-Audit (3-state Ampel) ================= */
-const AMPEL_SEQ=['grey','red','amber','green'];
-function renderSelfAudit(){
-  const wrap=document.getElementById('selfAuditList');wrap.innerHTML='';
-  AUDIT_QUESTIONS.forEach((q,i)=>{
-    const val=AMPEL_SEQ[state.selfAudit[i]||0];
-    const row=document.createElement('div');row.className='crit-row';
-    row.innerHTML='<span class="crit-light '+val+'"></span><span class="crit-text"><b>F'+(i+1)+' · '+q+'</b><span class="crit-hint">Tippen: grau → rot → gelb → grün</span></span>';
-    row.addEventListener('click',()=>{
-      state.selfAudit[i]=((state.selfAudit[i]||0)+1)%AMPEL_SEQ.length;scheduleSave();renderSelfAudit();
+/* ================= Station 4: Szenen ================= */
+function renderScenes(){
+  const wrap=document.getElementById('sceneList');wrap.innerHTML='';
+  SCENES.forEach((sc,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const qSel=state.sceneQ[i];
+    let qChips='';
+    QUESTIONS.forEach((q,j)=>{
+      let cls='cat-chip';
+      if(qSel>-1){ if(j===sc.q)cls+=' correct'; else if(j===qSel)cls+=' wrong'; }
+      qChips+='<button class="'+cls+'" data-k="q" data-i="'+i+'" data-j="'+j+'"'+(qSel>-1?' disabled':'')+'>F'+(j+1)+' '+q.k+'</button>';
     });
-    wrap.appendChild(row);
+    let h='<div class="scene" style="margin-top:0"><span class="tag">'+sc.tag+'</span>'+sc.t+'</div>'
+      +'<p class="step-label">1 · Welche Frage ist betroffen?</p><div class="chip-row">'+qChips+'</div>';
+    if(qSel>-1){
+      h+='<p class="quiz-note on">'+(qSel===sc.q?'✓ ':'✗ ')+sc.qnote+'</p>';
+      const fSel=state.sceneFix[i];
+      h+='<p class="step-label">2 · Welche Reparatur hilft am meisten?</p><div class="quiz-opts">';
+      sc.fixes.forEach((f,j)=>{
+        let cls='quiz-opt';
+        if(fSel>-1){ if(f.ok)cls+=' right'; else if(j===fSel)cls+=' wrong'; }
+        h+='<button class="'+cls+'" data-k="f" data-i="'+i+'" data-j="'+j+'">'+f.t+'</button>';
+      });
+      h+='</div>';
+      if(fSel>-1){
+        const ch=sc.fixes[fSel];const best=sc.fixes.find(f=>f.ok);
+        h+='<p class="quiz-note on">'+(ch.ok?'✓ '+ch.note:'✗ '+ch.note+' <br><strong>Besser:</strong> '+best.t+' '+best.note)+'</p>';
+      }
+    }
+    div.innerHTML=h;wrap.appendChild(div);
   });
-  const n=state.selfAudit.filter(v=>v===3).length;
-  document.getElementById('selfAuditScoreLine').textContent=n===AUDIT_QUESTIONS.length?'✓ Alle fünf Fragen auf Grün.':(n+' von '+AUDIT_QUESTIONS.length+' Fragen auf Grün.');
+  wrap.querySelectorAll('button[data-k]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    if(b.dataset.k==='q'){if(state.sceneQ[i]>-1)return;state.sceneQ[i]=j;}
+    else state.sceneFix[i]=j;
+    scheduleSave();renderScenes();renderSummary();
+  }));
+  const done=sceneDone();
+  document.getElementById('sceneScore').textContent=done?(done+' von '+SCENES.length+' Szenen bearbeitet · Frage richtig erkannt: '+sceneQScore()+' · beste Reparatur gewählt: '+sceneFixScore()):'';
 }
+function sceneDone(){return state.sceneFix.filter(v=>v>-1).length;}
+function sceneQScore(){return state.sceneQ.reduce((a,v,i)=>a+(v===SCENES[i].q?1:0),0);}
+function sceneFixScore(){return state.sceneFix.reduce((a,v,i)=>a+(v>-1&&SCENES[i].fixes[v].ok?1:0),0);}
 
-/* ================= 80-%-Simulator ================= */
-const rateSliderEl=document.getElementById('rateSlider');
-function rateZoneHtml(v){
-  if(v<70)return{cls:'low',h:'Zurück zu Modellieren / We do',p:'Die Brücke war zu kurz. Deutlich unter 80 % heißt: mehr gemeinsame Beispiele, kleinere Schritte, bevor es weitergeht ins Alleinarbeiten.'};
-  if(v<=90)return{cls:'',h:'Im Korridor',p:'~80 % ist der Bereich, in dem Üben lernt statt zu frustrieren oder zu langweilen. Weiter so.'};
-  return{cls:'warn',h:'Anspruch vermutlich zu niedrig',p:'Dauerhaft nahe 100 % heißt oft: Es wird geübt, was schon sitzt. Anspruch erhöhen statt nur weiter üben.'};
+/* ================= Station 5: Mein Stundenprofil ================= */
+function renderProfile(){
+  document.getElementById('legendP').innerHTML=legendHtml();
+  const list=document.getElementById('segList');list.innerHTML='';
+  const labels=timeLabels(state.segs);
+  if(!state.segs.length){
+    list.innerHTML='<p class="hint" style="margin-top:.7rem">Noch keine Phasen. Füge unten die erste Phase hinzu, z. B. „Organisation“ für die Begrüßung.</p>';
+  }
+  state.segs.forEach((s,i)=>{
+    const row=document.createElement('div');row.className='seg-row';
+    row.innerHTML='<span class="sw bg-'+s.c+'"></span>'
+      +'<select data-i="'+i+'" aria-label="Art der Phase">'+COLOR_KEYS.map(k=>'<option value="'+k+'"'+(k===s.c?' selected':'')+'>'+COLORS[k].label+'</option>').join('')+'</select>'
+      +'<input type="number" min="1" max="90" value="'+s.m+'" data-i="'+i+'" aria-label="Minuten"> <span class="hint">Min. ('+labels[i].replace('Min. ','')+')</span>'
+      +'<button class="icon-btn" data-up="'+i+'" title="Nach oben"'+(i===0?' disabled':'')+'>↑</button>'
+      +'<button class="icon-btn" data-del="'+i+'" title="Entfernen">✕</button>';
+    list.appendChild(row);
+  });
+  list.querySelectorAll('select').forEach(el=>el.addEventListener('change',()=>{state.segs[+el.dataset.i].c=el.value;profChanged(true);}));
+  list.querySelectorAll('input[type=number]').forEach(el=>el.addEventListener('change',()=>{
+    state.segs[+el.dataset.i].m=Math.max(1,Math.min(90,parseInt(el.value)||1));profChanged(true);
+  }));
+  list.querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click',()=>{state.segs.splice(+b.dataset.del,1);profChanged(true);}));
+  list.querySelectorAll('[data-up]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.up;if(i<1)return;const t=state.segs[i-1];state.segs[i-1]=state.segs[i];state.segs[i]=t;profChanged(true);
+  }));
+  const add=document.getElementById('addRow');
+  if(!add.children.length){
+    COLOR_KEYS.forEach(k=>{
+      const b=document.createElement('button');b.className='add-btn';
+      b.innerHTML='<i class="sw bg-'+k+'"></i>+ '+COLORS[k].label;
+      b.addEventListener('click',()=>{state.segs.push({c:k,m:5});profChanged(true);});
+      add.appendChild(b);
+    });
+  }
+  renderProfileBar();
+  renderWeak();
 }
-function renderRate(){
-  rateSliderEl.value=state.rateSlider;
-  document.getElementById('rateValue').textContent=state.rateSlider+' %';
-  const z=rateZoneHtml(state.rateSlider);
-  document.getElementById('rateZone').innerHTML='<div class="zone-box '+z.cls+'"><h4>'+z.h+'</h4><p>'+z.p+'</p></div>';
+function renderProfileBar(){
+  document.getElementById('barP').innerHTML=state.segs.length?barHtml(state.segs):'';
+  const m=profileMetrics(state.segs);
+  document.getElementById('profSum').textContent=state.segs.length?('Summe: '+m.total+' Minuten'+(m.total!==45?' (eine Stunde hat meist 45 – ungefähr reicht)':'')):'';
+  const box=document.getElementById('metrics');
+  if(!state.segs.length){box.innerHTML='<p class="hint">Die Fragen 2 bis 4 werden aus deinem Profil berechnet, sobald du Phasen eingetragen hast.</p>';return;}
+  const q2=m.firstActive===null
+    ?{v:'nie',n:'In dieser Stunde gab es keine Phase, in der alle selbst etwas tun mussten.'}
+    :{v:'Minute '+m.firstActive,n:m.firstActive===0?'Alle waren von Anfang an beschäftigt.':(m.firstActive>5?'Bis dahin haben nur du oder einzelne Freiwillige gearbeitet. In Stunde B war es Minute 0.':'Früh. Prüf noch, ob der Einstieg Vorwissen abruft.')};
+  const q3={v:m.longest+' Min.',n:m.longest===0?'Kein roter Block eingetragen.':(m.longest>8?'Deutlich länger als in Stunde B (4 Min.). Ein guter Kandidat für deine Änderung.':'Kurz genug, dass die meisten folgen können.')};
+  const q4=m.bridge===null
+    ?{v:'keine Einzelarbeit',n:'Es gab keine blaue Phase. Dann stellt sich die Frage, wo die Schüler selbst geübt haben.'}
+    :(m.bridge?{v:'ja',n:'Zwischen Erklären und Einzelarbeit lag gemeinsames Üben oder eine Phase, in der alle antworten.'}
+              :{v:'nein',n:'Nach dem Erklären ging es direkt in die Einzelarbeit, wie in Stunde A.'});
+  const share=COLOR_KEYS.filter(k=>m.per[k]>0).map(k=>COLORS[k].label+': '+m.per[k]+' Min.').join(' · ');
+  box.innerHTML=
+    '<div class="metric"><b>2 · Einstieg: erste Minute, in der alle etwas tun</b><div class="val">'+q2.v+'</div><div class="note">'+q2.n+'</div></div>'
+   +'<div class="metric"><b>3 · Erklären: längster roter Block</b><div class="val">'+q3.v+'</div><div class="note">'+q3.n+'</div></div>'
+   +'<div class="metric"><b>4 · Gemeinsam üben vor der Einzelarbeit?</b><div class="val">'+q4.v+'</div><div class="note">'+q4.n+'</div></div>'
+   +'<p class="hint">'+share+'</p>';
 }
-rateSliderEl.addEventListener('input',()=>{
-  state.rateSlider=+rateSliderEl.value;scheduleSave();renderRate();
-});
+function profChanged(rerender){scheduleSave();if(rerender)renderProfile();else renderProfileBar();renderSummary();}
+function renderWeak(){
+  const row=document.getElementById('weakRow');row.innerHTML='';
+  QUESTIONS.forEach((q,j)=>{
+    const b=document.createElement('button');b.className='cat-chip'+(state.weak===j?' sel':'');
+    b.textContent='F'+(j+1)+' '+q.k;
+    b.addEventListener('click',()=>{state.weak=j;scheduleSave();renderWeak();renderSummary();});
+    row.appendChild(b);
+  });
+}
+function changeSentence(){
+  if(!state.chNeu&&!state.chStatt)return '';
+  return 'In meiner nächsten Stunde zu diesem Thema werde ich in Minute '+(state.chMin||'__')+' statt „'+(state.chStatt||'…')+'“ Folgendes tun: '+(state.chNeu||'…');
+}
+function profileText(){
+  if(!state.segs.length)return '–';
+  const labels=timeLabels(state.segs);
+  return state.segs.map((s,i)=>labels[i]+' '+COLORS[s.c].label).join(' | ');
+}
 
 /* ================= Quiz ================= */
 function renderQuiz(){
@@ -902,58 +1088,64 @@ function renderQuiz(){
     state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
   }));
 }
-document.getElementById('transferRevealBtn').addEventListener('click',()=>{
-  state.transferShown=true;scheduleSave();
-  document.getElementById('transferNote').classList.add('on');
-});
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
 
-/* ================= Action Steps ================= */
+/* ================= Action Steps & Protokoll ================= */
 function renderSteps(){
   const wrap=document.getElementById('stepList');wrap.innerHTML='';
   ACTIONSTEPS.forEach(s=>{
     const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
-    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>';
-    div.addEventListener('click',()=>{
-      state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();
-    });
+    let extra='';
+    if(s.id==='profil'){const cs=changeSentence();extra='<p class="hint" style="margin-top:.5rem">Deine Änderung: '+(cs?esc(cs):'noch nicht formuliert (Station 5)')+'</p>';}
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
     wrap.appendChild(div);
   });
 }
 function updateCommitLabel(){
   const s=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
-  document.getElementById('commitLabel').innerHTML='Mein Action Step für diese Woche: <strong>'+s.text+'</strong>';
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für diese Woche: <strong>'+s.text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML='<div><label>Stunde '+(i+1)+' (Tag, Klasse)</label><input type="text" data-i="'+i+'" data-f="s" value="'+esc(r.s)+'" placeholder="z. B. Di, 7b"></div>'
+      +'<div><label>Längster roter Block (Min.)</label><input type="text" data-i="'+i+'" data-f="r" value="'+esc(r.r)+'" placeholder="z. B. 6"></div>'
+      +'<div><label>Gemeinsam geübt vor Einzelarbeit?</label><select data-i="'+i+'" data-f="g"><option value=""></option><option value="ja"'+(r.g==='ja'?' selected':'')+'>ja</option><option value="nein"'+(r.g==='nein'?' selected':'')+'>nein</option></select></div>';
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
 }
 
 /* ================= Formulare binden ================= */
 function bindStores(){
   document.querySelectorAll('[data-store]').forEach(el=>{
     const k=el.dataset.store;
-    if(el.type==='checkbox'){el.checked=!!state[k];el.addEventListener('change',()=>{state[k]=el.checked;scheduleSave();renderSummary();});}
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
     else{
       el.value=state[k]||'';
-      if(el.tagName==='SELECT')el.addEventListener('change',()=>el.dispatchEvent(new Event('input',{bubbles:false})));
-      el.addEventListener('input',()=>{
+      el.oninput=()=>{
         state[k]=el.value;scheduleSave();renderSummary();
         if(k==='name')setSharedName(el.value);
-      });
+        if(k==='chMin'||k==='chStatt'||k==='chNeu')renderSteps();
+      };
     }
   });
 }
 
 /* ================= Zusammenfassung & Export ================= */
-function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
-function matchScore(){return state.matchSel.reduce((a,v,i)=>a+(v===PRINCIPLES[i].s+1?1:0),0);}
-function matchDone(){return state.matchSel.filter(v=>v>0).length;}
-function timelineScoreDone(){return state.timelineSel.filter(a=>a.length>0).length;}
-function selfAuditGreen(){return state.selfAudit.filter(v=>v===3).length;}
 function renderSummary(){
   const quizDone=state.quizSel.filter(v=>v>0).length;
+  const bDone=state.bSel.filter(v=>v>-1).length;
   const rows=[
-   ['Drei Quellen (Hook)', state.convRevealed?'✓ beantwortet':'noch offen',state.convRevealed],
-   ['Sortierspiel (Prinzipien)', matchDone()===PRINCIPLES.length?'✓ '+matchScore()+'/'+PRINCIPLES.length+' richtig':matchDone()+'/'+PRINCIPLES.length,matchDone()===PRINCIPLES.length],
-   ['Stunden-Audit-Tool', timelineScoreDone()===WEAK_LESSON.length?'✓ alle 4 Abschnitte geprüft':timelineScoreDone()+'/'+WEAK_LESSON.length+' Abschnitte',timelineScoreDone()===WEAK_LESSON.length],
-   ['Selbst-Audit', selfAuditGreen()+'/'+AUDIT_QUESTIONS.length+' auf Grün',selfAuditGreen()===AUDIT_QUESTIONS.length],
-   ['80-%-Simulator', 'Regler bei '+state.rateSlider+' %',true],
+   ['Stunde A bewertet', state.grade?'✓ Note '+state.grade:'noch offen',!!state.grade],
+   ['Stunde B zugeordnet', state.bRevealed?'✓ '+bScore()+'/'+LESSON_B.length+' passend':bDone+'/'+LESSON_B.length,state.bRevealed],
+   ['Szenen', sceneDone()===SCENES.length?'✓ Frage '+sceneQScore()+'/'+SCENES.length+' · Reparatur '+sceneFixScore()+'/'+SCENES.length:sceneDone()+'/'+SCENES.length+' bearbeitet',sceneDone()===SCENES.length],
+   ['Mein Stundenprofil', state.segs.length&&changeSentence()?'✓ Profil + Änderung':(state.segs.length?'Profil da, Änderung fehlt':'noch offen'),!!(state.segs.length&&changeSentence())],
    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
    ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
   ];
@@ -968,7 +1160,7 @@ function updateSubmitStatus(){
     const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
     el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
   }else{
-    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen".';
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
   }
 }
 document.getElementById('submitBtn').addEventListener('click',async()=>{
@@ -979,17 +1171,29 @@ document.getElementById('submitBtn').addEventListener('click',async()=>{
   updateSubmitStatus();
   showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
 });
+function logText(){
+  return state.log.map((r,i)=>'Stunde '+(i+1)+(r.s?' ('+r.s+')':'')+': längster roter Block '+(r.r||'–')+' Min., gemeinsam geübt '+(r.g||'–')).join('\n');
+}
 function summaryText(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-  let t='MODUL 8 · ROSENSHINE & DIE ARCHITEKTUR EINER STUNDE – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
-  t+='— SORTIERSPIEL (PRINZIPIEN) —\n'+matchScore()+' von '+PRINCIPLES.length+' richtig zugeordnet\n';
-  t+='\n— I DO – WE DO – YOU DO —\nZuletzt angetippt: '+IWY[state.iwyStep].k+'\n';
-  t+='\n— STUNDEN-AUDIT-TOOL —\n'+WEAK_LESSON.map((seg,i)=>seg.time+': Frage(n) markiert '+(state.timelineSel[i].length?state.timelineSel[i].map(j=>'F'+(j+1)).join(', '):'–')).join('\n')+'\n';
-  t+='\n— SELBST-AUDIT (eigener Plan) —\n'+(state.ownPlan||'–')+'\nAuf Grün: '+selfAuditGreen()+'/'+AUDIT_QUESTIONS.length+'\n';
-  t+='\n— 80-%-SIMULATOR —\nRegler: '+state.rateSlider+' %\n';
-  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nTransfer: '+(state.transferAnswer||'–')+'\n';
+  const m=profileMetrics(state.segs);
+  let t='MODUL 8 · FÜNF FRAGEN AN JEDE STUNDE – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
+  t+='— STUNDE A —\nNote: '+(state.grade||'–')+'\nBegründung: '+(state.gradeWhy||'–')+'\nVermutung: '+(state.aGuess||'–')+'\n';
+  t+='\n— STUNDE B —\nPhasen passend zugeordnet: '+bScore()+' von '+LESSON_B.length+'\n';
+  t+='\n— SZENEN —\nFrage richtig erkannt: '+sceneQScore()+' von '+SCENES.length+'\nBeste Reparatur gewählt: '+sceneFixScore()+' von '+SCENES.length+'\n';
+  t+='\n— MEIN STUNDENPROFIL —\nStunde: '+(state.profTopic||'–')+'\nVerlauf: '+profileText()+'\n';
+  if(state.segs.length){
+    t+='Erste Minute, in der alle aktiv sind: '+(m.firstActive===null?'nie':m.firstActive)+'\n';
+    t+='Längster roter Block: '+m.longest+' Min.\n';
+    t+='Gemeinsam geübt vor Einzelarbeit: '+(m.bridge===null?'keine Einzelarbeit':(m.bridge?'ja':'nein'))+'\n';
+  }
+  t+='Ziel (F1): '+(state.profZiel||'–')+'\nAllein üben (F5): '+(state.profAllein||'–')+'\n';
+  t+='Schwächste Frage: '+(state.weak>-1?'F'+(state.weak+1)+' '+QUESTIONS[state.weak].k:'–')+'\n';
+  t+='Änderung: '+(changeSentence()||'–')+'\n';
+  t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
-  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nWochenzähler (Stunden mit Review): '+(state.reviewCount||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\n';
+  t+='\n— PROFIL NACH DER STUNDE —\n'+logText()+'\n';
   t+='\n— EXIT-KARTE —\nDas leuchtet mir am meisten ein: '+(state.exitMit||'–')+'\nDa bin ich skeptisch: '+(state.exitSorge||'–')+'\n';
   return t;
 }
@@ -1008,21 +1212,30 @@ document.getElementById('pdfBtn').addEventListener('click',()=>{
 });
 function buildPrint(){
   const d=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-  let h='<h1>Modul 8 · Rosenshine &amp; die Architektur einer Stunde</h1>';
+  const m=profileMetrics(state.segs);
+  let h='<h1>Modul 8 · Fünf Fragen an jede Stunde</h1>';
   h+='<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche 8 · '+d+' · vertraulich: nur TN &amp; Coach</div>';
   const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
-  h+='<h2>Sortierspiel</h2>'+f('Richtig zugeordnet:',matchScore()+' von '+PRINCIPLES.length);
-  h+='<h2>I do – We do – You do</h2>'+f('Zuletzt angetippt:',IWY[state.iwyStep].k);
-  h+='<div class="pagebreak"></div><h2>Stunden-Audit-Tool</h2>';
-  WEAK_LESSON.forEach((seg,i)=>{h+=f(seg.time+':',state.timelineSel[i].length?state.timelineSel[i].map(j=>'F'+(j+1)+' · '+AUDIT_QUESTIONS[j]).join('; '):'–');});
-  h+='<h2>Selbst-Audit</h2>'+f('Eigener Stundenplan:',state.ownPlan)+f('Fragen auf Grün:',selfAuditGreen()+'/'+AUDIT_QUESTIONS.length);
-  h+='<h2>80-%-Simulator</h2>'+f('Geschätzte Erfolgsquote:',state.rateSlider+' %');
-  h+='<div class="pagebreak"></div><h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
-  h+=f('Transferaufgabe:',state.transferAnswer);
+  h+='<h2>Mein Stundenprofil</h2>'+f('Stunde:',state.profTopic);
+  if(state.segs.length){
+    h+=barHtml(state.segs)+'<div class="ans" style="font-size:9pt">'+esc(profileText())+'</div>';
+    h+=f('Erste Minute, in der alle aktiv sind:',m.firstActive===null?'nie':String(m.firstActive));
+    h+=f('Längster roter Block:',m.longest+' Min.');
+    h+=f('Gemeinsam geübt vor Einzelarbeit:',m.bridge===null?'keine Einzelarbeit':(m.bridge?'ja':'nein'));
+  }
+  h+=f('1 · Ziel:',state.profZiel)+f('5 · Allein üben:',state.profAllein);
+  h+=f('Schwächste Frage:',state.weak>-1?'F'+(state.weak+1)+' '+QUESTIONS[state.weak].k:'');
+  h+=f('Meine Änderung:',changeSentence());
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
-  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>'+f('Wochenzähler:',state.reviewCount);
+  h+='<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(step.text)+'</div>';
+  h+='<h2>Profil nach der Stunde</h2><div class="ans">'+esc(logText())+'</div>';
+  h+='<div class="pagebreak"></div><h2>Stunde A</h2>'+f('Note:',state.grade?String(state.grade):'')+f('Begründung:',state.gradeWhy)+f('Vermutung:',state.aGuess);
+  h+='<h2>Übungen</h2>'+f('Stunde B, Phasen passend zugeordnet:',bScore()+' von '+LESSON_B.length)
+    +f('Szenen, Frage richtig erkannt:',sceneQScore()+' von '+SCENES.length)
+    +f('Szenen, beste Reparatur gewählt:',sceneFixScore()+' von '+SCENES.length);
+  h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+f('F6:',state.transferAnswer);
   h+='<h2>Exit-Karte</h2>'+f('Das leuchtet mir am meisten ein:',state.exitMit)+f('Da bin ich skeptisch:',state.exitSorge);
-  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 8 „Rosenshine & die Architektur einer Stunde" · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+  h+='<div class="foot">Fortbildungsprogramm Sek I/II · Modul 8 „Fünf Fragen an jede Stunde“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
   document.getElementById('printReport').innerHTML=h;
 }
 
@@ -1039,12 +1252,12 @@ function downloadStateFile(){
   }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
 }
 function refreshAllUI(){
-  bindStores();renderStrands();renderMatch();renderIwy();
-  renderAuditLegend();renderTimeline();renderSelfAudit();renderRate();
-  renderQuiz();renderSteps();updateCommitLabel();renderSummary();
-  if(state.convRevealed)document.getElementById('convReveal').classList.add('on');
-  if(state.timelineRevealed)document.getElementById('timelineReveal').classList.add('on');
-  if(state.transferShown)document.getElementById('transferNote').classList.add('on');
+  bindStores();
+  document.getElementById('qLegendB').innerHTML=qLegendHtml();
+  document.getElementById('qLegendS').innerHTML=qLegendHtml();
+  renderLessonA();renderLessonB();renderQCards();renderScenes();renderProfile();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+  document.getElementById('aReveal').classList.toggle('on',!!state.aRevealed);
 }
 function loadStateFile(evt){
   const file=evt.target.files&&evt.target.files[0];
@@ -1053,11 +1266,11 @@ function loadStateFile(evt){
   reader.onload=()=>{
     try{
       const data=JSON.parse(reader.result);
-      Object.assign(state,data);
+      applyLoaded(data);
       normalizeState();
       refreshAllUI();
       scheduleSave();
-      showToast('Fortschritt geladen – weiter geht es.');
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei stammt aus der alten Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
     }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
   };
   reader.readAsText(file);
@@ -1081,7 +1294,7 @@ function showToast(msg){
   const hints={
     cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
     browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
-    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern" am Ende, falls du unterbrichst.'
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
   };
   document.getElementById('storeHint').textContent=hints[store.label];
   const startHint=document.getElementById('startStoreHint');

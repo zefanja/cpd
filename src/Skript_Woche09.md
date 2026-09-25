@@ -118,11 +118,11 @@ Kopf: Fach/Klasse/Thema/Datum. — Tabelle: Meilenstein (Könnens-Satz) | Ampel:
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Retrieval-Starter (Min. 2–8)
-1. Die vier Rosenshine-Stränge? *(Reviewing / Sequencing & Modelling / Questioning / Practising)*
-2. Was tust du bei ~50 % Erfolgsquote im Üben – und bei dauerhaft 100 %? *(zurück zu Modellieren/We do; Anspruch erhöhen)*
+1. Die fünf Fragen an jede Stunde? *(Ziel / Einstieg / Erklären / gemeinsam üben / allein üben)*
+2. Beim gemeinsamen Üben liegt die Hälfte richtig – was tust du? Und welche Quote ist bei Einzelarbeit und Wiederholung das Ziel? *(noch ein, zwei Aufgaben gemeinsam, kleinere Schritte, erst ab ca. 4 von 5 allein weiter; fast fehlerfrei)*
 3. Die Umformulierungs-Formel aus Block 1? *(„Ich sehe [erfüllender Teil] – ich will [Zielzustand]")*
-4. Warum ist das We do unverzichtbar – mit welchem mentalen Modell begründest du das? *(Verantwortungsübergabe braucht Brücke; Modell 1: WM-Entlastung durch geführte Schritte)*
-5. (Anwendung) Nenne die Reviewing-Elemente in UNSEREN Sitzungen. *(Retrieval-Starter wöchentlich, Block-Quizze, kumulative Fragen)*
+4. Warum ist das We do unverzichtbar – mit welchem mentalen Modell begründest du das? *(ohne gemeinsames Üben geht es direkt vom Zuhören ins Alleinarbeiten; Modell 1: geführte Schritte entlasten das Arbeitsgedächtnis)*
+5. (Anwendung) Dein Stundenprofil zeigt einen roten Block von 18 Minuten und danach direkt Blau. Welche zwei Fragen sind betroffen, und was änderst du? *(Frage 3 Erklären, Frage 4 gemeinsam üben; Erklärung teilen, nach ca. 5 Min. alle antworten lassen, 2 Aufgaben gemeinsam vor der Einzelarbeit)*
 
 ## Teil 2: Modul-Quiz Woche 9 (für SPA/Folgewoche)
 **F1.** „Die SuS setzen sich mit dem Klimawandel auseinander" ist…
