@@ -232,6 +232,8 @@ textarea{min-height:4.2em}
   #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
   .pagebreak{break-before:page}
 }
+.scene{background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
 </style>
 </head>
 <body>
@@ -256,7 +258,7 @@ textarea{min-height:4.2em}
   <p class="lead">In Woche 8 hast du unter dein Stundenprofil einen Satz geschrieben: Was sollten am Ende alle können? Vielen fällt dieser Satz schwer, und oft steht dort ein Thema statt eines Ziels. Heute geht es um diese erste Frage, denn ohne sie lassen sich die anderen vier nicht beantworten.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Du erkennst zuerst die zwei häufigsten Planungsfehler an zwei inneren Monologen. Dann lernst du, rückwärts zu planen, vom Ziel aus. Du prüfst Formulierungen daraufhin, ob sie ein Ziel oder nur ein Thema beschreiben, und baust dann eine Kette von Meilensteinen für eine echte Stunde der nächsten Woche. Zum Schluss schreibst du die Antwort auf, die du von deinen Schülern sehen willst, bevor du irgendeine Methode wählst.</p>
+    <p style="font-size:.9rem">Du erkennst zuerst die zwei häufigsten Planungsfehler an zwei inneren Monologen. Dann lernst du, rückwärts zu planen, vom Ziel aus. Du prüfst Formulierungen daraufhin, ob sie ein Ziel oder nur ein Thema beschreiben, und legst dann für eine echte Stunde der nächsten Woche ein Mindestziel und weiterführende Meilensteine fest. Zum Schluss schreibst du die Antwort auf, die du von deinen Schülern sehen willst, bevor du irgendeine Methode wählst.</p>
     <p class="hint" style="margin-top:.6rem">📌 Nimm das Thema einer Stunde, die du nächste Woche hältst. Du brauchst es in Station 4.</p>
   </div>
   <div class="formula-card">
@@ -271,7 +273,7 @@ textarea{min-height:4.2em}
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
     <span class="badge">⏱ ca. 30 Min.</span>
-    <span class="badge">📖 Kernquellen: McCrea, Lean Lesson Planning (Backwards Design, Meilensteine, zwei Planungs-Todsünden); Lemov T1 (Exemplar Planning)</span>
+    <span class="badge">📖 Kernquellen: Wiggins &amp; McTighe, Understanding by Design (Backwards Design); McCrea, Lean Lesson Planning (Meilensteine); Lemov, Teach Like a Champion 3.0, T1 (Exemplar Planning)</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
@@ -301,7 +303,7 @@ textarea{min-height:4.2em}
   <p style="margin-top:1rem"><button class="btn small" id="monoRevealBtn">Auflösung anzeigen</button></p>
   <div class="card reveal" id="monoReveal">
     <p>Beiden fehlt dieselbe Frage: <strong>„Was lernen sie dabei?“</strong></p>
-    <p style="margin-top:.6rem">A plant Beschäftigung: Die Frage „Was tun die Schüler?“ hat die Frage „Was lernen sie?“ verdrängt. B plant Durchkommen: Der Stoff ist durch, aber ob die Schüler mitgekommen sind, steht auf keinem Zettel. McCrea nennt das die zwei Todsünden der Planung. Das Gegenmittel ist leicht gesagt und schwer getan.</p>
+    <p style="margin-top:.6rem">A plant Beschäftigung: Die Frage „Was tun die Schüler?“ hat die Frage „Was lernen sie?“ verdrängt. B plant das Durchkommen: Der Stoff ist durch, aber ob die Schüler mitgekommen sind, steht auf keinem Zettel. Grant Wiggins und Jay McTighe nennen das die zwei Kardinalfehler der Planung, McCrea baut darauf auf. Das Gegenmittel ist leicht gesagt und schwer getan.</p>
     <p class="punchline">Fang am Ende an.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu Backwards Design →</button></p>
@@ -331,26 +333,9 @@ textarea{min-height:4.2em}
     </div>
   </div>
   <div class="card">
-    <h3>Lemovs Befund aus den Videostudien</h3>
-    <p class="lead" style="font-size:.9rem">Die wirksamsten Lehrkräfte verbringen mehr Zeit mit dem Ziel und weniger mit der Auswahl von Aktivitäten als der Durchschnitt. Das ist genau umgekehrt zum Bauchgefühl.</p>
-    <div class="bar-group">
-      <div class="bar-row">
-        <div class="bar-label"><span>Zeit auf Ziel/Exemplar – Top-Lehrkräfte</span><span>viel</span></div>
-        <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
-      </div>
-      <div class="bar-row">
-        <div class="bar-label"><span>Zeit auf Ziel/Exemplar – Durchschnitt</span><span>wenig</span></div>
-        <div class="bar-track"><div class="bar-fill muted" style="width:30%"></div></div>
-      </div>
-      <div class="bar-row">
-        <div class="bar-label"><span>Zeit auf Aktivitätenauswahl – Top-Lehrkräfte</span><span>wenig</span></div>
-        <div class="bar-track"><div class="bar-fill" style="width:30%"></div></div>
-      </div>
-      <div class="bar-row">
-        <div class="bar-label"><span>Zeit auf Aktivitätenauswahl – Durchschnitt</span><span>viel</span></div>
-        <div class="bar-track"><div class="bar-fill muted" style="width:70%"></div></div>
-      </div>
-    </div>
+    <h3>Was Lemov beobachtet</h3>
+    <p class="lead" style="font-size:.9rem">Wiggins und McTighe nennen diese Reihenfolge Backwards Design. Lemov beschreibt bei den Lehrkräften, die er beobachtet und filmt, dieselbe Gewohnheit: Sie überlegen sehr genau, was am Ende herauskommen soll, und stecken vergleichsweise wenig Mühe in die Suche nach Aktivitäten. Das ist umgekehrt zum Bauchgefühl.</p>
+    <div class="scene" style="margin-top:.8rem"><span class="tag">Szene</span>Eine Kollegin hat ein Escape-Room-Spiel zur Französischen Revolution gefunden und sucht jetzt eine Stunde, in die es passt. Ein anderer Kollege schreibt zuerst auf, was seine Klasse am Ende können soll: „Kann drei Ursachen der Revolution nennen und eine davon mit einem Beispiel erklären.“ Dann überlegt er, woran er das sieht, und erst danach, was die Klasse tut.</div>
     <p style="margin-top:1rem"><button class="btn small" id="flowRevealBtn">Was bedeutet das für meine Planung?</button></p>
     <div class="reveal" id="flowReveal">
       <p>„Am Ende anfangen“ heißt nicht „mehr planen“. Es heißt, die ersten zehn Minuten der Planung anders zu nutzen.</p>
@@ -363,27 +348,29 @@ textarea{min-height:4.2em}
 <!-- 3 · AMPEL & ZIEL ODER THEMA -->
 <section class="screen" data-title="Ziel oder Thema?">
   <span class="eyebrow">Station 3 · Ziel oder Thema?</span>
-  <h2>Vier Prüfsteine für jeden Meilenstein.</h2>
+  <h2>Ein Mindestziel und drei Prüfsteine.</h2>
   <div class="formula-card">
-    <h4>Kumulativ</h4>
-    <p class="f">Die Meilensteine bauen aufeinander auf.</p>
+    <h4>Mindestziel</h4>
+    <p class="f">Was sollen am Ende alle können?</p>
+    <p>Das ist Frage 1 aus Woche 8, und genau das prüft später dein Exit Ticket. Darauf bauen zwei bis vier weiterführende Meilensteine für die Stärkeren auf.</p>
   </div>
   <div class="formula-card">
-    <h4>Verteilt</h4>
-    <p class="f">Den ersten schaffen fast alle, den letzten die Stärksten.</p>
+    <h4>Aufbauend</h4>
+    <p class="f">Die Sätze bauen aufeinander auf.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Ansteigend</h4>
+    <p class="f">Es wird von Satz zu Satz anspruchsvoller: Den ersten schaffen fast alle, den letzten die Stärkeren.</p>
     <p>So ist die Differenzierung schon eingebaut.</p>
   </div>
   <div class="formula-card">
-    <h4>Messbar</h4>
-    <p class="f">Man kann eine Aufgabe dazu stellen.</p>
-  </div>
-  <div class="formula-card">
-    <h4>Klar</h4>
-    <p class="f">Ein Schüler versteht den Satz.</p>
+    <h4>Prüfbar</h4>
+    <p class="f">Du kannst zu jedem Satz eine Aufgabe stellen.</p>
+    <p>Wer eine Aufgabe stellen kann, hat automatisch ein klares Ziel.</p>
   </div>
   <div class="card" style="border-style:dashed">
     <h4 style="font-family:var(--display);font-weight:700;font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Zwei weitere Prüffragen</h4>
-    <p class="f" style="font-size:.98rem;margin-top:.3rem">Exemplar-Frage: „Habe ich die Idealantwort auf die Schlüsselaufgabe selbst ausformuliert?“</p>
+    <p class="f" style="font-size:.98rem;margin-top:.3rem">Exemplar-Frage: „Habe ich die Idealantwort zum Mindestziel selbst ausformuliert?“</p>
     <p class="f" style="font-size:.98rem;margin-top:.5rem">Reihenfolge-Regel: Ziel → Nachweis → Aktivität (nie andersherum).</p>
   </div>
   <h3 style="margin-top:1.8rem">Ziel oder Thema? Tippe an.</h3>
@@ -401,15 +388,21 @@ textarea{min-height:4.2em}
 <!-- 4 · MEILENSTEIN-WERKSTATT -->
 <section class="screen" data-title="Meilenstein-Werkstatt">
   <span class="eyebrow">Station 4 · Meilenstein-Werkstatt</span>
-  <h2>Erst kalibrieren, dann selbst bauen.</h2>
-  <p class="lead">Vier Beispielketten aus vier Fächern. Zwei tragen, zwei sind kaputt. Finde heraus, welche.</p>
+  <h2>Erst eichen, dann selbst bauen.</h2>
+  <p class="lead">Vier Beispielketten aus vier Fächern. Zwei tragen, zwei nicht. Finde heraus, welche.</p>
   <div id="chainList"></div>
 
-  <h3 style="margin-top:1.8rem">Deine eigene Meilensteinkette</h3>
-  <p class="lead">Nimm das Thema einer echten Stunde der kommenden Woche und bau zwei bis fünf Meilensteine. Das sind Sätze, die sagen, was die Schüler können, und die aufeinander aufbauen.</p>
+  <h3 style="margin-top:1.8rem">Dein Mindestziel und deine Meilensteine</h3>
+  <p class="lead">Nimm das Thema einer echten Stunde der kommenden Woche. Leg zuerst fest, was am Ende alle können sollen. Bau dann zwei bis vier Meilensteine, die darauf aufbauen und anspruchsvoller werden.</p>
   <div class="field">
     <label for="milestoneTopic">Thema / Fach / Klasse</label>
     <input type="text" id="milestoneTopic" data-store="milestoneTopic" placeholder="z. B. Prozentrechnung, Kl. 7">
+  </div>
+  <div class="milestone-card" style="border-color:var(--petrol)">
+    <div class="rownum">Mindestziel: Das sollen am Ende alle können</div>
+    <textarea id="minZiel" data-store="minZiel" placeholder="kann …"></textarea>
+    <div class="field" style="margin-top:.6rem"><label for="minTask" style="font-size:.82rem">Prüfaufgabe dazu (die kommt später aufs Exit Ticket)</label>
+    <input type="text" id="minTask" data-store="minTask" placeholder="z. B. 20 % von 60 € berechnen und den Grundwert benennen"></div>
   </div>
   <div id="milestoneList"></div>
   <p style="margin-top:.9rem"><button class="btn ghost small" id="milestoneAddBtn">+ Meilenstein hinzufügen</button></p>
@@ -420,11 +413,12 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Exemplar-Editor">
   <span class="eyebrow">Station 5 · Exemplar Planning</span>
   <h2>Schreib die ideale Schülerantwort. Vorher.</h2>
-  <p class="lead">Nicht die Aufgabe, sondern die Antwort. Und zwar zur Schlüsselaufgabe des höchsten Meilensteins, den die meisten erreichen sollen.</p>
+  <p class="lead">Nicht die Aufgabe, sondern die Antwort. Und zwar zu der Aufgabe, die dein Mindestziel prüft.</p>
+  <div class="scene"><span class="tag">Szene</span>Ein Biologielehrer will, dass seine 8. Klasse „den Treibhauseffekt erklären kann“. Er setzt sich hin und schreibt die Antwort, die er sehen will. Nach dem dritten Satz stockt er: „Wärmestrahlung“ haben sie nie gelernt. Und dass die Erde selbst strahlt, weiß vermutlich niemand. Seine Stunde hätte an genau dieser Stelle einen Sprung gehabt, und er hätte es erst beim Korrigieren gemerkt.</div>
   <div class="card">
     <div class="field" style="margin-top:0">
-      <label for="exemplarTask">Die Schlüsselaufgabe</label>
-      <textarea id="exemplarTask" data-store="exemplarTask" placeholder="Welche Aufgabe stellst du, um den obersten Meilenstein zu prüfen?"></textarea>
+      <label for="exemplarTask">Die Aufgabe zum Mindestziel</label>
+      <textarea id="exemplarTask" data-store="exemplarTask" placeholder="Welche Aufgabe stellst du, um dein Mindestziel zu prüfen?"></textarea>
     </div>
     <div class="field">
       <label for="exemplarAnswer">Die Idealantwort <span class="sub">So, wie sie im Heft stehen soll: ausformuliert, nicht in Stichworten.</span></label>
@@ -445,10 +439,10 @@ textarea{min-height:4.2em}
   <h2>Fünf Fragen zu Woche 9, eine zur Wiederholung.</h2>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">F6 (Freitext): Bau aus dem Thema „Wahlrecht ab 16“ (Politik, Kl. 10) eine Kette aus drei Meilensteinen und schreib das Exemplar zum mittleren.</p>
-    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Meilenstein 1: … Meilenstein 2: … Meilenstein 3: … Exemplar (Mitte): …"></textarea>
+    <p class="quiz-q">F6 (Freitext): Bau aus dem Thema „Wahlrecht ab 16“ (Politik, Kl. 10) ein Mindestziel und zwei weiterführende Meilensteine und schreib das Exemplar zum Mindestziel.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Mindestziel: … Meilenstein 2: … Meilenstein 3: … Exemplar zum Mindestziel: …"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Musterlösung anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Muster: „kann 2 Pro- und 2 Contra-Argumente nennen → kann ein Argument mit Beleg/Beispiel entfalten → kann eine begründete eigene Position in 5 Sätzen formulieren, die ein Gegenargument aufgreift.“ Exemplar Mitte z. B.: „Ein Argument dafür ist, dass 16-Jährige von politischen Entscheidungen – etwa beim Klima – am längsten betroffen sind. Wer betroffen ist, sollte mitentscheiden dürfen; das zeigt sich auch daran, dass …“</p>
+    <p class="quiz-note" id="transferNote">Muster: Mindestziel „kann 2 Pro- und 2 Contra-Argumente nennen und eines mit Beleg/Beispiel entfalten“ → „kann eine begründete eigene Position in 5 Sätzen formulieren“ → „greift dabei ein Gegenargument auf und entkräftet es“. Exemplar zum Mindestziel z. B.: „Ein Argument dafür ist, dass 16-Jährige von politischen Entscheidungen – etwa beim Klima – am längsten betroffen sind. Wer betroffen ist, sollte mitentscheiden dürfen; das zeigt sich auch daran, dass …“</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
@@ -498,7 +492,7 @@ textarea{min-height:4.2em}
     <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
   </div>
   <p class="hint" style="margin-top:1rem" id="storeHint"></p>
-  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche nehmen wir uns Frage 3 vor: das Erklären. Wie erkläre ich so, dass Schüler ohne Vorkenntnisse folgen können? Es geht um lautes Denken, um Beispiele und darum, warum ausgerechnet deine Fachkenntnis beim Erklären im Weg stehen kann. Jeder macht drei Minuten lang vor der Gruppe etwas vor. Bereite dafür einen kleinen Inhalt aus deinem Fach vor.“</div>
+  <div class="quote-block" style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche nehmen wir uns Frage 3 vor: das Erklären. Wie erkläre ich so, dass jemand folgen kann, für den der Stoff neu ist? Es geht um lautes Denken, um Beispiele und darum, warum ausgerechnet deine Fachkenntnis beim Erklären im Weg stehen kann. Jede und jeder erklärt drei Minuten lang vor der Gruppe. Bereite dafür einen kleinen Inhalt aus deinem Fach vor.“</div>
 </section>
 
 </main>
@@ -532,31 +526,30 @@ const NEBELVERBEN=['verstehen','kennenlernen','auseinandersetzen','reflektieren'
 const TARGET_ITEMS=[
  {t:'„Die SuS setzen sich mit Gedichten auseinander.“',correct:2,note:'Thema: Ort ohne Können-Nachweis – „auseinandersetzen“ ist ein Nebelverb.'},
  {t:'„Die SuS können ein Metrum bestimmen und am Text belegen.“',correct:1,note:'Ziel: ein Könnens-Satz mit Nachweis („belegen“).'},
- {t:'„Die SuS lernen die Epoche der Romantik kennen.“',correct:2,note:'Thema: „kennenlernen“ ist nicht messbar.'},
+ {t:'„Die SuS lernen die Epoche der Romantik kennen.“',correct:2,note:'Thema: Zu „kennenlernen“ lässt sich keine Prüfaufgabe stellen.'},
  {t:'„Die SuS können drei Merkmale der Romantik an einem Gedicht nachweisen.“',correct:1,note:'Ziel: zählbar und prüfbar.'},
  {t:'„Die SuS beschäftigen sich mit dem Wasserkreislauf.“',correct:2,note:'Thema: „beschäftigen“ sagt nichts über das Können.'},
  {t:'„Die SuS können die vier Stationen des Wasserkreislaufs in der richtigen Reihenfolge erklären.“',correct:1,note:'Ziel: konkrete, prüfbare Leistung.'}
 ];
 
 const CHAINS=[
- {t:'Englisch Kl. 8: kann 5 unregelmäßige Verben im past simple bilden → kann in 4 vorgegebenen Sätzen zwischen past simple und present perfect entscheiden → kann die Entscheidung mit der Signalwort-Regel begründen → kann einen eigenen 5-Satz-Text über das Wochenende fehlerfrei im past simple schreiben.',correct:1,note:'Trägt: kumulativ, verteilt, messbar und klar – jede Stufe hat eine Prüfaufgabe.'},
- {t:'Geschichte Kl. 9: kann sich in die Zeit des Kalten Krieges einfühlen → versteht die Bedeutung der Kubakrise → reflektiert Parallelen zur Gegenwart.',correct:2,note:'Kaputt: „einfühlen/verstehen/reflektieren“ sind Nebelverben ohne Nachweisform – für keine Stufe lässt sich eine Prüfaufgabe stellen.'},
- {t:'Chemie Kl. 8: kann die Teilchen in Wort- und Symbolschreibweise von Wasser benennen → kann den Versuchsaufbau der Wasserzersetzung skizzieren und beschriften → kann das 2:1-Volumenverhältnis der Gase mit der Formel erklären → kann vorhersagen, welche Gasmengen bei doppelter Wassermenge entstehen.',correct:1,note:'Trägt: alle vier Ampel-Kriterien erfüllt.'},
- {t:'Mathe Kl. 7: kann den Satz des Pythagoras anwenden → kann rechtwinklige Dreiecke erkennen → weiß, was eine Hypotenuse ist.',correct:2,note:'Kaputt: nicht kumulativ – das Schwerste steht am Anfang. Rückwärts gelesen wäre die Kette tragfähig.'}
+ {t:'Englisch Kl. 8: kann 5 unregelmäßige Verben im past simple bilden → kann in 4 vorgegebenen Sätzen zwischen past simple und present perfect entscheiden → kann die Entscheidung mit der Signalwort-Regel begründen → schreibt einen 5-Satz-Text über das Wochenende und verwendet dabei past simple und present perfect jeweils mindestens einmal richtig.',correct:1,note:'Trägt: aufbauend, ansteigend und prüfbar; zu jedem Satz gibt es eine Prüfaufgabe. Das Mindestziel wären die ersten beiden Sätze.'},
+ {t:'Geschichte Kl. 9: kann sich in die Zeit des Kalten Krieges einfühlen → versteht die Bedeutung der Kubakrise → reflektiert Parallelen zur Gegenwart.',correct:2,note:'Trägt nicht: „einfühlen/verstehen/reflektieren“ sind Nebelverben ohne Nachweis; für keinen Satz lässt sich eine Prüfaufgabe stellen.'},
+ {t:'Chemie Kl. 8: kann die Teilchen in Wort- und Symbolschreibweise von Wasser benennen → kann den Versuchsaufbau der Wasserzersetzung skizzieren und beschriften → kann das 2:1-Volumenverhältnis der Gase mit der Formel erklären → kann vorhersagen, welche Gasmengen bei doppelter Wassermenge entstehen.',correct:1,note:'Trägt: alle drei Prüfsteine erfüllt. Das Mindestziel wären die ersten beiden Sätze.'},
+ {t:'Mathe Kl. 7: kann den Satz des Pythagoras anwenden → kann rechtwinklige Dreiecke erkennen → weiß, was eine Hypotenuse ist.',correct:2,note:'Trägt nicht: nicht aufbauend, das Schwerste steht am Anfang. Rückwärts gelesen wäre die Kette tragfähig.'}
 ];
 
 const CRIT_LABELS2=[
- {b:'Kumulativ',d:'Baut dieser Meilenstein auf dem vorigen auf?'},
- {b:'Verteilt',d:'Passt die Schwierigkeit zur Position in der Kette?'},
- {b:'Messbar',d:'Lässt sich eine Prüfaufgabe dazu stellen?'},
- {b:'Klar',d:'Versteht ein Schüler diesen Satz?'}
+ {b:'Aufbauend',d:'Baut dieser Meilenstein auf dem vorigen bzw. dem Mindestziel auf?'},
+ {b:'Ansteigend',d:'Ist er anspruchsvoller als der vorige?'},
+ {b:'Prüfbar',d:'Lässt sich eine Prüfaufgabe dazu stellen?'}
 ];
 
 const QUIZ=[
  {q:'F1. „Die SuS setzen sich mit dem Klimawandel auseinander“ ist…',
   opts:[
    {t:'ein gutes, offenes Lernziel',ok:false,note:'Klingt kompetenzorientiert – ist aber ein Thema ohne Nachweis.'},
-   {t:'ein Thema ohne messbares Ziel – keine Prüfaufgabe stellbar',ok:true,note:'Genau – „auseinandersetzen“ lässt sich nicht prüfen.'},
+   {t:'ein Thema ohne prüfbares Ziel – keine Prüfaufgabe stellbar',ok:true,note:'Genau – „auseinandersetzen“ lässt sich nicht prüfen.'},
    {t:'zu anspruchsvoll für Sek I',ok:false,note:'Nicht der Kernpunkt.'},
    {t:'nur als Projektziel geeignet',ok:false,note:'Nicht der Kernpunkt.'}
   ]},
@@ -567,21 +560,21 @@ const QUIZ=[
    {t:'im Unterricht viele Beispiele zeigen',ok:false,note:'Das ist Vormachen (Rosenshine P4), kein Exemplar.'},
    {t:'den Erwartungshorizont nach der Klassenarbeit schreiben',ok:false,note:'Zu spät. Das Exemplar entsteht vor der Stunde.'}
   ]},
- {q:'F3. Die wirksamsten Lehrkräfte verwenden (laut Lemovs Videostudien) …',
+ {q:'F3. Eine Kollegin hat eine tolle Methode gefunden und sucht jetzt das passende Thema dazu. Was fehlt in ihrer Planung?',
   opts:[
-   {t:'mehr Zeit auf originelle Aktivitäten',ok:false,note:'Genau das Bauchgefühl, das widerlegt wird.'},
-   {t:'mehr Zeit auf Ziele/Exemplare, weniger auf Aktivitätenauswahl',ok:true,note:'Genau umgekehrt zur Intuition.'},
-   {t:'gar keine schriftliche Planung',ok:false,note:'Nicht belegt.'},
-   {t:'fertige Verlagsmaterialien',ok:false,note:'Nicht der Befund.'}
+   {t:'nichts, Methodenvielfalt ist gut',ok:false,note:'Klingt modern, aber die Methode steht vor dem Ziel.'},
+   {t:'die Frage, was die Schüler am Ende können sollen',ok:true,note:'Genau. Erst das Ziel, dann der Nachweis, dann die Aktivität.'},
+   {t:'ein Arbeitsblatt',ok:false,note:'Das kommt ganz zuletzt.'},
+   {t:'die Differenzierung',ok:false,note:'Die ergibt sich aus Mindestziel und ansteigenden Meilensteinen, aber erst, wenn das Ziel steht.'}
   ]},
- {q:'F4. „Verteilt“ als Meilenstein-Kriterium heißt:',
+ {q:'F4. Was prüft das Exit Ticket am Ende der Stunde vor allem?',
   opts:[
-   {t:'die Meilensteine sind über die Stunde verteilt',ok:false,note:'Wortfalle.'},
-   {t:'den ersten schaffen fast alle, den letzten die Stärksten – Differenzierung eingebaut',ok:true,note:'Genau – eingebaute Differenzierung.'},
-   {t:'jeder Schüler bekommt einen anderen Meilenstein',ok:false,note:'Nicht gemeint.'},
-   {t:'sie verteilen sich auf mehrere Stunden',ok:false,note:'Nicht gemeint.'}
+   {t:'den letzten, anspruchsvollsten Meilenstein',ok:false,note:'Den schaffen nur die Stärkeren. Er darf höchstens als Zusatzaufgabe aufs Ticket.'},
+   {t:'das Mindestziel, also was alle können sollen',ok:true,note:'Genau. Das ist Frage 1 aus Woche 8.'},
+   {t:'ob die Stunde Spaß gemacht hat',ok:false,note:'Das ist Selbstauskunft, kein Nachweis.'},
+   {t:'das Thema der Stunde',ok:false,note:'Ein Thema lässt sich nicht prüfen.'}
   ]},
- {q:'F5. Der Abdeckungsfokus („Kapitel 7 muss durch“) ist gefährlich, weil…',
+ {q:'F5. Das stofforientierte Planen („Kapitel 7 muss durch“) ist gefährlich, weil…',
   opts:[
    {t:'Lehrpläne unwichtig sind',ok:false,note:'Strohmann-Argument.'},
    {t:'„Stoff durch“ nichts darüber sagt, ob die Schüler mitgekommen sind',ok:true,note:'Genau der Kernpunkt von Planer B.'},
@@ -599,21 +592,21 @@ const QUIZ=[
 
 const ACTIONSTEPS=[
  {id:'standard',label:'Exemplar vor Methodenwahl (Standard)',
-  text:'Für jede neue Stunde dieser Woche schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe, vor der Wahl der Methode und vor dem Material. Fünf Minuten, handschriftlich reicht.'},
+  text:'Für jede neue Stunde dieser Woche schreibe ich zuerst das Mindestziel und die ideale Schülerantwort dazu auf, vor der Wahl der Methode und vor dem Material. Fünf Minuten, handschriftlich reicht.'},
  {id:'einseiter',label:'Einseiter-Woche (Alternative)',
-  text:'Ich plane alle Stunden dieser Woche nur mit Meilensteinen, Exemplar und groben Phasen (gut für alle, die sonst zu lange planen).'},
- {id:'todsuenden',label:'Todsünden-Wache (Alternative)',
-  text:'Ich ordne meine Planung jeder Stunde nachträglich ein: Aktivitätsfokus, Abdeckungsfokus oder vom Ziel aus geplant? Eine reine Beobachtungswoche für Skeptiker.'}
+  text:'Ich plane alle Stunden dieser Woche nur mit Mindestziel, Meilensteinen, Exemplar und groben Phasen (gut für alle, die sonst zu lange planen).'},
+ {id:'todsuenden',label:'Planungs-Tagebuch (Alternative)',
+  text:'Ich notiere bei jeder Stunde nachträglich, wie ich geplant habe: von der Aktivität aus, vom Stoff aus oder vom Ziel aus? Eine reine Beobachtungswoche für Skeptiker.'}
 ];
 
 /* ================= Zustand & Speicherung ================= */
-function mkMilestone(){return{text:'',crit:[false,false,false,false],task:''};}
+function mkMilestone(){return{text:'',crit:[false,false,false],task:''};}
 let state={name:'',
  mono1Q:'',mono2Q:'',monoRevealed:false,
  flowRevealed:false,
  targetSel:TARGET_ITEMS.map(()=>0),
  chainSel:CHAINS.map(()=>0),
- milestoneTopic:'',
+ milestoneTopic:'',minZiel:'',minTask:'',
  milestones:[mkMilestone(),mkMilestone()],
  exemplarTask:'',exemplarAnswer:'',exemplarScheiterstelle:'',
  quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
@@ -651,7 +644,7 @@ function normalizeState(){
   if(!Array.isArray(state.chainSel)||state.chainSel.length!==CHAINS.length)state.chainSel=CHAINS.map(()=>0);
   if(!Array.isArray(state.milestones)||state.milestones.length<2)state.milestones=[mkMilestone(),mkMilestone()];
   state.milestones.forEach(m=>{
-    if(!Array.isArray(m.crit)||m.crit.length!==4)m.crit=[false,false,false,false];
+    if(!Array.isArray(m.crit)||m.crit.length!==3)m.crit=[false,false,false];
     if(typeof m.text!=='string')m.text='';
     if(typeof m.task!=='string')m.task='';
   });
@@ -801,7 +794,7 @@ function renderChains(){
     const div=document.createElement('div');div.className='situ-item';
     const sel=state.chainSel[i];
     let btns='';
-    ['Trägt','Kaputt'].forEach((lbl,j)=>{
+    ['Trägt','Trägt nicht'].forEach((lbl,j)=>{
       const val=j+1;
       let cls='num-btn'+(sel===val?' sel':'');
       let style='';
@@ -824,7 +817,7 @@ function milestoneCheck(text){
   const low=(text||'').toLowerCase();
   if(!text||!text.trim())return{cls:'',msg:''};
   const bad=NEBELVERBEN.find(w=>low.includes(w));
-  if(bad)return{cls:'color:#B0433A','msg':'⚠ Nebelverb „'+bad+'“ – vermutlich nicht messbar. Woran erkennst du das Können konkret?'};
+  if(bad)return{cls:'color:#B0433A','msg':'⚠ Nebelverb „'+bad+'“: Dazu lässt sich kaum eine Prüfaufgabe stellen. Woran erkennst du das Können konkret?'};
   if(low.trim().startsWith('kann '))return{cls:'color:var(--petrol)','msg':'✓ Könnens-Satz erkennbar.'};
   return{cls:'color:var(--amber)','msg':'Formuliere als Könnens-Satz: „kann …“'};
 }
@@ -838,7 +831,7 @@ function renderMilestones(){
       const on=m.crit[k];
       crits+='<span class="crit-mini'+(on?' on':'')+'" data-mi="'+i+'" data-ck="'+k+'" title="'+c.d+'"><span class="dot"></span>'+c.b+'</span>';
     });
-    div.innerHTML='<div class="rownum">Meilenstein '+(i+1)+'</div>'
+    div.innerHTML='<div class="rownum">Meilenstein '+(i+2)+' (weiterführend)</div>'
       +'<textarea data-mi="'+i+'" data-field="text" placeholder="kann …">'+esc(m.text)+'</textarea>'
       +'<p class="hint" style="'+check.cls+'" data-mhint="'+i+'">'+check.msg+'</p>'
       +'<div class="crit-mini-row">'+crits+'</div>'
@@ -866,7 +859,7 @@ function renderMilestones(){
   }));
 }
 document.getElementById('milestoneAddBtn').addEventListener('click',()=>{
-  if(state.milestones.length>=5)return;
+  if(state.milestones.length>=4)return;
   state.milestones.push(mkMilestone());
   scheduleSave();renderMilestones();renderSummary();
 });
@@ -949,7 +942,8 @@ function renderSummary(){
     ['Backwards Design', state.flowRevealed?'✓ gelesen':'noch offen',state.flowRevealed],
     ['Ziel oder Thema?', targetDone()===TARGET_ITEMS.length?'✓ '+targetScore()+'/'+TARGET_ITEMS.length+' richtig':targetDone()+'/'+TARGET_ITEMS.length,targetDone()===TARGET_ITEMS.length],
     ['Meilenstein-Kalibrierung', chainDone()===CHAINS.length?'✓ '+chainScore()+'/'+CHAINS.length+' richtig':chainDone()+'/'+CHAINS.length,chainDone()===CHAINS.length],
-    ['Eigene Meilensteinkette', milestonesFilledCount()+'/'+state.milestones.length+' formuliert, '+milestonesCritComplete()+' vollständig geprüft',milestonesCritComplete()>0],
+    ['Mindestziel', (state.minZiel||'').trim()&&(state.minTask||'').trim()?'✓ mit Prüfaufgabe':'noch offen',!!((state.minZiel||'').trim()&&(state.minTask||'').trim())],
+    ['Weiterführende Meilensteine', milestonesFilledCount()+'/'+state.milestones.length+' formuliert, '+milestonesCritComplete()+' vollständig geprüft',milestonesCritComplete()>0],
     ['Exemplar', (state.exemplarTask&&state.exemplarAnswer)?'✓ ausformuliert':'noch offen',!!(state.exemplarTask&&state.exemplarAnswer)],
     ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
     ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
@@ -982,9 +976,9 @@ function summaryText(){
   t+='— INNERE MONOLOGE —\nPlaner A – fehlende Frage: '+(state.mono1Q||'–')+'\nPlaner B – fehlende Frage: '+(state.mono2Q||'–')+'\n';
   t+='\n— ZIEL ODER THEMA —\n'+targetScore()+' von '+TARGET_ITEMS.length+' richtig\n';
   t+='\n— MEILENSTEIN-KALIBRIERUNG —\n'+chainScore()+' von '+CHAINS.length+' richtig\n';
-  t+='\n— EIGENE MEILENSTEINKETTE —\nThema: '+(state.milestoneTopic||'–')+'\n'
-    +state.milestones.map((m,i)=>(i+1)+'. '+(m.text||'–')+' (Prüfaufgabe: '+(m.task||'–')+', Kriterien: '+m.crit.filter(Boolean).length+'/4)').join('\n')+'\n';
-  t+='\n— EXEMPLAR —\nSchlüsselaufgabe: '+(state.exemplarTask||'–')+'\nIdealantwort: '+(state.exemplarAnswer||'–')+'\nScheiter-Stelle: '+(state.exemplarScheiterstelle||'–')+'\n';
+  t+='\n— MINDESTZIEL UND MEILENSTEINE —\nThema: '+(state.milestoneTopic||'–')+'\nMindestziel: '+(state.minZiel||'–')+'\nPrüfaufgabe zum Mindestziel: '+(state.minTask||'–')+'\n'
+    +state.milestones.map((m,i)=>'Meilenstein '+(i+2)+': '+(m.text||'–')+' (Prüfaufgabe '+(m.task||'–')+'; Prüfsteine '+m.crit.filter(Boolean).length+'/3)').join('\n')+'\n';
+  t+='\n— EXEMPLAR —\nAufgabe zum Mindestziel: '+(state.exemplarTask||'–')+'\nIdealantwort: '+(state.exemplarAnswer||'–')+'\nScheiter-Stelle: '+(state.exemplarScheiterstelle||'–')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];
   t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+step.text+'\nWochenzähler: '+(state.weekCounter||'–')+'\n';
@@ -1012,9 +1006,9 @@ function buildPrint(){
   h+='<h2>Innere Monologe</h2>'+f('Planer A – fehlende Frage:',state.mono1Q)+f('Planer B – fehlende Frage:',state.mono2Q);
   h+='<h2>Ziel oder Thema?</h2>'+f('Richtig:',targetScore()+' von '+TARGET_ITEMS.length);
   h+='<h2>Meilenstein-Kalibrierung</h2>'+f('Richtig:',chainScore()+' von '+CHAINS.length);
-  h+='<div class="pagebreak"></div><h2>Eigene Meilensteinkette</h2>'+f('Thema:',state.milestoneTopic);
-  state.milestones.forEach((m,i)=>{h+=f('Meilenstein '+(i+1)+':',(m.text||'–')+' — Prüfaufgabe: '+(m.task||'–')+' — Kriterien: '+m.crit.filter(Boolean).length+'/4');});
-  h+='<h2>Exemplar</h2>'+f('Schlüsselaufgabe:',state.exemplarTask)+f('Idealantwort:',state.exemplarAnswer)+f('Scheiter-Stelle:',state.exemplarScheiterstelle);
+  h+='<div class="pagebreak"></div><h2>Mindestziel und Meilensteine</h2>'+f('Thema:',state.milestoneTopic)+f('Mindestziel:',state.minZiel)+f('Prüfaufgabe zum Mindestziel:',state.minTask);
+  state.milestones.forEach((m,i)=>{h+=f('Meilenstein '+(i+2)+':',(m.text||'–')+' — Prüfaufgabe: '+(m.task||'–')+' — Prüfsteine: '+m.crit.filter(Boolean).length+'/3');});
+  h+='<h2>Exemplar</h2>'+f('Aufgabe zum Mindestziel:',state.exemplarTask)+f('Idealantwort:',state.exemplarAnswer)+f('Scheiter-Stelle:',state.exemplarScheiterstelle);
   h+='<div class="pagebreak"></div><h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>';
   h+=f('Transferaufgabe:',state.transferAnswer);
   const step=ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];

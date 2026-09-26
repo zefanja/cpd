@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
-| **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W9), Stundenarchitektur-Template (W13), Stunden-Check mit den fünf Fragen (W8) |
+| **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (W9), Planungsbogen (W13), Stunden-Check mit den fünf Fragen (W8) |
 | **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das W13-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem W8-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
 | **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
 | **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
@@ -39,7 +39,7 @@
 > **Moderationstext:**
 > *„Zückt eure Zahl: Planungszeit pro Einzelstunde, ehrlich. Boards hoch."* [Werte sammeln, Median grob an die Tafel – typisch bei Quereinsteigern: 45–90 Min.]
 > *„Rechnen wir mit dem Median: [z. B. 60] Minuten pro Stunde, bei sagen wir 14 zu planenden Stunden pro Woche… sind 14 Stunden Planung wöchentlich. Auf ein Schuljahr: über 500 Zeitstunden – mehr als drei Monate Vollzeitarbeit, nur fürs Planen. Und jetzt die doppelte Provokation von McCrea:*
-> *Erstens: **Planungszeit ist kein Qualitätsbeweis.** Die Korrelation zwischen Planungsdauer und Stundenwirkung ist erschreckend schwach – ihr wisst seit Woche 9, warum: Die meiste Zeit fließt in Aktivitäten-Suche und Material-Kosmetik, also in die Todsünde Nummer eins. Die Wirkung einer Stunde entsteht in den ersten zehn Planungsminuten – Ziel, Nachweis, Kernaufgabe – der Rest ist häufig Beruhigungsarbeit fürs eigene Gewissen.*
+> *Erstens: **Planungszeit ist kein Qualitätsbeweis.** Die Korrelation zwischen Planungsdauer und Stundenwirkung ist erschreckend schwach – ihr wisst seit Woche 9, warum: Die meiste Zeit fließt in Aktivitäten-Suche und Material-Kosmetik, also in den ersten Kardinalfehler, das aktivitätsorientierte Planen. Die Wirkung einer Stunde entsteht in den ersten zehn Planungsminuten – Ziel, Nachweis, Kernaufgabe – der Rest ist häufig Beruhigungsarbeit fürs eigene Gewissen.*
 > *Zweitens, und das ist der befreiende Satz des Tages: **Eine 80-Prozent-Stunde, nachhaltig jede Woche gehalten, schlägt die 100-Prozent-Stunde, die euch bis Weihnachten verbrennt.** Lean heißt nicht schlampig – Lean heißt: Die Ressource Lehrkraft ist Teil der Rechnung. Ihr plant nicht nur Stunden, ihr plant ein BERUFSLEBEN. Und die Währung heißt: **Wirkung pro Minute** – pro Schülerminute UND pro Planungsminute."*
 
 ## Phase 3 · Input: Die Lean-Mechanik (Minute 15–27)
@@ -93,7 +93,7 @@ Tandem-Blitz: Partner legt die fünf Fragen aus W8 an den Einseiter – 2 Minute
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Handout A: Der Lean-Einseiter (verschlanktes W13-Template)
-Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:** Exit-Ticket-Aufgabe (jetzt!): … · **3 WIE:** Do Now (3-2-1, Stichwort): … | I do – Kern + Falle: … | We do – Treppenstufen + Check bei: … | You do – ActiveObs-Fokus: … (Aktivitäten NUR aus dem Repertoire; Stichworte, keine Kosmetik!) · **4 WAS KOMMT ZURÜCK:** Ticket-Konsequenz von gestern: … | Altstoff in Starter/Set: … · Fuß: **Planungszeit real: ___ Min.** *(Rückseite: Zweitexemplar.)*
+Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:** Exit-Ticket-Aufgabe (jetzt!): … · **3 WIE:** Do Now (3–5 Wiederholungsfragen, Stichwort): … | I do – Kern + Falle: … | We do – Treppenstufen + Check bei: … | You do – Prüf-Fokus: … (Aktivitäten NUR aus dem Repertoire; Stichworte, keine Kosmetik!) · **4 WAS KOMMT ZURÜCK:** Ticket-Konsequenz von gestern: … | Altstoff in Starter/Set: … · Fuß: **Planungszeit real: ___ Min.** *(Rückseite: Zweitexemplar.)*
 
 ## 1.2 Handout B: Fragenfolge + Repertoire-Blanko
 **Fragenfolge als Karte** (mit Prüfregel). **Repertoire-Blanko:** 10 Zeilen: Format | Läuft als Routine? (☐ ja / ☐ braucht Einführung W2-Stil) | Typischer Einsatzort (Phase). Vorbefüllung als Vorschlag: Do Now 3-2-1 · Whiteboard-Blitz · Everybody Writes · Turn & Talk + Ernte · Fading-Treppe · Show Call · Brain Dump · Fragenfächer · kumulatives Set · Exit Ticket. Fußzeile: „Neue Formate: einzeln, eingeführt, nie als Feuerwerk."
@@ -106,7 +106,7 @@ Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:
 1. Der Gesprächs-Vierschritt (W30)? *(gemeinsames Ziel → Fakten → zuhören → Schritte + Termin)*
 2. Die Grenz-Formel? *(Verständnis + Sache + Angebot)*
 3. Die Kontakt-Regel? *(erster Kontakt nie Problemkontakt; 2 Positiv-Kontakte/Woche)*
-4. Die zwei Planungs-Todsünden (W9)? *(Aktivitätsfokus / Abdeckungsfokus)*
+4. Die zwei Kardinalfehler der Planung (W9)? *(aktivitätsorientiert / stofforientiert)*
 5. (Anwendung) Woran erkennst du in einer fremden Planung in 10 Sekunden den Aktivitätsfokus? *(Methoden zuerst/detailliert, Ziel vage oder fehlt, kein Nachweis definiert)*
 
 ## Teil 2: Modul-Quiz Woche 31 (für SPA/Folgewoche)

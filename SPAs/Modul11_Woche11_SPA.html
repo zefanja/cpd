@@ -348,7 +348,7 @@ textarea{min-height:4.2em}
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
     <span class="badge">⏱ ca. 30 Min.</span>
-    <span class="badge">📖 Kernquellen: Lovell/Dowley R8 (Guided Practice) · Lemov „Break It Down“ · Rosenshine P5, P8</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R8 (Guided Practice) · Lemov „Break It Down“ · Rosenshine P5, P8 · Renkl &amp; Atkinson (ausgeblendete Lösungsbeispiele)</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
@@ -357,7 +357,8 @@ textarea{min-height:4.2em}
 <!-- 1 · DREI MELDUNGEN -->
 <section class="screen" data-title="Drei richtige Meldungen">
   <span class="eyebrow">Station 1 · Drei richtige Meldungen</span>
-  <h2>Du hast gerade eine Aufgabe gemeinsam gerechnet.</h2>
+  <div class="scene" style="margin-top:0;margin-bottom:1rem"><span class="tag">Szene · Biologie, Kl. 9</span>„Wer kann mir sagen, was Mitochondrien tun?“ Lea, Tim und Aylin melden sich, dreimal richtig. „Sehr gut, dann macht Aufgabe 1 bis 5.“ Beim Einsammeln zeigt sich: 14 von 26 haben „Mitochondrien machen Sauerstoff“ geschrieben.</div>
+  <h2>Jetzt du: Du hast gerade eine Aufgabe gemeinsam gerechnet.</h2>
   <p class="lead">Jetzt fragst du: „Wer kann mir das Ergebnis der nächsten Aufgabe sagen?“ Drei melden sich. Alle drei antworten richtig.</p>
   <div class="card">
     <div class="klasse" id="klasse"></div>
@@ -467,9 +468,9 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Die kleinste Hilfe">
   <span class="eyebrow">Station 5 · Die kleinste Hilfe</span>
   <h2>Eine falsche Antwort. Was sagst du?</h2>
-  <p class="lead">Der Reflex ist, die Lösung zu sagen, denn die Zeit ist knapp. Aber wer die Lösung sagt, hat selbst geübt, nicht der Schüler. Besser: die kleinste Hilfe zuerst, und nach jeder Stufe gibst du die Aufgabe zurück.</p>
+  <p class="lead">Der Reflex ist, die Lösung zu sagen, denn die Zeit ist knapp. Aber wer die Lösung sagt, hat selbst geübt, nicht der Schüler. Besser: die kleinste Hilfe zuerst, und nach jeder Hilfe gibst du die Aufgabe zurück.</p>
   <div class="formula-card">
-    <h4>Break It Down: vier Stufen, dann erst die Lösung</h4>
+    <h4>Break It Down: Hilfen von klein nach groß, dann erst die Lösung</h4>
     <ol class="q-legend">
       <li><b>1</b><span><strong>Hinweis:</strong> „Schau noch einmal auf …“</span></li>
       <li><b>2</b><span><strong>Beispiel:</strong> „Vorhin bei Aufgabe 1 haben wir zuerst …“</span></li>
@@ -477,8 +478,9 @@ textarea{min-height:4.2em}
       <li><b>4</b><span><strong>Erster Schritt:</strong> vormachen, den Rest zurückgeben.</span></li>
     </ol>
     <p>Die Lösung kommt nur, wenn nichts davon trägt. Dann erklärt der Schüler den Weg noch einmal mit eigenen Worten.</p>
+    <p>Nicht verwechseln: Die <strong>Treppe</strong> aus Station 3 planst du vorher für die ganze Klasse. Die <strong>Hilfen von klein nach groß</strong> gibst du spontan, wenn einzelne Schüler hängen.</p>
   </div>
-  <p class="hint" style="margin-top:.8rem">Wähle bei jedem Fall deinen nächsten Zug. Der Schüler reagiert darauf. Ziel ist, mit der kleinsten Hilfe auszukommen, die gerade reicht.</p>
+  <p class="hint" style="margin-top:.8rem">Wähle bei jedem Fall deine nächste Hilfe. Der Schüler reagiert darauf. Ziel ist, mit der kleinsten Hilfe auszukommen, die gerade reicht.</p>
   <div id="bidList"></div>
   <p class="hint" id="bidScore" style="margin-top:1rem"></p>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Quote →</button></p>
@@ -517,7 +519,7 @@ textarea{min-height:4.2em}
   <h2>Fünf Fragen zu Woche 11, zwei zur Wiederholung.</h2>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">F6 (Freitext): Ein Schüler sagt beim gemeinsamen Üben: „Yesterday I have seen him.“ Schreib deine ersten drei Züge wörtlich auf, ohne die Lösung zu verraten.</p>
+    <p class="quiz-q">F6 (Freitext): Ein Schüler sagt beim gemeinsamen Üben: „Yesterday I have seen him.“ Schreib deine ersten drei Hilfen wörtlich auf, ohne die Lösung zu verraten.</p>
     <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="1. … 2. … 3. …"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Muster anzeigen</button></p>
     <p class="quiz-note" id="transferNote">Muster: 1. Hinweis: „Schau auf das erste Wort des Satzes.“ 2. Beispiel: „Yesterday I ___ football. Wie hieß das vorhin?“ 3. Regel: „Was macht ein Signalwort wie yesterday mit der Zeitform?“ Die Lösung sagst du nicht.</p>
@@ -620,7 +622,7 @@ const DEMO=[
   ok:[3],note:'<b>Antworten aller sehen.</b> Nach dem ersten Schritt weiß sie, ob alle den Ansatz haben, bevor es weitergeht.'},
  {c:'gruen',t:'Aufgabe 2: „45 % von 120 €.“ An der Tafel steht nur noch der erste Schritt: W = 120 · 45/100. „Den Rest rechnet ihr.“',
   ok:[2],note:'<b>Hilfe nimmt ab.</b> Stufe 3 der Treppe: Der Anfang ist vorgegeben, den Rest schaffen sie selbst.'},
- {c:'gelb',t:'Aufgabe 3 rechnen alle ganz allein auf dem Whiteboard. Die Lehrerin scannt die Boards: Vier zeigen 3600 statt 36. „Vier von euch haben dasselbe Ergebnis. Schaut noch einmal auf den Prozentsatz. Was bedeuten 30 %?“',
+ {c:'gelb',t:'Aufgabe 3 rechnen alle ganz allein auf dem Whiteboard. Die Lehrerin schaut über alle Boards: Vier zeigen 3600 statt 36. „Vier von euch haben dasselbe Ergebnis. Schaut noch einmal auf den Prozentsatz. Was bedeuten 30 %?“',
   ok:[3,2],note:'<b>Antworten aller sehen</b>, und die Hilfe ist jetzt nur noch ein Hinweis. Sie nennt keine Namen und verrät die Lösung nicht.'},
  {c:'gelb',t:'Kontrollaufgabe auf dem Whiteboard: 22 von 27 richtig. „Ihr arbeitet jetzt allein weiter, Buch Nr. 1 bis 6. Wer eine Sechs auf dem Board hat, kommt kurz zu mir an den Vordertisch.“',
   ok:[3],note:'<b>Antworten aller sehen.</b> Gut vier von fünf richtig: Die Einzelarbeit kann beginnen. Die fünf anderen holt sie gezielt nach vorn, statt zu hoffen, dass sie sich melden.'}
@@ -695,7 +697,7 @@ const QUIZ=[
  {q:'F2. Ein Schüler kommt beim gemeinsamen Üben nicht weiter. Was hilft zuerst?',
   opts:[
    {t:'die Lösung zeigen, weil die Zeit knapp ist und andere warten',ok:false,note:'Das ist der Reflex. Dann hast du geübt, nicht er.'},
-   {t:'die kleinste Hilfe: ein Hinweis, danach wenn nötig ein Beispiel oder die Regel',ok:true,note:'Genau. Jede Stufe gibt ihm noch eine Chance, selbst anzukommen.'},
+   {t:'die kleinste Hilfe: ein Hinweis, danach wenn nötig ein Beispiel oder die Regel',ok:true,note:'Genau. Jede Hilfe gibt ihm noch eine Chance, selbst anzukommen.'},
    {t:'einen starken Schüler antworten lassen',ok:false,note:'Kann helfen, aber danach muss die Frage zurück an den ersten Schüler (Woche 22).'},
    {t:'die Aufgabe wechseln',ok:false,note:'Dann bleibt der Fehler, wo er ist.'}
   ]},
@@ -923,7 +925,7 @@ function renderBid(){
       }else{
         const note={
           best:'✓ Genau die kleinste Hilfe, die gereicht hat. Der Schüler hat den entscheidenden Schritt selbst gemacht.',
-          toomuch:'Gelöst, aber mit mehr Hilfe als nötig. Hier hätte schon „'+MOVES[c.need]+'“ gereicht. Jede übersprungene Stufe nimmt dem Schüler eine Chance, selbst anzukommen.',
+          toomuch:'Gelöst, aber mit mehr Hilfe als nötig. Hier hätte schon „'+MOVES[c.need]+'“ gereicht. Jede übersprungene kleinere Hilfe nimmt dem Schüler eine Chance, selbst anzukommen.',
           verraten:'✗ Jetzt hast du geübt, nicht der Schüler. Er hat die Lösung abgeschrieben. '+(c.need<4?'Hier hätte schon „'+MOVES[c.need]+'“ gereicht.':'')
         }[st];
         h+='<p class="quiz-note on">'+note+'</p><p style="margin-top:.5rem"><button class="btn ghost small" data-reset="'+i+'">Fall neu spielen</button></p>';

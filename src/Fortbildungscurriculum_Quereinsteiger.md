@@ -321,46 +321,44 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Leitfrage:** Was genau sollen meine Schüler am Ende können – und woran erkenne ich es?
 
-**Lernziele:** Die TN können 2–5 kumulative, messbare Lern-Meilensteine für eine Stunde formulieren und von dort rückwärts planen.
+**Lernziele:** Die TN können für eine Stunde ein Mindestziel und 2–4 ansteigende Meilensteine formulieren, die aufeinander aufbauen und sich prüfen lassen, und die ideale Schülerantwort zum Mindestziel vorab selbst schreiben.
 
-**Kernideen (McCrea, Lean Lesson Planning, Kap. 4–5; Lemov T1):**
-1. **Die zwei Todsünden der Planung:** *Aktivitätsfokus* (erst die coole Methode, dann das Ziel dazu erfinden) und *Abdeckungsfokus* (Lehrbuch abarbeiten). Beide fühlen sich produktiv an und sind es nicht.
-2. **Backwards Design:** Start mit „Was sollen sie am Ende können?" – und dafür mehr Zeit aufwenden, als sich richtig anfühlt (Lemov: Exzellente Lehrkräfte verbringen mehr Zeit mit Zielen, weniger mit Aktivitätenauswahl).
-3. **Lern-Meilensteine:** 2–5 pro Stunde; kumulativ (bauen aufeinander), verteilt (die meisten schaffen den ersten, wenige den letzten), messbar, klar.
-4. **Exemplar Planning (Lemov T1):** Die ideale Schülerantwort *vorher selbst ausformulieren* – erst dann weiß man wirklich, was man will, und erkennt Lücken sofort.
+**Kernideen (Wiggins & McTighe, Understanding by Design; McCrea, Lean Lesson Planning, Kap. 4–5; Lemov, TLAC 3.0, T1):**
+1. **Die zwei Kardinalfehler der Planung (Wiggins & McTighe):** *aktivitätsorientiert* (erst die Methode, dann das Ziel dazu erfinden) und *stofforientiert* (Lehrbuch abarbeiten). Beide fühlen sich produktiv an und sind es nicht.
+2. **Backwards Design:** Start mit „Was sollen sie am Ende können?“, dann „Woran erkenne ich es?“, zuletzt die Aktivität. Lemov beschreibt dieselbe Gewohnheit bei den Lehrkräften, die er beobachtet.
+3. **Mindestziel und Meilensteine:** Das Mindestziel sagt, was am Ende **alle** können sollen (Frage 1 aus W8; das prüft das Exit Ticket in W13). Darauf bauen 2–4 Meilensteine für die Stärkeren auf. Ampel: aufbauend · ansteigend · prüfbar.
+4. **Exemplar Planning (Lemov T1):** Die ideale Schülerantwort zum Mindestziel *vorher selbst ausformulieren* – erst dann weiß man wirklich, was man will, und erkennt Lücken sofort.
 
-**Typische Fehlvorstellungen:** „Lernziel = Thema" („Wir machen heute Photosynthese" ist kein Ziel); „Ziele an die Tafel schreiben reicht" (Verstehen der Ziele braucht Beispiele gelungener Erfüllung).
+**Typische Fehlvorstellungen:** „Lernziel = Thema“ („Wir machen heute Photosynthese“ ist kein Ziel); „Ziele an die Tafel schreiben reicht“ (Verstehen der Ziele braucht Beispiele gelungener Erfüllung).
 
-**Übungsteil:** Für eine reale Stunde der kommenden Woche: Meilensteine schreiben → Musterlösung/Exemplar selbst verfassen → im Tandem prüfen: Ist jeder Meilenstein messbar? Baut die Kette aufeinander auf?
+**Übungsteil:** Für eine reale Stunde der kommenden Woche: Mindestziel und Meilensteine schreiben → Exemplar zum Mindestziel verfassen → im Tandem prüfen: Welche Aufgabe prüft das Mindestziel? Wo werden schwache Schüler scheitern?
 
-**Action Step:** „Für jede neue Stunde schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe – vor allem anderen."
+**Action Step:** „Für jede neue Stunde schreibe ich zuerst das Mindestziel und die ideale Schülerantwort dazu auf – vor allem anderen.“
 
-**SPA-Bausteine:** Zwei innere Monologe (Todsünden erkennen); „Ziel oder Thema?" (inkl. eigener Ziel-Satz aus dem W8-Stundenprofil); Meilenstein-Werkstatt (Kalibrierung an 4 Beispielketten, eigene Kette mit Ampel kumulativ/verteilt/messbar/klar); Exemplar-Editor mit Scheiter-Stelle (wird in W10 und W12 wieder eingeblendet).
+**SPA-Bausteine:** Zwei innere Monologe (Kardinalfehler erkennen); Backwards Design mit Szene; „Ziel oder Thema?“ (inkl. eigener Ziel-Satz aus dem W8-Stundenprofil); Meilenstein-Werkstatt (Eichen an 4 Beispielketten, Mindestziel mit Prüfaufgabe, eigene Meilensteine mit Ampel aufbauend/ansteigend/prüfbar); Exemplar-Editor mit Szene und Scheiter-Stelle (wird in W10 und W12 wieder eingeblendet).
 
 ---
 
 ## Woche 10: Modellieren & Erklären – das „I do"
 
-**Leitfrage:** Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können?
+**Leitfrage:** Wie erkläre ich so, dass jemand folgen kann, für den der Stoff neu ist?
 
-**Lernziele:** Die TN können eine Modellierungsphase mit Lautem Denken, Beispielen und minimaler Sprachlast gestalten.
+**Lernziele:** Die TN können eine 3-Minuten-Erklärung nach den vier Bausteinen halten und die eigene Erklärung auf ihre Schrittgröße prüfen.
 
-**Kernideen (Lovell R7; Rosenshine P2, P4; McCrea):**
-1. **Kleine Schritte:** Stoff atomisieren; ein neues Element nach dem anderen; erst sichern, dann weitergehen.
-2. **Lautes Denken (Think Aloud / Expert Thinking):** Nicht nur zeigen *was*, sondern hörbar machen *wie Experten denken* – inkl. Entscheidungen und typischer Fallen.
-3. **Worked Examples & Beispielpaare:** Ausgearbeitete Beispiele entlasten das Arbeitsgedächtnis; Beispiel + Nicht-Beispiel schärft Konzeptgrenzen.
-4. **Der Fluch des Wissens:** Als Fachexperte (gerade Quereinsteiger aus der Praxis!) unterschätzt man systematisch, was Schüler ohne Vorkenntnisse nicht wissen. Gegenmittel: Schritte kleiner machen, als sich nötig anfühlt.
-5. **Aufmerksamkeitsdisziplin beim Erklären:** Während des Modellierens Stifte weg, nur zuhören/zusehen (keine geteilte Aufmerksamkeit zwischen Mitschreiben und Verstehen).
+**Kernideen (Lovell R7; Rosenshine P2, P4; Newton 1990):**
+1. **Der Fluch des Wissens:** Wer etwas gut kann, unterschätzt, was Anfängern fehlt (Newtons Klopf-Experiment: geschätzt jedes zweite Lied erkannt, tatsächlich 3 von 120). Gerade Quereinsteiger aus der Praxis sind betroffen. Gegenmittel: die Halbier-Regel.
+2. **Vier Bausteine einer Erklärung:** *klein schneiden* (ein neues Element nach dem anderen) · *laut denken* (Entscheidungen, Selbstfragen, eine vorgeführte und aufgelöste Falle) · *nach jedem Schritt alle antworten lassen* (Rosenshine P2: kleine Schritte **mit Übung nach jedem Schritt**) · *festhalten* (beim Vormachen Stifte weg, danach abschreiben, Tafelbild bleibt stehen).
+3. **Worked Examples:** Ausgearbeitete Beispiele entlasten das Arbeitsgedächtnis (Vorgriff W15).
 
-**Typische Fehlvorstellungen:** „Meine Berufserfahrung macht meine Erklärungen automatisch gut" (Expertise erschwert eher das Erklären); „Mitschreiben während des Erklärens ist effizient" (split attention).
+**Typische Fehlvorstellungen:** „Meine Berufserfahrung macht meine Erklärungen automatisch gut“ (Expertise erschwert eher das Erklären); „Mitschreiben während des Erklärens ist effizient“ (geteilte Aufmerksamkeit); „Keine Fragen heißt verstanden“.
 
-**Übungsteil:** Mikro-Teaching: Jeder modelliert 3 Minuten einen Fachinhalt mit Lautem Denken vor der Gruppe; Feedback nach Kriterien (Schrittgröße, Denkbarmachung, Sprachökonomie); zweiter Durchlauf.
+**Übungsteil:** Kurztraining an drei Szenen (welcher Baustein fehlt?); Mikroteaching: Jede und jeder erklärt 3 Minuten einen Fachinhalt vor der Gruppe, mit einer Frage an alle; Feedback nach den vier Bausteinen; Sofort-Wiederholung der schwächsten 30 Sekunden.
 
-**Action Step:** „In einer Erklärphase diese Woche denke ich hörbar laut – inklusive einer typischen Falle, die ich absichtlich vorführe und auflöse."
+**Action Step:** „In einer Erklärphase pro Tag denke ich hörbar laut – inklusive einer typischen Falle, die ich absichtlich vorführe und auflöse.“
 
-**Coaching-Fokus:** Hospitation einer Erklärphase; Transkript-Ausschnitt: Wie viele neue Elemente pro Minute?
+**Coaching-Fokus:** Hospitation einer Erklärphase; Transkript-Ausschnitt: Wie viele neue Elemente pro Minute? Stundenprofil: Folgt auf den roten Block Gelb?
 
-**SPA-Bausteine:** Fluch-des-Wissens-Selbsttest (Schuh binden); Version 1 vs. 2 als Transkript-Check; Vierklang und Satzanfänge; In kleine Schritte zerlegen (mit längstem roten Block aus W8 und Scheiter-Stelle aus W9); Selbstaufnahme-Auftrag mit Analyse-Raster; Fallen-Bibliothek.
+**SPA-Bausteine:** Klopf-Experiment mit Schätzfrage + Selbsttest „Schuh binden“; Version 1 vs. 2 (Prozentwert aus Stunde B) als Transkript-Check; vier Bausteine mit Szenen „Welcher Baustein fehlt?“ und Satzanfängen; In kleine Schritte zerlegen (mit längstem roten Block aus W8 und Scheiter-Stelle aus W9); Selbstaufnahme mit Analyse nach den vier Bausteinen; Fallen-Bibliothek.
 
 ---
 
@@ -368,71 +366,72 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Leitfrage:** Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen?
 
-**Lernziele:** Die TN können eine We-do-Phase mit hoher Beteiligung, engmaschiger Prüfung und schrittweisem Ausblenden der Hilfen gestalten.
+**Lernziele:** Die TN können eine We-do-Phase führen, in der alle mitschreiben und antworten, eine Treppe mit vier Stufen für ein eigenes Thema bauen und auf Fehler mit der kleinsten Hilfe zuerst reagieren.
 
-**Kernideen (Lovell R8; Lemov T21 „Take the Steps", T37 „Break It Down"; Rosenshine P5, P8):**
-1. **Gemeinsam durcharbeiten:** Aufgaben Schritt für Schritt mit der Klasse lösen; Lehrkraft fragt, Klasse liefert – jeder schreibt mit.
-2. **Guidance Fading:** Hilfen systematisch reduzieren (komplettes Beispiel → Beispiel mit Lücken → nur Ansatz → nichts). Der Übergang ist die Kunst, nicht der Sprung.
-3. **Break It Down (Lemov T37):** Bei Fehlern die kleinste hilfreiche Zerlegung anbieten (Hinweis statt Lösung): Beispiel geben, Regel nennen, ersten Schritt zeigen – gestuft.
-4. **Mini-Whiteboards / All-Response-Systeme:** Alle antworten gleichzeitig sichtbar – die Lehrkraft sieht sofort die Fehlerquote (Brücke zu Block 4).
+**Kernideen (Lovell R8; Lemov „Take the Steps“, „Break It Down“; Rosenshine P5, P8; Renkl & Atkinson):**
+1. **Gemeinsam durcharbeiten:** Aufgaben Schritt für Schritt mit der Klasse lösen; die Lehrkraft fragt, die Klasse liefert, jeder schreibt mit.
+2. **Die Treppe (ausgeblendete Lösungsbeispiele, Renkl & Atkinson):** Vollbeispiel → Lückenbeispiel → nur der Anfang → ohne Hilfe. Die erste Lücke ist eine leichte. Die Kunst ist das Tempo, nicht der Sprung.
+3. **Break It Down – Hilfen von klein nach groß:** Hinweis → Beispiel → Regel → erster Schritt → erst dann die Lösung. Die Treppe plant man vorher für alle, die Hilfen gibt man spontan einzelnen.
+4. **Alle antworten lassen:** Mini-Whiteboards zeigen in Sekunden, wie viele es können. Erst bei etwa vier von fünf richtig geht es weiter (Brücke zu Block 4).
 
-**Typische Fehlvorstellungen:** „Wenn 3 Meldungen richtig antworten, kann es die Klasse" (3 von 28 ist keine Stichprobe); „Schnell zur Stillarbeit, das ist aktiver" (verfrühtes You do produziert eingeübte Fehler).
+**Typische Fehlvorstellungen:** „Wenn drei Meldungen richtig antworten, kann es die Klasse“ (es melden sich die, die es können); „Schnell zur Einzelarbeit, das ist aktiver“ (verfrühte Einzelarbeit übt Fehler ein).
 
-**Übungsteil:** Fading-Treppe für ein eigenes Thema bauen (4 Stufen); Rollenspiel „We do mit Fehlerantwort": TN übt gestuftes Break It Down statt Lösung zu verraten.
+**Übungsteil:** Live-Demo mit der Gruppe als Klasse; Treppe für ein eigenes Thema bauen (4 Stufen); Rollenspiel „We do mit falscher Antwort“: ein Durchgang pro Person mit Hilfen von klein nach groß.
 
-**Action Step:** „Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele, und ich prüfe mit Whiteboards/Abfrage, dass etwa vier von fünf richtig liegen."
+**Action Step:** „Vor jeder Einzelarbeit diese Woche rechnen wir mindestens zwei Aufgaben gemeinsam, ich lasse alle antworten und beginne die Einzelarbeit erst, wenn etwa vier von fünf richtig liegen.“
 
-**SPA-Bausteine:** Simulation „Drei richtige Meldungen" (Melder-Stichprobe); die grünen Minuten aus Stunde B (W8) Moment für Moment zuordnen; Treppe mit Übung „Echte Stufe 2 oder verkleideter Sprung?"; Treppen-Bauer mit Beispielbibliothek; Break-It-Down-Simulator (Schülerfehler → Zug wählen → Schülerreaktion); Quoten-Rechner (gemeinsames Üben ca. 80 %, Einzelarbeit fast fehlerfrei).
+**SPA-Bausteine:** Szene + Simulation „Drei richtige Meldungen“; die grünen Minuten aus Stunde B (W8) Moment für Moment zuordnen; Treppe mit Übung „Echte Stufe 2 oder verkleideter Sprung?“; Treppen-Bauer mit Beispielbibliothek; Break-It-Down-Simulator (Schülerfehler → Hilfe wählen → Schülerreaktion); Quoten-Rechner (gemeinsames Üben ca. 80 %, Einzelarbeit fast fehlerfrei).
 
 ---
 
-## Woche 12: Selbstständiges Üben & aktives Monitoring – das „You do"
+## Woche 12: Selbstständiges Üben & der gezielte Rundgang – das „You do"
 
 **Leitfrage:** Was tue ich eigentlich, während die Klasse arbeitet?
 
-**Lernziele:** Die TN können Stillarbeitsphasen einleiten, aktiv überwachen (Circulate/ActiveObs) und Verhaltens- wie Verständnisdaten daraus ziehen.
+**Lernziele:** Die TN können eine Einzelarbeit mit den fünf Startbedingungen eröffnen, mit Route und Prüf-Fokus durch den Raum gehen und wiederkehrende Fehler in einer Sammelklärung aufgreifen.
 
-**Kernideen (Lovell R9; Lemov T25 „Circulate", T9 „Active Observation"):**
+**Kernideen (Lovell R9; Lemov „Circulate“, „Active Observation“; Rosenshine P9):**
 1. **Klarer Start (Verknüpfung Woche 3):** Aufgabe, Zeit, Sozialform, Lautstärke, Was-tun-wenn-fertig – alles vor Beginn geklärt; Timer sichtbar.
-2. **Circulate mit Plan (Lemov T25):** Durchgehen mit Wegerecht („break the plane" in den Raum hinein), systematisch, nicht nur zu den Meldern; Arbeit lesen, kurz markieren, weitergehen.
-3. **Active Observation (Lemov T9):** Vorher festlegen, *was* man beim Rundgang prüft (z. B. Aufgabe 2, typischer Fehler X) – gezielt Daten sammeln statt vage „helfen".
-4. **Produktive Hilfe:** Nicht neben Einzelnen festwachsen (Rest unbeobachtet!); kurze Impulse, dann weiter; wiederkehrende Fehler an die Tafel holen statt 10× einzeln erklären.
+2. **Der Rundgang mit Route:** früh in den Raum hineingehen („break the plane“), Route statt Meldungen, Hefte lesen statt über die Köpfe schauen, höchstens 60 Sekunden pro Einzelhilfe.
+3. **Prüf-Fokus (Lemov: Active Observation):** Vorher in einem Satz festlegen, *was* man beim Rundgang prüft (z. B. die Scheiter-Stelle aus dem Exemplar).
+4. **Sammelklärung:** Taucht derselbe Fehler zum dritten Mal auf, wird er einmal für alle geklärt.
 
-**Typische Fehlvorstellungen:** „Stillarbeit = meine Pause / Korrekturzeit" (es ist die datenreichste Phase der Stunde); „Ich helfe, wem ich zuerst begegne" (systematisch statt reaktiv).
+**Typische Fehlvorstellungen:** „Einzelarbeit = meine Pause / Korrekturzeit“ (es ist die Phase, in der man am meisten über die Klasse erfährt); „Ich helfe, wem ich zuerst begegne“ (systematisch statt reaktiv).
 
-**Übungsteil:** Monitoring-Pfad auf Sitzplan einzeichnen (Route, Hotspots); ActiveObs-Bogen für eine reale Stunde vorbereiten (Was prüfe ich bei wem?); Video: Circulate-Beispiel analysieren (Laufweg mitzeichnen).
+**Übungsteil:** Kurztraining an drei Szenen; Laufweg-Fallkarte analysieren (Laufweg mitzeichnen, Sammelklärung festlegen); Route auf dem eigenen Sitzplan einzeichnen; Prüf-Fokus-Bogen für eine reale Stunde vorbereiten.
 
-**Action Step:** „In jeder Übungsphase laufe ich eine geplante Route und notiere auf einem Klemmbrett, welche 3 Fehler am häufigsten sind."
+**Action Step:** „In jeder Einzelarbeit laufe ich eine geplante Route und notiere auf einem Klemmbrett die drei häufigsten Fehler; beim dritten gleichen Fehler kläre ich ihn für alle.“
 
-**Coaching-Fokus:** Hospitation Übungsphase; Coach zeichnet Laufweg + Aufenthaltszeiten mit.
+**Coaching-Fokus:** Hospitation Einzelarbeit; Coach zeichnet Laufweg + Aufenthaltszeiten und im Stundenprofil die blaue Phase mit.
 
-**SPA-Bausteine:** Ehrliche A/B/C-Frage; Laufweg-Fall Minute für Minute (Regelverstöße zuordnen, Draufsicht, Zeitpunkt der Sammelklärung); Startbedingungen-Check an 4 Phaseneröffnungen; Sitzplan-Editor mit Frühwarn-Plätzen, Route und automatischer Prüfung (tote Zonen); ActiveObs-Bogen mit Scheiter-Stelle aus W9; 60-Sekunden-Entscheidungsspiel.
+**SPA-Bausteine:** Ehrliche A/B/C-Frage (ohne Zahlen); Laufweg-Fall Minute für Minute (Regelverstöße zuordnen, Draufsicht, Zeitpunkt der Sammelklärung); Startbedingungen-Check an 4 Phaseneröffnungen und Standard in drei Teilen (vorher / während / ab drei gleichen Fehlern); Sitzplan-Editor mit Frühwarn-Plätzen, Route und automatischer Prüfung (nie besuchte Zonen); Prüf-Fokus-Bogen mit Scheiter-Stelle aus W9; 60-Sekunden-Entscheidungsspiel.
 
 ---
 
-## Woche 13: Do Now & Exit Ticket – die Klammer der Stunde (+ Konsolidierung Block 2)
+## Woche 13: Do Now & Exit Ticket – Anfang und Ende der Stunde (+ Abschluss Block 2)
 
 **Leitfrage:** Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen?
 
-**Lernziele:** Die TN können Do Nows (jetzt didaktisch, nicht nur organisatorisch) und Exit Tickets entwerfen und auswerten.
+**Lernziele:** Die TN können ein Do Now mit 3–5 Wiederholungsfragen bauen, ein Exit Ticket so bauen, dass es das Mindestziel prüft, und einen Klassensatz in ≤ 10 Minuten sortieren und daraus eine Konsequenz ableiten.
 
-**Kernideen (Lemov T20, T26):**
-1. **Do Now, didaktisch gewendet:** Ideal ist Wiederholung von gestern/letzter Woche/letztem Monat (Vorgriff auf Spacing, Woche 18) – die Routine aus Woche 2 bekommt jetzt Lern-Substanz.
-2. **Exit Ticket (Lemov T26):** 1–3 Aufgaben, exakt an den Meilensteinen (Woche 9) ausgerichtet, in 3–5 Min. lösbar, schriftlich, von allen. Die ehrlichste Antwort auf „Haben sie's gelernt?"
-3. **Auswertung in 10 Minuten:** Stapel sortieren (kann / kann fast / kann nicht), häufigsten Fehler identifizieren, Konsequenz für morgen festlegen (Reteach-Entscheidung).
-4. **Konsolidierung:** Die Stundenarchitektur Block 2 als persönliches Planungs-Template (Do Now → Ziel → I/We/You → Exit Ticket).
+**Kernideen (Lemov „Do Now“, „Exit Ticket“; Bambrick-Santoyo):**
+1. **Do Now mit Wiederholung:** 3–5 Fragen aus gestern, letzter Woche und letztem Monat (Vorgriff auf Spacing, Woche 18) – die Routine aus Woche 2 bekommt eine zweite Aufgabe.
+2. **Exit Ticket:** 1–3 Aufgaben, die das Mindestziel aus W9 prüfen, in 3–5 Min. lösbar, schriftlich, von allen. Die ehrlichste Antwort auf „Haben sie's gelernt?“
+3. **Auswertung in 10 Minuten:** in drei Stapel sortieren (kann es / kann es fast / noch nicht), häufigsten Fehler notieren, eine Konsequenz für morgen. Faustregel: mehr als ein Drittel nicht sicher → neuer Anlauf für alle (vor der Einzelarbeit galt ca. 4 von 5 mit Hilfe; das Ticket zeigt, ob es ohne Hilfe hält).
+4. **Abschluss Block 2:** Der Planungsbogen entlang der fünf Fragen aus W8 (Ziel → Einstieg → Erklären → gemeinsam üben → allein üben → Exit Ticket).
 
-**Typische Fehlvorstellungen:** „Exit Tickets muss ich benoten/korrigieren wie Klassenarbeiten" (nein – sortieren und Muster erkennen genügt); „Keine Zeit für Rituale am Ende" (Puffer einplanen, Woche 7).
+**Typische Fehlvorstellungen:** „Exit Tickets muss ich benoten/korrigieren wie Klassenarbeiten“ (nein – sortieren und Muster erkennen genügt); „Keine Zeit für Rituale am Ende“ (Puffer einplanen, Woche 7).
 
-**Übungsteil:** Exit-Ticket-Schreibwerkstatt (für reale Stunden nächster Woche, gegenseitiges Feedback: misst es wirklich den Meilenstein?); Sortier-Übung mit echten anonymisierten Schülerantworten; **Meilenstein-Check Block 2** (kumulatives Quiz Wochen 1–13).
+**Übungsteil:** Rückblick auf das Block-2-Quiz (vorab in der SPA); Schreibwerkstatt für Exit Ticket und Do Now einer realen Stunde nächster Woche (Tandem-Frage: Welche Aufgabe prüft dein Mindestziel?); Sortier-Übung mit echten anonymisierten Schülerantworten gegen die Uhr.
 
-**Action Step:** „Ich schließe diese Woche jede Stunde in Klasse X mit einem Exit Ticket und passe die Folgestunde einmal nachweislich an."
+**Action Step:** „Ich schließe diese Woche jede Stunde in Klasse X mit einem Exit Ticket und passe die Folgestunde einmal nachweislich an.“
 
-**➜ GRUPPENHOSPITATION 2 (in Woche 12/13):** Fokus I do / We do – Wortlaut einer Modellierung protokollieren; Fading-Stufen identifizieren.
+**➜ GRUPPENHOSPITATION 2 (in Woche 12/13):** Fokus I do / We do – Wortlaut einer Erklärung protokollieren; Stufen der Treppe erkennen.
 
-**SPA-Bausteine:** Schätzung vs. Wirklichkeit (eigene Schätzung, später mit dem ersten echten Ticket verglichen); Do Now: Wiederholung oder Vorschau? + eigenes 3-2-1-Do-Now; Exit-Ticket-Gütecheck an 5 Beispielen; eigenes Ticket (Meilensteine aus W9 übernehmbar); Sortier-Simulation mit 25 Tickets gegen die Uhr + Konsequenz-Entscheidung; „Block 2 auf einer Seite" (Planungsbogen entlang der fünf Fragen, vorbefüllbar aus W9–W12); Block-2-Quiz als Selbstkorrektur-Karten; Kompetenzmatrix Felder 4–5.
+**SPA-Bausteine:** Schätzung vs. Wirklichkeit (eigene Schätzung, später mit dem ersten echten Ticket verglichen); Do Now: Szene, Wiederholung oder Vorschau? + eigenes Do Now mit 3–5 Fragen; Exit-Ticket-Gütecheck an 5 Beispielen; eigenes Ticket (Mindestziel und Meilensteine aus W9 übernehmbar); Sortier-Simulation mit 25 Tickets gegen die Uhr + Konsequenz-Entscheidung; „Block 2 auf einer Seite“ (Planungsbogen entlang der fünf Fragen, vorbefüllbar aus W9–W12); Block-2-Quiz (20 Karten, davon 11 Szenen) zur Selbstkorrektur vor der Sitzung; Kompetenzmatrix Felder 4–5.
 
 ---
+
 
 # BLOCK 3: LERNPSYCHOLOGIE & GEDÄCHTNIS (Wochen 14–19)
 

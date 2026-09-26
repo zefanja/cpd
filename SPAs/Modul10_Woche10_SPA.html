@@ -142,6 +142,8 @@ input[type=number]{max-width:6rem}
   padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
 }
 .cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
 
 /* ---------- Formel-Karten ---------- */
 .formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
@@ -256,6 +258,8 @@ input[type=number]{max-width:6rem}
   #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
   .pagebreak{break-before:page}
 }
+.scene{background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
 </style>
 </head>
 <body>
@@ -276,11 +280,11 @@ input[type=number]{max-width:6rem}
 <!-- 0 · START -->
 <section class="screen" data-title="Start">
   <span class="eyebrow">Woche 10 · Block 2 · Frage 3 · Fortbildung Sek I/II</span>
-  <h1>Wie erkläre ich so, dass Schüler ohne Vorkenntnisse wirklich folgen können?</h1>
+  <h1>Wie erkläre ich so, dass jemand folgen kann, für den der Stoff neu ist?</h1>
   <p class="lead">In Stunde A aus Woche 8 hat die Lehrerin 15 Minuten am Stück erklärt: drei Begriffe, zwei Verfahren, zwei Anwendungen. Stunde B hat vier Minuten gebraucht, für einen Begriff und ein Verfahren. Ausgerechnet deine Stärke, dein Fachwissen, macht es schwer, so kleine Schritte zu sehen. Heute lernst du, warum das so ist und was dagegen hilft.</p>
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
-    <p style="font-size:.9rem">Du testest zuerst an einem Schuh, wie groß deine Schritte beim Erklären sind. Dann vergleichst du zwei Erklärungen desselben Inhalts und lernst die vier Teile guten Vormachens kennen. Du zerlegst einen Inhalt aus deinem Fach in kleine Schritte, nimmst dich beim Erklären auf und legst eine Sammlung typischer Fehler aus deinem Fach an.</p>
+    <p style="font-size:.9rem">Ein Experiment mit geklopften Liedern und ein Schuh zeigen dir, warum deine Schritte beim Erklären größer sind, als du denkst. Dann vergleichst du zwei Erklärungen desselben Inhalts, lernst die vier Bausteine einer Erklärung kennen und erkennst sie in kurzen Szenen. Du zerlegst einen Inhalt aus deinem Fach in kleine Schritte, nimmst dich beim Erklären auf und legst eine Sammlung typischer Fehler aus deinem Fach an.</p>
   </div>
   <div class="formula-card">
     <h4>Frage 3 aus Woche 8</h4>
@@ -294,7 +298,7 @@ input[type=number]{max-width:6rem}
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
     <span class="badge">⏱ ca. 30 Min.</span>
-    <span class="badge">📖 Kernquellen: Lovell/Dowley R7 (Explaining/Modelling); Rosenshine P2/P4; Lemov (Think Aloud)</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R7 (Explaining/Modelling); Rosenshine P2/P4; Newton (1990) zum Fluch des Wissens; Lemov (Think Aloud)</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
@@ -303,7 +307,20 @@ input[type=number]{max-width:6rem}
 <!-- 1 · FLUCH DES WISSENS -->
 <section class="screen" data-title="Der Fluch des Wissens">
   <span class="eyebrow">Station 1 · Der Fluch des Wissens</span>
-  <h2>Beschreib in Einzelschritten, wie man einen Schuh zubindet.</h2>
+  <h2>Ein Experiment mit geklopften Liedern.</h2>
+  <div class="scene"><span class="tag">Szene</span>1990 bat die Psychologin Elizabeth Newton in Stanford Versuchspersonen, bekannte Lieder wie „Happy Birthday“ mit dem Finger auf den Tisch zu klopfen. Ein Gegenüber sollte das Lied erraten. Die Klopfer schätzten vorher, dass etwa jedes zweite Lied erkannt würde. Insgesamt wurden 120 Lieder geklopft.</div>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="newtonGuess">Deine Schätzung: Wie viele der 120 Lieder wurden erkannt?</label>
+      <input type="text" id="newtonGuess" data-store="newtonGuess" placeholder="z. B. 40">
+    </div>
+    <p style="margin-top:.8rem"><button class="btn small" id="newtonRevealBtn">Auflösen</button></p>
+    <div class="reveal" id="newtonReveal">
+      <p class="punchline">3 von 120.</p>
+      <p style="margin-top:.6rem">Die Klopfer hörten beim Klopfen die Melodie im Kopf. Die Zuhörer hörten nur ein Klopfen. Wenn du erklärst, hörst du die Melodie. Deine Klasse hört Klopfen.</p>
+    </div>
+  </div>
+  <h2 style="margin-top:1.8rem">Beschreib in Einzelschritten, wie man einen Schuh zubindet.</h2>
   <p class="lead">Für jemanden, der es noch nie gemacht hat. Jeder Schritt bekommt eine eigene Zeile, so klein wie möglich. Nimm dir wirklich eine Minute.</p>
   <div class="card">
     <div id="shoeList"></div>
@@ -315,7 +332,7 @@ input[type=number]{max-width:6rem}
     <p style="margin-top:.6rem">So sieht eine Version aus, die wirklich nichts voraussetzt:</p>
     <ol class="sample-list" id="shoeSampleList"></ol>
     <p class="punchline">So fühlt sich dein Fach für deine Klasse an.</p>
-    <p style="margin-top:.6rem">Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte sind für dich zu einem einzigen Schritt verschmolzen. Für einen Schüler ohne Vorkenntnisse sind es immer noch viele.</p>
+    <p style="margin-top:.6rem">Wer etwas gut kann, kann sich buchstäblich nicht mehr vorstellen, es nicht zu können. Die Zwischenschritte sind für dich zu einem einzigen Schritt verschmolzen. Für jemanden, für den der Stoff neu ist, sind es immer noch viele.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Transkript-Check →</button></p>
 </section>
@@ -324,29 +341,32 @@ input[type=number]{max-width:6rem}
 <section class="screen" data-title="Version 1 vs. Version 2">
   <span class="eyebrow">Station 2 · Dieselbe Erklärung, zweimal</span>
   <h2>Version 1 zeigt, dass ich es kann. Version 2 zeigt, wie man es macht.</h2>
-  <p class="lead">Gleicher Inhalt – Kommasetzung bei „weil" –, zweimal erklärt. Lies beide. Tippe dann in Version 2 alle Momente an, in denen wirklich „laut gedacht" wird: Selbstfragen, Entscheidungen, die Falle.</p>
+  <p class="lead">Gleicher Inhalt, der Prozentwert aus Stunde B (Woche 8): „20 % Rabatt auf 60 €“, zweimal erklärt. Lies beide. Tippe dann in Version 2 alle Momente an, in denen wirklich laut gedacht wird: Selbstfragen, Entscheidungen, die Falle, die Kontrolle.</p>
   <div class="version-block">
-    <h4>Version 1 · Ergebnis-Präsentation</h4>
-    <p>Bei „weil" kommt ein Komma. Beispiel: „Ich bleibe zu Hause, weil es regnet." Fertig.</p>
+    <h4>Version 1 · Ergebnis vorführen</h4>
+    <p>Prozentwert: W = G · p : 100. Hier: 60 · 20 : 100 = 12. Der Rabatt beträgt 12 €. Fertig.</p>
   </div>
   <div class="version-block">
-    <h4>Version 2 · Modellierung mit Think Aloud</h4>
+    <h4>Version 2 · Vormachen mit lautem Denken</h4>
     <p class="transcript" id="transcriptWrap"></p>
   </div>
   <p style="margin-top:.9rem"><button class="btn ghost small" id="transReset">Zurücksetzen</button> <button class="btn small" id="transCheck">Prüfen</button></p>
   <div class="card reveal" id="transReveal">
     <p id="transScoreText"></p>
-    <p style="margin-top:.6rem">Version 1 zeigt nur das Ergebnis. Version 2 macht Entscheidungen, Selbstfragen und die Falle hörbar – nur Version 2 ist Unterricht.</p>
+    <p style="margin-top:.6rem">Version 1 zeigt nur das Ergebnis. Version 2 macht Entscheidungen, Selbstfragen, die Falle und die Kontrolle hörbar. Nur Version 2 ist Unterricht.</p>
   </div>
-  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Vierklang →</button></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den vier Bausteinen →</button></p>
 </section>
 
-<!-- 3 · DER VIERKLANG -->
-<section class="screen" data-title="Der Vierklang">
-  <span class="eyebrow">Station 3 · Der Vierklang</span>
-  <h2>Der Bauplan jeder Modellierung.</h2>
+<!-- 3 · VIER BAUSTEINE -->
+<section class="screen" data-title="Vier Bausteine einer Erklärung">
+  <span class="eyebrow">Station 3 · Vier Bausteine einer Erklärung</span>
+  <h2>Was eine gute Erklärung ausmacht.</h2>
   <div id="vierklangList"></div>
-  <h3 style="margin-top:1.6rem">Think-Aloud-Satzanfänge</h3>
+  <h3 style="margin-top:1.6rem">Welcher Baustein fehlt?</h3>
+  <p class="lead">Drei kurze Szenen. Tippe den Baustein an, der vor allem fehlt.</p>
+  <div id="bsSceneList"></div>
+  <h3 style="margin-top:1.6rem">Satzanfänge fürs laute Denken</h3>
   <p class="lead">Dein Spickzettel für die nächste Erklärphase.</p>
   <div class="card">
     <ul class="sample-list" id="starterList"></ul>
@@ -388,7 +408,7 @@ input[type=number]{max-width:6rem}
   <p class="lead">Die Aufnahme gehört dir und bleibt auf deinem Gerät. Niemand außer dir sieht oder hört sie.</p>
   <div class="card">
     <h3>Schritt 1 · Aufnahme</h3>
-    <p style="font-size:.9rem">Nimm diese Woche eine 3-Minuten-Modellierung eines echten Fachinhalts auf (nur Ton reicht). Handy auf Stativ/Bücherstapel.</p>
+    <p style="font-size:.9rem">Nimm diese Woche eine 3-Minuten-Erklärung eines echten Fachinhalts auf (nur Ton reicht). Handy auf Stativ oder Bücherstapel.</p>
     <div class="commit-box" style="margin-top:.8rem">
       <input type="checkbox" id="recordDone" data-store="recordDone">
       <label for="recordDone" style="font-weight:600">Aufnahme erledigt.</label>
@@ -437,10 +457,10 @@ input[type=number]{max-width:6rem}
   <p class="lead">Zwei Fragen kommen aus den Vorwochen, damit das Frühere präsent bleibt.</p>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">F6 (Freitext): Skizziere, wie du einen Inhalt aus deinem Fach in drei Minuten vormachst. Schreib wörtlich eine Frage auf, die du dir laut stellst, und deine Falle samt Auflösung.</p>
-    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Selbstfrage: … / Falle: … / Auflösung: …"></textarea>
+    <p class="quiz-q">F6 (Freitext): Skizziere, wie du einen Inhalt aus deinem Fach in drei Minuten nach den vier Bausteinen erklärst. Schreib wörtlich eine Frage auf, die du dir laut stellst, deine Falle samt Auflösung und die Frage, die danach alle beantworten.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Selbstfrage: … / Falle: … / Auflösung: … / Frage an alle: …"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Bewertungsanker anzeigen</button></p>
-    <p class="quiz-note" id="transferNote">Bewertungsanker: Selbstfrage in Ich-Form, Falle benannt + Grund ihrer Verführungskraft + Auflösung.</p>
+    <p class="quiz-note" id="transferNote">Bewertungsanker: Selbstfrage in Ich-Form; Falle benannt, dazu warum sie verführt, und Auflösung; Frage an alle mit eindeutiger Antwort.</p>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
 </section>
@@ -534,51 +554,59 @@ const SHOE_SAMPLE=[
 ];
 
 const TRANSCRIPT_SEGMENTS=[
- {t:'Ich lese zuerst den GANZEN Satz – nicht nur bis zum „weil", den ganzen.',think:true},
- {t:'Jetzt frage ich mich: Wo ist das zweite Verb?',think:true},
- {t:'Da – „regnet".',think:false},
- {t:'Zwei Verben heißt fast immer: zwei Teilsätze.',think:true},
- {t:'Und hier ist die Falle, in die fast alle tappen:',think:true},
- {t:'Viele setzen das Komma nach Gefühl, da wo man Luft holt.',think:true},
- {t:'Klingt vernünftig – geht aber schief, sobald der Satz lang wird.',think:true},
- {t:'Deshalb suche ich nicht nach Luft, sondern nach dem Verb.',think:true}
+ {t:'Ich lese zuerst die ganze Aufgabe.',think:true},
+ {t:'Jetzt frage ich mich: 20 Prozent wovon?',think:true},
+ {t:'Von den 60 €.',think:false},
+ {t:'Das ist das Ganze, also der Grundwert. Das schreibe ich mir hin: G = 60 €.',think:true},
+ {t:'Gesucht ist, wie viel Euro die 20 Prozent sind, also der Prozentwert.',think:true},
+ {t:'Und hier ist die Falle, in die viele tappen:',think:true},
+ {t:'Sie sehen 60 und 20 und rechnen 60 durch 20, das gibt 3.',think:true},
+ {t:'Das fühlt sich nach Rechnen an, ist aber sinnlos: 3 € Rabatt auf 60 € wären nur 5 Prozent.',think:true},
+ {t:'W = 60 · 20 : 100 = 12.',think:false},
+ {t:'Zum Schluss prüfe ich: 10 Prozent von 60 sind 6, also sind 20 Prozent 12. Passt.',think:true}
 ];
 
 const VIERKLANG=[
- {h:'Vormachen',f:'Bewusst entscheiden: einmal in Echtgeschwindigkeit als Vorschau oder gleich Schritt für Schritt.'},
- {h:'Denken laut',f:'Entscheidungen und Selbstfragen hörbar machen.'},
- {h:'Eine Falle zeigen und auflösen',f:'Den typischen Fehler absichtlich ansteuern, benennen, auflösen.'},
- {h:'Kernschritte fixieren',f:'An der Tafel – und sie bleiben stehen.'}
+ {h:'1 · Klein schneiden',f:'Ein neues Element nach dem anderen. Das Exemplar aus Woche 9 zeigt dir die Bausteine. Halbier-Regel: Die Schrittgröße, die sich richtig anfühlt, halbieren.'},
+ {h:'2 · Laut denken',f:'Entscheidungen und Selbstfragen hörbar machen, dazu eine Falle zeigen und auflösen.'},
+ {h:'3 · Nach jedem Schritt alle antworten lassen',f:'Eine kurze Frage, alle schreiben, du siehst die Antworten. Erst dann der nächste Schritt. In Stunde B war das Minute 9.'},
+ {h:'4 · Festhalten',f:'Beim Vormachen liegen die Stifte. Abgeschrieben wird danach; die Kernschritte bleiben an der Tafel stehen.'}
+];
+
+const BS_SCENES=[
+ {tag:'Geschichte, Kl. 9',t:'„Die Ursachen des Ersten Weltkriegs waren Imperialismus, Bündnissysteme, Militarismus und Nationalismus. Schreibt das bitte ab.“',ok:0,note:'Vier neue Begriffe auf einmal (Baustein 1), und statt zu verstehen, wird abgeschrieben (Baustein 4).'},
+ {tag:'Chemie, Kl. 8',t:'Der Lehrer stellt eine Reaktionsgleichung auf, perfekt und schnell, und sagt dazu nur: „So, und dann ausgleichen.“',ok:1,note:'Kein lautes Denken: Wie entscheidet er, womit er anfängt? Woran merkt er, dass es ausgeglichen ist?'},
+ {tag:'Französisch, Kl. 8',t:'Die Lehrerin erklärt zehn Minuten lang sauber das passé composé mit être. Dann folgt das Arbeitsblatt.',ok:2,note:'Niemand musste zwischendurch antworten. Ob der erste Schritt angekommen ist, weiß sie nicht.'}
 ];
 
 const STARTERS=['„Zuerst prüfe ich…"','„Jetzt frage ich mich…"','„Woran erkenne ich…?"','„Hier stutze ich, denn…"','„Viele würden jetzt … tun – verständlich, weil … – aber dann …"','„Ich kontrolliere mein Ergebnis, indem…"'];
 
 const CRIT_LABELS=[
- {b:'Schrittgröße',d:'Ein neues Element nach dem anderen? (Wo kamen zwei auf einmal?)'},
- {b:'Denken hörbar',d:'Selbstfragen/Entscheidungen zu hören?'},
- {b:'Falle',d:'Gezeigt UND aufgelöst?'},
- {b:'Sprachökonomie',d:'Füllwörter, Doppel-Erklärungen, Abschweifer?'}
+ {b:'1 Klein schneiden',d:'Ein neues Element nach dem anderen? (Wo kamen zwei auf einmal?)'},
+ {b:'2 Laut denken',d:'Selbstfragen/Entscheidungen zu hören? Falle gezeigt und aufgelöst?'},
+ {b:'3 Alle antworten',d:'Gab es eine Frage, die alle beantworten mussten?'},
+ {b:'4 Festhalten',d:'Stifte lagen beim Vormachen? Kernschritte stehen an der Tafel?'}
 ];
 
 const QUIZ=[
  {q:'F1. Der Fluch des Wissens bedeutet:',
   opts:[
    {t:'Wissen macht überheblich',ok:false,note:'Reine Wortassoziation, nicht der Kernpunkt.'},
-   {t:'Experten unterschätzen systematisch, was Schülern ohne Vorkenntnisse fehlt – Zwischenschritte sind unsichtbar verschmolzen',ok:true,note:'Genau – die eigene Erfahrung macht Schrittgrößen unsichtbar.'},
+   {t:'Wer etwas gut kann, unterschätzt, was Anfängern fehlt: Die Zwischenschritte sind für ihn unsichtbar zu einem verschmolzen',ok:true,note:'Genau – die eigene Erfahrung macht Schrittgrößen unsichtbar.'},
    {t:'Zu viel Wissen verwirrt die SuS',ok:false,note:'Nicht der Kernpunkt.'},
    {t:'Fachwissen veraltet schnell',ok:false,note:'Hat mit dem Fluch des Wissens nichts zu tun.'}
   ]},
  {q:'F2. Während du modellierst, sollen die SuS…',
   opts:[
-   {t:'alles mitschreiben – sonst geht es verloren',ok:false,note:'Der Eltern-Reflex, aber wer gleichzeitig versteht und abschreibt, tut beides halb.'},
-   {t:'nur zusehen/zuhören; fixiert wird danach vom stehenden Tafelbild',ok:true,note:'Genau – Verstehen zuerst, Fixieren danach als eigener Schritt.'},
+   {t:'alles mitschreiben, sonst geht es verloren',ok:false,note:'Klingt fleißig, aber wer gleichzeitig versteht und abschreibt, tut beides halb.'},
+   {t:'nur zusehen und zuhören; abgeschrieben wird danach vom stehenden Tafelbild',ok:true,note:'Genau: erst verstehen, dann festhalten, als eigener Schritt.'},
    {t:'parallel schon Aufgaben lösen',ok:false,note:'Dann hören sie nicht zu. Geübt wird nach dem Vormachen.'},
    {t:'im Buch mitlesen',ok:false,note:'Lenkt von deinem lauten Denken ab.'}
   ]},
  {q:'F3. Eine typische Falle absichtlich vorführen…',
   opts:[
-   {t:'setzt den Fehler erst in die Köpfe',ok:false,note:'DIE Angst – klingt plausibel, stimmt aber nicht.'},
-   {t:'immunisiert: benannt + aufgelöst schützt besser als Warnungen',ok:true,note:'Genau – die verschwiegene Falle lauert, die aufgelöste schützt.'},
+   {t:'setzt den Fehler erst in die Köpfe',ok:false,note:'Die häufigste Sorge. Sie klingt plausibel, stimmt aber nicht.'},
+   {t:'schützt: benannt und aufgelöst hilft sie mehr als zehn Warnungen',ok:true,note:'Genau: Die verschwiegene Falle lauert, die aufgelöste schützt.'},
    {t:'verwirrt schwache SuS',ok:false,note:'Das Gegenteil ist der Fall.'},
    {t:'kostet zu viel Zeit',ok:false,note:'Nicht der Kernpunkt.'}
   ]},
@@ -589,12 +617,12 @@ const QUIZ=[
    {t:'unter dem Niveau der Klasse',ok:false,note:'Meist das Gegenteil.'},
    {t:'ein Zeichen schlechter Vorbereitung',ok:false,note:'Kein Zusammenhang.'}
   ]},
- {q:'F5. „Version 1" (flüssige Ergebnis-Präsentation) zeigt der Klasse…',
+ {q:'F5. Eine Kollegin erklärt zehn Minuten lang klar und fehlerfrei. Danach hat niemand Fragen. Welcher Baustein fehlt wahrscheinlich?',
   opts:[
-   {t:'wie man es macht',ok:false,note:'Genau das zeigt sie nicht.'},
-   {t:'dass die Lehrkraft es kann – das Vorgehen bleibt unsichtbar',ok:true,note:'Genau – Ergebnis-Sprache statt Vorgehen.'},
-   {t:'alles Nötige, wenn sie kurz ist',ok:false,note:'Kürze ersetzt kein sichtbares Vorgehen.'},
-   {t:'zu wenig Fachlichkeit',ok:false,note:'Am Fachwissen liegt es nicht.'}
+   {t:'klein schneiden',ok:false,note:'Möglich, aber nicht sicher.'},
+   {t:'nach jedem Schritt alle antworten lassen',ok:true,note:'Genau. Ohne Antworten weiß sie nicht, was angekommen ist, und „keine Fragen“ heißt nicht „verstanden“.'},
+   {t:'festhalten',ok:false,note:'Darüber sagt die Szene nichts.'},
+   {t:'keiner, die Erklärung war ja klar',ok:false,note:'Klingt vernünftig, aber klar erklärt ist noch nicht verstanden.'}
   ]},
  {q:'🔁 Woche 8: Dein Stundenprofil zeigt einen roten Block von 19 Minuten. Welche Frage betrifft das vor allem?',
   opts:[
@@ -617,12 +645,13 @@ const ACTIONSTEPS=[
   text:'In einer Erklärphase pro Tag denke ich hörbar laut und zeige dabei eine Falle, die ich absichtlich vorführe und auflöse. Die Falle wähle ich vorher aus den Fehlern der letzten Klassenarbeit oder Übung.'},
  {id:'audio',label:'Selbst-Audio (Alternative)',
   text:'Ich nehme eine Erklärphase mit dem Handy auf (Ton reicht) und zähle abends die neuen Elemente pro Minute. Dann wende ich die Halbier-Regel an.'},
- {id:'stifteweg',label:'Stifte-weg-Woche (Alternative)',
-  text:'Jedes Vormachen beginne ich mit der Ansage „Stifte weg, erst schauen, gleich schreiben“, und danach schreiben alle vom Tafelbild ab.'}
+ {id:'stifteweg',label:'Nach jedem Schritt (Alternative)',
+  text:'In jeder Erklärphase dieser Woche beantworten nach jedem Teilschritt alle eine kurze Frage schriftlich (Whiteboard oder Zettel), bevor ich weitererkläre.'}
 ];
 
 /* ================= Zustand & Speicherung ================= */
 let state={name:'',
+ newtonGuess:'',newtonRevealed:false,bsSel:BS_SCENES.map(()=>-1),
  shoeSteps:['','',''],shoeRevealed:false,
  transSel:TRANSCRIPT_SEGMENTS.map(()=>false),transChecked:false,
  atomContent:'',atomSteps:['','',''],
@@ -661,7 +690,8 @@ const store=(function(){
 
 function normalizeState(){
   if(!Array.isArray(state.shoeSteps)||!state.shoeSteps.length)state.shoeSteps=['','',''];
-  if(!Array.isArray(state.transSel)||state.transSel.length!==TRANSCRIPT_SEGMENTS.length)state.transSel=TRANSCRIPT_SEGMENTS.map(()=>false);
+  if(!Array.isArray(state.transSel)||state.transSel.length!==TRANSCRIPT_SEGMENTS.length){state.transSel=TRANSCRIPT_SEGMENTS.map(()=>false);state.transChecked=false;}
+  if(!Array.isArray(state.bsSel)||state.bsSel.length!==BS_SCENES.length)state.bsSel=BS_SCENES.map(()=>-1);
   if(!Array.isArray(state.atomSteps)||!state.atomSteps.length)state.atomSteps=['','',''];
   if(!Array.isArray(state.critVals)||state.critVals.length!==CRIT_LABELS.length)state.critVals=CRIT_LABELS.map(()=>false);
   if(typeof state.elCount!=='number')state.elCount=0;
@@ -818,7 +848,34 @@ document.getElementById('transReset').addEventListener('click',()=>{
   document.getElementById('transReveal').classList.remove('on');
 });
 
-/* ================= Name it: Vierklang & Starter ================= */
+/* ================= Station 1: Newton ================= */
+document.getElementById('newtonRevealBtn').addEventListener('click',()=>{
+  state.newtonRevealed=true;scheduleSave();document.getElementById('newtonReveal').classList.add('on');
+});
+
+/* ================= Station 3: Welcher Baustein fehlt? ================= */
+function renderBsScenes(){
+  const wrap=document.getElementById('bsSceneList');wrap.innerHTML='';
+  BS_SCENES.forEach((sc,i)=>{
+    const sel=state.bsSel[i];
+    let chips='';
+    VIERKLANG.forEach((v,j)=>{
+      let cls='cat-chip';
+      if(sel>-1){if(j===sc.ok)cls+=' correct';else if(j===sel)cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+v.h+'</button>';
+    });
+    const div=document.createElement('div');div.className='card';
+    div.innerHTML='<div class="scene" style="margin-top:0"><span class="tag">'+sc.tag+'</span>'+sc.t+'</div><div class="chip-row">'+chips+'</div>'
+      +(sel>-1?'<p class="hint" style="margin-top:.6rem">'+(sel===sc.ok?'✓ ':'✗ ')+sc.note+'</p>':'');
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.bsSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderBsScenes();renderSummary();
+  }));
+}
+function bsScore(){return state.bsSel.reduce((a,v,i)=>a+(v===BS_SCENES[i].ok?1:0),0);}
+
+/* ================= Name it: Vier Bausteine & Starter ================= */
 function renderVierklang(){
   const wrap=document.getElementById('vierklangList');wrap.innerHTML='';
   VIERKLANG.forEach(v=>{
@@ -999,7 +1056,8 @@ function renderSummary(){
   const rows=[
    ['Fluch-des-Wissens-Selbsttest', state.shoeRevealed?'✓ '+shoeCount()+' Schritte notiert':'noch offen',state.shoeRevealed],
    ['Transkript-Check', state.transChecked?'✓ '+transScore()+'/'+TRANSCRIPT_SEGMENTS.length+' richtig erkannt':'noch offen',state.transChecked],
-   ['Atomisierungs-Trainer', (state.atomContent&&atomCount()>0)?'✓ '+atomCount()+' Teilschritte':'noch offen',!!(state.atomContent&&atomCount()>0)],
+   ['Welcher Baustein fehlt?', state.bsSel.every(v=>v>-1)?'✓ '+bsScore()+'/'+BS_SCENES.length+' richtig':state.bsSel.filter(v=>v>-1).length+'/'+BS_SCENES.length,state.bsSel.every(v=>v>-1)],
+   ['In kleine Schritte zerlegt', (state.atomContent&&atomCount()>0)?'✓ '+atomCount()+' Teilschritte':'noch offen',!!(state.atomContent&&atomCount()>0)],
    ['Selbstaufnahme', state.recordDone?'✓ aufgenommen · '+state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length+' Kriterien':'noch offen',state.recordDone],
    ['Fallen-Bibliothek', fallenCount()+' Falle(n) eingetragen',fallenCount()>0],
    ['Quiz', quizDone===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone+'/'+QUIZ.length+' beantwortet',quizDone===QUIZ.length],
@@ -1032,7 +1090,8 @@ function summaryText(){
   let t='MODUL 10 · MODELLIEREN & ERKLÄREN – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+d+'\n\n';
   t+='— FLUCH-DES-WISSENS-SELBSTTEST —\n'+shoeCount()+' Schritte notiert (Musterlösung: '+SHOE_SAMPLE.length+')\n'+state.shoeSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join('\n')+'\n';
   t+='\n— TRANSKRIPT-CHECK —\n'+transScore()+' von '+TRANSCRIPT_SEGMENTS.length+' Segmenten richtig erkannt\n';
-  t+='\n— ATOMISIERUNGS-TRAINER —\nFachinhalt: '+(state.atomContent||'–')+'\n'+state.atomSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join('\n')+'\n';
+  t+='\n— WELCHER BAUSTEIN FEHLT? —\n'+bsScore()+' von '+BS_SCENES.length+' richtig\nSchätzung Klopf-Experiment: '+(state.newtonGuess||'–')+' von 120\n';
+  t+='\n— IN KLEINE SCHRITTE ZERLEGT —\nFachinhalt: '+(state.atomContent||'–')+'\n'+state.atomSteps.filter(s=>s&&s.trim()).map((s,i)=>(i+1)+'. '+s).join('\n')+'\n';
   t+='\n— SELBSTAUFNAHME —\nAufnahme erledigt: '+(state.recordDone?'ja':'nein')+'\nKriterien erfüllt: '+state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length+'\nStärkster Moment: '+(state.strongMoment||'–')+'\nImpuls: '+(state.impulse||'–')+'\nNeue Elemente/Min.: '+state.elCount+'\n';
   t+='\n— FALLEN-BIBLIOTHEK —\n'+(state.fallen.filter(f=>f.fehler&&f.fehler.trim()).map(f=>'Fehler: '+f.fehler+' | Verführung: '+f.verfuehrung+' | Auflösung: '+f.aufloesung).join('\n')||'–')+'\n';
   t+='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
@@ -1061,7 +1120,7 @@ function buildPrint(){
   const f=(q,a)=>'<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';
   h+='<h2>Fluch-des-Wissens-Selbsttest</h2>'+f('Schritte notiert:',shoeCount()+' (Musterlösung: '+SHOE_SAMPLE.length+')');
   h+='<h2>Transkript-Check</h2>'+f('Richtig erkannt:',transScore()+' von '+TRANSCRIPT_SEGMENTS.length);
-  h+='<div class="pagebreak"></div><h2>Atomisierungs-Trainer</h2>'+f('Fachinhalt:',state.atomContent)+f('Teilschritte:',state.atomSteps.filter(s=>s&&s.trim()).join(' / '));
+  h+='<div class="pagebreak"></div><h2>In kleine Schritte zerlegt</h2>'+f('Fachinhalt:',state.atomContent)+f('Teilschritte:',state.atomSteps.filter(s=>s&&s.trim()).join(' / '));
   h+='<h2>Selbstaufnahme</h2>'+f('Aufnahme erledigt:',state.recordDone?'ja':'nein')+f('Kriterien erfüllt:',state.critVals.filter(Boolean).length+'/'+CRIT_LABELS.length)+f('Stärkster Moment:',state.strongMoment)+f('Impuls:',state.impulse)+f('Neue Elemente/Min.:',String(state.elCount));
   h+='<div class="pagebreak"></div><h2>Fallen-Bibliothek</h2>'+f('Einträge:',state.fallen.filter(fx=>fx.fehler&&fx.fehler.trim()).map(fx=>fx.fehler+' → '+fx.aufloesung).join(' | '));
   h+='<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+f('F6:',state.transferAnswer);
@@ -1085,7 +1144,8 @@ function downloadStateFile(){
   }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
 }
 function refreshAllUI(){
-  bindStores();renderShoe();renderTranscript();renderVierklang();renderStarters();
+  bindStores();renderShoe();renderTranscript();renderVierklang();renderBsScenes();renderStarters();
+  document.getElementById('newtonReveal').classList.toggle('on',!!state.newtonRevealed);
   renderAtom();renderCrit();renderElCount();renderFallen();
   renderQuiz();renderSteps();updateCommitLabel();renderSummary();
   if(state.shoeRevealed){

@@ -117,7 +117,7 @@ Aufgabe: „Begründe in 3–4 Sätzen, ob 16-Jährige wählen dürfen sollten."
 
 ## Teil 1: Retrieval-Starter (Min. 2–9, als Muster-Whiteboard-Routine!)
 1. Die Standard-Choreografie W23? *(Write 1–3 Min. → Talk 30–90 Sek. → Ernte mit Partnerfrage)*
-2. Vier der sechs Turn-and-Talk-Stellschrauben? 3. Warum Schreiben vor Reden – der wichtigste Effekt? *(jeder denkt; Denkzeit demokratisch)* 4. ActiveObs in einem Satz (W12)? 5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus W21: kalte Zonen gezielt ansteuern)*
+2. Vier der sechs Turn-and-Talk-Stellschrauben? 3. Warum Schreiben vor Reden – der wichtigste Effekt? *(jeder denkt; Denkzeit demokratisch)* 4. Der Prüf-Fokus beim Rundgang in einem Satz (W12)? 5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus W21: kalte Zonen gezielt ansteuern)*
 
 ## Teil 2: Modul-Quiz Woche 24 (für SPA/Folgewoche)
 **F1.** Mini-Whiteboards in der Oberstufe sind…

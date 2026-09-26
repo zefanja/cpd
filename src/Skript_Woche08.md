@@ -98,7 +98,7 @@ Zu jeder Frage eine kurze Szene vorlesen (je ca. 1 Min.) und einen Satz dazu sag
 **Frage 1 · Ziel (W9)**
 > *Szene: An der Tafel steht „Heute: Stromkreise“. Die Gruppen bauen, zeichnen, gestalten ein Plakat. Am Ende fragt ein Kollege: „Was sollten sie heute lernen?“ Die Antwort: „Na, Stromkreise.“*
 
-*„Ein Thema ist kein Ziel. Ein Ziel ist eine Aufgabe, die am Ende alle lösen können sollen. Das ist nächste Woche dran.“*
+*„Ein Thema ist kein Ziel. Ein Ziel ist eine Aufgabe, die am Ende alle lösen können sollen. Nächste Woche nennen wir das das Mindestziel und bauen darauf weitere Meilensteine für die Stärkeren auf.“*
 
 **Frage 2 · Einstieg (P1, P10 → W13)**
 > *Szene: „Letzte Stunde hatten wir die Weimarer Verfassung. Wer weiß noch etwas?“ Drei Hände, drei gute Antworten. Die Lehrerin ist zufrieden. Die anderen 24 haben zugehört, oder auch nicht.*
@@ -208,7 +208,7 @@ Exit-Karte: Standard + Erinnerungszeile: Thema einer echten Stunde der kommenden
 | 5–12 | Sie erklärt **nur** den Prozentwert und **nur** die Formel. Ein Beispiel rechnet sie laut denkend vor, beim zweiten nennen die Schüler die Schritte. Nach 4 Minuten schreiben alle auf ihr Whiteboard: „20 % Rabatt auf 60 €. Was ist hier der Grundwert?“ und halten es gleichzeitig hoch. | 1, 3, 4 |
 | 12–22 | Drei Aufgaben gemeinsam: Bei der ersten diktieren die Schüler, sie schreibt. Die zweite rechnen alle auf dem Whiteboard und zeigen gleichzeitig. Die dritte rechnen alle allein, ohne Hilfe an der Tafel. Sie zählt mit: 22 von 27 richtig. Die fünf anderen kommen an den Vordertisch. | 4, 5 |
 | 22–38 | Buch Nr. 1–6 allein, von leicht nach schwer. Sie geht zuerst zu den fünf am Vordertisch, dann in einer festen Runde durch alle Reihen und setzt Häkchen bei richtigen Lösungen. | 5 |
-| 38–45 | Zwei Aufgaben auf einem Zettel, alle geben ab. Nach der Stunde sortiert sie die Zettel in zwei Stapel: „kann es“ und „noch nicht“. | 1, 5 |
+| 38–45 | Zwei Aufgaben auf einem Zettel, alle geben ab. Nach der Stunde sortiert sie die Zettel in drei Stapel: „kann es“, „kann es fast“ und „noch nicht“. | 1, 5 |
 
 *Nächste Stunde, dieselbe Einstiegsaufgabe: 23 von 27 lösen sie richtig. Grundwert und Prozentsatz kommen in den nächsten Stunden.*
 

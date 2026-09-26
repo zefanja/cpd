@@ -127,7 +127,7 @@ Medium: … → Mein Beachtungs-Auftrag (wörtlich): … | Kernsatz der Stunde: 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
 1. Die drei großen Last-Fresser? *(Split Attention, Redundanz, Transienz)*
 2. Intrinsische vs. lästige Last – je ein Beispiel? *(Aufgabenschwierigkeit erwünscht / Suchen, Parallelkanäle, Entziffern unerwünscht)*
-3. Die vier Ampel-Kriterien für Meilensteine (Block 2)? *(kumulativ, verteilt, messbar, klar)*
+3. Mindestziel und die drei Ampel-Kriterien für Meilensteine (Block 2)? *(was alle können sollen; aufbauend, ansteigend, prüfbar)*
 4. Warum bleibt Wichtiges an der Tafel stehen – Fachbegriff? *(Transienz; Board = Paper)*
 5. (Anwendung) Deine Folie: Bild + 60 Wörter + du sprichst. Diagnose + Fix? *(Split Attention/Redundanz → ein Träger: Bild behalten, Text in den Mund, Kernbegriffe als Beschriftung)*
 

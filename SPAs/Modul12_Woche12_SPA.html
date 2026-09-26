@@ -346,8 +346,7 @@ textarea{min-height:4.2em}
   <p class="lead">Niemand außer dir sieht die Antwort. Wähle, was am ehesten zutrifft.</p>
   <div class="abc" id="abcList"></div>
   <div class="card reveal" id="abcReveal">
-    <p>In den Kursen dieser Fortbildung antworten die meisten A oder B. Das ist kein Vorwurf. Beides sind natürliche Antworten in einem Beruf mit zu wenig Zeit.</p>
-    <div id="abcStats"></div>
+    <p>Die meisten Lehrkräfte wählen A oder B. Das ist kein Vorwurf. Beides sind natürliche Antworten in einem Beruf mit zu wenig Zeit.</p>
     <p style="margin-top:.9rem">Aber: Die Einzelarbeit ist die einzige Phase, in der alle gleichzeitig schriftlich zeigen, was angekommen ist. Es ist die Viertelstunde, in der du am meisten über deine Klasse erfahren kannst. Wer korrigiert oder den Meldungen hinterherläuft, verpasst genau das.</p>
     <p class="punchline">Ich helfe nicht dem Lautesten. Ich lese den Raum.</p>
   </div>
@@ -392,15 +391,24 @@ textarea{min-height:4.2em}
   <p class="lead">Vier Lehrkräfte eröffnen eine Einzelarbeit. Bei jeder fehlt genau eine Bedingung.</p>
   <div id="openList"></div>
   <div class="formula-card">
-    <h4>So läuft der Rundgang</h4>
+    <h4>Der Standard in drei Teilen</h4>
+    <p class="f" style="font-size:.95rem;margin-top:.2rem">Vorher</p>
     <ul class="check-list">
-      <li><strong>Früh in den Raum.</strong> In den ersten zwei Minuten mitten hinein, nicht am Pult bleiben.</li>
-      <li><strong>Route statt Meldungen.</strong> Die Reihenfolge planst du vorher, deine Frühwarn-Plätze aus Woche 5 zuerst.</li>
-      <li><strong>Hefte lesen.</strong> Dein Blick geht auf die Hefte, nicht über die Köpfe. Häkchen, Unterstreichung, „Schau Zeile 3“. Drei Sekunden pro Heft reichen.</li>
-      <li><strong>Kurz bleiben.</strong> Höchstens 60 Sekunden pro Einzelhilfe. Wer fünf Minuten neben einem Schüler kniet, sieht die anderen 25 nicht, und die wissen das.</li>
-      <li><strong>Beim dritten gleichen Fehler: Sammelklärung.</strong> Kurz unterbrechen, einmal für alle klären.</li>
+      <li><strong>Startbedingungen</strong> klären (die fünf von oben).</li>
+      <li><strong>Route</strong> planen, deine Frühwarn-Plätze aus Woche 5 zuerst.</li>
+      <li><strong>Prüf-Fokus</strong> in einem Satz festlegen: Wonach suche ich in den Heften?</li>
     </ul>
-    <p>Dazu führst du auf einem Klemmbrett eine Liste der drei häufigsten Fehler. Das ist die Grundlage für den Einstieg der nächsten Stunde.</p>
+    <p class="f" style="font-size:.95rem;margin-top:.6rem">Während</p>
+    <ul class="check-list">
+      <li><strong>Früh in den Raum:</strong> in den ersten zwei Minuten mitten hinein, nicht am Pult bleiben.</li>
+      <li><strong>Hefte lesen:</strong> Der Blick geht in die Hefte, nicht über die Köpfe. Häkchen, Unterstreichung, „Schau Zeile 3“. Drei Sekunden pro Heft reichen.</li>
+      <li><strong>Kurz bleiben:</strong> höchstens 60 Sekunden pro Einzelhilfe. Wer fünf Minuten neben einem Schüler kniet, sieht die anderen 25 nicht, und die wissen das.</li>
+      <li><strong>Fehler zählen:</strong> auf dem Klemmbrett die drei häufigsten Fehler mitschreiben. Das ist die Grundlage für den Einstieg der nächsten Stunde.</li>
+    </ul>
+    <p class="f" style="font-size:.95rem;margin-top:.6rem">Ab drei gleichen Fehlern</p>
+    <ul class="check-list">
+      <li><strong>Sammelklärung:</strong> kurz unterbrechen, einmal für alle klären.</li>
+    </ul>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu deiner Route →</button></p>
 </section>
@@ -422,7 +430,7 @@ textarea{min-height:4.2em}
     <div class="check-out" id="routeCheck"></div>
   </div>
   <div class="card">
-    <h3>Worauf achtest du?</h3>
+    <h3>Dein Prüf-Fokus: Worauf achtest du?</h3>
     <p class="hint">Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als in zwanzig Minuten allgemeinem Helfen. Den Fehler, nach dem du suchst, kennst du aus deinem Exemplar (Woche 9) und deiner Fallen-Sammlung (Woche 10).</p>
     <div id="w9Suggest"></div>
     <div class="field">
@@ -553,7 +561,7 @@ const ABC=[
  {k:'B',t:'Dem geholfen, der sich zuerst gemeldet hat, dann dem nächsten'},
  {k:'C',t:'Gezielt geprüft, was bei den Schülern ankommt'}
 ];
-const ABC_STATS=[38,49,13];
+
 
 const RULES=[
  {k:'Früh in den Raum',q:'In den ersten zwei Minuten mitten hinein.'},
@@ -746,8 +754,7 @@ function renderAbc(){
     b.addEventListener('click',()=>{state.abc=j;scheduleSave();renderAbc();renderSummary();});
     wrap.appendChild(b);
   });
-  document.getElementById('abcStats').innerHTML=ABC.map((a,j)=>'<div class="stat-row">'+a.k+' · '+a.t+' <strong>'+ABC_STATS[j]+' %</strong><div class="stat-bar"><span style="width:'+ABC_STATS[j]+'%"></span></div></div>').join('')
-    +'<p class="hint" style="margin-top:.4rem">Ungefähre Verteilung aus früheren Kursen, keine repräsentative Erhebung.</p>';
+
   document.getElementById('abcReveal').classList.toggle('on',state.abc>-1);
 }
 
@@ -890,7 +897,7 @@ function routeChecks(){
     const inZone=seats.filter(i=>{const r=Math.floor(i/state.cols),c=i%state.cols;return (r>=hr)===!!zr&&(c>=hc)===!!zc;});
     return inZone.length&&!inZone.some(i=>state.route.includes(i));
   }).map(z=>z[0]);
-  if(dead.length)out.push({c:'bad',t:'Tote Zone: '+dead.join(', ')+'. Dort kommst du auf dieser Route nie vorbei.'});
+  if(dead.length)out.push({c:'bad',t:'Nie besucht: '+dead.join(', ')+'. Dort kommst du auf dieser Route nie vorbei.'});
   else out.push({c:'good',t:'✓ Deine Route berührt alle vier Bereiche des Raums.'});
   const share=Math.round(state.route.length/seats.length*100);
   out.push({c:share>=60?'good':'warn',t:'Du siehst auf der Route '+state.route.length+' von '+seats.length+' Plätzen direkt ('+share+' %). '+(share>=60?'':'Bei drei Sekunden pro Heft schaffst du mehr, als du denkst.')});

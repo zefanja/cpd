@@ -124,7 +124,7 @@ Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (
 # Anhang 2: Quiz-Material
 
 ## Teil 1: Reaktivierungs-Quiz (8 Fragen, W1–13)
-1. Stundenarchitektur-Template aus dem Kopf skizzieren (7 Elemente). 2. Erfolgsquote: wann ca. 80 %, wann fast 100 %? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W1-Bauplan?
+1. Den Planungsbogen aus W13 aus dem Kopf skizzieren (fünf Fragen + Exit Ticket). 2. Erfolgsquote: wann ca. 80 %, wann fast 100 %? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Do-Now-Format 3-2-1? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem W1-Bauplan?
 
 ## Teil 2: Modul-Quiz Woche 14 (für SPA/Folgewoche)
 **F1.** Eine Schülerin „kann sich einfach nichts merken". Wahrscheinlichste Erklärung:

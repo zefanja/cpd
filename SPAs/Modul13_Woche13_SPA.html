@@ -328,6 +328,7 @@ textarea{min-height:4.2em}
   <div class="card">
     <h3>Dein Weg durch dieses Modul</h3>
     <p style="font-size:.9rem">Du schätzt zuerst, wie viele deiner Schüler das Ziel deiner letzten Stunde erreicht haben. Dann baust du einen Einstieg, der Wiederholung statt Vorschau bringt, und lernst, woran man ein gutes Exit Ticket erkennt. Du schreibst ein Ticket für deine eigene Stunde und sortierst einen Klassensatz gegen die Uhr. Zum Schluss legst du Block 2 auf eine Seite und prüfst mit dem Block-2-Quiz, was sitzt.</p>
+    <p class="hint" style="margin-top:.6rem">📌 Mach das Block-2-Quiz (Station 8) möglichst vor der Sitzung. In der Sitzung werden nur die drei Fragen besprochen, die am häufigsten nicht gewusst wurden.</p>
   </div>
   <div class="formula-card">
     <h4>Frage 2 und Frage 1 aus Woche 8</h4>
@@ -342,7 +343,7 @@ textarea{min-height:4.2em}
   <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
   <div class="badge-row">
     <span class="badge">⏱ ca. 35 Min.</span>
-    <span class="badge">📖 Kernquellen: Lemov „Do Now“, „Exit Ticket“ · Rosenshine P1, P10 · Bambrick-Santoyo (Datenlogik)</span>
+    <span class="badge">📖 Kernquellen: Lemov „Do Now“, „Exit Ticket“ · Rosenshine P1, P10 · Bambrick-Santoyo (Auswertung von Schülerarbeiten)</span>
     <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
   </div>
   <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
@@ -374,8 +375,9 @@ textarea{min-height:4.2em}
   <span class="eyebrow">Station 2 · Der Einstieg</span>
   <h2>Das Do Now bekommt eine zweite Aufgabe.</h2>
   <p class="lead">In Woche 2 hast du das Do Now als Werkzeug für einen ruhigen Start gebaut: Die Stunde beginnt, ohne dass du etwas sagen musst. Jetzt kommt eine zweite Aufgabe dazu: Es soll auch beim Lernen helfen. Die Frage ist nur, was darauf steht.</p>
+  <div class="scene"><span class="tag">Szene · Physik, Kl. 9</span>An der Tafel steht: „Warum fliegt ein Flugzeug? Schreibt eure Vermutung auf.“ Die Klasse rät fünf Minuten lang, die Lehrerin sammelt die Vermutungen und beginnt dann mit ihrer Erklärung. In diesen fünf Minuten wurde nichts gelernt und nichts aus dem Gedächtnis geholt.</div>
   <div class="card">
-    <p style="font-size:.92rem">Naheliegend wäre ein spannender Einstieg ins neue Thema. Besser ist <strong>Wiederholung</strong>: drei Fragen zu gestern, zwei zur letzten Woche, eine zum letzten Monat. Drei Gründe:</p>
+    <p style="font-size:.92rem">Naheliegend wäre ein spannender Einstieg ins neue Thema, wie in der Physikstunde. Besser ist <strong>Wiederholung</strong>: drei bis fünf kurze Fragen, gemischt aus gestern, letzter Woche und letztem Monat. Ein Muster zum Merken: drei zu gestern, eine zu letzter Woche, eine zu letztem Monat. Drei Gründe:</p>
     <ul class="check-list">
       <li>Wiederholung ist immer ohne Erklärung lösbar. Das erste Kriterium aus Woche 2 ist damit automatisch erfüllt.</li>
       <li>Du musst nichts Neues vorbereiten. Die Fragen gibt es schon.</li>
@@ -386,11 +388,11 @@ textarea{min-height:4.2em}
   <h3 style="margin-top:1.4rem">Welches Do Now bringt Wiederholung?</h3>
   <div id="dnList"></div>
   <div class="card">
-    <h3>Mein Do Now nach 3-2-1</h3>
-    <p class="hint">Für eine Stunde der nächsten Woche.</p>
-    <div class="field"><label for="dn3">Drei Fragen zu gestern</label><textarea id="dn3" data-store="dn3" placeholder="1. … 2. … 3. …"></textarea></div>
-    <div class="field"><label for="dn2">Zwei Fragen zur letzten Woche</label><textarea id="dn2" data-store="dn2" placeholder="1. … 2. …"></textarea></div>
-    <div class="field"><label for="dn1">Eine Frage zum letzten Monat</label><input type="text" id="dn1" data-store="dn1" placeholder="…"></div>
+    <h3>Mein Do Now: 3–5 Wiederholungsfragen</h3>
+    <p class="hint">Für eine Stunde der nächsten Woche. Zusammen drei bis fünf Fragen, damit es in drei bis fünf Minuten lösbar bleibt.</p>
+    <div class="field"><label for="dn3">Fragen zu gestern (2–3)</label><textarea id="dn3" data-store="dn3" placeholder="1. … 2. … 3. …"></textarea></div>
+    <div class="field"><label for="dn2">Frage zur letzten Woche (1)</label><textarea id="dn2" data-store="dn2" placeholder="…"></textarea></div>
+    <div class="field"><label for="dn1">Frage zum letzten Monat (1)</label><input type="text" id="dn1" data-store="dn1" placeholder="…"></div>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Exit Ticket →</button></p>
 </section>
@@ -399,7 +401,7 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Das Exit Ticket">
   <span class="eyebrow">Station 3 · Das Exit Ticket</span>
   <h2>Eine bis drei Aufgaben, fünf Minuten, jeder gibt ab.</h2>
-  <p class="lead">Das Exit Ticket beantwortet Frage 1 am Ende der Stunde: Haben alle das Ziel erreicht? Der Trick steckt in einem Wort. Die Aufgaben prüfen deine <strong>Meilensteine</strong> aus Woche 9, nicht das Thema und nicht die Stimmung.</p>
+  <p class="lead">Das Exit Ticket beantwortet Frage 1 am Ende der Stunde: Haben alle das Ziel erreicht? Der Trick steckt in einem Wort. Die Aufgaben prüfen dein <strong>Mindestziel</strong> aus Woche 9, also das, was alle können sollen, nicht das Thema und nicht die Stimmung. Ein weiterführender Meilenstein darf höchstens als dritte Aufgabe dazukommen.</p>
   <div class="formula-card">
     <h4>Gütecheck</h4>
     <ol class="q-legend" id="gcLegend"></ol>
@@ -415,7 +417,7 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Mein Exit Ticket">
   <span class="eyebrow">Station 4 · Mein Exit Ticket</span>
   <h2>Schreib das Ticket für eine Stunde der nächsten Woche.</h2>
-  <p class="lead">Nimm deine Meilensteine. Zu jeder Aufgabe notierst du, welchen Meilenstein sie prüft. Der häufigste Fehler: Die Aufgabe fragt Wissen ab, der Meilenstein verlangt aber Anwendung.</p>
+  <p class="lead">Nimm dein Mindestziel und deine Meilensteine. Zu jeder Aufgabe notierst du, was sie prüft. Der häufigste Fehler: Die Aufgabe fragt Wissen ab, das Mindestziel verlangt aber Anwendung.</p>
   <div id="w9Box"></div>
   <div class="card">
     <div class="field" style="margin-top:0">
@@ -423,8 +425,8 @@ textarea{min-height:4.2em}
       <input type="text" id="tkTopic" data-store="tkTopic" placeholder="…">
     </div>
     <div class="field">
-      <label for="tkMs">Meine Meilensteine <span class="sub">Könnens-Sätze, einer pro Zeile.</span></label>
-      <textarea id="tkMs" data-store="tkMs" style="min-height:5em" placeholder="1. kann …&#10;2. kann …"></textarea>
+      <label for="tkMs">Mein Mindestziel und meine Meilensteine <span class="sub">Könnens-Sätze, einer pro Zeile, das Mindestziel zuerst.</span></label>
+      <textarea id="tkMs" data-store="tkMs" style="min-height:5em" placeholder="Mindestziel: kann …&#10;2. kann …"></textarea>
     </div>
     <div class="field">
       <label for="tkFormat">Format</label>
@@ -435,8 +437,8 @@ textarea{min-height:4.2em}
         <option>Ankreuzen und in einem Satz begründen</option>
       </select>
     </div>
-    <div class="field"><label for="tk1">Aufgabe 1 <span class="sub">Wörtlich, wie sie auf dem Zettel steht. Am Ende: → prüft Meilenstein Nr. …</span></label><textarea id="tk1" data-store="tk1" placeholder="… → Meilenstein 1"></textarea></div>
-    <div class="field"><label for="tk2">Aufgabe 2</label><textarea id="tk2" data-store="tk2" placeholder="… → Meilenstein 2"></textarea></div>
+    <div class="field"><label for="tk1">Aufgabe 1 <span class="sub">Wörtlich, wie sie auf dem Zettel steht. Am Ende: → prüft Mindestziel oder Meilenstein Nr. …</span></label><textarea id="tk1" data-store="tk1" placeholder="… → Mindestziel"></textarea></div>
+    <div class="field"><label for="tk2">Aufgabe 2</label><textarea id="tk2" data-store="tk2" placeholder="… → Mindestziel"></textarea></div>
     <div class="field"><label for="tk3">Aufgabe 3 <span class="sub">optional</span></label><textarea id="tk3" data-store="tk3" placeholder="…"></textarea></div>
   </div>
   <div class="card">
@@ -454,7 +456,7 @@ textarea{min-height:4.2em}
   <div class="formula-card">
     <h4>Die Aufgabe auf dem Ticket (Englisch, Kl. 7)</h4>
     <p style="margin-top:0">Setze die richtige Form ein und begründe eine deiner Entscheidungen mit dem Signalwort.<br>1. Yesterday I ___ (see) Tom. &nbsp; 2. I ___ (never / be) to London.</p>
-    <p class="hint" style="margin-top:.5rem"><strong>Kann es</strong> (grün): beide Formen richtig, Begründung nennt das Signalwort. · <strong>Kann es fast</strong> (gelb): Formen richtig, Begründung fehlt oder trägt nicht. · <strong>Kann es noch nicht</strong> (rot): mindestens eine Zeitform falsch, Signalwort nicht beachtet.</p>
+    <p class="hint" style="margin-top:.5rem"><strong>Kann es:</strong> beide Formen richtig, Begründung nennt das Signalwort. · <strong>Kann es fast:</strong> Formen richtig, Begründung fehlt oder trägt nicht. · <strong>Kann es noch nicht:</strong> mindestens eine Zeitform falsch, Signalwort nicht beachtet.</p>
   </div>
   <div class="card" id="sortCard"></div>
   <div class="card reveal" id="sortResult"></div>
@@ -471,14 +473,14 @@ textarea{min-height:4.2em}
     <p class="hint" id="pullHint" style="margin-top:.4rem">Füllt leere Felder mit deinen Eingaben aus den Vorwochen. Bereits Geschriebenes bleibt stehen.</p>
     <div class="field"><label for="plTopic">Klasse, Thema, Datum</label><input type="text" id="plTopic" data-store="plTopic" placeholder="…"></div>
     <div class="plan-row c-petrol"><div class="q">Frage 1 · Ziel (W9)</div>
-      <div class="field"><label for="plMs">Meilensteine, geprüft mit der Ampel</label><textarea id="plMs" data-store="plMs" placeholder="1. kann … 2. kann …"></textarea></div>
-      <div class="field"><label for="plEx">Exemplar zur Schlüsselaufgabe</label><textarea id="plEx" data-store="plEx" placeholder="…"></textarea></div>
+      <div class="field"><label for="plMs">Mindestziel und Meilensteine, geprüft mit der Ampel</label><textarea id="plMs" data-store="plMs" placeholder="Mindestziel: kann … / 2. kann …"></textarea></div>
+      <div class="field"><label for="plEx">Exemplar zum Mindestziel</label><textarea id="plEx" data-store="plEx" placeholder="…"></textarea></div>
     </div>
     <div class="plan-row c-gelb"><div class="q">Frage 2 · Einstieg (W13)</div>
-      <div class="field"><label for="plDn">Do Now nach 3-2-1</label><textarea id="plDn" data-store="plDn" placeholder="…"></textarea></div>
+      <div class="field"><label for="plDn">Do Now: 3–5 Wiederholungsfragen (gestern, letzte Woche, letzter Monat)</label><textarea id="plDn" data-store="plDn" placeholder="…"></textarea></div>
     </div>
     <div class="plan-row c-rot"><div class="q">Frage 3 · Erklären (W10)</div>
-      <div class="field"><label for="plIdo">Was ich vormache, und welche Falle ich zeige</label><textarea id="plIdo" data-store="plIdo" placeholder="…"></textarea></div>
+      <div class="field"><label for="plIdo">Was ich vormache, welche Falle ich zeige, welche Frage danach alle beantworten</label><textarea id="plIdo" data-store="plIdo" placeholder="…"></textarea></div>
     </div>
     <div class="plan-row c-gruen"><div class="q">Frage 4 · Gemeinsam üben (W11)</div>
       <div class="field"><label for="plWedo">Stufen der Treppe und wie ich die Antworten aller sehe</label><textarea id="plWedo" data-store="plWedo" placeholder="…"></textarea></div>
@@ -487,7 +489,7 @@ textarea{min-height:4.2em}
       <div class="field"><label for="plYoudo">Worauf ich beim Rundgang achte, zu wem ich zuerst gehe</label><textarea id="plYoudo" data-store="plYoudo" placeholder="…"></textarea></div>
     </div>
     <div class="plan-row c-gelb"><div class="q">Frage 1 am Ende · Exit Ticket (W13)</div>
-      <div class="field"><label for="plTicket">Aufgaben, je mit Meilenstein-Nummer</label><textarea id="plTicket" data-store="plTicket" placeholder="…"></textarea></div>
+      <div class="field"><label for="plTicket">Aufgaben, je mit Angabe, was sie prüfen (Mindestziel/Meilenstein)</label><textarea id="plTicket" data-store="plTicket" placeholder="…"></textarea></div>
     </div>
     <label class="self-check" style="margin-top:1rem"><input type="checkbox" id="plKons" data-store="plKons"><span>Die Konsequenz aus dem letzten Exit Ticket ist in dieser Stunde eingebaut.</span></label>
   </div>
@@ -500,7 +502,7 @@ textarea{min-height:4.2em}
   <h2>Fünf Fragen zu Woche 13.</h2>
   <div id="quizList"></div>
   <div class="quiz-item">
-    <p class="quiz-q">F6 (Freitext): Meilenstein: „kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert“. Schreib das passende Exit Ticket wörtlich auf und begründe es am Gütecheck.</p>
+    <p class="quiz-q">F6 (Freitext): Mindestziel: „kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert“. Schreib das passende Exit Ticket wörtlich auf und begründe es am Gütecheck.</p>
     <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
     <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Muster anzeigen</button></p>
     <p class="quiz-note" id="transferNote">Muster: „Eine Pflanze steht drei Tage in einem dunklen Schrank. Was zeigt der Stärkenachweis in ihren Blättern, und warum? Antworte in zwei Sätzen.“ Prüft Vorhersage und Begründung, dauert etwa vier Minuten, jeder schreibt, lässt sich schnell in drei Stapel sortieren.</p>
@@ -512,12 +514,12 @@ textarea{min-height:4.2em}
 <section class="screen" data-title="Block-2-Quiz">
   <span class="eyebrow">Station 8 · Block-2-Quiz</span>
   <h2>Zwanzig Fragen, zurück bis Woche 1.</h2>
-  <p class="lead">Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Deck dann die Antwort auf und sei ehrlich: gewusst, teilweise oder nicht gewusst. So korrigierst du selbst und siehst, wo du stehst, ganz ohne Note.</p>
+  <p class="lead">Am besten vor der Sitzung. Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Mehr als die Hälfte sind kurze Szenen: Gefragt ist, was du tun würdest. Deck dann die Antwort auf und sei ehrlich: gewusst, teilweise oder nicht gewusst. So korrigierst du selbst und siehst, wo du stehst, ganz ohne Note.</p>
   <div id="flashList"></div>
   <div class="card" id="flashResult"></div>
   <div class="card">
     <h3>Kompetenzmatrix: Felder 4 und 5</h3>
-    <p class="hint">Schätze dich selbst ein. Dein Coach ergänzt seine Einschätzung im nächsten Gespräch.</p>
+    <p class="hint">Schätze dich selbst ein. Im nächsten Coaching-Gespräch aktualisiert ihr die Matrix gemeinsam.</p>
     <div id="matrixList"></div>
   </div>
   <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
@@ -540,7 +542,7 @@ textarea{min-height:4.2em}
     <div id="logList" style="margin-top:.4rem"></div>
     <div class="field">
       <label for="realFirst">Schätzung und Wirklichkeit <span class="sub" id="estEcho"></span></label>
-      <input type="text" id="realFirst" data-store="realFirst" placeholder="Mein erstes Exit Ticket: … von … im grünen Stapel">
+      <input type="text" id="realFirst" data-store="realFirst" placeholder="Mein erstes Exit Ticket: … von … im Stapel „kann es“">
     </div>
   </div>
 
@@ -608,39 +610,39 @@ const DONOWS=[
   note:'<b>Wiederholung.</b> Alles ist ohne Erklärung lösbar und holt genau das Vorwissen, das heute gebraucht wird (Stunde B aus Woche 8).'},
  {tag:'Biologie, Kl. 8',t:'An der Tafel: „Schaut euch das Bild an. Beschreibt, was ihr seht.“ (Foto einer Zelle unter dem Mikroskop, heute neues Thema.)',ok:2,
   note:'<b>Vorschau.</b> Beschäftigt alle, aber es wird nichts wiederholt. Besser: Fragen zu gestern (Aufbau des Mikroskops) und zur letzten Woche.'},
- {tag:'Englisch, Kl. 8',t:'Auf dem Blatt: drei Sätze zum simple past (gestern), zwei Vokabeln aus Unit 3 (letzte Woche), eine Frage zu den Signalwörtern des present perfect (vor einem Monat).',ok:1,
-  note:'<b>Wiederholung nach 3-2-1.</b> Gestern, letzte Woche, letzter Monat.'}
+ {tag:'Englisch, Kl. 8',t:'Auf dem Blatt: drei Sätze zum simple past (gestern), eine Vokabelfrage zu Unit 3 (letzte Woche), eine Frage zu den Signalwörtern des present perfect (vor einem Monat).',ok:1,
+  note:'<b>Wiederholung aus drei Zeiträumen.</b> Gestern, letzte Woche, letzter Monat.'}
 ];
 
 const GUETE=[
- {k:'Prüft den Meilenstein',q:'nicht das Thema und nicht die Stimmung'},
+ {k:'Prüft das Mindestziel',q:'nicht das Thema und nicht die Stimmung'},
  {k:'Allein in 3–5 Minuten lösbar',q:'ohne Hilfe, ohne Nachfragen'},
  {k:'Schriftlich, von jedem',q:'nicht mündlich, nicht in Gruppen'},
  {k:'In 10 Minuten auswertbar',q:'höchstens drei Aufgaben, höchstens eine offene'}
 ];
 const TICKETS=[
- {tag:'Deutsch, Kl. 8 · Meilenstein: kann eine These mit einem Textbeleg stützen',t:'„Wie hat dir die Stunde heute gefallen? Was war schwierig?“',miss:0,
-  note:'<b>Prüft nicht den Meilenstein.</b> Das ist Selbsteinschätzung. Besser: eine These vorgeben, Beleg mit Zeilenangabe finden, in einem Satz verbinden.'},
- {tag:'Mathematik, Kl. 7 · Meilenstein: kann den Prozentwert berechnen',t:'Zwei Aufgaben auf einem Zettel: 20 % von 60 € · 35 % von 240 kg. Alle geben ab.',miss:4,
+ {tag:'Deutsch, Kl. 8 · Mindestziel: kann eine These mit einem Textbeleg stützen',t:'„Wie hat dir die Stunde heute gefallen? Was war schwierig?“',miss:0,
+  note:'<b>Prüft nicht das Mindestziel.</b> Das ist Selbsteinschätzung. Besser: eine These vorgeben, Beleg mit Zeilenangabe finden, in einem Satz verbinden.'},
+ {tag:'Mathematik, Kl. 7 · Mindestziel: kann den Prozentwert berechnen',t:'Zwei Aufgaben auf einem Zettel: 20 % von 60 € · 35 % von 240 kg. Alle geben ab.',miss:4,
   note:'<b>Besteht.</b> Das ist das Ticket aus Stunde B: kurz, eindeutig, jeder schreibt, in Minuten sortiert.'},
- {tag:'Physik, Kl. 9 · Meilenstein: kann den Widerstand aus U und I berechnen',t:'„Besprecht mit eurem Nachbarn, wie man den Widerstand berechnet, und sagt es mir beim Rausgehen.“',miss:2,
+ {tag:'Physik, Kl. 9 · Mindestziel: kann den Widerstand aus U und I berechnen',t:'„Besprecht mit eurem Nachbarn, wie man den Widerstand berechnet, und sagt es mir beim Rausgehen.“',miss:2,
   note:'<b>Nicht schriftlich, nicht von jedem.</b> Du hörst, was die Paare sagen, meist was der Stärkere sagt. Besser: eine Rechenaufgabe auf einem Zettel.'},
- {tag:'Geschichte, Kl. 10 · Meilenstein: kann zwei Ursachen der Inflation 1923 nennen',t:'Sechs Aufgaben, davon drei offene Fragen: „Erörtere …“, „Beurteile …“, „Vergleiche …“.',miss:3,
+ {tag:'Geschichte, Kl. 10 · Mindestziel: kann zwei Ursachen der Inflation 1923 nennen',t:'Sechs Aufgaben, davon drei offene Fragen: „Erörtere …“, „Beurteile …“, „Vergleiche …“.',miss:3,
   note:'<b>Nicht in 10 Minuten auswertbar</b> und in fünf Minuten auch nicht lösbar. Besser: „Nenne zwei Ursachen der Inflation und erkläre eine in einem Satz.“'},
- {tag:'Chemie, Kl. 8 · Meilenstein: kann eine Reaktionsgleichung ausgleichen',t:'„Gleiche die Gleichung aus: H₂ + O₂ → H₂O. Wenn du nicht weiterkommst, frag mich.“',miss:1,
+ {tag:'Chemie, Kl. 8 · Mindestziel: kann eine Reaktionsgleichung ausgleichen',t:'„Gleiche die Gleichung aus: H₂ + O₂ → H₂O. Wenn du nicht weiterkommst, frag mich.“',miss:1,
   note:'<b>Nicht allein lösbar.</b> Mit Hilfe zeigt das Ticket, was du erklärt hast, nicht was der Schüler kann. Das Angebot „frag mich“ gehört in die Einzelarbeit, nicht ins Ticket.'}
 ];
-const GUETE_OPTS=GUETE.map(g=>g.k.replace('Prüft den Meilenstein','prüft nicht den Meilenstein').replace('Allein in 3–5 Minuten lösbar','nicht allein lösbar').replace('Schriftlich, von jedem','nicht schriftlich von jedem').replace('In 10 Minuten auswertbar','nicht in 10 Min. auswertbar')).concat(['besteht']);
+const GUETE_OPTS=GUETE.map(g=>g.k.replace('Prüft das Mindestziel','prüft nicht das Mindestziel').replace('Allein in 3–5 Minuten lösbar','nicht allein lösbar').replace('Schriftlich, von jedem','nicht schriftlich von jedem').replace('In 10 Minuten auswertbar','nicht in 10 Min. auswertbar')).concat(['besteht']);
 
 const TK_SELF=[
- 'Jede Aufgabe prüft einen Meilenstein, und ich habe notiert, welchen.',
+ 'Mindestens eine Aufgabe prüft das Mindestziel, und bei jeder Aufgabe habe ich notiert, was sie prüft.',
  'Ein Schüler, der es kann, schafft das Ticket allein in drei bis fünf Minuten.',
  'Jeder schreibt und gibt ab.',
  'Ich kann einen Klassensatz in zehn Minuten in drei Stapel sortieren.',
  'Auf dem Ticket steht keine Frage nach Gefallen oder Verständlichkeit.'
 ];
 
-/* Station 5: 25 Tickets. c = Referenz (0 grün, 1 gelb, 2 rot), alt = ebenfalls vertretbar */
+/* Station 5: 25 Tickets. c = Referenz (0 kann es, 1 kann es fast, 2 noch nicht), alt = ebenfalls vertretbar */
 const SORT=[
  {a:'saw',b:'have never been',r:'yesterday → simple past',c:0},
  {a:'saw',b:'have never been',r:'weil never ein Signalwort für present perfect ist',c:0},
@@ -650,14 +652,14 @@ const SORT=[
  {a:'saw',b:'was never',r:'yesterday ist Vergangenheit',c:2,why:'Satz 2 falsch: never verlangt hier present perfect.'},
  {a:'saw',b:'have never been',r:'',c:1,why:'Formen richtig, Begründung fehlt.'},
  {a:'saw',b:'have never been',r:'wegen „yesterday“',c:0},
- {a:'saw',b:'have never been',r:'weil „saw“ unregelmäßig ist',c:1,alt:2,why:'Grenzfall: Formen richtig, aber die Begründung ist falsch. Gelb oder rot ist vertretbar. Besprecht, was ihr daraus schließt.'},
+ {a:'saw',b:'have never been',r:'weil „saw“ unregelmäßig ist',c:1,alt:2,why:'Grenzfall: Formen richtig, aber die Begründung ist falsch. „Kann es fast“ oder „noch nicht“ ist vertretbar. Besprecht, was ihr daraus schließt.'},
  {a:'seed',b:'have never been',r:'yesterday',c:2,why:'Satz 1: falsche Form (seed statt saw).'},
  {a:'saw',b:'have never been',r:'weil es in der Vergangenheit passiert ist',c:1,why:'Formen richtig, die Begründung trägt nicht, weil auch Satz 2 in der Vergangenheit liegt.'},
  {a:'saw',b:'have never been',r:'Signalwort: never',c:0},
  {a:'have seen',b:'was never',r:'—',c:2,why:'Beide Zeitformen vertauscht.'},
  {a:'saw',b:'have never been',r:'yesterday = simple past, never = present perfect',c:0},
  {a:'saw',b:'have never been',r:'weil man das so sagt',c:1,why:'Formen richtig, Begründung ohne Signalwort.'},
- {a:'saw',b:'have never been',r:'weil „I“ davor steht',c:1,alt:2,why:'Grenzfall: Formen richtig, Begründung falsch. Wahrscheinlich geraten (Woche 11, Fall 6). Gelb oder rot ist vertretbar.'},
+ {a:'saw',b:'have never been',r:'weil „I“ davor steht',c:1,alt:2,why:'Grenzfall: Formen richtig, Begründung falsch. Wahrscheinlich geraten (Woche 11, Fall 6). „Kann es fast“ oder „noch nicht“ ist vertretbar.'},
  {a:'saw',b:'have never been',r:'yesterday!',c:0},
  {a:'have seen',b:'have never been',r:'beides present perfect',c:2,why:'Satz 1 falsch, yesterday ignoriert.'},
  {a:'saw',b:'have never been',r:'Das Wort yesterday zeigt simple past.',c:0},
@@ -671,9 +673,9 @@ const SORT=[
 const PILES=[{k:'Kann es',c:'g'},{k:'Kann es fast',c:'y'},{k:'Kann es noch nicht',c:'r'}];
 const CONSEQ=[
  {t:'Morgen zehn Minuten für alle: die Signalwörter noch einmal, aber mit einem neuen Zugang, z. B. einem Zeitstrahl statt der Regel.',ok:true,
-  note:'Genau. Gelb und Rot zusammen sind 14 von 25, also mehr als ein Drittel. Dann lohnt sich eine kurze Wiederholung für alle, und zwar anders als beim ersten Mal.'},
- {t:'Die Namen aus Gelb und Rot auf den Bogen für den nächsten Rundgang schreiben und dort gezielt nachfragen.',ok:false,
-  note:'Das passt, wenn der gelbe und rote Stapel klein sind. Bei 14 von 25 schaffst du das im Rundgang nicht.'},
+  note:'Genau. „Kann es fast“ und „noch nicht“ zusammen sind 14 von 25, also mehr als ein Drittel. Dann lohnt sich ein neuer Anlauf für alle, und zwar anders als beim ersten Mal.'},
+ {t:'Die Namen aus „kann es fast“ und „noch nicht“ auf den Prüf-Fokus-Bogen für den nächsten Rundgang schreiben und dort gezielt nachfragen.',ok:false,
+  note:'Das passt, wenn diese beiden Stapel klein sind. Bei 14 von 25 schaffst du das im Rundgang nicht.'},
  {t:'Im Stoff weitermachen, in der Klassenarbeit zeigt sich, wer es kann.',ok:false,
   note:'Dann war das Ticket umsonst. Und in der Klassenarbeit ist es zu spät.'}
 ];
@@ -681,24 +683,24 @@ const SORT_FEHLER='Die meisten nennen in der Begründung kein Signalwort. Die Fo
 
 const FLASH=[
  {q:'Die fünf mentalen Modelle aus dem Auftakt?',a:'Gedächtnis · Gewohnheiten · Aufmerksamkeit · Motivation ist sozial · Unterrichten ist Beziehungsarbeit'},
- {q:'Die sieben Schritte der Begrüßungsroutine?',a:'Do Now steht vorher an der Tafel · fester Punkt · warten auf 100 % · warmer Gruß · Setz-Signal und Starter-Satz · Timer startet · Blick durch den Raum'},
+ {q:'Szene: Nach den Ferien läuft die Begrüßung chaotisch, niemand steht an seinem Platz. Deine ersten zwei Schritte?',a:'Die Routine neu einführen, mit Begründung, wie im Bauplan aus Woche 1. Dann konsequent warten, bis alle es tun, und notfalls wiederholen lassen (Do It Again).'},
  {q:'Der Vierercheck für Anweisungen?',a:'konkret · der Reihe nach (nummeriert) · beobachtbar · höchstens 12 Wörter pro Schritt'},
- {q:'Die sechs Stufen der Interventionsleiter?',a:'nonverbal · positive Gruppenkorrektur · anonyme Einzelkorrektur · private Einzelkorrektur · kurz öffentlich · Konsequenz'},
+ {q:'Szene: Während du erklärst, trommelt ein Schüler mit dem Stift. Womit beginnst du?',a:'Mit Stufe 1 der Interventionsleiter: nonverbal, zum Beispiel Blickkontakt oder eine Geste, ohne die Erklärung zu unterbrechen.'},
  {q:'Die Umformulierungs-Formel?',a:'„Ich sehe [erfüllender Teil] – ich will [Zielzustand].“'},
  {q:'Die drei Schritte des W.I.N.-Gesprächs?',a:'Was ist passiert (Schülersicht zuerst) · Impact (Wirkung) · Next steps (wie es weitergeht)'},
  {q:'Die fünf Fragen an jede Stunde?',a:'Ziel · Einstieg · Erklären · gemeinsam üben · allein üben'},
- {q:'Erfolgsquote: Wann etwa 80 %, wann fast 100 %?',a:'Etwa 80 % (vier von fünf) beim gemeinsamen Üben neuer Inhalte: Dann kann es allein weitergehen, deutlich darunter zurück ins gemeinsame Üben. Fast fehlerfrei bei Einzelarbeit und Wiederholung.'},
- {q:'Die zwei Planungs-Todsünden?',a:'Aktivitätsfokus (die Methode zuerst) · Abdeckungsfokus („der Stoff muss durch“)'},
- {q:'Die vier Ampel-Kriterien für Meilensteine?',a:'kumulativ · verteilt · messbar · klar'},
- {q:'Was ist Exemplar Planning?',a:'Vor der Stunde selbst die ideale Schülerantwort auf die Schlüsselaufgabe ausformulieren.'},
- {q:'Der Vierklang beim Vormachen?',a:'vormachen · laut denken · eine Falle zeigen und auflösen · Kernschritte festhalten (Tafelbild bleibt stehen)'},
- {q:'Fluch des Wissens und Gegenmittel?',a:'Wer etwas kann, sieht die Zwischenschritte nicht mehr. Gegenmittel: die Halbier-Regel, also die Schrittgröße halbieren, die sich richtig anfühlt.'},
+ {q:'Szene: Beim gemeinsamen Üben lagen 21 von 26 richtig. Auf den Exit Tickets sind nur 12 von 26 sicher. Was sagt dir das?',a:'Mit Hilfe ging es, ohne Hilfe hält es noch nicht. Vermutlich ging es zu schnell die Treppe hinunter, oder beim gemeinsamen Üben wurde zu viel geholfen. Morgen: neuer Anlauf für alle.'},
+ {q:'Szene: „Heute: die Weimarer Republik.“ Ziel oder Thema? Formuliere ein Mindestziel mit Prüfaufgabe.',a:'Ein Thema. Zum Beispiel: „Kann drei Belastungen der jungen Republik nennen und eine an einem Beispiel erklären.“ Prüfaufgabe: „Nenne drei Belastungen und erkläre eine in zwei Sätzen.“'},
+ {q:'Was ist Exemplar Planning, und wozu dient es?',a:'Vor der Stunde selbst die ideale Schülerantwort zur Aufgabe des Mindestziels ausformulieren. Dann ist das Ziel genau, Lücken werden sichtbar, und du hast einen Maßstab für jede Antwort.'},
+ {q:'Die vier Bausteine einer Erklärung?',a:'klein schneiden · laut denken (mit Falle) · nach jedem Schritt alle antworten lassen · festhalten'},
+ {q:'Szene: Deine Erklärung fühlt sich beim Proben „quälend kleinschrittig“ an. Kürzen?',a:'Eher nicht. Der Fluch des Wissens lässt dir die Schritte zu klein erscheinen. Nach der Halbier-Regel ist sie für die Klasse vermutlich gerade richtig.'},
  {q:'Die vier Stufen der Treppe?',a:'Vollbeispiel · Lückenbeispiel · nur der Anfang · ohne Hilfe'},
- {q:'Die Reihenfolge bei „Break It Down“?',a:'Hinweis · Beispiel · Regel · erster Schritt · erst dann die Lösung'},
- {q:'Warum sagen drei richtige Meldungen wenig über die Klasse?',a:'Es melden sich meist die, die es schon können. Über die anderen erfährst du nichts. Erst die Antworten aller zeigen, wo die Klasse steht.'},
+ {q:'Szene: Beim gemeinsamen Üben sagt ein Schüler: „Yesterday I have seen him.“ Deine erste Hilfe, wörtlich?',a:'Ein Hinweis, zum Beispiel: „Schau auf das erste Wort des Satzes.“ Erst wenn das nicht reicht: Beispiel, Regel, erster Schritt.'},
+ {q:'Szene: Drei Schüler melden sich und antworten richtig. Warum reicht das nicht, um in die Einzelarbeit zu gehen?',a:'Es melden sich meist die, die es schon können. Über die anderen erfährst du nichts. Besser: alle schreiben die Antwort aufs Whiteboard.'},
  {q:'Die fünf Startbedingungen einer Einzelarbeit?',a:'Aufgabe schriftlich · Zeit sichtbar · Sozialform · Lautstärke · was tun, wer fertig ist'},
- {q:'Die 60-Sekunden-Regel und ihr Grund?',a:'Höchstens 60 Sekunden pro Einzelhilfe, sonst sind alle anderen unbeobachtet.'},
- {q:'Ab wann lohnt sich eine Sammelklärung?',a:'Wenn derselbe Fehler zum dritten Mal auftaucht.'},
+ {q:'Szene: Du kniest seit vier Minuten bei einem Schüler, hinten wird es laut. Was ist das Problem, was tust du?',a:'Alle anderen sind nicht im Blick (60-Sekunden-Regel). Dem Schüler einen konkreten nächsten Schritt geben, aufstehen, weiter auf der Route.'},
+ {q:'Szene: Beim Rundgang siehst du in vier Heften denselben Fehler. Was tust du?',a:'Eine Sammelklärung: „Stifte runter, Blick nach vorn“, den Fehler einmal für alle klären.'},
+ {q:'Szene: Dein Stundenprofil: 15 Min. Rot, dann 20 Min. Blau. Exit Tickets: 9 kann es, 7 kann es fast, 10 noch nicht. Zwei Ursachen und die Änderung für morgen?',a:'Ein langer roter Block, in dem niemand antworten musste, und kein gemeinsames Üben vor der Einzelarbeit. Morgen: neuer Anlauf für alle, kurz erklären, alle antworten lassen, gemeinsam über die Treppe.'},
  {q:'„Meine Klasse konnte es in der Stunde, im Test aber nicht.“ Deute das mit zwei Werkzeugen aus Block 2.',a:'Zum Beispiel: Nur Freiwillige haben geantwortet, die Antworten aller wurden nie gesehen. Oder: Die Einzelarbeit kam zu früh, und Fehler wurden eingeübt. Ein Exit Ticket hätte es am selben Tag gezeigt. (Warum Können in der Stunde und Lernen nicht dasselbe sind, kommt in Woche 18.)'}
 ];
 const RATE=['gewusst','teilweise','nicht gewusst'];
@@ -723,16 +725,16 @@ const QUIZ=[
  {q:'F3. Was gehört ins Do Now?',
   opts:[
    {t:'ein spannender Einstieg ins neue Thema',ok:false,note:'Die häufigste Verführung. Ohne Vorwissen wird geraten statt abgerufen.'},
-   {t:'Wiederholung: gestern, letzte Woche, letzter Monat',ok:true,note:'Genau. 3-2-1.'},
+   {t:'Wiederholung: gestern, letzte Woche, letzter Monat',ok:true,note:'Genau. Drei bis fünf Fragen aus drei Zeiträumen.'},
    {t:'die schwierigste Aufgabe von gestern',ok:false,note:'Das Do Now soll ohne Hilfe lösbar sein.'},
    {t:'organisatorische Ansagen',ok:false,note:'Die kommen, während alle schreiben.'}
   ]},
- {q:'F4. Gelb und Rot zusammen: 14 von 25. Was tust du?',
+ {q:'F4. In „kann es fast“ und „noch nicht“ liegen zusammen 14 von 25 Tickets. Was tust du?',
   opts:[
    {t:'Einzelförderung für die 14',ok:false,note:'Klingt individuell, ist aber nicht zu schaffen.'},
-   {t:'Zehn Minuten Wiederholung für alle, mit einem neuen Zugang',ok:true,note:'Genau. Mehr als ein Drittel betrifft die ganze Klasse.'},
+   {t:'Zehn Minuten neuer Anlauf für alle, mit einem neuen Zugang',ok:true,note:'Genau. Mehr als ein Drittel betrifft die ganze Klasse.'},
    {t:'weiter im Stoff, die Klassenarbeit klärt es',ok:false,note:'Dann ist es zu spät.'},
-   {t:'Das Ticket war zu schwer, also ignorieren.',ok:false,note:'Wenn es den Meilenstein prüft, war es genau richtig.'}
+   {t:'Das Ticket war zu schwer, also ignorieren.',ok:false,note:'Wenn es das Mindestziel prüft, war es genau richtig.'}
   ]},
  {q:'F5. Warum werden Exit Tickets nicht benotet?',
   opts:[
@@ -746,8 +748,8 @@ const QUIZ=[
 const ACTIONSTEPS=[
  {id:'ticket',label:'Jede Stunde mit Exit Ticket (Standard)',
   text:'Ich beende diese Woche jede Stunde in einer Klasse mit einem Exit Ticket, sortiere es am selben Tag in höchstens zehn Minuten und setze mindestens einmal eine sichtbare Konsequenz in der Folgestunde um. Ich sage der Klasse, dass sie aus ihren Tickets kommt.'},
- {id:'donow',label:'Do Now nach 3-2-1 (Alternative)',
-  text:'Ich stelle alle Do Nows dieser Woche auf Wiederholung nach 3-2-1 um.'},
+ {id:'donow',label:'Do Now mit Wiederholung (Alternative)',
+  text:'Ich stelle alle Do Nows dieser Woche auf 3–5 Wiederholungsfragen aus drei Zeiträumen um (gestern, letzte Woche, letzter Monat).'},
  {id:'sortieren',label:'Sortieren statt korrigieren (Alternative)',
   text:'Ich sortiere drei beliebige Klassensätze in höchstens zehn Minuten in drei Stapel, statt sie zu korrigieren, und stoppe die Zeit ehrlich.'}
 ];
@@ -756,7 +758,7 @@ const LOG_ROWS=3, LOG_ROW_LABEL='Stunde', LOG_TITLE='Tickets dieser Woche';
 const LOG_FIELDS=[
  {f:'s',label:'(Tag, Klasse)',short:'',ph:'z. B. Do, 9a'},
  {f:'t',label:'Sortiert in Minuten',short:'sortiert in',ph:'z. B. 8'},
- {f:'p',label:'Grün / Gelb / Rot',short:'Stapel',ph:'z. B. 15 / 6 / 5'},
+ {f:'p',label:'Kann es / fast / noch nicht',short:'Stapel',ph:'z. B. 15 / 6 / 5'},
  {f:'k',label:'Konsequenz am nächsten Tag',short:'Konsequenz:',ph:'z. B. 5 Min. Zeitstrahl für alle'}
 ];
 const EXIT_LABELS=['Mein wertvollstes Werkzeug aus Block 2:','Wo ich noch unsicher bin:'];
@@ -841,17 +843,21 @@ function renderTkSelf(){
 }
 let prev={};
 function w9Milestones(){
-  const w9=prev.w9;if(!w9||!Array.isArray(w9.milestones))return [];
-  return w9.milestones.map(m=>(m&&m.text||'').trim()).filter(Boolean);
+  const w9=prev.w9;if(!w9)return [];
+  const out=[];
+  if((w9.minZiel||'').trim())out.push('Mindestziel: '+w9.minZiel.trim());
+  if(Array.isArray(w9.milestones))w9.milestones.forEach(m=>{const t=(m&&m.text||'').trim();if(t)out.push(t);});
+  return out;
 }
 function renderW9Box(){
   const ms=w9Milestones(),box=document.getElementById('w9Box');
   if(!ms.length){box.innerHTML='';return;}
-  box.innerHTML='<div class="suggest"><strong>Deine Meilensteine aus Woche 9'+(prev.w9.milestoneTopic?' ('+esc(prev.w9.milestoneTopic)+')':'')+':</strong><br>'
+  box.innerHTML='<div class="suggest"><strong>Dein Mindestziel und deine Meilensteine aus Woche 9'+(prev.w9.milestoneTopic?' ('+esc(prev.w9.milestoneTopic)+')':'')+':</strong><br>'
     +ms.map((m,i)=>(i+1)+'. '+esc(m)).join('<br>')
     +'<p style="margin-top:.5rem"><button class="btn ghost small" id="w9MsTake">Übernehmen</button></p></div>';
   document.getElementById('w9MsTake').addEventListener('click',()=>{
     if(!state.tkMs.trim())state.tkMs=ms.map((m,i)=>(i+1)+'. '+m).join('\n');
+    if(prev.w9.minTask&&!(state.tk1||'').trim())state.tk1=prev.w9.minTask+' → Mindestziel';
     if(!state.tkTopic.trim()&&prev.w9.milestoneTopic)state.tkTopic=prev.w9.milestoneTopic;
     scheduleSave();bindStores();renderSummary();showToast('Meilensteine übernommen.');
   });
@@ -887,7 +893,7 @@ function renderSort(){
   }else{
     card.innerHTML='<h3>Fertig in '+fmt(state.sortSecs||0)+' Minuten</h3>'
       +'<div class="piles">'+pileCounts().map((n,j)=>'<div class="pile '+PILES[j].c+'"><b>'+n+'</b>'+PILES[j].k+'</div>').join('')+'</div>'
-      +'<p class="hint" style="margin-top:.6rem">Vorschlag der Fortbildung: 11 grün, 8 gelb, 6 rot. Deine Zuordnung stimmt bei '+sortScore()+' von '+SORT.length+' Tickets. Die Abweichungen stehen unten.</p>'
+      +'<p class="hint" style="margin-top:.6rem">Vorschlag der Fortbildung: 11 kann es, 8 kann es fast, 6 noch nicht. Deine Zuordnung stimmt bei '+sortScore()+' von '+SORT.length+' Tickets. Die Abweichungen stehen unten.</p>'
       +'<div class="sort-list">'+SORT.map((t,i)=>{
         const v=state.sortSel[i];if(sortOk(i)&&t.alt===undefined)return '';
         return '<div class="sort-item'+(sortOk(i)?'':' off')+'"><span class="tag2 '+PILES[v].c+'">'+PILES[v].k+'</span><span><strong>Ticket '+(i+1)+':</strong> '+esc(t.a)+' / '+esc(t.b)+' / „'+esc(t.r)+'“. '+(sortOk(i)?'':'Vorschlag: <strong>'+PILES[t.c].k+'</strong>. ')+esc(t.why||'')+'</span></div>';
@@ -907,7 +913,7 @@ function renderConseq(){
   CONSEQ.forEach((c,j)=>{let cls='quiz-opt';if(state.conseq>-1){if(c.ok)cls+=' right';else if(j===state.conseq)cls+=' wrong';}h+='<button class="'+cls+'" data-k="'+j+'">'+c.t+'</button>';});
   h+='</div>';
   if(state.conseq>-1)h+='<p class="quiz-note on">'+(CONSEQ[state.conseq].ok?'✓ ':'✗ ')+CONSEQ[state.conseq].note+'</p>';
-  h+='<p class="hint" style="margin-top:.8rem">Faustregel: Sind Gelb und Rot zusammen mehr als ein Drittel, gibt es am nächsten Tag eine kurze Wiederholung für alle, mit einem neuen Zugang. Sind es wenige, kommen die Namen auf den Bogen für den nächsten Rundgang. Die Feinheiten dieser Entscheidung folgen in Woche 25.</p>';
+  h+='<p class="hint" style="margin-top:.8rem">Faustregel: Sind „kann es fast“ und „noch nicht“ zusammen mehr als ein Drittel, gibt es am nächsten Tag einen neuen Anlauf für alle, mit einem neuen Zugang. Sind es wenige, kommen die Namen auf den Prüf-Fokus-Bogen für den nächsten Rundgang. Warum eine andere Schwelle als beim gemeinsamen Üben? Vor der Einzelarbeit wolltest du etwa vier von fünf richtig sehen, da hattest du noch geholfen. Das Ticket zeigt, ob es auch ohne Hilfe hält. Die Feinheiten dieser Entscheidung folgen in Woche 25.</p>';
   box.innerHTML=h;
   box.querySelectorAll('[data-k]').forEach(b=>b.addEventListener('click',()=>{state.conseq=+b.dataset.k;scheduleSave();renderConseq();renderSummary();}));
 }
@@ -1027,7 +1033,7 @@ function summaryText(){
   const fc=flashCounts();
   let t=summaryHead();
   t+='— SCHÄTZUNG UND WIRKLICHKEIT —\nSchätzung letzte Stunde: '+(estText()||'–')+' ('+(state.estHow||'–')+')\nErstes echtes Exit Ticket: '+(state.realFirst||'–')+'\n';
-  t+='\n— MEIN DO NOW (3-2-1) —\nGestern: '+(state.dn3||'–')+'\nLetzte Woche: '+(state.dn2||'–')+'\nLetzter Monat: '+(state.dn1||'–')+'\n';
+  t+='\n— MEIN DO NOW —\nGestern: '+(state.dn3||'–')+'\nLetzte Woche: '+(state.dn2||'–')+'\nLetzter Monat: '+(state.dn1||'–')+'\n';
   t+='\n— MEIN EXIT TICKET —\n'+ticketText()+'\n';
   t+='\n— BLOCK 2 AUF EINER SEITE —\n'+planText()+'\n';
   t+='\n— ÜBUNGEN —\nDo Now erkannt: '+dnScore()+' von '+DONOWS.length+'\nGütecheck: '+tkScore()+' von '+TICKETS.length
