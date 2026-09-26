@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was tue ich eigentlich, während die Klasse arbeitet? |
 | **Kernquellen** | Lovell/Dowley, Routine 9 (Independent Practice); Lemov T25 (Circulate), T9 (Active Observation); Rosenshine P9 |
-| **Funktion im Jahr** | Vervollständigt I–We–You. Verwandelt die Stillarbeit vom „toten Winkel" der Stunde in die Datenerhebungs-Phase: ActiveObs liefert den Rohstoff für Reteaching (W25) und Whole-Class-Feedback (W33); die Route verbindet sich mit dem Radar aus W5. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
+| **Funktion im Jahr** | Vertieft Frage 5 aus W8 (Allein üben: Gelingt den meisten die Einzelarbeit, und was tue ich währenddessen?). Vervollständigt I–We–You. Verwandelt die Stillarbeit vom „toten Winkel" der Stunde in die Datenerhebungs-Phase: ActiveObs liefert den Rohstoff für Reteaching (W25) und Whole-Class-Feedback (W33); die Route verbindet sich mit dem Radar aus W5. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
 | **Lernziele** | Die TN können:<br>1. eine Stillarbeitsphase mit vollständigen Startbedingungen eröffnen,<br>2. mit geplanter Route zirkulieren und dabei Arbeit LESEN statt nur Ruhe überwachen,<br>3. per ActiveObs vorab festlegen, was sie bei wem prüfen,<br>4. Einzelhilfen kurz halten und wiederkehrende Fehler zur Sammelklärung bündeln. |
 | **Sitzungstyp** | Planungs- und Analysewerkstatt mit Video-/Fallarbeit; das Rollenspiel pausiert – dafür wird am eigenen Sitzplan gearbeitet. |
 
@@ -159,9 +159,11 @@ d) Fragen ✗
 
 # Anhang 4: Ableitung für die SPA „Modul 12"
 
-1. **Hook (2 Min.):** Die anonyme A/B/C-Frage aus Phase 2 als Selbsttest mit ehrlicher Statistik-Einblendung („Du bist nicht allein: die meisten wählen A/B").
-2. **See it (5 Min.):** Laufweg-Fallkarte als animierte Draufsicht – der Laufweg zeichnet sich in Echtzeit, Nutzer stoppt an Verstoß-Stellen.
-3. **Name it (3 Min.):** Die 5 Startbedingungen + Standard als Checklisten-Karten; Lückenspiel: Welche Bedingung fehlt in dieser Phaseneröffnung (4 Audio-Beispiele)?
-4. **Do it – Sitzplan-Simulator (8 Min., Engine!):** eigenen Sitzplan nachbauen (Raster-Editor oder Foto-Annotation) → Route ziehen → App prüft: Frühwarn-Plätze zuerst? Tote Zonen? → ActiveObs-Bogen digital ausfüllen (Prüf-Fokus wird aus dem Modul-9-Exemplar-Markup vorgeschlagen!).
-5. **60-Sekunden-Spiel:** simulierte Hilfe-Anfragen; Nutzer entscheidet pro Fall: kurzer Impuls / Marker + weiter / Sammelklärung – Scoring nach Standard.
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Top-3-Fehlerlisten-Log (füttert Modul 25 vor!).
+*(Umgesetzt in `SPAs/Modul12_Woche12_SPA.html`.)*
+
+1. **Eine ehrliche Frage (2 Min.):** die A/B/C-Frage aus Phase 2 als Selbsttest, danach ungefähre Verteilung aus früheren Kursen („Du bist nicht allein“) und die Umdeutung: Die Einzelarbeit ist die Phase mit den meisten Informationen.
+2. **Ein Rundgang, Minute für Minute (5 Min.):** die Laufweg-Fallkarte (Anhang 1.3) als 6 Stellen; jeder Stelle die verletzte Regel zuordnen (früh in den Raum / Route statt Meldungen / Hefte lesen / kurz bleiben / Sammelklärung); danach Draufsicht (besucht / Unruhe / nie gesehen) und die Frage, wann die Sammelklärung fällig war (Min. 8).
+3. **Start und Regeln (3 Min.):** die 5 Startbedingungen; vier Phaseneröffnungen, bei denen je eine Bedingung fehlt; You-do-Standard als Checkliste.
+4. **Meine Route (8 Min., Kernstück):** Sitzplan-Editor (Reihen × Plätze, leere Plätze), Frühwarn-Plätze markieren, Route durch Antippen legen; automatische Prüfung: Frühwarn-Plätze zuerst? tote Zonen (vier Raumbereiche)? Anteil direkt gesehener Plätze. Dazu der ActiveObs-Bogen; die Scheiter-Stelle aus Modul 9 wird als Prüf-Fokus vorgeschlagen.
+5. **60 Sekunden:** 8 Situationen aus einer Einzelarbeit mit je 3 Reaktionen (kurzer Impuls / Marker + Route halten / Sammelklärung / Vordertisch …), Feedback nach Standard.
+6. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W11 Break It Down, W9 Exemplar) + Freitext F6. **Abschluss:** Action Step mit Fehlerliste (füttert W13 und W25), Hinweis Gruppenhospitation 2, Exit-Karte, Einreichen/Export.

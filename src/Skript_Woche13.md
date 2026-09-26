@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie öffne und schließe ich Stunden so, dass Daten und Lernen entstehen? |
 | **Kernquellen** | Lemov T20 (Do Now), T26 (Exit Ticket); McCrea (Vorgriff Spacing); Bambrick-Santoyo (Datenlogik, vereinfacht) |
-| **Funktion im Jahr** | Block-2-Finale: verschraubt Anfang (Do Now, aus W2 organisatorisch bekannt, jetzt didaktisch aufgeladen) und Ende (Exit Ticket) mit den Meilensteinen aus W9. Die 10-Minuten-Sortier-Auswertung ist die Basistechnik für Reteaching (W25) und Whole-Class-Feedback (W33). Das Stundenarchitektur-Template wird finalisiert – es ist der Vorläufer des Lean-Planers (W31). Block-2-Quiz als Meilenstein-Messung. |
+| **Funktion im Jahr** | Block-2-Finale: vertieft Frage 2 aus W8 (Einstieg) und beantwortet Frage 1 (Ziel) am Stundenende per Exit Ticket; verschraubt Anfang (Do Now, aus W2 organisatorisch bekannt, jetzt didaktisch aufgeladen) und Ende (Exit Ticket) mit den Meilensteinen aus W9. Die 10-Minuten-Sortier-Auswertung ist die Basistechnik für Reteaching (W25) und Whole-Class-Feedback (W33). Das Stundenarchitektur-Template wird finalisiert – es ist der Vorläufer des Lean-Planers (W31). Block-2-Quiz als Meilenstein-Messung. |
 | **Lernziele** | Die TN können:<br>1. Do Nows nach dem 3-2-1-Vorläufer mit Wiederholungssubstanz füllen,<br>2. Exit Tickets exakt an Meilensteinen ausrichten (Gütecheck),<br>3. einen Klassensatz in ≤ 10 Minuten per Drei-Stapel-Sortierung auswerten und EINE Konsequenz ableiten. |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Doppel-Werkstatt (Schreiben + Sortieren) + Konsolidierungs-Ritual. |
 
@@ -60,7 +60,7 @@ Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zone
 
 ## Phase 5 · Konsolidierung Block 2 (Minute 50–56)
 
-**Stundenarchitektur-Template** (Handout B) gemeinsam durchgehen und ins Playbook heften: Do Now (3-2-1) → Meilensteine + Exemplar → I do (Vierklang) → We do (Treppe + 80 %-Check) → You do (Route + ActiveObs) → Exit Ticket (Gütecheck). 
+**Stundenarchitektur-Template** (Handout B) gemeinsam durchgehen und ins Playbook heften. Es folgt den fünf Fragen aus Woche 8 – jede Frage hat jetzt ihr Werkzeug: Ziel (Meilensteine + Exemplar, W9) → Einstieg (Do Now 3-2-1, W13) → Erklären (Vierklang, W10) → gemeinsam üben (Treppe + Blick auf alle, ca. vier von fünf, W11) → allein üben (Route + ActiveObs, W12) → Exit Ticket (Frage 1 am Ende, W13). 
 
 > *„Das ist Block 2 auf einer Seite – und es ist ab jetzt euer Standard-Stundenformular. In Woche 31 wird daraus ein 20-Minuten-Planungswerkzeug; bis dahin: benutzt es, bis es langweilig wird. Langweilig heißt: automatisiert."*
 
@@ -109,7 +109,7 @@ Erweitert (Blockabschluss):
 25 Tickets zur Aufgabe „Entscheide: past simple oder present perfect (2 Sätze) + begründe mit dem Signalwort": **11× grün** (beides richtig, Begründung nennt Signalwort), **8× gelb** (Entscheidung richtig, Begründung fehlt/zirkulär: „klingt besser"), **6× rot** (Signalwort ignoriert, „yesterday I have seen"). *(Eingebaute Kalibrier-Grenzfälle: 2 Tickets mit richtiger Entscheidung + falscher Begründung – gelb oder rot? Diskussion gewollt; W11-Fehlerkarte K6 lässt grüßen.)* — **Erwartete Konsequenz:** gelb+rot = 14/25 > ⅓ → 10-Min.-Reteach mit NEUEM Zugang (z. B. Zeitstrahl statt Regel-Wiederholung).
 
 ## 1.3 Handout B: Stundenarchitektur-Template (Einseiter)
-Kopf: Klasse/Thema/Datum. — **Do Now (3-2-1):** … — **Meilensteine (2–5, Ampel-geprüft):** … — **Exemplar (Kernaufgabe):** … — **I do:** Falle: … — **We do:** Treppenstufen + 80 %-Check bei: … — **You do:** ActiveObs-Fokus + Route: … — **Exit Ticket:** Aufgaben (→ Meilenstein-Nr.): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
+Kopf: Klasse/Thema/Datum. — **Frage 1 · Ziel:** Meilensteine (2–5, Ampel-geprüft): … / Exemplar (Kernaufgabe): … — **Frage 2 · Einstieg:** Do Now (3-2-1): … — **Frage 3 · Erklären:** was ich vormache, Falle: … — **Frage 4 · Gemeinsam üben:** Treppenstufen + Blick auf alle bei: … — **Frage 5 · Allein üben:** ActiveObs-Fokus + Route: … — **Exit Ticket (Frage 1 am Ende):** Aufgaben (→ Meilenstein-Nr.): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
 
 ---
 
@@ -155,10 +155,14 @@ d) Eltern sich beschweren ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 13"
 
-1. **Hook (2 Min.):** „Die ehrlichste Frage des Berufs": Habe ich unterrichtet – oder haben sie gelernt? Nutzer schätzt für die letzte eigene Stunde: Wie viele von 25 hätten den Kern-Meilenstein bestanden? (Der Schätzwert wird nach dem Modul mit dem echten ersten Ticket verglichen – Feature „Schätzung vs. Realität".)
-2. **See it (4 Min.):** Ticket-Beispiele gut/schlecht als Swipe (Gütecheck-Verstoß benennen); die Verbots-Liste als Karten.
-3. **Name it (3 Min.):** Gütecheck + Auswertungs-Reflex (Stapeln → Satz → Konsequenz) als Merkkarten.
-4. **Do it – Ticket-Generator (7 Min., Engine!):** Meilenstein aus Modul 9 laden (modulübergreifende Daten!) → Aufgabenvorschlag wählen/formulieren → Gütecheck-Ampel; Export ins Playbook.
-5. **Sortier-Simulation (7 Min., Kernstück!):** Der 25er-Satz aus Anhang 1.2 als Drag-&-Drop in drei Zonen mit laufender Uhr; Grenzfälle (richtige Entscheidung, falsche Begründung) triggern Erklär-Feedback; Abschluss: Konsequenz-Entscheidung mit Auflösung (>⅓-Regel).
-6. **Block-2-Abschlussquiz** (20 Fragen aus dem Pool) mit Spinnennetz-Update-Screen (Kompetenzmatrix Felder 4–5).
-7. **Abschluss:** Action-Step-Formular mit Täglich-Log: Ticket gestellt ☐ · sortiert in __ Min. · Konsequenz morgen: … · „Eure Tickets zeigen…"-Satz gesagt ☐.
+*(Umgesetzt in `SPAs/Modul13_Woche13_SPA.html`.)*
+
+1. **Eine Schätzung (2 Min.):** „Habe ich unterrichtet – oder haben sie gelernt?“ Schätzung für die letzte eigene Stunde (… von …) + „Woher weißt du das?“. Im Abschluss wird das erste echte Ticket danebengestellt (Schätzung vs. Wirklichkeit).
+2. **Der Einstieg (4 Min.):** Do Now didaktisch gewendet; 4 Beispiele „Wiederholung oder Vorschau?“; eigenes Do Now nach 3-2-1.
+3. **Das Exit Ticket (3 Min.):** Gütecheck + Verbotsliste; 5 Tickets aus verschiedenen Fächern → welches Kriterium fehlt (oder: besteht).
+4. **Mein Exit Ticket (6 Min.):** Meilensteine aus Modul 9 übernehmbar; Format wählen, 1–3 Aufgaben mit Meilenstein-Nummer, Gütecheck als Selbstprüfung.
+5. **Sortieren gegen die Uhr (7 Min., Kernstück):** der 25er-Satz aus Anhang 1.2 (11 grün, 8 gelb, 6 rot, 2 Grenzfälle, bei denen gelb und rot gelten) Ticket für Ticket mit laufender Uhr; Auswertung mit Abweichungen und Begründung; häufigster Fehler in einem Satz; Konsequenz-Entscheidung mit Auflösung (> ⅓-Regel).
+6. **Block 2 auf einer Seite:** Planungsbogen entlang der fünf Fragen (Handout B); Felder lassen sich aus den Eingaben der Module 9–12 und dem Do Now/Ticket dieser Woche vorbefüllen.
+7. **Quiz (Teil 2):** F1–F5 + Freitext F6.
+8. **Block-2-Quiz:** die 20 Fragen aus Teil 1 als Karten zur Selbstkorrektur (gewusst / teilweise / nicht gewusst) + Kompetenzmatrix Felder 4–5 (Selbsteinschätzung).
+9. **Abschluss:** Action Step mit Ticket-Log (sortiert in … Min., Stapel, Konsequenz), Schätzung vs. Wirklichkeit, erweiterte Exit-Karte zum Blockabschluss, Einreichen/Export.

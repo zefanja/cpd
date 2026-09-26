@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was genau sollen meine Schüler am Ende können – und woran erkenne ich es? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Backwards Design, Lern-Meilensteine, die zwei Planungs-Todsünden); Lemov T1 (Exemplar Planning) |
-| **Funktion im Jahr** | Das Steuerungs-Modul: Meilensteine + Exemplar werden Referenz für Exit Tickets (W13), CFU-Ausrichtung (Block 4), Erwartungshorizonte (W33) und das komplette Lean-Framework (W31/32). Wer diese Woche verpasst, plant den Rest des Jahres im Nebel. |
+| **Funktion im Jahr** | Vertieft Frage 1 aus W8 (Ziel: Was sollen am Ende alle können, und woran sehe ich das?). Das Steuerungs-Modul: Meilensteine + Exemplar werden Referenz für Exit Tickets (W13), CFU-Ausrichtung (Block 4), Erwartungshorizonte (W33) und das komplette Lean-Framework (W31/32). Wer diese Woche verpasst, plant den Rest des Jahres im Nebel. |
 | **Lernziele** | Die TN können:<br>1. die zwei Planungs-Todsünden (Aktivitätsfokus, Abdeckungsfokus) bei sich selbst erkennen,<br>2. 2–5 Lern-Meilensteine für eine Stunde formulieren (kumulativ, verteilt, messbar, klar),<br>3. per Exemplar Planning die ideale Schülerantwort vorab selbst verfassen und daraus Planungskonsequenzen ziehen. |
 | **Sitzungstyp** | Schreibwerkstatt an REALEN Stunden der kommenden Woche – der Output der Sitzung wird montags unterrichtet. |
 
@@ -52,7 +52,7 @@ Moderation liest beide inneren Monologe vor (Anhang 1.3) – langsam, mit Genuss
 > *„Das Ziel einer Stunde ist kein Thema. ‚Wir machen heute Photosynthese' ist ein ORT, kein Ziel – man kann dort ankommen, ohne dass irgendjemand etwas kann. Stattdessen: zwei bis fünf **Meilensteine** – Könnens-Sätze. Für Photosynthese etwa: ‚Kann die Wortgleichung nennen' → ‚kann erklären, wozu die Pflanze Licht braucht' → ‚kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert.' Vier Prüfsteine, unsere Ampel: **kumulativ** – sie bauen aufeinander; **verteilt** – den ersten schaffen fast alle, den letzten die Stärksten (das ist eure Differenzierung, eingebaut statt angeflanscht!); **messbar** – man kann eine Aufgabe dazu stellen; **klar** – ein Schüler versteht den Satz. Merkt euch die Meilensteine gut: Sie sind ab Woche 13 die Messlatte eurer Exit Tickets und ab Woche 33 das Skelett eurer Erwartungshorizonte. Was ihr heute lernt, benutzt ihr bis Juni wöchentlich."*
 
 ### 3c · Exemplar Planning (Min. 23–28)
-> *„Und jetzt Lemovs Technik Nummer eins – wortwörtlich, es ist die erste im Buch: **Schreib die ideale Schülerantwort selbst auf. Vorher.** Nicht die Aufgabe – die ANTWORT. Warum das so mächtig ist, merkt ihr beim ersten Versuch: Ihr wollt ‚Die Schüler können den Treibhauseffekt erklären'. Gut – schreibt die Erklärung, die ihr von einem Achtklässler sehen wollt. Drei Sätze? Sieben? Mit dem Wort ‚Wärmestrahlung' oder reicht ‚Wärme'? Mit Beispiel? In dem Moment, in dem ihr das ausformuliert, passieren drei Dinge: Erstens wisst ihr zum ersten Mal PRÄZISE, was ihr wollt. Zweitens seht ihr sofort die Lücken – ‚dafür müssen sie ja erstmal wissen, was Strahlung ist' – eure Schrittgrößen-Planung aus Woche 8 fällt euch in den Schoß. Drittens habt ihr den Maßstab für jede Antwort in der Stunde: Right is Right, kommt in Block 4, braucht genau dieses Exemplar. Fünf Minuten Schreibarbeit, dreifache Rendite."*
+> *„Und jetzt Lemovs Technik Nummer eins – wortwörtlich, es ist die erste im Buch: **Schreib die ideale Schülerantwort selbst auf. Vorher.** Nicht die Aufgabe – die ANTWORT. Warum das so mächtig ist, merkt ihr beim ersten Versuch: Ihr wollt ‚Die Schüler können den Treibhauseffekt erklären'. Gut – schreibt die Erklärung, die ihr von einem Achtklässler sehen wollt. Drei Sätze? Sieben? Mit dem Wort ‚Wärmestrahlung' oder reicht ‚Wärme'? Mit Beispiel? In dem Moment, in dem ihr das ausformuliert, passieren drei Dinge: Erstens wisst ihr zum ersten Mal PRÄZISE, was ihr wollt. Zweitens seht ihr sofort die Lücken – ‚dafür müssen sie ja erstmal wissen, was Strahlung ist' – die kleinen Schritte aus Frage 3 (Woche 8) fallen euch in den Schoß. Drittens habt ihr den Maßstab für jede Antwort in der Stunde: Right is Right, kommt in Block 4, braucht genau dieses Exemplar. Fünf Minuten Schreibarbeit, dreifache Rendite."*
 
 ## Phase 4 · Name it (Minute 28–32)
 
@@ -161,9 +161,12 @@ d) Schulbücher schlecht sind ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 9"
 
-1. **Hook (2 Min.):** Die zwei inneren Monologe als Audio – Nutzer tippt nach jedem: „Welche Frage fehlt in diesem Kopf?" (Auflösung: „Was LERNEN sie dabei?").
-2. **See it (4 Min.):** Backwards-Design-Reihenfolge als animierte Umkehrung (Aktivität-zuerst-Pfeil dreht sich um); Lemov-Befund als Balkengrafik (Zeitverwendung Top-Lehrkräfte vs. Durchschnitt).
-3. **Name it (4 Min.):** Ampel-Kriterien als Karten; „Ziel oder Thema?"-Swipe-Spiel mit 10 Formulierungen.
-4. **Do it – Meilenstein-Werkstatt (8 Min., Engine!):** Thema eingeben → Kette bauen → Ampel-Prüfung pro Meilenstein (Heuristik: Verb-Check gegen Nebelverben-Liste „verstehen/kennenlernen/auseinandersetzen/reflektieren"; Prüfaufgaben-Pflichtfeld erzwingt Messbarkeit); die 4 Beispielketten aus Anhang 1.2 als Kalibrier-Level vorab (Fehler finden).
-5. **Exemplar-Editor:** Schlüsselaufgabe + Idealantwort verfassen; App-Prompt: „Markiere die Scheiter-Stelle – die Stelle, an der Schwache scheitern werden" → dieses Markup wird als Schrittgrößen-Hinweis in Modul 10 wieder eingeblendet (Modul-übergreifende Datennutzung!).
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Exemplar vor Methodenwahl" mit Wochenzähler + Erinnerung an den Mikroteaching-Vorab-Auftrag für Modul 10.
+*(Umgesetzt in `SPAs/Modul9_Woche09_SPA.html`.)*
+
+1. **Zwei innere Monologe (3 Min.):** Planer A und B lesen, je die fehlende Frage notieren → Auflösung „Was lernen sie dabei?“, die zwei Todsünden.
+2. **Rückwärts planen (3 Min.):** Reihenfolge Ziel → Nachweis → Aktivität als umgedrehter Pfeil; Lemov-Befund als Balkengrafik (Zeitverwendung wirksamste Lehrkräfte vs. Durchschnitt).
+3. **Ziel oder Thema? (4 Min.):** Ampel-Kriterien als Karten; 6 Formulierungen einordnen. Liegt ein Ziel-Satz aus dem Stundenprofil von Modul 8 vor, wird er eingeblendet („Ziel oder Thema?“).
+4. **Meilenstein-Werkstatt (8 Min., Kernstück):** die 4 Beispielketten aus Anhang 1.2 als Kalibrierung (trägt/kaputt), danach eigene Kette mit 2–5 Meilensteinen; Nebelverben-Check („verstehen/kennenlernen/auseinandersetzen/reflektieren …“), Ampel pro Meilenstein, Prüfaufgabe als Pflichtfeld.
+5. **Exemplar-Editor:** Schlüsselaufgabe, Idealantwort, Scheiter-Stelle. Die Scheiter-Stelle wird in Modul 10 (Zerlegen) und Modul 12 (Prüf-Fokus beim Rundgang) wieder eingeblendet.
+6. **Quiz (Teil 2):** F1–F5 + eine Wiederholungsfrage zu W8 + Freitext F6.
+7. **Abschluss:** Action Step (Standard/Alternativen) mit Wochenzähler, Exit-Karte, Erinnerung an den Mikroteaching-Auftrag für W10, Einreichen/Export.

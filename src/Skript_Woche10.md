@@ -164,10 +164,12 @@ d) zu wenig Fachlichkeit ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 10"
 
-1. **Hook (2 Min.):** Der Fluch-des-Wissens-Selbsttest: Nutzer soll „einen Schuh zubinden" in Einzelschritten aufschreiben – App zeigt danach die 12-Schritte-Version für Schüler ohne Vorkenntnisse. Punchline: „So fühlt sich dein Fach für deine Klasse an."
-2. **See it (5 Min.):** Version 1 vs. Version 2 als Audio-Paar; Aufgabe: alle Think-Aloud-Momente in Version 2 antippen (Transkript-Markup).
-3. **Name it (3 Min.):** Vierklang-Karten + Satzanfänge-Sammlung als Spickzettel-Export.
-4. **Do it – Atomisierungs-Trainer (7 Min., Engine!):** Fachinhalt wählen/eingeben → in Teilschritte zerlegen → Vergleich mit Musterlösung; das in Modul 9 markierte „Scheiter-Stelle"-Markup aus dem Exemplar wird hier automatisch eingeblendet („Dein Modul-9-Ich sagt: hier brauchen Schwache einen Extra-Schritt").
-5. **Selbstaufnahme-Auftrag (Kern!):** App führt durch: 3-Min.-Modellierung aufnehmen (nur Audio) → geführte Selbstanalyse mit Feedbackbogen-Kriterien → „neue Elemente pro Minute" selbst zählen mit Zähl-Buttons. Aufnahme bleibt lokal.
-6. **Fallen-Bibliothek (wachsende Datenbank):** eigene Fach-Fallen eintragen (Fehler + warum verführerisch + Auflösung) – wird in Modul 20 (Plan for Error) wieder aufgerufen und weitergefüllt (Modul-übergreifende Kontinuität!).
-7. **Quiz (Teil 2)** + 30 % Altfragen; F2/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Eine Falle pro Tag" mit Fallen-Log.
+*(Umgesetzt in `SPAs/Modul10_Woche10_SPA.html`.)*
+
+1. **Der Fluch des Wissens (2 Min.):** „Einen Schuh zubinden“ in Einzelschritten aufschreiben → Vergleich mit der 12-Schritte-Version für jemanden ohne Vorkenntnisse. Punchline: „So fühlt sich dein Fach für deine Klasse an.“
+2. **Version 1 vs. Version 2 (5 Min.):** beide Erklärungen als Text; in Version 2 alle Momente lauten Denkens antippen (Transkript-Check).
+3. **Der Vierklang (3 Min.):** Vierklang-Karten + Satzanfänge als kopierbarer Spickzettel.
+4. **In kleine Schritte zerlegen (7 Min., Kernstück):** eigenen Inhalt in Teilschritte zerlegen, Halbier-Regel als Selbstprüfung. Eingeblendet werden der längste rote Block aus dem Stundenprofil von Modul 8 („In Stunde B waren es 4 Minuten“) und die Scheiter-Stelle aus Modul 9.
+5. **Selbstaufnahme:** 3-Min.-Aufnahme (nur Ton, bleibt lokal) → Selbstanalyse mit den Kriterien des Feedbackbogens → neue Elemente pro Minute mit Zähler.
+6. **Fallen-Bibliothek:** eigene Fach-Fallen (Fehler, warum verführerisch, Auflösung); wird in Modul 13 (Planungsbogen) und Modul 20 (Plan for Error) wieder aufgerufen.
+7. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W8 Frage 3, W9 Exemplar) + Freitext F6. **Abschluss:** Action Step mit Fallen-Log, Exit-Karte, Einreichen/Export.

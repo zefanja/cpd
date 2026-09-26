@@ -335,7 +335,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Action Step:** „Für jede neue Stunde schreibe ich zuerst die ideale Schülerantwort auf die Schlüsselaufgabe – vor allem anderen."
 
-**SPA-Bausteine:** Meilenstein-Werkstatt (Eingabe → Prüfkriterien kumulativ/verteilt/messbar/klar als Ampel); Beispielsammlung nach Fächern; „Todsünden-Detektor" (Planungsbeschreibungen als Aktivitäts-/Abdeckungs-/Backwards-Design klassifizieren).
+**SPA-Bausteine:** Zwei innere Monologe (Todsünden erkennen); „Ziel oder Thema?" (inkl. eigener Ziel-Satz aus dem W8-Stundenprofil); Meilenstein-Werkstatt (Kalibrierung an 4 Beispielketten, eigene Kette mit Ampel kumulativ/verteilt/messbar/klar); Exemplar-Editor mit Scheiter-Stelle (wird in W10 und W12 wieder eingeblendet).
 
 ---
 
@@ -360,7 +360,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Coaching-Fokus:** Hospitation einer Erklärphase; Transkript-Ausschnitt: Wie viele neue Elemente pro Minute?
 
-**SPA-Bausteine:** Videobibliothek gelungener Modellierungen nach Fach; Atomisierungs-Übung (komplexe Fertigkeit in Teilschritte zerlegen, gegen Musterlösung prüfen); Selbstaufnahme-Auftrag mit Analyse-Raster.
+**SPA-Bausteine:** Fluch-des-Wissens-Selbsttest (Schuh binden); Version 1 vs. 2 als Transkript-Check; Vierklang und Satzanfänge; In kleine Schritte zerlegen (mit längstem roten Block aus W8 und Scheiter-Stelle aus W9); Selbstaufnahme-Auftrag mit Analyse-Raster; Fallen-Bibliothek.
 
 ---
 
@@ -380,9 +380,9 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Übungsteil:** Fading-Treppe für ein eigenes Thema bauen (4 Stufen); Rollenspiel „We do mit Fehlerantwort": TN übt gestuftes Break It Down statt Lösung zu verraten.
 
-**Action Step:** „Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele, und ich prüfe mit Whiteboards/Abfrage, dass ≥80 % sicher sind."
+**Action Step:** „Vor jeder Stillarbeitsphase diese Woche: mindestens zwei gemeinsame Beispiele, und ich prüfe mit Whiteboards/Abfrage, dass etwa vier von fünf richtig liegen."
 
-**SPA-Bausteine:** Fading-Treppen-Bauer (interaktiv, mit Beispielbibliothek); Break-It-Down-Simulator (Schülerfehler erscheint → wähle kleinste Hilfe → Feedback); 80 %-Regel-Rechner mit Fallbeispielen.
+**SPA-Bausteine:** Simulation „Drei richtige Meldungen" (Melder-Stichprobe); die grünen Minuten aus Stunde B (W8) Moment für Moment zuordnen; Treppe mit Übung „Echte Stufe 2 oder verkleideter Sprung?"; Treppen-Bauer mit Beispielbibliothek; Break-It-Down-Simulator (Schülerfehler → Zug wählen → Schülerreaktion); Quoten-Rechner (gemeinsames Üben ca. 80 %, Einzelarbeit fast fehlerfrei).
 
 ---
 
@@ -406,7 +406,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Coaching-Fokus:** Hospitation Übungsphase; Coach zeichnet Laufweg + Aufenthaltszeiten mit.
 
-**SPA-Bausteine:** Sitzplan-Simulator mit Routenplanung; ActiveObs-Bogen-Generator; Fallvideo mit Aufgabe „Finde die 3 unbeobachteten Ecken".
+**SPA-Bausteine:** Ehrliche A/B/C-Frage; Laufweg-Fall Minute für Minute (Regelverstöße zuordnen, Draufsicht, Zeitpunkt der Sammelklärung); Startbedingungen-Check an 4 Phaseneröffnungen; Sitzplan-Editor mit Frühwarn-Plätzen, Route und automatischer Prüfung (tote Zonen); ActiveObs-Bogen mit Scheiter-Stelle aus W9; 60-Sekunden-Entscheidungsspiel.
 
 ---
 
@@ -430,7 +430,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **➜ GRUPPENHOSPITATION 2 (in Woche 12/13):** Fokus I do / We do – Wortlaut einer Modellierung protokollieren; Fading-Stufen identifizieren.
 
-**SPA-Bausteine:** Exit-Ticket-Generator (Meilenstein eingeben → Aufgabenvorschläge prüfen/verfeinern); Sortier-Simulation mit Beispielantworten (drag & drop in 3 Stapel → App zeigt Reteach-Empfehlung); Template-Download Stundenarchitektur.
+**SPA-Bausteine:** Schätzung vs. Wirklichkeit (eigene Schätzung, später mit dem ersten echten Ticket verglichen); Do Now: Wiederholung oder Vorschau? + eigenes 3-2-1-Do-Now; Exit-Ticket-Gütecheck an 5 Beispielen; eigenes Ticket (Meilensteine aus W9 übernehmbar); Sortier-Simulation mit 25 Tickets gegen die Uhr + Konsequenz-Entscheidung; „Block 2 auf einer Seite" (Planungsbogen entlang der fünf Fragen, vorbefüllbar aus W9–W12); Block-2-Quiz als Selbstkorrektur-Karten; Kompetenzmatrix Felder 4–5.
 
 ---
 

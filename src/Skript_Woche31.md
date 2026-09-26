@@ -86,7 +86,7 @@ Tandem-Blitz: Partner legt die fünf Fragen aus W8 an den Einseiter – 2 Minute
 - **Formatwechsel ab jetzt: das PLANUNGSGESPRÄCH.** Coaching findet diese Woche VOR einer Stunde statt: TN plant live auf dem Einseiter (Timer!), Coach beobachtet nur den PROZESS: Wo hängt die Zeit? (Fast immer: Aktivitäten-Grübeln trotz Repertoire, oder Material-Kosmetik.) Danach 10 Min. Prozess-Feedback + gemeinsames Audit.
 - **Hospitation (verkürzt):** die geplante Stunde ansehen mit EINER Frage: Hat die 20-Minuten-Planung im Raum getragen? (Belege sammeln für das Auswertungsgespräch – die Antwort ist fast immer ja, und sie muss BELEGT werden, sonst glaubt der TN ihr nicht.)
 - **Zahlen-Ehrlichkeit:** Planungszeit-Log der Woche gemeinsam anschauen; Rückfälle normalisieren („Sonntagsangst hat Gewohnheitsrecht – sie geht in Wochen, nicht Tagen").
-- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Audit-Fragen – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (b) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
+- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Fragen aus W8 – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (b) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
 
 ---
 
@@ -123,7 +123,7 @@ c) Material → Ablauf → Ziel ✗
 d) egal, Hauptsache vollständig ✗
 
 **F3.** „80 % genügen" bedeutet:
-a) die fünf Audit-Fragen sind verhandelbar ✗ *(die Schlampigkeits-Fehldeutung)*
+a) die fünf Fragen aus W8 sind verhandelbar ✗ *(die Schlampigkeits-Fehldeutung)*
 b) Verzicht auf Perfektions-Kosmetik – nachhaltig gehaltene Qualität schlägt ausbrennende Perfektion ✓
 c) 80 % der Stunden gut planen, 20 % improvisieren ✗
 d) Notenschnitt 2,0 reicht ✗

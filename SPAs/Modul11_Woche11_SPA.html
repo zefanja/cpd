@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 11 · Gemeinsam üben</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+/* ---------- Modul 11: Klasse als Punkte ---------- */
+.klasse{display:grid;grid-template-columns:repeat(7,1fr);gap:.55rem;max-width:22rem;margin:1rem auto .4rem}
+.kid{aspect-ratio:1;border-radius:50%;background:var(--line);border:2px solid transparent;position:relative;transition:background .3s}
+.kid.hand::after{content:'✋';position:absolute;top:-.85rem;right:-.45rem;font-size:.8rem}
+.kid.ok{background:var(--c-gruen)}
+.kid.no{background:var(--c-rot)}
+.kid.unk{background:var(--line)}
+.klasse-legend{display:flex;justify-content:center;flex-wrap:wrap;gap:.3rem 1rem;font-size:.78rem;color:var(--muted)}
+
+/* ---------- Treppe ---------- */
+.stair{display:grid;gap:.5rem;margin-top:.9rem}
+.stair-step{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:.65rem .85rem;border-left:6px solid var(--c-gruen)}
+.stair-step:nth-child(1){margin-right:0;border-left-color:var(--c-rot)}
+.stair-step:nth-child(2){margin-left:6%}
+.stair-step:nth-child(3){margin-left:12%}
+.stair-step:nth-child(4){margin-left:18%;border-left-color:var(--c-blau)}
+.stair-step b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.stair-step .ex{font-size:.88rem;margin-top:.2rem;font-family:ui-monospace,Menlo,Consolas,monospace}
+.stair-step .who{font-size:.76rem;color:var(--muted);margin-top:.15rem}
+.check-list{list-style:none;display:grid;gap:.35rem;margin-top:.5rem}
+.check-list li{font-size:.9rem;display:flex;gap:.5rem;align-items:flex-start}
+.check-list li::before{content:'✓';color:var(--petrol);font-weight:800}
+.self-check{display:flex;gap:.6rem;align-items:flex-start;margin-top:.55rem;font-size:.9rem}
+.self-check input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0}
+
+/* ---------- Hilfe-Simulator ---------- */
+.chat{display:grid;gap:.4rem;margin-top:.7rem}
+.chat .you,.chat .stu{border-radius:10px;padding:.5rem .75rem;font-size:.9rem;max-width:92%}
+.chat .you{background:var(--petrol-soft);justify-self:end}
+.chat .stu{background:#FBF7EE;border-left:3px solid var(--amber)}
+.chat .you small,.chat .stu small{display:block;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.move-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.move-row .cat-chip:last-child{border-style:dashed}
+
+/* ---------- Quote ---------- */
+.rate-grid{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
+.ampel{border-radius:var(--radius);padding:.9rem 1rem;margin-top:1rem;border:2px solid var(--line);background:var(--bg)}
+.ampel.gruen{border-color:var(--c-gruen);background:#EAF1E5}
+.ampel.gelb{border-color:var(--c-gelb);background:#FBF3DF}
+.ampel.rot{border-color:var(--c-rot);background:#F5E4E2}
+.ampel .big{font-family:var(--display);font-weight:800;font-size:1.6rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 11</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 11 · Block 2 · Frage 4 · Fortbildung Sek I/II</span>
+  <h1>Wie führe ich die Klasse vom Zusehen zum Selbermachen, ohne sie fallen zu lassen?</h1>
+  <p class="lead">In Woche 8 ging Stunde A von der Erklärung direkt in die Einzelarbeit. Am nächsten Tag konnten 11 von 27 die Aufgabe. Stunde B hat an dieser Stelle zehn Minuten gemeinsam geübt. Heute geht es genau um diese zehn Minuten.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Du prüfst zuerst, was drei richtige Meldungen über eine Klasse verraten. Dann schaust du dir ein gemeinsames Üben Schritt für Schritt an und lernst die Treppe kennen, auf der die Hilfe weniger wird. Du baust eine Treppe für dein eigenes Thema und übst, auf Fehler mit der kleinsten Hilfe zu reagieren. Zum Schluss entscheidest du an Zahlen, wann die Klasse allein weiterarbeiten kann.</p>
+    <p class="hint" style="margin-top:.6rem">📌 Nimm ein Thema, das du in den nächsten zwei Wochen unterrichtest. Du brauchst es in Station 4.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Frage 4 aus Woche 8</h4>
+    <p style="margin-top:0"><strong>Gemeinsam üben:</strong> Lösen wir Aufgaben gemeinsam, und sehe ich dabei die Antworten <em>aller</em>, bevor sie allein arbeiten?</p>
+    <p class="hint">Rosenshine P3 viele Fragen, Antworten aller prüfen · P5 Üben anleiten · P6 Verständnis prüfen · P8 Hilfen geben und abbauen</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R8 (Guided Practice) · Lemov „Break It Down“ · Rosenshine P5, P8</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · DREI MELDUNGEN -->
+<section class="screen" data-title="Drei richtige Meldungen">
+  <span class="eyebrow">Station 1 · Drei richtige Meldungen</span>
+  <h2>Du hast gerade eine Aufgabe gemeinsam gerechnet.</h2>
+  <p class="lead">Jetzt fragst du: „Wer kann mir das Ergebnis der nächsten Aufgabe sagen?“ Drei melden sich. Alle drei antworten richtig.</p>
+  <div class="card">
+    <div class="klasse" id="klasse"></div>
+    <div class="klasse-legend" id="klasseLegend"></div>
+    <p style="margin-top:1rem;font-weight:600">Kann die Klasse jetzt allein weiterarbeiten?</p>
+    <div class="chip-row" id="meldRow"></div>
+  </div>
+  <div class="card reveal" id="meldReveal">
+    <p>So sah es in den Heften der anderen 24 aus:</p>
+    <p class="punchline">13 von 27 können es noch nicht.</p>
+    <p style="margin-top:.7rem">Wer sich meldet, kann es meistens. Deshalb sagen drei richtige Meldungen fast nichts über die übrigen 24. Das ist dieselbe Falle wie „Alles klar?“ in Woche 8: Du erfährst etwas über die, die sich sicher fühlen, nicht über die Klasse.</p>
+    <p style="margin-top:.7rem">Die Lösung kennst du aus Stunde B: Alle schreiben die Antwort auf ein Whiteboard und halten es gleichzeitig hoch. In fünf Sekunden siehst du 27 Antworten statt drei.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum gemeinsamen Üben →</button></p>
+</section>
+
+<!-- 2 · GEMEINSAM ÜBEN, SCHRITT FÜR SCHRITT -->
+<section class="screen" data-title="Gemeinsam üben, Schritt für Schritt">
+  <span class="eyebrow">Station 2 · Gemeinsam üben, Schritt für Schritt</span>
+  <h2>Die zehn grünen Minuten aus Stunde B.</h2>
+  <p class="lead">Mathematik, Klasse 7, Prozentwert. Die Lehrerin hat ein Beispiel vorgerechnet. Jetzt üben alle gemeinsam. Ordne jedem Moment zu, was die Lehrerin dort vor allem tut.</p>
+  <div class="formula-card">
+    <h4>Vier Dinge, die gemeinsames Üben ausmachen</h4>
+    <ol class="q-legend" id="steerLegend"></ol>
+  </div>
+  <div id="demoList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="demoResetBtn">Zurücksetzen</button> <button class="btn small" id="demoCheckBtn">Auflösen</button></p>
+  <div class="card reveal" id="demoReveal">
+    <p>Die Lehrerin hat nichts vorgerechnet. Sie hat alles erfragt, aber in einer Reihenfolge, die trägt. Alle haben jede Aufgabe geschrieben, Zuschauen war nicht vorgesehen. Die Hilfe wurde von Aufgabe zu Aufgabe weniger. Und sie hat mehrmals die Antworten <strong>aller</strong> gesehen, nicht die von drei Freiwilligen.</p>
+    <p class="punchline">Das ist das ganze We do in vier Sätzen.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Treppe →</button></p>
+</section>
+
+<!-- 3 · DIE TREPPE -->
+<section class="screen" data-title="Die Treppe">
+  <span class="eyebrow">Station 3 · Die Treppe</span>
+  <h2>Keine Klappe, sondern eine Treppe.</h2>
+  <p class="lead">Der Übergang vom Zusehen zum Selbermachen passiert nicht auf einmal. Er gelingt über vier Stufen, auf denen die Hilfe weniger wird. Stunde A ist von Stufe 1 direkt auf Stufe 4 gesprungen.</p>
+  <div class="stair" id="stairDemo"></div>
+  <div class="card">
+    <h3>Das Tempo entscheidet</h3>
+    <p style="font-size:.92rem">Die Treppe zu bauen ist nicht schwer. Schwer ist, im richtigen Moment eine Stufe weiterzugehen. Die nächste Stufe beginnt erst, wenn die jetzige trägt, also wenn du bei <strong>allen</strong> gesehen hast, dass etwa vier von fünf richtig liegen. In Station 6 übst du diese Entscheidung.</p>
+  </div>
+  <h3 style="margin-top:1.6rem">Ist das eine echte Stufe 2?</h3>
+  <p class="lead">Der häufigste Baufehler: Stufe 2 lässt ausgerechnet die schwierigste Stelle offen. Dann ist es keine Stufe, sondern ein verkleideter Sprung. Die erste Lücke soll eine leichte sein.</p>
+  <div id="gapList"></div>
+  <div class="formula-card">
+    <h4>Checkliste gemeinsames Üben</h4>
+    <ul class="check-list">
+      <li>Alle schreiben mit, nicht nur die Lehrkraft an der Tafel.</li>
+      <li>Du fragst die Schritte ab, statt sie vorzusagen.</li>
+      <li>Du weißt, auf welcher Stufe der Treppe ihr gerade seid.</li>
+      <li>Auf jeder Stufe siehst du mindestens einmal die Antworten aller.</li>
+      <li>Erst wenn etwa vier von fünf richtig liegen, geht es eine Stufe weiter oder in die Einzelarbeit.</li>
+    </ul>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu deiner Treppe →</button></p>
+</section>
+
+<!-- 4 · MEINE TREPPE -->
+<section class="screen" data-title="Meine Treppe">
+  <span class="eyebrow">Station 4 · Meine Treppe</span>
+  <h2>Bau eine Treppe für dein eigenes Thema.</h2>
+  <p class="lead">Nimm eine Aufgabe, die deine Klasse in den nächsten zwei Wochen können soll. Schreib für jede Stufe eine konkrete Aufgabe auf. In Textfächern ist Stufe 1 ein Musterabsatz, Stufe 2 derselbe Absatz mit Lücken, Stufe 3 der erste Satz plus Gliederung.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="stairEx">Beispiele ansehen</label>
+      <select id="stairEx"></select>
+    </div>
+    <div id="stairExView"></div>
+  </div>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="stTopic">Fach, Klasse, Thema</label>
+      <input type="text" id="stTopic" data-store="stTopic" placeholder="z. B. Deutsch 8a, Argumentieren mit These, Beleg, Erläuterung">
+    </div>
+    <div class="field">
+      <label for="st1">Stufe 1 · Vollbeispiel <span class="sub">Du machst es komplett vor und denkst dabei laut (Woche 10).</span></label>
+      <textarea id="st1" data-store="st1" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="st2">Stufe 2 · Lückenbeispiel <span class="sub">Der Weg steht, an zwei oder drei leichten Stellen fehlt etwas. Die Klasse füllt die Lücken.</span></label>
+      <textarea id="st2" data-store="st2" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="st3">Stufe 3 · Nur der Anfang <span class="sub">Der erste Schritt ist vorgegeben, den Rest schaffen sie allein.</span></label>
+      <textarea id="st3" data-store="st3" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="st4">Stufe 4 · Ohne Hilfe <span class="sub">Nur die Aufgabe.</span></label>
+      <textarea id="st4" data-store="st4" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="stCheck">Wie siehst du auf Stufe 2 und 3 die Antworten aller? <span class="sub">z. B. Whiteboards, Zettel, Daumen reicht nicht.</span></label>
+      <input type="text" id="stCheck" data-store="stCheck" placeholder="z. B. Stufe 2: Lücke 1 aufs Whiteboard, 3-2-1-hoch">
+    </div>
+  </div>
+  <div class="card">
+    <h3>Selbstprüfung</h3>
+    <div id="stSelfChecks"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur kleinsten Hilfe →</button></p>
+</section>
+
+<!-- 5 · DIE KLEINSTE HILFE -->
+<section class="screen" data-title="Die kleinste Hilfe">
+  <span class="eyebrow">Station 5 · Die kleinste Hilfe</span>
+  <h2>Eine falsche Antwort. Was sagst du?</h2>
+  <p class="lead">Der Reflex ist, die Lösung zu sagen, denn die Zeit ist knapp. Aber wer die Lösung sagt, hat selbst geübt, nicht der Schüler. Besser: die kleinste Hilfe zuerst, und nach jeder Stufe gibst du die Aufgabe zurück.</p>
+  <div class="formula-card">
+    <h4>Break It Down: vier Stufen, dann erst die Lösung</h4>
+    <ol class="q-legend">
+      <li><b>1</b><span><strong>Hinweis:</strong> „Schau noch einmal auf …“</span></li>
+      <li><b>2</b><span><strong>Beispiel:</strong> „Vorhin bei Aufgabe 1 haben wir zuerst …“</span></li>
+      <li><b>3</b><span><strong>Regel:</strong> „Was sagt unsere Merkregel über …?“</span></li>
+      <li><b>4</b><span><strong>Erster Schritt:</strong> vormachen, den Rest zurückgeben.</span></li>
+    </ol>
+    <p>Die Lösung kommt nur, wenn nichts davon trägt. Dann erklärt der Schüler den Weg noch einmal mit eigenen Worten.</p>
+  </div>
+  <p class="hint" style="margin-top:.8rem">Wähle bei jedem Fall deinen nächsten Zug. Der Schüler reagiert darauf. Ziel ist, mit der kleinsten Hilfe auszukommen, die gerade reicht.</p>
+  <div id="bidList"></div>
+  <p class="hint" id="bidScore" style="margin-top:1rem"></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zur Quote →</button></p>
+</section>
+
+<!-- 6 · WANN GEHT ES ALLEIN WEITER? -->
+<section class="screen" data-title="Wann geht es allein weiter?">
+  <span class="eyebrow">Station 6 · Wann geht es allein weiter?</span>
+  <h2>Die Antworten aller entscheiden, nicht die Uhr.</h2>
+  <p class="lead">In Stunde B lagen bei der dritten gemeinsamen Aufgabe 22 von 27 richtig. Die Einzelarbeit begann, und die fünf anderen kamen an den Vordertisch. Trag ein, was deine Whiteboards zeigen.</p>
+  <div class="card">
+    <div class="rate-grid">
+      <div class="field" style="margin-top:0"><label for="rateN">Schüler in der Klasse</label><input type="number" id="rateN" data-store="rateN" min="1" max="40"></div>
+      <div class="field" style="margin-top:0"><label for="rateOk">davon richtig</label><input type="number" id="rateOk" data-store="rateOk" min="0" max="40"></div>
+    </div>
+    <div class="field">
+      <label for="ratePhase">In welcher Phase?</label>
+      <select id="ratePhase" data-store="ratePhase">
+        <option value="gemeinsam">Gemeinsam üben, neuer Inhalt</option>
+        <option value="allein">Einzelarbeit oder Wiederholung</option>
+      </select>
+    </div>
+    <div id="rateOut"></div>
+  </div>
+  <div class="card">
+    <h3>Warum so streng?</h3>
+    <p style="font-size:.92rem">Wer zwanzig Minuten allein falsch übt, hat den Fehler eingeübt. Umlernen dauert länger als lernen. Die fleißige Einzelarbeit kann also schaden, wenn das gemeinsame Üben davor gefehlt hat.</p>
+    <p class="hint">Richtwert aus Woche 8: Beim gemeinsamen Üben neuer Inhalte zeigen etwa vier von fünf richtige Antworten, dass es allein weitergehen kann. In der Einzelarbeit und bei Wiederholungen soll es dann fast fehlerfrei laufen.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 11, zwei zur Wiederholung.</h2>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Ein Schüler sagt beim gemeinsamen Üben: „Yesterday I have seen him.“ Schreib deine ersten drei Züge wörtlich auf, ohne die Lösung zu verraten.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="1. … 2. … 3. …"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Muster anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: 1. Hinweis: „Schau auf das erste Wort des Satzes.“ 2. Beispiel: „Yesterday I ___ football. Wie hieß das vorhin?“ 3. Regel: „Was macht ein Signalwort wie yesterday mit der Zeitform?“ Die Lösung sagst du nicht.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 8 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Action Step</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Action Step.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+  <p class="hint" style="margin-top:.7rem">Noch keine Whiteboards? Laminierte Klarsichthüllen mit einem weißen Blatt und ein Folienstift kosten fast nichts. Wie die Schule einen Klassensatz beschafft, klärt dein Coach.</p>
+
+  <div class="card">
+    <h3>Gemeinsam geübt?</h3>
+    <p class="hint">Trag nach drei Stunden dieser Woche kurz ein, wie der Übergang in die Einzelarbeit lief.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+    <p class="hint" style="margin-top:.6rem">📌 Erinnerung: Bring zu Woche 12 den Sitzplan deiner Hauptklasse mit (Kopie oder Foto).</p>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche nehmen wir uns Frage 5 vor: das Alleinüben. Die Einzelarbeit ist nicht deine Verschnaufpause, sondern die Phase, in der du am meisten darüber erfährst, was angekommen ist. Bring dafür den Sitzplan deiner Hauptklasse mit.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul11-woche11-wedo"></script>
+<script>
+/* ================= Daten ================= */
+const MOD={n:11,key:'modul11-woche11-wedo',file:'modul11-woche11',title:'Gemeinsam üben – das We do'};
+
+/* Station 1: 27 Schüler, 3 melden sich (Plätze 2, 9, 17). Rot = kann es noch nicht (13 von 27). */
+const KLASSE_N=27;
+const MELDER=[2,9,17];
+const KANN_NICHT=[0,4,5,7,10,12,13,15,19,20,22,24,26];
+
+const STEER=[
+ {k:'Alle schreiben mit',q:'Jeder Schüler schreibt jeden Schritt ins Heft, nicht nur die Lehrkraft an die Tafel.'},
+ {k:'Fragen statt vorsagen',q:'Die Lehrkraft fragt die Schritte ab, statt sie selbst zu nennen.'},
+ {k:'Hilfe nimmt ab',q:'Von Aufgabe zu Aufgabe gibt die Lehrkraft weniger vor.'},
+ {k:'Antworten aller sehen',q:'Alle antworten gleichzeitig, die Lehrkraft sieht jede Antwort.'}
+];
+
+const DEMO=[
+ {c:'gruen',t:'Aufgabe 1: „30 % von 80 €.“ Die Lehrerin fragt: „Was suche ich hier, Grundwert, Prozentsatz oder Prozentwert?“ Sie wartet, nimmt eine Antwort und fragt: „Wer sieht das anders?“ Erst dann schreibt sie an. Alle schreiben jeden Schritt ins Heft.',
+  ok:[0,1],note:'<b>Fragen statt vorsagen</b> und <b>alle schreiben mit.</b> Das Beispiel entsteht aus den Antworten der Klasse, und niemand kann nur zuschauen.'},
+ {c:'gelb',t:'„Schreibt den Ansatz auf euer Whiteboard. 3, 2, 1, hoch.“ 27 Boards gehen gleichzeitig nach oben.',
+  ok:[3],note:'<b>Antworten aller sehen.</b> Nach dem ersten Schritt weiß sie, ob alle den Ansatz haben, bevor es weitergeht.'},
+ {c:'gruen',t:'Aufgabe 2: „45 % von 120 €.“ An der Tafel steht nur noch der erste Schritt: W = 120 · 45/100. „Den Rest rechnet ihr.“',
+  ok:[2],note:'<b>Hilfe nimmt ab.</b> Stufe 3 der Treppe: Der Anfang ist vorgegeben, den Rest schaffen sie selbst.'},
+ {c:'gelb',t:'Aufgabe 3 rechnen alle ganz allein auf dem Whiteboard. Die Lehrerin scannt die Boards: Vier zeigen 3600 statt 36. „Vier von euch haben dasselbe Ergebnis. Schaut noch einmal auf den Prozentsatz. Was bedeuten 30 %?“',
+  ok:[3,2],note:'<b>Antworten aller sehen</b>, und die Hilfe ist jetzt nur noch ein Hinweis. Sie nennt keine Namen und verrät die Lösung nicht.'},
+ {c:'gelb',t:'Kontrollaufgabe auf dem Whiteboard: 22 von 27 richtig. „Ihr arbeitet jetzt allein weiter, Buch Nr. 1 bis 6. Wer eine Sechs auf dem Board hat, kommt kurz zu mir an den Vordertisch.“',
+  ok:[3],note:'<b>Antworten aller sehen.</b> Gut vier von fünf richtig: Die Einzelarbeit kann beginnen. Die fünf anderen holt sie gezielt nach vorn, statt zu hoffen, dass sie sich melden.'}
+];
+
+const STAIR_DEMO=[
+ {b:'Stufe 1 · Vollbeispiel',ex:'3x + 5 = 20  →  | −5  →  3x = 15  →  | :3  →  x = 5',who:'Die Lehrkraft macht es vor und denkt laut.'},
+ {b:'Stufe 2 · Lückenbeispiel',ex:'4x + 3 = 19  →  | __  →  4x = 16  →  | :4  →  x = __',who:'Der Weg steht. Die Klasse füllt zwei leichte Lücken.'},
+ {b:'Stufe 3 · Nur der Anfang',ex:'5x − 7 = 18  →  Erster Schritt: auf beiden Seiten +7. Weiter allein.',who:'Die Klasse rechnet, die Lehrkraft sieht die Boards.'},
+ {b:'Stufe 4 · Ohne Hilfe',ex:'6x + 11 = 47',who:'Nur die Aufgabe. Erst wenn das bei etwa vier von fünf klappt: Einzelarbeit.'}
+];
+
+const GAPS=[
+ {tag:'Mathematik, Kl. 8',t:'Stufe 2 zu linearen Gleichungen: „4x + 3 = 19 | __ → 4x = 16 | :4 → x = __“',ok:true,
+  note:'Echte Stufe 2. Die Lücken liegen an leichten Stellen, der schwierige Teil des Weges steht noch da.'},
+ {tag:'Deutsch, Kl. 8',t:'Stufe 2 zum Argumentieren: These und Beleg sind vorgegeben. Die Erläuterung, also der Teil, der erklärt, warum der Beleg die These stützt, fehlt komplett.',ok:false,
+  note:'Verkleideter Sprung. Die Erläuterung ist die schwierigste Stelle. Besser: Die Erläuterung steht halb da, und es fehlt nur das Verbindungswort oder der letzte Halbsatz.'},
+ {tag:'Englisch, Kl. 7',t:'Stufe 2 zum present perfect: „She ___ (live) here since 2019.“ Das Signalwort since ist markiert, nur die Verbform fehlt.',ok:true,
+  note:'Echte Stufe 2. Die Entscheidung für die Zeitform ist durch das markierte Signalwort vorbereitet. Gefüllt wird nur die Form.'},
+ {tag:'Chemie, Kl. 9',t:'Stufe 2 zur Stöchiometrie: Die Reaktionsgleichung ist gegeben. Darunter steht „Rechne wie im Beispiel“, der Rest ist leer.',ok:false,
+  note:'Verkleideter Sprung. Das ist eigentlich Stufe 4 mit einem Hinweis. Eine echte Stufe 2 zeigt den Rechenweg und lässt nur ein, zwei leichte Werte offen.'}
+];
+
+const STAIR_EX=[
+ {k:'Mathematik · lineare Gleichungen',s:['3x + 5 = 20, komplett vorgeführt mit lautem Denken.','4x + 3 = 19. Der Weg steht, Lücken bei „| −3“ und beim Ergebnis.','5x − 7 = 18. Vorgegeben: „Erster Schritt: beide Seiten +7.“','6x + 11 = 47'],c:'Stufe 2 und 3 auf Whiteboards, 3-2-1-hoch.'},
+ {k:'Deutsch · These, Beleg, Erläuterung',s:['Musterabsatz, beim Schreiben laut kommentiert: „Zuerst die These. Jetzt suche ich eine Stelle im Text, die sie stützt …“','Derselbe Aufbau zu einer neuen These. Die These steht, beim Beleg fehlt nur die Zeilenangabe, die Erläuterung ist zur Hälfte vorgegeben.','Nur die These und das Gerüst „Beleg: … Erläuterung: Das zeigt, dass …“','Nur die These, der Rest allein.'],c:'Stufe 2: Zeilenangabe aufs Whiteboard. Stufe 3: Zettel einsammeln, zwei Stapel.'},
+ {k:'Englisch · simple past vs. present perfect',s:['Drei Sätze vorgemacht: Signalwort suchen, Zeitform entscheiden, Form bilden.','Sätze mit markiertem Signalwort, nur die Verbform fehlt.','Sätze ohne Markierung, der erste Satz ist gelöst.','Fünf gemischte Sätze.'],c:'Whiteboards: nur die Verbform, 3-2-1-hoch.'},
+ {k:'Biologie · Mikroskopieren und zeichnen',s:['Die Lehrkraft zeichnet eine Zwiebelzelle vor und kommentiert jede Entscheidung („Nur was ich sehe, nicht was ich weiß“).','Vorgedruckte Zelle, drei Beschriftungen fehlen, die Linien stehen.','Nur der Umriss der Zelle ist vorgegeben.','Eigenes Präparat, eigene Zeichnung.'],c:'Stufe 2: Beschriftungen aufs Whiteboard. Stufe 3: Zeichnungen hochhalten.'}
+];
+
+const ST_SELF=[
+ 'Die erste Lücke in Stufe 2 ist eine leichte Stelle, nicht die schwierigste.',
+ 'Jede Stufe ist wirklich kleiner als die davor, keine springt zwei Stufen.',
+ 'Auf Stufe 2 und 3 sehe ich die Antworten aller.',
+ 'Ich weiß, was ich tue, wenn deutlich weniger als vier von fünf richtig liegen: noch eine Aufgabe auf derselben Stufe oder eine Stufe zurück.'
+];
+
+/* Station 5: need = kleinste Hilfe, die trägt (0 Hinweis, 1 Beispiel, 2 Regel, 3 erster Schritt) */
+const MOVES=['Hinweis','Beispiel','Regel','Erster Schritt','Lösung sagen'];
+const BID=[
+ {tag:'Mathematik, Kl. 8',err:'„3x + 5 = 20. Ich hab 20 minus 5 minus 3 gerechnet, also x = 12.“',need:0,
+  say:['„Schau noch einmal, was zwischen der 3 und dem x steht.“','„Bei Aufgabe 1 hatten wir 2x = 10. Wie sind wir da auf x gekommen?“','„Was sagt unsere Regel: Wie macht man ein Mal rückgängig?“','„Schau: 3x = 15. Und jetzt?“','„Du musst durch 3 teilen, x = 5.“'],
+  react:['„Ah, mal. Dann muss ich teilen. 15 durch 3, also x = 5.“','„Durch 2 geteilt. Also hier durch 3: x = 5.“','„Mit Geteilt. Also 15 durch 3, x = 5.“','„Durch 3 teilen, x = 5.“','Er schreibt „x = 5“ ab.']},
+ {tag:'Mathematik, Kl. 8',err:'„5x − 7 = 18. Die 7 kommt rüber, also 5x = 11.“',need:1,
+  say:['„Schau noch einmal auf das Rechenzeichen vor der 7.“','„Bei Aufgabe 1 stand +5, und wir haben auf beiden Seiten −5 gerechnet. Was machen wir bei −7?“','„Was sagt unsere Regel: Mit welcher Rechnung bekomme ich eine Zahl auf einer Seite weg?“','„Wir rechnen auf beiden Seiten +7. Weiter.“','„Das heißt 5x = 25, also x = 5.“'],
+  react:['„Minus. Ja, und? Dann eben minus 7, also 11.“','„Dann plus 7. Also 5x = 25 und x = 5.“','„Mit der Gegenrechnung, also plus 7. Dann 5x = 25, x = 5.“','„5x = 25, x = 5.“','Sie schreibt „x = 5“ ab.']},
+ {tag:'Deutsch, Kl. 8',err:'„Der Autor ist gegen das Gesetz, das merkt man halt.“',need:3,
+  say:['„Woran merkt man das? Zeig mir die Stelle.“','„Im Musterabsatz stand nach der These ein Zitat mit Zeilenangabe. Was wäre das hier?“','„Was sagt unser Dreischritt: Was kommt nach der These?“','„Lies mit mir Zeile 10 bis 14. Welches Wort zeigt, was er von dem Gesetz hält?“','„Schreib: Der Autor ist dagegen, denn er nennt das Gesetz in Z. 12 völlig verfehlt.“'],
+  react:['„Äh … irgendwo am Anfang?“','„Ich finde kein Zitat.“','„Der Beleg. Aber ich weiß nicht, welche Stelle.“','„‚Völlig verfehlt‘! Also: Der Autor ist dagegen, denn er nennt das Gesetz in Z. 12 ‚völlig verfehlt‘.“','Er schreibt den Satz ab.']},
+ {tag:'Englisch, Kl. 7',err:'„Yesterday I have seen him.“',need:0,
+  say:['„Schau auf das erste Wort des Satzes.“','„Yesterday I ___ football. Wie hieß das vorhin?“','„Was macht ein Signalwort wie yesterday mit der Zeitform?“','„Yesterday verlangt simple past. Und jetzt?“','„Es heißt: Yesterday I saw him.“'],
+  react:['„Yesterday, das ist ein Signalwort für simple past. Yesterday I saw him.“','„Played. Ah, simple past: Yesterday I saw him.“','„Simple past. Yesterday I saw him.“','„Yesterday I saw him.“','Sie wiederholt: „Yesterday I saw him.“']},
+ {tag:'Physik, Kl. 8',err:'„Das Ergebnis ist 12.“ – „12 was?“ – „Einfach 12.“',need:2,
+  say:['„Was haben wir berechnet, eine Länge, eine Zeit oder eine Geschwindigkeit?“','„Vorhin: 100 m in 20 s, wir haben 5 geschrieben. 5 was?“','„Was sagt unsere Regel: Die Einheit bekommst du, indem du …?“','„Wir rechnen Meter durch Sekunde. Also 12 …?“','„12 Meter pro Sekunde.“'],
+  react:['„Eine Geschwindigkeit halt.“','„Da stand 5 … aber ich weiß nicht mehr, was dahinter stand.“','„… die Einheiten genauso rechnest wie die Zahlen. Meter durch Sekunde, also 12 m/s.“','„12 m/s.“','Er schreibt „12 m/s“ hin.']},
+ {tag:'Mathematik, Kl. 7',err:'Die Antwort „36 €“ ist richtig. Auf die Nachfrage sagt der Schüler: „Hab ich geschätzt, das klang gut.“',choice:true,
+  opts:[
+   {t:'„Richtig! Weiter mit der nächsten Aufgabe.“',ok:false,note:'Dann bleibt unbemerkt, dass der Weg fehlt. Bei der nächsten Aufgabe rät er wieder.'},
+   {t:'„Das Ergebnis stimmt. Zeig mir, wie du es rechnest, damit es auch bei 45 % von 120 € klappt.“',ok:true,note:'Genau. Das Ergebnis würdigen, aber den Weg einfordern. In Woche 22 heißt das „Right is Right“: Richtig ist erst, was vollständig richtig ist.'},
+   {t:'„Falsch, du musst rechnen.“',ok:false,note:'Die Antwort ist ja richtig. Wer sie als falsch bezeichnet, verwirrt und entmutigt.'}
+  ]}
+];
+
+const QUIZ=[
+ {q:'F1. Drei Schüler beantworten deine Kontrollfrage richtig. Was folgt daraus?',
+  opts:[
+   {t:'Die Klasse kann es, es geht weiter.',ok:false,note:'Das ist die Alltagslogik. Die drei, die sich melden, sind meist die, die es schon können.'},
+   {t:'Noch nichts Belastbares. Wer sich meldet, ist keine Stichprobe für die Klasse.',ok:true,note:'Genau. Erst die Antworten aller zeigen, wo die Klasse steht.'},
+   {t:'Die Klasse kann es nicht.',ok:false,note:'Das weißt du genauso wenig.'},
+   {t:'Die Frage war zu leicht.',ok:false,note:'Das lässt sich aus drei Meldungen nicht ablesen.'}
+  ]},
+ {q:'F2. Ein Schüler kommt beim gemeinsamen Üben nicht weiter. Was hilft zuerst?',
+  opts:[
+   {t:'die Lösung zeigen, weil die Zeit knapp ist und andere warten',ok:false,note:'Das ist der Reflex. Dann hast du geübt, nicht er.'},
+   {t:'die kleinste Hilfe: ein Hinweis, danach wenn nötig ein Beispiel oder die Regel',ok:true,note:'Genau. Jede Stufe gibt ihm noch eine Chance, selbst anzukommen.'},
+   {t:'einen starken Schüler antworten lassen',ok:false,note:'Kann helfen, aber danach muss die Frage zurück an den ersten Schüler (Woche 22).'},
+   {t:'die Aufgabe wechseln',ok:false,note:'Dann bleibt der Fehler, wo er ist.'}
+  ]},
+ {q:'F3. Warum ist es gefährlich, zu früh in die Einzelarbeit zu gehen?',
+  opts:[
+   {t:'weil sich die Schüler langweilen',ok:false,note:'Eher das Gegenteil: Sie sind überfordert.'},
+   {t:'weil sich allein eingeübte Fehler festsetzen, und umlernen dauert länger als lernen',ok:true,note:'Genau. Die fleißige Einzelarbeit übt dann die Fehler ein.'},
+   {t:'weil die Aufsicht schwieriger wird',ok:false,note:'Das ist nicht der Kern.'},
+   {t:'weil es unfair gegenüber den Schwächeren ist',ok:false,note:'Klingt sozial, trifft aber nicht den Kern. Es schadet allen, die es noch nicht können.'}
+  ]},
+ {q:'F4. In deiner Treppe lässt Stufe 2 ausgerechnet die schwierigste Stelle offen. Das ist …',
+  opts:[
+   {t:'gut, denn dort liegt der Kern des Lernens',ok:false,note:'Klingt anspruchsvoll, ist aber ein Sprung.'},
+   {t:'ein verkleideter Sprung, denn die erste Lücke soll eine leichte sein',ok:true,note:'Genau.'},
+   {t:'egal, Hauptsache es gibt Lücken',ok:false,note:'Wo die Lücke liegt, entscheidet, ob die Stufe trägt.'},
+   {t:'nur in Mathematik ein Problem',ok:false,note:'In Textfächern passiert es genauso, z. B. wenn die Erläuterung fehlt.'}
+  ]},
+ {q:'F5. Wann beginnt die Einzelarbeit?',
+  opts:[
+   {t:'wenn die Zeit knapp wird',ok:false,note:'Das ist Schulalltag, aber kein guter Grund.'},
+   {t:'wenn du bei allen gesehen hast, dass etwa vier von fünf richtig liegen',ok:true,note:'Genau. Die übrigen holst du dir gezielt, wie die fünf am Vordertisch in Stunde B.'},
+   {t:'nach genau zwei gemeinsamen Beispielen',ok:false,note:'Zwei Beispiele sind ein Richtwert. Entscheiden sollten die Antworten aller.'},
+   {t:'wenn keine Fragen mehr kommen',ok:false,note:'Keine Fragen heißt nicht, dass es alle können.'}
+  ]},
+ {q:'🔁 Woche 8: Ein Stundenprofil zeigt 18 Minuten Rot und direkt danach Blau. Welche Frage ist vor allem betroffen?',
+  opts:[
+   {t:'Frage 1 · Ziel',ok:false,note:'Das Ziel kann trotzdem klar gewesen sein.'},
+   {t:'Frage 4 · Gemeinsam üben',ok:true,note:'Genau (und Frage 3, weil der rote Block so lang ist). Zwischen Rot und Blau fehlt Grün oder Gelb.'},
+   {t:'Frage 2 · Einstieg',ok:false,note:'Über den Einstieg sagt diese Stelle nichts.'},
+   {t:'keine, das ist eine normale Stunde',ok:false,note:'Es ist eine übliche Stunde. Genau das war Stunde A.'}
+  ]},
+ {q:'🔁 Woche 10: Während du etwas vormachst, sollen die Schüler …',
+  opts:[
+   {t:'alles mitschreiben, damit nichts verloren geht',ok:false,note:'Wer gleichzeitig versteht und abschreibt, tut beides halb.'},
+   {t:'zuschauen und zuhören. Mitgeschrieben wird danach vom stehenden Tafelbild.',ok:true,note:'Genau. Beim gemeinsamen Üben schreiben dann alle mit.'},
+   {t:'parallel schon Aufgaben lösen',ok:false,note:'Dann hören sie nicht zu.'},
+   {t:'im Buch mitlesen',ok:false,note:'Das lenkt vom lauten Denken ab.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'wedo',label:'Zwei Beispiele gemeinsam, dann Blick auf alle (Standard)',
+  text:'Vor jeder Einzelarbeit dieser Woche übe ich mindestens zwei Aufgaben gemeinsam mit der Klasse. Bevor jemand allein arbeitet, sehe ich die Antworten aller (Whiteboards oder Zettel). Erst wenn etwa vier von fünf richtig liegen, geht es allein weiter.'},
+ {id:'treppe',label:'Meine Treppe durchlaufen (Alternative)',
+  text:'Ich setze meine Treppe aus Station 4 in der Einheit vollständig um und notiere auf jeder Stufe, wie viele richtig lagen.'},
+ {id:'fasten',label:'Keine Lösung verraten (Alternative)',
+  text:'Eine Woche lang sage ich bei keiner falschen Antwort sofort die Lösung, sondern gebe zuerst einen Hinweis, ein Beispiel oder die Regel. Ich führe eine Strichliste, wie oft eine kleine Hilfe gereicht hat.'}
+];
+
+const LOG_ROWS=3, LOG_ROW_LABEL='Stunde', LOG_TITLE='Gemeinsam geübt?';
+const LOG_FIELDS=[
+ {f:'s',label:'(Tag, Klasse)',short:'',ph:'z. B. Di, 7b'},
+ {f:'n',label:'Gemeinsame Aufgaben',short:'gemeinsame Aufgaben',ph:'z. B. 3'},
+ {f:'q',label:'Richtig vor der Einzelarbeit',short:'richtig vor Einzelarbeit',ph:'z. B. 21 von 27'}
+];
+const EXIT_LABELS=['Das leuchtet mir am meisten ein:','Da bin ich skeptisch:'];
+const STATE_VERSION=1;
+
+function freshState(){
+  return {v:STATE_VERSION,name:'',
+   meld:-1,
+   demoSel:DEMO.map(()=>-1),demoRevealed:false,
+   gapSel:GAPS.map(()=>0),
+   stairEx:0,stTopic:'',st1:'',st2:'',st3:'',st4:'',stCheck:'',stSelf:ST_SELF.map(()=>false),
+   bidMoves:BID.map(()=>[]),bidChoice:BID.map(()=>-1),
+   rateN:'27',rateOk:'',ratePhase:'gemeinsam',
+   quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+   actionStep:'wedo',log:emptyLog(),
+   exitMit:'',exitSorge:'',commit:false,screen:0,
+   submitted:false,submittedAt:null,submissionText:''};
+}
+function normalizeModule(f){
+  const arr=(k,len)=>{if(!Array.isArray(state[k])||state[k].length!==len)state[k]=f[k];};
+  arr('demoSel',DEMO.length);arr('gapSel',GAPS.length);arr('stSelf',ST_SELF.length);
+  arr('bidMoves',BID.length);arr('bidChoice',BID.length);
+  state.bidMoves=state.bidMoves.map(m=>Array.isArray(m)?m.filter(x=>x>=0&&x<MOVES.length):[]);
+  if(!(state.stairEx>=0&&state.stairEx<STAIR_EX.length))state.stairEx=0;
+}
+
+/* ================= Station 1: Drei Meldungen ================= */
+function renderKlasse(){
+  const box=document.getElementById('klasse');box.innerHTML='';
+  for(let i=0;i<KLASSE_N;i++){
+    const d=document.createElement('div');
+    let cls='kid';
+    if(MELDER.includes(i))cls+=' hand ok';
+    else if(state.meld>-1)cls+=KANN_NICHT.includes(i)?' no':' ok';
+    else cls+=' unk';
+    d.className=cls;box.appendChild(d);
+  }
+  document.getElementById('klasseLegend').innerHTML=state.meld>-1
+    ?'<span><i class="sw bg-gruen"></i> kann es</span><span><i class="sw bg-rot"></i> kann es noch nicht</span><span>✋ hat sich gemeldet</span>'
+    :'<span>✋ meldet sich und antwortet richtig</span><span><i class="sw" style="background:var(--line)"></i> unbekannt</span>';
+  const row=document.getElementById('meldRow');row.innerHTML='';
+  ['Ja, weiter in die Einzelarbeit','Nein','Weiß ich noch nicht'].forEach((t,j)=>{
+    const b=document.createElement('button');
+    let cls='cat-chip';
+    if(state.meld>-1){if(j===2)cls+=' correct';else if(j===state.meld)cls+=' wrong';}
+    b.className=cls;b.textContent=t;
+    b.addEventListener('click',()=>{state.meld=j;scheduleSave();renderKlasse();renderSummary();});
+    row.appendChild(b);
+  });
+  document.getElementById('meldReveal').classList.toggle('on',state.meld>-1);
+}
+
+/* ================= Station 2: Gemeinsam üben ================= */
+function steerLegendHtml(){return STEER.map((s,j)=>'<li><b>'+(j+1)+'</b><span><strong>'+s.k+':</strong> '+s.q+'</span></li>').join('');}
+function renderDemo(){
+  const wrap=document.getElementById('demoList');wrap.innerHTML='';
+  DEMO.forEach((d,i)=>{
+    const div=document.createElement('div');div.className='phase c-'+d.c;
+    let chips='';
+    STEER.forEach((s,j)=>{
+      const sel=state.demoSel[i]===j;
+      let cls='cat-chip'+(sel?' sel':'');
+      if(state.demoRevealed&&d.ok.includes(j))cls+=' correct';
+      else if(state.demoRevealed&&sel)cls+=' wrong';
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+(j+1)+' '+s.k+'</button>';
+    });
+    div.innerHTML='<div class="phase-time">Moment '+(i+1)+(d.c==='gelb'?' · alle antworten':' · gemeinsam üben')+'</div>'
+      +'<div class="phase-text">'+d.t+'</div><div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(state.demoRevealed?' on':'')+'">'+d.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    if(state.demoRevealed)return;
+    state.demoSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderDemo();renderSummary();
+  }));
+  document.getElementById('demoReveal').classList.toggle('on',state.demoRevealed);
+}
+document.getElementById('demoCheckBtn').addEventListener('click',()=>{state.demoRevealed=true;scheduleSave();renderDemo();renderSummary();});
+document.getElementById('demoResetBtn').addEventListener('click',()=>{state.demoSel=DEMO.map(()=>-1);state.demoRevealed=false;scheduleSave();renderDemo();renderSummary();});
+function demoScore(){return state.demoSel.reduce((a,v,i)=>a+(DEMO[i].ok.includes(v)?1:0),0);}
+
+/* ================= Station 3: Treppe ================= */
+function stairHtml(steps){
+  return steps.map(s=>'<div class="stair-step"><b>'+s.b+'</b><div class="ex">'+esc(s.ex)+'</div>'+(s.who?'<div class="who">'+s.who+'</div>':'')+'</div>').join('');
+}
+function renderGaps(){
+  document.getElementById('stairDemo').innerHTML=stairHtml(STAIR_DEMO);
+  const wrap=document.getElementById('gapList');wrap.innerHTML='';
+  GAPS.forEach((g,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.gapSel[i];
+    let chips='';
+    ['Echte Stufe 2','Verkleideter Sprung'].forEach((lbl,j)=>{
+      const val=j+1,right=(g.ok?1:2)===val;
+      let cls='cat-chip';
+      if(sel){if(right)cls+=' correct';else if(sel===val)cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-v="'+val+'">'+lbl+'</button>';
+    });
+    div.innerHTML='<div class="scene" style="margin-top:0"><span class="tag">'+g.tag+'</span>'+g.t+'</div>'
+      +'<div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(sel?' on':'')+'">'+g.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.gapSel[+b.dataset.i]=+b.dataset.v;scheduleSave();renderGaps();renderSummary();
+  }));
+}
+function gapDone(){return state.gapSel.filter(v=>v>0).length;}
+function gapScore(){return state.gapSel.reduce((a,v,i)=>a+(v===(GAPS[i].ok?1:2)?1:0),0);}
+
+/* ================= Station 4: Meine Treppe ================= */
+function renderStairEx(){
+  const sel=document.getElementById('stairEx');
+  if(!sel.options.length){
+    STAIR_EX.forEach((e,i)=>{const o=document.createElement('option');o.value=i;o.textContent=e.k;sel.appendChild(o);});
+    sel.addEventListener('change',()=>{state.stairEx=+sel.value;scheduleSave();renderStairEx();});
+  }
+  sel.value=state.stairEx;
+  const e=STAIR_EX[state.stairEx];
+  const names=['Stufe 1 · Vollbeispiel','Stufe 2 · Lückenbeispiel','Stufe 3 · Nur der Anfang','Stufe 4 · Ohne Hilfe'];
+  document.getElementById('stairExView').innerHTML='<div class="stair">'+e.s.map((t,i)=>'<div class="stair-step"><b>'+names[i]+'</b><div class="phase-text">'+esc(t)+'</div></div>').join('')+'</div>'
+    +'<p class="hint" style="margin-top:.6rem">Blick auf alle: '+esc(e.c)+'</p>';
+}
+function renderStSelf(){
+  const wrap=document.getElementById('stSelfChecks');wrap.innerHTML='';
+  ST_SELF.forEach((t,i)=>{
+    const l=document.createElement('label');l.className='self-check';
+    l.innerHTML='<input type="checkbox" data-i="'+i+'"'+(state.stSelf[i]?' checked':'')+'><span>'+t+'</span>';
+    l.querySelector('input').addEventListener('change',e=>{state.stSelf[i]=e.target.checked;scheduleSave();renderSummary();});
+    wrap.appendChild(l);
+  });
+}
+function stairFilled(){return ['st1','st2','st3','st4'].filter(k=>(state[k]||'').trim()).length;}
+
+/* ================= Station 5: Die kleinste Hilfe ================= */
+function bidStatus(i){
+  const c=BID[i];
+  if(c.choice){const v=state.bidChoice[i];return v<0?'open':(c.opts[v].ok?'best':'wrong');}
+  const m=state.bidMoves[i];
+  if(!m.length)return 'open';
+  if(m.includes(4))return 'verraten';
+  const solved=m.some(x=>x>=c.need);
+  if(!solved)return 'running';
+  return Math.max(...m)===c.need?'best':'toomuch';
+}
+function renderBid(){
+  const wrap=document.getElementById('bidList');wrap.innerHTML='';
+  BID.forEach((c,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let h='<div class="scene" style="margin-top:0"><span class="tag">Fall '+(i+1)+' · '+c.tag+'</span>'+c.err+'</div>';
+    if(c.choice){
+      const v=state.bidChoice[i];
+      h+='<p class="step-label">Was sagst du?</p><div class="quiz-opts">';
+      c.opts.forEach((o,j)=>{
+        let cls='quiz-opt';if(v>-1){if(o.ok)cls+=' right';else if(j===v)cls+=' wrong';}
+        h+='<button class="'+cls+'" data-c="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+      });
+      h+='</div>';
+      if(v>-1)h+='<p class="quiz-note on">'+(c.opts[v].ok?'✓ ':'✗ ')+c.opts[v].note+'</p>';
+    }else{
+      const m=state.bidMoves[i],st=bidStatus(i);
+      h+='<div class="chat">';
+      m.forEach(x=>{
+        h+='<div class="you"><small>Du · '+MOVES[x]+'</small>'+c.say[x]+'</div>';
+        h+='<div class="stu"><small>Schüler</small>'+c.react[x]+'</div>';
+      });
+      h+='</div>';
+      if(st==='open'||st==='running'){
+        h+='<p class="step-label">'+(m.length?'Dein nächster Zug':'Dein erster Zug')+'</p><div class="move-row">';
+        MOVES.forEach((mv,j)=>{h+='<button class="cat-chip" data-m="'+i+'" data-j="'+j+'"'+(m.includes(j)?' disabled':'')+'>'+(j<4?(j+1)+' ':'')+mv+'</button>';});
+        h+='</div>';
+      }else{
+        const note={
+          best:'✓ Genau die kleinste Hilfe, die gereicht hat. Der Schüler hat den entscheidenden Schritt selbst gemacht.',
+          toomuch:'Gelöst, aber mit mehr Hilfe als nötig. Hier hätte schon „'+MOVES[c.need]+'“ gereicht. Jede übersprungene Stufe nimmt dem Schüler eine Chance, selbst anzukommen.',
+          verraten:'✗ Jetzt hast du geübt, nicht der Schüler. Er hat die Lösung abgeschrieben. '+(c.need<4?'Hier hätte schon „'+MOVES[c.need]+'“ gereicht.':'')
+        }[st];
+        h+='<p class="quiz-note on">'+note+'</p><p style="margin-top:.5rem"><button class="btn ghost small" data-reset="'+i+'">Fall neu spielen</button></p>';
+      }
+    }
+    div.innerHTML=h;wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-m]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.m,j=+b.dataset.j;state.bidMoves[i].push(j);scheduleSave();renderBid();renderSummary();
+  }));
+  wrap.querySelectorAll('[data-c]').forEach(b=>b.addEventListener('click',()=>{
+    state.bidChoice[+b.dataset.c]=+b.dataset.j;scheduleSave();renderBid();renderSummary();
+  }));
+  wrap.querySelectorAll('[data-reset]').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.reset;state.bidMoves[i]=[];state.bidChoice[i]=-1;scheduleSave();renderBid();renderSummary();
+  }));
+  const done=bidDone();
+  document.getElementById('bidScore').textContent=done?(done+' von '+BID.length+' Fällen abgeschlossen · mit der kleinsten Hilfe gelöst: '+bidBest()):'';
+}
+function bidDone(){return BID.filter((c,i)=>!['open','running'].includes(bidStatus(i))).length;}
+function bidBest(){return BID.filter((c,i)=>bidStatus(i)==='best').length;}
+
+/* ================= Station 6: Quote ================= */
+function rateResult(){
+  const n=parseInt(state.rateN),ok=parseInt(state.rateOk);
+  if(!(n>0)||!(ok>=0)||ok>n)return null;
+  const p=Math.round(ok/n*100);
+  let cls,head,text;
+  if(state.ratePhase==='allein'){
+    if(p>=95){cls='gruen';head='So soll es sein.';text='In der Einzelarbeit und bei Wiederholungen ist fast fehlerfrei das Ziel. Weiter so.';}
+    else if(p>=80){cls='gelb';head='Einzelne Fehler sammeln.';text='Schau, ob es derselbe Fehler ist. Taucht er dreimal auf, klärst du ihn einmal für alle (Woche 12).';}
+    else{cls='rot';head='Einzelarbeit unterbrechen.';text='So viele Fehler in der Einzelarbeit heißt: Das gemeinsame Üben hat noch nicht getragen. Zurück zu zwei Aufgaben gemeinsam.';}
+  }else{
+    if(p>=80){cls='gruen';head='Es kann allein weitergehen.';text='Etwa vier von fünf liegen richtig. Die nächste Stufe oder die Einzelarbeit kann beginnen. Die '+(n-ok)+' anderen holst du dir gezielt, zum Beispiel an den Vordertisch.';}
+    else if(p>=60){cls='gelb';head='Noch eine Aufgabe auf dieser Stufe.';text='Knapp darunter. Greif den häufigsten Fehler mit einem Hinweis auf und stell noch eine Aufgabe derselben Art. Dann schau wieder auf alle Antworten.';}
+    else{cls='rot';head='Eine Stufe zurück.';text='Deutlich weniger als vier von fünf. Rechne noch ein Beispiel gemeinsam, gern in kleineren Schritten. Einzelarbeit jetzt würde die Fehler einüben.';}
+  }
+  return {p,cls,head,text};
+}
+function renderRate(){
+  const r=rateResult();
+  document.getElementById('rateOut').innerHTML=r
+    ?'<div class="ampel '+r.cls+'"><div class="big">'+r.p+' %</div><p style="font-weight:700;margin-top:.2rem">'+r.head+'</p><p style="font-size:.92rem;margin-top:.3rem">'+r.text+'</p></div>'
+    :'<p class="hint" style="margin-top:.8rem">Trag die Zahlen ein, dann erscheint die Empfehlung.</p>';
+}
+function onStoreInput(k){if(k==='rateN'||k==='rateOk'||k==='ratePhase')renderRate();}
+
+/* ================= Transfer ================= */
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Modul-UI ================= */
+function refreshModuleUI(){
+  document.getElementById('steerLegend').innerHTML=steerLegendHtml();
+  renderKlasse();renderDemo();renderGaps();renderStairEx();renderStSelf();renderBid();renderRate();
+  document.getElementById('transferNote').classList.toggle('on',!!state.transferShown);
+}
+function summaryRows(){
+  return [
+   ['Drei Meldungen', state.meld>-1?'✓ aufgelöst':'noch offen',state.meld>-1],
+   ['Gemeinsam üben zugeordnet', state.demoRevealed?'✓ '+demoScore()+'/'+DEMO.length+' passend':state.demoSel.filter(v=>v>-1).length+'/'+DEMO.length,state.demoRevealed],
+   ['Echte Stufe 2?', gapDone()===GAPS.length?'✓ '+gapScore()+'/'+GAPS.length+' richtig':gapDone()+'/'+GAPS.length,gapDone()===GAPS.length],
+   ['Meine Treppe', stairFilled()===4?'✓ vier Stufen':stairFilled()+'/4 Stufen',stairFilled()===4],
+   ['Die kleinste Hilfe', bidDone()===BID.length?'✓ '+bidBest()+'/'+BID.length+' mit kleinster Hilfe':bidDone()+'/'+BID.length+' Fälle',bidDone()===BID.length],
+   ['Quiz', quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+   ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+}
+function stairText(){
+  return 'Thema: '+(state.stTopic||'–')+'\nStufe 1 (Vollbeispiel): '+(state.st1||'–')+'\nStufe 2 (Lückenbeispiel): '+(state.st2||'–')
+    +'\nStufe 3 (nur der Anfang): '+(state.st3||'–')+'\nStufe 4 (ohne Hilfe): '+(state.st4||'–')+'\nBlick auf alle: '+(state.stCheck||'–')
+    +'\nSelbstprüfung: '+state.stSelf.filter(Boolean).length+' von '+ST_SELF.length+' Punkten erfüllt';
+}
+function summaryText(){
+  let t=summaryHead();
+  t+='— MEINE TREPPE —\n'+stairText()+'\n';
+  t+='\n— ÜBUNGEN —\nGemeinsam üben zugeordnet: '+demoScore()+' von '+DEMO.length+'\nEchte Stufe 2 erkannt: '+gapScore()+' von '+GAPS.length
+    +'\nKleinste Hilfe: '+bidBest()+' von '+BID.length+' Fällen\n';
+  const r=rateResult();
+  if(r)t+='Quote-Rechner: '+state.rateOk+' von '+state.rateN+' ('+r.p+' %) → '+r.head+'\n';
+  t+=summaryTail();
+  return t;
+}
+function buildPrint(){
+  let h=printHead();
+  h+='<h2>Meine Treppe</h2>'+pf('Thema:',state.stTopic)+pf('Stufe 1 · Vollbeispiel:',state.st1)+pf('Stufe 2 · Lückenbeispiel:',state.st2)
+    +pf('Stufe 3 · Nur der Anfang:',state.st3)+pf('Stufe 4 · Ohne Hilfe:',state.st4)+pf('Blick auf alle:',state.stCheck)
+    +pf('Selbstprüfung:',state.stSelf.filter(Boolean).length+' von '+ST_SELF.length+' Punkten erfüllt');
+  h+=printActionBlock();
+  h+='<div class="pagebreak"></div><h2>Übungen</h2>'+pf('Gemeinsam üben, Momente passend zugeordnet:',demoScore()+' von '+DEMO.length)
+    +pf('Echte Stufe 2 erkannt:',gapScore()+' von '+GAPS.length)+pf('Mit der kleinsten Hilfe gelöst:',bidBest()+' von '+BID.length);
+  h+=printTail();
+  return h;
+}
+
+/* ================= Zustand & Speicherung ================= */
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus Vorwochen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für diese Woche: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche '+MOD.n+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+</script>
+</body>
+</html>

@@ -81,7 +81,7 @@
 
 **Material:** Fading-Treppen-Vorlage (4 Stufen: Vollbeispiel → Lückenbeispiel → nur Ansatz → blank); Klassensatz Mini-Whiteboards (Demo!); Fehlerkarten (typische Schülerfehler zum Ziehen).
 
-**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Umformulierungs-Formel (W6)? 4. 80 %-Regel? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
+**Retrieval-Starter:** 1. Modellierungs-Vierklang? 2. Was ist der Fluch des Wissens + Gegenmittel? 3. Umformulierungs-Formel (W6)? 4. Erfolgsquote: wann ca. 80 %, wann fast 100 %? 5. (Anwendung) Nenne ein Beispiel/Nicht-Beispiel-Paar aus DEINEM Fach.
 
 **Input (Min. 8–24):**
 1. *See it – Live-Demo mit der Gruppe als Klasse:* Moderation führt ein echtes We do durch (z. B. Argumentationsaufbau oder Prozentaufgabe): Aufgabe gemeinsam lösen, Schritte per Fragen aus der Gruppe holen, ALLE schreiben mit, zwischendurch Whiteboard-Abfrage. Danach offenlegen, was gesteuert war.

@@ -108,7 +108,7 @@ Raster: Phase | Ich tue … | **ALLE Schüler tun … (konkret, prüfbar!)** —
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
 1. Die Lean-Fragenfolge (W31)? *(Wohin → Woran → Wie → Was kommt zurück)*
 2. Die Prüfregel? *(Wer bei „Wie?" anfängt, plant Beschäftigung)*
-3. Was heißt „80 % genügen" – und was heißt es NICHT? *(Kosmetik-Verzicht; Audit-Fragen nicht verhandelbar)*
+3. Was heißt „80 % genügen" – und was heißt es NICHT? *(Kosmetik-Verzicht; die fünf Fragen aus W8 sind nicht verhandelbar)*
 4. Die zwei Spacing-Einbau-Regeln (W18)? *(jedes Quiz kumulativ; ≥25 % Altstoff im Set)*
 5. (Anwendung) Dein Ticket zeigt abends: 40 % hängen an Schritt 2 – was steht morgen im Plan? *(Reteach-Baustein mit neuem Zugang [W25]; Kette per Bleistift verschoben, Puffer im Blick)*
 

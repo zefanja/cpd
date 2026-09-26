@@ -8,7 +8,7 @@
 
 **Material:** Ziffernfolgen-Karten für Selbstversuche; Schaubild WM-Trichter/LZG-Netz (aus dem Auftakt, jetzt vertieft); 4 Fall-Karten „Klassiker"; Mythen-Kartenset (Lernstile, Lernpyramide, 10 %-Gehirn, „digital natives lernen anders").
 
-**Retrieval-Starter (erweitert, 10 Min., Reaktivierung):** 8 Fragen quer durch Block 1+2, darunter: Stundenarchitektur-Template aufzeichnen; 80 %-Regel; Exit-Ticket-Gütecheck; Interventionsleiter; (Anwendung) „Erste Stunde nach den Ferien – welche zwei Dinge etablierst du neu?"
+**Retrieval-Starter (erweitert, 10 Min., Reaktivierung):** 8 Fragen quer durch Block 1+2, darunter: Stundenarchitektur-Template aufzeichnen; Erfolgsquote (wann ca. 80 %, wann fast 100 %); Exit-Ticket-Gütecheck; Interventionsleiter; (Anwendung) „Erste Stunde nach den Ferien – welche zwei Dinge etablierst du neu?"
 
 **Input (Min. 10–28):**
 1. *See it – Selbstversuche (Highlight der Sitzung, 6 Min.):*

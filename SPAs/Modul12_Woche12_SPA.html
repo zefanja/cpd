@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 12 · Allein üben</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+/* ---------- Modul 12: Sitzplan ---------- */
+.room{margin-top:.9rem}
+.room .front{text-align:center;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1.5px dashed var(--line);border-radius:8px;padding:.3rem;margin-bottom:.6rem}
+.seats{display:grid;gap:.4rem}
+.seat{aspect-ratio:1.35;border-radius:8px;border:1.5px solid var(--line);background:var(--card);font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);cursor:pointer;position:relative;display:flex;align-items:center;justify-content:center;padding:0}
+.seat.empty{background:transparent;border-style:dashed;color:transparent}
+.seat.early{border-color:var(--amber);background:#FBF3DF}
+.seat.early::after{content:'★';position:absolute;top:.05rem;right:.2rem;font-size:.65rem;color:var(--amber)}
+.seat.onroute{background:var(--petrol-soft);border-color:var(--petrol)}
+.seat.visited{background:#EAF1E5;border-color:var(--c-gruen)}
+.seat.unrest{border-color:var(--c-rot);background:#F5E4E2}
+.seat.dead{background:#EEEFEA;color:var(--muted)}
+.seat.static{cursor:default}
+.mode-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.6rem}
+.dim-row{display:flex;flex-wrap:wrap;gap:.7rem;align-items:end}
+.dim-row .field{margin-top:0;width:7rem}
+.check-out{display:grid;gap:.4rem;margin-top:.9rem}
+.check-out div{font-size:.9rem;border-radius:8px;padding:.45rem .7rem;background:var(--bg)}
+.check-out .good{background:#EAF1E5}
+.check-out .warn{background:#FBF3DF}
+.check-out .bad{background:#F5E4E2}
+.suggest{border:1.5px dashed var(--petrol);border-radius:10px;padding:.6rem .8rem;margin-top:.7rem;font-size:.88rem;background:var(--petrol-soft)}
+.abc{display:grid;gap:.5rem;margin-top:.7rem}
+.stat-bar{height:.6rem;border-radius:999px;background:var(--line);overflow:hidden;margin-top:.25rem}
+.stat-bar span{display:block;height:100%;background:var(--petrol)}
+.stat-row{font-size:.86rem;margin-top:.55rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 12</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 12 · Block 2 · Frage 5 · Fortbildung Sek I/II</span>
+  <h1>Was tue ich eigentlich, während die Klasse allein arbeitet?</h1>
+  <p class="lead">In Stunde A aus Woche 8 ging die Lehrerin in der Einzelarbeit herum und half, wo sich jemand meldete. Wie viele es konnten, wusste sie am Ende nicht. In Stunde B ging die Lehrerin zuerst zu fünf bestimmten Schülern, dann in einer festen Runde durch alle Reihen, und setzte Häkchen. Heute geht es um diesen Unterschied.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Du beantwortest zuerst eine ehrliche Frage zu deiner letzten Einzelarbeit. Dann verfolgst du einen Rundgang Minute für Minute und findest die Stellen, an denen Wissen verloren geht. Du lernst die fünf Startbedingungen und die Regeln für den Rundgang. Dann planst du deine eigene Route auf deinem Sitzplan und legst fest, worauf du achtest. Zum Schluss übst du, schnell zu entscheiden, wem du wie hilfst.</p>
+    <p class="hint" style="margin-top:.6rem">📌 Leg den Sitzplan deiner Hauptklasse bereit. Du brauchst ihn in Station 4.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Frage 5 aus Woche 8</h4>
+    <p style="margin-top:0"><strong>Allein üben:</strong> Gelingt den meisten die Einzelarbeit, und was tue ich währenddessen?</p>
+    <p class="hint">Rosenshine P7 hohe Erfolgsquote · P9 selbstständiges Üben verlangen und begleiten</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 30 Min.</span>
+    <span class="badge">📖 Kernquellen: Lovell/Dowley R9 (Independent Practice) · Lemov „Circulate“, „Active Observation“ · Rosenshine P9</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · EINE EHRLICHE FRAGE -->
+<section class="screen" data-title="Eine ehrliche Frage">
+  <span class="eyebrow">Station 1 · Eine ehrliche Frage</span>
+  <h2>Was hast du in deiner letzten Einzelarbeit vor allem getan?</h2>
+  <p class="lead">Niemand außer dir sieht die Antwort. Wähle, was am ehesten zutrifft.</p>
+  <div class="abc" id="abcList"></div>
+  <div class="card reveal" id="abcReveal">
+    <p>In den Kursen dieser Fortbildung antworten die meisten A oder B. Das ist kein Vorwurf. Beides sind natürliche Antworten in einem Beruf mit zu wenig Zeit.</p>
+    <div id="abcStats"></div>
+    <p style="margin-top:.9rem">Aber: Die Einzelarbeit ist die einzige Phase, in der alle gleichzeitig schriftlich zeigen, was angekommen ist. Es ist die Viertelstunde, in der du am meisten über deine Klasse erfahren kannst. Wer korrigiert oder den Meldungen hinterherläuft, verpasst genau das.</p>
+    <p class="punchline">Ich helfe nicht dem Lautesten. Ich lese den Raum.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Rundgang →</button></p>
+</section>
+
+<!-- 2 · EIN RUNDGANG, MINUTE FÜR MINUTE -->
+<section class="screen" data-title="Ein Rundgang, Minute für Minute">
+  <span class="eyebrow">Station 2 · Ein Rundgang, Minute für Minute</span>
+  <h2>Klasse 8, 26 Schüler, 15 Minuten Einzelarbeit.</h2>
+  <p class="lead">Lies, was die Lehrkraft tut. Ordne jeder Stelle die Regel zu, gegen die sie am deutlichsten verstößt.</p>
+  <div class="formula-card">
+    <h4>Fünf Regeln für den Rundgang</h4>
+    <ol class="q-legend" id="ruleLegend"></ol>
+  </div>
+  <div id="walkList"></div>
+  <p style="margin-top:.9rem"><button class="btn ghost small" id="walkResetBtn">Zurücksetzen</button> <button class="btn small" id="walkCheckBtn">Auflösen</button></p>
+  <div class="card reveal" id="walkReveal">
+    <h3>Der Laufweg von oben</h3>
+    <div class="room"><div class="front">Tafel · Pult</div><div class="seats" id="walkRoom" style="grid-template-columns:repeat(7,1fr)"></div></div>
+    <div class="legend"><span><i class="sw" style="background:#EAF1E5;border:1.5px solid var(--c-gruen)"></i>besucht</span><span><i class="sw" style="background:#F5E4E2;border:1.5px solid var(--c-rot)"></i>Unruhe</span><span><i class="sw" style="background:#EEEFEA"></i>nie gesehen</span></div>
+    <p style="margin-top:.8rem">Die Lehrkraft war die ganze Zeit beschäftigt und hat trotzdem 20 von 26 Heften nie gesehen. Die Unruhe hinten links ist keine Überraschung: Wo niemand hinkommt, entsteht Unruhe (Woche 5). Und den Fehler, den drei Schüler gemacht haben, hat sie erst nach der Stunde entdeckt.</p>
+  </div>
+  <div class="card">
+    <h3>Wann wäre die Sammelklärung fällig gewesen?</h3>
+    <div class="chip-row" id="sammelRow"></div>
+    <p class="quiz-note" id="sammelNote">Spätestens um Minute 8. Wer ab Minute 1 die Hefte liest, sieht den Vorzeichenfehler bei Aufgabe 2 früh. Beim dritten Mal heißt es: „Stifte kurz ablegen, Blick nach vorn.“ Zwei Minuten für alle ersetzen viele Einzelerklärungen, und wer den Fehler noch vor sich hatte, macht ihn gar nicht erst.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den Startbedingungen →</button></p>
+</section>
+
+<!-- 3 · START UND REGELN -->
+<section class="screen" data-title="Start und Regeln">
+  <span class="eyebrow">Station 3 · Start und Regeln</span>
+  <h2>Eine Einzelarbeit, die sich selbst trägt.</h2>
+  <p class="lead">Bevor du durch den Raum gehen kannst, muss die Phase sauber beginnen. Fünf Dinge sind geklärt, bevor es losgeht. Das dauert fünf Sätze und etwa fünfzehn Sekunden. Das Handwerk kennst du aus Woche 3.</p>
+  <div class="formula-card">
+    <h4>Die fünf Startbedingungen</h4>
+    <ol class="q-legend" id="condLegend"></ol>
+  </div>
+  <h3 style="margin-top:1.4rem">Was fehlt hier?</h3>
+  <p class="lead">Vier Lehrkräfte eröffnen eine Einzelarbeit. Bei jeder fehlt genau eine Bedingung.</p>
+  <div id="openList"></div>
+  <div class="formula-card">
+    <h4>So läuft der Rundgang</h4>
+    <ul class="check-list">
+      <li><strong>Früh in den Raum.</strong> In den ersten zwei Minuten mitten hinein, nicht am Pult bleiben.</li>
+      <li><strong>Route statt Meldungen.</strong> Die Reihenfolge planst du vorher, deine Frühwarn-Plätze aus Woche 5 zuerst.</li>
+      <li><strong>Hefte lesen.</strong> Dein Blick geht auf die Hefte, nicht über die Köpfe. Häkchen, Unterstreichung, „Schau Zeile 3“. Drei Sekunden pro Heft reichen.</li>
+      <li><strong>Kurz bleiben.</strong> Höchstens 60 Sekunden pro Einzelhilfe. Wer fünf Minuten neben einem Schüler kniet, sieht die anderen 25 nicht, und die wissen das.</li>
+      <li><strong>Beim dritten gleichen Fehler: Sammelklärung.</strong> Kurz unterbrechen, einmal für alle klären.</li>
+    </ul>
+    <p>Dazu führst du auf einem Klemmbrett eine Liste der drei häufigsten Fehler. Das ist die Grundlage für den Einstieg der nächsten Stunde.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu deiner Route →</button></p>
+</section>
+
+<!-- 4 · MEINE ROUTE -->
+<section class="screen" data-title="Meine Route">
+  <span class="eyebrow">Station 4 · Meine Route</span>
+  <h2>Plane den Rundgang auf deinem Sitzplan.</h2>
+  <p class="lead">Bau den Raum deiner Hauptklasse nach. Markiere zuerst deine Frühwarn-Plätze, also die Schüler, bei denen es oft zuerst hakt. Leg dann die Route fest, indem du die Plätze in der Reihenfolge antippst, in der du sie besuchst.</p>
+  <div class="card">
+    <div class="dim-row">
+      <div class="field"><label for="rows">Reihen</label><input type="number" id="rows" min="2" max="8"></div>
+      <div class="field"><label for="cols">Plätze pro Reihe</label><input type="number" id="cols" min="2" max="10"></div>
+    </div>
+    <div class="mode-row" id="modeRow"></div>
+    <p class="hint" id="modeHint" style="margin-top:.5rem"></p>
+    <div class="room"><div class="front">Tafel · Pult</div><div class="seats" id="myRoom"></div></div>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="routeResetBtn">Route löschen</button></p>
+    <div class="check-out" id="routeCheck"></div>
+  </div>
+  <div class="card">
+    <h3>Worauf achtest du?</h3>
+    <p class="hint">Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als in zwanzig Minuten allgemeinem Helfen. Den Fehler, nach dem du suchst, kennst du aus deinem Exemplar (Woche 9) und deiner Fallen-Sammlung (Woche 10).</p>
+    <div id="w9Suggest"></div>
+    <div class="field">
+      <label for="aoWhat">Was prüfe ich? <span class="sub">Konkret, z. B. „ob sie bei Aufgabe 2 das Vorzeichen beim Rüberbringen umdrehen“.</span></label>
+      <textarea id="aoWhat" data-store="aoWhat" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="aoSee">Woran erkenne ich den Fehler in drei Sekunden?</label>
+      <input type="text" id="aoSee" data-store="aoSee" placeholder="z. B. Ergebnis 11 statt 25 in Zeile 2">
+    </div>
+    <div class="field">
+      <label for="aoFirst">Zu wem gehe ich zuerst? <span class="sub">Drei bis vier Schüler, gern nur Initialen.</span></label>
+      <input type="text" id="aoFirst" data-store="aoFirst" placeholder="z. B. M. K., L. S., T. B.">
+    </div>
+    <div class="field">
+      <label for="aoNever">Wen erreichst du auf dieser Route realistisch nie, und was änderst du?</label>
+      <textarea id="aoNever" data-store="aoNever" placeholder="…"></textarea>
+    </div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu den 60 Sekunden →</button></p>
+</section>
+
+<!-- 5 · 60 SEKUNDEN -->
+<section class="screen" data-title="60 Sekunden">
+  <span class="eyebrow">Station 5 · 60 Sekunden</span>
+  <h2>Während du gehst, kommen Fragen.</h2>
+  <p class="lead">Acht Situationen aus einer Einzelarbeit. Entscheide jeweils, was du tust. Die Route soll halten, und niemand soll lange warten.</p>
+  <div id="reqList"></div>
+  <p class="hint" id="reqScore" style="margin-top:1rem"></p>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 6 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 6 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 12, zwei zur Wiederholung.</h2>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Nimm den Rundgang aus Station 2. Nenne drei Verstöße gegen die Regeln und schreib auf, was du in Minute 8 wörtlich sagst.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="Verstöße: … Ansage: „…“"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Muster anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: Start am Pult statt im Raum · die Meldungen bestimmen den Weg · vier Minuten bei einem Schüler · hintere Reihen nie gesehen. Ansage: „Stifte kurz ablegen, Blick nach vorn. Drei von euch sind bei Aufgabe 2 in dieselbe Falle getappt, beim Rüberbringen der 7. Schaut her: …“</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 7 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 7 · Action Step</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Action Step.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+
+  <div class="card">
+    <h3>Meine Fehlerliste</h3>
+    <p class="hint">Trag nach drei Einzelarbeiten dieser Woche den häufigsten Fehler ein. Die Liste brauchst du nächste Woche für dein Exit Ticket und später für Woche 25.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+  </div>
+
+  <div class="card">
+    <h3>Gruppenhospitation 2</h3>
+    <p style="font-size:.92rem">In den nächsten Tagen besucht ihr gemeinsam eine Stunde. Ihr achtet auf das Vormachen und das gemeinsame Üben: Schreibt eine Erklärung möglichst wörtlich mit und unterstreicht, wo laut gedacht wird. Notiert, welche Stufen der Treppe ihr seht und wann die Lehrkraft die Antworten aller sieht. Dazu ein Einfall, den ihr übernehmen wollt.</p>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt anonymisiert in die Coaching-Planung ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Das leuchtet mir am meisten ein:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Da bin ich skeptisch:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nächste Woche schließen wir Block 2 ab, mit Anfang und Ende der Stunde. Das Do Now aus Woche 2 bekommt Inhalt, und du lernst das Exit Ticket kennen: eine Aufgabe am Ende, die für jeden zeigt, ob das Ziel erreicht ist. Dazu gibt es das Block-2-Quiz.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul12-woche12-youdo"></script>
+<script>
+/* ================= Daten ================= */
+const MOD={n:12,key:'modul12-woche12-youdo',file:'modul12-woche12',title:'Allein üben – das You do'};
+
+const ABC=[
+ {k:'A',t:'Korrigiert oder Organisatorisches erledigt'},
+ {k:'B',t:'Dem geholfen, der sich zuerst gemeldet hat, dann dem nächsten'},
+ {k:'C',t:'Gezielt geprüft, was bei den Schülern ankommt'}
+];
+const ABC_STATS=[38,49,13];
+
+const RULES=[
+ {k:'Früh in den Raum',q:'In den ersten zwei Minuten mitten hinein.'},
+ {k:'Route statt Meldungen',q:'Die Reihenfolge ist geplant, Frühwarn-Plätze zuerst.'},
+ {k:'Hefte lesen',q:'Der Blick geht auf die Arbeit, nicht über die Köpfe.'},
+ {k:'Kurz bleiben',q:'Höchstens 60 Sekunden pro Einzelhilfe.'},
+ {k:'Sammelklärung',q:'Beim dritten gleichen Fehler: einmal für alle.'}
+];
+
+const WALK=[
+ {t:'Min. 0–3: Die Lehrkraft bleibt am Pult und sortiert Arbeitsblätter für die nächste Stunde.',ok:[0],
+  note:'<b>Früh in den Raum.</b> Die ersten Minuten zeigen, ob alle anfangen. Wer jetzt am Pult bleibt, erfährt davon nichts.'},
+ {t:'Min. 3–7: Vorn rechts meldet sich ein Schüler. Die Lehrkraft setzt sich zu ihm und erklärt die Aufgabe vier Minuten lang noch einmal.',ok:[3,1],
+  note:'<b>Kurz bleiben</b> (und die Meldung bestimmt den Weg). Vier Minuten bei einem Schüler heißt vier Minuten ohne Blick auf die anderen 25.'},
+ {t:'Min. 7–11: Zwei Schüler melden sich gleichzeitig. Die Lehrkraft pendelt zwischen beiden hin und her, je zwei Minuten.',ok:[1],
+  note:'<b>Route statt Meldungen.</b> Die Lautesten bestimmen den Weg. Wer still falsch rechnet, wird nie gesehen.'},
+ {t:'Min. 11: Hinten links wird es unruhig. Dort war die Lehrkraft noch nicht. Sie ermahnt quer durch den Raum.',ok:[1,0],
+  note:'<b>Route statt Meldungen.</b> Die Unruhe ist eine Folge der fehlenden Route: Wo niemand hinkommt, entsteht Unruhe.'},
+ {t:'Min. 12–15: Die Lehrkraft hilft wieder dem Schüler vorn rechts.',ok:[3,1],
+  note:'<b>Kurz bleiben.</b> Derselbe Schüler zum zweiten Mal. Braucht er so viel Hilfe, gehört er an den Vordertisch oder zurück ins gemeinsame Üben.'},
+ {t:'Nach der Stunde in den Heften: Bei Aufgabe 2 haben drei Schüler denselben Vorzeichenfehler gemacht. Im Unterricht hat es niemand bemerkt.',ok:[2,4],
+  note:'<b>Hefte lesen</b> und <b>Sammelklärung.</b> Beim Lesen wäre der Fehler aufgefallen. Beim dritten Mal wäre eine kurze Klärung für alle fällig gewesen.'}
+];
+/* Raum der Fallkarte: 4 Reihen × 7 Plätze, zwei Plätze frei (26 Schüler) */
+const WALK_ROOM={cols:7,empty:[6,27],visited:[5,11,13],unrest:[21,22]};
+
+const SAMMEL=['Minute 3','Minute 8','Minute 14','nach der Stunde'];
+const SAMMEL_OK=1;
+
+const CONDS=[
+ {k:'Aufgabe schriftlich',q:'Die Aufgabe steht an der Tafel oder auf dem Blatt, nicht nur gesagt.'},
+ {k:'Zeit sichtbar',q:'Wie lange, mit sichtbarem Timer.'},
+ {k:'Sozialform',q:'Allein, mit dem Nachbarn oder in der Gruppe.'},
+ {k:'Lautstärke',q:'Festgelegt, nicht gefühlt („Stimme null“, „Flüstern nur mit dem Nachbarn“).'},
+ {k:'Wer fertig ist …',q:'Was Schnelle dann tun. Die am häufigsten vergessene Bedingung.'}
+];
+const OPENINGS=[
+ {t:'An der Tafel steht „S. 42, Nr. 3–6“, daneben läuft ein Timer mit 15 Minuten. „Ihr arbeitet allein, Stimme null. Los geht es.“',miss:4,
+  note:'<b>Wer fertig ist …</b> fehlt. Nach sechs Minuten sind die Schnellsten fertig und beginnen zu reden. Jeder Schnelle wird so zur Störung.'},
+ {t:'„Ihr macht jetzt auf Seite 42 die Nummern 3 bis 6, allein und ohne zu sprechen. Wer fertig ist, holt sich das Zusatzblatt vom Pult.“ Der Timer an der Tafel zeigt 15 Minuten.',miss:0,
+  note:'<b>Aufgabe schriftlich</b> fehlt. Nach zwei Minuten fragen die Ersten: „Welche Nummern?“ Gesagtes ist schnell weg (mehr dazu in Woche 15).'},
+ {t:'An der Tafel: Aufgaben, Timer, „Wer fertig ist: Zusatzblatt“. „Ihr dürft mit eurem Nachbarn zusammenarbeiten.“',miss:3,
+  note:'<b>Lautstärke</b> fehlt. „Mit dem Nachbarn“ ohne Lautstärke heißt nach fünf Minuten: Klassengespräch.'},
+ {t:'An der Tafel: Aufgaben und „Wer fertig ist: Nr. 7“. „Allein, Stimme null. Ihr habt so lange, wie ihr braucht, dann schauen wir mal.“',miss:1,
+  note:'<b>Zeit sichtbar</b> fehlt. Ohne Zeitrahmen gibt es kein Tempo, und du kannst nicht planen, wann du die Runde beendest.'}
+];
+
+const REQS=[
+ {t:'Minute 2, vorn links, ein Frühwarn-Platz: „Ich weiß nicht, wie ich anfangen soll.“',
+  opts:[
+   {t:'Kurzer Hinweis: „Schau dir das Beispiel an der Tafel an, der erste Schritt ist derselbe.“ Weiter auf der Route.',ok:true,note:'Genau. Unter 60 Sekunden, und er kann selbst weitermachen.'},
+   {t:'Hinsetzen und die Aufgabe mit ihm gemeinsam lösen.',ok:false,note:'Dann hat er nicht geübt, und die Route steht still.'},
+   {t:'„Lies die Aufgabe erst einmal richtig durch.“',ok:false,note:'Klingt nach Selbstständigkeit, hilft aber nicht beim Anfangen.'}]},
+ {t:'Minute 6: Beim Lesen siehst du im dritten Heft denselben Fehler bei Aufgabe 2.',
+  opts:[
+   {t:'Diesem Schüler den Fehler erklären, wie den beiden davor.',ok:false,note:'Dreimal einzeln erklärt ist langsamer als einmal für alle, und die anderen machen ihn noch.'},
+   {t:'Kurz unterbrechen: „Stifte ablegen, Blick nach vorn. Drei von euch …“ und einmal für alle klären.',ok:true,note:'Genau. Das ist der Moment für die Sammelklärung.'},
+   {t:'Den Fehler notieren und in der nächsten Stunde besprechen.',ok:false,note:'Notieren ja, aber bis dahin üben alle den Fehler weiter ein.'}]},
+ {t:'Du stehst bei einem Frühwarn-Platz. Auf der anderen Seite des Raums meldet sich jemand.',
+  opts:[
+   {t:'Sofort hingehen, eine Meldung muss man bedienen.',ok:false,note:'Dann bestimmen die Meldungen deinen Weg.'},
+   {t:'Blickkontakt und ein Zeichen: „Ich komme gleich.“ Route halten, den Platz einbauen.',ok:true,note:'Genau. Die Meldung wird gesehen, und die Route hält.'},
+   {t:'Die Meldung übersehen, bis die Runde fertig ist.',ok:false,note:'Übersehen wirkt gleichgültig. Ein kurzes Zeichen kostet nichts.'}]},
+ {t:'Ein Schüler zeigt Aufgabe 1: „Ist das richtig?“ Es ist richtig.',
+  opts:[
+   {t:'Häkchen, „Genau so. Weiter mit Aufgabe 2.“',ok:true,note:'Genau. Drei Sekunden, und du hast eine Information mehr.'},
+   {t:'Die Lösung noch einmal ausführlich mit ihm durchgehen.',ok:false,note:'Nicht nötig, das kostet die Zeit für andere.'},
+   {t:'„Das musst du selbst herausfinden.“',ok:false,note:'Eine kurze Bestätigung ist hier schneller und hilft mehr.'}]},
+ {t:'Eine Schülerin hat noch gar nichts auf dem Blatt. Sie hat das Verfahren offensichtlich nicht verstanden.',
+  opts:[
+   {t:'Hinsetzen und alles noch einmal erklären, so lange es dauert.',ok:false,note:'Verständlich, aber dann sieht der Rest der Klasse dich zehn Minuten nicht.'},
+   {t:'Kurzer Impuls für den ersten Schritt, Namen notieren. Nach der Runde holst du sie mit anderen, denen es ähnlich geht, an den Vordertisch.',ok:true,note:'Genau. Wer so weit weg ist, braucht noch einmal gemeinsames Üben. Das geht in einer kleinen Gruppe besser als einzeln.'},
+   {t:'„Schau bei deiner Nachbarin nach.“',ok:false,note:'Dann schreibt sie ab und hat nichts verstanden.'}]},
+ {t:'Minute 9: Beim Lesen siehst du, dass etwa die Hälfte Aufgabe 3 falsch verstanden hat. Sie rechnen etwas anderes als gefragt.',
+  opts:[
+   {t:'Weiter durch die Reihen gehen und es jedem einzeln erklären.',ok:false,note:'Bei der Hälfte der Klasse bist du damit bis zum Stundenende beschäftigt.'},
+   {t:'Kurz unterbrechen, die Aufgabenstellung gemeinsam lesen und den ersten Schritt klären.',ok:true,note:'Genau. Bei so vielen Betroffenen ist eine Sammelklärung sofort fällig.'},
+   {t:'Die Aufgabe streichen.',ok:false,note:'Dann bleibt unklar, ob sie es können.'}]},
+ {t:'Zwei Schüler in der hinteren Ecke unterhalten sich. Du bist gerade vorn.',
+  opts:[
+   {t:'Quer durch den Raum ermahnen.',ok:false,note:'Das stört alle und zeigt, dass du dort nicht hinkommst.'},
+   {t:'Die Route so anpassen, dass du als Nächstes dort vorbeigehst, und leise nonverbal eingreifen.',ok:true,note:'Genau. Die kleinste Hilfe aus Woche 5, und die tote Ecke ist abgedeckt.'},
+   {t:'Ignorieren, solange es leise bleibt.',ok:false,note:'Meist wird es nicht leiser, sondern breitet sich aus.'}]},
+ {t:'Ein Schüler ruft durch den Raum: „Frau Weber, kommen Sie mal!“',
+  opts:[
+   {t:'Hingehen, damit er nicht noch einmal ruft.',ok:false,note:'Dann lernt die Klasse: Wer ruft, kommt dran.'},
+   {t:'Kurzes Zeichen „Hand heben“, Route halten, dann auf der Route vorbeikommen.',ok:true,note:'Genau. Die Routine wird bestätigt, und er bekommt trotzdem Hilfe.'},
+   {t:'Vor der Klasse erklären, warum man nicht ruft.',ok:false,note:'Unterbricht alle und kostet mehr, als die Situation wert ist.'}]}
+];
+
+const QUIZ=[
+ {q:'F1. Was ist deine wichtigste Aufgabe während der Einzelarbeit?',
+  opts:[
+   {t:'Korrekturen und Organisatorisches, endlich ist Zeit dafür',ok:false,note:'Das ist Alltag, aber dann arbeitest du mit dem Rücken zu den Informationen.'},
+   {t:'gezielt erfahren, was ankommt: Route, Hefte lesen, Fehlerliste',ok:true,note:'Genau.'},
+   {t:'beim schwächsten Schüler sitzen und intensiv helfen',ok:false,note:'Klingt fürsorglich, aber die anderen 25 sieht dann niemand.'},
+   {t:'für absolute Ruhe sorgen',ok:false,note:'Ruhe ist die Voraussetzung, nicht die Aufgabe.'}
+  ]},
+ {q:'F2. Vier Schüler machen denselben Fehler. Was tust du?',
+  opts:[
+   {t:'Es viermal einzeln erklären, das ist individuelle Förderung.',ok:false,note:'Klingt vorbildlich, kostet aber viermal so viel Zeit.'},
+   {t:'Kurz unterbrechen und einmal für alle klären.',ok:true,note:'Genau. Wer den Fehler noch vor sich hatte, macht ihn dann gar nicht erst.'},
+   {t:'Bis zur Besprechung am Ende warten.',ok:false,note:'Bis dahin wird der Fehler eingeübt.'},
+   {t:'Die Lösung austeilen.',ok:false,note:'Dann wissen sie, dass es falsch war, aber nicht, warum.'}
+  ]},
+ {q:'F3. Warum solltest du früh in der Phase in den Raum hineingehen?',
+  opts:[
+   {t:'um die Klasse einzuschüchtern',ok:false,note:'Nein. Es geht um Normalität, nicht um Druck.'},
+   {t:'Deine Nähe wird normal, und du erfährst ab der ersten Minute, ob alle anfangen.',ok:true,note:'Genau.'},
+   {t:'Es erzeugt Unruhe.',ok:false,note:'Eher das Gegenteil.'},
+   {t:'Der Zeitpunkt ist egal.',ok:false,note:'Die ersten Minuten zeigen am meisten.'}
+  ]},
+ {q:'F4. Ständig kommen Meldungen dazwischen. Was hilft am besten?',
+  opts:[
+   {t:'jede Meldung sofort bedienen, dafür sind sie da',ok:false,note:'Dann bestimmen die Lautesten deinen Weg.'},
+   {t:'kurzes Zeichen „Ich komme gleich“, Route halten, die Meldung einbauen',ok:true,note:'Genau.'},
+   {t:'Meldungen in der Einzelarbeit verbieten',ok:false,note:'Zu viel. Fragen sollen möglich bleiben.'},
+   {t:'die Route aufgeben',ok:false,note:'Dann siehst du die Stillen nie.'}
+  ]},
+ {q:'F5. Was verhindert die Startbedingung „Wer fertig ist …“ vor allem?',
+  opts:[
+   {t:'Langeweile',ok:false,note:'Auch, aber das ist nicht der Kern.'},
+   {t:'dass jeder, der schnell fertig ist, zur Störung wird',ok:true,note:'Genau.'},
+   {t:'Abschreiben',ok:false,note:'Dafür gibt es andere Wege.'},
+   {t:'Fragen',ok:false,note:'Fragen sollen ja möglich bleiben.'}
+  ]},
+ {q:'🔁 Woche 11: In welcher Reihenfolge hilfst du bei einer falschen Antwort?',
+  opts:[
+   {t:'Lösung → Regel → Beispiel → Hinweis',ok:false,note:'Genau umgekehrt.'},
+   {t:'Hinweis → Beispiel → Regel → erster Schritt, die Lösung erst zuletzt',ok:true,note:'Genau. Die kleinste Hilfe zuerst.'},
+   {t:'Regel → Hinweis → Lösung',ok:false,note:'Der Hinweis ist die kleinste Hilfe und kommt zuerst.'},
+   {t:'Ein anderer Schüler sagt die Lösung.',ok:false,note:'Dann hat der erste Schüler nicht geübt.'}
+  ]},
+ {q:'🔁 Woche 9: Woher weißt du vorher, auf welchen Fehler du beim Rundgang achten solltest?',
+  opts:[
+   {t:'aus dem Exemplar: die Stelle, an der schwächere Schüler scheitern werden',ok:true,note:'Genau. Die Scheiter-Stelle aus Woche 9 ist dein Suchauftrag.'},
+   {t:'Das weiß man erst während der Stunde.',ok:false,note:'Die meisten Fehler lassen sich vorhersehen.'},
+   {t:'aus dem Lehrerhandbuch',ok:false,note:'Manchmal hilfreich, aber dein eigenes Exemplar ist genauer.'},
+   {t:'von den Schülern, die sich melden',ok:false,note:'Die Stillen, die falsch rechnen, melden sich selten.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'route',label:'Route und Fehlerliste (Standard)',
+  text:'In jeder Einzelarbeit dieser Woche gehe ich meine geplante Route und führe auf dem Klemmbrett eine Liste der drei häufigsten Fehler. Taucht derselbe Fehler zum dritten Mal auf, kläre ich ihn einmal für alle.'},
+ {id:'sechzig',label:'60 Sekunden (Alternative)',
+  text:'Ich halte jede Einzelhilfe unter 60 Sekunden. Wer mehr braucht, kommt nach meiner Runde an den Vordertisch.'},
+ {id:'start',label:'Fünf Startbedingungen (Alternative)',
+  text:'Ich eröffne jede Einzelarbeit mit allen fünf Startbedingungen, besonders „Wer fertig ist …“.'}
+];
+
+const LOG_ROWS=3, LOG_ROW_LABEL='Einzelarbeit', LOG_TITLE='Meine Fehlerliste';
+const LOG_FIELDS=[
+ {f:'s',label:'(Tag, Klasse)',short:'',ph:'z. B. Mi, 8c'},
+ {f:'e',label:'Häufigster Fehler',short:'häufigster Fehler:',ph:'z. B. Vorzeichen bei Nr. 2 (4×)'},
+ {f:'k',label:'Sammelklärung?',short:'Sammelklärung',options:['ja','nein','nicht nötig']}
+];
+const EXIT_LABELS=['Das leuchtet mir am meisten ein:','Da bin ich skeptisch:'];
+const STATE_VERSION=1;
+
+function freshState(){
+  return {v:STATE_VERSION,name:'',
+   abc:-1,
+   walkSel:WALK.map(()=>-1),walkRevealed:false,sammel:-1,
+   openSel:OPENINGS.map(()=>-1),
+   rows:5,cols:6,emptySeats:[],early:[],route:[],mode:'early',
+   aoWhat:'',aoSee:'',aoFirst:'',aoNever:'',
+   reqSel:REQS.map(()=>-1),
+   quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+   actionStep:'route',log:emptyLog(),
+   exitMit:'',exitSorge:'',commit:false,screen:0,
+   submitted:false,submittedAt:null,submissionText:''};
+}
+function normalizeModule(f){
+  const arr=(k,len)=>{if(!Array.isArray(state[k])||state[k].length!==len)state[k]=f[k];};
+  arr('walkSel',WALK.length);arr('openSel',OPENINGS.length);arr('reqSel',REQS.length);
+  state.rows=Math.max(2,Math.min(8,parseInt(state.rows)||5));
+  state.cols=Math.max(2,Math.min(10,parseInt(state.cols)||6));
+  const max=state.rows*state.cols;
+  ['emptySeats','early','route'].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[];state[k]=state[k].filter(x=>Number.isInteger(x)&&x>=0&&x<max);});
+  if(!['early','route','empty'].includes(state.mode))state.mode='early';
+}
+
+/* ================= Station 1 ================= */
+function renderAbc(){
+  const wrap=document.getElementById('abcList');wrap.innerHTML='';
+  ABC.forEach((a,j)=>{
+    const b=document.createElement('button');b.className='quiz-opt'+(state.abc===j?' right':'');
+    b.innerHTML='<strong>'+a.k+'</strong> · '+a.t;
+    b.addEventListener('click',()=>{state.abc=j;scheduleSave();renderAbc();renderSummary();});
+    wrap.appendChild(b);
+  });
+  document.getElementById('abcStats').innerHTML=ABC.map((a,j)=>'<div class="stat-row">'+a.k+' · '+a.t+' <strong>'+ABC_STATS[j]+' %</strong><div class="stat-bar"><span style="width:'+ABC_STATS[j]+'%"></span></div></div>').join('')
+    +'<p class="hint" style="margin-top:.4rem">Ungefähre Verteilung aus früheren Kursen, keine repräsentative Erhebung.</p>';
+  document.getElementById('abcReveal').classList.toggle('on',state.abc>-1);
+}
+
+/* ================= Station 2 ================= */
+function legendList(items){return items.map((s,j)=>'<li><b>'+(j+1)+'</b><span><strong>'+s.k+':</strong> '+s.q+'</span></li>').join('');}
+function renderWalk(){
+  const wrap=document.getElementById('walkList');wrap.innerHTML='';
+  WALK.forEach((w,i)=>{
+    const div=document.createElement('div');div.className='phase c-blau';
+    let chips='';
+    RULES.forEach((r,j)=>{
+      const sel=state.walkSel[i]===j;
+      let cls='cat-chip'+(sel?' sel':'');
+      if(state.walkRevealed&&w.ok.includes(j))cls+=' correct';
+      else if(state.walkRevealed&&sel)cls+=' wrong';
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+(j+1)+' '+r.k+'</button>';
+    });
+    div.innerHTML='<div class="phase-text">'+w.t+'</div><div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(state.walkRevealed?' on':'')+'">'+w.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    if(state.walkRevealed)return;
+    state.walkSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderWalk();renderSummary();
+  }));
+  document.getElementById('walkReveal').classList.toggle('on',state.walkRevealed);
+  const room=document.getElementById('walkRoom');room.innerHTML='';
+  for(let i=0;i<28;i++){
+    const d=document.createElement('div');
+    let cls='seat static';
+    if(WALK_ROOM.empty.includes(i))cls+=' empty';
+    else if(WALK_ROOM.visited.includes(i))cls+=' visited';
+    else if(WALK_ROOM.unrest.includes(i))cls+=' unrest';
+    else cls+=' dead';
+    d.className=cls;room.appendChild(d);
+  }
+  const row=document.getElementById('sammelRow');row.innerHTML='';
+  SAMMEL.forEach((t,j)=>{
+    const b=document.createElement('button');
+    let cls='cat-chip';
+    if(state.sammel>-1){if(j===SAMMEL_OK)cls+=' correct';else if(j===state.sammel)cls+=' wrong';}
+    b.className=cls;b.textContent=t;
+    b.addEventListener('click',()=>{state.sammel=j;scheduleSave();renderWalk();renderSummary();});
+    row.appendChild(b);
+  });
+  document.getElementById('sammelNote').classList.toggle('on',state.sammel>-1);
+}
+document.getElementById('walkCheckBtn').addEventListener('click',()=>{state.walkRevealed=true;scheduleSave();renderWalk();renderSummary();});
+document.getElementById('walkResetBtn').addEventListener('click',()=>{state.walkSel=WALK.map(()=>-1);state.walkRevealed=false;scheduleSave();renderWalk();renderSummary();});
+function walkScore(){return state.walkSel.reduce((a,v,i)=>a+(WALK[i].ok.includes(v)?1:0),0);}
+
+/* ================= Station 3 ================= */
+function renderOpenings(){
+  const wrap=document.getElementById('openList');wrap.innerHTML='';
+  OPENINGS.forEach((o,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.openSel[i];
+    let chips='';
+    CONDS.forEach((c,j)=>{
+      let cls='cat-chip';
+      if(sel>-1){if(j===o.miss)cls+=' correct';else if(j===sel)cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+c.k+'</button>';
+    });
+    div.innerHTML='<div class="scene" style="margin-top:0"><span class="tag">Eröffnung '+(i+1)+'</span>'+o.t+'</div>'
+      +'<div class="chip-row">'+chips+'</div><p class="quiz-note'+(sel>-1?' on':'')+'">'+o.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.openSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderOpenings();renderSummary();
+  }));
+}
+function openDone(){return state.openSel.filter(v=>v>-1).length;}
+function openScore(){return state.openSel.reduce((a,v,i)=>a+(v===OPENINGS[i].miss?1:0),0);}
+
+/* ================= Station 4: Meine Route ================= */
+const MODES=[
+ {id:'early',label:'★ Frühwarn-Plätze markieren',hint:'Tippe die Plätze an, an denen es oft zuerst hakt. Nochmal tippen hebt die Markierung auf.'},
+ {id:'route',label:'→ Route legen',hint:'Tippe die Plätze in der Reihenfolge an, in der du sie besuchst. Ein nummerierter Platz wird beim Antippen wieder entfernt.'},
+ {id:'empty',label:'Leere Plätze',hint:'Tippe Plätze an, die in deinem Raum nicht besetzt sind.'}
+];
+function renderRoom(){
+  document.getElementById('rows').value=state.rows;
+  document.getElementById('cols').value=state.cols;
+  const mr=document.getElementById('modeRow');mr.innerHTML='';
+  MODES.forEach(m=>{
+    const b=document.createElement('button');b.className='cat-chip'+(state.mode===m.id?' sel':'');b.textContent=m.label;
+    b.addEventListener('click',()=>{state.mode=m.id;scheduleSave();renderRoom();});
+    mr.appendChild(b);
+  });
+  document.getElementById('modeHint').textContent=MODES.find(m=>m.id===state.mode).hint;
+  const room=document.getElementById('myRoom');room.innerHTML='';
+  room.style.gridTemplateColumns='repeat('+state.cols+',1fr)';
+  for(let i=0;i<state.rows*state.cols;i++){
+    const b=document.createElement('button');
+    const r=state.route.indexOf(i);
+    let cls='seat';
+    if(state.emptySeats.includes(i))cls+=' empty';
+    else{if(state.early.includes(i))cls+=' early';if(r>-1)cls+=' onroute';}
+    b.className=cls;b.textContent=r>-1?String(r+1):'';
+    b.setAttribute('aria-label','Platz Reihe '+(Math.floor(i/state.cols)+1)+', '+(i%state.cols+1));
+    b.addEventListener('click',()=>seatClick(i));
+    room.appendChild(b);
+  }
+  renderRouteCheck();
+}
+function toggle(arr,i){const p=arr.indexOf(i);if(p>-1)arr.splice(p,1);else arr.push(i);}
+function seatClick(i){
+  if(state.mode==='empty'){toggle(state.emptySeats,i);state.early=state.early.filter(x=>x!==i);state.route=state.route.filter(x=>x!==i);}
+  else if(state.emptySeats.includes(i))return;
+  else if(state.mode==='early')toggle(state.early,i);
+  else toggle(state.route,i);
+  scheduleSave();renderRoom();renderSummary();
+}
+function dimChange(){
+  const r=Math.max(2,Math.min(8,parseInt(document.getElementById('rows').value)||state.rows));
+  const c=Math.max(2,Math.min(10,parseInt(document.getElementById('cols').value)||state.cols));
+  if(r===state.rows&&c===state.cols)return;
+  state.rows=r;state.cols=c;state.emptySeats=[];state.early=[];state.route=[];
+  scheduleSave();renderRoom();renderSummary();
+}
+document.getElementById('rows').addEventListener('change',dimChange);
+document.getElementById('cols').addEventListener('change',dimChange);
+document.getElementById('routeResetBtn').addEventListener('click',()=>{state.route=[];scheduleSave();renderRoom();renderSummary();});
+function routeChecks(){
+  const out=[];
+  const seats=[];for(let i=0;i<state.rows*state.cols;i++)if(!state.emptySeats.includes(i))seats.push(i);
+  if(!state.route.length){out.push({c:'warn',t:'Noch keine Route. Wechsle zu „Route legen“ und tippe die Plätze der Reihe nach an.'});return out;}
+  const k=state.early.length;
+  if(!k)out.push({c:'warn',t:'Keine Frühwarn-Plätze markiert. Bei wem hakt es in deiner Klasse oft zuerst?'});
+  else{
+    const first=state.route.slice(0,k);
+    const missing=state.early.filter(x=>!state.route.includes(x));
+    if(missing.length)out.push({c:'bad',t:missing.length+' Frühwarn-Platz'+(missing.length>1?'e liegen':' liegt')+' nicht auf deiner Route.'});
+    else if(state.early.every(x=>first.includes(x)))out.push({c:'good',t:'✓ Deine Frühwarn-Plätze kommen zuerst dran.'});
+    else out.push({c:'warn',t:'Alle Frühwarn-Plätze sind auf der Route, aber nicht am Anfang. Zieh sie nach vorn, dort hakt es zuerst.'});
+  }
+  const hr=Math.ceil(state.rows/2),hc=Math.ceil(state.cols/2);
+  const zones=[['vorn links',0,0],['vorn rechts',0,1],['hinten links',1,0],['hinten rechts',1,1]];
+  const dead=zones.filter(([n,zr,zc])=>{
+    const inZone=seats.filter(i=>{const r=Math.floor(i/state.cols),c=i%state.cols;return (r>=hr)===!!zr&&(c>=hc)===!!zc;});
+    return inZone.length&&!inZone.some(i=>state.route.includes(i));
+  }).map(z=>z[0]);
+  if(dead.length)out.push({c:'bad',t:'Tote Zone: '+dead.join(', ')+'. Dort kommst du auf dieser Route nie vorbei.'});
+  else out.push({c:'good',t:'✓ Deine Route berührt alle vier Bereiche des Raums.'});
+  const share=Math.round(state.route.length/seats.length*100);
+  out.push({c:share>=60?'good':'warn',t:'Du siehst auf der Route '+state.route.length+' von '+seats.length+' Plätzen direkt ('+share+' %). '+(share>=60?'':'Bei drei Sekunden pro Heft schaffst du mehr, als du denkst.')});
+  return out;
+}
+function renderRouteCheck(){
+  document.getElementById('routeCheck').innerHTML=routeChecks().map(x=>'<div class="'+x.c+'">'+x.t+'</div>').join('');
+}
+async function loadW9Suggest(){
+  const box=document.getElementById('w9Suggest');
+  const w9=await loadOtherModule('modul9-woche09-lernziele');
+  const stelle=w9&&(w9.exemplarScheiterstelle||'').trim();
+  if(!stelle){box.innerHTML='';return;}
+  box.innerHTML='<div class="suggest"><strong>Aus Woche 9, deine Scheiter-Stelle:</strong> '+esc(stelle)
+    +(w9.exemplarTask?'<br><span class="hint">Schlüsselaufgabe: '+esc(w9.exemplarTask)+'</span>':'')
+    +'<p style="margin-top:.5rem"><button class="btn ghost small" id="w9Take">Als Prüf-Fokus übernehmen</button></p></div>';
+  document.getElementById('w9Take').addEventListener('click',()=>{
+    state.aoWhat=(state.aoWhat?state.aoWhat+'\n':'')+stelle;scheduleSave();bindStores();renderSummary();
+  });
+}
+
+/* ================= Station 5 ================= */
+function renderReqs(){
+  const wrap=document.getElementById('reqList');wrap.innerHTML='';
+  REQS.forEach((r,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.reqSel[i];
+    let h='<div class="scene" style="margin-top:0"><span class="tag">Situation '+(i+1)+'</span>'+r.t+'</div><div class="quiz-opts">';
+    r.opts.forEach((o,j)=>{
+      let cls='quiz-opt';if(sel>-1){if(o.ok)cls+=' right';else if(j===sel)cls+=' wrong';}
+      h+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    h+='</div>';
+    if(sel>-1)h+='<p class="quiz-note on">'+(r.opts[sel].ok?'✓ ':'✗ ')+r.opts[sel].note+'</p>';
+    div.innerHTML=h;wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    state.reqSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderReqs();renderSummary();
+  }));
+  const d=reqDone();
+  document.getElementById('reqScore').textContent=d?d+' von '+REQS.length+' Situationen entschieden · passend: '+reqScore():'';
+}
+function reqDone(){return state.reqSel.filter(v=>v>-1).length;}
+function reqScore(){return state.reqSel.reduce((a,v,i)=>a+(v>-1&&REQS[i].opts[v].ok?1:0),0);}
+
+/* ================= Transfer ================= */
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();document.getElementById('transferNote').classList.add('on');
+});
+
+/* ================= Modul-UI ================= */
+function refreshModuleUI(){
+  document.getElementById('ruleLegend').innerHTML=legendList(RULES);
+  document.getElementById('condLegend').innerHTML=legendList(CONDS);
+  renderAbc();renderWalk();renderOpenings();renderRoom();renderReqs();
+  document.getElementById('transferNote').classList.toggle('on',!!state.transferShown);
+}
+function afterInit(){loadW9Suggest();}
+function routeFilled(){return state.route.length>0&&!!(state.aoWhat||'').trim();}
+function summaryRows(){
+  return [
+   ['Ehrliche Frage', state.abc>-1?'✓ beantwortet':'noch offen',state.abc>-1],
+   ['Rundgang analysiert', state.walkRevealed?'✓ '+walkScore()+'/'+WALK.length+' passend':state.walkSel.filter(v=>v>-1).length+'/'+WALK.length,state.walkRevealed],
+   ['Startbedingungen', openDone()===OPENINGS.length?'✓ '+openScore()+'/'+OPENINGS.length+' richtig':openDone()+'/'+OPENINGS.length,openDone()===OPENINGS.length],
+   ['Meine Route', routeFilled()?'✓ Route + Prüf-Fokus':(state.route.length?'Route da, Prüf-Fokus fehlt':'noch offen'),routeFilled()],
+   ['60 Sekunden', reqDone()===REQS.length?'✓ '+reqScore()+'/'+REQS.length+' passend':reqDone()+'/'+REQS.length,reqDone()===REQS.length],
+   ['Quiz', quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+   ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+}
+function routeText(){
+  const lbl=i=>'R'+(Math.floor(i/state.cols)+1)+'/P'+(i%state.cols+1);
+  return 'Raum: '+state.rows+' Reihen × '+state.cols+' Plätze\nFrühwarn-Plätze: '+(state.early.map(lbl).join(', ')||'–')
+    +'\nRoute: '+(state.route.map(lbl).join(' → ')||'–')+'\nPrüfung: '+routeChecks().map(x=>x.t.replace('✓ ','')).join(' ');
+}
+function aoText(){
+  return 'Was prüfe ich: '+(state.aoWhat||'–')+'\nWoran erkenne ich den Fehler: '+(state.aoSee||'–')+'\nZuerst zu: '+(state.aoFirst||'–')+'\nWen ich nie erreiche: '+(state.aoNever||'–');
+}
+function summaryText(){
+  let t=summaryHead();
+  t+='— MEINE ROUTE —\n'+routeText()+'\n'+aoText()+'\n';
+  t+='\n— ÜBUNGEN —\nRundgang, Stellen passend zugeordnet: '+walkScore()+' von '+WALK.length
+    +'\nSammelklärung fällig: '+(state.sammel>-1?SAMMEL[state.sammel]:'–')
+    +'\nStartbedingungen erkannt: '+openScore()+' von '+OPENINGS.length+'\n60 Sekunden, passend entschieden: '+reqScore()+' von '+REQS.length+'\n';
+  t+=summaryTail();
+  return t;
+}
+function buildPrint(){
+  let h=printHead();
+  h+='<h2>Meine Route</h2><div class="ans">'+esc(routeText())+'</div>';
+  h+=pf('Was prüfe ich?',state.aoWhat)+pf('Woran erkenne ich den Fehler in drei Sekunden?',state.aoSee)+pf('Zu wem gehe ich zuerst?',state.aoFirst)+pf('Wen erreiche ich nie, was ändere ich?',state.aoNever);
+  h+=printActionBlock();
+  h+='<div class="pagebreak"></div><h2>Übungen</h2>'+pf('Rundgang, Stellen passend zugeordnet:',walkScore()+' von '+WALK.length)
+    +pf('Startbedingungen erkannt:',openScore()+' von '+OPENINGS.length)+pf('60 Sekunden, passend entschieden:',reqScore()+' von '+REQS.length);
+  h+=printTail();
+  return h;
+}
+
+/* ================= Zustand & Speicherung ================= */
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus Vorwochen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für diese Woche: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche '+MOD.n+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+</script>
+</body>
+</html>

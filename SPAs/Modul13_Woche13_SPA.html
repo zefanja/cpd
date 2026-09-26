@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 13 · Anfang und Ende der Stunde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+/* ---------- Modul 13: Tickets sortieren ---------- */
+.ticket{background:#FFFDF6;border:1px solid #E6DFC8;border-radius:10px;padding:.8rem .95rem;margin-top:.8rem;font-size:.92rem;box-shadow:0 2px 0 #E6DFC8}
+.ticket .tno{font-family:var(--display);font-weight:800;font-size:.78rem;color:var(--amber);letter-spacing:.06em}
+.ticket .hand{font-family:'Segoe Print','Comic Sans MS','Bradley Hand',cursive;color:#23324A;margin-top:.25rem}
+.pile-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.pile-btn{flex:1;min-width:6.5rem;border:2px solid var(--line);border-radius:10px;padding:.55rem .6rem;font-family:var(--body);font-weight:700;font-size:.9rem;cursor:pointer;background:var(--card)}
+.pile-btn.g{border-color:var(--c-gruen);color:var(--c-gruen)}
+.pile-btn.y{border-color:var(--c-gelb);color:#8A6510}
+.pile-btn.r{border-color:var(--c-rot);color:var(--c-rot)}
+.pile-btn:hover{filter:brightness(.97)}
+.clock{font-family:var(--display);font-weight:800;font-size:1.4rem;color:var(--petrol)}
+.piles{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:.8rem}
+.pile{border-radius:10px;padding:.6rem;text-align:center;font-size:.8rem}
+.pile b{display:block;font-family:var(--display);font-size:1.5rem}
+.pile.g{background:#EAF1E5}.pile.y{background:#FBF3DF}.pile.r{background:#F5E4E2}
+.sort-list{display:grid;gap:.35rem;margin-top:.8rem}
+.sort-item{display:flex;gap:.6rem;align-items:flex-start;font-size:.84rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.sort-item .tag2{flex-shrink:0;font-weight:700;border-radius:6px;padding:.05rem .4rem;font-size:.72rem}
+.tag2.g{background:#EAF1E5;color:var(--c-gruen)}.tag2.y{background:#FBF3DF;color:#8A6510}.tag2.r{background:#F5E4E2;color:var(--c-rot)}
+.sort-item.off{background:#FFF6F4}
+
+/* ---------- Einseiter ---------- */
+.plan-row{border-left:6px solid var(--line);padding:.2rem 0 .2rem .8rem;margin-top:1rem}
+.plan-row .q{font-family:var(--display);font-weight:800;font-size:.78rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase}
+.plan-row.c-gelb{border-left-color:var(--c-gelb)}.plan-row.c-rot{border-left-color:var(--c-rot)}.plan-row.c-gruen{border-left-color:var(--c-gruen)}.plan-row.c-blau{border-left-color:var(--c-blau)}.plan-row.c-petrol{border-left-color:var(--petrol)}
+.plan-row .field{margin-top:.4rem}
+.flash{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.7rem}
+.flash .fq{font-weight:700;font-size:.95rem}
+.flash .fa{display:none;margin-top:.5rem;font-size:.9rem;border-top:1px dashed var(--line);padding-top:.5rem}
+.flash.open .fa{display:block}
+.self-check{display:flex;gap:.6rem;align-items:flex-start;margin-top:.55rem;font-size:.9rem}
+.self-check input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0}
+.suggest{border:1.5px dashed var(--petrol);border-radius:10px;padding:.6rem .8rem;margin-top:.7rem;font-size:.88rem;background:var(--petrol-soft)}
+.matrix-row{margin-top:1rem}
+.matrix-row .chip-row{margin-top:.4rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 13</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+
+<main id="main">
+
+<!-- 0 · START -->
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Woche 13 · Abschluss Block 2 · Fragen 2 und 1 · Fortbildung Sek I/II</span>
+  <h1>Wie beginne und beende ich eine Stunde so, dass ich weiß, was gelernt wurde?</h1>
+  <p class="lead">Stunde B aus Woche 8 begann mit drei Aufgaben, die alle schriftlich lösten, und endete mit zwei Aufgaben auf einem Zettel, den alle abgaben. Nach der Stunde lagen zwei Stapel auf dem Pult: „kann es“ und „noch nicht“. Heute geht es um diese Klammer.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Du schätzt zuerst, wie viele deiner Schüler das Ziel deiner letzten Stunde erreicht haben. Dann baust du einen Einstieg, der Wiederholung statt Vorschau bringt, und lernst, woran man ein gutes Exit Ticket erkennt. Du schreibst ein Ticket für deine eigene Stunde und sortierst einen Klassensatz gegen die Uhr. Zum Schluss legst du Block 2 auf eine Seite und prüfst mit dem Block-2-Quiz, was sitzt.</p>
+  </div>
+  <div class="formula-card">
+    <h4>Frage 2 und Frage 1 aus Woche 8</h4>
+    <p style="margin-top:0"><strong>Einstieg:</strong> Holen zu Beginn <em>alle</em> etwas aus dem Gedächtnis?</p>
+    <p><strong>Ziel:</strong> Was sollen am Ende alle können, und woran sehe ich das?</p>
+    <p class="hint">Rosenshine P1 kurze Wiederholung zu Beginn · P10 wöchentlich und monatlich wiederholen</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 35 Min.</span>
+    <span class="badge">📖 Kernquellen: Lemov „Do Now“, „Exit Ticket“ · Rosenshine P1, P10 · Bambrick-Santoyo (Datenlogik)</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<!-- 1 · SCHÄTZUNG -->
+<section class="screen" data-title="Eine Schätzung">
+  <span class="eyebrow">Station 1 · Eine Schätzung</span>
+  <h2>Hast du heute unterrichtet, oder haben sie gelernt?</h2>
+  <p class="lead">Denk an deine letzte Stunde. Wie viele Schüler hätten am Ende eine Aufgabe zum Ziel der Stunde richtig gelöst?</p>
+  <div class="card">
+    <div class="rate-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:.7rem">
+      <div class="field" style="margin-top:0"><label for="estOk">Meine Schätzung</label><input type="number" id="estOk" data-store="estOk" min="0" max="40" placeholder="z. B. 20"></div>
+      <div class="field" style="margin-top:0"><label for="estN">von … Schülern</label><input type="number" id="estN" data-store="estN" min="1" max="40" placeholder="z. B. 26"></div>
+    </div>
+    <div class="field">
+      <label for="estHow">Woher weißt du das?</label>
+      <textarea id="estHow" data-store="estHow" placeholder="z. B. „Die, die sich gemeldet haben, konnten es.“"></textarea>
+    </div>
+  </div>
+  <div class="card" style="border-style:dashed">
+    <p style="font-size:.92rem">Die meisten Lehrkräfte schätzen deutlich höher, als ein Exit Ticket am Ende zeigt. Deine Schätzung wird gespeichert. Am Ende dieses Moduls trägst du ein, was dein erstes echtes Exit Ticket ergeben hat. Dann siehst du beides nebeneinander.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Einstieg →</button></p>
+</section>
+
+<!-- 2 · DER EINSTIEG -->
+<section class="screen" data-title="Der Einstieg">
+  <span class="eyebrow">Station 2 · Der Einstieg</span>
+  <h2>Das Do Now bekommt eine zweite Aufgabe.</h2>
+  <p class="lead">In Woche 2 hast du das Do Now als Werkzeug für einen ruhigen Start gebaut: Die Stunde beginnt, ohne dass du etwas sagen musst. Jetzt kommt eine zweite Aufgabe dazu: Es soll auch beim Lernen helfen. Die Frage ist nur, was darauf steht.</p>
+  <div class="card">
+    <p style="font-size:.92rem">Naheliegend wäre ein spannender Einstieg ins neue Thema. Besser ist <strong>Wiederholung</strong>: drei Fragen zu gestern, zwei zur letzten Woche, eine zum letzten Monat. Drei Gründe:</p>
+    <ul class="check-list">
+      <li>Wiederholung ist immer ohne Erklärung lösbar. Das erste Kriterium aus Woche 2 ist damit automatisch erfüllt.</li>
+      <li>Du musst nichts Neues vorbereiten. Die Fragen gibt es schon.</li>
+      <li>Rosenshines erstes Prinzip ist erfüllt, bevor die Stunde richtig begonnen hat. Und alle rufen ab, nicht nur drei (Frage 2).</li>
+    </ul>
+    <p class="hint">Warum das Abrufen von Älterem so viel bringt, klärt Block 3 (Wochen 17 und 19).</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Welches Do Now bringt Wiederholung?</h3>
+  <div id="dnList"></div>
+  <div class="card">
+    <h3>Mein Do Now nach 3-2-1</h3>
+    <p class="hint">Für eine Stunde der nächsten Woche.</p>
+    <div class="field"><label for="dn3">Drei Fragen zu gestern</label><textarea id="dn3" data-store="dn3" placeholder="1. … 2. … 3. …"></textarea></div>
+    <div class="field"><label for="dn2">Zwei Fragen zur letzten Woche</label><textarea id="dn2" data-store="dn2" placeholder="1. … 2. …"></textarea></div>
+    <div class="field"><label for="dn1">Eine Frage zum letzten Monat</label><input type="text" id="dn1" data-store="dn1" placeholder="…"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Exit Ticket →</button></p>
+</section>
+
+<!-- 3 · DAS EXIT TICKET -->
+<section class="screen" data-title="Das Exit Ticket">
+  <span class="eyebrow">Station 3 · Das Exit Ticket</span>
+  <h2>Eine bis drei Aufgaben, fünf Minuten, jeder gibt ab.</h2>
+  <p class="lead">Das Exit Ticket beantwortet Frage 1 am Ende der Stunde: Haben alle das Ziel erreicht? Der Trick steckt in einem Wort. Die Aufgaben prüfen deine <strong>Meilensteine</strong> aus Woche 9, nicht das Thema und nicht die Stimmung.</p>
+  <div class="formula-card">
+    <h4>Gütecheck</h4>
+    <ol class="q-legend" id="gcLegend"></ol>
+    <p>Nicht auf ein Ticket gehört alles, was nach Selbsteinschätzung fragt: „Fandet ihr es verständlich?“ oder „Was hat euch gefallen?“ Das misst, was die Schüler glauben, nicht was sie können.</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Besteht dieses Ticket den Gütecheck?</h3>
+  <p class="lead">Wähle, was fehlt, oder „besteht“.</p>
+  <div id="tkList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu deinem Ticket →</button></p>
+</section>
+
+<!-- 4 · MEIN EXIT TICKET -->
+<section class="screen" data-title="Mein Exit Ticket">
+  <span class="eyebrow">Station 4 · Mein Exit Ticket</span>
+  <h2>Schreib das Ticket für eine Stunde der nächsten Woche.</h2>
+  <p class="lead">Nimm deine Meilensteine. Zu jeder Aufgabe notierst du, welchen Meilenstein sie prüft. Der häufigste Fehler: Die Aufgabe fragt Wissen ab, der Meilenstein verlangt aber Anwendung.</p>
+  <div id="w9Box"></div>
+  <div class="card">
+    <div class="field" style="margin-top:0">
+      <label for="tkTopic">Fach, Klasse, Thema</label>
+      <input type="text" id="tkTopic" data-store="tkTopic" placeholder="…">
+    </div>
+    <div class="field">
+      <label for="tkMs">Meine Meilensteine <span class="sub">Könnens-Sätze, einer pro Zeile.</span></label>
+      <textarea id="tkMs" data-store="tkMs" style="min-height:5em" placeholder="1. kann …&#10;2. kann …"></textarea>
+    </div>
+    <div class="field">
+      <label for="tkFormat">Format</label>
+      <select id="tkFormat" data-store="tkFormat">
+        <option value="">bitte wählen</option>
+        <option>Zwei geschlossene Aufgaben und ein Begründungssatz</option>
+        <option>Eine Anwendungsaufgabe und „Erkläre deinen ersten Schritt“</option>
+        <option>Ankreuzen und in einem Satz begründen</option>
+      </select>
+    </div>
+    <div class="field"><label for="tk1">Aufgabe 1 <span class="sub">Wörtlich, wie sie auf dem Zettel steht. Am Ende: → prüft Meilenstein Nr. …</span></label><textarea id="tk1" data-store="tk1" placeholder="… → Meilenstein 1"></textarea></div>
+    <div class="field"><label for="tk2">Aufgabe 2</label><textarea id="tk2" data-store="tk2" placeholder="… → Meilenstein 2"></textarea></div>
+    <div class="field"><label for="tk3">Aufgabe 3 <span class="sub">optional</span></label><textarea id="tk3" data-store="tk3" placeholder="…"></textarea></div>
+  </div>
+  <div class="card">
+    <h3>Gütecheck für dein Ticket</h3>
+    <div id="tkSelf"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Sortieren →</button></p>
+</section>
+
+<!-- 5 · SORTIEREN -->
+<section class="screen" data-title="Sortieren gegen die Uhr">
+  <span class="eyebrow">Station 5 · Sortieren gegen die Uhr</span>
+  <h2>25 Tickets, drei Stapel, zehn Minuten.</h2>
+  <p class="lead">Exit Tickets werden nicht korrigiert, sondern sortiert. Kein Rotstift, keine Randbemerkung, keine Note. Die Tickets sind eine Diagnose, keine Leistungsmessung, und das sagst du der Klasse auch so.</p>
+  <div class="formula-card">
+    <h4>Die Aufgabe auf dem Ticket (Englisch, Kl. 7)</h4>
+    <p style="margin-top:0">Setze die richtige Form ein und begründe eine deiner Entscheidungen mit dem Signalwort.<br>1. Yesterday I ___ (see) Tom. &nbsp; 2. I ___ (never / be) to London.</p>
+    <p class="hint" style="margin-top:.5rem"><strong>Kann es</strong> (grün): beide Formen richtig, Begründung nennt das Signalwort. · <strong>Kann es fast</strong> (gelb): Formen richtig, Begründung fehlt oder trägt nicht. · <strong>Kann es noch nicht</strong> (rot): mindestens eine Zeitform falsch, Signalwort nicht beachtet.</p>
+  </div>
+  <div class="card" id="sortCard"></div>
+  <div class="card reveal" id="sortResult"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zu Block 2 auf einer Seite →</button></p>
+</section>
+
+<!-- 6 · BLOCK 2 AUF EINER SEITE -->
+<section class="screen" data-title="Block 2 auf einer Seite">
+  <span class="eyebrow">Station 6 · Block 2 auf einer Seite</span>
+  <h2>Die fünf Fragen als Planungsbogen.</h2>
+  <p class="lead">Alles aus Block 2 passt auf eine Seite. Plane damit eine echte Stunde der nächsten Woche. Die Reihenfolge ist die Reihenfolge der Stunde, geplant wird aber vom Ziel aus (Woche 9). Benutze den Bogen, bis er langweilig wird. Langweilig heißt: Er sitzt.</p>
+  <div class="card">
+    <p style="margin-top:0"><button class="btn ghost small" id="pullBtn">Aus meinen Modulen 9 bis 12 übernehmen</button></p>
+    <p class="hint" id="pullHint" style="margin-top:.4rem">Füllt leere Felder mit deinen Eingaben aus den Vorwochen. Bereits Geschriebenes bleibt stehen.</p>
+    <div class="field"><label for="plTopic">Klasse, Thema, Datum</label><input type="text" id="plTopic" data-store="plTopic" placeholder="…"></div>
+    <div class="plan-row c-petrol"><div class="q">Frage 1 · Ziel (W9)</div>
+      <div class="field"><label for="plMs">Meilensteine, geprüft mit der Ampel</label><textarea id="plMs" data-store="plMs" placeholder="1. kann … 2. kann …"></textarea></div>
+      <div class="field"><label for="plEx">Exemplar zur Schlüsselaufgabe</label><textarea id="plEx" data-store="plEx" placeholder="…"></textarea></div>
+    </div>
+    <div class="plan-row c-gelb"><div class="q">Frage 2 · Einstieg (W13)</div>
+      <div class="field"><label for="plDn">Do Now nach 3-2-1</label><textarea id="plDn" data-store="plDn" placeholder="…"></textarea></div>
+    </div>
+    <div class="plan-row c-rot"><div class="q">Frage 3 · Erklären (W10)</div>
+      <div class="field"><label for="plIdo">Was ich vormache, und welche Falle ich zeige</label><textarea id="plIdo" data-store="plIdo" placeholder="…"></textarea></div>
+    </div>
+    <div class="plan-row c-gruen"><div class="q">Frage 4 · Gemeinsam üben (W11)</div>
+      <div class="field"><label for="plWedo">Stufen der Treppe und wie ich die Antworten aller sehe</label><textarea id="plWedo" data-store="plWedo" placeholder="…"></textarea></div>
+    </div>
+    <div class="plan-row c-blau"><div class="q">Frage 5 · Allein üben (W12)</div>
+      <div class="field"><label for="plYoudo">Worauf ich beim Rundgang achte, zu wem ich zuerst gehe</label><textarea id="plYoudo" data-store="plYoudo" placeholder="…"></textarea></div>
+    </div>
+    <div class="plan-row c-gelb"><div class="q">Frage 1 am Ende · Exit Ticket (W13)</div>
+      <div class="field"><label for="plTicket">Aufgaben, je mit Meilenstein-Nummer</label><textarea id="plTicket" data-store="plTicket" placeholder="…"></textarea></div>
+    </div>
+    <label class="self-check" style="margin-top:1rem"><input type="checkbox" id="plKons" data-store="plKons"><span>Die Konsequenz aus dem letzten Exit Ticket ist in dieser Stunde eingebaut.</span></label>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Quiz →</button></p>
+</section>
+
+<!-- 7 · QUIZ -->
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Woche 13.</h2>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Meilenstein: „kann vorhersagen, was im Dunkeln mit der Stärkeproduktion passiert“. Schreib das passende Exit Ticket wörtlich auf und begründe es am Gütecheck.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" id="transferRevealBtn">Muster anzeigen</button></p>
+    <p class="quiz-note" id="transferNote">Muster: „Eine Pflanze steht drei Tage in einem dunklen Schrank. Was zeigt der Stärkenachweis in ihren Blättern, und warum? Antworte in zwei Sätzen.“ Prüft Vorhersage und Begründung, dauert etwa vier Minuten, jeder schreibt, lässt sich schnell in drei Stapel sortieren.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Block-2-Quiz →</button></p>
+</section>
+
+<!-- 8 · BLOCK-2-QUIZ -->
+<section class="screen" data-title="Block-2-Quiz">
+  <span class="eyebrow">Station 8 · Block-2-Quiz</span>
+  <h2>Zwanzig Fragen, zurück bis Woche 1.</h2>
+  <p class="lead">Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Deck dann die Antwort auf und sei ehrlich: gewusst, teilweise oder nicht gewusst. So korrigierst du selbst und siehst, wo du stehst, ganz ohne Note.</p>
+  <div id="flashList"></div>
+  <div class="card" id="flashResult"></div>
+  <div class="card">
+    <h3>Kompetenzmatrix: Felder 4 und 5</h3>
+    <p class="hint">Schätze dich selbst ein. Dein Coach ergänzt seine Einschätzung im nächsten Gespräch.</p>
+    <div id="matrixList"></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter zum Action Step →</button></p>
+</section>
+
+<!-- 9 · ACTION STEP & ABSCHLUSS -->
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 9 · Action Step</span>
+  <h2>Dein Action Step für diese Woche.</h2>
+  <p class="lead">Wähle einen Action Step.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+
+  <div class="card">
+    <h3>Tickets dieser Woche</h3>
+    <p class="hint">Trag nach drei Stunden ein, wie lange das Sortieren gedauert hat, wie die Stapel aussahen und was du am nächsten Tag tust. Sag der Klasse, dass die Konsequenz aus ihren Tickets kommt: „Eure Tickets von gestern zeigen …“</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+    <div class="field">
+      <label for="realFirst">Schätzung und Wirklichkeit <span class="sub" id="estEcho"></span></label>
+      <input type="text" id="realFirst" data-store="realFirst" placeholder="Mein erstes Exit Ticket: … von … im grünen Stapel">
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Exit-Karte zum Abschluss von Block 2 <span class="hint" style="font-weight:400">(fließt ins nächste Coaching-Gespräch ein)</span></h3>
+    <div class="field" style="margin-top:.5rem">
+      <label for="exitMit">Mein wertvollstes Werkzeug aus Block 2:</label>
+      <textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea>
+    </div>
+    <div class="field">
+      <label for="exitSorge">Wo ich noch unsicher bin:</label>
+      <textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+    <p class="hint" style="margin-top:.4rem">💡 Sicherste Variante bei Unterbrechung: „Fortschritt als Datei sichern“ herunterladen und beim nächsten Öffnen im Menü (☰ Stationen) wieder hochladen.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Nach der Hospitation und den Ferien beginnt Block 3. Er beantwortet die Warum-Fragen, die sich angesammelt haben: Warum Wiederholung? Warum kleine Schritte? Warum vergessen sie so viel? Danach weißt du nicht nur, was funktioniert, sondern auch, warum.“</div>
+</section>
+
+</main>
+
+<!-- Fußnavigation -->
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<!-- Stationsmenü -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Druckansicht -->
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul13-woche13-klammer"></script>
+<script>
+/* ================= Daten ================= */
+const MOD={n:13,key:'modul13-woche13-klammer',file:'modul13-woche13',title:'Anfang und Ende der Stunde'};
+
+const DONOWS=[
+ {tag:'Geschichte, Kl. 9',t:'An der Tafel: „Heute geht es um die Novemberrevolution. Was glaubt ihr: Warum könnte 1918 eine Revolution ausgebrochen sein? Notiert eure Vermutungen.“',ok:2,
+  note:'<b>Vorschau.</b> Klingt aktivierend, aber es wird nichts abgerufen, und ohne Vorwissen raten die meisten. Besser: drei Fragen zum Ersten Weltkrieg aus der letzten Stunde.'},
+ {tag:'Mathematik, Kl. 7',t:'An der Tafel: 1. ¼ von 80 · 2. 30 % als Bruch · 3. 0,15 · 200 · 4. Runde 3,456 auf Zehntel · 5. Was ist ein Grundwert?',ok:1,
+  note:'<b>Wiederholung.</b> Alles ist ohne Erklärung lösbar und holt genau das Vorwissen, das heute gebraucht wird (Stunde B aus Woche 8).'},
+ {tag:'Biologie, Kl. 8',t:'An der Tafel: „Schaut euch das Bild an. Beschreibt, was ihr seht.“ (Foto einer Zelle unter dem Mikroskop, heute neues Thema.)',ok:2,
+  note:'<b>Vorschau.</b> Beschäftigt alle, aber es wird nichts wiederholt. Besser: Fragen zu gestern (Aufbau des Mikroskops) und zur letzten Woche.'},
+ {tag:'Englisch, Kl. 8',t:'Auf dem Blatt: drei Sätze zum simple past (gestern), zwei Vokabeln aus Unit 3 (letzte Woche), eine Frage zu den Signalwörtern des present perfect (vor einem Monat).',ok:1,
+  note:'<b>Wiederholung nach 3-2-1.</b> Gestern, letzte Woche, letzter Monat.'}
+];
+
+const GUETE=[
+ {k:'Prüft den Meilenstein',q:'nicht das Thema und nicht die Stimmung'},
+ {k:'Allein in 3–5 Minuten lösbar',q:'ohne Hilfe, ohne Nachfragen'},
+ {k:'Schriftlich, von jedem',q:'nicht mündlich, nicht in Gruppen'},
+ {k:'In 10 Minuten auswertbar',q:'höchstens drei Aufgaben, höchstens eine offene'}
+];
+const TICKETS=[
+ {tag:'Deutsch, Kl. 8 · Meilenstein: kann eine These mit einem Textbeleg stützen',t:'„Wie hat dir die Stunde heute gefallen? Was war schwierig?“',miss:0,
+  note:'<b>Prüft nicht den Meilenstein.</b> Das ist Selbsteinschätzung. Besser: eine These vorgeben, Beleg mit Zeilenangabe finden, in einem Satz verbinden.'},
+ {tag:'Mathematik, Kl. 7 · Meilenstein: kann den Prozentwert berechnen',t:'Zwei Aufgaben auf einem Zettel: 20 % von 60 € · 35 % von 240 kg. Alle geben ab.',miss:4,
+  note:'<b>Besteht.</b> Das ist das Ticket aus Stunde B: kurz, eindeutig, jeder schreibt, in Minuten sortiert.'},
+ {tag:'Physik, Kl. 9 · Meilenstein: kann den Widerstand aus U und I berechnen',t:'„Besprecht mit eurem Nachbarn, wie man den Widerstand berechnet, und sagt es mir beim Rausgehen.“',miss:2,
+  note:'<b>Nicht schriftlich, nicht von jedem.</b> Du hörst, was die Paare sagen, meist was der Stärkere sagt. Besser: eine Rechenaufgabe auf einem Zettel.'},
+ {tag:'Geschichte, Kl. 10 · Meilenstein: kann zwei Ursachen der Inflation 1923 nennen',t:'Sechs Aufgaben, davon drei offene Fragen: „Erörtere …“, „Beurteile …“, „Vergleiche …“.',miss:3,
+  note:'<b>Nicht in 10 Minuten auswertbar</b> und in fünf Minuten auch nicht lösbar. Besser: „Nenne zwei Ursachen der Inflation und erkläre eine in einem Satz.“'},
+ {tag:'Chemie, Kl. 8 · Meilenstein: kann eine Reaktionsgleichung ausgleichen',t:'„Gleiche die Gleichung aus: H₂ + O₂ → H₂O. Wenn du nicht weiterkommst, frag mich.“',miss:1,
+  note:'<b>Nicht allein lösbar.</b> Mit Hilfe zeigt das Ticket, was du erklärt hast, nicht was der Schüler kann. Das Angebot „frag mich“ gehört in die Einzelarbeit, nicht ins Ticket.'}
+];
+const GUETE_OPTS=GUETE.map(g=>g.k.replace('Prüft den Meilenstein','prüft nicht den Meilenstein').replace('Allein in 3–5 Minuten lösbar','nicht allein lösbar').replace('Schriftlich, von jedem','nicht schriftlich von jedem').replace('In 10 Minuten auswertbar','nicht in 10 Min. auswertbar')).concat(['besteht']);
+
+const TK_SELF=[
+ 'Jede Aufgabe prüft einen Meilenstein, und ich habe notiert, welchen.',
+ 'Ein Schüler, der es kann, schafft das Ticket allein in drei bis fünf Minuten.',
+ 'Jeder schreibt und gibt ab.',
+ 'Ich kann einen Klassensatz in zehn Minuten in drei Stapel sortieren.',
+ 'Auf dem Ticket steht keine Frage nach Gefallen oder Verständlichkeit.'
+];
+
+/* Station 5: 25 Tickets. c = Referenz (0 grün, 1 gelb, 2 rot), alt = ebenfalls vertretbar */
+const SORT=[
+ {a:'saw',b:'have never been',r:'yesterday → simple past',c:0},
+ {a:'saw',b:'have never been',r:'weil never ein Signalwort für present perfect ist',c:0},
+ {a:'have seen',b:'have never been',r:'never = present perfect',c:2,why:'Satz 1 falsch: yesterday verlangt simple past.'},
+ {a:'saw',b:'have never been',r:'klingt besser',c:1,why:'Formen richtig, die Begründung nennt kein Signalwort.'},
+ {a:'saw',b:'have never been',r:'Signalwort yesterday, deshalb simple past',c:0},
+ {a:'saw',b:'was never',r:'yesterday ist Vergangenheit',c:2,why:'Satz 2 falsch: never verlangt hier present perfect.'},
+ {a:'saw',b:'have never been',r:'',c:1,why:'Formen richtig, Begründung fehlt.'},
+ {a:'saw',b:'have never been',r:'wegen „yesterday“',c:0},
+ {a:'saw',b:'have never been',r:'weil „saw“ unregelmäßig ist',c:1,alt:2,why:'Grenzfall: Formen richtig, aber die Begründung ist falsch. Gelb oder rot ist vertretbar. Besprecht, was ihr daraus schließt.'},
+ {a:'seed',b:'have never been',r:'yesterday',c:2,why:'Satz 1: falsche Form (seed statt saw).'},
+ {a:'saw',b:'have never been',r:'weil es in der Vergangenheit passiert ist',c:1,why:'Formen richtig, die Begründung trägt nicht, weil auch Satz 2 in der Vergangenheit liegt.'},
+ {a:'saw',b:'have never been',r:'Signalwort: never',c:0},
+ {a:'have seen',b:'was never',r:'—',c:2,why:'Beide Zeitformen vertauscht.'},
+ {a:'saw',b:'have never been',r:'yesterday = simple past, never = present perfect',c:0},
+ {a:'saw',b:'have never been',r:'weil man das so sagt',c:1,why:'Formen richtig, Begründung ohne Signalwort.'},
+ {a:'saw',b:'have never been',r:'weil „I“ davor steht',c:1,alt:2,why:'Grenzfall: Formen richtig, Begründung falsch. Wahrscheinlich geraten (Woche 11, Fall 6). Gelb oder rot ist vertretbar.'},
+ {a:'saw',b:'have never been',r:'yesterday!',c:0},
+ {a:'have seen',b:'have never been',r:'beides present perfect',c:2,why:'Satz 1 falsch, yesterday ignoriert.'},
+ {a:'saw',b:'have never been',r:'Das Wort yesterday zeigt simple past.',c:0},
+ {a:'saw',b:'have never been',r:'war im Buch so',c:1,why:'Formen richtig, Begründung ohne Signalwort.'},
+ {a:'saw',b:'never was',r:'simple past, weil yesterday',c:2,why:'Satz 2 falsch.'},
+ {a:'saw',b:'have never been',r:'never → present perfect',c:0},
+ {a:'saw',b:'have never been',r:'weiß ich nicht genau',c:1,why:'Formen richtig, Begründung fehlt.'},
+ {a:'saw',b:'have never been',r:'yesterday ist ein Signalwort für simple past',c:0},
+ {a:'saw',b:'have never been',r:'weil da yesterday steht',c:0}
+];
+const PILES=[{k:'Kann es',c:'g'},{k:'Kann es fast',c:'y'},{k:'Kann es noch nicht',c:'r'}];
+const CONSEQ=[
+ {t:'Morgen zehn Minuten für alle: die Signalwörter noch einmal, aber mit einem neuen Zugang, z. B. einem Zeitstrahl statt der Regel.',ok:true,
+  note:'Genau. Gelb und Rot zusammen sind 14 von 25, also mehr als ein Drittel. Dann lohnt sich eine kurze Wiederholung für alle, und zwar anders als beim ersten Mal.'},
+ {t:'Die Namen aus Gelb und Rot auf den Bogen für den nächsten Rundgang schreiben und dort gezielt nachfragen.',ok:false,
+  note:'Das passt, wenn der gelbe und rote Stapel klein sind. Bei 14 von 25 schaffst du das im Rundgang nicht.'},
+ {t:'Im Stoff weitermachen, in der Klassenarbeit zeigt sich, wer es kann.',ok:false,
+  note:'Dann war das Ticket umsonst. Und in der Klassenarbeit ist es zu spät.'}
+];
+const SORT_FEHLER='Die meisten nennen in der Begründung kein Signalwort. Die Form können sie, warum sie sie wählen, wissen sie nicht.';
+
+const FLASH=[
+ {q:'Die fünf mentalen Modelle aus dem Auftakt?',a:'Gedächtnis · Gewohnheiten · Aufmerksamkeit · Motivation ist sozial · Unterrichten ist Beziehungsarbeit'},
+ {q:'Die sieben Schritte der Begrüßungsroutine?',a:'Do Now steht vorher an der Tafel · fester Punkt · warten auf 100 % · warmer Gruß · Setz-Signal und Starter-Satz · Timer startet · Blick durch den Raum'},
+ {q:'Der Vierercheck für Anweisungen?',a:'konkret · der Reihe nach (nummeriert) · beobachtbar · höchstens 12 Wörter pro Schritt'},
+ {q:'Die sechs Stufen der Interventionsleiter?',a:'nonverbal · positive Gruppenkorrektur · anonyme Einzelkorrektur · private Einzelkorrektur · kurz öffentlich · Konsequenz'},
+ {q:'Die Umformulierungs-Formel?',a:'„Ich sehe [erfüllender Teil] – ich will [Zielzustand].“'},
+ {q:'Die drei Schritte des W.I.N.-Gesprächs?',a:'Was ist passiert (Schülersicht zuerst) · Impact (Wirkung) · Next steps (wie es weitergeht)'},
+ {q:'Die fünf Fragen an jede Stunde?',a:'Ziel · Einstieg · Erklären · gemeinsam üben · allein üben'},
+ {q:'Erfolgsquote: Wann etwa 80 %, wann fast 100 %?',a:'Etwa 80 % (vier von fünf) beim gemeinsamen Üben neuer Inhalte: Dann kann es allein weitergehen, deutlich darunter zurück ins gemeinsame Üben. Fast fehlerfrei bei Einzelarbeit und Wiederholung.'},
+ {q:'Die zwei Planungs-Todsünden?',a:'Aktivitätsfokus (die Methode zuerst) · Abdeckungsfokus („der Stoff muss durch“)'},
+ {q:'Die vier Ampel-Kriterien für Meilensteine?',a:'kumulativ · verteilt · messbar · klar'},
+ {q:'Was ist Exemplar Planning?',a:'Vor der Stunde selbst die ideale Schülerantwort auf die Schlüsselaufgabe ausformulieren.'},
+ {q:'Der Vierklang beim Vormachen?',a:'vormachen · laut denken · eine Falle zeigen und auflösen · Kernschritte festhalten (Tafelbild bleibt stehen)'},
+ {q:'Fluch des Wissens und Gegenmittel?',a:'Wer etwas kann, sieht die Zwischenschritte nicht mehr. Gegenmittel: die Halbier-Regel, also die Schrittgröße halbieren, die sich richtig anfühlt.'},
+ {q:'Die vier Stufen der Treppe?',a:'Vollbeispiel · Lückenbeispiel · nur der Anfang · ohne Hilfe'},
+ {q:'Die Reihenfolge bei „Break It Down“?',a:'Hinweis · Beispiel · Regel · erster Schritt · erst dann die Lösung'},
+ {q:'Warum sagen drei richtige Meldungen wenig über die Klasse?',a:'Es melden sich meist die, die es schon können. Über die anderen erfährst du nichts. Erst die Antworten aller zeigen, wo die Klasse steht.'},
+ {q:'Die fünf Startbedingungen einer Einzelarbeit?',a:'Aufgabe schriftlich · Zeit sichtbar · Sozialform · Lautstärke · was tun, wer fertig ist'},
+ {q:'Die 60-Sekunden-Regel und ihr Grund?',a:'Höchstens 60 Sekunden pro Einzelhilfe, sonst sind alle anderen unbeobachtet.'},
+ {q:'Ab wann lohnt sich eine Sammelklärung?',a:'Wenn derselbe Fehler zum dritten Mal auftaucht.'},
+ {q:'„Meine Klasse konnte es in der Stunde, im Test aber nicht.“ Deute das mit zwei Werkzeugen aus Block 2.',a:'Zum Beispiel: Nur Freiwillige haben geantwortet, die Antworten aller wurden nie gesehen. Oder: Die Einzelarbeit kam zu früh, und Fehler wurden eingeübt. Ein Exit Ticket hätte es am selben Tag gezeigt. (Warum Können in der Stunde und Lernen nicht dasselbe sind, kommt in Woche 18.)'}
+];
+const RATE=['gewusst','teilweise','nicht gewusst'];
+const MATRIX=[{k:'4 · Erklären & Modellieren'},{k:'5 · Übungsphasen führen & begleiten'}];
+const LEVELS=['Anfang','Grundlagen','sicher','flüssig'];
+
+const QUIZ=[
+ {q:'F1. Wie wertest du Exit Tickets aus?',
+  opts:[
+   {t:'Alle gründlich korrigieren und benoten, das ist gewissenhaft.',ok:false,note:'Kostet viel Zeit und macht aus der Diagnose eine Prüfung.'},
+   {t:'In drei Stapel sortieren, den häufigsten Fehler notieren, eine Konsequenz ableiten.',ok:true,note:'Genau. Zehn Minuten, dann weißt du, was morgen dran ist.'},
+   {t:'Zurückgeben und besprechen lassen.',ok:false,note:'Dann erfährst du selbst nichts.'},
+   {t:'Den Notendurchschnitt berechnen.',ok:false,note:'Tickets werden nicht benotet.'}
+  ]},
+ {q:'F2. „Fandet ihr das Thema heute verständlich?“ auf dem Ticket ist …',
+  opts:[
+   {t:'gute Schülerorientierung',ok:false,note:'Klingt so, misst aber nur, was die Schüler glauben.'},
+   {t:'eine Selbsteinschätzung, keine Prüfung des Verständnisses',ok:true,note:'Genau. Wie der Daumen hoch in Woche 8.'},
+   {t:'zu kurz',ok:false,note:'Die Länge ist nicht das Problem.'},
+   {t:'nur in der Oberstufe sinnvoll',ok:false,note:'Auch dort misst es nicht, was sie können.'}
+  ]},
+ {q:'F3. Was gehört ins Do Now?',
+  opts:[
+   {t:'ein spannender Einstieg ins neue Thema',ok:false,note:'Die häufigste Verführung. Ohne Vorwissen wird geraten statt abgerufen.'},
+   {t:'Wiederholung: gestern, letzte Woche, letzter Monat',ok:true,note:'Genau. 3-2-1.'},
+   {t:'die schwierigste Aufgabe von gestern',ok:false,note:'Das Do Now soll ohne Hilfe lösbar sein.'},
+   {t:'organisatorische Ansagen',ok:false,note:'Die kommen, während alle schreiben.'}
+  ]},
+ {q:'F4. Gelb und Rot zusammen: 14 von 25. Was tust du?',
+  opts:[
+   {t:'Einzelförderung für die 14',ok:false,note:'Klingt individuell, ist aber nicht zu schaffen.'},
+   {t:'Zehn Minuten Wiederholung für alle, mit einem neuen Zugang',ok:true,note:'Genau. Mehr als ein Drittel betrifft die ganze Klasse.'},
+   {t:'weiter im Stoff, die Klassenarbeit klärt es',ok:false,note:'Dann ist es zu spät.'},
+   {t:'Das Ticket war zu schwer, also ignorieren.',ok:false,note:'Wenn es den Meilenstein prüft, war es genau richtig.'}
+  ]},
+ {q:'F5. Warum werden Exit Tickets nicht benotet?',
+  opts:[
+   {t:'weil Noten verboten sind',ok:false,note:'Sind sie nicht.'},
+   {t:'weil sie eine Diagnose sind. Eine Note macht Angst und verfälscht die Antworten.',ok:true,note:'Genau. Wer Angst vor der Note hat, schreibt ab oder gibt leer ab.'},
+   {t:'weil sie zu kurz sind',ok:false,note:'Die Länge ist nicht der Grund.'},
+   {t:'weil sich Eltern beschweren',ok:false,note:'Das ist nicht der Grund.'}
+  ]}
+];
+
+const ACTIONSTEPS=[
+ {id:'ticket',label:'Jede Stunde mit Exit Ticket (Standard)',
+  text:'Ich beende diese Woche jede Stunde in einer Klasse mit einem Exit Ticket, sortiere es am selben Tag in höchstens zehn Minuten und setze mindestens einmal eine sichtbare Konsequenz in der Folgestunde um. Ich sage der Klasse, dass sie aus ihren Tickets kommt.'},
+ {id:'donow',label:'Do Now nach 3-2-1 (Alternative)',
+  text:'Ich stelle alle Do Nows dieser Woche auf Wiederholung nach 3-2-1 um.'},
+ {id:'sortieren',label:'Sortieren statt korrigieren (Alternative)',
+  text:'Ich sortiere drei beliebige Klassensätze in höchstens zehn Minuten in drei Stapel, statt sie zu korrigieren, und stoppe die Zeit ehrlich.'}
+];
+
+const LOG_ROWS=3, LOG_ROW_LABEL='Stunde', LOG_TITLE='Tickets dieser Woche';
+const LOG_FIELDS=[
+ {f:'s',label:'(Tag, Klasse)',short:'',ph:'z. B. Do, 9a'},
+ {f:'t',label:'Sortiert in Minuten',short:'sortiert in',ph:'z. B. 8'},
+ {f:'p',label:'Grün / Gelb / Rot',short:'Stapel',ph:'z. B. 15 / 6 / 5'},
+ {f:'k',label:'Konsequenz am nächsten Tag',short:'Konsequenz:',ph:'z. B. 5 Min. Zeitstrahl für alle'}
+];
+const EXIT_LABELS=['Mein wertvollstes Werkzeug aus Block 2:','Wo ich noch unsicher bin:'];
+const STATE_VERSION=1;
+
+function freshState(){
+  return {v:STATE_VERSION,name:'',
+   estOk:'',estN:'',estHow:'',
+   dnSel:DONOWS.map(()=>0),dn3:'',dn2:'',dn1:'',
+   tkSel:TICKETS.map(()=>-1),
+   tkTopic:'',tkMs:'',tkFormat:'',tk1:'',tk2:'',tk3:'',tkSelf:TK_SELF.map(()=>false),
+   sortSel:SORT.map(()=>-1),sortStart:null,sortSecs:null,conseq:-1,
+   plTopic:'',plMs:'',plEx:'',plDn:'',plIdo:'',plWedo:'',plYoudo:'',plTicket:'',plKons:false,
+   flashOpen:FLASH.map(()=>false),flashRate:FLASH.map(()=>-1),matrix:MATRIX.map(()=>-1),
+   quizSel:QUIZ.map(()=>0),transferAnswer:'',transferShown:false,
+   actionStep:'ticket',log:emptyLog(),realFirst:'',
+   exitMit:'',exitSorge:'',commit:false,screen:0,
+   submitted:false,submittedAt:null,submissionText:''};
+}
+function normalizeModule(f){
+  const arr=(k,len)=>{if(!Array.isArray(state[k])||state[k].length!==len)state[k]=f[k];};
+  arr('dnSel',DONOWS.length);arr('tkSel',TICKETS.length);arr('tkSelf',TK_SELF.length);arr('sortSel',SORT.length);
+  arr('flashOpen',FLASH.length);arr('flashRate',FLASH.length);arr('matrix',MATRIX.length);
+}
+
+/* ================= Station 2: Do Now ================= */
+function renderDn(){
+  const wrap=document.getElementById('dnList');wrap.innerHTML='';
+  DONOWS.forEach((d,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.dnSel[i];
+    let chips='';
+    ['Wiederholung','Vorschau aufs neue Thema'].forEach((lbl,j)=>{
+      const v=j+1;let cls='cat-chip';
+      if(sel){if(v===d.ok)cls+=' correct';else if(v===sel)cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-v="'+v+'">'+lbl+'</button>';
+    });
+    div.innerHTML='<div class="scene" style="margin-top:0"><span class="tag">'+d.tag+'</span>'+d.t+'</div><div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(sel?' on':'')+'">'+d.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.dnSel[+b.dataset.i]=+b.dataset.v;scheduleSave();renderDn();renderSummary();
+  }));
+}
+function dnDone(){return state.dnSel.filter(v=>v>0).length;}
+function dnScore(){return state.dnSel.reduce((a,v,i)=>a+(v===DONOWS[i].ok?1:0),0);}
+
+/* ================= Station 3: Gütecheck ================= */
+function renderTk(){
+  document.getElementById('gcLegend').innerHTML=GUETE.map((g,j)=>'<li><b>'+(j+1)+'</b><span><strong>'+g.k+'</strong>, '+g.q+'</span></li>').join('');
+  const wrap=document.getElementById('tkList');wrap.innerHTML='';
+  TICKETS.forEach((t,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    const sel=state.tkSel[i];
+    let chips='';
+    GUETE_OPTS.forEach((o,j)=>{
+      let cls='cat-chip';
+      if(sel>-1){if(j===t.miss)cls+=' correct';else if(j===sel)cls+=' wrong';}
+      chips+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o+'</button>';
+    });
+    div.innerHTML='<div class="scene" style="margin-top:0"><span class="tag">'+t.tag+'</span>'+t.t+'</div><div class="chip-row">'+chips+'</div>'
+      +'<p class="quiz-note'+(sel>-1?' on':'')+'">'+t.note+'</p>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.cat-chip').forEach(b=>b.addEventListener('click',()=>{
+    state.tkSel[+b.dataset.i]=+b.dataset.j;scheduleSave();renderTk();renderSummary();
+  }));
+}
+function tkDone(){return state.tkSel.filter(v=>v>-1).length;}
+function tkScore(){return state.tkSel.reduce((a,v,i)=>a+(v===TICKETS[i].miss?1:0),0);}
+
+/* ================= Station 4: Mein Ticket ================= */
+function renderTkSelf(){
+  const wrap=document.getElementById('tkSelf');wrap.innerHTML='';
+  TK_SELF.forEach((t,i)=>{
+    const l=document.createElement('label');l.className='self-check';
+    l.innerHTML='<input type="checkbox"'+(state.tkSelf[i]?' checked':'')+'><span>'+t+'</span>';
+    l.querySelector('input').addEventListener('change',e=>{state.tkSelf[i]=e.target.checked;scheduleSave();renderSummary();});
+    wrap.appendChild(l);
+  });
+}
+let prev={};
+function w9Milestones(){
+  const w9=prev.w9;if(!w9||!Array.isArray(w9.milestones))return [];
+  return w9.milestones.map(m=>(m&&m.text||'').trim()).filter(Boolean);
+}
+function renderW9Box(){
+  const ms=w9Milestones(),box=document.getElementById('w9Box');
+  if(!ms.length){box.innerHTML='';return;}
+  box.innerHTML='<div class="suggest"><strong>Deine Meilensteine aus Woche 9'+(prev.w9.milestoneTopic?' ('+esc(prev.w9.milestoneTopic)+')':'')+':</strong><br>'
+    +ms.map((m,i)=>(i+1)+'. '+esc(m)).join('<br>')
+    +'<p style="margin-top:.5rem"><button class="btn ghost small" id="w9MsTake">Übernehmen</button></p></div>';
+  document.getElementById('w9MsTake').addEventListener('click',()=>{
+    if(!state.tkMs.trim())state.tkMs=ms.map((m,i)=>(i+1)+'. '+m).join('\n');
+    if(!state.tkTopic.trim()&&prev.w9.milestoneTopic)state.tkTopic=prev.w9.milestoneTopic;
+    scheduleSave();bindStores();renderSummary();showToast('Meilensteine übernommen.');
+  });
+}
+
+/* ================= Station 5: Sortieren ================= */
+let clockTimer=null;
+function fmt(s){s=Math.max(0,Math.round(s));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
+function sortDoneCount(){return state.sortSel.filter(v=>v>-1).length;}
+function sortOk(i){const v=state.sortSel[i];return v===SORT[i].c||(SORT[i].alt!==undefined&&v===SORT[i].alt);}
+function sortScore(){return SORT.reduce((a,s,i)=>a+(sortOk(i)?1:0),0);}
+function pileCounts(){const c=[0,0,0];state.sortSel.forEach(v=>{if(v>-1)c[v]++;});return c;}
+function renderSort(){
+  const card=document.getElementById('sortCard');
+  const done=sortDoneCount();
+  clearInterval(clockTimer);
+  if(state.sortStart===null){
+    card.innerHTML='<h3>Bereit?</h3><p style="font-size:.92rem">Sobald du startest, läuft die Uhr. Ziel: alle 25 Tickets in höchstens zehn Minuten, im Kurs waren es acht Minuten pro Gruppe.</p><p style="margin-top:.8rem"><button class="btn" id="sortStartBtn">Uhr starten</button></p>';
+    document.getElementById('sortStartBtn').addEventListener('click',()=>{state.sortStart=Date.now();scheduleSave();renderSort();});
+  }else if(done<SORT.length){
+    const i=state.sortSel.findIndex(v=>v<0);const t=SORT[i];
+    card.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center"><span class="hint">Ticket '+(done+1)+' von '+SORT.length+'</span><span class="clock" id="clock"></span></div>'
+      +'<div class="ticket"><span class="tno">TICKET '+(i+1)+'</span><div class="hand">1. Yesterday I <u>'+esc(t.a)+'</u> Tom.<br>2. I <u>'+esc(t.b)+'</u> to London.<br>Begründung: '+esc(t.r||' ')+'</div></div>'
+      +'<div class="pile-row">'+PILES.map((p,j)=>'<button class="pile-btn '+p.c+'" data-p="'+j+'">'+p.k+'</button>').join('')+'</div>'
+      +'<div class="piles">'+pileCounts().map((n,j)=>'<div class="pile '+PILES[j].c+'"><b>'+n+'</b>'+PILES[j].k+'</div>').join('')+'</div>';
+    card.querySelectorAll('[data-p]').forEach(b=>b.addEventListener('click',()=>{
+      state.sortSel[i]=+b.dataset.p;
+      if(sortDoneCount()===SORT.length)state.sortSecs=Math.round((Date.now()-state.sortStart)/1000);
+      scheduleSave();renderSort();renderSummary();
+    }));
+    const tick=()=>{const el=document.getElementById('clock');if(el)el.textContent=fmt((Date.now()-state.sortStart)/1000);};
+    tick();clockTimer=setInterval(tick,1000);
+  }else{
+    card.innerHTML='<h3>Fertig in '+fmt(state.sortSecs||0)+' Minuten</h3>'
+      +'<div class="piles">'+pileCounts().map((n,j)=>'<div class="pile '+PILES[j].c+'"><b>'+n+'</b>'+PILES[j].k+'</div>').join('')+'</div>'
+      +'<p class="hint" style="margin-top:.6rem">Vorschlag der Fortbildung: 11 grün, 8 gelb, 6 rot. Deine Zuordnung stimmt bei '+sortScore()+' von '+SORT.length+' Tickets. Die Abweichungen stehen unten.</p>'
+      +'<div class="sort-list">'+SORT.map((t,i)=>{
+        const v=state.sortSel[i];if(sortOk(i)&&t.alt===undefined)return '';
+        return '<div class="sort-item'+(sortOk(i)?'':' off')+'"><span class="tag2 '+PILES[v].c+'">'+PILES[v].k+'</span><span><strong>Ticket '+(i+1)+':</strong> '+esc(t.a)+' / '+esc(t.b)+' / „'+esc(t.r)+'“. '+(sortOk(i)?'':'Vorschlag: <strong>'+PILES[t.c].k+'</strong>. ')+esc(t.why||'')+'</span></div>';
+      }).join('')+'</div>'
+      +'<p style="margin-top:.8rem"><button class="btn ghost small" id="sortAgainBtn">Noch einmal sortieren</button></p>';
+    document.getElementById('sortAgainBtn').addEventListener('click',()=>{state.sortSel=SORT.map(()=>-1);state.sortStart=null;state.sortSecs=null;state.conseq=-1;scheduleSave();renderSort();renderSummary();});
+  }
+  renderConseq();
+}
+function renderConseq(){
+  const box=document.getElementById('sortResult');
+  const on=sortDoneCount()===SORT.length;
+  box.classList.toggle('on',on);
+  if(!on){box.innerHTML='';return;}
+  let h='<h3>Ein Satz, eine Konsequenz</h3><p style="font-size:.92rem">Der häufigste Fehler in einem Satz: <em>'+SORT_FEHLER+'</em></p>'
+    +'<p style="font-weight:600;margin-top:.8rem">Was tust du morgen?</p><div class="quiz-opts">';
+  CONSEQ.forEach((c,j)=>{let cls='quiz-opt';if(state.conseq>-1){if(c.ok)cls+=' right';else if(j===state.conseq)cls+=' wrong';}h+='<button class="'+cls+'" data-k="'+j+'">'+c.t+'</button>';});
+  h+='</div>';
+  if(state.conseq>-1)h+='<p class="quiz-note on">'+(CONSEQ[state.conseq].ok?'✓ ':'✗ ')+CONSEQ[state.conseq].note+'</p>';
+  h+='<p class="hint" style="margin-top:.8rem">Faustregel: Sind Gelb und Rot zusammen mehr als ein Drittel, gibt es am nächsten Tag eine kurze Wiederholung für alle, mit einem neuen Zugang. Sind es wenige, kommen die Namen auf den Bogen für den nächsten Rundgang. Die Feinheiten dieser Entscheidung folgen in Woche 25.</p>';
+  box.innerHTML=h;
+  box.querySelectorAll('[data-k]').forEach(b=>b.addEventListener('click',()=>{state.conseq=+b.dataset.k;scheduleSave();renderConseq();renderSummary();}));
+}
+function onScreenChange(i){if(screens[i]&&screens[i].dataset.title==='Sortieren gegen die Uhr')renderSort();else clearInterval(clockTimer);}
+
+/* ================= Station 6: Einseiter ================= */
+function firstLines(t,n){return String(t||'').split('\n').map(s=>s.trim()).filter(Boolean).slice(0,n).join('\n');}
+function pullFromModules(){
+  const fill=(k,v)=>{if(v&&!(state[k]||'').trim()){state[k]=v;return 1;}return 0;};
+  let n=0;
+  const ms=w9Milestones();
+  if(prev.w9){
+    n+=fill('plTopic',prev.w9.milestoneTopic||'');
+    n+=fill('plMs',ms.map((m,i)=>(i+1)+'. '+m).join('\n'));
+    n+=fill('plEx',[prev.w9.exemplarTask?'Aufgabe: '+prev.w9.exemplarTask:'',prev.w9.exemplarAnswer?'Idealantwort: '+prev.w9.exemplarAnswer:''].filter(Boolean).join('\n'));
+  }
+  const dn=[state.dn3&&'Gestern: '+state.dn3,state.dn2&&'Letzte Woche: '+state.dn2,state.dn1&&'Letzter Monat: '+state.dn1].filter(Boolean).join('\n');
+  n+=fill('plDn',dn);
+  if(prev.w10){
+    const f=(Array.isArray(prev.w10.fallen)?prev.w10.fallen:[]).find(x=>x&&x.fehler);
+    n+=fill('plIdo',[prev.w10.atomContent?'Inhalt: '+prev.w10.atomContent:'',f?'Falle: '+f.fehler+(f.aufloesung?' → '+f.aufloesung:''):''].filter(Boolean).join('\n'));
+  }
+  if(prev.w11){
+    n+=fill('plWedo',[prev.w11.st2&&'Stufe 2: '+prev.w11.st2,prev.w11.st3&&'Stufe 3: '+prev.w11.st3,prev.w11.stCheck&&'Blick auf alle: '+prev.w11.stCheck].filter(Boolean).join('\n'));
+  }
+  if(prev.w12){
+    n+=fill('plYoudo',[prev.w12.aoWhat&&'Ich prüfe: '+prev.w12.aoWhat,prev.w12.aoFirst&&'Zuerst zu: '+prev.w12.aoFirst].filter(Boolean).join('\n'));
+  }
+  n+=fill('plTicket',[state.tk1,state.tk2,state.tk3].filter(s=>(s||'').trim()).join('\n'));
+  scheduleSave();bindStores();renderSummary();
+  showToast(n?n+' Felder übernommen.':'Nichts zu übernehmen: Die Felder sind schon gefüllt oder die Vorwochen sind leer.');
+}
+document.getElementById('pullBtn').addEventListener('click',pullFromModules);
+function planFilled(){return ['plMs','plDn','plIdo','plWedo','plYoudo','plTicket'].filter(k=>(state[k]||'').trim()).length;}
+
+/* ================= Station 8: Block-2-Quiz ================= */
+function renderFlash(){
+  const wrap=document.getElementById('flashList');wrap.innerHTML='';
+  FLASH.forEach((f,i)=>{
+    const div=document.createElement('div');div.className='flash'+(state.flashOpen[i]?' open':'');
+    let rate='';
+    RATE.forEach((r,j)=>{rate+='<button class="cat-chip'+(state.flashRate[i]===j?' sel':'')+'" data-r="'+i+'" data-j="'+j+'">'+r+'</button>';});
+    div.innerHTML='<div class="fq">'+(i+1)+'. '+f.q+'</div>'
+      +(state.flashOpen[i]?'':'<p style="margin-top:.5rem"><button class="btn ghost small" data-o="'+i+'">Antwort zeigen</button></p>')
+      +'<div class="fa">'+f.a+'<div class="chip-row">'+rate+'</div></div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-o]').forEach(b=>b.addEventListener('click',()=>{state.flashOpen[+b.dataset.o]=true;scheduleSave();renderFlash();}));
+  wrap.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{state.flashRate[+b.dataset.r]=+b.dataset.j;scheduleSave();renderFlash();renderSummary();}));
+  const c=flashCounts(),done=c[0]+c[1]+c[2];
+  const weak=FLASH.map((f,i)=>state.flashRate[i]===2?(i+1):null).filter(Boolean);
+  document.getElementById('flashResult').innerHTML=done
+    ?'<h3>Dein Stand</h3><p>'+c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst ('+done+' von '+FLASH.length+' bewertet)</p>'
+      +(weak.length?'<p class="hint">Nicht gewusst: Frage '+weak.join(', ')+'. Genau diese Fragen lohnen sich für die nächsten Retrieval-Starter.</p>':'')
+    :'<p class="hint">Hier erscheint dein Stand, sobald du die ersten Antworten bewertet hast.</p>';
+}
+function flashCounts(){const c=[0,0,0];state.flashRate.forEach(v=>{if(v>-1)c[v]++;});return c;}
+function renderMatrix(){
+  const wrap=document.getElementById('matrixList');wrap.innerHTML='';
+  MATRIX.forEach((m,i)=>{
+    const div=document.createElement('div');div.className='matrix-row';
+    div.innerHTML='<strong style="font-size:.92rem">'+m.k+'</strong><div class="chip-row">'
+      +LEVELS.map((l,j)=>'<button class="cat-chip'+(state.matrix[i]===j?' sel':'')+'" data-m="'+i+'" data-j="'+j+'">'+l+'</button>').join('')+'</div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-m]').forEach(b=>b.addEventListener('click',()=>{state.matrix[+b.dataset.m]=+b.dataset.j;scheduleSave();renderMatrix();renderSummary();}));
+}
+
+/* ================= Transfer, Schätzung ================= */
+document.getElementById('transferRevealBtn').addEventListener('click',()=>{
+  state.transferShown=true;scheduleSave();document.getElementById('transferNote').classList.add('on');
+});
+function estText(){return (state.estOk!==''&&state.estN)?state.estOk+' von '+state.estN:'';}
+function renderEstEcho(){
+  const t=estText();
+  document.getElementById('estEcho').textContent=t?'Deine Schätzung in Station 1: '+t+'. Was hat dein erstes echtes Ticket ergeben?':'Was hat dein erstes echtes Ticket ergeben?';
+}
+function onStoreInput(k){if(k==='estOk'||k==='estN')renderEstEcho();}
+
+/* ================= Modul-UI ================= */
+function refreshModuleUI(){
+  renderDn();renderTk();renderTkSelf();renderW9Box();renderSort();renderFlash();renderMatrix();renderEstEcho();
+  document.getElementById('transferNote').classList.toggle('on',!!state.transferShown);
+}
+async function afterInit(){
+  const [w9,w10,w11,w12]=await Promise.all(['modul9-woche09-lernziele','modul10-woche10-modellieren','modul11-woche11-wedo','modul12-woche12-youdo'].map(loadOtherModule));
+  prev={w9,w10,w11,w12};
+  renderW9Box();
+  if(!w9&&!w10&&!w11&&!w12)document.getElementById('pullHint').textContent='Aus den Vorwochen liegen hier keine Eingaben vor. Füll die Felder einfach direkt aus.';
+}
+function tkFilled(){return !!((state.tk1||'').trim()&&(state.tkMs||'').trim());}
+function summaryRows(){
+  const fc=flashCounts();
+  return [
+   ['Schätzung', estText()?'✓ '+estText():'noch offen',!!estText()],
+   ['Do Now', dnDone()===DONOWS.length&&(state.dn3||'').trim()?'✓ erkannt '+dnScore()+'/'+DONOWS.length+' + eigenes Do Now':dnDone()+'/'+DONOWS.length+' erkannt',dnDone()===DONOWS.length&&!!(state.dn3||'').trim()],
+   ['Gütecheck', tkDone()===TICKETS.length?'✓ '+tkScore()+'/'+TICKETS.length+' richtig':tkDone()+'/'+TICKETS.length,tkDone()===TICKETS.length],
+   ['Mein Exit Ticket', tkFilled()?'✓ geschrieben':'noch offen',tkFilled()],
+   ['Sortieren', sortDoneCount()===SORT.length?'✓ in '+fmt(state.sortSecs||0)+' Min., '+sortScore()+'/'+SORT.length+' wie vorgeschlagen':sortDoneCount()+'/'+SORT.length,sortDoneCount()===SORT.length],
+   ['Block 2 auf einer Seite', planFilled()===6?'✓ vollständig':planFilled()+'/6 Felder',planFilled()===6],
+   ['Quiz', quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+   ['Block-2-Quiz', fc[0]+fc[1]+fc[2]===FLASH.length?'✓ '+fc[0]+' gewusst, '+fc[1]+' teilweise, '+fc[2]+' nicht':(fc[0]+fc[1]+fc[2])+'/'+FLASH.length+' bewertet',fc[0]+fc[1]+fc[2]===FLASH.length],
+   ['Action Step', state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]
+  ];
+}
+function planText(){
+  return 'Klasse, Thema: '+(state.plTopic||'–')+'\nF1 Ziel, Meilensteine: '+(state.plMs||'–')+'\nExemplar: '+(state.plEx||'–')+'\nF2 Einstieg, Do Now: '+(state.plDn||'–')
+    +'\nF3 Erklären: '+(state.plIdo||'–')+'\nF4 Gemeinsam üben: '+(state.plWedo||'–')+'\nF5 Allein üben: '+(state.plYoudo||'–')+'\nExit Ticket: '+(state.plTicket||'–')
+    +'\nKonsequenz aus dem letzten Ticket eingebaut: '+(state.plKons?'ja':'nein');
+}
+function ticketText(){
+  return 'Thema: '+(state.tkTopic||'–')+'\nMeilensteine: '+(state.tkMs||'–')+'\nFormat: '+(state.tkFormat||'–')+'\nAufgabe 1: '+(state.tk1||'–')+'\nAufgabe 2: '+(state.tk2||'–')+'\nAufgabe 3: '+(state.tk3||'–')
+    +'\nGütecheck: '+state.tkSelf.filter(Boolean).length+' von '+TK_SELF.length+' Punkten erfüllt';
+}
+function matrixText(){return MATRIX.map((m,i)=>m.k+': '+(state.matrix[i]>-1?LEVELS[state.matrix[i]]:'–')).join('\n');}
+function summaryText(){
+  const fc=flashCounts();
+  let t=summaryHead();
+  t+='— SCHÄTZUNG UND WIRKLICHKEIT —\nSchätzung letzte Stunde: '+(estText()||'–')+' ('+(state.estHow||'–')+')\nErstes echtes Exit Ticket: '+(state.realFirst||'–')+'\n';
+  t+='\n— MEIN DO NOW (3-2-1) —\nGestern: '+(state.dn3||'–')+'\nLetzte Woche: '+(state.dn2||'–')+'\nLetzter Monat: '+(state.dn1||'–')+'\n';
+  t+='\n— MEIN EXIT TICKET —\n'+ticketText()+'\n';
+  t+='\n— BLOCK 2 AUF EINER SEITE —\n'+planText()+'\n';
+  t+='\n— ÜBUNGEN —\nDo Now erkannt: '+dnScore()+' von '+DONOWS.length+'\nGütecheck: '+tkScore()+' von '+TICKETS.length
+    +'\nSortieren: '+(state.sortSecs?fmt(state.sortSecs)+' Min., ':'')+sortScore()+' von '+SORT.length+' wie vorgeschlagen · Konsequenz: '+(state.conseq>-1?(CONSEQ[state.conseq].ok?'passend':'nicht passend'):'–')+'\n';
+  t+='\n— BLOCK-2-QUIZ —\n'+fc[0]+' gewusst · '+fc[1]+' teilweise · '+fc[2]+' nicht gewusst\nNicht gewusst: '+(FLASH.map((f,i)=>state.flashRate[i]===2?(i+1)+'. '+f.q:null).filter(Boolean).join(' | ')||'–')+'\n';
+  t+='\n— KOMPETENZMATRIX (SELBSTEINSCHÄTZUNG) —\n'+matrixText()+'\n';
+  t+=summaryTail();
+  return t;
+}
+function buildPrint(){
+  const fc=flashCounts();
+  let h=printHead();
+  h+='<h2>Block 2 auf einer Seite</h2>'+pf('Klasse, Thema:',state.plTopic)+pf('Frage 1 · Ziel, Meilensteine:',state.plMs)+pf('Exemplar:',state.plEx)
+    +pf('Frage 2 · Einstieg, Do Now:',state.plDn)+pf('Frage 3 · Erklären:',state.plIdo)+pf('Frage 4 · Gemeinsam üben:',state.plWedo)
+    +pf('Frage 5 · Allein üben:',state.plYoudo)+pf('Exit Ticket:',state.plTicket)+pf('Konsequenz aus dem letzten Ticket eingebaut:',state.plKons?'ja':'nein');
+  h+=printActionBlock()+pf('Schätzung vs. erstes Ticket:',(estText()||'–')+' / '+(state.realFirst||'–'));
+  h+='<div class="pagebreak"></div><h2>Mein Exit Ticket</h2><div class="ans">'+esc(ticketText())+'</div>';
+  h+='<h2>Mein Do Now</h2>'+pf('Gestern:',state.dn3)+pf('Letzte Woche:',state.dn2)+pf('Letzter Monat:',state.dn1);
+  h+='<h2>Übungen</h2>'+pf('Do Now erkannt:',dnScore()+' von '+DONOWS.length)+pf('Gütecheck:',tkScore()+' von '+TICKETS.length)
+    +pf('Sortieren:',(state.sortSecs?fmt(state.sortSecs)+' Min., ':'')+sortScore()+' von '+SORT.length+' wie vorgeschlagen');
+  h+='<h2>Block-2-Quiz und Kompetenzmatrix</h2>'+pf('Selbstkorrektur:',fc[0]+' gewusst · '+fc[1]+' teilweise · '+fc[2]+' nicht gewusst')+'<div class="ans">'+esc(matrixText())+'</div>';
+  h+=printTail();
+  return h;
+}
+
+/* ================= Zustand & Speicherung ================= */
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus Vorwochen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für diese Woche: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · Woche '+MOD.n+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+</script>
+</body>
+</html>

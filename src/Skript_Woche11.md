@@ -44,13 +44,13 @@ Ablauf der Demo (am Beispiel Prozentwert): Aufgabe 1 wird gemeinsam gelöst – 
 ## Phase 3 · Input: Fading, Break It Down, die Stichproben-Falle (Minute 16–27)
 
 ### 3a · Guidance Fading (Min. 16–20)
-> *„Der Übergang vom Zusehen zum Selbermachen aus Woche 8 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Der Sprung-Fehler aus Woche 8 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
+> *„Der Übergang vom Zusehen zum Selbermachen aus Woche 8 ist keine Klappe, die umschlägt – sie ist eine Treppe. Vier Stufen, an jedem Thema baubar: **Stufe 1: das Vollbeispiel** – komplett vorgeführt, ihr kennt es aus letzter Woche. **Stufe 2: das Lückenbeispiel** – der Lösungsweg steht, aber an zwei, drei Stellen fehlt etwas; die Klasse füllt. **Stufe 3: nur der Ansatz** – erster Schritt vorgegeben, Rest allein. **Stufe 4: blank** – nur die Aufgabe. Die Kunst ist nicht die Treppe, die Kunst ist das TEMPO: Jede Stufe wird erst betreten, wenn die darunter trägt – und dafür braucht ihr Daten, dazu gleich. Stunde A aus Woche 8 heißt in dieser Sprache: von Stufe 1 direkt auf Stufe 4."*
 
 ### 3b · Break It Down (Min. 20–24)
 > *„Und was, wenn im We do eine falsche Antwort kommt? Der Reflex – ich kenne ihn gut – ist: Lösung sagen, weiter, Zeit ist knapp. Aber wer die Lösung verrät, hat gerade selbst geübt, nicht der Schüler. Lemovs Alternative: **Break It Down** – die kleinste Hilfe zuerst, gestuft: Erst ein **Hinweis** (‚Schau nochmal auf die Einheit'), dann ein **Beispiel** (‚Bei der Aufgabe vorhin haben wir zuerst…'), dann die **Regel** (‚Was sagt unsere Merkregel über…?'), dann der **erste Schritt** – und erst ganz zuletzt die Lösung. Jede Stufe gibt dem Kopf noch eine Chance, selbst anzukommen. Klingt nach Zeitverlust? Es sind Sekunden – und es sind die Sekunden, in denen gelernt wird."*
 
-### 3c · Die Stichproben-Falle + die 80 %-Schwelle (Min. 24–27)
-> *„Bleibt die Frage: WANN ist eine Stufe tragfähig? Und hier die wichtigste Warnung der Woche: **Drei richtige Meldungen sind keine Daten.** Das sind eure drei stärksten Schüler – eine Stichprobe, die systematisch lügt. Die Antwort habt ihr heute schon in der Hand gehalten: Boards hoch, ALLE antworten, ihr seht die Quote in fünf Sekunden. Und die Schwelle kennt ihr aus Woche 8: Erst bei rund 80 % sicherer Beherrschung wird die nächste Stufe betreten – und erst dann beginnt Stillarbeit. Warum so streng? Weil verfrühtes You do nicht einfach ‚schwierig' ist – es ist giftig: Wer zwanzig Minuten allein falsch übt, hat den Fehler EINGEÜBT. Und Umlernen ist teurer als Lernen; das werdet ihr in Block 3 im Detail verstehen. Die böseste Pointe des Schulalltags: Die fleißige Stillarbeitsphase kann Schaden anrichten, wenn die Brücke davor fehlte."*
+### 3c · Die Stichproben-Falle + die Erfolgsquote (Min. 24–27)
+> *„Bleibt die Frage: WANN ist eine Stufe tragfähig? Und hier die wichtigste Warnung der Woche: **Drei richtige Meldungen sind keine Daten.** Das sind eure drei stärksten Schüler – eine Stichprobe, die systematisch lügt. Die Antwort habt ihr heute schon in der Hand gehalten: Boards hoch, ALLE antworten, ihr seht die Quote in fünf Sekunden. Und die Schwelle kennt ihr aus Woche 8: Erst wenn etwa vier von fünf richtig liegen, wird die nächste Stufe betreten – und erst dann beginnt die Einzelarbeit. Dort soll es dann fast fehlerfrei laufen. Warum so streng? Weil verfrühtes You do nicht einfach ‚schwierig' ist – es ist giftig: Wer zwanzig Minuten allein falsch übt, hat den Fehler EINGEÜBT. Und Umlernen ist teurer als Lernen; das werdet ihr in Block 3 im Detail verstehen. Die böseste Pointe des Schulalltags: Die fleißige Stillarbeitsphase kann Schaden anrichten, wenn die Brücke davor fehlte."*
 
 ## Phase 4 · Name it (Minute 27–31)
 
@@ -84,7 +84,7 @@ Vierergruppen: „Schüler" zieht eine Fehlerkarte (Anhang 1.2) und bringt den F
 # 4. Coaching-Woche 11 (Handreichung)
 
 - **Hospitationsfokus:** der Übergang Erklärung → Übung. Protokoll: Wie viele gemeinsame Beispiele? Wer hat sie geliefert (Lehrkraft/Melder/alle)? Gab es einen All-Response-Check vor der Stillarbeit – und was zeigte er?
-- **Auswertungsgespräch:** Die eine Frage ins Zentrum: „Woher wusstest du, dass sie bereit für die Stillarbeit waren?" – ehrliche Antwort ist oft „Bauchgefühl/Zeitdruck" → Action Step: der 80 %-Check als Pflichtstation.
+- **Auswertungsgespräch:** Die eine Frage ins Zentrum: „Woher wusstest du, dass sie bereit für die Stillarbeit waren?" – ehrliche Antwort ist oft „Bauchgefühl/Zeitdruck" → Action Step: der Blick auf die Antworten aller (ca. vier von fünf richtig?) als Pflichtstation. Im Stundenprofil (W8) ist das die grüne/gelbe Phase zwischen Rot und Blau.
 - **Break-It-Down-Mikroübung im Gespräch:** Coach spielt zwei Schülerfehler aus der hospitierten Stunde nach, TN reagiert gestuft.
 - **Red Flag:** „Whiteboards sind mir zu unruhig/Grundschule" → nicht diskutieren, sondern vereinbaren: EINE Stunde testen mit sauberer Routine-Einführung (W2-Handwerk: Schreibsignal, Stille, 3-2-1-hoch); Erfahrung schlägt Vorbehalt fast immer.
 
@@ -154,10 +154,12 @@ d) wenn keine Fragen mehr kommen ✗ *(Selbstauskunft – W20 lässt grüßen)*
 
 # Anhang 3: Ableitung für die SPA „Modul 11"
 
-1. **Hook (2 Min.):** Die Stichproben-Falle als Simulation: App zeigt eine „Klasse" aus 28 Punkten, 3 melden sich (alle grün) – Nutzer entscheidet „weiter?" – App deckt auf: 12 der stummen 25 sind rot. Punchline: „Deine Melder-Stichprobe lügt."
-2. **See it (5 Min.):** Das Live-We-do als kommentiertes Video/Transkript – die vier Steuerungs-Karten (alle schreiben / Fragen statt Vorsagen / Fading / All-Response) an den Stellen antippen, wo sie sichtbar werden.
-3. **Name it (3 Min.):** Fading-Treppe als interaktive Grafik; Break-It-Down-Stufen als Sortier-Spiel.
-4. **Do it – Fading-Treppen-Bauer (8 Min., Engine!):** Thema eingeben → vier Stufenfelder ausfüllen; Prüf-Heuristik: „Ist deine erste Lücke die leichteste Stelle?" (Selbst-Check-Prompt); Beispielbibliothek (Mathe/Sprachen/NaWi/Gesellschaft) als Vorlagen; Export ins Playbook.
-5. **Break-It-Down-Simulator:** Die 6 Fehlerkarten als verzweigte Dialoge – Nutzer wählt pro Zug Hinweis/Beispiel/Regel/erster Schritt/Lösung; Scoring belohnt kleinste tragende Stufe, „Lösung verraten" beendet den Fall mit Erklär-Feedback. K6 (richtig geraten) verzweigt zum Ausblick auf Modul 22.
-6. **80 %-Rechner:** Klassengröße + Board-Ergebnis eingeben → Ampel „Stufe halten / nächste Stufe / Stillarbeit frei".
-7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular mit Stufen-Quoten-Log (Treppe × Tage).
+*(Umgesetzt in `SPAs/Modul11_Woche11_SPA.html`.)*
+
+1. **Drei richtige Meldungen (2 Min.):** Klasse aus 27 Punkten (wie in W8), 3 melden sich und antworten richtig → „Kann die Klasse allein weiterarbeiten?“ (ja / nein / weiß ich noch nicht) → Auflösung: 13 von 27 können es noch nicht. Punchline: Wer sich meldet, ist keine Stichprobe.
+2. **Gemeinsam üben, Schritt für Schritt (5 Min.):** die grünen Minuten aus Stunde B (W8, Prozentwert) als 5 Momente; jeder Moment wird einem der vier Merkmale zugeordnet (alle schreiben mit / Fragen statt vorsagen / Hilfe nimmt ab / Antworten aller sehen).
+3. **Die Treppe (4 Min.):** Fading-Treppe am Beispiel lineare Gleichungen (Anhang 1.1); Übung „Echte Stufe 2 oder verkleideter Sprung?“ an 4 Beispielen aus 4 Fächern; We-do-Checkliste.
+4. **Meine Treppe (8 Min., Kernstück):** Beispielbibliothek (Mathe, Deutsch, Englisch, Biologie); vier Stufenfelder für das eigene Thema + „Wie sehe ich die Antworten aller?“; Selbstprüfung (erste Lücke leicht? keine Stufe übersprungen? …).
+5. **Die kleinste Hilfe:** Break-It-Down-Simulator mit 5 Fehlerkarten aus Anhang 1.2 (K1–K5); pro Zug Hinweis / Beispiel / Regel / erster Schritt / Lösung sagen, der „Schüler“ reagiert; Auswertung: kleinste tragende Hilfe, zu viel Hilfe oder Lösung verraten. K6 (richtig geraten) als Auswahlfrage mit Ausblick auf Right is Right (W22).
+6. **Wann geht es allein weiter?** Quoten-Rechner: Klassengröße + richtige Antworten + Phase (gemeinsames Üben / Einzelarbeit) → Empfehlung (ca. 80 % beim gemeinsamen Üben, fast fehlerfrei in der Einzelarbeit).
+7. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W8 Stundenprofil, W10) + Freitext F6. **Abschluss:** Action Step mit Protokoll „Gemeinsam geübt?“ (gemeinsame Aufgaben, Quote vor der Einzelarbeit), Erinnerung Sitzplan für W12, Einreichen/Export.
