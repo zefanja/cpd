@@ -50,7 +50,7 @@
 > *„Werkzeug eins ist der **Rundgang**, bei Lemov ‚Circulate'. Vier Regeln: **Früh in den Raum hineingehen**: schon in den ersten zwei Minuten mitten in den Raum, nicht am Pult stehen bleiben. Lemov nennt das ‚break the plane'. Wer früh kommt, für den ist es normal, überall im Raum zu sein. **Route statt Meldungen**: Wer nur zu denen geht, die sich melden, wird von den Lautesten durch den Raum gelenkt und sieht die Stillen nie. Die Route plant ihr vorher, eure Frühwarn-Plätze aus Woche 5 zuerst. **Lesen, nicht wachen**: Der Blick geht in die Hefte, nicht über die Köpfe. Kurz markieren: Haken, Unterstreichung, ‚Schau Zeile 3'. Drei Sekunden pro Heft reichen. **Kurz bleiben**: höchstens 60 Sekunden pro Einzelhilfe. Wer fünf Minuten bei einem Schüler kniet, hat 25 andere nicht im Blick, und die wissen das."* [W5-Echo: Modell 4.]
 
 ### 3c · Prüf-Fokus und Sammelklärung (Min. 21–27)
-> *„Werkzeug zwei macht aus dem Rundgang eine Messung, bei Lemov ‚Active Observation'. Wir nennen es den **Prüf-Fokus**. Der Unterschied liegt in einem Satz, den ihr **vor** der Stunde festlegt: ‚Ich prüfe heute bei Aufgabe 2, ob sie Grundwert und Prozentwert richtig zuordnen, zuerst bei den vier Wackelkandidaten.' Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als jemand, der zwanzig Minuten allgemein hilft. Woher wisst ihr, wonach ihr sucht? Aus eurem Exemplar (Woche 9, die markierte Scheiter-Stelle) und bald aus eurer Fallen-Sammlung.*
+> *„Werkzeug zwei macht aus dem Rundgang eine Messung, bei Lemov ‚Active Observation'. Wir nennen es den **Prüf-Fokus**. Der Unterschied liegt in einem Satz, den ihr **vor** der Stunde festlegt: ‚Ich prüfe heute bei Aufgabe 2, ob sie Grundwert und Prozentwert richtig zuordnen, zuerst bei den vier Wackelkandidaten.' Wer weiß, wonach er sucht, sieht in fünf Minuten mehr als jemand, der zwanzig Minuten allgemein hilft. Woher wisst ihr, wonach ihr sucht? Aus eurer Idealantwort (Woche 9, die markierte Scheiter-Stelle) und bald aus eurer Fallen-Sammlung.*
 > *Und die wichtigste Regel für eure Zeit: Wenn derselbe Fehler zum dritten Mal auftaucht, unterbrecht ihr kurz: ‚Stifte runter, Blick nach vorn. Drei von euch sind in dieselbe Falle getappt, schauen wir sie gemeinsam an.' Zwei Minuten Sammelklärung ersetzen zehn Einzelerklärungen, und wer den Fehler noch vor sich hatte, ist gleich mit geschützt."*
 
 ## Phase 4 · Name it (Minute 27–31)
@@ -76,7 +76,7 @@ Tandems lesen die Laufweg-Fallkarte (Anhang 1.3), zeichnen den Laufweg der Lehrk
 Ablauf:
 
 1. **Routenplanung (6 Min.):** Auf dem mitgebrachten Sitzplan die Route einzeichnen (Frühwarn-Plätze zuerst; ist die blinde Ecke aus W5 abgedeckt?) und die Stelle markieren, von der aus man den ganzen Raum sieht.
-2. **Prüf-Fokus-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus dem Exemplar)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden?
+2. **Prüf-Fokus-Bogen (5 Min.):** für die reale Stunde nächster Woche ausfüllen: Was prüfe ich (konkret, aus der Idealantwort)? Bei wem zuerst? Woran erkenne ich den Fehler in 3 Sekunden?
 3. **Tandem-Härtetest (2 Min.):** Partner fragt: „Zeig mir auf deiner Route den Schüler, den du realistisch nie erreichst – und was änderst du?"
 
 ## Phase 6 · Action Step & Hospitationsvorbereitung (Minute 52–58)
@@ -100,7 +100,7 @@ Ablauf:
 
 - **Hospitationsfokus:** eine komplette Einzelarbeitsphase; Coach zeichnet **Laufweg + Standzeiten** auf einem Sitzplan mit und im Stundenprofil (W8) die blaue Phase. Das Laufweg-Bild überrascht oft: drei Inseln, eine Zone, die nie besucht wurde.
 - **Auswertungsgespräch:** Laufweg-Bild vorlegen, TN deutet es zuerst selbst; Abgleich mit der geplanten Route aus der Sitzung; Frage: „Was weißt du nach deinem Rundgang über die Klasse?“ (Klemmbrett zeigen lassen; leer ist ein Befund, kein Vorwurf).
-- **Verzahnung:** Prüf-Fokus für nächste Woche aus dem Exemplar der laufenden Einheit ableiten.
+- **Verzahnung:** Prüf-Fokus für nächste Woche aus der Idealantwort der laufenden Einheit ableiten.
 - **Red Flag:** TN „schafft die Route nicht“, weil ständige Störungen sie binden → das ist ein Rückfall in Block-1-Themen, kein W12-Problem: Interventionsleiter-Action-Step reaktivieren, Route erst danach.
 
 ---
@@ -111,7 +111,7 @@ Ablauf:
 **Die 5 Startbedingungen:** Aufgabe schriftlich · Zeit/Timer · Sozialform · Lautstärke festgelegt · Was-wenn-fertig. **Standard:** *Vorher:* Startbedingungen · Route (Frühwarn-Plätze zuerst) · Prüf-Fokus. *Während:* früh in den Raum · Hefte lesen und markieren (✓ / Unterstreichung / „Zeile 3“) · ≤ 60 Sek. pro Einzelhilfe · Fehler zählen. *Ab drei gleichen Fehlern:* Sammelklärung.
 
 ## 1.2 Handout B: Prüf-Fokus-Bogen
-Kopf: Stunde/Klasse/Datum. — **Was prüfe ich?** (konkret, aus Exemplar/Fallen-Liste): … — **Woran erkenne ich den Fehler in 3 Sek.?** … — **Bei wem zuerst?** (3–4 Namen): … — **Route** (Skizze/Reihenfolge): … — Live-Teil: **Top-3-Fehler (Strichliste):** 1… 2… 3… — **Entscheidung:** Sammelklärung nötig? ☐ wann: … / Konsequenz für morgen: …
+Kopf: Stunde/Klasse/Datum. — **Was prüfe ich?** (konkret, aus Idealantwort/Fallen-Liste): … — **Woran erkenne ich den Fehler in 3 Sek.?** … — **Bei wem zuerst?** (3–4 Namen): … — **Route** (Skizze/Reihenfolge): … — Live-Teil: **Top-3-Fehler (Strichliste):** 1… 2… 3… — **Entscheidung:** Sammelklärung nötig? ☐ wann: … / Konsequenz für morgen: …
 
 ## 1.3 Laufweg-Fallkarte (Fallback ohne Video)
 *Kl. 8, Übungsphase 15 Min., 26 SuS. Min. 0–3: Lehrkraft am Pult, sortiert Blätter. Min. 3: erste Meldung vorn rechts → Lehrkraft geht hin, bleibt 4 Min. (Erklärung im Sitzen). Min. 7: zwei Meldungen gleichzeitig, Lehrkraft pendelt zwischen beiden (je 2 Min.). Min. 11: Unruhe hinten links (unbesuchte Zone seit Beginn) → Ermahnung quer durch den Raum. Min. 12–15: Lehrkraft hilft erneut vorn rechts (derselbe Schüler). Nie besucht: hintere Reihe komplett, Fensterreihe. Dreimal aufgetreten (den Heften nach): Vorzeichenfehler bei Aufgabe 2 – unbemerkt.* — Aufgabe: Laufweg skizzieren, 3 Verstöße gegen den Standard benennen, den Sammelklärungs-Moment festlegen. *(Lösung: Start am Pult · die Meldungen bestimmen den Weg · 60-Sek.-Regel verletzt · nie besuchte Zone → Unruhe als Folge (Modell 4) · Sammelklärung spätestens Min. 8.)*
@@ -176,4 +176,4 @@ d) Fragen ✗
 3. **Start und Regeln (3 Min.):** die 5 Startbedingungen; vier Phaseneröffnungen, bei denen je eine Bedingung fehlt; You-do-Standard als Checkliste.
 4. **Meine Route (8 Min., Kernstück):** Sitzplan-Editor (Reihen × Plätze, leere Plätze), Frühwarn-Plätze markieren, Route durch Antippen legen; automatische Prüfung: Frühwarn-Plätze zuerst? nie besuchte Zonen (vier Raumbereiche)? Anteil direkt gesehener Plätze. Dazu der Prüf-Fokus-Bogen; die Scheiter-Stelle aus Modul 9 wird als Prüf-Fokus vorgeschlagen.
 5. **60 Sekunden:** 8 Situationen aus einer Einzelarbeit mit je 3 Reaktionen (kurzer Impuls / Zeichen „Ich komme gleich“ + Route halten / Sammelklärung / Vordertisch …), Feedback nach Standard.
-6. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W11 Break It Down, W9 Exemplar) + Freitext F6. **Abschluss:** Action Step mit Fehlerliste (füttert W13 und W25), Hinweis Gruppenhospitation 2, Exit-Karte, Einreichen/Export.
+6. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W11 Break It Down, W9 Idealantwort) + Freitext F6. **Abschluss:** Action Step mit Fehlerliste (füttert W13 und W25), Hinweis Gruppenhospitation 2, Exit-Karte, Einreichen/Export.

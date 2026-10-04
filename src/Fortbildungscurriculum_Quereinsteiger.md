@@ -327,15 +327,15 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 1. **Die zwei Kardinalfehler der Planung (Wiggins & McTighe):** *aktivitätsorientiert* (erst die Methode, dann das Ziel dazu erfinden) und *stofforientiert* (Lehrbuch abarbeiten). Beide fühlen sich produktiv an und sind es nicht.
 2. **Backwards Design:** Start mit „Was sollen sie am Ende können?“, dann „Woran erkenne ich es?“, zuletzt die Aktivität. Lemov beschreibt dieselbe Gewohnheit bei den Lehrkräften, die er beobachtet.
 3. **Mindestziel und Meilensteine:** Das Mindestziel sagt, was am Ende **alle** können sollen (Frage 1 aus W8; das prüft das Exit Ticket in W13). Darauf bauen 2–4 Meilensteine für die Stärkeren auf. Ampel: aufbauend · ansteigend · prüfbar.
-4. **Exemplar Planning (Lemov T1):** Die ideale Schülerantwort zum Mindestziel *vorher selbst ausformulieren* – erst dann weiß man wirklich, was man will, und erkennt Lücken sofort.
+4. **Von der Idealantwort her planen (Lemov T1, *Exemplar Planning*):** Die ideale Schülerantwort zum Mindestziel *vorher selbst ausformulieren* – erst dann weiß man wirklich, was man will, und erkennt Lücken sofort.
 
 **Typische Fehlvorstellungen:** „Lernziel = Thema“ („Wir machen heute Photosynthese“ ist kein Ziel); „Ziele an die Tafel schreiben reicht“ (Verstehen der Ziele braucht Beispiele gelungener Erfüllung).
 
-**Übungsteil:** Für eine reale Stunde der kommenden Woche: Mindestziel und Meilensteine schreiben → Exemplar zum Mindestziel verfassen → im Tandem prüfen: Welche Aufgabe prüft das Mindestziel? Wo werden schwache Schüler scheitern?
+**Übungsteil:** Für eine reale Stunde der kommenden Woche: Mindestziel und Meilensteine schreiben → Idealantwort zum Mindestziel verfassen → im Tandem prüfen: Welche Aufgabe prüft das Mindestziel? Wo werden schwache Schüler scheitern?
 
 **Action Step:** „Für jede neue Stunde schreibe ich zuerst das Mindestziel und die ideale Schülerantwort dazu auf – vor allem anderen.“
 
-**SPA-Bausteine:** Zwei innere Monologe (Kardinalfehler erkennen); Backwards Design mit Szene; „Ziel oder Thema?“ (inkl. eigener Ziel-Satz aus dem W8-Stundenprofil); Meilenstein-Werkstatt (Eichen an 4 Beispielketten, Mindestziel mit Prüfaufgabe, eigene Meilensteine mit Ampel aufbauend/ansteigend/prüfbar); Exemplar-Editor mit Szene und Scheiter-Stelle (wird in W10 und W12 wieder eingeblendet).
+**SPA-Bausteine:** Zwei innere Monologe (Kardinalfehler erkennen); Backwards Design mit Szene; „Ziel oder Thema?“ (inkl. eigener Ziel-Satz aus dem W8-Stundenprofil); Meilenstein-Werkstatt (Eichen an 4 Beispielketten, Mindestziel mit Prüfaufgabe, eigene Meilensteine mit Ampel aufbauend/ansteigend/prüfbar); Idealantwort-Werkstatt mit Szene und Scheiter-Stelle (wird in W10 und W12 wieder eingeblendet).
 
 ---
 
@@ -393,7 +393,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Kernideen (Lovell R9; Lemov „Circulate“, „Active Observation“; Rosenshine P9):**
 1. **Klarer Start (Verknüpfung Woche 3):** Aufgabe, Zeit, Sozialform, Lautstärke, Was-tun-wenn-fertig – alles vor Beginn geklärt; Timer sichtbar.
 2. **Der Rundgang mit Route:** früh in den Raum hineingehen („break the plane“), Route statt Meldungen, Hefte lesen statt über die Köpfe schauen, höchstens 60 Sekunden pro Einzelhilfe.
-3. **Prüf-Fokus (Lemov: Active Observation):** Vorher in einem Satz festlegen, *was* man beim Rundgang prüft (z. B. die Scheiter-Stelle aus dem Exemplar).
+3. **Prüf-Fokus (Lemov: Active Observation):** Vorher in einem Satz festlegen, *was* man beim Rundgang prüft (z. B. die Scheiter-Stelle aus der Idealantwort).
 4. **Sammelklärung:** Taucht derselbe Fehler zum dritten Mal auf, wird er einmal für alle geklärt.
 
 **Typische Fehlvorstellungen:** „Einzelarbeit = meine Pause / Korrekturzeit“ (es ist die Phase, in der man am meisten über die Klasse erfährt); „Ich helfe, wem ich zuerst begegne“ (systematisch statt reaktiv).

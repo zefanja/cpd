@@ -122,7 +122,7 @@ Zeilen: Write angesagt mit Zeit? ☐ / reale Write-Zeit: __ / Endsignal sauber? 
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
 1. Die 4 No-Opt-Out-Varianten? *(Hinweis / Peer + Rückkehr / Teilantwort ausbauen / Verweigerung: ruhig + Angebot + W.I.N.)*
-2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Exemplar)*
+2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Idealantwort)*
 3. PR × TR – wofür stehen die Regler (W21)? *(wie viele denken × wie tief)*
 4. Wait Time: Sekunden + Rahmung? *(3–5 Sek.; produktiv rahmen: „einige notieren – gut")*
 5. (Anwendung) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache – deine Reaktion nach Format Matters? *(würdigen + „jetzt in Fachsprache" – kurz, freundlich)*

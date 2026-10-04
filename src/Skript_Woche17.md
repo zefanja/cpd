@@ -63,7 +63,7 @@
 - **Station 1 – Quiz-Zettel:** 6 Fragen quer durch die Blöcke, still, Selbstkorrektur per Lösungskarte.
 - **Station 2 – Brain Dump:** „Schreibt 3 Minuten ALLES auf, was ihr über die Interventionsleiter wisst" – dann 1 Min. Abgleich mit der Referenzkarte: Was fehlte?
 - **Station 3 – Whiteboard-Blitz:** Ein TN zieht Fragen-Kärtchen und moderiert („3-2-1-hoch"), Rest antwortet – Moderationsrolle rotiert.
-- **Station 4 – Frage-Klassiker:** Partner-Abfrage mit den vier Klassikern zu einem gezogenen Begriff (z. B. „Exemplar": Was ist es? Warum heißt es so? Wozu? Eigenes Beispiel?).
+- **Station 4 – Frage-Klassiker:** Partner-Abfrage mit den vier Klassikern zu einem gezogenen Begriff (z. B. „Idealantwort": Was ist es? Warum heißt es so? Wozu? Eigenes Beispiel?).
 
 **Danach (2 Min.):** Blitzlicht: „Welches Format passt zu welcher Situation in DEINEM Unterricht?" (Zuordnung, kein Ranking – alle vier haben Einsatzorte.)
 
@@ -96,7 +96,7 @@
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Experiment-Material (aus W16, hier der Test)
-**Die 10 Begriffe (Vorschlag, fachneutral – Fachbegriffe des Programms!):** Threshold-Ersatz: Begrüßungsroutine · Exemplar · Fading · Transienz · Schema · Testing Effect (neu – Kontrolle!) · Interventionsleiter · Split Attention · Meilenstein · Do It Again. *(Ein Begriff war NICHT auf der Lernliste – wer ihn „erinnert", demonstriert Rekonstruktion: kurzer Bonus-Aha.)* **Test:** „Schreibt die 10 Begriffe der Lernliste auf – zu fünfen zusätzlich die Ein-Satz-Definition." **Auswertung:** Tafel, Spalten A/B, grobe Mittelwerte; Diskretion: Handzeichen in Spannen („0–4 / 5–7 / 8–10"), keine Einzelwerte.
+**Die 10 Begriffe (Vorschlag, fachneutral – Fachbegriffe des Programms!):** Threshold-Ersatz: Begrüßungsroutine · Idealantwort · Fading · Transienz · Schema · Testing Effect (neu – Kontrolle!) · Interventionsleiter · Split Attention · Meilenstein · Do It Again. *(Ein Begriff war NICHT auf der Lernliste – wer ihn „erinnert", demonstriert Rekonstruktion: kurzer Bonus-Aha.)* **Test:** „Schreibt die 10 Begriffe der Lernliste auf – zu fünfen zusätzlich die Ein-Satz-Definition." **Auswertung:** Tafel, Spalten A/B, grobe Mittelwerte; Diskretion: Handzeichen in Spannen („0–4 / 5–7 / 8–10"), keine Einzelwerte.
 
 ## 1.2 Stationen-Materialien
 **St. 1 Quiz-Zettel (6 Fragen + Lösungskarte):** u. a. 7 Schritte Begrüßungsroutine; Erfolgsquote (ca. 80 % / fast 100 %); Röntgen-Frage; Fluch des Wissens; Drei-Stapel-Sortierung; Lenkungs-Dreiklang. **St. 2 Brain-Dump-Blanko:** Titelzeile „Interventionsleiter – alles, was du weißt" + Abgleichkarte (W5-Referenzkarte). **St. 3 Fragen-Kärtchen (12):** kurze Faktenfragen quer durch die Blöcke, Whiteboard-tauglich. **St. 4 Begriffs-Kärtchen (8) + Klassiker-Karte:** Was ist es? / Warum heißt es so? / Wozu dient es? / Dein eigenes Beispiel?

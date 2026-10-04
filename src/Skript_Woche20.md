@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
 | **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
-| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (W21–25) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert das Exemplar (W9) und die Fallen-Sammlung (W10) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
+| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (W21–25) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert die Idealantwort (W9) und die Fallen-Sammlung (W10) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
 | **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
 | **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
 
@@ -49,7 +49,7 @@ Moderation spielt eine 90-Sekunden-Szene: erklärt etwas Kurzes, dann: *„Alle 
 > *Hebel zwei: **Eigene Fehler souverän behandeln.** Ihr werdet euch verrechnen, verschreiben, versprechen. Die Klasse beobachtet in diesem Moment nur eines: eure Reaktion. ‚Ah, gut aufgepasst – wo genau lag mein Fehler?' unterrichtet mehr Fehlerkultur als jedes Plakat.*
 > *Hebel drei – der unsichtbarste: **Richtig und falsch neutral und zügig klären.** Und zwar mit dem GESICHT. Die enttäuschte Miene, das Seufzen, das gedehnte ‚Hmmm…' – eure Mimik unterrichtet, bevor ihr ein Wort gesagt habt. Emotional Constancy aus Woche 4, angewandt auf Fehlerantworten: Der Fehler gehört zur Aufgabe, nicht zur Person; die Wärme gilt der Person, die Klarheit der Sache.*
 > *Hebel vier: **Niemals über Fehler lachen lassen.** Das ist eine 100-Prozent-Norm wie in Woche 5 – ein geduldetes Kichern über eine falsche Antwort kostet euch zehn ehrliche Antworten in den Folgewochen.*
-> *Und der Planungs-Baustein dazu: **Plan for Error.** Die drei wahrscheinlichsten Fehler einer Stunde kann man VORHER kennen – aus der letzten Klassenarbeit, aus eurer Fallen-Sammlung aus Woche 10, aus dem Exemplar mit seiner markierten Scheiter-Stelle. Wer die Fehler kennt, hat die Reaktion im Koffer statt im Improvisationsmodus. Aus Überraschung wird Plan."*
+> *Und der Planungs-Baustein dazu: **Plan for Error.** Die drei wahrscheinlichsten Fehler einer Stunde kann man VORHER kennen – aus der letzten Klassenarbeit, aus eurer Fallen-Sammlung aus Woche 10, aus der Idealantwort mit ihrer markierten Scheiter-Stelle. Wer die Fehler kennt, hat die Reaktion im Koffer statt im Improvisationsmodus. Aus Überraschung wird Plan."*
 
 ## Phase 4 · Name it (Minute 30–33)
 
@@ -61,7 +61,7 @@ Moderation spielt eine 90-Sekunden-Szene: erklärt etwas Kurzes, dann: *„Alle 
 Tandems, 8 Reaktions-Karten (Anhang 1.1): Karte ziehen, die schwache Reaktion LAUT im Original spielen (mit Miene! – das Original muss man gespielt haben, um es bei sich zu erkennen), dann nach Dreiklang umformulieren und erneut spielen – diesmal mit neutraler Miene und ruhigem Ton. Der Partner achtet AUSSCHLIESSLICH auf Gesicht und Stimme: *„Der Text kann stimmen und die Miene alles verraten."* 2 Runden mit Wechsel.
 
 ### Runde 2 · Plan-for-Error-Canvas (Min. 44–52)
-Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrscheinlichsten Fehler notieren (Quellen: Fallen-Sammlung W10, letzte Arbeit, Exemplar-Scheiter-Stelle) + zu jedem ein Reaktions-Skript (Dreiklang, wörtlich). Tandem-Härtetest: **„Sind das die WAHRSCHEINLICHSTEN Fehler – oder die interessantesten?"** *(Der klassische Baufehler: Lehrkräfte planen für die exotische Verwechslung und werden vom banalen Vorzeichenfehler überrascht.)*
+Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrscheinlichsten Fehler notieren (Quellen: Fallen-Sammlung W10, letzte Arbeit, Scheiter-Stelle der Idealantwort) + zu jedem ein Reaktions-Skript (Dreiklang, wörtlich). Tandem-Härtetest: **„Sind das die WAHRSCHEINLICHSTEN Fehler – oder die interessantesten?"** *(Der klassische Baufehler: Lehrkräfte planen für die exotische Verwechslung und werden vom banalen Vorzeichenfehler überrascht.)*
 
 ## Phase 6 · Action Step (Minute 52–58)
 
@@ -105,7 +105,7 @@ Einzelarbeit an der eigenen nächsten Einheit (Canvas Anhang 1.3): die 3 wahrsch
 ## 1.2 Handout A: Dreiklang + Ersetzungs-Regel + die vier Hebel — siehe Phase 4 (mit den Beispielsätzen aus Phase 3; Fußzeile: „Die Miene spricht zuerst.").
 
 ## 1.3 Plan-for-Error-Canvas
-Kopf: Einheit/Stunde. — Tabelle (3 Zeilen): **Wahrscheinlicher Fehler** (konkret!) | **Quelle** (Arbeit/Fallen-Liste/Exemplar) | **Mein Reaktions-Skript** (Dreiklang, wörtlich) | **Präventiv zeigen als Falle im I do?** ☐ — Fußzeile: „Wahrscheinlich schlägt interessant."
+Kopf: Einheit/Stunde. — Tabelle (3 Zeilen): **Wahrscheinlicher Fehler** (konkret!) | **Quelle** (Arbeit/Fallen-Liste/Idealantwort) | **Mein Reaktions-Skript** (Dreiklang, wörtlich) | **Präventiv zeigen als Falle im I do?** ☐ — Fußzeile: „Wahrscheinlich schlägt interessant."
 
 ## 1.4 Re-Establish-Skriptvorlage (Kondensat W1/W2)
 Meine Erwartung nach den Ferien (spezifisch): … | Mein Begründungssatz: … | Meine 2 CFU-Fragen: … | Ggf. Do It Again bereit? ☐ — Merkzeile: „Das Fenster ist wieder offen."
@@ -144,7 +144,7 @@ d) fällt niemandem auf ✗
 
 **F5.** Plan for Error plant für…
 a) die interessantesten, exotischsten Fehler ✗ *(der Werkstatt-Klassiker)*
-b) die WAHRSCHEINLICHSTEN Fehler – Quellen: Arbeiten, Fallen-Liste, Exemplar ✓
+b) die WAHRSCHEINLICHSTEN Fehler – Quellen: Arbeiten, Fallen-Liste, Idealantwort ✓
 c) alle denkbaren Fehler ✗
 d) Fehler der Lehrkraft ✗
 

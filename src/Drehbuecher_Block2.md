@@ -30,17 +30,17 @@
 
 *(Ausführlich: `Skript_Woche09.md`.)*
 
-**Material:** Zielbogen (Mindestziel + 2–4 Meilensteine + Ampel aufbauend/ansteigend/prüfbar + Exemplar); 4 Beispielketten (2 tragfähig, 2 untauglich); TN bringen das Thema ihrer nächsten realen Stunde mit.
+**Material:** Zielbogen (Mindestziel + 2–4 Meilensteine + Ampel aufbauend/ansteigend/prüfbar + Idealantwort); 4 Beispielketten (2 tragfähig, 2 untauglich); TN bringen das Thema ihrer nächsten realen Stunde mit.
 
 **Retrieval-Starter:** 1. Die fünf Fragen an jede Stunde? 2. Was tun, wenn beim gemeinsamen Üben nur die Hälfte richtig liegt? 3. Umformulierungs-Formel? 4. Warum ist das We do unverzichtbar (Modell 1)? 5. (Szene) Stundenprofil mit 18 Min. Rot, danach direkt Blau – welche Fragen sind betroffen?
 
 **See it (Min. 8–15):** Zwei innere Monologe: Planer A (Methode zuerst) und Planer B („Kapitel 7 muss durch“). Wiggins & McTighe nennen das die zwei Kardinalfehler der Planung. Gegenmittel: Fang am Ende an.
 
-**Input (Min. 15–28):** Backwards Design (Ziel → Nachweis → Aktivität). **Mindestziel** (was alle können sollen; das prüft später das Exit Ticket) + 2–4 ansteigende Meilensteine. Szene zum Exemplar (Treibhauseffekt: Beim Aufschreiben der Idealantwort fällt die Lücke auf). Exemplar Planning (Lemov T1).
+**Input (Min. 15–28):** Backwards Design (Ziel → Nachweis → Aktivität). **Mindestziel** (was alle können sollen; das prüft später das Exit Ticket) + 2–4 ansteigende Meilensteine. Szene zur Idealantwort (Treibhauseffekt: Beim Aufschreiben fällt die Lücke auf). Von der Idealantwort her planen (Lemov T1, *Exemplar Planning*).
 
-**Name it (Min. 28–32):** Mindestziel · Ampel aufbauend / ansteigend / prüfbar · Exemplar-Frage · Reihenfolge-Regel. Kurztraining: vier Formulierungen, Ziel oder Thema?
+**Name it (Min. 28–32):** Mindestziel · Ampel aufbauend / ansteigend / prüfbar · Idealantwort-Frage · Reihenfolge-Regel. Kurztraining: vier Formulierungen, Ziel oder Thema?
 
-**Do it (Min. 32–52):** Eichen an den 4 Beispielketten; eigenes Mindestziel + Meilensteine + Exemplar für die reale Stunde; Tandem-Härtetest: „Woran misst du dein Mindestziel?“ und „Wo werden schwache Schüler scheitern?“
+**Do it (Min. 32–52):** Eichen an den 4 Beispielketten; eigenes Mindestziel + Meilensteine + Idealantwort für die reale Stunde; Tandem-Härtetest: „Woran misst du dein Mindestziel?“ und „Wo werden schwache Schüler scheitern?“
 
 **Action Step:** Für jede neue Stunde zuerst Mindestziel und Idealantwort aufschreiben. *Alternativen:* Einseiter-Woche; Planungs-Tagebuch.
 
@@ -56,7 +56,7 @@
 
 **Vorab-Auftrag (eine Woche vorher ansagen):** Jede und jeder bereitet eine 3-Minuten-Erklärung eines echten Fachinhalts vor (Zielgruppe: die Gruppe als „Klasse“).
 
-**Retrieval-Starter:** 1. (Szene) „Heute lernen die Schüler den Aufbau der Zelle kennen.“ Ziel oder Thema? Als Mindestziel umformulieren. 2. (Szene) „Ich hab ein super Escape-Room-Spiel gefunden, jetzt such ich das Thema.“ Welcher Kardinalfehler? 3. Die 6 Leiterstufen? 4. Warum schreibt man das Exemplar selbst? 5. (Anwendung) Mindestziel mit Prüfaufgabe zu „Wahlrecht“.
+**Retrieval-Starter:** 1. (Szene) „Heute lernen die Schüler den Aufbau der Zelle kennen.“ Ziel oder Thema? Als Mindestziel umformulieren. 2. (Szene) „Ich hab ein super Escape-Room-Spiel gefunden, jetzt such ich das Thema.“ Welcher Kardinalfehler? 3. Die 6 Leiterstufen? 4. Warum schreibt man die Idealantwort selbst? 5. (Anwendung) Mindestziel mit Prüfaufgabe zu „Wahlrecht“.
 
 **Einstieg (Min. 8–11):** Szene: Newtons Klopf-Experiment (geschätzt jedes zweite Lied, erkannt 3 von 120) → Fluch des Wissens.
 

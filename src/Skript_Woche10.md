@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie erkläre ich so, dass jemand folgen kann, für den der Stoff neu ist? |
 | **Kernquellen** | Lovell/Dowley, Routine 7 (Explaining/Modelling); Rosenshine P2 (kleine Schritte mit Übung nach jedem Schritt), P4 (Modelle zeigen); Newton (1990) zum Fluch des Wissens; Worked-Example-Forschung (Sweller, Vorgriff W15); Lemov (Think Aloud) |
-| **Funktion im Jahr** | Vertieft Frage 3 aus W8 (Erklären: kleine Schritte, Vormachen). Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W11 Break It Down, W15 CLT, W33 Erwartungshorizonte). Das Exemplar aus W9 liefert die Schrittgrößen-Diagnose. |
+| **Funktion im Jahr** | Vertieft Frage 3 aus W8 (Erklären: kleine Schritte, Vormachen). Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (W11 Break It Down, W15 CLT, W33 Erwartungshorizonte). Die Idealantwort aus W9 liefert die Schrittgrößen-Diagnose. |
 | **Lernziele** | Die TN können:<br>1. eine 3-Minuten-Erklärung nach den vier Bausteinen halten (klein schneiden, laut denken mit Falle, nach jedem Schritt alle antworten lassen, festhalten),<br>2. die eigene Erklärung auf ihre Schrittgröße prüfen und mit der Halbier-Regel nachbessern. |
 | **Sitzungstyp** | Mikroteaching-Sitzung: Die Do-it-Phase ist mit 23 Minuten die längste des Jahres, der Input entsprechend knapp. |
 
@@ -37,8 +37,8 @@
 ## Phase 2 · Brücke (Minute 8–11)
 
 > **Moderationstext:**
-> *„Exemplar-Woche: Wer hat vor einer Stunde die Idealantwort geschrieben, und was ist euch dabei aufgefallen?"* [2 Stimmen; fast immer kommt: „Mir ist aufgefallen, wie viel die eigentlich wissen müssen." Darauf aufbauen:]
-> *„Genau hier setzt der heutige Tag an. Beim Exemplar habt ihr die Lücke gesehen zwischen dem, was ihr im Kopf habt, und dem, was im Schülerheft stehen soll. Heute geht es darum, wie ihr diese Lücke beim Erklären überbrückt. Vorher eine kurze Geschichte."*
+> *„Idealantwort-Woche: Wer hat vor einer Stunde die Idealantwort geschrieben, und was ist euch dabei aufgefallen?"* [2 Stimmen; fast immer kommt: „Mir ist aufgefallen, wie viel die eigentlich wissen müssen." Darauf aufbauen:]
+> *„Genau hier setzt der heutige Tag an. Bei der Idealantwort habt ihr die Lücke gesehen zwischen dem, was ihr im Kopf habt, und dem, was im Schülerheft stehen soll. Heute geht es darum, wie ihr diese Lücke beim Erklären überbrückt. Vorher eine kurze Geschichte."*
 
 > **Szene:** *1990 bat die Psychologin Elizabeth Newton in Stanford Versuchspersonen, bekannte Lieder wie „Happy Birthday“ mit dem Finger auf den Tisch zu klopfen. Ein Gegenüber sollte das Lied erraten. Die Klopfer schätzten vorher, dass etwa jedes zweite Lied erkannt würde. Erkannt wurden 3 von 120. Die Klopfer hörten beim Klopfen die Melodie im Kopf. Die Zuhörer hörten nur ein Klopfen.*
 
@@ -58,7 +58,7 @@ Die Moderation erklärt denselben Inhalt zweimal à 2 Minuten. Inhalt: der Proze
 ### 3b · Vier Bausteine einer Erklärung (Min. 17–25)
 > *„Aus den beiden Versionen lassen sich vier Bausteine ableiten.*
 >
-> *Erstens: **Klein schneiden.** Ein neues Element nach dem anderen, das ist Rosenshines P2. Das Werkzeug dafür ist euer Exemplar aus letzter Woche: Zerlegt die Idealantwort in ihre Bausteine. Jeder Baustein, den die Klasse noch nicht sicher hat, ist ein eigener Schritt. Wegen des Fluchs des Wissens fühlen sich eure Schritte immer kleiner an, als sie sind. Deshalb gilt die **Halbier-Regel**, eine Faustregel dieser Fortbildung: Halbiert die Schrittgröße, die sich richtig anfühlt. Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.*
+> *Erstens: **Klein schneiden.** Ein neues Element nach dem anderen, das ist Rosenshines P2. Das Werkzeug dafür ist eure Idealantwort aus letzter Woche: Zerlegt sie in ihre Bausteine. Jeder Baustein, den die Klasse noch nicht sicher hat, ist ein eigener Schritt. Wegen des Fluchs des Wissens fühlen sich eure Schritte immer kleiner an, als sie sind. Deshalb gilt die **Halbier-Regel**, eine Faustregel dieser Fortbildung: Halbiert die Schrittgröße, die sich richtig anfühlt. Wenn es sich quälend kleinschrittig anfühlt, ist es für die Klasse vermutlich gerade richtig.*
 >
 > *Zweitens: **Laut denken.** Das Denken von Fachleuten ist unsichtbar, ihr müsst es hörbar machen: die Entscheidungen (‚zuerst prüfe ich …'), die Selbstfragen (‚woran erkenne ich …?') und vor allem **die Falle**. Den typischen Fehler steuert ihr absichtlich an, benennt ihn und löst ihn auf: ‚Viele würden jetzt X tun. Das ist verständlich, weil … Aber dann passiert …' Eine vorgeführte Falle schützt besser als zehn Warnungen. Woher kennt ihr die typischen Fallen? Ab Woche 20 sammelt ihr sie systematisch, bis dahin aus den Fehlern der letzten Klassenarbeit.*
 >
@@ -109,7 +109,7 @@ Handout B austeilen: die vier Bausteine mit Satzanfängen fürs laute Denken, Ha
 
 - **Hospitationsfokus:** eine Erklärphase; **Transkript-Ausschnitt** anfertigen (2–3 Minuten wörtlich mitschreiben oder mit Erlaubnis Audio), das wirksamste Werkzeug dieser Woche. Dazu das Stundenprofil (W8) mitzeichnen: Wie lang ist der rote Block, und folgt darauf Gelb?
 - **Auswertungsgespräch:** Transkript gemeinsam lesen; TN zählt selbst: neue Elemente pro Minute? Stellen mit lautem Denken markieren (oft: keine, es werden nur Ergebnisse genannt). Dann 2 Minuten der Erklärung im Gespräch neu sprechen: mit Selbstfrage, Falle und einer Frage an alle. 
-- **Verzahnung:** Exemplar aus W9 danebenlegen – „Welcher Baustein der Idealantwort kam in der Erklärung gar nicht vor?"
+- **Verzahnung:** Idealantwort aus W9 danebenlegen – „Welcher Baustein der Idealantwort kam in der Erklärung gar nicht vor?"
 - **Red Flag:** TN, die das Mikroteaching als bloßstellend erlebt haben → im 1:1 auffangen: Feedback-Erleben besprechen, ggf. Tandem-Konstellation für W11 anpassen; die Übungskultur trägt nur mit Sicherheit.
 
 ---
@@ -125,7 +125,7 @@ Handout B austeilen: die vier Bausteine mit Satzanfängen fürs laute Denken, Ha
 ✍ **Ein Impuls:** …
 
 ## 1.2 Handout B: Vier Bausteine einer Erklärung
-**1 Klein schneiden:** ein neues Element nach dem anderen; Werkzeug: das Exemplar in Bausteine zerlegen. **Halbier-Regel:** Die Schrittgröße, die sich richtig anfühlt, halbieren.
+**1 Klein schneiden:** ein neues Element nach dem anderen; Werkzeug: die Idealantwort in Bausteine zerlegen. **Halbier-Regel:** Die Schrittgröße, die sich richtig anfühlt, halbieren.
 **2 Laut denken:** Entscheidungen und Selbstfragen hörbar machen, eine Falle zeigen und auflösen. Satzanfänge: „Zuerst prüfe ich …“ · „Jetzt frage ich mich …“ · „Woran erkenne ich …?“ · „Hier stutze ich, denn …“ · „Viele würden jetzt …, das ist verständlich, weil …, aber dann …“ · „Ich kontrolliere mein Ergebnis, indem …“
 **3 Nach jedem Schritt alle antworten lassen:** eine kurze Frage, alle schreiben, du siehst die Antworten (Whiteboard, Zettel). Erst dann der nächste Schritt.
 **4 Festhalten:** Beim Vormachen liegen die Stifte. Abgeschrieben wird danach, als eigener Schritt; die Kernschritte bleiben an der Tafel stehen.
@@ -138,7 +138,7 @@ Handout B austeilen: die vier Bausteine mit Satzanfängen fürs laute Denken, Ha
 1. (Szene) „Heute lernen die Schüler den Aufbau der Zelle kennen.“ Ziel oder Thema? Formuliere es als Mindestziel um. *(Thema; z. B. „kann in einer Skizze Zellkern, Zellmembran und Zellwand beschriften und je eine Aufgabe nennen“)*
 2. (Szene) Ein Kollege: „Ich hab ein super Escape-Room-Spiel gefunden, jetzt such ich noch das passende Thema.“ Welcher Kardinalfehler, welche Frage fehlt? *(aktivitätsorientiertes Planen; „Was sollen sie am Ende können?“)*
 3. Die 6 Leiterstufen (Block 1)? *(nonverbal → … → Konsequenz)*
-4. Warum schreibt man das Exemplar selbst? Nenne zwei Gründe. *(Ziel wird genau / Lücken und Schrittgrößen werden sichtbar / Maßstab für Antworten)*
+4. Warum schreibt man die Idealantwort selbst? Nenne zwei Gründe. *(Ziel wird genau / Lücken und Schrittgrößen werden sichtbar / Maßstab für Antworten)*
 5. (Anwendung) Baue aus „Thema: Wahlrecht“ ein Mindestziel mit Prüfaufgabe. *(z. B. „kann 2 Pro- und 2 Contra-Argumente nennen und eines mit Beispiel entfalten“)*
 
 ## Teil 2: Modul-Quiz Woche 10 (für SPA/Folgewoche)
@@ -186,4 +186,4 @@ d) keiner, die Erklärung war ja klar ✗ *(klingt vernünftig; „keine Fragen�
 4. **In kleine Schritte zerlegen (7 Min., Kernstück):** eigenen Inhalt in Teilschritte zerlegen, Halbier-Regel als Selbstprüfung. Eingeblendet werden der längste rote Block aus dem Stundenprofil von Modul 8 („In Stunde B waren es 4 Minuten“) und die Scheiter-Stelle aus Modul 9.
 5. **Selbstaufnahme:** 3-Min.-Aufnahme (nur Ton, bleibt lokal) → Selbstanalyse mit den Kriterien des Feedbackbogens → neue Elemente pro Minute mit Zähler.
 6. **Fallen-Bibliothek:** eigene Fach-Fallen (Fehler, warum verführerisch, Auflösung); wird in Modul 13 (Planungsbogen) und Modul 20 (Plan for Error) wieder aufgerufen.
-7. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W8 Frage 3, W9 Mindestziel/Exemplar) + Freitext F6. **Abschluss:** Action Step mit Fallen-Log, Exit-Karte, Einreichen/Export.
+7. **Quiz (Teil 2):** F1–F5 + zwei Wiederholungsfragen (W8 Frage 3, W9 Mindestziel/Idealantwort) + Freitext F6. **Abschluss:** Action Step mit Fallen-Log, Exit-Karte, Einreichen/Export.

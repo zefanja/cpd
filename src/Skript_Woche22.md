@@ -9,8 +9,8 @@
 |---|---|
 | **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
 | **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
-| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht das Exemplar (W9) als Maßstab; Break It Down (W11) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in W32 wieder). |
-| **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Exemplar als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
+| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht die Idealantwort (W9) als Maßstab; Break It Down (W11) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in W32 wieder). |
+| **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Idealantwort als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
 | **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
 
 ---
@@ -52,7 +52,7 @@ Moderation spielt den Dialog mit einem TN:
 > *Und zur häufigsten Sorge – ‚Ist das Zurückkommen nicht bloßstellend?': Umgekehrt. Bloßstellend ist das AUFGEBEN – die stille Botschaft ‚Von dir erwartet hier keiner was'. Das Zurückkommen sagt das Gegenteil, und es ist nebenbei die Mindestform von Abruf, Woche 17: Auch das Wiederholen einer gehörten Antwort ist eine Gedächtnishandlung. Der Ton entscheidet: beiläufig-warm, kein Triumph, kein ‚Na also, geht doch!'"*
 
 ### 3b · Right is Right + Format Matters (Min. 20–25)
-> *„Zweite Baustelle: die halb richtige Antwort. Der Reflex – ich kenne ihn, er fühlt sich pädagogisch an – ist das Aufrunden: ‚Jaaa, genau, so ungefähr!' Drei Kosten hat dieser Reflex: Der Schüler speichert die halbe Antwort als ganze. Die Klasse lernt, dass ‚ungefähr' hier der Standard ist. Und in der Klausur rundet niemand auf. **Right is Right** heißt: freundlich würdigen, präzise nachfassen – ‚Fast. Der erste Teil steht – schärfe den zweiten nach.' Woran messt ihr ‚ganz richtig'? An eurem Exemplar aus Woche 9 – deshalb habt ihr es geschrieben. Drei Prüfsteine: vollständig richtig, nicht ungefähr richtig; die GESTELLTE Frage beantwortet, nicht eine benachbarte; und – dritter Prüfstein mit eigenem Namen – **Format Matters:** Fachsprache zählt. ‚Das Ding oben wird kleiner' mag inhaltlich stimmen – im Fach heißt es Zähler. Die Einforderung ist freundlich und kurz: ‚Richtig – jetzt in Fachsprache.' Das ist keine Pedanterie: Die Prüfung, das Studium, der Beruf sprechen Fachsprache, und wer sie hier nie sprechen musste, hat sie dort nicht.*
+> *„Zweite Baustelle: die halb richtige Antwort. Der Reflex – ich kenne ihn, er fühlt sich pädagogisch an – ist das Aufrunden: ‚Jaaa, genau, so ungefähr!' Drei Kosten hat dieser Reflex: Der Schüler speichert die halbe Antwort als ganze. Die Klasse lernt, dass ‚ungefähr' hier der Standard ist. Und in der Klausur rundet niemand auf. **Right is Right** heißt: freundlich würdigen, präzise nachfassen – ‚Fast. Der erste Teil steht – schärfe den zweiten nach.' Woran messt ihr ‚ganz richtig'? An eurer Idealantwort aus Woche 9 – deshalb habt ihr sie geschrieben. Drei Prüfsteine: vollständig richtig, nicht ungefähr richtig; die GESTELLTE Frage beantwortet, nicht eine benachbarte; und – dritter Prüfstein mit eigenem Namen – **Format Matters:** Fachsprache zählt. ‚Das Ding oben wird kleiner' mag inhaltlich stimmen – im Fach heißt es Zähler. Die Einforderung ist freundlich und kurz: ‚Richtig – jetzt in Fachsprache.' Das ist keine Pedanterie: Die Prüfung, das Studium, der Beruf sprechen Fachsprache, und wer sie hier nie sprechen musste, hat sie dort nicht.*
 > *Ausnahme mit Augenmaß: Beim allerersten Gehversuch in einem neuen Konzept darf die Alltagssprache eine Brücke sein – aber sie bleibt eine Brücke, kein Wohnort."*
 
 ### 3c · Stretch It (Min. 25–28)
@@ -60,7 +60,7 @@ Moderation spielt den Dialog mit einem TN:
 
 ## Phase 4 · Name it (Minute 28–32)
 
-**Merkformeln:** No Opt Out: *„Es endet bei dir – mit Erfolg."* · Right is Right: Reflexfrage *„Würde diese Antwort im Test volle Punkte bekommen?"* (Maßstab: Exemplar) · Format Matters: *„Richtig – jetzt in Fachsprache."* · Stretch It: Auf richtig folgt eine Frage, kein Punkt. — Fingerzeichen-Kalibrierung: 4 Mini-Antworten vorlesen → durchlassen (✓) oder nachfassen (✗)? (Vorgeschmack auf Runde 2.)
+**Merkformeln:** No Opt Out: *„Es endet bei dir – mit Erfolg."* · Right is Right: Reflexfrage *„Würde diese Antwort im Test volle Punkte bekommen?"* (Maßstab: Idealantwort) · Format Matters: *„Richtig – jetzt in Fachsprache."* · Stretch It: Auf richtig folgt eine Frage, kein Punkt. — Fingerzeichen-Kalibrierung: 4 Mini-Antworten vorlesen → durchlassen (✓) oder nachfassen (✗)? (Vorgeschmack auf Runde 2.)
 
 ## Phase 5 · Do it (Minute 32–52)
 
@@ -89,7 +89,7 @@ Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlasse
 
 - **Hospitationsfokus:** Schleifen-Protokoll: jedes „weiß nicht"/Halb-Richtig wörtlich + was folgte (Rückkehr ja/nein? Aufrunden ja/nein?). Heatmap aus W21 weiterführen (Ziel-Zonen-Check!).
 - **Auswertungsgespräch:** Protokoll vorlegen; die eine verpasste Rückkehr gemeinsam nachspielen (Coach ist der Schüler). Kalibrier-Mini: 3 Antworten aus der hospitierten Stunde gemeinsam bewerten – deckt sich das Urteil?
-- **Verzahnung:** Exemplar der laufenden Einheit als Right-is-Right-Maßstab danebenlegen.
+- **Verzahnung:** Idealantwort der laufenden Einheit als Right-is-Right-Maßstab danebenlegen.
 - **Red Flag:** Rückkehr gerät zum Triumph-Moment („Siehste, geht doch!") oder zum Verhör → Ton-Arbeit im 1:1 (W4-Register); die Schleife trägt nur warm. Zweite Red Flag: TN fasst ALLES nach, auch Erstversuche in neuem Stoff → Augenmaß-Regel besprechen (Brücke Alltagssprache).
 
 ---

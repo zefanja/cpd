@@ -25,7 +25,7 @@ Für das **Stundenende** gibt es an unserer Schule dagegen **kein gemeinsames Ri
 
 **Material (Checkliste):**
 - [ ] Retrieval-Quiz liegt aus
-- [ ] Handout A: Dreispaltige Skript-Vorlage MIT ausgefülltem Musterbeispiel (Anhang 1.1) – das Muster ist entscheidend: Exemplar Planning für uns selbst
+- [ ] Handout A: Dreispaltige Skript-Vorlage MIT ausgefülltem Musterbeispiel (Anhang 1.1) – das Muster ist entscheidend: das Idealantwort-Prinzip für uns selbst
 - [ ] Störkarten-Set A, 4 Karten (Anhang 1.2), verdeckt
 - [ ] Handout B: Do-Now-Kriterien + Fachbeispiele (Anhang 1.3)
 - [ ] Handout C: Ende-Bausteine (Anhang 1.4)

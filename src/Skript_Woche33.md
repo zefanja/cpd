@@ -8,9 +8,9 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie kommt mein Feedback bei den Schülern an – ohne dass die Korrektur mich auffrisst? |
-| **Kernquellen** | Whole-Class-Feedback-Praxis (UK-Workload-Reform, via Lovell/McCrea-Umfeld); Verzahnung: Drei-Stapel-Sortierung (W13), Show Call (W24), Fehlerjournal/DIRT-Logik (W25), Exemplar/Erwartungshorizont (W9) |
-| **Funktion im Jahr** | Der zweite große Entlastungs-Hebel von Block 6: Die Korrekturfrage wird vom Rotstift-Ritual zur Wirkungsfrage umgebaut. WCF bündelt vier Jahres-Werkzeuge zu einem Verfahren; die Triage-Entscheidung wandert VOR die Aufgabenstellung (Lean-Logik). Deutsche Spezifika (Erwartungshorizont = amtliches Exemplar; mündliche Noten aus CFU-Daten; Landesrecht schulscharf prüfen!) verankern es im realen System. |
-| **Lernziele** | Die TN können:<br>1. die Wirkungsrechnung des roten Randes führen (Stunden investiert vs. Sekunden gelesen) und daraus den Formatwechsel begründen,<br>2. den WCF-Fünfschritt durchführen (lesen → Muster: 3 Stärken/3 Fehler → Feedbackstunde mit Show Call → DIRT → Stichprobe),<br>3. Korrekturformate VOR der Aufgabenstellung triagieren (Selbst/Peer/Stichprobe/Voll),<br>4. den Erwartungshorizont als Doppel-Werkzeug nutzen (amtliche Pflicht + Exemplar für die Klasse) und mündliche Noten auf CFU-Daten stützen. |
+| **Kernquellen** | Whole-Class-Feedback-Praxis (UK-Workload-Reform, via Lovell/McCrea-Umfeld); Verzahnung: Drei-Stapel-Sortierung (W13), Show Call (W24), Fehlerjournal/DIRT-Logik (W25), Idealantwort/Erwartungshorizont (W9) |
+| **Funktion im Jahr** | Der zweite große Entlastungs-Hebel von Block 6: Die Korrekturfrage wird vom Rotstift-Ritual zur Wirkungsfrage umgebaut. WCF bündelt vier Jahres-Werkzeuge zu einem Verfahren; die Triage-Entscheidung wandert VOR die Aufgabenstellung (Lean-Logik). Deutsche Spezifika (Erwartungshorizont = amtliche Idealantwort; mündliche Noten aus CFU-Daten; Landesrecht schulscharf prüfen!) verankern es im realen System. |
+| **Lernziele** | Die TN können:<br>1. die Wirkungsrechnung des roten Randes führen (Stunden investiert vs. Sekunden gelesen) und daraus den Formatwechsel begründen,<br>2. den WCF-Fünfschritt durchführen (lesen → Muster: 3 Stärken/3 Fehler → Feedbackstunde mit Show Call → DIRT → Stichprobe),<br>3. Korrekturformate VOR der Aufgabenstellung triagieren (Selbst/Peer/Stichprobe/Voll),<br>4. den Erwartungshorizont als Doppel-Werkzeug nutzen (amtliche Pflicht + Idealantwort für die Klasse) und mündliche Noten auf CFU-Daten stützen. |
 | **Sitzungstyp** | Rechnungs-Einstieg + WCF-Simulation am echten Klassensatz – die handwerklichste Sitzung des Blocks. |
 
 **Rechtlicher Rahmen (Moderations-Pflichthinweis):** Korrektur- und Bewertungsvorgaben sind LANDES- und teils SCHULSACHE (Fachkonferenz-Beschlüsse!). Vor der Sitzung klären: Was gilt bei UNS für Klassenarbeiten (Vollkorrektur-Pflicht? Randzeichen-Vorgaben?) – WCF ersetzt bei benoteten Arbeiten die vorgeschriebene Korrektur NICHT, es ersetzt den wirkungslosen Teil des Aufwands bei Übungsformaten und ergänzt die Rückgabe-Praxis bei Arbeiten.
@@ -40,7 +40,7 @@
 
 > **Moderationstext:**
 > *„Denkt an euren letzten voll korrigierten Klassensatz. Boards raus, zwei Zahlen: Wie viele Stunden habt ihr korrigiert – und wie lange, schätzt ehrlich, hat der durchschnittliche Schüler eure Randbemerkungen gelesen?"* [Typisch: 5–8 Stunden vs. 20–60 Sekunden. An die Tafel.]
-> *„Da steht sie, die absurdeste Bilanz unseres Berufs: Sieben Stunden Lehrerarbeit, konsumiert in dreißig Sekunden Schülerblick – und der Blick geht zur NOTE, nicht zum Rand. Die Forschung dazu ist deprimierend eindeutig: Sobald eine Note auf dem Blatt steht, wird das Feedback daneben weitgehend ignoriert. Der rote Rand ist ein Ritual – er beweist Fleiß, dokumentiert Sorgfalt, und er verändert fast nichts. Und jetzt die gute Nachricht: Ihr besitzt bereits jedes einzelne Werkzeug, um das zu reparieren. Die Drei-Stapel-Sortierung. Show Call. Das Fehlerjournal. Der Erwartungshorizont als Exemplar. Heute stecken wir sie zu EINEM Verfahren zusammen – es heißt Whole-Class-Feedback, und es hat in England eine ganze Workload-Reform getragen."*
+> *„Da steht sie, die absurdeste Bilanz unseres Berufs: Sieben Stunden Lehrerarbeit, konsumiert in dreißig Sekunden Schülerblick – und der Blick geht zur NOTE, nicht zum Rand. Die Forschung dazu ist deprimierend eindeutig: Sobald eine Note auf dem Blatt steht, wird das Feedback daneben weitgehend ignoriert. Der rote Rand ist ein Ritual – er beweist Fleiß, dokumentiert Sorgfalt, und er verändert fast nichts. Und jetzt die gute Nachricht: Ihr besitzt bereits jedes einzelne Werkzeug, um das zu reparieren. Die Drei-Stapel-Sortierung. Show Call. Das Fehlerjournal. Der Erwartungshorizont als Idealantwort. Heute stecken wir sie zu EINEM Verfahren zusammen – es heißt Whole-Class-Feedback, und es hat in England eine ganze Workload-Reform getragen."*
 
 ## Phase 3 · Input (Minute 15–28)
 
@@ -56,7 +56,7 @@
 > *„Zweiter Baustein, die Lean-Pointe: **Die Korrekturentscheidung fällt, BEVOR die Aufgabe gestellt wird.** Vier Formate: **Selbstkorrektur** (Lösung an die Wand, grüner Stift – für alles Eindeutige; plus Fehlerjournal) · **Peer-Korrektur** (mit Kriterienkarte – nur für Kriterien, die Schüler sicher prüfen können!) · **Stichprobe/WCF** (das neue Arbeitspferd für Übungsformate) · **Vollkorrektur** (für benotete Arbeiten – Pflicht – und gezielte Diagnosen). Die Triage-Frage bei jeder Aufgabenstellung: ‚Und wer korrigiert das – auf welchem Weg?' Wer sie vorher stellt, stellt andere Aufgaben: auswertbarer, fokussierter – und stapelt sich keine Berge, die niemand je liest."*
 
 ### 3c · Deutsche Spezifika (Min. 25–28)
-> *„Drei Anpassungen an unser System: Erstens, **der Erwartungshorizont** – bei uns amtliche Pflicht bei Klassenarbeiten, und ihr habt ihn immer als Bürokratie erlebt. Dreht ihn um: Er ist euer Exemplar aus Woche 9 in Amtsform – schreibt ihn VOR der Einheit (Woche 32: Arbeit zuerst!), und gebt ihn nach der Rückgabe der KLASSE: Er ist das beste DIRT-Material, das es gibt. Zweitens, **mündliche Noten:** Wer ein Jahr CFU-Daten sammelt – Heatmap, Boards, Ticket-Stapel, Beteiligungsprotokolle – hat für die sonstige Mitarbeit eine Datenbasis, gegen die das Bauchgefühl-Raster alt aussieht; belastbar, transparent, elternfest. Drittens, und nicht verhandelbar: **Prüft die Vorgaben eures Landes und eurer Fachkonferenz** – Vollkorrektur-Pflichten bei Arbeiten gelten; WCF lebt im Übungs- und Rückgabe-Raum. Der Coach hat die schulscharfe Karte dabei."* [Handout C]
+> *„Drei Anpassungen an unser System: Erstens, **der Erwartungshorizont** – bei uns amtliche Pflicht bei Klassenarbeiten, und ihr habt ihn immer als Bürokratie erlebt. Dreht ihn um: Er ist eure Idealantwort aus Woche 9 in Amtsform – schreibt ihn VOR der Einheit (Woche 32: Arbeit zuerst!), und gebt ihn nach der Rückgabe der KLASSE: Er ist das beste DIRT-Material, das es gibt. Zweitens, **mündliche Noten:** Wer ein Jahr CFU-Daten sammelt – Heatmap, Boards, Ticket-Stapel, Beteiligungsprotokolle – hat für die sonstige Mitarbeit eine Datenbasis, gegen die das Bauchgefühl-Raster alt aussieht; belastbar, transparent, elternfest. Drittens, und nicht verhandelbar: **Prüft die Vorgaben eures Landes und eurer Fachkonferenz** – Vollkorrektur-Pflichten bei Arbeiten gelten; WCF lebt im Übungs- und Rückgabe-Raum. Der Coach hat die schulscharfe Karte dabei."* [Handout C]
 
 ## Phase 4 · Name it (Minute 28–31)
 
@@ -143,7 +143,7 @@ d) durch die Fachkonferenz für jede Aufgabe ✗
 
 **F4.** Der Erwartungshorizont ist…
 a) Bürokratie ohne Unterrichtswert ✗ *(das erlebte Vorurteil)*
-b) das amtliche Exemplar: vor der Einheit geschrieben Planungswerkzeug, nach der Rückgabe DIRT-Material ✓
+b) die amtliche Idealantwort: vor der Einheit geschrieben Planungswerkzeug, nach der Rückgabe DIRT-Material ✓
 c) geheim zu halten ✗
 d) nur für die Schulaufsicht ✗
 

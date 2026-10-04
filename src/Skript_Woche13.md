@@ -65,7 +65,7 @@ Kleingruppen sortieren den echten Klassensatz (bzw. Anhang 1.2) in die drei Zone
 
 ## Phase 5 · Block 2 auf einer Seite (Minute 47–52)
 
-Den **Planungsbogen** (Handout B) gemeinsam durchgehen und ins Playbook heften. Er folgt den fünf Fragen aus Woche 8, und jede Frage hat jetzt ihr Werkzeug: Ziel (Mindestziel + Meilensteine + Exemplar, W9) → Einstieg (Do Now mit Wiederholung, W13) → Erklären (vier Bausteine, W10) → gemeinsam üben (Treppe + alle antworten lassen, etwa vier von fünf, W11) → allein üben (Route + Prüf-Fokus, W12) → Exit Ticket (Frage 1 am Ende, W13).
+Den **Planungsbogen** (Handout B) gemeinsam durchgehen und ins Playbook heften. Er folgt den fünf Fragen aus Woche 8, und jede Frage hat jetzt ihr Werkzeug: Ziel (Mindestziel + Meilensteine + Idealantwort, W9) → Einstieg (Do Now mit Wiederholung, W13) → Erklären (vier Bausteine, W10) → gemeinsam üben (Treppe + alle antworten lassen, etwa vier von fünf, W11) → allein üben (Route + Prüf-Fokus, W12) → Exit Ticket (Frage 1 am Ende, W13).
 
 > *„Das ist Block 2 auf einer Seite, und es ist ab jetzt euer Standardbogen für die Planung. In Woche 31 wird daraus ein 20-Minuten-Planungswerkzeug. Bis dahin: Benutzt ihn, bis er langweilig wird. Langweilig heißt: Es läuft von allein."*
 
@@ -114,7 +114,7 @@ Erweitert (Blockabschluss):
 25 Tickets zur Aufgabe „Entscheide: past simple oder present perfect (2 Sätze) + begründe mit dem Signalwort“: **11× kann es** (beides richtig, Begründung nennt Signalwort), **8× kann es fast** (Entscheidung richtig, Begründung fehlt oder dreht sich im Kreis: „klingt besser“), **6× noch nicht** (Signalwort ignoriert, „yesterday I have seen“). *(Eingebaute Grenzfälle zum Eichen: 2 Tickets mit richtiger Entscheidung, aber falscher Begründung: „kann es fast“ oder „noch nicht“? Diskussion gewollt; vgl. W11-Fehlerkarte K6.)* — **Erwartete Konsequenz:** „kann es fast“ + „noch nicht“ = 14/25, also mehr als ein Drittel → 10-Min.-Neuanlauf für alle mit neuem Zugang (z. B. Zeitstrahl statt die Regel zu wiederholen).
 
 ## 1.3 Handout B: Planungsbogen (Einseiter)
-Kopf: Klasse/Thema/Datum. — **Frage 1 · Ziel:** Mindestziel: … / weitere Meilensteine (2–4, Ampel-geprüft): … / Exemplar zum Mindestziel: … — **Frage 2 · Einstieg:** Do Now (3–5 Wiederholungsfragen: gestern / letzte Woche / letzter Monat): … — **Frage 3 · Erklären:** was ich vormache, Falle, Frage an alle nach jedem Schritt: … — **Frage 4 · Gemeinsam üben:** Stufen der Treppe + wann alle antworten: … — **Frage 5 · Allein üben:** Prüf-Fokus + Route: … — **Exit Ticket (Frage 1 am Ende):** Aufgaben (→ Mindestziel/Meilenstein): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
+Kopf: Klasse/Thema/Datum. — **Frage 1 · Ziel:** Mindestziel: … / weitere Meilensteine (2–4, Ampel-geprüft): … / Idealantwort zum Mindestziel: … — **Frage 2 · Einstieg:** Do Now (3–5 Wiederholungsfragen: gestern / letzte Woche / letzter Monat): … — **Frage 3 · Erklären:** was ich vormache, Falle, Frage an alle nach jedem Schritt: … — **Frage 4 · Gemeinsam üben:** Stufen der Treppe + wann alle antworten: … — **Frage 5 · Allein üben:** Prüf-Fokus + Route: … — **Exit Ticket (Frage 1 am Ende):** Aufgaben (→ Mindestziel/Meilenstein): … — Fuß: **Konsequenz von gestern eingebaut?** ☐
 
 ---
 
@@ -132,7 +132,7 @@ Kopf: Klasse/Thema/Datum. — **Frage 1 · Ziel:** Mindestziel: … / weitere Me
 7. Die fünf Fragen an jede Stunde?
 8. (Szene) Beim gemeinsamen Üben lagen 21 von 26 richtig. Auf den Exit Tickets sind nur 12 von 26 sicher. Was sagt dir das? *(Mit Hilfe ging es, ohne Hilfe hält es noch nicht: zu schnell von der Treppe gegangen oder zu viel geholfen; neuer Anlauf für alle)*
 9. (Szene) „Heute: die Weimarer Republik.“ Ziel oder Thema? Formuliere ein Mindestziel mit Prüfaufgabe.
-10. Was ist Exemplar Planning, und wozu dient es?
+10. Was heißt „von der Idealantwort her planen“, und wozu dient es?
 11. Die vier Bausteine einer Erklärung?
 12. (Szene) Deine Erklärung fühlt sich beim Proben „quälend kleinschrittig“ an. Kürzen? *(eher nicht: Fluch des Wissens, Halbier-Regel)*
 13. Die vier Stufen der Treppe?

@@ -474,7 +474,7 @@ textarea{min-height:4.2em}
     <div class="field"><label for="plTopic">Klasse, Thema, Datum</label><input type="text" id="plTopic" data-store="plTopic" placeholder="…"></div>
     <div class="plan-row c-petrol"><div class="q">Frage 1 · Ziel (W9)</div>
       <div class="field"><label for="plMs">Mindestziel und Meilensteine, geprüft mit der Ampel</label><textarea id="plMs" data-store="plMs" placeholder="Mindestziel: kann … / 2. kann …"></textarea></div>
-      <div class="field"><label for="plEx">Exemplar zum Mindestziel</label><textarea id="plEx" data-store="plEx" placeholder="…"></textarea></div>
+      <div class="field"><label for="plEx">Idealantwort zum Mindestziel</label><textarea id="plEx" data-store="plEx" placeholder="…"></textarea></div>
     </div>
     <div class="plan-row c-gelb"><div class="q">Frage 2 · Einstieg (W13)</div>
       <div class="field"><label for="plDn">Do Now: 3–5 Wiederholungsfragen (gestern, letzte Woche, letzter Monat)</label><textarea id="plDn" data-store="plDn" placeholder="…"></textarea></div>
@@ -691,7 +691,7 @@ const FLASH=[
  {q:'Die fünf Fragen an jede Stunde?',a:'Ziel · Einstieg · Erklären · gemeinsam üben · allein üben'},
  {q:'Szene: Beim gemeinsamen Üben lagen 21 von 26 richtig. Auf den Exit Tickets sind nur 12 von 26 sicher. Was sagt dir das?',a:'Mit Hilfe ging es, ohne Hilfe hält es noch nicht. Vermutlich ging es zu schnell die Treppe hinunter, oder beim gemeinsamen Üben wurde zu viel geholfen. Morgen: neuer Anlauf für alle.'},
  {q:'Szene: „Heute: die Weimarer Republik.“ Ziel oder Thema? Formuliere ein Mindestziel mit Prüfaufgabe.',a:'Ein Thema. Zum Beispiel: „Kann drei Belastungen der jungen Republik nennen und eine an einem Beispiel erklären.“ Prüfaufgabe: „Nenne drei Belastungen und erkläre eine in zwei Sätzen.“'},
- {q:'Was ist Exemplar Planning, und wozu dient es?',a:'Vor der Stunde selbst die ideale Schülerantwort zur Aufgabe des Mindestziels ausformulieren. Dann ist das Ziel genau, Lücken werden sichtbar, und du hast einen Maßstab für jede Antwort.'},
+ {q:'Was heißt „von der Idealantwort her planen“, und wozu dient es?',a:'Vor der Stunde selbst die ideale Schülerantwort zur Aufgabe des Mindestziels ausformulieren. Dann ist das Ziel genau, Lücken werden sichtbar, und du hast einen Maßstab für jede Antwort.'},
  {q:'Die vier Bausteine einer Erklärung?',a:'klein schneiden · laut denken (mit Falle) · nach jedem Schritt alle antworten lassen · festhalten'},
  {q:'Szene: Deine Erklärung fühlt sich beim Proben „quälend kleinschrittig“ an. Kürzen?',a:'Eher nicht. Der Fluch des Wissens lässt dir die Schritte zu klein erscheinen. Nach der Halbier-Regel ist sie für die Klasse vermutlich gerade richtig.'},
  {q:'Die vier Stufen der Treppe?',a:'Vollbeispiel · Lückenbeispiel · nur der Anfang · ohne Hilfe'},
@@ -1020,7 +1020,7 @@ function summaryRows(){
   ];
 }
 function planText(){
-  return 'Klasse, Thema: '+(state.plTopic||'–')+'\nF1 Ziel, Meilensteine: '+(state.plMs||'–')+'\nExemplar: '+(state.plEx||'–')+'\nF2 Einstieg, Do Now: '+(state.plDn||'–')
+  return 'Klasse, Thema: '+(state.plTopic||'–')+'\nF1 Ziel, Meilensteine: '+(state.plMs||'–')+'\nIdealantwort: '+(state.plEx||'–')+'\nF2 Einstieg, Do Now: '+(state.plDn||'–')
     +'\nF3 Erklären: '+(state.plIdo||'–')+'\nF4 Gemeinsam üben: '+(state.plWedo||'–')+'\nF5 Allein üben: '+(state.plYoudo||'–')+'\nExit Ticket: '+(state.plTicket||'–')
     +'\nKonsequenz aus dem letzten Ticket eingebaut: '+(state.plKons?'ja':'nein');
 }
@@ -1046,7 +1046,7 @@ function summaryText(){
 function buildPrint(){
   const fc=flashCounts();
   let h=printHead();
-  h+='<h2>Block 2 auf einer Seite</h2>'+pf('Klasse, Thema:',state.plTopic)+pf('Frage 1 · Ziel, Meilensteine:',state.plMs)+pf('Exemplar:',state.plEx)
+  h+='<h2>Block 2 auf einer Seite</h2>'+pf('Klasse, Thema:',state.plTopic)+pf('Frage 1 · Ziel, Meilensteine:',state.plMs)+pf('Idealantwort:',state.plEx)
     +pf('Frage 2 · Einstieg, Do Now:',state.plDn)+pf('Frage 3 · Erklären:',state.plIdo)+pf('Frage 4 · Gemeinsam üben:',state.plWedo)
     +pf('Frage 5 · Allein üben:',state.plYoudo)+pf('Exit Ticket:',state.plTicket)+pf('Konsequenz aus dem letzten Ticket eingebaut:',state.plKons?'ja':'nein');
   h+=printActionBlock()+pf('Schätzung vs. erstes Ticket:',(estText()||'–')+' / '+(state.realFirst||'–'));

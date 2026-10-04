@@ -37,7 +37,7 @@
 
 > **Moderationstext:**
 > *„Zeit-Logs: Wer ist unter 30 Minuten gekommen – und war eine Stunde schlechter?"* [2 Stimmen; die Nein-Antworten laut würdigen – sie sind der Beweis der Woche.]
-> *„Und jetzt die nächste Ebene, mit einer Frage: Wann schreibt ihr eure Klassenarbeiten – ich meine: Wann ENTSTEHT das Aufgabenblatt?"* [Ehrliche Antworten: „am Wochenende davor", „zwei Tage vorher, nachts".] *„Genau. Am Ende. Nach der Einheit. Und das ist exakt verkehrt herum – ihr kennt das Prinzip seit Woche 9, nur haben wir es nie auf die Einheit angewandt: **Die Arbeit ist das Exemplar der Einheit.** Wer sie ZUERST skizziert – nicht ausformuliert, skizziert, zwanzig Minuten –, der weiß ab Tag eins: Das müssen sie am Ende können, DAS wird geprüft, also zahlt jede Stunde darauf ein. Wer sie zuletzt schreibt, prüft, was zufällig drankam. Und der Nebengewinn ist enorm: Die früh skizzierte Arbeit könnt ihr auswertbar bauen – dazu nächste Woche mehr. Heute bauen wir die Einheit drumherum."*
+> *„Und jetzt die nächste Ebene, mit einer Frage: Wann schreibt ihr eure Klassenarbeiten – ich meine: Wann ENTSTEHT das Aufgabenblatt?"* [Ehrliche Antworten: „am Wochenende davor", „zwei Tage vorher, nachts".] *„Genau. Am Ende. Nach der Einheit. Und das ist exakt verkehrt herum – ihr kennt das Prinzip seit Woche 9, nur haben wir es nie auf die Einheit angewandt: **Die Arbeit ist die Idealantwort der Einheit.** Wer sie ZUERST skizziert – nicht ausformuliert, skizziert, zwanzig Minuten –, der weiß ab Tag eins: Das müssen sie am Ende können, DAS wird geprüft, also zahlt jede Stunde darauf ein. Wer sie zuletzt schreibt, prüft, was zufällig drankam. Und der Nebengewinn ist enorm: Die früh skizzierte Arbeit könnt ihr auswertbar bauen – dazu nächste Woche mehr. Heute bauen wir die Einheit drumherum."*
 
 ## Phase 3 · Input (Minute 13–27)
 
@@ -115,7 +115,7 @@ Raster: Phase | Ich tue … | **ALLE Schüler tun … (konkret, prüfbar!)** —
 ## Teil 2: Modul-Quiz Woche 32 (für SPA/Folgewoche)
 **F1.** Die Klassenarbeit entsteht idealerweise…
 a) nach der Einheit – erst dann weiß man, was drankam ✗ *(die Schulrealität!)*
-b) als Skizze VOR der Einheit: Sie ist das Exemplar, auf das jede Stunde einzahlt ✓
+b) als Skizze VOR der Einheit: Sie ist die Idealantwort, auf die jede Stunde einzahlt ✓
 c) aus dem Lehrerband ✗
 d) parallel zur letzten Stunde ✗
 
