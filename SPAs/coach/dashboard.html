@@ -540,12 +540,28 @@ document.getElementById('teacherForm').addEventListener('submit', async function
 });
 
 /* ---------- Modul-Matrizen (Sichtbarkeit & Fortschritt) ---------- */
+/* Kurzcode für Spaltenköpfe: modul2-2-lernziele -> "M2.2", modul0b-… -> "M0b".
+   Fallback für alte Keys (modul9-woche09-…), falls Migration 0013 noch nicht lief. */
+var BLOCK_STARTS = [1, 8, 14, 20, 26, 31];
+function moduleShortCode(m) {
+  var k = m.key || '';
+  var x = k.match(/^modul(\d+)-(\d+)-/i);
+  if (x) return 'M' + x[1] + '.' + x[2];
+  x = k.match(/^modul\d+-woche(\d+)/i);
+  if (x) {
+    var n = parseInt(x[1], 10), b = 0;
+    while (b + 1 < BLOCK_STARTS.length && n >= BLOCK_STARTS[b + 1]) b++;
+    return 'M' + (b + 1) + '.' + (n - BLOCK_STARTS[b] + 1);
+  }
+  x = k.match(/^modul(0b?)-/i);
+  if (x) return 'M' + x[1];
+  return 'M' + m.sort_order;
+}
+
 function moduleHeaderCell(m, colToggle) {
-  var shortMatch = m.key.match(/^modul([0-9a-z]+)-/i);
-  var short = shortMatch ? shortMatch[1] : String(m.sort_order);
-  var full = m.title.replace(/^Modul \d+ · /, '');
+  var full = m.title.replace(/^Modul [0-9.]+[a-z]? · /, '');
   var toggle = colToggle ? '<input type="checkbox" class="colToggleAll" data-module="' + m.id + '" title="Modul für alle Kurse an-/abwählen">' : '';
-  return '<th title="' + esc(full) + '">' + toggle + '<abbr>W' + esc(short) + '</abbr></th>';
+  return '<th title="' + esc(full) + '">' + toggle + '<abbr>' + esc(moduleShortCode(m)) + '</abbr></th>';
 }
 
 /* ---------- Sichtbarkeit ---------- */
