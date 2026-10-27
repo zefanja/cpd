@@ -22,6 +22,10 @@ const GROUPS = [
     files: ["Fortbildungscurriculum_Quereinsteiger.md"],
   },
   {
+    title: "Austausch & Vertiefung",
+    files: ["Vertiefung_Austauschwochen.md"],
+  },
+  {
     title: "Skripte",
     match: (f) => /^Skript_/i.test(f),
   },
@@ -32,6 +36,64 @@ const GROUPS = [
 ];
 
 const IGNORE_FILES = new Set(["README.md"]);
+
+// Alte URLs aus der Zeit der Wochen-Nummerierung (Woche N -> Modul Block.Thema).
+// Für jede alte Datei wird in docs/ eine kleine Weiterleitungsseite erzeugt,
+// damit Lesezeichen, geteilte Links und login.html?next=… weiter funktionieren.
+// Query-String (z. B. ?preview=1) und Anker bleiben erhalten. Die Seiten
+// tauchen in keiner Übersicht auf.
+const LEGACY_REDIRECTS = [
+  ["spas/Modul1_Woche01_SPA.html", "Modul1-1_Hohe-Erwartungen_SPA.html"],
+  ["spas/Modul2_Woche02_SPA.html", "Modul1-2_Zaesuren_SPA.html"],
+  ["spas/Modul3_Woche03_SPA.html", "Modul1-3_Signal-Anweisung-Uebergang_SPA.html"],
+  ["spas/Modul4_Woche04_SPA.html", "Modul1-4_Praesenz_SPA.html"],
+  ["spas/Modul5_Woche05_SPA.html", "Modul1-5_Interventionsleiter_SPA.html"],
+  ["spas/Modul6_Woche06_SPA.html", "Modul1-6_Framing-Praise_SPA.html"],
+  ["spas/Modul7_Woche07_SPA.html", "Modul1-7_WIN-Gespraech_SPA.html"],
+  ["spas/Modul8_Woche08_SPA.html", "Modul2-1_Fuenf-Fragen_SPA.html"],
+  ["spas/Modul9_Woche09_SPA.html", "Modul2-2_Lernziele_SPA.html"],
+  ["spas/Modul10_Woche10_SPA.html", "Modul2-3_Modellieren_SPA.html"],
+  ["spas/Modul11_Woche11_SPA.html", "Modul2-4_WeDo_SPA.html"],
+  ["spas/Modul12_Woche12_SPA.html", "Modul2-5_YouDo_SPA.html"],
+  ["spas/Modul13_Woche13_SPA.html", "Modul2-6_DoNow-ExitTicket_SPA.html"],
+  ["skript-woche00-auftakt.html", "skript-modul0-auftakt.html"],
+  ["skript-woche01.html", "skript-modul1-1.html"],
+  ["skript-woche02.html", "skript-modul1-2.html"],
+  ["skript-woche03.html", "skript-modul1-3.html"],
+  ["skript-woche04.html", "skript-modul1-4.html"],
+  ["skript-woche05.html", "skript-modul1-5.html"],
+  ["skript-woche06.html", "skript-modul1-6.html"],
+  ["skript-woche07.html", "skript-modul1-7.html"],
+  ["skript-woche08.html", "skript-modul2-1.html"],
+  ["skript-woche09.html", "skript-modul2-2.html"],
+  ["skript-woche10.html", "skript-modul2-3.html"],
+  ["skript-woche11.html", "skript-modul2-4.html"],
+  ["skript-woche12.html", "skript-modul2-5.html"],
+  ["skript-woche13.html", "skript-modul2-6.html"],
+  ["skript-woche14.html", "skript-modul3-1.html"],
+  ["skript-woche15.html", "skript-modul3-2.html"],
+  ["skript-woche16.html", "skript-modul3-3.html"],
+  ["skript-woche17.html", "skript-modul3-4.html"],
+  ["skript-woche18.html", "skript-modul3-5.html"],
+  ["skript-woche19.html", "skript-modul3-6.html"],
+  ["skript-woche20.html", "skript-modul4-1.html"],
+  ["skript-woche21.html", "skript-modul4-2.html"],
+  ["skript-woche22.html", "skript-modul4-3.html"],
+  ["skript-woche23.html", "skript-modul4-4.html"],
+  ["skript-woche24.html", "skript-modul4-5.html"],
+  ["skript-woche25.html", "skript-modul4-6.html"],
+  ["skript-woche26.html", "skript-modul5-1.html"],
+  ["skript-woche27.html", "skript-modul5-2.html"],
+  ["skript-woche28.html", "skript-modul5-3.html"],
+  ["skript-woche29.html", "skript-modul5-4.html"],
+  ["skript-woche30.html", "skript-modul5-5.html"],
+  ["skript-woche31.html", "skript-modul6-1.html"],
+  ["skript-woche32.html", "skript-modul6-2.html"],
+  ["skript-woche33.html", "skript-modul6-3.html"],
+  ["skript-woche34.html", "skript-modul6-4.html"],
+  ["skript-woche35.html", "skript-modul6-5.html"],
+];
+
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -110,6 +172,24 @@ function redirectTemplate({ to }) {
 </head>
 <body>
 <p>Weiter zu <a href="${to}">${to}</a> …</p>
+</body>
+</html>
+`;
+}
+
+function legacyRedirectTemplate({ to }) {
+  return `<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Weiterleitung · CPD Fortbildung</title>
+<script>window.location.replace(${JSON.stringify(to)} + window.location.search + window.location.hash);</script>
+<noscript><meta http-equiv="refresh" content="0; url=${to}"></noscript>
+</head>
+<body>
+<p>Diese Seite ist umgezogen: <a href="${to}">${to}</a></p>
 </body>
 </html>
 `;
@@ -236,6 +316,14 @@ function main() {
     fs.cpSync(SPA_SRC_DIR, SPA_OUT_DIR, { recursive: true });
     console.log(`kopiert: SPAs/ -> docs/spas/ (rekursiv)`);
   }
+
+  for (const [from, to] of LEGACY_REDIRECTS) {
+    const outPath = path.join(OUT_DIR, from);
+    if (fs.existsSync(outPath)) continue; // nie eine echte Seite überschreiben
+    fs.mkdirSync(path.dirname(outPath), { recursive: true });
+    fs.writeFileSync(outPath, legacyRedirectTemplate({ to }));
+  }
+  console.log(`gebaut: ${LEGACY_REDIRECTS.length} Weiterleitungen für alte Wochen-URLs`);
 
   const spaFiles = fs.existsSync(SPA_SRC_DIR)
     ? fs

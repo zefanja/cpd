@@ -1,10 +1,10 @@
-# Drehbücher Block 1 (Auftaktwoche + Wochen 1–7): Klassenführung & Routinen
+# Drehbücher Block 1 (Modul 0 · Auftakt + Module 1.1–1.7): Klassenführung & Routinen
 
-**Konventionen (gelten für alle Drehbücher):** Die Auftaktwoche dauert einmalig 90 Minuten (Kickoff **und** Grundlagenmodul), alle weiteren Sitzungen 60 Minuten. Standardraster jeder 60-min-Sitzung: Min. 0–2 Ankommen (Quiz liegt bereit, Timer läuft) · 2–8 Retrieval-Starter (5 Fragen, Muster 3-2-1: aktuell/älter/Anwendung; erst Einzelarbeit schriftlich, dann Aufrufen ohne Meldung) · 8–28 Input mit „See it" (Beispiel/Video/Demo VOR Begriff) · 28–33 „Name it" (Technik in Teilschritte zerlegen) · 33–52 „Do it" (Skripten → Rollenspiel → Feedback → 2. Durchlauf) · 52–58 Action Step schriftlich · 58–60 Exit-Karte („leuchtet ein / bin skeptisch"). Moderationstexte kursiv sind Vorschläge. Rollenspiel-Grundregeln ab Woche 1: Wer Lehrkraft spielt, spielt ernsthaft; „Klasse" stört nur auf Regieanweisung (Störkarten); Feedback immer zuerst „Was war wirksam?", dann EIN Verbesserungsimpuls; jede Sequenz wird nach Feedback sofort wiederholt (das Wiederholen ist der Lerneffekt, nicht das Feedback).
+**Konventionen (gelten für alle Drehbücher):** Der Auftakt (Modul 0) dauert einmalig 90 Minuten (Kickoff **und** Grundlagenmodul), alle weiteren Sitzungen 60 Minuten. Standardraster jeder 60-min-Sitzung: Min. 0–2 Ankommen (Quiz liegt bereit, Timer läuft) · 2–8 Retrieval-Starter (5 Fragen, Muster 3-2-1: aktuell/älter/Anwendung; erst Einzelarbeit schriftlich, dann Aufrufen ohne Meldung) · 8–28 Input mit „See it" (Beispiel/Video/Demo VOR Begriff) · 28–33 „Name it" (Technik in Teilschritte zerlegen) · 33–52 „Do it" (Skripten → Rollenspiel → Feedback → 2. Durchlauf) · 52–58 Action Step schriftlich · 58–60 Exit-Karte („leuchtet ein / bin skeptisch"). Moderationstexte kursiv sind Vorschläge. Rollenspiel-Grundregeln ab Modul 1.1: Wer Lehrkraft spielt, spielt ernsthaft; „Klasse" stört nur auf Regieanweisung (Störkarten); Feedback immer zuerst „Was war wirksam?", dann EIN Verbesserungsimpuls; jede Sequenz wird nach Feedback sofort wiederholt (das Wiederholen ist der Lerneffekt, nicht das Feedback).
 
 ---
 
-## AUFTAKTWOCHE: Kickoff & mentale Modelle (Drehbuch, 90 min)
+## MODUL 0 · AUFTAKT: Kickoff & mentale Modelle (Drehbuch, 90 min)
 
 **Material:** Programm-Landkarte A3 pro TN; Kompetenzmatrix-Bogen (8 Felder, 4 Stufen); Zielvereinbarungs-Formular; Handout „Die fünf Modelle" (erst ab Min. 55 austeilen!); Beobachtungsbogen „Erste 5 Minuten"; Kamera-Einverständnisse.
 
@@ -13,7 +13,7 @@
 | 0–5 | Begrüßung durch Schulleitung (Signal: Programm hat Priorität – EEF: credible source & goal setting) |
 | 5–15 | Warum dieses Programm so gebaut ist: Kernbotschaft „Lehrer-Können ist trainierbar" (3 Versprechen / 3 Bitten) |
 | 15–25 | Programm-Landkarte: 6 Blöcke, 3 Formate, Meilensteine |
-| 25–35 | Selbsteinschätzung Kompetenzmatrix (Baseline W0) |
+| 25–35 | Selbsteinschätzung Kompetenzmatrix (Baseline M0) |
 | 35–57 | **Die fünf mentalen Modelle** (Rätsel → je Modell Alltagsbeispiel → Prinzip → Folgerung; Handout erst am Ende) |
 | 57–62 | Blitz-Zuordnung: 8 Situationen → Modellnummer per Fingerzeichen |
 | 62–70 | **Perspektivwechsel im Tandem** (eigenes Ärger-Erlebnis vom Partner durch ein Modell umdeuten) |
@@ -30,13 +30,13 @@
 
 **Mini-Übung (Min. 70–82):** Jeder skriptet die ersten 30 Sekunden nach der schulischen Begrüßungsroutine (Aufstehen–Gruß–Setzen): exakter Wortlaut des Grußes + Setz-Signal + erster Satz danach. In Tandems 2× vorspielen. Ziel ist NICHT Perfektion, sondern: die Hemmschwelle „laut üben vor Kollegen" fällt am Tag 1.
 
-**Action Step:** siehe Curriculum (Beobachtungsauftrag „Erste 5 Minuten"; Alternative bei akutem Druck: Begrüßungsroutine vollständig durchführen). **Coaching:** Terminplan fixieren; Einverständnisse Baseline-Video einsammeln; Baseline-Video-Termin für Woche 1.
+**Action Step:** siehe Curriculum (Beobachtungsauftrag „Erste 5 Minuten"; Alternative bei akutem Druck: Begrüßungsroutine vollständig durchführen). **Coaching:** Terminplan fixieren; Einverständnisse Baseline-Video einsammeln; Baseline-Video-Termin für Modul 1.1.
 
 **SPA-Quiz-Kern:** F: „Wodurch ändert sich Unterrichtsverhalten am zuverlässigsten?" a) Einsicht durch gute Bücher ✗ b) Berufserfahrung allein ✗ (verbreitetster Mythos) c) gezieltes Üben mit Feedback ✓ d) Persönlichkeitsreife ✗.
 
 ---
 
-## Woche 1: Hohe Erwartungen – Verhalten ist ein Curriculum (Drehbuch)
+## Modul 1.1: Hohe Erwartungen – Verhalten ist ein Curriculum (Drehbuch)
 
 **Material:** Handout „vage → spezifisch" (6 Beispielpaare); Erwartungs-Canvas (Verhalten / sichtbar woran? / Begründungssatz); Beobachtungsbögen aus dem Auftakt (TN bringen mit!).
 
@@ -69,7 +69,7 @@
 
 ---
 
-## Woche 2: Die Zäsuren der Stunde – starker Start, geordnetes Ende (Drehbuch)
+## Modul 1.2: Die Zäsuren der Stunde – starker Start, geordnetes Ende (Drehbuch)
 
 **Kontext Schule:** Kein Türschwellen-Ritual – die Lehrkraft betritt den Raum, die Klasse ist i. d. R. schon da. Ritual: **Alle stehen auf → Begrüßung → Setzen.** Das gesamte Drehbuch baut darauf.
 
@@ -103,11 +103,11 @@
 
 ---
 
-## Woche 3: Aufmerksamkeit, glasklare Anweisungen & Übergänge (Drehbuch)
+## Modul 1.3: Aufmerksamkeit, glasklare Anweisungen & Übergänge (Drehbuch)
 
 **Material:** Handout „12-Wörter-Anweisungen" (5 vage Beispiele zum Umbau); Störkarten-Set B („5 SuS reagieren nicht aufs Signal", „einer äfft das Signal nach"); Videoclip oder Live-Demo.
 
-**Retrieval-Starter:** 1. Die 7 Teilschritte unserer Begrüßungsroutine? 2. Warum wartet man schweigend auf 100 %? 3. Kriterien gute Erwartung (W1)? 4. Welches Modell erklärt: Ansage ≠ Ankommen? 5. (Anwendung) Dein Do Now: Woran erkennst du, dass es zu schwer war?
+**Retrieval-Starter:** 1. Die 7 Teilschritte unserer Begrüßungsroutine? 2. Warum wartet man schweigend auf 100 %? 3. Kriterien gute Erwartung (M1.1)? 4. Welches Modell erklärt: Ansage ≠ Ankommen? 5. (Anwendung) Dein Do Now: Woran erkennst du, dass es zu schwer war?
 
 **Input (Min. 8–26):**
 1. *See it – Live-Demo Negativ/Positiv:* Moderation spielt: (A) redet gegen Murmeln an, wird lauter, Anweisung in 40 Wörtern mit drei Einschüben; (B) Signal → schweigend warten → Blickkontakt 100 % → „Stifte weg. Blick zu mir. Danke." → Anweisung in Schrittfolge.
@@ -119,15 +119,15 @@
 
 **Do it (Min. 31–52):**
 - *Rewrite-Sprint (8 Min.):* 5 vage Anweisungen („Passt jetzt mal auf", „Macht mal weiter", „Räumt vernünftig auf"…) einzeln in What-to-Do-Form; Tandem-Check mit Viererprüfung.
-- *Signal-Rollenspiel (13 Min.):* Jeder etabliert „sein" Signal (Wortlaut der EINFÜHRUNG des Signals inklusive – Behavioural CFU aus W1 einbauen!) und übt den Ernstfall mit Störkarte B: Signal → 5 reagieren nicht → schweigend warten + Blick + ggf. positive Gruppenkorrektur andeuten (Vorgriff W5, nur benennen).
+- *Signal-Rollenspiel (13 Min.):* Jeder etabliert „sein" Signal (Wortlaut der EINFÜHRUNG des Signals inklusive – Behavioural CFU aus M1.1 einbauen!) und übt den Ernstfall mit Störkarte B: Signal → 5 reagieren nicht → schweigend warten + Blick + ggf. positive Gruppenkorrektur andeuten (Vorgriff M1.5, nur benennen).
 
-**Action Step:** siehe Curriculum (Signal etablieren; erst sprechen, wenn alle Stifte liegen). *Alternative:* Wörter zählen – eine Woche lang jede Arbeitsanweisung vorher schriftlich auf ≤ 12 Wörter/Schritt kürzen.
+**Action Step:** siehe Curriculum (Signal etablieren; erst sprechen, wenn alle Stifte liegen). *Alternative:* Wörter zählen – zwei Wochen lang jede Arbeitsanweisung vorher schriftlich auf ≤ 12 Wörter/Schritt kürzen.
 
 **SPA-Quiz:** F1: „Die Klasse murmelt nach dem Signal weiter. Du…" a) sprichst lauter ✗ (Intuition!) b) wartest schweigend, Blick durch den Raum ✓ c) beginnst einfach – die Wichtigen hören zu ✗ (90%-Falle) d) drohst Konsequenzen an ✗. — F2: „Welche Anweisung ist What-to-Do-konform?" a) „Seid jetzt bitte mal konzentriert" ✗ b) „Buch S. 12, Aufgabe 3, allein, still – los" ✓ c) „Nicht mehr reden!" ✗ (negativ) d) „Wir wollten doch weiterarbeiten" ✗.
 
 ---
 
-## Woche 4: Präsenz – Körper, Stimme, Register, Selbstregulation (Drehbuch)
+## Modul 1.4: Präsenz – Körper, Stimme, Register, Selbstregulation (Drehbuch)
 
 **Material:** freier Spielraum; ggf. Handykameras für Selbst-Clips; Karte „Mein Reset-Anker" (Vorlage: Auslöser → Körperanker → innerer Satz).
 
@@ -144,7 +144,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 **Name it (Min. 24–29):** Präsenz-Checkliste: Stand fest? Hände ruhig? Register bewusst gewählt? Pause vor der Ansage? Stimme am Satzende unten (Aussage, nicht Bitte)?
 
-**Do it (Min. 29–52):** **Körper-Labor** in Dreiergruppen: dieselbe Anweisung („Bücher zu. Stifte weg. Blick zu mir.") in 4 Varianten sprechen: gehend/stehend × viele/wenige Worte; Beobachter geben Wirkungs-Feedback (nur Wirkung: „wirkte gehetzt / ruhig / bittend / sicher"). Dann **Reset-Anker** bauen: Jeder definiert Auslöser (z. B. „freche Antwort vor der Klasse"), Körperanker (Ausatmen, Fersen spüren), inneren Satz – und spielt die Sequenz 3× mit provozierender Störkarte durch. Optional: Handy-Selbstclip einer Ansage, sofort gemeinsam anschauen (Vorübung Videoselbstanalyse W7).
+**Do it (Min. 29–52):** **Körper-Labor** in Dreiergruppen: dieselbe Anweisung („Bücher zu. Stifte weg. Blick zu mir.") in 4 Varianten sprechen: gehend/stehend × viele/wenige Worte; Beobachter geben Wirkungs-Feedback (nur Wirkung: „wirkte gehetzt / ruhig / bittend / sicher"). Dann **Reset-Anker** bauen: Jeder definiert Auslöser (z. B. „freche Antwort vor der Klasse"), Körperanker (Ausatmen, Fersen spüren), inneren Satz – und spielt die Sequenz 3× mit provozierender Störkarte durch. Optional: Handy-Selbstclip einer Ansage, sofort gemeinsam anschauen (Vorübung Videoselbstanalyse M1.7).
 
 **Action Step:** siehe Curriculum (vor jeder wichtigen Anweisung: stehen bleiben, ausatmen, dann sprechen). *Alternative:* Register-Tagebuch: täglich eine Situation notieren, in der bewusst das Register gewechselt wurde.
 
@@ -152,7 +152,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 ---
 
-## Woche 5: 100 % & die Interventionsleiter (Drehbuch)
+## Modul 1.5: 100 % & die Interventionsleiter (Drehbuch)
 
 **Material:** Interventionsleiter als A3-Poster (6 Stufen); Sitzplan-Blanko; Videoclip Stillarbeit mit eingebauten Mikro-Störungen (alternativ: Beschreibungskarten); Störkarten-Set C.
 
@@ -175,7 +175,7 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 
 ---
 
-## Woche 6: Positive Framing & Precise Praise (Drehbuch)
+## Modul 1.6: Positive Framing & Precise Praise (Drehbuch)
 
 **Material:** Umformulierungs-Kartenset (10 Negativ-Ansagen); Timer; anonymisierte Schülerarbeiten (2–3) für Lob-Übung.
 
@@ -186,31 +186,31 @@ Dazu Selbstregulation (Lovell R3): Vor der Reaktion 1 Ausatmen + innerer Satz (�
 2. Positive Framing (Lemov T59): das Erwünschte benennen; Annahme des Guten (*„Ihr habt vergessen, dass…"* statt *„Ihr weigert euch…"*); anonym korrigieren, namentlich loben.
 3. Bank Positivity (Lovell P10): Beziehungs-Konto – viele kleine ECHTE Einzahlungen schaffen das Kapital für Korrekturen. Faustformel 3:1.
 4. Precise Praise (T60): Lob konkret + verdient + prozessbezogen (*„Du hast die Probe gemacht, bevor du abgegeben hast – das ist der Unterschied"*); Anerkennung ≠ Lob (Grundverhalten → „Danke", Überdurchschnittliches → Lob); Anti-Lobsandwich: *„Wer Kritik in Lob einwickelt, bringt SuS bei, dass Lob eine Warnung ist."*
-5. Rückruf statt Neuerung: Warm/Strict (T61) kam in Woche 4 als Registeranwendung – Positive Framing ist die Grammatik der Gruppenansprache, Warm/Strict die der Einzelansprache. Zusammen das komplette Korrektur-Besteck.
+5. Rückruf statt Neuerung: Warm/Strict (T61) kam in Modul 1.4 als Registeranwendung – Positive Framing ist die Grammatik der Gruppenansprache, Warm/Strict die der Einzelansprache. Zusammen das komplette Korrektur-Besteck.
 
 **Name it (Min. 28–32):** Umformulierungs-Formel: „Ich sehe [erfüllender Teil] – ich will [Zielzustand]." / Lob-Dreiklang: konkret–verdient–Prozess.
 
-**Do it (Min. 32–52):** **Umformulierungs-Batterie mit Timer** (Tempo erzeugt Automatisierung): Tandems, 10 Karten, 60 Sekunden – wie viele geschafft? Drei Runden statt zwei, weil das dritte Werkzeug in Woche 4 erledigt wurde. Dann **Precise-Praise-Werkstatt** an echten Schülerarbeiten: je 2 präzise Lobsätze zu ZWEI Arbeiten schreiben, Kitsch-Kontrolle im Tandem, die stärksten Sätze laut sprechen.
+**Do it (Min. 32–52):** **Umformulierungs-Batterie mit Timer** (Tempo erzeugt Automatisierung): Tandems, 10 Karten, 60 Sekunden – wie viele geschafft? Drei Runden statt zwei, weil das dritte Werkzeug in Modul 1.4 erledigt wurde. Dann **Precise-Praise-Werkstatt** an echten Schülerarbeiten: je 2 präzise Lobsätze zu ZWEI Arbeiten schreiben, Kitsch-Kontrolle im Tandem, die stärksten Sätze laut sprechen.
 
-**Action Step:** siehe Curriculum (3:1-Strichliste in einer Stunde pro Tag). *Alternative:* Eine Woche lang jede Korrektur mit „Annahme des Guten" beginnen.
+**Action Step:** siehe Curriculum (3:1-Strichliste in einer Stunde pro Tag). *Alternative:* Zwei Wochen lang jede Korrektur mit „Annahme des Guten" beginnen.
 
 **SPA-Quiz:** F1: „Warum kein Lobsandwich?" a) zu zeitaufwendig ✗ b) es entwertet Lob und verschleiert Feedback ✓ c) Lob ist grundsätzlich schädlich ✗ (Überkorrektur) d) SuS brauchen Härte ✗. — F2: „‚Super gemacht!' zu einer Routineaufgabe ist…" a) motivierend, Lob schadet nie ✗ (Kernmythos) b) Inflationierung – Anerkennung hätte gereicht ✓ c) in Ordnung in Sek I ✗ d) manipulativ ✗.
 
 ---
 
-## Woche 7: Das W.I.N.-Gespräch + Meilenstein 1 (Drehbuch)
+## Modul 1.7: Das W.I.N.-Gespräch + Meilenstein 1 (Drehbuch)
 
 **Material:** W.I.N.-Leitfaden-Karte; 3 Rollenkarten für Nachgespräche (einsichtig / abblockend / eskalierend); Playbook-Mappe (Sammelordner); Kompetenzmatrix; Beamer für Video-Selbstanalyse-Anleitung.
 
 **Retrieval-Starter (erweitert, 8 Fragen kumulativ Block 1):** u. a. Leiter-Reihenfolge; Umformulierungs-Formel; 7 Schritte Begrüßungsroutine; Vierercheck Anweisungen; 3:1-Regel; (Anwendung) „Klasse trödelt beim Materialwechsel – nenne zwei Werkzeuge."
 
-**Brücke (Min. 12–16):** Tandem-Murmelrunde „Welche EINE Sache tue ich heute, die ich vor sieben Wochen nicht getan habe?" – Zurufe am Flipchart sammeln. *„Nichts davon ist Charisma. Alles davon steht in eurem Playbook."*
+**Brücke (Min. 12–16):** Tandem-Murmelrunde „Welche EINE Sache tue ich heute, die ich zu Beginn von Block 1 nicht getan habe?" – Zurufe am Flipchart sammeln. *„Nichts davon ist Charisma. Alles davon steht in eurem Playbook."*
 
-**Input (Min. 16–28):** W.I.N.-Gespräch (Lovell R6): nach der Stunde, kurz (3–5 Min.), privat, ruhig, zukunftsgerichtet: **W**as ist passiert? (SuS zuerst, Stille aushalten) → **I**mpact: welche Wirkung hatte es? (sachlich, keine Moralkeule) → **N**ext steps: wie machen wir es morgen gut? (gemeinsam, konkret, klein). Kein Verhör, kein Monolog. Ein W.I.N. nach einer Konsequenz ist die Reparatur, kein Widerspruch. *(Übergänge und Stundenende stehen jetzt in W3 bzw. W2 – die freigewordene Zeit gehört dem Rollenspiel.)*
+**Input (Min. 16–28):** W.I.N.-Gespräch (Lovell R6): nach der Stunde, kurz (3–5 Min.), privat, ruhig, zukunftsgerichtet: **W**as ist passiert? (SuS zuerst, Stille aushalten) → **I**mpact: welche Wirkung hatte es? (sachlich, keine Moralkeule) → **N**ext steps: wie machen wir es morgen gut? (gemeinsam, konkret, klein). Kein Verhör, kein Monolog. Ein W.I.N. nach einer Konsequenz ist die Reparatur, kein Widerspruch. *(Übergänge und Stundenende stehen jetzt in M1.3 bzw. M1.2 – die freigewordene Zeit gehört dem Rollenspiel.)*
 
 **Do it (Min. 32–51):** **W.I.N.-Rollenspiele** in Dreiergruppen (Lehrkraft/Schüler/Beobachter), 3 Runden mit den 3 Rollenkarten à 6 Min. Regieanweisungen auf den Karten (z. B. „abblockend": antwortet einsilbig, verschränkte Arme – Lehrkraft übt Aushalten + offene Fragen). Abschluss: **eigener Fall** auf der Kartenrückseite vorbereiten (Name, Einstiegssatz, wahrscheinlichster Abwehrzug) – wird im Coaching dieser Woche durchgespielt.
 
-**Konsolidierung (Min. 51–58):** Playbook-Start: Skripte aus W1–7 einheften, Deckblatt „Mein Klassenführungs-Playbook"; **Meilenstein 1:** Kompetenzmatrix Selbst-Update (Felder 1–3) + Anleitung Video-Selbstanalyse Nr. 1 (10-Min.-Ausschnitt aus Baseline- oder neuem Video, TN annotiert vor dem Coaching-Gespräch mit Block-1-Checklisten).
+**Konsolidierung (Min. 51–58):** Playbook-Start: Skripte aus M1.1–1.7 einheften, Deckblatt „Mein Klassenführungs-Playbook"; **Meilenstein 1:** Kompetenzmatrix Selbst-Update (Felder 1–3) + Anleitung Video-Selbstanalyse Nr. 1 (10-Min.-Ausschnitt aus Baseline- oder neuem Video, TN annotiert vor dem Coaching-Gespräch mit Block-1-Checklisten).
 
 **Action Step:** siehe Curriculum (W.I.N. mit gemiedenem Schüler). **Coaching:** Meilenstein-Gespräch 1 (45–60 Min. diese Woche): Video gemeinsam, Matrix abgleichen, Blick auf Block 2.
 

@@ -1,12 +1,12 @@
-# Drehbücher Block 2 (Wochen 8–13): Effektive Instruktion – das Grundgerüst
+# Drehbücher Block 2 (Module 2.1–2.6): Effektive Instruktion – das Grundgerüst
 
 *(Konventionen wie Block 1: Standardraster 0–2 Ankommen · 2–8 Retrieval · 8–28 Input/See it · 28–33 Name it · 33–52 Do it · 52–58 Action Step · 58–60 Exit-Karte. Rollenspielregeln unverändert. Retrieval-Starter enthalten ab jetzt immer 2 Block-1-Fragen – Spacing im Programm.)*
 
 ---
 
-## Woche 8: Fünf Fragen an jede Stunde (Drehbuch)
+## Modul 2.1: Fünf Fragen an jede Stunde (Drehbuch)
 
-*(Ausführlich: `Skript_Woche08.md`.)*
+*(Ausführlich: `Skript_Modul2-1.md`.)*
 
 **Material:** Stunde A und Stunde B (Mathe Kl. 7, Einführung Prozentwert: A ordentlich, aber ohne gemeinsames Üben und ohne Blick auf alle; B dasselbe Thema, umgebaut); Handout „Fünf Fragen an jede Stunde“; Vorlage Stundenprofil (45-Min.-Balken, fünf Farben); Szenenkarten aus verschiedenen Fächern. TN denken an eine tatsächlich gehaltene Stunde (kein Plan nötig).
 
@@ -14,7 +14,7 @@
 
 **See it (Min. 12–24):** Stunde A lesen, Note geben (meist 2–3), Auflösung: 11 von 27 lösen am nächsten Tag die Einstiegsaufgabe. Tandems finden in Stunde B fünf Unterschiede unter der Frage: Wer muss wann denken, und woran sieht die Lehrerin, ob es angekommen ist? Sammeln an einer Zeitleiste.
 
-**Name it (Min. 24–34):** Die fünf Fragen an jede Stunde, je mit kurzer Szene: 1 Ziel (W9) · 2 Einstieg: holen alle etwas aus dem Gedächtnis? (P1, P10 → W13) · 3 Erklären: wie lange rede ich am Stück? (P2, P4 → W10) · 4 Gemeinsam üben und die Antworten aller sehen (P3, P5, P6, P8 → W11, Block 4) · 5 Allein üben: gelingt es den meisten, was tue ich währenddessen? (P7, P9 → W12). Erfolgsquote richtig einordnen: ca. 80 % beim gemeinsamen Üben neuer Inhalte, fast fehlerfrei bei Einzelarbeit und Wiederholung. Frontalunterricht-Einwand: In Stunde B redet die Lehrerin weniger am Stück als in A. Kurztraining: 3 Szenen, Finger zeigen die Frage.
+**Name it (Min. 24–34):** Die fünf Fragen an jede Stunde, je mit kurzer Szene: 1 Ziel (M2.2) · 2 Einstieg: holen alle etwas aus dem Gedächtnis? (P1, P10 → M2.6) · 3 Erklären: wie lange rede ich am Stück? (P2, P4 → M2.3) · 4 Gemeinsam üben und die Antworten aller sehen (P3, P5, P6, P8 → M2.4, Block 4) · 5 Allein üben: gelingt es den meisten, was tue ich währenddessen? (P7, P9 → M2.5). Erfolgsquote richtig einordnen: ca. 80 % beim gemeinsamen Üben neuer Inhalte, fast fehlerfrei bei Einzelarbeit und Wiederholung. Frontalunterricht-Einwand: In Stunde B redet die Lehrerin weniger am Stück als in A. Kurztraining: 3 Szenen, Finger zeigen die Frage.
 
 **Do it (Min. 34–50):** Stundenprofil der eigenen Stunde in fünf Farben zeichnen (grau Organisation · rot ich rede/Freiwillige antworten · gelb alle antworten · grün gemeinsam üben · blau allein arbeiten), fünf Fragen darunter beantworten (u. a. längster roter Block in Minuten), im Tandem die eine Stelle markieren, Änderung im Satzmuster formulieren („In Minute __ statt __ werde ich …“, max. 5 Min. Mehraufwand).
 
@@ -22,13 +22,13 @@
 
 **Coaching-Fokus:** Coach zeichnet in der Hospitation das Stundenprofil mit, TN danach das eigene; Abweichungen besprechen (meist werden rote Blöcke unterschätzt).
 
-**SPA-Quiz:** siehe `Skript_Woche08.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-1.md`, Anhang 2 Teil 2.
 
 ---
 
-## Woche 9: Lernziele & Backwards Design (Drehbuch)
+## Modul 2.2: Lernziele & Backwards Design (Drehbuch)
 
-*(Ausführlich: `Skript_Woche09.md`.)*
+*(Ausführlich: `Skript_Modul2-2.md`.)*
 
 **Material:** Zielbogen (Mindestziel + 2–4 Meilensteine + Ampel aufbauend/ansteigend/prüfbar + Idealantwort); 4 Beispielketten (2 tragfähig, 2 untauglich); TN bringen das Thema ihrer nächsten realen Stunde mit.
 
@@ -42,19 +42,19 @@
 
 **Do it (Min. 32–52):** Eichen an den 4 Beispielketten; eigenes Mindestziel + Meilensteine + Idealantwort für die reale Stunde; Tandem-Härtetest: „Woran misst du dein Mindestziel?“ und „Wo werden schwache Schüler scheitern?“
 
-**Action Step:** Für jede neue Stunde zuerst Mindestziel und Idealantwort aufschreiben. *Alternativen:* Einseiter-Woche; Planungs-Tagebuch.
+**Action Step:** Für jede neue Stunde zuerst Mindestziel und Idealantwort aufschreiben. *Alternativen:* Einseiter-Fokus; Planungs-Tagebuch.
 
-**SPA-Quiz:** siehe `Skript_Woche09.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-2.md`, Anhang 2 Teil 2.
 
 ---
 
-## Woche 10: Modellieren & Erklären – das „I do" (Drehbuch)
+## Modul 2.3: Modellieren & Erklären – das „I do" (Drehbuch)
 
-*(Ausführlich: `Skript_Woche10.md`.)*
+*(Ausführlich: `Skript_Modul2-3.md`.)*
 
 **Material:** Timer; Mikroteaching-Feedbackbogen nach den vier Bausteinen; Handout „Vier Bausteine einer Erklärung“; Los-Reihenfolge.
 
-**Vorab-Auftrag (eine Woche vorher ansagen):** Jede und jeder bereitet eine 3-Minuten-Erklärung eines echten Fachinhalts vor (Zielgruppe: die Gruppe als „Klasse“).
+**Vorab-Auftrag (im vorigen Input ansagen):** Jede und jeder bereitet eine 3-Minuten-Erklärung eines echten Fachinhalts vor (Zielgruppe: die Gruppe als „Klasse“).
 
 **Retrieval-Starter:** 1. (Szene) „Heute lernen die Schüler den Aufbau der Zelle kennen.“ Ziel oder Thema? Als Mindestziel umformulieren. 2. (Szene) „Ich hab ein super Escape-Room-Spiel gefunden, jetzt such ich das Thema.“ Welcher Kardinalfehler? 3. Die 6 Leiterstufen? 4. Warum schreibt man die Idealantwort selbst? 5. (Anwendung) Mindestziel mit Prüfaufgabe zu „Wahlrecht“.
 
@@ -68,13 +68,13 @@
 
 **Coaching-Fokus:** Transkript-Ausschnitt einer Erklärphase; Stundenprofil: Folgt auf Rot Gelb?
 
-**SPA-Quiz:** siehe `Skript_Woche10.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-3.md`, Anhang 2 Teil 2.
 
 ---
 
-## Woche 11: Angeleitetes Üben – das „We do" (Drehbuch)
+## Modul 2.4: Angeleitetes Üben – das „We do" (Drehbuch)
 
-*(Ausführlich: `Skript_Woche11.md`.)*
+*(Ausführlich: `Skript_Modul2-4.md`.)*
 
 **Material:** Treppen-Vorlage (Vollbeispiel → Lückenbeispiel → nur der Anfang → ohne Hilfe); Klassensatz Mini-Whiteboards; Fehlerkarten; Hilfen-Karte für Break It Down.
 
@@ -88,15 +88,15 @@
 
 **Do it (Min. 31–52):** Treppe für das eigene Thema bauen + Tandem-Check („Ist Stufe 2 wirklich kleiner?“); Break-It-Down-Rollenspiel, ein Durchgang pro Person.
 
-**Action Step:** Vor jeder Einzelarbeit mindestens zwei Aufgaben gemeinsam, alle antworten lassen, erst bei etwa vier von fünf in die Einzelarbeit. *Alternativen:* Treppen-Woche; eine Woche ohne Vorsagen.
+**Action Step:** Vor jeder Einzelarbeit mindestens zwei Aufgaben gemeinsam, alle antworten lassen, erst bei etwa vier von fünf in die Einzelarbeit. *Alternativen:* Treppen-Fokus; zwei Wochen ohne Vorsagen.
 
-**SPA-Quiz:** siehe `Skript_Woche11.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-4.md`, Anhang 2 Teil 2.
 
 ---
 
-## Woche 12: Selbstständiges Üben & der gezielte Rundgang – das „You do" (Drehbuch)
+## Modul 2.5: Selbstständiges Üben & der gezielte Rundgang – das „You do" (Drehbuch)
 
-*(Ausführlich: `Skript_Woche12.md`.)*
+*(Ausführlich: `Skript_Modul2-5.md`.)*
 
 **Material:** Sitzplan-Blankos; Prüf-Fokus-Bogen (Was prüfe ich? / Bei wem zuerst? / Route); Laufweg-Fallkarte (optional Videoclip).
 
@@ -110,25 +110,25 @@
 
 **Do it (Min. 31–52):** Laufweg-Fallkarte analysieren; Route auf dem eigenen Sitzplan; Prüf-Fokus-Bogen für eine reale Stunde; Tandem-Frage: „Wen erreichst du auf deiner Route nie?“
 
-**Action Step:** Geplante Route + Klemmbrett mit den drei häufigsten Fehlern; beim dritten gleichen Fehler Sammelklärung. *Alternativen:* 60-Sekunden-Woche; Startbedingungen-Woche.
+**Action Step:** Geplante Route + Klemmbrett mit den drei häufigsten Fehlern; beim dritten gleichen Fehler Sammelklärung. *Alternativen:* 60-Sekunden-Fokus; Startbedingungen-Fokus.
 
 **Coaching-Fokus:** Coach zeichnet Laufweg + Standzeiten und die blaue Phase im Stundenprofil; Auswertung: Wer wurde nie gesehen?
 
 **Hinweis Gruppenhospitation 2 (diese oder nächste Woche):** Fokus I do / We do; Bogen: Wortlaut einer Erklärung + Stufen der Treppe + „Ein Kniff, den ich übernehme“.
 
-**SPA-Quiz:** siehe `Skript_Woche12.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-5.md`, Anhang 2 Teil 2.
 
 ---
 
-## Woche 13: Do Now & Exit Ticket + Abschluss Block 2 (Drehbuch)
+## Modul 2.6: Do Now & Exit Ticket + Abschluss Block 2 (Drehbuch)
 
-*(Ausführlich: `Skript_Woche13.md`.)*
+*(Ausführlich: `Skript_Modul2-6.md`.)*
 
 **Material:** Exit-Ticket-Vorlagen; anonymisierter echter Klassensatz Exit Tickets (25 Stück); 3 Sortierzonen („kann es / kann es fast / noch nicht“); Planungsbogen (A4); Auswertung des Block-2-Quiz aus der SPA.
 
 **Rückblick Block-2-Quiz (Min. 2–7):** Das Quiz (20 Fragen, davon 11 Szenen) machen die TN vorab in der SPA mit Selbstkorrektur. In der Sitzung nur die drei am häufigsten nicht gewussten Fragen.
 
-**Input (Min. 7–21):** Szene Physik („Warum fliegt ein Flugzeug?“) → Do Now mit 3–5 Wiederholungsfragen aus drei Zeiträumen. Exit Ticket prüft das **Mindestziel** aus W9. Auswertung in 10 Min.: drei Stapel, häufigster Fehler, eine Konsequenz; mehr als ein Drittel nicht sicher → neuer Anlauf für alle (mit Erklärung, warum hier eine andere Schwelle gilt als die ca. 4 von 5 vor der Einzelarbeit).
+**Input (Min. 7–21):** Szene Physik („Warum fliegt ein Flugzeug?“) → Do Now mit 3–5 Wiederholungsfragen aus drei Zeiträumen. Exit Ticket prüft das **Mindestziel** aus M2.2. Auswertung in 10 Min.: drei Stapel, häufigster Fehler, eine Konsequenz; mehr als ein Drittel nicht sicher → neuer Anlauf für alle (mit Erklärung, warum hier eine andere Schwelle gilt als die ca. 4 von 5 vor der Einzelarbeit).
 
 **Name it (Min. 21–25):** Exit-Ticket-Gütecheck: prüft das Mindestziel? in 3–5 Min. allein lösbar? schriftlich, von allen? in ≤ 10 Min. auswertbar?
 
@@ -138,6 +138,6 @@
 
 **Action Step (Min. 52–58):** Jede Stunde in Klasse X mit Exit Ticket, am selben Tag sortieren, mindestens eine sichtbare Konsequenz. *Alternativen:* Do-Now-Umbau; Sortieren statt korrigieren. Kompetenzmatrix Felder 4–5 im Coaching-Gespräch.
 
-**SPA-Quiz:** siehe `Skript_Woche13.md`, Anhang 2 Teil 2.
+**SPA-Quiz:** siehe `Skript_Modul2-6.md`, Anhang 2 Teil 2.
 
 ---
