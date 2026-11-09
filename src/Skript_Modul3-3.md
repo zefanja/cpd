@@ -30,7 +30,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Das Überraschungsexperiment (Minute 8–15)
 
@@ -124,43 +124,46 @@ Medium: … → Mein Beachtungs-Auftrag (wörtlich): … | Kernsatz der Stunde: 
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die drei großen Last-Fresser? *(Split Attention, Redundanz, Transienz)*
-2. Intrinsische vs. lästige Last – je ein Beispiel? *(Aufgabenschwierigkeit erwünscht / Suchen, Parallelkanäle, Entziffern unerwünscht)*
-3. Mindestziel und die drei Ampel-Kriterien für Meilensteine (Block 2)? *(was alle können sollen; aufbauend, ansteigend, prüfbar)*
-4. Warum bleibt Wichtiges an der Tafel stehen – Fachbegriff? *(Transienz; Board = Paper)*
-5. (Anwendung) Deine Folie: Bild + 60 Wörter + du sprichst. Diagnose + Fix? *(Split Attention/Redundanz → ein Träger: Bild behalten, Text in den Mund, Kernbegriffe als Beschriftung)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche drei Quellen unnötiger Belastung hast du in M3.2 kennengelernt? *(Split Attention (geteilte Aufmerksamkeit), Redundanz (dasselbe doppelt), Transienz (Gesprochenes ist weg))*
+2. Was unterscheidet die erwünschte von der unnötigen Belastung? Nenne je ein Beispiel. *(erwünscht: die Schwierigkeit der Sache selbst; unnötig: Suchen auf der Folie, Entziffern, zwei Kanäle gleichzeitig)*
+3. (Szene) Deine Folie zeigt ein Bild und 60 Wörter Text, und du sprichst dazu. Was änderst du? *(Bild behalten, Text streichen und sagen, nur die Kernbegriffe als Beschriftung)*
+4. Wie lautet Willinghams Satz aus M3.1? *(„Erinnert wird, worüber nachgedacht wurde.“)*
+5. Was ist das Mindestziel, und welche drei Kriterien prüft die Ampel bei Meilensteinen (M2.2)? *(was am Ende alle können sollen; aufbauend, ansteigend, prüfbar)*
+6. Was tust du zuerst, wenn dich ein Schüler provoziert (M1.4)? *(den Reset-Anker nutzen (ausatmen, fester Stand), erst dann reagieren)*
 
 ## Teil 2: Modul-Quiz Modul 3.3 (für SPA/Austauschwoche)
-**F1.** „Schaut euch das Video aufmerksam an" ist…
-a) eine solide Vorbereitung ✗ *(Alltagsstandard)*
-b) ein Würfelwurf – ohne konkreten Suchauftrag läuft die Denkspur irgendwohin ✓
-c) übergriffig ✗
-d) nur bei langweiligen Videos nötig ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** SuS erinnern deine spektakuläre Anekdote, nicht das Prinzip. Beste Konsequenz:
-a) Anekdoten künftig streichen ✗ *(Überkorrektur – korrekt und tot)*
-b) Anekdote ans Prinzip koppeln: expliziter Denkauftrag ✓
-c) mehr Anekdoten, dann bleibt mehr hängen ✗
-d) das Prinzip weglassen, Hauptsache Interesse ✗
+**F1.** Vor einem Video sagst du: „Schaut aufmerksam zu.“ Was passiert am ehesten?
+a) Die meisten achten auf das Wichtige, weil sie vorgewarnt sind. ✗ *(Vorgewarnt ja, aber worauf? Das weiß niemand.)*
+b) Die Schwächeren schalten ab, die Stärkeren finden das Wichtige selbst. ✗ *(Auch Starke folgen dem Auffälligen.)*
+c) Alle schreiben mit und verpassen dadurch die Bilder. ✗ *(Ohne Auftrag schreibt kaum jemand mit.)*
+d) Jeder achtet auf etwas anderes, meist auf das Auffälligste. ✓ *(Ohne konkreten Auftrag ist offen, worüber nachgedacht wird.)*
 
-**F3.** Die Röntgen-Frage an jede Aufgabe lautet:
-a) „Wie lange dauert sie?" ✗
-b) „Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen?" ✓
-c) „Macht sie Spaß?" ✗
-d) „Ist sie differenzierbar?" ✗
+**F2.** Deine Schüler erinnern sich an deine spannende Anekdote, aber nicht an das Prinzip dahinter. Was machst du beim nächsten Mal?
+a) Ich lasse die Anekdote weg. ✗ *(Das ist die Überkorrektur. Dann fehlt das, was im Gedächtnis bleibt.)*
+b) Ich verbinde die Anekdote mit einem Auftrag, der zum Prinzip führt. ✓ *(Zum Beispiel: „Diese Geschichte zeigt Prinzip X. Erklärt zu zweit, wo genau.“)*
+c) Ich erzähle sie erst nach dem Prinzip. ✗ *(Die Reihenfolge allein ändert nicht, worüber nachgedacht wird.)*
+d) Ich erzähle mehrere Anekdoten, dann bleibt mehr hängen. ✗ *(Es bleiben mehr Anekdoten hängen, nicht mehr vom Prinzip.)*
 
-**F4.** „Unterstreiche alle Adjektive" trainiert primär…
-a) Grammatikverständnis ✗ *(der Etiketten-Glaube)*
-b) Oberflächen-Suche – der Zielgedanke ist umgehbar ✓
-c) Konzentration ✗
-d) Lesekompetenz ✗
+**F3.** Mit welcher Frage prüfst du am sichersten, ob eine Aufgabe das Zielwissen trainiert?
+a) Was muss man denken, um sie zu lösen, und geht es auch ohne diesen Gedanken? ✓ *(Lässt sich die Aufgabe durch Abschreiben oder Raten lösen, übt sie Abschreiben oder Raten.)*
+b) Wie lange brauchen die Schüler dafür? ✗ *(Die Dauer sagt nichts darüber, was gedacht wird.)*
+c) Können alle Leistungsniveaus sie lösen? ✗ *(Wichtig, aber eine andere Frage.)*
+d) Kommt das Thema der Stunde in der Aufgabe vor? ✗ *(Das Thema kann vorkommen, ohne dass man darüber nachdenken muss.)*
 
-**F5.** Der Torwächter (Aufmerksamkeit) bevorzugt von Natur aus…
-a) das Wichtige ✗ *(schön wär's)*
-b) Neues, Soziales, Bewegtes, Witziges ✓
-c) das, was die Lehrkraft betont ✗ *(nur wenn markiert!)*
-d) nichts – Aufmerksamkeit ist neutral ✗
+**F4.** Die Aufgabe lautet: „Unterstreiche alle Adjektive im Text.“ Was üben die Schüler dabei vor allem?
+a) Sie verstehen, wie Adjektive die Wirkung eines Textes verändern. ✗ *(Über die Wirkung muss man dafür nicht nachdenken.)*
+b) Sie lesen den ganzen Text genau. ✗ *(Man kann Wort für Wort absuchen, ohne den Text zu verstehen.)*
+c) Sie suchen Wörter nach äußeren Merkmalen. Über die Funktion müssen sie dafür kaum nachdenken. ✓ *(Umbau: „Ersetze drei Adjektive so, dass die Stimmung kippt, und erkläre die Wirkung.“)*
+d) Sie wenden Grammatikregeln selbstständig an. ✗ *(Nur auf der Stufe des Wiedererkennens.)*
+
+**F5.** Worauf richtet sich die Aufmerksamkeit, wenn niemand sie lenkt?
+a) Auf das, was die Lehrkraft für wichtig hält. ✗ *(Nur, wenn sie es ausdrücklich markiert.)*
+b) Auf das, was in der Prüfung drankommt. ✗ *(Das wissen die Schüler in dem Moment nicht.)*
+c) Auf das, was groß und in der Mitte steht. ✗ *(Größe hilft, verliert aber gegen Bewegtes und Witziges.)*
+d) Auf Neues, Bewegtes, Witziges und alles, was mit anderen Menschen zu tun hat. ✓ *(Deshalb gewinnt der Cartoon gegen die Achsenbeschriftung.)*
 
 **F6 (Transfer, Freitext):** Du zeigst ein 3-Min.-Video zum Treibhauseffekt. Schreibe wörtlich: deinen Beachtungs-Auftrag davor + deine Kopplungs-Frage danach. *(Muster: „Zählt mit, an wie vielen Stellen Strahlung die Richtung wechselt – und notiert, WO sie hängen bleibt." / „Das Video zeigt Prinzip X – erklärt zu zweit: Welcher Teil unserer Merkregel war im Bild zu sehen, welcher NICHT?")*
 

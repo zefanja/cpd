@@ -115,43 +115,46 @@ Aufgabe: „Begründe in 3–4 Sätzen, ob 16-Jährige wählen dürfen sollten."
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–9, als Muster-Whiteboard-Routine!)
-1. Die Standard-Choreografie M4.4? *(Write 1–3 Min. → Talk 30–90 Sek. → Ernte mit Partnerfrage)*
-2. Nenne vier der sechs Turn-and-Talk-Stellschrauben. *(feste Partner / präziser Prompt / 30–90 Sek. / Startsignal / Endsignal / verbindliche Ernte)*
-3. Warum Schreiben vor Reden – was ist der wichtigste Effekt? *(jeder denkt; alle bekommen Denkzeit)*
-4. Was ist der Prüf-Fokus beim Rundgang (M2.5)? *(vorher in einem Satz festlegen, WAS ich in den Heften prüfe, z. B. die Scheiter-Stelle)*
-5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus M4.2: kalte Zonen gezielt ansteuern)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Aus welchen drei Schritten besteht die Abfolge aus M4.4? *(alle schreiben (1–3 Min.) → Partnergespräch (30–90 Sek.) → zwei bis drei Aufrufe, davon einer mit „Was hat dein Partner gesagt?“)*
+2. Nenne vier der sechs Stellschrauben für ein Partnergespräch. *(feste Partner / genaue Frage / 30–90 Sekunden / Startsignal / Endsignal / verbindliche Auswertung)*
+3. (Szene) Nach Partnergesprächen rufst du immer dieselben auf. Welches Werkzeug hilft? *(die Beteiligungs-Heatmap aus M4.2: kalte Zonen gezielt aufrufen)*
+4. Womit ersetzt du die Frage „Alle verstanden?“ (M4.1)? *(durch eine kleine Aufgabe an alle, deren Ergebnis ich sehe)*
+5. Was besagt der Testing Effect (M3.4)? *(Abrufen stärkt das Behalten mehr als erneutes Lesen.)*
+6. Was ist der Prüf-Fokus beim Rundgang (M2.5)? *(vorher in einem Satz festlegen, was ich in den Heften prüfe)*
 
 ## Teil 2: Modul-Quiz Modul 4.5 (für SPA/Austauschwoche)
-**F1.** Mini-Whiteboards in der Oberstufe sind…
-a) unter dem Niveau erwachsener Lerner ✗ *(die verbreitete Abwehr)*
-b) auch dort das schnellste 100 %-Diagnosewerkzeug – Routine und Rahmung entscheiden ✓
-c) nur für Mathe geeignet ✗
-d) rechtlich bedenklich ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Beim Schreiben auf die Boards gilt Stille, weil…
-a) Ruhe grundsätzlich gut ist ✗
-b) Abschauen das Röntgenbild verfälscht – die Daten müssen individuell sein ✓
-c) die Nachbarklasse gestört wird ✗
-d) es feierlicher wirkt ✗
+**F1.** Ein Kollege findet Mini-Whiteboards in der Oberstufe kindisch. Was antwortest du?
+a) Stimmt, sie passen eher in die Unterstufe. ✗ *(Die Abwehr ist verbreitet, der Nutzen altersunabhängig.)*
+b) Stimmt, außer im Mathematikunterricht. ✗ *(Sie funktionieren in jedem Fach mit kurzen Antworten.)*
+c) In der Oberstufe reichen Meldungen aus. ✗ *(Meldungen zeigen auch dort nur die, die es wissen.)*
+d) Auch dort sind sie der schnellste Weg, alle Antworten zu sehen. Es kommt auf die Routine an. ✓ *(Ruhig eingeführt und begründet, wirkt es sachlich, nicht kindlich.)*
 
-**F3.** Nach dem Board-Scan nickst du und machst weiter. Was fehlt?
-a) nichts – du hast ja gesehen ✗ *(der häufigste Befund!)*
-b) die ANGESAGTE Entscheidung: „Ich sehe …, also …" ✓
-c) das Einsammeln der Boards ✗
-d) eine Note ✗
+**F2.** Warum gilt beim Schreiben auf die Whiteboards Stille?
+a) Damit sich alle besser konzentrieren. ✗ *(Stimmt nebenbei, ist aber nicht der Hauptgrund.)*
+b) Weil sonst viele vom Nachbarn übernehmen und du ein falsches Bild bekommst. ✓ *(Du brauchst die Antwort von jedem Einzelnen.)*
+c) Damit es schneller geht. ✗ *(Das Tempo ist nicht der Grund.)*
+d) Damit die Routine ernst genommen wird. ✗ *(Der Ernst kommt vom Nutzen, nicht von der Stille.)*
 
-**F4.** Show Call einer fehlerhaften Arbeit setzt voraus:
-a) das schriftliche Einverständnis der Eltern ✗
-b) etablierte Fehlerkultur + Einführung als Ehrung + würdigender Dreischritt ✓
-c) dass der Fehler besonders originell ist ✗
-d) dauerhafte Anonymität ✗ *(teilrichtig: nur der Anfang)*
+**F3.** Du lässt die Boards hochhalten, schaust, nickst und machst weiter. Was fehlt?
+a) Nichts, du hast ja alles gesehen. ✗ *(Der häufigste Befund in Hospitationen: gesehen, aber nichts daraus gemacht.)*
+b) Das Einsammeln der Boards. ✗ *(Nicht nötig.)*
+c) Die laut gesagte Entscheidung: „Ich sehe …, also machen wir …“ ✓ *(Erst die Entscheidung macht aus dem Blick ein Werkzeug: weiter, gemeinsam klären oder Kleingruppe.)*
+d) Die richtige Lösung an der Tafel. ✗ *(Die kann Teil der Entscheidung sein. Entscheidend ist, dass eine fällt.)*
 
-**F5.** Warum auch exzellente Arbeiten zeigen?
-a) als Belohnung für die Starken ✗ *(nett – nicht der Kern)*
-b) Exzellenz kalibriert den Anspruch: Man muss sie gesehen haben, um sie anzustreben ✓
-c) um Konkurrenz anzuheizen ✗
-d) um Zeit zu füllen ✗
+**F4.** Was muss gegeben sein, bevor du eine fehlerhafte Schülerarbeit vor der Klasse zeigst?
+a) Eine sichere Fehlerkultur, die Einführung als Auszeichnung und eine Würdigung vor der Verbesserung. ✓ *(Am Anfang ohne Namen. Würdigen, einen Punkt verbessern, auf die eigene Arbeit übertragen.)*
+b) Das schriftliche Einverständnis der Eltern. ✗ *(Nicht nötig für Arbeiten, die im Unterricht bleiben.)*
+c) Dauerhafte Anonymität. ✗ *(Nur am Anfang. Später fragen Schüler selbst, ob ihre Arbeit gezeigt wird.)*
+d) Dass der Fehler selten und überraschend ist. ✗ *(Umgekehrt: Häufige Fehler lohnen sich für alle.)*
+
+**F5.** Warum zeigst du auch sehr gute Arbeiten vor der Klasse?
+a) Als Belohnung für die Starken. ✗ *(Ein Nebeneffekt.)*
+b) Um den Wettbewerb anzuregen. ✗ *(Darum geht es nicht.)*
+c) Damit alle sehen, wie „gut“ konkret aussieht. ✓ *(Man muss gesehen haben, was möglich ist, um es anzustreben.)*
+d) Als Ausgleich zu den fehlerhaften Arbeiten. ✗ *(Der Grund ist der Maßstab, nicht der Ausgleich.)*
 
 **F6 (Transfer, Freitext):** Board-Tableau: 17 von 25 richtig, 6 mit identischem Fehler in Schritt 2, 2 leer. Formuliere deine angesagte Entscheidung wörtlich. *(Muster: „Runter. Siebzehn stehen – stark. Sechs sind in Schritt 2 in dieselbe Falle getappt: Die schauen wir uns JETZT gemeinsam an, zwei Minuten. Und ihr zwei mit leerem Board: Ich komme gleich zu euch." – Bewertungsanker: Zahlen benennen, Entscheidung ansagen, alle drei Gruppen adressiert.)*
 

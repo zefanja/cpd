@@ -114,39 +114,60 @@ Tabelle: Werkzeug | Was es zeigt | Wann ich es einsetze | Mein Routinen-Status (
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-4-Quiz (20 Fragen kumulativ; Auswahl)
-1. Die Ersetzungs-Regel? 2. Der Fehlerreaktions-Dreiklang? 3. Zwei Gründe, warum „Verstanden?" nichts liefert? 4. Die vier Kultur-Hebel? 5. Frage-Pause-Name – warum diese Reihenfolge? 6. Die rote Linie des Cold Call? 7. Wait Time: Sekunden + Rahmung? 8. Die 4 No-Opt-Out-Varianten? 9. Right-is-Right-Reflexfrage + Maßstab? 10. Format Matters in einem Satz? 11. Stretch-It-Prinzip? 12. Die Standard-Choreografie M4.4? 13. Zwei der vier Turn-and-Talk-Bugs? 14. Die Whiteboard-Routine (5 Schritte + X)? 15. Der Show-Call-Dreischritt? 16. Warum auch Exzellenz zeigen? 17. (Block 2) Beide Enden der 80 %-Regel? 18. (Block 3) Testing Effect? 19. (Block 1) W.I.N.? 20. (Transfer) „Ich prüfe ständig, aber es ändert sich nichts." Diagnostiziere mit ZWEI Block-4-Konzepten. *(Sehen ohne Entscheiden = Deko; fehlender Reteach/Replay-Falle; ggf. Selbstauskunft statt Prüfung.)*
+## Teil 1: Block-4-Quiz (20 Fragen, zurück bis Modul 1.1)
+1. Womit ersetzt du „Alle verstanden?“ *(durch eine kleine Aufgabe an alle, deren Ergebnis ich sehe)*
+2. Welche drei Schritte hat die Reaktion auf eine falsche Antwort? *(sachlich benennen → Gedanken würdigen → für alle nutzen)*
+3. Warum liefert „Alle verstanden?“ keine Auskunft? Nenne zwei Gründe. *(Die Meldung kostet Ansehen; viele merken ihre Lücke nicht.)*
+4. Nenne die vier Hebel für eine sichere Fehlerkultur. *(Fehler erwarten und würdigen / eigene Fehler gelassen behandeln / sachlich und zügig klären, auch mit der Miene / nie über Fehler lachen lassen)*
+5. Warum Frage, Pause, Name in dieser Reihenfolge? *(Bis der Name fällt, denken alle mit.)*
+6. Wofür darf Aufrufen ohne Meldung nie benutzt werden? *(als Strafe oder um jemanden zu erwischen)*
+7. Wie lange wartest du nach einer Frage, und was sagst du dazu? *(drei bis fünf Sekunden; die Stille als Denkzeit benennen)*
+8. Auf welchen vier Wegen kommst du nach „Weiß nicht“ zurück? *(selbst einen Hinweis geben / Mitschüler hilft, dann zurück zur Ausgangsperson / halbe Antwort ausbauen / bei Verweigerung: ruhig bleiben, Rückkehr anbieten, später W.I.N.)*
+9. Mit welcher Frage prüfst du, ob eine Antwort wirklich richtig ist, und woran misst du sie? *(„Volle Punkte im Test?“; an der Idealantwort)*
+10. Was verlangst du, wenn eine Antwort stimmt, aber umgangssprachlich ist? *(das Fachwort: „Richtig. Jetzt in Fachsprache.“)*
+11. Was folgt auf eine richtige Antwort? *(eine Anschlussfrage (Woher weißt du das? Was wäre, wenn …?))*
+12. Aus welchen drei Schritten besteht die Abfolge aus M4.4? *(alle schreiben → Partnergespräch → Aufrufe mit Partnerfrage)*
+13. Nenne zwei der vier typischen Fehler beim Partnergespräch. *(zu lang / ungenaue Frage / keine Auswertung / Lehrkraft am Pult)*
+14. Wie läuft die Whiteboard-Routine ab? *(Schreibsignal → still schreiben → „drei, zwei, eins, hoch“ → fünf Sekunden schauen → runter → Entscheidung laut sagen)*
+15. Welche drei Schritte hat das Zeigen einer Schülerarbeit? *(würdigen → einen Punkt verbessern (die Klasse arbeitet) → auf die eigene Arbeit übertragen)*
+16. Warum zeigst du auch sehr gute Arbeiten? *(damit alle sehen, wie „gut“ aussieht)*
+17. (Block 2) Wann gelten etwa 80 % richtig, wann fast 100 %? *(80 % beim gemeinsamen Üben vor der Einzelarbeit; fast fehlerfrei in Einzelarbeit und Wiederholung)*
+18. (Block 3) Was besagt der Testing Effect? *(Abrufen stärkt das Behalten mehr als erneutes Lesen.)*
+19. (Block 1) Wofür stehen die Buchstaben von W.I.N.? *(Was ist passiert? (seine Version zuerst) – Impact (Wirkung sachlich) – Next steps (gemeinsam, konkret, klein))*
+20. (Szene) Ein Kollege sagt: „Ich prüfe ständig, aber es ändert sich nichts.“ Deute das mit zwei Konzepten aus Block 4. *(Sehen ohne Entscheidung bringt nichts; es fehlt der neue Anlauf mit neuem Zugang; vielleicht fragt er nur nach Selbstauskunft.)*
 
 ## Teil 2: Modul-Quiz Modul 4.6 (für SPA/Austauschwoche)
-**F1.** 40 % scheitern am selben Fehler. Du…
-a) erklärst morgen dasselbe nochmal, langsamer und lauter ✗ *(die Replay-Falle – fühlt sich gründlich an)*
-b) planst 10 Min. Reteach mit NEUEM Zugang + Erfolgscheck ✓
-c) gibst ein Zusatzblatt für zu Hause ✗
-d) senkst das Anspruchsniveau der Arbeit ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** 11 von 25 haben Fehler – aber vier verschiedene Ursachen. Beste Antwort:
-a) Klassen-Reteach, die Quote ist ja hoch ✗ *(die Diffus-Falle!)*
-b) differenziert: Kleingruppe für Ansatzlose, gezielte Einzelimpulse, Checkpoints ✓
-c) weiter im Stoff ✗
-d) die Aufgabe war schlecht – ignorieren ✗
+**F1.** Auf den Exit Tickets machen 40 % denselben Fehler. Was planst du für morgen?
+a) Dieselbe Erklärung noch einmal, langsamer und deutlicher. ✗ *(Sie hat beim ersten Mal nicht gereicht. Langsamer ändert daran wenig.)*
+b) Zehn Minuten mit einem neuen Zugang und danach eine kurze Prüfung an alle. ✓ *(Anderes Beispiel, andere Darstellung oder eine Stufe der Treppe tiefer.)*
+c) Ein Zusatzblatt als Hausaufgabe für die Betroffenen. ✗ *(Wer den Fehler macht, übt ihn allein zu Hause weiter ein.)*
+d) Weiter im Stoff, der Fehler klärt sich beim Üben. ✗ *(Bei 40 % klärt er sich nicht von selbst.)*
 
-**F3.** Eine gute Berichtigung…
-a) schreibt die Musterlösung dreimal sauber ab ✗ *(die Schultradition)*
-b) enthält die selbst notierte Lösung + den benannten eigenen Denkfehler ✓
-c) wird benotet, sonst macht sie keiner ✗
-d) ist nur für Schwache nötig ✗
+**F2.** 11 von 25 Tickets enthalten Fehler, aber aus vier verschiedenen Ursachen. Was ist die beste Antwort?
+a) Neu erklären für alle, die Quote ist ja hoch. ✗ *(Du würdest allen etwas erklären, das jeweils nur drei brauchen.)*
+b) Weiter im Stoff, weil kein einzelner Fehler häufig ist. ✗ *(Elf Schüler mit Lücken sind zu viele, um weiterzugehen.)*
+c) Die Aufgabe war ungeeignet, das Ergebnis zählt nicht. ✗ *(Vier klare Fehlerursachen sind ein brauchbares Ergebnis.)*
+d) Gezielt reagieren: Kleingruppe für die ohne Ansatz, einzelne Hinweise beim Rundgang, Checkpoints. ✓ *(Gleiche Quote, andere Verteilung, andere Entscheidung.)*
 
-**F4.** „Wiederholt für die Klassenarbeit mal alles von Kapitel 3 bis 5" ist…
-a) fair, weil vollständig ✗ *(klingt gründlich)*
-b) die Gießkanne – die Daten hätten 2–3 Baustellen gezeigt ✓
-c) der Standard und daher richtig ✗
-d) zu wenig ✗
+**F3.** Welche Form der Berichtigung bringt am meisten?
+a) Die Musterlösung sauber abschreiben. ✗ *(Abschreiben holt nichts aus dem Gedächtnis.)*
+b) Die Aufgabe noch einmal komplett neu rechnen. ✗ *(Besser als Abschreiben. Ohne den Blick auf den eigenen Fehler wiederholt er sich oft.)*
+c) Die richtige Lösung selbst notieren und dazu einen Satz schreiben: „Mein Denkfehler war …“ ✓ *(Wer seinen Denkfehler benennen kann, hat ihn verstanden.)*
+d) Die Lösung mit dem Nachbarn vergleichen. ✗ *(Zeigt den Unterschied, erklärt ihn aber nicht.)*
 
-**F5.** Der Reteach endet. Woran merkst du MORGEN, dass er saß?
-a) Die Klasse hat genickt ✗ *(Selbstauskunft in Zeitlupe)*
-b) am geplanten Erfolgscheck: 2 Board-Aufgaben zum selben Muster ✓
-c) an der Stimmung ✗
-d) an der nächsten Klassenarbeit ✗ *(zu spät für Steuerung)*
+**F4.** Eine Woche vor der Arbeit sagst du: „Wiederholt alles von Kapitel 3 bis 5.“ Was ist das Problem?
+a) Das ist zu viel Stoff für eine Woche. ✗ *(Die Menge ist nicht das Hauptproblem.)*
+b) Es gibt keins, das ist gründlich und fair. ✗ *(Gründlich, aber ungezielt.)*
+c) Der Hinweis trifft nicht die zwei oder drei Stellen, an denen deine Daten Lücken zeigen. ✓ *(Tickets, Boards und Notizen vom Rundgang zeigen, wo die Wiederholungsstunde hingehört.)*
+d) Der Hinweis kommt zu spät. ✗ *(Eine Woche reicht, wenn gezielt wiederholt wird.)*
+
+**F5.** Woran erkennst du am nächsten Tag, ob dein neuer Anlauf gewirkt hat?
+a) Zwei Aufgaben zum selben Fehler, alle antworten auf den Boards. ✓ *(Die Prüfung wird mitgeplant, bevor der neue Anlauf beginnt.)*
+b) Die Klasse nickt und hat keine Fragen mehr. ✗ *(Das ist wieder Selbstauskunft.)*
+c) Die Stimmung in der Stunde ist gut. ✗ *(Stimmung ist kein Lernstand.)*
+d) An der nächsten Klassenarbeit. ✗ *(Zu spät, um noch zu reagieren.)*
 
 **F6 (Transfer, Freitext):** Nimm Set A (Anhang 1.1): Skizziere den 10-Min.-Reteach – alter Zugang, neuer Zugang, Erfolgscheck. *(Bewertungsanker: Neuer Zugang strukturell anders [Darstellung/Beispieltyp/Stufe], nicht nur langsamer; Check als All-Response.)*
 

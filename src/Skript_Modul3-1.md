@@ -123,39 +123,48 @@ Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, M1.1–2.6)
-1. Den Planungsbogen aus M2.6 aus dem Kopf skizzieren (fünf Fragen + Exit Ticket). 2. Erfolgsquote: wann ca. 80 %, wann fast 100 %? 3. Exit-Ticket-Gütecheck (4 Punkte)? 4. Die 6 Leiterstufen? 5. Break-It-Down-Reihenfolge? 6. Aus welchen drei Zeiträumen stammen die Wiederholungsfragen im Do Now (M2.6)? 7. Umformulierungs-Formel? 8. (Anwendung) Erste Woche nach den Ferien: Welche zwei Dinge etablierst du explizit neu – und mit welchem M1.1-Bauplan?
+## Teil 1: Reaktivierungs-Quiz (8 Fragen zu Block 1 und 2)
+1. Skizziere den Planungsbogen aus M2.6 aus dem Kopf. *(Ziel (Mindestziel, Meilensteine, Idealantwort) → Einstieg (Do Now) → Erklären → gemeinsam üben → allein üben → Exit Ticket)*
+2. Bei welcher Erfolgsquote gehst du vom gemeinsamen Üben in die Einzelarbeit, und welche Quote ist das Ziel der Einzelarbeit? *(etwa vier von fünf richtig; in der Einzelarbeit fast fehlerfrei)*
+3. Welche vier Punkte prüft der Gütecheck für ein Exit Ticket? *(prüft das Mindestziel / in 3–5 Minuten allein lösbar / schriftlich, von allen / in höchstens 10 Minuten auswertbar)*
+4. Nenne die sechs Stufen der Interventionsleiter. *(nonverbal → positive Gruppenkorrektur → anonyme Einzelkorrektur → private Einzelkorrektur → blitzschnelle öffentliche Korrektur → Konsequenz)*
+5. In welcher Reihenfolge gibst du Hilfen, wenn ein Schüler hängt (Break It Down)? *(Hinweis → Beispiel → Regel → erster Schritt → erst dann die Lösung)*
+6. Aus welchen drei Zeiträumen stammen die Wiederholungsfragen im Do Now (M2.6)? *(gestern, letzte Woche, letzter Monat)*
+7. Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)? *(„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“)*
+8. (Szene) Erste Woche nach den Ferien: Welche zwei Dinge führst du ausdrücklich neu ein, und wie gehst du dabei vor? *(z. B. Begrüßungsroutine und Aufmerksamkeitssignal; Erwartung nennen, begründen, prüfen, ob sie verstanden ist, und einmal üben)*
 
 ## Teil 2: Modul-Quiz Modul 3.1 (für SPA/Austauschwoche)
-**F1.** Eine Schülerin „kann sich einfach nichts merken". Wahrscheinlichste Erklärung:
-a) schwaches Gedächtnis als Eigenschaft ✗ *(die Konferenz-Diagnose)*
-b) fehlende Schemata + fehlender Abruf machen alles teuer ✓
-c) mangelnde Intelligenz ✗
-d) falscher Lerntyp ✗ *(Mythos-Distraktor)*
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Erinnert wird, worüber nachgedacht wurde" bedeutet für den Filmeinstieg:
-a) Filme sind schlecht für den Unterricht ✗ *(Überkorrektur)*
-b) Erinnert wird, was der Film denken ließ – nicht automatisch das Konzept ✓
-c) Filme nur als Belohnung einsetzen ✗
-d) Text ist immer besser als Film ✗
+**F1.** In der Klassenkonferenz heißt es über eine neue Schülerin: „Sie kann sich einfach nichts merken.“ Welche Erklärung ist am wahrscheinlichsten?
+a) Ihr Arbeitsgedächtnis ist kleiner als das der anderen. ✗ *(Möglich, aber selten der Grund. Ohne Vorwissen wirkt jedes Arbeitsgedächtnis klein.)*
+b) Ihr fehlt Vorwissen, deshalb ist für sie jedes Detail neu und belegt einen eigenen Platz. ✓ *(Vorwissen bündelt Einzelheiten. Wer es nicht hat, ist schneller überlastet. Das lässt sich aufbauen.)*
+c) Sie lernt eher über Bilder als über Texte. ✗ *(Das ist die Lerntypen-Annahme. Sie ist nicht belegt.)*
+d) Sie strengt sich im Unterricht zu wenig an. ✗ *(Das ist eine Zuschreibung, keine Erklärung. Erst das Vorwissen prüfen.)*
 
-**F3.** Lernstile (visuell/auditiv/kinästhetisch) berücksichtigen…
-a) ist evidenzbasierter Unterrichts-Standard ✗ *(der verbreitetste Lehrerglaube!)*
-b) verbessert Lernen nachweislich nicht; die Modalität soll zum Inhalt passen ✓
-c) hilft nur schwachen SuS ✗
-d) gilt nur in der Grundschule ✗
+**F2.** Nach deinem Filmeinstieg können alle den Film nacherzählen, aber kaum jemand beantwortet die Fachfrage. Was erklärt das am besten?
+a) Die Klasse hat über die Handlung nachgedacht, nicht über das Konzept. ✓ *(Erinnert wird, worüber nachgedacht wurde. Der Film braucht einen Auftrag, der zum Konzept führt.)*
+b) Der Film war zu lang, die Aufmerksamkeit hat nachgelassen. ✗ *(Dann könnten sie ihn nicht nacherzählen.)*
+c) Filme erreichen nur einen Teil der Lerntypen. ✗ *(Lerntypen sind nicht belegt.)*
+d) Die Fachfrage war für diese Klasse zu schwer. ✗ *(Möglich, erklärt aber nicht, warum der Film so gut hängen blieb.)*
 
-**F4.** „Wissen kann man googeln – wichtig sind Kompetenzen." Kognitiv betrachtet…
-a) stimmt das – Faktenwissen ist veraltet ✗ *(Zeitgeist-Distraktor)*
-b) braucht Denken Schemata im Langzeitgedächtnis – ohne Wissen kein Womit ✓
-c) stimmt beides nicht ✗
-d) gilt das nur für Mathe ✗
+**F3.** Eine Kollegin plant ihre Stunden nach Lerntypen (visuell, auditiv, kinästhetisch). Was sagt die Forschung dazu?
+a) Der Ansatz ist gut belegt, vor allem für schwächere Schüler. ✗ *(Dafür gibt es keine belastbaren Belege.)*
+b) Der Ansatz wirkt, wenn jeder Typ gleich oft bedient wird. ✗ *(Auch das ist nicht belegt.)*
+c) Der Ansatz ist belegt, aber nur für die Grundschule. ✗ *(Nein, in keiner Altersstufe.)*
+d) Schüler haben Vorlieben, lernen mit „passendem“ Material aber nicht besser. Die Darstellung soll zum Inhalt passen. ✓ *(Karten für Geografie, Hören für Aussprache: Der Inhalt bestimmt die Form, für alle.)*
 
-**F5.** Deine Stunde war lebendig, alle beschäftigt, gute Stimmung. Daraus folgt…
-a) es wurde gut gelernt ✗ *(DIE Verwechslung)*
-b) noch nichts – entscheidend ist, was im LZG ankommt (Ticket fragt nach!) ✓
-c) es wurde nichts gelernt ✗
-d) Stimmung ist unwichtig ✗
+**F4.** Ein Kollege sagt: „Wissen kann man googeln, wichtig sind Kompetenzen.“ Was antwortet die Gedächtnisforschung?
+a) Das stimmt für Fakten, aber nicht für Verfahren. ✗ *(Auch über Fakten kann nur nachdenken, wer sie im Kopf hat.)*
+b) Das stimmt, sofern die Schüler gut recherchieren können. ✗ *(Wer wenig weiß, versteht auch das Gefundene schlechter.)*
+c) Denken braucht Wissen im Langzeitgedächtnis. Wer alles nachschlagen muss, hat keinen Platz mehr zum Denken. ✓ *(Wissen im Langzeitgedächtnis entlastet das Arbeitsgedächtnis. Deshalb ist es die Grundlage von Kompetenz.)*
+d) Faktenwissen schadet nicht, bringt für das Denken aber wenig. ✗ *(Im Gegenteil: Es ist das Material, mit dem gedacht wird.)*
+
+**F5.** Deine Stunde war lebendig, alle waren beschäftigt, die Stimmung war gut. Was weißt du damit über das Lernen?
+a) Viel: Hohe Beteiligung zeigt, dass gelernt wurde. ✗ *(Beschäftigt sein und lernen sind nicht dasselbe.)*
+b) Wenig: Entscheidend ist, was später noch abrufbar ist. Das zeigt zum Beispiel ein Exit Ticket oder das Do Now am nächsten Tag. ✓ *(Lernen ist, was im Langzeitgedächtnis bleibt. Das sieht man erst später.)*
+c) Nichts Gutes: Lebendige Stunden lenken meist vom Stoff ab. ✗ *(Das ist die Überkorrektur. Lebendig und lernwirksam schließen sich nicht aus.)*
+d) Genug, wenn die Klasse am Ende sagt, dass alles klar ist. ✗ *(Selbstauskunft ist keine verlässliche Auskunft (mehr dazu in Modul 4.1).)*
 
 **F6 (Transfer, Freitext):** Deute Fall 4 (Lesen klappt, Verstehen nicht) mit dem BMW-FBI-Versuch – und nenne die Konsequenz für deine nächste Textarbeit. *(Muster: Ohne Schemata bleibt jeder Satz eine 13-Buchstaben-Folge – Dekodieren ohne Chunks; Konsequenz: Vorwissen aktivieren/aufbauen VOR dem Text, Schlüsselbegriffe vorentlasten.)*
 

@@ -29,7 +29,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke (Minute 8–12)
 
@@ -120,43 +120,46 @@ Vorlage:
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die EVK-Formel + die Multiplikator-Pointe? *(E × W ÷ K; E=0 → alles null)*
-2. Die teuerste Kosten-Währung? *(Blamage-Risiko)*
-3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? *(„Du bist halt schlau" / „Du hast die Probe gemacht, deshalb stimmt es")*
-4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
-5. (Anwendung) Dein Fall zeigt hohe Kosten trotz guter Routinen – welche Kostenart prüfst du zuerst? *(Blamage-Risiko: Fehlerkultur bei IHM angekommen? Wird er ausgelacht?)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Wie lautet die Formel aus M5.1, und was folgt, wenn die Erwartung bei null liegt? *(Anstrengung = Erwartung × Wert ÷ Kosten; dann bleibt das Ergebnis null, egal wie hoch der Wert ist)*
+2. Welche Kosten wiegen im Klassenzimmer am schwersten? *(das Risiko, sich vor der Klasse zu blamieren)*
+3. (Szene) Dein Fall hat trotz guter Routinen hohe Kosten. Was prüfst du zuerst? *(ob die Fehlerkultur bei ihm angekommen ist: Wird er ausgelacht? Muss er vor anderen scheitern?)*
+4. In welcher Reihenfolge rufst du ohne Meldung auf (M4.2)? *(Frage, Pause, Name)*
+5. Welche drei Schritte hat das Zeigen einer Schülerarbeit (M4.5)? *(würdigen → einen Punkt verbessern → auf die eigene Arbeit übertragen)*
+6. Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)? *(„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“)*
 
 ## Teil 2: Modul-Quiz Modul 5.2 (für SPA/Austauschwoche)
-**F1.** „Die Hälfte hat schon wieder keine Hausaufgaben!" bewirkt vor allem…
-a) sozialen Druck auf die Säumigen ✗ *(die Absicht)*
-b) Normalisierung: Nicht-Abgabe wird als üblich plakatiert ✓
-c) nichts ✗
-d) Respekt vor der Ehrlichkeit der Lehrkraft ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Routinen wirken motivational, weil sie…
-a) Disziplin erzwingen ✗ *(die Law-and-Order-Lesart)*
-b) die Kosten senken: Orientierung, Entzifferung, Blamage-Risiko ✓
-c) Zeit sparen ✗ *(teilrichtig – nicht der EVK-Kern)*
-d) den Wert des Unterrichts erhöhen ✗ *(falscher Formel-Faktor!)*
+**F1.** Du sagst verärgert: „Die Hälfte hat schon wieder keine Hausaufgaben!“ Was hört die Klasse?
+a) Dass du Druck machst und es ernst meinst. ✗ *(Das war die Absicht. Gehört wird etwas anderes.)*
+b) Dass du genau kontrollierst. ✗ *(Mag sein, aber stärker wirkt die Zahl.)*
+c) Dass es hier normal ist, die Hausaufgaben nicht zu machen. ✓ *(Wer das Fehlverhalten der Vielen beschreibt, wirbt dafür. Besser die Mehrheit nennen, die liefert, wenn es stimmt.)*
+d) Dass du enttäuscht bist. ✗ *(Auch das, aber die Zahl bleibt hängen.)*
 
-**F3.** Positiv-Norm-Kommunikation setzt voraus, dass…
-a) man notfalls etwas übertreibt – der Zweck heiligt ✗ *(fliegt auf)*
-b) die plakatierte Mehrheit WAHR und beobachtbar ist ✓
-c) die Klasse jung genug ist ✗
-d) man vorher straft ✗
+**F2.** Warum wirken Routinen auf die Motivation?
+a) Sie erzwingen Disziplin. ✗ *(Zwang erklärt nicht, warum Klassen mit Routinen lieber arbeiten.)*
+b) Sie senken die Kosten: Jeder weiß, was zu tun ist, und das Risiko von Fehlern und Blamage sinkt. ✓ *(Der Ablauf wird billig, damit der Inhalt fordern darf.)*
+c) Sie sparen Unterrichtszeit. ✗ *(Stimmt, ist aber nicht der Grund für die Motivation.)*
+d) Sie erhöhen den Wert des Stoffs. ✗ *(Am Wert ändern Routinen nichts.)*
 
-**F4.** Warum ist Show Call eine „Normen-Maschine"?
-a) weil er Fehler bestraft ✗
-b) jede gezeigte Arbeit definiert öffentlich, was „normal gut" hier heißt ✓
-c) weil Technik beeindruckt ✗
-d) ist er nicht – er ist reines Feedback ✗ *(die halbe Wahrheit aus M4.5)*
+**F3.** Deine Klasse kommt notorisch zu spät. Du überlegst zu sagen: „Fast alle sind pünktlich.“ Ist das klug?
+a) Ja, Normen wirken auch, wenn man etwas nachhilft. ✗ *(Unwahres fliegt in Tagen auf und kostet Glaubwürdigkeit.)*
+b) Ja, solange der Ton freundlich ist. ✗ *(Der Ton ändert nichts an der Unwahrheit.)*
+c) Nein, Normen lassen sich über Sprache nicht beeinflussen. ✗ *(Doch. Aber nur mit wahren Aussagen.)*
+d) Nein. Ich nenne die kleinste wahre Mehrheit oder baue das Verhalten erst mit einer Routine auf. ✓ *(Zum Beispiel: „Reihe eins sitzt seit acht Uhr arbeitsbereit.“)*
 
-**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte" ist besonders schädlich, weil…
-a) es unhöflich ist ✗
-b) es eine IDENTITÄT plakatiert – Normen kleben an Identitäten fester als an Verhalten ✓
-c) Eltern es erfahren könnten ✗
-d) Vergleiche verboten sind ✗
+**F4.** Warum prägt das Zeigen von Schülerarbeiten die Normen einer Klasse?
+a) Jede gezeigte Arbeit macht sichtbar, was hier als normal gut gilt. ✓ *(Anstrengung ist sonst unsichtbar. So bekommt sie eine Bühne.)*
+b) Fehler werden öffentlich, das schreckt ab. ✗ *(Abschreckung ist nicht der Mechanismus und zerstört die Fehlerkultur.)*
+c) Die Technik beeindruckt. ✗ *(Eine Dokumentenkamera prägt keine Normen.)*
+d) Es entsteht Wettbewerb. ✗ *(Es geht um den Maßstab, nicht um Rangfolgen.)*
+
+**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte.“ Warum ist dieser Satz besonders schädlich?
+a) Er ist unhöflich. ✗ *(Das auch, aber die Wirkung reicht weiter.)*
+b) Er vergleicht die Klasse mit anderen. ✗ *(Der Vergleich ist nicht das Hauptproblem.)*
+c) Er gibt der Klasse ein Selbstbild, nach dem sie sich dann verhält. ✓ *(Ein Etikett hält fester als jede Regel. Streichen und konkret sagen, was heute gelungen ist.)*
+d) Die Eltern könnten davon erfahren. ✗ *(Der Schaden entsteht im Raum, nicht zu Hause.)*
 
 **F6 (Transfer, Freitext):** Baue Karte 6 um („Wieder haben nur drei den Text gelesen") – Positiv-Norm-Satz PLUS der Systemfix, der das Problem an der Wurzel packt. *(Muster: Norm-Satz siehe Karte; Systemfix: Leseaufträge mit angekündigtem Retrieval-Starter koppeln [M3.4/3.5] – Lesen bekommt sichtbare Konsequenz statt Appell.)*
 

@@ -29,7 +29,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Das Selbsterleben (Minute 8–17)
 
@@ -120,43 +120,46 @@ Zeilen: Write angesagt mit Zeit? ☐ / reale Write-Zeit: __ / Endsignal sauber? 
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die 4 No-Opt-Out-Varianten? *(Hinweis / Peer + Rückkehr / Teilantwort ausbauen / Verweigerung: ruhig + Angebot + W.I.N.)*
-2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Idealantwort)*
-3. Participation Ratio und Think Ratio – wofür stehen die beiden Regler (M4.2)? *(wie viele denken mit × wie anspruchsvoll ist das Denken)*
-4. Wait Time: Sekunden + Rahmung? *(3–5 Sek.; produktiv rahmen: „einige notieren – gut")*
-5. (Anwendung) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache – deine Reaktion nach Format Matters? *(würdigen + „jetzt in Fachsprache" – kurz, freundlich)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Auf welchen vier Wegen kommst du nach „Weiß nicht“ zur Ausgangsperson zurück (M4.3)? *(selbst einen Hinweis geben / Mitschüler hilft, dann zurück zur Ausgangsperson / halbe Antwort ausbauen / bei Verweigerung: ruhig bleiben, Rückkehr anbieten, später W.I.N.)*
+2. Mit welcher Frage prüfst du, ob eine Antwort wirklich richtig ist? *(„Bekäme diese Antwort im Test volle Punkte?“ Maßstab ist die Idealantwort.)*
+3. (Szene) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache. Was sagst du? *(den Gedanken bestätigen und das Fachwort verlangen: „Richtig. Jetzt in Fachsprache.“)*
+4. Wofür stehen Participation Ratio und Think Ratio (M4.2)? *(wie viele mitdenken und wie anspruchsvoll das Denken ist)*
+5. Wie ist ein Do Now nach dem 3-2-1-Muster aufgebaut (M3.4)? *(drei Fragen von gestern, zwei von letzter Woche, eine vom letzten Monat)*
+6. Was gehört zur klaren Abgrenzung einer Arbeitsphase (M1.3)? *(ein eindeutiges Startsignal und ein eindeutiges Endsignal)*
 
 ## Teil 2: Modul-Quiz Modul 4.4 (für SPA/Austauschwoche)
-**F1.** Die ideale Länge eines Turn and Talk:
-a) 5–10 Minuten, damit echte Tiefe entsteht ✗ *(DIE Intuition)*
-b) 30–90 Sekunden – auf dem Wellenkamm beenden ✓
-c) bis alle Paare fertig sind ✗
-d) je länger, desto besser ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Was hat dein Partner gesagt?" bewirkt…
-a) Verwirrung – man soll die eigene Meinung sagen ✗
-b) Zuhör-Verbindlichkeit im Partnergespräch ✓
-c) Prüfungsangst ✗
-d) nichts Besonderes ✗
+**F1.** Wie lange sollte ein Partnergespräch (Turn and Talk) dauern?
+a) 30 bis 90 Sekunden. ✓ *(Beenden, solange das Gespräch dicht ist. Nach zwei Minuten geht es meist um anderes.)*
+b) Drei bis fünf Minuten, damit Tiefe entsteht. ✗ *(Länger heißt selten tiefer, meist lockerer.)*
+c) So lange, bis alle Paare fertig sind. ✗ *(Dann warten die schnellen Paare, und es wird unruhig.)*
+d) Je nach Frage zwischen einer und zehn Minuten. ✗ *(Für längere Aufgaben gibt es andere Formate.)*
 
-**F3.** Vor der Diskussion schreiben alle 2 Minuten. Der wichtigste Effekt:
-a) Ruhe im Raum ✗ *(Nebeneffekt)*
-b) Jeder denkt – Schreiben ist nicht delegierbar, Denkzeit wird demokratisch ✓
-c) Handschrift-Training ✗
-d) Material für die Notengebung ✗
+**F2.** Was bewirkt die Frage „Was hat dein Partner gesagt?“ nach einem Partnergespräch?
+a) Stille Schüler trauen sich eher zu antworten. ✗ *(Ein möglicher Nebeneffekt, nicht der Kern.)*
+b) Die Antworten werden kürzer. ✗ *(Das ist nicht das Ziel.)*
+c) Du erfährst mehr Meinungen in kürzerer Zeit. ✗ *(Du erfährst genauso viele.)*
+d) Die Schüler müssen einander zuhören. ✓ *(Wer nicht zugehört hat, kann nicht antworten. Aus Plaudern wird Arbeit.)*
 
-**F4.** Während der Talk-Phase gehört die Lehrkraft…
-a) ans Pult – kurz durchatmen und Nächstes vorbereiten ✗ *(Alltagsrealität)*
-b) in den Raum: kreisen, lauschen, Ernte auswählen ✓
-c) aus dem Raum – Vertrauen zeigen ✗
-d) zu einem festen Paar ✗
+**F3.** Vor der Diskussion schreiben alle zwei Minuten lang ihre Gedanken auf. Was ist der wichtigste Effekt?
+a) Es wird ruhig im Raum. ✗ *(Ein Nebeneffekt.)*
+b) Alle denken nach, nicht nur die Schnellen. ✓ *(Schreiben kann man nicht an andere abgeben. Die Denkzeit gilt für alle.)*
+c) Du bekommst Material für die mündliche Note. ✗ *(Dafür ist es nicht gedacht und würde die Offenheit kosten.)*
+d) Die Diskussion danach wird kürzer. ✗ *(Sie wird besser, nicht unbedingt kürzer.)*
 
-**F5.** Zwei Wochen ohne Ernte nach Partnergesprächen. Die Klasse lernt:
-a) nichts – Ernte ist optional ✗
-b) das Gespräch ist folgenlos → Beliebigkeit zieht ein ✓
-c) Selbstständigkeit ✗ *(klingt reformpädagogisch)*
-d) Zuhören ✗
+**F4.** Die Paare sprechen 60 Sekunden miteinander. Wo bist du in dieser Zeit?
+a) Am Pult, um die nächste Phase vorzubereiten. ✗ *(Die Minute ist Zeit zum Zuhören, keine Pause.)*
+b) Beim schwächsten Paar, und dort bleibe ich. ✗ *(Dann hörst du nur ein Gespräch von vierzehn.)*
+c) Im Raum: Ich gehe herum, höre zu und wähle aus, wen ich danach aufrufe. ✓ *(In einer Minute hörst du in fünf Gespräche hinein und weißt, welche Beiträge sich lohnen.)*
+d) Vorn, um die ganze Klasse im Blick zu haben. ✗ *(Von vorn siehst du, ob gesprochen wird, aber nicht, worüber.)*
+
+**F5.** Seit zwei Wochen enden deine Partnergespräche ohne Auswertung im Plenum. Was lernt die Klasse daraus?
+a) Sie arbeitet selbstständiger. ✗ *(Ohne Folgen wird nicht selbstständiger gearbeitet, sondern beliebiger.)*
+b) Nichts, die Auswertung ist ein Zusatz. ✗ *(Sie ist der Teil, der das Gespräch verbindlich macht.)*
+c) Die Gespräche werden länger und tiefer. ✗ *(Eher kürzer und privater.)*
+d) Das Gespräch hat keine Folgen, also wird es beliebig. ✓ *(Zwei bis drei Aufrufe nach jedem Gespräch genügen.)*
 
 **F6 (Transfer, Freitext):** Baue aus „Redet mal über die Grafik zur Schere zwischen Arm und Reich" eine volle Choreografie: Write-Prompt (wörtlich), Talk-Auftrag mit Zeit (wörtlich), Ernte-Plan. *(Muster: Write 2 Min.: „Notiere die überraschendste Zahl der Grafik + einen Satz, warum sie dich überrascht." → Talk 60 Sek.: „Einigt euch auf DIE eine Zahl, die in die Zeitung müsste." → Ernte: 2 Cold Calls, davon „Welche Zahl hat dein Partner gewählt – und warum?")*
 

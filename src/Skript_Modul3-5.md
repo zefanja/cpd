@@ -31,7 +31,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke & Provokation (Minute 8–12)
 
@@ -118,43 +118,46 @@ Zeitleiste 20 Wochen; Zeilen: „Neue Einheiten" / „Starter-Wiederkehr" / „�
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die fünf Gütekriterien für Retrieval? *(ohne Hilfsmittel / schriftlich-alle / benotungsfrei / sofortige Auflösung / regelmäßig)*
-2. Das 3-2-1-Muster? *(3× gestern, 2× letzte Woche, 1× letzter Monat)*
-3. Der Testing Effect in einem Satz? *(Abruf stärkt Behalten mehr als Wiederlesen)*
-4. Die Röntgen-Frage (M3.3)? *(„Was muss man denken – und lässt es sich umgehen?")*
-5. (Anwendung) Ein Schüler lernt für die Arbeit ausschließlich am Vorabend, vier Stunden am Stück. Diagnose + Alternative in zwei Sätzen? *(geblockt + keine Lücken = hohe Morgen-Performance, schneller Zerfall; verteilt über die Woche mit Selbstabfrage – dieselbe Zeit, mehr bleibt.)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche fünf Kriterien machen aus einem Quiz ein Lernwerkzeug (M3.4)? *(ohne Hilfsmittel / schriftlich, von allen / ohne Note / sofortige Auflösung / regelmäßig)*
+2. Wie ist ein Do Now nach dem 3-2-1-Muster aufgebaut? *(drei Fragen von gestern, zwei von letzter Woche, eine vom letzten Monat)*
+3. (Szene) Ein Kollege sagt: „Quizze sind bloß Abfragerei.“ Was antwortest du in zwei Sätzen? *(Abrufen ist selbst Lernen, es unterbricht das Vergessen. Ohne Note und regelmäßig eingesetzt ist es Training, keine Kontrolle.)*
+4. Was zeigt die Vergessenskurve, und was ändert ein Abruf daran (M3.1)? *(Ohne Auffrischung geht der Zugriff schnell verloren. Jeder Abruf setzt neu an, danach fällt die Kurve flacher.)*
+5. Was ist der Prüf-Fokus beim Rundgang (M2.5)? *(vorher in einem Satz festlegen, was ich in den Heften prüfe, z. B. die Scheiter-Stelle)*
+6. Was heißt Warm/Strict (M1.4)? *(warmer Ton und klare Sache im selben Satz)*
 
 ## Teil 2: Modul-Quiz Modul 3.5 (für SPA/Austauschwoche)
-**F1.** Die Übungsphase lief glatt, fast alles richtig. Das bedeutet:
-a) Das Thema sitzt langfristig ✗ *(DIE Illusion – Kern-Distraktor)*
-b) Hohe Momentan-Performance – über das Behalten sagt es wenig ✓
-c) Die Aufgaben waren zu schwer ✗
-d) Du kannst das Thema abhaken ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Interleaving nervt die Klasse anfangs, weil…
-a) es didaktisch fragwürdig ist ✗
-b) die erwünschte Erschwernis sich wie Rückschritt anfühlt – langfristig wirkt sie ✓
-c) Schüler grundsätzlich faul sind ✗
-d) es nur Leistungsstarken hilft ✗ *(klingt differenzierungssensibel)*
+**F1.** Die Übungsphase lief glatt, fast alle Aufgaben waren richtig. Was sagt das darüber, was in vier Wochen noch da ist?
+a) Viel: Wer heute sicher rechnet, kann es auch später. ✗ *(Die Leistung von heute stützt sich auf das noch frische Gedächtnis.)*
+b) Wenig: Es zeigt die Leistung von heute, nicht das Behalten. ✓ *(Leistung in der Stunde und Lernen sind zweierlei. Das Do Now in zwei Wochen zeigt mehr.)*
+c) Die Aufgaben waren zu leicht. ✗ *(Eine hohe Erfolgsquote ist gewollt. Offen bleibt nur, ob es hält.)*
+d) Das Thema kann abgeschlossen werden. ✗ *(Jetzt beginnt die Wiederholung erst.)*
 
-**F3.** Der Zusatznutzen des Interleaving gegenüber bloßem Wiederholen:
-a) mehr Aufgaben pro Blatt ✗
-b) das AUSWÄHLEN des Verfahrens wird trainiert – die eigentliche Prüfungshürde ✓
-c) weniger Korrekturaufwand ✗
-d) es gibt keinen ✗
+**F2.** Du gibst zum ersten Mal ein gemischtes Übungsblatt aus. Die Klasse protestiert: „Früher konnten wir das besser!“ Was tust du?
+a) Ich gehe zurück zu sortierten Blättern, bis das Thema sicher sitzt. ✗ *(Dann fehlt genau die Übung, die in der Arbeit gebraucht wird.)*
+b) Ich mische nur noch für die Stärkeren. ✗ *(Alle müssen in der Arbeit das Verfahren selbst erkennen.)*
+c) Ich mische erst kurz vor der Klassenarbeit. ✗ *(Dann ist es zu spät, um sich daran zu gewöhnen.)*
+d) Ich erkläre: Es fühlt sich schwerer an, weil man das Verfahren selbst wählen muss. Genau das verlangt die Arbeit. ✓ *(Gefühl ernst nehmen, Grund nennen, Nutzen für die Arbeit zeigen.)*
 
-**F4.** Kumulative Klassenarbeiten sind fair, wenn…
-a) sie unangekündigt kommen – das Leben prüft auch unangekündigt ✗ *(Härte-Rhetorik)*
-b) sie angekündigt sind und per kumulativer Quizze laufend trainiert werden ✓
-c) der Altstoff leichter gewichtet wird ✗
-d) nur das letzte Thema zählt ✗
+**F3.** Was üben Schüler auf einem gemischten Blatt, was sie auf einem sortierten nicht üben?
+a) Zu erkennen, welches Verfahren zur Aufgabe passt. ✓ *(Über keiner Prüfungsaufgabe steht, welches Verfahren dran ist.)*
+b) Schneller zu rechnen. ✗ *(Das Tempo sinkt anfangs eher.)*
+c) Länger durchzuhalten. ✗ *(Ausdauer ist nicht der Punkt.)*
+d) Sorgfältiger aufzuschreiben. ✗ *(Das hängt nicht vom Mischen ab.)*
 
-**F5.** „Das Thema ist durch" bedeutet in der Spacing-Logik:
-a) Es kann archiviert werden ✗ *(Schulalltag)*
-b) Jetzt beginnt seine Wiederkehr-Karriere: Starter, Sets, Arbeiten ✓
-c) Es kommt erst im nächsten Schuljahr wieder ✗
-d) Es war zu leicht ✗
+**F4.** Unter welcher Bedingung sind Klassenarbeiten mit Stoff aus früheren Themen fair?
+a) Wenn der alte Stoff weniger Punkte bringt. ✗ *(Die Gewichtung macht es nicht fair. Die Vorbereitung tut es.)*
+b) Wenn sie unangekündigt kommen, wie Prüfungen im Leben. ✗ *(Das ist eine Falle und kostet Vertrauen.)*
+c) Wenn sie angekündigt sind und der alte Stoff in den Quizzen laufend geübt wird. ✓ *(Ankündigen, trainieren, dann prüfen.)*
+d) Wenn nur das letzte Thema davor vorkommt. ✗ *(Dann lohnt sich das Vergessen aller älteren Themen.)*
+
+**F5.** Die Einheit „Bruchrechnung“ ist abgeschlossen. Was geschieht jetzt mit dem Thema?
+a) Es wird am Schuljahresende noch einmal wiederholt. ✗ *(Eine einzelne späte Wiederholung reicht nicht.)*
+b) Es taucht ab jetzt regelmäßig auf: im Do Now, auf Übungsblättern, in Klassenarbeiten. ✓ *(Ein Thema ist nie „durch“. Mit dem Abschluss der Einheit beginnt die Wiederholung.)*
+c) Es kommt im nächsten Schuljahr laut Lehrplan wieder. ✗ *(Bis dahin ist das meiste vergessen.)*
+d) Es wird wiederholt, falls die Arbeit schlecht ausfällt. ✗ *(Wiederholung ist der Normalfall, nicht die Reparatur.)*
 
 **F6 (Transfer, Freitext):** Deine Klasse protestiert gegen das gemischte Blatt: „Früher konnten wir das besser!" Antworte in drei Sätzen – mit der Flüssigkeits-Illusion in Schülersprache. *(Muster: siehe Erklärskript Anhang 1.4; Bewertungsanker: Gefühl validieren + Mechanismus erklären + Prüfungsnutzen benennen.)*
 

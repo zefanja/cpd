@@ -1,6 +1,6 @@
 # Austausch & Vertiefung – Impulse für die Wochen zwischen den Inputs
 
-Seit dem neuen Rhythmus gibt es **jede zweite Woche einen Input**. Die Woche dazwischen dient dem **Austausch und der Vertiefung** des zuletzt behandelten Moduls. Dieses Dokument liefert für jedes Modul Anregungen: in welche Richtung man weiterdenken kann, welche Fragen sich für das Gespräch eignen und was man gemeinsam üben kann.
+Das Programm läuft über zwei Schuljahre. **Jede zweite Woche gibt es einen Input**. Die Woche dazwischen dient dem **Austausch und der Vertiefung** des zuletzt behandelten Moduls. Dieses Dokument liefert für jedes Modul Anregungen: in welche Richtung man weiterdenken kann, welche Fragen sich für das Gespräch eignen und was man gemeinsam üben kann.
 
 Die Impulse sind ein **Angebot, kein Pflichtprogramm**. Was die Gruppe gerade beschäftigt, hat Vorrang. Zwei bis drei Impulse pro Sitzung reichen völlig.
 
@@ -10,7 +10,7 @@ Die Impulse sind ein **Angebot, kein Pflichtprogramm**. Was die Gruppe gerade be
 
 | Phase | Zeit | Was passiert |
 |---|---|---|
-| **1. Abruf** | 5–8 min | Drei bis vier Fragen zum letzten Modul, ohne Unterlagen. Danach eine Frage zu einem älteren Modul (Spacing). |
+| **1. Abruf** | 5–8 min | Drei bis vier Fragen zum letzten Modul, ohne Unterlagen. Danach eine Frage zu einem älteren Modul (Spacing). Fertige Fragen stehen in jedem Skript in Anhang 2, Teil 2 (Modul-Quiz F1–F5). |
 | **2. Action-Step-Runde** | 15 min | Reihum, je 2 Minuten: *Was habe ich genau getan? Was ist passiert? Was war schwer?* Bitte konkret: Situation, Satz, Reaktion der Klasse, nicht „lief ganz gut“. |
 | **3. Vertiefung** | 20 min | Ein Impuls aus diesem Dokument: Gesprächsfrage, Fallarbeit oder ein Vertiefungstext. |
 | **4. Üben** | 15 min | Die schwierigste Situation aus Runde 2 wird im Rollenspiel nachgestellt und zweimal geübt („Do it again“). |
@@ -310,7 +310,8 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 - Wie hängt Aufmerksamkeit mit den Routinen aus Block 1 zusammen?
 
 **Praxis im Austausch**
-- Ergebnisse des Experiments aus dem Modul besprechen: Was hat sich gezeigt?
+- Selbstexperiment für M3.4: kurz nachfragen, ob alle ihre drei Lerntermine eingehalten haben. Die zehn Begriffe selbst nicht besprechen und nicht abfragen, sonst ist das Ergebnis verfälscht.
+- Aufgaben prüfen: Jede:r bringt eine eigene Aufgabe mit. Die Gruppe fragt: „Was muss man denken, um sie zu lösen, und geht es auch ohne?“ Wo es ohne geht, wird umgebaut.
 - „Wohin schauen?“: Eine Erklärung halten, bei der jede:r genau angibt, wohin die Klasse gerade blicken soll.
 
 ## Modul 3.4 · Retrieval Practice – Abrufen schlägt Wiederlesen
@@ -326,7 +327,7 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 - Was mache ich mit den Ergebnissen eines Abruf-Quiz?
 
 **Praxis im Austausch**
-- Quiz-Bank aufbauen: Jede:r schreibt zehn Abruffragen für die eigene Klasse, gemischt aus aktuellen und älteren Inhalten.
+- Quiz-Bank aufbauen: Jede:r schreibt zwei Do Nows nach dem 3-2-1-Muster für die eigene Klasse (drei Fragen von gestern, zwei von letzter Woche, eine vom letzten Monat).
 - Austausch über Werkzeuge: Karteikarten, Apps, Mini-Whiteboards. Was funktioniert im Alltag wirklich?
 
 ## Modul 3.5 · Spacing & Interleaving – Vergessen strategisch nutzen
@@ -458,7 +459,7 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 - Wie bringe ich Schüler:innen dazu, ihre eigenen Fehler ernst zu nehmen?
 
 **Praxis im Austausch**
-- Fallarbeit mit echten Daten: Ergebnisse eines Exit Tickets oder Quiz. Die Gruppe plant ein fünfminütiges Reteaching.
+- Fallarbeit mit echten Daten: Ergebnisse eines Exit Tickets oder Quiz. Die Gruppe stellt die drei Fragen (Welches Muster? Welches Format? Welcher neue Zugang?) und plant zehn Minuten mit neuem Zugang und einer kurzen Prüfung an alle.
 - Rückblick: Jede:r zeigt eine kurze Videosequenz zu Cold Call oder Show Me. Die Gruppe beschreibt, was gelungen ist.
 
 ---
@@ -533,7 +534,7 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 
 **Vertiefen**
 - **Eltern als Verbündete:** Früher positiver Kontakt erleichtert spätere schwierige Gespräche.
-- **Struktur schwieriger Gespräche:** Anlass, Beobachtung, gemeinsames Ziel, Vereinbarung.
+- **Struktur schwieriger Gespräche:** gemeinsames Ziel, Beobachtungen, zuhören, Schritte für beide Seiten mit Termin.
 - **Rückblick Block 5:** Welcher Motivationstreiber ist in meinem Unterricht am stärksten, welcher am schwächsten?
 
 **Gesprächsfragen**
@@ -569,7 +570,7 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 
 **Vertiefen**
 - **Von der Stunde zur Einheit:** Wie hängen meine Stunden zusammen, und wo baue ich Spacing ein?
-- **Doppelplanung:** Zwei Stunden auf einmal planen spart Zeit und schafft Zusammenhang.
+- **Die zweite Spalte (Double Plan):** Für jede Phase mitplanen, was die Schüler:innen tun. Wo steht nur „hören zu“?
 - **Differenzierung light:** Gerüste für Schwächere, Stretch-Aufgaben für Stärkere, ohne drei Arbeitsblätter.
 
 **Gesprächsfragen**
@@ -578,14 +579,15 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 - Welche Pufferzeit plane ich ein, und was passiert, wenn ich sie nicht habe?
 
 **Praxis im Austausch**
-- Einheitenskizze: Die nächste Unterrichtseinheit auf einer Seite planen und vorstellen.
+- Einheitenskizze: Die nächste Unterrichtseinheit auf einer Seite planen und vorstellen, die Klassenarbeit zuerst.
+- Eine eigene Stundenplanung um die Schülerspalte ergänzen; die Gruppe sucht die Phasen ohne Auftrag.
 - Gerüst und Stretch für eine Aufgabe formulieren; die Gruppe prüft, ob beides ohne Zusatzaufwand umsetzbar ist.
 
 ## Modul 6.3 · Bewerten, Korrigieren, Feedback – wirksam UND ökonomisch
 
 **Vertiefen**
 - **Feedback, das wirkt:** Was tut der Schüler danach? Feedback ohne Folgeaufgabe verpufft.
-- **Ganzklassen-Feedback** statt Randkommentare in jedem Heft.
+- **Rückmeldung an die ganze Klasse (Whole-Class-Feedback)** statt Randkommentare in jedem Heft, mit fester Überarbeitungszeit.
 - **Bewertung und Notengebung:** Transparenz, Kriterien, Arbeitsaufwand.
 
 **Gesprächsfragen**
@@ -612,8 +614,11 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 **Praxis im Austausch**
 - Entwicklungsplan für das nächste Halbjahr: drei mögliche Action Steps, ein Video-Termin, ein Hospitationspartner.
 - Tandembildung für kollegiale Hospitationen nach dem Programm.
+- Probedurchlauf der Kolloquiumspräsentation (5 Minuten) mit Rückmeldung der Gruppe. Diese Austauschwoche ist die letzte vor dem Kolloquium.
 
 ## Modul 6.5 · Abschluss-Kolloquium & Zertifikat
+
+*Nach dem Kolloquium gibt es keine Austauschwoche mehr. Die Vorbereitung liegt in der Austauschwoche zu Modul 6.4; die folgenden Impulse eignen sich für diese Vorbereitung und für das Abschlussgespräch im Coaching.*
 
 **Vertiefen**
 - **Vorbereitung des Kolloquiums:** Welche zwei Videoausschnitte zeigen meine Entwicklung am deutlichsten?
@@ -626,5 +631,4 @@ Das 1:1-Coaching bleibt wöchentlich. In der Input-Woche wird der neue Action St
 - Welche Technik möchte ich unbedingt an neue Kolleg:innen weitergeben?
 
 **Praxis im Austausch**
-- Probedurchlauf der Kolloquiumspräsentation (5 Minuten) mit Rückmeldung der Gruppe.
 - Abschlussrunde: Jede:r nennt eine konkrete Veränderung bei einer anderen Person in der Gruppe.

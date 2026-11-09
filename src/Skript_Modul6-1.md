@@ -32,7 +32,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Die Rechnung (Minute 8–15)
 
@@ -102,43 +102,46 @@ Kopf: Klasse/Thema/Datum · **1 WOHIN:** Mindestziel: … | Meilensteine (2–3)
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Der Gesprächs-Vierschritt (M5.5)? *(gemeinsames Ziel → Fakten → zuhören → Schritte + Termin)*
-2. Die Grenz-Formel? *(Verständnis + Sache + Angebot)*
-3. Die Kontakt-Regel? *(erster Kontakt nie Problemkontakt; 2 Positiv-Kontakte/Woche)*
-4. Die zwei Kardinalfehler der Planung (M2.2)? *(aktivitätsorientiert / stofforientiert)*
-5. (Anwendung) Woran erkennst du in einer fremden Planung in 10 Sekunden den Aktivitätsfokus? *(Methoden zuerst/detailliert, Ziel vage oder fehlt, kein Nachweis definiert)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche vier Schritte hat ein Elterngespräch (M5.5)? *(gemeinsames Ziel → Beobachtungen → zuhören → Schritte für beide Seiten mit Termin)*
+2. Wie antwortest du auf einen Angriff im Elterngespräch? *(Verständnis zeigen, bei der Sache bleiben, ein Angebot machen)*
+3. (Szene) Woran erkennst du in einer fremden Planung in zehn Sekunden, dass sie von der Aktivität her gedacht ist? *(Methoden stehen zuerst und ausführlich da, das Ziel ist vage oder fehlt, es gibt keine Prüfaufgabe.)*
+4. Wie lautet die Formel aus M5.1? *(Anstrengung = Erwartung × Wert ÷ Kosten)*
+5. Welche drei Fragen stellst du an einen Stapel Exit Tickets (M4.6)? *(Welches Muster? → Welches Format? → Welcher neue Zugang?)*
+6. Welche zwei Kardinalfehler der Planung gibt es (M2.2)? *(von der Aktivität her planen / das Lehrbuch abarbeiten)*
 
 ## Teil 2: Modul-Quiz Modul 6.1 (für SPA/Austauschwoche)
-**F1.** 90 Minuten Planung pro Stunde sind…
-a) das Zeichen gewissenhafter Arbeit ✗ *(DER Glaubenssatz – fühlt sich moralisch an)*
-b) meist Aktivitäten-Suche + Kosmetik; die Wirkung entsteht in den ersten 10 Zielminuten ✓
-c) im ersten Jahr Pflicht ✗
-d) zu wenig ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Die richtige Planungsreihenfolge:
-a) spannende Aktivität finden → Ziel dazu formulieren ✗ *(der Reflex)*
-b) Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück? ✓
-c) Material → Ablauf → Ziel ✗
-d) egal, Hauptsache vollständig ✗
+**F1.** Du planst 90 Minuten für eine Einzelstunde. Wohin fließt bei den meisten der größte Teil dieser Zeit?
+a) In das Ziel und die Prüfaufgabe. ✗ *(Das dauert etwa zehn Minuten und bringt am meisten.)*
+b) In die Suche nach Aktivitäten und das Verschönern von Material. ✓ *(Der erste Kardinalfehler aus M2.2. Die Wirkung entsteht in den ersten zehn Minuten.)*
+c) In das Durchdenken typischer Schülerfehler. ✗ *(Schön wäre es. Dafür bleibt meist keine Zeit.)*
+d) In das fachliche Einlesen. ✗ *(Kommt vor, ist aber selten der größte Posten.)*
 
-**F3.** „80 % genügen" bedeutet:
-a) die fünf Fragen aus M2.1 sind verhandelbar ✗ *(die Schlampigkeits-Fehldeutung)*
-b) Verzicht auf Perfektions-Kosmetik – nachhaltig gehaltene Qualität schlägt ausbrennende Perfektion ✓
-c) 80 % der Stunden gut planen, 20 % improvisieren ✗
-d) Notenschnitt 2,0 reicht ✗
+**F2.** In welcher Reihenfolge planst du eine Stunde?
+a) Aktivität finden, dann das Ziel dazu formulieren, dann den Ablauf festlegen. ✗ *(So entsteht Beschäftigung.)*
+b) Material sichten, dann den Ablauf festlegen, dann das Ziel benennen. ✗ *(Das Lehrbuch bestimmt dann die Stunde.)*
+c) Ziel, dann Aktivitäten, dann die Aufgabe für das Exit Ticket. ✗ *(Fast. Die Prüfaufgabe kommt vor den Aktivitäten.)*
+d) Ziel, dann die Aufgabe für das Exit Ticket, dann die Aktivitäten, dann: Was kommt aus früheren Stunden zurück? ✓ *(Wer mit dem Ziel beginnt, plant Lernen.)*
 
-**F4.** Ein festes 10-Formate-Repertoire ist…
-a) Einfalls-Armut – Abwechslung motiviert ✗ *(der Abwechslungs-Mythos, M1.2/M5.2-Echo)*
-b) Profi-Logik: beherrschte Formate senken Kosten für alle; Abwechslung gehört in den Inhalt ✓
-c) nur für Anfänger ✗
-d) langweilig für die Lehrkraft ✗
+**F3.** Was bedeutet „80 % genügen“ in der Planung?
+a) Auf den Feinschliff am Material verzichten. Ziel, Prüfaufgabe und die fünf Fragen bleiben. ✓ *(Eine gute Stunde, die du jede Woche halten kannst, schlägt die perfekte, die dich auslaugt.)*
+b) Die fünf Fragen aus M2.1 dürfen auch mal entfallen. ✗ *(Die sind nicht verhandelbar.)*
+c) Jede fünfte Stunde wird improvisiert. ✗ *(Gemeint ist die Tiefe der Planung, nicht ihr Ausfall.)*
+d) Es reicht, wenn 80 % der Klasse das Ziel erreichen. ✗ *(Die Zahl bezieht sich auf deinen Aufwand.)*
 
-**F5.** Das Exit Ticket wird festgelegt…
-a) am Ende der Planung, wenn klar ist, was man geschafft hat ✗ *(die Alltagslogik)*
-b) als ZWEITER Planungsschritt – wer den Nachweis früh baut, plant auf ihn zu ✓
-c) spontan in der Stunde ✗
-d) nur bei neuen Themen ✗
+**F4.** Ein Kollege meint: „Immer dieselben zehn Formate, das langweilt die Schüler.“ Was antwortest du?
+a) Stimmt, Methodenwechsel motiviert. ✗ *(Der Abwechslungs-Mythos. Jedes neue Format kostet alle Zeit.)*
+b) Stimmt, vor allem bei jüngeren Klassen. ✗ *(Gerade Jüngere profitieren von vertrauten Abläufen.)*
+c) Vertraute Formate sparen allen Aufwand. Die Abwechslung kommt aus dem Inhalt. ✓ *(Routinen senken die Kosten (M5.2). Neue Formate kommen einzeln dazu und werden eingeführt.)*
+d) Ein festes Repertoire ist nur etwas für den Berufseinstieg. ✗ *(Auch Erfahrene arbeiten mit wenigen Formaten, die sitzen.)*
+
+**F5.** Wann legst du die Aufgabe für das Exit Ticket fest?
+a) Am Ende der Planung, wenn klar ist, was die Stunde schafft. ✗ *(Dann prüft das Ticket, was zufällig drankam.)*
+b) Direkt nach dem Ziel, als zweiten Schritt. ✓ *(Wer die Prüfaufgabe früh festlegt, plant auf sie zu.)*
+c) In der Stunde, je nach Verlauf. ✗ *(Dann fehlt der Maßstab.)*
+d) Nach der Stunde, für die nächste. ✗ *(Zu spät für diese Stunde.)*
 
 **F6 (Transfer, Freitext):** Ein Kollege zeigt dir stolz seine 2-Stunden-Planung: aufwendiges Stationenlernen, laminiert, ohne definiertes Ziel oder Ticket. Formuliere deine kollegiale Rückmeldung in drei Sätzen – wertschätzend, mit der Prüfregel. *(Muster: Aufwand/Sorgfalt würdigen → Prüfregel als Frage: „Was sollen sie am Ende können – und woran siehst du es?" → Lean-Angebot: „Die Stationen können bleiben – aber bau zuerst das Ticket, dann weißt du, welche Station du streichen kannst.")*
 

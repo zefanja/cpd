@@ -33,7 +33,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards. *(Letzter regulärer Starter des Programms – die Moderation sagt es an; leiser Abschieds-Moment.)*
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards. *(Letzter regulärer Starter des Programms – die Moderation sagt es an; leiser Abschieds-Moment.)*
 
 ## Phase 2 · See it: Das Plateau (Minute 8–15)
 
@@ -129,43 +129,46 @@ Regel: 1 Buch pro Halbjahr · 1 Action Step pro Buch · Tandem erzählt Tandem, 
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards — der letzte!)
-1. Der WCF-Fünfschritt? *(lesen → Muster-Bogen → Feedbackstunde → DIRT → Stichprobe)*
-2. Die Triage-Frage und die vier Korrekturformate? *(„Wer korrigiert das – auf welchem Weg?"; Selbstkorrektur / Peer-Korrektur / Stichprobe mit WCF / Vollkorrektur)*
-3. DIRT in einem Satz? *(Schüler überarbeiten ihre eigene Arbeit nach konkretem Auftrag, in der Stunde)*
-4. Die fünf Motivations-Treiber (Block 5)? *(Secure Success / Run Routines / Nudge Norms / Build Belonging / Boost Buy-in)*
-5. (Anwendung) Ein Kollege plant eine Fortbildung: 3 Stunden Vortrag, Handout, Ende. Welcher EEF-Mechanismus fehlt am dramatischsten – und was würdest du ergänzen? *(Übung [+ Verankerung]; ergänzen: Skripten + Rollenspiel + Action Step mit Follow-up)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche fünf Schritte hat die Rückmeldung an die ganze Klasse (M6.3)? *(lesen ohne Stift → ein Bogen mit drei Stärken und drei Fehlermustern → Feedbackstunde → Überarbeitungszeit → Stichprobe)*
+2. Welche Frage stellst du vor jeder Aufgabe, und welche vier Wege gibt es? *(„Wer korrigiert das, und wie?“; Selbstkorrektur / Korrektur durch Mitschüler / Stichprobe mit Rückmeldung an alle / Vollkorrektur)*
+3. (Szene) Ein Kollege plant eine Fortbildung: drei Stunden Vortrag, Handout, Ende. Was fehlt am dringendsten? *(das Üben und die Verankerung im Alltag: Wortlaut schreiben, durchspielen, ein Schritt für die nächsten Wochen mit Nachfrage)*
+4. In welcher Reihenfolge planst du eine Stunde (M6.1)? *(Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?)*
+5. Wie heißen die fünf Motivations-Treiber (Block 5)? *(Secure Success / Run Routines / Nudge Norms / Build Belonging / Boost Buy-in)*
+6. Warum lernen viele Schüler mit Textmarker und Wiederlesen (M3.4)? *(Es fühlt sich flüssig an; Wiedererkennen wird mit Können verwechselt.)*
 
-## Teil 2: Modul-Quiz Modul 6.4 (für SPA)
-**F1.** „Mit den Jahren wird man automatisch ein besserer Lehrer."
-a) Stimmt – Erfahrung ist der beste Lehrmeister ✗ *(DER Berufsmythos)*
-b) Der Zuwachs flacht nach den ersten Jahren deutlich ab; weiter steigt, wer gezielt übt (Fokus, Feedback, Wiederholung) ✓
-c) Stimmt nie ✗
-d) Hängt vom Fach ab ✗
+## Teil 2: Modul-Quiz Modul 6.4 (für SPA/Austauschwoche)
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Eine Fortbildung ohne Übungsanteil…
-a) spart Zeit und liefert trotzdem ✗
-b) verletzt den EEF-Kernbefund: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht ✓
-c) ist für Erfahrene ausreichend ✗
-d) ist rechtlich unzulässig ✗
+**F1.** „Mit den Jahren wird man automatisch eine bessere Lehrkraft.“ Stimmt das?
+a) Ja, Erfahrung ist der beste Lehrmeister. ✗ *(Erfahrung allein wiederholt, was schon läuft.)*
+b) Der Zuwachs flacht nach den ersten Jahren deutlich ab. Weiter wächst, wer gezielt übt und Rückmeldung bekommt. ✓ *(Fokus, Rückmeldung, Wiederholung: so war dieses Programm gebaut.)*
+c) Nein, nach dem Berufseinstieg wird niemand mehr besser. ✗ *(Doch, mit gezieltem Üben und Rückmeldung.)*
+d) Das hängt vor allem vom Fach ab. ✗ *(Das Muster zeigt sich in allen Fächern.)*
 
-**F3.** „Gute Vorsätze sterben, Termine überleben" heißt für das Tandem:
-a) man trifft sich, wenn beide Zeit haben ✗ *(der Tod des Tandems)*
-b) die Peer-Besuche stehen MIT DATUM in beiden Kalendern, bevor das Jahr endet ✓
-c) monatliche Absichtserklärungen genügen ✗
-d) der Coach erinnert schon ✗
+**F2.** Was bewirkt eine Fortbildung ohne Übungsanteil?
+a) Dasselbe wie mit Übung, nur in kürzerer Zeit. ✗ *(Die gesparte Zeit ist der Teil, der wirkt.)*
+b) Für Erfahrene reicht sie aus. ✗ *(Auch Erfahrene ändern Verhalten durch Üben.)*
+c) Sie wirkt, wenn der Vortrag gut ist. ✗ *(Ein guter Vortrag ändert das Wissen.)*
+d) Sie ändert das Wissen, aber selten das Verhalten im Unterricht. ✓ *(Verhalten ändert sich durch Probehandeln, nicht durch Einsicht.)*
 
-**F4.** Ein Fachbuch „zählt" als Fortbildung, wenn…
-a) man es durchgelesen hat ✗ *(Unterhaltung)*
-b) EIN Action Step daraus im Unterricht landet ✓
-c) man es im Kollegium empfiehlt ✗
-d) es dick genug ist ✗
+**F3.** Was sorgt dafür, dass dein Tandem nach dem Programm weiterläuft?
+a) Termine mit Datum in beiden Kalendern, bevor das Programm endet. ✓ *(Gute Vorsätze verschwinden, Termine bleiben.)*
+b) Dass man sich trifft, wenn beide Zeit haben. ✗ *(Das ist der sichere Weg, sich nie zu treffen.)*
+c) Eine monatliche Erinnerung an die gute Absicht. ✗ *(Ohne Datum bleibt es Absicht.)*
+d) Dass der Coach nachfragt. ✗ *(Den Coach gibt es dann nicht mehr.)*
 
-**F5.** Das Selbst-Coaching-Minimum ist bewusst klein, weil…
-a) mehr nicht nötig ist ✗
-b) Maximalprogramme in Wochen sterben – gehaltene Minima tragen Jahre (80 %-Logik, M6.1!) ✓
-c) die Schulleitung nicht mehr erlaubt ✗
-d) Selbststeuerung überschätzt wird ✗
+**F4.** Wann zählt ein Fachbuch als Fortbildung?
+a) Wenn ich es ganz gelesen habe. ✗ *(Lesen ändert das Wissen.)*
+b) Wenn ich es zusammengefasst habe. ✗ *(Eine Zusammenfassung vertieft das Wissen. Im Unterricht ändert sich noch nichts.)*
+c) Wenn ein Schritt daraus in meinem Unterricht ankommt. ✓ *(Ein Buch, ein Schritt.)*
+d) Wenn ich es im Kollegium empfohlen habe. ✗ *(Schön, aber kein Maßstab.)*
+
+**F5.** Warum ist das Minimum für die Zeit nach dem Programm so klein gehalten?
+a) Mehr ist nicht nötig. ✗ *(Mehr wäre besser, wird aber nicht durchgehalten.)*
+b) Große Pläne brechen nach wenigen Wochen ab. Ein kleines Programm wird durchgehalten. ✓ *(Dieselbe Logik wie bei „80 % genügen“ (M6.1).)*
+c) Die Schulleitung erlaubt nicht mehr. ✗ *(Damit hat es nichts zu tun.)*
+d) Sich selbst zu steuern wird überschätzt. ✗ *(Im Gegenteil, es ist der Kern der Zeit danach.)*
 
 **F6 (Transfer, Freitext):** Entwirf dein Jahr-3-System in fünf Zeilen: Baustelle 1, erster Monatsfokus, Video-Termin, Tandem-Termine, Buch 1. *(Bewertungsanker: Baustelle mit Beleg; Fokus konkret als Technik, nicht als Wunsch; alle Termine mit Datum.)*
 

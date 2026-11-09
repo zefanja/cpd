@@ -34,7 +34,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Die 7-Stunden-Rechnung (Minute 8–15)
 
@@ -115,43 +115,46 @@ Jede Gruppe skizziert die Feedbackstunde in Stichworten (Welche Arbeit wird als 
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Der Einheiten-Vierschritt (M6.2)? *(Arbeit skizzieren → Meilensteine → Kette+Puffer → Spacing-Anker)*
-2. Inter-Lesson-Planning in einem Satz? *(5 Abendminuten: Ticket → Befund → Morgen-Justierung)*
-3. Die Double-Plan-Frage? *(„Was tun die Schüler – alle, konkret?")*
-4. Kern + Rampe? *(ein Ziel für alle; Gerüst runter mit Ausstieg, Stretch rauf)*
-5. (Anwendung) Die Drei-Stapel-Sortierung (M2.6) – Ablauf + Zeitdeckel? *(kann/kann fast/kann nicht, Top-Fehler-Satz, eine Konsequenz; ≤10 Min.)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. In welchen vier Schritten planst du eine Einheit (M6.2)? *(Arbeit skizzieren → Meilensteine → Stundenkette mit Puffer → Stellen für die Wiederholung)*
+2. Welche Frage stellt die zweite Spalte der Planung? *(„Was tun die Schüler in dieser Phase, alle, konkret?“)*
+3. (Szene) Du sortierst einen Stapel Exit Tickets. Wie gehst du vor, und wie lange darf es dauern (M2.6)? *(drei Stapel (kann es / kann es fast / noch nicht), häufigsten Fehler notieren, eine Konsequenz; höchstens zehn Minuten)*
+4. In welcher Reihenfolge planst du eine Stunde (M6.1)? *(Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?)*
+5. Was gehört mindestens zu einer Berichtigung (M4.6)? *(die Lösung selbst notieren und der Satz „Mein Denkfehler war …“)*
+6. Warum wirkt verteiltes Üben (M3.5)? *(Nach einer Lücke ist der Abruf schwerer und festigt deshalb stärker.)*
 
 ## Teil 2: Modul-Quiz Modul 6.3 (für SPA/Austauschwoche)
-**F1.** Der ausführliche rote Rand unter jeder Übungsarbeit…
-a) ist der Goldstandard der Rückmeldung ✗ *(DER Fleiß-Mythos)*
-b) wird nach der Note kaum gelesen – Wirkung entsteht in Feedbackstunde + DIRT ✓
-c) ist rechtlich immer vorgeschrieben ✗ *(gilt für Übungsformate nicht)*
-d) motiviert durch sichtbaren Aufwand ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** DIRT bedeutet:
-a) die Besprechung der häufigsten Fehler durch die Lehrkraft ✗ *(nah dran – das ist Schritt 3)*
-b) Schüler überarbeiten ihre EIGENE Arbeit nach konkretem Auftrag (grüner Stift, Journal) ✓
-c) Zusatzaufgaben für Schnelle ✗
-d) eine Strafarbeit ✗
+**F1.** Du schreibst ausführliche Kommentare an den Rand jeder Übungsarbeit, darunter steht die Note. Wie viel davon kommt an?
+a) Viel, der Aufwand ist sichtbar. ✗ *(Sichtbar ja, gelesen kaum.)*
+b) Wenig: Der Blick geht zur Note. Wirkung entsteht erst, wenn die Schüler ihre Arbeit überarbeiten. ✓ *(Stunden Arbeit, Sekunden gelesen. Die Rückmeldung muss eine Überarbeitung auslösen.)*
+c) Viel bei den Stärkeren, wenig bei den Schwächeren. ✗ *(Auch Stärkere schauen zuerst auf die Note.)*
+d) Viel, wenn die Kommentare freundlich formuliert sind. ✗ *(Der Ton ändert nicht, ob gelesen wird.)*
 
-**F3.** Die Korrektur-Entscheidung fällt…
-a) wenn der Stapel auf dem Tisch liegt ✗ *(die Schulrealität)*
-b) VOR der Aufgabenstellung – Triage: Selbst/Peer/WCF/Voll ✓
-c) je nach Wochenend-Lage ✗
-d) durch die Fachkonferenz für jede Aufgabe ✗
+**F2.** Was geschieht in der Überarbeitungszeit (DIRT)?
+a) Die Lehrkraft bespricht die häufigsten Fehler. ✗ *(Das ist der Schritt davor.)*
+b) Schnelle Schüler bekommen Zusatzaufgaben. ✗ *(Alle überarbeiten.)*
+c) Die Schüler schreiben die Musterlösung ab. ✗ *(Abschreiben ist keine Überarbeitung.)*
+d) Die Schüler überarbeiten ihre eigene Arbeit nach einem konkreten Auftrag. ✓ *(Mit grünem Stift, in der Stunde, danach ein Eintrag ins Fehlerjournal.)*
 
-**F4.** Der Erwartungshorizont ist…
-a) Bürokratie ohne Unterrichtswert ✗ *(das erlebte Vorurteil)*
-b) die amtliche Idealantwort: vor der Einheit geschrieben Planungswerkzeug, nach der Rückgabe DIRT-Material ✓
-c) geheim zu halten ✗
-d) nur für die Schulaufsicht ✗
+**F3.** Wann entscheidest du, auf welchem Weg eine Aufgabe korrigiert wird?
+a) Bevor ich die Aufgabe stelle. ✓ *(Wer vorher fragt „Wer korrigiert das, und wie?“, stellt auswertbarere Aufgaben.)*
+b) Wenn der Stapel auf dem Tisch liegt. ✗ *(Dann ist er schon da.)*
+c) Nach einem ersten Durchsehen. ✗ *(Besser als gar nicht, aber zu spät für die Aufgabenstellung.)*
+d) Das legt die Fachkonferenz fest. ✗ *(Nur für benotete Arbeiten.)*
 
-**F5.** Deine mündlichen Noten stützen sich am besten auf…
-a) den Gesamteindruck am Notenschluss ✗ *(das Bauchgefühl-Raster)*
-b) das Jahr an CFU-Daten: Heatmap, Boards, Tickets, Protokolle ✓
-c) die Meldehäufigkeit ✗ *(die Melder-Stichprobe! M2.4-Echo)*
-d) das Verhalten ✗
+**F4.** Wozu dient der Erwartungshorizont über die Pflicht hinaus?
+a) Er ist für die Schulaufsicht gedacht. ✗ *(Dafür auch. Sein Nutzen im Unterricht ist größer.)*
+b) Er begründet die Note gegenüber Eltern. ✗ *(Stimmt, ist aber nur ein Teil.)*
+c) Vor der Einheit geschrieben, ist er dein Plan. Nach der Rückgabe ist er das Material, an dem die Klasse überarbeitet. ✓ *(Er ist die Idealantwort aus M2.2 für die ganze Arbeit.)*
+d) Er macht Parallelklassen vergleichbar. ✗ *(Ein möglicher Zusatznutzen.)*
+
+**F5.** Worauf stützt du die mündlichen Noten am besten?
+a) Auf den Gesamteindruck am Ende des Halbjahres. ✗ *(Der Eindruck bevorzugt die Auffälligen.)*
+b) Auf die Zahl der Meldungen. ✗ *(Meldungen zeigen, wer sich meldet, nicht, wer etwas kann.)*
+c) Auf das Verhalten im Unterricht. ✗ *(Verhalten ist keine Leistung.)*
+d) Auf gesammelte Daten: Whiteboards, Exit Tickets, Aufrufprotokolle. ✓ *(Damit ist die Note belegbar und gegenüber Eltern erklärbar.)*
 
 **F6 (Transfer, Freitext):** Dein Muster-Bogen zeigt: Fehler Nr. 1 = „Behauptung ohne Beleg" (11 von 24). Formuliere den DIRT-Auftrag wörtlich – konkret, prüfbar, mit Journal-Anschluss. *(Muster: „Grüner Stift. Sucht in eurer Arbeit jede Behauptung ohne Beleg – markiert sie mit B. Wählt die wichtigste und schreibt den Beleg-Satz darunter: ‚Das zeigt sich daran, dass …'. Danach Journal: ‚Mein Denkfehler war …'. 15 Minuten – ich sammle sechs Arbeiten ein.")*
 

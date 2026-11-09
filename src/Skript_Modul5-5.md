@@ -116,39 +116,55 @@ Fünf Spalten: **Secure Success · Run Routines · Nudge Norms · Build Belongin
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-5-Quiz (15 Fragen; Auswahl mit Lösungen)
-1. Die EVK-Formel + Multiplikator-Pointe? 2. „Unmotiviert" ist …? *(Situationsbeschreibung, keine Eigenschaft)* 3. Die teuerste Kosten-Währung? 4. Das Secure-Success-Besteck (3 von 4)? 5. Talent- vs. Vorgehens-Attribution? 6. Warum sind Routinen Motivationstechnik? 7. Die Normen-Regel? 8. Das Sichtbarkeits-Trio? 9. Die vier Belonging-Bausteine? 10. Die drei Mikromoment-Zeitfenster? 11. Das Buy-in-Trio? 12. Platzwechsel – die drei Regieanweisungen? *(Skript / Gesicht wahren / weiterunterrichten)* 13. Fakt vs. Wertung – je ein Beispiel? 14. Die Anfrage-Struktur? *(Lage – Versucht – Frage)* 15. (Transfer) Ein Schüler mit E≈0 stört massiv, die Klasse kippt. Skizziere die Doppelstrategie. *(Grenze JETZT: Kette ruhig + Reparatur; parallel Secure Success: Vorentlastung/Einstiegserfolge + Mikromomente – Konsequenz UND Erwartungsaufbau, nie nur eins.)*
+## Teil 1: Block-5-Quiz (15 Fragen)
+1. Wie lautet die Formel aus M5.1, und was folgt bei Erwartung null? *(Anstrengung = Erwartung × Wert ÷ Kosten; das Ergebnis bleibt null)*
+2. Was ist „unmotiviert“? *(die Beschreibung einer Situation, keine Eigenschaft)*
+3. Welche Kosten wiegen am schwersten? *(das Risiko, sich vor der Klasse zu blamieren)*
+4. Nenne drei Wege, Erfolg zu ermöglichen. *(hohe Erfolgsquote / Einstieg auf einer leichten Stufe der Treppe / Schlüsselfrage vorab im Kleinformat geben / Lob auf das Vorgehen)*
+5. Was unterscheidet Lob auf Begabung von Lob auf das Vorgehen? *(Begabung kann man nicht wählen; das Vorgehen kann man wiederholen.)*
+6. Warum wirken Routinen auf die Motivation? *(Sie senken die Kosten.)*
+7. Welche Regel gilt, wenn du über das Verhalten der Klasse sprichst? *(nie das Fehlverhalten der Vielen beschreiben; die wahre Mehrheit nennen)*
+8. Auf welchen drei Wegen machst du erwünschtes Verhalten sichtbar? *(Schülerarbeiten zeigen / konkrete Anerkennung unter Mitschülern / die arbeitende Mehrheit aussprechen)*
+9. Nenne die vier Bausteine für Zugehörigkeit. *(kurze persönliche Kontakte / jede Stimme wird gehört / Zusagen halten / gemeinsame Rituale)*
+10. In welchen drei Momenten ist Platz für kurzen persönlichen Kontakt? *(vor der Begrüßung / beim ersten Rundgang / an der Tür)*
+11. Auf welchen drei Wegen gewinnst du Zustimmung? *(begründen (auch den Stoff) / echte Wahl im Wie / erklären, warum du so unterrichtest)*
+12. Welche drei Regeln gelten beim Platzwechsel? *(vorbereiteter Wortlaut / kein Gesichtsverlust / sofort weiterunterrichten)*
+13. Nenne je ein Beispiel für Beobachtung und Wertung im Protokoll. *(„wirft den Stuhl um, 9:42 Uhr“ gegen „ist aggressiv“)*
+14. Wie bittest du strukturiert um Unterstützung? *(Lage – was ich versucht habe – meine Frage)*
+15. (Szene) Ein Schüler, der fest mit dem Scheitern rechnet, stört massiv, die Klasse kippt. Skizziere dein Vorgehen. *(jetzt die Grenze, ruhig, danach das Gespräch; parallel Erfolge ermöglichen und kurzen persönlichen Kontakt suchen)*
 
 ## Teil 2: Modul-Quiz Modul 5.5 (für SPA/Austauschwoche)
-**F1.** Der erste Kontakt zu Emres Eltern ist idealerweise…
-a) der Anruf nach dem ersten Vorfall – man soll nichts aufschieben ✗ *(klingt konsequent)*
-b) ein 90-Sekunden-Positiv-Kontakt, lange bevor es Probleme gibt ✓
-c) der Elternabend ✗
-d) eine Mail mit den Regeln ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Emre ist unzuverlässig" im Elterngespräch bewirkt…
-a) Klarheit ✗
-b) Verteidigung – Eltern schützen ihr Kind; Fakten („3 von 4 Stunden ohne Material") sind besprechbar ✓
-c) Einsicht ✗
-d) nichts ✗
+**F1.** Wann nimmst du idealerweise zum ersten Mal Kontakt zu den Eltern eines Schülers auf?
+a) Direkt nach dem ersten Vorfall. ✗ *(Dann bist du die Schule, die sich nur meldet, wenn etwas ist.)*
+b) Mit einem kurzen positiven Anruf, lange bevor es Probleme gibt. ✓ *(Neunzig Sekunden, konkret, ohne „aber“.)*
+c) Beim ersten Elternabend. ✗ *(Dort gibt es kein Gespräch über das einzelne Kind.)*
+d) Am Sprechtag. ✗ *(Oft zu spät.)*
 
-**F3.** „Mit dem richtigen Lehrer hätte er eine Zwei." Deine Antwort folgt…
-a) der Rechtfertigungsspirale: Methoden erklären, bis er zufrieden ist ✗ *(der Reflex)*
-b) der Grenz-Formel: Verständnis + Sache (Kriterien zeigen) + Angebot (gemeinsames Ziel) ✓
-c) dem Gegenangriff: elterliche Versäumnisse benennen ✗
-d) dem Rückzug: Gespräch beenden ✗
+**F2.** Im Elterngespräch sagst du: „Emre ist unzuverlässig.“ Was löst das aus?
+a) Klarheit über das Problem. ✗ *(Klar ist nur das Urteil, nicht das Verhalten.)*
+b) Einsicht bei den Eltern. ✗ *(Selten.)*
+c) Die Eltern verteidigen ihr Kind. Besser ist eine Beobachtung: „In drei von vier Stunden fehlte das Material.“ ✓ *(Über Beobachtungen kann man sprechen, über Urteile streitet man.)*
+d) Nichts, die Eltern kennen ihr Kind. ✗ *(Ein Urteil über das Kind bleibt nie folgenlos.)*
 
-**F4.** Ein Gespräch endet mit „Wir bleiben in Kontakt". Das ist…
-a) ein gutes, offenes Ende ✗ *(höflich und folgenlos)*
-b) ein Gespräch ohne Ergebnis – es fehlen beidseitige Schritte + Termin ✓
-c) rechtlich ausreichend ✗
-d) besser als ein Termin ✗
+**F3.** Ein Vater sagt: „Mit dem richtigen Lehrer hätte sie eine Zwei.“ Wie antwortest du?
+a) Ich erkläre ausführlich meine Methoden, bis er überzeugt ist. ✗ *(Jede Rechtfertigung lädt zum Nachbohren ein.)*
+b) Ich weise darauf hin, was zu Hause versäumt wurde. ✗ *(Der Gegenangriff verschärft das Gespräch.)*
+c) Ich beende das Gespräch. ✗ *(Das hilft der Schülerin nicht.)*
+d) Ich zeige Verständnis, lege die Kriterien offen und biete an, gemeinsam zu überlegen, wie wir sie unterstützen. ✓ *(Verständnis, Sache, Angebot. Ruhig bleiben und zum gemeinsamen Ziel zurückführen.)*
 
-**F5.** Der Sprechtag eignet sich für Konfliktklärung…
-a) gut – man hat die Eltern ja da ✗ *(die Gelegenheits-Falle)*
-b) nicht – 10-Minuten-Takt ist für Rückmeldung gebaut; heikle Fälle bekommen einen eigenen Termin ✓
-c) nur mit Schulleitung ✗
-d) nur in der Grundschule ✗
+**F4.** Ein Elterngespräch endet mit dem Satz: „Wir bleiben in Kontakt.“ Was fehlt?
+a) Schritte für beide Seiten und ein Termin. ✓ *(Zum Beispiel: „Sie schauen abends auf die Materialliste, ich gebe Emre ein Zeichen, und wir telefonieren in zwei Wochen.“)*
+b) Nichts, das ist ein gutes offenes Ende. ✗ *(Höflich und folgenlos.)*
+c) Eine schriftliche Bestätigung. ✗ *(Die Gesprächsnotiz machst du ohnehin.)*
+d) Eine Entschuldigung. ✗ *(Darum geht es nicht.)*
+
+**F5.** Am Sprechtag will ein Vater in zehn Minuten einen Konflikt klären. Was tust du?
+a) Ich kläre es jetzt, er ist ja da. ✗ *(Zehn Minuten im Takt reichen für eine Rückmeldung, nicht für eine Klärung.)*
+b) Ich biete einen eigenen Termin an: „Dafür nehme ich mir richtig Zeit.“ ✓ *(Heikle Gespräche brauchen Zeit und Vorbereitung, bei Bedarf eine zweite Person.)*
+c) Ich verweise ihn an die Schulleitung. ✗ *(Zu früh. Erst das eigene Gespräch.)*
+d) Ich bitte ihn, sein Anliegen schriftlich einzureichen. ✗ *(Das wirkt abweisend.)*
 
 **F6 (Transfer, Freitext):** Schreibe deinen 90-Sekunden-Positiv-Anruf für ein Kind deiner Wahl wörtlich – konkret, verdient, aufs Vorgehen, ohne ein einziges „aber". *(Bewertungsanker: konkretes beobachtetes Verhalten, Vorgehens-Attribution, Kürze angekündigt und gehalten, kein trojanisches Pferd.)*
 

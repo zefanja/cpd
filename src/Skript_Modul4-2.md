@@ -30,7 +30,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke & das stille Abo (Minute 8–13)
 
@@ -116,43 +116,46 @@ Sitzplan-Raster + Legende: ○ Cold Call · ● Meldung · Strichdichte = Häufi
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die Ersetzungs-Regel (M4.1)? *(Selbstauskunft → prüfbare Mini-Aufgabe)*
-2. Der Fehlerreaktions-Dreiklang? *(neutral benennen → Ursache würdigen → nutzen)*
-3. Warum liefert „Alle verstanden?" nichts – zwei Gründe? *(soziale Kosten; Dunning-Kruger)*
-4. Mit welchen Formaten lässt du alle gleichzeitig antworten (Block 2)? *(Mini-Whiteboards, Fingerzeichen)*
-5. (Anwendung) Skizziere ein Plan-for-Error für „Kommasetzung bei weil" – ein wahrscheinlicher Fehler + Reaktion. *(z. B. Komma nach Gefühl/Atempause statt vor der Konjunktion → Dreiklang + Verb-Suchregel als Hinweis)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Womit ersetzt du die Frage „Alle verstanden?“ (M4.1)? *(durch eine kleine Aufgabe an alle, deren Ergebnis ich sehe)*
+2. Welche drei Schritte hat eine gute Reaktion auf eine falsche Antwort? *(sachlich benennen → den Gedanken dahinter würdigen → für alle nutzen)*
+3. (Szene) Nenne für „Kommasetzung bei weil“ einen wahrscheinlichen Fehler und deine Reaktion. *(z. B. Komma nach Gefühl bei der Sprechpause; Reaktion in drei Schritten, Hinweis: das Verb im Nebensatz suchen)*
+4. Was bedeutet „Leistung in der Stunde ist nicht Lernen“ (M3.5)? *(Was heute klappt, kann in vier Wochen weg sein.)*
+5. Welche fünf Kriterien gelten für Abruf-Quizze (M3.4)? *(ohne Hilfsmittel / schriftlich, alle / ohne Note / sofortige Auflösung / regelmäßig)*
+6. Mit welchen Formaten lässt du alle gleichzeitig antworten (Block 2)? *(Mini-Whiteboards, Fingerzeichen)*
 
 ## Teil 2: Modul-Quiz Modul 4.2 (für SPA/Austauschwoche)
-**F1.** Cold Call auf den Schüler, der gerade aus dem Fenster träumt, ist…
-a) effizient – weckt und diszipliniert zugleich ✗ *(DIE Zweckentfremdung – fühlt sich clever an)*
-b) Kulturzerstörung: Das Lernwerkzeug wird zur Waffe; für Träumer gibt es Stufe 1 der Leiter ✓
-c) verboten ✗
-d) nur in Sek I in Ordnung ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Die richtige Reihenfolge:
-a) Name → Frage → Pause ✗ *(das Alltagsmuster – schaltet 27 Gehirne ab)*
-b) Frage → Pause → Name ✓
-c) Frage → Name → Pause ✗
-d) egal, Hauptsache freundlich ✗
+**F1.** Ein Schüler träumt aus dem Fenster. Du überlegst, ihn ohne Meldung aufzurufen, um ihn zurückzuholen. Ist das eine gute Idee?
+a) Ja, das weckt ihn und zeigt der Klasse, dass du alles siehst. ✗ *(Es zeigt der Klasse vor allem: Drankommen ist eine Strafe.)*
+b) Ja, wenn die Frage leicht genug ist. ✗ *(Der Zweck bleibt derselbe, und die Klasse erkennt ihn.)*
+c) Nein. Aufrufen darf nie Strafe sein. Für Träumer gibt es Blick und Nähe. ✓ *(Stufe 1 der Interventionsleiter. Der Aufruf ohne Meldung bleibt ein Lernwerkzeug.)*
+d) Nein, besser nach der Stunde mit ihm sprechen. ✗ *(Für einen kurzen Tagtraum ist das zu viel. Blick und Nähe genügen.)*
 
-**F3.** Fünf Sekunden Stille nach deiner Frage sind…
-a) peinlich und ein Zeichen einer schlechten Frage ✗ *(das Lehrer-Bauchgefühl)*
-b) Denkzeit – auszuhalten und produktiv zu rahmen ✓
-c) Zeitverschwendung bei 45-Minuten-Stunden ✗
-d) nur bei schweren Fragen nötig ✗
+**F2.** In welcher Reihenfolge rufst du ohne Meldung auf?
+a) Frage, Pause, Name. ✓ *(Bis der Name fällt, kann jeder gemeint sein. Also denken alle.)*
+b) Name, Frage, Pause. ✗ *(Mit dem Namen wissen alle anderen: Ich bin nicht gemeint.)*
+c) Frage, Name, Pause. ✗ *(Die Pause kommt zu spät. Sie gehört nur noch dem Aufgerufenen.)*
+d) Name, Pause, Frage. ✗ *(Die Pause ohne Frage ist nur Spannung.)*
 
-**F4.** Cold Call wird eingeführt…
-a) unangekündigt – sonst verliert er die Wirkung ✗ *(Überraschungs-Logik)*
-b) explizit, mit Begründung und Fairness-Zusagen ✓
-c) nur nach Elterninformation ✗
-d) gar nicht – er ergibt sich ✗
+**F3.** Du stellst eine Frage. Vier Sekunden lang ist es still. Was tust du?
+a) Ich formuliere die Frage noch einmal anders. ✗ *(Das unterbricht das Denken, das gerade begonnen hat.)*
+b) Ich nehme den ersten, der sich meldet. ✗ *(Dann denken ab sofort nur noch die Schnellen.)*
+c) Ich gebe einen Tipp, damit es weitergeht. ✗ *(Zu früh. Erst kommt die Denkzeit.)*
+d) Ich halte die Stille aus und benenne sie als Denkzeit. ✓ *(Drei bis fünf Sekunden. „Ich sehe, einige notieren sich etwas. Gut.“)*
 
-**F5.** Ein Schüler ruft die Antwort rein, während Cem aufgerufen ist. Du…
-a) nimmst die richtige Antwort dankbar auf – Hauptsache Inhalt ✗ *(belohnt den Reinruf)*
-b) gibst ruhig zurück: „Die Frage lag bei Cem – Cem?" ✓
-c) ermahnst den Reinrufer scharf ✗ *(Overkill – MoP nachschärfen genügt)*
-d) stellst eine neue Frage ✗
+**F4.** Wie führst du das Aufrufen ohne Meldung in einer Klasse ein?
+a) Ohne Ankündigung, sonst geht die Wirkung verloren. ✗ *(Überraschung erzeugt Angst, nicht Beteiligung.)*
+b) Angekündigt und begründet, mit Denkzeit und zuerst mit leichten Fragen. ✓ *(Dazu die Zusage: „Ich bin noch nicht sicher“ ist eine erlaubte Antwort.)*
+c) Zuerst nur bei den leistungsstarken Schülern. ✗ *(Dann lernt der Rest: Ich bin nicht gemeint.)*
+d) Erst nach einer Information an die Eltern. ✗ *(Nicht nötig. Die Klasse selbst braucht die Erklärung.)*
+
+**F5.** Cem ist aufgerufen und denkt nach. Ein anderer Schüler ruft die richtige Antwort hinein. Was tust du?
+a) Ich nehme die Antwort auf, sie ist ja richtig. ✗ *(Dann lohnt sich das Hineinrufen.)*
+b) Ich ermahne den Hineinrufer deutlich. ✗ *(Zu groß für den Anlass und nimmt Cem die Bühne.)*
+c) Ich gebe ruhig zurück: „Die Frage lag bei Cem. Cem?“ ✓ *(Die Antwort wird nicht verwertet. Beim nächsten Mal sage ich vorher an, wie geantwortet wird.)*
+d) Ich stelle Cem eine neue, leichtere Frage. ✗ *(Dann hat der Hineinrufer Cem die Frage abgenommen.)*
 
 **F6 (Transfer, Freitext):** Schreibe dein Cold-Call-Einführungsskript für deine schwierigste Klasse: Begründung (2 Sätze), Fairness-Zusatz, erste niedrigschwellige Frage. *(Bewertungsanker: Begründung vor Neuerung; Einladungston; „unsicher ist erlaubt"-Zusage; risikofreie Erstfrage.)*
 

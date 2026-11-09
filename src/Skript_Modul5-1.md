@@ -113,39 +113,48 @@ Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, M1.1–4.6)
-1. Der Entscheidungs-Dreisatz (M4.6)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Umformulierungs-Formel (Block 1)? 8. (Anwendung) Erste Woche nach den Ferien: dein Re-Establish-Plan in zwei Sätzen?
+## Teil 1: Reaktivierungs-Quiz (8 Fragen zu Block 1 bis 4)
+1. Welche drei Fragen stellst du an einen Stapel Exit Tickets (M4.6)? *(Welches Muster? → Welches Format (Klasse, Kleingruppe, einzeln)? → Welcher neue Zugang?)*
+2. Welche drei Schritte hat das Zeigen einer Schülerarbeit (M4.5)? *(würdigen → einen Punkt verbessern → auf die eigene Arbeit übertragen)*
+3. Warum lautet die Reihenfolge Frage, Pause, Name (M4.2)? *(Bis der Name fällt, denken alle mit.)*
+4. Auf welchen vier Wegen kommst du nach „Weiß nicht“ zurück (M4.3)? *(selbst einen Hinweis geben / Mitschüler hilft, dann zurück zur Ausgangsperson / halbe Antwort ausbauen / bei Verweigerung: ruhig bleiben, Rückkehr anbieten, später W.I.N.)*
+5. Was gehört mindestens zu einer Berichtigung (M4.6)? *(die richtige Lösung selbst notieren und der Satz „Mein Denkfehler war …“)*
+6. Was bedeutet „Leistung in der Stunde ist nicht Lernen“ (M3.5)? *(Was heute klappt, kann in vier Wochen weg sein.)*
+7. Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)? *(„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“)*
+8. (Szene) Erste Woche nach Ferien: Wie sieht dein Routinen-Neustart aus? Zwei Sätze. *(Erwartung nennen und begründen, prüfen, ob sie verstanden ist, einmal üben)*
 
 ## Teil 2: Modul-Quiz Modul 5.1 (für SPA/Austauschwoche)
-**F1.** „Evie ist einfach unmotiviert." Diese Aussage ist…
-a) eine ehrliche, brauchbare Diagnose ✗ *(die Lehrerzimmer-Diagnose)*
-b) eine Eigenschafts-Zuschreibung – korrekt wäre die Situationsbeschreibung (E×W÷K analysieren) ✓
-c) beleidigend, aber wahr ✗
-d) nur mit Elterngespräch zu klären ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Evies Erwartung liegt bei null. Du machst das Thema spektakulär spannend. Ergebnis:
-a) Motivation steigt – Interesse zieht ✗ *(das Motivations-Feuerwerk)*
-b) null × hoher Wert = null; erst muss die Erwartung einen Riss bekommen ✓
-c) Motivation steigt langfristig ✗
-d) hängt vom Thema ab ✗
+**F1.** Eine Kollegin sagt: „Evie ist einfach unmotiviert.“ Du weißt: Evie trainiert dreimal pro Woche freiwillig Handball. Was folgt daraus?
+a) Motivation ist eine Eigenschaft, Evie hat sie nur im Sport. ✗ *(Dann wäre sie keine Eigenschaft, sondern hinge von der Situation ab.)*
+b) Evie ist der Sport wichtiger als die Schule. ✗ *(Das beschreibt, erklärt aber nicht, was in Mathe anders ist.)*
+c) Motivation hängt von der Situation ab. Zu klären ist, wie es in Mathe um Erwartung, Wert und Kosten steht. ✓ *(„Unmotiviert“ beschreibt eine Situation, keine Person. Situationen lassen sich ändern.)*
+d) Das muss mit den Eltern geklärt werden. ✗ *(Zuerst lohnt der Blick auf den eigenen Unterricht.)*
 
-**F3.** Die gefährlichste Kosten-Währung im Klassenzimmer:
-a) Zeitaufwand ✗
-b) Blamage-Risiko vor der Gruppe ✓
-c) Materialkosten ✗
-d) Hausaufgabenlänge ✗
+**F2.** Evie rechnet fest damit, in Mathe zu scheitern. Du gestaltest das nächste Thema besonders spannend. Was ist zu erwarten?
+a) Wenig: Wer sicher mit dem Scheitern rechnet, strengt sich auch bei einem spannenden Thema nicht an. ✓ *(Erwartung mal Wert: Ist die Erwartung null, bleibt das Ergebnis null. Zuerst braucht Evie einen Erfolg.)*
+b) Das Interesse reißt sie mit. ✗ *(Interesse erhöht den Wert. Die Erwartung bleibt bei null.)*
+c) Es wirkt, aber erst nach einigen Wochen. ✗ *(Auch auf Dauer ändert der Wert nichts an der Erwartung.)*
+d) Das hängt vom Thema ab. ✗ *(Das Thema ändert nichts daran, dass sie mit dem Scheitern rechnet.)*
 
-**F4.** „Du bist halt schlau" vs. „Du hast die Probe gemacht":
-a) beides Lob, beides gut ✗ *(fühlt sich gleich an)*
-b) Talent-Attribution macht Misserfolg zur Identitätsfrage; Vorgehens-Attribution macht Erfolg wiederholbar ✓
-c) Talent-Lob ist ehrlicher ✗
-d) der Unterschied ist akademisch ✗
+**F3.** Was kostet Schüler im Unterricht am meisten?
+a) Die Zeit, die eine Aufgabe braucht. ✗ *(Zeit zählt, aber weniger als gedacht.)*
+b) Die Anstrengung beim Denken. ✗ *(Anstrengung wird in Kauf genommen, wenn Erfolg möglich scheint.)*
+c) Die Langeweile bei Wiederholungen. ✗ *(Langeweile ist unangenehm, aber nicht gefährlich.)*
+d) Das Risiko, sich vor der Klasse zu blamieren. ✓ *(Vor anderen zu scheitern wiegt für Jugendliche schwerer als jede Hausaufgabe.)*
 
-**F5.** Ein Punktesystem für Hausaufgaben ist…
-a) grundsätzlich schädlich ✗ *(Überkorrektur)*
-b) eine temporäre Starthilfe mit geplantem Ausstieg – parallel am echten Erfolg bauen ✓
-c) die Dauerlösung für schwache Klassen ✗ *(der Kredit mit Zinsen)*
-d) nur in der Grundschule wirksam ✗
+**F4.** Welches Lob macht einen Erfolg wiederholbar?
+a) „Du bist einfach begabt in Mathe.“ ✗ *(Begabung kann man nicht wählen. Der nächste Misserfolg stellt sie infrage.)*
+b) „Du hast die Probe gemacht, deshalb stimmt es.“ ✓ *(Das Vorgehen kann der Schüler morgen wieder wählen.)*
+c) „Heute lief es richtig gut bei dir.“ ✗ *(Freundlich, aber er erfährt nicht, woran es lag.)*
+d) „Siehst du, wenn du willst, kannst du es.“ ✗ *(Das unterstellt, er habe vorher nicht gewollt.)*
+
+**F5.** Du überlegst, ein Punktesystem für erledigte Hausaufgaben einzuführen. Wie setzt du es ein?
+a) Dauerhaft, damit die Wirkung anhält. ✗ *(Auf Dauer geht es dann um die Punkte, nicht mehr um die Sache.)*
+b) Gar nicht, Belohnungen schaden immer. ✗ *(Die Überkorrektur. Als Starthilfe können sie nützen.)*
+c) Als Starthilfe mit geplantem Ende. Zugleich sorge ich für echte Erfolge. ✓ *(Sparsam, befristet, mit Ausstieg.)*
+d) Nur, wenn die Klasse darüber abstimmt. ✗ *(Die Abstimmung ändert nichts an der Wirkung.)*
 
 **F6 (Transfer, Freitext):** Dein Evie-Fall verweigert jede Textaufgabe. Analysiere in drei Sätzen mit EVK und benenne die EINE Maßnahme samt Diskretions-Plan. *(Muster: E vermutlich Engpass [Misserfolgsgeschichte bei Textaufgaben], K hoch [Blamage beim Vorlesen/Scheitern], W unklar → Maßnahme: Vorentlastung der morgigen Schlüsselaufgabe im 2-Min-Einzelkontakt nach der Stunde – diskret, nie vor Publikum; Messpunkt: Beteiligt er sich morgen bei genau dieser Aufgabe?)*
 
