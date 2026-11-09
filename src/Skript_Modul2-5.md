@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was tue ich eigentlich, während die Klasse arbeitet? |
 | **Kernquellen** | Lovell/Dowley, Routine 9 (Independent Practice); Lemov, *Teach Like a Champion* (Circulate, Active Observation); Rosenshine P9 (selbstständiges Üben verlangen und begleiten) |
-| **Funktion im Jahr** | Vertieft Frage 5 aus M2.1 (Allein üben: Gelingt den meisten die Einzelarbeit, und was tue ich währenddessen?). Vervollständigt I do – We do – You do. Macht die Einzelarbeit vom blinden Fleck der Stunde zu der Phase, in der man am meisten über die Klasse erfährt: Der Prüf-Fokus liefert das Material für den neuen Anlauf (M4.6) und die Rückmeldung an die ganze Klasse (M6.3); die Route knüpft an den Blick in den Raum aus M1.5 an. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
+| **Funktion im Programm** | Vertieft Frage 5 aus M2.1 (Allein üben: Gelingt den meisten die Einzelarbeit, und was tue ich währenddessen?). Vervollständigt I do – We do – You do. Macht die Einzelarbeit vom blinden Fleck der Stunde zu der Phase, in der man am meisten über die Klasse erfährt: Der Prüf-Fokus liefert das Material für den neuen Anlauf (M4.6) und die Rückmeldung an die ganze Klasse (M6.3); die Route knüpft an den Blick in den Raum aus M1.5 an. Gruppenhospitation 2 wird vorbereitet (Fokus I do / We do). |
 | **Lernziele** | Die TN können:<br>1. eine Einzelarbeit mit den fünf Startbedingungen eröffnen,<br>2. mit geplanter Route und vorher festgelegtem Prüf-Fokus durch den Raum gehen, dabei Hefte lesen und Einzelhilfen kurz halten,<br>3. wiederkehrende Fehler erkennen und in einer Sammelklärung für alle aufgreifen. |
 | **Sitzungstyp** | Planungs- und Analysewerkstatt mit Fallarbeit; das Rollenspiel pausiert, dafür wird am eigenen Sitzplan gearbeitet. |
 

@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Warum strengen sich Menschen für Räume an, in denen sie gesehen werden – und wer ist in meiner Klasse unsichtbar? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build belonging"); Verzahnung: Modell 5 (Auftakt), Heatmap (M4.2), Cold Call als Voice Equity, W.I.N. (M1.7) |
-| **Funktion im Jahr** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (M4.2) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
+| **Funktion im Programm** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (M4.2) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
 | **Lernziele** | Die TN können:<br>1. Belonging in der EVK-Mechanik verorten (Wert-Faktor UND Kosten-Senker),<br>2. die eigene Klasse per Unsichtbarkeits-Inventur auf dem Sitzplan analysieren (grün/gelb/rot),<br>3. Mikromomente planen und in vorhandene Zeitfenster legen (Minute vor dem Ritual, erster Rundgang, Türmoment am Ende),<br>4. Vertrauen als „Zusagen halten" operationalisieren. |
 | **Sitzungstyp** | Inventur-Werkstatt am eigenen Sitzplan – die stillste und persönlichste Sitzung des Blocks. |
 

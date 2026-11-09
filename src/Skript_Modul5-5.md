@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie mache ich Eltern zu Verbündeten – auch die schwierigen? |
 | **Kernquellen** | Lovell/Dowley (Elternkommunikation, Bank Positivity R-Prinzip auf Erwachsene übertragen); Verzahnung: W.I.N. (M1.7), Beziehungskonto (M1.6), Warm/Strict (M1.4) als Vorläufer der Grenz-Formel, deutsche Schulformate |
-| **Funktion im Jahr** | Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Jahres auf Erwachsene – die große Entlastungs-Pointe: Die TN KÖNNEN die Struktur längst. Positiv-Kontakte als Konto-Logik; der Gesprächs-Vierschritt als W.I.N. für Erwachsene; die Grenz-Formel für Angriffe. Deutsche Spezifika (Sprechtag, Dokumentationspflicht, Nie-allein-Regel) verankern es im realen System. Block-5-Quiz + 5-Treiber-Poster + Matrix-Update. |
+| **Funktion im Programm** | Block-5-Finale: überträgt die Beziehungs- und Gesprächswerkzeuge des Programms auf Erwachsene – die große Entlastungs-Pointe: Die TN KÖNNEN die Struktur längst. Positiv-Kontakte als Konto-Logik; der Gesprächs-Vierschritt als W.I.N. für Erwachsene; die Grenz-Formel für Angriffe. Deutsche Spezifika (Sprechtag, Dokumentationspflicht, Nie-allein-Regel) verankern es im realen System. Block-5-Quiz + 5-Treiber-Poster + Matrix-Update. |
 | **Lernziele** | Die TN können:<br>1. proaktive Positiv-Kontakte als System etablieren (erster Kontakt nie Problemkontakt),<br>2. ein Problemgespräch mit dem Vierschritt führen (gemeinsames Ziel → Fakten → Zuhören → Schritte + Termin),<br>3. Angriffe mit der Grenz-Formel beantworten (Verständnis + Sache + Angebot) und wissen, wann sie nicht mehr allein sprechen,<br>4. die deutschen Formate bedienen (Sprechtag effizient, Gesprächsnotiz als Standard). |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Eltern-Rollenspiele (3 Rollenkarten) + Konsolidierungs-Ritual. |
 
@@ -63,9 +63,9 @@ Dreiergruppen (Lehrkraft / Elternteil / Beobachter), **3 Runden à 6 Min.** (4 M
 
 ## Phase 5 · Konsolidierung Block 5 (Minute 48–56)
 
-**5-Treiber-Poster (4 Min.):** Gemeinsam an der Wand vervollständigen: Zu jedem Treiber rufen die TN ihr stärkstes Werkzeug + eine eigene Erfahrung der letzten Wochen zu (Moderation notiert) – das Poster bleibt bis Jahresende hängen. Schlusssatz: *„Fünf Treiber, und fast jedes Werkzeug stand schon vorher in eurem Playbook – Motivation war nie ein Extra-Fach. Sie ist die Nebenwirkung von gutem Unterricht in einem Raum, in dem man gesehen wird."*
+**5-Treiber-Poster (4 Min.):** Gemeinsam an der Wand vervollständigen: Zu jedem Treiber rufen die TN ihr stärkstes Werkzeug + eine eigene Erfahrung der letzten Wochen zu (Moderation notiert) – das Poster bleibt bis zum Programmende hängen. Schlusssatz: *„Fünf Treiber, und fast jedes Werkzeug stand schon vorher in eurem Playbook – Motivation war nie ein Extra-Fach. Sie ist die Nebenwirkung von gutem Unterricht in einem Raum, in dem man gesehen wird."*
 
-**Kompetenzmatrix (2 Min.):** Feld 8 + freie Felder aktualisieren (an Coach). **Peer-Hospitation 5:** Stand kurz abfragen, Nachbesprechungs-Termine bestätigen.
+**Kompetenzmatrix (2 Min.):** Feld 10 (Motivation, Beziehung & Eltern) und Feld 3 (Intervention & Präsenz) aktualisieren (an Coach). **Peer-Hospitation 5:** Stand kurz abfragen, Nachbesprechungs-Termine bestätigen.
 
 ## Phase 6 · Action Step (Minute 56–58)
 
@@ -92,7 +92,7 @@ Erweitert (Blockabschluss):
   1. **Gesprächsprobe:** Falls ein reales Elterngespräch ansteht → mit dem Vierschritt-Skriptbogen im 1:1 durchspielen (Coach als Elternteil, ruhig fordernd); Grenz-Formel einmal laut.
   2. **Positiv-Kontakt-Check:** Die zwei Kontakte konkret planen – welche Kinder, welcher Anlass (muss WAHR und konkret sein!), wann.
 - **Peer-Hospitation 5 nachbesprechen** (Bogen M5.4): Treiber-Landkarte über beide Stunden; die Kohorte würdigen – es war die letzte Gruppenhospitation, die Öffnungskultur ist ein Programmergebnis, das aussprechen.
-- **Meilenstein-Check Block 5:** Matrix Feld 8; EVK-Fall-Bilanz (M5.1 → M5.5): Was hat sich beim eigenen Fall bewegt? (Auch „wenig" ist ein ehrliches, besprechbares Ergebnis – Zeithorizonte von Motivationsarbeit realistisch rahmen.)
+- **Meilenstein-Check Block 5:** Matrix Felder 10 und 3; EVK-Fall-Bilanz (M5.1 → M5.5): Was hat sich beim eigenen Fall bewegt? (Auch „wenig" ist ein ehrliches, besprechbares Ergebnis – Zeithorizonte von Motivationsarbeit realistisch rahmen.)
 - **Red Flag 1:** TN nutzt den Positiv-Kontakt als trojanisches Pferd („…und wo ich Sie gerade dranhabe: Emre stört auch ständig") → hart trennen: Der Positiv-Kontakt stirbt an jedem Aber. **Red Flag 2:** anstehendes Eskalations-Elterngespräch, TN plant allein hinzugehen → Nie-allein-Regel aktivieren, Begleitung organisieren.
 
 ---
@@ -161,5 +161,5 @@ d) nur in der Grundschule ✗
 3. **Name it (3 Min.):** Vierschritt + Grenz-Formel + Systemregeln als Karten; Fakt/Wertung-Swipe mit Elternsätzen.
 4. **Do it – Elterngespräch-Simulator (9 Min., Engine-Highlight!):** Die 3 Rollenkarten als verzweigte Dialoge (KI-Elternantworten nach Regieanweisung); Karte 2 mit Rechtfertigungsspiralen-Detektor (jede Verteidigung ohne Grenz-Formel lässt Krause nachbohren), Karte 3 als Telefon-UI mit 4-Minuten-Countdown; Scoring: Ziel-Satz zuerst, Fakten, Zuhör-Zug vor Lösungs-Zug, Termin am Ende.
 5. **Positiv-Kontakt-Planer:** 2 Kinder wählen (Vorschlag aus Modul-5.3-Inventur: die Roten!), Anlass-Feld (Wahrheits-Check), Wochen-Erinnerung; Gesprächsnotiz-Formular mit 2-Minuten-Timer.
-6. **Block-5-Abschluss:** 5-Treiber-Poster als ausfüllbare Matrix mit Export; Block-5-Quiz aus dem Pool; Matrix-Update Feld 8.
+6. **Block-5-Abschluss:** 5-Treiber-Poster als ausfüllbare Matrix mit Export; Block-5-Quiz aus dem Pool; Matrix-Update Felder 10 und 3.
 7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F3/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „2 Positiv-Kontakte" mit Kein-Aber-Checkbox.

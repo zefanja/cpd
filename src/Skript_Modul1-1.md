@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie mache ich unsichtbare Erwartungen sichtbar und lehrbar? |
 | **Kernquellen** | Lovell/Dowley, Prinzip 3 („Start with high expectations") und Prinzip 5 („Behaviour is a curriculum"); Lemov T52 (Vorgriff), T61 Warm/Strict (Vorgriff) |
-| **Funktion im Jahr** | Erstes echtes Technik-Modul. Legt die Grundlage für ALLE Routinen (M1.2–1.7): Bevor man Routinen baut, muss man Erwartungen formulieren können. Liefert das Umformulierungs-Handwerk „vage → spezifisch", das in M1.3 (Anweisungen) direkt wiederverwendet wird. |
+| **Funktion im Programm** | Erstes echtes Technik-Modul. Legt die Grundlage für ALLE Routinen (M1.2–1.7): Bevor man Routinen baut, muss man Erwartungen formulieren können. Liefert das Umformulierungs-Handwerk „vage → spezifisch", das in M1.3 (Anweisungen) direkt wiederverwendet wird. |
 | **Lernziele** | Die TN können:<br>1. erwünschtes Verhalten so konkret beschreiben wie einen Lerninhalt,<br>2. eine vage Erwartung nach 5 Kriterien nachschärfen,<br>3. eine Erwartungs-Einführung inkl. Begründung und Verständnis-Check skripten. |
 | **Sitzungstyp** | Technik-Training (Schreiben + Sprechen). Erste Sitzung mit vollem Standardraster inkl. Rollenspiel-Elementen. |
 

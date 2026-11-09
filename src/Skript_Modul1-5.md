@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie reagiere ich auf kleine Störungen, ohne den Unterricht zu unterbrechen? |
 | **Kernquellen** | Lemov T55 (Least Invasive Intervention), Teacher Radar / „Pastore's Perch"; Lovell/Dowley, Routine 9 (Responding to low-level disruption) |
-| **Funktion im Jahr** | Das meistgewünschte Modul des Blocks – hier zahlt sich alles Vorherige aus: Erwartungen (M1.1) definieren, WAS eine Störung ist; Präsenz (M1.4) trägt jede Stufe. Die Leiter wird Referenzwerkzeug für M1.6 (Positiv-Rahmung der Stufen 2–3), M4.3 (hartnäckige Verweigerung) und M5.4 (Eskalation jenseits der Leiter). Direkt anschließend: Gruppenhospitation 1. |
+| **Funktion im Programm** | Das meistgewünschte Modul des Blocks – hier zahlt sich alles Vorherige aus: Erwartungen (M1.1) definieren, WAS eine Störung ist; Präsenz (M1.4) trägt jede Stufe. Die Leiter wird Referenzwerkzeug für M1.6 (Positiv-Rahmung der Stufen 2–3), M4.3 (hartnäckige Verweigerung) und M5.4 (Eskalation jenseits der Leiter). Direkt anschließend: Gruppenhospitation 1. |
 | **Lernziele** | Die TN können:<br>1. das 100 %-Prinzip begründen,<br>2. die sechs Stufen der Interventionsleiter in Reihenfolge anwenden und bewusst auf der kleinsten wirksamen einsteigen,<br>3. ihre Raumposition und ihr Scannen als präventives Radar gestalten. |
 | **Sitzungstyp** | Technik-Training mit dem intensivsten Rollenspiel des Blocks (Stufen-Karussell). |
 

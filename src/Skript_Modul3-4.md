@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Warum ist Erinnern-Müssen die stärkste Lernaktivität – und wie baue ich sie ein? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Retrieval); Lemov T7 (Retrieval Practice); *Make It Stick* (Testing Effect); Ebbinghaus (aus M3.1) |
-| **Funktion im Jahr** | Der Zahltag des Blocks: Die seit M1.2 gelebte Do-Now-Praxis und die Retrieval-Starter jeder Sitzung bekommen ihre Theorie – gemessen am eigenen Selbstexperiment (Setup in M3.3). Die 3-2-1-Batterie wird Dauerwerkzeug; die Benotungsfrei-Regel bereitet die Fehlerkultur (M4.1) vor; das Formate-Karussell festigt nebenbei den Jahresstoff (Meta-Doppelnutzen). |
+| **Funktion im Programm** | Der Zahltag des Blocks: Die seit M1.2 gelebte Do-Now-Praxis und die Retrieval-Starter jeder Sitzung bekommen ihre Theorie – gemessen am eigenen Selbstexperiment (Setup in M3.3). Die 3-2-1-Batterie wird Dauerwerkzeug; die Benotungsfrei-Regel bereitet die Fehlerkultur (M4.1) vor; das Formate-Karussell festigt nebenbei den Programmstoff (Meta-Doppelnutzen). |
 | **Lernziele** | Die TN können:<br>1. den Testing Effect erklären und mit dem eigenen Experiment belegen,<br>2. die Flüssigkeits-Illusion („Wiederlesen fühlt sich besser an") benennen und kontern,<br>3. vier Retrieval-Formate unterrichtspraktisch einsetzen,<br>4. eine 3-2-1-Starter-Batterie für die eigene Klasse bauen. |
 | **Sitzungstyp** | Experiment-Auflösung + Stationen-Karussell – die erlebnisreichste Sitzung des Blocks. |
 
@@ -59,7 +59,7 @@
 
 ## Phase 5 · Do it: Formate-Karussell (Minute 30–50)
 
-**Meta-Rahmung laut aussprechen:** *„Ihr durchlauft jetzt vier Retrieval-Formate – und der Stoff, den ihr dabei abruft, ist unser Jahresstoff. Doppelter Nutzen: Ihr lernt die Formate von innen, und ihr festigt nebenbei die Blöcke 1 bis 3."*
+**Meta-Rahmung laut aussprechen:** *„Ihr durchlauft jetzt vier Retrieval-Formate – und der Stoff, den ihr dabei abruft, ist unser Programmstoff. Doppelter Nutzen: Ihr lernt die Formate von innen, und ihr festigt nebenbei die Blöcke 1 bis 3."*
 
 **4 Stationen à 4,5 Min. (Rotation im Uhrzeigersinn):**
 - **Station 1 – Quiz-Zettel:** 6 Fragen quer durch die Blöcke, still, Selbstkorrektur per Lösungskarte.
@@ -80,7 +80,7 @@
 1. Brain Dump als Einheiten-Abschluss einführen (letzte 5 Min. vor jedem Themenwechsel).
 2. Lernberatungs-Mini: der Klasse in 5 Minuten die Flüssigkeits-Illusion erklären (Textmarker-Rede!) – Vorgriff auf M3.6-Metakognition.
 
-> **Ausblick:** *„Beim nächsten Input die unbequemste Erkenntnis des Jahres: Warum die Stunde, die sich am glattesten anfühlt, oft nicht die lernwirksamste ist – Spacing, Interleaving und der Unterschied zwischen Lernleistung und Lernen."*
+> **Ausblick:** *„Beim nächsten Input die unbequemste Erkenntnis des Programms: Warum die Stunde, die sich am glattesten anfühlt, oft nicht die lernwirksamste ist – Spacing, Interleaving und der Unterschied zwischen Lernleistung und Lernen."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -119,7 +119,7 @@ Batterie-Vorlage: Tabelle mit Spalten „Frage | Quelle (Ticket/Meilenstein vom 
 
 ## Teil 2: Modul-Quiz Modul 3.4 (für SPA/Austauschwoche)
 **F1.** Wiederlesen fühlt sich flüssig an, Selbstabfrage mühsam. Daraus folgt:
-a) Wiederlesen ist der effektivere Weg ✗ *(DIE Illusion – Kern-Distraktor des Jahres)*
+a) Wiederlesen ist der effektivere Weg ✗ *(DIE Illusion – Kern-Distraktor des Programms)*
 b) Die Mühe des Abrufs ist der Lerneffekt ✓
 c) Beides ist gleichwertig, Geschmackssache ✗
 d) Abfrage taugt nur für Fakten ✗
@@ -158,5 +158,5 @@ d) Transfer braucht kein Wissen ✗
 2. **See it (3 Min.):** Ebbinghaus-Kurve interaktiv: Jeder Abruf-Klick knickt die Kurve nach oben und flacht den Zerfall – der „Kurven-Bruch" als Kernbild.
 3. **Name it (3 Min.):** Gütekriterien + Formate-Landkarte als Karten; Fehlersuche: 4 beschriebene Quiz-Praxen → welches Kriterium verletzt?
 4. **Do it – 3-2-1-Baukasten (8 Min., Engine!):** zieht automatisch die eigenen Ticket-Aufgaben (Modul 2.6) und Meilenstein-Prüffragen (Modul 2.2) als Fragenquelle; Nutzer kategorisiert und terminiert; Export als Wochen-Starter-Set.
-5. **Die SPA lebt es selbst (Dauerfeature ab hier prominent):** Karteikarten-Engine über alle Module wird freigeschaltet/beworben – „Du hast gerade bewiesen, dass es wirkt. Ab jetzt fragt dich die App ab." (Spaced-Retrieval über den Jahresstoff.)
-6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind DIE Langzeit-Anker des Jahres. **Abschluss:** Action-Step-Formular mit Trainings-Satz-Checkbox + Klassenreaktions-Log (Tag 1 vs. Tag 5).
+5. **Die SPA lebt es selbst (Dauerfeature ab hier prominent):** Karteikarten-Engine über alle Module wird freigeschaltet/beworben – „Du hast gerade bewiesen, dass es wirkt. Ab jetzt fragt dich die App ab." (Spaced-Retrieval über den Programmstoff.)
+6. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2 sind DIE Langzeit-Anker des Programms. **Abschluss:** Action-Step-Formular mit Trainings-Satz-Checkbox + Klassenreaktions-Log (Tag 1 vs. Tag 5).

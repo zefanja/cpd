@@ -1,4 +1,4 @@
-# Skript Modul 3.6: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Halbjahres-Meilenstein)"
+# Skript Modul 3.6: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Meilenstein Jahr 1)"
 ## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie helfe ich Schülern, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
-| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (M3.1) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in M6.2/6.3 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit M0-Vergleich, Video-Selbstanalyse Nr. 2. |
+| **Funktion im Programm** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (M3.1) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in M6.2/6.3 wieder). Meilenstein zum Ende des ersten Programmjahres: Kompetenzmatrix-Erhebung 2 mit M0-Vergleich, Video-Selbstanalyse Nr. 2. |
 | **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Doppel-Input + KO-Werkstatt + Meilenstein-Ritual. Zeitdisziplin wie M2.6. |
 
@@ -62,13 +62,13 @@ Einzelarbeit: KO für die laufende eigene Einheit bauen (Blanko) – Zeitdruck i
 ### Runde 3 · Härtetest (Min. 46–48)
 Tandem: Partner deckt die rechte Spalte ab und fragt sich selbst 60 Sekunden ab – funktioniert der KO als Abfragewerkzeug? Zwei Fragenfächer-Fragen dazu formulieren (Elaboration am eigenen KO).
 
-## Phase 6 · Meilenstein Halbjahr & Action Step (Minute 48–58)
+## Phase 6 · Meilenstein Jahr 1 & Action Step (Minute 48–58)
 
 **9-Prinzipien-Poster (3 Min.):** Matrix „McCrea-Prinzip × mein Unterrichtsbeispiel" – mindestens 6 von 9 aus dem Gedächtnis füllen (selbst ein Brain Dump!); Rest offen lassen, wird im Coaching vervollständigt.
 
-**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 8 Felder neu einschätzen. 
+**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 10 Felder neu einschätzen. 
 
-> *„Euer Coach legt diese Woche den M0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein halbes Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
+> *„Euer Coach legt diese Woche den M0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
 
 **Ansage Video-Selbstanalyse Nr. 2 (1 Min.):** wie M1.7 (Anleitung liegt im Playbook), diesmal mit frei wählbarem Fokus aus Block 2/3 – VOR dem Meilenstein-Gespräch.
 
@@ -89,14 +89,14 @@ Erweitert (Blockabschluss):
 
 ---
 
-# 4. Coaching-Modul 3.6: Meilenstein-Gespräch Halbjahr (Handreichung, 45–60 Min.)
+# 4. Coaching-Modul 3.6: Meilenstein-Gespräch Jahr 1 (Handreichung, 45–60 Min.)
 
 **Struktur:**
 
-1. **Matrix-Vergleich M0 → M1.7 → M3.6 (15 Min.; M1.7-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen.
+1. **Matrix-Vergleich M0 → M1.7 → M3.6 (15 Min.; M1.7-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des ersten Jahres – Zeit dafür lassen.
 2. **Video-Selbstanalyse Nr. 2 (20 Min.):** wie M1.7-Format; Vergleichsfrage: „Was siehst du heute, was du in Modul 1.7 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.)
 3. **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen.
-4. **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
+4. **Jahres-Bilanz & Ausblick auf Jahr 2 (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren (er überbrückt die Sommerferien und wird in M4.1 wieder aufgenommen). Erschöpfungs-Check (Zeugnis-Stress am Schuljahresende!): ggf. Entlastungs-Deal, Verweis auf Block 6.
 
 **Red Flags:** Matrix zeigt Stagnation/Rückschritt in Feldern 1–3 (Klassenführung) → kein Drama, aber Priorität: Block-4-Techniken BRAUCHEN das Fundament; ggf. gezielten Reparatur-Plan vor M4.2 (Cold Call ohne Klassenkultur wird toxisch). TN will den KO „für alle Einheiten sofort" bauen → Lean-Bremse: einer pro Einheit, ab jetzt, reicht.
 
@@ -170,5 +170,5 @@ d) Eltern ihn einfordern ✗
 3. **Name it (3 Min.):** KO-Gütecheck + Elaborations-Check als Karten; Negativ-KO als Suchbild („Finde 4 Verstöße").
 4. **Do it – KO-Editor (8 Min., Engine!):** zweispaltige Struktur (Begriff | Definition verdeckbar) + Schaubild-Platzhalter + Zusammenhangs-Zeilen; harte Limits als Feature (max. 15 Begriffe, 1 Seite – die App erzwingt das Destillat!); Abfrage-Modus eingebaut (rechte Spalte blenden = Retrieval-Quelle, verzahnt mit der Karteikarten-Engine aus Modul 3.4!); Export/Druck für die Klasse.
 5. **Fragenfächer-Generator:** Kategorie würfeln → Frage zum eigenen Thema formulieren → Wiedergabe-Test als Selbst-Check-Prompt.
-6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz M0/M1.7/M3.6** als Highlight-Screen (drei Linien übereinander; M1.7-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des Halbjahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
+6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz M0/M1.7/M3.6** als Highlight-Screen (drei Linien übereinander; M1.7-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des ersten Jahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
 7. **Abschluss:** Action-Step-Formular „KO + Rede" mit Board-Blitz-Ergebnisfeld („drei Stichworte der Klasse notieren").

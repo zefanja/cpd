@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
 | **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
-| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (M4.2–4.6) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert die Idealantwort (M2.2) und die Fallen-Sammlung (M2.3) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
+| **Funktion im Programm** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (M4.2–4.6) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert die Idealantwort (M2.2) und die Fallen-Sammlung (M2.3) in die Stundenvorbereitung. Erste Sitzung des zweiten Programmjahres (nach den Sommerferien, meist mit neuen Klassen): Re-Establish-Segment integriert. |
 | **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
 | **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
 

@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
 | **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
-| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht die Idealantwort (M2.2) als Maßstab; Break It Down (M2.4) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in M6.2 wieder). |
+| **Funktion im Programm** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht die Idealantwort (M2.2) als Maßstab; Break It Down (M2.4) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in M6.2 wieder). |
 | **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Idealantwort als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
 | **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
 

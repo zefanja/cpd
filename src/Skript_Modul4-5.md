@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie sehe ich in Echtzeit, was 30 Köpfe denken – und wie nutze ich Schülerarbeiten öffentlich? |
 | **Kernquellen** | Lemov T10 (Show Me), T11 (Affirmative Checking), T13 (Show Call) |
-| **Funktion im Jahr** | Macht die seit M2.4 nebenbei genutzten Whiteboards zur vollwertigen Technik (mit eigener Routine!) und führt mit Show Call die stärkste Feedback-Form ein – möglich erst JETZT, weil Fehlerkultur (M4.1) und Everybody-Writes-Material (M4.4) vorliegen. Affirmative Checking schließt die M2.4-Lücke „eingeübte Fehler". Show Call kehrt in M5.2 (Normen-Maschine) und M6.3 (Whole-Class-Feedback) wieder. Vorbereitung der ersten PEER-Hospitation (GH 4). |
+| **Funktion im Programm** | Macht die seit M2.4 nebenbei genutzten Whiteboards zur vollwertigen Technik (mit eigener Routine!) und führt mit Show Call die stärkste Feedback-Form ein – möglich erst JETZT, weil Fehlerkultur (M4.1) und Everybody-Writes-Material (M4.4) vorliegen. Affirmative Checking schließt die M2.4-Lücke „eingeübte Fehler". Show Call kehrt in M5.2 (Normen-Maschine) und M6.3 (Whole-Class-Feedback) wieder. Vorbereitung der ersten PEER-Hospitation (GH 4). |
 | **Lernziele** | Die TN können:<br>1. eine Whiteboard-Routine skripten und einführen (Schreibsignal → Stille → 3-2-1-hoch → Scan → Entscheidung),<br>2. Checkpoints in Arbeitsphasen einbauen,<br>3. eine Show-Call-Moderation im Dreischritt führen (würdigen → präzise verbessern → Transfer) – bei fehlerhaften UND exzellenten Arbeiten. |
 | **Sitzungstyp** | Technik-Training mit Live-Erleben + Moderations-Übung an echten Arbeiten. |
 

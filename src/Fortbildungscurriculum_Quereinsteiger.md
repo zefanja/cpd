@@ -1,5 +1,5 @@
 # Fortbildungs-Curriculum für Quereinsteiger (Sek I/II)
-## 35 Module in 6 Blöcken, Input im Zwei-Wochen-Rhythmus – Grundlage für die Selbstlern-SPAs
+## 35 Module in 6 Blöcken über zwei Schuljahre, Input im Zwei-Wochen-Rhythmus – Grundlage für die Selbstlern-SPAs
 
 ---
 
@@ -71,13 +71,22 @@ Modell: **Instructional Coaching** nach Bambrick-Santoyo/Steplab-Logik:
 | 5 | 5.1–5.5 | Motivation & Beziehung | McCrea „Motivated Teaching"; Lemov Kap. 9 |
 | 6 | 6.1–6.5 | Planung, Arbeitsökonomie & nachhaltige Entwicklung | McCrea „Lean Lesson Planning" |
 
+**Zeitachse: zwei Schuljahre.** 35 Module im Zwei-Wochen-Rhythmus ergeben rund 70 Programmwochen:
+
+| Programmjahr | Inhalte | Inputs | Abschluss |
+|---|---|---|---|
+| **Jahr 1** | Modul 0 (vor Unterrichtsbeginn), Blöcke 1–3 | 19 | Meilenstein-Gespräch nach M3.6 (Matrix-Erhebung 2, Video-Selbstanalyse Nr. 2) |
+| **Jahr 2** | Blöcke 4–6 | 16 | Abschluss-Kolloquium M6.5 (Matrix-Erhebung 3, Zertifikat) |
+
+Jahr 1 ist mit 19 Inputs knapp gefüllt. Reicht der Ferienkalender nicht, wandert M3.6 an den Beginn von Jahr 2; Jahr 2 hat dafür Luft. Der Wechsel in Jahr 2 passt inhaltlich: Block 4 beginnt mit einem Routinen-Neustart, den neue Klassen ohnehin brauchen.
+
 Modulnummern folgen dem Schema **Block.Thema** (Modul 2.2 = Block 2, Thema 2) und sind unabhängig vom Kalender. Ferienwochen (Herbst, Weihnachten, Winter/Fasching, Ostern, Pfingsten je nach Bundesland) sind **Puffer**; die 35 Module lassen sich im Zwei-Wochen-Rhythmus auf jeden Ferienkalender legen. Nach jeder Ferienphase beginnt die erste Sitzung mit einem erweiterten Retrieval-Block (Reaktivierung statt neuem Stoff).
 
-**Wichtige Dramaturgie:** Nach längeren Ferien (v. a. Weihnachten und Ostern) werden bewusst „Re-Establish"-Momente eingebaut: Routinen neu setzen, denn nach Ferien verfallen sie – das ist normal und wird explizit trainiert.
+**Wichtige Dramaturgie:** Nach längeren Ferien (v. a. nach den Sommerferien zwischen Jahr 1 und Jahr 2) werden bewusst „Re-Establish"-Momente eingebaut: Routinen neu setzen, denn nach Ferien verfallen sie – das ist normal und wird explizit trainiert.
 
 ## 5. Leistungs- & Erfolgsnachweise
 - **Lehrportfolio** (wächst mit jedem Modul): Action-Step-Log, Baseline-Video (Modul 1.1) und 3 gefilmte Eigenanalysen (Module 1.7, 3.6, 6.4), Skriptsammlung, Exit-Ticket-Auswertungen.
-- **Meilenstein-Gespräche** nach Block 1 (M1.7), Block 3 (M3.6) und Block 6 (M6.5) (Selbst- und Fremdeinschätzung anhand einer Kompetenzmatrix; Vollerhebung der Matrix in M0/M3.6/M6.5, Teil-Updates in M1.7/M2.6/M4.6/M5.5).
+- **Meilenstein-Gespräche** nach Block 1 (M1.7), am Ende von Jahr 1 (M3.6) und am Programmende (M6.5) (Selbst- und Fremdeinschätzung anhand einer Kompetenzmatrix; Vollerhebung der Matrix in M0/M3.6/M6.5, Teil-Updates in M1.7 [Felder 1–3], M2.6 [4–5], M4.6 [6–7], M5.5 [10 und 3]).
 - **Abschluss-Kolloquium** (Modul 6.5): Präsentation der eigenen Entwicklung anhand von zwei Videoausschnitten (früh vs. spät).
 
 ---
@@ -98,11 +107,11 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## MODUL 0 · AUFTAKT (vor Unterrichtsbeginn): Kickoff & mentale Modelle · **90 Minuten**
 
-**Leitfrage:** Wie werde ich in einem Jahr eine handlungssichere Lehrkraft, warum verhalten sich Klassen so, wie sie sich verhalten – und wie funktioniert dieses Programm?
+**Leitfrage:** Wie werde ich in zwei Jahren eine handlungssichere Lehrkraft, warum verhalten sich Klassen so, wie sie sich verhalten – und wie funktioniert dieses Programm?
 
-**Hinweis zum Format:** Als einzige Sitzung des Jahres 90 statt 60 Minuten. Sie liegt vor Unterrichtsbeginn, deshalb ist die Länge organisierbar – und sie trägt zwei Funktionen: den Programm-Vertrag **und** das Grundlagenmodul (die fünf mentalen Modelle), auf das sich alle 35 Folgemodule beziehen.
+**Hinweis zum Format:** Als einzige Sitzung des Programms 90 statt 60 Minuten. Sie liegt vor Unterrichtsbeginn, deshalb ist die Länge organisierbar – und sie trägt zwei Funktionen: den Programm-Vertrag **und** das Grundlagenmodul (die fünf mentalen Modelle), auf das sich alle 35 Folgemodule beziehen.
 
-**Lernziele:** Die TN können den Jahresaufbau erklären, kennen die Formate (Input, Coaching, Hospitation), haben eine persönliche Zielvereinbarung geschrieben, verstehen das Prinzip „üben statt nur wissen" – und können die fünf mentalen Modelle in eigenen Worten erklären sowie eine reale Unterrichtssituation mit mindestens zwei davon deuten.
+**Lernziele:** Die TN können den Programmaufbau erklären, kennen die Formate (Input, Coaching, Hospitation), haben eine persönliche Zielvereinbarung geschrieben, verstehen das Prinzip „üben statt nur wissen" – und können die fünf mentalen Modelle in eigenen Worten erklären sowie eine reale Unterrichtssituation mit mindestens zwei davon deuten.
 
 **Kernideen:**
 1. Lehrer-Expertise ist **erlernbar und trainierbar** – sie besteht aus konkreten, benennbaren Techniken, nicht aus Talent oder Persönlichkeit (Lemov, Einleitung; Lovell/Dowley, Einleitung: Bill-Rogers-Anekdote).
@@ -127,7 +136,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Coaching-Fokus:** Kennenlerngespräch, Zielvereinbarung und Matrix entgegennehmen, Baseline-Video-Termin für Modul 1.1 fixieren (das Video wird erst in M1.7 und M6.5 geöffnet).
 
-**SPA-Bausteine:** Programm-Landkarte (interaktive Jahresübersicht); Selbsteinschätzungs-Slider zu 8 Kompetenzfeldern (wird in den Modulen 3.6 und 6.5 wiederholt → Fortschrittsvisualisierung); interaktives Schaubild Arbeits-/Langzeitgedächtnis; Drag-&-Drop: Situationen den 5 Modellen zuordnen; Fallanalyse „Doppelstunde Chemie" / „Die 8c bei Frau K."; Szenario-Quiz mit Fehlvorstellungs-Distraktoren; Reflexionsjournal für den Perspektivwechsel; Video „Was ist Deliberate Practice?"; Commitment-Generator (persönliches Ziel als Karte exportierbar).
+**SPA-Bausteine:** Programm-Landkarte (interaktive Jahresübersicht); Selbsteinschätzungs-Slider zu 10 Kompetenzfeldern (wird in den Modulen 3.6 und 6.5 wiederholt → Fortschrittsvisualisierung); interaktives Schaubild Arbeits-/Langzeitgedächtnis; Drag-&-Drop: Situationen den 5 Modellen zuordnen; Fallanalyse „Doppelstunde Chemie" / „Die 8c bei Frau K."; Szenario-Quiz mit Fehlvorstellungs-Distraktoren; Reflexionsjournal für den Perspektivwechsel; Video „Was ist Deliberate Practice?"; Commitment-Generator (persönliches Ziel als Karte exportierbar).
 
 ---
 
@@ -593,7 +602,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 # BLOCK 4: VERSTEHEN PRÜFEN & DENKBETEILIGUNG (Module 4.1–4.6)
 
-**Block-Rationale:** Der Sprung von „gut erklären" zu „wissen, ob es ankommt, und alle denken lassen". Lemovs Check-for-Understanding- und Ratio-Techniken bilden das technische Herzstück. Achtung Sequenz: Cold Call & Co. funktionieren erst auf der Basis von Klassenkultur (Block 1) und Fehlerkultur (Modul 4.1) – deshalb liegt dieser Block bewusst in der zweiten Jahreshälfte. Wichtig nach den Winterferien: Modul 4.1 beginnt mit einem kurzen „Routinen-Re-Establish"-Segment.
+**Block-Rationale:** Der Sprung von „gut erklären" zu „wissen, ob es ankommt, und alle denken lassen". Lemovs Check-for-Understanding- und Ratio-Techniken bilden das technische Herzstück. Achtung Sequenz: Cold Call & Co. funktionieren erst auf der Basis von Klassenkultur (Block 1) und Fehlerkultur (Modul 4.1) – deshalb liegt dieser Block bewusst am Beginn des zweiten Programmjahres. Wichtig nach den Sommerferien: Modul 4.1 beginnt mit einem kurzen „Routinen-Re-Establish"-Segment.
 
 ---
 
@@ -737,7 +746,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 # BLOCK 5: MOTIVATION & BEZIEHUNG (Module 5.1–5.5)
 
-**Block-Rationale:** Jetzt haben die TN die Werkzeuge – dieser Block erklärt den sozialen Motor dahinter und füllt die Lücken, die Technik allein nicht schließt: hartnäckige Motivationsprobleme, schwierige Einzelfälle, Eltern. Leitquelle: McCrea, „Motivated Teaching" (5 Treiber), plus Lemov Kap. „Building Student Motivation and Trust" und Lovells Eskalations-Routinen. Zeitlich klug: Das Frühjahrs-Motivationsloch (SuS wie Lehrkräfte) ist genau jetzt.
+**Block-Rationale:** Jetzt haben die TN die Werkzeuge – dieser Block erklärt den sozialen Motor dahinter und füllt die Lücken, die Technik allein nicht schließt: hartnäckige Motivationsprobleme, schwierige Einzelfälle, Eltern. Leitquelle: McCrea, „Motivated Teaching" (5 Treiber), plus Lemov Kap. „Building Student Motivation and Trust" und Lovells Eskalations-Routinen. Zeitlich klug: Im zweiten Jahr sitzen die Werkzeuge, und übrig bleiben die hartnäckigen Fälle.
 
 ---
 
@@ -770,7 +779,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können ihre Routinen (Block 1!) als Motivationsinstrument reinterpretieren und Normen sichtbar steuern (Sichtbarkeit erwünschten Verhaltens, Peer-Anerkennung, Sprache).
 
 **Kernideen (McCrea MoT, Treiber 2–3; Lemov Prinzip 4):**
-1. **Run Routines:** Routinen machen den *Prozess* des Lernens billig, damit die *Inhalte* fordernd sein können – die Motivations-Begründung für alles aus Block 1 (Aha-Moment des Jahres!).
+1. **Run Routines:** Routinen machen den *Prozess* des Lernens billig, damit die *Inhalte* fordernd sein können – die Motivations-Begründung für alles aus Block 1 (Aha-Moment des Programms!).
 2. **Nudge Norms:** Menschen tun, was (sie glauben, dass) die Gruppe tut. Erwünschtes sichtbar machen („Viele haben gestern die Zusatzaufgabe versucht"), NIE Negativ-Normen versehentlich verstärken („Keiner macht je Hausaufgaben!" ist Werbung fürs Nichtstun).
 3. **Peer-Anerkennung amplifizieren:** Props/Anerkennungsrituale, Arbeiten zeigen (Show Call als Normen-Werkzeug!).
 4. **Konsistenz im Kollegium:** Normen wirken schulweit – jede abgestimmte Kollegin multipliziert den Effekt (Anschluss an schulische Regelwerke).
@@ -870,7 +879,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 1. **Lean-Mindset:** Maximaler Lerneffekt pro investierter Planungsminute; Wirkung vor Aufwand; Perfektion ist Verschwendung, wenn 80 % denselben Lerneffekt bringen.
 2. **Das Framework als feste Fragenfolge:** Wohin? (Meilensteine – M2.2) → Woher weiß ich, dass sie da sind? (CFU/Exit Ticket – Block 4) → Wie kommen sie hin? (Aktivitäten zuletzt!) → Was muss wiederholt werden? Konsequente Reihenfolge, keine Abkürzungen.
 3. **Efficient Activities:** Aktivitäten nach Lernrendite auswählen (Denkzeit pro Vorbereitungsminute); bewährte Formate wiederverwenden statt ständig Neues zu basteln – ein kleines, exzellent beherrschtes Repertoire schlägt Methodenfeuerwerk.
-4. **5-Minuten-Plan-Formate:** Einseiter statt Verlaufsraster-Prosa; das Jahres-Template aus Modul 2.6 wird finalisiert.
+4. **5-Minuten-Plan-Formate:** Einseiter statt Verlaufsraster-Prosa; der Planungsbogen aus Modul 2.6 wird finalisiert.
 
 **Typische Fehlvorstellungen:** „Gute Lehrer planen lange" (gute Lehrer planen die richtigen Dinge); „Jede Stunde braucht neues Material" (Wiederverwendung ist Professionalität).
 
@@ -930,15 +939,15 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Leitfrage:** Wie werde ich nach diesem Programm von allein weiter besser?
 
-**Lernziele:** Die TN können Videoselbstanalyse eigenständig durchführen, sich eigene Action Steps setzen, kollegiale Lernstrukturen nutzen und haben einen persönlichen Entwicklungsplan für Jahr 2.
+**Lernziele:** Die TN können Videoselbstanalyse eigenständig durchführen, sich eigene Action Steps setzen, kollegiale Lernstrukturen nutzen und haben einen persönlichen Entwicklungsplan für die Zeit nach dem Programm (Jahr 3).
 
 **Kernideen (McCrea LLP Kap. 10–12; EEF-PD-Mechanismen, jetzt offen gelegt):**
-1. **Erfahrung allein macht nicht besser** – deliberate practice tut es: gezielter Fokus, Feedback, Wiederholung. Das Programm-Design wird jetzt transparent gemacht (Meta-Ebene: „Ihr habt ein Jahr EEF-Mechanismen erlebt – so baut ihr sie euch selbst").
+1. **Erfahrung allein macht nicht besser** – deliberate practice tut es: gezielter Fokus, Feedback, Wiederholung. Das Programm-Design wird jetzt transparent gemacht (Meta-Ebene: „Ihr habt zwei Jahre EEF-Mechanismen erlebt – so baut ihr sie euch selbst").
 2. **Video-Selbstanalyse Nr. 3** als Routine etablieren (2–3× pro Halbjahr, 10-min-Ausschnitt, ein Fokus, Beobachtungsbogen).
-3. **Kollegiale Strukturen:** Peer-Hospitationstandems fortführen, Mikro-Feedback-Kultur, Fachschaft als Lernort; Lesepfad für Jahr 2 (die 5 Programmbücher gezielt vertiefen + z. B. Willingham, Wiliam, Sherrington „WalkThrus").
+3. **Kollegiale Strukturen:** Peer-Hospitationstandems fortführen, Mikro-Feedback-Kultur, Fachschaft als Lernort; Lesepfad für Jahr 3 (die 5 Programmbücher gezielt vertiefen + z. B. Willingham, Wiliam, Sherrington „WalkThrus").
 4. **Selbst-Coaching:** eigenen Action-Step-Zyklus weiterführen (alle ein bis zwei Wochen, schriftlich, klein).
 
-**Übungsteil:** Video-Selbstanalyse Nr. 3 in Tandems auswerten; Entwicklungsplan Jahr 2 schreiben (2 Stärken ausbauen, 2 Baustellen, Strukturen/Termine festlegen); Tandem-Verabredungen für nächstes Schuljahr fixieren.
+**Übungsteil:** Video-Selbstanalyse Nr. 3 in Tandems auswerten; Entwicklungsplan Jahr 3 schreiben (2 Stärken ausbauen, 2 Baustellen, Strukturen/Termine festlegen); Tandem-Verabredungen für nächstes Schuljahr fixieren.
 
 **Action Step:** „Ich vereinbare mit meinem Tandem zwei feste Peer-Hospitationstermine für das erste Halbjahr des nächsten Schuljahres – mit Kalendereintrag."
 
@@ -948,16 +957,16 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Modul 6.5: Abschluss-Kolloquium & Zertifikat
 
-**Leitfrage:** Was hat sich in einem Jahr verändert – sichtbar, belegbar, feierbar?
+**Leitfrage:** Was hat sich in zwei Jahren verändert – sichtbar, belegbar, feierbar?
 
 **Format (90–120 min, feierlicher Rahmen):**
-1. **Vorher/Nachher-Präsentationen:** Jeder TN zeigt 2 kurze Videoausschnitte (Baseline aus Modul 1.1 vs. aktuell) und kommentiert die eigene Entwicklung anhand von 3 Techniken – der stärkste Motivations- und Evidenzmoment des Jahres (EEF: Bestärkung nach Fortschritt).
+1. **Vorher/Nachher-Präsentationen:** Jeder TN zeigt 2 kurze Videoausschnitte (Baseline aus Modul 1.1 vs. aktuell) und kommentiert die eigene Entwicklung anhand von 3 Techniken – der stärkste Motivations- und Evidenzmoment des Programms (EEF: Bestärkung nach Fortschritt).
 2. **Portfolio-Würdigung:** Action-Step-Log (35 Einträge!), Playbook, Skriptsammlung.
-3. **Kompetenzmatrix final:** Selbst-/Coach-Einschätzung im Vergleich zu Modul 0 und 3.6.
+3. **Kompetenzmatrix final:** Selbst-/Coach-Einschätzung im Vergleich zu Modul 0 (Start) und 3.6 (Ende Jahr 1).
 4. **Programm-Feedback** für die nächste Kohorte (strukturiert, wird ins Curriculum zurückgespielt).
 5. **Zertifikat & Ausblick:** Übergabe; ggf. Rolle als Peer-Mentor für die nächste Kohorte anbieten (stärkste Form der Verankerung: Lehren des Gelernten).
 
-**SPA-Bausteine:** Jahres-Dashboard (alle Quiz-Ergebnisse, Action Steps, Selbsteinschätzungen als Verlaufskurven); Portfolio-Export als PDF; Vorher/Nachher-Reflexionsleitfaden.
+**SPA-Bausteine:** Programm-Dashboard (alle Quiz-Ergebnisse, Action Steps, Selbsteinschätzungen als Verlaufskurven); Portfolio-Export als PDF; Vorher/Nachher-Reflexionsleitfaden.
 
 ---
 
@@ -969,7 +978,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 3. **Szenario-Simulator:** Verzweigte Dialoge (Störung, W.I.N., Elterngespräch, No-Opt-Out) – eine Engine, viele Inhalte. Ideal mit KI-generierten Schüler-/Elternantworten.
 4. **Video-Kontrastpaare:** Gleiche Situation, zwei Ausführungen – das wirksamste „See it"-Format; wo keine echten Videos verfügbar: verschriftlichte Transkript-Kontraste oder nachgestellte Audio-Clips.
 5. **Action-Step-Tracker:** Schritt pro Modul (zwei Wochen) mit Erinnerung, Selbst-Check an jedem Wochenende, Verlaufslog – die Brücke zwischen SPA und Klassenzimmer (EEF-Baustein D!).
-6. **Selbsteinschätzungs-Matrix:** 8 Kompetenzfelder, erhoben in Modul 0/3.6/6.5, als Spinnennetz-Diagramm.
+6. **Selbsteinschätzungs-Matrix:** 10 Kompetenzfelder, erhoben in Modul 0/3.6/6.5, als Spinnennetz-Diagramm.
 
 ## Didaktische Regeln für jede Modul-SPA
 - **Ein Modul = eine Kernidee.** Alles Weitere ist Vertiefung hinter einem Klick.
@@ -979,8 +988,8 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 - **Kumulative Quizfragen:** Jedes Modulquiz enthält 30 % Fragen aus früheren Modulen.
 - **Maximal 20–25 Minuten Bearbeitungszeit** pro Modul-SPA – der Rest gehört ins Klassenzimmer.
 
-## Kompetenzmatrix (Vorschlag: 8 Felder für Selbst-/Fremdeinschätzung)
-1. Routinen & Stundenstart · 2. Anweisungen & Aufmerksamkeit · 3. Intervention & Präsenz · 4. Erklären & Modellieren · 5. Übungsphasen führen & monitoren · 6. Verstehen prüfen (CFU) · 7. Beteiligung & Fragenkultur · 8. Planung & Arbeitsökonomie
+## Kompetenzmatrix (10 Felder für Selbst-/Fremdeinschätzung)
+1. Routinen & Stundenstart · 2. Anweisungen & Aufmerksamkeit · 3. Intervention & Präsenz · 4. Erklären & Modellieren · 5. Übungsphasen führen & monitoren · 6. Verstehen prüfen (CFU) · 7. Beteiligung & Fragenkultur · 8. Planung & Arbeitsökonomie · 9. Gedächtnis & Wiederholung · 10. Motivation, Beziehung & Eltern
 (je 4 Stufen: Anfang – Grundlagen – sicher – flüssig/adaptiv)
 
 ## Quellenverzeichnis (Kern)
@@ -990,4 +999,4 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 - Rosenshine, B. (2012). Principles of Instruction. *American Educator*, 36(1).
 - EEF (2021). *Effective Professional Development. Guidance Report.* (Sims et al.)
 - Bambrick-Santoyo, P. (2016/2024). *Get Better Faster (2.0).* Jossey-Bass. (Sequenzierungs- & Coaching-Modell)
-- Ergänzend für Jahr 2: Willingham, *Why Don't Students Like School?*; Wiliam, *Embedded Formative Assessment*; Sherrington & Caviglioli, *Teaching WalkThrus*; Lemov et al., *Practice Perfect*.
+- Ergänzend für Jahr 3: Willingham, *Why Don't Students Like School?*; Wiliam, *Embedded Formative Assessment*; Sherrington & Caviglioli, *Teaching WalkThrus*; Lemov et al., *Practice Perfect*.

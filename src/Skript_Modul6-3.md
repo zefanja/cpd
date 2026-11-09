@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie kommt mein Feedback bei den Schülern an – ohne dass die Korrektur mich auffrisst? |
 | **Kernquellen** | Whole-Class-Feedback-Praxis (UK-Workload-Reform, via Lovell/McCrea-Umfeld); Verzahnung: Drei-Stapel-Sortierung (M2.6), Show Call (M4.5), Fehlerjournal/DIRT-Logik (M4.6), Idealantwort/Erwartungshorizont (M2.2) |
-| **Funktion im Jahr** | Der zweite große Entlastungs-Hebel von Block 6: Die Korrekturfrage wird vom Rotstift-Ritual zur Wirkungsfrage umgebaut. WCF bündelt vier Jahres-Werkzeuge zu einem Verfahren; die Triage-Entscheidung wandert VOR die Aufgabenstellung (Lean-Logik). Deutsche Spezifika (Erwartungshorizont = amtliche Idealantwort; mündliche Noten aus CFU-Daten; Landesrecht schulscharf prüfen!) verankern es im realen System. |
+| **Funktion im Programm** | Der zweite große Entlastungs-Hebel von Block 6: Die Korrekturfrage wird vom Rotstift-Ritual zur Wirkungsfrage umgebaut. WCF bündelt vier Werkzeuge des Programms zu einem Verfahren; die Triage-Entscheidung wandert VOR die Aufgabenstellung (Lean-Logik). Deutsche Spezifika (Erwartungshorizont = amtliche Idealantwort; mündliche Noten aus CFU-Daten; Landesrecht schulscharf prüfen!) verankern es im realen System. |
 | **Lernziele** | Die TN können:<br>1. die Wirkungsrechnung des roten Randes führen (Stunden investiert vs. Sekunden gelesen) und daraus den Formatwechsel begründen,<br>2. den WCF-Fünfschritt durchführen (lesen → Muster: 3 Stärken/3 Fehler → Feedbackstunde mit Show Call → DIRT → Stichprobe),<br>3. Korrekturformate VOR der Aufgabenstellung triagieren (Selbst/Peer/Stichprobe/Voll),<br>4. den Erwartungshorizont als Doppel-Werkzeug nutzen (amtliche Pflicht + Idealantwort für die Klasse) und mündliche Noten auf CFU-Daten stützen. |
 | **Sitzungstyp** | Rechnungs-Einstieg + WCF-Simulation am echten Klassensatz – die handwerklichste Sitzung des Blocks. |
 
@@ -79,7 +79,7 @@ Jede Gruppe skizziert die Feedbackstunde in Stichworten (Welche Arbeit wird als 
 1. Triage-Fokus: JEDE gestellte Aufgabe bekommt vorab die Korrektur-Entscheidung (Vier-Formate-Kürzel an den Planungsrand).
 2. Erwartungshorizont-Umbau: den EH der nächsten Arbeit VOR der Einheit schreiben und als DIRT-Material bei der Rückgabe einsetzen.
 
-> **Ausblick:** *„Vorletzte reguläre Sitzung beim nächsten Input – und sie handelt von euch in Jahr 2, 3 und 10: Warum Erfahrung allein ab Jahr drei nicht mehr besser macht, wie dieses Programm gebaut war (wir legen die Karten auf den Tisch) – und wie ihr euch ab August selbst coacht. Bringt Video Nr. 3 mit: Anleitung wie gehabt, Fokus frei. Es ist das Video fürs Kolloquium."* **(Vorab-Auftrag Video 3 auf die Exit-Karte – 4 Wochen Vorlauf fürs Kolloquium!)**
+> **Ausblick:** *„Vorletzte reguläre Sitzung beim nächsten Input – und sie handelt von euch in Jahr 3, 4 und 10: Warum Erfahrung allein ab Jahr drei nicht mehr besser macht, wie dieses Programm gebaut war (wir legen die Karten auf den Tisch) – und wie ihr euch nach dem Programm selbst coacht. Bringt Video Nr. 3 mit: Anleitung wie gehabt, Fokus frei. Es ist das Video fürs Kolloquium."* **(Vorab-Auftrag Video 3 auf die Exit-Karte – 4 Wochen Vorlauf fürs Kolloquium!)**
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Video-3-Erinnerung.
 

@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie bringe ich in einer Frage-Phase 100 % zum Denken statt 3 %? |
 | **Kernquellen** | Lemov T43 (Turn and Talk), T38 (Everybody Writes); Ratio-Konzept (M4.2) |
-| **Funktion im Jahr** | Skaliert die Einzeltechniken (M4.2/4.3) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (M4.5). Die enge Zeitführung nutzt das komplette M1.2/M1.3-Handwerk (Signale, klare Abgrenzung, Timer). |
+| **Funktion im Programm** | Skaliert die Einzeltechniken (M4.2/4.3) auf die ganze Klasse: Die Standard-Choreografie Write → Talk → Ernte wird das Diskussions-Grundformat des restlichen Jahres (und der Fortbildung selbst – ab jetzt Sitzungsformat!). Die Ernte per „Was hat dein Partner gesagt?" verzahnt Cold Call mit Zuhör-Verbindlichkeit. Everybody Writes liefert das Material für Show Call (M4.5). Die enge Zeitführung nutzt das komplette M1.2/M1.3-Handwerk (Signale, klare Abgrenzung, Timer). |
 | **Lernziele** | Die TN können:<br>1. beide Ratio-Regler benennen und Formate danach auswählen,<br>2. ein Turn and Talk eng führen (feste Partner, präziser Prompt, 30–90 Sek., Start-/Endsignal, verbindliche Ernte),<br>3. Schreiben als Denkzeit vor Diskussionen einsetzen,<br>4. die vier häufigsten Format-Bugs erkennen und beheben. |
 | **Sitzungstyp** | Selbsterleben + Choreografie-Drill mit Stoppuhr – die Sitzung praktiziert durchgehend, was sie lehrt. |
 

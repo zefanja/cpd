@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was passiert im Kopf, wenn jemand etwas lernt – und was folgt daraus für jede Unterrichtsentscheidung? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Kap. 1–3: Lernen als LZG-Veränderung, WM-Flaschenhals, Schemata); Willingham (*Memory is the residue of thought*); Ebbinghaus (Vergessenskurve) |
-| **Funktion im Jahr** | Block-3-Auftakt und Perspektivwechsel: Die Werkzeuge aus Block 1–2 werden „rückwärts erklärt" – aus Rezept-Anwendern werden Leute, die das Warum kennen. Das Diagnose-Raster (WM überlastet? / nie im LZG? / falsche Denkspur?) wird die Deutungsbrille für M3.2–3.6. Die Mythen-Impfung schützt vor Lehrerzimmer-Folklore. Erste Sitzung nach den Ferien: erweiterte Reaktivierung. |
+| **Funktion im Programm** | Block-3-Auftakt und Perspektivwechsel: Die Werkzeuge aus Block 1–2 werden „rückwärts erklärt" – aus Rezept-Anwendern werden Leute, die das Warum kennen. Das Diagnose-Raster (WM überlastet? / nie im LZG? / falsche Denkspur?) wird die Deutungsbrille für M3.2–3.6. Die Mythen-Impfung schützt vor Lehrerzimmer-Folklore. Erste Sitzung nach den Ferien: erweiterte Reaktivierung. |
 | **Lernziele** | Die TN können:<br>1. das Zusammenspiel von Arbeits- und Langzeitgedächtnis erklären (mit Selbstversuchs-Evidenz),<br>2. den Willingham-Satz auf Unterrichtssituationen anwenden,<br>3. vier Klassiker-Probleme mit dem Diagnose-Raster deuten,<br>4. die zwei größten Lernmythen (Lernstile, Lernpyramide) kollegentauglich entkräften. |
 | **Sitzungstyp** | Erlebnis-Sitzung: Selbstversuche als Evidenz-Anker, dann Deutungs-Werkstatt. Wenig Skripten, viel Denken. |
 

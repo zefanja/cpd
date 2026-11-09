@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wann sollte ich wiederholen – und warum ist „etwas vergessen haben" ideal? |
 | **Kernquellen** | McCrea, *Memorable Teaching* (Spacing); Rohrer & Pashler (Interleaving); Bjork (desirable difficulties, Performance ≠ Learning); Ebbinghaus (M3.1) |
-| **Funktion im Jahr** | Die zeitliche Dimension des Retrieval: Aus „abrufen" wird „verteilt abrufen". Löst rückwirkend Fall 1 aus M3.1 und die Block-2-Transferfrage („in der Stunde konnten sie es") vollständig auf. Die Wiederholungs-Landkarte wird Planungswerkzeug für M6.2 (Inter-Lesson-Planning); die kumulative Prüfungsregel verändert das Klassenarbeits-Design (M6.3). Gruppenhospitation 3 wird vorbereitet. |
+| **Funktion im Programm** | Die zeitliche Dimension des Retrieval: Aus „abrufen" wird „verteilt abrufen". Löst rückwirkend Fall 1 aus M3.1 und die Block-2-Transferfrage („in der Stunde konnten sie es") vollständig auf. Die Wiederholungs-Landkarte wird Planungswerkzeug für M6.2 (Inter-Lesson-Planning); die kumulative Prüfungsregel verändert das Klassenarbeits-Design (M6.3). Gruppenhospitation 3 wird vorbereitet. |
 | **Lernziele** | Die TN können:<br>1. den Spacing-Effekt erklären und pragmatisch umsetzen (kumulative Quizze statt Intervall-Wissenschaft),<br>2. Übungssets interleaven und den Zusatznutzen (Methoden-WAHL trainieren) begründen,<br>3. Performance und Learning unterscheiden und daraus Konsequenzen für die eigene Stunden-Bewertung ziehen. |
 | **Sitzungstyp** | Konzept-Sitzung mit zwei Bau-Übungen (Landkarte + Blatt-Umbau); die Kurven-Grafik ist das Herzstück. |
 
@@ -37,7 +37,7 @@
 
 > **Moderationstext:**
 > *„3-2-1-Fokus: Wie hat eure Klasse auf den Trainings-Satz reagiert – Tag 1 gegen Tag 5?"* [2 Stimmen.]
-> *„Und jetzt stelle ich euch die unbequemste Frage des Jahres. Denkt an eure beste Stunde der letzten Wochen – die, nach der ihr dachtet: Heute lief es. Woran habt ihr das festgemacht? … Vermutlich: Es lief FLÜSSIG. Die Aufgaben klappten, wenig Fehler, gutes Tempo, zufriedene Gesichter. Und jetzt die Provokation, mit Forschung im Rücken: **Genau dieses Gefühl ist ein unzuverlässiger Zeuge.** Die Stunde, die sich am glattesten anfühlt, ist oft nicht die, aus der am meisten bleibt. Heute lernt ihr, warum – und wie ihr das Vergessen eurer Schüler von einem Feind in ein Werkzeug verwandelt."*
+> *„Und jetzt stelle ich euch die unbequemste Frage des Programms. Denkt an eure beste Stunde der letzten Wochen – die, nach der ihr dachtet: Heute lief es. Woran habt ihr das festgemacht? … Vermutlich: Es lief FLÜSSIG. Die Aufgaben klappten, wenig Fehler, gutes Tempo, zufriedene Gesichter. Und jetzt die Provokation, mit Forschung im Rücken: **Genau dieses Gefühl ist ein unzuverlässiger Zeuge.** Die Stunde, die sich am glattesten anfühlt, ist oft nicht die, aus der am meisten bleibt. Heute lernt ihr, warum – und wie ihr das Vergessen eurer Schüler von einem Feind in ein Werkzeug verwandelt."*
 
 ## Phase 3 · Input (Minute 12–27)
 
@@ -85,7 +85,7 @@ Tandems interleaven das geblockte Beispielblatt (Anhang 1.3): Welche drei Aufgab
 
 **Gruppenhospitation 3 (3 Min.):** Termin, Gastgeber; Bogen (Anhang 3): Fokus Wiederholungs- und Retrieval-Routinen.
 
-> **Ausblick:** *„Beim nächsten Input schließen wir Block 3: Wie Wissen sich vernetzt statt stapelt – Elaboration und Knowledge Organizer. Und: Halbjahres-Meilenstein mit Kompetenzmatrix-Vergleich. Bringt euer Playbook UND euren M0-Bogen-Nerv mit – es gibt etwas zu feiern."*
+> **Ausblick:** *„Beim nächsten Input schließen wir Block 3: Wie Wissen sich vernetzt statt stapelt – Elaboration und Knowledge Organizer. Und: der Meilenstein zum Ende des ersten Programmjahres mit Kompetenzmatrix-Vergleich. Bringt euer Playbook UND euren M0-Bogen-Nerv mit – es gibt etwas zu feiern."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerungszeile: aktuelle eigene Unterrichtseinheit für den KO-Bau (M3.6) im Kopf haben; Playbook mitbringen.
 

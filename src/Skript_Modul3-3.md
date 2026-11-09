@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie stelle ich sicher, dass alle über das Richtige nachdenken? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Orient attention"); Willingham (Denkspur = Lernspur, aus M3.1); Seductive-Details-Forschung; Lemov (Modell 3 aus dem Auftakt) |
-| **Funktion im Jahr** | Schließt den Bogen von Modell 3 (Auftakt) über den Willingham-Satz (M3.1) zum Handwerk: Aufmerksamkeit als steuerbare Größe. Löst den offenen Fall 2 aus M3.1 (Filmeinstieg). Das „Aufgaben-Röntgen" wird Prüfwerkzeug für alle künftigen Aufgabenformate (M3.4 Retrieval-Fragen, M4.4 Prompts, M6.3 Klassenarbeiten). |
+| **Funktion im Programm** | Schließt den Bogen von Modell 3 (Auftakt) über den Willingham-Satz (M3.1) zum Handwerk: Aufmerksamkeit als steuerbare Größe. Löst den offenen Fall 2 aus M3.1 (Filmeinstieg). Das „Aufgaben-Röntgen" wird Prüfwerkzeug für alle künftigen Aufgabenformate (M3.4 Retrieval-Fragen, M4.4 Prompts, M6.3 Klassenarbeiten). |
 | **Lernziele** | Die TN können:<br>1. erklären, warum ungelenkte Aufmerksamkeit systematisch am Ziel vorbeiläuft,<br>2. präzise Beachtungs-Aufträge vor jedem Medium formulieren,<br>3. Struktur-Marker im eigenen Vortrag setzen,<br>4. Aufgaben „röntgen": Was muss man DENKEN, um sie zu lösen – und lässt sich das umgehen? |
 | **Sitzungstyp** | Experiment + Analyse-Werkstatt; das Aufgaben-Röntgen ist die anspruchsvollste Denkübung des Blocks. |
 

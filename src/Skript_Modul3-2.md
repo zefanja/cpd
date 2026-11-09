@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie halte ich den Denk-Kanal frei für das, worauf es ankommt? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Manage information", „Streamline communication", „Regulate load"); Cognitive-Load-Theorie (Sweller); Lemov T22 (Board = Paper, Bezug) |
-| **Funktion im Jahr** | Operationalisiert den WM-Flaschenhals aus M3.1 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für M2.3-Regeln (Stifte weg = Split Attention) und M2.5-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (M6.2 Packet, M6.3 Arbeitsblätter). |
+| **Funktion im Programm** | Operationalisiert den WM-Flaschenhals aus M3.1 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für M2.3-Regeln (Stifte weg = Split Attention) und M2.5-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (M6.2 Packet, M6.3 Arbeitsblätter). |
 | **Lernziele** | Die TN können:<br>1. intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg),<br>2. die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz),<br>3. Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede),<br>4. eigenes Material mit der Checkliste operieren. |
 | **Sitzungstyp** | Werkstatt-Sitzung: Selbsterleben → Theorie → Chirurgie am eigenen Material. |
 

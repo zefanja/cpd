@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was mache ich mit all den Daten – heute, morgen, vor der Klassenarbeit? |
 | **Kernquellen** | Lemov T14 (Own and Track); Bambrick-Santoyo (Driven-by-Data-Logik, vereinfacht); Verzahnung mit T26 (M2.6) |
-| **Funktion im Jahr** | Block-4-Finale: schließt den Datenkreislauf Sehen (M4.5) → Entscheiden → Handeln. Die Reteach-Formate operationalisieren die >⅓-Faustregel aus M2.6; Own and Track verlängert die Fehlerkultur (M4.1) in die Schülerhand und wird in M6.3 (DIRT) wiederaufgenommen. Das CFU-Repertoire-Blatt konsolidiert den Block. Block-4-Quiz als Meilenstein-Messung; Peer-Hospitation 4 läuft in dieser Phase. |
+| **Funktion im Programm** | Block-4-Finale: schließt den Datenkreislauf Sehen (M4.5) → Entscheiden → Handeln. Die Reteach-Formate operationalisieren die >⅓-Faustregel aus M2.6; Own and Track verlängert die Fehlerkultur (M4.1) in die Schülerhand und wird in M6.3 (DIRT) wiederaufgenommen. Das CFU-Repertoire-Blatt konsolidiert den Block. Block-4-Quiz als Meilenstein-Messung; Peer-Hospitation 4 läuft in dieser Phase. |
 | **Lernziele** | Die TN können:<br>1. aus Fehlerprofilen die passende Reteach-Entscheidung ableiten (Klasse / Kleingruppe / Einzelimpuls),<br>2. die Replay-Falle vermeiden (Reteach = NEUER Zugang),<br>3. Fehlerkorrektur per Fehlerjournal in Schülerhand geben,<br>4. CFU-Daten einer Einheit zur gezielten Klassenarbeits-Vorbereitung aggregieren. |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Input + Datenfall-Duell + Konsolidierungs-Ritual. |
 
@@ -45,7 +45,7 @@
 
 ### 2b · Own and Track + Klassenarbeits-Vorlauf (Min. 18–26)
 > *„Zweiter Baustein – und er dreht die Verantwortung um: **Own and Track.** Die klassische ‚Berichtigung' – Musterlösung dreimal sauber abschreiben – ist Beschäftigung, kein Lernen: Abschreiben erzeugt keine Abrufspur, ihr wisst das seit Modul 3.4. Die Alternative: Der Fehler gehört dem Schüler, und er ARBEITET damit. Minimum: richtige Lösung selbst notieren PLUS ein Satz ‚Mein Denkfehler war …'. Dieser eine Satz ist der Unterschied zwischen Ritual und Lernen – wer seinen Denkfehler benennen kann, hat ihn verstanden. Das Zuhause dafür: ein **Fehlerjournal** – hinterer Heftteil oder eigenes Blatt, zwei Spalten. Vor der Klassenarbeit ist es das persönlichste Lernmaterial, das es gibt: Retrieval am eigenen Fehler, maßgeschneidert. Die Einführung ist – ihr ahnt es – M1.1-Handwerk: erklären, begründen, erste Einträge gemeinsam machen, prüfen.*
-> *Und der dritte Baustein, der alles zusammenzieht: **der Klassenarbeits-Vorlauf.** Eine Woche vor der Arbeit legt ihr eure gesammelten Daten nebeneinander – Ticket-Stapel, Board-Befunde, Top-3-Listen vom Klemmbrett – und fragt: Welche zwei, drei Baustellen tauchen ÜBERALL auf? Die bekommen die Wiederholstunde. Nicht ‚Wiederholt mal alles' – das ist die Gießkanne, und sie gießt vor allem das, was schon wächst. Gezielte Wiederholung dorthin, wo die Daten zeigen. Das ist der Moment, in dem sich ein halbes Jahr CFU-Aufbau in Notenpunkten auszahlt."*
+> *Und der dritte Baustein, der alles zusammenzieht: **der Klassenarbeits-Vorlauf.** Eine Woche vor der Arbeit legt ihr eure gesammelten Daten nebeneinander – Ticket-Stapel, Board-Befunde, Top-3-Listen vom Klemmbrett – und fragt: Welche zwei, drei Baustellen tauchen ÜBERALL auf? Die bekommen die Wiederholstunde. Nicht ‚Wiederholt mal alles' – das ist die Gießkanne, und sie gießt vor allem das, was schon wächst. Gezielte Wiederholung dorthin, wo die Daten zeigen. Das ist der Moment, in dem sich euer CFU-Aufbau in Notenpunkten auszahlt."*
 
 ## Phase 3 · Name it (Minute 26–30)
 
@@ -63,7 +63,7 @@ Einzelarbeit: Journal-Format für die eigene Klasse festlegen (wo? wann gepflegt
 
 **CFU-Repertoire-Blatt** (Anhang 1.4) ausfüllen und ins Playbook: Welches Werkzeug wofür – Whiteboards (Echtzeit-Verteilung), Cold Call (Einzeltiefe + Ratio), Checkpoints (Fehler-Schranke), Exit Ticket (Stunden-Bilanz), Show Call (Feedback-Hebel), Fehlerjournal (Schüler-Ownership), Vorlauf-Aggregation (Prüfungs-Steuerung). 
 
-> *„Schaut auf dieses Blatt: Zu Beginn von Block 4 war eure einzige Frage ‚Alle verstanden?'. Heute steht hier ein komplettes Diagnose-Besteck. Block 4 ist das Herzstück des Jahres – ab jetzt fliegt ihr auf Instrumenten, nicht auf Sicht."*
+> *„Schaut auf dieses Blatt: Zu Beginn von Block 4 war eure einzige Frage ‚Alle verstanden?'. Heute steht hier ein komplettes Diagnose-Besteck. Block 4 ist das Herzstück des Programms – ab jetzt fliegt ihr auf Instrumenten, nicht auf Sicht."*
 
 **Kompetenzmatrix:** Felder 6–7 aktualisieren (an Coach).
 
@@ -76,7 +76,7 @@ Einzelarbeit: Journal-Format für die eigene Klasse festlegen (wo? wann gepflegt
 1. Journal-Start: Fehlerjournal in einer Klasse einführen (Einführungsskript + erste gemeinsame Einträge nach der nächsten Rückgabe).
 2. Vorlauf-Pilot: für die nächste anstehende Klassenarbeit die Daten-Aggregation durchziehen und die Wiederholstunde danach bauen.
 
-> **Ausblick:** *„Nach den Osterferien beginnt Block 5 – und er beantwortet die Frage hinter allen Fragen: Warum strengen Menschen sich an? Motivation als System mit fünf Stellschrauben. Erste Überraschung vorab: Die Hälfte des Werkzeugkastens besitzt ihr längst, ohne es zu wissen. Erholt euch – ihr habt das dichteste Drittel des Jahres geschafft."*
+> **Ausblick:** *„Beim nächsten Input beginnt Block 5 – und er beantwortet die Frage hinter allen Fragen: Warum strengen Menschen sich an? Motivation als System mit fünf Stellschrauben. Erste Überraschung vorab: Die Hälfte des Werkzeugkastens besitzt ihr längst, ohne es zu wissen. Erholt euch – ihr habt den dichtesten Block des Programms geschafft."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60)
 Erweitert (Blockabschluss):

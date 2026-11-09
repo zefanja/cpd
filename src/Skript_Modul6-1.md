@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (M2.2), Planungsbogen (M2.6), Stunden-Check mit den fünf Fragen (M2.1) |
-| **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das M2.6-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem M2.1-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
+| **Funktion im Programm** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das M2.6-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem M2.1-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
 | **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
-| **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
+| **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Programms (O-Ton früherer Kohorten). |
 
 ---
 

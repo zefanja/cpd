@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie senke ich die Kosten der Anstrengung – und wie mache ich Anstrengung ansteckend? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Run routines" + „Nudge norms"); Verzahnung: komplettes Block-1-Playbook, Modell 4 (Auftakt), Positive Framing (M1.6), Show Call (M4.5) |
-| **Funktion im Jahr** | Die Reinterpretations-Sitzung – das „Aha des Jahres": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert M1.6 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
+| **Funktion im Programm** | Die Reinterpretations-Sitzung – das „Aha des Programms": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert M1.6 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
 | **Lernziele** | Die TN können:<br>1. Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren,<br>2. Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit),<br>3. erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit),<br>4. den Konsistenz-Hebel im Kollegium benennen. |
 | **Sitzungstyp** | Reinterpretation + Sprach-Training – dramaturgisch die „Belohnungs-Sitzung": Die TN entdecken, dass sie das meiste schon können. |
 
@@ -35,12 +35,12 @@
 
 > **Moderationstext:**
 > *„Erfolgs-Konstruktion: Wer hat seinem Fall zwei Erfolge gebaut – und was war beobachtbar?"* [2 Stimmen; auch „nichts sichtbar" würdigen: Erwartungs-Reparatur braucht Wochen, nicht Tage – Ausdauer ist Teil der Maßnahme.]
-> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Jahres bereits vollständig umgesetzt. Es hat sieben Module gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
+> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Programms bereits vollständig umgesetzt. Es hat sieben Module gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
 
 ## Phase 3 · Input A: Run Routines – die Reinterpretation (Minute 12–22)
 
 > *„Die Auflösung: **Block 1.** Und jetzt der Blick durch die EVK-Brille – schlagt euer Playbook auf, wir gehen es durch:*
-> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Modul 4.1 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als im September, auch dort, wo ihr am WERT nie geschraubt habt.*
+> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Modul 4.1 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als zu Programmbeginn, auch dort, wo ihr am WERT nie geschraubt habt.*
 > *Warum sage ich euch das erst jetzt? Weil die Reihenfolge des Programms genau darauf gebaut ist: Handwerk zuerst, Theorie als Belohnung – ihr SEHT die Mechanik jetzt in eurem eigenen Unterricht, statt sie glauben zu müssen. Und die praktische Konsequenz für heute: Wenn bei einem Schüler die Kosten der Engpass sind – Modul 5.1, euer Analysebogen – dann ist die Antwort oft kein Gespräch und kein Anreiz, sondern schlicht: Welche meiner Routinen erreicht ihn noch nicht? Läuft sein Stundenstart? Weiß er, was zu tun ist, wenn er hängt? Ist SEIN Blamage-Risiko gedeckelt?"*
 
 ## Phase 4 · Input B: Nudge Norms (Minute 22–32)
@@ -95,7 +95,7 @@ Tandem-Check: Ist Punkt 1 wirklich WAHR und beobachtbar?
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Handout A: Die EVK-Landkarte des Playbooks
-Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit September."
+Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit Programmstart."
 
 ## 1.2 Sprach-Audit-Kartenset (10 Karten; versteckte Werbung → Muster-Umbau kursiv)
 1. „Die Hälfte hat schon wieder keine Hausaufgaben!" *(Werbung: Nicht-Abgabe ist normal)* → *„Über die Hälfte hat sie dabei – von den anderen sehe ich sie morgen. Ich halte nach, ihr kennt mich."*
@@ -164,7 +164,7 @@ d) Vergleiche verboten sind ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 5.2"
 
-1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Jahres schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
+1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Programms schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
 2. **See it (4 Min.):** Die EVK-Landkarte als interaktive Grafik: Block-1-Werkzeuge antippen → Kosten-Position leuchtet und der Formel-Nenner schrumpft sichtbar.
 3. **Name it (3 Min.):** Normen-Regel + Sichtbarkeits-Trio als Karten; „Was plakatiert dieser Satz?"-Vorschau mit 3 Beispielen.
 4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Umformulierungs-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".

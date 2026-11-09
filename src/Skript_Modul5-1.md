@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: Erfolgsquote (M2.1), Fading (M2.4) |
-| **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgemodule (M5.2–5.5) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
+| **Funktion im Programm** | Block-5-Auftakt (Reaktivierung + Re-Establish-Check integriert, falls Ferien vorausgingen). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgemodule (M5.2–5.5) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
 | **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
-| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
+| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Programms. |
 
 ---
 
@@ -30,7 +30,7 @@
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
 ## Phase 1 · Reaktivierungs-Quiz + Re-Establish-Check (Minute 2–12)
-8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Osterferien sind vorbei – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der M4.1-Zettel gilt weiter, Montag ist das Fenster."*
+8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Falls Ferien dazwischenlagen – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der M4.1-Zettel gilt weiter, Montag ist das Fenster."*
 
 ## Phase 2 · See it: Nora & Evie (Minute 12–19)
 
@@ -76,7 +76,7 @@ Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut i
 1. Attributions-Fokus pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult.
 2. EVK-Diagnose-Fokus: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
 
-> **Ausblick:** *„Beim nächsten Input die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
+> **Ausblick:** *„Beim nächsten Input die Treiber 2 und 3 – und die größte Pointe des Programms: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt von Anfang an an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerung: Playbook zur nächsten Sitzung mitbringen (M5.2).
 

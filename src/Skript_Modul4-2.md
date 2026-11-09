@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Wie sorge ich dafür, dass alle denken – nicht nur die fünf Melder? |
 | **Kernquellen** | Lemov T34 (Cold Call), T33 (Wait Time), T36 (Means of Participation); Ratio-Konzept (Participation × Think) |
-| **Funktion im Jahr** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf M4.1 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für M4.3 (No Opt Out schließt die Schleife) und M4.4 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in M5.3 als Beziehungs-Heatmap wieder). |
+| **Funktion im Programm** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf M4.1 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für M4.3 (No Opt Out schließt die Schleife) und M4.4 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in M5.3 als Beziehungs-Heatmap wieder). |
 | **Lernziele** | Die TN können:<br>1. Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal),<br>2. die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen,<br>3. 3–5 Sekunden Wartezeit aushalten und produktiv rahmen,<br>4. Means of Participation vor jeder Frage ansagen. |
-| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Jahres (die Pause wird mit der Stoppuhr gemessen). |
+| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Programms (die Pause wird mit der Stoppuhr gemessen). |
 
 ---
 
@@ -36,7 +36,7 @@
 
 > **Moderationstext:**
 > *„Verstanden?-Strichlisten: Wer hat sich ertappt – und wie oft am Montag gegen Freitag?"* [2 Stimmen, fallende Kurve würdigen.]
-> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Jahres: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
+> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Programms: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
 
 ## Phase 3 · Input (Minute 13–28)
 

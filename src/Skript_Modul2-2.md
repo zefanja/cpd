@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was genau sollen meine Schüler am Ende können – und woran erkenne ich es? |
 | **Kernquellen** | Wiggins & McTighe, *Understanding by Design* (Backwards Design, die zwei Kardinalfehler der Planung); McCrea, *Lean Lesson Planning* (Lern-Meilensteine); Lemov, *Teach Like a Champion 3.0*, T1 (Exemplar Planning) |
-| **Funktion im Jahr** | Vertieft Frage 1 aus M2.1 (Ziel: Was sollen am Ende alle können, und woran sehe ich das?). Mindestziel, Meilensteine und Idealantwort werden Maßstab für Exit Tickets (M2.6), Verständnisprüfung (Block 4), Erwartungshorizonte (M6.3) und die Lean-Planung (M6.1/6.2). |
+| **Funktion im Programm** | Vertieft Frage 1 aus M2.1 (Ziel: Was sollen am Ende alle können, und woran sehe ich das?). Mindestziel, Meilensteine und Idealantwort werden Maßstab für Exit Tickets (M2.6), Verständnisprüfung (Block 4), Erwartungshorizonte (M6.3) und die Lean-Planung (M6.1/6.2). |
 | **Lernziele** | Die TN können:<br>1. für eine Stunde ein Mindestziel (was alle können sollen) und 2–4 ansteigende Meilensteine formulieren, die aufeinander aufbauen und sich mit einer Aufgabe prüfen lassen,<br>2. die ideale Schülerantwort zum Mindestziel vorab selbst schreiben (Idealantwort) und daraus ableiten, welche Schritte die Stunde braucht. |
 | **Sitzungstyp** | Schreibwerkstatt an realen Stunden der kommenden Woche – der Output der Sitzung wird montags unterrichtet. |
 
