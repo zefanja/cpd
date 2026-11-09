@@ -67,7 +67,7 @@ Dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualitä
 
 Jeder erhält den eigenen Dreifach-Spinnennetz-Ausdruck (M0/M3.6/M6.5). Zwei Minuten stilles Betrachten, dann Blitzlicht reihum, EIN Satz: *„Was sagt dir dein Netz?"*
 
-> **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit letzter Woche, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab August selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
+> **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit Modul 6.4, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab August selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
 
 ## Phase 5 · Programm-Feedback (Minute 106–112)
 
@@ -110,12 +110,12 @@ Kolloquium [Datum] · Eröffnung: Schulleitung · Rahmung · Präsentationen: 1.
 **BEHALTEN** (Was hat dir am meisten gebracht? Konkret – Format, Modul, Werkzeug): … **ÄNDERN** (Was hätte anders getaktet/gebaut sein sollen?): … **STREICHEN** (Was hat dir wenig gebracht – ehrlich): … **Mein Rat an Kohorte 2 in einem Satz:** … **Optional – Name, falls Rückfragen okay:** … *(Anonymität ausdrücklich erlaubt; die Sätze der letzten Zeile werden – anonymisiert – Teil des nächsten Auftakts.)*
 
 # Anhang 3: Zertifikats-Vorlage (Struktur)
-Schullogo · „Zertifikat – Berufsbegleitende Professionalisierung für den Quereinstieg, Schuljahr …" · Name · Umfang (35 Module im Zwei-Wochen-Rhythmus mit Austausch- und Vertiefungssitzungen, wöchentliches Unterrichtscoaching, 5 kollegiale Hospitationen, 3 Meilenstein-Kolloquien, Abschlusskolloquium mit Unterrichtsdokumentation) · **Individueller Würdigungssatz (Precise Praise):** „…" · Unterschriften Schulleitung + Programmleitung · Datum. *(Formulierungs-Check für den Würdigungssatz: konkret? verdient? aufs Vorgehen? – die M1.6-Kriterien gelten bis zur letzten Urkunde.)*
+Schullogo · „Zertifikat – Berufsbegleitende Professionalisierung für den Quereinstieg, Schuljahr …" · Name · Umfang (35 Module im Zwei-Wochen-Rhythmus mit Austausch- und Vertiefungssitzungen, wöchentliches Unterrichtscoaching, 5 kollegiale Hospitationen, 3 Meilenstein-Gespräche, Abschlusskolloquium mit Unterrichtsdokumentation) · **Individueller Würdigungssatz (Precise Praise):** „…" · Unterschriften Schulleitung + Programmleitung · Datum. *(Formulierungs-Check für den Würdigungssatz: konkret? verdient? aufs Vorgehen? – die M1.6-Kriterien gelten bis zur letzten Urkunde.)*
 
 # Anhang 4: Ableitung für die SPA „Modul 6.5 / Jahres-Dashboard"
 
 1. **Kein Lernmodul – ein Zeugnis-Screen.** Das Modul öffnet mit dem finalen **Spinnennetz M0/M3.6/M6.5** als animierter Aufbau (die drei Linien zeichnen sich nacheinander – der Gänsehaut-Moment der SPA).
-2. **Jahres-Dashboard:** alle Verlaufsdaten auf einem Screen: Action-Step-Historie (35 Einträge!), Quiz-Kurven über 6 Blöcke, Planungszeit- und Korrekturzeit-Graphen (Module 6.2/6.4), Störungs-/3:1-/Cold-Call-Tracker-Trends – „Dein Jahr in Daten".
+2. **Jahres-Dashboard:** alle Verlaufsdaten auf einem Screen: Action-Step-Historie (35 Einträge!), Quiz-Kurven über 6 Blöcke, Planungszeit- und Korrekturzeit-Graphen (Module 6.1/6.3), Störungs-/3:1-/Cold-Call-Tracker-Trends – „Dein Jahr in Daten".
 3. **Portfolio-Export:** ein PDF-Paket auf Knopfdruck: Playbook (alle Skript-Editor-Exporte), Jahr-2-Vertrag, Spinnennetz, Dashboard-Zusammenfassung – das digitale Gegenstück zum Zertifikat.
 4. **Kolloquiums-Begleiter:** Ablauf-Checkliste + Präsentations-Timer (8–10 Min. mit Glöckchen-Sound) für die Live-Veranstaltung.
 5. **Programm-Feedback digital:** Behalten/Ändern/Streichen-Formular (speist die Kohorte-2-Anpassung); Rat-an-Kohorte-2-Feld.

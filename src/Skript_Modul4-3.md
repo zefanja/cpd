@@ -45,10 +45,10 @@ Moderation spielt den Dialog mit einem TN:
 
 ### 3a · Die Schleife in vier Varianten (Min. 14–20)
 > *„Die Mechanik: Nach dem ‚Weiß nicht' beschafft ihr Hilfe – und kehrt dann ZU JONAS ZURÜCK. Vier Varianten, nach Aufwand sortiert:*
-> *​**Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Modul 2.4: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
-> *​**Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
-> *​**Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
-> *​**Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
+> ***Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Modul 2.4: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
+> ***Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
+> ***Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
+> ***Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
 > *Und zur häufigsten Sorge – ‚Ist das Zurückkommen nicht bloßstellend?': Umgekehrt. Bloßstellend ist das AUFGEBEN – die stille Botschaft ‚Von dir erwartet hier keiner was'. Das Zurückkommen sagt das Gegenteil, und es ist nebenbei die Mindestform von Abruf, Modul 3.4: Auch das Wiederholen einer gehörten Antwort ist eine Gedächtnishandlung. Der Ton entscheidet: beiläufig-warm, kein Triumph, kein ‚Na also, geht doch!'"*
 
 ### 3b · Right is Right + Format Matters (Min. 20–25)

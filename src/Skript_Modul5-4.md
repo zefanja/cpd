@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie gewinne ich echtes Einverständnis – und was tue ich, wenn alle kleinen Werkzeuge nicht mehr reichen? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (M1.5), Anker (M1.4), W.I.N. (M1.7), EVK (M5.1) |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (M1.5), Anker (M1.4), W.I.N. (M1.7), EVK (M5.1) |
 | **Funktion im Jahr** | Die Ernstfall-Sitzung: schließt die in M1.5 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Jahres: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
 | **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
 | **Sitzungstyp** | Doppel-Input kompakt + die rollenspiel-intensivste Übungsphase seit Block 1 (zwei Eskalations-Szenarien mit Freeze-Punkten). Zeitdisziplin kritisch: Der Buy-in-Teil ist straff, die Rollenspiele sind unantastbar. |
@@ -40,9 +40,9 @@
 > **Moderationstext:**
 > *„Mikromomente: Wer hat bei seinen drei Roten etwas beobachtet?"* [1–2 Stimmen, kurz – heute ist das Programm dicht.]
 > *„Treiber 5, der letzte: **Buy-in** – echtes Einverständnis statt bloßer Befolgung. Drei Hebel, ihr kennt Teile davon:*
-> *​**Begründen.** Seit Modul 1.1 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
-> *​**Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
-> *​**Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Modul 3.6 und dem Interleaving-Erklärskript in Modul 3.5 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
+> ***Begründen.** Seit Modul 1.1 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
+> ***Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
+> ***Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Modul 3.6 und dem Interleaving-Erklärskript in Modul 3.5 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
 
 ## Phase 3 · Input B: Die harten Fälle (Minute 17–30)
 
@@ -89,7 +89,7 @@
 
 # 4. Coaching-Modul 5.4 (Handreichung)
 
-- **Kein Standard-Hospitationsfokus** diese Woche – stattdessen zwei Aufträge:
+- **Kein Standard-Hospitationsfokus** in diesem Zyklus – stattdessen zwei Aufträge:
   1. **Das Unterstützungsgespräch begleiten:** Vorbereitung im 1:1 durchsprechen (Lage–Versucht–Frage einmal laut), ggf. Türöffner sein (Coach kennt das Haus).
   2. Falls akuter Fall existiert: **Platzwechsel/Stufe in vivo** beobachten (Termin nach Lage).
 - **Auswertungsgespräch:** Ernstfall-Skript des TN durchgehen und EINMAL im Gespräch durchspielen (Coach als Schüler, Weigerungs-Variante!); Doku-System prüfen (existiert es? Fakt/Wertung sauber?).
@@ -127,7 +127,8 @@
 1. Die vier Belonging-Bausteine? *(Mikromomente / Voice Equity / Zusagen halten / Wir-Signale)*
 2. Die drei Mikromoment-Zeitfenster? *(vor dem Ritual / erster Rundgang / Türmoment)*
 3. Sek-II-Belonging in einem Satz? *(ernst genommen werden: Namen, erinnerte Beiträge, gehaltene Zusagen)*
-4. Die W.I.N.-Struktur (Block 1)? 5. (Anwendung) Ein Schüler stört massiv – welche Diagnose läuft VOR der Konsequenz-Entscheidung? *(EVK: E-Null in Verkleidung? Störer-Status > Versager-Status?)*
+4. Wofür stehen die drei Buchstaben von W.I.N. (M1.7)? *(Was ist passiert? – Impact – Next steps)*
+5. (Anwendung) Ein Schüler stört massiv – welche Diagnose läuft VOR der Konsequenz-Entscheidung? *(EVK: E-Null in Verkleidung? Störer-Status > Versager-Status?)*
 
 ## Teil 2: Modul-Quiz Modul 5.4 (für SPA/Austauschwoche)
 **F1.** „Das muss ich als Lehrkraft allein schaffen" ist…

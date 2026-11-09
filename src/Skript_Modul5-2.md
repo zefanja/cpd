@@ -46,8 +46,8 @@
 ## Phase 4 · Input B: Nudge Norms (Minute 22–32)
 
 > *„Treiber 3, und jetzt wird es sozial: **Nudge Norms.** Auftakt, Modell 4: Menschen tun, was ihre Gruppe normal findet – Jugendliche in Hochpotenz. Die Frage ist nie OB Normen wirken, sondern WELCHE gerade sichtbar sind. Und hier kommt der Satz, der wehtut:*
-> *​**Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Modul 1.6, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
-> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr habt es letzte Woche gelernt – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe, wie zweiundzwanzig von euch schon schreiben' macht hörbar, was sonst lautlos bliebe.*
+> ***Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Modul 1.6, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
+> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr kennt ihn aus Modul 4.5 – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe, wie zweiundzwanzig von euch schon schreiben' macht hörbar, was sonst lautlos bliebe.*
 > *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kollegen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
 
 ## Phase 5 · Name it (Minute 32–35)
@@ -66,7 +66,7 @@ Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen:
 2. Welche Bühne bekommt sie in den nächsten zwei Wochen – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)?
 3. Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an?
 
-Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
+Tandem-Check: Ist Punkt 1 wirklich WAHR und beobachtbar?
 
 ## Phase 7 · Action Step & Exit (Minute 52–60)
 
@@ -86,7 +86,7 @@ Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
 # 4. Coaching-Modul 5.2 (Handreichung)
 
 - **Hospitationsfokus – das Normen-Protokoll:** 15 Minuten lang jede Norm-Kommunikation wörtlich mitschreiben und kategorisieren: Negativ-Norm / Positiv-Norm / neutral. Zusätzlich: Wer bekam die Bühne (Störung oder Anstrengung)? Strichliste.
-- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt (a) beobachtet worden?
+- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt 1 beobachtet worden?
 - **Verzahnung:** Beim M5.1-Fall nachfassen: Falls K-Engpass diagnostiziert war – die Kosten-Frage stellen („Welche Routine erreicht ihn nicht?") und eine Routinen-Reparatur als Maßnahme ergänzen.
 - **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit") oder das Verhalten erst per Routine aufbauen (M1.1/M1.2), DANN plakatieren.
 
@@ -123,7 +123,8 @@ Vorlage:
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
 1. Die EVK-Formel + die Multiplikator-Pointe? *(E × W ÷ K; E=0 → alles null)*
 2. Die teuerste Kosten-Währung? *(Blamage-Risiko)*
-3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? 4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
+3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? *(„Du bist halt schlau" / „Du hast die Probe gemacht, deshalb stimmt es")*
+4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
 5. (Anwendung) Dein Fall zeigt hohe Kosten trotz guter Routinen – welche Kostenart prüfst du zuerst? *(Blamage-Risiko: Fehlerkultur bei IHM angekommen? Wird er ausgelacht?)*
 
 ## Teil 2: Modul-Quiz Modul 5.2 (für SPA/Austauschwoche)

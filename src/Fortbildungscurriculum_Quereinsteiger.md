@@ -76,7 +76,7 @@ Modulnummern folgen dem Schema **Block.Thema** (Modul 2.2 = Block 2, Thema 2) un
 **Wichtige Dramaturgie:** Nach längeren Ferien (v. a. Weihnachten und Ostern) werden bewusst „Re-Establish"-Momente eingebaut: Routinen neu setzen, denn nach Ferien verfallen sie – das ist normal und wird explizit trainiert.
 
 ## 5. Leistungs- & Erfolgsnachweise
-- **Lehrportfolio** (wächst mit jedem Modul): Action-Step-Log, 3 gefilmte Eigenanalysen (Modul 1.1 [Baseline], 1.7, 3.6, 6.3), Skriptsammlung, Exit-Ticket-Auswertungen.
+- **Lehrportfolio** (wächst mit jedem Modul): Action-Step-Log, Baseline-Video (Modul 1.1) und 3 gefilmte Eigenanalysen (Module 1.7, 3.6, 6.4), Skriptsammlung, Exit-Ticket-Auswertungen.
 - **Meilenstein-Gespräche** nach Block 1 (M1.7), Block 3 (M3.6) und Block 6 (M6.5) (Selbst- und Fremdeinschätzung anhand einer Kompetenzmatrix; Vollerhebung der Matrix in M0/M3.6/M6.5, Teil-Updates in M1.7/M2.6/M4.6/M5.5).
 - **Abschluss-Kolloquium** (Modul 6.5): Präsentation der eigenen Entwicklung anhand von zwei Videoausschnitten (früh vs. spät).
 
@@ -127,7 +127,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Coaching-Fokus:** Kennenlerngespräch, Zielvereinbarung und Matrix entgegennehmen, Baseline-Video-Termin für Modul 1.1 fixieren (das Video wird erst in M1.7 und M6.5 geöffnet).
 
-**SPA-Bausteine:** Programm-Landkarte (interaktive Jahresübersicht); Selbsteinschätzungs-Slider zu 8 Kompetenzfeldern (wird in Module 3.6 und 6.5 wiederholt → Fortschrittsvisualisierung); interaktives Schaubild Arbeits-/Langzeitgedächtnis; Drag-&-Drop: Situationen den 5 Modellen zuordnen; Fallanalyse „Doppelstunde Chemie" / „Die 8c bei Frau K."; Szenario-Quiz mit Fehlvorstellungs-Distraktoren; Reflexionsjournal für den Perspektivwechsel; Video „Was ist Deliberate Practice?"; Commitment-Generator (persönliches Ziel als Karte exportierbar).
+**SPA-Bausteine:** Programm-Landkarte (interaktive Jahresübersicht); Selbsteinschätzungs-Slider zu 8 Kompetenzfeldern (wird in den Modulen 3.6 und 6.5 wiederholt → Fortschrittsvisualisierung); interaktives Schaubild Arbeits-/Langzeitgedächtnis; Drag-&-Drop: Situationen den 5 Modellen zuordnen; Fallanalyse „Doppelstunde Chemie" / „Die 8c bei Frau K."; Szenario-Quiz mit Fehlvorstellungs-Distraktoren; Reflexionsjournal für den Perspektivwechsel; Video „Was ist Deliberate Practice?"; Commitment-Generator (persönliches Ziel als Karte exportierbar).
 
 ---
 
@@ -568,7 +568,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 ## Modul 3.6: Elaboration & Wissensorganisation (+ Konsolidierung Block 3)
 
-**Leitfrage:** Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln?
+**Leitfrage:** Wie helfe ich Schülern, Wissen zu vernetzen statt zu stapeln?
 
 **Lernziele:** Die TN können Elaborationsaufträge stellen (Warum-Fragen, Vergleiche, Beispiele generieren), Knowledge Organizer erstellen und Metakognition anbahnen.
 
@@ -661,7 +661,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Action Step:** „Kein 'weiß nicht' bleibt in den nächsten zwei Wochen stehen: Ich komme immer zur Ausgangsperson zurück – und sei es nur zum Wiederholen der richtigen Antwort."
 
-**SPA-Bausteine:** Schleifen-Simulator (verzweigtes Gespräarch); Kalibrierungs-Quiz mit Schülerantworten (Community-Vergleich: Wie streng sind andere?); Stretch-It-Fragenroulette.
+**SPA-Bausteine:** Schleifen-Simulator (verzweigtes Gespräch); Kalibrierungs-Quiz mit Schülerantworten (Community-Vergleich: Wie streng sind andere?); Stretch-It-Fragenroulette.
 
 ---
 
@@ -856,7 +856,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 # BLOCK 6: PLANUNG, ARBEITSÖKONOMIE & NACHHALTIGE ENTWICKLUNG (Module 6.1–6.5)
 
-**Block-Rationale:** Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: effizient planen (Zeit ist die knappste Ressource von Quereinsteiger mit Deputat!), klug bewerten, sich selbst weiterentwickeln. Leitquelle: McCrea, „Lean Lesson Planning" – jetzt, am Ende, weil Planungsökonomie Urteilskraft voraussetzt, die erst da ist.
+**Block-Rationale:** Der Abschlussblock macht aus einem trainierten ersten Jahr eine tragfähige Karriere: effizient planen (Zeit ist die knappste Ressource von Quereinsteigern mit Deputat!), klug bewerten, sich selbst weiterentwickeln. Leitquelle: McCrea, „Lean Lesson Planning" – jetzt, am Ende, weil Planungsökonomie Urteilskraft voraussetzt, die erst da ist.
 
 ---
 

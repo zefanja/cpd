@@ -49,12 +49,12 @@ Die Moderation stellt der Gruppe zweimal eine echte, diskussionswürdige Frage �
 
 ### 3b · Turn and Talk: die sechs Stellschrauben (Min. 21–26)
 > *„Baustein zwei: **Turn and Talk** – das Partnergespräch. Es hat einen miserablen Ruf (‚dann quatschen die doch nur'), und der Ruf ist verdient – für die SCHLAFFE Version. Die enge Version hat sechs Stellschrauben:*
-> - *​**Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama.*
-> - *​**Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar.*
-> - *​**Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende.*
-> - *​**Klares Startsignal** – ‚Mit dem Partner – los'.*
-> - *​**Klares Endsignal:** euer Aufmerksamkeitssignal aus Modul 1.3, exakt dafür gebaut.*
-> - *​**Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
+> - ***Feste Partner.** Zugeteilt, für Wochen – die Partnersuche kostet sonst jedes Mal 30 Sekunden und produziert Soziodrama.*
+> - ***Präziser Prompt** – die Frage besteht die Prüfkarte: diskutierbar (keine Ja/Nein-Sackgasse), präzise (ein Fokus), in 60 Sekunden substanziell beantwortbar.*
+> - ***Knappe Zeit: 30 bis 90 Sekunden.** Ja, so kurz. Lemovs Bild: Beende das Gespräch auf dem Wellenkamm – ‚crest of the wave' – solange es dicht ist. Zwei Minuten Partnergespräch sind fast immer 60 Sekunden Arbeit plus 60 Sekunden Wochenende.*
+> - ***Klares Startsignal** – ‚Mit dem Partner – los'.*
+> - ***Klares Endsignal:** euer Aufmerksamkeitssignal aus Modul 1.3, exakt dafür gebaut.*
+> - ***Verbindliche Ernte:** Nach dem Gespräch wird per Cold Call geerntet, und die Königsfrage kennt ihr jetzt: ‚Was hat dein Partner gesagt?' – sie macht Zuhören zur Pflicht und adelt nebenbei den Partner.*
 >
 > *Und die Lehrkraft WÄHREND der 60 Sekunden? Nicht ans Pult – kreisen und lauschen: Ihr hört in einer Minute fünf Gespräche an und wisst, welche Ernte sich lohnt (‚Ich habe bei Tisch drei etwas Spannendes gehört – Aylin?'). Das ist euer Circulate aus Modul 2.5, auf Ohren umgestellt."*
 
@@ -123,7 +123,7 @@ Zeilen: Write angesagt mit Zeit? ☐ / reale Write-Zeit: __ / Endsignal sauber? 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
 1. Die 4 No-Opt-Out-Varianten? *(Hinweis / Peer + Rückkehr / Teilantwort ausbauen / Verweigerung: ruhig + Angebot + W.I.N.)*
 2. Die Right-is-Right-Reflexfrage? *(„Würde die Antwort im Test volle Punkte bekommen?" – Maßstab: Idealantwort)*
-3. PR × TR – wofür stehen die Regler (M4.2)? *(wie viele denken × wie tief)*
+3. Participation Ratio und Think Ratio – wofür stehen die beiden Regler (M4.2)? *(wie viele denken mit × wie anspruchsvoll ist das Denken)*
 4. Wait Time: Sekunden + Rahmung? *(3–5 Sek.; produktiv rahmen: „einige notieren – gut")*
 5. (Anwendung) Ein Schüler antwortet inhaltlich richtig, aber in Umgangssprache – deine Reaktion nach Format Matters? *(würdigen + „jetzt in Fachsprache" – kurz, freundlich)*
 

@@ -46,19 +46,19 @@
 ## Phase 3 · Input A: Die Offenlegung (Minute 15–23)
 
 > *„Die Education Endowment Foundation hat hunderte Fortbildungsstudien ausgewertet und gefragt: Was unterscheidet Fortbildungen, die Unterricht verändern, von denen, die Ordner füllen? Die Antwort sind vier Mechanismen – und ihr habt alle vier ein Jahr lang erlebt:*
-> *​**Wissen aufbauen:** nicht als Vortrag, sondern gedächtnisgerecht – eure Retrieval-Starter, die kumulativen Block-Quizze, die Selbstversuche. Wir haben euch Gedächtnispsychologie nicht erzählt, wir haben sie an euch ANGEWANDT.*
-> *​**Motivation sichern:** Ziele mit der Matrix, glaubwürdige Quellen, Erfolgserlebnisse konstruiert – eure Stoppuhr-Kurven in Modul 1.3 waren euer erstes Secure Success, lange bevor ihr das Wort kanntet. Und heute, diese Offenlegung selbst, ist ein Mechanismus: Wer das System versteht, kämpft nicht gegen das System – Buy-in, Modul 5.4.*
-> *​**Technik entwickeln:** Modellieren, Skripten, Rollenspiel, sofortige Wiederholung – Deliberate Practice. Ihr habt in diesem Raum lauter geübt als jede Fortbildung, die ihr je erleben werdet. Der Grund steht auf Folie 2 der allerersten Sitzung: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht.*
-> *​**Verankerung im Alltag:** ein Action Step pro Woche, Coaching am echten Unterricht, Hospitationen. Die Fortbildung fand nie hier statt – sie fand montags in euren Klassenzimmern statt; hier war nur die Probebühne.*
+> ***Wissen aufbauen:** nicht als Vortrag, sondern gedächtnisgerecht – eure Retrieval-Starter, die kumulativen Block-Quizze, die Selbstversuche. Wir haben euch Gedächtnispsychologie nicht erzählt, wir haben sie an euch ANGEWANDT.*
+> ***Motivation sichern:** Ziele mit der Matrix, glaubwürdige Quellen, Erfolgserlebnisse konstruiert – eure Stoppuhr-Kurven in Modul 1.3 waren euer erstes Secure Success, lange bevor ihr das Wort kanntet. Und heute, diese Offenlegung selbst, ist ein Mechanismus: Wer das System versteht, kämpft nicht gegen das System – Buy-in, Modul 5.4.*
+> ***Technik entwickeln:** Modellieren, Skripten, Rollenspiel, sofortige Wiederholung – Deliberate Practice. Ihr habt in diesem Raum lauter geübt als jede Fortbildung, die ihr je erleben werdet. Der Grund steht auf Folie 2 der allerersten Sitzung: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht.*
+> ***Verankerung im Alltag:** ein Action Step pro Modul, Coaching am echten Unterricht, Hospitationen. Die Fortbildung fand nie hier statt – sie fand montags in euren Klassenzimmern statt; hier war nur die Probebühne.*
 > *Warum ich euch das zeige? Weil ihr ab jetzt eure eigene Fortbildung DESIGNT. Und wer die vier Mechanismen kennt, erkennt in dreißig Sekunden, ob eine Fortbildung, ein Buch, ein Vorsatz sie bedient – oder nur Ordner füllt. Die Frage an jede künftige Entwicklungs-Idee: Wo ist das Wissen, wo die Motivation, wo die ÜBUNG, wo die Verankerung?"*
 
 ## Phase 4 · Input B: Der Werkzeugkasten für Jahr 2 (Minute 23–30)
 
 > *„Vier Werkzeuge, alle erprobt, alle koffertauglich:*
-> *​**Eins: die Video-Routine.** Ihr habt drei Selbstanalysen hinter euch und wisst: Nichts zeigt euch euren Unterricht so ehrlich. Ein Video pro Quartal, zwei Durchgänge, drei Notizen – das Format kennt ihr auswendig. Das Handy ist euer Coach für 2027.*
-> *​**Zwei: der eigene Action-Step-Zyklus.** Ein Fokus pro Monat (nicht fünf – ihr kennt die Regel seit Tag eins), ein konkreter Step pro Woche, freitags zwei Minuten Bilanz. Das Formular kennt ihr – es funktioniert ohne mich.*
-> *​**Drei: das Tandem – mit Kalendereintrag.** Der wichtigste Satz dieser Phase: **Gute Vorsätze sterben, Termine überleben.** Eure Tandems aus diesem Jahr sind das wertvollste, was ihr mitnehmt – aber nur, wenn die gegenseitigen Besuche JETZT im Kalender stehen, mit Datum, bevor ihr diesen Raum verlasst. Zwei Peer-Besuche pro Halbjahr, Gastgeber-Fokus-Regel, ihr könnt das.*
-> *​**Vier: der Lesepfad.** Fünf Bücher, die auf diesem Jahr aufbauen"* [Handout C kurz zeigen] *„– Regel: ein Buch pro Halbjahr, und aus jedem Buch EIN Action Step. Ein Buch ohne Action Step ist Unterhaltung – auch schön, zählt aber nicht als Fortbildung. Vier Mechanismen, ihr wisst jetzt warum.*
+> ***Eins: die Video-Routine.** Ihr habt drei Selbstanalysen hinter euch und wisst: Nichts zeigt euch euren Unterricht so ehrlich. Ein Video pro Quartal, zwei Durchgänge, drei Notizen – das Format kennt ihr auswendig. Das Handy ist euer Coach für Jahr 2.*
+> ***Zwei: der eigene Action-Step-Zyklus.** Ein Fokus pro Monat (nicht fünf – ihr kennt die Regel seit Tag eins), ein konkreter Step pro Woche, freitags zwei Minuten Bilanz. Das Formular kennt ihr – es funktioniert ohne mich.*
+> ***Drei: das Tandem – mit Kalendereintrag.** Der wichtigste Satz dieser Phase: **Gute Vorsätze sterben, Termine überleben.** Eure Tandems aus diesem Jahr sind das wertvollste, was ihr mitnehmt – aber nur, wenn die gegenseitigen Besuche JETZT im Kalender stehen, mit Datum, bevor ihr diesen Raum verlasst. Zwei Peer-Besuche pro Halbjahr, Gastgeber-Fokus-Regel, ihr könnt das.*
+> ***Vier: der Lesepfad.** Fünf Bücher, die auf diesem Jahr aufbauen"* [Handout C kurz zeigen] *„– Regel: ein Buch pro Halbjahr, und aus jedem Buch EIN Action Step. Ein Buch ohne Action Step ist Unterhaltung – auch schön, zählt aber nicht als Fortbildung. Vier Mechanismen, ihr wisst jetzt warum.*
 > *Und alles zusammen als **Selbst-Coaching-Minimum** – bewusst ein MINIMUM, kein Maximalprogramm: 1 Fokus pro Monat · 1 Step pro Woche · 1 Video pro Quartal · 2 Peer-Besuche pro Halbjahr · 1 Buch pro Halbjahr. Das ist weniger Zeit, als ihr früher an einem einzigen Korrektur-Sonntag verloren habt – und es ist der Unterschied zwischen den beiden Kurven."*
 
 ## Phase 5 · Do it (Minute 30–52)
@@ -92,13 +92,13 @@ Letzte reguläre Exit-Karte, erweitert:
 1. Der Satz aus diesem Jahr, der bleibt: …
 2. Meine Botschaft an die nächste Kohorte: …
 
-*(fließt anonymisiert in die Kohorte-2-Auftakt – die Kohorte wird Teil des Programms!)*
+*(fließt anonymisiert in den Auftakt von Kohorte 2 – die Kohorte wird Teil des Programms!)*
 
 ---
 
 # 4. Coaching-Modul 6.4 (Handreichung)
 
-- **Die Übergabe-Fokus:** Das Coaching-Gespräch hat EINEN Fokus: Ablösung. Entwicklungsplan Jahr 2 durchgehen – der Coach fragt, korrigiert nicht mehr (letzte Kalibrierung: Sind die zwei Baustellen die richtigen? Matrix + eigene Belege danebenlegen).
+- **Der Übergabe-Fokus:** Das Coaching-Gespräch hat EINEN Fokus: Ablösung. Entwicklungsplan Jahr 2 durchgehen – der Coach fragt, korrigiert nicht mehr (letzte Kalibrierung: Sind die zwei Baustellen die richtigen? Matrix + eigene Belege danebenlegen).
 - **Baseline-Video übergeben:** versiegelt seit M1.1 – Übergabe mit Ritual-Charakter; TN schaut allein, VOR dem Kolloquium. Hinweis mitgeben: „Der erste Impuls ist Fremdscham. Der zweite ist Stolz. Warte auf den zweiten."
 - **Kolloquiums-Generalprobe anbieten** (Tandem hat Vorrang – Coach nur als Fallback); Zeitdisziplin proben (8–10 Min. sind schnell vorbei).
 - **Peer-Mentor-Sondierung:** Im Gespräch vorsichtig sondieren, wer sich als Peer-Mentor für Kohorte 2 eignet UND Lust hätte (wird in M6.5 offiziell angeboten – keine Zusagen einholen, nur Boden bereiten).
@@ -131,7 +131,10 @@ Regel: 1 Buch pro Halbjahr · 1 Action Step pro Buch · Tandem erzählt Tandem, 
 
 ## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards — der letzte!)
 1. Der WCF-Fünfschritt? *(lesen → Muster-Bogen → Feedbackstunde → DIRT → Stichprobe)*
-2. Die Triage-Frage + die vier Formate? 3. DIRT in einem Satz? 4. Die 5-Treiber (Block 5)? *(Success/Routines/Norms/Belonging/Buy-in)* 5. (Anwendung) Ein Kollege plant eine Fortbildung: 3 Stunden Vortrag, Handout, Ende. Welcher EEF-Mechanismus fehlt am dramatischsten – und was würdest du ergänzen? *(Übung [+ Verankerung]; ergänzen: Skripten + Rollenspiel + Action Step mit Follow-up)*
+2. Die Triage-Frage und die vier Korrekturformate? *(„Wer korrigiert das – auf welchem Weg?"; Selbstkorrektur / Peer-Korrektur / Stichprobe mit WCF / Vollkorrektur)*
+3. DIRT in einem Satz? *(Schüler überarbeiten ihre eigene Arbeit nach konkretem Auftrag, in der Stunde)*
+4. Die fünf Motivations-Treiber (Block 5)? *(Secure Success / Run Routines / Nudge Norms / Build Belonging / Boost Buy-in)*
+5. (Anwendung) Ein Kollege plant eine Fortbildung: 3 Stunden Vortrag, Handout, Ende. Welcher EEF-Mechanismus fehlt am dramatischsten – und was würdest du ergänzen? *(Übung [+ Verankerung]; ergänzen: Skripten + Rollenspiel + Action Step mit Follow-up)*
 
 ## Teil 2: Modul-Quiz Modul 6.4 (für SPA)
 **F1.** „Mit den Jahren wird man automatisch ein besserer Lehrer."
@@ -183,7 +186,7 @@ d) Selbststeuerung überschätzt wird ✗
 # Anhang 4: Ableitung für die SPA „Modul 6.4"
 
 1. **Hook (2 Min.):** Die Plateau-Kurve interaktiv: Slider „Berufsjahr" – die Lücke zwischen den Kurven wächst mit; Markierung „DU – heute" auf Jahr 1.
-2. **See it (4 Min.):** Die Offenlegung als „Making-of"-Screen: die vier EEF-Mechanismen erscheinen, und Programm-Elemente aus den Modulen 0–34 fliegen an ihre Plätze (das Jahr sortiert sich vor den Augen – der emotionale Kern des Moduls).
+2. **See it (4 Min.):** Die Offenlegung als „Making-of"-Screen: die vier EEF-Mechanismen erscheinen, und Programm-Elemente aus den Modulen 0 bis 6.4 fliegen an ihre Plätze (das Jahr sortiert sich vor den Augen – der emotionale Kern des Moduls).
 3. **Name it (3 Min.):** Minimum-Karte + die Fortbildungs-Prüffrage; Mechanismen-Check-Spiel: 4 fiktive Fortbildungsangebote → welcher Mechanismus fehlt?
 4. **Do it – Entwicklungsplan-Builder (9 Min., Engine!):** zieht automatisch die eigenen Daten: Matrix-Verlauf (Spinnennetz), Action-Step-Historie, schwächste Quiz-Kategorien → schlägt Baustellen-Kandidaten VOR (der Daten-Zahltag des Jahres!) → Nutzer priorisiert 2, terminiert Video/Tandem/Buch → Minimum mit Unterschrift-Geste (Touch-Signatur) → Export als „Mein Jahr-2-Vertrag" (PDF).
 5. **Video-Analyse-Guide Nr. 3:** das bekannte Zwei-Durchgänge-Format als geführter Ablauf; NEU: Peer-Gesprächs-Leitfaden für die Tandem-Rolle (die 3 Coach-Fragen als Karten).

@@ -52,7 +52,7 @@ Moderation spielt zweimal dieselbe Frage-Situation mit der Gruppe:
 ### 3b · Cold Call als Kultur (Min. 18–24)
 > *„Jetzt die Gelingensbedingungen, und sie sind nicht verhandelbar:*
 > *Erstens: **angekündigt und begründet einführen.** Cold Call wird nicht heimlich gestartet – er wird der Klasse erklärt: ‚Ich rufe ab jetzt auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern weil jede Stimme hier zählt und weil ich wissen will, wie IHR denkt, nicht nur die Schnellsten.' Das Skriptgerüst bekommt ihr gleich, in zwei Tonlagen.*
-> *Zweitens: **warm.** Ton und Miene aus Module 1.4 und 4.2 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
+> *Zweitens: **warm.** Ton und Miene aus den Modulen 1.4 und 4.1 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
 > *Drittens: **vorhersagbar-normal.** Mehrmals pro Stunde, ab Tag eins, als Alltagsformat – nicht als seltenes Ereignis, das Puls erzeugt. Was normal ist, macht keine Angst; Modell 4, Normen, ihr kennt es.*
 > *Viertens – die rote Linie: **niemals als Disziplinierung.** Der Cold Call auf den Träumer, um ihn zu ‚erwischen', ist die häufigste und zerstörerischste Zweckentfremdung: Ihr verwandelt euer Lernwerkzeug in eine Waffe, und die Klasse lernt in einer einzigen Szene: Drankommen ist Strafe. Für Träumer habt ihr die Leiter aus Modul 1.5 – Stufe 1, Blick und Nähe. Cold Call bleibt sauber.*
 > *Und fünftens: **niedrigschwellig starten.** Die ersten Cold Calls sind Meinungsfragen, Einschätzungen, Berichte aus der Partnerarbeit – Fragen ohne Blamage-Risiko. Das Sicherheitsnetz für ‚Weiß nicht' bauen wir im nächsten Modul ein; bis dahin gilt bei Schweigen: freundlich Hinweis geben oder weiterreichen und zurückkommen – nie stehen lassen, nie bohren."*
@@ -90,7 +90,7 @@ Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt
 
 # 4. Coaching-Modul 4.2 (Handreichung)
 
-- **Hospitationsfokus – die Heatmap-Fokus:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
+- **Hospitationsfokus – die Heatmap:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
 - **Auswertungsgespräch:** Heatmap wortlos vorlegen, TN interpretiert zuerst selbst – die blinden Flecken (hinten links? nur eine Geschlechterhälfte? nur Melder?) sind fast immer unbewusst und fast immer da. Pausenwerte daneben. Action Step: 2 konkrete „kalte Zonen" benennen, die nächste Woche gezielt Aufrufe bekommen.
 - **Einführungs-Beobachtung:** Wenn möglich die EINFÜHRUNGS-Stunde hospitieren – die Klassenreaktion auf das Skript ist das wertvollste Feedback.
 - **Red Flag:** Cold Call trifft beobachtbar überwiegend Störer/Träumer → sofort stoppen und umsteuern (Zweckentfremdung zerstört in Tagen, was in Wochen gebaut wurde); Leiter-Werkzeuge reaktivieren, Cold Call neu rahmen.
@@ -120,7 +120,7 @@ Sitzplan-Raster + Legende: ○ Cold Call · ● Meldung · Strichdichte = Häufi
 1. Die Ersetzungs-Regel (M4.1)? *(Selbstauskunft → prüfbare Mini-Aufgabe)*
 2. Der Fehlerreaktions-Dreiklang? *(neutral benennen → Ursache würdigen → nutzen)*
 3. Warum liefert „Alle verstanden?" nichts – zwei Gründe? *(soziale Kosten; Dunning-Kruger)*
-4. Die All-Response-Formate aus Block 2? *(Whiteboards, Fingercodes/Abfrage an alle)*
+4. Mit welchen Formaten lässt du alle gleichzeitig antworten (Block 2)? *(Mini-Whiteboards, Fingerzeichen)*
 5. (Anwendung) Skizziere ein Plan-for-Error für „Kommasetzung bei weil" – ein wahrscheinlicher Fehler + Reaktion. *(z. B. Komma nach Gefühl/Atempause statt vor der Konjunktion → Dreiklang + Verb-Suchregel als Hinweis)*
 
 ## Teil 2: Modul-Quiz Modul 4.2 (für SPA/Austauschwoche)

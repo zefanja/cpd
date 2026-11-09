@@ -80,7 +80,7 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 1. Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper).
 2. Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Fokus.
 
-> **Ausblick:** *„Der Kanal ist jetzt frei – beim nächsten Input geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 von letzter Woche: dem Filmeinstiegs-Problem."*
+> **Ausblick:** *„Der Kanal ist jetzt frei – beim nächsten Input geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 aus Modul 3.1: dem Filmeinstiegs-Problem."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -119,7 +119,7 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 1. Das Diagnose-Raster – die drei Fragen? *(WM überlastet? / nie im LZG–kein Abruf? / Denkspur woandershin?)*
 2. Willinghams Satz wörtlich? *(„Erinnert wird, worüber nachgedacht wurde.")*
 3. Was ist ein Schema – und was leistet es fürs Arbeitsgedächtnis? *(vernetztes Vorwissen; chunkt Elemente, erweitert faktisch die Kapazität)*
-4. Der Exit-Ticket-Gütecheck (Block 2)? *(Meilenstein / 3–5 Min. allein / schriftlich alle / Auswertung ≤10 Min.)*
+4. Der Exit-Ticket-Gütecheck (Block 2)? *(prüft das Mindestziel / 3–5 Min. allein lösbar / schriftlich, von allen / Auswertung in ≤ 10 Min.)*
 5. (Anwendung) Widerlege die Lernpyramide in zwei Sätzen – mit wahrem Kern. *(Zahlen erfunden, keine Quelle; wahrer Kern: aktive Verarbeitung schlägt passive – aber nicht in Prozent-Etagen.)*
 
 ## Teil 2: Modul-Quiz Modul 3.2 (für SPA/Austauschwoche)

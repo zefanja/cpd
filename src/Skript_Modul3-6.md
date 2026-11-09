@@ -7,7 +7,7 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
+| **Leitfrage** | Wie helfe ich Schülern, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
 | **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (M3.1) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in M6.2/6.3 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit M0-Vergleich, Video-Selbstanalyse Nr. 2. |
 | **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |

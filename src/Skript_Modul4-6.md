@@ -37,10 +37,10 @@
 
 ### 2a · Vom Stapel zur Entscheidung (Min. 12–18)
 > **Moderationstext:**
-> *„Modul 2.6 endete mit einer Faustregel: rot plus gelb über ein Drittel – Reteach. Heute die Feinmechanik, denn nicht jedes Fehlerprofil verdient dieselbe Antwort. Der **Entscheidungs-Dreisatz**, drei Fragen an jeden Stapel:*
-> *​Frage eins: **Welches MUSTER?** Ein Fehler bei vielen – oder viele verschiedene Fehler bei wenigen? Das ist die wichtigste Weiche, und sie wird am häufigsten übersehen.*
-> *​Frage zwei: **Welches FORMAT?** Ein Muster bei über einem Drittel → zehn Minuten Klassen-Reteach am Folgetag. Ein Muster bei zehn bis dreißig Prozent → Kleingruppe an den Gruppentisch, WÄHREND der Rest übt – und dass der Rest selbstständig übt, verdanken wir euren Routinen aus Block 1; ohne sie ist die Kleingruppe unmöglich. Einzelfälle → Impuls beim Circulate, die Namen stehen auf eurem Prüf-Fokus-Bogen.*
-> *​Frage drei – die eiserne Regel: **Welcher NEUE Zugang?** Reteach ist niemals Replay. Die alte Erklärung, nur lauter und langsamer, hat es beim ersten Mal nicht geschafft – warum sollte sie es beim zweiten? Neuer Zugang heißt: anderes Beispiel, andere Darstellung (Zeichnung statt Regel, Zeitstrahl statt Text, Gegenbeispiel statt Beispiel), anderer Einstiegspunkt. Eure Fading-Treppe aus Modul 2.4 ist die Fundgrube: Oft ist der neue Zugang schlicht eine Stufe tiefer.*
+> *„Modul 2.6 endete mit einer Faustregel: Liegt mehr als ein Drittel in ‚kann es fast' und ‚noch nicht', gibt es einen neuen Anlauf für alle – Reteach. Heute die Feinmechanik, denn nicht jedes Fehlerprofil verdient dieselbe Antwort. Der **Entscheidungs-Dreisatz**, drei Fragen an jeden Stapel:*
+> *Frage eins: **Welches MUSTER?** Ein Fehler bei vielen – oder viele verschiedene Fehler bei wenigen? Das ist die wichtigste Weiche, und sie wird am häufigsten übersehen.*
+> *Frage zwei: **Welches FORMAT?** Ein Muster bei über einem Drittel → zehn Minuten Klassen-Reteach am Folgetag. Ein Muster bei zehn bis dreißig Prozent → Kleingruppe an den Gruppentisch, WÄHREND der Rest übt – und dass der Rest selbstständig übt, verdanken wir euren Routinen aus Block 1; ohne sie ist die Kleingruppe unmöglich. Einzelfälle → Impuls beim Circulate, die Namen stehen auf eurem Prüf-Fokus-Bogen.*
+> *Frage drei – die eiserne Regel: **Welcher NEUE Zugang?** Reteach ist niemals Replay. Die alte Erklärung, nur lauter und langsamer, hat es beim ersten Mal nicht geschafft – warum sollte sie es beim zweiten? Neuer Zugang heißt: anderes Beispiel, andere Darstellung (Zeichnung statt Regel, Zeitstrahl statt Text, Gegenbeispiel statt Beispiel), anderer Einstiegspunkt. Eure Fading-Treppe aus Modul 2.4 ist die Fundgrube: Oft ist der neue Zugang schlicht eine Stufe tiefer.*
 > *Und die Diffus-Falle: Wenn der Stapel VIELE VERSCHIEDENE Fehler zeigt, ist der Klassen-Reteach die falsche Antwort – ihr würdet zwanzig Leuten etwas erklären, das nur je drei brauchen. Diffuse Profile heißen: differenziert reagieren – Checkpoints, Kleingruppen-Rotation, Einzelimpulse – oder, wenn WIRKLICH alles wackelt, ehrlich sein: Die Einheit braucht einen Schritt zurück, nicht einen Flicken."*
 
 ### 2b · Own and Track + Klassenarbeits-Vorlauf (Min. 18–26)
@@ -136,7 +136,7 @@ b) enthält die selbst notierte Lösung + den benannten eigenen Denkfehler ✓
 c) wird benotet, sonst macht sie keiner ✗
 d) ist nur für Schwache nötig ✗
 
-**F4.** „Wiederholt fürs Klassenarbeit mal alles von Kapitel 3 bis 5" ist…
+**F4.** „Wiederholt für die Klassenarbeit mal alles von Kapitel 3 bis 5" ist…
 a) fair, weil vollständig ✗ *(klingt gründlich)*
 b) die Gießkanne – die Daten hätten 2–3 Baustellen gezeigt ✓
 c) der Standard und daher richtig ✗

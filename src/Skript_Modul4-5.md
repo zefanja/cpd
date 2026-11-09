@@ -46,7 +46,7 @@
 
 ## Phase 3 · Input B: Show Call (Minute 20–30)
 
-> *„Und jetzt das Werkzeug mit der größten Hebelwirkung – und den höchsten Voraussetzungen: **Show Call.** Eine Schülerarbeit wird projiziert – Dokumentenkamera, Handyfoto an den Beamer – und gemeinsam besprochen. Warum ist das so stark? Feedback an einem echten, konkreten Beispiel erreicht die ganze Klasse gleichzeitig; die Everybody-Writes-Zettel von letzter Woche sind das perfekte Rohmaterial. Und warum ist es voraussetzungsreich? Weil es OHNE die Fehlerkultur aus Modul 4.1 eine öffentliche Hinrichtung ist. Deshalb die Gelingensbedingungen:*
+> *„Und jetzt das Werkzeug mit der größten Hebelwirkung – und den höchsten Voraussetzungen: **Show Call.** Eine Schülerarbeit wird projiziert – Dokumentenkamera, Handyfoto an den Beamer – und gemeinsam besprochen. Warum ist das so stark? Feedback an einem echten, konkreten Beispiel erreicht die ganze Klasse gleichzeitig; die Everybody-Writes-Zettel aus Modul 4.4 sind das perfekte Rohmaterial. Und warum ist es voraussetzungsreich? Weil es OHNE die Fehlerkultur aus Modul 4.1 eine öffentliche Hinrichtung ist. Deshalb die Gelingensbedingungen:*
 > *Erstens: **als Ehrung einführen.** Wörtlich, bevor die erste Arbeit an die Wand geht: ‚Wenn ich eine Arbeit zeige, ist das eine Auszeichnung – an dieser Arbeit lernen wir alle. Es wird nie darum gehen, jemanden vorzuführen.' Am Anfang anonym (Name abdecken, Foto beschneiden); nach zwei, drei Wochen fragen die Ersten von selbst, ob ihre gezeigt wird – DAS ist der Kultur-Indikator.*
 > *Zweitens: **der Dreischritt**:*
 > - *Würdigen – konkret, was trägt: ‚Der Ansatz in Zeile eins ist genau richtig gewählt.'*
@@ -117,7 +117,10 @@ Aufgabe: „Begründe in 3–4 Sätzen, ob 16-Jährige wählen dürfen sollten."
 
 ## Teil 1: Retrieval-Starter (Min. 2–9, als Muster-Whiteboard-Routine!)
 1. Die Standard-Choreografie M4.4? *(Write 1–3 Min. → Talk 30–90 Sek. → Ernte mit Partnerfrage)*
-2. Vier der sechs Turn-and-Talk-Stellschrauben? 3. Warum Schreiben vor Reden – der wichtigste Effekt? *(jeder denkt; Denkzeit demokratisch)* 4. Der Prüf-Fokus beim Rundgang in einem Satz (M2.5)? 5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus M4.2: kalte Zonen gezielt ansteuern)*
+2. Nenne vier der sechs Turn-and-Talk-Stellschrauben. *(feste Partner / präziser Prompt / 30–90 Sek. / Startsignal / Endsignal / verbindliche Ernte)*
+3. Warum Schreiben vor Reden – was ist der wichtigste Effekt? *(jeder denkt; alle bekommen Denkzeit)*
+4. Was ist der Prüf-Fokus beim Rundgang (M2.5)? *(vorher in einem Satz festlegen, WAS ich in den Heften prüfe, z. B. die Scheiter-Stelle)*
+5. (Anwendung) Deine Ernte-Cold-Calls treffen immer dieselben – welches Werkzeug korrigiert das? *(Heatmap aus M4.2: kalte Zonen gezielt ansteuern)*
 
 ## Teil 2: Modul-Quiz Modul 4.5 (für SPA/Austauschwoche)
 **F1.** Mini-Whiteboards in der Oberstufe sind…
