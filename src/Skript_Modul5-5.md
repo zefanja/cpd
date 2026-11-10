@@ -127,7 +127,7 @@ Fünf Spalten: **Secure Success · Run Routines · Nudge Norms · Build Belongin
 8. Auf welchen drei Wegen machst du erwünschtes Verhalten sichtbar? *(Schülerarbeiten zeigen / konkrete Anerkennung unter Mitschülern / die arbeitende Mehrheit aussprechen)*
 9. Nenne die vier Bausteine für Zugehörigkeit. *(kurze persönliche Kontakte / jede Stimme wird gehört / Zusagen halten / gemeinsame Rituale)*
 10. In welchen drei Momenten ist Platz für kurzen persönlichen Kontakt? *(vor der Begrüßung / beim ersten Rundgang / an der Tür)*
-11. Auf welchen drei Wegen gewinnst du Zustimmung? *(begründen (auch den Stoff) / echte Wahl im Wie / erklären, warum du so unterrichtest)*
+11. Auf welchen drei Wegen gewinnst du Zustimmung? *(den Nutzen offenlegen, auch für den Stoff / Zustimmung einholen / erklären, warum du so unterrichtest)*
 12. Welche drei Regeln gelten beim Platzwechsel? *(vorbereiteter Wortlaut / kein Gesichtsverlust / sofort weiterunterrichten)*
 13. Nenne je ein Beispiel für Beobachtung und Wertung im Protokoll. *(„wirft den Stuhl um, 9:42 Uhr“ gegen „ist aggressiv“)*
 14. Wie bittest du strukturiert um Unterstützung? *(Lage – was ich versucht habe – meine Frage)*

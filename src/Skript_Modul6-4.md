@@ -166,7 +166,7 @@ d) Wenn ich es im Kollegium empfohlen habe. ✗ *(Schön, aber kein Maßstab.)*
 
 **F5.** Warum ist das Minimum für die Zeit nach dem Programm so klein gehalten?
 a) Mehr ist nicht nötig. ✗ *(Mehr wäre besser, wird aber nicht durchgehalten.)*
-b) Große Pläne brechen nach wenigen Wochen ab. Ein kleines Programm wird durchgehalten. ✓ *(Dieselbe Logik wie bei „80 % genügen“ (M6.1).)*
+b) Große Pläne brechen nach wenigen Wochen ab. Ein kleines Programm wird durchgehalten. ✓ *(Dieselbe Logik wie in M6.1: weniger tun, das aber durchhalten.)*
 c) Die Schulleitung erlaubt nicht mehr. ✗ *(Damit hat es nichts zu tun.)*
 d) Sich selbst zu steuern wird überschätzt. ✗ *(Im Gegenteil, es ist der Kern der Zeit danach.)*
 

@@ -40,7 +40,7 @@
 
 ## Phase 3 · See it: Drei Selbstversuche (Minute 15–24)
 
-**Versuch 1 – Der Flaschenhals (3 Min.):** *„Ich zeige euch gleich für fünf Sekunden eine Zahl. Danach schreibt ihr sie RÜCKWÄRTS aufs Board."* [Folie: 0 1 7 6 4 4 9 2 3 1 8 → Boards hoch → Chaos, Gelächter.] *„Und jetzt: euer eigenes Geburtsdatum, rückwärts. … Alle können es. Der Unterschied? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – und das hat, je nach Zählung, vier bis sieben Plätze. Das Geburtsdatum liegt im Langzeitgedächtnis und kostet: nichts."* (Auftakt-Echo explizit machen – heute wird daraus Theorie.)
+**Versuch 1 – Der Flaschenhals (3 Min.):** *„Ich zeige euch gleich für fünf Sekunden eine Zahl. Danach schreibt ihr sie RÜCKWÄRTS aufs Board."* [Folie: 0 1 7 6 4 4 9 2 3 1 8 → Boards hoch → Chaos, Gelächter.] *„Und jetzt: euer eigenes Geburtsdatum, rückwärts. … Alle können es. Der Unterschied? Die Telefonnummer musste im Arbeitsgedächtnis jongliert werden – und das hat nur wenige Plätze: sieben bei simplen Ziffernfolgen, bei neuem Stoff, der verknüpft werden muss, eher zwei bis vier. Das Geburtsdatum liegt im Langzeitgedächtnis und kostet: nichts."* (Auftakt-Echo explizit machen – heute wird daraus Theorie.)
 
 **Versuch 2 – Die Chunk-Magie (3 Min.):** [Folie 5 Sek.: B M W F B I U S A A D A C – Boards: kaum jemand schafft alle 13.] *„Und jetzt dieselben dreizehn Buchstaben, anders geschnitten: BMW – FBI – USA – ADAC."* [Boards: fast alle.] *„Dreizehn Elemente wurden zu vier – weil euer Langzeitgedächtnis die Muster kennt. Das nennt sich Schema, und es ist der wichtigste Begriff des Blocks: **Vorwissen erweitert faktisch das Arbeitsgedächtnis.** Wer viel weiß, kann mehr denken – nicht umgekehrt. Das ist übrigens der Grund, warum ‚erst Kompetenzen, Wissen kann man googeln' kognitiv Unsinn ist: Ohne Schemata im Kopf gibt es nichts, WOMIT man denkt."*
 
@@ -102,7 +102,7 @@ Tandems ziehen eine Mythen-Karte und üben die 60-Sekunden-Lehrerzimmer-Antwort:
 Folie 1: „0 1 7 6 4 4 9 2 3 1 8" (5 Sek.). Folie 2: „B M W F B I U S A A D A C" (5 Sek.). Folie 3: „BMW · FBI · USA · ADAC" (5 Sek.).
 
 ## 1.2 Handout A: Modell + Raster
-Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (4–7 Plätze, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:**
+Grafik: Umwelt → **Aufmerksamkeit** (Torwächter) → **Arbeitsgedächtnis** (wenige Plätze – bei neuem Stoff zwei bis vier –, flüchtig) ⇄ **Langzeitgedächtnis** (Schemata, praktisch unbegrenzt). Drei Kernsätze (siehe Phase 4). **Diagnose-Raster:**
 
 1. WM überlastet?
 2. Nie im LZG / kein Abruf?

@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (M2.2), Planungsbogen (M2.6), Stunden-Check mit den fünf Fragen (M2.1) |
 | **Funktion im Programm** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das M2.6-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem M2.1-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
-| **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
+| **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; wenig tun, das aber gut; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
 | **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Programms (O-Ton früherer Kohorten). |
 
 ---
@@ -40,7 +40,7 @@
 > *„Zückt eure Zahl: Planungszeit pro Einzelstunde, ehrlich. Boards hoch."* [Werte sammeln, Median grob an die Tafel – typisch bei Quereinsteigern: 45–90 Min.]
 > *„Rechnen wir mit dem Median: [z. B. 60] Minuten pro Stunde, bei sagen wir 14 zu planenden Stunden pro Woche… sind 14 Stunden Planung wöchentlich. Auf ein Schuljahr: über 500 Zeitstunden – mehr als drei Monate Vollzeitarbeit, nur fürs Planen. Und jetzt die doppelte Provokation von McCrea:*
 > *Erstens: **Planungszeit ist kein Qualitätsbeweis.** Die Korrelation zwischen Planungsdauer und Stundenwirkung ist erschreckend schwach – ihr wisst seit Modul 2.2, warum: Die meiste Zeit fließt in Aktivitäten-Suche und Material-Kosmetik, also in den ersten Kardinalfehler, das aktivitätsorientierte Planen. Die Wirkung einer Stunde entsteht in den ersten zehn Planungsminuten – Ziel, Nachweis, Kernaufgabe – der Rest ist häufig Beruhigungsarbeit fürs eigene Gewissen.*
-> *Zweitens, und das ist der befreiende Satz des Tages: **Eine 80-Prozent-Stunde, nachhaltig jede Woche gehalten, schlägt die 100-Prozent-Stunde, die euch bis Weihnachten verbrennt.** Lean heißt nicht schlampig – Lean heißt: Die Ressource Lehrkraft ist Teil der Rechnung. Ihr plant nicht nur Stunden, ihr plant ein BERUFSLEBEN. Und die Währung heißt: **Wirkung pro Minute** – pro Schülerminute UND pro Planungsminute."*
+> *Zweitens, und das ist der befreiende Satz des Tages: **Der größte Teil der Wirkung kommt aus einem kleinen Teil der Planung** – McCrea nennt das die Pareto-Haltung: weniger tun, das aber besser. Wer Ziel und Prüfaufgabe sauber setzt und den Feinschliff weglässt, hält gute Stunden jede Woche durch, statt sich mit perfekten bis Weihnachten zu verbrennen. Lean heißt nicht schlampig – Lean heißt: Die Ressource Lehrkraft ist Teil der Rechnung. Ihr plant nicht nur Stunden, ihr plant ein BERUFSLEBEN. Und die Währung heißt: **Wirkung pro Minute** – pro Schülerminute UND pro Planungsminute."*
 
 ## Phase 3 · Input: Die Lean-Mechanik (Minute 15–27)
 
@@ -54,7 +54,7 @@
 
 ## Phase 4 · Name it (Minute 27–30)
 
-**Lean-Mindset:** Wirkung pro Minute · 80 % nachhaltig schlägt 100 % ausbrennend · Planungszeit ist Budget. **Die Fragenfolge:** Wohin? → Woran erkenne ich es? → Wie? (aus dem Repertoire!) → Was kommt zurück? **Prüfregel:** Wer bei „Wie?" anfängt, plant Beschäftigung. **Zeitziel:** Einzelstunde auf dem Einseiter in ≤ 20 Minuten. Merksatz: *„Zehn Minuten Ziel schlagen sechzig Minuten Material."*
+**Lean-Mindset:** Wirkung pro Minute · weniger tun, das aber besser (Pareto: der größte Teil der Wirkung kommt aus Ziel und Prüfaufgabe) · Planungszeit ist Budget. **Die Fragenfolge:** Wohin? → Woran erkenne ich es? → Wie? (aus dem Repertoire!) → Was kommt zurück? **Prüfregel:** Wer bei „Wie?" anfängt, plant Beschäftigung. **Zeitziel:** Einzelstunde auf dem Einseiter in ≤ 20 Minuten. Merksatz: *„Zehn Minuten Ziel schlagen sechzig Minuten Material."*
 
 ## Phase 5 · Do it: Das Planungs-Wettmessen (Minute 30–52)
 
@@ -86,7 +86,7 @@ Tandem-Blitz: Partner legt die fünf Fragen aus M2.1 an den Einseiter – 2 Minu
 - **Formatwechsel ab jetzt: das PLANUNGSGESPRÄCH.** Das Coaching findet in diesem Zyklus VOR einer Stunde statt: TN plant live auf dem Einseiter (Timer!), Coach beobachtet nur den PROZESS: Wo hängt die Zeit? (Fast immer: Aktivitäten-Grübeln trotz Repertoire, oder Material-Kosmetik.) Danach 10 Min. Prozess-Feedback + gemeinsames Audit.
 - **Hospitation (verkürzt):** die geplante Stunde ansehen mit EINER Frage: Hat die 20-Minuten-Planung im Raum getragen? (Belege sammeln für das Auswertungsgespräch – die Antwort ist fast immer ja, und sie muss BELEGT werden, sonst glaubt der TN ihr nicht.)
 - **Zahlen-Ehrlichkeit:** Planungszeit-Log der Woche gemeinsam anschauen; Rückfälle normalisieren („Sonntagsangst hat Gewohnheitsrecht – sie geht in Wochen, nicht Tagen").
-- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Fragen aus M2.1 – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (Alternative 2) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
+- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („weniger tun heißt ja: reicht schon") → nachschärfen: Weggelassen wird die PERFEKTIONS-Kosmetik, nicht auf die fünf Fragen aus M2.1 – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (Alternative 2) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
 
 ---
 
@@ -125,11 +125,11 @@ b) Material sichten, dann den Ablauf festlegen, dann das Ziel benennen. ✗ *(Da
 c) Ziel, dann Aktivitäten, dann die Aufgabe für das Exit Ticket. ✗ *(Fast. Die Prüfaufgabe kommt vor den Aktivitäten.)*
 d) Ziel, dann die Aufgabe für das Exit Ticket, dann die Aktivitäten, dann: Was kommt aus früheren Stunden zurück? ✓ *(Wer mit dem Ziel beginnt, plant Lernen.)*
 
-**F3.** Was bedeutet „80 % genügen“ in der Planung?
+**F3.** Was bedeutet „weniger tun, das aber besser“ in der Planung?
 a) Auf den Feinschliff am Material verzichten. Ziel, Prüfaufgabe und die fünf Fragen bleiben. ✓ *(Eine gute Stunde, die du jede Woche halten kannst, schlägt die perfekte, die dich auslaugt.)*
 b) Die fünf Fragen aus M2.1 dürfen auch mal entfallen. ✗ *(Die sind nicht verhandelbar.)*
 c) Jede fünfte Stunde wird improvisiert. ✗ *(Gemeint ist die Tiefe der Planung, nicht ihr Ausfall.)*
-d) Es reicht, wenn 80 % der Klasse das Ziel erreichen. ✗ *(Die Zahl bezieht sich auf deinen Aufwand.)*
+d) Weniger Ziele für die Klasse setzen, damit die Planung schneller geht. ✗ *(Gemeint ist dein Planungsaufwand, nicht das Ziel für die Klasse.)*
 
 **F4.** Ein Kollege meint: „Immer dieselben zehn Formate, das langweilt die Schüler.“ Was antwortest du?
 a) Stimmt, Methodenwechsel motiviert. ✗ *(Der Abwechslungs-Mythos. Jedes neue Format kostet alle Zeit.)*

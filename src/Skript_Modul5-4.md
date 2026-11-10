@@ -10,7 +10,7 @@
 | **Leitfrage** | Wie gewinne ich echtes Einverständnis – und was tue ich, wenn alle kleinen Werkzeuge nicht mehr reichen? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (M1.5), Anker (M1.4), W.I.N. (M1.7), EVK (M5.1) |
 | **Funktion im Programm** | Die Ernstfall-Sitzung: schließt die in M1.5 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Programms: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
-| **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
+| **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (Nutzen offenlegen, Zustimmung einholen, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
 | **Sitzungstyp** | Doppel-Input kompakt + die rollenspiel-intensivste Übungsphase seit Block 1 (zwei Eskalations-Szenarien mit Freeze-Punkten). Zeitdisziplin kritisch: Der Buy-in-Teil ist straff, die Rollenspiele sind unantastbar. |
 
 **Wichtige Vorklärung für die Moderation:** Die konkrete Eskalationskette ist SCHULSPEZIFISCH (Trainingsraum? Klassenleitung? Stufenleitung? Schulleitung? – je nach Haus). Vor der Sitzung mit der Schulleitung das reale Verfahren klären und in Anhang 1.3 eintragen – die Sitzung trainiert das ECHTE Verfahren, kein generisches.
@@ -41,7 +41,7 @@
 > *„Mikromomente: Wer hat bei seinen drei Roten etwas beobachtet?"* [1–2 Stimmen, kurz – heute ist das Programm dicht.]
 > *„Treiber 5, der letzte: **Buy-in** – echtes Einverständnis statt bloßer Befolgung. Drei Hebel, ihr kennt Teile davon:*
 > ***Begründen.** Seit Modul 1.1 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
-> ***Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
+> ***Zustimmung einholen (Opt-in).** Schüler können selten sinnvoll über Inhalt und Methode entscheiden; sie wissen noch nicht, was sie nicht wissen. McCrea rät deshalb: Die Lehrkraft entscheidet, legt den Nutzen offen und gibt dann Gelegenheit, bewusst mitzugehen. Das kann sehr klein sein: nach dem Wozu ein klarer nächster Schritt und die Frage ‚Seid ihr dabei?'. Stärker wirkt es, wenn Schüler das Wozu in eigenen Worten sagen oder aufschreiben, wann und wie sie üben. Voraussetzung: Das Wozu war ehrlich, und das Vertrauen stimmt; sonst wirkt die Frage wie ein Trick. Echte Wahl bietet ihr dort an, wo sie nichts kostet: das Thema eines Aufsatzes, den Lösungsweg. Nie zur Wahl stehen das Lernziel, die Erwartungen und die Sicherheit.*
 > ***Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Modul 3.6 und dem Interleaving-Erklärskript in Modul 3.5 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
 
 ## Phase 3 · Input B: Die harten Fälle (Minute 17–30)
@@ -58,7 +58,7 @@
 
 ## Phase 4 · Name it (Minute 30–33)
 
-**Buy-in-Trio:** begründen (auch Stoff!) · echte Wahl im Wie · Metamotivation. **Ernstfall-Regeln:** EVK vor Eskalation · Platzwechsel: Skript + Gesicht + weiterunterrichten · Kette: angekündigt, ruhig, verhältnismäßig · danach IMMER Reparatur (W.I.N.) · Doku: Fakt ≠ Wertung · Hilfe strukturiert (Lage – Versucht – Frage). Merksatz: *„Die ausgeführte Stufe ist Klassenführung – und Hilfe holen ist Handwerk."*
+**Buy-in-Trio:** Nutzen offenlegen (auch für den Stoff, aus Schülersicht, nah und ohne Übertreibung) · Zustimmung einholen („Seid ihr dabei?") · Metamotivation. **Ernstfall-Regeln:** EVK vor Eskalation · Platzwechsel: Skript + Gesicht + weiterunterrichten · Kette: angekündigt, ruhig, verhältnismäßig · danach IMMER Reparatur (W.I.N.) · Doku: Fakt ≠ Wertung · Hilfe strukturiert (Lage – Versucht – Frage). Merksatz: *„Die ausgeführte Stufe ist Klassenführung – und Hilfe holen ist Handwerk."*
 
 ## Phase 5 · Do it: Eskalations-Rollenspiele mit Freeze (Minute 33–52)
 
@@ -76,7 +76,7 @@
 
 **Alternativen:**
 
-1. Buy-in-Fokus: jede neue Aufgabe bekommt eine ehrliche Wozu-Antwort + eine echte Wie-Wahl.
+1. Buy-in-Fokus: jede neue Aufgabe bekommt eine ehrliche Wozu-Antwort + einen kurzen Moment der Zustimmung („Seid ihr dabei?").
 2. Reparatur-Nachholer: das W.I.N. führen, das nach der letzten Konsequenz ausgefallen ist.
 
 **Peer-Hospitation 5 (2 Min.):** Letzte Runde, wieder Peer-Format, Gastgeber-Fokus-Regel gilt; Bogen (Anhang 3): Motivations-Treiber-Spotting. Termine fixieren.
@@ -100,7 +100,7 @@
 
 # Anhang 1: Übungsmaterial
 
-## 1.1 Handout A: Buy-in-Trio — begründen (Erwartungen UND Stoff; die ehrliche Prüfungs-Antwort ist erlaubt) · echte Wahl im Wie (Reihenfolge/Sozialform/Darstellung – nie: Ziel, Erwartung, Sicherheit; Schein-Wahl-Verbot) · Metamotivation (System erklären: Interleaving-Skript M3.5, Lernrede M3.6). 
+## 1.1 Handout A: Buy-in-Trio — Nutzen offenlegen (Erwartungen UND Stoff; aus Schülersicht, möglichst nah: nächste Woche statt „mit 40"; nicht übertreiben; die ehrliche Prüfungs-Antwort ist erlaubt) · Zustimmung einholen (nach dem Wozu: klarer nächster Schritt + „Seid ihr dabei?"; stärker: das Wozu in eigenen Worten, Plan für das Üben; echte Wahl nur, wo sie nichts kostet – nie: Ziel, Erwartung, Sicherheit) · Metamotivation (System erklären: Interleaving-Skript M3.5, Lernrede M3.6). 
 
 ## 1.2 Handout B: Platzwechsel-Skript (dreispaltig)
 | Schritt | Wortlaut | Aktion |
@@ -158,11 +158,11 @@ b) Nur Erfolge ermöglichen und auf Konsequenzen verzichten. ✗ *(Die Grenze br
 c) Die Grenze ruhig setzen und parallel Erfolge ermöglichen. ✓ *(Beides zusammen: jetzt die Grenze, daneben der Aufbau der Erwartung.)*
 d) Ihn dauerhaft an einen Einzelplatz setzen. ✗ *(Das löst die Störung, nicht das Problem.)*
 
-**F5.** Worüber können Schüler sinnvoll mitentscheiden?
-a) Über die Reihenfolge der Aufgaben, die Sozialform oder die Form des Ergebnisses. ✓ *(Echte Wahl im Wie, nicht im Ob. Scheinwahlen werden durchschaut.)*
-b) Über das Lernziel der Stunde. ✗ *(Ziel, Erwartungen und Sicherheit stehen nicht zur Wahl.)*
-c) Über die geltenden Erwartungen. ✗ *(Die stehen fest.)*
-d) Über nichts, Wahl untergräbt die Führung. ✗ *(Begrenzte echte Wahl erhöht die Zustimmung.)*
+**F5.** Du willst, dass die Klasse eine neue Arbeitsweise mitträgt. Wie gewinnst du am ehesten ihre Zustimmung?
+a) Ich entscheide selbst, erkläre den Nutzen aus Sicht der Schüler und frage dann: „Seid ihr dabei?“ ✓ *(Nutzen offenlegen und Zustimmung einholen. Der kleine Moment des Zustimmens macht einen Unterschied, wenn das Wozu ehrlich war.)*
+b) Ich lasse die Klasse über das Lernziel der Stunde abstimmen. ✗ *(Ziel, Erwartungen und Sicherheit stehen nicht zur Wahl.)*
+c) Ich lasse möglichst viel wählen: Thema, Methode und Tempo. ✗ *(Schüler wissen noch nicht, was sie nicht wissen. Zu viel oder unpassende Wahl frustriert eher.)*
+d) Ich verzichte auf Begründungen, sie kosten Unterrichtszeit. ✗ *(Zwei Minuten Wozu zahlen sich durch mehr Aufmerksamkeit aus.)*
 
 **F6 (Transfer, Freitext):** E2-Situation („Halt doch die Fresse", Klasse erstarrt). Schreibe deine ersten drei Züge wörtlich – inkl. Anker, Stufen-Ansage und dem Satz, mit dem die STUNDE weitergeht. *(Muster siehe Anhang 1.4; Bewertungsanker: Anker vor Reaktion, formale Kürze ohne Gegenbeleidigung/Debatte, Konsequenz + Gesprächsansage getrennt, Klasse sofort zurück in die Arbeit.)*
 
@@ -180,5 +180,5 @@ d) Über nichts, Wahl untergräbt die Führung. ✗ *(Begrenzte echte Wahl erhö
 3. **Name it (3 Min.):** Ernstfall-Regeln als Karten; Fakt-oder-Wertung-Swipe (10 Protokollsätze).
 4. **Do it – Eskalations-Simulator (9 Min., Engine-Highlight!):** E1 und E2 als verzweigte Dialoge mit Freeze-Mechanik (App pausiert an den Freeze-Punkten und erzwingt die Beratungsentscheidung); Scoring: Anker vor Reaktion, keine Bühne, Reparatur angekündigt; Weigerungs- und Nachleg-Pfade nach Regieanweisung; endet immer mit dem Doku-Schreibfeld (Fakt-Filter-Heuristik: Wertungswörter-Liste löst Warnung aus).
 5. **Anfrage-Builder:** Lage–Versucht–Frage als Formular; zieht dokumentierte Vorfälle aus dem eigenen Log; Export als Gesprächsgrundlage.
-6. **Buy-in-Schnellcheck:** die eigene nächste Einheit auf drei Felder prüfen (Wozu-Satz? Wie-Wahl? System erklärt?).
+6. **Buy-in-Schnellcheck:** die eigene nächste Einheit auf drei Felder prüfen (Wozu-Satz? Moment der Zustimmung? System erklärt?).
 7. **Quiz (Teil 2)** + 30 % Altfragen; F1/F2/F4 sind Langzeit-Anker. **Abschluss:** Action-Step-Formular „Mein Ernstfall-Skript + mein Unterstützungsgespräch" mit Termin-Feld.
