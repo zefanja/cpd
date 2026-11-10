@@ -8,8 +8,8 @@
 | | |
 |---|---|
 | **Leitfrage** | Wie gewinne ich echtes Einverständnis – und was tue ich, wenn alle kleinen Werkzeuge nicht mehr reichen? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (M1.5), Anker (M1.4), W.I.N. (M1.7), EVK (M5.1) |
-| **Funktion im Jahr** | Die Ernstfall-Sitzung: schließt die in M1.5 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Jahres: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost buy-in"); Lovell/Dowley R10 (Moving a student), R18 (System level support); Verzahnung: Leiter (M1.5), Anker (M1.4), W.I.N. (M1.7), EVK (M5.1) |
+| **Funktion im Programm** | Die Ernstfall-Sitzung: schließt die in M1.5 bewusst offen gelassene Stufe 6 mit schulkonformem Handwerk (Eskalationskette, Dokumentation, Platzwechsel-Skript) und entlastet mit dem wichtigsten Quereinsteiger-Satz des Programms: Hilfe holen ist Handwerk, kein Versagen. Die EVK-vor-Eskalation-Regel verhindert Konsequenz-Spiralen. Peer-Hospitation 5 (letzte GH!) wird vorbereitet. |
 | **Lernziele** | Die TN können:<br>1. Buy-in mit drei Hebeln aufbauen (begründen, echte Wahl im Wie, Metamotivation),<br>2. einen Platzwechsel skriptbasiert, gesichtswahrend und unterrichtsfortführend durchführen,<br>3. die schulische Eskalationskette nennen und eine Eskalationsstufe ruhig ausführen – inklusive Beziehungsreparatur danach,<br>4. Vorfälle dokumentieren (Fakt vs. Wertung) und Unterstützung strukturiert anfordern. |
 | **Sitzungstyp** | Doppel-Input kompakt + die rollenspiel-intensivste Übungsphase seit Block 1 (zwei Eskalations-Szenarien mit Freeze-Punkten). Zeitdisziplin kritisch: Der Buy-in-Teil ist straff, die Rollenspiele sind unantastbar. |
 
@@ -33,16 +33,16 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Input A: Buy-in (Minute 8–17)
 
 > **Moderationstext:**
 > *„Mikromomente: Wer hat bei seinen drei Roten etwas beobachtet?"* [1–2 Stimmen, kurz – heute ist das Programm dicht.]
 > *„Treiber 5, der letzte: **Buy-in** – echtes Einverständnis statt bloßer Befolgung. Drei Hebel, ihr kennt Teile davon:*
-> *​**Begründen.** Seit Modul 1.1 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
-> *​**Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
-> *​**Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Modul 3.6 und dem Interleaving-Erklärskript in Modul 3.5 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
+> ***Begründen.** Seit Modul 1.1 gebt ihr Erwartungen einen Begründungssatz – das ist Buy-in-Technik: Menschen folgen Regeln, deren Sinn sie kennen, um Größenordnungen bereitwilliger. Neu heute: Begründet auch den STOFF. ‚Wozu brauchen wir das?' ist keine freche Frage, sondern eine Wert-Frage aus der EVK-Formel – und sie verdient eine ehrliche Antwort, notfalls die ehrlichste: ‚Für die Prüfung – und die öffnet euch Türen.' Auch das ist Wert.*
+> ***Echte Wahl – im Wie, nicht im Ob.** Autonomie ist ein Motivations-Urbedürfnis, aber die Wahl muss echt UND begrenzt sein: Reihenfolge der Aufgaben, Partner oder allein, Darstellungsform des Ergebnisses. Nie zur Wahl stellen: das Lernziel, die Erwartungen, die Sicherheit. Schein-Wahlen (‚Wollen wir jetzt weiterarbeiten?') sind schlimmer als keine – sie werden als Manipulation durchschaut.*
+> ***Metamotivation.** Erklärt der Klasse, WARUM ihr unterrichtet, wie ihr unterrichtet – ihr habt es mit der Lernstrategie-Rede in Modul 3.6 und dem Interleaving-Erklärskript in Modul 3.5 schon getan: ‚Das gemischte Blatt fühlt sich schwerer an – mit Absicht, hier ist der Grund.' Wer das System versteht, kämpft nicht mehr gegen das System. Das ist der billigste Buy-in-Hebel überhaupt – er kostet Sätze."*
 
 ## Phase 3 · Input B: Die harten Fälle (Minute 17–30)
 
@@ -89,7 +89,7 @@
 
 # 4. Coaching-Modul 5.4 (Handreichung)
 
-- **Kein Standard-Hospitationsfokus** diese Woche – stattdessen zwei Aufträge:
+- **Kein Standard-Hospitationsfokus** in diesem Zyklus – stattdessen zwei Aufträge:
   1. **Das Unterstützungsgespräch begleiten:** Vorbereitung im 1:1 durchsprechen (Lage–Versucht–Frage einmal laut), ggf. Türöffner sein (Coach kennt das Haus).
   2. Falls akuter Fall existiert: **Platzwechsel/Stufe in vivo** beobachten (Termin nach Lage).
 - **Auswertungsgespräch:** Ernstfall-Skript des TN durchgehen und EINMAL im Gespräch durchspielen (Coach als Schüler, Weigerungs-Variante!); Doku-System prüfen (existiert es? Fakt/Wertung sauber?).
@@ -123,42 +123,46 @@
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die vier Belonging-Bausteine? *(Mikromomente / Voice Equity / Zusagen halten / Wir-Signale)*
-2. Die drei Mikromoment-Zeitfenster? *(vor dem Ritual / erster Rundgang / Türmoment)*
-3. Sek-II-Belonging in einem Satz? *(ernst genommen werden: Namen, erinnerte Beiträge, gehaltene Zusagen)*
-4. Die W.I.N.-Struktur (Block 1)? 5. (Anwendung) Ein Schüler stört massiv – welche Diagnose läuft VOR der Konsequenz-Entscheidung? *(EVK: E-Null in Verkleidung? Störer-Status > Versager-Status?)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Nenne die vier Bausteine für Zugehörigkeit (M5.3). *(kurze persönliche Kontakte / jede Stimme wird gehört / Zusagen halten / gemeinsame Rituale)*
+2. In welchen drei Momenten der Stunde ist Platz für einen kurzen persönlichen Kontakt? *(in der Minute vor der Begrüßung / beim ersten Rundgang / an der Tür am Ende)*
+3. (Szene) Ein Schüler stört massiv. Was prüfst du, bevor du über eine Konsequenz entscheidest? *(ob er mit dem Scheitern rechnet: Stören ist oft leichter zu ertragen als Versagen)*
+4. Warum wirken Routinen auf die Motivation (M5.2)? *(Sie senken die Kosten: Jeder weiß, was zu tun ist, das Risiko sinkt.)*
+5. Wofür stehen die drei Buchstaben von W.I.N. (M1.7)? *(Was ist passiert? (seine Version zuerst) – Impact (Wirkung sachlich) – Next steps (gemeinsam, konkret, klein))*
+6. Wie lauten die Stufen 4 bis 6 der Interventionsleiter (M1.5)? *(private Einzelkorrektur → blitzschnelle öffentliche Korrektur → Konsequenz)*
 
 ## Teil 2: Modul-Quiz Modul 5.4 (für SPA/Austauschwoche)
-**F1.** „Das muss ich als Lehrkraft allein schaffen" ist…
-a) professioneller Ehrgeiz – richtig so ✗ *(DER Quereinsteiger-Glaubenssatz)*
-b) ein zerstörerischer Glaubenssatz: Hilfe holen ist Handwerk mit Struktur (Lage–Versucht–Frage) ✓
-c) in den ersten Jahren unvermeidlich ✗
-d) nur bei kleinen Problemen falsch ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Beim Platzwechsel bleibst du nach der Anweisung neben dem Schüler stehen und wartest. Effekt:
-a) Nachdruck – er sieht, dass du es ernst meinst ✗ *(fühlt sich konsequent an)*
-b) du baust die Bühne für den Machtkampf – weiterunterrichten wäre die Botschaft „Verwaltung, kein Drama" ✓
-c) keiner ✗
-d) rechtlich geboten ✗
+**F1.** „Das muss ich als Lehrkraft allein schaffen.“ Was ist von diesem Satz zu halten?
+a) In den ersten Jahren ist das richtig, um sich zu beweisen. ✗ *(Gerade dann ist der Satz gefährlich.)*
+b) Hilfe holen gehört zum Beruf. Vorbereitet wird sie mit drei Punkten: Lage, was ich versucht habe, meine Frage. ✓ *(Schulen haben dafür Strukturen. Wer so fragt, wird ernst genommen.)*
+c) Hilfe holt man nur bei Gewalt. ✗ *(Auch wiederkehrende Störungen in einer Lerngruppe sind ein Fall für Unterstützung.)*
+d) Hilfe holt man erst nach einem Elterngespräch. ✗ *(Die Reihenfolge hängt vom Fall ab.)*
 
-**F3.** „Ist aggressiv und provoziert ständig" im Vorfallprotokoll ist…
-a) eine präzise Zusammenfassung ✗
-b) Wertung statt Fakt – macht die Doku angreifbar; richtig: beobachtbare Handlungen + Zeit + Zitate ✓
-c) Pflichtangabe ✗
-d) nur für die Eltern problematisch ✗
+**F2.** Du weist einen Schüler an, den Platz zu wechseln, bleibst neben ihm stehen und wartest. Was bewirkt das?
+a) Nachdruck: Er sieht, dass du es ernst meinst. ✗ *(Es fühlt sich konsequent an, wirkt aber anders.)*
+b) Du baust eine Bühne für einen Machtkampf. Besser: Anweisung geben und sofort weiterunterrichten. ✓ *(Die Botschaft ist dann: Das war Organisation, kein Drama.)*
+c) Nichts Besonderes. ✗ *(Die ganze Klasse schaut zu.)*
+d) Er fühlt sich ernst genommen. ✗ *(Er fühlt sich vorgeführt.)*
 
-**F4.** Ein Schüler mit fünf Jahren Misserfolgsgeschichte stört massiv. Konsequenzen allein…
-a) stellen die Ordnung her – der Rest folgt ✗
-b) heilen kein Erwartungsproblem: EVK-Diagnose zuerst, Secure Success parallel zur Grenze ✓
-c) sind verboten ✗
-d) wirken bei solchen Schülern besonders gut ✗
+**F3.** Welcher Satz gehört in ein Vorfallprotokoll?
+a) „Er ist aggressiv.“ ✗ *(Eine Wertung. Sie macht das Protokoll angreifbar.)*
+b) „Er provoziert ständig.“ ✗ *(Wertung und Verallgemeinerung.)*
+c) „Er zeigt keinen Respekt.“ ✗ *(Eine Deutung, keine Beobachtung.)*
+d) „9:42 Uhr: wirft den Stuhl um und verlässt den Raum.“ ✓ *(Beobachtbare Handlung mit Uhrzeit, wörtliche Zitate in Anführungszeichen.)*
 
-**F5.** Echte Wahl als Buy-in-Hebel betrifft…
-a) auch das Lernziel – Demokratie im Klassenzimmer ✗ *(klingt fortschrittlich)*
-b) das WIE: Reihenfolge, Sozialform, Darstellungsform ✓
-c) nichts – Wahl untergräbt Autorität ✗
-d) nur die Oberstufe ✗
+**F4.** Ein Schüler mit jahrelanger Misserfolgsgeschichte stört massiv. Was ist die tragfähigste Antwort?
+a) Konsequenzen, bis das Verhalten aufhört. ✗ *(Konsequenzen ändern nichts daran, dass er mit dem Scheitern rechnet.)*
+b) Nur Erfolge ermöglichen und auf Konsequenzen verzichten. ✗ *(Die Grenze braucht es trotzdem, auch für die Klasse.)*
+c) Die Grenze ruhig setzen und parallel Erfolge ermöglichen. ✓ *(Beides zusammen: jetzt die Grenze, daneben der Aufbau der Erwartung.)*
+d) Ihn dauerhaft an einen Einzelplatz setzen. ✗ *(Das löst die Störung, nicht das Problem.)*
+
+**F5.** Worüber können Schüler sinnvoll mitentscheiden?
+a) Über die Reihenfolge der Aufgaben, die Sozialform oder die Form des Ergebnisses. ✓ *(Echte Wahl im Wie, nicht im Ob. Scheinwahlen werden durchschaut.)*
+b) Über das Lernziel der Stunde. ✗ *(Ziel, Erwartungen und Sicherheit stehen nicht zur Wahl.)*
+c) Über die geltenden Erwartungen. ✗ *(Die stehen fest.)*
+d) Über nichts, Wahl untergräbt die Führung. ✗ *(Begrenzte echte Wahl erhöht die Zustimmung.)*
 
 **F6 (Transfer, Freitext):** E2-Situation („Halt doch die Fresse", Klasse erstarrt). Schreibe deine ersten drei Züge wörtlich – inkl. Anker, Stufen-Ansage und dem Satz, mit dem die STUNDE weitergeht. *(Muster siehe Anhang 1.4; Bewertungsanker: Anker vor Reaktion, formale Kürze ohne Gegenbeleidigung/Debatte, Konsequenz + Gesprächsansage getrennt, Klasse sofort zurück in die Arbeit.)*
 

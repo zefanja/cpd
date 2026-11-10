@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Wie erkläre ich so, dass jemand folgen kann, für den der Stoff neu ist? |
 | **Kernquellen** | Lovell/Dowley, Routine 7 (Explaining/Modelling); Rosenshine P2 (kleine Schritte mit Übung nach jedem Schritt), P4 (Modelle zeigen); Newton (1990) zum Fluch des Wissens; Worked-Example-Forschung (Sweller, Vorgriff M3.2); Lemov (Think Aloud) |
-| **Funktion im Jahr** | Vertieft Frage 3 aus M2.1 (Erklären: kleine Schritte, Vormachen). Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (M2.4 Break It Down, M3.2 CLT, M6.3 Erwartungshorizonte). Die Idealantwort aus M2.2 liefert die Schrittgrößen-Diagnose. |
+| **Funktion im Programm** | Vertieft Frage 3 aus M2.1 (Erklären: kleine Schritte, Vormachen). Das Mikroteaching ist die erste Fach-Übung vor der ganzen Gruppe – ein Meilenstein der Übungskultur. Der „Fluch des Wissens" wird Dauerreferenz (M2.4 Break It Down, M3.2 CLT, M6.3 Erwartungshorizonte). Die Idealantwort aus M2.2 liefert die Schrittgrößen-Diagnose. |
 | **Lernziele** | Die TN können:<br>1. eine 3-Minuten-Erklärung nach den vier Bausteinen halten (klein schneiden, laut denken mit Falle, nach jedem Schritt alle antworten lassen, festhalten),<br>2. die eigene Erklärung auf ihre Schrittgröße prüfen und mit der Halbier-Regel nachbessern. |
-| **Sitzungstyp** | Mikroteaching-Sitzung: Die Do-it-Phase ist mit 23 Minuten die längste des Jahres, der Input entsprechend knapp. |
+| **Sitzungstyp** | Mikroteaching-Sitzung: Die Do-it-Phase ist mit 23 Minuten die längste des Programms, der Input entsprechend knapp. |
 
 ---
 

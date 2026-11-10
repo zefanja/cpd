@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Was tue ich, wenn die Antwort „weiß nicht" lautet – oder nur halb richtig ist? |
 | **Kernquellen** | Lemov T15 (No Opt Out), T16 (Right is Right), T17 (Stretch It), T18 (Format Matters) |
-| **Funktion im Jahr** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht die Idealantwort (M2.2) als Maßstab; Break It Down (M2.4) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in M6.2 wieder). |
+| **Funktion im Programm** | Vervollständigt Cold Call zum geschlossenen System: Keine Runde endet ohne Erfolg der Ausgangsperson. Right is Right braucht die Idealantwort (M2.2) als Maßstab; Break It Down (M2.4) liefert die Hilfe-Grammatik der Schleife; die Kalibrierungs-Übung ist der Kern (gemeinsamer Standard schlägt Einzelurteil). Stretch It ist die eingebaute Differenzierung nach oben (kehrt in M6.2 wieder). |
 | **Lernziele** | Die TN können:<br>1. die No-Opt-Out-Schleife in vier Varianten führen (Hinweis / Peer-Antwort / Teilantwort / Verweigerung),<br>2. halbrichtige Antworten freundlich nachfassen statt aufzurunden (Right is Right, mit Idealantwort als Maßstab),<br>3. Fachsprache einfordern ohne zu entmutigen (Format Matters),<br>4. richtige Antworten mit Stretch It verlängern. |
 | **Sitzungstyp** | Rollenspiel + Kalibrierung – die Kalibrier-Diskussion über Grenzfälle ist der eigentliche Lerngegenstand. |
 
@@ -29,7 +29,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Der Drei-Wörter-Deal (Minute 8–14)
 
@@ -45,10 +45,10 @@ Moderation spielt den Dialog mit einem TN:
 
 ### 3a · Die Schleife in vier Varianten (Min. 14–20)
 > *„Die Mechanik: Nach dem ‚Weiß nicht' beschafft ihr Hilfe – und kehrt dann ZU JONAS ZURÜCK. Vier Varianten, nach Aufwand sortiert:*
-> *​**Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Modul 2.4: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
-> *​**Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
-> *​**Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
-> *​**Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
+> ***Variante 1 – Hinweis:** Ihr gebt selbst die kleinste Hilfe – das ist wörtlich euer Break It Down aus Modul 2.4: ‚Denk an die Zeitspanne – worüber reden wir bei Wetter, worüber bei Klima?' Oft reicht das schon.*
+> ***Variante 2 – Peer liefert, Jonas vollendet:** ‚Mia, hilf uns – … Danke. Jonas, jetzt du: Was unterscheidet die beiden?' Jonas wiederholt nicht als Papagei – er formuliert mit eigenen Worten oder wendet an: ‚Und ist ein kalter Juli nun Wetter oder Klima?'*
+> ***Variante 3 – Teilantwort ausbauen:** Kommt statt ‚weiß nicht' ein halber Ansatz, wird ER das Material: ‚Der Anfang stimmt – bau darauf.'*
+> ***Variante 4 – echte Verweigerung:** ‚Kein Bock' ist keine Wissenslücke, sondern ein Block-1-Fall: ruhig, formales Register, Angebot – ‚Ich komme in zwei Minuten zu dir zurück' – und wenn es sich wiederholt: W.I.N. nach der Stunde. Die Schleife bleibt trotzdem offen: Auch der Verweigerer bekommt seine Rückkehr, und sei es die Wiederholung der inzwischen geklärten Antwort.*
 > *Und zur häufigsten Sorge – ‚Ist das Zurückkommen nicht bloßstellend?': Umgekehrt. Bloßstellend ist das AUFGEBEN – die stille Botschaft ‚Von dir erwartet hier keiner was'. Das Zurückkommen sagt das Gegenteil, und es ist nebenbei die Mindestform von Abruf, Modul 3.4: Auch das Wiederholen einer gehörten Antwort ist eine Gedächtnishandlung. Der Ton entscheidet: beiläufig-warm, kein Triumph, kein ‚Na also, geht doch!'"*
 
 ### 3b · Right is Right + Format Matters (Min. 20–25)
@@ -122,43 +122,46 @@ Die 10 Antworten (Anhang 1.2) einzeln per Fingerzeichen bewerten: ✓ durchlasse
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Der Cold-Call-Standard – nenne 4 der Bedingungen. *(eingeführt+begründet / Frage-Pause-Name / warm / normal-vorhersagbar / nie Disziplinierung / breit streuen)*
-2. Warum Frage → Pause → Name? *(bis zum Namen denken alle)*
-3. Zwei der vier Fehlerkultur-Hebel (M4.1)? *(erwarten+würdigen / eigene Fehler souverän / neutral+zügig inkl. Miene / Lach-Verbot)*
-4. Break-It-Down-Stufen (Block 2)? *(Hinweis → Beispiel → Regel → erster Schritt → Lösung)*
-5. (Anwendung) Dein Cold Call trifft auf Schweigen – deine erste Reaktion nach M4.2-Stand? *(freundlich Hinweis ODER weiterreichen + „ich komme zurück" – heute wird daraus die volle Schleife)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Nenne vier Bedingungen, unter denen Aufrufen ohne Meldung gelingt (M4.2). *(angekündigt und begründet / Frage, Pause, Name / warm im Ton / mehrmals pro Stunde, also normal / nie als Strafe / breit gestreut)*
+2. Warum lautet die Reihenfolge Frage, Pause, Name? *(Bis der Name fällt, denken alle mit.)*
+3. (Szene) Du rufst jemanden auf, er schweigt. Was tust du nach dem Stand von M4.2? *(freundlich einen Hinweis geben oder weitergeben und ankündigen: „Ich komme zu dir zurück“ (heute wird daraus die ganze Schleife))*
+4. Nenne zwei der vier Hebel für eine sichere Fehlerkultur (M4.1). *(Fehler erwarten und würdigen / eigene Fehler gelassen behandeln / sachlich und zügig klären, auch mit der Miene / nie über Fehler lachen lassen)*
+5. In welcher Reihenfolge gibst du Hilfen (Break It Down, M2.4)? *(Hinweis → Beispiel → Regel → erster Schritt → erst dann die Lösung)*
+6. Wofür stehen die drei Buchstaben von W.I.N. (M1.7)? *(Was ist passiert? (seine Version zuerst) – Impact (Wirkung sachlich) – Next steps (gemeinsam, konkret, klein))*
 
 ## Teil 2: Modul-Quiz Modul 4.3 (für SPA/Austauschwoche)
-**F1.** Nach der Peer-Antwort zur Ausgangsperson zurückzukehren ist…
-a) unnötige Wiederholung – die Antwort ist ja gefallen ✗ *(Effizienz-Logik)*
-b) der Kern von No Opt Out: Erfolg + Abruf für die Ausgangsperson ✓
-c) Bloßstellung des Schwächeren ✗ *(DIE Sorge – Empathie-Distraktor)*
-d) nur bei starken Schülern sinnvoll ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Jaaa, so ungefähr, genau!" zu einer halbrichtigen Antwort…
-a) schützt Motivation und Selbstwert ✗ *(fühlt sich pädagogisch an)*
-b) speichert Halbes als Ganzes und senkt den Klassenstandard ✓
-c) ist in Sek II angemessen ✗
-d) spart wertvolle Zeit ✗
+**F1.** Jonas sagt: „Weiß nicht.“ Mia gibt die richtige Antwort. Was tust du als Nächstes?
+a) Ich mache weiter, die Antwort ist ja gefallen. ✗ *(Jonas lernt: Drei Wörter reichen, um frei zu haben.)*
+b) Ich stelle Jonas später eine leichtere Frage. ✗ *(Besser als nichts. Aber die offene Frage bleibt für ihn offen.)*
+c) Ich gehe zu Jonas zurück und lasse ihn die Antwort anwenden. ✓ *(Zum Beispiel: „Jonas, ein kalter, verregneter Juli: Wetter oder Klima?“ Die Runde endet mit seinem Erfolg.)*
+d) Ich lasse Jonas Mias Antwort wörtlich wiederholen. ✗ *(Das Mindeste. Anwenden zeigt mehr als Nachsprechen.)*
 
-**F3.** „Das Ding oben wird kleiner" (inhaltlich korrekt). Format Matters heißt:
-a) Antwort ablehnen – falsch ist falsch ✗ *(Härte-Verwechslung)*
-b) würdigen + Fachsprache einfordern: „Richtig – jetzt mit dem Fachwort" ✓
-c) durchwinken – Inhalt schlägt Form ✗ *(der Alltagskompromiss)*
-d) den Schüler das Fachwort nachschlagen lassen ✗
+**F2.** Eine Antwort ist halb richtig. Du sagst: „Ja, genau, so ungefähr.“ Was ist die Folge?
+a) Der Schüler merkt sich die halbe Antwort als richtig, und die Klasse lernt, dass ungefähr genügt. ✓ *(In der Klassenarbeit rundet niemand auf. Besser: „Fast. Der erste Teil steht, schärfe den zweiten nach.“)*
+b) Der Schüler fühlt sich ermutigt und meldet sich öfter. ✗ *(Ermutigt, aber mit einer falschen Vorstellung von „richtig“.)*
+c) Die Stunde läuft zügig weiter, ohne Nachteil. ✗ *(Der Nachteil zeigt sich in der Arbeit.)*
+d) Die Stärkeren ergänzen den Rest von selbst. ✗ *(Die Schwächeren hören die Ergänzung meist nicht mehr.)*
 
-**F4.** Die Belohnung für eine richtige Antwort ist…
-a) präzises Lob und weiter ✗ *(teilrichtig – verschenkt den Moment)*
-b) eine interessantere Anschlussfrage (Stretch It) ✓
-c) ein Bonuspunkt ✗
-d) Ruhe vor dem nächsten Aufruf ✗
+**F3.** Ein Schüler sagt beim Bruchrechnen: „Das Ding oben wird kleiner.“ Inhaltlich stimmt es. Wie reagierst du?
+a) Ich lehne die Antwort ab, weil das Fachwort fehlt. ✗ *(Der Gedanke stimmt. Ablehnen wäre falsch.)*
+b) Ich lasse sie gelten, der Inhalt zählt. ✗ *(Dann muss er das Fachwort hier nie benutzen.)*
+c) Ich nenne selbst das Fachwort und gehe weiter. ✗ *(Dann hast du es gesagt, nicht er.)*
+d) Ich bestätige den Gedanken und verlange das Fachwort: „Richtig. Jetzt in Fachsprache.“ ✓ *(Kurz und freundlich. Bei den ersten Schritten in einem neuen Thema darf Alltagssprache eine Brücke sein.)*
 
-**F5.** „a² + b² = c²" auf die Frage nach dem Satz des Pythagoras ist…
-a) die perfekte Antwort ✗ *(die Kalibrier-Falle!)*
-b) halb – ohne rechtwinklig + Hypotenusen-Zuordnung gilt die Formel nicht ✓
-c) falsch ✗
-d) Geschmackssache des Lehrers ✗ *(genau das soll Kalibrierung beenden)*
+**F4.** Eine Schülerin antwortet richtig. Welche Reaktion holt am meisten heraus?
+a) Ein genaues Lob und dann die nächste Frage an jemand anderen. ✗ *(Gut, aber der Moment ist verschenkt.)*
+b) Eine Anschlussfrage: „Woher weißt du das?“ ✓ *(Auf „richtig“ folgt eine interessantere Frage. So fordert man Starke ohne Zusatzblatt.)*
+c) Die Antwort für alle noch einmal wiederholen. ✗ *(Dann arbeitest du, nicht die Klasse.)*
+d) Die Antwort an die Tafel schreiben. ✗ *(Sichert das Ergebnis, vertieft es aber nicht.)*
+
+**F5.** Auf die Frage nach dem Satz des Pythagoras antwortet ein Schüler: „a² + b² = c².“ Wie bewertest du das?
+a) Vollständig richtig. ✗ *(Die Formel gilt nicht in jedem Dreieck.)*
+b) Falsch. ✗ *(Die Formel stimmt, sie ist nur nicht alles.)*
+c) Unvollständig: Es fehlt, dass das Dreieck rechtwinklig ist und c die längste Seite gegenüber dem rechten Winkel. ✓ *(Prüffrage: Bekäme diese Antwort im Test volle Punkte?)*
+d) Für die Unterstufe ausreichend. ✗ *(Der Maßstab ist die Idealantwort, nicht die Jahrgangsstufe.)*
 
 **F6 (Transfer, Freitext):** Jonas: „Weiß nicht." Mia liefert die richtige Antwort. Schreibe deine Rückkehr zu Jonas wörtlich – als Anwendungsfrage, nicht als Echo-Befehl. *(Muster: „Danke, Mia. Jonas – ein kalter, verregneter Juli: Wetter oder Klima? Und warum?" Bewertungsanker: Anwendung statt Wiederholung, Ton beiläufig.)*
 

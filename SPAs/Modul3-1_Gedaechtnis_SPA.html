@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 3.1 · Wie das Gedächtnis arbeitet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+
+.plan-row{border-left:6px solid var(--line);padding:.2rem 0 .2rem .8rem;margin-top:1rem}
+.plan-row .q{font-family:var(--display);font-weight:800;font-size:.78rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase}
+.plan-row.c-gelb{border-left-color:var(--c-gelb)}.plan-row.c-rot{border-left-color:var(--c-rot)}.plan-row.c-gruen{border-left-color:var(--c-gruen)}.plan-row.c-blau{border-left-color:var(--c-blau)}.plan-row.c-petrol{border-left-color:var(--petrol)}
+.plan-row .field{margin-top:.4rem}
+.flash{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.7rem}
+.flash .fq{font-weight:700;font-size:.95rem}
+.flash .fa{display:none;margin-top:.5rem;font-size:.9rem;border-top:1px dashed var(--line);padding-top:.5rem}
+.flash.open .fa{display:block}
+.self-check{display:flex;gap:.6rem;align-items:flex-start;margin-top:.55rem;font-size:.9rem}
+.self-check input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0}
+.suggest{border:1.5px dashed var(--petrol);border-radius:10px;padding:.6rem .8rem;margin-top:.7rem;font-size:.88rem;background:var(--petrol-soft)}
+.matrix-row{margin-top:1rem}
+.matrix-row .chip-row{margin-top:.4rem}
+
+/* ---------- Block 3: Ergänzungen ---------- */
+.check-list{margin:.6rem 0 .2rem 1.2rem;font-size:.92rem;display:grid;gap:.3rem}
+.fig{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin-top:.9rem;background:#fff}
+.bigshow{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,6.5vw,2.8rem);letter-spacing:.14em;text-align:center;padding:1.6rem .4rem;word-break:break-all}
+.count{font-family:var(--display);font-weight:800;color:var(--amber)}
+.stagebox{display:none}
+.result-row{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px dashed var(--line);padding:.4rem 0;font-size:.92rem}
+.result-row b{font-family:var(--display);color:var(--petrol)}
+.two{display:grid;gap:.8rem}
+@media(min-width:700px){.two{grid-template-columns:1fr 1fr}}
+.ko-row{display:grid;grid-template-columns:1fr 2fr auto;gap:.4rem;margin-top:.4rem;align-items:center}
+.ko-row input{font-size:.92rem;padding:.45rem .55rem}
+.ko-hide .ko-def{color:transparent;background:repeating-linear-gradient(45deg,#E0ECE9,#E0ECE9 6px,#fff 6px,#fff 12px)}
+.term{display:grid;grid-template-columns:minmax(8rem,1fr) 2.2fr;gap:.6rem;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+.term b{font-family:var(--display)}
+.hide-def .term span{color:transparent;background:var(--petrol-soft);border-radius:6px;user-select:none}
+.ticker{background:#FBF7EE;border-left:4px solid var(--amber);padding:.6rem .8rem;font-size:.95rem;margin-top:.6rem;min-height:3.2em;border-radius:0 10px 10px 0}
+.task-row{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+@media(max-width:520px){#presBtn{display:none}.head-inner{gap:.45rem}.brand{font-size:.78rem}}
+.task-row .no{font-family:var(--display);font-weight:800;color:var(--petrol);width:1.6rem;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 3.1</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Modul 3.1 · Block 3 · Fortbildung Sek I/II</span>
+  <h1>Was passiert im Kopf, wenn jemand etwas lernt?</h1>
+  <p class="lead">In Block 1 und 2 hast du Werkzeuge bekommen. Bei vielen Warum-Fragen hieß es: „Kommt in Block 3.“ Jetzt ist es so weit. Du beginnst mit drei kurzen Versuchen an dir selbst.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Zuerst rufst du ab, was aus Block 1 und 2 geblieben ist. Dann machst du drei Selbstversuche und bekommst drei Sätze, die den ganzen Block tragen. Mit drei Fragen deutest du typische Unterrichtsprobleme, und du übst, zwei verbreiteten Lernmythen freundlich zu widersprechen.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📖 Kernquellen: McCrea, Memorable Teaching · Willingham · Ebbinghaus</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<section class="screen" data-title="Abruf">
+  <span class="eyebrow">Station 1 · Abruf</span>
+  <h2>Acht Fragen zu Block 1 und 2.</h2>
+  <p class="lead">Nach Ferien ist Auffrischen wichtiger als Neues. Das gilt für dich wie für deine Klassen. Ohne Unterlagen.</p>
+  <div id="starterList"></div>
+  <div class="card" id="starterResult"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Drei Selbstversuche">
+  <span class="eyebrow">Station 2 · Drei Selbstversuche</span>
+  <h2>Versuchsperson: du.</h2>
+  <p class="lead">Jeder Versuch dauert eine Minute. Mach sie der Reihe nach und ohne Zettel.</p>
+  
+  <div class="card">
+    <h3>Versuch 1 · Eine Zahl rückwärts</h3>
+    <p style="font-size:.92rem">Du siehst gleich fünf Sekunden lang eine elfstellige Zahl. Danach tippst du sie <strong>rückwärts</strong> ein.</p>
+    <p style="margin-top:.7rem"><button class="btn small" id="v1Btn">5 Sekunden zeigen</button></p>
+    <div class="stagebox" id="v1Box"><div class="bigshow" id="v1Show"></div><p class="hint" style="text-align:center">noch <span class="count">5</span> Sekunden</p></div>
+    <div class="stagebox" id="v1Stage">
+      <div class="field"><label for="v1In">Die Zahl rückwärts</label><input type="text" id="v1In" autocomplete="off" placeholder="…"></div>
+      <p style="margin-top:.6rem"><button class="btn ghost small" id="v1Eval">Auswerten</button></p>
+      <p class="quiz-note on" id="v1Res" style="border-top:none"></p>
+    </div>
+  </div>
+  <div class="card reveal" id="v1After"><p style="font-size:.92rem">Und jetzt: dein Geburtsdatum, rückwärts, im Kopf. Das geht mühelos. Der Unterschied: Die Zahl musstest du im <strong>Arbeitsgedächtnis</strong> halten, und das hat nur etwa vier bis sieben Plätze. Dein Geburtsdatum liegt im <strong>Langzeitgedächtnis</strong> und belegt keinen dieser Plätze.</p></div>
+  
+  <div class="card">
+    <h3>Versuch 2 · Dreizehn Buchstaben</h3>
+    <p style="font-size:.92rem">Du siehst fünf Sekunden lang dreizehn Buchstaben. Danach tippst du sie in der richtigen Reihenfolge ein.</p>
+    <p style="margin-top:.7rem"><button class="btn small" id="v2Btn">5 Sekunden zeigen</button></p>
+    <div class="stagebox" id="v2Box"><div class="bigshow" id="v2Show"></div><p class="hint" style="text-align:center">noch <span class="count">5</span> Sekunden</p></div>
+    <div class="stagebox" id="v2Stage">
+      <div class="field"><label for="v2In">Die Buchstaben der Reihe nach</label><input type="text" id="v2In" autocomplete="off" placeholder="…"></div>
+      <p style="margin-top:.6rem"><button class="btn ghost small" id="v2Eval">Auswerten</button></p>
+      <p class="quiz-note on" id="v2Res" style="border-top:none"></p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>Versuch 2b · Dieselben Buchstaben, anders gruppiert</h3>
+    <p style="font-size:.92rem">Noch einmal dreizehn Buchstaben, wieder fünf Sekunden.</p>
+    <p style="margin-top:.7rem"><button class="btn small" id="v3Btn">5 Sekunden zeigen</button></p>
+    <div class="stagebox" id="v3Box"><div class="bigshow" id="v3Show"></div><p class="hint" style="text-align:center">noch <span class="count">5</span> Sekunden</p></div>
+    <div class="stagebox" id="v3Stage">
+      <div class="field"><label for="v3In">Die Buchstaben der Reihe nach</label><input type="text" id="v3In" autocomplete="off" placeholder="…"></div>
+      <p style="margin-top:.6rem"><button class="btn ghost small" id="v3Eval">Auswerten</button></p>
+      <p class="quiz-note on" id="v3Res" style="border-top:none"></p>
+    </div>
+  </div>
+  <div class="card reveal" id="v3After"><p style="font-size:.92rem">Es waren dieselben dreizehn Buchstaben. Beim zweiten Mal wurden daraus vier Einheiten, weil dein Langzeitgedächtnis die Muster kennt. <strong>Vorwissen schafft Platz im Arbeitsgedächtnis.</strong> Wer viel weiß, kann mehr denken, nicht umgekehrt.</p></div>
+  <div class="card">
+    <h3>Versuch 3 · Vorgestern Abend</h3>
+    <div class="field" style="margin-top:.4rem"><label for="v4">Was genau hast du vorgestern zu Abend gegessen, und worüber hast du dabei nachgedacht?</label><textarea id="v4" data-store="v4" placeholder="…"></textarea></div>
+    <p style="margin-top:.6rem"><button class="btn ghost small" data-reveal="v4After">Auflösung</button></p>
+    <p class="quiz-note reveal" id="v4After">Die meisten wissen es nicht mehr. Vergessen ist kein Betriebsunfall, sondern der Normalfall. Unterricht, der das Vergessen nicht einplant, bekommt es trotzdem.</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Drei Sätze">
+  <span class="eyebrow">Station 3 · Drei Sätze</span>
+  <h2>Drei Sätze tragen den ganzen Block.</h2>
+  <div class="formula-card"><h4>1 · Lernen ist eine dauerhafte Veränderung im Langzeitgedächtnis.</h4><p style="margin-top:0">Was dort nicht ankommt, wurde nicht gelernt, egal wie lebendig die Stunde war.</p></div>
+  <div class="formula-card"><h4>2 · Erinnert wird, worüber nachgedacht wurde.</h4><p style="margin-top:0">Nicht, was du gesagt hast, und nicht, was auf der Folie stand. Wer beim Versuch über den Knall staunt, behält den Knall (Willingham).</p></div>
+  <div class="formula-card"><h4>3 · Vergessen ist der Normalfall.</h4><p style="margin-top:0">Wiederholung ist deshalb keine verlorene Zeit. Sie ist der einzige bekannte Weg, die Kurve zu brechen.</p></div>
+  <img class="fig" src="./assets/images/Gedaechtnismodell.png" alt="Gedächtnismodell: Umwelt, Aufmerksamkeit, Arbeitsgedächtnis, Langzeitgedächtnis" loading="lazy">
+  <img class="fig" src="./assets/images/grafiken/b3-vergessenskurve.svg" alt="Vergessenskurve mit drei Abrufen in wachsenden Abständen" loading="lazy">
+  <h3 style="margin-top:1.4rem">Du hast das alles schon benutzt.</h3>
+  <p class="lead">Jedes Werkzeug aus Block 1 und 2 antwortet auf einen dieser Sätze.</p>
+  <img class="fig" src="./assets/images/grafiken/b3-kaskade.svg" alt="Die drei Kernsätze und die Werkzeuge aus Block 1 und 2" loading="lazy">
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Drei Fragen">
+  <span class="eyebrow">Station 4 · Drei Fragen</span>
+  <h2>Drei Fragen an jedes „Die verstehen es nicht“.</h2>
+  <div class="formula-card">
+    <h4>Das Raster</h4>
+    <ol class="q-legend"><li><b>1</b>War das Arbeitsgedächtnis überlastet?</li><li><b>2</b>Ist es nie im Langzeitgedächtnis angekommen, fehlt der Abruf?</li><li><b>3</b>Wurde über etwas anderes nachgedacht?</li></ol>
+    <p>Jede Frage führt zu einer anderen Konsequenz. Deshalb lohnt es sich, sie auseinanderzuhalten.</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Welche Frage trifft?</h3>
+  <div id="rastList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Vier Fälle">
+  <span class="eyebrow">Station 5 · Vier Fälle</span>
+  <h2>Vier Klassiker aus dem Lehrerzimmer.</h2>
+  <p class="lead">Wähle die Deutung, die am besten trägt. Die Rückmeldung nennt jeweils ein Werkzeug, das du schon kennst.</p>
+  <div id="fallList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Lernmythen">
+  <span class="eyebrow">Station 6 · Lernmythen</span>
+  <h2>Freundlich widersprechen.</h2>
+  <p class="lead">Du wirst in Konferenzen sitzen, in denen mit diesen Sätzen Unterricht begründet wird. Gesucht ist die Antwort, die den wahren Kern anerkennt und trotzdem genau ist. Recht haben reicht nicht, wenn der Ton belehrt.</p>
+  <div id="mythList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 7 · Quiz</span>
+  <h2>Fünf Fragen zu Modul 3.1.</h2>
+  <p class="lead">Zu jeder Antwort bekommst du eine kurze Rückmeldung, auch zu den falschen.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Deute Fall 4 (Lesen klappt, Verstehen nicht) mit dem BMW-FBI-Versuch – und nenne die Konsequenz für deine nächste Textarbeit.</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" data-reveal="transferNote">Muster anzeigen</button></p>
+    <p class="quiz-note reveal" id="transferNote" style="border-top:1px dashed var(--line)">Muster: Ohne Schemata bleibt jeder Satz eine 13-Buchstaben-Folge – Dekodieren ohne Chunks; Konsequenz: Vorwissen aktivieren/aufbauen VOR dem Text, Schlüsselbegriffe vorentlasten.)*
+
+---
+
+# Anhang 3: Ableitung für die SPA „Modul 3.1"
+
+1. **Hook (3 Min., Highlight!):** Die drei Selbstversuche als interaktive Sequenz: Ziffernfolge mit echtem 5-Sek.-Timer + Eingabefeld rückwärts; Buchstabenfolge roh vs. gechunkt; Abendessen-Frage als Reflexions-Prompt. Die eigene Fehlleistung ist der beste Theorie-Anker.
+2. **See it (4 Min.):** Das Modell als animierte Grafik (Items fallen sichtbar aus dem WM; Chunks docken als Pakete an); Kaskaden-Screen: Block-1/2-Werkzeuge fliegen an die drei Kernsätze.
+3. **Name it (3 Min.):** Diagnose-Raster als Entscheidungskarte; Zuordnung: 6 Mini-Situationen → Frage 1/2/3.
+4. **Do it – Fall-Diagnostiker (7 Min., Engine!):** Die 4 Klassiker als interaktive Fälle: Raster-Frage wählen → Konsequenz aus Werkzeug-Bibliothek ziehen → Feedback; Fall 3 enthält die Eigenschafts-Diagnose-Falle als explizite Fehleroption mit Aufklärung.
+5. **Mythen-Dojo:** 4 Mythen als Dialog-Simulation („Kollege sagt: … – deine Antwort?"), Scoring auf Ton (wahrer Kern zuerst) + Präzision; Ebbinghaus-Kurven-Explorer als Bonus (Slider: Wiederholungszeitpunkte → Kurve flacht).
+6. **Quiz (Teil 2</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 8 · Action Step</span>
+  <h2>Dein Action Step bis zum nächsten Input.</h2>
+  <p class="lead">Wähle einen Action Step. Er gilt für zwei Wochen; in der Austauschwoche schärfst du ihn nach.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+  <div class="card">
+    <h3>Meine Stellen mit hoher Belastung</h3>
+    <p class="hint">Trag nach drei Stunden ein, wo viel Neues gleichzeitig kam, was du geändert hast und was sich gezeigt hat.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+  </div>
+  
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt ins nächste Coaching-Gespräch ein)</span></h3>
+    <div class="field" style="margin-top:.5rem"><label for="exitMit">Der Satz aus diesem Modul, der bei mir hängen bleibt:</label><textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea></div>
+    <div class="field"><label for="exitSorge">Eine Situation aus meinem Unterricht, die ich jetzt anders deute:</label><textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea></div>
+  </div>
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Beim nächsten Input geht es um dein Material: Wie du Folien, Arbeitsblätter und deine eigene Sprache von unnötiger Belastung befreist. Bring deine schlimmste eigene Folie mit. Ja, genau die.“</div>
+</section>
+
+</main>
+
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul3-1-gedaechtnis"></script>
+<script>
+"use strict";
+const MOD={"n": "3.1", "key": "modul3-1-gedaechtnis", "file": "modul3-1-gedaechtnis", "title": "Wie das Gedächtnis arbeitet"};
+const STATE_VERSION=1;
+const STARTER=[{"q": "Skizziere den Planungsbogen aus M2.6 aus dem Kopf.", "a": "Ziel (Mindestziel, Meilensteine, Idealantwort) → Einstieg (Do Now) → Erklären → gemeinsam üben → allein üben → Exit Ticket"}, {"q": "Bei welcher Erfolgsquote gehst du vom gemeinsamen Üben in die Einzelarbeit, und welche Quote ist das Ziel der Einzelarbeit?", "a": "etwa vier von fünf richtig; in der Einzelarbeit fast fehlerfrei"}, {"q": "Welche vier Punkte prüft der Gütecheck für ein Exit Ticket?", "a": "prüft das Mindestziel / in 3–5 Minuten allein lösbar / schriftlich, von allen / in höchstens 10 Minuten auswertbar"}, {"q": "Nenne die sechs Stufen der Interventionsleiter.", "a": "nonverbal → positive Gruppenkorrektur → anonyme Einzelkorrektur → private Einzelkorrektur → blitzschnelle öffentliche Korrektur → Konsequenz"}, {"q": "In welcher Reihenfolge gibst du Hilfen, wenn ein Schüler hängt (Break It Down)?", "a": "Hinweis → Beispiel → Regel → erster Schritt → erst dann die Lösung"}, {"q": "Aus welchen drei Zeiträumen stammen die Wiederholungsfragen im Do Now (M2.6)?", "a": "gestern, letzte Woche, letzter Monat"}, {"q": "Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)?", "a": "„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“"}, {"q": "(Szene) Erste Woche nach den Ferien: Welche zwei Dinge führst du ausdrücklich neu ein, und wie gehst du dabei vor?", "a": "z. B. Begrüßungsroutine und Aufmerksamkeitssignal; Erwartung nennen, begründen, prüfen, ob sie verstanden ist, und einmal üben"}];
+const QUIZ=[{"q": "F1. In der Klassenkonferenz heißt es über eine neue Schülerin: „Sie kann sich einfach nichts merken.“ Welche Erklärung ist am wahrscheinlichsten?", "opts": [{"t": "Ihr Arbeitsgedächtnis ist kleiner als das der anderen.", "ok": false, "note": "Möglich, aber selten der Grund. Ohne Vorwissen wirkt jedes Arbeitsgedächtnis klein."}, {"t": "Ihr fehlt Vorwissen, deshalb ist für sie jedes Detail neu und belegt einen eigenen Platz.", "ok": true, "note": "Vorwissen bündelt Einzelheiten. Wer es nicht hat, ist schneller überlastet. Das lässt sich aufbauen."}, {"t": "Sie lernt eher über Bilder als über Texte.", "ok": false, "note": "Das ist die Lerntypen-Annahme. Sie ist nicht belegt."}, {"t": "Sie strengt sich im Unterricht zu wenig an.", "ok": false, "note": "Das ist eine Zuschreibung, keine Erklärung. Erst das Vorwissen prüfen."}]}, {"q": "F2. Nach deinem Filmeinstieg können alle den Film nacherzählen, aber kaum jemand beantwortet die Fachfrage. Was erklärt das am besten?", "opts": [{"t": "Die Klasse hat über die Handlung nachgedacht, nicht über das Konzept.", "ok": true, "note": "Erinnert wird, worüber nachgedacht wurde. Der Film braucht einen Auftrag, der zum Konzept führt."}, {"t": "Der Film war zu lang, die Aufmerksamkeit hat nachgelassen.", "ok": false, "note": "Dann könnten sie ihn nicht nacherzählen."}, {"t": "Filme erreichen nur einen Teil der Lerntypen.", "ok": false, "note": "Lerntypen sind nicht belegt."}, {"t": "Die Fachfrage war für diese Klasse zu schwer.", "ok": false, "note": "Möglich, erklärt aber nicht, warum der Film so gut hängen blieb."}]}, {"q": "F3. Eine Kollegin plant ihre Stunden nach Lerntypen (visuell, auditiv, kinästhetisch). Was sagt die Forschung dazu?", "opts": [{"t": "Der Ansatz ist gut belegt, vor allem für schwächere Schüler.", "ok": false, "note": "Dafür gibt es keine belastbaren Belege."}, {"t": "Der Ansatz wirkt, wenn jeder Typ gleich oft bedient wird.", "ok": false, "note": "Auch das ist nicht belegt."}, {"t": "Der Ansatz ist belegt, aber nur für die Grundschule.", "ok": false, "note": "Nein, in keiner Altersstufe."}, {"t": "Schüler haben Vorlieben, lernen mit „passendem“ Material aber nicht besser. Die Darstellung soll zum Inhalt passen.", "ok": true, "note": "Karten für Geografie, Hören für Aussprache: Der Inhalt bestimmt die Form, für alle."}]}, {"q": "F4. Ein Kollege sagt: „Wissen kann man googeln, wichtig sind Kompetenzen.“ Was antwortet die Gedächtnisforschung?", "opts": [{"t": "Das stimmt für Fakten, aber nicht für Verfahren.", "ok": false, "note": "Auch über Fakten kann nur nachdenken, wer sie im Kopf hat."}, {"t": "Das stimmt, sofern die Schüler gut recherchieren können.", "ok": false, "note": "Wer wenig weiß, versteht auch das Gefundene schlechter."}, {"t": "Denken braucht Wissen im Langzeitgedächtnis. Wer alles nachschlagen muss, hat keinen Platz mehr zum Denken.", "ok": true, "note": "Wissen im Langzeitgedächtnis entlastet das Arbeitsgedächtnis. Deshalb ist es die Grundlage von Kompetenz."}, {"t": "Faktenwissen schadet nicht, bringt für das Denken aber wenig.", "ok": false, "note": "Im Gegenteil: Es ist das Material, mit dem gedacht wird."}]}, {"q": "F5. Deine Stunde war lebendig, alle waren beschäftigt, die Stimmung war gut. Was weißt du damit über das Lernen?", "opts": [{"t": "Viel: Hohe Beteiligung zeigt, dass gelernt wurde.", "ok": false, "note": "Beschäftigt sein und lernen sind nicht dasselbe."}, {"t": "Wenig: Entscheidend ist, was später noch abrufbar ist. Das zeigt zum Beispiel ein Exit Ticket oder das Do Now am nächsten Tag.", "ok": true, "note": "Lernen ist, was im Langzeitgedächtnis bleibt. Das sieht man erst später."}, {"t": "Nichts Gutes: Lebendige Stunden lenken meist vom Stoff ab.", "ok": false, "note": "Das ist die Überkorrektur. Lebendig und lernwirksam schließen sich nicht aus."}, {"t": "Genug, wenn die Klasse am Ende sagt, dass alles klar ist.", "ok": false, "note": "Selbstauskunft ist keine verlässliche Auskunft (mehr dazu in Modul 4.1)."}]}];
+const ACTIONSTEPS=[{"id": "last", "label": "Standard · Belastung senken", "text": "Ich finde in einer meiner Stunden die drei Stellen, an denen am meisten Neues gleichzeitig kommt, und entschärfe eine davon."}, {"id": "raster", "label": "Alternative 1 · Drei Fragen", "text": "Jedes Mal, wenn ich denke „Die verstehen es einfach nicht“, notiere ich die drei Fragen und meine Antwort darauf."}, {"id": "neustart", "label": "Alternative 2 · Routinen-Neustart", "text": "Ich führe nach den Ferien zwei Routinen ausdrücklich neu ein: Erwartung nennen, begründen, prüfen, einmal üben."}];
+const LOG_ROWS=3, LOG_ROW_LABEL="Stelle", LOG_TITLE="Meine Stellen mit hoher Belastung";
+const LOG_FIELDS=[{"f": "wo", "label": "wo genau", "ph": "z. B. vier neue Begriffe in zwei Minuten"}, {"f": "neu", "label": "geändert", "ph": "…"}, {"f": "wirk", "label": "Wirkung", "ph": "…"}];
+const EXIT_LABELS=["Der Satz aus diesem Modul, der bei mir hängen bleibt:", "Eine Situation aus meinem Unterricht, die ich jetzt anders deute:"];
+const FIXED_ARRAYS=["rast", "fall", "myth"].concat(['starterOpen','starterRate']);
+
+/* ================= Gemeinsame Bausteine Block 3 ================= */
+const RATE=['gewusst','teilweise','nicht gewusst'];
+function fill(n,v){return Array.from({length:n},()=>v);}
+function val(k){return (state[k]==null?'':String(state[k])).trim();}
+function fld(label,k){return label+': '+(val(k)||'–');}
+function $(id){return document.getElementById(id);}
+
+/* Auswahlkarten: items=[{tag,t,ok,note,opts?}] */
+const PICKS={};
+function pickList(key,elId,items,opts){PICKS[key]={elId:elId,items:items,opts:opts};renderPick(key);}
+function renderPick(key){
+  const P=PICKS[key],wrap=$(P.elId);if(!wrap)return;wrap.innerHTML='';
+  P.items.forEach((it,i)=>{
+    const sel=state[key][i],o=it.opts||P.opts,long=!!it.opts;
+    const div=document.createElement('div');div.className='quiz-item';
+    let btn='';
+    o.forEach((t,j)=>{
+      let c=long?'quiz-opt':'cat-chip';
+      if(sel>-1){if(j===it.ok)c+=long?' right':' correct';else if(j===sel)c+=' wrong';}
+      btn+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+(sel>-1?' disabled':'')+'>'+t+'</button>';
+    });
+    div.innerHTML=(it.tag?'<span class="step-label" style="margin-top:0;display:block">'+it.tag+'</span>':'')
+      +'<p class="quiz-q" style="font-weight:500">'+it.t+'</p><div class="'+(long?'quiz-opts':'chip-row')+'">'+btn+'</div>'
+      +(sel>-1?'<p class="quiz-note on">'+(sel===it.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+it.note+'</p>':'');
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-i]').forEach(b=>b.addEventListener('click',()=>{state[key][+b.dataset.i]=+b.dataset.j;scheduleSave();renderPick(key);renderSummary();}));
+}
+function pickDone(key){return state[key].filter(v=>v>-1).length;}
+function pickScore(key){return state[key].reduce((a,v,i)=>a+(v===PICKS[key].items[i].ok?1:0),0);}
+function pickRow(label,key){const n=PICKS[key].items.length,d=pickDone(key);return [label,d===n?'✓ '+pickScore(key)+'/'+n+' richtig':d+'/'+n,d===n];}
+function pickText(label,key){return label+': '+pickScore(key)+' von '+PICKS[key].items.length+' richtig';}
+
+/* Karten zur Selbstkontrolle: cards=[{q,a}] */
+const FLASHES={};
+function flashList(key,elId,cards,resId){FLASHES[key]={elId:elId,cards:cards,resId:resId};renderFlashes(key);}
+function renderFlashes(key){
+  const F=FLASHES[key],wrap=$(F.elId);if(!wrap)return;wrap.innerHTML='';
+  const open=state[key+'Open'],rate=state[key+'Rate'];
+  F.cards.forEach((f,i)=>{
+    const div=document.createElement('div');div.className='flash'+(open[i]?' open':'');
+    let chips='';RATE.forEach((r,j)=>{chips+='<button class="cat-chip'+(rate[i]===j?' sel':'')+'" data-r="'+i+'" data-j="'+j+'">'+r+'</button>';});
+    div.innerHTML='<div class="fq">'+(i+1)+'. '+f.q+'</div>'
+      +(open[i]?'':'<p style="margin-top:.5rem"><button class="btn ghost small" data-o="'+i+'">Antwort zeigen</button></p>')
+      +'<div class="fa">'+f.a+'<div class="chip-row">'+chips+'</div></div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-o]').forEach(b=>b.addEventListener('click',()=>{open[+b.dataset.o]=true;scheduleSave();renderFlashes(key);}));
+  wrap.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{rate[+b.dataset.r]=+b.dataset.j;scheduleSave();renderFlashes(key);renderSummary();}));
+  const c=flashCounts(key),done=c[0]+c[1]+c[2],res=$(F.resId);
+  if(res){
+    const weak=F.cards.map((f,i)=>rate[i]===2?(i+1):null).filter(Boolean);
+    res.innerHTML=done?'<h3>Dein Stand</h3><p>'+c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst ('+done+' von '+F.cards.length+' bewertet)</p>'
+      +(weak.length?'<p class="hint">Nicht gewusst: Frage '+weak.join(', ')+'. Genau diese Fragen lohnen sich für deine nächste Wiederholung.</p>':'')
+      :'<p class="hint">Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Deck dann auf und bewerte ehrlich.</p>';
+  }
+}
+function flashCounts(key){const c=[0,0,0];state[key+'Rate'].forEach(v=>{if(v>-1)c[v]++;});return c;}
+function flashRow(label,key){const c=flashCounts(key),d=c[0]+c[1]+c[2],n=FLASHES[key].cards.length;return [label,d===n?'✓ '+c[0]+' gewusst, '+c[1]+' teilweise, '+c[2]+' nicht':d+'/'+n+' bewertet',d===n];}
+function flashText(key){const c=flashCounts(key),F=FLASHES[key];return c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst\nNicht gewusst: '+(F.cards.map((f,i)=>state[key+'Rate'][i]===2?(i+1)+'. '+f.q:null).filter(Boolean).join(' | ')||'–');}
+
+/* Etwas für n Sekunden zeigen */
+function timedShow(boxId,secs,done){
+  const box=$(boxId);box.style.display='block';let left=secs;
+  const c=box.querySelector('.count');if(c)c.textContent=left;
+  box.scrollIntoView({block:'center',behavior:'smooth'});
+  const iv=setInterval(()=>{left--;if(c)c.textContent=left;if(left<=0){clearInterval(iv);box.style.display='none';done();}},1000);
+  return iv;
+}
+/* Aufdecken per Knopf: <button data-reveal="id"> */
+function bindReveals(){
+  document.querySelectorAll('[data-reveal]').forEach(b=>{
+    const id=b.dataset.reveal,el=$(id);
+    if(state['rv_'+id])el.classList.add('on');
+    b.onclick=()=>{el.classList.add('on');state['rv_'+id]=true;scheduleSave();};
+  });
+}
+/* Ankreuzlisten: items=[text] */
+function checkList(key,elId,items){
+  const wrap=$(elId);if(!wrap)return;
+  wrap.innerHTML=items.map((t,i)=>'<label class="self-check"><input type="checkbox" data-c="'+i+'"'+(state[key][i]?' checked':'')+'><span>'+t+'</span></label>').join('');
+  wrap.querySelectorAll('[data-c]').forEach(c=>c.addEventListener('change',()=>{state[key][+c.dataset.c]=c.checked;scheduleSave();renderSummary();}));
+}
+
+/* ---- Zustand, Zusammenfassung, Druck: aus den Angaben des Moduls ---- */
+function freshState(){
+  const s={v:STATE_VERSION,name:'',quizSel:QUIZ.map(()=>0),transferAnswer:'',actionStep:ACTIONSTEPS[0].id,log:emptyLog(),
+    exitMit:'',exitSorge:'',commit:false,screen:0,submitted:false,submittedAt:null,submissionText:'',
+    starterOpen:fill(STARTER.length,false),starterRate:fill(STARTER.length,-1)};
+  document.querySelectorAll('[data-store]').forEach(el=>{const k=el.dataset.store;if(!(k in s))s[k]=el.type==='checkbox'?false:'';});
+  return Object.assign(s,moduleState());
+}
+function normalizeModule(f){
+  Object.keys(f).forEach(k=>{
+    if(state[k]===undefined){state[k]=f[k];return;}
+    if(Array.isArray(f[k])&&(!Array.isArray(state[k])||(FIXED_ARRAYS.indexOf(k)>-1&&state[k].length!==f[k].length)))state[k]=f[k];
+  });
+}
+function refreshModuleUI(){bindReveals();flashList('starter','starterList',STARTER,'starterResult');renderModule();}
+function summaryRows(){
+  return [flashRow('Abruf','starter')].concat(ROWS()).concat([
+    ['Quiz',quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+    ['Action Step',state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]]);
+}
+function ALLSECTIONS(){return [['Abruf zu Beginn',flashText('starter')]].concat(SECTIONS());}
+function summaryText(){let t=summaryHead();ALLSECTIONS().forEach(s=>{t+='— '+s[0].toUpperCase()+' —\n'+s[1]+'\n\n';});return t+summaryTail();}
+function buildPrint(){let h=printHead();ALLSECTIONS().forEach(s=>{h+='<h2>'+esc(s[0])+'</h2><div class="ans">'+esc(s[1])+'</div>';});return h+printActionBlock()+printTail();}
+
+const RAST_OPTS=['1 · Arbeitsgedächtnis überlastet','2 · nicht angekommen, kein Abruf','3 · über etwas anderes nachgedacht'];
+const RAST=[
+ {t:'Du erklärst drei neue Begriffe in einem Satz und gibst gleichzeitig den Arbeitsauftrag.',ok:0,note:'Zu viel Neues auf einmal. Konsequenz: ein Schritt nach dem anderen (Halbier-Regel, M2.3).'},
+ {t:'Vor zwei Wochen konnten es alle. Seitdem kam das Thema nicht mehr vor. Heute weiß es kaum jemand.',ok:1,note:'Es war nur zu Besuch. Konsequenz: altes Material ins Do Now (M2.6).'},
+ {t:'Die Klasse gestaltet zwei Stunden lang Plakate zur Photosynthese. Im Test weiß sie viel über Schriftarten und wenig über Photosynthese.',ok:2,note:'Nachgedacht wurde über die Gestaltung. Konsequenz: Aufgaben, die den Inhalt verlangen (M3.3).'},
+ {t:'Während du den Rechenweg erklärst, schreiben alle von der Tafel ab.',ok:0,note:'Zuhören und Abschreiben gleichzeitig überfordert. Konsequenz: Stifte weg beim Vormachen (M2.3).'},
+ {t:'Nach dem Versuch mit dem lauten Knall erinnern sich alle an den Knall, niemand an die Reaktionsgleichung.',ok:2,note:'Der Knall hat die Aufmerksamkeit gebunden. Konsequenz: vorher einen Beobachtungsauftrag geben.'},
+ {t:'Die Vokabeln wurden einmal eingeführt und danach nie abgefragt.',ok:1,note:'Ohne Abruf zerfällt der Zugriff. Konsequenz: regelmäßig abfragen, ohne Note (M3.4).'}
+];
+const FALL_OPTS=['Arbeitsgedächtnis überlastet','nicht angekommen, kein Abruf','über etwas anderes nachgedacht','liegt an der Person'];
+const FALL=[
+ {tag:'Fall 1',t:'„In der Stunde konnten sie es, im Test eine Woche später nicht.“',ok:1,note:'In der Stunde war es noch frisch. Danach wurde es nie wieder abgerufen. Werkzeug: Do Now mit altem Stoff, Aufgaben aus früheren Themen. Mehr dazu in M3.5.'},
+ {tag:'Fall 2',t:'„Nach dem spektakulären Filmeinstieg können alle den Film nacherzählen, keiner beantwortet die Fachfrage.“',ok:2,note:'Nachgedacht wurde über die Handlung. Werkzeug: ein genauer Beobachtungsauftrag vor dem Film. Die Auflösung kommt in M3.3.'},
+ {tag:'Fall 3',t:'„Die neue Schülerin kann sich einfach nichts merken“, sagt die Klassenkonferenz.',ok:0,note:'Ihr fehlt Vorwissen, deshalb belegt jedes Detail einen eigenen Platz. Das ist keine Eigenschaft der Person. Werkzeug: Vorwissen aufbauen, kleinere Schritte.'},
+ {tag:'Fall 4',t:'„Beim Sachtext scheitern viele, dabei können sie flüssig lesen.“',ok:0,note:'Ohne Vorwissen zum Thema bleibt jeder Satz eine Folge einzelner Wörter, wie die dreizehn Buchstaben. Werkzeug: Schlüsselbegriffe vor dem Text klären.'}
+];
+const MYTH=[
+ {tag:'Ein Kollege sagt',t:'„Der ist halt ein visueller Typ, dem musst du das aufmalen.“',ok:2,note:'Erst der wahre Kern (Vorlieben gibt es), dann die Korrektur, dann eine brauchbare Alternative.',
+   opts:['„Lerntypen sind längst widerlegt, das weiß man doch.“','„Stimmt, ich mache ihm ein Extrablatt mit Bildern.“','„Vorlieben haben viele, das stimmt. Besser lernen sie damit aber nicht. Ich frage eher: Welche Darstellung passt zum Inhalt? Die hilft dann allen.“']},
+ {tag:'Eine Kollegin sagt',t:'„Man behält 10 % vom Lesen und 90 % vom Lehren. Deshalb lasse ich nur noch Referate halten.“',ok:0,note:'Der Kern stimmt, die Zahlen nicht. So bleibt das Gespräch offen.',
+   opts:['„Der Kern stimmt: Selbst erklären wirkt besser als nur zuhören. Für die Prozentzahlen gibt es allerdings keine Quelle.“','„Die Pyramide ist erfunden. Das solltest du nicht mehr verwenden.“','„Guter Punkt, das probiere ich auch.“']},
+ {tag:'Ein Kollege sagt',t:'„Wir nutzen ja nur 10 % unseres Gehirns. Da ist noch viel Luft.“',ok:1,note:'Freundlich im Ton, klar in der Sache.',
+   opts:['„Spannend, daran müsste man im Unterricht arbeiten.“','„Schön wäre es. Aufnahmen des Gehirns zeigen aber: Wir nutzen alle Bereiche, nur nicht alle gleichzeitig.“','„Das ist ein Werbemythos, das glaubt doch keiner mehr.“']},
+ {tag:'Eine Kollegin sagt',t:'„Die heutige Generation lernt anders. Die brauchen kurze Clips statt Texte.“',ok:2,note:'Gewohnheiten ändern sich, das Gedächtnis nicht.',
+   opts:['„Stimmt, Texte kann man denen nicht mehr zumuten.“','„Das ist wissenschaftlich nicht haltbar.“','„Ihre Gewohnheiten sind anders, das merke ich auch. Das Gedächtnis arbeitet aber wie bei uns: Sie behalten, worüber sie nachdenken, und vergessen ohne Wiederholung.“']}
+];
+const MEM={v1:['0 1 7 6 4 4 9 2 3 1 8','81329446710'],v2:['B M W F B I U S A A D A C','BMWFBIUSAADAC'],v3:['BMW · FBI · USA · ADAC','BMWFBIUSAADAC']};
+function moduleState(){return {rast:fill(RAST.length,-1),fall:fill(FALL.length,-1),myth:fill(MYTH.length,-1),v1Score:-1,v2Score:-1,v3Score:-1,v1In:'',v2In:'',v3In:''};}
+function memShow(id){
+  if(state[id+'Score']>-1){
+    $(id+'Stage').style.display='block';$(id+'In').value=state[id+'In']||'';
+    $(id+'Res').innerHTML='<strong>'+state[id+'Score']+' von '+MEM[id][1].length+'</strong> Stellen an der richtigen Position.';
+    if(id==='v1')$('v1After').classList.add('on');
+    if(id==='v3')$('v3After').classList.add('on');
+  }
+}
+function memInit(id){
+  $(id+'Show').textContent=MEM[id][0];
+  $(id+'Btn').onclick=()=>{$(id+'Btn').disabled=true;timedShow(id+'Box',5,()=>{$(id+'Stage').style.display='block';$(id+'In').focus();});};
+  $(id+'Eval').onclick=()=>{
+    const a=$(id+'In').value.toUpperCase().replace(/[^A-Z0-9]/g,''),t=MEM[id][1];let n=0;
+    for(let i=0;i<t.length;i++)if(a[i]===t[i])n++;
+    state[id+'Score']=n;state[id+'In']=$(id+'In').value;scheduleSave();memShow(id);renderSummary();
+  };
+  memShow(id);
+}
+function renderModule(){
+  ['v1','v2','v3'].forEach(memInit);
+  pickList('rast','rastList',RAST,RAST_OPTS);pickList('fall','fallList',FALL,FALL_OPTS);pickList('myth','mythList',MYTH,null);
+}
+function ROWS(){
+  const v=['v1','v2','v3'].filter(k=>state[k+'Score']>-1).length;
+  return [['Selbstversuche',v===3?'✓ alle drei':v+'/3',v===3],pickRow('Drei Fragen','rast'),pickRow('Vier Fälle','fall'),pickRow('Lernmythen','myth')];
+}
+function SECTIONS(){
+  return [['Selbstversuche','Zahl rückwärts: '+(state.v1Score>-1?state.v1Score+' von 11':'–')+'\nBuchstaben einzeln: '+(state.v2Score>-1?state.v2Score+' von 13':'–')+'\nBuchstaben gruppiert: '+(state.v3Score>-1?state.v3Score+' von 13':'–')+'\n'+fld('Vorgestern Abend','v4')],
+    ['Übungen',pickText('Drei Fragen','rast')+'\n'+pickText('Vier Fälle','fall')+'\n'+pickText('Lernmythen','myth')]];
+}
+
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus früheren Modulen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für die nächsten zwei Wochen: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+
+</script>
+</body>
+</html>

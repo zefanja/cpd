@@ -8,8 +8,8 @@
 | | |
 |---|---|
 | **Leitfrage** | Warum strengen sich Menschen für Räume an, in denen sie gesehen werden – und wer ist in meiner Klasse unsichtbar? |
-| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Boost belonging"); Verzahnung: Modell 5 (Auftakt), Heatmap (M4.2), Cold Call als Voice Equity, W.I.N. (M1.7) |
-| **Funktion im Jahr** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (M4.2) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
+| **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Build belonging"); Verzahnung: Modell 5 (Auftakt), Heatmap (M4.2), Cold Call als Voice Equity, W.I.N. (M1.7) |
+| **Funktion im Programm** | Der Beziehungs-Treiber wird vom Gefühl zum Handwerk: Zugehörigkeit als Summe kleiner, planbarer Handlungen (Mikromomente, Voice Equity, gehaltene Zusagen) statt als Persönlichkeitsgabe. Die Unsichtbarkeits-Inventur verlängert die Beteiligungs-Heatmap (M4.2) in die Beziehungsdimension; die Minute VOR dem Begrüßungsritual bekommt einen Job. Sek-II-Realismus verhindert Kuschel-Missverständnisse. |
 | **Lernziele** | Die TN können:<br>1. Belonging in der EVK-Mechanik verorten (Wert-Faktor UND Kosten-Senker),<br>2. die eigene Klasse per Unsichtbarkeits-Inventur auf dem Sitzplan analysieren (grün/gelb/rot),<br>3. Mikromomente planen und in vorhandene Zeitfenster legen (Minute vor dem Ritual, erster Rundgang, Türmoment am Ende),<br>4. Vertrauen als „Zusagen halten" operationalisieren. |
 | **Sitzungstyp** | Inventur-Werkstatt am eigenen Sitzplan – die stillste und persönlichste Sitzung des Blocks. |
 
@@ -31,7 +31,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Das Gedankenexperiment (Minute 8–15)
 
@@ -106,43 +106,46 @@ Schüler (Initialen) | Was ich weiß / diese Woche erfahren will | Zeitfenster |
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die Kosten-Frage bei K-Engpass (M5.2)? *(„Welche meiner Routinen erreicht diesen Schüler noch nicht?")*
-2. Die Normen-Regel? *(nie Fehlverhalten der Vielen beschreiben; wahre Mehrheit plakatieren)*
-3. Das Sichtbarkeits-Trio? *(Show Call / konkrete Peer-Anerkennung / arbeitende Mehrheit aussprechen)*
-4. Die EVK-Diagnose-Reihenfolge (M5.1)? *(E prüfen → K senken → W heben)*
-5. (Anwendung) „Ihr seid die faulste Klasse des Jahrgangs" – was ist daran doppelt schädlich? *(Negativ-Norm + Identitäts-Plakat; streichen, kleinste wahre Mehrheit finden oder Verhalten erst bauen)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche Frage stellst du, wenn bei einem Schüler die Kosten das Problem sind (M5.2)? *(„Welche meiner Routinen erreicht diesen Schüler noch nicht?“)*
+2. Welche Regel gilt, wenn du über das Verhalten der Klasse sprichst? *(nie das Fehlverhalten der Vielen beschreiben; die Mehrheit nennen, die es richtig macht, wenn es wahr ist)*
+3. (Szene) „Ihr seid die faulste Klasse des Jahrgangs.“ Was ist daran doppelt schädlich? *(Es macht das Fehlverhalten zur Norm und gibt der Klasse ein Etikett.)*
+4. In welcher Reihenfolge prüfst du Erwartung, Wert und Kosten (M5.1)? *(erst die Erwartung, dann die Kosten senken, dann den Wert heben)*
+5. Was zeigt die Beteiligungs-Heatmap (M4.2)? *(wer aufgerufen wird und welche Zonen kalt bleiben)*
+6. Welche fünf Dinge klärst du vor einer Einzelarbeit (M2.5)? *(Aufgabe, Zeit, Sozialform, Lautstärke, was tun, wenn fertig)*
 
 ## Teil 2: Modul-Quiz Modul 5.3 (für SPA/Austauschwoche)
-**F1.** Die unsichtbaren Schüler sind meist…
-a) die Störer – sie verstecken sich hinter Lärm ✗
-b) die stillen Funktionierenden – sie lösen keinen der drei Kontakt-Trigger aus ✓
-c) die Schwächsten ✗ *(teilweise – aber nicht das Kriterium)*
-d) ein Mythos – Lehrkräfte sehen alle ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Belonging wirkt in der EVK-Formel…
-a) nur auf den Wert ✗
-b) doppelt: hebt den Wert UND senkt die Kosten (Fehler-Risiko in der eigenen Gruppe) ✓
-c) nur auf die Erwartung ✗
-d) gar nicht – Beziehung ist kein Formel-Faktor ✗
+**F1.** Welche Schüler bleiben am ehesten ohne persönlichen Kontakt zur Lehrkraft?
+a) Die Störer. ✗ *(Sie bekommen viel Kontakt, wenn auch korrigierenden.)*
+b) Die Leistungsschwächsten. ✗ *(Sie bekommen oft Hilfe.)*
+c) Die Stillen und Unauffälligen, die nichts fordern. ✓ *(Sie stören nicht, glänzen nicht und fragen nicht.)*
+d) Die Leistungsstärksten. ✗ *(Sie bekommen Lob und Aufrufe.)*
 
-**F3.** Der stärkste Sek-II-Mikromoment:
-a) Jugendslang und Meme-Kenntnis ✗ *(das Anbiederungs-Missverständnis)*
-b) der erinnerte Beitrag: „Sie hatten letzte Woche eingewandt, dass…" ✓
-c) Smalltalk über Partys ✗
-d) Notennachlass ✗
+**F2.** Wie wirkt Zugehörigkeit auf die Bereitschaft, sich anzustrengen?
+a) Sie erhöht den Wert und senkt die Kosten. ✓ *(Der eigene Beitrag zählt, und ein Fehler in der eigenen Gruppe ist weniger riskant.)*
+b) Sie erhöht nur den Wert. ✗ *(Sie senkt auch die Kosten.)*
+c) Sie erhöht nur die Erwartung. ✗ *(Die Erwartung hängt an Erfolgen.)*
+d) Sie verbessert die Stimmung, aber nicht die Anstrengung. ✗ *(Menschen strengen sich für Gruppen an, zu denen sie gehören wollen.)*
 
-**F4.** „Ich komme gleich zu dir" – und du vergisst es. Aus Schülersicht:
-a) menschlich, passiert, egal ✗ *(aus Lehrersicht wahr – aus Schülersicht nicht)*
-b) ein stilles Dementi: so wichtig war ich nicht ✓
-c) ein Grund zur Beschwerde ✗
-d) unbemerkt ✗
+**F3.** Was zeigt Oberstufenschülern am deutlichsten, dass du sie ernst nimmst?
+a) Dass du ihre Sprache sprichst. ✗ *(Das wirkt schnell anbiedernd.)*
+b) Dass du mit ihnen über Freizeit sprichst. ✗ *(Kann passen, ist aber nicht der Kern.)*
+c) Dass du Regeln locker handhabst. ✗ *(Das wird als Gleichgültigkeit gelesen.)*
+d) Dass du auf einen früheren Beitrag zurückkommst: „Sie hatten letzte Woche eingewandt, dass …“ ✓ *(Das beweist: Was hier gesagt wird, wird behalten.)*
 
-**F5.** Beziehungsarbeit für die drei Unsichtbarsten heißt vor allem…
-a) je ein langes Einzelgespräch pro Quartal ✗ *(die Offensive-Falle)*
-b) täglich drei echte Sekunden, in vorhandenen Zeitfenstern ✓
-c) bessere Noten als Vertrauensbeweis ✗
-d) die Eltern anrufen ✗
+**F4.** Du sagst zu einem Schüler: „Ich komme gleich zu dir“, und vergisst es. Wie kommt das bei ihm an?
+a) Kaum, so etwas passiert jedem. ✗ *(Aus deiner Sicht stimmt das. Aus seiner nicht.)*
+b) Er schließt: So wichtig war ich nicht. ✓ *(Jede gehaltene kleine Zusage baut Vertrauen auf. Wer sie sich nicht merken kann, notiert sie.)*
+c) Er meldet sich einfach noch einmal. ✗ *(Gerade die Stillen tun das nicht.)*
+d) Er lernt, sich selbst zu helfen. ✗ *(Er lernt eher, nicht mehr zu fragen.)*
+
+**F5.** Zu drei Schülern hattest du seit Wochen keinen persönlichen Kontakt. Was ist der beste nächste Schritt?
+a) Mit jedem ein längeres Einzelgespräch führen. ✗ *(Gut gemeint, aber einmalig und kaum durchzuhalten.)*
+b) Sie häufiger vor der Klasse loben. ✗ *(Für Stille oft unangenehm.)*
+c) Die Eltern anrufen. ✗ *(Es geht um deinen Kontakt zum Schüler.)*
+d) Jeden Tag ein kurzer, echter Kontakt in Momenten, die es ohnehin gibt. ✓ *(Vor der Begrüßung, beim ersten Rundgang, an der Tür. Drei Sekunden reichen.)*
 
 **F6 (Transfer, Freitext):** Dein rötester Schüler sitzt hinten links, Heatmap-Kaltzone, du weißt nur: Er zeichnet ständig. Baue seinen Mikromoment-Plan: Anknüpfung, Fenster, erster Satz wörtlich. *(Muster: Anknüpfung Zeichnen [ehrliche Neugier!]; Fenster: erster Rundgang beim Do Now; Satz: „Ich seh dich ständig zeichnen – zeigst du mir irgendwann mal was davon?" – Echtheit vor Technik; KEIN „Das gehört jetzt aber weggepackt" im selben Atemzug.)*
 

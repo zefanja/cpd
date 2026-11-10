@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Wie sorge ich dafür, dass alle denken – nicht nur die fünf Melder? |
 | **Kernquellen** | Lemov T34 (Cold Call), T33 (Wait Time), T36 (Means of Participation); Ratio-Konzept (Participation × Think) |
-| **Funktion im Jahr** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf M4.1 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für M4.3 (No Opt Out schließt die Schleife) und M4.4 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in M5.3 als Beziehungs-Heatmap wieder). |
+| **Funktion im Programm** | Das Signatur-Werkzeug von Block 4 – und das am häufigsten falsch eingesetzte. Baut zwingend auf M4.1 (Fehlerkultur) und Block 1 (warmer Ton) auf. Die Frage-Pause-Name-Sequenz wird Grundgrammatik für M4.3 (No Opt Out schließt die Schleife) und M4.4 (Ernte nach Turn and Talk). Die Beteiligungs-Heatmap wird Coaching-Standardwerkzeug (kehrt in M5.3 als Beziehungs-Heatmap wieder). |
 | **Lernziele** | Die TN können:<br>1. Cold Call als Kultur einführen (angekündigt, begründet, warm, vorhersagbar-normal),<br>2. die Sequenz Frage → Pause → Name sauber ausführen und ihre Wirkung begründen,<br>3. 3–5 Sekunden Wartezeit aushalten und produktiv rahmen,<br>4. Means of Participation vor jeder Frage ansagen. |
-| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Jahres (die Pause wird mit der Stoppuhr gemessen). |
+| **Sitzungstyp** | Sequenz-Drill – die präziseste Mikro-Übung des Programms (die Pause wird mit der Stoppuhr gemessen). |
 
 ---
 
@@ -30,13 +30,13 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke & das stille Abo (Minute 8–13)
 
 > **Moderationstext:**
 > *„Verstanden?-Strichlisten: Wer hat sich ertappt – und wie oft am Montag gegen Freitag?"* [2 Stimmen, fallende Kurve würdigen.]
-> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Jahres: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
+> *„Und jetzt eine Rechenaufgabe. Klassische Melde-Stunde, 28 Schüler, ihr stellt eine Frage. Fünf Hände gehen hoch – immer ungefähr dieselben fünf. Ihr nehmt eine dran. Frage an euch: Was tun in diesem Moment die anderen 23? … Eben. Sie haben ein stilles Abo auf Zuschauen – und es ist ein rationales Abo: Wer sich nie meldet, wird nie drangenommen, muss also nie denken. Das ist keine Faulheit, das ist Systemlogik. Lemov beschreibt Beteiligung mit zwei Reglern: **Participation Ratio** – wie viele sind beteiligt? – und **Think Ratio** – wie anspruchsvoll ist das Denken? Die Melde-Stunde hat beide Regler unten. Heute kündigen wir das Abo – mit dem meistgefürchteten und meistmissverstandenen Werkzeug des Programms: Cold Call. Und ich verspreche euch: Richtig gemacht, ist es das Gegenteil von dem, was ihr befürchtet."*
 
 ## Phase 3 · Input (Minute 13–28)
 
@@ -52,7 +52,7 @@ Moderation spielt zweimal dieselbe Frage-Situation mit der Gruppe:
 ### 3b · Cold Call als Kultur (Min. 18–24)
 > *„Jetzt die Gelingensbedingungen, und sie sind nicht verhandelbar:*
 > *Erstens: **angekündigt und begründet einführen.** Cold Call wird nicht heimlich gestartet – er wird der Klasse erklärt: ‚Ich rufe ab jetzt auch ohne Meldung auf. Nicht, um jemanden zu erwischen – sondern weil jede Stimme hier zählt und weil ich wissen will, wie IHR denkt, nicht nur die Schnellsten.' Das Skriptgerüst bekommt ihr gleich, in zwei Tonlagen.*
-> *Zweitens: **warm.** Ton und Miene aus Module 1.4 und 4.2 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
+> *Zweitens: **warm.** Ton und Miene aus den Modulen 1.4 und 4.1 – ein Cold Call klingt wie eine Einladung, nicht wie ein Zugriff. Der Name kommt freundlich, mit Blick, gern mit einem halben Lächeln.*
 > *Drittens: **vorhersagbar-normal.** Mehrmals pro Stunde, ab Tag eins, als Alltagsformat – nicht als seltenes Ereignis, das Puls erzeugt. Was normal ist, macht keine Angst; Modell 4, Normen, ihr kennt es.*
 > *Viertens – die rote Linie: **niemals als Disziplinierung.** Der Cold Call auf den Träumer, um ihn zu ‚erwischen', ist die häufigste und zerstörerischste Zweckentfremdung: Ihr verwandelt euer Lernwerkzeug in eine Waffe, und die Klasse lernt in einer einzigen Szene: Drankommen ist Strafe. Für Träumer habt ihr die Leiter aus Modul 1.5 – Stufe 1, Blick und Nähe. Cold Call bleibt sauber.*
 > *Und fünftens: **niedrigschwellig starten.** Die ersten Cold Calls sind Meinungsfragen, Einschätzungen, Berichte aus der Partnerarbeit – Fragen ohne Blamage-Risiko. Das Sicherheitsnetz für ‚Weiß nicht' bauen wir im nächsten Modul ein; bis dahin gilt bei Schweigen: freundlich Hinweis geben oder weiterreichen und zurückkommen – nie stehen lassen, nie bohren."*
@@ -90,7 +90,7 @@ Vierergruppen: Rollen Lehrkraft / 2 Klasse / **Stoppuhr-Wächter**. Jeder führt
 
 # 4. Coaching-Modul 4.2 (Handreichung)
 
-- **Hospitationsfokus – die Heatmap-Fokus:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
+- **Hospitationsfokus – die Heatmap:** Coach führt auf dem Sitzplan die **Beteiligungs-Heatmap**: jeder Aufruf ein Punkt (Cold Call ○ / Meldung ●). Zusätzlich 3 Pausen stoppen (Sekunden notieren).
 - **Auswertungsgespräch:** Heatmap wortlos vorlegen, TN interpretiert zuerst selbst – die blinden Flecken (hinten links? nur eine Geschlechterhälfte? nur Melder?) sind fast immer unbewusst und fast immer da. Pausenwerte daneben. Action Step: 2 konkrete „kalte Zonen" benennen, die nächste Woche gezielt Aufrufe bekommen.
 - **Einführungs-Beobachtung:** Wenn möglich die EINFÜHRUNGS-Stunde hospitieren – die Klassenreaktion auf das Skript ist das wertvollste Feedback.
 - **Red Flag:** Cold Call trifft beobachtbar überwiegend Störer/Träumer → sofort stoppen und umsteuern (Zweckentfremdung zerstört in Tagen, was in Wochen gebaut wurde); Leiter-Werkzeuge reaktivieren, Cold Call neu rahmen.
@@ -116,43 +116,46 @@ Sitzplan-Raster + Legende: ○ Cold Call · ● Meldung · Strichdichte = Häufi
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die Ersetzungs-Regel (M4.1)? *(Selbstauskunft → prüfbare Mini-Aufgabe)*
-2. Der Fehlerreaktions-Dreiklang? *(neutral benennen → Ursache würdigen → nutzen)*
-3. Warum liefert „Alle verstanden?" nichts – zwei Gründe? *(soziale Kosten; Dunning-Kruger)*
-4. Die All-Response-Formate aus Block 2? *(Whiteboards, Fingercodes/Abfrage an alle)*
-5. (Anwendung) Skizziere ein Plan-for-Error für „Kommasetzung bei weil" – ein wahrscheinlicher Fehler + Reaktion. *(z. B. Komma nach Gefühl/Atempause statt vor der Konjunktion → Dreiklang + Verb-Suchregel als Hinweis)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Womit ersetzt du die Frage „Alle verstanden?“ (M4.1)? *(durch eine kleine Aufgabe an alle, deren Ergebnis ich sehe)*
+2. Welche drei Schritte hat eine gute Reaktion auf eine falsche Antwort? *(sachlich benennen → den Gedanken dahinter würdigen → für alle nutzen)*
+3. (Szene) Nenne für „Kommasetzung bei weil“ einen wahrscheinlichen Fehler und deine Reaktion. *(z. B. Komma nach Gefühl bei der Sprechpause; Reaktion in drei Schritten, Hinweis: das Verb im Nebensatz suchen)*
+4. Was bedeutet „Leistung in der Stunde ist nicht Lernen“ (M3.5)? *(Was heute klappt, kann in vier Wochen weg sein.)*
+5. Welche fünf Kriterien gelten für Abruf-Quizze (M3.4)? *(ohne Hilfsmittel / schriftlich, alle / ohne Note / sofortige Auflösung / regelmäßig)*
+6. Mit welchen Formaten lässt du alle gleichzeitig antworten (Block 2)? *(Mini-Whiteboards, Fingerzeichen)*
 
 ## Teil 2: Modul-Quiz Modul 4.2 (für SPA/Austauschwoche)
-**F1.** Cold Call auf den Schüler, der gerade aus dem Fenster träumt, ist…
-a) effizient – weckt und diszipliniert zugleich ✗ *(DIE Zweckentfremdung – fühlt sich clever an)*
-b) Kulturzerstörung: Das Lernwerkzeug wird zur Waffe; für Träumer gibt es Stufe 1 der Leiter ✓
-c) verboten ✗
-d) nur in Sek I in Ordnung ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Die richtige Reihenfolge:
-a) Name → Frage → Pause ✗ *(das Alltagsmuster – schaltet 27 Gehirne ab)*
-b) Frage → Pause → Name ✓
-c) Frage → Name → Pause ✗
-d) egal, Hauptsache freundlich ✗
+**F1.** Ein Schüler träumt aus dem Fenster. Du überlegst, ihn ohne Meldung aufzurufen, um ihn zurückzuholen. Ist das eine gute Idee?
+a) Ja, das weckt ihn und zeigt der Klasse, dass du alles siehst. ✗ *(Es zeigt der Klasse vor allem: Drankommen ist eine Strafe.)*
+b) Ja, wenn die Frage leicht genug ist. ✗ *(Der Zweck bleibt derselbe, und die Klasse erkennt ihn.)*
+c) Nein. Aufrufen darf nie Strafe sein. Für Träumer gibt es Blick und Nähe. ✓ *(Stufe 1 der Interventionsleiter. Der Aufruf ohne Meldung bleibt ein Lernwerkzeug.)*
+d) Nein, besser nach der Stunde mit ihm sprechen. ✗ *(Für einen kurzen Tagtraum ist das zu viel. Blick und Nähe genügen.)*
 
-**F3.** Fünf Sekunden Stille nach deiner Frage sind…
-a) peinlich und ein Zeichen einer schlechten Frage ✗ *(das Lehrer-Bauchgefühl)*
-b) Denkzeit – auszuhalten und produktiv zu rahmen ✓
-c) Zeitverschwendung bei 45-Minuten-Stunden ✗
-d) nur bei schweren Fragen nötig ✗
+**F2.** In welcher Reihenfolge rufst du ohne Meldung auf?
+a) Frage, Pause, Name. ✓ *(Bis der Name fällt, kann jeder gemeint sein. Also denken alle.)*
+b) Name, Frage, Pause. ✗ *(Mit dem Namen wissen alle anderen: Ich bin nicht gemeint.)*
+c) Frage, Name, Pause. ✗ *(Die Pause kommt zu spät. Sie gehört nur noch dem Aufgerufenen.)*
+d) Name, Pause, Frage. ✗ *(Die Pause ohne Frage ist nur Spannung.)*
 
-**F4.** Cold Call wird eingeführt…
-a) unangekündigt – sonst verliert er die Wirkung ✗ *(Überraschungs-Logik)*
-b) explizit, mit Begründung und Fairness-Zusagen ✓
-c) nur nach Elterninformation ✗
-d) gar nicht – er ergibt sich ✗
+**F3.** Du stellst eine Frage. Vier Sekunden lang ist es still. Was tust du?
+a) Ich formuliere die Frage noch einmal anders. ✗ *(Das unterbricht das Denken, das gerade begonnen hat.)*
+b) Ich nehme den ersten, der sich meldet. ✗ *(Dann denken ab sofort nur noch die Schnellen.)*
+c) Ich gebe einen Tipp, damit es weitergeht. ✗ *(Zu früh. Erst kommt die Denkzeit.)*
+d) Ich halte die Stille aus und benenne sie als Denkzeit. ✓ *(Drei bis fünf Sekunden. „Ich sehe, einige notieren sich etwas. Gut.“)*
 
-**F5.** Ein Schüler ruft die Antwort rein, während Cem aufgerufen ist. Du…
-a) nimmst die richtige Antwort dankbar auf – Hauptsache Inhalt ✗ *(belohnt den Reinruf)*
-b) gibst ruhig zurück: „Die Frage lag bei Cem – Cem?" ✓
-c) ermahnst den Reinrufer scharf ✗ *(Overkill – MoP nachschärfen genügt)*
-d) stellst eine neue Frage ✗
+**F4.** Wie führst du das Aufrufen ohne Meldung in einer Klasse ein?
+a) Ohne Ankündigung, sonst geht die Wirkung verloren. ✗ *(Überraschung erzeugt Angst, nicht Beteiligung.)*
+b) Angekündigt und begründet, mit Denkzeit und zuerst mit leichten Fragen. ✓ *(Dazu die Zusage: „Ich bin noch nicht sicher“ ist eine erlaubte Antwort.)*
+c) Zuerst nur bei den leistungsstarken Schülern. ✗ *(Dann lernt der Rest: Ich bin nicht gemeint.)*
+d) Erst nach einer Information an die Eltern. ✗ *(Nicht nötig. Die Klasse selbst braucht die Erklärung.)*
+
+**F5.** Cem ist aufgerufen und denkt nach. Ein anderer Schüler ruft die richtige Antwort hinein. Was tust du?
+a) Ich nehme die Antwort auf, sie ist ja richtig. ✗ *(Dann lohnt sich das Hineinrufen.)*
+b) Ich ermahne den Hineinrufer deutlich. ✗ *(Zu groß für den Anlass und nimmt Cem die Bühne.)*
+c) Ich gebe ruhig zurück: „Die Frage lag bei Cem. Cem?“ ✓ *(Die Antwort wird nicht verwertet. Beim nächsten Mal sage ich vorher an, wie geantwortet wird.)*
+d) Ich stelle Cem eine neue, leichtere Frage. ✗ *(Dann hat der Hineinrufer Cem die Frage abgenommen.)*
 
 **F6 (Transfer, Freitext):** Schreibe dein Cold-Call-Einführungsskript für deine schwierigste Klasse: Begründung (2 Sätze), Fairness-Zusatz, erste niedrigschwellige Frage. *(Bewertungsanker: Begründung vor Neuerung; Einladungston; „unsicher ist erlaubt"-Zusage; risikofreie Erstfrage.)*
 

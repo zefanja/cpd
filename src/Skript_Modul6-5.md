@@ -7,8 +7,8 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Was hat ein Jahr gezielte Übung bewirkt – sichtbar gemacht, gewürdigt, weitergegeben? |
-| **Funktion im Jahr** | Programm-Finale in eigenem Format: kein Input, keine Übung – Bilanz, Würdigung, Staffelübergabe. Das Kolloquium ist zugleich das letzte Programmelement nach EEF-Logik: Es verankert (öffentliches Commitment auf Jahr 2), motiviert (der Vorher/Nachher-Beweis) und macht die Schule zum Zeugen (Schulleitung, ggf. künftige Kohorte-2-Mitglieder als Gäste). Matrix-Spinnennetz final (M0/M3.6/M6.5); Programm-Feedback für Kohorte 2; Zertifikate; Peer-Mentor-Angebot. |
+| **Leitfrage** | Was hat zwei Jahre gezielte Übung bewirkt – sichtbar gemacht, gewürdigt, weitergegeben? |
+| **Funktion im Programm** | Programm-Finale in eigenem Format: kein Input, keine Übung – Bilanz, Würdigung, Staffelübergabe. Das Kolloquium ist zugleich das letzte Programmelement nach EEF-Logik: Es verankert (öffentliches Commitment auf Jahr 3), motiviert (der Vorher/Nachher-Beweis) und macht die Schule zum Zeugen (Schulleitung, ggf. künftige Kohorte-2-Mitglieder als Gäste). Matrix-Spinnennetz final (M0/M3.6/M6.5); Programm-Feedback für Kohorte 2; Zertifikate; Peer-Mentor-Angebot. |
 | **Beteiligte** | Kohorte, Coaches, Moderation, Schulleitung (Eröffnung + Zertifikate); optional als Gäste: interessierte Kollegen / designierte Kohorte 2. |
 | **Sitzungstyp** | Kolloquium – festlich, aber arbeitsnah: Es werden echte Videos gezeigt und echte Pläne vorgestellt. Kein Prüfungsformat (mehrfach explizit machen). |
 
@@ -47,8 +47,8 @@ Nach Briefing. Danach Übergabe an die Moderation.
 ## Phase 2 · Rahmung durch die Moderation (Minute 12–18)
 
 > **Moderationstext (Vorschlag):**
-> *„Zu Beginn dieses Programms habe ich Ihnen drei Versprechen gegeben und drei Bitten formuliert. Eine der Bitten hieß: Hier wird geübt, laut, und es wird sich zweimal albern anfühlen. Sie haben geliefert – in diesem Raum wurde skriptiert, gespielt, gestoppt, wiederholt, gescheitert und sofort noch einmal probiert, mehr als in jeder Fortbildung, von der ich je gehört habe. Heute kein Input, kein Quiz –"* [Pause] *„gut, fast kein Quiz: Wer nennt mir die fünf Motivations-Treiber? … Danke. DAS war das letzte Retrieval des Jahres, es musste sein.*
-> *Heute zeigen Sie sich selbst, was ein Jahr gezielte Übung bewirkt. Jede und jeder von Ihnen zeigt zwei Videoausschnitte: einen aus Modul 1.1 – versiegelt seit September – und einen von vor zwei Wochen. Dazwischen liegen keine zehn Berufsjahre. Dazwischen liegen fünfunddreißig Module mit je einem Schritt. Die Spielregeln: Acht bis zehn Minuten pro Person, das Glöckchen ist unbestechlich. Nach jeder Präsentation zwei Minuten Stärken-Resonanz aus der Kohorte – konkret, ihr könnt das, es ist euer Handwerk. Und: Das hier ist keine Prüfung. Es ist ein Zeugnis – eines, das Sie sich selbst ausstellen."*
+> *„Zu Beginn dieses Programms habe ich Ihnen drei Versprechen gegeben und drei Bitten formuliert. Eine der Bitten hieß: Hier wird geübt, laut, und es wird sich zweimal albern anfühlen. Sie haben geliefert – in diesem Raum wurde skriptiert, gespielt, gestoppt, wiederholt, gescheitert und sofort noch einmal probiert, mehr als in jeder Fortbildung, von der ich je gehört habe. Heute kein Input, kein Quiz –"* [Pause] *„gut, fast kein Quiz: Wer nennt mir die fünf Motivations-Treiber? … Danke. DAS war das letzte Retrieval des Programms, es musste sein.*
+> *Heute zeigen Sie sich selbst, was zwei Jahre gezielte Übung bewirkt. Jede und jeder von Ihnen zeigt zwei Videoausschnitte: einen aus Modul 1.1 – versiegelt seit Programmstart – und einen von vor zwei Wochen. Dazwischen liegen keine zehn Berufsjahre, sondern zwei. Dazwischen liegen fünfunddreißig Module mit je einem Schritt. Die Spielregeln: Acht bis zehn Minuten pro Person, das Glöckchen ist unbestechlich. Nach jeder Präsentation zwei Minuten Stärken-Resonanz aus der Kohorte – konkret, ihr könnt das, es ist euer Handwerk. Und: Das hier ist keine Prüfung. Es ist ein Zeugnis – eines, das Sie sich selbst ausstellen."*
 
 ## Phase 3 · Die Präsentationen (Minute 18–98; 8 × 10 Min.)
 
@@ -57,17 +57,17 @@ Nach Briefing. Danach Übergabe an die Moderation.
 1. Baseline-Ausschnitt M1.1 (1–2 Min.)
 2. Kontrast-Ausschnitt Video 3 (1–2 Min., möglichst gleiche Situations-Kategorie)
 3. „Meine drei Techniken" (je 1 Satz Wirkung)
-4. „Meine Baustelle + mein Jahr-2-Plan"
+4. „Meine Baustelle + mein Jahr-3-Plan"
 
 Dann **2 Min. Stärken-Resonanz** (Moderation achtet auf Precise-Praise-Qualität und schneidet Kitsch freundlich ab: *„Konkret – was genau war stark?"*).
 
-**Moderations-Regie:** Nach jedem TN ein Übergangs-Satz, der ein MUSTER würdigt statt zu wiederholen (*„Schon der dritte Stundenstart, bei dem im September gerufen und im Juni gewartet wird – merkt euch dieses Muster."*). **Pausenregel:** Nach TN 4 fünf Minuten Pause (in der 95-Min.-Variante: nach TN 3, drei Minuten). **Emotions-Regie:** Die M1.1-Videos lösen regelmäßig Lachen UND Rührung aus – beides zulassen, nichts zerreden; das Taschentuch-Schild zeigt, wenn es passt.
+**Moderations-Regie:** Nach jedem TN ein Übergangs-Satz, der ein MUSTER würdigt statt zu wiederholen (*„Schon der dritte Stundenstart, bei dem am Anfang gerufen und heute gewartet wird – merkt euch dieses Muster."*). **Pausenregel:** Nach TN 4 fünf Minuten Pause (in der 95-Min.-Variante: nach TN 3, drei Minuten). **Emotions-Regie:** Die M1.1-Videos lösen regelmäßig Lachen UND Rührung aus – beides zulassen, nichts zerreden; das Taschentuch-Schild zeigt, wenn es passt.
 
 ## Phase 4 · Das Spinnennetz & die Bilanz (Minute 98–106)
 
 Jeder erhält den eigenen Dreifach-Spinnennetz-Ausdruck (M0/M3.6/M6.5). Zwei Minuten stilles Betrachten, dann Blitzlicht reihum, EIN Satz: *„Was sagt dir dein Netz?"*
 
-> **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit letzter Woche, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab August selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
+> **Moderations-Brücke:** *„Acht Netze, acht verschiedene Formen – und ein gemeinsames Muster: Sie sind größer geworden. Nicht durch Talent, nicht durch Zufall, nicht einmal durch Erfahrung – Sie wissen seit Modul 6.4, dass Erfahrung allein das nicht schafft. Sondern durch ein System, das Sie ab dem nächsten Schuljahr selbst betreiben. Die Verträge sind unterschrieben – ich habe sie gesehen."*
 
 ## Phase 5 · Programm-Feedback (Minute 106–112)
 
@@ -79,12 +79,12 @@ Bögen (Anhang 2): **Behalten / Ändern / Streichen** – still, ehrlich, anonym
 
 **Zertifikatsübergabe durch die Schulleitung:** Jedes Zertifikat trägt einen individuellen **Precise-Praise-Satz** (vorab von Coach + Moderation formuliert: konkret, verdient, aufs Vorgehen – z. B. *„…hat aus einem improvisierten Stundenstart eine Routine gebaut, die in 40 Sekunden 28 Menschen ins Arbeiten bringt"*). Die Schulleitung liest ihn LAUT. Applaus pro Person – das Format trägt die Würdigung, nicht die Länge.
 
-**Peer-Mentor-Angebot (Moderation):** *„Im Herbst startet Kohorte 2 – und sie wird eines brauchen, das kein Buch und kein Coach ersetzen kann: Menschen, die diesen Weg gerade selbst gegangen sind. Wer sich vorstellen kann, als Peer-Mentor eine Stunde im Monat zu geben – Hospitationsgast, Erste-Wochen-Pate, Erfahrungsstimme beim Auftakt –, sagt mir das diese Woche. Kein Amt, kein Papierkram: ein Tandem mit Vorsprung."*
+**Peer-Mentor-Angebot (Moderation):** *„Bald startet Kohorte 2 – und sie wird eines brauchen, das kein Buch und kein Coach ersetzen kann: Menschen, die diesen Weg gerade selbst gegangen sind. Wer sich vorstellen kann, als Peer-Mentor eine Stunde im Monat zu geben – Hospitationsgast, Erste-Wochen-Pate, Erfahrungsstimme beim Auftakt –, sagt mir das diese Woche. Kein Amt, kein Papierkram: ein Tandem mit Vorsprung."*
 
 ## Phase 7 · Schlusswort (Minute 118–120)
 
 > **Moderationstext:**
-> *„Ein letzter Satz, dann ist es vollbracht. In der allerersten Sitzung stand ein einziger Satz auf der Folie: Handwerk ist lernbar. Sie haben ihn dieses Jahr nicht geglaubt – Sie haben ihn bewiesen. Ein prall gefülltes Playbook, drei Spinnennetze und zwei Videos, zwischen denen Welten liegen. Was Sie ab morgen unterrichten, sind Fächer. Was Sie ab morgen SIND, ist etwas anderes: Kollegen, die wissen, wie man besser wird – aus eigener Kraft, mit System, ein Schritt pro Woche. Es war mir eine Ehre. Die Stunde ist zu Ende – Sie wissen ja jetzt, wie man eine Stunde beendet: geordnet, im Stehen, und drei Minuten vor dem Klingeln."*
+> *„Ein letzter Satz, dann ist es vollbracht. In der allerersten Sitzung stand ein einziger Satz auf der Folie: Handwerk ist lernbar. Sie haben ihn in diesen zwei Jahren nicht geglaubt – Sie haben ihn bewiesen. Ein prall gefülltes Playbook, drei Spinnennetze und zwei Videos, zwischen denen Welten liegen. Was Sie ab morgen unterrichten, sind Fächer. Was Sie ab morgen SIND, ist etwas anderes: Kollegen, die wissen, wie man besser wird – aus eigener Kraft, mit System, ein Schritt pro Woche. Es war mir eine Ehre. Die Stunde ist zu Ende – Sie wissen ja jetzt, wie man eine Stunde beendet: geordnet, im Stehen, und drei Minuten vor dem Klingeln."*
 
 [Aufstehen. Applaus. Ende.]
 
@@ -95,11 +95,11 @@ Bögen (Anhang 2): **Behalten / Ändern / Streichen** – still, ehrlich, anonym
 - **Vor dem Kolloquium:** M6.5-Matrix-Erhebung im letzten 1:1 (ruhig, ohne Kommentar – das Netz spricht im Kolloquium); Precise-Praise-Satz je TN mit der Moderation finalisieren; Technik-Zulieferung (Ausschnitte einsammeln).
 - **Nach dem Kolloquium – das Abschlussgespräch (30 Min., in den Tagen danach):**
   1. Kolloquiums-Nachlese: Wie war es, sich selbst zu sehen?
-  2. Jahr-2-Vertrag final: Termine real im Kalender? Erster Monatsfokus startklar für August?
+  2. Jahr-3-Vertrag final: Termine real im Kalender? Erster Monatsfokus startklar für den Schuljahresbeginn?
   3. Offizielle Übergabe: „Ab jetzt bist du dein Coach – und du weißt, wo du mich findest."
   4. Peer-Mentor-Interessierte an die Moderation melden.
 - **Programm-Nachlese (Coaches + Moderation, eigener Termin):** Feedback-Bögen auswerten (Behalten/Ändern/Streichen clustern); Kohorte-2-Anpassungen beschließen und dokumentieren; die M6.4-Botschaften + Kolloquiums-Räte für den neuen Auftakt aufbereiten.
-- **Red Flag (auch im Finale ernst):** TN, deren Netz/Video kaum Entwicklung zeigt oder die das Kolloquium als beschämend erlebt haben → das Abschlussgespräch wird zum Perspektivgespräch: ehrlich, warm, mit konkretem Jahr-2-Support (ggf. verlängertes Coaching-Angebot); niemand verlässt das Programm mit einem Scheitern-Gefühl als letztem Eindruck.
+- **Red Flag (auch im Finale ernst):** TN, deren Netz/Video kaum Entwicklung zeigt oder die das Kolloquium als beschämend erlebt haben → das Abschlussgespräch wird zum Perspektivgespräch: ehrlich, warm, mit konkretem Jahr-3-Support (ggf. verlängertes Coaching-Angebot); niemand verlässt das Programm mit einem Scheitern-Gefühl als letztem Eindruck.
 
 ---
 
@@ -110,13 +110,13 @@ Kolloquium [Datum] · Eröffnung: Schulleitung · Rahmung · Präsentationen: 1.
 **BEHALTEN** (Was hat dir am meisten gebracht? Konkret – Format, Modul, Werkzeug): … **ÄNDERN** (Was hätte anders getaktet/gebaut sein sollen?): … **STREICHEN** (Was hat dir wenig gebracht – ehrlich): … **Mein Rat an Kohorte 2 in einem Satz:** … **Optional – Name, falls Rückfragen okay:** … *(Anonymität ausdrücklich erlaubt; die Sätze der letzten Zeile werden – anonymisiert – Teil des nächsten Auftakts.)*
 
 # Anhang 3: Zertifikats-Vorlage (Struktur)
-Schullogo · „Zertifikat – Berufsbegleitende Professionalisierung für den Quereinstieg, Schuljahr …" · Name · Umfang (35 Module im Zwei-Wochen-Rhythmus mit Austausch- und Vertiefungssitzungen, wöchentliches Unterrichtscoaching, 5 kollegiale Hospitationen, 3 Meilenstein-Kolloquien, Abschlusskolloquium mit Unterrichtsdokumentation) · **Individueller Würdigungssatz (Precise Praise):** „…" · Unterschriften Schulleitung + Programmleitung · Datum. *(Formulierungs-Check für den Würdigungssatz: konkret? verdient? aufs Vorgehen? – die M1.6-Kriterien gelten bis zur letzten Urkunde.)*
+Schullogo · „Zertifikat – Berufsbegleitende Professionalisierung für den Quereinstieg, Schuljahre …" · Name · Umfang (35 Module im Zwei-Wochen-Rhythmus mit Austausch- und Vertiefungssitzungen, wöchentliches Unterrichtscoaching, 5 kollegiale Hospitationen, 3 Meilenstein-Gespräche, Abschlusskolloquium mit Unterrichtsdokumentation) · **Individueller Würdigungssatz (Precise Praise):** „…" · Unterschriften Schulleitung + Programmleitung · Datum. *(Formulierungs-Check für den Würdigungssatz: konkret? verdient? aufs Vorgehen? – die M1.6-Kriterien gelten bis zur letzten Urkunde.)*
 
-# Anhang 4: Ableitung für die SPA „Modul 6.5 / Jahres-Dashboard"
+# Anhang 4: Ableitung für die SPA „Modul 6.5 / Programm-Dashboard"
 
 1. **Kein Lernmodul – ein Zeugnis-Screen.** Das Modul öffnet mit dem finalen **Spinnennetz M0/M3.6/M6.5** als animierter Aufbau (die drei Linien zeichnen sich nacheinander – der Gänsehaut-Moment der SPA).
-2. **Jahres-Dashboard:** alle Verlaufsdaten auf einem Screen: Action-Step-Historie (35 Einträge!), Quiz-Kurven über 6 Blöcke, Planungszeit- und Korrekturzeit-Graphen (Module 6.2/6.4), Störungs-/3:1-/Cold-Call-Tracker-Trends – „Dein Jahr in Daten".
-3. **Portfolio-Export:** ein PDF-Paket auf Knopfdruck: Playbook (alle Skript-Editor-Exporte), Jahr-2-Vertrag, Spinnennetz, Dashboard-Zusammenfassung – das digitale Gegenstück zum Zertifikat.
+2. **Programm-Dashboard:** alle Verlaufsdaten auf einem Screen: Action-Step-Historie (35 Einträge!), Quiz-Kurven über 6 Blöcke, Planungszeit- und Korrekturzeit-Graphen (Module 6.1/6.3), Störungs-/3:1-/Cold-Call-Tracker-Trends – „Deine zwei Jahre in Daten".
+3. **Portfolio-Export:** ein PDF-Paket auf Knopfdruck: Playbook (alle Skript-Editor-Exporte), Jahr-3-Vertrag, Spinnennetz, Dashboard-Zusammenfassung – das digitale Gegenstück zum Zertifikat.
 4. **Kolloquiums-Begleiter:** Ablauf-Checkliste + Präsentations-Timer (8–10 Min. mit Glöckchen-Sound) für die Live-Veranstaltung.
 5. **Programm-Feedback digital:** Behalten/Ändern/Streichen-Formular (speist die Kohorte-2-Anpassung); Rat-an-Kohorte-2-Feld.
-6. **Abschluss-Screen:** „Handwerk ist lernbar – bewiesen von dir." + Übergabe an den Erhaltungsmodus: Die Karteikarten-Engine läuft weiter (Spaced Retrieval über den Jahresstoff, Frequenz reduziert), Quartals-Video-Erinnerungen aktiv, Tandem-Termine im Kalender-Sync. Die SPA wechselt vom Kurs- in den Begleiter-Modus.
+6. **Abschluss-Screen:** „Handwerk ist lernbar – bewiesen von dir." + Übergabe an den Erhaltungsmodus: Die Karteikarten-Engine läuft weiter (Spaced Retrieval über den Programmstoff, Frequenz reduziert), Quartals-Video-Erinnerungen aktiv, Tandem-Termine im Kalender-Sync. Die SPA wechselt vom Kurs- in den Begleiter-Modus.

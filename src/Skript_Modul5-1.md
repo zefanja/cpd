@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Warum strengen sich Menschen an – und wie mache ich Erfolg zum Motor? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Motivations-Mechanik: Erwartung × Wert ÷ Kosten; Treiber „Secure success"); Attributionsforschung (vereinfacht); Verzahnung: Erfolgsquote (M2.1), Fading (M2.4) |
-| **Funktion im Jahr** | Block-5-Auftakt nach den Osterferien (Reaktivierung + Re-Establish-Check integriert). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgemodule (M5.2–5.5) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
+| **Funktion im Programm** | Block-5-Auftakt (Reaktivierung + Re-Establish-Check integriert, falls Ferien vorausgingen). Ersetzt die Alltagstheorie „motiviert/unmotiviert als Eigenschaft" durch eine analysierbare Mechanik – die EVK-Brille wird Deutungswerkzeug für alle Folgemodule (M5.2–5.5) und für jeden „hoffnungslosen Fall". Secure Success verbindet Motivation mit dem Instruktions-Handwerk aus Block 2: Die größte Motivationsmaßnahme ist guter Unterricht. |
 | **Lernziele** | Die TN können:<br>1. Motivation mit der EVK-Mechanik analysieren (Erwartung × Wert ÷ Kosten) und „unmotiviert" als Situationsbeschreibung statt Eigenschaftsdiagnose behandeln,<br>2. Erfolgserlebnisse gezielt konstruieren (Vorentlastung, Einstiegserfolge, 80 %-Korridor),<br>3. Erfolge auf das Vorgehen attribuieren statt auf Talent,<br>4. Belohnungssysteme als temporäres Werkzeug mit Verfallsdatum einordnen. |
-| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Jahres. |
+| **Sitzungstyp** | Deutungs-Umbau + Fallarbeit am eigenen Schüler – die persönlichste Analyse-Übung des Programms. |
 
 ---
 
@@ -30,7 +30,7 @@
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
 ## Phase 1 · Reaktivierungs-Quiz + Re-Establish-Check (Minute 2–12)
-8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Osterferien sind vorbei – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der M4.1-Zettel gilt weiter, Montag ist das Fenster."*
+8 Fragen quer durch die Blöcke (Anhang 2, Teil 1), Whiteboards, Selbstkorrektur. Kurzer Re-Establish-Check (2 Min.): *„Falls Ferien dazwischenlagen – Handzeichen: Wer hat seinen Routinen-Neustart schon gefahren? Wer nicht: Der M4.1-Zettel gilt weiter, Montag ist das Fenster."*
 
 ## Phase 2 · See it: Nora & Evie (Minute 12–19)
 
@@ -44,14 +44,14 @@ Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleic
 
 ### 3a · Die EVK-Mechanik (Min. 19–24)
 > *„Wenn Motivation situativ ist – wovon hängt die Situation ab? McCrea bündelt die Motivationsforschung in einer Faustformel, unserer Brille für die nächsten fünf Module: **Anstrengungsbereitschaft = Erwartung × Wert ÷ Kosten.***
-> *​**Erwartung:** Glaube ich, dass ich es SCHAFFEN kann? Nicht objektiv – subjektiv, aus Evies Sicht. Wer fünf Jahre Mathe-Misserfolg gesammelt hat, dessen Erwartung liegt bei null.*
-> *​**Wert:** Bringt es mir etwas – ist es interessant, nützlich, oder zahlt es auf mein Ansehen ein? Wert ist vielfältiger als ‚Interesse': Auch ‚meine Freundin macht mit' ist Wert.*
-> *​**Kosten:** Was kostet es mich – Anstrengung, Zeit, Verwirrung, und die gefährlichste Währung: **Blamage-Risiko.** Vor der Klasse zu scheitern ist für Vierzehnjährige teurer als jede Hausaufgabe lang ist.*
+> ***Erwartung:** Glaube ich, dass ich es SCHAFFEN kann? Nicht objektiv – subjektiv, aus Evies Sicht. Wer fünf Jahre Mathe-Misserfolg gesammelt hat, dessen Erwartung liegt bei null.*
+> ***Wert:** Bringt es mir etwas – ist es interessant, nützlich, oder zahlt es auf mein Ansehen ein? Wert ist vielfältiger als ‚Interesse': Auch ‚meine Freundin macht mit' ist Wert.*
+> ***Kosten:** Was kostet es mich – Anstrengung, Zeit, Verwirrung, und die gefährlichste Währung: **Blamage-Risiko.** Vor der Klasse zu scheitern ist für Vierzehnjährige teurer als jede Hausaufgabe lang ist.*
 > *Und das Entscheidende an der Formel: Es ist eine MULTIPLIKATION mit einem Teiler. Erwartung null? Dann ist das Produkt null – egal wie spannend ihr das Thema verpackt. Deshalb scheitern die Motivations-Feuerwerke: Wer bei Evie den WERT hochdreht – tolles Thema, Alltagsbezug, Video! – aber die Erwartung bei null lässt, multipliziert mit null. Die Formel sagt euch, WO ihr ansetzen müsst, bevor ihr loslegt. Sie ist ein Diagnose-, kein Zauberwerkzeug."*
 
 ### 3b · Treiber 1: Secure Success (Min. 24–30)
 > *„Und damit zum ersten von fünf Treibern, dem mit dem größten Hebel: **Secure Success – Erfolg konstruieren.** Nichts motiviert so zuverlässig wie die Erfahrung, etwas zu KÖNNEN, das gestern noch nicht ging – Erfolg füttert die Erwartung, und Erwartung ist der Multiplikator. Die schlechte Nachricht zuerst: Für Evie ist Mathe eine Misserfolgs-Maschine – jede Stunde bestätigt die Null. Die gute Nachricht: Ihr könnt die Maschine umbauen, und die Werkzeuge BESITZT ihr schon:*
-> *​**Die hohe Erfolgsquote** aus Modul 2.1 ist Motivationstechnik: Übungsphasen, in denen mindestens vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Modul 2.4: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
+> ***Die hohe Erfolgsquote** aus Modul 2.1 ist Motivationstechnik: Übungsphasen, in denen mindestens vier von fünf Antworten gelingen, sind Erwartungs-Futter. **Die Fading-Treppe** aus Modul 2.4: Der Einstiegserfolg auf Stufe 2 ist ein ECHTER Erfolg – Gerüst ist kein Betrug, Gerüst ist Berg mit Seil. **Vorentlastung:** Evie bekommt die Schlüsselfrage von morgen heute im Kleinformat – und erlebt morgen zum ersten Mal seit Jahren, eine Antwort zu WISSEN, bevor sie gestellt wird. Drei Minuten Investition, und die Erwartungs-Null bekommt einen Riss.*
 > *Dazu die Sprach-Schicht, die **Attribution**: WORAUF führt ihr Erfolg zurück, wenn ihr lobt? ‚Du bist halt schlau' ist Talent-Attribution – sie macht den nächsten Misserfolg zur Identitätsfrage; ihr kennt das Argument aus Modul 1.6. ‚Du hast die Probe gemacht, DESHALB stimmt es' ist Vorgehens-Attribution – sie macht Erfolg wiederholbar: Das Vorgehen kann Evie morgen wieder wählen, ihr Talent nicht. Precise Praise aus Block 1 war immer schon Motivationstechnik – heute wisst ihr, warum.*
 > *Und die Fußnote zu **Belohnungssystemen** – Sticker, Punkte, Gummibärchen: Sie funktionieren, kurzfristig, als Starthilfe für Verhalten, das noch keinen Eigenwert hat. Aber sie sind ein Kredit mit Zinsen: Dauerhaft eingesetzt, verschieben sie den Wert vom Tun zur Belohnung – und wehe, die Belohnung bleibt aus. Regel: sparsam, temporär, mit geplantem Ausstieg – und immer parallel am echten Treiber bauen: am Erfolg."*
 
@@ -76,7 +76,7 @@ Tandems, Sprachkarte (Anhang 1.3): 8 Talent-/Zufalls-Attributionen werden laut i
 1. Attributions-Fokus pur: Strichliste Talent- vs. Vorgehens-Lob am eigenen Pult.
 2. EVK-Diagnose-Fokus: drei weitere „unmotivierte" Fälle mit der Brille analysieren – nur Diagnose, Maßnahmen folgen mit den Treibern 2–5.
 
-> **Ausblick:** *„Beim nächsten Input die Treiber 2 und 3 – und die größte Pointe des Jahres: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt ein halbes Jahr an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
+> **Ausblick:** *„Beim nächsten Input die Treiber 2 und 3 – und die größte Pointe des Programms: Euer komplettes Block-1-Playbook war von Anfang an ein Motivationsprogramm. Ihr habt von Anfang an an den KOSTEN gearbeitet, ohne das Wort zu kennen. Und: Wie ihr Normen so verschiebt, dass Anstrengung ansteckend wird."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard + Erinnerung: Playbook zur nächsten Sitzung mitbringen (M5.2).
 
@@ -113,39 +113,48 @@ Kopf: „Mein Fall (kein Name nötig): Fach/Klasse/typisches Verhalten". — **E
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, M1.1–4.6)
-1. Der Entscheidungs-Dreisatz (M4.6)? 2. Der Show-Call-Dreischritt? 3. Frage-Pause-Name – warum? 4. Die 4 No-Opt-Out-Varianten? 5. Own-and-Track-Minimum? 6. Performance ≠ Learning in einem Satz? 7. Die Umformulierungs-Formel (Block 1)? 8. (Anwendung) Erste Woche nach den Ferien: dein Re-Establish-Plan in zwei Sätzen?
+## Teil 1: Reaktivierungs-Quiz (8 Fragen zu Block 1 bis 4)
+1. Welche drei Fragen stellst du an einen Stapel Exit Tickets (M4.6)? *(Welches Muster? → Welches Format (Klasse, Kleingruppe, einzeln)? → Welcher neue Zugang?)*
+2. Welche drei Schritte hat das Zeigen einer Schülerarbeit (M4.5)? *(würdigen → einen Punkt verbessern → auf die eigene Arbeit übertragen)*
+3. Warum lautet die Reihenfolge Frage, Pause, Name (M4.2)? *(Bis der Name fällt, denken alle mit.)*
+4. Auf welchen vier Wegen kommst du nach „Weiß nicht“ zurück (M4.3)? *(selbst einen Hinweis geben / Mitschüler hilft, dann zurück zur Ausgangsperson / halbe Antwort ausbauen / bei Verweigerung: ruhig bleiben, Rückkehr anbieten, später W.I.N.)*
+5. Was gehört mindestens zu einer Berichtigung (M4.6)? *(die richtige Lösung selbst notieren und der Satz „Mein Denkfehler war …“)*
+6. Was bedeutet „Leistung in der Stunde ist nicht Lernen“ (M3.5)? *(Was heute klappt, kann in vier Wochen weg sein.)*
+7. Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)? *(„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“)*
+8. (Szene) Erste Woche nach Ferien: Wie sieht dein Routinen-Neustart aus? Zwei Sätze. *(Erwartung nennen und begründen, prüfen, ob sie verstanden ist, einmal üben)*
 
 ## Teil 2: Modul-Quiz Modul 5.1 (für SPA/Austauschwoche)
-**F1.** „Evie ist einfach unmotiviert." Diese Aussage ist…
-a) eine ehrliche, brauchbare Diagnose ✗ *(die Lehrerzimmer-Diagnose)*
-b) eine Eigenschafts-Zuschreibung – korrekt wäre die Situationsbeschreibung (E×W÷K analysieren) ✓
-c) beleidigend, aber wahr ✗
-d) nur mit Elterngespräch zu klären ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Evies Erwartung liegt bei null. Du machst das Thema spektakulär spannend. Ergebnis:
-a) Motivation steigt – Interesse zieht ✗ *(das Motivations-Feuerwerk)*
-b) null × hoher Wert = null; erst muss die Erwartung einen Riss bekommen ✓
-c) Motivation steigt langfristig ✗
-d) hängt vom Thema ab ✗
+**F1.** Eine Kollegin sagt: „Evie ist einfach unmotiviert.“ Du weißt: Evie trainiert dreimal pro Woche freiwillig Handball. Was folgt daraus?
+a) Motivation ist eine Eigenschaft, Evie hat sie nur im Sport. ✗ *(Dann wäre sie keine Eigenschaft, sondern hinge von der Situation ab.)*
+b) Evie ist der Sport wichtiger als die Schule. ✗ *(Das beschreibt, erklärt aber nicht, was in Mathe anders ist.)*
+c) Motivation hängt von der Situation ab. Zu klären ist, wie es in Mathe um Erwartung, Wert und Kosten steht. ✓ *(„Unmotiviert“ beschreibt eine Situation, keine Person. Situationen lassen sich ändern.)*
+d) Das muss mit den Eltern geklärt werden. ✗ *(Zuerst lohnt der Blick auf den eigenen Unterricht.)*
 
-**F3.** Die gefährlichste Kosten-Währung im Klassenzimmer:
-a) Zeitaufwand ✗
-b) Blamage-Risiko vor der Gruppe ✓
-c) Materialkosten ✗
-d) Hausaufgabenlänge ✗
+**F2.** Evie rechnet fest damit, in Mathe zu scheitern. Du gestaltest das nächste Thema besonders spannend. Was ist zu erwarten?
+a) Wenig: Wer sicher mit dem Scheitern rechnet, strengt sich auch bei einem spannenden Thema nicht an. ✓ *(Erwartung mal Wert: Ist die Erwartung null, bleibt das Ergebnis null. Zuerst braucht Evie einen Erfolg.)*
+b) Das Interesse reißt sie mit. ✗ *(Interesse erhöht den Wert. Die Erwartung bleibt bei null.)*
+c) Es wirkt, aber erst nach einigen Wochen. ✗ *(Auch auf Dauer ändert der Wert nichts an der Erwartung.)*
+d) Das hängt vom Thema ab. ✗ *(Das Thema ändert nichts daran, dass sie mit dem Scheitern rechnet.)*
 
-**F4.** „Du bist halt schlau" vs. „Du hast die Probe gemacht":
-a) beides Lob, beides gut ✗ *(fühlt sich gleich an)*
-b) Talent-Attribution macht Misserfolg zur Identitätsfrage; Vorgehens-Attribution macht Erfolg wiederholbar ✓
-c) Talent-Lob ist ehrlicher ✗
-d) der Unterschied ist akademisch ✗
+**F3.** Was kostet Schüler im Unterricht am meisten?
+a) Die Zeit, die eine Aufgabe braucht. ✗ *(Zeit zählt, aber weniger als gedacht.)*
+b) Die Anstrengung beim Denken. ✗ *(Anstrengung wird in Kauf genommen, wenn Erfolg möglich scheint.)*
+c) Die Langeweile bei Wiederholungen. ✗ *(Langeweile ist unangenehm, aber nicht gefährlich.)*
+d) Das Risiko, sich vor der Klasse zu blamieren. ✓ *(Vor anderen zu scheitern wiegt für Jugendliche schwerer als jede Hausaufgabe.)*
 
-**F5.** Ein Punktesystem für Hausaufgaben ist…
-a) grundsätzlich schädlich ✗ *(Überkorrektur)*
-b) eine temporäre Starthilfe mit geplantem Ausstieg – parallel am echten Erfolg bauen ✓
-c) die Dauerlösung für schwache Klassen ✗ *(der Kredit mit Zinsen)*
-d) nur in der Grundschule wirksam ✗
+**F4.** Welches Lob macht einen Erfolg wiederholbar?
+a) „Du bist einfach begabt in Mathe.“ ✗ *(Begabung kann man nicht wählen. Der nächste Misserfolg stellt sie infrage.)*
+b) „Du hast die Probe gemacht, deshalb stimmt es.“ ✓ *(Das Vorgehen kann der Schüler morgen wieder wählen.)*
+c) „Heute lief es richtig gut bei dir.“ ✗ *(Freundlich, aber er erfährt nicht, woran es lag.)*
+d) „Siehst du, wenn du willst, kannst du es.“ ✗ *(Das unterstellt, er habe vorher nicht gewollt.)*
+
+**F5.** Du überlegst, ein Punktesystem für erledigte Hausaufgaben einzuführen. Wie setzt du es ein?
+a) Dauerhaft, damit die Wirkung anhält. ✗ *(Auf Dauer geht es dann um die Punkte, nicht mehr um die Sache.)*
+b) Gar nicht, Belohnungen schaden immer. ✗ *(Die Überkorrektur. Als Starthilfe können sie nützen.)*
+c) Als Starthilfe mit geplantem Ende. Zugleich sorge ich für echte Erfolge. ✓ *(Sparsam, befristet, mit Ausstieg.)*
+d) Nur, wenn die Klasse darüber abstimmt. ✗ *(Die Abstimmung ändert nichts an der Wirkung.)*
 
 **F6 (Transfer, Freitext):** Dein Evie-Fall verweigert jede Textaufgabe. Analysiere in drei Sätzen mit EVK und benenne die EINE Maßnahme samt Diskretions-Plan. *(Muster: E vermutlich Engpass [Misserfolgsgeschichte bei Textaufgaben], K hoch [Blamage beim Vorlesen/Scheitern], W unklar → Maßnahme: Vorentlastung der morgigen Schlüsselaufgabe im 2-Min-Einzelkontakt nach der Stunde – diskret, nie vor Publikum; Messpunkt: Beteiligt er sich morgen bei genau dieser Aufgabe?)*
 

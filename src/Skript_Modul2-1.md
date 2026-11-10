@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Woran erkenne ich, ob in meiner Stunde gelernt wird? |
 | **Kernquellen** | Rosenshine, *Principles of Instruction* (American Educator, 2012); Lovell/Dowley R7–R9 (Vorschau); McCrea/Lemov (Frage 1, Vorgriff M2.2) |
-| **Funktion im Jahr** | Block-2-Auftakt: Die fünf Fragen sind der Fahrplan für Block 2. Jedes Folgemodul vertieft eine davon (M2.2 Ziel, M2.3 Erklären, M2.4 gemeinsam üben, M2.5 allein üben, M2.6 Einstieg und Abschluss). Der Stunden-Check wird in M6.1 (Lean) wiederverwendet, das Stundenprofil im Coaching bei jeder Hospitation. |
+| **Funktion im Programm** | Block-2-Auftakt: Die fünf Fragen sind der Fahrplan für Block 2. Jedes Folgemodul vertieft eine davon (M2.2 Ziel, M2.3 Erklären, M2.4 gemeinsam üben, M2.5 allein üben, M2.6 Einstieg und Abschluss). Der Stunden-Check wird in M6.1 (Lean) wiederverwendet, das Stundenprofil im Coaching bei jeder Hospitation. |
 | **Lernziele** | Die TN können:<br>1. eine Stunde mit den fünf Fragen prüfen und jede Schwäche einer Frage (und damit einem Rosenshine-Prinzip) zuordnen,<br>2. für die schwächste Stelle einer eigenen, tatsächlich gehaltenen Stunde eine konkrete, kleine Änderung formulieren. |
 | **Sitzungstyp** | Analyse-Sitzung: zwei Stunden vergleichen, Szenen einordnen, eigene Stunde als Profil zeichnen. Rollenspiele kommen ab M2.3 wieder. |
 

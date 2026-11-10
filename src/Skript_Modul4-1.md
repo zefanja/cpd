@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie mache ich Fehler zur wertvollsten Ressource der Stunde? |
 | **Kernquellen** | Lemov T12 (Culture of Error), T6 (Replace Self-Report), T2 (Plan for Error); Dunning-Kruger (Selbstauskunfts-Problem) |
-| **Funktion im Jahr** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (M4.2–4.6) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert die Idealantwort (M2.2) und die Fallen-Sammlung (M2.3) in die Stundenvorbereitung. Erste Sitzung nach den Winterferien: Re-Establish-Segment integriert. |
+| **Funktion im Programm** | Block-4-Fundament: OHNE Fehlerkultur werden alle CFU-Techniken (M4.2–4.6) zu Bloßstellungs-Werkzeugen. Verbindet die Block-1-Sprachwerkzeuge (Warm/Strict, Emotional Constancy, Positive Framing) mit der Datenlogik aus Block 2/3. Plan for Error verlängert die Idealantwort (M2.2) und die Fallen-Sammlung (M2.3) in die Stundenvorbereitung. Erste Sitzung des zweiten Programmjahres (nach den Sommerferien, meist mit neuen Klassen): Re-Establish-Segment integriert. |
 | **Lernziele** | Die TN können:<br>1. begründen, warum „Alle verstanden?" keine Daten liefert (soziale Kosten + Dunning-Kruger), und es durch prüfbare Mini-Aufgaben ersetzen,<br>2. auf Fehlerantworten mit dem Dreiklang reagieren (neutral benennen → Ursache würdigen → nutzen),<br>3. die drei wahrscheinlichsten Fehler einer Einheit VOR der Stunde antizipieren und Reaktionen skripten. |
 | **Sitzungstyp** | Sprach-Training (Reaktions-Makeover) + Planungswerkstatt (Plan-for-Error-Canvas); die Miene-Übung ist das heimliche Herzstück. |
 
@@ -114,39 +114,48 @@ Meine Erwartung nach den Ferien (spezifisch): … | Mein Begründungssatz: … |
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Reaktivierungs-Quiz (8 Fragen, M1.1–3.6)
-1. Nenne 5 der 9 McCrea-Prinzipien. 2. Der KO-Gütecheck? 3. Die zwei Spacing-Einbau-Regeln? 4. Performance ≠ Learning in einem Satz? 5. Schritt 3 der Begrüßungsroutine + Begründung? 6. Der Lenkungs-Dreiklang? 7. Die fünf Retrieval-Gütekriterien? 8. (Anwendung) Erste Woche nach den Ferien: Welche 2–3 Dinge etablierst du explizit neu – und mit welchem Bauplan? *(→ wird direkt zur Re-Establish-Übung)*
+## Teil 1: Reaktivierungs-Quiz (8 Fragen zu Block 1 bis 3)
+1. Wie lauten die drei Kernsätze aus M3.1? *(Lernen ist eine dauerhafte Veränderung im Langzeitgedächtnis. / Erinnert wird, worüber nachgedacht wurde. / Vergessen ist der Normalfall.)*
+2. Welche vier Punkte prüft der Gütecheck für einen Knowledge Organizer (M3.6)? *(eine Seite / nur Kernwissen / zum Abfragen geeignet / in Schülersprache)*
+3. Welche zwei Regeln sorgen dafür, dass alter Stoff wiederkehrt (M3.5)? *(jedes Quiz enthält alten Stoff; jedes Übungsblatt zu mindestens einem Viertel)*
+4. Was bedeutet „Leistung in der Stunde ist nicht Lernen“? *(Was heute flüssig klappt, kann in vier Wochen weg sein; Lernen zeigt sich erst später.)*
+5. Was ist Schritt 3 der Begrüßungsroutine, und warum (M1.2)? *(auf 100 % warten, bevor ich grüße; sonst lernt die Klasse, dass der Gruß auch ohne Ruhe kommt)*
+6. Welche drei Hebel lenken die Aufmerksamkeit (M3.3)? *(Beachtungsauftrag / Markierungen im Vortrag / Aufgaben, die den Zielgedanken erzwingen)*
+7. Welche fünf Kriterien gelten für Abruf-Quizze (M3.4)? *(ohne Hilfsmittel / schriftlich, alle / ohne Note / sofortige Auflösung / regelmäßig)*
+8. (Szene) Erste Woche nach den Sommerferien, neue Klassen: Welche zwei bis drei Dinge führst du ausdrücklich ein, und nach welchem Bauplan? *(z. B. Begrüßungsroutine, Signal, Do Now; Erwartung nennen, begründen, prüfen, ob sie verstanden ist, einmal üben (wird direkt zur Re-Establish-Übung))*
 
 ## Teil 2: Modul-Quiz Modul 4.1 (für SPA/Austauschwoche)
-**F1.** „Noch Fragen?" – keine Meldung. Das heißt:
-a) Alle haben verstanden ✗ *(der Alltagsschluss)*
-b) Nichts – die Frage liefert strukturell keine Daten ✓
-c) Die Klasse ist desinteressiert ✗
-d) Die Erklärung war besonders gut ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Ein guter Umgang mit einer falschen Antwort:
-a) schnell und schonend übergehen, um nicht zu beschämen ✗ *(klingt empathisch – entwertet den Fehler UND die Person)*
-b) neutral benennen, Ursache würdigen, für alle nutzen ✓
-c) erst zwei richtige Antworten loben, dann korrigieren ✗ *(Lobsandwich-Echo)*
-d) die Frage vereinfachen, bis es klappt ✗
+**F1.** Du fragst: „Noch Fragen?“ Niemand meldet sich. Was weißt du jetzt über den Lernstand?
+a) Die Erklärung ist bei den meisten angekommen. ✗ *(Das ist der Alltagsschluss. Die Frage liefert dafür keinen Beleg.)*
+b) Nichts: Wer etwas nicht verstanden hat, meldet sich selten und merkt es oft selbst nicht. ✓ *(Zwei Gründe: Die Meldung kostet vor der Klasse Ansehen, und Lücken bemerkt nur, wer schon etwas weiß.)*
+c) Die Klasse ist müde oder desinteressiert. ✗ *(Auch das lässt sich aus dem Schweigen nicht ablesen.)*
+d) Zumindest die Stärkeren haben es verstanden. ✗ *(Auch über sie sagt das Schweigen nichts.)*
 
-**F3.** Warum wissen viele SuS nicht, dass sie etwas nicht verstanden haben?
-a) Sie lügen aus Bequemlichkeit ✗
-b) Um Nichtkönnen zu erkennen, braucht man schon halbes Können (Dunning-Kruger) ✓
-c) Sie hören nicht zu ✗
-d) Pubertät ✗
+**F2.** Ein Schüler gibt eine falsche Antwort. Welche Reaktion nützt ihm und der Klasse am meisten?
+a) Freundlich darüber hinweggehen und jemand anderen aufrufen. ✗ *(Das wirkt rücksichtsvoll, lässt den Fehler aber stehen und den Schüler zurück.)*
+b) Erst etwas Positives sagen, dann korrigieren. ✗ *(Ein Lob, das nur die Korrektur verpackt, wird durchschaut (M1.6).)*
+c) Die Frage so lange vereinfachen, bis er richtig antwortet. ✗ *(Dann ist die ursprüngliche Frage nicht beantwortet.)*
+d) Sachlich sagen, dass es noch nicht stimmt, den Gedanken dahinter würdigen und den Fehler für alle nutzen. ✓ *(Zum Beispiel: „Noch nicht richtig, und der Fehler liegt nahe, weil … Wer hatte denselben Gedanken?“)*
 
-**F4.** Deine enttäuschte Miene bei einer Fehlerantwort…
-a) ist menschlich und daher unproblematisch ✗ *(stimmt halb – und unterrichtet trotzdem)*
-b) unterrichtet die Klasse schneller als jedes Wort: Fehler kosten hier ✓
-c) motiviert zu mehr Anstrengung ✗
-d) fällt niemandem auf ✗
+**F3.** Warum merken viele Schüler nicht, dass sie etwas nicht verstanden haben?
+a) Um eine Lücke zu bemerken, braucht man schon etwas Wissen über das Thema. ✓ *(Wer sehr wenig weiß, kann die eigene Antwort nicht prüfen. Deshalb taugt Selbstauskunft wenig.)*
+b) Sie hören bei Erklärungen nicht genau zu. ✗ *(Auch aufmerksame Schüler überschätzen ihr Verständnis.)*
+c) Sie wollen sich vor der Klasse nicht blamieren. ✗ *(Das erklärt, warum sie schweigen, nicht, warum sie es nicht merken.)*
+d) Sie überschätzen sich in diesem Alter grundsätzlich. ✗ *(Das betrifft Erwachsene bei neuen Themen genauso.)*
 
-**F5.** Plan for Error plant für…
-a) die interessantesten, exotischsten Fehler ✗ *(der Werkstatt-Klassiker)*
-b) die WAHRSCHEINLICHSTEN Fehler – Quellen: Arbeiten, Fallen-Liste, Idealantwort ✓
-c) alle denkbaren Fehler ✗
-d) Fehler der Lehrkraft ✗
+**F4.** Bei einer falschen Antwort seufzt du kurz und ziehst die Augenbrauen hoch. Was bewirkt das?
+a) Nichts, so etwas fällt kaum jemandem auf. ✗ *(Schüler lesen Gesichter sehr genau.)*
+b) Es spornt an, beim nächsten Mal genauer zu denken. ✗ *(Es spornt an, beim nächsten Mal zu schweigen.)*
+c) Die Klasse lernt: Fehler sind hier unerwünscht. Sie zeigt künftig weniger davon. ✓ *(Die Miene spricht vor dem ersten Wort. Ohne gezeigte Fehler fehlen dir die Daten.)*
+d) Es ist menschlich und deshalb folgenlos. ✗ *(Menschlich ja, folgenlos nein.)*
+
+**F5.** Für welche Fehler bereitest du deine Reaktion vor der Stunde vor?
+a) Für die interessantesten, an denen man am meisten zeigen kann. ✗ *(Der klassische Planungsfehler: Man wird dann vom banalen Vorzeichenfehler überrascht.)*
+b) Für die wahrscheinlichsten: aus der letzten Arbeit, deiner Fallen-Liste und der Scheiter-Stelle der Idealantwort. ✓ *(Wahrscheinlich schlägt interessant.)*
+c) Für alle denkbaren, um nie überrascht zu werden. ✗ *(Das ist nicht leistbar und nicht nötig. Drei reichen.)*
+d) Für die folgenreichsten in der nächsten Klassenarbeit. ✗ *(Nahe dran. Aber auch die treten zuerst als häufige Fehler im Unterricht auf.)*
 
 **F6 (Transfer, Freitext):** Ein Schüler antwortet falsch, zwei andere kichern. Beschreibe deine Reaktion in drei Zügen (Kichern, Fehler, Nutzung) – mit Wortlaut. *(Muster: Kichern sofort + ruhig stoppen [„Bei uns wird über Fehler nicht gelacht – sie bringen uns weiter"] → Dreiklang zur Antwort → Nutzung: „Boards hoch – wer hatte denselben Gedanken?" Bewertungsanker: 100 %-Norm zuerst, dann Dreiklang, Miene neutral.)*
 

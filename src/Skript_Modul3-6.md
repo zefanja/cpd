@@ -1,4 +1,4 @@
-# Skript Modul 3.6: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Halbjahres-Meilenstein)"
+# Skript Modul 3.6: „Elaboration & Wissensorganisation + Konsolidierung Block 3 (Meilenstein Jahr 1)"
 ## 60-Minuten-Sitzung · Block 3 (Abschluss) · Fortbildung Quereinsteiger Sek I/II
 
 ---
@@ -7,9 +7,9 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie helfe ich Schüler, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
+| **Leitfrage** | Wie helfe ich Schülern, Wissen zu vernetzen statt zu stapeln – und wie gebe ich ihnen die Lernwerkzeuge dieses Blocks weiter? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Expedite elaboration", „Refine structures", „Embed metacognition"); Lemov T5 (Knowledge Organizer); Willingham (Verarbeitungstiefe) |
-| **Funktion im Jahr** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (M3.1) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in M6.2/6.3 wieder). Halbjahres-Meilenstein: Kompetenzmatrix-Erhebung 2 mit M0-Vergleich, Video-Selbstanalyse Nr. 2. |
+| **Funktion im Programm** | Block-3-Finale mit doppelter Pointe:<br>1. Elaboration schließt den Kreis zu Schema (M3.1) – Vernetzung ist der Königsweg ins LZG,<br>2. Metakognition ÜBERGIBT die Blockwerkzeuge an die Schüler (die „Textmarker-Rede" wird offizielles Unterrichtselement).<br>Der Knowledge Organizer wird Dauerwerkzeug (Retrieval-Quelle, Eltern-Transparenz, Planungsdisziplin – kehrt in M6.2/6.3 wieder). Meilenstein zum Ende des ersten Programmjahres: Kompetenzmatrix-Erhebung 2 mit M0-Vergleich, Video-Selbstanalyse Nr. 2. |
 | **Lernziele** | Die TN können:<br>1. Elaborationsaufträge stellen, die Verknüpfung erzwingen (nicht Wiedergabe),<br>2. einen Knowledge Organizer nach Gütecheck bauen (Kernwissen, eine Seite, abfragbar),<br>3. der eigenen Klasse in 10 Minuten evidenzbasiertes Lernen vermitteln (Selbstabfrage statt Markieren, verteilt statt Vorabend). |
 | **Sitzungstyp** | Kombinierte Sitzung: Block-Quiz + kompakter Doppel-Input + KO-Werkstatt + Meilenstein-Ritual. Zeitdisziplin wie M2.6. |
 
@@ -62,13 +62,13 @@ Einzelarbeit: KO für die laufende eigene Einheit bauen (Blanko) – Zeitdruck i
 ### Runde 3 · Härtetest (Min. 46–48)
 Tandem: Partner deckt die rechte Spalte ab und fragt sich selbst 60 Sekunden ab – funktioniert der KO als Abfragewerkzeug? Zwei Fragenfächer-Fragen dazu formulieren (Elaboration am eigenen KO).
 
-## Phase 6 · Meilenstein Halbjahr & Action Step (Minute 48–58)
+## Phase 6 · Meilenstein Jahr 1 & Action Step (Minute 48–58)
 
 **9-Prinzipien-Poster (3 Min.):** Matrix „McCrea-Prinzip × mein Unterrichtsbeispiel" – mindestens 6 von 9 aus dem Gedächtnis füllen (selbst ein Brain Dump!); Rest offen lassen, wird im Coaching vervollständigt.
 
-**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 8 Felder neu einschätzen. 
+**Kompetenzmatrix Erhebung 2 (3 Min.):** alle 10 Felder neu einschätzen. 
 
-> *„Euer Coach legt diese Woche den M0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein halbes Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
+> *„Euer Coach legt diese Woche den M0-Bogen daneben. Ich verrate nichts – aber ich habe noch keine Kohorte erlebt, bei der dieser Vergleich kein Grinsen ausgelöst hat. Ihr habt ein Jahr trainiert. Diese Woche seht ihr es schwarz auf weiß."*
 
 **Ansage Video-Selbstanalyse Nr. 2 (1 Min.):** wie M1.7 (Anleitung liegt im Playbook), diesmal mit frei wählbarem Fokus aus Block 2/3 – VOR dem Meilenstein-Gespräch.
 
@@ -89,14 +89,14 @@ Erweitert (Blockabschluss):
 
 ---
 
-# 4. Coaching-Modul 3.6: Meilenstein-Gespräch Halbjahr (Handreichung, 45–60 Min.)
+# 4. Coaching-Modul 3.6: Meilenstein-Gespräch Jahr 1 (Handreichung, 45–60 Min.)
 
 **Struktur:**
 
-1. **Matrix-Vergleich M0 → M1.7 → M3.6 (15 Min.; M1.7-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des Halbjahrs – Zeit dafür lassen.
+1. **Matrix-Vergleich M0 → M1.7 → M3.6 (15 Min.; M1.7-Bogen enthält nur Felder 1–3 – Teil-Erhebung):** Bögen nebeneinander; TN benennt Verschiebungen selbst; Coach gibt Precise Praise auf konkrete Verhaltensänderungen (mit Hospitations-Belegen!). Das Spinnennetz-Bild ist der Motivations-Höhepunkt des ersten Jahres – Zeit dafür lassen.
 2. **Video-Selbstanalyse Nr. 2 (20 Min.):** wie M1.7-Format; Vergleichsfrage: „Was siehst du heute, was du in Modul 1.7 noch nicht gesehen hättest?" (Die Deutungsbrille aus Block 3 verändert das Sehen – das explizit machen.)
 3. **9-Prinzipien-Poster vervollständigen (5 Min.):** die offenen Felder gemeinsam füllen.
-4. **Halbjahres-Bilanz & Block-4-Ausblick (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren. Erschöpfungs-Check (Halbjahreszeugnis-Stress!): ggf. Entlastungs-Deal, Verweis auf Block 6.
+4. **Jahres-Bilanz & Ausblick auf Jahr 2 (10 Min.):** Was trägt? Was ist liegen geblieben? EIN Dauer-Action-Step für Block 4 definieren (er überbrückt die Sommerferien und wird in M4.1 wieder aufgenommen). Erschöpfungs-Check (Zeugnis-Stress am Schuljahresende!): ggf. Entlastungs-Deal, Verweis auf Block 6.
 
 **Red Flags:** Matrix zeigt Stagnation/Rückschritt in Feldern 1–3 (Klassenführung) → kein Drama, aber Priorität: Block-4-Techniken BRAUCHEN das Fundament; ggf. gezielten Reparatur-Plan vor M4.2 (Cold Call ohne Klassenkultur wird toxisch). TN will den KO „für alle Einheiten sofort" bauen → Lean-Bremse: einer pro Einheit, ab jetzt, reicht.
 
@@ -125,39 +125,60 @@ Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Block-3-Quiz (20 Fragen, kumulativ; Auswahl)
-1. Die drei Kernsätze aus M3.1? 2. Das Diagnose-Raster? 3. Was leistet ein Schema fürs WM? 4. Die drei Last-Fresser? 5. Intrinsisch vs. lästig? 6. Dual Coding richtig? 7. Der Lenkungs-Dreiklang? 8. Die Röntgen-Frage? 9. Testing Effect? 10. Flüssigkeits-Illusion? 11. Die fünf Retrieval-Gütekriterien? 12. 3-2-1? 13. Performance ≠ Learning? 14. Warum wirkt Spacing (Kurven-Logik)? 15. Interleaving-Zusatznutzen? 16. Prüfungsregel? 17. (Block 1) Leiterstufen 1–6? 18. (Block 2) Von der Idealantwort her planen? 19. (Block 2) Exit-Ticket-Gütecheck? 20. (Transfer) Ein Kollege sagt: „Meine Stunden laufen super, aber in den Arbeiten ist alles weg." Deute mit DREI Block-3-Konzepten und nenne je eine Konsequenz. *(Performance ≠ Learning → Ticket statt Gefühl; kein Abruf → 3-2-1; geblockt → Landkarte/Interleaving.)*
+## Teil 1: Block-3-Quiz (20 Fragen, zurück bis Modul 1.1)
+1. Wie lauten die drei Kernsätze aus M3.1? *(Lernen ist eine dauerhafte Veränderung im Langzeitgedächtnis. / Erinnert wird, worüber nachgedacht wurde. / Vergessen ist der Normalfall.)*
+2. Wie lauten die drei Fragen des Diagnose-Rasters? *(Arbeitsgedächtnis überlastet? / nie im Langzeitgedächtnis angekommen? / über etwas anderes nachgedacht?)*
+3. Was leistet Vorwissen für das Arbeitsgedächtnis? *(Es bündelt Einzelheiten und schafft Platz zum Denken.)*
+4. Welche drei Quellen unnötiger Belastung gibt es? *(Split Attention, Redundanz, Transienz)*
+5. Was unterscheidet erwünschte von unnötiger Belastung? *(Schwierigkeit der Sache selbst gegen Aufwand durch Layout, Suchen, parallele Kanäle)*
+6. Was ist Dual Coding, richtig verstanden? *(Bild und gesprochenes Wort ergänzen sich; nicht Bild plus Text plus Vortrag)*
+7. Welche drei Hebel lenken die Aufmerksamkeit? *(Beachtungsauftrag / Markierungen im Vortrag / Aufgaben, die den Zielgedanken erzwingen)*
+8. Mit welcher Frage prüfst du eine Aufgabe? *(„Was muss man denken, um sie zu lösen, und geht es auch ohne?“)*
+9. Was besagt der Testing Effect? *(Abrufen stärkt das Behalten mehr als erneutes Lesen.)*
+10. Warum lernen viele Schüler mit Textmarker und Wiederlesen? *(Es fühlt sich flüssig an; Wiedererkennen wird mit Können verwechselt.)*
+11. Welche fünf Kriterien gelten für Abruf-Quizze? *(ohne Hilfsmittel / schriftlich, alle / ohne Note / sofortige Auflösung / regelmäßig)*
+12. Wie ist ein Do Now nach 3-2-1 aufgebaut? *(drei von gestern, zwei von letzter Woche, eine vom letzten Monat)*
+13. Was bedeutet „Leistung in der Stunde ist nicht Lernen“? *(Was heute flüssig klappt, kann in vier Wochen weg sein.)*
+14. Warum wirkt verteiltes Üben? *(Nach einer Lücke ist der Abruf schwerer und festigt deshalb stärker.)*
+15. Was üben Schüler bei gemischten Aufgaben zusätzlich? *(das passende Verfahren zu erkennen)*
+16. Welche Regel gilt für Klassenarbeiten mit altem Stoff? *(ankündigen und in Quizzen laufend üben)*
+17. (Block 1) Nenne die sechs Stufen der Interventionsleiter. *(nonverbal → positive Gruppenkorrektur → anonyme Einzelkorrektur → private Einzelkorrektur → blitzschnelle öffentliche Korrektur → Konsequenz)*
+18. (Block 2) Was heißt „von der Idealantwort her planen“? *(die ideale Schülerantwort zum Mindestziel vorher selbst ausformulieren)*
+19. (Block 2) Welche vier Punkte prüft der Gütecheck für ein Exit Ticket? *(prüft das Mindestziel / in 3–5 Minuten allein lösbar / schriftlich, von allen / in höchstens 10 Minuten auswertbar)*
+20. (Szene) Ein Kollege sagt: „Meine Stunden laufen super, aber in den Arbeiten ist alles weg.“ Deute das mit drei Konzepten aus Block 3 und nenne je eine Konsequenz. *(Leistung ist nicht Lernen → am Ticket vom Folgetag messen; kein Abruf → 3-2-1 im Do Now; alles am Stück geübt → verteilen und mischen)*
 
 ## Teil 2: Modul-Quiz Modul 3.6 (für SPA/Austauschwoche)
-**F1.** Ein guter Knowledge Organizer…
-a) enthält möglichst vollständig alles Wichtige der Einheit ✗ *(Fleiß-Falle)*
-b) destilliert abfragbares Kernwissen auf eine Seite ✓
-c) ersetzt das Heft ✗
-d) ist ein Foto des Tafelbilds ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Erstellt eine Mindmap zum Thema" ist…
-a) automatisch Elaboration – Vernetzung ist ja sichtbar ✗ *(der Etikettenschwindel)*
-b) nur mit Verknüpfungs-Zwang elaborativ (Linien beschriften!) ✓
-c) Zeitverschwendung ✗
-d) nur für visuelle Lerntypen sinnvoll ✗ *(Mythos-Doppel-Distraktor)*
+**F1.** Was gehört auf einen Knowledge Organizer?
+a) Möglichst alles, was in der Einheit vorkommt. ✗ *(Dann ist es ein Archiv. Der Nutzen liegt in der Auswahl.)*
+b) Die Tafelbilder der Einheit in Kurzform. ✗ *(Tafelbilder zeigen Erklärwege, nicht das Kernwissen.)*
+c) Das Kernwissen einer Einheit auf einer Seite, so angeordnet, dass man sich selbst abfragen kann. ✓ *(Begriffe links, Definitionen rechts zum Abdecken.)*
+d) Die Aufgabentypen der kommenden Klassenarbeit. ✗ *(Das wäre eine Aufgabensammlung.)*
 
-**F3.** „Erkläre es einem Fünftklässler" wirkt, weil…
-a) es nett klingt ✗
-b) Vereinfachen Durchdringung erzwingt – Fachsprache kann man nachplappern, Einfachheit nicht ✓
-c) Fünftklässler streng sind ✗
-d) es Zeit spart ✗
+**F2.** Der Auftrag lautet: „Erstellt eine Mindmap zum Thema.“ Unter welcher Bedingung vernetzen die Schüler dabei wirklich Wissen?
+a) Immer, denn die Verbindungen sind ja sichtbar. ✗ *(Linien kann man ziehen, ohne über den Zusammenhang nachzudenken.)*
+b) Wenn sie an jede Linie schreiben müssen, wie die Begriffe zusammenhängen. ✓ *(Die beschriftete Linie erzwingt den Gedanken.)*
+c) Wenn sie mit mehreren Farben arbeiten. ✗ *(Farben ordnen, sie erklären nichts.)*
+d) Wenn sie in Gruppen arbeiten. ✗ *(Die Sozialform ändert nicht, was gedacht werden muss.)*
 
-**F4.** Die Lernstrategie-Rede vor der Klassenarbeit ist…
-a) Aufgabe der Eltern/der SuS selbst ✗ *(die stillschweigende Schulannahme)*
-b) eine der rentabelsten 10-Minuten-Investitionen: Metakognition mit Werkzeug ✓
-c) nur in der Unterstufe nötig ✗
-d) Stoffzeit-Verschwendung ✗
+**F3.** Warum wirkt der Auftrag „Erkläre es einem Fünftklässler“?
+a) Fachwörter kann man nachsprechen. Einfach erklären kann nur, wer es verstanden hat. ✓ *(Vereinfachen zwingt dazu, den Zusammenhang selbst herzustellen.)*
+b) Der Rollenwechsel motiviert. ✗ *(Mag sein, ist aber nicht der Grund für die Wirkung.)*
+c) Er verlangt kürzere Antworten. ✗ *(Einfache Erklärungen sind oft länger.)*
+d) Er trainiert das freie Sprechen. ✗ *(Ein Nebeneffekt.)*
 
-**F5.** Der KO diszipliniert auch die Lehrkraft, weil…
-a) er Arbeit macht ✗
-b) wer den Kern nicht auf eine Seite bekommt, kennt den Kern noch nicht ✓
-c) die Schulleitung ihn sehen will ✗
-d) Eltern ihn einfordern ✗
+**F4.** Vor der Klassenarbeit überlegst du, ob zehn Minuten „So lernt man für meine Arbeit“ gut investiert sind. Sind sie es?
+a) Nein, das ist Aufgabe der Eltern und der Schüler. ✗ *(Die meisten haben es nie gezeigt bekommen.)*
+b) Nein, die Zeit fehlt dann für den Stoff. ✗ *(Zehn Minuten, die viele Stunden häuslichen Lernens wirksamer machen.)*
+c) Nur in der Unterstufe. ✗ *(Auch Oberstufenschüler lernen oft mit Wiederlesen.)*
+d) Ja: Viele lernen wirkungslos, weil ihnen niemand etwas anderes gezeigt hat. ✓ *(Mit dem Knowledge Organizer und einer kurzen Vorführung der Selbstabfrage.)*
+
+**F5.** Du bekommst das Wissen deiner Einheit nicht auf eine Seite. Was bedeutet das?
+a) Ich sollte kleiner schreiben. ✗ *(Dann wird es unlesbar und bleibt zu viel.)*
+b) Ich sollte zwei Seiten zulassen. ✗ *(Dann weicht die Auswahl nur aus.)*
+c) Ich habe noch nicht entschieden, was der Kern ist. ✓ *(Die eine Seite zwingt zur Entscheidung. Das ist Planung vom Ziel her (M2.2).)*
+d) Die Einheit eignet sich nicht für einen Knowledge Organizer. ✗ *(Jede Einheit hat einen Kern.)*
 
 **F6 (Transfer, Freitext):** Formuliere zu deinem aktuellen Thema je EINE Frage aus drei verschiedenen Fächer-Kategorien – und markiere, welche davon ein schwacher Schüler durch bloße Wiedergabe beantworten könnte (dann: nachschärfen). *(Bewertungsanker: drei verschiedene Kategorien; Wiedergabe-Test ehrlich angewandt.)*
 
@@ -170,5 +191,5 @@ d) Eltern ihn einfordern ✗
 3. **Name it (3 Min.):** KO-Gütecheck + Elaborations-Check als Karten; Negativ-KO als Suchbild („Finde 4 Verstöße").
 4. **Do it – KO-Editor (8 Min., Engine!):** zweispaltige Struktur (Begriff | Definition verdeckbar) + Schaubild-Platzhalter + Zusammenhangs-Zeilen; harte Limits als Feature (max. 15 Begriffe, 1 Seite – die App erzwingt das Destillat!); Abfrage-Modus eingebaut (rechte Spalte blenden = Retrieval-Quelle, verzahnt mit der Karteikarten-Engine aus Modul 3.4!); Export/Druck für die Klasse.
 5. **Fragenfächer-Generator:** Kategorie würfeln → Frage zum eigenen Thema formulieren → Wiedergabe-Test als Selbst-Check-Prompt.
-6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz M0/M1.7/M3.6** als Highlight-Screen (drei Linien übereinander; M1.7-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des Halbjahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
+6. **Meilenstein-Features:** Kompetenzmatrix Erhebung 2 → **Spinnennetz M0/M1.7/M3.6** als Highlight-Screen (drei Linien übereinander; M1.7-Linie nur Felder 1–3, als Teil-Erhebung markiert – der Motivations-Moment des ersten Jahres); Block-3-Quiz aus dem Fragenpool; 9-Prinzipien-Poster als ausfüllbare Matrix mit PDF-Export.
 7. **Abschluss:** Action-Step-Formular „KO + Rede" mit Board-Blitz-Ergebnisfeld („drei Stichworte der Klasse notieren").

@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie halte ich den Denk-Kanal frei für das, worauf es ankommt? |
 | **Kernquellen** | McCrea, *Memorable Teaching* („Manage information", „Streamline communication", „Regulate load"); Cognitive-Load-Theorie (Sweller); Lemov T22 (Board = Paper, Bezug) |
-| **Funktion im Jahr** | Operationalisiert den WM-Flaschenhals aus M3.1 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für M2.3-Regeln (Stifte weg = Split Attention) und M2.5-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (M6.2 Packet, M6.3 Arbeitsblätter). |
+| **Funktion im Programm** | Operationalisiert den WM-Flaschenhals aus M3.1 zum Material- und Kommunikations-Handwerk. Liefert die wissenschaftliche Begründung für M2.3-Regeln (Stifte weg = Split Attention) und M2.5-Startbedingungen (Aufgabe schriftlich = Transienz). Die Entschlackungs-Checkliste wird Dauerwerkzeug für jede Material-Erstellung (M6.2 Packet, M6.3 Arbeitsblätter). |
 | **Lernziele** | Die TN können:<br>1. intrinsische von lästiger Last unterscheiden (schwer darf die Aufgabe sein – nicht der Weg),<br>2. die drei großen Last-Fresser erkennen (Split Attention, Redundanz, Transienz),<br>3. Dual Coding korrekt einsetzen (Bild + gesprochenes Wort statt Bild + Textwüste + Rede),<br>4. eigenes Material mit der Checkliste operieren. |
 | **Sitzungstyp** | Werkstatt-Sitzung: Selbsterleben → Theorie → Chirurgie am eigenen Material. |
 
@@ -32,7 +32,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Der Anschlag auf euer Arbeitsgedächtnis (Minute 8–16)
 
@@ -80,7 +80,7 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 1. Tafel-Disziplin: Kernschritte jeder Erklärung bleiben bis Stundenende stehen (Board = Paper).
 2. Anweisungs-Verschriftlichung: jede Anweisung ab 2 Schritten steht schriftlich (Folie/Tafel/Blatt) – Transienz-Fokus.
 
-> **Ausblick:** *„Der Kanal ist jetzt frei – beim nächsten Input geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 von letzter Woche: dem Filmeinstiegs-Problem."*
+> **Ausblick:** *„Der Kanal ist jetzt frei – beim nächsten Input geht es darum, WOHIN wir ihn lenken: Aufmerksamkeit präzise ausrichten. Mit einem Experiment, das euch zeigt, wie eigenwillig eure eigene Aufmerksamkeit ist. Und mit der Antwort auf Fall 2 aus Modul 3.1: dem Filmeinstiegs-Problem."*
 
 ## Phase 7 · Exit-Karte (Minute 58–60) — Standard.
 
@@ -115,43 +115,46 @@ Tandem-Review: Partner sieht NUR die Nachher-Version und beantwortet: „Was ist
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Das Diagnose-Raster – die drei Fragen? *(WM überlastet? / nie im LZG–kein Abruf? / Denkspur woandershin?)*
-2. Willinghams Satz wörtlich? *(„Erinnert wird, worüber nachgedacht wurde.")*
-3. Was ist ein Schema – und was leistet es fürs Arbeitsgedächtnis? *(vernetztes Vorwissen; chunkt Elemente, erweitert faktisch die Kapazität)*
-4. Der Exit-Ticket-Gütecheck (Block 2)? *(Meilenstein / 3–5 Min. allein / schriftlich alle / Auswertung ≤10 Min.)*
-5. (Anwendung) Widerlege die Lernpyramide in zwei Sätzen – mit wahrem Kern. *(Zahlen erfunden, keine Quelle; wahrer Kern: aktive Verarbeitung schlägt passive – aber nicht in Prozent-Etagen.)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Wie lauten die drei Fragen des Diagnose-Rasters aus M3.1? *(War das Arbeitsgedächtnis überlastet? / Ist es nie im Langzeitgedächtnis angekommen, fehlt der Abruf? / Wurde über etwas anderes nachgedacht?)*
+2. Was leistet Vorwissen für das Arbeitsgedächtnis? *(Es bündelt viele Einzelheiten zu einer Einheit (BMW, FBI). Dadurch bleibt Platz zum Denken.)*
+3. (Szene) Ein Kollege zeigt die Lernpyramide: „10 % behält man vom Lesen, 90 % vom Lehren.“ Was antwortest du in zwei Sätzen? *(Die Zahlen haben keine Quelle. Richtig ist nur der Kern: Aktiv verarbeiten wirkt besser als nur zuhören.)*
+4. Welche vier Punkte prüft der Gütecheck für ein Exit Ticket (M2.6)? *(prüft das Mindestziel / in 3–5 Minuten allein lösbar / schriftlich, von allen / in höchstens 10 Minuten auswertbar)*
+5. Was besagt die Halbier-Regel (M2.3)? *(die Schrittgröße halbieren, die sich für mich als Fachperson richtig anfühlt)*
+6. Welche vier Punkte prüft der Vierercheck für eine Anweisung (M1.3)? *(konkret / der Reihe nach, nummeriert / beobachtbar / höchstens 12 Wörter pro Schritt)*
 
 ## Teil 2: Modul-Quiz Modul 3.2 (für SPA/Austauschwoche)
-**F1.** Folientext wörtlich vorlesen ist…
-a) barrierefrei und hilfreich für Schwache ✗ *(klingt fürsorglich!)*
-b) Redundanz – doppelte Verarbeitung, weniger Verstehen ✓
-c) Pflicht bei Fachtexten ✗
-d) egal, solange langsam gelesen wird ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Deine Aufgabe soll anspruchsvoll bleiben. Du senkst deshalb…
-a) die intrinsische Last – Erfolgserlebnisse zählen ✗ *(verwechselt die Lasten)*
-b) die lästige Last: Layout, Parallelkanäle, Suchaufwand ✓
-c) beides gleichmäßig ✗ *(klingt ausgewogen!)*
-d) nichts – Anstrengung härtet ab ✗
+**F1.** Du liest den Text auf deiner Folie wörtlich vor, damit auch die Schwächeren mitkommen. Was passiert dabei?
+a) Es hilft: Hören und Lesen zusammen prägen sich doppelt ein. ✗ *(So fühlt es sich an. Tatsächlich stören sich die beiden Sprachkanäle.)*
+b) Es hilft, solange du langsam genug liest. ✗ *(Das Tempo ändert nichts am doppelten Aufwand.)*
+c) Die Schüler lesen und hören dasselbe und müssen beides abgleichen. Es bleibt weniger hängen. ✓ *(Das ist Redundanz. Regel: Was dasteht, wird nicht vorgelesen.)*
+d) Es schadet nur den Stärkeren, die schneller lesen als du sprichst. ✗ *(Es belastet alle, die Schwächeren sogar stärker.)*
 
-**F3.** Die Hausaufgabe wird mündlich in den Packlärm gerufen. Hauptproblem:
-a) Unhöflichkeit ✗
-b) Transienz (+ M1.2-Endchaos): Gesprochenes verweht – Wichtiges muss stehen ✓
-c) zu leise ✗ *(teilrichtig – trifft den Mechanismus nicht)*
-d) keins, machen alle so ✗
+**F2.** Deine Aufgabe soll anspruchsvoll bleiben. Welche Belastung senkst du trotzdem?
+a) Die Belastung durch Layout, Suchen und gleichzeitige Kanäle. ✓ *(Schwer darf die Sache sein, nicht der Weg zu ihr.)*
+b) Die Schwierigkeit der Aufgabe selbst. ✗ *(Die ist erwünscht. An ihr wird gelernt.)*
+c) Beide gleichmäßig, damit niemand überfordert wird. ✗ *(Dann wird die Aufgabe leichter, als sie sein soll.)*
+d) Keine: Wer sich durchbeißt, lernt am meisten. ✗ *(Mühe beim Suchen und Entziffern bringt für das Lernziel nichts.)*
 
-**F4.** Dual Coding heißt:
-a) Bild + Textwüste + Rede – dreifach hält besser ✗ *(die verbreitete Praxis!)*
-b) Bild + gesprochenes Wort – zwei Kanäle, die sich ergänzen ✓
-c) alles doppelt erklären ✗
-d) Videos statt Texte ✗
+**F3.** Du rufst die Hausaufgabe in den Lärm des Einpackens. Am nächsten Tag hat die halbe Klasse sie nicht. Was ist die wahrscheinlichste Ursache?
+a) Die Klasse hat aus Desinteresse nicht zugehört. ✗ *(Erst die einfachere Erklärung prüfen: Die Information war nicht mehr da.)*
+b) Die Aufgabe war zu umfangreich. ✗ *(Das erklärt nicht, warum viele gar nicht wussten, was auf war.)*
+c) Die Ansage kam zu spät in der Stunde. ✗ *(Der Zeitpunkt ist ein Teil des Problems. Entscheidend ist, dass nichts stehen blieb.)*
+d) Gesprochenes ist sofort weg. Was wichtig ist, muss lesbar stehen bleiben. ✓ *(Das ist Transienz. Die Hausaufgabe gehört an die Tafel, bevor eingepackt wird (M1.2).)*
 
-**F5.** Das animierte Deko-Männchen auf der Folie…
-a) lockert auf und motiviert ✗ *(DER Glaube)*
-b) stiehlt Denkspur – Dekoration ist lästige Last ✓
-c) hilft visuellen Lerntypen ✗ *(Doppel-Mythos!)*
-d) ist Geschmackssache ✗
+**F4.** Welche Folie nutzt Auge und Ohr so, dass sie sich ergänzen?
+a) Ein Schaubild mit Fließtext daneben, dazu dein Vortrag. ✗ *(Drei Quellen gleichzeitig: Text und Vortrag stören sich.)*
+b) Ein Schaubild mit wenigen Beschriftungen, das du frei erklärst. ✓ *(Bild für das Auge, Erklärung für das Ohr. Das ist Dual Coding.)*
+c) Ein Fließtext, den du Satz für Satz vorliest. ✗ *(Derselbe Inhalt auf zwei Sprachkanälen: Redundanz.)*
+d) Stichpunkte mit einem auflockernden Bild daneben. ✗ *(Ein Bild ohne Bezug zum Inhalt lenkt ab.)*
+
+**F5.** Eine Kollegin setzt auf jede Folie ein animiertes Männchen: „Das lockert auf.“ Was bewirkt es?
+a) Es hält die Aufmerksamkeit bei der Folie. ✗ *(Bei der Folie ja, aber beim Männchen statt beim Inhalt.)*
+b) Es hilft vor allem jüngeren Klassen. ✗ *(Gerade Jüngere lassen sich davon stärker ablenken.)*
+c) Es zieht Aufmerksamkeit vom Inhalt ab. ✓ *(Bewegtes und Witziges gewinnt gegen Wichtiges. Dekoration ist unnötige Last.)*
+d) Es schadet nicht, bringt aber auch nichts. ✗ *(Es schadet: Aufmerksamkeit ist begrenzt.)*
 
 **F6 (Transfer, Freitext):** Operiere die Horror-Folie (Anhang 1.1) in drei Schritten: Was fliegt raus, was bleibt, was wandert in deinen Mund? *(Muster: Fließtext raus → Diagramm groß als einziger Träger; die zwei Zahlen als Beschriftung AN die Pfeile (Transienz-Schutz); Erklärung + Sonderfälle mündlich; Clipart-Sonne entsorgen.)*
 

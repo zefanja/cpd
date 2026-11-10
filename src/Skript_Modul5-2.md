@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie senke ich die Kosten der Anstrengung – und wie mache ich Anstrengung ansteckend? |
 | **Kernquellen** | McCrea, *Motivated Teaching* (Treiber „Run routines" + „Nudge norms"); Verzahnung: komplettes Block-1-Playbook, Modell 4 (Auftakt), Positive Framing (M1.6), Show Call (M4.5) |
-| **Funktion im Jahr** | Die Reinterpretations-Sitzung – das „Aha des Jahres": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert M1.6 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
+| **Funktion im Programm** | Die Reinterpretations-Sitzung – das „Aha des Programms": Block 1 wird rückwirkend als Kosten-Senkungs-Programm lesbar (EEF-Mechanismus „Wissen + Motivation" in Reinform). Nudge Norms operationalisiert Modell 4 zum Sprach-Handwerk; der Sprach-Audit verlängert M1.6 in die Normen-Dimension. Show Call bekommt seinen zweiten Job (Normen-Maschine). Kollegiums-Konsistenz öffnet den Blick über das eigene Zimmer hinaus. |
 | **Lernziele** | Die TN können:<br>1. Routinen als Kosten-Senker in der EVK-Mechanik verorten und ihr Playbook entsprechend re-interpretieren,<br>2. Negativ-Norm-Aussagen erkennen und in Positiv-Norm-Aussagen umbauen (Sprach-Audit),<br>3. erwünschtes Verhalten systematisch sichtbar machen (Sichtbarkeits-Plan: Show Call, Peer-Anerkennung, Präsenz der arbeitenden Mehrheit),<br>4. den Konsistenz-Hebel im Kollegium benennen. |
 | **Sitzungstyp** | Reinterpretation + Sprach-Training – dramaturgisch die „Belohnungs-Sitzung": Die TN entdecken, dass sie das meiste schon können. |
 
@@ -29,25 +29,25 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke (Minute 8–12)
 
 > **Moderationstext:**
 > *„Erfolgs-Konstruktion: Wer hat seinem Fall zwei Erfolge gebaut – und was war beobachtbar?"* [2 Stimmen; auch „nichts sichtbar" würdigen: Erwartungs-Reparatur braucht Wochen, nicht Tage – Ausdauer ist Teil der Maßnahme.]
-> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Jahres bereits vollständig umgesetzt. Es hat sieben Module gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
+> *„Heute zwei Treiber in einer Sitzung – und ich beginne mit einem Rätsel: Ihr habt das mächtigste Motivationsprogramm dieses Programms bereits vollständig umgesetzt. Es hat sieben Module gedauert, es steht komplett in eurem Playbook, und niemand hat es euch als Motivationsprogramm verkauft. Wer eine Vermutung hat, was ich meine – auf die Boards."* [3-2-1-hoch; einige treffen es.]
 
 ## Phase 3 · Input A: Run Routines – die Reinterpretation (Minute 12–22)
 
 > *„Die Auflösung: **Block 1.** Und jetzt der Blick durch die EVK-Brille – schlagt euer Playbook auf, wir gehen es durch:*
-> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Modul 4.1 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als im September, auch dort, wo ihr am WERT nie geschraubt habt.*
+> *Was kostet einen Schüler eine Stunde OHNE Routinen? Er muss jede Stunde neu herausfinden: Wie startet das hier? Was gilt heute? Wann wird es gefährlich? Wird gelacht, wenn ich etwas Falsches sage? Jede dieser offenen Fragen ist eine **Kosten-Position** – Unsicherheit ist kognitiv und sozial teuer. Ein Raum mit verlässlichen Routinen dagegen: Der Start läuft automatisch (Begrüßungsroutine – null Orientierungskosten), Anweisungen kommen beim ersten Mal an (Vierercheck – null Entzifferungskosten), Fehler sind sicher (Modul 4.1 – das Blamage-Risiko, unsere teuerste Währung, ist gedeckelt), die Aufgabe steht schriftlich (Transienz – null Merkkosten), und der Ton ist berechenbar warm (Emotional Constancy – null Angstkosten). **Euer Playbook ist ein Kosten-Senkungs-Programm.** Der Nenner der Formel schrumpft in eurem Raum seit Monaten – deshalb, nebenbei, arbeiten eure Klassen heute besser als zu Programmbeginn, auch dort, wo ihr am WERT nie geschraubt habt.*
 > *Warum sage ich euch das erst jetzt? Weil die Reihenfolge des Programms genau darauf gebaut ist: Handwerk zuerst, Theorie als Belohnung – ihr SEHT die Mechanik jetzt in eurem eigenen Unterricht, statt sie glauben zu müssen. Und die praktische Konsequenz für heute: Wenn bei einem Schüler die Kosten der Engpass sind – Modul 5.1, euer Analysebogen – dann ist die Antwort oft kein Gespräch und kein Anreiz, sondern schlicht: Welche meiner Routinen erreicht ihn noch nicht? Läuft sein Stundenstart? Weiß er, was zu tun ist, wenn er hängt? Ist SEIN Blamage-Risiko gedeckelt?"*
 
 ## Phase 4 · Input B: Nudge Norms (Minute 22–32)
 
 > *„Treiber 3, und jetzt wird es sozial: **Nudge Norms.** Auftakt, Modell 4: Menschen tun, was ihre Gruppe normal findet – Jugendliche in Hochpotenz. Die Frage ist nie OB Normen wirken, sondern WELCHE gerade sichtbar sind. Und hier kommt der Satz, der wehtut:*
-> *​**Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Modul 1.6, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
-> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr habt es letzte Woche gelernt – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe, wie zweiundzwanzig von euch schon schreiben' macht hörbar, was sonst lautlos bliebe.*
+> ***Jede Beschreibung von Fehlverhalten ist Werbung für Fehlverhalten.** ‚Die Hälfte hat schon wieder die Hausaufgaben nicht!' – gedacht als Rüge, gehört als Marktforschung: Aha, die Hälfte. Ich bin also normal. Der Frust spricht solche Sätze von selbst – und jedes Mal plakatiert er die falsche Norm an die Wand. Ihr kennt das Gegenmittel seit Modul 1.6, Positive Framing – heute versteht ihr seine zweite, tiefere Funktion: Es ist nicht nur freundlicher, es ist **Normen-Steuerung**. ‚Über die Hälfte hat die Hausaufgaben dabei – von den anderen sehe ich sie morgen' beschreibt dieselbe Lage und plakatiert die Mehrheit, die liefert. Bedingung, ihr erinnert euch: Es muss WAHR sein. Positive Norm-Kommunikation ist Auswahl, nicht Erfindung.*
+> *Zweiter Hebel: **Erwünschtes sichtbar machen.** Die stille Wahrheit fast jeder Klasse ist: Die Mehrheit arbeitet – aber die Störung hat die Bühne. Anstrengung ist unsichtbar, ein Zwischenruf ist unüberhörbar. Also gebt der Anstrengung Bühne: **Show Call** – ihr kennt ihn aus Modul 4.5 – ist eine Normen-Maschine: Jede gezeigte Arbeit sagt der Klasse ‚SO sieht normal bei uns aus'. **Peer-Anerkennung** mit Handwerk: nicht ‚Wer war heute brav?', sondern konkret – ‚Schaut auf Tisch drei: Die haben bei der schweren Aufgabe drei Anläufe genommen, ohne mich zu rufen.' Und das schlichteste Werkzeug: **die arbeitende Mehrheit aussprechen** – ‚Ich sehe, wie zweiundzwanzig von euch schon schreiben' macht hörbar, was sonst lautlos bliebe.*
 > *Dritter Hebel, über euer Zimmer hinaus: **Konsistenz im Kollegium.** Eine Norm, die nur in einem Raum gilt, ist eine Marotte; eine Norm, die in fünf Räumen gilt, ist Realität. Ihr könnt das nicht allein herstellen – aber ihr könnt es ANSTOSSEN: Sprecht mit den Kollegen eurer Klasse über EINE gemeinsame Formulierung, EINE gemeinsame Erwartung. Als Quereinsteiger habt ihr da übrigens einen unterschätzten Hebel: Ihr dürft fragen. ‚Wie macht ihr das mit den Hausaufgaben – können wir das gleich machen?' ist als Neuling eine Stärke, kein Eingeständnis."*
 
 ## Phase 5 · Name it (Minute 32–35)
@@ -66,7 +66,7 @@ Einzelarbeit (Vorlage Anhang 1.3): Für die eigene schwierigste Klasse planen:
 2. Welche Bühne bekommt sie in den nächsten zwei Wochen – Show Call? Peer-Anerkennung (konkret an wen, wofür)? Mehrheits-Ansagen (bei welcher Gelegenheit)?
 3. Der Konsistenz-Anstoß: EIN Kollege, EINE gemeinsame Formulierung – wen spreche ich wann an?
 
-Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
+Tandem-Check: Ist Punkt 1 wirklich WAHR und beobachtbar?
 
 ## Phase 7 · Action Step & Exit (Minute 52–60)
 
@@ -86,7 +86,7 @@ Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
 # 4. Coaching-Modul 5.2 (Handreichung)
 
 - **Hospitationsfokus – das Normen-Protokoll:** 15 Minuten lang jede Norm-Kommunikation wörtlich mitschreiben und kategorisieren: Negativ-Norm / Positiv-Norm / neutral. Zusätzlich: Wer bekam die Bühne (Störung oder Anstrengung)? Strichliste.
-- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt (a) beobachtet worden?
+- **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt 1 beobachtet worden?
 - **Verzahnung:** Beim M5.1-Fall nachfassen: Falls K-Engpass diagnostiziert war – die Kosten-Frage stellen („Welche Routine erreicht ihn nicht?") und eine Routinen-Reparatur als Maßnahme ergänzen.
 - **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit") oder das Verhalten erst per Routine aufbauen (M1.1/M1.2), DANN plakatieren.
 
@@ -95,7 +95,7 @@ Tandem-Check: Ist (a) wirklich WAHR und beobachtbar?
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Handout A: Die EVK-Landkarte des Playbooks
-Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit September."
+Tabelle: Block-1/4-Werkzeug | Welche Kosten senkt es? — Begrüßungsroutine → Orientierungskosten Start · Vierercheck/schriftliche Aufgabe → Entzifferungs-/Merkkosten · Signal + 100 % → Unsicherheit „gilt das?" · Fehlerkultur + Lach-Verbot → Blamage-Risiko (Hauptwährung!) · Emotional Constancy → Angstkosten · Do Now → Einstiegshürde („Ich weiß sofort, was zu tun ist") · No Opt Out (warm) → Kosten des Aufgerufen-Werdens sinken paradoxerweise: Erfolg ist garantiert · Checkpoints → Verwirrungskosten. Fußzeile: „Der Nenner schrumpft seit Programmstart."
 
 ## 1.2 Sprach-Audit-Kartenset (10 Karten; versteckte Werbung → Muster-Umbau kursiv)
 1. „Die Hälfte hat schon wieder keine Hausaufgaben!" *(Werbung: Nicht-Abgabe ist normal)* → *„Über die Hälfte hat sie dabei – von den anderen sehe ich sie morgen. Ich halte nach, ihr kennt mich."*
@@ -120,42 +120,46 @@ Vorlage:
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die EVK-Formel + die Multiplikator-Pointe? *(E × W ÷ K; E=0 → alles null)*
-2. Die teuerste Kosten-Währung? *(Blamage-Risiko)*
-3. Talent- vs. Vorgehens-Attribution – je ein Beispiel? 4. Die Belohnungssystem-Regel? *(sparsam, temporär, Ausstieg geplant, parallel echter Erfolg)*
-5. (Anwendung) Dein Fall zeigt hohe Kosten trotz guter Routinen – welche Kostenart prüfst du zuerst? *(Blamage-Risiko: Fehlerkultur bei IHM angekommen? Wird er ausgelacht?)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Wie lautet die Formel aus M5.1, und was folgt, wenn die Erwartung bei null liegt? *(Anstrengung = Erwartung × Wert ÷ Kosten; dann bleibt das Ergebnis null, egal wie hoch der Wert ist)*
+2. Welche Kosten wiegen im Klassenzimmer am schwersten? *(das Risiko, sich vor der Klasse zu blamieren)*
+3. (Szene) Dein Fall hat trotz guter Routinen hohe Kosten. Was prüfst du zuerst? *(ob die Fehlerkultur bei ihm angekommen ist: Wird er ausgelacht? Muss er vor anderen scheitern?)*
+4. In welcher Reihenfolge rufst du ohne Meldung auf (M4.2)? *(Frage, Pause, Name)*
+5. Welche drei Schritte hat das Zeigen einer Schülerarbeit (M4.5)? *(würdigen → einen Punkt verbessern → auf die eigene Arbeit übertragen)*
+6. Mit welcher Formel formulierst du eine Negativ-Ansage um (M1.6)? *(„Ich sehe [was schon erfüllt ist] – ich will [Zielzustand].“)*
 
 ## Teil 2: Modul-Quiz Modul 5.2 (für SPA/Austauschwoche)
-**F1.** „Die Hälfte hat schon wieder keine Hausaufgaben!" bewirkt vor allem…
-a) sozialen Druck auf die Säumigen ✗ *(die Absicht)*
-b) Normalisierung: Nicht-Abgabe wird als üblich plakatiert ✓
-c) nichts ✗
-d) Respekt vor der Ehrlichkeit der Lehrkraft ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Routinen wirken motivational, weil sie…
-a) Disziplin erzwingen ✗ *(die Law-and-Order-Lesart)*
-b) die Kosten senken: Orientierung, Entzifferung, Blamage-Risiko ✓
-c) Zeit sparen ✗ *(teilrichtig – nicht der EVK-Kern)*
-d) den Wert des Unterrichts erhöhen ✗ *(falscher Formel-Faktor!)*
+**F1.** Du sagst verärgert: „Die Hälfte hat schon wieder keine Hausaufgaben!“ Was hört die Klasse?
+a) Dass du Druck machst und es ernst meinst. ✗ *(Das war die Absicht. Gehört wird etwas anderes.)*
+b) Dass du genau kontrollierst. ✗ *(Mag sein, aber stärker wirkt die Zahl.)*
+c) Dass es hier normal ist, die Hausaufgaben nicht zu machen. ✓ *(Wer das Fehlverhalten der Vielen beschreibt, wirbt dafür. Besser die Mehrheit nennen, die liefert, wenn es stimmt.)*
+d) Dass du enttäuscht bist. ✗ *(Auch das, aber die Zahl bleibt hängen.)*
 
-**F3.** Positiv-Norm-Kommunikation setzt voraus, dass…
-a) man notfalls etwas übertreibt – der Zweck heiligt ✗ *(fliegt auf)*
-b) die plakatierte Mehrheit WAHR und beobachtbar ist ✓
-c) die Klasse jung genug ist ✗
-d) man vorher straft ✗
+**F2.** Warum wirken Routinen auf die Motivation?
+a) Sie erzwingen Disziplin. ✗ *(Zwang erklärt nicht, warum Klassen mit Routinen lieber arbeiten.)*
+b) Sie senken die Kosten: Jeder weiß, was zu tun ist, und das Risiko von Fehlern und Blamage sinkt. ✓ *(Der Ablauf wird billig, damit der Inhalt fordern darf.)*
+c) Sie sparen Unterrichtszeit. ✗ *(Stimmt, ist aber nicht der Grund für die Motivation.)*
+d) Sie erhöhen den Wert des Stoffs. ✗ *(Am Wert ändern Routinen nichts.)*
 
-**F4.** Warum ist Show Call eine „Normen-Maschine"?
-a) weil er Fehler bestraft ✗
-b) jede gezeigte Arbeit definiert öffentlich, was „normal gut" hier heißt ✓
-c) weil Technik beeindruckt ✗
-d) ist er nicht – er ist reines Feedback ✗ *(die halbe Wahrheit aus M4.5)*
+**F3.** Deine Klasse kommt notorisch zu spät. Du überlegst zu sagen: „Fast alle sind pünktlich.“ Ist das klug?
+a) Ja, Normen wirken auch, wenn man etwas nachhilft. ✗ *(Unwahres fliegt in Tagen auf und kostet Glaubwürdigkeit.)*
+b) Ja, solange der Ton freundlich ist. ✗ *(Der Ton ändert nichts an der Unwahrheit.)*
+c) Nein, Normen lassen sich über Sprache nicht beeinflussen. ✗ *(Doch. Aber nur mit wahren Aussagen.)*
+d) Nein. Ich nenne die kleinste wahre Mehrheit oder baue das Verhalten erst mit einer Routine auf. ✓ *(Zum Beispiel: „Reihe eins sitzt seit acht Uhr arbeitsbereit.“)*
 
-**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte" ist besonders schädlich, weil…
-a) es unhöflich ist ✗
-b) es eine IDENTITÄT plakatiert – Normen kleben an Identitäten fester als an Verhalten ✓
-c) Eltern es erfahren könnten ✗
-d) Vergleiche verboten sind ✗
+**F4.** Warum prägt das Zeigen von Schülerarbeiten die Normen einer Klasse?
+a) Jede gezeigte Arbeit macht sichtbar, was hier als normal gut gilt. ✓ *(Anstrengung ist sonst unsichtbar. So bekommt sie eine Bühne.)*
+b) Fehler werden öffentlich, das schreckt ab. ✗ *(Abschreckung ist nicht der Mechanismus und zerstört die Fehlerkultur.)*
+c) Die Technik beeindruckt. ✗ *(Eine Dokumentenkamera prägt keine Normen.)*
+d) Es entsteht Wettbewerb. ✗ *(Es geht um den Maßstab, nicht um Rangfolgen.)*
+
+**F5.** „Ihr seid die unruhigste Klasse, die ich je hatte.“ Warum ist dieser Satz besonders schädlich?
+a) Er ist unhöflich. ✗ *(Das auch, aber die Wirkung reicht weiter.)*
+b) Er vergleicht die Klasse mit anderen. ✗ *(Der Vergleich ist nicht das Hauptproblem.)*
+c) Er gibt der Klasse ein Selbstbild, nach dem sie sich dann verhält. ✓ *(Ein Etikett hält fester als jede Regel. Streichen und konkret sagen, was heute gelungen ist.)*
+d) Die Eltern könnten davon erfahren. ✗ *(Der Schaden entsteht im Raum, nicht zu Hause.)*
 
 **F6 (Transfer, Freitext):** Baue Karte 6 um („Wieder haben nur drei den Text gelesen") – Positiv-Norm-Satz PLUS der Systemfix, der das Problem an der Wurzel packt. *(Muster: Norm-Satz siehe Karte; Systemfix: Leseaufträge mit angekündigtem Retrieval-Starter koppeln [M3.4/3.5] – Lesen bekommt sichtbare Konsequenz statt Appell.)*
 
@@ -163,7 +167,7 @@ d) Vergleiche verboten sind ✗
 
 # Anhang 3: Ableitung für die SPA „Modul 5.2"
 
-1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Jahres schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
+1. **Hook (2 Min.):** Das Rätsel aus Phase 2 digital: „Du hast das größte Motivationsprogramm des Programms schon umgesetzt – was ist es?" (Freitext, dann die Playbook-Auflösung als Reveal).
 2. **See it (4 Min.):** Die EVK-Landkarte als interaktive Grafik: Block-1-Werkzeuge antippen → Kosten-Position leuchtet und der Formel-Nenner schrumpft sichtbar.
 3. **Name it (3 Min.):** Normen-Regel + Sichtbarkeits-Trio als Karten; „Was plakatiert dieser Satz?"-Vorschau mit 3 Beispielen.
 4. **Do it – Sprach-Audit-Trainer (8 Min., Engine!):** Die 10 Karten als Timer-Spiel (Umformulierungs-Engine, dritter Einsatz!); Zwei-Stufen-Aufgabe pro Karte: erst die Werbebotschaft benennen (Auswahl), dann Umbau (Freitext mit Heuristik: Mehrheits-Bezug vorhanden? Giftwörter? Wahrheits-Selbstcheck-Prompt); Karte 5 lehrt den Sonderfall „Identitäts-Plakat → streichen statt umbauen".

@@ -9,9 +9,9 @@
 |---|---|
 | **Leitfrage** | Wie plane ich gute Stunden in 20 Minuten statt 90? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Lean-Mindset, Planungsfragen-Folge, Efficient Activities, Repertoire); Verzahnung: Backwards Design (M2.2), Planungsbogen (M2.6), Stunden-Check mit den fünf Fragen (M2.1) |
-| **Funktion im Jahr** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das M2.6-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem M2.1-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
+| **Funktion im Programm** | Block-6-Auftakt: Der Fokus dreht sich zum letzten Mal – von den Schülern zur LEHRKRAFT selbst (Nachhaltigkeit, EEF-Mechanismus „Verankerung"). Lean adelt das M2.6-Template zum Zeitspar-Werkzeug: dieselbe Qualität, ein Drittel der Zeit. Das Wettmessen mit dem M2.1-Stunden-Check als Qualitätsbeweis ist die Kernübung; das Repertoire-Prinzip entlastet die Aktivitäten-Suche dauerhaft. Coaching wechselt ins Planungsgespräch-Format. |
 | **Lernziele** | Die TN können:<br>1. das Lean-Mindset begründen (Wirkung pro Minute; 80 % genügen; Planungszeit ist ein endliches Budget),<br>2. die erzwungene Fragenfolge anwenden (Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?) – Aktivitäten strikt zuletzt,<br>3. eine vollwertige Stunde in ≤ 20 Minuten auf dem Einseiter planen und per Audit belegen, dass die Qualität steht,<br>4. ein persönliches Aktivitäten-Repertoire anlegen (8–10 Formate, die sitzen). |
-| **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Jahres (O-Ton früherer Kohorten). |
+| **Sitzungstyp** | Rechnungs-Einstieg + das Planungs-Wettmessen mit Timer – die befreiendste Sitzung des Programms (O-Ton früherer Kohorten). |
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · See it: Die Rechnung (Minute 8–15)
 
@@ -45,7 +45,7 @@
 ## Phase 3 · Input: Die Lean-Mechanik (Minute 15–27)
 
 ### 3a · Die erzwungene Fragenfolge (Min. 15–21)
-> *„Das Werkzeug ist eine REIHENFOLGE, und sie wird erzwungen – denn der Aktivitäten-Reflex ist stark: **Frage eins: Wohin?** Zwei bis drei Meilensteine – Modul 2.2, fünf Minuten, ihr könnt das im Schlaf. **Frage zwei: Woran erkenne ich es?** Exit-Ticket-Aufgabe JETZT festlegen – nicht am Ende der Planung, sondern als zweiter Schritt; wer den Nachweis früh baut, plant automatisch auf ihn zu. **Frage drei: Wie?** JETZT erst die Aktivitäten – und hier kommt der große Zeitfresser-Killer: Ihr sucht nicht, ihr WÄHLT. Aus eurem Repertoire, dazu gleich. Die Architektur steht ohnehin: Do Now, I do mit Falle, We do mit Treppe, You do mit Route, Ticket – Modul 2.6, euer Template. Planen heißt ab jetzt: das Template mit Inhalt füllen, nicht das Rad neu erfinden. **Frage vier: Was kommt zurück?** Der Blick auf gestern: Welche Ticket-Konsequenz, welcher Reteach-Baustein gehört in diese Stunde (Modul 4.6)? Und welcher Altstoff wandert in Starter und Übungsset (Modul 3.5)? Diese Frage kostet eine Minute und ist der Unterschied zwischen Stundenreihe und Lernstrecke.*
+> *„Das Werkzeug ist eine REIHENFOLGE, und sie wird erzwungen – denn der Aktivitäten-Reflex ist stark: **Frage eins: Wohin?** Das Mindestziel und zwei bis drei Meilensteine – Modul 2.2, fünf Minuten, ihr könnt das im Schlaf. **Frage zwei: Woran erkenne ich es?** Exit-Ticket-Aufgabe JETZT festlegen – nicht am Ende der Planung, sondern als zweiter Schritt; wer den Nachweis früh baut, plant automatisch auf ihn zu. **Frage drei: Wie?** JETZT erst die Aktivitäten – und hier kommt der große Zeitfresser-Killer: Ihr sucht nicht, ihr WÄHLT. Aus eurem Repertoire, dazu gleich. Die Architektur steht ohnehin: Do Now, I do mit Falle, We do mit Treppe, You do mit Route, Ticket – Modul 2.6, euer Template. Planen heißt ab jetzt: das Template mit Inhalt füllen, nicht das Rad neu erfinden. **Frage vier: Was kommt zurück?** Der Blick auf gestern: Welche Ticket-Konsequenz, welcher Reteach-Baustein gehört in diese Stunde (Modul 4.6)? Und welcher Altstoff wandert in Starter und Übungsset (Modul 3.5)? Diese Frage kostet eine Minute und ist der Unterschied zwischen Stundenreihe und Lernstrecke.*
 > *Merkt euch die Reihenfolge als Prüfregel: **Wer bei ‚Wie?' anfängt, plant Beschäftigung. Wer bei ‚Wohin?' anfängt, plant Lernen.**"*
 
 ### 3b · Efficient Activities & Repertoire (Min. 21–27)
@@ -83,17 +83,17 @@ Tandem-Blitz: Partner legt die fünf Fragen aus M2.1 an den Einseiter – 2 Minu
 
 # 4. Coaching-Modul 6.1 (Handreichung)
 
-- **Formatwechsel ab jetzt: das PLANUNGSGESPRÄCH.** Coaching findet diese Woche VOR einer Stunde statt: TN plant live auf dem Einseiter (Timer!), Coach beobachtet nur den PROZESS: Wo hängt die Zeit? (Fast immer: Aktivitäten-Grübeln trotz Repertoire, oder Material-Kosmetik.) Danach 10 Min. Prozess-Feedback + gemeinsames Audit.
+- **Formatwechsel ab jetzt: das PLANUNGSGESPRÄCH.** Das Coaching findet in diesem Zyklus VOR einer Stunde statt: TN plant live auf dem Einseiter (Timer!), Coach beobachtet nur den PROZESS: Wo hängt die Zeit? (Fast immer: Aktivitäten-Grübeln trotz Repertoire, oder Material-Kosmetik.) Danach 10 Min. Prozess-Feedback + gemeinsames Audit.
 - **Hospitation (verkürzt):** die geplante Stunde ansehen mit EINER Frage: Hat die 20-Minuten-Planung im Raum getragen? (Belege sammeln für das Auswertungsgespräch – die Antwort ist fast immer ja, und sie muss BELEGT werden, sonst glaubt der TN ihr nicht.)
 - **Zahlen-Ehrlichkeit:** Planungszeit-Log der Woche gemeinsam anschauen; Rückfälle normalisieren („Sonntagsangst hat Gewohnheitsrecht – sie geht in Wochen, nicht Tagen").
-- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Fragen aus M2.1 – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (b) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
+- **Red Flag 1:** TN deutet Lean als Qualitätsverzicht und plant lieblos („80 % heißt ja: reicht schon") → nachschärfen: 80 % bezieht sich auf PERFEKTIONS-Kosmetik, nicht auf die fünf Fragen aus M2.1 – die sind nicht verhandelbar. **Red Flag 2:** TN kann nicht loslassen, plant heimlich doppelt (Einseiter + altes 90-Min.-Ritual) → Abrüstungs-Variante (Alternative 2) verordnen, Erfolg über Ticket-Vergleich beweisen lassen.
 
 ---
 
 # Anhang 1: Übungsmaterial
 
 ## 1.1 Handout A: Der Lean-Einseiter (verschlanktes M2.6-Template)
-Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:** Exit-Ticket-Aufgabe (jetzt!): … · **3 WIE:** Do Now (3–5 Wiederholungsfragen, Stichwort): … | I do – Kern + Falle: … | We do – Treppenstufen + Check bei: … | You do – Prüf-Fokus: … (Aktivitäten NUR aus dem Repertoire; Stichworte, keine Kosmetik!) · **4 WAS KOMMT ZURÜCK:** Ticket-Konsequenz von gestern: … | Altstoff in Starter/Set: … · Fuß: **Planungszeit real: ___ Min.** *(Rückseite: Zweitexemplar.)*
+Kopf: Klasse/Thema/Datum · **1 WOHIN:** Mindestziel: … | Meilensteine (2–3): … · **2 WORAN:** Exit-Ticket-Aufgabe (jetzt!): … · **3 WIE:** Do Now (3–5 Wiederholungsfragen, Stichwort): … | I do – Kern + Falle: … | We do – Treppenstufen + Check bei: … | You do – Prüf-Fokus: … (Aktivitäten NUR aus dem Repertoire; Stichworte, keine Kosmetik!) · **4 WAS KOMMT ZURÜCK:** Ticket-Konsequenz von gestern: … | Altstoff in Starter/Set: … · Fuß: **Planungszeit real: ___ Min.** *(Rückseite: Zweitexemplar.)*
 
 ## 1.2 Handout B: Fragenfolge + Repertoire-Blanko
 **Fragenfolge als Karte** (mit Prüfregel). **Repertoire-Blanko:** 10 Zeilen: Format | Läuft als Routine? (☐ ja / ☐ braucht Einführung M1.2-Stil) | Typischer Einsatzort (Phase). Vorbefüllung als Vorschlag: Do Now 3-2-1 · Whiteboard-Blitz · Everybody Writes · Turn & Talk + Ernte · Fading-Treppe · Show Call · Brain Dump · Fragenfächer · kumulatives Set · Exit Ticket. Fußzeile: „Neue Formate: einzeln, eingeführt, nie als Feuerwerk."
@@ -102,43 +102,46 @@ Kopf: Klasse/Thema/Datum · **1 WOHIN:** Meilensteine (2–3): … · **2 WORAN:
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Der Gesprächs-Vierschritt (M5.5)? *(gemeinsames Ziel → Fakten → zuhören → Schritte + Termin)*
-2. Die Grenz-Formel? *(Verständnis + Sache + Angebot)*
-3. Die Kontakt-Regel? *(erster Kontakt nie Problemkontakt; 2 Positiv-Kontakte/Woche)*
-4. Die zwei Kardinalfehler der Planung (M2.2)? *(aktivitätsorientiert / stofforientiert)*
-5. (Anwendung) Woran erkennst du in einer fremden Planung in 10 Sekunden den Aktivitätsfokus? *(Methoden zuerst/detailliert, Ziel vage oder fehlt, kein Nachweis definiert)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. Welche vier Schritte hat ein Elterngespräch (M5.5)? *(gemeinsames Ziel → Beobachtungen → zuhören → Schritte für beide Seiten mit Termin)*
+2. Wie antwortest du auf einen Angriff im Elterngespräch? *(Verständnis zeigen, bei der Sache bleiben, ein Angebot machen)*
+3. (Szene) Woran erkennst du in einer fremden Planung in zehn Sekunden, dass sie von der Aktivität her gedacht ist? *(Methoden stehen zuerst und ausführlich da, das Ziel ist vage oder fehlt, es gibt keine Prüfaufgabe.)*
+4. Wie lautet die Formel aus M5.1? *(Anstrengung = Erwartung × Wert ÷ Kosten)*
+5. Welche drei Fragen stellst du an einen Stapel Exit Tickets (M4.6)? *(Welches Muster? → Welches Format? → Welcher neue Zugang?)*
+6. Welche zwei Kardinalfehler der Planung gibt es (M2.2)? *(von der Aktivität her planen / das Lehrbuch abarbeiten)*
 
 ## Teil 2: Modul-Quiz Modul 6.1 (für SPA/Austauschwoche)
-**F1.** 90 Minuten Planung pro Stunde sind…
-a) das Zeichen gewissenhafter Arbeit ✗ *(DER Glaubenssatz – fühlt sich moralisch an)*
-b) meist Aktivitäten-Suche + Kosmetik; die Wirkung entsteht in den ersten 10 Zielminuten ✓
-c) im ersten Jahr Pflicht ✗
-d) zu wenig ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** Die richtige Planungsreihenfolge:
-a) spannende Aktivität finden → Ziel dazu formulieren ✗ *(der Reflex)*
-b) Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück? ✓
-c) Material → Ablauf → Ziel ✗
-d) egal, Hauptsache vollständig ✗
+**F1.** Du planst 90 Minuten für eine Einzelstunde. Wohin fließt bei den meisten der größte Teil dieser Zeit?
+a) In das Ziel und die Prüfaufgabe. ✗ *(Das dauert etwa zehn Minuten und bringt am meisten.)*
+b) In die Suche nach Aktivitäten und das Verschönern von Material. ✓ *(Der erste Kardinalfehler aus M2.2. Die Wirkung entsteht in den ersten zehn Minuten.)*
+c) In das Durchdenken typischer Schülerfehler. ✗ *(Schön wäre es. Dafür bleibt meist keine Zeit.)*
+d) In das fachliche Einlesen. ✗ *(Kommt vor, ist aber selten der größte Posten.)*
 
-**F3.** „80 % genügen" bedeutet:
-a) die fünf Fragen aus M2.1 sind verhandelbar ✗ *(die Schlampigkeits-Fehldeutung)*
-b) Verzicht auf Perfektions-Kosmetik – nachhaltig gehaltene Qualität schlägt ausbrennende Perfektion ✓
-c) 80 % der Stunden gut planen, 20 % improvisieren ✗
-d) Notenschnitt 2,0 reicht ✗
+**F2.** In welcher Reihenfolge planst du eine Stunde?
+a) Aktivität finden, dann das Ziel dazu formulieren, dann den Ablauf festlegen. ✗ *(So entsteht Beschäftigung.)*
+b) Material sichten, dann den Ablauf festlegen, dann das Ziel benennen. ✗ *(Das Lehrbuch bestimmt dann die Stunde.)*
+c) Ziel, dann Aktivitäten, dann die Aufgabe für das Exit Ticket. ✗ *(Fast. Die Prüfaufgabe kommt vor den Aktivitäten.)*
+d) Ziel, dann die Aufgabe für das Exit Ticket, dann die Aktivitäten, dann: Was kommt aus früheren Stunden zurück? ✓ *(Wer mit dem Ziel beginnt, plant Lernen.)*
 
-**F4.** Ein festes 10-Formate-Repertoire ist…
-a) Einfalls-Armut – Abwechslung motiviert ✗ *(der Abwechslungs-Mythos, M1.2/M5.2-Echo)*
-b) Profi-Logik: beherrschte Formate senken Kosten für alle; Abwechslung gehört in den Inhalt ✓
-c) nur für Anfänger ✗
-d) langweilig für die Lehrkraft ✗
+**F3.** Was bedeutet „80 % genügen“ in der Planung?
+a) Auf den Feinschliff am Material verzichten. Ziel, Prüfaufgabe und die fünf Fragen bleiben. ✓ *(Eine gute Stunde, die du jede Woche halten kannst, schlägt die perfekte, die dich auslaugt.)*
+b) Die fünf Fragen aus M2.1 dürfen auch mal entfallen. ✗ *(Die sind nicht verhandelbar.)*
+c) Jede fünfte Stunde wird improvisiert. ✗ *(Gemeint ist die Tiefe der Planung, nicht ihr Ausfall.)*
+d) Es reicht, wenn 80 % der Klasse das Ziel erreichen. ✗ *(Die Zahl bezieht sich auf deinen Aufwand.)*
 
-**F5.** Das Exit Ticket wird festgelegt…
-a) am Ende der Planung, wenn klar ist, was man geschafft hat ✗ *(die Alltagslogik)*
-b) als ZWEITER Planungsschritt – wer den Nachweis früh baut, plant auf ihn zu ✓
-c) spontan in der Stunde ✗
-d) nur bei neuen Themen ✗
+**F4.** Ein Kollege meint: „Immer dieselben zehn Formate, das langweilt die Schüler.“ Was antwortest du?
+a) Stimmt, Methodenwechsel motiviert. ✗ *(Der Abwechslungs-Mythos. Jedes neue Format kostet alle Zeit.)*
+b) Stimmt, vor allem bei jüngeren Klassen. ✗ *(Gerade Jüngere profitieren von vertrauten Abläufen.)*
+c) Vertraute Formate sparen allen Aufwand. Die Abwechslung kommt aus dem Inhalt. ✓ *(Routinen senken die Kosten (M5.2). Neue Formate kommen einzeln dazu und werden eingeführt.)*
+d) Ein festes Repertoire ist nur etwas für den Berufseinstieg. ✗ *(Auch Erfahrene arbeiten mit wenigen Formaten, die sitzen.)*
+
+**F5.** Wann legst du die Aufgabe für das Exit Ticket fest?
+a) Am Ende der Planung, wenn klar ist, was die Stunde schafft. ✗ *(Dann prüft das Ticket, was zufällig drankam.)*
+b) Direkt nach dem Ziel, als zweiten Schritt. ✓ *(Wer die Prüfaufgabe früh festlegt, plant auf sie zu.)*
+c) In der Stunde, je nach Verlauf. ✗ *(Dann fehlt der Maßstab.)*
+d) Nach der Stunde, für die nächste. ✗ *(Zu spät für diese Stunde.)*
 
 **F6 (Transfer, Freitext):** Ein Kollege zeigt dir stolz seine 2-Stunden-Planung: aufwendiges Stationenlernen, laminiert, ohne definiertes Ziel oder Ticket. Formuliere deine kollegiale Rückmeldung in drei Sätzen – wertschätzend, mit der Prüfregel. *(Muster: Aufwand/Sorgfalt würdigen → Prüfregel als Frage: „Was sollen sie am Ende können – und woran siehst du es?" → Lean-Angebot: „Die Stationen können bleiben – aber bau zuerst das Ticket, dann weißt du, welche Station du streichen kannst.")*
 

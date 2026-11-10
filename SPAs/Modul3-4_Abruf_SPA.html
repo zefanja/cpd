@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 3.4 · Abrufen schlägt Wiederlesen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+
+.plan-row{border-left:6px solid var(--line);padding:.2rem 0 .2rem .8rem;margin-top:1rem}
+.plan-row .q{font-family:var(--display);font-weight:800;font-size:.78rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase}
+.plan-row.c-gelb{border-left-color:var(--c-gelb)}.plan-row.c-rot{border-left-color:var(--c-rot)}.plan-row.c-gruen{border-left-color:var(--c-gruen)}.plan-row.c-blau{border-left-color:var(--c-blau)}.plan-row.c-petrol{border-left-color:var(--petrol)}
+.plan-row .field{margin-top:.4rem}
+.flash{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.7rem}
+.flash .fq{font-weight:700;font-size:.95rem}
+.flash .fa{display:none;margin-top:.5rem;font-size:.9rem;border-top:1px dashed var(--line);padding-top:.5rem}
+.flash.open .fa{display:block}
+.self-check{display:flex;gap:.6rem;align-items:flex-start;margin-top:.55rem;font-size:.9rem}
+.self-check input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0}
+.suggest{border:1.5px dashed var(--petrol);border-radius:10px;padding:.6rem .8rem;margin-top:.7rem;font-size:.88rem;background:var(--petrol-soft)}
+.matrix-row{margin-top:1rem}
+.matrix-row .chip-row{margin-top:.4rem}
+
+/* ---------- Block 3: Ergänzungen ---------- */
+.check-list{margin:.6rem 0 .2rem 1.2rem;font-size:.92rem;display:grid;gap:.3rem}
+.fig{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin-top:.9rem;background:#fff}
+.bigshow{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,6.5vw,2.8rem);letter-spacing:.14em;text-align:center;padding:1.6rem .4rem;word-break:break-all}
+.count{font-family:var(--display);font-weight:800;color:var(--amber)}
+.stagebox{display:none}
+.result-row{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px dashed var(--line);padding:.4rem 0;font-size:.92rem}
+.result-row b{font-family:var(--display);color:var(--petrol)}
+.two{display:grid;gap:.8rem}
+@media(min-width:700px){.two{grid-template-columns:1fr 1fr}}
+.ko-row{display:grid;grid-template-columns:1fr 2fr auto;gap:.4rem;margin-top:.4rem;align-items:center}
+.ko-row input{font-size:.92rem;padding:.45rem .55rem}
+.ko-hide .ko-def{color:transparent;background:repeating-linear-gradient(45deg,#E0ECE9,#E0ECE9 6px,#fff 6px,#fff 12px)}
+.term{display:grid;grid-template-columns:minmax(8rem,1fr) 2.2fr;gap:.6rem;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+.term b{font-family:var(--display)}
+.hide-def .term span{color:transparent;background:var(--petrol-soft);border-radius:6px;user-select:none}
+.ticker{background:#FBF7EE;border-left:4px solid var(--amber);padding:.6rem .8rem;font-size:.95rem;margin-top:.6rem;min-height:3.2em;border-radius:0 10px 10px 0}
+.task-row{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+@media(max-width:520px){#presBtn{display:none}.head-inner{gap:.45rem}.brand{font-size:.78rem}}
+.task-row .no{font-family:var(--display);font-weight:800;color:var(--petrol);width:1.6rem;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 3.4</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Modul 3.4 · Block 3 · Fortbildung Sek I/II</span>
+  <h1>Warum ist Erinnern-Müssen die stärkste Lernaktivität?</h1>
+  <p class="lead">Seit Modul 1.2 beginnen deine Stunden mit einem Do Now, und jede Sitzung dieser Fortbildung mit einem Abruf. Heute bekommst du die Begründung dafür, gemessen an dir selbst.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Nach dem Abruf löst du deinen Selbstversuch aus Modul 3.3 auf. Du erfährst, warum Abrufen wirkt und welche fünf Kriterien aus einem Quiz ein Lernwerkzeug machen. Du erkennst Verstöße in fünf Beispielen, lernst vier Formate kennen und baust ein Do Now nach dem 3-2-1-Muster für deine Klasse.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📖 Kernquellen: McCrea, Memorable Teaching · Lemov „Retrieval Practice“ · Brown u. a., Make It Stick</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<section class="screen" data-title="Abruf">
+  <span class="eyebrow">Station 1 · Abruf</span>
+  <h2>Sechs Fragen, bevor es losgeht.</h2>
+  <p class="lead">Drei zum letzten Modul, zwei zu älteren, eine aus einem früheren Block. Ohne Unterlagen. Dass die älteren schwerer fallen, ist gewollt.</p>
+  <div id="starterList"></div>
+  <div class="card" id="starterResult"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Der Test">
+  <span class="eyebrow">Station 2 · Der Test</span>
+  <h2>Zehn Begriffe aus dem Gedächtnis.</h2>
+  <p class="lead">In Modul 3.3 hast du zehn Begriffe bekommen und sie an drei Tagen je zwei Minuten gelernt. Schreib jetzt auf, was du noch weißt. Ohne Nachschauen, zwei Minuten.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0"><label for="expGroupSel">Meine Gruppe</label><select id="expGroupSel"><option value="">bitte wählen</option><option value="A">A · dreimal gelesen</option><option value="B">B · einmal gelesen, zweimal abgefragt</option><option value="X">Ich habe den Versuch nicht gemacht</option></select></div>
+    <div class="field"><label for="expRecall">Die zehn Begriffe <span class="sub">einer pro Zeile oder mit Komma getrennt</span></label><textarea id="expRecall" data-store="expRecall" style="min-height:7em" placeholder="…"></textarea></div>
+    <p style="margin-top:.7rem"><button class="btn small" id="recallBtn">Auswerten</button></p>
+  </div>
+  <div class="card reveal" id="recallRes"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Warum Abruf wirkt">
+  <span class="eyebrow">Station 3 · Warum Abruf wirkt</span>
+  <h2>Ein Quiz ist kein Test über das Lernen. Es ist das Lernen.</h2>
+  <p class="lead">Wiederlesen legt die Information noch einmal daneben. Abrufen bahnt den Weg zu ihr. Und diesen Weg brauchen Schüler in der Klassenarbeit.</p>
+  <img class="fig" src="./assets/images/grafiken/b3-vergessenskurve.svg" alt="Vergessenskurve mit drei Abrufen" loading="lazy">
+  <div class="scene"><span class="tag">Warum Schüler anders lernen</span>Sie lernen mit Textmarker und Wiederlesen, weil es sich gut anfühlt. Es fühlt sich gut an, weil der Text bekannt vorkommt, und das Gehirn verwechselt Wiedererkennen mit Können. Abrufen fühlt sich holprig an. Genau diese Mühe ist der Lerneffekt.</div>
+  <div class="formula-card">
+    <h4>Fünf Kriterien</h4>
+    <ol class="q-legend">
+      <li><b>1</b>Ohne Hilfsmittel: Heft zu, sonst ist es Nachlesen.</li>
+      <li><b>2</b>Schriftlich und von allen: Nur wer selbst schreibt, ruft ab.</li>
+      <li><b>3</b>Ohne Note: Mit Note werden Fehler versteckt. Sag es der Klasse ausdrücklich.</li>
+      <li><b>4</b>Sofortige Auflösung: Sonst setzen sich Irrtümer fest.</li>
+      <li><b>5</b>Regelmäßig: jede Stunde kurz, nicht einmal im Monat groß.</li>
+    </ol>
+    <p>Auch Anwenden ist Abruf: Wer ein Konzept in einer neuen Situation benutzt, holt es aus dem Gedächtnis und verknüpft es neu.</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Welches Kriterium ist verletzt?</h3>
+  <div id="kritList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Vier Formate">
+  <span class="eyebrow">Station 4 · Vier Formate</span>
+  <h2>Vier Formate, die wenig Vorbereitung brauchen.</h2>
+  <p class="lead">Die Fragen gibt es schon: Es sind deine Exit-Ticket-Aufgaben und die Prüfaufgaben zu deinen Mindestzielen aus Block 2.</p>
+  <div class="two">
+    <div class="card"><h3>Do-Now-Quiz</h3><p style="font-size:.9rem">Sechs Fragen nach dem 3-2-1-Muster, still, schriftlich, danach sofort die Auflösung. Passt an jeden Stundenanfang.</p></div>
+    <div class="card"><h3>Alles aufschreiben</h3><p style="font-size:.9rem">„Schreibt drei Minuten lang alles auf, was ihr über … wisst.“ Danach Abgleich mit dem Heft: Was fehlte? Passt vor einem Themenwechsel.</p></div>
+    <div class="card"><h3>Whiteboard-Runde</h3><p style="font-size:.9rem">Kurze Fragen, alle schreiben, „drei, zwei, eins, hoch“. Du siehst sofort, was sitzt. Passt mitten in die Stunde.</p></div>
+    <div class="card"><h3>Vier Fragen zu einem Begriff</h3><p style="font-size:.9rem">Zu zweit: Was ist es? Warum heißt es so? Wozu dient es? Ein eigenes Beispiel? Passt für Fachbegriffe.</p></div>
+  </div>
+  <div class="field"><label for="fmtWahl">Welches Format passt zu welcher Situation in deinem Unterricht?</label><textarea id="fmtWahl" data-store="fmtWahl" placeholder="z. B. Whiteboard-Runde nach der Erklärung in der 7b"></textarea></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Mein Do Now">
+  <span class="eyebrow">Station 5 · Mein Do Now nach 3-2-1</span>
+  <h2>Sechs Fragen für Montag.</h2>
+  <p class="lead">Drei von gestern, zwei von letzter Woche, eine vom letzten Monat. Alle ohne Hilfsmittel lösbar. Warum die Staffelung über die Zeit so viel bringt, klärt das nächste Modul.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0"><label for="dnKlasse">Klasse und Fach</label><input type="text" id="dnKlasse" data-store="dnKlasse" placeholder="…"></div>
+    <div class="field"><label for="dn3">Drei Fragen von gestern</label><textarea id="dn3" data-store="dn3" placeholder="1. …&#10;2. …&#10;3. …"></textarea></div>
+    <div class="field"><label for="dn2">Zwei Fragen von letzter Woche</label><textarea id="dn2" data-store="dn2" placeholder="1. …&#10;2. …"></textarea></div>
+    <div class="field"><label for="dn1">Eine Frage vom letzten Monat <span class="sub">Ist sie wirklich so alt? Typisch ist, dass alles aus derselben Woche stammt.</span></label><input type="text" id="dn1" data-store="dn1" placeholder="…"></div>
+    <label class="self-check"><input type="checkbox" data-store="dnAnw"><span>Mindestens eine Frage verlangt Anwenden, nicht nur Nennen.</span></label>
+    <label class="self-check"><input type="checkbox" data-store="dnSatz"><span>Ich habe mir den Satz für die Klasse zurechtgelegt: „Das ist Training, keine Prüfung.“</span></label>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 6 · Quiz</span>
+  <h2>Fünf Fragen zu Modul 3.4.</h2>
+  <p class="lead">Zu jeder Antwort bekommst du eine kurze Rückmeldung, auch zu den falschen.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Baue aus deinem letzten Exit Ticket und zwei alten Meilensteinen ein 3-2-1-Do-Now für Montag (6 Fragen skizzieren, Kategorien markieren).</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" data-reveal="transferNote">Muster anzeigen</button></p>
+    <p class="quiz-note reveal" id="transferNote" style="border-top:1px dashed var(--line)">Bewertungsanker: 3× gestern/aktuell, 2× Vorwoche, 1× ≥ Monat; alle ohne Hilfsmittel lösbar.)*
+
+---
+
+# Anhang 3: Ableitung für die SPA „Modul 3.4"
+
+1. **Hook (3 Min., der Zahltag!):** Der Experiment-Test digital: 10-Begriffe-Eingabe, App vergleicht mit der Modul-3.3-Gruppenzuteilung und zeigt das PERSÖNLICHE Ergebnis + die (anonyme) Kohorten-Statistik A vs. B. Wer das M3.3-Setup übersprang: Sofort-Variante (2-Min.-Lernen, 10-Min.-Distraktor-Spiel, Test).
+2. **See it (3 Min.):** Ebbinghaus-Kurve interaktiv: Jeder Abruf-Klick knickt die Kurve nach oben und flacht den Zerfall – der „Kurven-Bruch" als Kernbild.
+3. **Name it (3 Min.):** Gütekriterien + Formate-Landkarte als Karten; Fehlersuche: 4 beschriebene Quiz-Praxen → welches Kriterium verletzt?
+4. **Do it – 3-2-1-Baukasten (8 Min., Engine!):** zieht automatisch die eigenen Ticket-Aufgaben (Modul 2.6) und Meilenstein-Prüffragen (Modul 2.2) als Fragenquelle; Nutzer kategorisiert und terminiert; Export als Wochen-Starter-Set.
+5. **Die SPA lebt es selbst (Dauerfeature ab hier prominent):** Karteikarten-Engine über alle Module wird freigeschaltet/beworben – „Du hast gerade bewiesen, dass es wirkt. Ab jetzt fragt dich die App ab." (Spaced-Retrieval über den Programmstoff.)
+6. **Quiz (Teil 2</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 7 · Action Step</span>
+  <h2>Dein Action Step bis zum nächsten Input.</h2>
+  <p class="lead">Wähle einen Action Step. Er gilt für zwei Wochen; in der Austauschwoche schärfst du ihn nach.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+  <div class="card">
+    <h3>Wie die Klasse reagiert</h3>
+    <p class="hint">Notiere am ersten, dritten und fünften Tag, wie die Klasse auf das Quiz reagiert. Meist ändert es sich schnell.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+  </div>
+  
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt ins nächste Coaching-Gespräch ein)</span></h3>
+    <div class="field" style="margin-top:.5rem"><label for="exitMit">Welches Format ich zuerst ausprobiere:</label><textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea></div>
+    <div class="field"><label for="exitSorge">Was mich an Quizzen ohne Note noch zweifeln lässt:</label><textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea></div>
+  </div>
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Beim nächsten Input kommt die unbequemste Erkenntnis des Programms: Die Stunde, die sich am glattesten anfühlt, ist oft nicht die, aus der am meisten bleibt.“</div>
+</section>
+
+</main>
+
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul3-4-abruf"></script>
+<script>
+"use strict";
+const MOD={"n": "3.4", "key": "modul3-4-abruf", "file": "modul3-4-abruf", "title": "Abrufen schlägt Wiederlesen"};
+const STATE_VERSION=1;
+const STARTER=[{"q": "Welche drei Hebel lenken die Aufmerksamkeit (M3.3)?", "a": "ein konkreter Beachtungsauftrag vor jedem Medium / Markierungen im Vortrag („Der wichtigste Satz kommt jetzt“) / Aufgaben, die sich nur mit dem Zielgedanken lösen lassen"}, {"q": "Mit welcher Frage prüfst du eine Aufgabe?", "a": "„Was muss man denken, um sie zu lösen, und geht es auch ohne?“"}, {"q": "(Szene) Du zeigst gleich ein Diagramm. Formuliere einen Beachtungsauftrag.", "a": "konkret und abhakbar, vor dem Zeigen, z. B. „Vergleicht die Balken von A und B: Um welchen Faktor unterscheiden sie sich?“"}, {"q": "Welche drei Quellen unnötiger Belastung gibt es (M3.2)?", "a": "Split Attention, Redundanz, Transienz"}, {"q": "Wie heißen die vier Stufen der Treppe (M2.4)?", "a": "Vollbeispiel → Lückenbeispiel → nur der Anfang → ohne Hilfe"}, {"q": "Wie lauten die Stufen 1 bis 3 der Interventionsleiter (M1.5)?", "a": "nonverbal → positive Gruppenkorrektur → anonyme Einzelkorrektur"}];
+const QUIZ=[{"q": "F1. Wiederlesen fühlt sich flüssig an, sich selbst abfragen fühlt sich mühsam an. Was folgt daraus?", "opts": [{"t": "Wiederlesen ist wirksamer, weil dabei weniger Fehler passieren.", "ok": false, "note": "Das Gefühl täuscht: Wiedererkennen ist noch nicht Können."}, {"t": "Beides wirkt gleich gut, es ist eine Frage des Typs.", "ok": false, "note": "Der Vorsprung des Abrufens ist sehr gut belegt."}, {"t": "Die Mühe beim Abrufen ist der Lerneffekt.", "ok": true, "note": "Was sich holprig anfühlt, bleibt. Diese Verwechslung erklärt, warum so viele mit Textmarker lernen."}, {"t": "Abfragen lohnt sich nur bei reinem Faktenwissen.", "ok": false, "note": "Auch Anwenden ist Abruf."}]}, {"q": "F2. Wie setzt du Abruf-Quizze so ein, dass sie dem Lernen dienen?", "opts": [{"t": "Benotet, damit die Klasse sie ernst nimmt.", "ok": false, "note": "Mit Note wird aus Training eine Bedrohung. Fehler werden dann versteckt."}, {"t": "Unangekündigt und schwer, damit sie wachrütteln.", "ok": false, "note": "Das erzeugt Angst, keinen Abruf."}, {"t": "Vor allem in der Woche vor der Klassenarbeit.", "ok": false, "note": "Dann fehlt der Abstand, der den Abruf wirksam macht."}, {"t": "Ohne Note, regelmäßig und mit sofortiger Auflösung.", "ok": true, "note": "Dazu gehört der Satz an die Klasse: „Das ist Training, keine Prüfung.“"}]}, {"q": "F3. Beim Do-Now-Quiz haben viele das Heft aufgeschlagen. Wie reagierst du?", "opts": [{"t": "Ich lasse es laufen. Hauptsache, die Antworten stimmen.", "ok": false, "note": "Dann wird nachgelesen, nicht abgerufen."}, {"t": "Hefte zu. Mit offenem Heft ist es Nachlesen, kein Abruf.", "ok": true, "note": "Nur wer aus dem Kopf schreibt, ruft ab. Die Auflösung kommt direkt danach."}, {"t": "Ich erlaube es den Schwächeren.", "ok": false, "note": "Gerade sie brauchen den Abruf. Besser: leichtere Fragen, gleiches Verfahren."}, {"t": "Ich erlaube es bei den schweren Fragen.", "ok": false, "note": "Schwere Fragen dürfen falsch beantwortet werden. Die Auflösung klärt sie."}]}, {"q": "F4. Ein Schüler lernt mit Textmarker und liest seine Zusammenfassung dreimal. Was rätst du ihm?", "opts": [{"t": "Heft zu, sich selbst abfragen, dann kontrollieren.", "ok": true, "note": "Dieselbe Zeit, mehr bleibt. Es fühlt sich schwerer an, und das ist richtig so."}, {"t": "Öfter lesen, aber über mehrere Tage verteilt.", "ok": false, "note": "Verteilen hilft. Ohne Abruf bleibt es trotzdem Wiederlesen."}, {"t": "Die Zusammenfassung noch einmal sauber abschreiben.", "ok": false, "note": "Abschreiben ist Kopieren. Es wird nichts aus dem Gedächtnis geholt."}, {"t": "Mehr Farben für wichtige Stellen verwenden.", "ok": false, "note": "Markieren fühlt sich nach Arbeit an, bringt aber wenig."}]}, {"q": "F5. Was bedeutet der Satz „Auch Anwenden ist Abruf“?", "opts": [{"t": "Anwendungsaufgaben ersetzen das Abfragen von Fakten.", "ok": false, "note": "Sie ergänzen es. Fakten und Anwendung gehören beide dazu."}, {"t": "Anwenden kommt erst, wenn die Fakten sitzen.", "ok": false, "note": "Beides kann von Anfang an nebeneinander laufen."}, {"t": "Wer Wissen in einer neuen Situation benutzt, holt es aus dem Gedächtnis und verknüpft es neu.", "ok": true, "note": "Deshalb gehören auch Anwendungsfragen ins Do Now."}, {"t": "Anwenden ist wichtiger als Erinnern.", "ok": false, "note": "Ohne Erinnern gibt es nichts anzuwenden."}]}];
+const ACTIONSTEPS=[{"id": "donow", "label": "Standard · Do Now nach 3-2-1", "text": "Mein Do Now besteht ab sofort aus Abruffragen nach dem 3-2-1-Muster, und ich sage der Klasse: „Das ist Training, keine Prüfung. Fehler sind hier willkommen.“"}, {"id": "dump", "label": "Alternative 1 · Alles aufschreiben", "text": "Vor jedem Themenwechsel schreiben alle fünf Minuten lang auf, was sie zum Thema wissen, und gleichen es danach ab."}, {"id": "rede", "label": "Alternative 2 · Lernberatung", "text": "Ich erkläre meiner Klasse in fünf Minuten, warum Wiederlesen sich gut anfühlt und wenig bringt."}];
+const LOG_ROWS=3, LOG_ROW_LABEL="Tag", LOG_TITLE="Wie die Klasse reagiert";
+const LOG_FIELDS=[{"f": "prod", "label": "wie viele schreiben wirklich", "ph": "z. B. 22 von 26"}, {"f": "reak", "label": "Reaktion der Klasse", "ph": "…"}, {"f": "aend", "label": "was ich anpasse", "ph": "…"}];
+const EXIT_LABELS=["Welches Format ich zuerst ausprobiere:", "Was mich an Quizzen ohne Note noch zweifeln lässt:"];
+const FIXED_ARRAYS=["krit"].concat(['starterOpen','starterRate']);
+
+/* ================= Gemeinsame Bausteine Block 3 ================= */
+const RATE=['gewusst','teilweise','nicht gewusst'];
+function fill(n,v){return Array.from({length:n},()=>v);}
+function val(k){return (state[k]==null?'':String(state[k])).trim();}
+function fld(label,k){return label+': '+(val(k)||'–');}
+function $(id){return document.getElementById(id);}
+
+/* Auswahlkarten: items=[{tag,t,ok,note,opts?}] */
+const PICKS={};
+function pickList(key,elId,items,opts){PICKS[key]={elId:elId,items:items,opts:opts};renderPick(key);}
+function renderPick(key){
+  const P=PICKS[key],wrap=$(P.elId);if(!wrap)return;wrap.innerHTML='';
+  P.items.forEach((it,i)=>{
+    const sel=state[key][i],o=it.opts||P.opts,long=!!it.opts;
+    const div=document.createElement('div');div.className='quiz-item';
+    let btn='';
+    o.forEach((t,j)=>{
+      let c=long?'quiz-opt':'cat-chip';
+      if(sel>-1){if(j===it.ok)c+=long?' right':' correct';else if(j===sel)c+=' wrong';}
+      btn+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+(sel>-1?' disabled':'')+'>'+t+'</button>';
+    });
+    div.innerHTML=(it.tag?'<span class="step-label" style="margin-top:0;display:block">'+it.tag+'</span>':'')
+      +'<p class="quiz-q" style="font-weight:500">'+it.t+'</p><div class="'+(long?'quiz-opts':'chip-row')+'">'+btn+'</div>'
+      +(sel>-1?'<p class="quiz-note on">'+(sel===it.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+it.note+'</p>':'');
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-i]').forEach(b=>b.addEventListener('click',()=>{state[key][+b.dataset.i]=+b.dataset.j;scheduleSave();renderPick(key);renderSummary();}));
+}
+function pickDone(key){return state[key].filter(v=>v>-1).length;}
+function pickScore(key){return state[key].reduce((a,v,i)=>a+(v===PICKS[key].items[i].ok?1:0),0);}
+function pickRow(label,key){const n=PICKS[key].items.length,d=pickDone(key);return [label,d===n?'✓ '+pickScore(key)+'/'+n+' richtig':d+'/'+n,d===n];}
+function pickText(label,key){return label+': '+pickScore(key)+' von '+PICKS[key].items.length+' richtig';}
+
+/* Karten zur Selbstkontrolle: cards=[{q,a}] */
+const FLASHES={};
+function flashList(key,elId,cards,resId){FLASHES[key]={elId:elId,cards:cards,resId:resId};renderFlashes(key);}
+function renderFlashes(key){
+  const F=FLASHES[key],wrap=$(F.elId);if(!wrap)return;wrap.innerHTML='';
+  const open=state[key+'Open'],rate=state[key+'Rate'];
+  F.cards.forEach((f,i)=>{
+    const div=document.createElement('div');div.className='flash'+(open[i]?' open':'');
+    let chips='';RATE.forEach((r,j)=>{chips+='<button class="cat-chip'+(rate[i]===j?' sel':'')+'" data-r="'+i+'" data-j="'+j+'">'+r+'</button>';});
+    div.innerHTML='<div class="fq">'+(i+1)+'. '+f.q+'</div>'
+      +(open[i]?'':'<p style="margin-top:.5rem"><button class="btn ghost small" data-o="'+i+'">Antwort zeigen</button></p>')
+      +'<div class="fa">'+f.a+'<div class="chip-row">'+chips+'</div></div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-o]').forEach(b=>b.addEventListener('click',()=>{open[+b.dataset.o]=true;scheduleSave();renderFlashes(key);}));
+  wrap.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{rate[+b.dataset.r]=+b.dataset.j;scheduleSave();renderFlashes(key);renderSummary();}));
+  const c=flashCounts(key),done=c[0]+c[1]+c[2],res=$(F.resId);
+  if(res){
+    const weak=F.cards.map((f,i)=>rate[i]===2?(i+1):null).filter(Boolean);
+    res.innerHTML=done?'<h3>Dein Stand</h3><p>'+c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst ('+done+' von '+F.cards.length+' bewertet)</p>'
+      +(weak.length?'<p class="hint">Nicht gewusst: Frage '+weak.join(', ')+'. Genau diese Fragen lohnen sich für deine nächste Wiederholung.</p>':'')
+      :'<p class="hint">Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Deck dann auf und bewerte ehrlich.</p>';
+  }
+}
+function flashCounts(key){const c=[0,0,0];state[key+'Rate'].forEach(v=>{if(v>-1)c[v]++;});return c;}
+function flashRow(label,key){const c=flashCounts(key),d=c[0]+c[1]+c[2],n=FLASHES[key].cards.length;return [label,d===n?'✓ '+c[0]+' gewusst, '+c[1]+' teilweise, '+c[2]+' nicht':d+'/'+n+' bewertet',d===n];}
+function flashText(key){const c=flashCounts(key),F=FLASHES[key];return c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst\nNicht gewusst: '+(F.cards.map((f,i)=>state[key+'Rate'][i]===2?(i+1)+'. '+f.q:null).filter(Boolean).join(' | ')||'–');}
+
+/* Etwas für n Sekunden zeigen */
+function timedShow(boxId,secs,done){
+  const box=$(boxId);box.style.display='block';let left=secs;
+  const c=box.querySelector('.count');if(c)c.textContent=left;
+  box.scrollIntoView({block:'center',behavior:'smooth'});
+  const iv=setInterval(()=>{left--;if(c)c.textContent=left;if(left<=0){clearInterval(iv);box.style.display='none';done();}},1000);
+  return iv;
+}
+/* Aufdecken per Knopf: <button data-reveal="id"> */
+function bindReveals(){
+  document.querySelectorAll('[data-reveal]').forEach(b=>{
+    const id=b.dataset.reveal,el=$(id);
+    if(state['rv_'+id])el.classList.add('on');
+    b.onclick=()=>{el.classList.add('on');state['rv_'+id]=true;scheduleSave();};
+  });
+}
+/* Ankreuzlisten: items=[text] */
+function checkList(key,elId,items){
+  const wrap=$(elId);if(!wrap)return;
+  wrap.innerHTML=items.map((t,i)=>'<label class="self-check"><input type="checkbox" data-c="'+i+'"'+(state[key][i]?' checked':'')+'><span>'+t+'</span></label>').join('');
+  wrap.querySelectorAll('[data-c]').forEach(c=>c.addEventListener('change',()=>{state[key][+c.dataset.c]=c.checked;scheduleSave();renderSummary();}));
+}
+
+/* ---- Zustand, Zusammenfassung, Druck: aus den Angaben des Moduls ---- */
+function freshState(){
+  const s={v:STATE_VERSION,name:'',quizSel:QUIZ.map(()=>0),transferAnswer:'',actionStep:ACTIONSTEPS[0].id,log:emptyLog(),
+    exitMit:'',exitSorge:'',commit:false,screen:0,submitted:false,submittedAt:null,submissionText:'',
+    starterOpen:fill(STARTER.length,false),starterRate:fill(STARTER.length,-1)};
+  document.querySelectorAll('[data-store]').forEach(el=>{const k=el.dataset.store;if(!(k in s))s[k]=el.type==='checkbox'?false:'';});
+  return Object.assign(s,moduleState());
+}
+function normalizeModule(f){
+  Object.keys(f).forEach(k=>{
+    if(state[k]===undefined){state[k]=f[k];return;}
+    if(Array.isArray(f[k])&&(!Array.isArray(state[k])||(FIXED_ARRAYS.indexOf(k)>-1&&state[k].length!==f[k].length)))state[k]=f[k];
+  });
+}
+function refreshModuleUI(){bindReveals();flashList('starter','starterList',STARTER,'starterResult');renderModule();}
+function summaryRows(){
+  return [flashRow('Abruf','starter')].concat(ROWS()).concat([
+    ['Quiz',quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+    ['Action Step',state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]]);
+}
+function ALLSECTIONS(){return [['Abruf zu Beginn',flashText('starter')]].concat(SECTIONS());}
+function summaryText(){let t=summaryHead();ALLSECTIONS().forEach(s=>{t+='— '+s[0].toUpperCase()+' —\n'+s[1]+'\n\n';});return t+summaryTail();}
+function buildPrint(){let h=printHead();ALLSECTIONS().forEach(s=>{h+='<h2>'+esc(s[0])+'</h2><div class="ans">'+esc(s[1])+'</div>';});return h+printActionBlock()+printTail();}
+
+const TERMS=["Cold Call", "Wait Time", "No Opt Out", "Right is Right", "Stretch It", "Turn and Talk", "Everybody Writes", "Show Call", "Affirmative Checking", "Own and Track"];
+const KRIT_OPTS=['mit Hilfsmittel','nicht von allen','mit Note','ohne Auflösung','nur gelegentlich'];
+const KRIT=[
+ {t:'Beim Quiz dürfen die Schüler im Heft nachschlagen, „damit niemand frustriert ist“.',ok:0,note:'Dann wird nachgelesen. Besser: leichtere Fragen, Heft zu.'},
+ {t:'Die Lehrkraft stellt fünf Fragen mündlich und nimmt jeweils einen Melder dran.',ok:1,note:'Abgerufen haben fünf Schüler. Alle schreiben, dann wird aufgelöst.'},
+ {t:'Die Ergebnisse der Quizze fließen in die Mitarbeitsnote ein.',ok:2,note:'Ein einziges benotetes Quiz reicht, damit Fehler wieder versteckt werden.'},
+ {t:'Die Zettel werden eingesammelt, die Lösungen gibt es in der nächsten Woche.',ok:3,note:'Bis dahin haben sich die falschen Antworten gefestigt.'},
+ {t:'Einmal vor jeder Klassenarbeit gibt es ein großes Wiederholungsquiz.',ok:4,note:'Wirksam ist der kurze Abruf in jeder Stunde.'}
+];
+function moduleState(){return {krit:fill(KRIT.length,-1),expGroup:'',recallN:-1};}
+function norm(s){return s.toLowerCase().replace(/[^a-z]/g,'');}
+function recallShow(){
+  $('expGroupSel').value=state.expGroup||'';
+  if(state.recallN<0)return;
+  const g=state.expGroup;
+  $('recallRes').classList.add('on');
+  $('recallRes').innerHTML='<h3>Dein Ergebnis: '+state.recallN+' von 10</h3>'
+    +'<p style="font-size:.92rem">'+(g==='A'?'Du hast dreimal gelesen.':g==='B'?'Du hast einmal gelesen und dich zweimal abgefragt.':'Du hast ohne den Versuch geantwortet.')+' In der Sitzung vergleicht ihr die beiden Gruppen.</p>'
+    +'<p style="font-size:.92rem">In Studien mit vielen Teilnehmenden behält die Gruppe, die sich abfragt, bei gleicher Lernzeit deutlich mehr. Das heißt Testing Effect. In einer kleinen Gruppe kann der Unterschied gering ausfallen oder fehlen; das widerlegt den Befund nicht.</p>'
+    +'<p class="hint">Fehlende Begriffe: '+(TERMS.filter(t=>norm(state.expRecall||'').indexOf(norm(t))<0).join(', ')||'keine')+'</p>'
+    +'<div class="field"><label for="expFeel">Falls du in Gruppe B warst: Wie hat sich das Abfragen im Vergleich zum Lesen angefühlt?</label><input type="text" id="expFeel" placeholder="…"></div>';
+  const f=$('expFeel');f.value=state.expFeel||'';f.oninput=()=>{state.expFeel=f.value;scheduleSave();};
+}
+function renderModule(){
+  $('expGroupSel').onchange=()=>{state.expGroup=$('expGroupSel').value;scheduleSave();recallShow();};
+  $('recallBtn').onclick=()=>{const a=norm($('expRecall').value);state.recallN=TERMS.filter(t=>a.indexOf(norm(t))>-1).length;scheduleSave();recallShow();renderSummary();};
+  recallShow();pickList('krit','kritList',KRIT,KRIT_OPTS);
+}
+async function afterInit(){
+  if(state.expGroup)return;
+  const prev=await loadOtherModule('modul3-3-aufmerksamkeit');
+  if(prev&&prev.expGroup){state.expGroup=prev.expGroup;scheduleSave();recallShow();}
+}
+function ROWS(){
+  return [['Test',state.recallN>-1?'✓ '+state.recallN+'/10 (Gruppe '+(state.expGroup||'–')+')':'noch offen',state.recallN>-1],pickRow('Kriterien','krit'),['Mein Do Now',val('dn3')&&val('dn1')?'✓ geschrieben':'noch offen',!!(val('dn3')&&val('dn1'))]];
+}
+function SECTIONS(){
+  return [['Selbstversuch','Gruppe '+(state.expGroup||'–')+' · '+(state.recallN>-1?state.recallN+' von 10 Begriffen':'nicht ausgewertet')+'\n'+fld('Gefühl beim Abfragen','expFeel')],
+    ['Übungen',pickText('Kriterien','krit')+'\n'+fld('Formate und Situationen','fmtWahl')],
+    ['Mein Do Now',fld('Klasse','dnKlasse')+'\nGestern: '+(val('dn3')||'–')+'\nLetzte Woche: '+(val('dn2')||'–')+'\nLetzter Monat: '+(val('dn1')||'–')]];
+}
+
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus früheren Modulen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für die nächsten zwei Wochen: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+
+</script>
+</body>
+</html>

@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie plane ich eine ganze Einheit so, dass jede Stunde auf die Arbeit einzahlt – ohne Mehraufwand? |
 | **Kernquellen** | McCrea, *Lean Lesson Planning* (Unit-Ebene, Inter-Lesson-Planning); Lemov T4 (Double Plan); Verzahnung: Backwards Design (M2.2), Spacing-Landkarte (M3.5), Fading/Stretch (M2.4/4.3) |
-| **Funktion im Jahr** | Hebt Lean von der Stunde auf die Einheit: Die Klassenarbeit wird ZUERST skizziert (Backwards Design in Großformat) – das entschärft nebenbei die M6.3-Korrekturlast (wer die Arbeit früh baut, baut sie auswertbar). Inter-Lesson-Planning ersetzt die Illusion des starren Wochenplans durch tägliche Feinsteuerung. Double Plan schließt die letzte Planungs-Lücke: die Schülerspalte. Differenzierung wird pragmatisch eingebaut statt angeflanscht. |
+| **Funktion im Programm** | Hebt Lean von der Stunde auf die Einheit: Die Klassenarbeit wird ZUERST skizziert (Backwards Design in Großformat) – das entschärft nebenbei die M6.3-Korrekturlast (wer die Arbeit früh baut, baut sie auswertbar). Inter-Lesson-Planning ersetzt die Illusion des starren Wochenplans durch tägliche Feinsteuerung. Double Plan schließt die letzte Planungs-Lücke: die Schülerspalte. Differenzierung wird pragmatisch eingebaut statt angeflanscht. |
 | **Lernziele** | Die TN können:<br>1. eine Einheit rückwärts aufziehen (Arbeit skizzieren → Meilensteine → Stundenkette → Spacing-Anker),<br>2. Inter-Lesson-Planning praktizieren (5 Abend-Minuten: Ticket-Befund → Morgen-Feinjustierung),<br>3. per Double Plan die Schülertätigkeit pro Phase mitplanen und Passivitätslöcher finden,<br>4. Differenzierung als Kern+Rampe strukturieren (Gerüst unten, Stretch oben, mit Fading-Ausstieg). |
 | **Sitzungstyp** | Werkstatt-Sitzung: der Einheiten-Canvas an der REALEN nächsten Klassenarbeit – der Output geht direkt in den Unterricht. |
 
@@ -31,7 +31,7 @@
 
 ## Phase 0 · Ankommen (Minute 0–2) — Standard.
 
-## Phase 1 · Retrieval-Starter (Minute 2–8) — 5 Fragen (Anhang 2, Teil 1), Whiteboards.
+## Phase 1 · Retrieval-Starter (Minute 2–8) — 6 Fragen (Anhang 2, Teil 1), Whiteboards.
 
 ## Phase 2 · Brücke & Provokation (Minute 8–13)
 
@@ -43,15 +43,15 @@
 
 ### 3a · Der Vierschritt der Einheitsplanung (Min. 13–19)
 > *„**Schritt eins: Arbeit skizzieren.** Aufgabentypen + Anforderungsniveaus + grobe Punktverteilung – die Skizze, nicht die Endfassung. Zwanzig Minuten, und sie beantwortet nebenbei die Frage, die sonst jede Stundenplanung quält: Was ist hier eigentlich wichtig?*
-> *​**Schritt zwei: Meilensteine der Einheit.** Aus der Skizze fallen sie heraus: vier bis sechs Könnens-Stationen, kumulativ – dieselbe Ampel wie in Modul 2.2, eine Ebene höher.*
-> *​**Schritt drei: die Stundenkette.** Jede Stunde bekommt EINEN Meilenstein-Schwerpunkt plus ihr Standardgerüst – ihr plant die einzelne Stunde weiter lean in zwanzig Minuten; die Kette sagt euch nur, WOHIN die jeweilige Stunde zeigt. Wichtig: Die Kette ist ein Plan mit BLEISTIFT – warum, gleich.*
-> *​**Schritt vier: Spacing-Anker setzen.** Eure Landkarte aus Modul 3.5 wird jetzt Einheiten-Standard: Wo kehrt der Stoff von Stunde 1 in Stunde 4 zurück? Welche ALTE Einheit bekommt in dieser ihre Wiederkehr (Starter, Übungsset, zwei Aufgaben in der Arbeit – kumulativ prüfen, angekündigt)? Vier Kreuzchen auf dem Canvas, eine Minute Arbeit."*
+> ***Schritt zwei: Meilensteine der Einheit.** Aus der Skizze fallen sie heraus: vier bis sechs Könnens-Stationen, kumulativ – dieselbe Ampel wie in Modul 2.2, eine Ebene höher.*
+> ***Schritt drei: die Stundenkette.** Jede Stunde bekommt EINEN Meilenstein-Schwerpunkt plus ihr Standardgerüst – ihr plant die einzelne Stunde weiter lean in zwanzig Minuten; die Kette sagt euch nur, WOHIN die jeweilige Stunde zeigt. Wichtig: Die Kette ist ein Plan mit BLEISTIFT – warum, gleich.*
+> ***Schritt vier: Spacing-Anker setzen.** Eure Landkarte aus Modul 3.5 wird jetzt Einheiten-Standard: Wo kehrt der Stoff von Stunde 1 in Stunde 4 zurück? Welche ALTE Einheit bekommt in dieser ihre Wiederkehr (Starter, Übungsset, zwei Aufgaben in der Arbeit – kumulativ prüfen, angekündigt)? Vier Kreuzchen auf dem Canvas, eine Minute Arbeit."*
 
 ### 3b · Inter-Lesson-Planning (Min. 19–23)
 > *„Und jetzt der Bleistift: **Kein Einheitenplan überlebt den Kontakt mit dem Ticket-Stapel** – und das ist keine Schwäche des Plans, das ist der Sinn eures CFU-Systems. McCrea nennt die Konsequenz Inter-Lesson-Planning: Die eigentliche Feinplanung passiert ZWISCHEN den Stunden, in fünf Abendminuten: Ticket sortiert (könnt ihr in zehn Minuten, Modul 2.6) → Befund → Morgen-Justierung: Reteach-Baustein rein? Eine Stunde Puffer ziehen? Stretch für die, die durch sind? Die Kette gibt die Richtung, das Ticket gibt das Tempo. Wer den Wochenplan freitags für fünf Tage festmeißelt, unterrichtet ab Dienstag am Befund vorbei. Deshalb hat euer Canvas eine Pufferstunde eingebaut – nicht als Luxus, als Statik."*
 
 ### 3c · Double Plan + Kern & Rampe (Min. 23–27)
-> *„Zwei Ergänzungen, dann baut ihr. Erstens **Double Plan**, Lemovs Technik 4 – die simpelste Planungs-Revolution des Jahres: Euer Plan bekommt eine zweite Spalte: **Was tun die SCHÜLER in dieser Phase – konkret, alle?** Ich erkläre – und sie? ‚Hören zu' ist keine Antwort, das wisst ihr seit Modul 3.3: Zuhören ohne Auftrag ist ein Würfelwurf. Die Schülerspalte deckt die **Passivitätslöcher** auf – die Phasen, in denen 28 Menschen laut Plan nichts Bestimmtes tun. Jedes Loch bekommt einen Füller aus dem Repertoire: Notier-Auftrag, Board-Frage, Everybody Writes.*
+> *„Zwei Ergänzungen, dann baut ihr. Erstens **Double Plan**, Lemovs Technik 4 – die simpelste Planungs-Revolution des Programms: Euer Plan bekommt eine zweite Spalte: **Was tun die SCHÜLER in dieser Phase – konkret, alle?** Ich erkläre – und sie? ‚Hören zu' ist keine Antwort, das wisst ihr seit Modul 3.3: Zuhören ohne Auftrag ist ein Würfelwurf. Die Schülerspalte deckt die **Passivitätslöcher** auf – die Phasen, in denen 28 Menschen laut Plan nichts Bestimmtes tun. Jedes Loch bekommt einen Füller aus dem Repertoire: Notier-Auftrag, Board-Frage, Everybody Writes.*
 > *Zweitens **Differenzierung, pragmatisch – Kern und Rampe:** Der KERN ist der Meilenstein, den alle erreichen – daran ist nichts verhandelbar. Nach unten führt die Rampe über GERÜSTE: Lückenbeispiel statt blank, Ansatz vorgegeben – eure Fading-Treppe, mit geplantem Ausstieg: Das Gerüst wird abgebaut, sonst wird die Hilfe zur Decke. Nach oben führt die Rampe über STRETCH: die Anschlussfrage, die Transferaufgabe, das ‚Beweise es auch anders' – Modul 4.3, jetzt als geplante Aufgabenstufe statt spontaner Reaktion. Keine drei Arbeitsblatt-Versionen, kein Differenzierungs-Bastelabend: ein Kern, zwei Rampen, aus Werkzeugen, die ihr habt."*
 
 ## Phase 4 · Name it (Minute 27–30)
@@ -105,43 +105,46 @@ Raster: Phase | Ich tue … | **ALLE Schüler tun … (konkret, prüfbar!)** —
 
 # Anhang 2: Quiz-Material
 
-## Teil 1: Retrieval-Starter (Min. 2–8, Whiteboards)
-1. Die Lean-Fragenfolge (M6.1)? *(Wohin → Woran → Wie → Was kommt zurück)*
-2. Die Prüfregel? *(Wer bei „Wie?" anfängt, plant Beschäftigung)*
-3. Was heißt „80 % genügen" – und was heißt es NICHT? *(Kosmetik-Verzicht; die fünf Fragen aus M2.1 sind nicht verhandelbar)*
-4. Die zwei Spacing-Einbau-Regeln (M3.5)? *(jedes Quiz kumulativ; ≥25 % Altstoff im Set)*
-5. (Anwendung) Dein Ticket zeigt abends: 40 % hängen an Schritt 2 – was steht morgen im Plan? *(Reteach-Baustein mit neuem Zugang [M4.6]; Kette per Bleistift verschoben, Puffer im Blick)*
+## Teil 1: Retrieval-Starter (6 Fragen nach dem 3-2-1-Muster: drei zum letzten Modul, zwei zu älteren Modulen, eine aus einem früheren Block)
+1. In welcher Reihenfolge planst du eine Stunde (M6.1)? *(Wohin? → Woran erkenne ich es? → Wie? → Was kommt zurück?)*
+2. Was heißt „80 % genügen“, und was heißt es nicht? *(auf Feinschliff am Material verzichten; Ziel, Prüfaufgabe und die fünf Fragen bleiben)*
+3. (Szene) Dein Exit Ticket zeigt abends: 40 % hängen an Schritt 2. Was steht morgen im Plan? *(zehn Minuten neuer Anlauf mit neuem Zugang; der Rest verschiebt sich)*
+4. Welche Regel gilt für den ersten Kontakt zu Eltern (M5.5)? *(nie der Problemkontakt; vorher kurz und positiv)*
+5. Welche zwei Regeln sorgen dafür, dass alter Stoff wiederkehrt (M3.5)? *(jedes Quiz enthält alten Stoff; jedes Übungsblatt zu mindestens einem Viertel)*
+6. Was ist die Idealantwort, und wozu schreibst du sie vorher (M2.2)? *(die ideale Schülerantwort zum Mindestziel; erst dann weiß ich genau, was ich will, und erkenne Lücken)*
 
 ## Teil 2: Modul-Quiz Modul 6.2 (für SPA/Austauschwoche)
-**F1.** Die Klassenarbeit entsteht idealerweise…
-a) nach der Einheit – erst dann weiß man, was drankam ✗ *(die Schulrealität!)*
-b) als Skizze VOR der Einheit: Sie ist die Idealantwort, auf die jede Stunde einzahlt ✓
-c) aus dem Lehrerband ✗
-d) parallel zur letzten Stunde ✗
+*Die Position der richtigen Antwort wechselt. In der SPA erscheint zu jeder gewählten Option die Rückmeldung in Klammern.*
 
-**F2.** „Kein Einheitenplan überlebt den Ticket-Stapel" bedeutet:
-a) Einheitsplanung ist sinnlos ✗ *(die zynische Lesart)*
-b) Die Kette gibt die Richtung, Inter-Lesson-Planning das Tempo – Bleistift + Puffer ✓
-c) Tickets sind unzuverlässig ✗
-d) Man plant besser gar nicht so weit ✗
+**F1.** Wann entsteht die Klassenarbeit einer Einheit am besten?
+a) Als Skizze vor der ersten Stunde der Einheit. ✓ *(Dann zahlt jede Stunde auf sie ein. Aufgabentypen und Niveaus reichen.)*
+b) In der Mitte der Einheit, wenn der Stand klar ist. ✗ *(Besser als danach. Die ersten Stunden hatten dann aber kein Ziel.)*
+c) Nach der Einheit, wenn feststeht, was drankam. ✗ *(So wird geprüft, was zufällig drankam.)*
+d) Aus dem Lehrerband, kurz vor dem Termin. ✗ *(Dann passt die Arbeit nicht zum Unterricht.)*
 
-**F3.** „Die Schüler hören zu" in der Schülerspalte ist…
-a) eine ehrliche, ausreichende Angabe ✗
-b) ein Passivitätsloch – ohne Auftrag ist Zuhören ein Würfelwurf ✓
-c) für Erklärphasen unvermeidlich ✗ *(klingt realistisch)*
-d) in Sek II akzeptabel ✗
+**F2.** Dienstagabend zeigen die Exit Tickets eine Lücke. Dein Wochenplan sieht für Mittwoch das nächste Thema vor. Was tust du?
+a) Ich halte den Plan ein, sonst schaffe ich den Stoff nicht. ✗ *(Dann unterrichtest du ab Mittwoch an der Lücke vorbei.)*
+b) Ich gebe die Lücke als Hausaufgabe auf. ✗ *(Was im Unterricht nicht gelang, gelingt allein selten.)*
+c) Ich passe den Plan an: erst die Lücke, dafür nutze ich die Pufferstunde. ✓ *(Der Einheitenplan gibt die Richtung, das Ticket das Tempo.)*
+d) Ich kürze dafür das letzte Thema der Einheit. ✗ *(Erst den Puffer nutzen. Dafür ist er eingeplant.)*
 
-**F4.** Pragmatische Differenzierung heißt:
-a) drei Arbeitsblatt-Versionen pro Stunde ✗ *(der Bastelabend-Mythos)*
-b) ein Kern für alle + Gerüst-Rampe runter (mit Ausstieg) + Stretch-Rampe rauf ✓
-c) Schwache bekommen leichtere Ziele ✗ *(die Absenkungs-Falle – M1.1/M1.6-Echo!)*
-d) Differenzierung ist Aufgabe der Förderlehrkraft ✗
+**F3.** In deiner Planung steht in der Schülerspalte: „hören zu“. Was ist davon zu halten?
+a) Das ist ehrlich und reicht aus. ✗ *(Ohne Auftrag ist offen, worüber nachgedacht wird (M3.3).)*
+b) Bei Erklärungen ist das unvermeidlich. ✗ *(Auch dort gibt es Aufträge: notieren, mitzeigen, eine Frage beantworten.)*
+c) In der Oberstufe ist das in Ordnung. ✗ *(Auch dort gilt: Zuhören ohne Auftrag ist Zufall.)*
+d) Das ist eine Lücke: Hier braucht es einen Auftrag für alle. ✓ *(Die Schülerspalte zeigt die Phasen, in denen niemand etwas Bestimmtes tut.)*
 
-**F5.** Das Gerüst für Schwache bleibt die ganze Einheit stehen. Problem:
-a) keins – Hilfe ist Hilfe ✗ *(fühlt sich fürsorglich an)*
-b) ohne geplanten Ausstieg wird das Gerüst zur Decke – Fading gehört dazu ✓
-c) die Starken beschweren sich ✗
-d) der Druck fehlt ✗
+**F4.** Wie differenzierst du mit vertretbarem Aufwand?
+a) Mit drei Versionen jedes Arbeitsblatts. ✗ *(Das ist auf Dauer nicht leistbar.)*
+b) Mit einem Ziel für alle, Hilfen für die einen und Zusatzfragen für die anderen. ✓ *(Hilfen aus der Treppe (M2.4), Zusatzfragen wie in M4.3.)*
+c) Mit leichteren Zielen für die Schwächeren. ✗ *(Andere Wege zum selben Ziel, nicht andere Ziele.)*
+d) Mit festen Gruppen nach Leistung. ✗ *(Das schreibt Unterschiede fest.)*
+
+**F5.** Eine Hilfe (zum Beispiel ein Lückenbeispiel) bleibt für die Schwächeren die ganze Einheit über stehen. Was ist das Problem?
+a) Keins, Hilfe ist Hilfe. ✗ *(Es fühlt sich fürsorglich an.)*
+b) Die Stärkeren fühlen sich benachteiligt. ✗ *(Das ist nicht das Problem.)*
+c) Ohne geplanten Abbau lernen sie nie, es ohne Hilfe zu können. ✓ *(Zu jeder Hilfe gehört der Plan, wann sie wegfällt.)*
+d) Die Korrektur wird aufwendiger. ✗ *(Darum geht es nicht.)*
 
 **F6 (Transfer, Freitext):** Deine Einheit „Lineare Funktionen" (6 Stunden + Arbeit). Skizziere den Canvas in Stichworten: 2 Arbeits-Aufgabentypen, 3 Meilensteine, die Position des Puffers, 1 Spacing-Anker. *(Bewertungsanker: Aufgabentypen mit Niveau; Meilensteine kumulativ; Puffer vor der Arbeit, nicht am Anfang; Anker = Altstoff-Rückkehr konkret benannt.)*
 

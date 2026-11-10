@@ -7,11 +7,11 @@
 
 | | |
 |---|---|
-| **Leitfrage** | Wie werde ich in einem Jahr eine handlungssichere Lehrkraft – warum verhalten sich Klassen so, wie sie sich verhalten – und wie funktioniert dieses Programm? |
+| **Leitfrage** | Wie werde ich in zwei Jahren eine handlungssichere Lehrkraft – warum verhalten sich Klassen so, wie sie sich verhalten – und wie funktioniert dieses Programm? |
 | **Kernquellen** | Lovell/Dowley, Einleitung (Bill-Rogers-Anekdote); Lemov, *Teach Like a Champion 3.0*, Kapitel 1 („Five Themes"); EEF *Effective Professional Development* (Programmdesign); Lemov et al., *Practice Perfect* (Übungslogik) |
-| **Funktion im Jahr** | Vertragsschluss **und** Grundlagenmodul in einem: gemeinsames Verständnis von Lernbarkeit, Übungskultur und psychologischer Sicherheit – plus die Deutungsbrille, auf die sich alle 35 Folgemodule beziehen. Baseline-Erhebung (Kompetenzmatrix M0). Hemmschwelle „laut üben" fällt am ersten Tag. |
-| **Lernziele** | Die TN können:<br>1. den Jahresaufbau und die drei Formate erklären,<br>2. das Prinzip „üben statt nur wissen" begründen,<br>3. die fünf mentalen Modelle in eigenen Worten erklären und eine reale Unterrichtssituation mit mindestens zwei davon deuten,<br>4. haben eine persönliche Zielvereinbarung und eine erste Mini-Übung absolviert. |
-| **Sitzungstyp** | Rahmung + Deutung + Erstkontakt mit dem Übungsformat. **Einzige 90-Minuten-Sitzung des Jahres** (sie liegt vor Unterrichtsbeginn, deshalb ist die Länge machbar) und einzige Sitzung ohne Retrieval-Starter – es gibt noch nichts abzurufen; das wird explizit gesagt und ab Modul 1.1 eingelöst. |
+| **Funktion im Programm** | Vertragsschluss **und** Grundlagenmodul in einem: gemeinsames Verständnis von Lernbarkeit, Übungskultur und psychologischer Sicherheit – plus die Deutungsbrille, auf die sich alle 35 Folgemodule beziehen. Baseline-Erhebung (Kompetenzmatrix M0). Hemmschwelle „laut üben" fällt am ersten Tag. |
+| **Lernziele** | Die TN können:<br>1. den Programmaufbau und die drei Formate erklären,<br>2. das Prinzip „üben statt nur wissen" begründen,<br>3. die fünf mentalen Modelle in eigenen Worten erklären und eine reale Unterrichtssituation mit mindestens zwei davon deuten,<br>4. haben eine persönliche Zielvereinbarung und eine erste Mini-Übung absolviert. |
+| **Sitzungstyp** | Rahmung + Deutung + Erstkontakt mit dem Übungsformat. **Einzige 90-Minuten-Sitzung des Programms** (sie liegt vor Unterrichtsbeginn, deshalb ist die Länge machbar) und einzige Sitzung ohne Retrieval-Starter – es gibt noch nichts abzurufen; das wird explizit gesagt und ab Modul 1.1 eingelöst. |
 
 **Die fünf mentalen Modelle (Kurzform für alle Materialien):**
 1. **Gedächtnis:** Arbeitsgedächtnis ist eng, Langzeitgedächtnis ist Macht.
@@ -27,7 +27,7 @@
 **Raum:** Stuhlkreis oder U-Form für den Rahmungsteil; Tische am Rand für Schreibphasen; freie Fläche für die Mini-Übung. **Anwesenheit der Schulleitung für Min. 0–5 organisieren** (EEF: glaubwürdige Quelle, institutionelle Rückendeckung).
 
 **Material (Checkliste):**
-- [ ] Programm-Landkarte als A3-Druck pro TN (Jahreskreis: 6 Blöcke farbig, 5 Hospitations-Fähnchen, 3 Meilenstein-Sterne, Kolloquium als Ziel)
+- [ ] Programm-Landkarte als A3-Druck pro TN (Zwei-Jahres-Überblick: 6 Blöcke farbig, 5 Hospitations-Fähnchen, 3 Meilenstein-Sterne, Kolloquium als Ziel)
 - [ ] Kompetenzmatrix-Bogen (Anhang 2) – ausreichend Kopien, wird 3× vollständig erhoben (M0/M3.6/M6.5), dazu Teil-Updates an den Meilensteinen M1.7/M2.6/M4.6/M5.5
 - [ ] Zielvereinbarungs-Formular (Anhang 3)
 - [ ] Handout A: „Die fünf Modelle" (Einseiter, bleibt als Referenzkarte) – wird erst in Min. 55 verteilt!
@@ -55,7 +55,7 @@ Vorab mit der Schulleitung abgestimmte Kernbotschaften (der Moderation als Brief
 
 > **Moderationstext (Vorschlag):**
 > *„Ich fange mit einer Geschichte aus dem Buch an, mit dem wir viel arbeiten werden. Oliver Lovell, erfahrener Lehrer und Podcaster, beschreibt seine ersten Jahre so: Er glaubte lange, gegen Unterrichtsstörungen helfe nur zweierlei – Erfahrung oder ein von Natur aus lauter Bariton. Man hat es, oder man hat es nicht. Dann sah er Kollegen, die weder besonders laut noch besonders alt waren – und deren Klassen ruhig und konzentriert arbeiteten. Und er entdeckte: Diese Leute TATEN konkrete, beschreibbare, kopierbare Dinge. Kein Charisma. Techniken.*
-> *Das ist die Gründungsidee dieses Jahres: **Unterrichten ist ein Handwerk. Und Handwerk ist lernbar.** Doug Lemov hat dafür hunderte Stunden Videomaterial von Lehrkräften analysiert, deren Klassen außergewöhnliche Ergebnisse erzielen – und das Ergebnis ist keine Liste von Persönlichkeitsmerkmalen, sondern eine Liste von Handlungen. Was eine Person tun kann, kann eine andere lernen.*
+> *Das ist die Gründungsidee dieses Programms: **Unterrichten ist ein Handwerk. Und Handwerk ist lernbar.** Doug Lemov hat dafür hunderte Stunden Videomaterial von Lehrkräften analysiert, deren Klassen außergewöhnliche Ergebnisse erzielen – und das Ergebnis ist keine Liste von Persönlichkeitsmerkmalen, sondern eine Liste von Handlungen. Was eine Person tun kann, kann eine andere lernen.*
 > *Was heißt das für euch? Drei Dinge, die ich euch heute verspreche – und drei, die ich von euch brauche.*
 > *Meine drei Versprechen: Erstens, ihr bekommt kein Theorie-Studium, sondern in jedem Input Werkzeug, das ihr am nächsten Montag benutzen könnt. Zweitens, die Reihenfolge ist für euch gebaut: Wir beginnen mit dem, was euch nachts wachhält – Klassenführung – und nicht mit Bildungstheorie. Drittens, hier wird niemand vorgeführt. Nie.*
 > *Meine drei Bitten: Erstens – hier wird geübt. Laut, im Rollenspiel, mit Skript. Das fühlt sich die ersten zwei Male albern an. Das ist normal, es vergeht, und es ist der Grund, warum dieses Programm funktioniert: Verhalten ändert sich durch Probehandeln, nicht durch Einsicht. Kein Mensch hat Fahrradfahren aus einem Vortrag gelernt. Zweitens – ein kleiner Schritt pro Woche. Ihr werdet jede Woche EINEN konkreten Action Step mitnehmen. Nicht fünf. Wer fünf Dinge gleichzeitig ändert, ändert keins. Drittens – Ehrlichkeit. Wenn etwas nicht klappt, ist das hier der sicherste Ort der Schule, es zu sagen. Aus euren Pannen lernt die ganze Gruppe."*
@@ -66,7 +66,7 @@ Vorab mit der Schulleitung abgestimmte Kernbotschaften (der Moderation als Brief
 
 Landkarte austeilen. Führung durchs Jahr in **Blöcken erzählen, nicht in Modulen aufzählen** (5 Min.):
 
-> *„Block 1, sieben Module: Klassenführung. Erst der Raum, dann die Kunst. Block 2: das Grundgerüst guten Erklärens und Übens – das am besten abgesicherte Wissen, das die Unterrichtsforschung hat. Block 3 beantwortet, WARUM das alles funktioniert: Wie Gedächtnis und Aufmerksamkeit wirklich arbeiten – danach seid ihr immun gegen die meisten Lernmythen. Block 4: Wie ihr in Echtzeit seht, was in 28 Köpfen passiert. Block 5: Motivation – nicht als Zauberei, sondern als System mit fünf Stellschrauben. Block 6: Wie ihr all das mit vertretbarem Zeitaufwand plant und euch danach selbst weiterentwickelt. Dazwischen: fünf gemeinsame Hospitationen, drei Meilenstein-Gespräche, und am Ende zeigt ihr im Kolloquium zwei Videos – eines aus Modul 1.1, eines aus Modul 6.4. Der Unterschied zwischen diesen Videos ist das Zeugnis dieses Jahres."*
+> *„Block 1, sieben Module: Klassenführung. Erst der Raum, dann die Kunst. Block 2: das Grundgerüst guten Erklärens und Übens – das am besten abgesicherte Wissen, das die Unterrichtsforschung hat. Block 3 beantwortet, WARUM das alles funktioniert: Wie Gedächtnis und Aufmerksamkeit wirklich arbeiten – danach seid ihr immun gegen die meisten Lernmythen. Block 4: Wie ihr in Echtzeit seht, was in 28 Köpfen passiert. Block 5: Motivation – nicht als Zauberei, sondern als System mit fünf Stellschrauben. Block 6: Wie ihr all das mit vertretbarem Zeitaufwand plant und euch danach selbst weiterentwickelt. Dazwischen: fünf gemeinsame Hospitationen, drei Meilenstein-Gespräche, und am Ende zeigt ihr im Kolloquium zwei Videos – eines aus Modul 1.1, eines aus Modul 6.4. Der Unterschied zwischen diesen Videos ist das Zeugnis dieses Programms."*
 
 Dann die drei Formate und ihr Zusammenspiel (5 Min., Folie mit Dreieck Input–Coaching–Hospitation):
 > *„Der Input alle zwei Wochen gibt euch die Technik und die erste Übung. Der Action Step trägt sie in eure Klasse. Das Coaching schaut genau darauf – nicht auf alles, nur auf diesen einen Schritt – und hilft beim nächsten. Die Hospitationen kalibrieren euren Anspruch: Ihr müsst gesehen haben, wie ruhig eine Klasse arbeiten KANN, um es für eure anzustreben. Wichtig zum Coaching: Euer Coach ist euer Verbündeter mit Schweigepflicht Richtung Schulleitung. Und zur Kamera: In Modul 1.1 nehmen wir 15 Minuten eures Unterrichts auf. Dieses Video schaut sich zunächst NIEMAND an – auch ihr nicht. Es wird versiegelt und erst in Modul 1.7 und Modul 6.5 geöffnet. Es ist euer Vorher-Bild. Ihr werdet es lieben – in Modul 6.5."*
@@ -75,7 +75,7 @@ Einverständnisse + Coaching-Slots einsammeln/eintragen (2 Min., parallel zur Ü
 
 ## Phase 3 · Kompetenzmatrix: das Vorher-Bild in Zahlen (Minute 25–35)
 
-> *„Bevor wir denken und üben: eine ehrliche Selbsteinschätzung. Acht Felder, vier Stufen, keine Schulnoten, niemand sieht sie außer euch und eurem Coach. Zwei Regeln: Erstens, Stufe 1 heißt nicht ‚schlecht', sondern ‚am Anfang' – wo sonst solltet ihr nach drei Wochen stehen? Zweitens, kreuzt nach der letzten realen Woche an, nicht nach eurem besten Tag. Wir wiederholen das vollständig in Modul 3.6 und Modul 6.5 – zwischendurch aktualisieren wir an den Meilensteinen einzelne Felder – und ich verspreche euch: Der Blick zurück auf diesen Bogen wird einer der schönsten Momente des Jahres."*
+> *„Bevor wir denken und üben: eine ehrliche Selbsteinschätzung. Zehn Felder, vier Stufen, keine Schulnoten, niemand sieht sie außer euch und eurem Coach. Zwei Regeln: Erstens, Stufe 1 heißt nicht ‚schlecht', sondern ‚am Anfang' – wo sonst solltet ihr nach drei Wochen stehen? Zweitens, kreuzt nach der letzten realen Woche an, nicht nach eurem besten Tag. Wir wiederholen das vollständig in Modul 3.6 und Modul 6.5 – zwischendurch aktualisieren wir an den Meilensteinen einzelne Felder – und ich verspreche euch: Der Blick zurück auf diesen Bogen wird einer der schönsten Momente des Programms."*
 
 Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer früher fertig ist, liest die Landkarte.
 
@@ -90,7 +90,7 @@ Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer
 > *Erstens: Ihr erklärt etwas – gründlich, korrekt, mit Beispiel. Am nächsten Tag ist es weg. Komplett.*
 > *Zweitens: Dieselbe Klasse, die bei Kollegin M. leise arbeitet, tanzt euch auf der Nase herum.*
 > *Drittens: Ein einzelner Schüler ist im Einzelgespräch umgänglich und klug – vor der Klasse spielt er den Clown.*
-> *Ihr bekommt jetzt die Brille, mit der diese drei Rätsel keine Rätsel mehr sind. Fünf Denk-Modelle, aus Kapitel 1 des Buchs, mit dem wir dieses Jahr viel arbeiten werden. Alles, was wir in den nächsten 35 Modulen trainieren, ist eine Antwort auf eines dieser fünf Modelle."*
+> *Ihr bekommt jetzt die Brille, mit der diese drei Rätsel keine Rätsel mehr sind. Fünf Denk-Modelle, aus Kapitel 1 des Buchs, mit dem wir in diesem Programm viel arbeiten werden. Alles, was wir in den nächsten 35 Modulen trainieren, ist eine Antwort auf eines dieser fünf Modelle."*
 
 ### 4b · Die fünf Modelle (Min. 38–57)
 
@@ -115,7 +115,7 @@ Stille Einzelarbeit (7 Min.), Bogen wird NICHT besprochen (nur Coach-Kopie). Wer
 > *„Letztes Modell, und hier räumen wir mit einem Mythos auf, den viele von uns mitbringen: 'Erst muss ich eine Beziehung zu den Schülern aufbauen, DANN kann ich Anforderungen stellen.' Klingt plausibel, ist aber falsch herum. Lemov zeigt an hunderten Stunden herausragender Lehrkräfte: **Vertrauen entsteht durch gelingenden Unterricht.** Schüler vertrauen Lehrkräften, bei denen sie merken: Hier ist Ordnung, hier lerne ich, hier werde ich gesehen, hier kann ich erfolgreich sein. Die Beziehung ist nicht die Vorbedingung guten Unterrichts – sie ist sein Ergebnis. Das ist eine gute Nachricht für euch: Ihr müsst nicht erst 'der coole Lehrer' werden. Ihr müsst gut unterrichten – die Beziehung kommt mit."*
 
 **Abschluss-Meta-Kommentar (Min. 55–57):**
-> *„Bevor wir weitermachen, kurz Meta: Ich habe jedes Modell mit einem Beispiel begonnen und erst dann den Merksatz gebracht – nie umgekehrt. Und ihr bekommt das Handout erst JETZT* [Handout A austeilen], *nicht vorher – sonst hättet ihr gelesen statt zugehört: Modell 3, Aufmerksamkeit. Merkt euch das Gefühl. Ihr erlebt dieses Jahr jede Technik zweimal: einmal als Lernende, einmal als Lehrende."*
+> *„Bevor wir weitermachen, kurz Meta: Ich habe jedes Modell mit einem Beispiel begonnen und erst dann den Merksatz gebracht – nie umgekehrt. Und ihr bekommt das Handout erst JETZT* [Handout A austeilen], *nicht vorher – sonst hättet ihr gelesen statt zugehört: Modell 3, Aufmerksamkeit. Merkt euch das Gefühl. Ihr erlebt in diesem Programm jede Technik zweimal: einmal als Lernende, einmal als Lehrende."*
 
 ## Phase 5 · Name it: Blitz-Zuordnung (Minute 57–62)
 
@@ -152,7 +152,7 @@ Ablauf:
 
 ## Phase 8 · Zielvereinbarung, Tandems & Action Step (Minute 82–88)
 
-Formular (Anhang 3) ausfüllen: ein Jahresziel (persönlich formuliert), zwei Sorgen (ehrlich), ein Satz „Woran merke ich im Juni, dass sich das Jahr gelohnt hat?". Kopie an Coach. Tandems für das Jahr verbindlich festlegen (Rollenspiel-, Peer-Feedback- und später Peer-Hospitations-Partner).
+Formular (Anhang 3) ausfüllen: ein Programmziel (persönlich formuliert), zwei Sorgen (ehrlich), ein Satz „Woran merke ich am Ende des Programms, dass es sich gelohnt hat?". Kopie an Coach. Tandems für das Jahr verbindlich festlegen (Rollenspiel-, Peer-Feedback- und später Peer-Hospitations-Partner).
 
 Handout C austeilen. Der Action Step dieses Moduls ist bewusst ein **Beobachtungsauftrag** – erst sehen lernen, ab Modul 1.1 handeln:
 
@@ -195,9 +195,9 @@ Abgabe beim Rausgehen. Die Skepsis- und Sorgen-Karten sind Gold: Sie liefern die
 
 # Anhang 1: Folienplan (16 Folien)
 
-1. Titel + heutige Stationen · 2. „Handwerk ist lernbar." · 3. Foto/Symbol Bill-Rogers-Anekdote · 4. Drei Versprechen (Stichworte) · 5. Drei Bitten (Stichworte) · 6. Jahreskreis (= Landkarte) · 7. Dreieck Input–Coaching–Hospitation · 8. „Das Video wird versiegelt bis Modul 1.7/6.5" · 9. Kompetenzmatrix-Auftrag · 10. Die drei Rätsel · 11. Schema Arbeitsgedächtnis → Langzeitgedächtnis · 12. „Routinen sind Denk-Befreiung." · 13. „Gelernt wird, was beachtet wird." · 14. „Normen schlagen Regeln." · 15. „Beziehung ist das Ergebnis guten Unterrichts, nicht seine Vorbedingung." · 16. Übungsauftrag Mini-Skript (5 Schritte) + Exit-Karte-Auftrag.
+1. Titel + heutige Stationen · 2. „Handwerk ist lernbar." · 3. Foto/Symbol Bill-Rogers-Anekdote · 4. Drei Versprechen (Stichworte) · 5. Drei Bitten (Stichworte) · 6. Zwei-Jahres-Überblick (= Landkarte) · 7. Dreieck Input–Coaching–Hospitation · 8. „Das Video wird versiegelt bis Modul 1.7/6.5" · 9. Kompetenzmatrix-Auftrag · 10. Die drei Rätsel · 11. Schema Arbeitsgedächtnis → Langzeitgedächtnis · 12. „Routinen sind Denk-Befreiung." · 13. „Gelernt wird, was beachtet wird." · 14. „Normen schlagen Regeln." · 15. „Beziehung ist das Ergebnis guten Unterrichts, nicht seine Vorbedingung." · 16. Übungsauftrag Mini-Skript (5 Schritte) + Exit-Karte-Auftrag.
 
-# Anhang 2: Kompetenzmatrix (8 Felder × 4 Stufen)
+# Anhang 2: Kompetenzmatrix (10 Felder × 4 Stufen)
 
 *Anleitung: pro Feld die Stufe ankreuzen, die den NORMALFALL der letzten Woche beschreibt. Wird vollständig identisch in M3.6 und M6.5 erhoben (Teil-Updates an den Meilensteinen M1.7/M2.6/M4.6/M5.5); SPA rendert die drei Vollerhebungen als Spinnennetz M0/M3.6/M6.5.*
 
@@ -213,12 +213,14 @@ Abgabe beim Rausgehen. Die Skepsis- und Sorgen-Karten sind Gold: Sie liefern die
 | 6. Verstehen prüfen | Habe ich pro Stunde belastbare Daten über den Lernstand ALLER (nicht nur der Melder)? |
 | 7. Beteiligung & Fragenkultur | Denken bei meinen Fragen alle mit – und bleibt niemand dauerhaft unsichtbar? |
 | 8. Planung & Arbeitsökonomie | Plane ich zielgerichtet in vertretbarer Zeit, und überlebe ich Korrekturphasen? |
+| 9. Gedächtnis & Wiederholung | Bleibt bei meinen Schülern das Gelernte über Wochen (Abruf, verteilte Wiederholung, entlastetes Material)? |
+| 10. Motivation, Beziehung & Eltern | Erleben alle Schüler Erfolg und werden gesehen, und sind die Eltern eher Verbündete als Gegenüber? |
 
 # Anhang 3: Zielvereinbarungs-Formular
 
-- Mein wichtigstes Ziel für dieses Jahr (eigene Worte): …
+- Mein wichtigstes Ziel für dieses Programm (eigene Worte): …
 - Zwei Dinge, die mir aktuell am meisten Sorge machen: 1. … 2. …
-- Woran merke ich im Juni konkret, dass sich das Jahr gelohnt hat? …
+- Woran merke ich am Ende des Programms konkret, dass es sich gelohnt hat? …
 - Das bringe ich mit (Stärken aus Beruf/Leben, die mir im Unterricht helfen können): …
 - Kopie an Coach am: … / Tandempartner: …
 
@@ -279,9 +281,9 @@ Frau K. hat die 8c in Deutsch. Sie hat sich vorgenommen, es „anders zu machen 
 # Anhang 7: Ableitung für die SPA „Modul 0 / Onboarding"
 
 1. **Hook (2 Min.):** Bill-Rogers-Anekdote als Kurzvideo/Illustrationsserie mit der Punchline „Kein Charisma. Techniken."
-2. **Programm-Landkarte interaktiv (4 Min.):** Jahreskreis, Blöcke antippbar mit je einem Satz + Leitfrage.
+2. **Programm-Landkarte interaktiv (4 Min.):** Zwei-Jahres-Überblick, Blöcke antippbar mit je einem Satz + Leitfrage.
 3. **Drei Versprechen / drei Bitten (3 Min.):** als Karten-Flip; die „Üben-fühlt-sich-albern-an"-Karte mit Testimonial-Zitaten früherer Kohorten (ab Kohorte 2).
-4. **Kompetenzmatrix digital (8 Min.):** 8 Slider mit den Leitfragen aus Anhang 2; Speicherung als M0-Datenpunkt fürs Spinnennetz.
+4. **Kompetenzmatrix digital (8 Min.):** 10 Slider mit den Leitfragen aus Anhang 2; Speicherung als M0-Datenpunkt fürs Spinnennetz.
 5. **Die fünf Modelle (10 Min.):** je ein Screen nach dem Muster Alltagsbeispiel → Prinzip → „Was folgt daraus?"; interaktives Schaubild Arbeits-/Langzeitgedächtnis; Drag-&-Drop: die 8 Situationen aus Phase 5 den Modellen zuordnen.
 6. **Fallanalyse (6 Min.):** die beiden Fälle aus Anhang 4 mit geführten Leitfragen und Musterdeutung zum Aufklappen.
 7. **Szenario-Quiz (4 Min.):** Fragen aus Anhang 6 mit Fehlvorstellungs-Distraktoren; Reflexionsjournal-Eingabefeld für den Perspektivwechsel.

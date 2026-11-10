@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modul 3.2 · Material und Sprache entlasten</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEEE7;
+  --card:#FFFFFF;
+  --ink:#1C2422;
+  --muted:#5E6862;
+  --line:#D6DAD0;
+  --petrol:#0E5B54;
+  --petrol-soft:#E0ECE9;
+  --amber:#C98A1B;
+  --c-grau:#8E9892; --c-rot:#B0433A; --c-gelb:#D9A21E; --c-gruen:#4E7A38; --c-blau:#2E5E8C;
+  --radius:14px;
+  --fs:17px;
+  --display:'Bricolage Grotesque','Avenir Next',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:var(--fs)}
+body{
+  font-family:var(--body);background:var(--bg);color:var(--ink);
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+html.pres{--fs:22px}
+@media(min-width:900px){html.pres{--fs:25px}}
+html.pres .screen{max-width:1100px}
+html.pres header{border-bottom:3px solid var(--petrol)}
+html.pres .hint,html.pres .tap{display:none}
+
+/* ---------- Kopfzeile ---------- */
+header{
+  position:sticky;top:0;z-index:40;background:rgba(236,238,231,.92);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:960px;margin:0 auto;padding:.55rem .9rem;
+  display:flex;align-items:center;gap:.7rem;
+}
+.brand{font-family:var(--display);font-weight:800;font-size:.85rem;letter-spacing:.02em;color:var(--petrol);white-space:nowrap}
+.station-label{font-size:.8rem;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.head-btn{
+  border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:9px;padding:.35rem .6rem;font-size:.78rem;font-weight:600;
+  cursor:pointer;font-family:var(--body);white-space:nowrap;
+}
+.head-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.head-btn[aria-pressed="true"]{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+
+.progress-track{height:4px;background:var(--line)}
+.progress-fill{height:100%;width:0;background:var(--petrol);transition:width .35s ease}
+
+/* ---------- Bühne ---------- */
+main{flex:1;width:100%}
+.screen{display:none;max-width:960px;margin:0 auto;padding:1.4rem 1rem 6.5rem;animation:fadeUp .35s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}*{transition:none!important}}
+
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol);background:var(--petrol-soft);
+  padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem;
+}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:.7rem}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.45rem,4.5vw,2.2rem);line-height:1.12;margin-bottom:.6rem}
+h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem}
+.lead{font-size:1.05rem;color:var(--muted);max-width:42rem}
+p+p{margin-top:.7rem}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.15rem;margin-top:1rem}
+.hint{font-size:.8rem;color:var(--muted)}
+.badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.badge{font-size:.78rem;font-weight:600;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.3rem .7rem}
+.badge.ok{background:var(--petrol-soft);border-color:var(--petrol);color:var(--petrol)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:.45rem;border:none;cursor:pointer;
+  background:var(--petrol);color:#fff;font-family:var(--body);font-weight:600;
+  font-size:.95rem;padding:.65rem 1.15rem;border-radius:11px;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:var(--card);color:var(--petrol);border:1.5px solid var(--petrol)}
+.btn.small{font-size:.82rem;padding:.45rem .8rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.reveal{display:none}
+.reveal.on{display:block;animation:fadeUp .4s ease}
+.punchline{
+  font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5.5vw,2.3rem);
+  color:var(--petrol);margin-top:.6rem;
+}
+
+/* ---------- Szenen-Kästen ---------- */
+.scene{
+  background:#FBF7EE;border-left:4px solid var(--amber);border-radius:0 10px 10px 0;
+  padding:.75rem .95rem;font-size:.93rem;color:#3A3325;margin-top:.7rem;
+}
+.scene .tag{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+
+/* ---------- Stundenprofil ---------- */
+.pbar{display:flex;height:2.5rem;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg);margin-top:.8rem}
+.pseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;border-right:2px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.pseg:last-child{border-right:none}
+.pseg.gelb{color:#2A2210}
+.pticks{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:.2rem}
+.plabel{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);margin-top:1rem;letter-spacing:.02em}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.8rem;font-size:.8rem}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;flex-shrink:0}
+.bg-grau{background:var(--c-grau)} .bg-rot{background:var(--c-rot)} .bg-gelb{background:var(--c-gelb)} .bg-gruen{background:var(--c-gruen)} .bg-blau{background:var(--c-blau)}
+
+.phase{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:10px;padding:.8rem .95rem;margin-top:.7rem}
+.phase.c-grau{border-left-color:var(--c-grau)} .phase.c-rot{border-left-color:var(--c-rot)} .phase.c-gelb{border-left-color:var(--c-gelb)} .phase.c-gruen{border-left-color:var(--c-gruen)} .phase.c-blau{border-left-color:var(--c-blau)}
+.phase-time{font-family:var(--display);font-weight:800;font-size:.8rem;color:var(--muted);letter-spacing:.03em}
+.phase-text{font-size:.92rem;margin-top:.2rem}
+
+/* Profil-Editor */
+.seg-row{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.seg-row select{flex:1;min-width:11rem;width:auto}
+.seg-row input[type=number]{width:4.6rem}
+.icon-btn{border:1.5px solid var(--line);background:var(--card);border-radius:9px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:.95rem;color:var(--muted);font-family:var(--body)}
+.icon-btn:hover{border-color:var(--petrol);color:var(--petrol)}
+.add-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.add-btn{display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:.35rem .7rem;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--body);color:var(--ink)}
+.add-btn:hover{border-color:var(--petrol)}
+.metrics{display:grid;gap:.6rem;margin-top:1rem}
+.metric{border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;background:var(--bg)}
+.metric b{font-family:var(--display);font-size:.82rem;color:var(--petrol);display:block}
+.metric .val{font-family:var(--display);font-weight:800;font-size:1.25rem}
+.metric .note{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.sentence{display:grid;gap:.5rem;margin-top:.6rem;font-size:.95rem}
+.sentence input{margin-top:.2rem}
+
+/* ---------- Aufklappkarten ---------- */
+.q-card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.8rem;cursor:pointer}
+.q-card h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0}
+.q-card .num{font-family:var(--display);color:var(--petrol);margin-right:.35rem}
+.q-card .plus{color:var(--petrol);font-weight:800;font-size:1.1rem;flex-shrink:0}
+.q-card .sub{font-size:.82rem;color:var(--muted);margin-top:.25rem}
+.q-card .body{display:none;margin-top:.7rem;border-top:1px dashed var(--line);padding-top:.5rem;cursor:auto}
+.q-card.open .body{display:block;animation:fadeUp .3s ease}
+.q-card.open .plus{transform:rotate(45deg);display:inline-block}
+.q-card .comment{font-size:.92rem;margin-top:.7rem}
+.ab{display:grid;gap:.4rem;margin-top:.7rem;font-size:.86rem}
+.ab div{border-radius:8px;padding:.45rem .7rem}
+.ab .a{background:#F5E4E2}
+.ab .b{background:var(--petrol-soft)}
+
+/* ---------- Chips ---------- */
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cat-chip{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:999px;
+  padding:.35rem .75rem;font-size:.82rem;font-weight:600;cursor:pointer;color:var(--muted);font-family:var(--body);
+}
+.cat-chip.sel{border-color:var(--ink);color:var(--ink)}
+.cat-chip.correct{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.cat-chip.wrong{background:#B0433A18;border-color:#B0433A;color:#B0433A}
+.cat-chip:disabled{cursor:default}
+.grade-row .cat-chip{min-width:2.6rem;text-align:center}
+
+.formula-card{border:2px solid var(--petrol);background:var(--petrol-soft);border-radius:var(--radius);padding:1rem 1.15rem;margin-top:.9rem}
+.formula-card h4{font-family:var(--display);font-weight:800;font-size:.85rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.4rem}
+.formula-card p{font-size:.9rem;margin-top:.4rem}
+.q-legend{list-style:none;display:grid;gap:.3rem}
+.q-legend li{font-size:.88rem;display:flex;gap:.5rem;align-items:baseline}
+.q-legend b{font-family:var(--display);color:var(--petrol);min-width:1.7rem}
+
+/* ---------- Quiz / Szenen ---------- */
+.quiz-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem;margin-top:1rem}
+.quiz-q{font-weight:700;font-size:.98rem}
+.step-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.9rem;text-transform:uppercase;letter-spacing:.06em}
+.quiz-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.quiz-opt{
+  border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:.6rem .8rem;
+  text-align:left;cursor:pointer;font-family:var(--body);font-size:.92rem;color:var(--ink);
+}
+.quiz-opt.right{border-color:var(--petrol);background:var(--petrol-soft);font-weight:600}
+.quiz-opt.wrong{border-color:#B0433A;background:#B0433A18}
+.quiz-note{font-size:.85rem;color:var(--muted);margin-top:.7rem;display:none;border-top:1px dashed var(--line);padding-top:.6rem}
+.quiz-note.on{display:block}
+
+/* ---------- Formulare ---------- */
+.field{margin-top:1rem}
+.field label{display:block;font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.field .sub{font-weight:400;color:var(--muted);font-size:.8rem;display:block;margin-top:.1rem}
+textarea,input[type=text],input[type=number],select{
+  width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+  font-family:var(--body);font-size:1rem;color:var(--ink);padding:.6rem .7rem;resize:vertical;
+}
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus{outline:2px solid var(--petrol);outline-offset:1px;border-color:var(--petrol)}
+textarea{min-height:4.2em}
+
+/* ---------- Action-Step-Karten ---------- */
+.step-card{border:1.5px solid var(--line);background:var(--card);border-radius:var(--radius);padding:1rem;margin-top:.8rem;cursor:pointer}
+.step-card.sel{border-color:var(--petrol);background:var(--petrol-soft)}
+.step-card h3{font-size:.98rem}
+.step-card p{font-size:.9rem;margin-top:.4rem}
+.commit-box{display:flex;gap:.7rem;align-items:flex-start;background:var(--petrol-soft);border:1.5px solid var(--petrol);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.commit-box input{width:1.3rem;height:1.3rem;margin-top:.2rem;accent-color:var(--petrol);flex-shrink:0}
+.log-row{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
+.log-row:last-child{border-bottom:none}
+@media(min-width:640px){.log-row{grid-template-columns:1.4fr 1fr 1fr;align-items:end}}
+.log-row label{font-size:.78rem;color:var(--muted);font-weight:600;display:block;margin-bottom:.2rem}
+.export-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.summary-status{margin-top:1rem;display:grid;gap:.4rem}
+.summary-status .row{display:flex;justify-content:space-between;gap:1rem;font-size:.88rem;border-bottom:1px dashed var(--line);padding:.35rem 0}
+.ok{color:var(--petrol);font-weight:700}
+.todo{color:var(--amber);font-weight:700}
+.toast{
+  position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:10px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:all .3s;z-index:60;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Fußnavigation ---------- */
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));
+}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:.8rem}
+.dots{flex:1;display:flex;justify-content:center;gap:.4rem;flex-wrap:wrap}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0}
+.dot.cur{background:var(--petrol);transform:scale(1.35)}
+.dot.done{background:#9DB8B2}
+
+/* ---------- Stationsmenü ---------- */
+.menu-overlay{
+  position:fixed;inset:0;background:rgba(28,36,34,.45);z-index:70;display:none;
+  align-items:flex-start;justify-content:center;padding:4rem 1rem;
+}
+.menu-overlay.open{display:flex}
+.menu-panel{background:var(--card);border-radius:var(--radius);max-width:26rem;width:100%;padding:1rem;max-height:80dvh;overflow:auto}
+.menu-panel button.item{
+  display:flex;gap:.6rem;align-items:center;width:100%;text-align:left;background:none;border:none;
+  padding:.6rem .5rem;border-radius:9px;cursor:pointer;font-family:var(--body);font-size:.95rem;color:var(--ink);
+}
+.menu-panel button.item:hover{background:var(--petrol-soft)}
+.menu-panel .idx{font-family:var(--display);font-weight:700;color:var(--petrol);width:1.5rem;flex-shrink:0}
+.menu-panel hr{border:none;border-top:1px solid var(--line);margin:.7rem 0}
+.menu-panel .menu-session{padding:.3rem .5rem .1rem}
+.menu-panel .menu-session .hint{margin-bottom:.5rem}
+
+/* ---------- Druck / PDF ---------- */
+#printReport{display:none}
+@media print{
+  body>*{display:none!important}
+  body{background:#fff}
+  #printReport{display:block!important;font-family:var(--body);color:#111;padding:0;max-width:100%}
+  #printReport h1{font-size:20pt;margin-bottom:2pt}
+  #printReport .meta{color:#555;font-size:10pt;margin-bottom:14pt}
+  #printReport h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1.5pt solid #0E5B54;padding-bottom:2pt;color:#0E5B54}
+  #printReport .ans{font-size:10.5pt;margin:2pt 0 8pt;white-space:pre-wrap}
+  #printReport .q{font-weight:600;font-size:10pt;margin-top:6pt}
+  #printReport .foot{margin-top:16pt;font-size:8.5pt;color:#666;border-top:.75pt solid #ccc;padding-top:4pt}
+  #printReport .pbar{height:18pt;border:.75pt solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printReport .pseg{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:7pt}
+  .pagebreak{break-before:page}
+}
+
+
+.plan-row{border-left:6px solid var(--line);padding:.2rem 0 .2rem .8rem;margin-top:1rem}
+.plan-row .q{font-family:var(--display);font-weight:800;font-size:.78rem;color:var(--petrol);letter-spacing:.04em;text-transform:uppercase}
+.plan-row.c-gelb{border-left-color:var(--c-gelb)}.plan-row.c-rot{border-left-color:var(--c-rot)}.plan-row.c-gruen{border-left-color:var(--c-gruen)}.plan-row.c-blau{border-left-color:var(--c-blau)}.plan-row.c-petrol{border-left-color:var(--petrol)}
+.plan-row .field{margin-top:.4rem}
+.flash{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin-top:.7rem}
+.flash .fq{font-weight:700;font-size:.95rem}
+.flash .fa{display:none;margin-top:.5rem;font-size:.9rem;border-top:1px dashed var(--line);padding-top:.5rem}
+.flash.open .fa{display:block}
+.self-check{display:flex;gap:.6rem;align-items:flex-start;margin-top:.55rem;font-size:.9rem}
+.self-check input{width:1.15rem;height:1.15rem;margin-top:.15rem;accent-color:var(--petrol);flex-shrink:0}
+.suggest{border:1.5px dashed var(--petrol);border-radius:10px;padding:.6rem .8rem;margin-top:.7rem;font-size:.88rem;background:var(--petrol-soft)}
+.matrix-row{margin-top:1rem}
+.matrix-row .chip-row{margin-top:.4rem}
+
+/* ---------- Block 3: Ergänzungen ---------- */
+.check-list{margin:.6rem 0 .2rem 1.2rem;font-size:.92rem;display:grid;gap:.3rem}
+.fig{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin-top:.9rem;background:#fff}
+.bigshow{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,6.5vw,2.8rem);letter-spacing:.14em;text-align:center;padding:1.6rem .4rem;word-break:break-all}
+.count{font-family:var(--display);font-weight:800;color:var(--amber)}
+.stagebox{display:none}
+.result-row{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px dashed var(--line);padding:.4rem 0;font-size:.92rem}
+.result-row b{font-family:var(--display);color:var(--petrol)}
+.two{display:grid;gap:.8rem}
+@media(min-width:700px){.two{grid-template-columns:1fr 1fr}}
+.ko-row{display:grid;grid-template-columns:1fr 2fr auto;gap:.4rem;margin-top:.4rem;align-items:center}
+.ko-row input{font-size:.92rem;padding:.45rem .55rem}
+.ko-hide .ko-def{color:transparent;background:repeating-linear-gradient(45deg,#E0ECE9,#E0ECE9 6px,#fff 6px,#fff 12px)}
+.term{display:grid;grid-template-columns:minmax(8rem,1fr) 2.2fr;gap:.6rem;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+.term b{font-family:var(--display)}
+.hide-def .term span{color:transparent;background:var(--petrol-soft);border-radius:6px;user-select:none}
+.ticker{background:#FBF7EE;border-left:4px solid var(--amber);padding:.6rem .8rem;font-size:.95rem;margin-top:.6rem;min-height:3.2em;border-radius:0 10px 10px 0}
+.task-row{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.92rem}
+@media(max-width:520px){#presBtn{display:none}.head-inner{gap:.45rem}.brand{font-size:.78rem}}
+.task-row .no{font-family:var(--display);font-weight:800;color:var(--petrol);width:1.6rem;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <button class="head-btn" id="backBtn" title="Zurück">← Zurück</button>
+    <span class="brand">MODUL 3.2</span>
+    <span class="station-label" id="stationLabel"></span>
+    <button class="head-btn" id="presBtn" aria-pressed="false" title="Größere Schrift für Beamer">🖥 Präsentation</button>
+    <button class="head-btn" id="menuBtn">☰ Stationen</button>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+</header>
+
+<main id="main">
+
+<section class="screen" data-title="Start">
+  <span class="eyebrow">Modul 3.2 · Block 3 · Fortbildung Sek I/II</span>
+  <h1>Wie halte ich den Kopf meiner Schüler frei für das, worauf es ankommt?</h1>
+  <p class="lead">Das Arbeitsgedächtnis ist eng, das weißt du aus Modul 3.1. Heute geht es darum, was es unnötig füllt: überladene Folien, vorgelesene Texte, Anweisungen, die nur gesagt werden.</p>
+  <div class="card">
+    <h3>Dein Weg durch dieses Modul</h3>
+    <p style="font-size:.9rem">Nach dem Abruf erlebst du denselben Inhalt zweimal: einmal auf einer überladenen Folie, einmal entschlackt. Du lernst drei Quellen unnötiger Belastung kennen, ordnest Unterrichtsmomente zu und operierst eine Folie. Zum Schluss prüfst du ein eigenes Material mit der Checkliste.</p>
+  </div>
+  <div class="field" id="tnNameField">
+    <label for="tnName">Dein Name <span class="sub">Erscheint auf dem PDF-Export für deinen Coach.</span></label>
+    <input type="text" id="tnName" data-store="name" placeholder="Vorname Nachname" autocomplete="name">
+  </div>
+  <p class="hint" id="startStoreHint" style="margin-top:.8rem"></p>
+  <div class="badge-row">
+    <span class="badge">⏱ ca. 25 Min.</span>
+    <span class="badge">📖 Kernquellen: McCrea, Memorable Teaching · Sweller (Cognitive Load) · Lemov „Board = Paper“</span>
+    <span class="badge">🔒 Ergebnisse nur für dich &amp; deinen Coach</span>
+  </div>
+  <p style="margin-top:1.4rem"><button class="btn" data-nav="next">Los geht es →</button></p>
+</section>
+
+<section class="screen" data-title="Abruf">
+  <span class="eyebrow">Station 1 · Abruf</span>
+  <h2>Sechs Fragen, bevor es losgeht.</h2>
+  <p class="lead">Drei zum letzten Modul, zwei zu älteren, eine aus einem früheren Block. Ohne Unterlagen. Dass die älteren schwerer fallen, ist gewollt.</p>
+  <div id="starterList"></div>
+  <div class="card" id="starterResult"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Ein Versuch">
+  <span class="eyebrow">Station 2 · Ein Versuch</span>
+  <h2>Derselbe Inhalt, zweimal.</h2>
+  <p class="lead">Du siehst zweimal 30 Sekunden lang eine Folie zum Wasserkreislauf. Unter der Folie läuft mit, was die Lehrkraft dazu sagt. Danach kommen drei Fragen.</p>
+  <div class="card">
+    <h3>Durchgang 1</h3>
+    <p style="margin-top:.5rem"><button class="btn small" id="r1Btn">Folie 30 Sekunden zeigen</button></p>
+    <div class="stagebox" id="r1Box"><img class="fig" src="./assets/images/grafiken/b3-horrorfolie.svg" alt="Überladene Folie zum Wasserkreislauf" loading="lazy"><div class="ticker" id="r1Tick"></div><p class="hint">noch <span class="count">30</span> Sekunden</p></div>
+    <div class="stagebox" id="r1Stage"><div id="r1List"></div>
+      <div class="field"><label for="r1Muehe">Wie anstrengend war das Aufnehmen?</label><select id="r1Muehe" data-store="r1Muehe"><option value="">bitte wählen</option><option>1 · mühelos</option><option>2</option><option>3</option><option>4</option><option>5 · sehr anstrengend</option></select></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Durchgang 2</h3>
+    <p class="hint">Erst nach Durchgang 1.</p>
+    <p style="margin-top:.5rem"><button class="btn small" id="r2Btn">Folie 30 Sekunden zeigen</button></p>
+    <div class="stagebox" id="r2Box"><img class="fig" src="./assets/images/grafiken/b3-zwillingsfolie.svg" alt="Entschlackte Folie zum Wasserkreislauf" loading="lazy"><div class="ticker">Die Lehrkraft erklärt frei und zeigt dabei nacheinander auf die vier Stationen.</div><p class="hint">noch <span class="count">30</span> Sekunden</p></div>
+    <div class="stagebox" id="r2Stage"><div id="r2List"></div>
+      <div class="field"><label for="r2Muehe">Wie anstrengend war das Aufnehmen?</label><select id="r2Muehe" data-store="r2Muehe"><option value="">bitte wählen</option><option>1 · mühelos</option><option>2</option><option>3</option><option>4</option><option>5 · sehr anstrengend</option></select></div>
+    </div>
+  </div>
+  <div class="card reveal" id="rResult"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Drei Quellen">
+  <span class="eyebrow">Station 3 · Drei Quellen</span>
+  <h2>Schwer darf die Sache sein, nicht der Weg zu ihr.</h2>
+  <p class="lead">Es geht nicht darum, Unterricht leicht zu machen. Die Schwierigkeit der Sache selbst ist erwünscht, an ihr wird gelernt. Bekämpft wird alles drumherum, das Platz belegt, ohne dass etwas gelernt wird.</p>
+  <img class="fig" src="./assets/images/grafiken/b3-lastquellen.svg" alt="Drei Quellen unnötiger Belastung: Split Attention, Redundanz, Transienz" loading="lazy">
+  <div class="formula-card">
+    <h4>Bild und gesprochenes Wort</h4>
+    <p style="margin-top:0">Auge und Ohr ergänzen sich, wenn das Auge ein Schaubild bekommt und das Ohr die Erklärung (Dual Coding). Bild plus Textblock plus Vortrag ist das Gegenteil davon.</p>
+    <p><strong>Faustregel für jede Folie:</strong> ein Gedanke, ein Träger (Bild oder Text), der Rest kommt aus deinem Mund.</p>
+  </div>
+  <h3 style="margin-top:1.4rem">Welche Quelle ist es?</h3>
+  <div id="quelList"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Folie operieren">
+  <span class="eyebrow">Station 4 · Folie operieren</span>
+  <h2>Was bleibt, was sagst du, was fliegt raus?</h2>
+  <p class="lead">Hier ist die Folie aus Durchgang 1 noch einmal. Entscheide für jedes Element.</p>
+  <img class="fig" src="./assets/images/grafiken/b3-horrorfolie.svg" alt="Überladene Folie zum Wasserkreislauf" loading="lazy">
+  <div id="makeList"></div>
+  <div class="card reveal" id="makeAfter"><h3>So sieht das Ergebnis aus</h3><img class="fig" src="./assets/images/grafiken/b3-zwillingsfolie.svg" alt="Entschlackte Folie" loading="lazy"></div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Mein Material">
+  <span class="eyebrow">Station 5 · Mein Material</span>
+  <h2>Jetzt deine eigene Folie oder dein Arbeitsblatt.</h2>
+  <p class="lead">Nimm ein Material, das du in den nächsten zwei Wochen einsetzt. Am besten das, bei dem du schon ahnst, dass es zu voll ist.</p>
+  <div class="card">
+    <div class="field" style="margin-top:0"><label for="matWas">Welches Material? <span class="sub">Fach, Klasse, Thema</span></label><input type="text" id="matWas" data-store="matWas" placeholder="…"></div>
+    <div class="field"><label for="matGedanke">Der eine Gedanke dieser Folie oder dieses Blatts</label><input type="text" id="matGedanke" data-store="matGedanke" placeholder="Wenn sich kein einzelner Gedanke nennen lässt, sind es zwei Folien."></div>
+    <h3 style="margin-top:1rem">Checkliste</h3>
+    <div id="matList"></div>
+    <div class="field"><label for="matRaus">Was fliegt raus, was sage ich stattdessen?</label><textarea id="matRaus" data-store="matRaus" placeholder="…"></textarea></div>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Quiz">
+  <span class="eyebrow">Station 6 · Quiz</span>
+  <h2>Fünf Fragen zu Modul 3.2.</h2>
+  <p class="lead">Zu jeder Antwort bekommst du eine kurze Rückmeldung, auch zu den falschen.</p>
+  <div id="quizList"></div>
+  <div class="quiz-item">
+    <p class="quiz-q">F6 (Freitext): Operiere die Horror-Folie (Anhang 1.1) in drei Schritten: Was fliegt raus, was bleibt, was wandert in deinen Mund?</p>
+    <textarea id="transferAnswer" data-store="transferAnswer" style="margin-top:.8rem" placeholder="…"></textarea>
+    <p style="margin-top:.7rem"><button class="btn ghost small" data-reveal="transferNote">Muster anzeigen</button></p>
+    <p class="quiz-note reveal" id="transferNote" style="border-top:1px dashed var(--line)">Muster: Fließtext raus → Diagramm groß als einziger Träger; die zwei Zahlen als Beschriftung AN die Pfeile (Transienz-Schutz); Erklärung + Sonderfälle mündlich; Clipart-Sonne entsorgen.)*
+
+---
+
+# Anhang 3: Ableitung für die SPA „Modul 3.2"
+
+1. **Hook (3 Min., Selbsterleben!):** Der Doppel-Versuch digital: Horror-Folie 60 Sek. mit Vorlese-Audio → 3 Quizfragen → Zwilling 60 Sek. mit freiem Audio → 3 Parallelfragen → Ergebnisvergleich als persönliche Balkengrafik. („Dein eigenes WM hat gerade ausgesagt.")
+2. **See it (3 Min.):** Die drei Fresser als animierte Kanal-Grafik (zwei Ströme kollidieren / doppelter Strom / verwehender Strom).
+3. **Name it (3 Min.):** Checkliste als Karten; Fresser-Zuordnung: 6 Unterrichtsmomente → Split/Redundanz/Transienz.
+4. **Do it – Folien-Makeover-Spiel (8 Min., Engine!):** Überladene Beispielfolie → Elemente antippen: behalten / streichen / „in den Mund" (wird zu Sprechtext) / „an die Tafel" (bleibt stehen) → App rendert die entschlackte Version + bewertet gegen Musterlösung; 3 Level (NaWi/Sprache/Gesellschaft); danach: eigenes Material als Foto hochladen und mit geführter Checkliste selbst operieren.
+5. **Dual-Coding-Galerie:** die 3 Paare als Vergleichs-Swipes mit Fresser-Benennung.
+6. **Quiz (Teil 2</p>
+  </div>
+  <p style="margin-top:1.3rem"><button class="btn" data-nav="next">Weiter →</button></p>
+</section>
+
+<section class="screen" data-title="Action Step &amp; Export">
+  <span class="eyebrow">Station 7 · Action Step</span>
+  <h2>Dein Action Step bis zum nächsten Input.</h2>
+  <p class="lead">Wähle einen Action Step. Er gilt für zwei Wochen; in der Austauschwoche schärfst du ihn nach.</p>
+  <div id="stepList"></div>
+  <div class="commit-box">
+    <input type="checkbox" id="commitCheck" data-store="commit">
+    <label for="commitCheck" style="font-weight:600" id="commitLabel"></label>
+  </div>
+  <div class="card">
+    <h3>Meine Strichliste</h3>
+    <p class="hint">Sei ehrlich: Wie oft hast du dich beim Vorlesen ertappt? Die Zahl soll über die Tage fallen.</p>
+    <div id="logList" style="margin-top:.4rem"></div>
+  </div>
+  
+  <div class="card">
+    <h3>Exit-Karte <span class="hint" style="font-weight:400">(fließt ins nächste Coaching-Gespräch ein)</span></h3>
+    <div class="field" style="margin-top:.5rem"><label for="exitMit">Was ich an meinem Material als Erstes ändere:</label><textarea id="exitMit" data-store="exitMit" placeholder="…"></textarea></div>
+    <div class="field"><label for="exitSorge">Wo mir das Weglassen schwerfällt:</label><textarea id="exitSorge" data-store="exitSorge" placeholder="…"></textarea></div>
+  </div>
+  <div class="card">
+    <h3>Deine Ergebnisse teilen</h3>
+    <div class="summary-status" id="summaryStatus"></div>
+    <div class="export-actions">
+      <button class="btn" id="submitBtn">✅ Bei Coach einreichen</button>
+      <button class="btn ghost" id="pdfBtn">📄 Als PDF exportieren</button>
+      <button class="btn ghost" id="copyBtn">📋 Als Text kopieren</button>
+      <button class="btn ghost" id="saveFileBtn">💾 Fortschritt als Datei sichern</button>
+    </div>
+    <p class="hint" id="submitStatus" style="margin-top:.6rem"></p>
+    <p class="hint" style="margin-top:.7rem">„Bei Coach einreichen“ schickt deine Antworten an deinen Coach. Der PDF-Export öffnet zusätzlich den Druckdialog deines Geräts.</p>
+  </div>
+  <p class="hint" style="margin-top:1rem" id="storeHint"></p>
+  <div style="border-left:4px solid var(--amber);padding:.2rem 0 .2rem 1rem;margin-top:1.4rem;font-style:italic;color:#3E4A45">„Der Kopf ist jetzt frei. Beim nächsten Input geht es darum, wohin die Aufmerksamkeit geht, mit einem Versuch, der zeigt, wie eigenwillig deine eigene ist. Und mit der Antwort auf den Fall mit dem Filmeinstieg.“</div>
+</section>
+
+</main>
+
+<nav class="navbar" aria-label="Modulnavigation">
+  <div class="nav-inner">
+    <button class="head-btn" data-nav="prev" id="prevBtn">← Zurück</button>
+    <div class="dots" id="dots"></div>
+    <button class="head-btn" data-nav="next" id="nextBtn">Weiter →</button>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel" id="menuPanel" role="dialog" aria-label="Stationen"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div id="printReport"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="./shared/cpd-config.js"></script>
+<script src="./shared/cpd-client.js" data-module-key="modul3-2-kognitive-last"></script>
+<script>
+"use strict";
+const MOD={"n": "3.2", "key": "modul3-2-kognitive-last", "file": "modul3-2-kognitive-last", "title": "Material und Sprache entlasten"};
+const STATE_VERSION=1;
+const STARTER=[{"q": "Wie lauten die drei Fragen des Diagnose-Rasters aus M3.1?", "a": "War das Arbeitsgedächtnis überlastet? / Ist es nie im Langzeitgedächtnis angekommen, fehlt der Abruf? / Wurde über etwas anderes nachgedacht?"}, {"q": "Was leistet Vorwissen für das Arbeitsgedächtnis?", "a": "Es bündelt viele Einzelheiten zu einer Einheit (BMW, FBI). Dadurch bleibt Platz zum Denken."}, {"q": "(Szene) Ein Kollege zeigt die Lernpyramide: „10 % behält man vom Lesen, 90 % vom Lehren.“ Was antwortest du in zwei Sätzen?", "a": "Die Zahlen haben keine Quelle. Richtig ist nur der Kern: Aktiv verarbeiten wirkt besser als nur zuhören."}, {"q": "Welche vier Punkte prüft der Gütecheck für ein Exit Ticket (M2.6)?", "a": "prüft das Mindestziel / in 3–5 Minuten allein lösbar / schriftlich, von allen / in höchstens 10 Minuten auswertbar"}, {"q": "Was besagt die Halbier-Regel (M2.3)?", "a": "die Schrittgröße halbieren, die sich für mich als Fachperson richtig anfühlt"}, {"q": "Welche vier Punkte prüft der Vierercheck für eine Anweisung (M1.3)?", "a": "konkret / der Reihe nach, nummeriert / beobachtbar / höchstens 12 Wörter pro Schritt"}];
+const QUIZ=[{"q": "F1. Du liest den Text auf deiner Folie wörtlich vor, damit auch die Schwächeren mitkommen. Was passiert dabei?", "opts": [{"t": "Es hilft: Hören und Lesen zusammen prägen sich doppelt ein.", "ok": false, "note": "So fühlt es sich an. Tatsächlich stören sich die beiden Sprachkanäle."}, {"t": "Es hilft, solange du langsam genug liest.", "ok": false, "note": "Das Tempo ändert nichts am doppelten Aufwand."}, {"t": "Die Schüler lesen und hören dasselbe und müssen beides abgleichen. Es bleibt weniger hängen.", "ok": true, "note": "Das ist Redundanz. Regel: Was dasteht, wird nicht vorgelesen."}, {"t": "Es schadet nur den Stärkeren, die schneller lesen als du sprichst.", "ok": false, "note": "Es belastet alle, die Schwächeren sogar stärker."}]}, {"q": "F2. Deine Aufgabe soll anspruchsvoll bleiben. Welche Belastung senkst du trotzdem?", "opts": [{"t": "Die Belastung durch Layout, Suchen und gleichzeitige Kanäle.", "ok": true, "note": "Schwer darf die Sache sein, nicht der Weg zu ihr."}, {"t": "Die Schwierigkeit der Aufgabe selbst.", "ok": false, "note": "Die ist erwünscht. An ihr wird gelernt."}, {"t": "Beide gleichmäßig, damit niemand überfordert wird.", "ok": false, "note": "Dann wird die Aufgabe leichter, als sie sein soll."}, {"t": "Keine: Wer sich durchbeißt, lernt am meisten.", "ok": false, "note": "Mühe beim Suchen und Entziffern bringt für das Lernziel nichts."}]}, {"q": "F3. Du rufst die Hausaufgabe in den Lärm des Einpackens. Am nächsten Tag hat die halbe Klasse sie nicht. Was ist die wahrscheinlichste Ursache?", "opts": [{"t": "Die Klasse hat aus Desinteresse nicht zugehört.", "ok": false, "note": "Erst die einfachere Erklärung prüfen: Die Information war nicht mehr da."}, {"t": "Die Aufgabe war zu umfangreich.", "ok": false, "note": "Das erklärt nicht, warum viele gar nicht wussten, was auf war."}, {"t": "Die Ansage kam zu spät in der Stunde.", "ok": false, "note": "Der Zeitpunkt ist ein Teil des Problems. Entscheidend ist, dass nichts stehen blieb."}, {"t": "Gesprochenes ist sofort weg. Was wichtig ist, muss lesbar stehen bleiben.", "ok": true, "note": "Das ist Transienz. Die Hausaufgabe gehört an die Tafel, bevor eingepackt wird (M1.2)."}]}, {"q": "F4. Welche Folie nutzt Auge und Ohr so, dass sie sich ergänzen?", "opts": [{"t": "Ein Schaubild mit Fließtext daneben, dazu dein Vortrag.", "ok": false, "note": "Drei Quellen gleichzeitig: Text und Vortrag stören sich."}, {"t": "Ein Schaubild mit wenigen Beschriftungen, das du frei erklärst.", "ok": true, "note": "Bild für das Auge, Erklärung für das Ohr. Das ist Dual Coding."}, {"t": "Ein Fließtext, den du Satz für Satz vorliest.", "ok": false, "note": "Derselbe Inhalt auf zwei Sprachkanälen: Redundanz."}, {"t": "Stichpunkte mit einem auflockernden Bild daneben.", "ok": false, "note": "Ein Bild ohne Bezug zum Inhalt lenkt ab."}]}, {"q": "F5. Eine Kollegin setzt auf jede Folie ein animiertes Männchen: „Das lockert auf.“ Was bewirkt es?", "opts": [{"t": "Es hält die Aufmerksamkeit bei der Folie.", "ok": false, "note": "Bei der Folie ja, aber beim Männchen statt beim Inhalt."}, {"t": "Es hilft vor allem jüngeren Klassen.", "ok": false, "note": "Gerade Jüngere lassen sich davon stärker ablenken."}, {"t": "Es zieht Aufmerksamkeit vom Inhalt ab.", "ok": true, "note": "Bewegtes und Witziges gewinnt gegen Wichtiges. Dekoration ist unnötige Last."}, {"t": "Es schadet nicht, bringt aber auch nichts.", "ok": false, "note": "Es schadet: Aufmerksamkeit ist begrenzt."}]}];
+const ACTIONSTEPS=[{"id": "folie", "label": "Standard · Checkliste und nichts vorlesen", "text": "Ich überarbeite die Folien meiner nächsten Einheit mit der Checkliste und lese in keiner Stunde vor, was die Klasse selbst sieht."}, {"id": "tafel", "label": "Alternative 1 · Tafel", "text": "Die Kernschritte jeder Erklärung bleiben bis zum Stundenende an der Tafel stehen."}, {"id": "schrift", "label": "Alternative 2 · Anweisungen", "text": "Jede Anweisung mit zwei oder mehr Schritten steht schriftlich an Tafel, Folie oder Blatt."}];
+const LOG_ROWS=3, LOG_ROW_LABEL="Tag", LOG_TITLE="Meine Strichliste";
+const LOG_FIELDS=[{"f": "n", "label": "wie oft ertappt", "ph": "z. B. 3"}, {"f": "wo", "label": "in welcher Situation", "ph": "…"}, {"f": "statt", "label": "was ich stattdessen tat", "ph": "…"}];
+const EXIT_LABELS=["Was ich an meinem Material als Erstes ändere:", "Wo mir das Weglassen schwerfällt:"];
+const FIXED_ARRAYS=["r1", "r2", "quel", "make", "mat"].concat(['starterOpen','starterRate']);
+
+/* ================= Gemeinsame Bausteine Block 3 ================= */
+const RATE=['gewusst','teilweise','nicht gewusst'];
+function fill(n,v){return Array.from({length:n},()=>v);}
+function val(k){return (state[k]==null?'':String(state[k])).trim();}
+function fld(label,k){return label+': '+(val(k)||'–');}
+function $(id){return document.getElementById(id);}
+
+/* Auswahlkarten: items=[{tag,t,ok,note,opts?}] */
+const PICKS={};
+function pickList(key,elId,items,opts){PICKS[key]={elId:elId,items:items,opts:opts};renderPick(key);}
+function renderPick(key){
+  const P=PICKS[key],wrap=$(P.elId);if(!wrap)return;wrap.innerHTML='';
+  P.items.forEach((it,i)=>{
+    const sel=state[key][i],o=it.opts||P.opts,long=!!it.opts;
+    const div=document.createElement('div');div.className='quiz-item';
+    let btn='';
+    o.forEach((t,j)=>{
+      let c=long?'quiz-opt':'cat-chip';
+      if(sel>-1){if(j===it.ok)c+=long?' right':' correct';else if(j===sel)c+=' wrong';}
+      btn+='<button class="'+c+'" data-i="'+i+'" data-j="'+j+'"'+(sel>-1?' disabled':'')+'>'+t+'</button>';
+    });
+    div.innerHTML=(it.tag?'<span class="step-label" style="margin-top:0;display:block">'+it.tag+'</span>':'')
+      +'<p class="quiz-q" style="font-weight:500">'+it.t+'</p><div class="'+(long?'quiz-opts':'chip-row')+'">'+btn+'</div>'
+      +(sel>-1?'<p class="quiz-note on">'+(sel===it.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+it.note+'</p>':'');
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-i]').forEach(b=>b.addEventListener('click',()=>{state[key][+b.dataset.i]=+b.dataset.j;scheduleSave();renderPick(key);renderSummary();}));
+}
+function pickDone(key){return state[key].filter(v=>v>-1).length;}
+function pickScore(key){return state[key].reduce((a,v,i)=>a+(v===PICKS[key].items[i].ok?1:0),0);}
+function pickRow(label,key){const n=PICKS[key].items.length,d=pickDone(key);return [label,d===n?'✓ '+pickScore(key)+'/'+n+' richtig':d+'/'+n,d===n];}
+function pickText(label,key){return label+': '+pickScore(key)+' von '+PICKS[key].items.length+' richtig';}
+
+/* Karten zur Selbstkontrolle: cards=[{q,a}] */
+const FLASHES={};
+function flashList(key,elId,cards,resId){FLASHES[key]={elId:elId,cards:cards,resId:resId};renderFlashes(key);}
+function renderFlashes(key){
+  const F=FLASHES[key],wrap=$(F.elId);if(!wrap)return;wrap.innerHTML='';
+  const open=state[key+'Open'],rate=state[key+'Rate'];
+  F.cards.forEach((f,i)=>{
+    const div=document.createElement('div');div.className='flash'+(open[i]?' open':'');
+    let chips='';RATE.forEach((r,j)=>{chips+='<button class="cat-chip'+(rate[i]===j?' sel':'')+'" data-r="'+i+'" data-j="'+j+'">'+r+'</button>';});
+    div.innerHTML='<div class="fq">'+(i+1)+'. '+f.q+'</div>'
+      +(open[i]?'':'<p style="margin-top:.5rem"><button class="btn ghost small" data-o="'+i+'">Antwort zeigen</button></p>')
+      +'<div class="fa">'+f.a+'<div class="chip-row">'+chips+'</div></div>';
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('[data-o]').forEach(b=>b.addEventListener('click',()=>{open[+b.dataset.o]=true;scheduleSave();renderFlashes(key);}));
+  wrap.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{rate[+b.dataset.r]=+b.dataset.j;scheduleSave();renderFlashes(key);renderSummary();}));
+  const c=flashCounts(key),done=c[0]+c[1]+c[2],res=$(F.resId);
+  if(res){
+    const weak=F.cards.map((f,i)=>rate[i]===2?(i+1):null).filter(Boolean);
+    res.innerHTML=done?'<h3>Dein Stand</h3><p>'+c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst ('+done+' von '+F.cards.length+' bewertet)</p>'
+      +(weak.length?'<p class="hint">Nicht gewusst: Frage '+weak.join(', ')+'. Genau diese Fragen lohnen sich für deine nächste Wiederholung.</p>':'')
+      :'<p class="hint">Beantworte jede Frage zuerst im Kopf oder auf einem Zettel. Deck dann auf und bewerte ehrlich.</p>';
+  }
+}
+function flashCounts(key){const c=[0,0,0];state[key+'Rate'].forEach(v=>{if(v>-1)c[v]++;});return c;}
+function flashRow(label,key){const c=flashCounts(key),d=c[0]+c[1]+c[2],n=FLASHES[key].cards.length;return [label,d===n?'✓ '+c[0]+' gewusst, '+c[1]+' teilweise, '+c[2]+' nicht':d+'/'+n+' bewertet',d===n];}
+function flashText(key){const c=flashCounts(key),F=FLASHES[key];return c[0]+' gewusst · '+c[1]+' teilweise · '+c[2]+' nicht gewusst\nNicht gewusst: '+(F.cards.map((f,i)=>state[key+'Rate'][i]===2?(i+1)+'. '+f.q:null).filter(Boolean).join(' | ')||'–');}
+
+/* Etwas für n Sekunden zeigen */
+function timedShow(boxId,secs,done){
+  const box=$(boxId);box.style.display='block';let left=secs;
+  const c=box.querySelector('.count');if(c)c.textContent=left;
+  box.scrollIntoView({block:'center',behavior:'smooth'});
+  const iv=setInterval(()=>{left--;if(c)c.textContent=left;if(left<=0){clearInterval(iv);box.style.display='none';done();}},1000);
+  return iv;
+}
+/* Aufdecken per Knopf: <button data-reveal="id"> */
+function bindReveals(){
+  document.querySelectorAll('[data-reveal]').forEach(b=>{
+    const id=b.dataset.reveal,el=$(id);
+    if(state['rv_'+id])el.classList.add('on');
+    b.onclick=()=>{el.classList.add('on');state['rv_'+id]=true;scheduleSave();};
+  });
+}
+/* Ankreuzlisten: items=[text] */
+function checkList(key,elId,items){
+  const wrap=$(elId);if(!wrap)return;
+  wrap.innerHTML=items.map((t,i)=>'<label class="self-check"><input type="checkbox" data-c="'+i+'"'+(state[key][i]?' checked':'')+'><span>'+t+'</span></label>').join('');
+  wrap.querySelectorAll('[data-c]').forEach(c=>c.addEventListener('change',()=>{state[key][+c.dataset.c]=c.checked;scheduleSave();renderSummary();}));
+}
+
+/* ---- Zustand, Zusammenfassung, Druck: aus den Angaben des Moduls ---- */
+function freshState(){
+  const s={v:STATE_VERSION,name:'',quizSel:QUIZ.map(()=>0),transferAnswer:'',actionStep:ACTIONSTEPS[0].id,log:emptyLog(),
+    exitMit:'',exitSorge:'',commit:false,screen:0,submitted:false,submittedAt:null,submissionText:'',
+    starterOpen:fill(STARTER.length,false),starterRate:fill(STARTER.length,-1)};
+  document.querySelectorAll('[data-store]').forEach(el=>{const k=el.dataset.store;if(!(k in s))s[k]=el.type==='checkbox'?false:'';});
+  return Object.assign(s,moduleState());
+}
+function normalizeModule(f){
+  Object.keys(f).forEach(k=>{
+    if(state[k]===undefined){state[k]=f[k];return;}
+    if(Array.isArray(f[k])&&(!Array.isArray(state[k])||(FIXED_ARRAYS.indexOf(k)>-1&&state[k].length!==f[k].length)))state[k]=f[k];
+  });
+}
+function refreshModuleUI(){bindReveals();flashList('starter','starterList',STARTER,'starterResult');renderModule();}
+function summaryRows(){
+  return [flashRow('Abruf','starter')].concat(ROWS()).concat([
+    ['Quiz',quizDone()===QUIZ.length?'✓ '+quizScore()+'/'+QUIZ.length+' richtig':quizDone()+'/'+QUIZ.length+' beantwortet',quizDone()===QUIZ.length],
+    ['Action Step',state.commit?'✓ verbindlich':'noch nicht bestätigt',!!state.commit]]);
+}
+function ALLSECTIONS(){return [['Abruf zu Beginn',flashText('starter')]].concat(SECTIONS());}
+function summaryText(){let t=summaryHead();ALLSECTIONS().forEach(s=>{t+='— '+s[0].toUpperCase()+' —\n'+s[1]+'\n\n';});return t+summaryTail();}
+function buildPrint(){let h=printHead();ALLSECTIONS().forEach(s=>{h+='<h2>'+esc(s[0])+'</h2><div class="ans">'+esc(s[1])+'</div>';});return h+printActionBlock()+printTail();}
+
+const TICK=['„Der Wasserkreislauf beschreibt den ständigen Transport und die Speicherung von Wasser …“ (die Lehrkraft liest den Folientext vor)','„Übrigens: 86 Prozent der Verdunstung stammen aus den Ozeanen.“','„… wobei das Wasser in der Atmosphäre aufsteigt und dort abkühlt …“','„Und merkt euch: Ein Wassertropfen bleibt im Schnitt etwa neun Tage in der Luft.“','„… bis es als Niederschlag wieder zur Erde fällt, versickert oder abfließt …“','„… sodass man zusammenfassend auch von Evapotranspiration spricht.“'];
+const R1=[
+ {t:'Welche Station folgt auf die Kondensation?',ok:1,note:'Niederschlag.',opts:null},
+ {t:'Wie viel Prozent der Verdunstung stammen aus den Ozeanen?',ok:2,note:'86 %. Die Zahl wurde nur gesagt und stand nirgends.'},
+ {t:'Wie lange bleibt Wasser im Schnitt in der Luft?',ok:1,note:'Etwa neun Tage. Auch das wurde nur gesagt.'}
+];
+const R1_OPTS=[['Verdunstung','Niederschlag','Abfluss','Versickerung'],['56 %','71 %','86 %','93 %'],['2 Tage','9 Tage','3 Wochen','40 Tage']];
+const R2=[
+ {t:'Welche Station kommt direkt vor dem Niederschlag?',ok:0,note:'Kondensation.'},
+ {t:'Woher stammt der größte Teil der Verdunstung?',ok:2,note:'Aus den Ozeanen, 86 %. Die Zahl stand am Pfeil.'},
+ {t:'Wofür steht die Angabe „etwa 9 Tage“?',ok:3,note:'Für die Zeit, die Wasser im Schnitt in der Luft bleibt.'}
+];
+const R2_OPTS=[['Kondensation','Abfluss','Verdunstung','Versickerung'],['aus Flüssen','von Landflächen','aus den Ozeanen','von Pflanzen'],['Dauer eines ganzen Kreislaufs','Zeit bis zum Versickern','Dauer der Verdunstung','Zeit in der Luft']];
+const QUEL_OPTS=['Split Attention','Redundanz','Transienz'];
+const QUEL=[
+ {t:'Die Hausaufgabe wird beim Einpacken in den Raum gerufen.',ok:2,note:'Gesprochenes ist sofort weg. Sie gehört an die Tafel, bevor eingepackt wird.'},
+ {t:'Du liest den Merksatz vor, der an der Tafel steht.',ok:1,note:'Dasselbe doppelt. Lass ihn still lesen oder sag ihn, ohne dass er dasteht.'},
+ {t:'Die Klasse schreibt das Tafelbild ab, während du den nächsten Schritt erklärst.',ok:0,note:'Zwei Dinge gleichzeitig. Erst zuhören, dann abschreiben (M2.3).'},
+ {t:'Die Legende steht auf Seite 12, die Karte auf Seite 13.',ok:0,note:'Was zusammengehört, muss beieinanderstehen. Beschrifte direkt in der Karte.'},
+ {t:'Drei Arbeitsschritte, nur mündlich angesagt. Nach dem ersten fragt jemand: „Was sollten wir noch mal?“',ok:2,note:'Ab zwei Schritten schriftlich.'},
+ {t:'Das Arbeitsblatt erklärt die Grafik noch einmal in einem langen Absatz, obwohl die Grafik für sich verständlich ist.',ok:1,note:'Der Absatz bringt nichts Neues und muss trotzdem verarbeitet werden.'}
+];
+const MAKE_OPTS=['bleibt auf der Folie','sage ich','streichen'];
+const MAKE=[
+ {t:'Der Titel „Der Wasserkreislauf – Grundlagen, Teilprozesse und Sonderfälle im Überblick“',ok:0,note:'Bleibt, gekürzt auf „Der Wasserkreislauf“.'},
+ {t:'Die elf Zeilen Fließtext',ok:1,note:'Das ist deine Erklärung. Sie gehört in deinen Mund, nicht auf die Folie.'},
+ {t:'Das kleine Kreislauf-Diagramm unten rechts',ok:0,note:'Bleibt und wird groß. Es ist der Träger der Folie.'},
+ {t:'Die Namen der vier Stationen',ok:0,note:'Als Beschriftung direkt im Diagramm.'},
+ {t:'Die Zahlen 86 % und 9 Tage',ok:0,note:'Als Beschriftung an den Pfeilen. Nur gesagt wären sie sofort weg.'},
+ {t:'Die Sonderfälle in drei Gliederungsebenen',ok:1,note:'Kurz erwähnen oder in eine spätere Stunde verschieben. Auf dieser Folie lenken sie vom Kreislauf ab.'},
+ {t:'Die Sonne mit Sonnenbrille',ok:2,note:'Dekoration zieht Aufmerksamkeit ab.'},
+ {t:'„Folie 7 von 43“',ok:2,note:'Trägt nichts zum Inhalt bei.'}
+];
+const MAT=['Ein Gedanke pro Folie oder Abschnitt','Träger gewählt: Bild oder Text, nicht beides gegeneinander','Nichts wird vorgelesen, was dasteht','Anweisungen ab zwei Schritten stehen schriftlich da','Die Kernschritte bleiben an der Tafel stehen','Dekoration ist entfernt'];
+function moduleState(){return {r1:fill(3,-1),r2:fill(3,-1),r1Shown:false,r2Shown:false,quel:fill(QUEL.length,-1),make:fill(MAKE.length,-1),mat:fill(MAT.length,false)};}
+function rounds(){
+  R1.forEach((q,i)=>q.optsShort=R1_OPTS[i]);R2.forEach((q,i)=>q.optsShort=R2_OPTS[i]);
+  [['r1',R1],['r2',R2]].forEach(([k,items])=>{
+    const wrap=$(k+'List');wrap.innerHTML='';
+    items.forEach((it,i)=>{
+      const sel=state[k][i];const div=document.createElement('div');div.className='quiz-item';
+      div.innerHTML='<p class="quiz-q" style="font-weight:500">'+it.t+'</p><div class="chip-row">'+it.optsShort.map((o,j)=>'<button class="cat-chip'+(sel>-1?(j===it.ok?' correct':(j===sel?' wrong':'')):'')+'" data-k="'+k+'" data-i="'+i+'" data-j="'+j+'"'+(sel>-1?' disabled':'')+'>'+o+'</button>').join('')+'</div>'+(sel>-1?'<p class="quiz-note on">'+(sel===it.ok?'✓ ':'✗ ')+it.note+'</p>':'');
+      wrap.appendChild(div);
+    });
+    wrap.querySelectorAll('[data-k]').forEach(b=>b.addEventListener('click',()=>{state[b.dataset.k][+b.dataset.i]=+b.dataset.j;scheduleSave();rounds();renderSummary();}));
+    if(state[k+'Shown'])$(k+'Stage').style.display='block';
+  });
+  const d1=state.r1.every(v=>v>-1),d2=state.r2.every(v=>v>-1);
+  $('r2Btn').disabled=!d1||state.r2Shown;$('r1Btn').disabled=state.r1Shown;
+  if(d1&&d2){
+    const s=k=>state[k].reduce((a,v,i)=>a+(v===(k==='r1'?R1:R2)[i].ok?1:0),0);
+    $('rResult').classList.add('on');
+    $('rResult').innerHTML='<h3>Dein Ergebnis</h3><div class="result-row"><span>Durchgang 1 · überladene Folie, Text vorgelesen</span><b>'+s('r1')+' von 3</b></div><div class="result-row"><span>Durchgang 2 · ein Schaubild, frei erklärt</span><b>'+s('r2')+' von 3</b></div>'
+      +'<p style="font-size:.92rem;margin-top:.7rem">In Durchgang 1 solltest du lesen, während jemand anderes sprach. Der Text wurde vorgelesen, den du schneller selbst gelesen hättest. Und die beiden Zahlen wurden nur gesagt. Deine Schüler erleben das täglich. Sie können nur nicht benennen, warum sie aussteigen.</p>'
+      +'<p class="hint">Der zweite Durchgang war auch deshalb leichter, weil du den Inhalt schon einmal gesehen hattest. Aussagekräftiger ist deine eigene Einschätzung: Wie anstrengend war das Aufnehmen im Vergleich?</p>';
+  }
+}
+function renderModule(){
+  $('r1Btn').onclick=()=>{$('r1Btn').disabled=true;let i=0;$('r1Tick').textContent=TICK[0];const iv=setInterval(()=>{i++;if(i<TICK.length)$('r1Tick').textContent=TICK[i];else clearInterval(iv);},5000);
+    timedShow('r1Box',30,()=>{state.r1Shown=true;scheduleSave();rounds();});};
+  $('r2Btn').onclick=()=>{$('r2Btn').disabled=true;timedShow('r2Box',30,()=>{state.r2Shown=true;scheduleSave();rounds();});};
+  rounds();
+  pickList('quel','quelList',QUEL,QUEL_OPTS);pickList('make','makeList',MAKE,MAKE_OPTS);
+  checkList('mat','matList',MAT);
+  if(pickDone('make')===MAKE.length)$('makeAfter').classList.add('on');
+}
+const _renderPick=renderPick;
+renderPick=function(key){_renderPick(key);if(key==='make'&&pickDone('make')===MAKE.length)$('makeAfter').classList.add('on');};
+function ROWS(){
+  const d=state.r1.concat(state.r2).filter(v=>v>-1).length;
+  return [['Versuch',d===6?'✓ beide Durchgänge':d+'/6 Fragen',d===6],pickRow('Drei Quellen','quel'),pickRow('Folie operieren','make'),['Mein Material',val('matWas')?'✓ '+state.mat.filter(Boolean).length+'/'+MAT.length+' Punkte erfüllt':'noch offen',!!val('matWas')]];
+}
+function SECTIONS(){
+  const s=(k,R)=>state[k].reduce((a,v,i)=>a+(v===R[i].ok?1:0),0);
+  return [['Versuch','Durchgang 1: '+s('r1',R1)+' von 3, Anstrengung '+(val('r1Muehe')||'–')+'\nDurchgang 2: '+s('r2',R2)+' von 3, Anstrengung '+(val('r2Muehe')||'–')],
+    ['Übungen',pickText('Drei Quellen','quel')+'\n'+pickText('Folie operieren','make')],
+    ['Mein Material',fld('Material','matWas')+'\n'+fld('Der eine Gedanke','matGedanke')+'\nCheckliste: '+state.mat.filter(Boolean).length+' von '+MAT.length+' Punkten\n'+fld('Was rausfliegt','matRaus')]];
+}
+
+let state=freshState();
+const STORE_KEY=MOD.key;
+let saveTimer=null;
+
+/* Name über alle SPAs des Programms hinweg teilen (gleiches Gerät & gleicher Ursprung) */
+const SHARED_NAME_KEY='cpd-teilnehmer-name';
+function getSharedName(){try{return localStorage.getItem(SHARED_NAME_KEY)||''}catch(e){return ''}}
+function setSharedName(v){try{if(v)localStorage.setItem(SHARED_NAME_KEY,v);}catch(e){}}
+
+const store=(function(){
+  if(typeof window.storage!=='undefined'&&window.storage&&typeof window.storage.get==='function'){
+    return{label:'cloud',
+      async get(k){try{const r=await window.storage.get(k);return(r&&r.value)?r.value:null}catch(e){return null}},
+      async set(k,v){try{await window.storage.set(k,v);return true}catch(e){return false}}};
+  }
+  try{
+    const t='__m'+MOD.n+'test';localStorage.setItem(t,'1');localStorage.removeItem(t);
+    return{label:'browser',
+      async get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+      async set(k,v){try{localStorage.setItem(k,v);return true}catch(e){return false}}};
+  }catch(e){}
+  const mem={};
+  return{label:'memory',
+    async get(k){return mem[k]||null},
+    async set(k,v){mem[k]=v;return true}};
+})();
+
+/* Stände mit anderer Versionsnummer passen nicht zu den Stationen.
+   Name und eine bereits eingereichte Zusammenfassung bleiben erhalten, der Rest wird unter legacy abgelegt. */
+function applyLoaded(data){
+  if(!data||typeof data!=='object')return;
+  if(data.v===STATE_VERSION){Object.assign(state,data);return;}
+  const keep={name:data.name||'',submitted:!!data.submitted,submittedAt:data.submittedAt||null,submissionText:data.submissionText||''};
+  state=Object.assign(freshState(),keep,{legacy:data});
+}
+function normalizeState(){
+  const f=freshState();
+  if(!Array.isArray(state.quizSel)||state.quizSel.length!==QUIZ.length)state.quizSel=f.quizSel;
+  if(!Array.isArray(state.log)||state.log.length!==LOG_ROWS)state.log=f.log;
+  state.log=state.log.map(r=>Object.assign(emptyLogRow(),r||{}));
+  if(!ACTIONSTEPS.some(s=>s.id===state.actionStep))state.actionStep=ACTIONSTEPS[0].id;
+  normalizeModule(f);
+  state.v=STATE_VERSION;
+}
+function emptyLogRow(){const r={};LOG_FIELDS.forEach(x=>r[x.f]='');return r;}
+function emptyLog(){return Array.from({length:LOG_ROWS},emptyLogRow);}
+async function loadState(){
+  const v=await store.get(STORE_KEY);
+  if(v){try{applyLoaded(JSON.parse(v));}catch(e){}}
+  normalizeState();
+  if(!state.name){const shared=getSharedName();if(shared)state.name=shared;}
+}
+function applyTeacherName(){
+  if(store.label!=='cloud')return;
+  const fieldEl=document.getElementById('tnNameField');
+  if(fieldEl)fieldEl.style.display='none';
+  if(!state.name&&window.CPD&&typeof window.CPD.getTeacherSession==='function'){
+    const session=window.CPD.getTeacherSession();
+    if(session&&session.teacher&&session.teacher.name){state.name=session.teacher.name;scheduleSave();}
+  }
+}
+async function flushSave(){
+  clearTimeout(saveTimer);saveTimer=null;
+  await store.set(STORE_KEY,JSON.stringify(state));
+}
+function scheduleSave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(flushSave,600);
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
+window.addEventListener('pagehide',flushSave);
+
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* Zustand eines früheren Moduls lesen (für Verweise auf eigene Eingaben aus früheren Modulen) */
+async function loadOtherModule(key){
+  if(!(window.CPD&&typeof window.CPD.getModuleState==='function'))return null;
+  try{return await window.CPD.getModuleState(key);}catch(e){return null;}
+}
+
+/* ================= Navigation ================= */
+const screens=[...document.querySelectorAll('.screen')];
+let cur=0;
+const dotsEl=document.getElementById('dots');
+screens.forEach((s,i)=>{
+  const d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Station '+i);
+  d.addEventListener('click',()=>go(i));dotsEl.appendChild(d);
+});
+function go(i){
+  if(i<0||i>=screens.length)return;
+  screens[cur].classList.remove('active');
+  cur=i;
+  state.screen=i;scheduleSave();
+  screens[cur].classList.add('active');
+  document.getElementById('stationLabel').textContent=(cur)+' / '+(screens.length-1)+' · '+screens[cur].dataset.title;
+  document.getElementById('progressFill').style.width=((cur)/(screens.length-1)*100)+'%';
+  [...dotsEl.children].forEach((d,j)=>{d.classList.toggle('cur',j===cur);d.classList.toggle('done',j<cur);});
+  document.getElementById('prevBtn').disabled=cur===0;
+  document.getElementById('nextBtn').disabled=cur===screens.length-1;
+  if(cur===screens.length-1)renderSummary();
+  if(typeof onScreenChange==='function')onScreenChange(cur);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>{
+  go(b.dataset.nav==='next'?cur+1:cur-1);
+}));
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('textarea,input,select'))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown')go(cur+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp')go(cur-1);
+});
+
+/* Stationsmenü */
+const overlay=document.getElementById('menuOverlay'),panel=document.getElementById('menuPanel');
+screens.forEach((s,i)=>{
+  const b=document.createElement('button');b.className='item';
+  b.innerHTML='<span class="idx">'+i+'</span><span>'+s.dataset.title+'</span>';
+  b.addEventListener('click',()=>{overlay.classList.remove('open');go(i);});
+  panel.appendChild(b);
+});
+const menuSession=document.createElement('div');
+menuSession.className='menu-session';
+menuSession.innerHTML='<hr>'
+  +'<p class="hint">Fortschritt zuvor als Datei gesichert? Hier wieder laden.</p>'
+  +'<label class="btn ghost small" for="fileLoadStart" style="cursor:pointer">📂 Sitzung aus Datei laden</label>'
+  +'<input type="file" id="fileLoadStart" accept="application/json" style="display:none">';
+panel.appendChild(menuSession);
+document.getElementById('menuBtn').addEventListener('click',()=>overlay.classList.add('open'));
+document.getElementById('backBtn').addEventListener('click',()=>history.back());
+overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.classList.remove('open');});
+
+/* Präsentationsmodus */
+const presBtn=document.getElementById('presBtn');
+presBtn.addEventListener('click',()=>{
+  const on=document.documentElement.classList.toggle('pres');
+  presBtn.setAttribute('aria-pressed',on?'true':'false');
+  presBtn.textContent=on?'🖥 Präsentation an':'🖥 Präsentation';
+});
+
+/* ================= Quiz ================= */
+function renderQuiz(){
+  const wrap=document.getElementById('quizList');wrap.innerHTML='';
+  QUIZ.forEach((item,i)=>{
+    const div=document.createElement('div');div.className='quiz-item';
+    let opts='';
+    item.opts.forEach((o,j)=>{
+      const sel=state.quizSel[i]===j+1;
+      let cls='quiz-opt'+(sel?(o.ok?' right':' wrong'):'');
+      opts+='<button class="'+cls+'" data-i="'+i+'" data-j="'+j+'">'+o.t+'</button>';
+    });
+    let note='';
+    if(state.quizSel[i]){
+      const chosen=item.opts[state.quizSel[i]-1];
+      note='<p class="quiz-note on">'+(chosen.ok?'✓ Richtig. ':'✗ Nicht ganz. ')+chosen.note+'</p>';
+    }
+    div.innerHTML='<p class="quiz-q">'+item.q+'</p><div class="quiz-opts">'+opts+'</div>'+note;
+    wrap.appendChild(div);
+  });
+  wrap.querySelectorAll('.quiz-opt').forEach(b=>b.addEventListener('click',()=>{
+    const i=+b.dataset.i,j=+b.dataset.j;
+    state.quizSel[i]=j+1;scheduleSave();renderQuiz();renderSummary();
+  }));
+}
+function quizScore(){return state.quizSel.reduce((a,v,i)=>a+(v&&QUIZ[i].opts[v-1].ok?1:0),0);}
+function quizDone(){return state.quizSel.filter(v=>v>0).length;}
+
+/* ================= Action Steps & Protokoll ================= */
+function currentStep(){return ACTIONSTEPS.find(x=>x.id===state.actionStep)||ACTIONSTEPS[0];}
+function renderSteps(){
+  const wrap=document.getElementById('stepList');wrap.innerHTML='';
+  ACTIONSTEPS.forEach(s=>{
+    const div=document.createElement('div');div.className='step-card'+(state.actionStep===s.id?' sel':'');
+    const extra=(typeof stepExtra==='function')?stepExtra(s):'';
+    div.innerHTML='<h3>'+s.label+'</h3><p>'+s.text+'</p>'+extra;
+    div.addEventListener('click',()=>{state.actionStep=s.id;scheduleSave();renderSteps();updateCommitLabel();renderSummary();});
+    wrap.appendChild(div);
+  });
+}
+function updateCommitLabel(){
+  document.getElementById('commitLabel').innerHTML='Ich verpflichte mich für die nächsten zwei Wochen: <strong>'+currentStep().text+'</strong>';
+}
+function renderLog(){
+  const wrap=document.getElementById('logList');wrap.innerHTML='';
+  state.log.forEach((r,i)=>{
+    const row=document.createElement('div');row.className='log-row';
+    row.innerHTML=LOG_FIELDS.map((x,k)=>{
+      const label=k===0?LOG_ROW_LABEL+' '+(i+1)+' '+x.label:x.label;
+      if(x.options){
+        return '<div><label>'+label+'</label><select data-i="'+i+'" data-f="'+x.f+'"><option value=""></option>'
+          +x.options.map(o=>'<option value="'+o+'"'+(r[x.f]===o?' selected':'')+'>'+o+'</option>').join('')+'</select></div>';
+      }
+      return '<div><label>'+label+'</label><input type="text" data-i="'+i+'" data-f="'+x.f+'" value="'+esc(r[x.f])+'" placeholder="'+esc(x.ph||'')+'"></div>';
+    }).join('');
+    wrap.appendChild(row);
+  });
+  wrap.querySelectorAll('[data-f]').forEach(el=>{
+    const ev=el.tagName==='SELECT'?'change':'input';
+    el.addEventListener(ev,()=>{state.log[+el.dataset.i][el.dataset.f]=el.value;scheduleSave();});
+  });
+}
+function logText(){
+  return state.log.map((r,i)=>LOG_ROW_LABEL+' '+(i+1)+': '+LOG_FIELDS.map(x=>(x.short?x.short+' ':'')+(r[x.f]||'–')).join(' · ')).join('\n');
+}
+
+/* ================= Formulare binden ================= */
+function bindStores(){
+  document.querySelectorAll('[data-store]').forEach(el=>{
+    const k=el.dataset.store;
+    if(el.type==='checkbox'){el.checked=!!state[k];el.onchange=()=>{state[k]=el.checked;scheduleSave();renderSummary();};}
+    else{
+      el.value=state[k]||'';
+      const handler=()=>{
+        state[k]=el.value;scheduleSave();renderSummary();
+        if(k==='name')setSharedName(el.value);
+        if(typeof onStoreInput==='function')onStoreInput(k);
+      };
+      if(el.tagName==='SELECT'){el.onchange=handler;el.oninput=null;}else el.oninput=handler;
+    }
+  });
+}
+
+/* ================= Zusammenfassung & Export ================= */
+function renderSummary(){
+  document.getElementById('summaryStatus').innerHTML=summaryRows().map(r=>
+    '<div class="row"><span>'+r[0]+'</span><span class="'+(r[2]?'ok':'todo')+'">'+r[1]+'</span></div>').join('');
+  updateSubmitStatus();
+}
+function updateSubmitStatus(){
+  const el=document.getElementById('submitStatus');
+  if(!el)return;
+  if(state.submitted&&state.submittedAt){
+    const d=new Date(state.submittedAt).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    el.innerHTML='<span class="ok">✓ Eingereicht am '+d+' Uhr.</span> Du kannst weiter bearbeiten – ein erneutes Einreichen aktualisiert den Stand bei deinem Coach.';
+  }else{
+    el.innerHTML='<span class="todo">Noch nicht eingereicht.</span> Dein Coach sieht deine Antworten erst nach Klick auf „Bei Coach einreichen“.';
+  }
+}
+document.getElementById('submitBtn').addEventListener('click',async()=>{
+  state.submitted=true;
+  state.submittedAt=new Date().toISOString();
+  state.submissionText=summaryText();
+  await flushSave();
+  updateSubmitStatus();
+  showToast('Eingereicht – dein Coach kann deine Antworten jetzt sehen.');
+});
+function todayDe(){return new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function summaryHead(){return 'MODUL '+MOD.n+' · '+MOD.title.toUpperCase()+' – ERGEBNISBOGEN\n'+(state.name||'(ohne Name)')+' · '+todayDe()+'\n\n';}
+function summaryTail(){
+  let t='\n— QUIZ —\n'+quizScore()+' von '+QUIZ.length+' richtig\nF6: '+(state.transferAnswer||'–')+'\n';
+  t+='\n— ACTION STEP —\n'+(state.commit?'✓ ':'☐ ')+currentStep().text+'\n';
+  t+='\n— '+LOG_TITLE.toUpperCase()+' —\n'+logText()+'\n';
+  t+='\n— EXIT-KARTE —\n'+EXIT_LABELS[0]+' '+(state.exitMit||'–')+'\n'+EXIT_LABELS[1]+' '+(state.exitSorge||'–')+'\n';
+  return t;
+}
+function pf(q,a){return '<div class="q">'+q+'</div><div class="ans">'+esc(a||'–')+'</div>';}
+function printHead(){
+  return '<h1>Modul '+MOD.n+' · '+esc(MOD.title)+'</h1>'
+    +'<div class="meta">'+esc(state.name||'(ohne Name)')+' · '+todayDe()+' · vertraulich: nur TN &amp; Coach</div>';
+}
+function printActionBlock(){
+  return '<h2>Action Step</h2><div class="ans">'+(state.commit?'☑':'☐')+' '+esc(currentStep().text)+'</div>'
+    +'<h2>'+esc(LOG_TITLE)+'</h2><div class="ans">'+esc(logText())+'</div>';
+}
+function printTail(){
+  return '<h2>Quiz ('+quizScore()+'/'+QUIZ.length+' richtig)</h2>'+pf('F6:',state.transferAnswer)
+    +'<h2>Exit-Karte</h2>'+pf(EXIT_LABELS[0],state.exitMit)+pf(EXIT_LABELS[1],state.exitSorge)
+    +'<div class="foot">Fortbildungsprogramm Sek I/II · Modul '+MOD.n+' „'+esc(MOD.title)+'“ · Kopie an Coach im Auswertungsgespräch dieser Woche.</div>';
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const t=summaryText();
+  try{await navigator.clipboard.writeText(t);showToast('Zusammenfassung kopiert – z. B. per Mail an deinen Coach.');}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');showToast('Zusammenfassung kopiert.');}catch(_){showToast('Kopieren nicht möglich – bitte PDF-Export nutzen.');}
+    ta.remove();
+  }
+});
+document.getElementById('pdfBtn').addEventListener('click',()=>{
+  document.getElementById('printReport').innerHTML=buildPrint();
+  setTimeout(()=>window.print(),80);
+});
+
+/* ================= Datei-Sicherung ================= */
+function downloadStateFile(){
+  try{
+    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=MOD.file+'-fortschritt.json';
+    document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    showToast('Fortschrittsdatei heruntergeladen.');
+  }catch(e){showToast('Download nicht möglich in dieser Ansicht.');}
+}
+function refreshAllUI(){
+  bindStores();
+  refreshModuleUI();
+  renderQuiz();renderSteps();updateCommitLabel();renderLog();renderSummary();
+}
+function loadStateFile(evt){
+  const file=evt.target.files&&evt.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      applyLoaded(data);
+      normalizeState();
+      refreshAllUI();
+      scheduleSave();
+      showToast(data.v===STATE_VERSION?'Fortschritt geladen – weiter geht es.':'Die Datei passt nicht zu dieser Modulfassung. Dein Name wurde übernommen, die Stationen beginnen neu.');
+    }catch(e){showToast('Diese Datei konnte nicht gelesen werden.');}
+  };
+  reader.readAsText(file);
+  evt.target.value='';
+}
+document.getElementById('saveFileBtn').addEventListener('click',downloadStateFile);
+document.getElementById('fileLoadStart').addEventListener('change',loadStateFile);
+
+/* ================= Toast ================= */
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+/* ================= Init ================= */
+(async function init(){
+  await loadState();
+  applyTeacherName();
+  refreshAllUI();
+  const hints={
+    cloud:'Deine Eingaben werden automatisch gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen.',
+    browser:'Deine Eingaben werden automatisch in diesem Browser auf diesem Gerät gespeichert – du kannst das Modul jederzeit unterbrechen und fortsetzen. (Achtung bei geteilten Rechnern und privaten Fenstern.)',
+    memory:'Hinweis: In dieser Ansicht kann nichts automatisch gespeichert werden – nutze unbedingt „Fortschritt als Datei sichern“ am Ende, falls du unterbrichst.'
+  };
+  document.getElementById('storeHint').textContent=hints[store.label];
+  const startHint=document.getElementById('startStoreHint');
+  if(startHint&&store.label==='memory'){
+    startHint.textContent='⚠️ In dieser Ansicht werden Eingaben beim Neuladen NICHT automatisch behalten. Sichere deinen Fortschritt am Ende als Datei und lade sie im Menü (☰ Stationen) beim nächsten Mal wieder hoch.';
+  }else if(startHint){
+    startHint.textContent='💾 Eingaben werden automatisch gespeichert – Unterbrechen und Fortsetzen ist jederzeit möglich. Zur Sicherheit kannst du zusätzlich jederzeit eine Sicherungsdatei herunterladen.';
+  }
+  go(Math.min(Math.max(state.screen||0,0),screens.length-1));
+  if(typeof afterInit==='function')afterInit();
+})();
+
+</script>
+</body>
+</html>

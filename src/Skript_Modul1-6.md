@@ -9,7 +9,7 @@
 |---|---|
 | **Leitfrage** | Wie korrigiere ich so, dass die Beziehung wächst statt leidet? |
 | **Kernquellen** | Lemov T59 (Positive Framing), T60 (Precise Praise); Lovell/Dowley, Prinzip 10 („Bank positivity"); Warm/Strict (T61) ist bereits in M1.4 als Registeranwendung eingeführt und wird hier nur abgerufen |
-| **Funktion im Jahr** | Die Sprach-Schicht über der Interventionsleiter (M1.5): Stufen 2–3 werden hier zur Kunstform. Legt das Fundament der Fehlerkultur (M4.1) und der Beziehungsarbeit (M5.3). Precise Praise wird in M4.5 (Show Call) und M6.5 (Zertifikatsübergabe!) wieder gebraucht. |
+| **Funktion im Programm** | Die Sprach-Schicht über der Interventionsleiter (M1.5): Stufen 2–3 werden hier zur Kunstform. Legt das Fundament der Fehlerkultur (M4.1) und der Beziehungsarbeit (M5.3). Precise Praise wird in M4.5 (Show Call) und M6.5 (Zertifikatsübergabe!) wieder gebraucht. |
 | **Lernziele** | Die TN können:<br>1. Korrekturen positiv rahmen (Zielzustand statt Fehlverhalten benennen),<br>2. das 3:1-Verhältnis als Beziehungs-Ökonomie begründen und umsetzen,<br>3. präzise loben (konkret, verdient, prozessbezogen) und Anerkennung von Lob unterscheiden. |
 | **Sitzungstyp** | Sprach-Training mit Tempo-Übungen (Automatisierung ist das Ziel – die Umformulierung muss schneller werden als der Ärger-Reflex). Zwei Werkzeuge statt drei, dafür doppelt so viele Wiederholungen pro Werkzeug. |
 
