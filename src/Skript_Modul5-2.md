@@ -88,7 +88,7 @@ Tandem-Check: Ist Punkt 1 wirklich WAHR und beobachtbar?
 - **Hospitationsfokus – das Normen-Protokoll:** 15 Minuten lang jede Norm-Kommunikation wörtlich mitschreiben und kategorisieren: Negativ-Norm / Positiv-Norm / neutral. Zusätzlich: Wer bekam die Bühne (Störung oder Anstrengung)? Strichliste.
 - **Auswertungsgespräch:** Protokoll vorlegen, TN kategorisiert selbst; die zwei stärksten Negativ-Norm-Sätze live umbauen (laut, zweimal). Sichtbarkeits-Plan-Check: Ist Punkt 1 beobachtet worden?
 - **Verzahnung:** Beim M5.1-Fall nachfassen: Falls K-Engpass diagnostiziert war – die Kosten-Frage stellen („Welche Routine erreicht ihn nicht?") und eine Routinen-Reparatur als Maßnahme ergänzen.
-- **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit") oder das Verhalten erst per Routine aufbauen (M1.1/M1.2), DANN plakatieren.
+- **Red Flag:** TN produziert unwahre Positiv-Normen („Fast alle sind pünktlich" bei notorischer Zuspätkomm-Klasse) → stoppen: Unwahre Normen-Kommunikation fliegt in Tagen auf und kostet Glaubwürdigkeit; dann lieber die kleinste wahre Mehrheit finden („Reihe eins sitzt seit acht Uhr arbeitsbereit"), auf eine wachsende Norm verweisen („Jede Woche sind es mehr") oder das Ergebnis zeigen (der volle Stapel abgegebener Hefte) oder das Verhalten erst per Routine aufbauen (M1.1/M1.2), DANN plakatieren.
 
 ---
 

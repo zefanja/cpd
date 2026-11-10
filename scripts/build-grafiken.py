@@ -471,7 +471,7 @@ def evk():
           ("2 Run Routines", "Routinen entlasten", "Kosten ↓", ROT, "jeder weiß, was zu tun ist;\nFehler sind sicher"),
           ("3 Nudge Norms", "Normen lenken", "Wert ↑", GRUEN, "die arbeitende Mehrheit\nsichtbar machen"),
           ("4 Build Belonging", "Zugehörigkeit", "Wert ↑  Kosten ↓", AMBER, "kurzer echter Kontakt,\nZusagen halten"),
-          ("5 Boost Buy-in", "Zustimmung", "Wert ↑", GRUEN, "begründen, echte Wahl\nim Wie, System erklären")]
+          ("5 Boost Buy-in", "Zustimmung", "Wert ↑", GRUEN, "Nutzen zeigen, Zustimmung\neinholen, System erklären")]
     for i, (en, de, wirk, c, bsp) in enumerate(tr):
         x = 40 + i * 174
         b += [R(x, 232, 164, 220, CARD, LINE, 12), R(x, 232, 164, 8, c, c, 4), T(x + 82, 268, en, 14.5, 800, INK, "middle"), T(x + 82, 290, de, 13.5, 500, MUTED, "middle"),

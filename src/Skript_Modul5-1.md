@@ -43,7 +43,7 @@ Moderation liest den Kontrastfall vor (Anhang 1.1) – zwei Schülerinnen, gleic
 ## Phase 3 · Input (Minute 19–30)
 
 ### 3a · Die EVK-Mechanik (Min. 19–24)
-> *„Wenn Motivation situativ ist – wovon hängt die Situation ab? McCrea bündelt die Motivationsforschung in einer Faustformel, unserer Brille für die nächsten fünf Module: **Anstrengungsbereitschaft = Erwartung × Wert ÷ Kosten.***
+> *„Wenn Motivation situativ ist – wovon hängt die Situation ab? McCrea beschreibt Motivation als unbewusste Abwägung dreier Größen: Wert, Erwartung und Kosten. Wir fassen sie für die nächsten fünf Module in einer Faustformel zusammen (die Formel ist unsere Merkhilfe, nicht McCreas): **Anstrengungsbereitschaft = Erwartung × Wert ÷ Kosten.***
 > ***Erwartung:** Glaube ich, dass ich es SCHAFFEN kann? Nicht objektiv – subjektiv, aus Evies Sicht. Wer fünf Jahre Mathe-Misserfolg gesammelt hat, dessen Erwartung liegt bei null.*
 > ***Wert:** Bringt es mir etwas – ist es interessant, nützlich, oder zahlt es auf mein Ansehen ein? Wert ist vielfältiger als ‚Interesse': Auch ‚meine Freundin macht mit' ist Wert.*
 > ***Kosten:** Was kostet es mich – Anstrengung, Zeit, Verwirrung, und die gefährlichste Währung: **Blamage-Risiko.** Vor der Klasse zu scheitern ist für Vierzehnjährige teurer als jede Hausaufgabe lang ist.*

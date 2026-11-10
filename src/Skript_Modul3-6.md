@@ -40,6 +40,7 @@
 > **Moderationstext:**
 > *„Block 3, letzter Baustein. Ihr wisst jetzt: rein ins Langzeitgedächtnis (Abruf), verteilt über die Zeit (Spacing). Heute die dritte Dimension: WIE das Wissen dort liegt. Gestapelt – lose Fakten nebeneinander – oder vernetzt, als Schema. Modul 3.1, der BMW-FBI-Versuch: Nur vernetztes Wissen chunkt, nur Schemata erweitern das Denken. Und Vernetzung entsteht durch eine Sorte von Denkarbeit: **Elaboration** – Neues aktiv mit Bekanntem verknüpfen. Willingham nochmal: Erinnert wird, worüber nachgedacht wurde – und je TIEFER verarbeitet, desto haltbarer die Spur.*
 > *Das Handwerkszeug ist ein Fragenfächer:* [Handout A] *„**Warum?** – die Mutter aller Elaborationsfragen. **Inwiefern ist X anders als Y?** – Vergleich erzwingt Grenzziehung. **Nenne ein eigenes Beispiel** – Transfer in die eigene Welt. **Erkläre es einem Fünftklässler** – Vereinfachung erzwingt Durchdringung. **Was wäre, wenn …?** – Variation testet das Verständnis der Struktur.*
+> *Dazu ein Werkzeug aus McCreas Prinzip „Refine structures": **Beispiele und Gegenbeispiele nebeneinander.** Neue Begriffe sind am Anfang unscharf. Scharf werden sie, wenn Schüler sehen, was sich ändern darf und was nicht: drei sehr verschiedene Dreiecke und zwei Figuren, die knapp keine sind. Ähnliche Begriffe (Fläche und Umfang) führt ihr erst getrennt ein und stellt sie später bewusst gegenüber.*
 > *Und eine Warnung vor dem beliebtesten Etikettenschwindel: **Eine Mindmap ist nur dann Elaboration, wenn sie Denken über Zusammenhänge erzwingt.** Begriffe mit Linien verbinden kann man völlig gedankenlos – schön bunt, null Verarbeitung. Der Fix ist derselbe wie beim Aufgaben-Röntgen aus Modul 3.3: Beschriftet die LINIEN. ‚Verbinde und schreibe an jede Linie, WIE die Begriffe zusammenhängen' – jetzt ist das Denken unumgehbar."*
 
 ## Phase 3 · Input B: Knowledge Organizer + Metakognition (Minute 20–28)
@@ -119,7 +120,7 @@ Skriptgerüst:
 4. **Board-Blitz-CFU (2 Min.):** „Wie lernst du jetzt für die Arbeit – drei Stichworte, hoch."
 
 ## 1.4 9-Prinzipien-Posterblanko (McCrea, Memorable Teaching)
-Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die 9 in Kurzform: Lernen = LZG-Veränderung ernst nehmen · Information managen · Kommunikation verschlanken · Last regulieren · Aufmerksamkeit orientieren · Abruf einbauen · verteilt wiederholen · Elaboration beschleunigen · Strukturen verfeinern/Metakognition einbetten. *(Zuordnung leicht gruppiert – als Arbeitsposter, nicht als Zitat.)*
+Matrix: Prinzip (Kurzform) | „So sieht es bei mir aus" (eigenes Beispiel). Die 9 Prinzipien (McCrea) mit ihrem Ort im Programm: 1 Manage information – Ablenkendes entfernen (M3.2) · 2 Streamline communication – Bild und gesprochenes Wort (M3.2) · 3 Orient attention – vorher sagen, worauf zu achten ist (M3.3) · 4 Regulate load – zerlegen, an der Tafel stehen lassen (M2.3, M3.2) · 5 Expedite elaboration – Vorwissen aktivieren, an Bekanntes anknüpfen (M3.6) · 6 Refine structures – Beispiele und Gegenbeispiele, genaue Definition (M3.6) · 7 Stabilise changes – abrufen, verteilen, mischen (M3.4, M3.5) · 8 Align pedagogies – erst vormachen, dann üben (Block 2: I do, We do, You do) · 9 Embed metacognition – Lernstrategien weitergeben (M3.6).
 
 ---
 

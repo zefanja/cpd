@@ -493,7 +493,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 1. **Intrinsische vs. lästige Last:** Die Aufgabe selbst darf schwer sein (Denken erwünscht!) – aber alles Drumherum (unklare Folien, parallele Kanäle, Suchen von Material) frisst Kapazität ohne Ertrag.
 2. **Split-Attention & Redundanz:** Text auf Folie vorlesen ist doppelt belastend; Bild + gesprochenes Wort ist die starke Kombination (Dual Coding richtig verstanden).
 3. **Transient Information Effect:** Gesprochenes verschwindet – Wichtiges muss stehen bleiben (Tafelanschrieb, Knowledge Organizer), Anweisungen bei komplexen Aufgaben schriftlich fixieren.
-4. **Regulate load:** Neues in kleinen Dosen, Vorwissen aktivieren, Beispiele vor Abstraktion – der rote Faden hinter Rosenshine P2/P8.
+4. **Regulate load:** Bei neuem Stoff fasst das Arbeitsgedächtnis nur zwei bis drei zusammenhängende Elemente. Vier Wege, die Last zu steuern (McCrea): zerlegen (Decomposition), vertraute Aufgabenformate wiederverwenden, auslagern (an der Tafel stehen lassen, mitschreiben lassen) und fehlendes Wissen vorübergehend bereitstellen (Merkhilfe, Musterbeispiel – mit geplantem Abbau). Der rote Faden hinter Rosenshine P2/P8.
 
 **Typische Fehlvorstellungen:** „Schöne, animierte Folien motivieren" (Dekoration lenkt ab); „Mehr Info auf der Folie = mehr Service" (Gegenteil).
 
@@ -535,7 +535,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 
 **Lernziele:** Die TN können den Testing Effect erklären und mindestens drei Retrieval-Routinen unterrichtspraktisch einsetzen (Quiz, Brain Dump, Frage-Klassiker).
 
-**Kernideen (McCrea MT; Lemov T7; Make It Stick):**
+**Kernideen (McCrea MT, Prinzip „Stabilise changes"; Lemov T7; Make It Stick):**
 1. **Testing Effect:** Aktiver Abruf stärkt Gedächtnisspuren weit mehr als erneutes Lesen/Anschauen – Abruf *unterbricht* das Vergessen.
 2. **Niedrigschwellig & benotungsfrei:** Retrieval ist Lernwerkzeug, nicht Prüfung – Fehlerkultur entscheidend (Vorgriff Modul 4.1).
 3. **Formenvielfalt:** Do-Now-Quiz, Brain Dump (alles aufschreiben, was du weißt), Cold-Call-Runden zu Altstoff, Mini-Whiteboards, kumulative Fragen in Übungssets.
@@ -584,7 +584,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Kernideen (McCrea MT „Expedite elaboration", „Refine structures", „Embed metacognition"; Lemov T5):**
 1. **Elaboration:** Neues aktiv mit Bekanntem verknüpfen – Warum? Inwiefern anders als …? Eigenes Beispiel? Erkläre es einem Fünftklässler. Verarbeitungstiefe entscheidet über Behaltensdauer.
 2. **Knowledge Organizer (Lemov T5):** Das Kernwissen einer Einheit auf einer Seite (Begriffe, Daten, Konzepte) – Grundlage für Retrieval, Transparenz und Elternkommunikation.
-3. **Strukturen verfeinern:** Schemata sichtbar machen (Concept Maps, Vergleichstabellen); Fehlkonzepte gezielt konfrontieren.
+3. **Strukturen verfeinern (Refine structures):** Beispiele und Gegenbeispiele nebeneinander zeigen (Variation), ähnliche Begriffe erst getrennt einführen und später gegenüberstellen, Begriffe in eigenen Worten genau fassen.
 4. **Metakognition einbetten:** Lernstrategien explizit lehren (wie lerne ich für die Arbeit? → Abruf statt Markieren) – Transfer der Blockinhalte an die SuS selbst.
 5. **Konsolidierung Block 3:** Die 9 McCrea-Prinzipien als persönliches Poster/Merkblatt; Video-Selbstanalyse Nr. 2.
 
@@ -757,14 +757,14 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können Motivation als (unbewusstes) Investitionssystem für Aufmerksamkeit erklären und den Treiber „Secure Success" gezielt bedienen.
 
 **Kernideen (McCrea MoT, Kap. 1–3 + Treiber 1):**
-1. **Motivation = Aufmerksamkeits-Allokation:** Unbewusste Kosten-Nutzen-Abwägung (Erwartung × Wert ÷ Kosten); situationsabhängig, kein Charakterzug („unmotivierter Schüler" ist eine Situationsbeschreibung, keine Diagnose).
+1. **Motivation = Aufmerksamkeits-Allokation:** Unbewusste Kosten-Nutzen-Abwägung (Wert, Erwartung, Kosten; als Faustformel dieser Fortbildung: Erwartung × Wert ÷ Kosten); situationsabhängig, kein Charakterzug („unmotivierter Schüler" ist eine Situationsbeschreibung, keine Diagnose).
 2. **Secure Success:** Eine Historie von Erfolgen aufbauen (hohe Erfolgsquote! – Rosenshine-Echo); Erfolg richtig attribuieren helfen („dein Üben", nicht „dein Talent"/„Glück"); Misserfolg vorentlasten.
 3. **Scholarly Identity (McCrea/Lemov):** Motivation folgt oft der Kompetenz von außen nach innen: Ich sehe mich Erfolg haben → also liegt mir das Fach → also strenge ich mich an. Guter Unterricht IST Motivationsarbeit.
 4. **Extrinsische Belohnungen:** sparsam, temporär, so schnell wie möglich ausschleichen – sie können intrinsische Motivation verdrängen.
 
 **Typische Fehlvorstellungen:** „Erst Motivation, dann Leistung" (meist umgekehrt); „Motivierender Unterricht = Entertainment" (Erfolgserleben schlägt Feuerwerk); „Belohnungssysteme lösen das" (kurzfristig ja, langfristig riskant).
 
-**Übungsteil:** Fallanalyse „Nora & Evie" (McCreas Kontrastschülerinnen) mit Treiber-Brille; für einen konkreten eigenen „unmotivierten" Schüler: Erwartung/Wert/Kosten-Analyse + eine Secure-Success-Intervention planen.
+**Übungsteil:** Fallanalyse „Nora & Evie" (Kontrastfall dieser Fortbildung) mit Treiber-Brille; für einen konkreten eigenen „unmotivierten" Schüler: Erwartung/Wert/Kosten-Analyse + eine Secure-Success-Intervention planen.
 
 **Action Step:** „Ich gestalte für Schüler Y in den nächsten zwei Wochen gezielt zwei garantierte, echte Erfolgserlebnisse und benenne die Anstrengungs-Attribution explizit."
 
@@ -825,7 +825,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können Wahlarchitektur/Begründungen einsetzen (Buy-in), kennen die Eskalationskette bei massiven Störungen und wissen, wann und wie sie Systemhilfe holen.
 
 **Kernideen (McCrea MoT Treiber 5; Lovell R10, R17, R18):**
-1. **Boost Buy-in:** Nutzen der Entscheidungen transparent machen („Wir üben so, WEIL…"), echte Opt-in-Momente schaffen (Wahl zwischen sinnvollen Optionen), Metamotivation aufbauen (SuS verstehen ihr eigenes Motivationssystem – Anschluss Modul 3.6 Metakognition).
+1. **Boost Buy-in:** Nutzen der Entscheidungen transparent machen („Wir üben so, WEIL…"), Gelegenheit geben, bewusst zuzustimmen (Opt-in: „Seid ihr dabei?"); echte Wahl nur dort, wo sie nichts kostet, Metamotivation aufbauen (SuS verstehen ihr eigenes Motivationssystem – Anschluss Modul 3.6 Metakognition).
 2. **Moving a Student (Lovell R10):** Umsetzen ruhig, skriptbasiert, gesichtswahrend – vorbereitet statt improvisiert.
 3. **Eskalationskette & Auszeit:** klare, schulkonforme Stufen; nach jeder Eskalation Beziehung reparieren (W.I.N.-Echo aus Modul 1.7).
 4. **System Level Support (Lovell R18):** Hilfe holen ist Professionalität, nicht Versagen – Klassenkonferenz, Beratungslehrkraft, Schulsozialarbeit, Schulpsychologie, ggf. Jugendhilfe; Dokumentation als Handwerk (Vorfallprotokolle).
@@ -876,7 +876,7 @@ Jedes Modul folgt demselben Schema – dieses Schema ist zugleich die **Blaupaus
 **Lernziele:** Die TN können das Lean-Framework als feste Planungsroutine anwenden und unterscheiden, welche Planungsteile Routine und welche Kreativität verdienen.
 
 **Kernideen (McCrea LLP, Kap. 1–3, 6–8):**
-1. **Lean-Mindset:** Maximaler Lerneffekt pro investierter Planungsminute; Wirkung vor Aufwand; Perfektion ist Verschwendung, wenn 80 % denselben Lerneffekt bringen.
+1. **Lean-Mindset:** Maximaler Lerneffekt pro investierter Planungsminute; Wirkung vor Aufwand; Pareto-Haltung: Der größte Teil der Wirkung kommt aus einem kleinen Teil der Planung – weniger tun, das aber besser.
 2. **Das Framework als feste Fragenfolge:** Wohin? (Meilensteine – M2.2) → Woher weiß ich, dass sie da sind? (CFU/Exit Ticket – Block 4) → Wie kommen sie hin? (Aktivitäten zuletzt!) → Was muss wiederholt werden? Konsequente Reihenfolge, keine Abkürzungen.
 3. **Efficient Activities:** Aktivitäten nach Lernrendite auswählen (Denkzeit pro Vorbereitungsminute); bewährte Formate wiederverwenden statt ständig Neues zu basteln – ein kleines, exzellent beherrschtes Repertoire schlägt Methodenfeuerwerk.
 4. **5-Minuten-Plan-Formate:** Einseiter statt Verlaufsraster-Prosa; der Planungsbogen aus Modul 2.6 wird finalisiert.

@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Leitfrage** | Wann sollte ich wiederholen – und warum ist „etwas vergessen haben" ideal? |
-| **Kernquellen** | McCrea, *Memorable Teaching* (Spacing); Rohrer & Pashler (Interleaving); Bjork (desirable difficulties, Performance ≠ Learning); Ebbinghaus (M3.1) |
+| **Kernquellen** | McCrea, *Memorable Teaching* (Prinzip 7 „Stabilise changes"); Rohrer & Pashler (Interleaving); Bjork (desirable difficulties, Performance ≠ Learning); Ebbinghaus (M3.1) |
 | **Funktion im Programm** | Die zeitliche Dimension des Retrieval: Aus „abrufen" wird „verteilt abrufen". Löst rückwirkend Fall 1 aus M3.1 und die Block-2-Transferfrage („in der Stunde konnten sie es") vollständig auf. Die Wiederholungs-Landkarte wird Planungswerkzeug für M6.2 (Inter-Lesson-Planning); die kumulative Prüfungsregel verändert das Klassenarbeits-Design (M6.3). Gruppenhospitation 3 wird vorbereitet. |
 | **Lernziele** | Die TN können:<br>1. den Spacing-Effekt erklären und pragmatisch umsetzen (kumulative Quizze statt Intervall-Wissenschaft),<br>2. Übungssets interleaven und den Zusatznutzen (Methoden-WAHL trainieren) begründen,<br>3. Performance und Learning unterscheiden und daraus Konsequenzen für die eigene Stunden-Bewertung ziehen. |
 | **Sitzungstyp** | Konzept-Sitzung mit zwei Bau-Übungen (Landkarte + Blatt-Umbau); die Kurven-Grafik ist das Herzstück. |

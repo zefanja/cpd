@@ -46,7 +46,7 @@ M34["screens"] = f"""
       <li><b>1</b>Ohne Hilfsmittel: Heft zu, sonst ist es Nachlesen.</li>
       <li><b>2</b>Schriftlich und von allen: Nur wer selbst schreibt, ruft ab.</li>
       <li><b>3</b>Ohne Note: Mit Note werden Fehler versteckt. Sag es der Klasse ausdrücklich.</li>
-      <li><b>4</b>Sofortige Auflösung: Sonst setzen sich Irrtümer fest.</li>
+      <li><b>4</b>Sofortige Auflösung: Sonst setzen sich Irrtümer fest. Am besten korrigieren die Schüler selbst.</li>
       <li><b>5</b>Regelmäßig: jede Stunde kurz, nicht einmal im Monat groß.</li>
     </ol>
     <p>Auch Anwenden ist Abruf: Wer ein Konzept in einer neuen Situation benutzt, holt es aus dem Gedächtnis und verknüpft es neu.</p>
@@ -280,6 +280,7 @@ M36["screens"] = f"""
     </ol>
     <p>Die Prüffrage an jeden solchen Auftrag: Muss man verknüpfen, oder genügt es, etwas wiederzugeben?</p>
   </div>
+  <div class="formula-card"><h4>Beispiele und Gegenbeispiele nebeneinander</h4><p style="margin-top:0">Ein neuer Begriff ist am Anfang unscharf. Scharf wird er, wenn Schüler sehen, was sich ändern darf und was nicht: drei sehr verschiedene Dreiecke und zwei Figuren, die knapp keine sind. Ähnliche Begriffe (Fläche und Umfang) führst du erst getrennt ein und stellst sie später bewusst gegenüber.</p></div>
   {IMG('b3-mindmap', 'Dieselbe Mindmap ohne und mit beschrifteten Linien')}
   <p class="hint">Eine Mindmap vernetzt nur, wenn an den Linien steht, wie die Begriffe zusammenhängen.</p>
   <h3 style="margin-top:1.4rem">Muss man hier verknüpfen?</h3>
@@ -295,7 +296,7 @@ M36["screens"] = f"""
 <section class="screen" data-title="Zwei Organizer">
   <span class="eyebrow">Station 3 · Zwei Organizer</span>
   <h2>Das Kernwissen einer Einheit auf einer Seite.</h2>
-  <p class="lead">Ein Knowledge Organizer ist ein Auszug, kein Archiv. Er dient dreifach: Schüler können sich damit abfragen, Schüler und Eltern sehen, was am Ende sitzen muss, und du merkst beim Schreiben, ob du den Kern kennst.</p>
+  <p class="lead">Ein Knowledge Organizer ist ein Auszug, kein Archiv. Gib ihn am besten schon zu Beginn der Einheit aus: Dann sehen alle, was kommt, und du kannst von der ersten Woche an daraus abfragen. Er dient dreifach: Schüler können sich damit abfragen, Schüler und Eltern sehen, was am Ende sitzen muss, und du merkst beim Schreiben, ob du den Kern kennst.</p>
   {IMG('b3-ko-gut', 'Gelungener Knowledge Organizer: Wasser als Stoff, Chemie Klasse 8')}
   <h3 style="margin-top:1.4rem">Und dieser?</h3>
   {IMG('b3-ko-ueberladen', 'Überladener Knowledge Organizer zur Weimarer Republik')}
