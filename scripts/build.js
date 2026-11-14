@@ -37,6 +37,11 @@ const GROUPS = [
 
 const IGNORE_FILES = new Set(["README.md"]);
 
+// Dokumente, die oben ein automatisch erzeugtes Inhaltsverzeichnis bekommen.
+// Es listet die H1- (ohne den Dokumenttitel) und H2-Überschriften auf und
+// wird vor der ersten Trennlinie (---) eingefügt, also direkt nach der Einleitung.
+const TOC_FILES = new Set(["Vertiefung_Austauschwochen.md"]);
+
 // Alte URLs aus der Zeit der Wochen-Nummerierung (Woche N -> Modul Block.Thema).
 // Für jede alte Datei wird in docs/ eine kleine Weiterleitungsseite erzeugt,
 // damit Lesezeichen, geteilte Links und login.html?next=… weiter funktionieren.
@@ -96,6 +101,87 @@ const LEGACY_REDIRECTS = [
 
 
 marked.setOptions({ gfm: true, breaks: false });
+
+// Überschriften bekommen stabile IDs, damit man sie verlinken kann
+// (Inhaltsverzeichnis, geteilte Links auf einzelne Abschnitte).
+let headingLog = [];
+let usedIds = new Map();
+
+function headingId(text) {
+  const base =
+    text
+      .toLowerCase()
+      .replace(/<[^>]+>/g, "")
+      .replace(/&[a-z0-9#]+;/g, " ")
+      .replace(/ä/g, "ae")
+      .replace(/ö/g, "oe")
+      .replace(/ü/g, "ue")
+      .replace(/ß/g, "ss")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "abschnitt";
+  const n = usedIds.get(base) || 0;
+  usedIds.set(base, n + 1);
+  return n === 0 ? base : `${base}-${n + 1}`;
+}
+
+marked.use({
+  renderer: {
+    heading(text, level) {
+      const id = headingId(text);
+      headingLog.push({ level, id, html: text });
+      return `<h${level} id="${id}">${text}</h${level}>\n`;
+    },
+  },
+});
+
+function renderMarkdown(markdown) {
+  headingLog = [];
+  usedIds = new Map();
+  const html = marked.parse(markdown);
+  return { html, headings: headingLog };
+}
+
+function buildToc(headings) {
+  // Der erste H1 ist der Dokumenttitel und wird übersprungen.
+  const entries = headings.filter((h, i) => h.level <= 2 && !(i === 0 && h.level === 1));
+  if (entries.length === 0) return "";
+  const items = [];
+  let open = null; // aktuelles H1 mit verschachtelten H2
+  const closeGroup = () => {
+    if (open) {
+      items.push(`      </ul>\n    </li>`);
+      open = null;
+    }
+  };
+  for (const h of entries) {
+    const link = `<a href="#${h.id}">${h.html}</a>`;
+    if (h.level === 1) {
+      closeGroup();
+      items.push(`    <li class="toc-group">${link}\n      <ul>`);
+      open = h;
+    } else if (open) {
+      items.push(`        <li>${link}</li>`);
+    } else {
+      items.push(`    <li>${link}</li>`);
+    }
+  }
+  closeGroup();
+  return `<nav class="toc" aria-labelledby="toc-title">
+  <h2 id="toc-title">Inhaltsverzeichnis</h2>
+  <ul>
+${items.join("\n")}
+  </ul>
+</nav>
+`;
+}
+
+function insertToc(html, toc) {
+  if (!toc) return html;
+  const idx = html.indexOf("<hr>");
+  return idx === -1 ? toc + html : html.slice(0, idx) + toc + html.slice(idx);
+}
 
 function slugify(filename) {
   return filename.replace(/\.md$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -275,7 +361,8 @@ function main() {
     const srcPath = path.join(SRC_DIR, file);
     const markdown = fs.readFileSync(srcPath, "utf8");
     const title = extractTitle(markdown, file.replace(/\.md$/i, ""));
-    const bodyHtml = marked.parse(markdown);
+    const { html, headings } = renderMarkdown(markdown);
+    const bodyHtml = TOC_FILES.has(file) ? insertToc(html, buildToc(headings)) : html;
     const outFile = `${slugify(file)}.html`;
 
     fs.writeFileSync(
