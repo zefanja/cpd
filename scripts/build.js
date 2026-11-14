@@ -23,7 +23,7 @@ const GROUPS = [
   },
   {
     title: "Austausch & Vertiefung",
-    files: ["Vertiefung_Austauschwochen.md"],
+    files: ["Vertiefung_Austauschwochen.md", "Fallbeispiele_Modul2-4.md"],
   },
   {
     title: "Skripte",
@@ -40,7 +40,7 @@ const IGNORE_FILES = new Set(["README.md"]);
 // Dokumente, die oben ein automatisch erzeugtes Inhaltsverzeichnis bekommen.
 // Es listet die H1- (ohne den Dokumenttitel) und H2-Überschriften auf und
 // wird vor der ersten Trennlinie (---) eingefügt, also direkt nach der Einleitung.
-const TOC_FILES = new Set(["Vertiefung_Austauschwochen.md"]);
+const TOC_FILES = new Set(["Vertiefung_Austauschwochen.md", "Fallbeispiele_Modul2-4.md"]);
 
 // Alte URLs aus der Zeit der Wochen-Nummerierung (Woche N -> Modul Block.Thema).
 // Für jede alte Datei wird in docs/ eine kleine Weiterleitungsseite erzeugt,
@@ -168,10 +168,12 @@ function buildToc(headings) {
     }
   }
   closeGroup();
+  // H1 ohne H2 darunter: leere Unterliste entfernen.
+  const list = items.join("\n").replace(/\n      <ul>\n      <\/ul>\n    <\/li>/g, "</li>");
   return `<nav class="toc" aria-labelledby="toc-title">
   <h2 id="toc-title">Inhaltsverzeichnis</h2>
   <ul>
-${items.join("\n")}
+${list}
   </ul>
 </nav>
 `;
