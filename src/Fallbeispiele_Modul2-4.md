@@ -20,6 +20,12 @@ Frau K. hat an der Tafel gezeigt, wie man aus den Wertigkeiten die Formel von Al
 
 Beim Rundgang nach zehn Minuten sieht sie in vielen Heften „AlO“, „MgCl“ und „Na S₂“.
 
+**Fragen fürs Gespräch**
+
+- Woher nimmt Frau K. die Sicherheit, dass die Klasse es „drauf hat“?
+- Wer hat in dieser Phase eigentlich geübt?
+- Was hätte sie vor der Einzelarbeit tun können, um die Fehler „AlO“ und „Na S₂“ früher zu sehen?
+
 ---
 
 ## Szene 2 · Englisch, Klasse 7 – Simple Past oder Present Perfect
@@ -27,6 +33,12 @@ Beim Rundgang nach zehn Minuten sieht sie in vielen Heften „AlO“, „MgCl“
 Herr D. hat zwei Beispielsätze mit lautem Denken vorgeführt („*yesterday* ist ein abgeschlossener Zeitpunkt, also Simple Past“). Dann projiziert er einen Satz, in dem nur das Verb fehlt, und den Hinweis „Signalwort unterstreichen“: *I ___ (see) this film last week.* Alle schreiben auf Mini-Whiteboards, „3-2-1-hoch“. 23 von 26 Boards sind richtig. Er greift ein falsches heraus, ohne Namen zu nennen: „Hier steht *have seen*. Welches Wort im Satz entscheidet?“
 
 Beim nächsten Satz fällt der Unterstreich-Hinweis weg, beim dritten bekommt die Klasse nur noch das Verb im Infinitiv. Wieder Boards: 22 von 26. „Gut, die nächsten sechs Sätze macht ihr allein.“
+
+**Fragen fürs Gespräch**
+
+- Woran merkt man, dass die Hilfe von Satz zu Satz weniger wird?
+- Warum zeigt Herr D. ein falsches Board, ohne den Namen zu nennen?
+- Was sollte er mit den vier machen, die beim zweiten Check noch falsch lagen?
 
 ---
 
@@ -36,6 +48,12 @@ Beim nächsten Satz fällt der Unterstreich-Hinweis weg, beim dritten bekommt di
 
 Nach drei solchen Aufgaben, die er „gemeinsam“ gelöst hat, verteilt er das Arbeitsblatt. Die Klasse hat in der Phase nichts aufgeschrieben.
 
+**Fragen fürs Gespräch**
+
+- Wer hat in dieser Phase gedacht und entschieden: Herr S. oder die Klasse?
+- Was sagen „Okay?“ und „Alle mitgekommen?“ über den Lernstand aus?
+- Wie müsste die zweite Aufgabe laufen, damit es wirklich ein We do wird?
+
 ---
 
 ## Szene 4 · Geschichte, Klasse 10 – Eine Quelle deuten
@@ -43,6 +61,12 @@ Nach drei solchen Aufgaben, die er „gemeinsam“ gelöst hat, verteilt er das 
 Frau M. führt die Quellenanalyse über eine Fading-Treppe. **Stufe 1:** Sie zeigt einen vollständigen Musterabsatz zu einem Flugblatt von 1848 (Einordnung – Aussage – Deutung – Bewertung) und kommentiert jeden Satz. **Stufe 2:** Zu einer zweiten Quelle bekommen alle einen Lückenabsatz. Einordnung und Aussage sind ausformuliert, die Lücke ist der Satz „Der Verfasser will damit erreichen, dass …“ und die Bewertung.
 
 Die meisten sitzen ratlos vor der Lücke. Nach fünf Minuten hat ein Drittel etwas geschrieben, oft nur eine Wiederholung der Aussage. Frau M. seufzt: „Dann eben Stufe 3 und 4 als Hausaufgabe.“
+
+**Fragen fürs Gespräch**
+
+- Ist Stufe 2 wirklich kleiner als Stufe 1, oder ist es ein verkleideter Sprung?
+- Welche Lücke wäre als erste leichter gewesen?
+- Was ist von der Entscheidung zu halten, Stufe 3 und 4 als Hausaufgabe aufzugeben?
 
 ---
 
@@ -52,6 +76,12 @@ Gemeinsame Aufgabe: *An einem Widerstand liegen 12 V, es fließen 0,5 A. Wie gro
 
 „Schau nochmal: Welche Größe suchst du?“ – „Den Widerstand.“ – „Und wie steht R in unserer Formel?“ Emre zögert. „Bei der Aufgabe vorhin, mit der Lampe, wie haben wir R ausgerechnet?“ – „Ach, Spannung *durch* Strom. Dann 24 Ohm.“ – „Genau. Erklär der Klasse in einem Satz, woran du das jetzt erkennst.“ Danach eine weitere Aufgabe für alle auf Boards, bevor die Einzelarbeit beginnt.
 
+**Fragen fürs Gespräch**
+
+- Welche Hilfen gibt Herr P., und in welcher Reihenfolge?
+- Was wäre verloren gegangen, wenn er einfach „Spannung durch Strom“ gesagt hätte?
+- Vier Boards waren falsch, geholfen wurde einem. Reicht das?
+
 ---
 
 ## Szene 6 · Sport, Klasse 6 – Der Korbleger
@@ -59,6 +89,12 @@ Gemeinsame Aufgabe: *An einem Widerstand liegen 12 V, es fließen 0,5 A. Wie gro
 Frau B. hat den Korbleger einmal vorgemacht und den Rhythmus benannt („rechts – links – hoch“). Jetzt üben alle gleichzeitig ohne Ball auf der Linie: Auf ihr Klatschen machen alle die Schrittfolge, sie geht die Reihe entlang. Etwa die Hälfte springt vom falschen Bein ab. Sie stoppt: „Stellt euch hin. Welches Bein muss beim *hoch* am Boden sein? Zeigt es mir!“ Alle heben das richtige Knie.
 
 Zweiter Durchgang ohne Ball: fast alle richtig. Dann mit Ball, aber im Gehen und ohne Korb. Dann im Trab auf den Korb. Erst als sie bei fast allen den richtigen Absprung sieht, geht es in den Wettbewerb an vier Körben.
+
+**Fragen fürs Gespräch**
+
+- Was entspricht im Sport dem „Boards hoch“?
+- Wie baut Frau B. die Hilfe schrittweise ab?
+- Welche Idee aus dieser Szene lässt sich in ein Klassenzimmerfach übertragen?
 
 ---
 
@@ -68,6 +104,12 @@ Herr L. hat das Schema These – Begründung – Beispiel eingeführt und einen 
 
 Nach 35 Minuten sagt er: „Nächste Stunde schreibt ihr einen ganzen Absatz allein.“ In der folgenden Stunde fällt vielen schon die Begründung schwer.
 
+**Fragen fürs Gespräch**
+
+- Was zeigen die Ergebnisse 25 von 27 und 26 von 27, und was macht Herr L. daraus?
+- Kann man im We do auch zu lange bleiben? Was kostet das?
+- Wie sähen Stufe 3 und Stufe 4 für diese Aufgabe aus?
+
 ---
 
 ## Szene 8 · Französisch, Klasse 6 – Das Verb *avoir*
@@ -75,6 +117,12 @@ Nach 35 Minuten sagt er: „Nächste Stunde schreibt ihr einen ganzen Absatz all
 Frau R. hat die Formen von *avoir* an der Tafel entwickelt. „Jetzt alle zusammen!“ Die Klasse spricht im Chor: „J'ai, tu as, il a, nous avons, vous avez, ils ont.“ Das klingt kräftig und sicher. Sie wischt die Tafel ab, die Klasse wiederholt im Chor, wieder gut. „Super, dann füllt jetzt die Lückensätze auf dem Arbeitsblatt aus.“
 
 Beim Korrigieren findet sie „tu a“, „ils ons“, „vous avé“, außerdem verwechseln viele *ils ont* und *ils sont*.
+
+**Fragen fürs Gespräch**
+
+- Der Chor klingt sicher. Was hört Frau R. dabei, und was nicht?
+- Passt das, was geübt wurde, zu dem, was das Arbeitsblatt verlangt?
+- Wie könnte sie mit wenig Aufwand die Antworten aller sehen?
 
 ---
 
@@ -84,6 +132,12 @@ Herr T. hat gezeigt, wie man aus einem Klimadiagramm die Jahresmitteltemperatur 
 
 Er schaut auf die Uhr, es sind noch 15 Minuten. „Okay, einige haben es schon, der Rest kommt beim Üben rein. Arbeitsblatt, Aufgaben 1 bis 4, und wer fertig ist, macht die Zusatzaufgabe.“
 
+**Fragen fürs Gespräch**
+
+- Herr T. kennt die Antworten aller. Warum entscheidet er trotzdem so?
+- Was passiert jetzt in der Einzelarbeit mit den 16, die falsch lagen?
+- Was hätte er in den verbleibenden 15 Minuten stattdessen tun können?
+
 ---
 
 ## Szene 10 · Informatik, Klasse 10 – Schleifen in Python
@@ -91,6 +145,12 @@ Er schaut auf die Uhr, es sind noch 15 Minuten. „Okay, einige haben es schon, 
 Frau H. hat eine `for`-Schleife mit `range` vollständig erklärt. Dann zeigt sie Code, bei dem eine Zeile fehlt, und fragt: „Was muss in die Lücke, damit 2, 4, 6 ausgegeben wird?“ Alle schreiben auf Zettel, sie geht in einer Minute durch die Reihen: 21 von 25 richtig. Zwei typische Fehler (`range(1, 3)`) bespricht sie an der Tafel mit der Frage: „Wo hört `range` auf?“
 
 Nächste Aufgabe: Sie gibt nur noch die erste Zeile vor, den Rest schreiben alle selbst. Wieder Zettel-Check: 22 von 25. Die drei, die noch Schwierigkeiten haben, holt sie für die erste Aufgabe der Einzelarbeit kurz an den Lehrertisch.
+
+**Fragen fürs Gespräch**
+
+- Welche Stufen der Fading-Treppe erkennst du in dieser Szene?
+- Wie reagiert Frau H. auf den typischen Fehler mit `range`?
+- Ist es sinnvoll, drei Schüler an den Lehrertisch zu holen? Was spricht dafür, was dagegen?
 
 ---
 
